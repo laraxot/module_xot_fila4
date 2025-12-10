@@ -28,7 +28,13 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 # Development Guidelines - Xot Module
 
 ## Panoramica
@@ -174,7 +180,16 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+# Development Guidelines - Xot Module
+
+## Panoramica
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## PHPStan Best Practices
 
@@ -238,6 +253,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
@@ -258,6 +274,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+=======
+>>>>>>> 358ba79a7 (.)
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 =======
 >>>>>>> 2bad128c (.)
@@ -284,4 +302,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

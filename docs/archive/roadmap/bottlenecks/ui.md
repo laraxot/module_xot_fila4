@@ -177,6 +177,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../UI/docs/ui.md)
@@ -193,9 +194,14 @@
 * [ui.md](../../../UI/docs/ui.md)
 >>>>>>> 2bad128c (.)
 =======
+* [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
+* [ui.md](../../../UI/docs/ui.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [ui.md](../../../Xot/project_docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../UI/project_docs/ui.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -216,4 +222,6 @@
 * [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../UI/docs/ui.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 

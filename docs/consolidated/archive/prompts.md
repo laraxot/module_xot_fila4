@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Struttura dei Prompt
 
 I prompt sono file di testo che contengono istruzioni per l'AI. Devono seguire queste regole:
@@ -99,6 +105,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,7 +239,13 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -330,6 +343,7 @@ Il prompt `docs.txt` serve come:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
    ```
    ```
@@ -350,6 +364,8 @@ Il prompt `docs.txt` serve come:
    ```
    ```
    ```
+=======
+>>>>>>> 358ba79a7 (.)
    ```
 =======
 >>>>>>> 2bad128c (.)
@@ -376,4 +392,14 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+   ```
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

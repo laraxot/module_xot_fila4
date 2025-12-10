@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -232,6 +238,31 @@ php artisan view:clear
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,4 +369,13 @@ php artisan view:clear
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

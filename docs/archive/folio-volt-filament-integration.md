@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Integrazione Folio, Volt e Filament
 
 > **NOTA**: Questo documento è stato unificato con la documentazione sull'architettura Folio + Volt + Filament. Consulta il documento aggiornato nel link sottostante.
@@ -38,6 +44,7 @@
 
 - [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,7 +99,12 @@
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 
 ### Moduli Collegati
@@ -102,6 +114,7 @@
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,7 +198,12 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -293,6 +311,7 @@ $submit = function() {
 ### Modulo UI
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,7 +454,12 @@ $submit = function() {
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
@@ -503,6 +527,7 @@ $submit = function() {
 - [Visualizzazione](../Chart/project_docs/visualization.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -886,4 +911,13 @@ $submit = function() {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

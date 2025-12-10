@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -74,6 +77,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> ce6fc085 (.)
@@ -109,7 +113,13 @@ public static function form(Form $form): Form
 =======
 public static function form(Form $form): Form
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+public static function form(Form $form): Form
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 {
     return $form->schema([
         // componenti...
@@ -675,6 +685,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -781,7 +792,13 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 TextInput::make('location')->required()
 ```
 
@@ -808,6 +825,7 @@ TextInput::make('location')->required()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -914,7 +932,13 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -970,6 +994,7 @@ Appointment::where('doctor_id', $doctorId)
 - Refactoring sicuro, massima estendibilità
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -978,3 +1003,5 @@ Appointment::where('doctor_id', $doctorId)
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

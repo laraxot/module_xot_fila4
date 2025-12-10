@@ -9,8 +9,11 @@ namespace Modules\Xot\Http\Middleware;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 use Closure;
 =======
 <<<<<<< HEAD
@@ -19,10 +22,13 @@ use Closure;
 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 use Closure;
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 use Filament\Facades\Filament;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -39,9 +45,14 @@ class SetDefaultTenantForUrlsMiddleware
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -61,6 +72,10 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -78,6 +93,7 @@ class SetDefaultTenantForUrlsMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
@@ -92,9 +108,12 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> 5cf46378 (.)
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 =======
     public function handle(Request $request, Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -109,6 +128,11 @@ class SetDefaultTenantForUrlsMiddleware
 =======
     public function handle(Request $request, Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
 >>>>>>> dbce41cec (.)
+=======
+=======
+    public function handle(Request $request, \Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
     {
         URL::defaults(
             [
@@ -116,6 +140,7 @@ class SetDefaultTenantForUrlsMiddleware
                 // 'referrer' => url()->previous(),
             ]
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,12 +158,15 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -162,6 +190,8 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
         // @phpstan-ignore return.type
         return $next($request);

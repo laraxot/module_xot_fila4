@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -12,6 +15,7 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 ## Quick Links
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,7 +60,13 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 =======
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+- [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Filament Complete Guide](consolidated/filament-complete-guide.md)
@@ -92,6 +102,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 ## Links
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,3 +290,8 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+- [Root Documentation](../../../project_docs/)
+- [SaluteOra Module](../SaluteOra/project_docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+>>>>>>> e0b8ebe3 (.)

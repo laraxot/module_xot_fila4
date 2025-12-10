@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -136,7 +137,12 @@
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -488,6 +494,7 @@ public function getTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -611,7 +618,14 @@ public function getTableColumns(): array
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -696,6 +710,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -788,7 +803,12 @@ public static function getFormSchema(): array
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Regole per XotBaseEditRecord
 
 ### Implementazione Corretta
@@ -1084,6 +1104,7 @@ class CreateAppointment extends XotBaseCreateRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -1207,7 +1228,14 @@ class CreateAppointment extends XotBaseCreateRecord
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
@@ -1345,6 +1373,7 @@ use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1453,7 +1482,12 @@ use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 declare(strict_types=1);
 
 namespace Modules\SaluteMo\Filament\Resources;
@@ -1563,6 +1597,7 @@ class ReportResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -1686,7 +1721,14 @@ class ReportResource extends XotBaseResource
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -1805,6 +1847,7 @@ class SocioResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -1897,7 +1940,12 @@ class SocioResource extends XotBaseResource
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Checklist di Conformità
 
 Prima di considerare completa una risorsa Filament, verificare:
@@ -2059,6 +2107,7 @@ protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -2182,7 +2231,14 @@ protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPo
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo

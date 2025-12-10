@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Data Objects
 
 ## Principi Fondamentali
@@ -72,6 +75,7 @@
 1. **Errore**: Directory errata
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,7 +256,14 @@
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
+   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`
@@ -268,6 +279,7 @@
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -276,3 +288,5 @@
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

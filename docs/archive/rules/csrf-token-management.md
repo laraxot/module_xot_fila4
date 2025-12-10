@@ -49,6 +49,7 @@ class MyWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Livewire](https://livewire.laravel.com/docs/security)
 - [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
@@ -65,9 +66,14 @@ class MyWidget extends XotBaseWidget
 - [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
 >>>>>>> 2bad128c (.)
 =======
+- [Documentazione Livewire](https://livewire.laravel.com/docs/security)
+- [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
+>>>>>>> 358ba79a7 (.)
+=======
 - [Documentazione Livewire](https://livewire.laravel.com/project_docs/security)
 - [Documentazione Laravel CSRF](https://laravel.com/project_docs/csrf)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -88,6 +94,8 @@ class MyWidget extends XotBaseWidget
 - [Documentazione Livewire](https://livewire.laravel.com/docs/security)
 - [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [XotBaseWidget Implementation](../xot_base_classes.md)
 
 ## Esempio di Correzione

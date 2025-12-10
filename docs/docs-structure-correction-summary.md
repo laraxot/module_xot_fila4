@@ -2,14 +2,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Correzione Struttura Cartelle Docs - Riepilogo Completo
 
 ## Contesto e Problema Identificato
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,7 +140,13 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Violazioni Identificate e Corrette
 
@@ -168,6 +178,7 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 >>>>>>> 62cc8443 (.)
 =======
@@ -284,7 +295,13 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - `modularity-audit-summary.md` → Contenuto integrato nei moduli specifici
 - Altri documenti analizzati e spostati nei moduli appropriati
 
@@ -311,6 +328,7 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 >>>>>>> 62cc8443 (.)
 =======
@@ -427,7 +445,13 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 **Impatto**: Violazione architettura modulare, documentazione non co-locata
 **Stato**: ✅ CORRETTA - Cartella eliminata, documentazione spostata nei moduli
 
@@ -436,6 +460,7 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,7 +578,13 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - Altri documenti analizzati e spostati nei moduli appropriati
 
 ## Regola Critica Implementata
@@ -563,6 +594,7 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 **REGOLA ASSOLUTAMENTE VIETATA**:
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -629,7 +661,12 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - ❌ `/var/www/html/_bases/base_{nome_progetto}/project_docs/` (root progetto)
 - ❌ `/var/www/html/_bases/base_{nome_progetto}/laravel/project_docs/` (root Laravel)
 
@@ -639,6 +676,7 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 - ✅ `laravel/Modules/{ModuleName}/project_docs/README.md` - Documentazione principale
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,7 +797,12 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Motivazioni Critiche
 
@@ -829,6 +872,7 @@ laravel/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -875,7 +919,12 @@ laravel/
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 │   ├── Notify/project_docs/           # ✅ Documentazione modulo Notify
 │   ├── User/project_docs/             # ✅ Documentazione modulo User
 │   ├── UI/project_docs/               # ✅ Documentazione modulo UI
@@ -890,6 +939,7 @@ laravel/
 │   ├── Job/project_docs/              # ✅ Documentazione modulo Job
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -942,7 +992,14 @@ laravel/
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+│   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
+│   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ├── Themes/
 │   ├── One/project_docs/              # ✅ Documentazione tema One
 │   └── Two/project_docs/              # ✅ Documentazione tema Two
@@ -953,6 +1010,7 @@ laravel/
 # ./laravel/project_docs/              # Root Laravel
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1132,7 +1190,12 @@ laravel/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 ## Regole e Memorie Implementate
@@ -1241,6 +1304,7 @@ find laravel/Themes -name "docs" -type d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -1250,6 +1314,8 @@ find laravel/Themes -name "docs" -type d
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
@@ -1311,7 +1377,12 @@ find laravel/Themes -name "docs" -type d
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
@@ -1319,6 +1390,7 @@ find laravel/Themes -name "docs" -type d
 - [Modulo SaluteOra](../SaluteOra/project_docs/)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1416,7 +1488,12 @@ find laravel/Themes -name "docs" -type d
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ### **Documentazione Correlata**:
 - [Regole Modularità](modularity-hardcoded-names.md)
@@ -1433,6 +1510,7 @@ find laravel/Themes -name "docs" -type d
 **Verificato**: ✅ Conformità completa raggiunta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -1441,3 +1519,5 @@ find laravel/Themes -name "docs" -type d
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

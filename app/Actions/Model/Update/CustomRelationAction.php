@@ -34,6 +34,7 @@ class CustomRelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +67,16 @@ class CustomRelationAction
 =======
                 // Assicura che $data sia type-safe per UpdateAction
 >>>>>>> dbce41cec (.)
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+=======
+                // Assicura che $data sia type-safe per UpdateAction
+>>>>>>> 358ba79a7 (.)
                 /** @var array<string, mixed> $typedData */
                 $typedData = [];
                 foreach ($data as $key => $value) {
@@ -73,6 +84,7 @@ class CustomRelationAction
                 }
 
                 $res = app(UpdateAction::class)->execute($related, $typedData, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +100,8 @@ class CustomRelationAction
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
                 $res = app(UpdateAction::class)->execute($related, $data, []);
@@ -96,6 +110,7 @@ class CustomRelationAction
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -135,6 +150,8 @@ class CustomRelationAction
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

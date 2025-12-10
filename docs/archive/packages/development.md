@@ -89,6 +89,7 @@ Ignition::editor('vscode');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [development.md](../../../Gdpr/docs/development.md)
 * [development.md](../../../Xot/docs/packages/development.md)
@@ -105,9 +106,14 @@ Ignition::editor('vscode');
 * [development.md](../../../Xot/docs/packages/development.md)
 >>>>>>> 2bad128c (.)
 =======
+* [development.md](../../../Gdpr/docs/development.md)
+* [development.md](../../../Xot/docs/packages/development.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [development.md](../../../Gdpr/project_docs/development.md)
 * [development.md](../../../Xot/project_docs/packages/development.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -128,6 +134,8 @@ Ignition::editor('vscode');
 * [development.md](../../../Gdpr/docs/development.md)
 * [development.md](../../../Xot/docs/packages/development.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 
 ### Versione Incoming

@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # DIVIETO ASSOLUTO DI USARE ->label(), ->placeholder() e ->helperText()
 
 ## Regola Fondamentale Inviolabile
@@ -125,6 +131,7 @@ Se trovi codice che viola questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -167,13 +174,19 @@ Se trovi codice che viola questa regola:
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Documentazione sulla struttura delle traduzioni](/laravel/Modules/Xot/project_docs/translation_rules.md)
 - [Esempio pratico nel TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,4 +383,14 @@ Se trovi codice che viola questa regola:
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

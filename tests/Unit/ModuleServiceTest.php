@@ -26,7 +26,11 @@ declare(strict_types=1);
 >>>>>>> 7468a7d2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 uses(TestCase::class);
 
 describe('ModuleService', function () {
@@ -34,6 +38,21 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Module;
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+use Tests\TestCase;
+=======
+>>>>>>> b7afadf9 (.)
+use Modules\Xot\Services\ModuleService;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Nwidart\Modules\Module;
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 use Tests\TestCase;
 use Modules\Xot\Services\ModuleService;
 use Tests\TestCase;
@@ -44,6 +63,23 @@ use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module;
+=======
+<<<<<<< HEAD
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+=======
+use Nwidart\Modules\Module;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+>>>>>>> a12f125f4a (.)
+=======
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 
 uses(TestCase::class);
 
@@ -145,6 +181,7 @@ describe('ModuleService', function () {
     beforeEach(function () {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -560,12 +597,39 @@ describe('ModuleService', function () {
 =======
 =======
 >>>>>>> f3f26717 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
         $this->service = new ModuleService()->setName('TestModule');
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c84488b (.)
 >>>>>>> 88ee35c4e (.)
 =======
 >>>>>>> 309cf3180 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> a12f125f4a (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Module;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+
+uses(Tests\TestCase::class);
+
+describe('ModuleService', function () {
+    beforeEach(function () {
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     });
 
 <<<<<<< HEAD
@@ -591,10 +655,14 @@ describe('ModuleService', function () {
         $nameProperty->setAccessible(true);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+=======
+
+>>>>>>> 358ba79a7 (.)
 =======
 <<<<<<< HEAD
 
@@ -602,6 +670,7 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
@@ -609,6 +678,8 @@ describe('ModuleService', function () {
 =======
         /** @phpstan-ignore-next-line property.notFound */
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         expect($nameProperty->getValue($this->service))->toBe('TestModule');
     });
 
@@ -1072,6 +1143,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 88ee35c4e (.)
@@ -1082,10 +1154,18 @@ describe('ModuleService', function () {
 =======
 =======
 >>>>>>> 309cf3180 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -1106,11 +1186,15 @@ describe('ModuleService', function () {
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
 =======
+=======
+>>>>>>> 358ba79a7 (.)
+=======
         $service1 = (new ModuleService())->setName('Chart');
         $service2 = (new ModuleService())->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)
             ->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> dbce41cec (.)
@@ -1124,6 +1208,23 @@ describe('ModuleService', function () {
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+>>>>>>> b93ef594b4 (.)
+=======
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+        
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     });
 
     it('has getModels method', function (): void {
@@ -1137,8 +1238,11 @@ describe('ModuleService', function () {
         $result = $this->service->getModels();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 
 =======
 <<<<<<< HEAD
@@ -1147,22 +1251,30 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
         expect($result)->toBeArray();
     });
 
     it('getModels returns correct array structure', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
         $result = $this->service->getModels();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         expect($result)->toBeArray();
 
         // Each value should be a class string
         /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($result as $key => $value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1185,18 +1297,30 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+            expect($key)->toBeString()->and($value)->toBeString();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
             expect($key)->toBeString()->and($value)->toBeString();
 =======
             expect($key)->toBeString()
                 ->and($value)->toBeString();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
             expect($key)->toBeString()->and($value)->toBeString();
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         
         expect($result)->toBeArray();
         
@@ -1204,6 +1328,7 @@ describe('ModuleService', function () {
         foreach ($result as $key => $value) {
             expect($key)->toBeString()
                 ->and($value)->toBeString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1252,6 +1377,10 @@ describe('ModuleService', function () {
             expect($key)->toBeString()->and($value)->toBeString();
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         }
     });
 
@@ -1261,8 +1390,11 @@ describe('ModuleService', function () {
         $result = $this->service->getModels();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 
 =======
 <<<<<<< HEAD
@@ -1271,10 +1403,13 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
         // The result should not contain BaseModel (which is abstract)
         expect($result)->not->toHaveKey('base_model');
     });
@@ -1285,8 +1420,11 @@ describe('ModuleService', function () {
         $result = $this->service->getModels();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 
 =======
 <<<<<<< HEAD
@@ -1295,10 +1433,13 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
         expect($result)->toBeArray();
     });
 
@@ -1310,8 +1451,11 @@ describe('ModuleService', function () {
         $method = $reflection->getMethod('getModels');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 
 =======
 <<<<<<< HEAD
@@ -1320,10 +1464,13 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
         expect($method->isPublic())->toBeTrue();
     });
 
@@ -1334,10 +1481,14 @@ describe('ModuleService', function () {
         $method = $reflection->getMethod('getModels');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+=======
+
+>>>>>>> 358ba79a7 (.)
 =======
 <<<<<<< HEAD
 
@@ -1345,6 +1496,7 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
@@ -1352,6 +1504,8 @@ describe('ModuleService', function () {
 =======
         /** @phpstan-ignore-next-line method.nonObject */
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $docComment = $method->getDocComment();
         expect($docComment)->toContain('@return array<string, class-string>');
     });
@@ -1362,10 +1516,27 @@ describe('ModuleService', function () {
         /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('getModels');
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
@@ -1871,8 +2042,46 @@ describe('ModuleService', function () {
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+=======
+        expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
+>>>>>>> b93ef594b4 (.)
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+<<<<<<< HEAD
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+>>>>>>> a12f125f4a (.)
+=======
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+        
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     });
 
     it('uses correct namespace patterns', function () {
@@ -1895,8 +2104,11 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 
 =======
 <<<<<<< HEAD
@@ -1905,10 +2117,13 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
         expect($reflection->hasProperty('name'))->toBeTrue();
     });
 
@@ -1917,6 +2132,7 @@ describe('ModuleService', function () {
         // It uses setName() method for configuration (fluent interface)
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->service);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1940,6 +2156,9 @@ describe('ModuleService', function () {
 =======
 
 =======
+
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -1947,6 +2166,7 @@ describe('ModuleService', function () {
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
@@ -1972,11 +2192,14 @@ describe('ModuleService', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         expect($reflection->hasMethod('setName'))
             ->toBeTrue()
             /** @phpstan-ignore-next-line method.nonObject */
             ->and($reflection->getMethod('setName')->isPublic())
             ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2022,6 +2245,8 @@ describe('ModuleService', function () {
 >>>>>>> a67e542f (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 =======
         expect($reflection->hasMethod('setName'))->toBeTrue()
@@ -2035,6 +2260,7 @@ describe('ModuleService', function () {
             ->and($reflection->getMethod('setName')->isPublic())->toBeTrue();
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -2056,11 +2282,14 @@ describe('ModuleService', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     });
 
     it('validates class structure', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->service);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2084,6 +2313,9 @@ describe('ModuleService', function () {
 =======
 
 =======
+
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -2091,6 +2323,7 @@ describe('ModuleService', function () {
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
@@ -2116,6 +2349,8 @@ describe('ModuleService', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         expect($reflection->isInstantiable())
             ->toBeTrue()
             /** @phpstan-ignore-next-line method.nonObject */
@@ -2133,12 +2368,15 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 5cf46378 (.)
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 =======
         expect($reflection->isInstantiable())->toBeTrue()
@@ -2146,15 +2384,22 @@ describe('ModuleService', function () {
             ->and($reflection->isAbstract())->toBeFalse();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         
         expect($reflection->isInstantiable())->toBeTrue()
             ->and($reflection->isFinal())->toBeFalse()
             ->and($reflection->isAbstract())->toBeFalse();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -2203,6 +2448,10 @@ describe('ModuleService', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     });
 
     it('has proper method visibility', function (): void {
@@ -2210,6 +2459,7 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         /** @phpstan-ignore-next-line method.nonObject */
         $methods = $reflection->getMethods();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
@@ -2229,6 +2479,8 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2276,12 +2528,27 @@ describe('ModuleService', function () {
         
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+=======
+>>>>>>> e0b8ebe3 (.)
+        
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+        
+>>>>>>> 358ba79a7 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -2323,7 +2590,12 @@ describe('ModuleService', function () {
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
         expect(count($publicMethods))->toBeGreaterThan(0);
     });
 
@@ -2338,8 +2610,11 @@ describe('ModuleService', function () {
         $result = $this->service->getModels();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 
 =======
 <<<<<<< HEAD
@@ -2348,10 +2623,13 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
         expect($result)->toBeArray();
     });
 
@@ -2371,8 +2649,11 @@ describe('ModuleService', function () {
         $result = $this->service->getModels();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 
 =======
 <<<<<<< HEAD
@@ -2381,10 +2662,13 @@ describe('ModuleService', function () {
         
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
         // Should not throw exceptions
         expect($result)->toBeArray();
     });

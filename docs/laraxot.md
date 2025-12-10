@@ -3237,6 +3237,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Filament 3 Forms e Componenti
 =======
 # Filament 4 Forms e Componenti
@@ -3329,7 +3330,16 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 =======
 # Filament 4 Forms e Componenti
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Componenti Forms vs UI
 
@@ -3431,6 +3441,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Filament 3 Plugins e Notifiche
 =======
 # Filament 4 Plugins e Notifiche
@@ -3523,7 +3534,16 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 =======
 # Filament 4 Plugins e Notifiche
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## 1. Installazione Pacchetti Necessari
 ```bash
@@ -4043,6 +4063,7 @@ $remember = $data['remember'] ?? false;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Setup Assets Filament 3
 =======
 # Setup Assets Filament 4
@@ -4135,7 +4156,16 @@ $remember = $data['remember'] ?? false;
 =======
 # Setup Assets Filament 4
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## 1. Installazione Pacchetti NPM
 
@@ -6140,6 +6170,7 @@ class CustomAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notifiche in Filament 3
 =======
 # Notifiche in Filament 4
@@ -6232,7 +6263,16 @@ class CustomAction
 =======
 # Notifiche in Filament 4
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Differenze con Filament 2
 
@@ -6254,6 +6294,7 @@ class CustomAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -6300,7 +6341,12 @@ $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 $this->notify('success', 'Messaggio');  // Non funziona più in Filament 4
 ```
 
@@ -6317,6 +6363,7 @@ $this->notify('success', 'Messaggio');  // Non funziona più in Filament 4
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -6331,7 +6378,12 @@ $this->notify('success', 'Messaggio');  // Non funziona più in Filament 4
 =======
 >>>>>>> 17684f52 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 ```
 
@@ -6339,6 +6391,7 @@ $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 <<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6377,7 +6430,12 @@ $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```php
 use Filament\Notifications\Notification;
 
@@ -7099,6 +7157,7 @@ $remember = $data['remember'] ?? false;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Setup Assets Filament 3
 =======
 # Setup Assets Filament 4
@@ -7191,7 +7250,16 @@ $remember = $data['remember'] ?? false;
 =======
 # Setup Assets Filament 4
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## 1. Installazione Pacchetti NPM
 
@@ -9512,6 +9580,7 @@ Framework based on Laravel for building modular applications.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Widget Configuration in Filament 3
 =======
 # Widget Configuration in Filament 4
@@ -9604,7 +9673,16 @@ Framework based on Laravel for building modular applications.
 =======
 # Widget Configuration in Filament 4
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Implementazione Corretta dei Widget
 
@@ -9713,6 +9791,7 @@ class ClientMapWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. La configurazione dei widget è stata semplificata in Filament 3
 =======
 1. La configurazione dei widget è stata semplificata in Filament 4
@@ -9805,7 +9884,16 @@ class ClientMapWidget extends Widget
 =======
 1. La configurazione dei widget è stata semplificata in Filament 4
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 2. Non è più necessario utilizzare `WidgetConfiguration::make()`
 3. I dati vengono gestiti direttamente nel widget tramite `getViewData()`
 4. Il componente Livewire padre è accessibile tramite `getLivewire()`
@@ -9828,6 +9916,7 @@ class ClientMapWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Configurazione Widget in Filament 3 (Laravel 11+)
 =======
 # Configurazione Widget in Filament 4 (Laravel 11+)
@@ -9920,7 +10009,16 @@ class ClientMapWidget extends Widget
 =======
 # Configurazione Widget in Filament 4 (Laravel 11+)
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Implementazione Widget
 
@@ -10042,6 +10140,7 @@ class ClientMapWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Breaking Changes in Filament 3**
 =======
 1. **Breaking Changes in Filament 4**
@@ -10134,7 +10233,16 @@ class ClientMapWidget extends Widget
 =======
 1. **Breaking Changes in Filament 4**
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
    - Rimossa la classe `WidgetConfiguration`
    - Semplificata la registrazione dei widget
    - Migliorato il sistema di type hinting
@@ -10168,6 +10276,7 @@ class ClientMapWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Widget Reattivi in Filament 3 (Laravel 11+)
 =======
 # Widget Reattivi in Filament 4 (Laravel 11+)
@@ -10260,7 +10369,16 @@ class ClientMapWidget extends Widget
 =======
 # Widget Reattivi in Filament 4 (Laravel 11+)
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Implementazione Widget
 

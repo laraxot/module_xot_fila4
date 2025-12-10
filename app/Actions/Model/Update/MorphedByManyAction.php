@@ -24,6 +24,7 @@ class MorphedByManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -44,6 +45,13 @@ class MorphedByManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     public function execute(Model $_model, RelationDTO $_relationDTO): void
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
@@ -71,20 +79,27 @@ class MorphedByManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 =======
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
 =======
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
         dddx('wip');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -107,10 +122,16 @@ class MorphedByManyAction
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+        /*
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
         dddx('wip');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +151,10 @@ class MorphedByManyAction
 =======
         /*
 >>>>>>> dbce41cec (.)
+=======
+        /*
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
         foreach ($data as $k => $v) {
             if (! \is_array($v)) {
                 $v = [];
@@ -147,10 +172,15 @@ class MorphedByManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
          * foreach ($data as $k => $v) {
          * if (! \is_array($v)) {
          * $v = [];
@@ -164,6 +194,7 @@ class MorphedByManyAction
          * }
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -176,10 +207,13 @@ class MorphedByManyAction
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -203,5 +237,7 @@ class MorphedByManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     }
 }

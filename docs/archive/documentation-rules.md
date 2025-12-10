@@ -48,14 +48,18 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
 =======
 - [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -66,6 +70,8 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 - [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 ## Documentazione per Modulo
 
@@ -75,6 +81,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -84,6 +91,8 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -132,6 +141,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -155,7 +165,12 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 >>>>>>> 88e35986 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Xot Module](../../../Xot/project_docs/README.md)
 - [UI Module](../../../UI/project_docs/README.md)
 - [CMS Module](../../../Cms/project_docs/README.md)
@@ -185,6 +200,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,4 +269,9 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

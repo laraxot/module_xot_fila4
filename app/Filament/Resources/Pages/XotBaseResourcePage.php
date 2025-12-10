@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -24,10 +25,18 @@ namespace Modules\Xot\Filament\Resources\Pages;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 use Filament\Resources\Pages\Concerns\HasRelationManagers;
 use Filament\Resources\Pages\Concerns\InteractsWithRecord;
 use Filament\Resources\Pages\Page as FilamentResourcePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +61,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 =======
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
@@ -65,6 +76,7 @@ use Filament\Resources\Pages\Page as FilamentResourcePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -79,11 +91,14 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Filament\Resources\Pages\Concerns\HasRelationManagers;
 
 use Filament\Resources\Pages\Concerns\InteractsWithRecord;
 use Filament\Resources\Pages\Page as FilamentResourcePage;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +141,10 @@ use Filament\Resources\Pages\Page as FilamentResourcePage;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
 abstract class XotBaseResourcePage extends FilamentResourcePage
 {

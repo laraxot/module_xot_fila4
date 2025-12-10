@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Aggiornamento File di Traduzione xot_base.php
 
 ## Data Aggiornamento
@@ -97,6 +103,7 @@ return [
 - [Best Practices Traduzioni](translations-best-practices.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,4 +348,16 @@ return [
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

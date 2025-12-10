@@ -6,8 +6,11 @@ namespace Modules\Xot\Actions\Array;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 use Exception;
 =======
 <<<<<<< HEAD
@@ -15,10 +18,13 @@ use Exception;
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -35,9 +41,14 @@ class DiffAssocRecursiveAction
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -57,10 +68,18 @@ class DiffAssocRecursiveAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         $collection = collect($data)->map(static function ($item) {
             if (! is_array($item)) {
                 throw new Exception('['.__LINE__.']['.__CLASS__.']');
             }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
             return collect($item)->map(static function ($item0) {
                 if (is_numeric($item0)) {
@@ -70,6 +89,7 @@ class DiffAssocRecursiveAction
                 return $item0;
             })->all();
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,9 +105,12 @@ class DiffAssocRecursiveAction
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -102,6 +125,8 @@ class DiffAssocRecursiveAction
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $collection = collect($data)
             ->map(
                 static function ($item) {
@@ -111,17 +136,24 @@ class DiffAssocRecursiveAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 358ba79a7 (.)
                         throw new Exception('['.__LINE__.']['.__CLASS__.']');
                     }
 =======
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
             return collect($item)->map(static function ($item0) {
                 if (is_numeric($item0)) {
                     $item0 *= 1;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -129,10 +161,16 @@ class DiffAssocRecursiveAction
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+            );
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
                 return $item0;
             })->all();
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
                         throw new \Exception('['.__LINE__.']['.__CLASS__.']');
 =======
@@ -156,6 +194,12 @@ class DiffAssocRecursiveAction
                         throw new Exception('['.__LINE__.']['.__CLASS__.']');
                     }
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+                        throw new \Exception('['.__LINE__.']['.__CLASS__.']');
+                    }
+>>>>>>> 358ba79a7 (.)
 
                     return collect($item)
                         ->map(
@@ -169,6 +213,7 @@ class DiffAssocRecursiveAction
                         )->all();
                 }
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +256,10 @@ class DiffAssocRecursiveAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         return $collection->all();
     }
@@ -225,9 +274,14 @@ class DiffAssocRecursiveAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -247,11 +301,16 @@ class DiffAssocRecursiveAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         $ris = $coll_1->filter(static function ($value, $key) use ($arr_2) {
             try {
                 return ! \in_array($value, $arr_2, false);
             } catch (Exception $exception) {
                 dddx(['err' => $exception->getMessage(), 'value' => $value, 'key' => $key, 'arr_2' => $arr_2]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $ris = $coll_1->filter(
@@ -283,15 +342,35 @@ class DiffAssocRecursiveAction
 =======
 >>>>>>> 6be8834c2 (.)
 =======
+=======
+            }
+        });
+=======
+<<<<<<< HEAD
+            }
+        });
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
         $ris = $coll_1->filter(
             static function ($value, $key) use ($arr_2) {
                 try {
                     return ! \in_array($value, $arr_2, false);
+<<<<<<< HEAD
                 } catch (Exception $exception) {
+=======
+<<<<<<< HEAD
+                } catch (Exception $exception) {
+=======
+                } catch (\Exception $exception) {
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
                     dddx(['err' => $exception->getMessage(), 'value' => $value, 'key' => $key, 'arr_2' => $arr_2]);
                 }
             }
         );
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +388,17 @@ class DiffAssocRecursiveAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            }
+        });
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         return $ris->all();
     }

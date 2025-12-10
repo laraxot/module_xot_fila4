@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # StreamDownloadPdfAction Documentation
 
 ## Overview
@@ -170,6 +173,7 @@ Generated PDF data can be attached to emails through the notification system.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules\<nome progetto>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 =======
 - `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
@@ -276,13 +280,20 @@ Generated PDF data can be attached to emails through the notification system.
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Notes
 - The action uses QueueableAction trait, making it suitable for background processing
 - PDF generation is synchronous within the action execution
 - The Italian language setting affects date formatting and text direction
 - UTF-8 encoding ensures proper handling of international characters
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
@@ -292,3 +303,5 @@ Generated PDF data can be attached to emails through the notification system.
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

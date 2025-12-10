@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Testing Guidelines - Modulo Xot
 
 ## Framework di Testing: Pest
@@ -701,6 +704,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
 =======
@@ -859,7 +863,14 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 
 ### Framework Documentation
@@ -878,6 +889,7 @@ test('no memory leaks in repeated operations', function (): void {
 **Framework**: Pest v2.x  
 **Coverage Target**: 90%+ per core framework  
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -886,3 +898,5 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

@@ -12,6 +12,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
             'heading' => 'Saúde da aplicação',
@@ -29,10 +30,14 @@ return [
 =======
 =======
 =======
+            'heading' => 'Saúde da aplicação',
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'heading' => 'Saúde da aplicação',
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -51,9 +56,12 @@ return [
             'heading' => 'Saúde da aplicação',
 >>>>>>> dbce41cec (.)
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 
             'heading' => 'Saúde da aplicação',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +78,8 @@ return [
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
             'heading' => 'Saúde da aplicação',
@@ -80,6 +90,7 @@ return [
 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -106,6 +117,8 @@ return [
             'heading' => 'Saúde da aplicação',
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
             'navigation' => [
                 'group' => 'Configurações',
                 'label' => 'Saúde da aplicação',
@@ -119,6 +132,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -147,6 +161,8 @@ return [
 >>>>>>> a67e542f (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,6 +175,7 @@ return [
 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -186,6 +203,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',
             ],

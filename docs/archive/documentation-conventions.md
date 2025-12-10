@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -68,6 +74,7 @@
    ```markdown
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,13 +198,20 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,7 +335,13 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -359,6 +379,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,7 +507,12 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Documentazione generale](../../../project_docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
@@ -494,6 +520,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -563,4 +590,14 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 =======
 *Ultimo aggiornamento: Giugno 2025*
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

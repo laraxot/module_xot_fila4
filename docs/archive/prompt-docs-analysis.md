@@ -43,7 +43,13 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
@@ -144,10 +150,13 @@
 >>>>>>> ecd5ec32 (.)
 =======
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
 > - [README.md documentazione generale](../../../../project_docs/README.md)
+<<<<<<< HEAD
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD
 >>>>>>> 2bad128c (.)
@@ -157,7 +166,12 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
@@ -182,11 +196,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
 <<<<<<< HEAD
@@ -315,7 +332,14 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Analisi della Struttura Attuale
 
 Il prompt `docs.txt` attuale presenta diverse problematiche strutturali che possono essere migliorate:
@@ -397,6 +421,7 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -422,4 +447,13 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

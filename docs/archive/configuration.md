@@ -76,6 +76,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [configuration.md](../../../Xot/docs/configuration.md)
 * [configuration.md](../../../Cms/docs/configuration.md)
@@ -92,9 +93,14 @@ return [
 * [configuration.md](../../../Cms/docs/configuration.md)
 >>>>>>> 2bad128c (.)
 =======
+* [configuration.md](../../../Xot/docs/configuration.md)
+* [configuration.md](../../../Cms/docs/configuration.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [configuration.md](../../../Xot/project_docs/configuration.md)
 * [configuration.md](../../../Cms/project_docs/configuration.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -115,4 +121,6 @@ return [
 * [configuration.md](../../../Xot/docs/configuration.md)
 * [configuration.md](../../../Cms/docs/configuration.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 

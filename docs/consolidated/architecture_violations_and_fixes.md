@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Violazioni Architetturali e Correzioni - Pattern XotData
 
 ## 🚨 **Violazioni Architetturali Critiche**
@@ -17,6 +23,7 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 // ❌ VIOLAZIONE CRITICA
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,7 +150,13 @@ use Modules\SaluteOra\Models\User;
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+use Modules\SaluteOra\Models\User;
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -153,6 +166,7 @@ $user = User::factory()->create([...]);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,7 +293,13 @@ $user = User::factory()->create([...]);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -313,6 +333,7 @@ $user = $userClass::factory()->create($attributes);
         'driver' => 'eloquent',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,7 +460,13 @@ $user = $userClass::factory()->create($attributes);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
     ],
 ],
 ```
@@ -499,6 +526,7 @@ public function processUser(UserContract $user): void
 // ❌ MAI implementazione specifica
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,7 +653,13 @@ public function processUser(\Modules\SaluteOra\Models\User $user): void
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -759,6 +793,7 @@ class ChangeTypeCommand extends Command
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -986,7 +1021,15 @@ use Modules\SaluteOra\Models\Doctor;
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -998,6 +1041,7 @@ use Modules\Xot\Datas\XotData;
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1124,7 +1168,13 @@ $user = \Modules\SaluteOra\Models\User::find($id);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+$user = \Modules\SaluteOra\Models\User::find($id);
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -1136,6 +1186,7 @@ $user = $userClass::find($id);
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1262,7 +1313,13 @@ function updateUser(\Modules\SaluteOra\Models\User $user): void
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -1331,6 +1388,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. PHPStan level 10+ compliance
 =======
 >>>>>>> ce6fc085 (.)
@@ -1366,7 +1424,13 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 3. PHPStan level 9+ compliance
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+3. PHPStan level 9+ compliance
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 4. Test di regressione
 
 ## 📚 **Link e Riferimenti**
@@ -1385,6 +1449,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 ### **Documentazione Moduli**
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,7 +1677,15 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
+- [User Module Traits](../../User/project_docs/traits_complete_guide.md)
+- [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ---
 
@@ -1620,6 +1693,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 **Stato**: ✅ Pattern Documentato e Implementato  
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1649,6 +1723,8 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 **Responsabile**: Team Architettura Laraxot 
 **Responsabile**: Team Architettura Laraxot 
 **Responsabile**: Team Architettura Laraxot 
+=======
+>>>>>>> 358ba79a7 (.)
 **Responsabile**: Team Architettura Laraxot 
 =======
 >>>>>>> 2bad128c (.)
@@ -1675,4 +1751,14 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 **Responsabile**: Team Architettura Laraxot 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

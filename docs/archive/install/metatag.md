@@ -45,6 +45,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [metatag.md](../../../Xot/docs/install/metatag.md)
 * [metatag.md](../../../Tenant/docs/it/config/metatag.md)
@@ -61,9 +62,14 @@ return [
 * [metatag.md](../../../Tenant/docs/it/config/metatag.md)
 >>>>>>> 2bad128c (.)
 =======
+* [metatag.md](../../../Xot/docs/install/metatag.md)
+* [metatag.md](../../../Tenant/docs/it/config/metatag.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [metatag.md](../../../Xot/project_docs/install/metatag.md)
 * [metatag.md](../../../Tenant/project_docs/it/config/metatag.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -84,6 +90,8 @@ return [
 * [metatag.md](../../../Xot/docs/install/metatag.md)
 * [metatag.md](../../../Tenant/docs/it/config/metatag.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 
 ### Versione Incoming

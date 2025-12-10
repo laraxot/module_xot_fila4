@@ -45,6 +45,7 @@ Prima di usare un'Action:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
@@ -73,6 +74,11 @@ Prima di usare un'Action:
 =======
 
 >>>>>>> 88ee35c4e (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 # Cerca pattern errati
 grep -r "::cast(" Modules/
 grep -r "::execute(" Modules/
@@ -89,6 +95,7 @@ grep -r "ActionClass::" Modules/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
@@ -117,6 +124,11 @@ grep -r "ActionClass::" Modules/
 =======
 
 >>>>>>> 88ee35c4e (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 # Verifica pattern corretti
 grep -r "app.*Action.*->execute" Modules/
 ```
@@ -154,6 +166,7 @@ $expression = \Modules\Xot\Actions\Geo\GetDistanceExpressionAction::getExpressio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
@@ -182,6 +195,11 @@ $expression = \Modules\Xot\Actions\Geo\GetDistanceExpressionAction::getExpressio
 =======
 
 >>>>>>> 88ee35c4e (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 # Cerca pattern errati nelle Action
 echo "Cercando pattern errati..."
 find Modules/ -name "*.php" -exec grep -l "Actions.*::" {} \;
@@ -200,6 +218,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 ## 📖 **RIFERIMENTI**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,9 +248,14 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
 >>>>>>> 2bad128c (.)
 =======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 358ba79a7 (.)
+=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -266,6 +290,8 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---

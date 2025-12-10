@@ -45,11 +45,15 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 358ba79a7 (.)
             'email' => 'test@example.com',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -77,10 +81,21 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+            'email' => 'test@example.com',
+=======
+            'email' => 'test@example.com'
+>>>>>>> a12f125f4a (.)
+=======
+            'email' => 'test@example.com',
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         ]);
 
         // Mock view existence
         view()->addNamespace('user', resource_path('views'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +145,12 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         // Act & Assert
         $this->expectException(Exception::class);
@@ -137,6 +158,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -153,11 +175,15 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
         
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +198,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -181,6 +209,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -205,6 +234,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $this->action->execute($user);
     }
 
@@ -212,6 +243,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_correct_view_name(): void
     {
         // Arrange
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,11 +283,18 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
         $user = User::factory()->create();
+=======
+        $user = User::factory()->create();
+<<<<<<< HEAD
+
+=======
+>>>>>>> 358ba79a7 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
         
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> dbce41cec (.)
@@ -264,6 +303,13 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
@@ -275,6 +321,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -307,12 +354,19 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         // Act
         $viewName = $method->invoke($this->action, $user);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -333,10 +387,14 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
         
         // Act
         $viewName = $method->invoke($this->action, $user);
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +410,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -360,6 +420,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -383,6 +444,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user::user.show.pdf', $viewName);
@@ -395,6 +458,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create(['id' => 123, 'name' => 'Test User']);
@@ -431,11 +495,18 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
         $user = User::factory()->create(['id' => 123, 'name' => 'Test User']);
+=======
+        $user = User::factory()->create(['id' => 123, 'name' => 'Test User']);
+<<<<<<< HEAD
+
+=======
+>>>>>>> 358ba79a7 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
         
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> dbce41cec (.)
@@ -444,6 +515,13 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
@@ -451,6 +529,7 @@ class GetPdfContentByRecordActionTest extends TestCase
         $method = $reflection->getMethod('generateFilename');
         /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487,12 +566,19 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         // Act
         $filename = $method->invoke($this->action, $user);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -513,10 +599,14 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
         
         // Act
         $filename = $method->invoke($this->action, $user);
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -532,6 +622,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -540,6 +632,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -563,6 +656,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user_123_test-user.pdf', $filename);
@@ -628,6 +723,7 @@ class GetPdfContentByRecordActionTest extends TestCase
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
@@ -635,6 +731,20 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 
 >>>>>>> 73eab74 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
             public function getKey()
 <<<<<<< HEAD
 =======
@@ -662,14 +772,22 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         $record->matr = 'ABC123';
         $record->cognome = 'Rossi';
         $record->nome = 'Mario';
 
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 <<<<<<< HEAD
 =======
@@ -688,10 +806,23 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        $record->matr = 'ABC123';
+        $record->cognome = 'Rossi';
+        $record->nome = 'Mario';
+        
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
         $record->matr = 'ABC123';
         $record->cognome = 'Rossi';
         $record->nome = 'Mario';
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -706,10 +837,16 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('generateFilename');
         $method->setAccessible(true);
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,12 +963,20 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> dbce41cec (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         // Act
         $filename = $method->invoke($this->action, $record);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -852,10 +997,14 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
         
         // Act
         $filename = $method->invoke($this->action, $record);
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -871,6 +1020,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -879,6 +1030,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -902,6 +1054,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('scheda_456_ABC123_Rossi_Mario.pdf', $filename);
@@ -914,6 +1068,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Test User']);
@@ -950,11 +1105,18 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
         $user = User::factory()->create(['name' => 'Test User']);
+=======
+        $user = User::factory()->create(['name' => 'Test User']);
+<<<<<<< HEAD
+
+=======
+>>>>>>> 358ba79a7 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
         
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> dbce41cec (.)
@@ -963,6 +1125,13 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
@@ -970,6 +1139,7 @@ class GetPdfContentByRecordActionTest extends TestCase
         $method = $reflection->getMethod('prepareViewParameters');
         /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1006,12 +1176,19 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         // Act
         $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -1032,10 +1209,14 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
         
         // Act
         $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1051,6 +1232,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1059,6 +1242,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -1082,6 +1266,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($params);
@@ -1108,6 +1294,7 @@ class GetPdfContentByRecordActionTest extends TestCase
         $user = User::factory()->create();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         /** @var User */
@@ -1164,6 +1351,12 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         // Act & Assert
         $this->expectException(Exception::class);
@@ -1171,6 +1364,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -1187,11 +1381,15 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
         
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1206,6 +1404,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1215,6 +1415,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -1239,6 +1440,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $this->action->execute($user);
     }
 
@@ -1262,6 +1465,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -1294,12 +1498,19 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         // Act & Assert - Should use custom filename in error message
         $this->expectException(Exception::class);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -1321,10 +1532,14 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
         
         // Act & Assert - Should use custom filename in error message
         $this->expectException(Exception::class);
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1340,6 +1555,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1348,6 +1565,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -1371,6 +1589,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $this->action->execute($user, $customFilename);
     }
 
@@ -1385,6 +1605,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -1430,6 +1651,12 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
         // Act & Assert
         $this->expectException(Exception::class);
@@ -1437,6 +1664,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -1453,11 +1681,15 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
         
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1472,6 +1704,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1481,6 +1715,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -1505,6 +1740,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $this->action->fromRecord($user, $filename);
     }
 

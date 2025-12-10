@@ -10,6 +10,7 @@ namespace Modules\Xot\Actions\Cast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,6 +33,9 @@ namespace Modules\Xot\Actions\Cast;
 >>>>>>> a67e542f (.)
 =======
 =======
+ *
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +50,7 @@ namespace Modules\Xot\Actions\Cast;
  * 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -83,6 +88,8 @@ namespace Modules\Xot\Actions\Cast;
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -112,9 +119,14 @@ class SafeStringCastAction
         /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -134,11 +146,19 @@ class SafeStringCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
          * if ($value instanceof \BackedEnum) {
          * return $value->value;
          * }
          */
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
         if (is_null($value)) {
             return '';
         }
@@ -155,6 +175,7 @@ class SafeStringCastAction
         return '';
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,9 +191,12 @@ class SafeStringCastAction
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -187,6 +211,8 @@ class SafeStringCastAction
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
         if ($value instanceof \BackedEnum) {
             return $value->value;
         }
@@ -196,18 +222,24 @@ class SafeStringCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (is_null($value)) {
             return '';
         }
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> b93ef594b4 (.)
         if (is_null($value)) {
             return '';
         }
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -221,6 +253,7 @@ class SafeStringCastAction
         return '';
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if (is_null($value)) {
             return '';
@@ -229,6 +262,8 @@ class SafeStringCastAction
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
     
 >>>>>>> a12f125f4a (.)
 =======
@@ -238,6 +273,7 @@ class SafeStringCastAction
         if (is_null($value)) {
             return '';
         }
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
         if (is_null($value)) {
@@ -254,6 +290,8 @@ class SafeStringCastAction
             return '';
         }
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
         
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -267,6 +305,7 @@ class SafeStringCastAction
         return '';
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +348,10 @@ class SafeStringCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *

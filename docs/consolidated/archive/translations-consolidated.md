@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Translations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione traduzioni del progetto
@@ -289,6 +292,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome modulo> Module
 =======
 >>>>>>> ce6fc085 (.)
@@ -324,13 +328,20 @@ return [
 =======
 ### SaluteMo Module
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+### SaluteMo Module
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - **Focus**: Health management, Medical data
 - **Campi comuni**: `patient_id`, `doctor_id`, `date`, `notes`
 - **Stati**: `scheduled`, `completed`, `cancelled`
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,7 +468,13 @@ return [
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - **Focus**: Core health platform, Appointments
 - **Campi comuni**: `appointment_id`, `patient_id`, `doctor_id`, `studio_id`
 - **Stati**: `scheduled`, `confirmed`, `in_progress`, `completed`, `cancelled`
@@ -550,6 +567,7 @@ TextInput::make('name') // Label automatica da traduzione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
@@ -656,7 +674,13 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
     php artisan translation:check-hardcoded --module=$module
 done
 
@@ -683,6 +707,7 @@ done
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
@@ -789,7 +814,13 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
     php artisan translation:validate-syntax --module=$module
 done
 ```
@@ -847,6 +878,7 @@ rm Modules/UI/project_docs/translation-rules.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -856,6 +888,8 @@ rm Modules/UI/project_docs/translation-rules.md
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 358ba79a7 (.)
 # <nome progetto>
 rm Modules/<nome progetto>/project_docs/translation-files-improvement.md
 rm Modules/<nome progetto>/project_docs/translations.md
@@ -926,7 +960,12 @@ rm Modules/<nome modulo>/docs/translations-appointments.md
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # SaluteOra
 rm Modules/SaluteOra/project_docs/translation-files-improvement.md
 rm Modules/SaluteOra/project_docs/translations.md
@@ -937,6 +976,7 @@ rm Modules/SaluteOra/project_docs/translation_standards.md
 rm Modules/SaluteOra/project_docs/translations-appointments.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1049,7 +1089,12 @@ rm Modules/<nome progetto>/project_docs/translations-appointments.md
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 # User
 rm Modules/User/project_docs/translations.md
@@ -1093,6 +1138,7 @@ rm Modules/Lang/project_docs/translation_notify_conversion.md
 **Categoria**: translations  
 **Priorità**: CRITICA
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -1101,3 +1147,5 @@ rm Modules/Lang/project_docs/translation_notify_conversion.md
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

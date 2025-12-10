@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -17,6 +18,8 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 358ba79a7 (.)
 # Analisi di Ottimizzazione - Modulo Xot (Framework Base)
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
@@ -149,10 +152,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
 interface HasWidgetForms
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema;
 =======
     public function form(Form $form): Form;
 >>>>>>> 2bad128c (.)
+=======
+    public function form(Form $form): Form;
+>>>>>>> 358ba79a7 (.)
     public function getFormSchema(): array;
 }
 
@@ -846,6 +853,7 @@ class XotPerformanceMonitor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Architecture Patterns](https://laravel.com/docs/architecture-concepts)
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level-10.md)
@@ -858,10 +866,13 @@ class XotPerformanceMonitor
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Laravel Architecture Patterns](https://laravel.com/project_docs/architecture-concepts)
 - [PHPStan Level 10 Guidelines](../../../project_docs/phpstan-level-10.md)
 - [SOLID Principles in PHP](../../../project_docs/solid-principles.md)
 - [Performance Best Practices](../../../project_docs/performance-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -884,12 +895,16 @@ class XotPerformanceMonitor
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+
+>>>>>>> 358ba79a7 (.)
 ---
 
 *Documento creato: Gennaio 2025*  
 *Principi: DRY + KISS + SOLID + ROBUST + Laraxot*  
 *Stato: 🟠 Framework Solido ma Necessita Refactoring Architetturale*
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -909,3 +924,5 @@ class XotPerformanceMonitor
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 358ba79a7 (.)

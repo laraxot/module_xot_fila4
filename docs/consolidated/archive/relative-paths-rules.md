@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Regole per i Percorsi Relativi nella Documentazione
 
 > **Collegamenti correlati**
@@ -44,6 +47,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    ```markdown
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,7 +181,13 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:
@@ -230,6 +240,7 @@ L'uso di percorsi relativi garantisce che la documentazione funzioni correttamen
 - [Markdown Link Syntax](https://www.markdownguide.org/basic-syntax/#links)
 - [Relative vs Absolute URLs](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -238,3 +249,5 @@ L'uso di percorsi relativi garantisce che la documentazione funzioni correttamen
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

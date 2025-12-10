@@ -55,7 +55,10 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -302,7 +305,12 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -384,6 +392,7 @@ This document outlines the best practices for maintaining high code quality with
 - [Filament Best Practices](./FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,7 +542,14 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -744,6 +760,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -755,12 +772,18 @@ $content = \file_get_contents($path); // Può restituire false
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 <<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -938,7 +961,12 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 

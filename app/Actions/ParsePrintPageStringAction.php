@@ -8,14 +8,23 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 <<<<<<< HEAD
 =======
@@ -68,12 +77,20 @@ use function Safe\preg_match_all;
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
 
 use function Safe\preg_match_all;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,11 +100,16 @@ use Webmozart\Assert\Assert;
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -101,10 +123,13 @@ use function Safe\preg_match_all;
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -128,6 +153,8 @@ use function Safe\preg_match_all;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -192,6 +219,7 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = array_merge(
                     $res,
                     self::fromTo((int) $firstNumber, (int) $secondNumber)
@@ -214,8 +242,11 @@ class ParsePrintPageStringAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
@@ -224,10 +255,18 @@ class ParsePrintPageStringAction
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 =======
 >>>>>>> dbce41cec (.)
+=======
+<<<<<<< HEAD
+                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
                 $res = array_merge(
                     $res,
                     self::fromTo((int) $firstNumber, (int) $secondNumber)
                 );
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,6 +287,16 @@ class ParsePrintPageStringAction
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
             }
         }
 

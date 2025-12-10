@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -23,7 +24,12 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
@@ -49,11 +55,14 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
@@ -127,7 +136,13 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto , c
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## File Corretti
 
@@ -234,6 +249,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 
 
@@ -276,6 +292,8 @@ $res=Locality::query()
 
 
 
+=======
+>>>>>>> 358ba79a7 (.)
 
 =======
 >>>>>>> ecd5ec32 (.)
@@ -299,7 +317,13 @@ $res=Locality::query()
 =======
 
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -335,6 +359,7 @@ php artisan lang:check
 ### Modulo Geo
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -494,6 +519,9 @@ php artisan lang:check
 =======
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 >>>>>>> 17684f52 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> e0b8ebe3 (.)
 
 ### Modulo User
 - [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
@@ -501,6 +529,7 @@ php artisan lang:check
 ### Modulo Xot
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -572,7 +601,12 @@ php artisan lang:check
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -640,6 +674,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -680,7 +715,12 @@ php artisan lang:check
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
@@ -691,6 +731,7 @@ php artisan lang:check
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,13 +869,19 @@ php artisan lang:check
 - [Git Best Practices](../../project_docs/git-best-practices.md)
 
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -853,6 +900,8 @@ php artisan lang:check
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
@@ -868,4 +917,23 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

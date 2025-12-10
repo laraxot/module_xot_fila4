@@ -64,6 +64,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
@@ -77,6 +78,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 <<<<<<< HEAD
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
@@ -309,7 +313,11 @@
 >>>>>>> 7468a7d2 (.)
 =======
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+=======
+>>>>>>> 6cba4fe (.)
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)

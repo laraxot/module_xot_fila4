@@ -54,6 +54,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [modules.md](../../../Xot/docs/filament/modules.md)
 * [modules.md](../../../Xot/docs/config/modules.md)
@@ -70,9 +71,14 @@ class AdminPanelProvider extends XotBasePanelProvider
 * [modules.md](../../../Xot/docs/config/modules.md)
 >>>>>>> 2bad128c (.)
 =======
+* [modules.md](../../../Xot/docs/filament/modules.md)
+* [modules.md](../../../Xot/docs/config/modules.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [modules.md](../../../Xot/project_docs/filament/modules.md)
 * [modules.md](../../../Xot/project_docs/config/modules.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -93,6 +99,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 * [modules.md](../../../Xot/docs/filament/modules.md)
 * [modules.md](../../../Xot/docs/config/modules.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 
 ### Versione Incoming

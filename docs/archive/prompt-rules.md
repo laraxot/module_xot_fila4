@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Regole per i Prompt
 
 ## Regola Universale
@@ -58,11 +64,14 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 
 <<<<<<< HEAD
@@ -191,7 +200,14 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/project_docs/README.md) per i dettagli.
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)
 - [Regole del Progetto](./rules.md)
@@ -199,6 +215,7 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 - [Collegamenti al Modulo Cms](./cms-link.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,7 +257,12 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Collegamenti alla Root](../../../project_docs/prompts.md)
 
 ## Collegamenti tra versioni di PROMPT_RULES.md
@@ -248,6 +270,7 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 * [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,7 +359,12 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 
 ## Collegamenti tra versioni di prompt_rules.md
@@ -344,6 +372,7 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,4 +407,13 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

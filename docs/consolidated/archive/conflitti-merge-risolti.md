@@ -3,7 +3,12 @@
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 # Risoluzione Conflitti di Merge 
 
 <<<<<<< HEAD
@@ -123,7 +128,14 @@ Durante lo sviluppo del progetto , sono stati identificati diversi file con conf
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+# Risoluzione Conflitti di Merge 
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Risoluzione Conflitti di Merge in SaluteOra
 
 ## Problema
@@ -131,6 +143,7 @@ Durante lo sviluppo del progetto , sono stati identificati diversi file con conf
 Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,7 +250,12 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`
@@ -350,10 +368,20 @@ Durante la risoluzione dei conflitti, nel file `Modules/Xot/app/Filament/Resourc
 
 La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità delle classi nel modulo Xot, permettendo l'analisi statica con PHPStan e garantendo il corretto funzionamento dell'applicazione. Le soluzioni implementate hanno mantenuto la coerenza del codice e migliorato la robustezza delle classi interessate.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

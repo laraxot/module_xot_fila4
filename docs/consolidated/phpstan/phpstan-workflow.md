@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Workflow Analisi PHPStan
 
 > **Nota**: Per una panoramica completa sulla gestione della documentazione e delle regole, consultare [DOCUMENTATION_MANAGEMENT.md](DOCUMENTATION_MANAGEMENT.md)
@@ -166,6 +172,7 @@ class MyModel extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -283,7 +290,12 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 2. **Approccio Efficiente**
    - Identificare pattern comuni di errori
    - Correggere tutti gli errori dello stesso tipo in una volta
@@ -314,6 +326,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
      - .windsurfrules per Windsurf
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -500,4 +513,14 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

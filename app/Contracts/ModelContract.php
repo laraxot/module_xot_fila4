@@ -114,6 +114,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -134,6 +135,13 @@ interface ModelContract
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
     /**
      * Convert the model instance to an array representation.
@@ -149,6 +157,13 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
     /*
          * Save a new model and return the instance. Allow mass-assignment.
          *
@@ -156,6 +171,12 @@ interface ModelContract
 
         public function forceCreate(array $attributes);
         */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
     /*
      * Save a new model and return the instance. Allow mass-assignment.
@@ -164,6 +185,7 @@ interface ModelContract
      *
      * public function forceCreate(array $attributes);
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -199,6 +221,12 @@ interface ModelContract
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
     /**
      * Convert the model instance to an array.
@@ -255,6 +283,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public function where($column, $operator = null, $value = null, $boolean = 'and');
     */
@@ -279,6 +308,8 @@ interface ModelContract
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
@@ -291,20 +322,30 @@ interface ModelContract
      */
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
 
     public function where($column, $operator = null, $value = null, $boolean = 'and');
     */
 
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 358ba79a7 (.)
+=======
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
@@ -320,6 +361,12 @@ interface ModelContract
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -327,6 +374,7 @@ interface ModelContract
      * @return \Illuminate\Database\Eloquent\Model|static
      *
      * @throws \Illuminate\Database\Eloquent\ModelNotFoundException<\Illuminate\Database\Eloquent\Model>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,11 +406,19 @@ interface ModelContract
      */
 =======
 >>>>>>> 5cf46378 (.)
+=======
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
      * public function firstOrFail($columns = ['*']);
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -376,9 +432,12 @@ interface ModelContract
      */
 >>>>>>> dbce41cec (.)
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 
     public function firstOrFail($columns = ['*']);
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -400,9 +459,13 @@ interface ModelContract
 =======
 >>>>>>> 6be8834c2 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 358ba79a7 (.)
+=======
      *
      * public function firstOrFail($columns = ['*']);
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +475,8 @@ interface ModelContract
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 
@@ -419,6 +484,7 @@ interface ModelContract
     */
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -441,4 +507,6 @@ interface ModelContract
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 }

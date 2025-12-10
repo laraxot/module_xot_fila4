@@ -15,6 +15,7 @@ class ColumnData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
     ) {}
@@ -60,12 +61,21 @@ class ColumnData extends Data
 =======
 >>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
+=======
+    ) {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 <<<<<<< HEAD
     ) {}
 =======
     ) {
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
     ) {}
@@ -75,6 +85,7 @@ class ColumnData extends Data
     }
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -100,4 +111,6 @@ class ColumnData extends Data
     ) {}
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 }

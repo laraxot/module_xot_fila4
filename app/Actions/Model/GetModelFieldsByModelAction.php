@@ -24,6 +24,7 @@ class GetModelFieldsByModelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
@@ -38,10 +39,14 @@ class GetModelFieldsByModelAction
 =======
 =======
 =======
+        return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -60,9 +65,12 @@ class GetModelFieldsByModelAction
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
 >>>>>>> dbce41cec (.)
 =======
+>>>>>>> 358ba79a7 (.)
+=======
         return $model->getConnection()
             ->getSchemaBuilder()
             ->getColumnListing($model->getTable());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +87,8 @@ class GetModelFieldsByModelAction
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
@@ -89,6 +99,7 @@ class GetModelFieldsByModelAction
             ->getColumnListing($model->getTable());
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -115,5 +126,7 @@ class GetModelFieldsByModelAction
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     }
 }

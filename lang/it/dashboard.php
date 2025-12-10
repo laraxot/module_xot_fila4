@@ -7,6 +7,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -27,6 +28,13 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Dashboard',
@@ -105,6 +113,7 @@ return [
                 'success' => 'Dati importati con successo',
                 'error' => 'Errore durante l\'importazione',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +127,8 @@ return [
 >>>>>>> 6be8834c2 (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 =======
     'resources' => 'Risorse',
     'pages' => 'Pagine',
@@ -125,7 +136,10 @@ return [
 =======
     // NAVIGATION & STRUCTURE
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     'navigation' => [
         'label' => 'Dashboard',
         'plural_label' => 'Dashboard',
@@ -190,11 +204,16 @@ return [
     'actions' => [
         'import' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
             'label' => 'Importa Dati',
             'icon' => 'heroicon-o-arrow-up-tray',
             'color' => 'info',
@@ -209,6 +228,7 @@ return [
                 'success' => 'Dati importati con successo',
                 'error' => 'Errore durante l\'importazione',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
@@ -232,6 +252,10 @@ return [
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     'resources' => 'Risorse',
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
@@ -256,6 +280,7 @@ return [
     ],
     'actions' => [
         'import' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +323,10 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
             'fields' => [
                 'import_file' => 'Seleziona un file XLS o CSV da caricare',
             ],
@@ -305,9 +334,14 @@ return [
         'export' => [
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -327,6 +361,10 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
             'label' => 'Esporta Dati',
             'icon' => 'heroicon-o-arrow-down-tray',
             'color' => 'success',
@@ -345,6 +383,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -369,6 +408,17 @@ return [
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
             'filename_prefix' => 'Aree al',
             'columns' => [
                 'name' => 'Nome area',
@@ -378,9 +428,14 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -400,6 +455,10 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     // SECTIONS - ORGANIZZAZIONE FORM
     'sections' => [
         'overview' => [
@@ -441,6 +500,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -465,4 +525,15 @@ return [
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 ];

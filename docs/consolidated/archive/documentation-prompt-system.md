@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Sistema di Prompt per la Documentazione
 
 ## Panoramica
@@ -21,6 +24,7 @@ Il modulo bashscripts include un sistema di prompt che fornisce istruzioni stand
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,7 +158,13 @@ Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, ch
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 1. Struttura gerarchica della documentazione
 2. Sistema di collegamenti bidirezionali
@@ -196,6 +206,7 @@ Qualsiasi aggiornamento al sistema di prompt deve essere:
 - [Percorsi Relativi nella Documentazione](../../../../bashscripts/project_docs/PERCORSI_RELATIVI_DOCUMENTAZIONE.md)
 - [Documentazione del Sistema di Prompt](../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -204,3 +215,5 @@ Qualsiasi aggiornamento al sistema di prompt deve essere:
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

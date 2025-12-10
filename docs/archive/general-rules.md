@@ -263,16 +263,20 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
   - [Patient Module Documentation](../../../Patient/docs/doctor-model-update.md)
   - [User Module Documentation](../../../User/docs/user-model-guidelines.md)
 =======
   - [Patient Module Documentation](../../../Patient/project_docs/doctor-model-update.md)
   - [User Module Documentation](../../../User/project_docs/user-model-guidelines.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -285,6 +289,8 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
   - [Patient Module Documentation](../../../Patient/docs/doctor-model-update.md)
   - [User Module Documentation](../../../User/docs/user-model-guidelines.md)
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 Queste regole devono essere seguite per garantire che il codice passi i controlli di qualità futuri e aderisca ai principi DRY (Don't Repeat Yourself) e KISS (Keep It Simple, Stupid). Considerare sempre le implicazioni di politica, filosofia, religione e zen nelle soluzioni implementate.
 <<<<<<< HEAD

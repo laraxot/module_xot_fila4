@@ -7,11 +7,14 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +119,32 @@ use Illuminate\Support\Facades\Artisan;
 use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 
 uses(TestCase::class);
+=======
+<<<<<<< HEAD
+use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Artisan;
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+
+uses(TestCase::class);
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Artisan;
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+
+uses(\Modules\Xot\Tests\TestCase::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 beforeEach(function () {
 <<<<<<< HEAD
@@ -127,6 +156,7 @@ beforeEach(function () {
 
     // Create test directory if it doesn't exist
     if (!File::exists(dirname($this->testSchemaPath))) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +184,9 @@ beforeEach(function () {
 >>>>>>> a67e542f (.)
 =======
 =======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,6 +201,7 @@ beforeEach(function () {
         File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -209,6 +243,8 @@ beforeEach(function () {
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     }
 
     // Create a test schema file
@@ -296,6 +332,7 @@ test('it generates database documentation', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -318,10 +355,20 @@ test('it generates database documentation', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     expect(File::exists($this->testOutputDir . '/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir . '/tables/users.md'))
         ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +414,8 @@ test('it generates database documentation', function () {
 >>>>>>> a67e542f (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 =======
     expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
@@ -379,6 +428,7 @@ test('it generates database documentation', function () {
         ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -402,6 +452,8 @@ test('it handles missing schema file', function (): void {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 });
 
 test('it handles missing schema file', function () {
@@ -472,6 +524,7 @@ test('it handles missing output directory', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
@@ -518,6 +571,9 @@ test('it handles missing output directory', function () {
 >>>>>>> a67e542f (.)
 =======
 =======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +590,7 @@ test('it handles missing output directory', function () {
         ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -561,4 +618,6 @@ test('it handles missing output directory', function () {
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 });

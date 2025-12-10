@@ -1,8 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -22,11 +27,19 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 <x-filament-panels::page>
     <x-filament-schemas::form wire:submit="save">
         {{ $this->form }}
@@ -36,6 +49,7 @@ declare(strict_types=1);
         />
 
     </x-filament-schemas::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,10 +63,15 @@ declare(strict_types=1);
 >>>>>>> 6be8834c2 (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 =======
 =======
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 <x-filament-panels::page>
     <x-filament-schemas::form wire:submit="save">
         {{ $this->form }}
@@ -63,6 +82,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
     </x-filament-panels::form>
+<<<<<<< HEAD
     </x-filament-schemas::form>
 =======
 >>>>>>> 218dfed3 (.)
@@ -72,11 +92,14 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
     </x-filament-panels::form>
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
     </x-filament-schemas::form>
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -91,6 +114,8 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
 <x-filament-panels::page>
     <x-filament-panels::form wire:submit="save">
         {{ $this->form }}
@@ -100,6 +125,7 @@ declare(strict_types=1);
         />
 
     </x-filament-panels::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,4 +168,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 </x-filament-panels::page>

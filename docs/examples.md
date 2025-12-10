@@ -1125,6 +1125,7 @@ class ExampleRelationshipsTest extends XotBaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -1146,3 +1147,5 @@ class ExampleRelationshipsTest extends XotBaseTestCase
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 358ba79a7 (.)

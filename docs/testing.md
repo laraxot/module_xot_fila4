@@ -942,7 +942,10 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> cafe8bed (.)
 =======
 - [Root Testing Organization](../../../docs/testing-organization.md)
+<<<<<<< HEAD
 - [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+=======
+>>>>>>> 6cba4fe (.)
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 >>>>>>> 5bd842e3 (.)

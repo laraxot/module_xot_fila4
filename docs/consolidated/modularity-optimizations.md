@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Modulo Xot - Ottimizzazioni per Modularità
 
 ## Problemi Identificati
@@ -17,6 +20,7 @@ Durante l'audit del modulo `Xot` (modulo base del framework), sono state identif
 // ❌ ERRORE CRITICO - Path hardcoded
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,7 +250,15 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 **File contaminati:**
@@ -257,6 +269,7 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 // ❌ ERRORE CRITICO - Dipendenze hardcoded nei test
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,7 +396,13 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 **File contaminati:**
@@ -413,6 +432,7 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 self::MONDAY => __('<nome progetto>::common.days.description.monday'),
 self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 <<<<<<< HEAD
@@ -566,7 +586,14 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+self::MONDAY => __('saluteora::common.days.description.monday'),
+self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 **File contaminati:**
@@ -596,6 +623,7 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 <<<<<<< HEAD
 =======
@@ -702,7 +730,13 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 **File contaminati:**
@@ -713,6 +747,7 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 // ❌ ERRORE CRITICO - Import hardcoded
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -839,7 +874,13 @@ use Modules\SaluteOra\Models\Appointment;
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 **File contaminati:**
@@ -890,6 +931,7 @@ class PathHelper
         return str_replace(
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1015,7 +1057,13 @@ class PathHelper
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+            ['/saluteora/', '/Modules/'],
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
             [$projectPath, $modulesPath],
             $path
         );
@@ -1189,6 +1237,7 @@ enum DayOfWeek: int
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PROJECT_BASE_PATH=/var/www/html/<nome progetto>
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -1330,7 +1379,15 @@ PROJECT_BASE_PATH=/var/www/html/saluteora
 LARAVEL_BASE_PATH=/var/www/html/saluteora/laravel
 MODULES_BASE_PATH=/var/www/html/saluteora/laravel/Modules
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+PROJECT_BASE_PATH=/var/www/html/saluteora
+LARAVEL_BASE_PATH=/var/www/html/saluteora/laravel
+MODULES_BASE_PATH=/var/www/html/saluteora/laravel/Modules
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 # Configurazione Modelli Xot
 XOT_USER_MODEL=Modules\SaluteOra\Models\User
@@ -1344,6 +1401,7 @@ XOT_TRANSLATION_FALLBACK=xot
 XOT_TABLE_SCHEMAS=saluteora,public,main,information_schema
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1468,7 +1526,12 @@ XOT_TABLE_SCHEMAS=<nome progetto>,public,main,information_schema
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 ### Override per Progetti Specifici
@@ -1500,6 +1563,7 @@ Ogni progetto può personalizzare path, modelli e traduzioni tramite variabili d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -1507,6 +1571,8 @@ Ogni progetto può personalizzare path, modelli e traduzioni tramite variabili d
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 358ba79a7 (.)
 grep -r "/var/www/html/<nome progetto>" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -1579,7 +1645,12 @@ grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 grep -r "/var/www/html/saluteora" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -1589,6 +1660,7 @@ grep -r "Modules\\SaluteOra" laravel/Modules/Xot/ --include="*.php"
 grep -r "saluteora::" laravel/Modules/Xot/ --include="*.php"
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1699,7 +1771,12 @@ grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 ### Risultato Atteso
@@ -1731,6 +1808,7 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 **Queste ottimizzazioni sono CRITICHE per mantenere l'architettura modulare del sistema. Ogni violazione deve essere corretta immediatamente.**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -1739,3 +1817,5 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

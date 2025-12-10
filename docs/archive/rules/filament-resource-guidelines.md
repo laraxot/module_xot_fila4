@@ -148,10 +148,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Documentazione Principale sui Problemi di Namespace](../../../../docs/references/namespace-issues.md)
 - [Documentazione del Modulo Patient](../Patient/docs/errors/undefined-type-pending.md)
 - [Riferimento alle Linee Guida nel Modulo Patient](../Patient/docs/references/filament-guidelines-link.md)
@@ -160,6 +163,7 @@
 - [Documentazione del Modulo Patient](../Patient/project_docs/errors/undefined-type-pending.md)
 - [Riferimento alle Linee Guida nel Modulo Patient](../Patient/project_docs/references/filament-guidelines-link.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -174,6 +178,8 @@
 - [Documentazione del Modulo Patient](../Patient/docs/errors/undefined-type-pending.md)
 - [Riferimento alle Linee Guida nel Modulo Patient](../Patient/docs/references/filament-guidelines-link.md)
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 ## Note
 

@@ -52,6 +52,7 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
@@ -59,6 +60,8 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - `/project_docs/` (cartella root del progetto)
 <<<<<<< HEAD
 =======
@@ -160,7 +163,10 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 >>>>>>> 17684f52 (.)
 - `/docs/` (cartella root del progetto)
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 - `/project_docs/` (cartella root del progetto)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +176,10 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 - `/docs/` (cartella root del progetto)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +266,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -549,4 +560,12 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

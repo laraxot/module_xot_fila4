@@ -28,7 +28,13 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
@@ -174,7 +180,16 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+# Struttura Traduzioni Espansa - Modulo Xot
+
+## Scopo
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".
@@ -354,6 +369,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -400,7 +416,12 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Struttura Traduzioni Espansa](/project_docs/translation-structure-expanded.md)
 - [Principi DRY/KISS](/project_docs/dry-kiss-principles.md)
 
@@ -409,6 +430,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 - [User Module Translations](/Modules/User/project_docs/translation-guidelines.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,7 +550,12 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ### File di Implementazione
 - `lang/es/labels.php` - Etichette generali spagnole
@@ -559,10 +586,20 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 **Responsabile**: Sistema automatico DRY/KISS  
 **Data**: 2025-08-08
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

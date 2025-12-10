@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Modelli Patient](../Patient/docs/models.md)
 >>>>>>> 85cdef688 (.)
@@ -114,5 +115,11 @@
 =======
 - [Modelli Patient](../Patient/docs/models.md)
 >>>>>>> 88ee35c4e (.)
+=======
+- [Modelli Patient](../Patient/docs/models.md)
+=======
+- [Modelli Patient](../Patient/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 - [Best Practices Modelli](./models.md)
 - [Convenzioni di Codice](./coding-standards.md) 

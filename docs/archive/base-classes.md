@@ -298,6 +298,7 @@ class PolizzaConvenzioneController extends XotBaseController
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [base-classes.md](../../../Xot/docs/base-classes.md)
 * [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
@@ -314,9 +315,14 @@ class PolizzaConvenzioneController extends XotBaseController
 * [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
 >>>>>>> 2bad128c (.)
 =======
+* [base-classes.md](../../../Xot/docs/base-classes.md)
+* [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [base-classes.md](../../../Xot/project_docs/base-classes.md)
 * [base-classes.md](../../../Xot/project_docs/roadmap/base-classes.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -337,6 +343,8 @@ class PolizzaConvenzioneController extends XotBaseController
 * [base-classes.md](../../../Xot/docs/base-classes.md)
 * [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 
 ### Versione Incoming

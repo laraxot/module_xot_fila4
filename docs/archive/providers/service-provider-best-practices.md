@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Best Practices nei Service Provider
 
 ## Decisione Architetturale (2025-05-13)
@@ -55,11 +61,14 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
 <<<<<<< HEAD
@@ -188,7 +197,14 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica
@@ -335,6 +351,7 @@ Si raccomanda di seguire questo pattern in tutti i service provider personalizza
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -360,4 +377,13 @@ Si raccomanda di seguire questo pattern in tutti i service provider personalizza
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

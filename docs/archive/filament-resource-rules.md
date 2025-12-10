@@ -426,6 +426,7 @@ class DoctorResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Form Builder](/project_docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/project_docs/translation-management.md)
 - [Estensione delle Classi Filament](/project_docs/filament-extension-pattern.md)
@@ -435,9 +436,12 @@ class DoctorResource extends XotBaseResource
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,10 +467,13 @@ class DoctorResource extends XotBaseResource
 =======
 =======
 =======
+>>>>>>> e0b8ebe3 (.)
+=======
 - [Filament Form Builder](/project_docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/project_docs/translation-management.md)
 - [Estensione delle Classi Filament](/project_docs/filament-extension-pattern.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD
 >>>>>>> 2bad128c (.)
@@ -482,4 +489,9 @@ class DoctorResource extends XotBaseResource
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

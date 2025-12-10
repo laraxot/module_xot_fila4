@@ -5,9 +5,14 @@ declare(strict_types=1);
 /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -27,6 +32,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
  * |--------------------------------------------------------------------------
  * | API Routes
  * |--------------------------------------------------------------------------
@@ -36,11 +45,16 @@ declare(strict_types=1);
  * | is assigned the "api" middleware group. Enjoy building your API!
  * |
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 /*
  * Route::middleware('auth:api')->get('/xot', function (Request $request) {
  * return $request->user();
  * });
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,9 +70,12 @@ declare(strict_types=1);
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -73,6 +90,8 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
 |--------------------------------------------------------------------------
 | API Routes
 |--------------------------------------------------------------------------
@@ -92,15 +111,21 @@ Route::middleware('auth:api')->get('/xot', function (Request $request) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
 /*
  * Route::middleware('auth:api')->get('/xot', function (Request $request) {
  * return $request->user();
  * });
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -114,10 +139,13 @@ Route::middleware('auth:api')->get('/xot', function (Request $request) {
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -141,3 +169,5 @@ Route::middleware('auth:api')->get('/xot', function (Request $request) {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)

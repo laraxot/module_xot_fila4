@@ -39,6 +39,7 @@ La documentazione generica deve essere sempre inserita nella cartella `docs` del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 <<<<<<< HEAD
@@ -86,17 +87,25 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 =======
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 >>>>>>> 88ee35c4e (.)
+=======
+La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
+=======
+La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/project_docs/README.md) per i dettagli.
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)
 - [Regole del Progetto](./rules.md)
 - [Struttura dei Prompt](./prompts.md)
 - [Collegamenti al Modulo Cms](./cms-link.md)
+<<<<<<< HEAD
 - [Collegamenti alla Root](../../../docs/prompts.md)
 
 ## Collegamenti tra versioni di PROMPT_RULES.md
 * [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,11 +128,15 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 =======
 =======
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
 - [Collegamenti alla Root](../../../project_docs/prompts.md)
 
 ## Collegamenti tra versioni di PROMPT_RULES.md
 * [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,6 +165,9 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 >>>>>>> ab5b3a4f (.)
 =======
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 
 
 ## Collegamenti tra versioni di prompt_rules.md

@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Patient Errori e Soluzioni](../../Patient/docs/models.md)
 - [Patient Workflow](../../Patient/docs/doctor-registration-workflow.md)
@@ -53,9 +54,14 @@
 - [Patient Workflow](../../Patient/docs/doctor-registration-workflow.md)
 >>>>>>> 2bad128c (.)
 =======
+- [Patient Errori e Soluzioni](../../Patient/docs/models.md)
+- [Patient Workflow](../../Patient/docs/doctor-registration-workflow.md)
+>>>>>>> 358ba79a7 (.)
+=======
 - [Patient Errori e Soluzioni](../../Patient/project_docs/models.md)
 - [Patient Workflow](../../Patient/project_docs/doctor-registration-workflow.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -76,6 +82,8 @@
 - [Patient Errori e Soluzioni](../../Patient/docs/models.md)
 - [Patient Workflow](../../Patient/docs/doctor-registration-workflow.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [README Xot](./README.md)
 
 # Errori di Validazione Custom (Laravel)
@@ -109,6 +117,7 @@ throw new \Illuminate\Validation\ValidationException(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Patient: errors/validation.md](../../Patient/docs/errors/validation.md) 
 >>>>>>> 85cdef688 (.)
@@ -139,3 +148,9 @@ throw new \Illuminate\Validation\ValidationException(
 =======
 - [Patient: errors/validation.md](../../Patient/docs/errors/validation.md) 
 >>>>>>> 88ee35c4e (.)
+=======
+- [Patient: errors/validation.md](../../Patient/docs/errors/validation.md) 
+=======
+- [Patient: errors/validation.md](../../Patient/project_docs/errors/validation.md) 
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)

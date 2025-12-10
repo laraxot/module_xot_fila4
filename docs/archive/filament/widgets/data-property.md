@@ -109,6 +109,7 @@ class RegistrationWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Filament Forms](https://filamentphp.com/docs/3.x/forms/installation)
 - [Livewire Data Binding](https://livewire.laravel.com/docs/properties)
@@ -125,9 +126,14 @@ class RegistrationWidget extends XotBaseWidget
 - [Livewire Data Binding](https://livewire.laravel.com/docs/properties)
 >>>>>>> 2bad128c (.)
 =======
+- [Filament Forms](https://filamentphp.com/docs/3.x/forms/installation)
+- [Livewire Data Binding](https://livewire.laravel.com/docs/properties)
+>>>>>>> 358ba79a7 (.)
+=======
 - [Filament Forms](https://filamentphp.com/project_docs/3.x/forms/installation)
 - [Livewire Data Binding](https://livewire.laravel.com/project_docs/properties)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -148,3 +154,5 @@ class RegistrationWidget extends XotBaseWidget
 - [Filament Forms](https://filamentphp.com/docs/3.x/forms/installation)
 - [Livewire Data Binding](https://livewire.laravel.com/docs/properties)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)

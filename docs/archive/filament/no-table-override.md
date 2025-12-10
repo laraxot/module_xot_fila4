@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # DIVIETO ASSOLUTO DI IMPLEMENTARE table()
 
 ## Regola Fondamentale Inviolabile
@@ -150,6 +156,7 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -192,13 +199,19 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,4 +408,14 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

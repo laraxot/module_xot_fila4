@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -164,7 +165,15 @@ https://curl.se/project_docs/caextract.html
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+Download the latest cacert.pem file from
+https://curl.se/project_docs/caextract.html
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 Update your php.ini file:  
 Locate your php.ini file and find the line ;curl.cainfo =.  
 Change it to: curl.cainfo = "C:\path\to\cacert.pem" (replace with the actual path where you saved the cacert.pem file).  
@@ -204,6 +213,7 @@ curl.cainfo = "PATH/TO/cacert.pem"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,7 +319,13 @@ curl.cainfo = "PATH/TO/cacert.pem"
  
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+ 
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 [openssl]
 openssl.capath = "PATH/TO/cacert.pem"  
@@ -343,6 +359,7 @@ $client->setHttpClient($http);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -523,7 +540,14 @@ $client->setHttpClient($http);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 --------------------
 composer config -g -- disable-tls true  
 composer config -g secure-http false   
@@ -535,6 +559,7 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -799,4 +824,16 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

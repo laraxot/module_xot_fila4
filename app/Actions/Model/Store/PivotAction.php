@@ -16,6 +16,7 @@ class PivotAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -36,6 +37,13 @@ class PivotAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     public function execute(Model $_model, RelationDTO $_relationDTO): void
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
@@ -61,20 +69,27 @@ class PivotAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 =======
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
 =======
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
         dddx('wip');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -97,10 +112,16 @@ class PivotAction
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+        /*
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
         dddx('wip');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +141,10 @@ class PivotAction
 =======
         /*
 >>>>>>> dbce41cec (.)
+=======
+        /*
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
 
             $parent_panel = $this->panel->getParent();
             if (null !== $parent_panel) {
@@ -135,10 +160,15 @@ class PivotAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
          *
          * $parent_panel = $this->panel->getParent();
          * if (null !== $parent_panel) {
@@ -149,6 +179,7 @@ class PivotAction
          *
          *
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -162,10 +193,13 @@ class PivotAction
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -189,5 +223,7 @@ class PivotAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     }
 }

@@ -13,6 +13,7 @@
 >>>>>>> 88ee35c4e (.)
 # Testing Best Practices - Laraxot Framework
 
+<<<<<<< HEAD
 ## 🏆 **Gold Standard Pattern**
 
 Basato sui successi misurabili dei test RegisterTypeWidgetTest.php (9/9 test passati) e RegisterTypeTest.php (10/14 test passati).
@@ -35,6 +36,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 // ✅ CRITICO: Mock XotData per ogni test
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,7 +121,13 @@ uses(\Modules\Xot\Tests\TestCase::class);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## 🏆 Gold Standard per i Test
 
 - Preferire Pest a PHPUnit class-based.
@@ -139,6 +147,7 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,11 +266,18 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 beforeEach(function (): void {
     mockXotData();
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,12 +299,18 @@ beforeEach(function (): void {
 =======
 // ✅ CRITICO: Test diretti senza describe() o dataset()
 >>>>>>> 59259b43 (.)
+=======
+// ✅ CRITICO: Test diretti senza describe() o dataset()
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 test('widget can be rendered', function () {
     Livewire::test({WidgetName}::class)
         ->assertStatus(200);
 });
 ```
 
+<<<<<<< HEAD
 ### XotData Mock Pattern (Obbligatorio)
 
 ```php
@@ -622,6 +644,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -649,6 +672,8 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 **Last Update**: Dicembre 2024 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,7 +730,14 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ### Esempio unit test semplice
 ```php
 <?php
@@ -728,6 +760,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -810,7 +843,13 @@ function mockXotData(): void
 =======
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }
@@ -850,6 +889,7 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -983,4 +1023,10 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 **Last Update**: Dicembre 2024 
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

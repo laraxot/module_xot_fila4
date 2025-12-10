@@ -251,6 +251,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -293,7 +294,12 @@ php artisan view:clear
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
@@ -303,6 +309,7 @@ php artisan view:clear
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,7 +388,14 @@ php artisan view:clear
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Documentazione Laravel Translations](https://laravel.com/docs/localization)
 - [Filament Form Components](https://filamentphp.com/docs/forms)
 - [Best Practices Filament](../docs/filament-best-practices.md)

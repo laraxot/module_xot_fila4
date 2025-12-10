@@ -199,6 +199,7 @@ php artisan test --filter=TestClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Workflow Git](../../../Xot/docs/git/workflow.md)
 - [Best Practices](../../../Xot/docs/best-practices/git.md)
@@ -219,10 +220,16 @@ php artisan test --filter=TestClass
 - [CI/CD Pipeline](../../../Xot/docs/ci-cd/README.md) 
 >>>>>>> 2bad128c (.)
 =======
+- [Workflow Git](../../../Xot/docs/git/workflow.md)
+- [Best Practices](../../../Xot/docs/best-practices/git.md)
+- [CI/CD Pipeline](../../../Xot/docs/ci-cd/README.md) 
+>>>>>>> 358ba79a7 (.)
+=======
 - [Workflow Git](../../../Xot/project_docs/git/workflow.md)
 - [Best Practices](../../../Xot/project_docs/best-practices/git.md)
 - [CI/CD Pipeline](../../../Xot/project_docs/ci-cd/README.md) 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -247,3 +254,5 @@ php artisan test --filter=TestClass
 - [Best Practices](../../../Xot/docs/best-practices/git.md)
 - [CI/CD Pipeline](../../../Xot/docs/ci-cd/README.md) 
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)

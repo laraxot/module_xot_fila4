@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Raccomandazioni di Ottimizzazione - Modulo Xot
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -19,6 +22,7 @@
 // ❌ PROBLEMA ATTUALE
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,7 +197,14 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 #### 2. XotData Incompleto
@@ -214,6 +225,7 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 - **Migration Base**: XotBaseMigration ben progettata
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,7 +270,13 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 =======
 - **Type Safety**: PHPStan Level 9 compliance
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ### Consolidamento Documentazione
 - **Approccio DRY+KISS**: Eliminazione duplicazioni
@@ -476,6 +494,7 @@ abstract class XotBaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Type safety** con PHPStan level 10
 =======
 >>>>>>> ce6fc085 (.)
@@ -511,7 +530,13 @@ abstract class XotBaseModel extends Model
 =======
 - [ ] **Type safety** con PHPStan Level 9
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [ ] **Performance** < 1ms per risoluzione classe
 
 ### Documentazione
@@ -544,6 +569,7 @@ abstract class XotBaseModel extends Model
 # Verifica path hardcoded
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -669,7 +695,13 @@ grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"
@@ -719,6 +751,7 @@ php artisan xot:test-framework
 
 *Ultimo aggiornamento: gennaio 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -727,3 +760,5 @@ php artisan xot:test-framework
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

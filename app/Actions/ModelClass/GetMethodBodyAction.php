@@ -8,6 +8,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ReflectionClass;
 <<<<<<< HEAD
@@ -29,6 +30,15 @@ use ReflectionClass;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+use ReflectionClass;
+=======
+<<<<<<< HEAD
+use ReflectionClass;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -37,11 +47,19 @@ use function Safe\file;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
 use function Safe\file;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 =======
 use ReflectionClass;
 <<<<<<< HEAD
@@ -115,6 +133,20 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+
+use function Safe\file;
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 class GetMethodBodyAction
 {
     use QueueableAction;
@@ -124,8 +156,11 @@ class GetMethodBodyAction
         Assert::classExists($class_name);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
         $reflection_class = new ReflectionClass($class_name);
 =======
 <<<<<<< HEAD
@@ -134,10 +169,13 @@ class GetMethodBodyAction
         $reflection_class = new \ReflectionClass($class_name);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
         $reflection_class = new ReflectionClass($class_name);
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $table_method = $reflection_class->getMethod($method_name);
         $start_line = $table_method->getStartLine() - 1; // it's actually - 1, otherwise you wont get the function() block
         $end_line = $table_method->getEndLine();

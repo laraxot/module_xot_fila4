@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # XotBaseRelationManager per Laraxot PTVX
 
 ## Panoramica
@@ -214,6 +220,7 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -256,13 +263,19 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
 - [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,4 +472,14 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

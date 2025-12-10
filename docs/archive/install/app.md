@@ -22,6 +22,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [app.md](../../../Xot/docs/install/app.md)
 * [app.md](../../../Tenant/docs/it/config/app.md)
@@ -38,9 +39,14 @@ return [
 * [app.md](../../../Tenant/docs/it/config/app.md)
 >>>>>>> 2bad128c (.)
 =======
+* [app.md](../../../Xot/docs/install/app.md)
+* [app.md](../../../Tenant/docs/it/config/app.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [app.md](../../../Xot/project_docs/install/app.md)
 * [app.md](../../../Tenant/project_docs/it/config/app.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -61,6 +67,8 @@ return [
 * [app.md](../../../Xot/docs/install/app.md)
 * [app.md](../../../Tenant/docs/it/config/app.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 
 ### Versione Incoming

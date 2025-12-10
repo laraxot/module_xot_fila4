@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Regole di Estensione dei Modelli Laraxot
 
 ## Regola Fondamentale di Ereditarietà
@@ -80,11 +86,14 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
 <<<<<<< HEAD
@@ -213,7 +222,14 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Eccezioni
 
 Non esistono eccezioni a questa regola. Tutti i modelli concreti devono seguirla.
@@ -248,6 +264,7 @@ abstract class BaseModel extends XotBaseModel
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,13 +320,19 @@ abstract class BaseModel extends XotBaseModel
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,4 +529,14 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

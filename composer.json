@@ -42,7 +42,9 @@
 >>>>>>> 309cf3180 (.)
         "filament/filament": "^4.0",
         "filament/spatie-laravel-media-library-plugin": "^4.0",
+<<<<<<< HEAD
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +125,11 @@
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+        "filament/spatie-laravel-translatable-plugin": "^4.0",
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",

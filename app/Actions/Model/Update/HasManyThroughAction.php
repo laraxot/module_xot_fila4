@@ -19,6 +19,7 @@ class HasManyThroughAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +42,9 @@ class HasManyThroughAction
 >>>>>>> a67e542f (.)
 =======
 =======
+    public function execute(Model $_model, RelationDTO $_relationDTO): void
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +59,7 @@ class HasManyThroughAction
     public function execute(Model $model, RelationDTO $relationDTO): void
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -92,6 +97,8 @@ class HasManyThroughAction
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
         dddx('wip');

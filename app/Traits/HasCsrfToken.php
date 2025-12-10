@@ -8,6 +8,7 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 use Illuminate\Support\Facades\App;
@@ -19,10 +20,17 @@ use Illuminate\Support\Facades\Session;
 =======
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
@@ -79,6 +87,8 @@ use Illuminate\Support\Facades\Session;
 >>>>>>> a67e542f (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 >>>>>>> a12f125f4a (.)
@@ -91,6 +101,7 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -108,6 +119,8 @@ use Illuminate\Support\Facades\Session;
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 trait HasCsrfToken
 {
@@ -215,6 +228,7 @@ trait HasCsrfToken
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +254,9 @@ trait HasCsrfToken
 >>>>>>> a67e542f (.)
 =======
 =======
+}
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +271,7 @@ trait HasCsrfToken
 } 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -291,3 +309,5 @@ trait HasCsrfToken
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)

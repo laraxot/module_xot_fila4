@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 # Componenti Filament - Guida di Riferimento
 
 ## FileUpload Component
@@ -121,11 +127,14 @@ DatePicker::make('field_name')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 * [FILAMENT_COMPONENTS.md](../../../Xot/docs/FILAMENT_COMPONENTS.md)
 * [FILAMENT_COMPONENTS.md](../../../../Themes/One/docs/FILAMENT_COMPONENTS.md)
 
@@ -289,7 +298,15 @@ DatePicker::make('field_name')
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+* [FILAMENT_COMPONENTS.md](../../../Xot/project_docs/FILAMENT_COMPONENTS.md)
+* [FILAMENT_COMPONENTS.md](../../../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
+
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ## Correzione e regole per XotBaseManageRelatedRecords
 
 - Tutti i metodi pubblici devono avere tipizzazione forte e PHPDoc dettagliato.
@@ -302,6 +319,7 @@ DatePicker::make('field_name')
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,4 +354,13 @@ DatePicker::make('field_name')
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

@@ -68,6 +68,7 @@ class YourModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices](BEST-PRACTICES.md) 
 =======
 - [Laravel Relationships](https://laravel.com/docs/relationships)
@@ -90,9 +91,14 @@ class YourModel extends Model
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 >>>>>>> 2bad128c (.)
 =======
+- [Laravel Relationships](https://laravel.com/docs/relationships)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+>>>>>>> 358ba79a7 (.)
+=======
 - [Laravel Relationships](https://laravel.com/project_docs/relationships)
 - [Spatie Laravel Data](https://spatie.be/project_docs/laravel-data)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Best Practices](BEST-PRACTICES.md) 
 >>>>>>> ce6fc085 (.)
@@ -130,3 +136,6 @@ class YourModel extends Model
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 - [Best Practices](BEST-PRACTICES.md) 
 >>>>>>> 88ee35c4e (.)
+=======
+- [Best Practices](BEST-PRACTICES.md) 
+>>>>>>> 358ba79a7 (.)

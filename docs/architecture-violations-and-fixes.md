@@ -50,12 +50,16 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 // ❌ VIOLAZIONE CRITICA
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 use Modules\<nome modulo>\Models\User;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\User;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,7 +125,14 @@ use Modules\SaluteOra\Models\User;
 use Modules\<nome modulo>\Models\User;
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 use Modules\SaluteOra\Models\User;
 =======
 >>>>>>> a5dccfe (.)
@@ -325,6 +336,7 @@ $user = User::factory()->create([...]);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -332,6 +344,9 @@ $user = User::factory()->create([...]);
 =======
 <<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -529,7 +544,11 @@ $user = User::factory()->create([...]);
 >>>>>>> ab5b3a4f (.)
 =======
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+=======
+>>>>>>> 6cba4fe (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)
@@ -610,6 +629,7 @@ $user = $userClass::factory()->create($attributes);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -617,6 +637,9 @@ $user = $userClass::factory()->create($attributes);
 =======
 <<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -836,7 +859,11 @@ $user = $userClass::factory()->create($attributes);
 >>>>>>> ab5b3a4f (.)
 =======
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+=======
+>>>>>>> 6cba4fe (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)
@@ -935,6 +962,7 @@ public function processUser(UserContract $user): void
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -942,6 +970,9 @@ public function processUser(UserContract $user): void
 =======
 <<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 =======
@@ -1157,7 +1188,11 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> ab5b3a4f (.)
 =======
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> 6cba4fe (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)
@@ -1351,6 +1386,7 @@ use Modules\<nome modulo>\Models\Doctor;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -1358,6 +1394,9 @@ use Modules\<nome modulo>\Models\Doctor;
 =======
 <<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -1706,9 +1745,13 @@ use Modules\SaluteOra\Models\Doctor;
 >>>>>>> ab5b3a4f (.)
 =======
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
+=======
+>>>>>>> 6cba4fe (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
@@ -1761,6 +1804,7 @@ use Modules\Xot\Datas\XotData;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -1768,6 +1812,9 @@ use Modules\Xot\Datas\XotData;
 =======
 <<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 =======
@@ -1983,7 +2030,11 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 >>>>>>> ab5b3a4f (.)
 =======
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
+=======
+>>>>>>> 6cba4fe (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)
@@ -2034,6 +2085,7 @@ $user = $userClass::find($id);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -2041,6 +2093,9 @@ $user = $userClass::find($id);
 =======
 <<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 =======
@@ -2256,7 +2311,11 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> ab5b3a4f (.)
 =======
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> 6cba4fe (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)
@@ -2704,7 +2763,10 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
+<<<<<<< HEAD
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
+=======
+>>>>>>> 6cba4fe (.)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)
@@ -2716,6 +2778,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3009,4 +3072,12 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 **Responsabile**: Team Architettura Laraxot 
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+**Responsabile**: Team Architettura Laraxot 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

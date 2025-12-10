@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Migrations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione migrazioni del progetto
@@ -396,6 +399,7 @@ $table->foreign('user_id')->references('id')->on('users')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome modulo> Module
 =======
 >>>>>>> ce6fc085 (.)
@@ -431,13 +435,20 @@ $table->foreign('user_id')->references('id')->on('users')
 =======
 ### SaluteMo Module
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+### SaluteMo Module
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,7 +575,13 @@ $table->foreign('user_id')->references('id')->on('users')
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -632,6 +649,7 @@ rm Modules/Notify/project_docs/migrations_changelog.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome modulo>
 rm Modules/<nome modulo>/project_docs/database/migrations.md
 =======
@@ -690,7 +708,14 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 # SaluteMo
 rm Modules/SaluteMo/project_docs/database/migrations.md
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 # E tutti gli altri file duplicati...
 ```
@@ -723,6 +748,7 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 **Categoria**: database  
 **Priorità**: CRITICA
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -731,3 +757,5 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

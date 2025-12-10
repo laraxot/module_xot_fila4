@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -20,6 +21,13 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 declare(strict_types=1);
 
 
@@ -48,6 +56,13 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 358ba79a7 (.)
 return [
     /*
     |--------------------------------------------------------------------------
@@ -58,6 +73,12 @@ return [
     | Using these constants instead of hardcoded paths helps prevent path-related errors.
     |
     */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
 declare(strict_types=1);
 
 
@@ -71,6 +92,7 @@ return [
      * | Using these constants instead of hardcoded paths helps prevent path-related errors.
      * |
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -109,12 +131,19 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     'paths' => [
         'base' => '/var/www/html/exa/base_orisbroker_fila3',
         'laravel' => '/var/www/html/exa/base_orisbroker_fila3/laravel',
         'modules' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules',
         'docs' => '/var/www/html/exa/base_orisbroker_fila3/docs',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +168,13 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Module Paths
@@ -156,6 +192,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -163,9 +200,12 @@ return [
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -180,6 +220,8 @@ return [
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -195,10 +237,15 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Module Paths
@@ -208,6 +255,7 @@ return [
      * | and should be used when referencing module-specific directories.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -221,10 +269,13 @@ return [
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -248,6 +299,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
     'module_paths' => [
         'xot' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot',
         'broker' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Broker',

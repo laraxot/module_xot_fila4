@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Best Practices per Model States e Transizioni Custom
 
 ## Parametri aggiuntivi nelle transizioni custom
@@ -17,6 +20,7 @@
 - **Collegamenti**:
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,3 +162,7 @@
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+  - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
+  - [README.md centrale](../../../project_docs/README.md) 
+>>>>>>> e0b8ebe3 (.)

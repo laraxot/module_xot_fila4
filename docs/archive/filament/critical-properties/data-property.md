@@ -251,6 +251,7 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Livewire Properties Documentation](https://livewire.laravel.com/project_docs/properties)
 - [Filament Forms Documentation](https://filamentphp.com/project_docs/3.x/forms/installation)
 - [RegistrationWidget Example](../../User/project_docs/filament/widgets/registration-widget.md)
@@ -260,9 +261,12 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - [Livewire Properties Documentation](https://livewire.laravel.com/docs/properties)
 - [Filament Forms Documentation](https://filamentphp.com/docs/3.x/forms/installation)
 - [RegistrationWidget Example](../../User/docs/filament/widgets/registration-widget.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,10 +292,13 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 =======
 =======
 =======
+>>>>>>> e0b8ebe3 (.)
+=======
 - [Livewire Properties Documentation](https://livewire.laravel.com/project_docs/properties)
 - [Filament Forms Documentation](https://filamentphp.com/project_docs/3.x/forms/installation)
 - [RegistrationWidget Example](../../User/project_docs/filament/widgets/registration-widget.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD
 >>>>>>> 2bad128c (.)
@@ -307,4 +314,9 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)

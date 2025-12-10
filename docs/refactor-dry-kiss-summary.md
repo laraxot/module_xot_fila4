@@ -26,14 +26,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/phpstan-consolidated.md`
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/project_docs/phpstan-consolidated.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -44,6 +48,8 @@
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/phpstan-consolidated.md`
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - ✅ **99% riduzione duplicazioni**
 - ✅ **Single Source of Truth** implementato
 
@@ -71,14 +77,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/project_docs/translations-consolidated.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -89,6 +99,8 @@
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - ✅ **99% riduzione duplicazioni**
 - ✅ **Regole universali** per tutti i moduli
 
@@ -113,14 +125,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -131,6 +147,8 @@
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - ✅ **96% riduzione duplicazioni**
 - ✅ **Procedure universali** standardizzate
 
@@ -344,14 +362,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 /laravel/Modules/Xot/docs/
 =======
 /laravel/Modules/Xot/project_docs/
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -362,6 +384,8 @@
 =======
 /laravel/Modules/Xot/docs/
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 ├── phpstan-consolidated.md          # TUTTE le regole PHPStan
 ├── translations-consolidated.md     # TUTTE le regole traduzioni
 ├── migrations-consolidated.md       # TUTTE le regole migrazioni
@@ -382,14 +406,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 /laravel/Modules/{Module}/docs/
 =======
 /laravel/Modules/{Module}/project_docs/
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -400,6 +428,8 @@
 =======
 /laravel/Modules/{Module}/docs/
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 ├── README.md                        # Overview modulo
 ├── api.md                          # API specifiche modulo
 └── features/                       # Funzionalità specifiche

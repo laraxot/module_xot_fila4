@@ -30,14 +30,18 @@ Questo documento sostituisce e consolida **40+ file di best practices duplicati*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - **Questo file**: `/laravel/Modules/Xot/docs/best-practices-consolidated.md`
 =======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/best-practices-consolidated.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -48,6 +52,8 @@ Questo documento sostituisce e consolida **40+ file di best practices duplicati*
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/best-practices-consolidated.md`
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 - **Implementazione**: Codice nei singoli moduli (solo implementazione, non docs)
 
 ## Principi Fondamentali

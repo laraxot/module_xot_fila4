@@ -123,6 +123,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [auth.md](../../../Xot/docs/install/auth.md)
 * [auth.md](../../../User/docs/lang/en/auth.md)
@@ -143,10 +144,16 @@ return [
 * [auth.md](../../../Tenant/docs/it/config/auth.md)
 >>>>>>> 2bad128c (.)
 =======
+* [auth.md](../../../Xot/docs/install/auth.md)
+* [auth.md](../../../User/docs/lang/en/auth.md)
+* [auth.md](../../../Tenant/docs/it/config/auth.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [auth.md](../../../Xot/project_docs/install/auth.md)
 * [auth.md](../../../User/project_docs/lang/en/auth.md)
 * [auth.md](../../../Tenant/project_docs/it/config/auth.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -171,6 +178,8 @@ return [
 * [auth.md](../../../User/docs/lang/en/auth.md)
 * [auth.md](../../../Tenant/docs/it/config/auth.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 
 ### Versione Incoming

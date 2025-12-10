@@ -38,9 +38,14 @@ return new class extends XotBaseMigration {
         // -- CREATE --
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -56,6 +61,10 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -74,6 +83,10 @@ return new class extends XotBaseMigration {
             $table->schemalessAttributes('extra_attributes');
             $table->unique(['model_id', 'model_type'], 'morph_unique');
         });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
@@ -109,6 +122,7 @@ return new class extends XotBaseMigration {
     }
 
     // end up
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,9 +138,12 @@ return new class extends XotBaseMigration {
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 =======
@@ -141,6 +158,8 @@ return new class extends XotBaseMigration {
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $this->tableCreate(
             static function (Blueprint $table): void {
                 $table->increments('id');
@@ -153,16 +172,22 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // -- UPDATE --
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> b93ef594b4 (.)
 
         // -- UPDATE --
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $this->tableUpdate(function (Blueprint $table): void {
             // if (! $this->hasColumn('name')) {
             //    $table->string('name')->nullable();
@@ -184,6 +209,7 @@ return new class extends XotBaseMigration {
     // end up
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
         // -- UPDATE --
 =======
@@ -191,12 +217,15 @@ return new class extends XotBaseMigration {
 =======
 <<<<<<< HEAD
 
+=======
+>>>>>>> 358ba79a7 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 
         // -- UPDATE --
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
@@ -210,6 +239,8 @@ return new class extends XotBaseMigration {
 
         // -- UPDATE --
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
         $this->tableUpdate(
             function (Blueprint $table): void {
                 // if (! $this->hasColumn('name')) {
@@ -229,6 +260,7 @@ return new class extends XotBaseMigration {
 
     // end up
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,5 +303,9 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
     // end down
 };

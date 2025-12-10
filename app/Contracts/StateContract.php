@@ -8,11 +8,15 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 use Filament\Schemas\Components\Component;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -38,6 +42,18 @@ use Filament\Schemas\Components\Component;
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -66,6 +82,7 @@ interface StateContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, Component>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +105,9 @@ interface StateContract
 >>>>>>> a67e542f (.)
 =======
 =======
+     * @return array<string, Component>
+>>>>>>> 358ba79a7 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +122,7 @@ interface StateContract
      * @return array<string, \Filament\Forms\Components\Component>
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -139,6 +160,8 @@ interface StateContract
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
      */
     public function modalFormSchema(): array;
 

@@ -209,6 +209,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -218,8 +219,11 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,9 +280,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 >>>>>>> 88e35986 (.)
 =======
+>>>>>>> e0b8ebe3 (.)
+=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,7 +416,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 ```
 
 ### Formato Non Corretto
@@ -418,6 +430,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 # Collegamenti Non Corretti
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,9 +551,18 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 =======
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
+>>>>>>> 6cba4fe (.)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)

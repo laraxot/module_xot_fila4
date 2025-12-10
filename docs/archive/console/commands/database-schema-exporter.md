@@ -60,6 +60,7 @@ Tabelle trovate: users, migrations, password_resets
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
@@ -76,9 +77,14 @@ Tabelle trovate: users, migrations, password_resets
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 >>>>>>> 2bad128c (.)
 =======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+>>>>>>> 358ba79a7 (.)
+=======
 * [database-schema-exporter.md](../../../Xot/project_docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/project_docs/console/commands/database-schema-exporter.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -99,4 +105,6 @@ Tabelle trovate: users, migrations, password_resets
 * [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
 

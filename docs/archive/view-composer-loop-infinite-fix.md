@@ -277,6 +277,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 >>>>>>> 5a14301c (.)
 =======
@@ -386,17 +387,23 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
 =======
+>>>>>>> 358ba79a7 (.)
+=======
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -405,6 +412,8 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> 358ba79a7 (.)
 
 ---
 

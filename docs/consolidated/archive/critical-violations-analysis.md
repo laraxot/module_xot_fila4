@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Analisi Violazioni Critiche XotBaseResource
 
 ## 🚨 Violazioni Identificate
@@ -128,6 +131,7 @@ class NotificationLogResource extends XotBaseResource
 ### Documentazione Moduli
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,7 +359,15 @@ class NotificationLogResource extends XotBaseResource
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- [Notify Module README](../../../Notify/project_docs/README.md)
+- [User Module README](../../../User/project_docs/README.md)
+- [SaluteOra Module README](../../../SaluteOra/project_docs/README.md)
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 ### Standard di Riferimento
 - [NavigationLabelTrait](../traits/navigation-label-trait.md)
@@ -381,6 +393,7 @@ class NotificationLogResource extends XotBaseResource
 
 **Questo documento serve come promemoria permanente dell'importanza di seguire l'architettura stabilita e consultare sempre la documentazione prima di implementare soluzioni.** 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -389,3 +402,5 @@ class NotificationLogResource extends XotBaseResource
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

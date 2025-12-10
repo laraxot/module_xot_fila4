@@ -25,6 +25,9 @@ use Filament\Widgets\WidgetConfiguration;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
 class Dashboard extends XotBaseDashboard
 {
 <<<<<<< HEAD
@@ -44,6 +47,9 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0b8ebe3 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +59,7 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7afadf9 (.)
@@ -75,7 +82,12 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 5e58b29b (.)
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -86,12 +98,26 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0b8ebe3 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 7468a7d2 (.)
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 use Filament\Forms\Form;
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+=======
+use Filament\Forms\Components\DatePicker;
+use Filament\Schemas\Components\Section;
+>>>>>>> 358ba79a7 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Section;
@@ -332,7 +358,14 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -344,6 +377,25 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +464,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> e0b8ebe3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,6 +483,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -533,5 +588,12 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+>>>>>>> 358ba79a7 (.)
 }

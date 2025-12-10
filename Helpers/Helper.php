@@ -18641,6 +18641,7 @@ if (!function_exists('getRelationships')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -18708,6 +18709,8 @@ if (!function_exists('getRelationships')) {
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
                 $modelInstance = is_string($model) ? new $model() : $model;
                 $return = $reflection->invoke($modelInstance);
                 $check = $return instanceof Relation;
@@ -18715,6 +18718,7 @@ if (!function_exists('getRelationships')) {
                 if ($check) {
                     $related_model = new ReflectionClass($return->getRelated());
                     $model=$related_model->getName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19074,6 +19078,15 @@ if (!function_exists('getRelationships')) {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+                $return = $reflection->invoke($model);
+                $check = $return instanceof Relation;
+                /*
+                if ($check) {
+                    $related_model = new ReflectionClass($return->getRelated())->getName();
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
                     $msg = [
                         'name' => $reflection->name,
                         'type' => class_basename($return),
@@ -19128,6 +19141,7 @@ if (!function_exists('getRelationships')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -19542,11 +19556,20 @@ if (!function_exists('getRelationships')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+=======
+>>>>>>> 71f31700 (.)
                         'model' => $model,
                     ];
                     $data[] = $msg;
                 }
                 
+=======
+                        'model' => $related_model,
+                    ];
+                    $data[] = $msg;
+                }
+                    */
+>>>>>>> c84488b (.)
             } catch (ErrorException) {
 <<<<<<< HEAD
 <<<<<<< HEAD

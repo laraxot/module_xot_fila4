@@ -72,6 +72,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -86,10 +87,13 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 71f31700 (.)
 uses(TestCase::class)->in('Feature', 'Unit');
 =======
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +232,9 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -235,6 +242,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -572,10 +580,13 @@ pest()->extend(TestCase::class)
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+=======
+>>>>>>> 71f31700 (.)
  * | Quando definisci aspettative globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
@@ -1333,11 +1344,14 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 71f31700 (.)
+=======
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
 
+<<<<<<< HEAD
 >>>>>>> 71586de2 (.)
 =======
  * | Quando definisci aspettative globali, saranno disponibili
@@ -1369,6 +1383,9 @@ namespace Modules\Xot\Tests\Pest;
  * |
  */
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1382,6 +1399,7 @@ namespace Modules\Xot\Tests\Pest;
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1606,10 +1624,17 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 3849ae0e (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+// function something() {
+//     // ...
+// }
+=======
+>>>>>>> 71f31700 (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2207,3 +2232,6 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)

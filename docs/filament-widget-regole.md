@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
   ```
 - **Esempio sbagliato:**
@@ -24,11 +25,14 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
   protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
   ```
 - **Esempio sbagliato:**
   ```php
   protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,11 +50,14 @@
   ```php
   protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71f31700 (.)
   ```
 
 ## Label e Placeholder
 
 - Non usare MAI // Label gestita automaticamente da LangServiceProvider, ->placeholder(), né stringhe tradotte direttamente nei componenti Filament.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +79,9 @@
 =======
 - Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/SaluteOra/lang/it/widgets.php).
 >>>>>>> 53d6a6ba (.)
+=======
+- Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/SaluteOra/lang/it/widgets.php).
+>>>>>>> 71f31700 (.)
 - Chi estende XotBaseWidget, XotBaseResource, XotBasePage deve affidarsi solo alle chiavi di traduzione.
 - **Esempio corretto:**
   ```php
@@ -84,6 +94,7 @@
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,3 +116,6 @@ Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-fu
 =======
 Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-functionality.md) 
 >>>>>>> 53d6a6ba (.)
+=======
+Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-functionality.md) 
+>>>>>>> 71f31700 (.)

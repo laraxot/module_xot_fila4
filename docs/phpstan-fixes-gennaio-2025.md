@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -253,6 +254,8 @@ public function getModels(): array
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
 # PHPStan Fixes Gennaio 2025 - Modulo Xot
 
 ## Riassunto delle Correzioni
@@ -424,6 +427,7 @@ public function getAllColors(): array
 - [Exception Handler Types](exceptions/exception-handler-types.md)
 - [PHPStan Level 10 Guide](phpstan_livello10_linee_guida.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,3 +700,6 @@ public function getModels(): array
 
 
 >>>>>>> 3fbbf1f5 (.)
+=======
+*Ultimo aggiornamento: Gennaio 2025* 
+>>>>>>> 71f31700 (.)

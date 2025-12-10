@@ -35,6 +35,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -87,6 +88,10 @@ return new class extends XotBaseMigration {
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->string('id')->primary();
             // $table->foreignId('user_id')->nullable()->index();
@@ -123,6 +128,9 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5ca118c34 (.)
 =======
@@ -290,6 +298,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -345,5 +354,9 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
     }
 };

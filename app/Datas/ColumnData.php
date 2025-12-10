@@ -22,10 +22,13 @@ class ColumnData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f7e6113c6 (.)
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +57,7 @@ class ColumnData extends Data
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,4 +161,9 @@ class ColumnData extends Data
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> aa96bb619 (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
 }

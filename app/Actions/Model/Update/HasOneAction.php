@@ -122,6 +122,7 @@ class HasOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -150,6 +151,10 @@ class HasOneAction
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
         Assert::isInstanceOf(
             $relationDTO->rows,
             HasOne::class,
@@ -166,6 +171,9 @@ class HasOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5ca118c34 (.)
 =======
@@ -212,6 +220,7 @@ class HasOneAction
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +271,10 @@ class HasOneAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
 
         /** @var HasOne $relation */
         $relation = $relationDTO->rows;

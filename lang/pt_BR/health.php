@@ -15,8 +15,11 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f7e6113c6 (.)
             'heading' => 'Saúde da aplicação',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +76,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -131,6 +135,11 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> aa96bb619 (.)
+=======
+=======
+            'heading' => 'Saúde da aplicação',
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
             'navigation' => [
                 'group' => 'Configurações',
                 'label' => 'Verificações de saúde',
@@ -147,6 +156,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -226,6 +236,13 @@ return [
 
 >>>>>>> f1d4085 (.)
 >>>>>>> aa96bb619 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',
             ],

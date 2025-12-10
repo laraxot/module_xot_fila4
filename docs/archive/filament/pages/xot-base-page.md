@@ -96,19 +96,11 @@ Verifica se l'utente ha l'accesso alla pagina.
    - Laravel Authorization
 
 3. **Compatibilità**
-<<<<<<< HEAD
    - Compatibile con Filament 4.x
-=======
-   - Compatibile con Filament 3.x
->>>>>>> a5dccfe (.)
    - Richiede PHP 8.1+
 
 ## Link Correlati
 
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Best Practices](../../../docs/best-practices.md)
-<<<<<<< HEAD
 - [Guida Traduzioni](../../../docs/translations.md) 
-=======
-- [Guida Traduzioni](../../../docs/translations.md) 
->>>>>>> a5dccfe (.)

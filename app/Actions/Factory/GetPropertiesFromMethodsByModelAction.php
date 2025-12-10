@@ -71,6 +71,7 @@ namespace Modules\Xot\Actions\Factory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -285,10 +286,13 @@ use SplFileObject;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 76bec91a (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,6 +601,14 @@ use function Safe\preg_replace;
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+>>>>>>> 76bec91a (.)
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -605,6 +617,7 @@ use function Safe\preg_replace;
  */
 class GetPropertiesFromMethodsByModelAction
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,10 +739,14 @@ use SplFileObject;
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+    use QueueableAction;
+>>>>>>> 76bec91a (.)
 
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1137,6 +1154,9 @@ use SplFileObject;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+>>>>>>> 76bec91a (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -1481,6 +1501,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -1725,6 +1746,10 @@ use SplFileObject;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+>>>>>>> 76bec91a (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -1777,6 +1802,7 @@ use SplFileObject;
     /**
      * Estrae le relazioni belongsTo dal codice.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1906,10 +1932,13 @@ use SplFileObject;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 76bec91a (.)
      * @param  string  $codeStr  Il codice da analizzare
      * @param  Model  $model  Il modello
      * @param  string  $method  Il nome del metodo
      * @param  array<string, string>  &$data  L'array in cui salvare i dati estratti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2321,6 +2350,8 @@ use SplFileObject;
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -2389,6 +2420,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! ($relationObj instanceof Relation)) {
 =======
             if (!($relationObj instanceof Relation)) {
@@ -2605,6 +2637,9 @@ use SplFileObject;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+            if (! ($relationObj instanceof Relation)) {
+>>>>>>> 76bec91a (.)
                 return;
             }
 
@@ -2662,6 +2697,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! method_exists($relationObj, 'getForeignKeyName')) {
 =======
             if (!method_exists($relationObj, 'getForeignKeyName')) {
@@ -2878,6 +2914,9 @@ use SplFileObject;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+>>>>>>> 76bec91a (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -2942,6 +2981,7 @@ use SplFileObject;
             $fakerAction = app(GetFakerAction::class);
             Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3517,6 +3557,9 @@ use SplFileObject;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+            $type = 'factory('.$relatedClass.'::class)';
+>>>>>>> 76bec91a (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione

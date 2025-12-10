@@ -81,6 +81,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 =======
@@ -321,6 +322,10 @@
 >>>>>>> 099ab7a0 (.)
 =======
 >>>>>>> 96276392 (.)
+=======
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> 3baa48bd (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -373,6 +378,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Modules/Xot/docs/
 =======
 <<<<<<< HEAD
@@ -568,6 +574,9 @@
 >>>>>>> 099ab7a0 (.)
 =======
 >>>>>>> 96276392 (.)
+=======
+   Modules/Xot/docs/
+>>>>>>> 3baa48bd (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -676,6 +685,7 @@ public function example(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/{ModuleName}/docs/
 =======
 <<<<<<< HEAD
@@ -871,6 +881,9 @@ Modules/{ModuleName}/project_docs/
 >>>>>>> 099ab7a0 (.)
 =======
 >>>>>>> 96276392 (.)
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> 3baa48bd (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -999,6 +1012,7 @@ php artisan api:generate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -1065,19 +1079,11 @@ php artisan api:generate
 >>>>>>> 099ab7a0 (.)
 =======
 >>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
-=======
-* [documentation.md](../../../Xot/project_docs/documentation.md)
-* [documentation.md](../../../Xot/project_docs/guidelines/documentation.md)
-* [documentation.md](../../../Cms/project_docs/roadmap/features/documentation.md)
->>>>>>> f1d4085 (.)
-=======
-* [documentation.md](../../../Xot/docs/documentation.md)
-* [documentation.md](../../../Xot/docs/guidelines/documentation.md)
-* [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
->>>>>>> 73eab74 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

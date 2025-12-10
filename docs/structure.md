@@ -1101,6 +1101,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 =======
@@ -1341,6 +1342,10 @@ tests_old
 >>>>>>> 099ab7a0 (.)
 =======
 >>>>>>> 96276392 (.)
+=======
+- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/docs/phpstan/)
+>>>>>>> 3baa48bd (.)
 
 
 ### Versione Incoming
@@ -1391,6 +1396,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1505,6 +1511,8 @@ tests_old
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1521,6 +1529,7 @@ tests_old
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1764,6 +1773,8 @@ tests_old
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
 
 
 ---

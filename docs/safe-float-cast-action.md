@@ -205,6 +205,7 @@ class SafeFloatCastActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ---
 
@@ -262,11 +263,14 @@ class SafeFloatCastActionTest extends TestCase
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
 - [DRY Principle](../../docs/dry-principle.md)
 - [KISS Principle](../../docs/kiss-principle.md)
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,3 +348,5 @@ class SafeFloatCastActionTest extends TestCase
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)

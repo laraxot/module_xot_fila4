@@ -128,6 +128,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - Homepage blade: `Themes/One/resources/views/pages/index.blade.php` (`pub_theme::pages.index`).
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,10 +223,13 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
 - Content from `config/local/saluteora/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets (SaluteOra)
 - SVG in `laravel/Modules/SaluteOra/resources/svg/`, kebab-case; reference as `saluteora-{name}`.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +374,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.

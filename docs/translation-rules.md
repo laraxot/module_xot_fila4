@@ -164,6 +164,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
@@ -218,10 +219,13 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/docs/errori_comuni_traduzione.md)
 - [Convenzioni di documentazione](/laravel/Modules/Xot/docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/docs/translation_rules.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,3 +302,5 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)

@@ -77,8 +77,8 @@ use Modules\Xot\Filament\Pages\MainDashboard;
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Sistema di Autorizzazioni](../../../docs/auth/index.md)
-<<<<<<< HEAD
 - [Gestione Ruoli](../../../docs/auth/roles.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,3 +212,5 @@ use Modules\Xot\Filament\Pages\MainDashboard;
 - [Gestione Ruoli](../../../docs/auth/roles.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)

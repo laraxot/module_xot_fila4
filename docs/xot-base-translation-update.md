@@ -112,6 +112,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
@@ -228,3 +229,7 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+>>>>>>> ba7efc23f (.)

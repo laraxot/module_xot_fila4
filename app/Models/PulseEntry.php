@@ -184,6 +184,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property int|null $value
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Modules\Xot\Database\Factories\PulseEntryFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseEntry newModelQuery()
  * @method static Builder<static>|PulseEntry newQuery()
@@ -194,6 +195,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseEntry whereTimestamp($value)
  * @method static Builder<static>|PulseEntry whereType($value)
  * @method static Builder<static>|PulseEntry whereValue($value)
+ *
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

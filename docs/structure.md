@@ -1103,6 +1103,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 =======
@@ -1132,6 +1133,8 @@ tests_old
 >>>>>>> d79d36e0 (.)
 =======
 >>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 =======
@@ -1142,6 +1145,7 @@ tests_old
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1355,6 +1359,8 @@ tests_old
 - [Report PHPStan](/project_docs/phpstan/)
 >>>>>>> f1d4085 (.)
 >>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
 
 
 ### Versione Incoming
@@ -1407,6 +1413,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1525,6 +1532,10 @@ tests_old
 >>>>>>> 3baa48bd (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1586,6 +1597,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1637,6 +1649,8 @@ tests_old
 =======
 >>>>>>> 6d1255a8 (.)
 =======
+>>>>>>> 3ae5e299 (.)
+=======
 * [structure.md](bashscripts/project_docs/structure.md)
 * [structure.md](../../../Gdpr/project_docs/structure.md)
 * [structure.md](../../../Notify/project_docs/structure.md)
@@ -1654,6 +1668,7 @@ tests_old
 * [structure.md](../../../Cms/project_docs/themes/structure.md)
 * [structure.md](../../../Cms/project_docs/components/structure.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1793,6 +1808,10 @@ tests_old
 >>>>>>> 3baa48bd (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
 
 
 ---

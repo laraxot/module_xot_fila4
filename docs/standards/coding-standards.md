@@ -31,6 +31,7 @@
 # Standard di Codice per il progetto
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +85,7 @@
 =======
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,6 +223,8 @@
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 >>>>>>> f1d4085 (.)
 >>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
 
 Questo documento contiene gli standard di codice specifici per il progetto il progetto. Per le linee guida generali sulla scrittura del codice, consultare la [documentazione del modulo Xot](../CODE-STANDARDS.md).
 
@@ -341,6 +345,7 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 =======
 <<<<<<< HEAD
@@ -369,6 +374,8 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 >>>>>>> d79d36e0 (.)
 =======
 >>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 =======
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
@@ -376,6 +383,7 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 =======
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -545,6 +553,8 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 >>>>>>> f1d4085 (.)
 >>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
 
 Questo documento contiene gli standard di codice specifici per il progetto il progetto. Per le linee guida generali sulla scrittura del codice, consultare la [documentazione del modulo Xot](../CODE-STANDARDS.md).
 
@@ -859,6 +869,7 @@ class StorePatientRequest extends FormRequest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -977,6 +988,10 @@ class StorePatientRequest extends FormRequest
 >>>>>>> 3baa48bd (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
 - [Convenzioni](../../../docs/conventions.md)
 - [Naming Conventions](../../../docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
@@ -1026,6 +1041,7 @@ class StorePatientRequest extends FormRequest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1077,11 +1093,14 @@ class StorePatientRequest extends FormRequest
 =======
 >>>>>>> 6d1255a8 (.)
 =======
+>>>>>>> 3ae5e299 (.)
+=======
 - [Convenzioni](../../../project_docs/conventions.md)
 - [Naming Conventions](../../../project_docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)## Documentazione del Codice
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1221,6 +1240,10 @@ class StorePatientRequest extends FormRequest
 >>>>>>> 3baa48bd (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
 
 ### PHPDoc
 
@@ -1519,6 +1542,7 @@ git commit -m "fix: correzione calcolo età paziente"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1637,6 +1661,10 @@ git commit -m "fix: correzione calcolo età paziente"
 >>>>>>> 3baa48bd (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
 * [coding-standards.md](../../../Xot/docs/standards/coding-standards.md)
 * [coding-standards.md](../../../Xot/docs/conventions/coding-standards.md)
 
@@ -1687,7 +1715,10 @@ git commit -m "fix: correzione calcolo età paziente"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3ae5e299 (.)
 =======
 * [coding-standards.md](../../../Xot/project_docs/standards/coding-standards.md)
 * [coding-standards.md](../../../Xot/project_docs/conventions/coding-standards.md)
@@ -1699,6 +1730,8 @@ git commit -m "fix: correzione calcolo età paziente"
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 >>>>>>> 6d1255a8 (.)
 <<<<<<< HEAD

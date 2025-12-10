@@ -99,6 +99,7 @@ use Nwidart\Modules\Module as NModule;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\json_encode;
 use Sushi\Sushi;
 
@@ -121,10 +122,15 @@ use Sushi\Sushi;
 >>>>>>> 3baa48bd (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,12 +144,15 @@ use function Safe\json_encode;
 =======
 >>>>>>> 6d1255a8 (.)
 =======
+>>>>>>> 3ae5e299 (.)
+=======
 
 use function Safe\json_encode;
 
 use Sushi\Sushi;
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +174,10 @@ use Sushi\Sushi;
 >>>>>>> 3baa48bd (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,6 +369,9 @@ class Module extends Model
     {
         $modules = ModuleFacade::all();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
 <<<<<<< HEAD
@@ -396,6 +412,7 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
+<<<<<<< HEAD
 =======
         $modules = Arr::map(
             $modules,
@@ -420,6 +437,8 @@ class Module extends Model
         );
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return array_values($modules);
     }
 

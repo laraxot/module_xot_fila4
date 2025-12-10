@@ -76,6 +76,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -164,10 +165,13 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 =======
 >>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 3ae5e299 (.)
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 <<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6d1255a8 (.)
 =======
@@ -226,12 +230,20 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 <<<<<<< HEAD
 >>>>>>> 7d72abc (.)
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 15def8d (.)
+>>>>>>> 3ae5e299 (.)
 use Spatie\QueueableAction\QueueableAction;
 =======
 use Nwidart\Modules\Module as ModuleInstance;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 >>>>>>> f1d4085 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
 
 class GetAllModelsAction
 {
@@ -239,6 +251,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,11 +486,18 @@ class GetAllModelsAction
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
      *
      * @return array<int, class-string>
 =======
 <<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 15def8d (.)
      */
     public function execute(): array
     {
@@ -497,6 +517,10 @@ class GetAllModelsAction
 
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleNameValue);
             /** @var array<int, class-string> $tmp */
+<<<<<<< HEAD
+=======
+            $res = array_merge($res, $tmp);
+>>>>>>> 3ae5e299 (.)
 <<<<<<< HEAD
 =======
 =======
@@ -796,6 +820,7 @@ class GetAllModelsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> b7afadf9 (.)
@@ -912,6 +937,10 @@ class GetAllModelsAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
         }
 
         return $res;

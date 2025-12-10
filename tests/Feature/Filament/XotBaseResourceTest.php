@@ -2,6 +2,44 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\Xot\Tests\Feature\Filament;
+
+use Filament\Resources\Resource;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Modules\Xot\Tests\TestCase;
+=======
+namespace Modules\Xot\Tests\Feature\Filament;
+
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Modules\Xot\Tests\TestCase;
+use Filament\Resources\Resource;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+
+uses(TestCase::class, RefreshDatabase::class);
+
+beforeEach(function () {
+    $this->resource = new class extends XotBaseResource {
+<<<<<<< HEAD
+        protected static null|string $model = null;
+
+        protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+        protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
+
+        protected static null|int $navigationSort = 1;
+=======
+namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
+
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -9,6 +47,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Tests\TestCase;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        protected static ?int $navigationSort = 1;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 6cba4fe (.)
 uses(TestCase::class, RefreshDatabase::class);
 
 <<<<<<< HEAD
@@ -318,6 +363,7 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 >>>>>>> d2b0a27 (.)
@@ -375,6 +421,8 @@ namespace Modules\Xot\Tests\Feature\Filament;
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
+>>>>>>> 17684f52 (.)
+=======
 >>>>>>> b93ef594b4 (.)
 =======
         protected static ?string $model = null;
@@ -383,6 +431,7 @@ namespace Modules\Xot\Tests\Feature\Filament;
         protected static ?int $navigationSort = 1;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -394,6 +443,8 @@ namespace Modules\Xot\Tests\Feature\Filament;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
     };
 });
 

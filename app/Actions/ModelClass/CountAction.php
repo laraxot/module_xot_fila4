@@ -25,6 +25,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 use Illuminate\Database\Eloquent\Model;
@@ -100,11 +101,15 @@ use InvalidArgumentException;
 use InvalidArgumentException;
 >>>>>>> 399f46d3 (.)
 =======
+use InvalidArgumentException;
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,11 +234,14 @@ use InvalidArgumentException;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +321,9 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 88ea7103 (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
+=======
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\DB;
 =======
@@ -327,6 +338,7 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,11 +390,14 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Models\InformationSchemaTable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -542,6 +557,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -572,7 +591,15 @@ class CountAction
 =======
 >>>>>>> 5a14301c (.)
      *
+<<<<<<< HEAD
      * @throws InvalidArgumentException If model class is invalid or not found
+=======
+<<<<<<< HEAD
+     * @throws InvalidArgumentException If model class is invalid or not found
+=======
+     * @throws \InvalidArgumentException If model class is invalid or not found
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      *
      * @return int The total count of records
 <<<<<<< HEAD

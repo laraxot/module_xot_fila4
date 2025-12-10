@@ -53,6 +53,7 @@ use Illuminate\Contracts\View\View;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -69,6 +70,8 @@ use Illuminate\Contracts\View\View;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +83,7 @@ use Illuminate\Contracts\View\View;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -163,6 +167,8 @@ use Illuminate\Contracts\View\View;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Support\Collection;
 >>>>>>> 5a14301c (.)
@@ -213,6 +219,31 @@ use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
+=======
+=======
+use Illuminate\Support\Collection;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Illuminate\Support\Collection;
+use Maatwebsite\Excel\Facades\Excel;
+use Modules\Xot\Exports\ViewExport;
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+>>>>>>> b93ef594b4 (.)
+=======
+use Illuminate\Support\Collection;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Maatwebsite\Excel\Facades\Excel;
+use Modules\Xot\Exports\ViewExport;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 /**
  * Classe per l'esportazione di viste in formato Excel.
@@ -312,6 +343,7 @@ class ExportXlsByView
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -344,6 +376,8 @@ class ExportXlsByView
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,6 +388,7 @@ class ExportXlsByView
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -437,6 +472,8 @@ class ExportXlsByView
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
         null|string $transKey = null,
 >>>>>>> 5a14301c (.)
 =======
@@ -454,11 +491,49 @@ class ExportXlsByView
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        ?string $transKey = null,
+    ): BinaryFileResponse {
+        // Assicuriamo che $fields sia un array di stringhe
+        $stringFields = array_map(function (string|int|float|bool $field): string {
+                return strval($field);
+            }, array_values($fields));
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        null|string $transKey = null,
+    ): BinaryFileResponse {
+        // Assicuriamo che $fields sia un array di stringhe
+        $stringFields = array_map(strval(...), array_values($fields));
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
         $export = new ViewExport(
             view: $view,
             transKey: $transKey,
+<<<<<<< HEAD
             fields: $stringFields,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            fields: $stringFields,
+=======
+            fields: $stringFields
+>>>>>>> a12f125f4a (.)
+=======
+            fields: $stringFields,
+>>>>>>> b93ef594b4 (.)
+=======
+            fields: $stringFields
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         );
 
         return Excel::download($export, $filename);

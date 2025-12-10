@@ -54,6 +54,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 =======
 =======
@@ -86,7 +87,20 @@ use Filament\Widgets\WidgetConfiguration;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Spatie\Health\Checks\Check;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -106,6 +120,7 @@ use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
 use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +395,8 @@ use Spatie\Health\Checks\Check;
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -390,6 +407,7 @@ use Spatie\Health\Checks\Check;
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -402,6 +420,8 @@ use Spatie\Health\Checks\Check;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -436,9 +456,21 @@ class HealthPage extends Page
      */
     protected $listeners = ['refresh-component' => '$refresh'];
 
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
 
     protected string $view = 'xot::filament.pages.health';
+=======
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
+
+    protected string $view = 'xot::filament.pages.health';
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-heart';
+
+    protected static string $view = 'xot::filament.pages.health';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
     public function refresh(): void
     {
@@ -459,6 +491,10 @@ class HealthPage extends Page
 =======
 >>>>>>> 5a14301c (.)
         $checks = [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
             OptimizedAppCheck::new(),
             DebugModeCheck::new(),
             EnvironmentCheck::new(),
@@ -565,6 +601,7 @@ class HealthPage extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -580,6 +617,8 @@ class HealthPage extends Page
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 =======
 =======
             Checks\OptimizedAppCheck::new(),
@@ -618,6 +657,7 @@ class HealthPage extends Page
         /** @var array<\Spatie\Health\Checks\Check> $checks */
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -670,6 +710,8 @@ class HealthPage extends Page
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -701,6 +743,20 @@ class HealthPage extends Page
     {
         return [
             Action::make('refresh')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+                
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()
@@ -729,7 +785,15 @@ class HealthPage extends Page
     protected function getHeaderWidgets(): array
     {
         return [
+<<<<<<< HEAD
             HealthOverviewWidget::make(),
+=======
+<<<<<<< HEAD
+            HealthOverviewWidget::make(),
+=======
+            Widgets\HealthOverviewWidget::make(),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         ];
     }
 

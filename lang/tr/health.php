@@ -23,12 +23,15 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
             'heading' => 'Uygulama Sağlığı',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +110,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +203,11 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+=======
+            'heading' => 'Uygulama Sağlığı',
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
             'navigation' => [
                 'group' => 'Ayarlar',
                 'label' => 'Uygulama Sağlığı',
@@ -223,6 +232,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -340,6 +350,13 @@ return [
 
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
             'notifications' => [
                 'check_results' => 'Sonuçları kontrol et.',
             ],

@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -68,6 +69,10 @@
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
 declare(strict_types=1);
 
 
@@ -93,6 +98,7 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +192,8 @@ return [
 =======
 >>>>>>> efbf15eba (.)
 =======
+>>>>>>> 9f27fc9a6 (.)
+=======
 return [
     /*
     |--------------------------------------------------------------------------
@@ -197,6 +205,7 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,10 +263,15 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +344,10 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -378,6 +396,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> f7e6113c6 (.)
 =======
@@ -593,6 +614,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -666,6 +688,10 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
 
     'contexts' => [
         'User' => [
@@ -673,6 +699,7 @@ return [
             'traits' => [
                 'HasFactory',
                 'Notifiable',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,6 +772,10 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -773,6 +804,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> f7e6113c6 (.)
 =======
@@ -890,6 +924,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -958,6 +993,10 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
         ],
         'Doctor' => [
             'extends' => 'User',
@@ -978,6 +1017,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1046,6 +1086,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
                 'HasParent',
 =======
                 'HasParent'
@@ -1053,6 +1095,7 @@ return [
 =======
                 'HasParent',
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1109,6 +1152,8 @@ return [
                 'HasParent'
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
             ],
             'context' => 'medical',
             'validations' => [
@@ -1128,6 +1173,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'specialization',
             ],
 <<<<<<< HEAD
@@ -1233,6 +1279,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
                 'specialization',
             ],
 =======
@@ -1284,6 +1332,7 @@ return [
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 358ba79a7 (.)
@@ -1313,6 +1362,8 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
         ],
         'Patient' => [
             'extends' => 'User',
@@ -1333,6 +1384,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1401,6 +1453,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
                 'HasParent',
 =======
                 'HasParent'
@@ -1408,6 +1462,7 @@ return [
 =======
                 'HasParent',
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1464,10 +1519,13 @@ return [
                 'HasParent'
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1540,6 +1598,10 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
                 'medical_history',
             ],
         ],
@@ -1552,6 +1614,7 @@ return [
      * | Regole di validazione per i contesti dei modelli.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1628,6 +1691,8 @@ return [
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
 =======
                 'medical_history'
             ]
@@ -1731,6 +1796,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -1804,10 +1870,15 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1928,6 +1999,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
         'throw_exceptions' => false,
     ],
 =======
@@ -1979,6 +2052,7 @@ return [
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 358ba79a7 (.)
@@ -2008,4 +2082,6 @@ return [
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
 ];

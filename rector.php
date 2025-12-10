@@ -68,6 +68,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -133,6 +134,10 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
     $rectorConfig->paths([
         __DIR__.'/Modules',
         __DIR__.'/app',
@@ -183,6 +188,9 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> f7e6113c6 (.)
 =======
@@ -302,6 +310,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -375,12 +384,17 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
     // $rectorConfig->rule(RedirectRouteToToRouteHelperRector::class);
 
     // define sets of rules
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +472,10 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         // SetList::DEAD_CODE,
@@ -490,6 +508,9 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> f7e6113c6 (.)
 =======
@@ -576,6 +597,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -651,6 +673,10 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
 
     $rectorConfig->importNames();
 };

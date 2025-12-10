@@ -43,6 +43,7 @@ class ExportTreeXlsAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -59,6 +60,10 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
             ->tooltip(__('xot::actions.export_xls'))
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
@@ -208,6 +213,7 @@ class ExportTreeXlsAction extends Action
                 $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
 =======
                 $filename = class_basename($livewire) . '-' . collect($tableFilters)->flatten()->implode('-') . '.xlsx';
+<<<<<<< HEAD
 =======
 >>>>>>> 6d1255a8 (.)
 >>>>>>> efbf15eba (.)
@@ -450,9 +456,20 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+<<<<<<< HEAD
 >>>>>>> 6d1255a8 (.)
+<<<<<<< HEAD
 >>>>>>> efbf15eba (.)
+=======
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 15def8d (.)
+>>>>>>> 3ae5e299 (.)
+>>>>>>> 9f27fc9a6 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
                 // $query = $livewire->getFilteredTableQuery(); // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
@@ -655,20 +672,33 @@ class ExportTreeXlsAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 6d1255a8 (.)
 >>>>>>> efbf15eba (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+>>>>>>> 9f27fc9a6 (.)
                     $fields = array_map(fn ($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
                     // PHPStan: $fields is array after array_map
 =======
+=======
+>>>>>>> 15def8d (.)
 <<<<<<< HEAD
                     $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
 =======
                     $fields = array_map(fn ($field) => is_string($field) ? $field : (string) $field, (array) $fields);
 >>>>>>> f1d4085 (.)
+=======
+                    $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
+>>>>>>> 73eab74 (.)
                     Assert::isArray($fields);
 >>>>>>> 7d72abc (.)
                 }
@@ -991,19 +1021,34 @@ class ExportTreeXlsAction extends Action
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 <<<<<<< HEAD
 >>>>>>> 71586de2 (.)
 =======
 =======
+=======
+>>>>>>> 15def8d (.)
 <<<<<<< HEAD
     public static function getDefaultName(): null|string
 =======
     public static function getDefaultName(): ?string
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+<<<<<<< HEAD
 >>>>>>> 6d1255a8 (.)
+<<<<<<< HEAD
 >>>>>>> efbf15eba (.)
+=======
+=======
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 15def8d (.)
+>>>>>>> 3ae5e299 (.)
+>>>>>>> 9f27fc9a6 (.)
     {
         return 'export_tree_xls';
     }

@@ -131,12 +131,15 @@ class PulseAggregateFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
         return [];
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +174,7 @@ class PulseAggregateFactory extends Factory
         return [
         ];
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,5 +257,10 @@ class PulseAggregateFactory extends Factory
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> efbf15eba (.)
+=======
+=======
+        return [];
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
     }
 }

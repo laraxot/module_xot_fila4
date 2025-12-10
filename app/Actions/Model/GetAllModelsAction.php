@@ -50,6 +50,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -171,11 +172,19 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> b956ebe0 (.)
 =======
+=======
+>>>>>>> 3ae5e299 (.)
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 <<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+<<<<<<< HEAD
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 15def8d (.)
+>>>>>>> 3ae5e299 (.)
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,7 +208,13 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> efbf15eba (.)
+=======
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
 
 class GetAllModelsAction
 {
@@ -255,6 +270,7 @@ class GetAllModelsAction
 =======
 >>>>>>> 091f883c (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,12 +375,22 @@ class GetAllModelsAction
 =======
 =======
 >>>>>>> 6d1255a8 (.)
+<<<<<<< HEAD
 >>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 3ae5e299 (.)
+>>>>>>> 9f27fc9a6 (.)
      *
      * @return array<int, class-string>
 =======
 <<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 15def8d (.)
      */
     public function execute(): array
     {
@@ -581,6 +607,7 @@ class GetAllModelsAction
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -642,6 +669,7 @@ class GetAllModelsAction
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -694,7 +722,14 @@ class GetAllModelsAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 6d1255a8 (.)
+<<<<<<< HEAD
 >>>>>>> efbf15eba (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
+>>>>>>> 9f27fc9a6 (.)
         }
 
         return $res;

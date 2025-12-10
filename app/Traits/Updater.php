@@ -25,6 +25,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
@@ -50,9 +51,22 @@ use Webmozart\Assert\Assert;
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @property-read ProfileContract|null $deleter
+=======
+<<<<<<< HEAD
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $updater
+ * @property-read ProfileContract|null $deleter
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  */
 trait Updater
 {
@@ -95,6 +109,7 @@ trait Updater
         // @phpstan-ignore return.type
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,10 +287,18 @@ trait Updater
 >>>>>>> 6d1255a8 (.)
 =======
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 0117b849c (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +307,7 @@ trait Updater
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
@@ -300,11 +324,14 @@ trait Updater
 =======
 =======
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
         return $this->belongsTo(
             $profileClass,
             'created_by',
             'user_id'
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +355,8 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 >>>>>>> a12f125f4a (.)
 =======
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
@@ -335,6 +364,7 @@ trait Updater
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
@@ -372,6 +402,8 @@ trait Updater
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
     }
 
     /**
@@ -479,9 +511,13 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> efbf15eba (.)
 =======
 >>>>>>> 9f27fc9a6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 0117b849c (.)
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -703,10 +739,18 @@ trait Updater
 >>>>>>> 6d1255a8 (.)
 =======
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 0117b849c (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,6 +759,7 @@ trait Updater
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
 =======
@@ -725,11 +770,14 @@ trait Updater
 =======
 =======
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
         return $this->belongsTo(
             $profileClass,
             'updated_by',
             'user_id'
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -742,6 +790,8 @@ trait Updater
 <<<<<<< HEAD
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 >>>>>>> a12f125f4a (.)
 =======
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
@@ -749,6 +799,7 @@ trait Updater
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
 =======
@@ -763,6 +814,8 @@ trait Updater
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
     }
 
     /**
@@ -936,6 +989,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -962,10 +1016,13 @@ trait Updater
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
@@ -997,6 +1054,8 @@ trait Updater
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -1016,6 +1075,7 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1053,6 +1113,8 @@ trait Updater
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 =======
         static::creating(
             static function (Model $model): void {
@@ -1064,6 +1126,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 358ba79a7 (.)
@@ -1071,6 +1134,8 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 
             if (array_key_exists('created_by', $attributes)) {
                 $model->setAttribute('created_by', authId());
@@ -1084,6 +1149,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         );
@@ -1102,6 +1168,10 @@ trait Updater
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 0117b849c (.)
         });
 
         static::updating(static function (Model $model): void {
@@ -1111,6 +1181,7 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1158,6 +1229,10 @@ trait Updater
 =======
 =======
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 0117b849c (.)
         static::creating(
             static function (Model $model): void {
                 Assert::isArray($attributes = $model->getAttributes());
@@ -1192,6 +1267,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -1271,10 +1347,15 @@ trait Updater
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1317,10 +1398,13 @@ trait Updater
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
@@ -1352,6 +1436,8 @@ trait Updater
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
             Assert::isArray($attributes = $model->attributes);
@@ -1374,6 +1460,7 @@ trait Updater
 }
 
 // end trait Updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1411,6 +1498,8 @@ trait Updater
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 =======
         static::deleting(
             static function (Model $model): void {
@@ -1422,6 +1511,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 358ba79a7 (.)
@@ -1429,6 +1519,8 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 
             if (\in_array('deleted_by', array_keys($attributes), false)) {
                 $model->setAttribute('deleted_by', authId());
@@ -1437,6 +1529,7 @@ trait Updater
     }
 <<<<<<< HEAD
 }// end trait Updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1457,6 +1550,8 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 >>>>>>> a12f125f4a (.)
 =======
 }
@@ -1464,6 +1559,7 @@ trait Updater
 // end trait Updater
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1496,6 +1592,8 @@ trait Updater
 =======
 =======
 >>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
         static::deleting(
             static function (Model $model): void {
                 Assert::isArray($attributes = $model->attributes);
@@ -1518,6 +1616,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -1597,3 +1696,7 @@ trait Updater
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)

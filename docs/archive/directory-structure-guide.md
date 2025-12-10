@@ -112,6 +112,7 @@ Prima di eseguire PHPStan o fare commit, verifica la correttezza della struttura
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
 >>>>>>> 85cdef688 (.)
@@ -178,6 +179,12 @@ find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/conf
 =======
 find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
 >>>>>>> 317b552da (.)
+=======
+find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
+=======
+find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/project_docs/"
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 ```
 
 Se questo comando restituisce dei file, significa che sono posizionati in modo errato.

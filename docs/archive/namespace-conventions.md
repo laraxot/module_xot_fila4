@@ -9309,6 +9309,7 @@ php scripts/check-namespaces.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9319,10 +9320,13 @@ php scripts/check-namespaces.php
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9351,6 +9355,8 @@ php scripts/check-namespaces.php
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 

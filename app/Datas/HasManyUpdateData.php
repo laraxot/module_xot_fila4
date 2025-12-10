@@ -37,6 +37,7 @@ class HasManyUpdateData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -121,11 +122,18 @@ class HasManyUpdateData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+    ) {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 0117b849c (.)
 <<<<<<< HEAD
     ) {}
 =======
     ) {
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +144,8 @@ class HasManyUpdateData extends Data
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 >>>>>>> a12f125f4a (.)
 =======
     ) {}
@@ -145,6 +155,7 @@ class HasManyUpdateData extends Data
     }
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,4 +220,6 @@ class HasManyUpdateData extends Data
     ) {}
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
 }

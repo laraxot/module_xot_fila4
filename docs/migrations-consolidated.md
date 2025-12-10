@@ -40,6 +40,7 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -50,10 +51,13 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
 =======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +86,8 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
 - **File migrazione**: Solo nei singoli moduli (codice, non docs)
 
 ## Principi Fondamentali Universali
@@ -715,6 +721,7 @@ Tutti questi file sono DUPLICATI e vanno eliminati:
 
 ```bash
 # Activity
+<<<<<<< HEAD
 rm Modules/Activity/docs/database/migrations.md
 
 # Cms
@@ -779,6 +786,7 @@ rm Modules/SaluteMo/docs/database/migrations.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 # SaluteMo
@@ -814,7 +822,12 @@ rm Modules/SaluteMo/docs/database/migrations.md
 =======
 >>>>>>> 90d386aa (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 0117b849c (.)
 rm Modules/Activity/project_docs/database/migrations.md
 
 # Cms
@@ -845,6 +858,7 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 <<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -978,12 +992,18 @@ rm Modules/SaluteMo/docs/database/migrations.md
 =======
 =======
 >>>>>>> 4fb9bc4b (.)
+<<<<<<< HEAD
 >>>>>>> 3c8d62b79 (.)
+=======
+=======
+>>>>>>> 3eee6f79 (.)
+>>>>>>> 0117b849c (.)
 
 # E tutti gli altri file duplicati...
 ```
 
 ### Mantenere Solo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1004,10 +1024,13 @@ rm Modules/SaluteMo/docs/database/migrations.md
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
 =======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1036,6 +1059,8 @@ rm Modules/SaluteMo/docs/database/migrations.md
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
 - **File migrazione**: Solo codice nei singoli moduli
 
 ## Troubleshooting Universale

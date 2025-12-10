@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature;
 
+<<<<<<< HEAD
 use Illuminate\Database\QueryException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,7 @@ use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,11 +67,17 @@ use Illuminate\Database\QueryException;
 <<<<<<< HEAD
 use Illuminate\Database\QueryException;
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\QueryException;
+>>>>>>> 0117b849c (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,9 +121,12 @@ use Modules\Xot\Models\Module;
 use Tests\TestCase;
 >>>>>>> efbf15eba (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,9 +172,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> 9f27fc9a6 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 0117b849c (.)
+=======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +200,8 @@ use Tests\TestCase;
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Modules\Xot\Models\Module;
@@ -192,6 +209,7 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,6 +265,8 @@ use Tests\TestCase;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -351,6 +371,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -359,6 +380,8 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
         $this->expectException(QueryException::class);
 =======
 <<<<<<< HEAD
@@ -367,6 +390,7 @@ class ModuleBusinessLogicTest extends TestCase
         $this->expectException(\Illuminate\Database\QueryException::class);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,6 +413,8 @@ class ModuleBusinessLogicTest extends TestCase
 =======
         $this->expectException(QueryException::class);
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -670,6 +696,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -678,6 +705,8 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
             $this->expectException(QueryException::class);
 =======
 <<<<<<< HEAD
@@ -686,6 +715,7 @@ class ModuleBusinessLogicTest extends TestCase
             $this->expectException(\Illuminate\Database\QueryException::class);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -708,6 +738,8 @@ class ModuleBusinessLogicTest extends TestCase
 =======
             $this->expectException(QueryException::class);
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
 
             Module::create($moduleData);
         }
@@ -816,6 +848,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -850,6 +883,8 @@ class ModuleBusinessLogicTest extends TestCase
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -862,6 +897,7 @@ class ModuleBusinessLogicTest extends TestCase
 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -940,3 +976,5 @@ class ModuleBusinessLogicTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)

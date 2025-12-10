@@ -301,6 +301,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [config.md](../../../Xot/docs/config.md)
 * [config.md](../../../../Themes/One/docs/config.md)
@@ -329,9 +330,14 @@ return [
 * [config.md](../../../../Themes/One/docs/config.md)
 >>>>>>> 5e6e0d054 (.)
 =======
+* [config.md](../../../Xot/docs/config.md)
+* [config.md](../../../../Themes/One/docs/config.md)
+>>>>>>> 0117b849c (.)
+=======
 * [config.md](../../../Xot/project_docs/config.md)
 * [config.md](../../../../Themes/One/project_docs/config.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,4 +391,6 @@ return [
 * [config.md](../../../Xot/docs/config.md)
 * [config.md](../../../../Themes/One/docs/config.md)
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 

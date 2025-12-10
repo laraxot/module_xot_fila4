@@ -14,6 +14,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ReflectionClass;
 <<<<<<< HEAD
@@ -50,11 +51,15 @@ use ReflectionClass;
 use ReflectionClass;
 >>>>>>> 5e6e0d054 (.)
 =======
+use ReflectionClass;
+>>>>>>> 0117b849c (.)
+=======
 <<<<<<< HEAD
 use ReflectionClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
@@ -80,11 +85,14 @@ use ReflectionClass;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\file;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,9 +111,12 @@ use function Safe\file;
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
@@ -113,11 +124,14 @@ use function Safe\file;
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 use function Safe\file;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +244,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Spatie\QueueableAction\QueueableAction;
@@ -241,6 +257,7 @@ use function Safe\file;
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
@@ -272,6 +289,8 @@ use function Safe\file;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
 class GetMethodBodyAction
 {
     use QueueableAction;
@@ -279,6 +298,7 @@ class GetMethodBodyAction
     public function execute(string $class_name, string $method_name): string
     {
         Assert::classExists($class_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +315,8 @@ class GetMethodBodyAction
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
         $reflection_class = new ReflectionClass($class_name);
 =======
 <<<<<<< HEAD
@@ -303,6 +325,7 @@ class GetMethodBodyAction
         $reflection_class = new \ReflectionClass($class_name);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +348,8 @@ class GetMethodBodyAction
 =======
         $reflection_class = new ReflectionClass($class_name);
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
         $table_method = $reflection_class->getMethod($method_name);
         $start_line = $table_method->getStartLine() - 1; // it's actually - 1, otherwise you wont get the function() block
         $end_line = $table_method->getEndLine();

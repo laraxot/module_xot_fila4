@@ -174,6 +174,7 @@ class MyResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
 >>>>>>> 85cdef688 (.)
@@ -240,4 +241,10 @@ class MyResource extends XotBaseResource
 =======
 * [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
 >>>>>>> 317b552da (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+=======
+* [standard-codice.md](../../../Xot/project_docs/development/standard-codice.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 

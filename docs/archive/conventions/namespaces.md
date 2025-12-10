@@ -98,6 +98,7 @@ it('uses correct namespace for view models', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Module Development](https://laravel.com/docs/10.x/packages)
 >>>>>>> 85cdef688 (.)
@@ -164,6 +165,12 @@ it('uses correct namespace for view models', function () {
 =======
 - [Laravel Module Development](https://laravel.com/docs/10.x/packages)
 >>>>>>> 317b552da (.)
+=======
+- [Laravel Module Development](https://laravel.com/docs/10.x/packages)
+=======
+- [Laravel Module Development](https://laravel.com/project_docs/10.x/packages)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 - [Best Practices](../best-practices/README.md)
 - [Architettura Modulare](../architecture.md) 
 
@@ -186,6 +193,7 @@ it('uses correct namespace for view models', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [namespaces.md](../../../Xot/docs/conventions/namespaces.md)
 * [namespaces.md](../../../Cms/docs/conventions/namespaces.md)
@@ -214,9 +222,14 @@ it('uses correct namespace for view models', function () {
 * [namespaces.md](../../../Cms/docs/conventions/namespaces.md)
 >>>>>>> 5e6e0d054 (.)
 =======
+* [namespaces.md](../../../Xot/docs/conventions/namespaces.md)
+* [namespaces.md](../../../Cms/docs/conventions/namespaces.md)
+>>>>>>> 0117b849c (.)
+=======
 * [namespaces.md](../../../Xot/project_docs/conventions/namespaces.md)
 * [namespaces.md](../../../Cms/project_docs/conventions/namespaces.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,4 +283,6 @@ it('uses correct namespace for view models', function () {
 * [namespaces.md](../../../Xot/docs/conventions/namespaces.md)
 * [namespaces.md](../../../Cms/docs/conventions/namespaces.md)
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 

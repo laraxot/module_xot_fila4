@@ -36,11 +36,19 @@ protected $fillable = [
 
 ### Documentazione Esistente Studiata
 
+<<<<<<< HEAD
 1. **Filament Table Columns** (`Modules/Xot/docs/filament_table_columns.md`):
    - Conferma uso di `getTableColumns()` invece di `getListTableColumns()`
    - Standard per definire colonne in Filament
 
 2. **Sistema Icone** (`Modules/UI/docs/icons.md`):
+=======
+1. **Filament Table Columns** (`Modules/Xot/project_docs/filament_table_columns.md`):
+   - Conferma uso di `getTableColumns()` invece di `getListTableColumns()`
+   - Standard per definire colonne in Filament
+
+2. **Sistema Icone** (`Modules/UI/project_docs/icons.md`):
+>>>>>>> 6cba4fe (.)
    - Heroicons per icone di sistema
    - Font Awesome per icone aggiuntive
    - Custom SVG per icone specifiche
@@ -246,6 +254,7 @@ Questa implementazione stabilisce un precedente per:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [UI Icons System](../../UI/docs/icons.md)
 - [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
@@ -281,10 +290,16 @@ Questa implementazione stabilisce un precedente per:
 - [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
 >>>>>>> 5e6e0d054 (.)
 =======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 0117b849c (.)
+=======
 - [UI Icons System](../../UI/project_docs/icons.md)
 - [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
 - [Filament Official Documentation](https://filamentphp.com/project_docs/3.x/tables/columns)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +363,8 @@ Questa implementazione stabilisce un precedente per:
 - [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
 - [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 
 ---
 

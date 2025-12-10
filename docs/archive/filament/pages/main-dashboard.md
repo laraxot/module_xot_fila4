@@ -75,6 +75,7 @@ use Modules\Xot\Filament\Pages\MainDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Sistema di Autorizzazioni](../../../docs/auth/index.md)
@@ -120,10 +121,16 @@ use Modules\Xot\Filament\Pages\MainDashboard;
 - [Gestione Ruoli](../../../docs/auth/roles.md) 
 >>>>>>> 5e6e0d054 (.)
 =======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Sistema di Autorizzazioni](../../../docs/auth/index.md)
+- [Gestione Ruoli](../../../docs/auth/roles.md) 
+>>>>>>> 0117b849c (.)
+=======
 - [Documentazione Filament](../../../project_docs/filament/index.md)
 - [Sistema di Autorizzazioni](../../../project_docs/auth/index.md)
 - [Gestione Ruoli](../../../project_docs/auth/roles.md) 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,3 +227,5 @@ use Modules\Xot\Filament\Pages\MainDashboard;
 - [Sistema di Autorizzazioni](../../../docs/auth/index.md)
 - [Gestione Ruoli](../../../docs/auth/roles.md) 
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)

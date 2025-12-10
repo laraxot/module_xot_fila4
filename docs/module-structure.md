@@ -46,6 +46,7 @@ ModuleName/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -67,6 +68,8 @@ ModuleName/
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 =======
 =======
 =======
@@ -146,6 +149,7 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 =======
@@ -197,6 +201,10 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 7dd92412 (.)
 >>>>>>> b258042 (.)
 >>>>>>> 317b552da (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 ```
 
 ## Collegamenti
@@ -224,6 +232,7 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 62cc8443 (.)
 =======
@@ -264,10 +273,13 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 - [UI](../UI/docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/docs/README.md) - Gestione contenuti
 - [Lang](../Lang/docs/README.md) - Traduzioni
 - [User](../User/docs/README.md) - Gestione utenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,11 +301,14 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 - [UI](../UI/project_docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/project_docs/README.md) - Gestione contenuti
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 - [User](../User/project_docs/README.md) - Gestione utenti
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,6 +342,8 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 
 ## Struttura Dettagliata
 
@@ -454,6 +471,7 @@ php artisan xot:analyze-naming
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
 >>>>>>> 85cdef688 (.)
@@ -520,6 +538,12 @@ Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/docs/convenzioni-naming-campi.md).
 >>>>>>> 317b552da (.)
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/docs/convenzioni-naming-campi.md).
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 
 ## Esempi
 
@@ -566,6 +590,7 @@ User/
 ## Collegamenti Moduli
 
 ### Modulo UI
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -683,6 +708,8 @@ User/
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 - [Componenti Volt](../UI/docs/components/volt.md)
 - [Layout](../UI/docs/layouts.md)
 - [Temi](../UI/docs/themes.md)
@@ -758,6 +785,7 @@ User/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 =======
@@ -768,6 +796,8 @@ User/
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
 =======
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
@@ -839,6 +869,7 @@ User/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -868,6 +899,8 @@ User/
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 
 # Struttura dei Moduli Laravel
 
@@ -1027,6 +1060,7 @@ Se trovi una directory con case errato:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 >>>>>>> 85cdef688 (.)
@@ -1093,4 +1127,10 @@ Se trovi una directory con case errato:
 =======
 * [module_structure.md](../../../../docs/error_analysis/module_structure.md)
 >>>>>>> 317b552da (.)
+=======
+* [module_structure.md](../../../../docs/error_analysis/module_structure.md)
+=======
+* [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 

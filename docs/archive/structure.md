@@ -1040,6 +1040,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
@@ -1068,9 +1069,14 @@ tests_old
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 5e6e0d054 (.)
 =======
+- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/docs/phpstan/)
+>>>>>>> 0117b849c (.)
+=======
 - [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/project_docs/phpstan/)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1124,6 +1130,8 @@ tests_old
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 
 
 ### Versione Incoming
@@ -1131,6 +1139,7 @@ tests_old
    - Utilizzare i namespace appropriati che riflettono la struttura delle directory 
 
 ## Collegamenti tra versioni di structure.md
+<<<<<<< HEAD
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1147,6 +1156,24 @@ tests_old
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
+=======
+* [structure.md](bashscripts/project_docs/structure.md)
+* [structure.md](../../../Gdpr/project_docs/structure.md)
+* [structure.md](../../../Notify/project_docs/structure.md)
+* [structure.md](../../../Xot/project_docs/structure.md)
+* [structure.md](../../../Xot/project_docs/base/structure.md)
+* [structure.md](../../../Xot/project_docs/config/structure.md)
+* [structure.md](../../../User/project_docs/structure.md)
+* [structure.md](../../../UI/project_docs/structure.md)
+* [structure.md](../../../Lang/project_docs/structure.md)
+* [structure.md](../../../Job/project_docs/structure.md)
+* [structure.md](../../../Media/project_docs/structure.md)
+* [structure.md](../../../Tenant/project_docs/structure.md)
+* [structure.md](../../../Activity/project_docs/structure.md)
+* [structure.md](../../../Cms/project_docs/structure.md)
+* [structure.md](../../../Cms/project_docs/themes/structure.md)
+* [structure.md](../../../Cms/project_docs/components/structure.md)
+>>>>>>> 6cba4fe (.)
 
 
 ---

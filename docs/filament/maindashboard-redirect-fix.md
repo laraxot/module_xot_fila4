@@ -71,10 +71,12 @@ public function mount(): void
 
 ### 1. Test Accesso Diretto al Panel
 ```bash
+<<<<<<< HEAD
 
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,9 +119,12 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,15 +192,19 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> ba7efc23f (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
 ### 2. Test Accesso al Dashboard Principale
 ```bash
+<<<<<<< HEAD
 
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,9 +247,12 @@ curl -I http://personale2022.prov.tv.local/admin
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 0117b849c (.)
+=======
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,6 +320,8 @@ curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> ba7efc23f (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
@@ -330,6 +344,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
@@ -474,6 +489,14 @@ curl -I http://personale2022.prov.tv.local/admin
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 
 >>>>>>> 317b552da (.)
+=======
+
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+
+=======
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 # senza redirect automatico
 ```
 
@@ -514,6 +537,7 @@ I ruoli devono seguire il pattern `{module}::admin`:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
@@ -575,6 +599,11 @@ I ruoli devono seguire il pattern `{module}::admin`:
 =======
 
 >>>>>>> 317b552da (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 # Esempi di ruoli corretti
 pdnd::admin
 user::admin
@@ -613,10 +642,12 @@ performance::admin
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/docs/console_commands/README.md)
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,10 +703,14 @@ performance::admin
 =======
 =======
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 0117b849c (.)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -746,6 +781,9 @@ performance::admin
 >>>>>>> ba7efc23f (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
 
 ## Aggiornamenti
 
@@ -787,6 +825,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 2025-01-27* 
 >>>>>>> 85cdef688 (.)
@@ -870,3 +909,8 @@ performance::admin
 >>>>>>> ba7efc23f (.)
 =======
 >>>>>>> 317b552da (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-27* 
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)

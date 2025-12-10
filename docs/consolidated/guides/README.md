@@ -191,6 +191,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Documentation](../../../project_docs/)
 - [<nome progetto> Module](../<nome progetto>/project_docs/)
 =======
@@ -345,14 +346,10 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
 - [Root Documentation](../../../project_docs/)
 - [SaluteOra Module](../SaluteOra/project_docs/)
-=======
-- [Root Documentation](../../../docs/)
-- [Module Documentation](../<nome modulo>/docs/)
-- [Root Documentation](../../../project_docs/)
-- [<nome progetto> Module](../<nome progetto>/project_docs/)
->>>>>>> a5dccfe (.)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 >>>>>>> e0b8ebe3 (.)
 =======

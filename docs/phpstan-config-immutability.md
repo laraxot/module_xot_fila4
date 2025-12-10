@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Config Immutability (Global Project Rule)
 
 <<<<<<< HEAD
@@ -228,3 +229,5 @@ find Modules -maxdepth 2 -type d -name app ! -path 'Modules/Activity/*' -print0 
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 55fe1822 (.)

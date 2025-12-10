@@ -688,8 +688,8 @@ use Modules\SaluteOra\Models\Report;
 namespace Modules\SaluteMo\Filament\Resources;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
-<<<<<<< HEAD
 use Modules\SaluteOra\Models\Report;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -866,6 +866,8 @@ use Modules\<nome modulo>\Models\Report;
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
 

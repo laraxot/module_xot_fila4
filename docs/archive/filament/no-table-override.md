@@ -194,6 +194,7 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -519,3 +520,10 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> e7da37af (.)
+=======
+- [Regole per RelationManager](/project_docs/filament/relation_managers.md)
+- [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
+- [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 55fe1822 (.)

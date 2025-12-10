@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -222,6 +223,9 @@
 
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+
+>>>>>>> 55fe1822 (.)
 # Rapporto PHPStan Livello 1 per il modulo Xot
 
 Data analisi: 2025-04-15 21:52:32
@@ -275,6 +279,7 @@ Trovati 4 errori al livello 1.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 <<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -463,6 +468,9 @@ Trovati 4 errori al livello 1.
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 55fe1822 (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -523,6 +531,7 @@ Trovati 4 errori al livello 1.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 <<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -711,6 +720,9 @@ Trovati 4 errori al livello 1.
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 55fe1822 (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -738,6 +750,7 @@ aurmich/dev
 aurmich/dev
 
 ## Collegamenti tra versioni di level_1.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -844,6 +857,8 @@ aurmich/dev
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 55fe1822 (.)
 * [level_1.md](laravel/Modules/Chart/project_docs/phpstan/level_1.md)
 * [level_1.md](laravel/Modules/Reporting/project_docs/phpstan/level_1.md)
 * [level_1.md](laravel/Modules/Gdpr/project_docs/phpstan/level_1.md)
@@ -859,6 +874,7 @@ aurmich/dev
 * [level_1.md](laravel/Modules/Activity/project_docs/phpstan/level_1.md)
 * [level_1.md](laravel/Modules/Patient/project_docs/phpstan/level_1.md)
 * [level_1.md](laravel/Modules/Cms/project_docs/phpstan/level_1.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1065,3 +1081,6 @@ aurmich/dev
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+
+>>>>>>> 55fe1822 (.)

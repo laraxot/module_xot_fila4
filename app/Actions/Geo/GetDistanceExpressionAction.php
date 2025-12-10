@@ -150,6 +150,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -876,6 +877,12 @@ use Spatie\QueueableAction\QueueableAction;
 =======
  *
 >>>>>>> f0e04b64 (.)
+=======
+ *
+=======
+ * 
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -987,6 +994,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -1112,6 +1120,8 @@ class GetDistanceExpressionAction
 >>>>>>> 3849ae0e (.)
 =======
 >>>>>>> f0e04b64 (.)
+=======
+>>>>>>> a62d7646 (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -1137,6 +1147,7 @@ class GetDistanceExpressionAction
         if (null !== $alias) {
 >>>>>>> 5a14301c (.)
             $sql .= " AS {$alias}";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1293,6 +1304,10 @@ class GetDistanceExpressionAction
 =======
     public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
 >>>>>>> 3849ae0e (.)
+=======
+=======
+    public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
+>>>>>>> a62d7646 (.)
     {
         $sql = "
             (6371 * acos(
@@ -1306,6 +1321,7 @@ class GetDistanceExpressionAction
         
         if (null !== $alias) {
             $sql .= " AS $alias";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2491,6 +2507,9 @@ class GetDistanceExpressionAction
 >>>>>>> 3849ae0e (.)
 =======
 >>>>>>> f0e04b64 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
         }
 
         return DB::raw($sql);
@@ -2635,6 +2654,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -3354,3 +3374,9 @@ class GetDistanceExpressionAction
 =======
 }
 >>>>>>> f0e04b64 (.)
+=======
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)

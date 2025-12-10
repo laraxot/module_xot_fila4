@@ -121,6 +121,7 @@ Tabelle trovate: users, migrations, password_resets
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -163,8 +164,14 @@ Tabelle trovate: users, migrations, password_resets
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> a62d7646 (.)
 * [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+=======
+* [database-schema-exporter.md](../../../Xot/project_docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/project_docs/console/commands/database-schema-exporter.md)
+>>>>>>> f1d4085 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

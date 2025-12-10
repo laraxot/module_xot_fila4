@@ -250,6 +250,7 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 71586de2 (.)
  * @mixin \Eloquent
  */
+/** */
 class Feed extends BaseModel
 {
     /** @var list<string> */

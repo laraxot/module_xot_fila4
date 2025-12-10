@@ -109,7 +109,10 @@ use Override;
 
 use function Safe\json_encode;
 
-readonly class ApplicationError implements Arrayable, Jsonable, JsonSerializable
+/**
+ * @implements Arrayable<string, mixed>
+ */
+class ApplicationError implements Arrayable, Jsonable, JsonSerializable
 {
     public function __construct(
         private string $help = '',
@@ -182,6 +185,9 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 >>>>>>> 5a14301c (.)
     ) {}
 
+    /**
+     * @return array<string, mixed>
+     */
     public function toArray(): array
     {
         return [
@@ -191,6 +197,9 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
     }
 
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function jsonSerialize(): array
     {
         return $this->toArray();

@@ -260,6 +260,7 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 71586de2 (.)
  * @mixin \Eloquent
  */
+/** */
 class PulseValue extends BaseModel
 {
     /** @var list<string> */

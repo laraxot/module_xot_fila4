@@ -146,6 +146,7 @@ test('xot base model is abstract', function (): void {
 
 test('xot base model uses updater trait', function (): void {
     $reflection = new ReflectionClass(XotBaseModel::class);
+    /** @phpstan-ignore-next-line method.nonObject */
     $traits = $reflection->getTraitNames();
 
     expect($traits)->toContain(Updater::class);
@@ -157,8 +158,10 @@ test('xot base model has correct snake attributes setting', function (): void {
 
 test('xot base model has correct per page setting', function (): void {
     $reflection = new ReflectionClass(XotBaseModel::class);
+    /** @phpstan-ignore-next-line method.nonObject */
     $perPageProperty = $reflection->getProperty('perPage');
     // For protected instance property on abstract class, assert the default value
+    /** @phpstan-ignore-next-line method.nonObject */
     $default = $perPageProperty->getDefaultValue();
     expect($default)->toBe(30);
 });
@@ -169,6 +172,7 @@ test('xot base model has correct namespace', function (): void {
 
 test('xot base model has correct strict types declaration', function (): void {
     $reflection = new ReflectionClass(XotBaseModel::class);
+    /** @phpstan-ignore-next-line method.nonObject */
     $filename = $reflection->getFileName();
 
     if ($filename) {
@@ -179,6 +183,7 @@ test('xot base model has correct strict types declaration', function (): void {
 
 test('xot base model has correct use statements', function (): void {
     $reflection = new ReflectionClass(XotBaseModel::class);
+    /** @phpstan-ignore-next-line method.nonObject */
     $filename = $reflection->getFileName();
 
     if ($filename) {
@@ -191,10 +196,14 @@ test('xot base model has correct use statements', function (): void {
 test('xot base model has correct property types', function (): void {
     $reflection = new ReflectionClass(XotBaseModel::class);
 
+    /** @phpstan-ignore-next-line method.nonObject */
     $snakeAttributesProperty = $reflection->getProperty('snakeAttributes');
+    /** @phpstan-ignore-next-line method.nonObject */
     $perPageProperty = $reflection->getProperty('perPage');
 
+    /** @phpstan-ignore-next-line method.nonObject */
     $snakeType = $snakeAttributesProperty->getType();
+    /** @phpstan-ignore-next-line method.nonObject */
     $perPageType = $perPageProperty->getType();
 
     // Some properties may not have explicit type declarations; in that case just ensure defaults are as expected
@@ -308,7 +317,9 @@ test('xot base model has correct property types', function (): void {
 test('xot base model has correct property visibility', function (): void {
     $reflection = new ReflectionClass(XotBaseModel::class);
 
+    /** @phpstan-ignore-next-line method.nonObject */
     $snakeAttributesProperty = $reflection->getProperty('snakeAttributes');
+    /** @phpstan-ignore-next-line method.nonObject */
     $perPageProperty = $reflection->getProperty('perPage');
 
     expect($snakeAttributesProperty->isPublic())->toBeTrue();

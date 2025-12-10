@@ -31,3 +31,7 @@ class TestTransitionForTest extends XotBaseTransition
         // Mock implementation for testing
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> eeaa032 (.)

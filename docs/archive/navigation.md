@@ -37,6 +37,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
 >>>>>>> 85cdef688 (.)
@@ -91,6 +92,12 @@ return [
 =======
     'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
 >>>>>>> 6a52563d6 (.)
+=======
+    'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
+=======
+    'Jigsaw Docs' => 'https://jigsaw.tighten.co/project_docs/installation',
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
 ];
 
 // config.php
@@ -103,12 +110,21 @@ $page->navigation
 
 
 ## Collegamenti tra versioni di navigation.md
+<<<<<<< HEAD
 * [navigation.md](../../../Gdpr/docs/navigation.md)
 * [navigation.md](../../../Xot/docs/navigation.md)
 * [navigation.md](../../../UI/docs/navigation.md)
 * [navigation.md](../../../Cms/docs/blocks/navigation.md)
 * [navigation.md](../../../Cms/docs/navigation.md)
 * [navigation.md](../../../Cms/docs/components/navigation.md)
+=======
+* [navigation.md](../../../Gdpr/project_docs/navigation.md)
+* [navigation.md](../../../Xot/project_docs/navigation.md)
+* [navigation.md](../../../UI/project_docs/navigation.md)
+* [navigation.md](../../../Cms/project_docs/blocks/navigation.md)
+* [navigation.md](../../../Cms/project_docs/navigation.md)
+* [navigation.md](../../../Cms/project_docs/components/navigation.md)
+>>>>>>> 6cba4fe (.)
 
 
 ### Versione Incoming

@@ -11,6 +11,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -52,12 +53,15 @@ declare(strict_types=1);
 >>>>>>> 5ca118c34 (.)
 =======
 =======
+>>>>>>> 5e6e0d054 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
@@ -67,6 +71,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 return [
     'id' => 'id',
     'level' => 'level',
@@ -79,6 +85,7 @@ return [
     'updated_at' => 'updated_at',
     'deleted_at' => 'deleted_at',
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +134,8 @@ return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 
 =======
 >>>>>>> f8f76a284 (.)
 =======
+>>>>>>> 5e6e0d054 (.)
+=======
 <<<<<<< HEAD
 =======
 return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 'created_by' => 'created_by', 'updated_by' => 'updated_by', 'deleted_by' => 'deleted_by', 'created_at' => 'created_at', 'updated_at' => 'updated_at', 'deleted_at' => 'deleted_at'];
@@ -137,6 +146,7 @@ return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 
 return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 'created_by' => 'created_by', 'updated_by' => 'updated_by', 'deleted_by' => 'deleted_by', 'created_at' => 'created_at', 'updated_at' => 'updated_at', 'deleted_at' => 'deleted_at'];
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -194,3 +204,5 @@ return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)

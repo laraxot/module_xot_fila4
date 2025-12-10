@@ -24,6 +24,7 @@ Route::middleware($middleware)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->group(static function (): void {
         Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
     });
@@ -69,12 +70,20 @@ Route::middleware($middleware)
 =======
 <<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+    ->group(static function (): void {
+        Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
+    });
+=======
+<<<<<<< HEAD
+>>>>>>> 5e6e0d054 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     ->group(static function (): void {
         Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
     });
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,11 +125,16 @@ Route::middleware($middleware)
     });
 =======
 >>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 5e6e0d054 (.)
     ->group(
         static function (): void {
             Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
         }
     );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,9 +177,13 @@ Route::middleware($middleware)
 =======
 >>>>>>> f7e6113c6 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5e6e0d054 (.)
+=======
     ->group(static function (): void {
         Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,10 +201,13 @@ Route::middleware($middleware)
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -237,3 +258,5 @@ Route::middleware($middleware)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)

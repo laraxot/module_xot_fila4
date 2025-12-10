@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [optimization.md](../../../Xot/docs/roadmap/performance/optimization.md)
 * [optimization.md](../../../Job/docs/optimization.md)
@@ -92,10 +93,16 @@
 * [optimization.md](../../../Cms/docs/roadmap/performance/optimization.md)
 >>>>>>> f8f76a284 (.)
 =======
+* [optimization.md](../../../Xot/docs/roadmap/performance/optimization.md)
+* [optimization.md](../../../Job/docs/optimization.md)
+* [optimization.md](../../../Cms/docs/roadmap/performance/optimization.md)
+>>>>>>> 5e6e0d054 (.)
+=======
 * [optimization.md](../../../Xot/project_docs/roadmap/performance/optimization.md)
 * [optimization.md](../../../Job/project_docs/optimization.md)
 * [optimization.md](../../../Cms/project_docs/roadmap/performance/optimization.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,4 +153,6 @@
 * [optimization.md](../../../Job/docs/optimization.md)
 * [optimization.md](../../../Cms/docs/roadmap/performance/optimization.md)
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 

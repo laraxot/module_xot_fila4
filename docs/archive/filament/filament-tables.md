@@ -202,6 +202,7 @@ Il trait include meccanismi di gestione degli errori, ad esempio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [FILAMENT-TABLES.md](../../../Xot/docs/filament/FILAMENT-TABLES.md)
 * [FILAMENT-TABLES.md](../../../Xot/docs/FILAMENT-TABLES.md)
@@ -226,9 +227,14 @@ Il trait include meccanismi di gestione degli errori, ad esempio:
 * [FILAMENT-TABLES.md](../../../Xot/docs/FILAMENT-TABLES.md)
 >>>>>>> f8f76a284 (.)
 =======
+* [FILAMENT-TABLES.md](../../../Xot/docs/filament/FILAMENT-TABLES.md)
+* [FILAMENT-TABLES.md](../../../Xot/docs/FILAMENT-TABLES.md)
+>>>>>>> 5e6e0d054 (.)
+=======
 * [FILAMENT-TABLES.md](../../../Xot/project_docs/filament/FILAMENT-TABLES.md)
 * [FILAMENT-TABLES.md](../../../Xot/project_docs/FILAMENT-TABLES.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +277,8 @@ Il trait include meccanismi di gestione degli errori, ad esempio:
 * [FILAMENT-TABLES.md](../../../Xot/docs/filament/FILAMENT-TABLES.md)
 * [FILAMENT-TABLES.md](../../../Xot/docs/FILAMENT-TABLES.md)
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 
 
 ## Collegamenti tra versioni di filament-tables.md

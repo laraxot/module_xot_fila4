@@ -45,6 +45,7 @@ class FilemanagerData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -116,6 +117,12 @@ class FilemanagerData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+    ) {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5e6e0d054 (.)
 <<<<<<< HEAD
     ) {}
 =======
@@ -124,10 +131,13 @@ class FilemanagerData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 >>>>>>> a12f125f4a (.)
 =======
     ) {}
@@ -137,6 +147,7 @@ class FilemanagerData extends Data
     }
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -188,6 +199,8 @@ class FilemanagerData extends Data
     ) {}
 >>>>>>> 73eab74 (.)
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 
     /**
      * Create a new instance of FilemanagerData with default values.

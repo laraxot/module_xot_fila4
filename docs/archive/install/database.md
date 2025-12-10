@@ -101,6 +101,7 @@ return $def1;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [database.md](../../../Xot/docs/install/database.md)
 * [database.md](../../../Tenant/docs/it/config/database.md)
@@ -125,9 +126,14 @@ return $def1;
 * [database.md](../../../Tenant/docs/it/config/database.md)
 >>>>>>> f8f76a284 (.)
 =======
+* [database.md](../../../Xot/docs/install/database.md)
+* [database.md](../../../Tenant/docs/it/config/database.md)
+>>>>>>> 5e6e0d054 (.)
+=======
 * [database.md](../../../Xot/project_docs/install/database.md)
 * [database.md](../../../Tenant/project_docs/it/config/database.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +176,8 @@ return $def1;
 * [database.md](../../../Xot/docs/install/database.md)
 * [database.md](../../../Tenant/docs/it/config/database.md)
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 
 
 ### Versione Incoming

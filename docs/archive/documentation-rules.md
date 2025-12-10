@@ -64,6 +64,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -72,10 +73,13 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 - [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
 =======
 - [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,6 +102,8 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 - [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 
 ## Documentazione per Modulo
 
@@ -111,6 +117,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -128,6 +135,8 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -154,6 +163,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Changelog](../../../Xot/docs/changelog/README.md)
 - [Contributing](../../../Xot/docs/contributing.md)
 - [Security](../../../Xot/docs/security.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,7 +225,12 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 >>>>>>> cc52d333 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 - [Xot Module](../../../Xot/project_docs/README.md)
 - [UI Module](../../../UI/project_docs/README.md)
 - [CMS Module](../../../Cms/project_docs/README.md)
@@ -245,6 +260,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,4 +361,9 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 =======
 >>>>>>> 6e7c1905 (.)
+<<<<<<< HEAD
 >>>>>>> 6a52563d6 (.)
+=======
+=======
+>>>>>>> 90d386aa (.)
+>>>>>>> 5e6e0d054 (.)

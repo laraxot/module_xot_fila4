@@ -29,6 +29,7 @@ Modulo test serve per mettere azioni da testare.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [test.md](../../../Xot/docs/modules/test.md)
 * [test.md](../../../Lang/docs/test.md)
@@ -53,9 +54,14 @@ Modulo test serve per mettere azioni da testare.
 * [test.md](../../../Lang/docs/test.md)
 >>>>>>> f8f76a284 (.)
 =======
+* [test.md](../../../Xot/docs/modules/test.md)
+* [test.md](../../../Lang/docs/test.md)
+>>>>>>> 5e6e0d054 (.)
+=======
 * [test.md](../../../Xot/project_docs/modules/test.md)
 * [test.md](../../../Lang/project_docs/test.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,6 +104,8 @@ Modulo test serve per mettere azioni da testare.
 * [test.md](../../../Xot/docs/modules/test.md)
 * [test.md](../../../Lang/docs/test.md)
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 
 
 ### Versione Incoming

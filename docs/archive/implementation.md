@@ -310,6 +310,7 @@ class XotPageTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [implementation.md](../../../Gdpr/docs/implementation.md)
 * [implementation.md](../../../Xot/docs/implementation.md)
@@ -340,10 +341,16 @@ class XotPageTest extends TestCase
 * [implementation.md](../../../Job/docs/implementation.md)
 >>>>>>> f8f76a284 (.)
 =======
+* [implementation.md](../../../Gdpr/docs/implementation.md)
+* [implementation.md](../../../Xot/docs/implementation.md)
+* [implementation.md](../../../Job/docs/implementation.md)
+>>>>>>> 5e6e0d054 (.)
+=======
 * [implementation.md](../../../Gdpr/project_docs/implementation.md)
 * [implementation.md](../../../Xot/project_docs/implementation.md)
 * [implementation.md](../../../Job/project_docs/implementation.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,6 +401,8 @@ class XotPageTest extends TestCase
 * [implementation.md](../../../Xot/docs/implementation.md)
 * [implementation.md](../../../Job/docs/implementation.md)
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
 
 
 ### Versione Incoming

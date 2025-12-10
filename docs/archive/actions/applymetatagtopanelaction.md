@@ -53,6 +53,7 @@ In caso di errore durante l'applicazione dei metatag:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Filament Panel Documentation](https://filamentphp.com/docs/panels)
 >>>>>>> 85cdef688 (.)
@@ -107,6 +108,12 @@ In caso di errore durante l'applicazione dei metatag:
 =======
 - [Filament Panel Documentation](https://filamentphp.com/docs/panels)
 >>>>>>> 6a52563d6 (.)
+=======
+- [Filament Panel Documentation](https://filamentphp.com/docs/panels)
+=======
+- [Filament Panel Documentation](https://filamentphp.com/project_docs/panels)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
 
 ## Note
 - Questa azione utilizza il trait `QueueableAction` di Spatie

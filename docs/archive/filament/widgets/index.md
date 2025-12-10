@@ -26,6 +26,7 @@ Il sistema di widget è organizzato attorno a classi base che forniscono funzion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/xotbasewidget.md) - Classe base per tutti i widget
 >>>>>>> 85cdef688 (.)
@@ -80,6 +81,12 @@ Il sistema di widget è organizzato attorno a classi base che forniscono funzion
 =======
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/xotbasewidget.md) - Classe base per tutti i widget
 >>>>>>> 6a52563d6 (.)
+=======
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/xotbasewidget.md) - Classe base per tutti i widget
+=======
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per tutti i widget
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
 
 ## Best Practices
 

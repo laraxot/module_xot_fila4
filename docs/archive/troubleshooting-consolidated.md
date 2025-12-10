@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # Troubleshooting - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTI i problemi comuni e le soluzioni del progetto
@@ -278,6 +281,7 @@ Codice non conforme agli standard di tipizzazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -456,6 +460,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 03ceeac3 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -721,6 +728,7 @@ public function test_b(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 ### Errore: Conflitti Git
@@ -806,6 +814,11 @@ public function test_b(): void
 
 **Sintomo**
 >>>>>>> 5bd842e3 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 03ceeac3 (.)
 ```
 <<<<<<< HEAD
 // Codice locale
@@ -813,6 +826,7 @@ public function test_b(): void
 // Codice remoto
 >>>>>>> branch-name
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,6 +1118,8 @@ public function test_b(): void
 
 **Sintomo**
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:
@@ -1273,6 +1289,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -1301,3 +1318,5 @@ php artisan view:clear
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)

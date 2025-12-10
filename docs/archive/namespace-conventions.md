@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -62,6 +63,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9340,6 +9343,7 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -9391,3 +9395,5 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)

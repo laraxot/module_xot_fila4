@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -30,6 +31,8 @@
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # XotBaseServiceProvider
 
 ## Panoramica
@@ -130,6 +133,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,12 +280,15 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> d79d36e0 (.)
 =======
 >>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 - [Architettura dei Provider](../../../docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../docs/architecture/modules.md)
 
 ### Collegamenti ai Moduli
 - [Notify ServiceProvider](../../Notify/docs/service-provider.md)
 - [User ServiceProvider](../../User/docs/service-provider.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,6 +505,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> d79d36e0 (.)
 =======
 >>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 
 ## Note Importanti
 
@@ -507,6 +516,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 4. Documentare ogni modifica o estensione
 5. Mantenere la coerenza tra i moduli 
 ## Collegamenti tra versioni di XotBaseServiceProvider.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,6 +738,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 >>>>>>> 5cd593a5 (.)
+=======
+* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
+>>>>>>> 03ceeac3 (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 
@@ -860,6 +873,7 @@ $this->commands([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -911,3 +925,5 @@ $this->commands([
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)

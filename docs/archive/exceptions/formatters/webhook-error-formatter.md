@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -34,6 +35,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # WebhookErrorFormatter
 
 ## Descrizione
@@ -82,6 +85,7 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 ## Collegamenti
 - [Error Handling Guidelines](../../EXCEPTION-HANDLING-GUIDE.md)
 - [Webhook Integration](../../integrations/WEBHOOK-GUIDE.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,3 +190,7 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 - [Error Formatters Overview](../README.md) 
 >>>>>>> 5bd842e3 (.)
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters Overview](../README.md) 
+>>>>>>> 03ceeac3 (.)

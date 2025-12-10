@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # PHPStan Configuration Fixes - Modulo Xot
 
 ## Panoramica
@@ -46,6 +49,7 @@ ignoreErrors:
     - '#Method .+::.+ should return .+<.+, (.+)> but returns .+<.+, \$this\(\1\)>#' # Ignora errori di covarianza nei tipi generici delle relazioni Eloquent
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,10 +191,13 @@ ignoreErrors:
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
 **Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
 - [SaluteOra - PHPStan Relationship Covariance Fix](../SaluteOra/docs/phpstan-relationship-covariance-fix.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,6 +368,8 @@ ignoreErrors:
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
 
 ### 2. Cast da Mixed
 
@@ -553,6 +562,7 @@ La configurazione PHPStan implementata mantiene un alto livello di qualità del 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -581,3 +591,5 @@ La configurazione PHPStan implementata mantiene un alto livello di qualità del 
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)

@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -34,6 +35,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # ModelInputContract
 
 ## Descrizione
@@ -86,6 +89,7 @@ interface ModelInputContract extends ModelContract
 ## Collegamenti
 - [Form Guidelines](../forms/README.md)
 - [Input Components](../components/FORM-COMPONENTS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,3 +194,7 @@ interface ModelInputContract extends ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 5bd842e3 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 03ceeac3 (.)

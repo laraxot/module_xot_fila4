@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -34,6 +35,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # SearchStringInDatabaseCommand
 
 ## Descrizione
@@ -66,6 +69,7 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 ## Collegamenti
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 - [Performance Guidelines](../performance/database-queries.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,3 +163,6 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 5bd842e3 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 03ceeac3 (.)

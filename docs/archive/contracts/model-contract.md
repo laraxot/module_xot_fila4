@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -34,6 +35,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # ModelContract
 
 ## Descrizione
@@ -81,6 +84,7 @@ interface ModelContract
 ## Collegamenti
 - [Model Guidelines](../models/README.md)
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,3 +189,7 @@ interface ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 5bd842e3 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 03ceeac3 (.)

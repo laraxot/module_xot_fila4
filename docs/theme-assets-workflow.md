@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # 🎨 Theme Assets Workflow - CSS/JS Frontend
 
 **⚠️ REGOLA CRITICA**: Per modifiche CSS/JS del frontend, lavorare SEMPRE nella cartella del tema, NON nella root Laravel.
@@ -117,6 +120,7 @@ npm run copy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
@@ -295,6 +299,9 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 >>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 03ceeac3 (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -344,6 +351,7 @@ npm run copy         # Copia in /public/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
@@ -522,6 +530,9 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
 >>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 03ceeac3 (.)
 npm install
 npm run build
 npm run copy
@@ -582,6 +593,7 @@ export default defineConfig({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 =======
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
@@ -649,3 +661,6 @@ export default defineConfig({
 =======
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 >>>>>>> 5bd842e3 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 03ceeac3 (.)

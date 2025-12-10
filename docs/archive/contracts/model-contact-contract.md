@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -34,6 +35,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # ModelContactContract
 
 ## Descrizione
@@ -83,6 +86,7 @@ interface ModelContactContract extends ModelContract
 ## Collegamenti
 - [Model Guidelines](../models/README.md)
 - [Contact Management](../features/CONTACT-MANAGEMENT.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,3 +191,7 @@ interface ModelContactContract extends ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 5bd842e3 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 03ceeac3 (.)

@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -50,6 +53,7 @@ use Modules\{Module}\Filament\Widgets\{WidgetName};
 uses(\Modules\Xot\Tests\TestCase::class);
 
 // ✅ CRITICO: Mock XotData per ogni test
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +415,8 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
 beforeEach(function (): void {
     mockXotData();
 });
@@ -430,6 +436,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,6 +641,9 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 76bec91a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 03ceeac3 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -807,6 +817,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1367,3 +1378,6 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 03ceeac3 (.)

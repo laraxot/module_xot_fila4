@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -30,6 +31,8 @@
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 ---
 title: Model
 description: Model Queuable Actions
@@ -42,6 +45,7 @@ section: content
 # Model Queuable Actions
 
 ## Collegamenti tra versioni di model.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +309,10 @@ section: content
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 >>>>>>> 5cd593a5 (.)
+=======
+* [model.md](../../../Xot/docs/model.md)
+* [model.md](../../../Xot/docs/service/model.md)
+>>>>>>> 03ceeac3 (.)
 
 
 ### Versione Incoming
@@ -313,6 +321,7 @@ section: content
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,3 +391,5 @@ section: content
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)

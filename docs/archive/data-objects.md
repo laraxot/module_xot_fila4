@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # Data Objects
 
 ## Principi Fondamentali
@@ -94,6 +97,7 @@
 ## Errori Comuni
 
 1. **Errore**: Directory errata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,6 +362,10 @@
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
 >>>>>>> 76bec91a (.)
+=======
+   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
+   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+>>>>>>> 03ceeac3 (.)
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`
@@ -372,6 +380,7 @@
 - [Data Objects Patient](../Patient/docs/data-objects.md)
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,3 +417,5 @@
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)

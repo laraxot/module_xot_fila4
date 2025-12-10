@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
@@ -148,10 +149,13 @@
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
 > - [README.md documentazione generale](../../../../project_docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +256,8 @@
 =======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 90d386aa (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
@@ -287,6 +293,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
 <<<<<<< HEAD
@@ -510,6 +517,10 @@
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
 >>>>>>> 55fe1822 (.)
+=======
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+>>>>>>> 90d386aa (.)
 ## Analisi della Struttura Attuale
 
 Il prompt `docs.txt` attuale presenta diverse problematiche strutturali che possono essere migliorate:
@@ -600,6 +611,7 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -654,3 +666,5 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)

@@ -137,6 +137,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 <<<<<<< HEAD
@@ -366,3 +367,8 @@ return [
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 >>>>>>> 472bd9dc (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> b7ea1cd1 (.)

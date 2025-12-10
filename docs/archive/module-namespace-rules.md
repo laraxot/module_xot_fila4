@@ -68,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [docs root](../../../../docs/actions.md)
 - [docs Lang](../../Lang/docs/filament-label.md)
 
@@ -323,3 +324,9 @@ Ultimo aggiornamento: maggio 2025.
 >>>>>>> a5dccfe (.)
 Ultimo aggiornamento: maggio 2025.
 >>>>>>> 472bd9dc (.)
+=======
+- [docs root](../../../../project_docs/actions.md)
+- [docs Lang](../../Lang/project_docs/filament-label.md)
+
+Ultimo aggiornamento: maggio 2025.
+>>>>>>> b7ea1cd1 (.)

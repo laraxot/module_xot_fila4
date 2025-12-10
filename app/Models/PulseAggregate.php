@@ -181,8 +181,13 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $aggregate
  * @property string $value
  * @property int|null $count
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+=======
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
+>>>>>>> f1570712 (.)
  *
 <<<<<<< HEAD
  * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])

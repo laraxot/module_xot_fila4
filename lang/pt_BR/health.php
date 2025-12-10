@@ -11,7 +11,7 @@ return [
             'heading' => 'Saúde da aplicação',
             'navigation' => [
                 'group' => 'Configurações',
-                'label' => 'Saúde da aplicação',
+                'label' => 'Verificações de saúde',
             ],
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',

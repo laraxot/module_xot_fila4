@@ -99,8 +99,8 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string $key_hash
  * @property string $value
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
  *
  * @method static \Modules\Xot\Database\Factories\PulseValueFactory factory($count = null, $state = [])
 >>>>>>> cc7fb225 (.)

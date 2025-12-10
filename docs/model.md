@@ -91,6 +91,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 =======
@@ -348,6 +349,10 @@ section: content
 >>>>>>> 6d1255a8 (.)
 =======
 >>>>>>> 3ae5e299 (.)
+=======
+* [model.md](../../../Xot/docs/model.md)
+* [model.md](../../../Xot/docs/service/model.md)
+>>>>>>> 5b07d268 (.)
 
 
 ### Versione Incoming

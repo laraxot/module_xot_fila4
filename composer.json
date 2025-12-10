@@ -25,21 +25,9 @@
         "coolsam/panel-modules": "*",
         "doctrine/dbal": "*",
         "fidum/laravel-eloquent-morph-to-one": "*",
-<<<<<<< HEAD
-<<<<<<< HEAD
         "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "*",
         
-=======
-        "filament/filament": "^3.4",
-        "filament/spatie-laravel-media-library-plugin": "^3.2",
-        "filament/spatie-laravel-translatable-plugin": "^3.2",
->>>>>>> f1d4085 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> 73eab74 (.)
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",
@@ -91,18 +79,9 @@
         "thecodingmachine/safe": "^3.0",
         "tightenco/parental": "*"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "require_comment": {
        "filament/spatie-laravel-translatable-plugin": "*"
     },
-=======
->>>>>>> f1d4085 (.)
-=======
-    "require_comment": {
-       "filament/spatie-laravel-translatable-plugin": "*"
-    },
->>>>>>> 73eab74 (.)
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.14",
         "barryvdh/laravel-ide-helper": "^3.2",

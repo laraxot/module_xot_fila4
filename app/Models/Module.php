@@ -100,6 +100,7 @@ use Nwidart\Modules\Module as NModule;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\json_encode;
 use Sushi\Sushi;
 
@@ -126,10 +127,13 @@ use Sushi\Sushi;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +182,8 @@ use Sushi\Sushi;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,10 +374,6 @@ class Module extends Model
     public function getRows(): array
     {
         $modules = ModuleFacade::all();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
 <<<<<<< HEAD
@@ -412,33 +414,6 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
-<<<<<<< HEAD
-=======
-        $modules = Arr::map(
-            $modules,
-            function (NModule $module): array {
-                $config = config('tenant::config');
-                if (! is_array($config)) {
-                    $config = [];
-                }
-                $colors = Arr::get($config, 'colors', []);
-
-                return [
-                    'name' => $module->getName(),
-                    // 'alias' => $module->getAlias(),
-                    'description' => $module->getDescription(),
-                    'status' => $module->isEnabled(),
-                    'priority' => $module->get('priority'),
-                    'path' => $module->getPath(),
-                    'icon' => Arr::get($config, 'icon', 'heroicon-o-question-mark-circle'),
-                    'colors' => json_encode($colors),
-                ];
-            }
-        );
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         return array_values($modules);
     }
 

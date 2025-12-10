@@ -30,6 +30,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 5a14301c (.)
@@ -57,6 +58,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 3eee6f79 (.)
 =======
 >>>>>>> c2f6854c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @property-read ProfileContract|null $deleter
@@ -69,7 +72,13 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Get the user who created the model.
+=======
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+>>>>>>> 5a14301c (.)
 =======
      * Summary of creator.
      *
@@ -106,6 +115,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         // @phpstan-ignore return.type
 <<<<<<< HEAD
@@ -385,6 +395,9 @@ trait Updater
 >>>>>>> 3eee6f79 (.)
 =======
 >>>>>>> c2f6854c (.)
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
     }
 
@@ -395,6 +408,11 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return BelongsTo<ProfileContract&Model, static>
@@ -426,6 +444,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         // @phpstan-ignore return.type
 <<<<<<< HEAD
@@ -705,10 +724,14 @@ trait Updater
 >>>>>>> 3eee6f79 (.)
 =======
 >>>>>>> c2f6854c (.)
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -725,6 +748,8 @@ trait Updater
     }
 
     /**
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -768,7 +793,11 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::isArray($attributes = $model->getAttributes());
+=======
+            Assert::isArray($attributes = $model->attributes);
+>>>>>>> 5a14301c (.)
 =======
             Assert::isArray($attributes = $model->attributes);
 >>>>>>> 5a14301c (.)

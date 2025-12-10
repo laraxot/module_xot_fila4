@@ -18,6 +18,7 @@ class FilemanagerData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $disk  Disco di storage predefinito
      * @param  array  $disks  Dischi di storage disponibili
      * @param  array  $allowed_ext  Estensioni file consentite
@@ -25,6 +26,8 @@ class FilemanagerData extends Data
      * @param  string  $route_prefix  Prefisso per le rotte del file manager
      * @param  bool  $enable_crop  Abilita il crop delle immagini
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -43,6 +46,9 @@ class FilemanagerData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -69,11 +75,14 @@ class FilemanagerData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public static function make(): static
     {
         return new static;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -92,6 +101,9 @@ class FilemanagerData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

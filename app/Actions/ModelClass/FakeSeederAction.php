@@ -25,6 +25,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use InvalidArgumentException;
 use RuntimeException;
@@ -137,6 +138,10 @@ use RuntimeException;
 use InvalidArgumentException;
 use RuntimeException;
 >>>>>>> 9db27d12 (.)
+=======
+use InvalidArgumentException;
+use RuntimeException;
+>>>>>>> 5a14301c (.)
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -147,8 +152,11 @@ use Illuminate\Support\Collection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use InvalidArgumentException;
 use RuntimeException;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -178,8 +186,13 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass  The fully qualified model class name
      * @param  int<1, max>  $qty  Number of records to generate
+=======
+     * @param class-string<Model> $modelClass The fully qualified model class name
+     * @param int<1, max>         $qty        Number of records to generate
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass The fully qualified model class name
      * @param int<1, max>         $qty        Number of records to generate
@@ -211,9 +224,15 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ! class_exists($modelClass) ||
                 ! is_subclass_of($modelClass, Model::class) ||
                 ! in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+=======
+            !class_exists($modelClass) ||
+                !is_subclass_of($modelClass, Model::class) ||
+                !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+>>>>>>> 5a14301c (.)
 =======
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
@@ -277,7 +296,11 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
+=======
+     * @param class-string<Model> $modelClass
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass
 >>>>>>> 5a14301c (.)
@@ -313,8 +336,13 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
      * @param  int<1, max>  $count
+=======
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $count
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass
      * @param int<1, max>         $count
@@ -353,8 +381,13 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
      * @param  int<1, max>  $qty
+=======
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $qty
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass
      * @param int<1, max>         $qty

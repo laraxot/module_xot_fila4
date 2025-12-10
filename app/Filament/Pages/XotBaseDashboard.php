@@ -7,6 +7,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
@@ -180,6 +181,9 @@ declare(strict_types=1);
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 namespace Modules\Xot\Filament\Pages;
 
 use Filament\Schemas\Schema;
@@ -188,6 +192,7 @@ use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Get;
 use Filament\Pages\Dashboard as FilamentDashboard;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -689,10 +694,19 @@ abstract class XotBaseDashboard extends FilamentDashboard
     protected static ?int $navigationSort = 1;
 
 >>>>>>> 249a0067 (.)
+=======
+
+abstract class XotBaseDashboard extends FilamentDashboard
+{
+    use FilamentDashboard\Concerns\HasFiltersForm;
+
+    protected static null|int $navigationSort = 1;
+>>>>>>> 5a14301c (.)
     protected bool $persistsFiltersInSession = true;
 
     final public function filtersForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -837,6 +851,8 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
         return $schema->components([
             Section::make()->schema($this->getFiltersFormSchema())->columns(3),
         ]);
@@ -850,11 +866,28 @@ abstract class XotBaseDashboard extends FilamentDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+        return $schema->components([
+            Section::make()->schema($this->getFiltersFormSchema())->columns(3),
+        ]);
+    }
+
+>>>>>>> 53d6a6ba (.)
+=======
+    /**
+     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
+     */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -873,20 +906,6 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
-=======
-        return $schema->components([
-            Section::make()->schema($this->getFiltersFormSchema())->columns(3),
-        ]);
-    }
-
->>>>>>> 53d6a6ba (.)
-=======
-    /**
-     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
-     */
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
     public function getFiltersFormSchema(): array
     {
         return [];

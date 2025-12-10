@@ -19,6 +19,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -40,6 +41,10 @@ namespace Modules\Xot\Filament\Pages;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Utilities\Get;
+>>>>>>> 5a14301c (.)
+=======
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Utilities\Get;
 >>>>>>> 5a14301c (.)
@@ -86,6 +91,7 @@ use Filament\Pages\Page;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 >>>>>>> 5a14301c (.)
@@ -123,11 +129,14 @@ use Filament\Schemas\Schema;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Support\Colors\Color;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +162,8 @@ use Filament\Schemas\Schema;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 /**
  * @property Schema $form
@@ -162,6 +173,7 @@ class MetatagPage extends Page implements HasForms
     use InteractsWithForms;
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +345,11 @@ class MetatagPage extends Page implements HasForms
 >>>>>>> ca9324a4 (.)
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+=======
+    public null|array $data = [];
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> 5a14301c (.)
 
     protected string $view = 'xot::filament.pages.metatag';
 
@@ -363,7 +380,10 @@ class MetatagPage extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -392,6 +412,9 @@ class MetatagPage extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -412,6 +435,7 @@ class MetatagPage extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ->required()
                             ->options($metatag->getFilamentColors()),
                         Select::make('color')
@@ -419,6 +443,8 @@ class MetatagPage extends Page implements HasForms
                             ->reactive(),
                         ColorPicker::make('hex')
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -443,6 +469,7 @@ class MetatagPage extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ->visible(fn(Get $get) => $get('color') === 'custom')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,6 +508,9 @@ class MetatagPage extends Page implements HasForms
 =======
                             ->visible(fn ($get) => $get('color') === 'custom')
 >>>>>>> 71586de2 (.)
+=======
+                            ->visible(fn(Get $get) => $get('color') === 'custom')
+>>>>>>> 5a14301c (.)
                             ->required(),
                     ])
                     ->columns(3),

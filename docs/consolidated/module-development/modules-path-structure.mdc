@@ -47,6 +47,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fe347873 (.)
 =======
@@ -110,6 +111,8 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 5a14301c (.)
 - Modules/SaluteOra/app/Filament/Resources/UserResource.php
 - Modules/SaluteOra/app/Filament/Resources/UserResource/Pages/CreateUser.php
 - Modules/SaluteOra/app/Enums/UserType.php
@@ -118,6 +121,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 ## Esempio errato
 - Modules/SaluteOra/Filament/Resources/UserResource.php
 - Modules/SaluteOra/Enums/UserType.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +256,8 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> fe347873 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 Questa regola garantisce coerenza, manutenibilità e rispetto delle convenzioni PSR-4 e delle best practice del progetto.
 
@@ -337,6 +343,7 @@ class User extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 =======
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
@@ -455,6 +462,9 @@ class User extends Model {
 =======
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 >>>>>>> fe347873 (.)
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+>>>>>>> 5a14301c (.)
 - https://github.com/spatie/laravel-model-states
 
 ---
@@ -484,6 +494,7 @@ class User extends Model {
 - https://github.com/spatie/laravel-model-states
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -652,10 +663,13 @@ class User extends Model {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 5a14301c (.)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
 [← Torna a SaluteOra/docs](../../SaluteOra/docs/uso-label-filament.mdc)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,6 +792,8 @@ class User extends Model {
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> fe347873 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 # Regola sui Path dei File di Codice nei Moduli Laravel
 
@@ -798,6 +814,7 @@ Tutti i file di codice (Actions, Models, Controllers, ecc.) dei moduli Laravel D
 ### Esempio
 ```php
 // Corretto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -886,10 +903,13 @@ Modules/<main module>/Actions/Patient/Calendar/FetchEventsAction.php
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 5a14301c (.)
 Modules/SaluteOra/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
 Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1012,6 +1032,8 @@ Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> fe347873 (.)
+=======
+>>>>>>> 5a14301c (.)
 ```
 
 ## Collegamenti
@@ -1087,6 +1109,7 @@ final class FetchEventsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
 =======
 =======
@@ -1265,6 +1288,9 @@ Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/que
 =======
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
 >>>>>>> fe347873 (.)
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+>>>>>>> 5a14301c (.)
 
 # Regola Namespace per Actions
 
@@ -1275,6 +1301,7 @@ Motivazione: PSR-4, autoload Composer, coerenza, manutenzione.
 Esempio:
 ```php
 // Corretto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1373,12 +1400,15 @@ Vedi anche: <main module>/docs/directory-structure.md
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 5a14301c (.)
 namespace Modules\SaluteOra\Actions\Patient\Calendar;
 // Errato
 namespace Modules\SaluteOra\App\Actions\Patient\Calendar;
 ```
 
 Vedi anche: SaluteOra/docs/directory-structure.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1497,3 +1527,5 @@ Vedi anche: SaluteOra/docs/directory-structure.md
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> fe347873 (.)
+=======
+>>>>>>> 5a14301c (.)

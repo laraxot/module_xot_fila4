@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -37,6 +38,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Gestione della Documentazione e delle Regole
 
 ## Struttura della Documentazione
@@ -96,6 +99,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione Globale** (`/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +300,9 @@ base_predict_fila3_mono/
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+- **Documentazione Globale** (`/docs/`)
+>>>>>>> 5a14301c (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -333,6 +340,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +541,9 @@ base_predict_fila3_mono/
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
+>>>>>>> 5a14301c (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -560,6 +571,7 @@ Quando si identifica una nuova regola o pattern importante:
 
 2. **Aggiornamento Documentazione**
    - Se regola specifica del modulo:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,10 +727,14 @@ Quando si identifica una nuova regola o pattern importante:
 =======
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+     1. Aggiornare `Modules/[ModuleName]/docs/`
+>>>>>>> 5a14301c (.)
      2. Se rilevante, aggiungere riferimento in `/docs/`
 
    - Se regola globale:
      1. Aggiornare `/docs/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1000,6 +1016,8 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+>>>>>>> 5a14301c (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**
@@ -1101,6 +1119,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -1157,3 +1176,5 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)

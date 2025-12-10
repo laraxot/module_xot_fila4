@@ -10,11 +10,17 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Facades\Filament;
 use Filament\Pages\Dashboard;
 >>>>>>> ab8cc3f3 (.)
 use Filament\Panel;
+=======
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+>>>>>>> 5a14301c (.)
 =======
 use Filament\Facades\Filament;
 use Filament\Panel;
@@ -48,12 +54,17 @@ use Webmozart\Assert\Assert;
  */
 class MainDashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
+>>>>>>> 5a14301c (.)
 
     protected string $view = 'xot::filament.pages.dashboard';
 
     // protected static string $routePath = 'main';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,6 +281,11 @@ class MainDashboard extends XotBaseDashboard
 
     protected static null|int $navigationSort = 1;
 >>>>>>> 5a14301c (.)
+=======
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+>>>>>>> 5a14301c (.)
 
     /**
      * Use the canonical slug so Filament resolves the home link to this page
@@ -282,6 +298,7 @@ class MainDashboard extends XotBaseDashboard
 
     public function mount(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,6 +321,8 @@ class MainDashboard extends XotBaseDashboard
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         Assert::notNull($user = auth()->user(), '[' . __LINE__ . '][' . class_basename($this) . ']');
         $modules = $user->roles->filter(static fn($item) => Str::endsWith($item->name, '::admin'));
 
@@ -316,6 +335,9 @@ class MainDashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -334,8 +356,13 @@ class MainDashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($modules->count() === 0) {
             $url = '/'.app()->getLocale();
+=======
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+>>>>>>> 5a14301c (.)
 =======
         if (0 === $modules->count()) {
             $url = '/' . app()->getLocale();
@@ -376,7 +403,11 @@ class MainDashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+=======
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+>>>>>>> 5a14301c (.)
 =======
            //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
 >>>>>>> 5a14301c (.)

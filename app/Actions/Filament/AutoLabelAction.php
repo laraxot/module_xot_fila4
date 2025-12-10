@@ -29,6 +29,7 @@ namespace Modules\Xot\Actions\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Field;
 use Filament\Schemas\Components\Component;
 use Illuminate\Support\Arr;
@@ -76,6 +77,8 @@ use ReflectionClass;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Schemas\Components\Component;
 use ReflectionClass;
 use Filament\Forms\Components\Field;
@@ -86,6 +89,9 @@ use Modules\Xot\Actions\GetTransKeyAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -111,10 +117,13 @@ class AutoLabelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Applica automaticamente le etichette ai componenti Filament.
      *
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -162,6 +171,7 @@ class AutoLabelAction
      *
      * @param Field|Component $component Il componente a cui applicare l'etichetta
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,6 +365,8 @@ class AutoLabelAction
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @return Field|Component Il componente con l'etichetta applicata
      */
     public function execute(Field|Component $component): Field|Component
@@ -391,7 +403,11 @@ class AutoLabelAction
 
         // Costruiamo la chiave per l'etichetta
 <<<<<<< HEAD
+<<<<<<< HEAD
         $label_key = $trans_key.'.fields.'.$componentName.'.label';
+=======
+        $label_key = $trans_key . '.fields.' . $componentName . '.label';
+>>>>>>> 5a14301c (.)
 =======
         $label_key = $trans_key . '.fields.' . $componentName . '.label';
 >>>>>>> 5a14301c (.)
@@ -404,7 +420,11 @@ class AutoLabelAction
 
                 // Proviamo a ottenere una traduzione più breve
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $label_key1 = $trans_key.'.fields.'.$componentName;
+=======
+                $label_key1 = $trans_key . '.fields.' . $componentName;
+>>>>>>> 5a14301c (.)
 =======
                 $label_key1 = $trans_key . '.fields.' . $componentName;
 >>>>>>> 5a14301c (.)
@@ -429,7 +449,10 @@ class AutoLabelAction
         return $component;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 }

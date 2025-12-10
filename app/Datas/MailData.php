@@ -18,6 +18,7 @@ class MailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $driver  Driver per l'invio delle email
      * @param  string  $host  Host SMTP
      * @param  int  $port  Porta SMTP
@@ -29,6 +30,8 @@ class MailData extends Data
      * @param  string|null  $reply_to  Indirizzo per le risposte
      * @param  bool  $verify_peer  Verifica certificato peer SSL
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -51,6 +54,9 @@ class MailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -123,6 +129,7 @@ class MailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -232,6 +239,9 @@ class MailData extends Data
 =======
         public readonly null|string $reply_to = null,
 >>>>>>> 3fbbf1f5 (.)
+=======
+        public readonly null|string $reply_to = null,
+>>>>>>> 5a14301c (.)
 =======
         public readonly null|string $reply_to = null,
 >>>>>>> 5a14301c (.)
@@ -254,11 +264,14 @@ class MailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public static function make(): static
     {
         return new static;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -277,6 +290,9 @@ class MailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

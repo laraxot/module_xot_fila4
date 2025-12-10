@@ -62,6 +62,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use function count;
 
@@ -408,6 +409,10 @@ use function count;
 use function count;
 
 >>>>>>> 71586de2 (.)
+=======
+use function count;
+
+>>>>>>> 5a14301c (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -424,7 +429,11 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string,string>  $params  Parametri aggiuntivi
+=======
+     * @param array<string,string> $params Parametri aggiuntivi
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string,string> $params Parametri aggiuntivi
 >>>>>>> 5a14301c (.)
@@ -456,7 +465,11 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (Request::segment(1) === 'admin') {
+=======
+        if ('admin' === Request::segment(1)) {
+>>>>>>> 5a14301c (.)
 =======
         if ('admin' === Request::segment(1)) {
 >>>>>>> 5a14301c (.)
@@ -479,6 +492,7 @@ class RouteService
         $segments = Request::segments();
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,6 +541,8 @@ class RouteService
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         return (
             (is_countable($segments) ? \count($segments) : 0) > 0 &&
             'livewire' === $segments[0] &&
@@ -540,6 +556,9 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -569,6 +588,7 @@ class RouteService
         // Cannot call method getName() on mixed.
         $routename = ''; // Request::route()->getName();
         $old_act_route = last(explode('.', $routename));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -678,11 +698,14 @@ class RouteService
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!\is_string($old_act_route)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename(self::class) . ']');
         }
 
         $routename_act = Str::before($routename, $old_act_route) . '' . $act;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1161,6 +1184,8 @@ class RouteService
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -1235,6 +1260,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return '#'.$routename_act;
 =======
         return '#' . $routename_act;
@@ -1547,6 +1573,9 @@ class RouteService
 =======
         return '#'.$routename_act;
 >>>>>>> 71586de2 (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 5a14301c (.)
     }
 
     // se n=0 => 'container0'
@@ -1557,7 +1586,11 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string,string>  $params
+=======
+     * @param array<string,string> $params
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string,string> $params
 >>>>>>> 5a14301c (.)
@@ -1600,6 +1633,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -1919,6 +1953,10 @@ class RouteService
         for ($i = 0; $i <= $n; $i++) {
             $tmp[] = 'container'.$i;
 >>>>>>> 71586de2 (.)
+=======
+        for ($i = 0; $i <= $n; ++$i) {
+            $tmp[] = 'container' . $i;
+>>>>>>> 5a14301c (.)
         }
 
         $tmp[] = $act;
@@ -1994,7 +2032,11 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * dddx([
+=======
+     * dd([
+>>>>>>> 5a14301c (.)
 =======
      * dd([
 >>>>>>> 5a14301c (.)
@@ -2030,7 +2072,11 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string,string>  $params
+=======
+     * @param array<string,string> $params
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string,string> $params
 >>>>>>> 5a14301c (.)
@@ -2127,6 +2173,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($route_action === null) {
 =======
         if (null === $route_action) {
@@ -2192,6 +2239,9 @@ class RouteService
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -2222,6 +2272,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($route_action === null) {
 =======
         if (null === $route_action) {
@@ -2287,6 +2338,9 @@ class RouteService
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -2306,6 +2360,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($route_action === null) {
 =======
         if (null === $route_action) {
@@ -2371,6 +2426,9 @@ class RouteService
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -2388,6 +2446,7 @@ class RouteService
         $params['containers'] = implode('.', $containers);
 
         return collect($tmp_arr)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2638,6 +2697,9 @@ class RouteService
 =======
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
 >>>>>>> 71586de2 (.)
+=======
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+>>>>>>> 5a14301c (.)
             ->map(static function ($item) use ($params) {
                 $item = Str::snake($item);
 

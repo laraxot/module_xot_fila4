@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -37,6 +38,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Fix Redirect Loop - MainDashboard
 
 ## Problema Risolto
@@ -225,6 +228,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
 =======
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
@@ -518,6 +522,13 @@ performance::admin
 =======
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+- [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
+- [XotBasePanelProvider](xotbasepanelprovider.md)
+- [User Role Management](../../User/docs/console_commands/README.md)
+- [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
+
+>>>>>>> 5a14301c (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato
@@ -553,6 +564,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -609,3 +621,5 @@ performance::admin
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)

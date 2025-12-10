@@ -74,6 +74,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! isset($data['to'])) {
 =======
             if (!isset($data['to'])) {
@@ -386,6 +387,9 @@ class MorphToManyAction
 =======
             if (! isset($data['to'])) {
 >>>>>>> 71586de2 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
                 $data['to'] = [];
             }
 
@@ -447,6 +451,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! Arr::isAssoc($data)) {
 =======
         if (!Arr::isAssoc($data)) {
@@ -759,6 +764,9 @@ class MorphToManyAction
 =======
         if (! Arr::isAssoc($data)) {
 >>>>>>> 71586de2 (.)
+=======
+        if (!Arr::isAssoc($data)) {
+>>>>>>> 5a14301c (.)
             $relationDTO->rows->sync($data);
 
             return;

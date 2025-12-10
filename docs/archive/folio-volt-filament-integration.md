@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -37,6 +38,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Integrazione Folio, Volt e Filament
 
 > **NOTA**: Questo documento è stato unificato con la documentazione sull'architettura Folio + Volt + Filament. Consulta il documento aggiornato nel link sottostante.
@@ -78,6 +81,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 =======
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
@@ -383,6 +387,15 @@
 =======
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+- [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
+
+### Moduli Collegati
+- [UI](../UI/docs/README.md) - Componenti di interfaccia
+- [Cms](../Cms/docs/README.md) - Gestione contenuti
+- [Lang](../Lang/docs/README.md) - Traduzioni
+
+>>>>>>> 5a14301c (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -520,6 +533,9 @@ $submit = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -536,6 +552,7 @@ $submit = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 43d67f21 (.)
@@ -1244,3 +1261,66 @@ $submit = function() {
 =======
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+
+### Modulo Cms
+- [Frontend](../Cms/docs/frontend.md)
+- [Temi](../Cms/docs/themes.md)
+- [Contenuti](../Cms/docs/content.md)
+- [Convenzioni Filament](../Cms/docs/convenzioni-namespace-filament.md)
+
+### Modulo Lang
+- [Traduzioni](../Lang/docs/translations.md)
+- [Localizzazione](../Lang/docs/localization.md)
+- [API Traduzioni](../Lang/docs/api.md)
+
+### Modulo User
+- [Autenticazione](../User/docs/auth.md)
+- [Permessi](../User/docs/permissions.md)
+- [Profilo](../User/docs/profile.md)
+
+### Modulo Patient
+- [Gestione Pazienti](../Patient/docs/patients.md)
+- [Cartelle Cliniche](../Patient/docs/records.md)
+- [Appuntamenti](../Patient/docs/appointments.md)
+
+### Modulo Dental
+- [Trattamenti](../Dental/docs/treatments.md)
+- [Pianificazione](../Dental/docs/planning.md)
+- [Documenti](../Dental/docs/documents.md)
+
+### Modulo Tenant
+- [Multi-tenant](../Tenant/docs/multi-tenant.md)
+- [Configurazione](../Tenant/docs/configuration.md)
+- [Migrazione](../Tenant/docs/migration.md)
+
+### Modulo Media
+- [Gestione File](../Media/docs/files.md)
+- [Upload](../Media/docs/upload.md)
+- [Storage](../Media/docs/storage.md)
+
+### Modulo Notify
+- [Notifiche](../Notify/docs/notifications.md)
+- [Email](../Notify/docs/email.md)
+- [SMS](../Notify/docs/sms.md)
+
+### Modulo Reporting
+- [Report](../Reporting/docs/reports.md)
+- [Esportazione](../Reporting/docs/export.md)
+- [Analytics](../Reporting/docs/analytics.md)
+
+### Modulo Gdpr
+- [Privacy](../Gdpr/docs/privacy.md)
+- [Consensi](../Gdpr/docs/consents.md)
+- [Sicurezza](../Gdpr/docs/security.md)
+
+### Modulo Job
+- [Jobs](../Job/docs/jobs.md)
+- [Queue](../Job/docs/queue.md)
+- [Scheduling](../Job/docs/scheduling.md)
+
+### Modulo Chart
+- [Grafici](../Chart/docs/charts.md)
+- [Dashboard](../Chart/docs/dashboard.md)
+- [Visualizzazione](../Chart/docs/visualization.md)
+>>>>>>> 5a14301c (.)

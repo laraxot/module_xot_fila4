@@ -19,6 +19,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -36,6 +37,8 @@ namespace Modules\Xot\Models;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -49,6 +52,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -74,10 +78,13 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 /**
  * Class BaseModel.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +162,9 @@ abstract class BaseModel extends XotBaseModel
 =======
 abstract class BaseModel extends Model
 >>>>>>> 71586de2 (.)
+=======
+abstract class BaseModel extends Model
+>>>>>>> 5a14301c (.)
 {
     use HasFactory;
 
@@ -183,6 +193,7 @@ abstract class BaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -206,6 +217,8 @@ abstract class BaseModel extends Model
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
 
     /** @var list<string> */
     protected $fillable = ['id'];
@@ -219,6 +232,7 @@ abstract class BaseModel extends Model
         // 'password'
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -239,6 +253,8 @@ abstract class BaseModel extends Model
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5a14301c (.)
     /**
      * Create a new factory instance for the model.
      *
@@ -251,9 +267,12 @@ abstract class BaseModel extends Model
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5a14301c (.)
     /** @return array<string, class-string|string> */
     protected function casts(): array
     {
@@ -262,6 +281,7 @@ abstract class BaseModel extends Model
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -575,11 +595,14 @@ abstract class BaseModel extends Model
 >>>>>>> 3eee6f79 (.)
 =======
 >>>>>>> c2f6854c (.)
+=======
+>>>>>>> 5a14301c (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,4 +639,6 @@ abstract class BaseModel extends Model
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
 }

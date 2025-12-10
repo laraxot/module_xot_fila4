@@ -19,6 +19,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 use Modules\Tenant\Models\Traits\SushiToJson;
@@ -59,6 +60,8 @@ class InformationSchemaTable extends BaseModel
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -75,8 +78,11 @@ use Webmozart\Assert\Assert;
  * Provides metadata and statistics about database tables.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property string|null $TABLE_CATALOG
  * @property string|null $TABLE_SCHEMA
  * @property string|null $TABLE_NAME
@@ -93,12 +99,15 @@ use Webmozart\Assert\Assert;
  * @property int|null $AUTO_INCREMENT
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property Carbon|null $CREATE_TIME
  * @property Carbon|null $UPDATE_TIME
  * @property Carbon|null $CHECK_TIME
@@ -107,6 +116,7 @@ use Webmozart\Assert\Assert;
  * @property string|null $CREATE_OPTIONS
  * @property string|null $TABLE_COMMENT
  * @property int $id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +134,8 @@ use Webmozart\Assert\Assert;
 =======
  *
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @method static Builder<static>|InformationSchemaTable newModelQuery()
  * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
@@ -149,6 +161,7 @@ use Webmozart\Assert\Assert;
  * @method static Builder<static>|InformationSchemaTable whereTABLETYPE($value)
  * @method static Builder<static>|InformationSchemaTable whereUPDATETIME($value)
  * @method static Builder<static>|InformationSchemaTable whereVERSION($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,10 +199,15 @@ use Webmozart\Assert\Assert;
  * @property string|null $table_schema
  * @property string|null $table_name
 >>>>>>> 5a14301c (.)
+=======
+ * @property string|null $table_schema
+ * @property string|null $table_name
+>>>>>>> 5a14301c (.)
  * @property string|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_at
  * @property string|null $created_by
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
@@ -207,11 +225,16 @@ use Webmozart\Assert\Assert;
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
 >>>>>>> 5a14301c (.)
+=======
+ * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
+ * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
+>>>>>>> 5a14301c (.)
  * @method static Builder<static>|InformationSchemaTable whereTableName($value)
  * @method static Builder<static>|InformationSchemaTable whereTableRows($value)
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +348,11 @@ class InformationSchemaTable extends Model
  */
 class InformationSchemaTable extends Model
 >>>>>>> 5a14301c (.)
+=======
+ * @mixin \Eloquent
+ */
+class InformationSchemaTable extends Model
+>>>>>>> 5a14301c (.)
 {
     use SushiToJson;
 
@@ -335,9 +363,14 @@ class InformationSchemaTable extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+     * The attributes that are mass assignable.
+     *
+>>>>>>> 5a14301c (.)
+=======
      * The attributes that are mass assignable.
      *
 >>>>>>> 5a14301c (.)
@@ -376,12 +409,15 @@ class InformationSchemaTable extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Schema utilizzato dal trait Sushi per tipizzare i campi.
      *
      * @var array<string, string>
      */
     protected array $schema = [
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -399,6 +435,9 @@ class InformationSchemaTable extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -419,6 +458,7 @@ class InformationSchemaTable extends Model
         'created_by' => 'string',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -668,6 +708,11 @@ class InformationSchemaTable extends Model
      * Get the rows array for the Sushi model.
      * This method is required by Sushi to provide the data.
 >>>>>>> 5a14301c (.)
+=======
+    /**
+     * Get the rows array for the Sushi model.
+     * This method is required by Sushi to provide the data.
+>>>>>>> 5a14301c (.)
      *
      * @return array<int, array<string, mixed>>
      */
@@ -676,6 +721,7 @@ class InformationSchemaTable extends Model
         return $this->getSushiRows();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,6 +760,11 @@ class InformationSchemaTable extends Model
     {
         if (!class_exists($modelClass)) {
 >>>>>>> 5a14301c (.)
+=======
+    public static function updateModelCount(string $modelClass, int $total): void
+    {
+        if (!class_exists($modelClass)) {
+>>>>>>> 5a14301c (.)
             throw new InvalidArgumentException("Model class [{$modelClass}] does not exist");
         }
 
@@ -724,8 +775,14 @@ class InformationSchemaTable extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $model instanceof Model) {
             throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
+=======
+
+        if (!($model instanceof Model)) {
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+>>>>>>> 5a14301c (.)
 =======
 
         if (!($model instanceof Model)) {
@@ -760,6 +817,7 @@ class InformationSchemaTable extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $table = $model->getTable();
 
         static::updateOrCreate([
@@ -780,6 +838,8 @@ class InformationSchemaTable extends Model
     {
         if (! class_exists($modelClass)) {
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -809,6 +869,9 @@ class InformationSchemaTable extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -823,6 +886,7 @@ class InformationSchemaTable extends Model
 
         /** @var Model $model */
         $model = app($modelClass);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -984,10 +1048,16 @@ class InformationSchemaTable extends Model
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+
+        if (!($model instanceof Model)) {
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+>>>>>>> 5a14301c (.)
         }
 
         $connection = $model->getConnection();
         $database = $connection->getDatabaseName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1077,8 @@ class InformationSchemaTable extends Model
 
         return (int) $record->table_rows;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -1042,6 +1114,7 @@ class InformationSchemaTable extends Model
          *
          * return static::getAccurateRowCount($table, $database);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1334,5 +1407,7 @@ class InformationSchemaTable extends Model
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 }

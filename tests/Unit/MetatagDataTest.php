@@ -53,6 +53,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -180,6 +181,11 @@ use Modules\Xot\Datas\MetatagData;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+
+>>>>>>> 5a14301c (.)
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
  * Questo test verifica che la classe possa essere istanziata senza errori.
@@ -191,6 +197,7 @@ use Modules\Xot\Datas\MetatagData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('MetatagData può essere istanziata', function (): void {
     $metatagData = new MetatagData;
 =======
@@ -221,6 +228,10 @@ test('MetatagData può essere istanziata', function () {
 test('MetatagData può essere istanziata', function (): void {
     $metatagData = new MetatagData;
 >>>>>>> b7afadf9 (.)
+=======
+test('MetatagData può essere istanziata', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
     expect($metatagData)->toBeInstanceOf(MetatagData::class);
 });
 
@@ -236,6 +247,7 @@ test('MetatagData può essere istanziata', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('getFilamentColors restituisce i colori Filament corretti', function (): void {
     $metatagData = new MetatagData;
     /** @phpstan-ignore-next-line method.nonObject */
@@ -269,6 +281,10 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
     $metatagData = new MetatagData;
     /** @phpstan-ignore-next-line method.nonObject */
 >>>>>>> b7afadf9 (.)
+=======
+test('getFilamentColors restituisce i colori Filament corretti', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
     $colors = $metatagData->getFilamentColors();
 
     expect($colors)
@@ -282,6 +298,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
 =======
@@ -316,6 +333,10 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        ->and($colors['danger'])
+        ->toBe(Color::Red)
+>>>>>>> 5a14301c (.)
         ->and($colors['primary'])
         ->toBe(Color::Amber);
 });
@@ -332,6 +353,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('getColors gestisce correttamente i colori personalizzati', function (): void {
     $metatagData = new MetatagData;
 =======
@@ -362,6 +384,10 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 test('getColors gestisce correttamente i colori personalizzati', function (): void {
     $metatagData = new MetatagData;
 >>>>>>> b7afadf9 (.)
+=======
+test('getColors gestisce correttamente i colori personalizzati', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
     $metatagData->colors = [
         'custom_color' => [
             'key' => 'custom_color',
@@ -374,6 +400,7 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
         ],
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -738,6 +765,11 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
 =======
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 >>>>>>> 71586de2 (.)
+=======
+    $colors = $metatagData->getColors();
+
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 5a14301c (.)
 });
 
 /**
@@ -752,6 +784,7 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('getLogoHeight restituisce il valore corretto', function (): void {
     $metatagData = new MetatagData;
 =======
@@ -782,6 +815,10 @@ test('getLogoHeight restituisce il valore corretto', function () {
 test('getLogoHeight restituisce il valore corretto', function (): void {
     $metatagData = new MetatagData;
 >>>>>>> b7afadf9 (.)
+=======
+test('getLogoHeight restituisce il valore corretto', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
     $metatagData->logo_height = '3em';
 
     expect($metatagData->getLogoHeight())->toBe('3em');
@@ -799,6 +836,7 @@ test('getLogoHeight restituisce il valore corretto', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('Le proprietà hanno i valori di default corretti', function (): void {
     $metatagData = new MetatagData;
 =======
@@ -829,6 +867,10 @@ test('Le proprietà hanno i valori di default corretti', function () {
 test('Le proprietà hanno i valori di default corretti', function (): void {
     $metatagData = new MetatagData;
 >>>>>>> b7afadf9 (.)
+=======
+test('Le proprietà hanno i valori di default corretti', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
 
     expect($metatagData->generator)
         ->toBe('xot')

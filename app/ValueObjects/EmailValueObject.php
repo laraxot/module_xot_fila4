@@ -34,6 +34,7 @@ class EmailValueObject
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -306,6 +307,9 @@ class EmailValueObject
 =======
         if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
 >>>>>>> 71586de2 (.)
+=======
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+>>>>>>> 5a14301c (.)
             throw new InvalidArgumentException(sprintf('Email address %s is considered valid.', $email));
         }
     }

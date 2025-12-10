@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
@@ -264,6 +265,12 @@
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+# Analisi e Miglioramenti del Prompt docs.txt
+
+> **Collegamenti correlati**
+> - [README.md documentazione generale](../../../../docs/README.md)
+>>>>>>> 5a14301c (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
@@ -300,6 +307,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
 <<<<<<< HEAD
@@ -533,6 +541,10 @@
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
+
+>>>>>>> 5a14301c (.)
 ## Analisi della Struttura Attuale
 
 Il prompt `docs.txt` attuale presenta diverse problematiche strutturali che possono essere migliorate:
@@ -624,6 +636,7 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -680,3 +693,5 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)

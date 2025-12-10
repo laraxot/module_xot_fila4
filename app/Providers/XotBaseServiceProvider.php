@@ -25,6 +25,7 @@ namespace Modules\Xot\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 <<<<<<< HEAD
@@ -73,6 +74,8 @@ use Exception;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Exception;
 use Throwable;
 use Modules\Xot\Actions\File\GetComponentsAction;
@@ -81,6 +84,7 @@ use BladeUI\Icons\Factory as BladeIconsFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -112,6 +116,8 @@ use Exception;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
@@ -123,6 +129,7 @@ use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\File\GetComponentsAction;
 use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
@@ -165,6 +172,11 @@ use Nwidart\Modules\Traits\PathNamespace;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+>>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -220,6 +232,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
 =======
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
@@ -364,6 +377,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
 >>>>>>> ca9324a4 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 5a14301c (.)
         $this->registerLivewireComponents();
         $this->registerBladeComponents();
         $this->registerCommands();
@@ -404,6 +420,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
 =======
@@ -588,12 +605,17 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
 >>>>>>> ca9324a4 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 5a14301c (.)
         $this->registerBladeIcons();
     }
 
     public function registerBladeIcons(): void
     {
         if ($this->name === '') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,12 +729,15 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             throw new Exception('name is empty on [' . static::class . ']');
         }
 
         $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory) {
             $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
             $svgPath = $assetsPath . '/../svg';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -843,6 +868,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             try {
                 $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
             } catch (Throwable $e) {
@@ -918,6 +945,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
 =======
             throw new Exception('name is empty on [' . static::class . ']');
@@ -1092,6 +1120,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             throw new Exception('name is empty on ['.static::class.']');
 >>>>>>> 249a0067 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
         }
 
         $viewPath = module_path($this->name, 'resources/views');
@@ -1108,7 +1139,10 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -1136,6 +1170,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return base_path('Modules/' . $this->name . '/lang');
 <<<<<<< HEAD
 =======
@@ -1202,6 +1237,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+>>>>>>> 5a14301c (.)
         }
     }
 
@@ -1210,6 +1248,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -1262,6 +1303,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
 =======
             throw new Exception('name is empty on [' . static::class . ']');
@@ -1436,6 +1478,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             throw new Exception('name is empty on ['.static::class.']');
 >>>>>>> 249a0067 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
         }
 
         $langPath = $this->getLangPath();
@@ -1476,6 +1521,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! app()->environment('production')) {
 =======
         if (!app()->environment('production')) {
@@ -1620,10 +1666,14 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
         if (!app()->environment('production')) {
 >>>>>>> ca9324a4 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 5a14301c (.)
             // app(Factory::class)->load($this->module_dir.'/../Database/factories');
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1740,6 +1790,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     /**
      * Register config.
      */
@@ -1769,6 +1821,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         try{
             Blade::anonymousComponentPath($componentViewPath);
         } catch (Exception|\BladeUI\Icons\Exceptions\CannotRegisterIconSet $e) {
@@ -1791,6 +1844,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
         Blade::anonymousComponentPath($componentViewPath);
 >>>>>>> 5a14301c (.)
+=======
+        Blade::anonymousComponentPath($componentViewPath);
+>>>>>>> 5a14301c (.)
 
         $componentClassPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-class');
 
@@ -1799,6 +1855,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -1820,6 +1879,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         $prefix = '';
         app(RegisterLivewireComponentsAction::class)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2030,6 +2090,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
 >>>>>>> ca9324a4 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 5a14301c (.)
     }
 
     public function registerCommands(): void
@@ -2038,6 +2101,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 
         $comps = app(GetComponentsAction::class)
             ->execute(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2161,6 +2225,10 @@ abstract class XotBaseServiceProvider extends ServiceProvider
                 $this->module_dir . '/../Console/Commands',
                 'Modules\\' . $this->name . '\\Console\\Commands',
 >>>>>>> 5a14301c (.)
+=======
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+>>>>>>> 5a14301c (.)
                 $prefix,
             );
         if ($comps->count() === 0) {
@@ -2171,6 +2239,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $commands = array_map(static function (mixed $item): string {
             Assert::isArray($item);
             Assert::keyExists($item, 'ns');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2223,6 +2292,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 5a14301c (.)
 
             return $item['ns'];
         }, $commands);
@@ -2238,6 +2310,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2280,6 +2353,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             return;
         }
     }
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

@@ -8,6 +8,7 @@ use Rector\Config\RectorConfig;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
 
@@ -64,6 +65,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 use Rector\PHPUnit\Set\PHPUnitLevelSetList;
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
@@ -71,6 +74,7 @@ use RectorLaravel\Set\LaravelSetList;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->paths([
+<<<<<<< HEAD
 <<<<<<< HEAD
         __DIR__.'/Modules',
         __DIR__.'/app',
@@ -86,6 +90,8 @@ return static function (RectorConfig $rectorConfig): void {
         __DIR__.'/Modules/*/docs',
         __DIR__.'/Modules/*/vendor',
 =======
+=======
+>>>>>>> 5a14301c (.)
         __DIR__ . '/Modules',
         __DIR__ . '/app',
         __DIR__ . '/bootstrap',
@@ -99,6 +105,9 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->skip([
         __DIR__ . '/Modules/*/docs',
         __DIR__ . '/Modules/*/vendor',
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         '*/docs',
         '*/vendor',
@@ -129,6 +138,9 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

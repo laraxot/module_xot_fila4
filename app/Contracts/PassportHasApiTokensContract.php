@@ -13,9 +13,15 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Laravel\Passport\PersonalAccessTokenResult;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Model;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -50,6 +56,11 @@ use Laravel\Passport\TransientToken;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+>>>>>>> 5a14301c (.)
 =======
  * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
  *
@@ -98,7 +109,11 @@ interface PassportHasApiTokensContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function token(): Token|TransientToken|null;
+=======
+    public function token();
+>>>>>>> 5a14301c (.)
 =======
     public function token();
 >>>>>>> 5a14301c (.)
@@ -123,10 +138,13 @@ interface PassportHasApiTokensContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return bool
      */
     public function tokenCan(string $scope);
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -144,6 +162,9 @@ interface PassportHasApiTokensContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -162,10 +183,13 @@ interface PassportHasApiTokensContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int, string>  $scopes
      */
     public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -183,6 +207,9 @@ interface PassportHasApiTokensContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -83,6 +84,8 @@
 >>>>>>> 6d05deed (.)
 =======
 >>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
 # Report Consolidamento Documentazione - 27 Gennaio 2025
 
 ## Panoramica
@@ -142,6 +145,7 @@ Questo report documenta il progresso del consolidamento della documentazione sec
    - Validazione coerenza dei link
 
 3. **Validazione PHPStan**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,6 +239,9 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 =======
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
 >>>>>>> 39bb163e (.)
+=======
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
    - Aggiornamento esempi non conformi
    - Test di funzionamento degli esempi
 
@@ -303,6 +310,7 @@ laravel/
 - Struttura coerente tra tutti i moduli
 
 ### 4. Qualità del Codice
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +404,9 @@ laravel/
 =======
 - Tutti gli esempi conformi PHPStan Level 9
 >>>>>>> 39bb163e (.)
+=======
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
 - Type hints espliciti e documentazione PHPDoc
 - Namespace corretti senza segmento `app`
 
@@ -475,6 +486,7 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -561,3 +573,5 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 >>>>>>> 39bb163e (.)
 =======
 >>>>>>> b396242e (.)
+=======
+>>>>>>> 5a14301c (.)

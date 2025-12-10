@@ -14,7 +14,11 @@ namespace Modules\Xot\Filament\Actions\Header;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Filament\Actions\Action;
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
 =======
 // use Filament\Tables\Actions\Action;
 >>>>>>> 5a14301c (.)
@@ -66,6 +70,7 @@ class FakeSeederHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function (array $data, ListRecords $livewire): void {
 =======
             ->action(function (array $data, ListRecords $livewire) {
@@ -106,6 +111,9 @@ class FakeSeederHeaderAction extends Action
 =======
             ->action(function (array $data, ListRecords $livewire) {
 >>>>>>> 249a0067 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();
@@ -118,6 +126,7 @@ class FakeSeederHeaderAction extends Action
 
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -500,6 +509,9 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 5a14301c (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -508,6 +520,7 @@ class FakeSeederHeaderAction extends Action
             ->visible(false);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +886,9 @@ class FakeSeederHeaderAction extends Action
 =======
     public static function getDefaultName(): ?string
 >>>>>>> 71586de2 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
     {
         return 'fake_seeder';
     }

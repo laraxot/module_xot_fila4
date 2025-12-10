@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseValueFactory;
@@ -25,6 +26,13 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\PulseValueFactory;
+use Illuminate\Database\Eloquent\Builder;
+
+/**
+>>>>>>> 5a14301c (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @method static PulseValueFactory factory($count = null, $state = [])
@@ -37,6 +45,9 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -50,6 +61,7 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +193,8 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @method static Builder|PulseValue whereId($value)
  * @method static Builder|PulseValue whereKey($value)
  * @method static Builder|PulseValue whereKeyHash($value)
@@ -188,6 +202,7 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @method static Builder|PulseValue whereType($value)
  * @method static Builder|PulseValue whereValue($value)
  * @mixin IdeHelperPulseValue
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +273,8 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 =======
  * @mixin IdeHelperPulseValue
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

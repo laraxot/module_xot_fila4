@@ -26,6 +26,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($class === '') {
             /** @var list<array{function: string, line?: int, file?: string, class?: class-string, type?: '->'|'::', args?: list<mixed>, object?: object}> $backtrace PHPStan knows this is always array */
             $backtrace = debug_backtrace();
@@ -40,10 +41,13 @@ class GetTransKeyAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         if ('' === $class) {
             $backtrace = debug_backtrace();
             Assert::isArray($backtrace);
             $class = Arr::get($backtrace, '1.class');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,11 +279,15 @@ class GetTransKeyAction
 =======
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
 >>>>>>> 71586de2 (.)
+=======
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
         }
 
         $arr = explode('\\', $class);
 
         // Handle cases where the provided class is not in the "Modules" namespace
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -346,6 +354,8 @@ class GetTransKeyAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         if ('Modules' !== $arr[0]) {
             $backtrace = array_slice(debug_backtrace(), 2);
             $res = Arr::first(
@@ -358,6 +368,7 @@ class GetTransKeyAction
             if (null === $res || !isset($res['object'])) {
                 $page = Arr::get(debug_backtrace(), '0.args.0');
                 Assert::string($page, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -632,12 +643,15 @@ class GetTransKeyAction
 =======
                 Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
                 $main_module = XotData::make()->main_module;
                 $main_module_low = mb_strtolower($main_module);
                 $page_arr = explode('\\', $page);
                 $page_arr_count = count($page_arr);
                 $page_arr_last = $page_arr[$page_arr_count - 1];
                 $page_arr_last_snake = Str::of($page_arr_last)->snake()->toString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -829,6 +843,11 @@ class GetTransKeyAction
 
                 return $tmp;
 >>>>>>> 5a14301c (.)
+=======
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+
+                return $tmp;
+>>>>>>> 5a14301c (.)
             }
 
             $class = get_class($res['object']);
@@ -854,6 +873,7 @@ class GetTransKeyAction
         $arr = explode('_', $class_snake);
         $first = $arr[0];
         $last = $arr[count($arr) - 1];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1051,11 +1071,14 @@ class GetTransKeyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (in_array($first, ['dashboard', 'list', 'get', 'manage'], strict: true)) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
         if (in_array($last, ['action'], strict: true)) {
             $class_snake = Str::beforeLast($class_snake, '_' . $last);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1306,6 +1329,8 @@ class GetTransKeyAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
         }
 
         if (Str::endsWith($class_snake, 'form_schema')) {
@@ -1320,6 +1345,7 @@ class GetTransKeyAction
                 ->toString();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1491,6 +1517,11 @@ class GetTransKeyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+        $tmp = $module_low . '::' . $class_snake;
+
+        return $tmp;
+>>>>>>> 5a14301c (.)
+=======
         $tmp = $module_low . '::' . $class_snake;
 
         return $tmp;

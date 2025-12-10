@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -129,10 +130,13 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5a14301c (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,10 +210,14 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 =======
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
 >>>>>>> 71f31700 (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+>>>>>>> 5a14301c (.)
 
 ## Architettura Modulare
 
 ### Principi Fondamentali
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +252,8 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 - **Modularità**: Ogni funzionalità è organizzata in moduli indipendenti
 - **Coerenza**: Struttura uniforme e convenzioni standardizzate
@@ -261,6 +271,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Laravel 11**: Framework PHP moderno e potente
 - **Filament 3**: Server-Driven UI framework per Laravel
 =======
@@ -299,6 +310,10 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 - **Laravel 12**: Framework PHP moderno e potente
 - **Filament 4**: Server-Driven UI framework per Laravel
 >>>>>>> 71f31700 (.)
+=======
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+>>>>>>> 5a14301c (.)
 - **Livewire 3**: Full-stack framework per Laravel
 - **PHPStan 3**: Static analysis tool (Livello 9/10)
 - **Pest 3**: PHP testing framework
@@ -314,6 +329,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 
 ### Documenti Principali
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,6 +370,8 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
 - [Convenzioni Laraxot](conventions.md) - Regole e convenzioni per lo sviluppo
 - [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
@@ -367,6 +385,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -386,6 +405,8 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
 - [Collegamenti](links.md) - Raccolta di link e riferimenti
 
 ### Moduli del Sistema
@@ -409,6 +430,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,6 +517,8 @@ Configurazione automatica tramite service providers.
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
 **Data Creazione**: 27 Gennaio 2025  
 **Stato**: Consolidato da docs/ root  
 **Priorità**: CRITICA (Documentazione principale)
@@ -510,6 +534,7 @@ Configurazione automatica tramite service providers.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 =======
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
@@ -538,6 +563,9 @@ Configurazione automatica tramite service providers.
 =======
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 >>>>>>> 71f31700 (.)
+=======
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 5a14301c (.)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN%20%7C%20DE-green.svg)](https://laravel.com/docs/localization)
 [![Base Framework](https://img.shields.io/badge/Framework-Base%20Core-orange.svg)](https://laraxot.com/)
@@ -763,12 +791,15 @@ return [
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [👑 PHPStan Victory 2025](phpstan-victory-2025.md) - **🎊 PERFEZIONE ASSOLUTA** - 19,337→0 (100%) - Hall of Fame
 - [📋 PHPStan Fixes Report 2025](phpstan-fixes-report.md) - **✅ COMPLETATO** - Report dettagliato correzioni
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Base Classes Guide](base-classes/README.md) - Guida alle classi base
@@ -900,6 +931,7 @@ ls Modules/*/lang/*/
 **🚀 Performance**: 98/100 score
 
 ## Documentation Archive & Legacy
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1167,10 +1199,13 @@ Configurazione automatica tramite service providers.
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1437,3 +1472,9 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+## Quick Links Legacy
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+>>>>>>> 5a14301c (.)

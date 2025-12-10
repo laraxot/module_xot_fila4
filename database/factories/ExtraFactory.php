@@ -25,6 +25,7 @@ namespace Modules\Xot\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\Extra;
 
@@ -88,6 +89,11 @@ use Modules\Xot\Models\Extra;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Models\Extra;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+>>>>>>> 5a14301c (.)
 class ExtraFactory extends Factory
 {
     /**
@@ -97,8 +103,11 @@ class ExtraFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @var class-string<Extra>
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

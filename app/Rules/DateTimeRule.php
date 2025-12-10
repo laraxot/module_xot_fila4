@@ -44,6 +44,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
@@ -334,6 +335,9 @@ use Webmozart\Assert\Assert;
 =======
 use Webmozart\Assert\Assert;
 >>>>>>> 71586de2 (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 
 /**
  * Class DateTimeRule.
@@ -343,6 +347,7 @@ class DateTimeRule implements Rule
     /**
      * Determine if the validation rule passes.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +375,8 @@ class DateTimeRule implements Rule
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param string $_attribute The attribute name being validated
      * @param mixed $value The value being validated
      */
@@ -379,6 +386,7 @@ class DateTimeRule implements Rule
         // dddx($value);//10/10/2019 13:43
         // return 5 === strlen($value);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,6 +514,9 @@ class DateTimeRule implements Rule
 =======
         if (! is_string($value)) {
 >>>>>>> 71586de2 (.)
+=======
+        if (!is_string($value)) {
+>>>>>>> 5a14301c (.)
             return false;
         }
 
@@ -514,6 +525,7 @@ class DateTimeRule implements Rule
             __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__) . ' - Value must be a string for datetime validation'
         );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -774,6 +786,8 @@ class DateTimeRule implements Rule
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);

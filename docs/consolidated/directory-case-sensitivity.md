@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -37,6 +38,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Case Sensitivity e Struttura Corretta delle Directory nei Moduli Laravel
 
 ## Problemi Identificati
@@ -126,6 +129,7 @@ Per verificare la corretta struttura delle directory nei moduli:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -147,6 +151,9 @@ Per verificare la corretta struttura delle directory nei moduli:
 =======
 
 >>>>>>> 90d386aa (.)
+=======
+
+>>>>>>> 5a14301c (.)
 # Verifica case sensitivity errata
 find /var/www/html/base_<nome progetto>/laravel/Modules -type d -name "Resources" -o -name "Config" -o -name "Views" -o -name "Lang" -o -name "Images"
 
@@ -166,6 +173,7 @@ find /var/www/html/base_<nome progetto>/laravel/Modules -type d -name "Filament"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -187,6 +195,9 @@ find /var/www/html/base_<nome progetto>/laravel/Modules -type d -name "Filament"
 =======
 
 >>>>>>> 90d386aa (.)
+=======
+
+>>>>>>> 5a14301c (.)
 # Rinomina la directory (su sistemi Linux/Unix)
 mv /var/www/html/base_<nome progetto>/laravel/Modules/User/Resources /var/www/html/base_<nome progetto>/laravel/Modules/User/resources_temp
 mv /var/www/html/base_<nome progetto>/laravel/Modules/User/resources_temp /var/www/html/base_<nome progetto>/laravel/Modules/User/resources
@@ -205,6 +216,7 @@ mv /var/www/html/base_<nome progetto>/laravel/Modules/User/config_temp /var/www/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -226,6 +238,9 @@ mv /var/www/html/base_<nome progetto>/laravel/Modules/User/config_temp /var/www/
 =======
 
 >>>>>>> 90d386aa (.)
+=======
+
+>>>>>>> 5a14301c (.)
 # Crea la directory app se non esiste
 mkdir -p /var/www/html/base_<nome progetto>/laravel/Modules/User/app/Filament
 
@@ -279,6 +294,7 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -335,3 +351,5 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)

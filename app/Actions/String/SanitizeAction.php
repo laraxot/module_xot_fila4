@@ -29,6 +29,7 @@ namespace Modules\Xot\Actions\String;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -112,6 +113,8 @@ class SanitizeAction
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -144,6 +147,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -229,10 +233,14 @@ class SanitizeAction
 =======
 
 >>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 5a14301c (.)
     public function execute(string $str): string
     {
         $str = strip_tags($str);
         $str = html_entity_decode($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,6 +527,9 @@ class SanitizeAction
 =======
 =======
 >>>>>>> 3849ae0e (.)
+=======
+        $str = trim($str);
+>>>>>>> 5a14301c (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
@@ -549,6 +560,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0218cd5 (.)
 =======
 <<<<<<< HEAD
@@ -749,6 +761,11 @@ class SanitizeAction
 >>>>>>> 3849ae0e (.)
 =======
 >>>>>>> f0e04b64 (.)
+        }
+
+        return $str;
+>>>>>>> 5a14301c (.)
+=======
         }
 
         return $str;

@@ -33,6 +33,7 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
@@ -218,11 +219,18 @@ use Modules\Xot\Filament\Resources\ModuleResource;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Actions;
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Arr\SaveArrayAction;
+use Modules\Xot\Filament\Resources\ModuleResource;
+>>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Actions\Array\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Models\Module;
@@ -249,6 +257,7 @@ class EditModule extends XotBaseEditRecord
     protected function afterSave(): void
     {
         $module = $this->record; // Ottiene il record corrente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,6 +507,8 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!($module instanceof Model) || !isset($module->path)) {
             return;
         }
@@ -505,6 +516,7 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path . '/config/config.php';
         $data = File::getRequire($config_path);
         if (!is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -860,6 +872,8 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());

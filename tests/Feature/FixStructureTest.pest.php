@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -163,12 +164,17 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 87a02960 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -460,10 +466,14 @@ use Illuminate\Support\Facades\Storage;
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 uses(TestCase::class);
 
 beforeEach(function () {
     // Create a temporary directory for testing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
@@ -650,10 +660,16 @@ beforeEach(function () {
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+    $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+    mkdir($this->testDir, 0o755, true);
+
+>>>>>>> 5a14301c (.)
     // Set the working directory
     chdir($this->testDir);
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,6 +691,9 @@ afterEach(function () {
 =======
 afterEach(function () {
 >>>>>>> 87a02960 (.)
+=======
+afterEach(function () {
+>>>>>>> 5a14301c (.)
     // Clean up the test directory
     $this->rrmdir($this->testDir);
 });
@@ -710,6 +729,7 @@ afterEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -809,12 +829,15 @@ afterEach(function () {
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
         $objects = scandir($dir);
         foreach ($objects as $object) {
             if ($object !== '.' && $object !== '..') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -851,10 +874,13 @@ function rrmdir($dir)
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 87a02960 (.)
+=======
+>>>>>>> 5a14301c (.)
                 if (is_dir($dir . DIRECTORY_SEPARATOR . $object) && !is_link($dir . '/' . $object)) {
                     rrmdir($dir . DIRECTORY_SEPARATOR . $object);
                 } else {
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,6 +1352,8 @@ function rrmdir($dir) {
                 } else {
                     unlink($dir.DIRECTORY_SEPARATOR.$object);
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
                 }
             }
         }
@@ -1333,6 +1361,7 @@ function rrmdir($dir) {
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1546,6 +1575,11 @@ test('creates necessary directories and files', function () {
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+test('creates necessary directories and files', function () {
+    // Run the command
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 5a14301c (.)
 
     // Check if directories were created
     $directories = [
@@ -1576,6 +1610,7 @@ test('creates necessary directories and files', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->assertDirectoryExists($this->testDir.'/'.$directory);
 =======
         $this->assertDirectoryExists($this->testDir . '/' . $directory);
@@ -1610,6 +1645,9 @@ test('creates necessary directories and files', function () {
 =======
         $this->assertDirectoryExists($this->testDir . '/' . $directory);
 >>>>>>> 87a02960 (.)
+=======
+        $this->assertDirectoryExists($this->testDir . '/' . $directory);
+>>>>>>> 5a14301c (.)
     }
 
     // Check if .gitkeep files were created in empty directories
@@ -1623,6 +1661,7 @@ test('creates necessary directories and files', function () {
     ];
 
     foreach ($gitkeepFiles as $file) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1694,12 +1733,16 @@ test('does not overwrite existing files', function (): void {
 =======
         $this->assertFileExists($this->testDir . '/' . $file);
 >>>>>>> 87a02960 (.)
+=======
+        $this->assertFileExists($this->testDir . '/' . $file);
+>>>>>>> 5a14301c (.)
     }
 });
 
 test('does not overwrite existing files', function () {
     // Create a test file that should not be overwritten
     $testContent = 'Test content';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1873,10 +1916,13 @@ test('does not overwrite existing files', function () {
 =======
 >>>>>>> b7afadf9 (.)
 =======
+=======
+>>>>>>> 5a14301c (.)
     $testFile = $this->testDir . '/routes/web.php';
     file_put_contents($testFile, $testContent);
 
     // Run the command
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1922,11 +1968,15 @@ test('does not overwrite existing files', function () {
 =======
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 >>>>>>> b956ebe0 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 5a14301c (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2234,6 +2284,11 @@ test('handles errors gracefully', function () {
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+test('handles errors gracefully', function () {
+    // Make a directory non-writable to test error handling
+    $nonWritableDir = $this->testDir . '/app';
+>>>>>>> 5a14301c (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -2241,6 +2296,7 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2945,3 +3001,6 @@ test('handles errors gracefully', function () {
 =======
 });
 >>>>>>> f0e04b64 (.)
+=======
+});
+>>>>>>> 5a14301c (.)

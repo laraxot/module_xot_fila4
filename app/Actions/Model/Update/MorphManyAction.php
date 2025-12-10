@@ -69,6 +69,7 @@ class MorphManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -131,10 +132,13 @@ class MorphManyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5a14301c (.)
         if ([] === $relationDTO->data) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
             $model->{$relationDTO->name}()->saveMany($relationDTO->data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -644,10 +648,13 @@ class MorphManyAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 
             return;
         }
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 =======
@@ -674,6 +681,9 @@ class MorphManyAction
 =======
         $related = $relationDTO->related;
 >>>>>>> 249a0067 (.)
+=======
+        $related = $relationDTO->related;
+>>>>>>> 5a14301c (.)
         $keyName = $related->getKeyName();
         $models = [];
         $ids = [];
@@ -685,6 +695,7 @@ class MorphManyAction
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1165,6 +1176,9 @@ class MorphManyAction
                 $safeData = $data;
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
 >>>>>>> 249a0067 (.)
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 5a14301c (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -1172,6 +1186,7 @@ class MorphManyAction
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1581,6 +1596,9 @@ class MorphManyAction
         $model->{$relationDTO->name}()->saveMany($models);
 =======
 >>>>>>> 249a0067 (.)
+=======
+        $model->{$relationDTO->name}()->saveMany($models);
+>>>>>>> 5a14301c (.)
 
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
     }

@@ -21,6 +21,7 @@ uses(TestCase::class, RefreshDatabase::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,11 +303,17 @@ beforeEach(function () {
     $this->resource = new class extends XotBaseResource {
         protected static null|string $model = null;
 >>>>>>> 5a14301c (.)
+=======
+beforeEach(function () {
+    $this->resource = new class extends XotBaseResource {
+        protected static null|string $model = null;
+>>>>>>> 5a14301c (.)
 
         protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 
         protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         protected static ?int $navigationSort = 1;
 <<<<<<< HEAD
@@ -497,10 +504,14 @@ test('xot base resource extends filament resource', function (): void {
 
         protected static ?int $navigationSort = 1;
 >>>>>>> 249a0067 (.)
+=======
+        protected static null|int $navigationSort = 1;
+>>>>>>> 5a14301c (.)
     };
 });
 
 test('xot base resource extends filament resource', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,6 +549,8 @@ test('xot base resource extends filament resource', function () {
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
     expect($this->resource)->toBeInstanceOf(Resource::class);
 });
 

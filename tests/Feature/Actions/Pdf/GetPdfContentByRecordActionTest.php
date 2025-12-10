@@ -9,6 +9,10 @@ namespace Modules\Xot\Tests\Feature\Actions\Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
 =======
 use ReflectionClass;
 >>>>>>> 5a14301c (.)
@@ -33,7 +37,10 @@ use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use ReflectionClass;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -61,7 +68,11 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->action = new GetPdfContentByRecordAction;
+=======
+        $this->action = new GetPdfContentByRecordAction();
+>>>>>>> 5a14301c (.)
 =======
         $this->action = new GetPdfContentByRecordAction();
 >>>>>>> 5a14301c (.)
@@ -143,6 +154,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $record = new class extends Model
         {
             protected $table = 'test_performance';
@@ -201,6 +213,10 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> a6ef6dc7 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+>>>>>>> 5a14301c (.)
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 
             public function getKey()

@@ -28,6 +28,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -47,10 +48,13 @@ use Modules\Xot\Tests\TestCase;
 =======
 >>>>>>> 17684f52 (.)
 =======
+=======
+>>>>>>> 5a14301c (.)
 
 uses(TestCase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
     $this->baseModel = new class() extends BaseModel
     {
 =======
@@ -537,6 +541,9 @@ beforeEach(function () {
     $this->baseModel = new class extends BaseModel
     {
 >>>>>>> 71586de2 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 5a14301c (.)
         protected $table = 'test_table';
     };
 });

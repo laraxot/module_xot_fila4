@@ -23,9 +23,14 @@ class PdfByHtmlAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string $orientation = 'L',
     ): string|BinaryFileResponse {
         $html2pdf = new Html2Pdf($orientation, 'A4', 'it');
+=======
+    ): string|BinaryFileResponse {
+        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+>>>>>>> 5a14301c (.)
 =======
     ): string|BinaryFileResponse {
         $html2pdf = new Html2Pdf('L', 'A4', 'it');

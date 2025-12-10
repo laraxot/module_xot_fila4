@@ -25,6 +25,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
@@ -70,6 +71,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Doctrine\DBAL\Schema\Index;
@@ -78,6 +81,9 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -104,9 +110,15 @@ class GetTableIndexesByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $formManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
 
         return $formManager->listTableIndexes($table);
+=======
+        $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+
+        return $schemaManager->listTableIndexes($table);
+>>>>>>> 5a14301c (.)
 =======
         $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
 

@@ -25,6 +25,7 @@ namespace Modules\Xot\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\PulseValue;
 
@@ -88,6 +89,11 @@ use Modules\Xot\Models\PulseValue;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Models\PulseValue;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+>>>>>>> 5a14301c (.)
 class PulseValueFactory extends Factory
 {
     /**
@@ -97,8 +103,11 @@ class PulseValueFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @var class-string<PulseValue>
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

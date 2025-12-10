@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -37,6 +38,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -100,6 +103,7 @@ Ogni documento dovrebbe iniziare con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -121,6 +125,9 @@ Ogni documento dovrebbe iniziare con:
 =======
 
 >>>>>>> 90d386aa (.)
+=======
+
+>>>>>>> 5a14301c (.)
 # Titolo Principale
 
 Breve introduzione che spiega lo scopo del documento e il contesto.
@@ -138,6 +145,7 @@ Utilizzare una gerarchia chiara di intestazioni:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -159,6 +167,9 @@ Utilizzare una gerarchia chiara di intestazioni:
 =======
 
 >>>>>>> 90d386aa (.)
+=======
+
+>>>>>>> 5a14301c (.)
 ## Sezione Principale
 
 Descrizione della sezione principale.
@@ -237,6 +248,7 @@ Esempio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -258,6 +270,9 @@ Esempio:
 =======
 
 >>>>>>> 90d386aa (.)
+=======
+
+>>>>>>> 5a14301c (.)
 ## NomeModello
 
 ```php
@@ -324,6 +339,7 @@ Utilizzare strumenti di generazione automatica quando possibile:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -345,6 +361,9 @@ Utilizzare strumenti di generazione automatica quando possibile:
 =======
 
 >>>>>>> 90d386aa (.)
+=======
+
+>>>>>>> 5a14301c (.)
 # Esempio: Generare documentazione per lo schema del database
 php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
 ```
@@ -388,6 +407,7 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -409,6 +429,9 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 =======
 
 >>>>>>> 90d386aa (.)
+=======
+
+>>>>>>> 5a14301c (.)
 # Modelli del Modulo Brain
 
 Questo documento descrive i modelli disponibili nel modulo Brain, che rappresentano le entità del database braindb.
@@ -480,6 +503,7 @@ Per implementare queste linee guida:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -536,3 +560,5 @@ Per implementare queste linee guida:
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)

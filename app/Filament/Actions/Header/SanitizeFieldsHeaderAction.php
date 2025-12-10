@@ -14,7 +14,11 @@ namespace Modules\Xot\Filament\Actions\Header;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Filament\Actions\Action;
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
 =======
 // use Filament\Tables\Actions\Action;
 >>>>>>> 5a14301c (.)
@@ -60,6 +64,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function (ListRecords $livewire): void {
 =======
             ->action(function (ListRecords $livewire) {
@@ -100,10 +105,14 @@ class SanitizeFieldsHeaderAction extends Action
 =======
             ->action(function (ListRecords $livewire) {
 >>>>>>> 249a0067 (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
                 $resource = $livewire->getResource();
                 $modelClass = $resource::getModel();
                 // @phpstan-ignore staticMethod.nonObject
                 $rows = $modelClass::get();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,6 +478,9 @@ class SanitizeFieldsHeaderAction extends Action
 =======
                 if (! is_iterable($rows)) {
 >>>>>>> 71586de2 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 5a14301c (.)
                     $rows = [];
                 }
                 $c = 0;
@@ -476,6 +488,7 @@ class SanitizeFieldsHeaderAction extends Action
                     Assert::isInstanceOf($row, Model::class);
                     $save = false;
                     foreach ($this->fields as $field) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -729,12 +742,17 @@ class SanitizeFieldsHeaderAction extends Action
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
                         Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
                             $row->{$field} = $string;
                             $save = true;
                             ++$c;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                         }
                     }
@@ -743,6 +761,7 @@ class SanitizeFieldsHeaderAction extends Action
                     }
                 }
                 Notification::make()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1108,6 +1127,9 @@ class SanitizeFieldsHeaderAction extends Action
 =======
                     ->title(''.$c.' record sanitized')
 >>>>>>> 71586de2 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 5a14301c (.)
                     ->success()
                     ->send();
             });
@@ -1173,6 +1195,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -1485,6 +1508,9 @@ class SanitizeFieldsHeaderAction extends Action
 =======
     public static function getDefaultName(): ?string
 >>>>>>> 71586de2 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
     {
         return 'sanitize-fields-header';
     }

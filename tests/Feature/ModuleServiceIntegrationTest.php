@@ -27,6 +27,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -129,6 +130,10 @@ use Illuminate\Support\Facades\File;
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\File;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Services\ModuleService;
 
 describe('ModuleService Integration', function () {

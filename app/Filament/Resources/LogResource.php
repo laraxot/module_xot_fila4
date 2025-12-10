@@ -32,6 +32,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Infolists\Components\TextEntry;
@@ -181,6 +182,9 @@ use Override;
 =======
 use Override;
 >>>>>>> ca9324a4 (.)
+=======
+use Override;
+>>>>>>> 5a14301c (.)
 use Filament\Schemas\Schema;
 use Modules\Xot\Filament\Resources\LogResource\Pages\ListLogs;
 use Modules\Xot\Filament\Resources\LogResource\Pages\CreateLog;
@@ -195,6 +199,7 @@ use Modules\Xot\Filament\Resources\LogResource\Pages;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,11 +376,14 @@ use Modules\Xot\Models\Log;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 class LogResource extends XotBaseResource
 {
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -500,6 +508,10 @@ class LogResource extends XotBaseResource
     protected static null|string $model = Log::class;
 
 >>>>>>> 5a14301c (.)
+=======
+    protected static null|string $model = Log::class;
+
+>>>>>>> 5a14301c (.)
     #[Override]
     public static function getFormSchema(): array
     {
@@ -510,6 +522,7 @@ class LogResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,6 +541,8 @@ class LogResource extends XotBaseResource
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     public static function infolist(Schema $schema): Schema
     {
         return $schema->components([
@@ -536,6 +551,9 @@ class LogResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -558,7 +576,11 @@ class LogResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'file-content' => FileContentEntry::make('file-content'),
+=======
+            FileContentEntry::make('file-content'),
+>>>>>>> 5a14301c (.)
 =======
             FileContentEntry::make('file-content'),
 >>>>>>> 5a14301c (.)
@@ -585,7 +607,11 @@ class LogResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ];
+=======
+        ]);
+>>>>>>> 5a14301c (.)
 =======
         ]);
 >>>>>>> 5a14301c (.)

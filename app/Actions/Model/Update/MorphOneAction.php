@@ -25,6 +25,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Facades\App;
@@ -72,6 +73,8 @@ use RuntimeException;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use RuntimeException;
 use Illuminate\Database\Eloquent\Model;
@@ -82,6 +85,9 @@ use Modules\Xot\Datas\RelationData as RelationDTO;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -111,8 +117,13 @@ final class MorphOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Model  $model  The model instance
      * @param  RelationDTO  $relationDTO  The relation data transfer object
+=======
+     * @param Model       $model       The model instance
+     * @param RelationDTO $relationDTO The relation data transfer object
+>>>>>>> 5a14301c (.)
 =======
      * @param Model       $model       The model instance
      * @param RelationDTO $relationDTO The relation data transfer object
@@ -162,7 +173,12 @@ final class MorphOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data  The input data array
+=======
+     * @param array<string, mixed> $data The input data array
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $data The input data array
      *
@@ -241,6 +257,7 @@ final class MorphOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -553,6 +570,9 @@ final class MorphOneAction
 =======
         if (! isset($data['lang'])) {
 >>>>>>> 71586de2 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 5a14301c (.)
             $data['lang'] = App::getLocale();
         }
 
@@ -610,6 +630,7 @@ final class MorphOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         return array_filter($data, static fn ($value): bool => $value !== null);
@@ -980,5 +1001,8 @@ final class MorphOneAction
 =======
         return array_filter($data, static fn ($value): bool => $value !== null);
 >>>>>>> 71586de2 (.)
+=======
+        return array_filter($data, static fn($value): bool => null !== $value);
+>>>>>>> 5a14301c (.)
     }
 }

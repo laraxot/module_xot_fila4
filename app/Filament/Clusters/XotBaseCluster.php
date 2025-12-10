@@ -16,6 +16,7 @@ use Illuminate\Contracts\Support\Htmlable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Lang;
 <<<<<<< HEAD
@@ -633,6 +634,9 @@ use Illuminate\Support\Facades\Lang;
 >>>>>>> 3eee6f79 (.)
 =======
 >>>>>>> c2f6854c (.)
+=======
+use Illuminate\Support\Facades\Lang;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster
@@ -660,8 +664,12 @@ class XotBaseCluster extends FilamentCluster
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // return Lang::get('broker::cliente.navigation_group');
+=======
+        //return Lang::get('broker::cliente.navigation_group');
+>>>>>>> 5a14301c (.)
 =======
         //return Lang::get('broker::cliente.navigation_group');
 >>>>>>> 5a14301c (.)

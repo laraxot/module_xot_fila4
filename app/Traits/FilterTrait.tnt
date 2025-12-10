@@ -177,6 +177,10 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                //dd(new self);
+>>>>>>> 5a14301c (.)
 =======
                 //dd(new self);
 >>>>>>> 5a14301c (.)
@@ -253,6 +257,10 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        //dd($doctrineTable);
+>>>>>>> 5a14301c (.)
 =======
         //dd($doctrineTable);
 >>>>>>> 5a14301c (.)
@@ -279,8 +287,11 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang = trans($trad.'::'.$tbl);
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -297,6 +308,9 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -317,7 +331,13 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang_link = trans($trans_file);
+=======
+        //dd($trans_file);
+        $lang_link = trans($trans_file);
+        //dd($lang_link);
+>>>>>>> 5a14301c (.)
 =======
         //dd($trans_file);
         $lang_link = trans($trans_file);
@@ -354,10 +374,13 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -375,6 +398,9 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -398,6 +424,10 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        //dd($intersect);
+>>>>>>> 5a14301c (.)
 =======
         //dd($intersect);
 >>>>>>> 5a14301c (.)
@@ -432,6 +462,10 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                //dd(new self);
+>>>>>>> 5a14301c (.)
 =======
                 //dd(new self);
 >>>>>>> 5a14301c (.)
@@ -462,6 +496,12 @@ function ($item, $key) use ($lang) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        //dd(self::$single_date);
+        //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
+        //dd(trans($trad.'::'.$tbl.'.single_date'));
+>>>>>>> 5a14301c (.)
 =======
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));

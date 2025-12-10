@@ -25,6 +25,7 @@ namespace Modules\Xot\Actions\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
 use RuntimeException;
@@ -61,6 +62,11 @@ use RuntimeException;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+use InvalidArgumentException;
+use RuntimeException;
+use Illuminate\Support\Facades\File;
+>>>>>>> 5a14301c (.)
+=======
 use InvalidArgumentException;
 use RuntimeException;
 use Illuminate\Support\Facades\File;
@@ -99,6 +105,7 @@ class AddStrictTypesDeclarationAction
      */
     public function execute(string $filePath): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +176,9 @@ class AddStrictTypesDeclarationAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+        if (!File::exists($filePath)) {
+>>>>>>> 5a14301c (.)
             throw new InvalidArgumentException("Il file {$filePath} non esiste");
         }
 

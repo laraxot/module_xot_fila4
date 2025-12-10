@@ -10,6 +10,7 @@ use Mockery;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Schemas\Schema;
@@ -19,6 +20,9 @@ use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Contracts\Pagination\CursorPaginator;
 use Filament\Actions\Action;
 use Filament\Support\Contracts\TranslatableContentDriver;
+=======
+use Override;
+>>>>>>> 5a14301c (.)
 =======
 use Override;
 >>>>>>> 5a14301c (.)
@@ -54,6 +58,7 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mock->allows([
             'getTableColumns' => [],
             'getTableContentGrid' => [],
@@ -63,6 +68,8 @@ class HasTableWithXotTestClass implements HasTable
     }
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -81,6 +88,9 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -102,12 +112,15 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var Table */
         return Mockery::mock(Table::class);
     }
 
     public function getTablePage(): int|string
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -124,6 +137,9 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -142,6 +158,7 @@ class HasTableWithXotTestClass implements HasTable
         return 10;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +190,9 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getTableSortColumn(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getTableSortColumn(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
@@ -182,7 +202,11 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableSortDirection(): ?string
+=======
+    public function getTableSortDirection(): null|string
+>>>>>>> 5a14301c (.)
 =======
     public function getTableSortDirection(): null|string
 >>>>>>> 5a14301c (.)
@@ -207,6 +231,7 @@ class HasTableWithXotTestClass implements HasTable
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,10 +264,14 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getTableFiltersForm(): mixed
 >>>>>>> 5a14301c (.)
+=======
+    public function getTableFiltersForm(): mixed
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +282,8 @@ class HasTableWithXotTestClass implements HasTable
         /** @var Indicator */
         return Mockery::mock(Indicator::class);
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -278,6 +309,9 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -304,6 +338,7 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableRecords(): Collection|Paginator|CursorPaginator
     {
         return new Collection;
@@ -311,6 +346,8 @@ class HasTableWithXotTestClass implements HasTable
 
     public function getTableRecord(mixed $key): array|Model|null
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -329,6 +366,9 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -342,6 +382,7 @@ class HasTableWithXotTestClass implements HasTable
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +405,8 @@ class HasTableWithXotTestClass implements HasTable
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     public function getTableRecordKey(): mixed
     {
         return null;
@@ -376,6 +419,9 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -407,6 +453,7 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableQueryForExport(): Builder
     {
         return Model::query();
@@ -428,10 +475,14 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getTableQueryForExport(): mixed
 >>>>>>> 5a14301c (.)
+=======
+    public function getTableQueryForExport(): mixed
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,10 +504,14 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getFilteredTableQuery(): mixed
 >>>>>>> 5a14301c (.)
+=======
+    public function getFilteredTableQuery(): mixed
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -478,10 +533,14 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getFilteredSortedTableQuery(): mixed
 >>>>>>> 5a14301c (.)
+=======
+    public function getFilteredSortedTableQuery(): mixed
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,10 +562,14 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getAllTableSummaryQuery(): mixed
 >>>>>>> 5a14301c (.)
+=======
+    public function getAllTableSummaryQuery(): mixed
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,10 +591,14 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getPageTableSummaryQuery(): mixed
 >>>>>>> 5a14301c (.)
+=======
+    public function getPageTableSummaryQuery(): mixed
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,6 +620,9 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getMountedTableAction(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getMountedTableAction(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
@@ -562,8 +632,11 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getMountedTableActionRecord(): ?Model
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -582,6 +655,9 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -605,7 +681,11 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getMountedTableBulkAction(): ?Action
+=======
+    public function getMountedTableBulkAction(): null|string
+>>>>>>> 5a14301c (.)
 =======
     public function getMountedTableBulkAction(): null|string
 >>>>>>> 5a14301c (.)
@@ -625,6 +705,7 @@ class HasTableWithXotTestClass implements HasTable
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -646,6 +727,9 @@ class HasTableWithXotTestClass implements HasTable
 =======
     public function getMountedTableBulkActionForm(): mixed
 >>>>>>> 5a14301c (.)
+=======
+    public function getMountedTableBulkActionForm(): mixed
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
@@ -655,7 +739,11 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getActiveTableLocale(): ?string
+=======
+    public function getActiveTableLocale(): null|string
+>>>>>>> 5a14301c (.)
 =======
     public function getActiveTableLocale(): null|string
 >>>>>>> 5a14301c (.)
@@ -695,7 +783,11 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function isTableColumnToggledHidden(string $name): bool
+=======
+    public function isTableColumnToggledHidden(): bool
+>>>>>>> 5a14301c (.)
 =======
     public function isTableColumnToggledHidden(): bool
 >>>>>>> 5a14301c (.)
@@ -720,7 +812,11 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function callMountedTableAction(mixed $arguments = []): mixed
+=======
+    public function callMountedTableAction(): mixed
+>>>>>>> 5a14301c (.)
 =======
     public function callMountedTableAction(): mixed
 >>>>>>> 5a14301c (.)
@@ -750,12 +846,15 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function deselectAllTableRecords(): void {}
 
     public function mountTableAction(string $name, mixed $record = null, mixed $arguments = []): void {}
 
     public function mountTableBulkAction(string $name, mixed $selectedRecords = []): void {}
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -779,6 +878,9 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -794,6 +896,7 @@ class HasTableWithXotTestClass implements HasTable
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -816,6 +919,8 @@ class HasTableWithXotTestClass implements HasTable
 
     public function makeFilamentTranslatableContentDriver(): ?TranslatableContentDriver
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -854,6 +959,9 @@ class HasTableWithXotTestClass implements HasTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

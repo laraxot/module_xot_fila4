@@ -14,6 +14,10 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Session;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Support\Facades\Session;
 >>>>>>> 5a14301c (.)
@@ -43,7 +47,11 @@ class UpdateAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $data
 >>>>>>> 5a14301c (.)
@@ -72,7 +80,11 @@ class UpdateAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($model->getKey() === null) {
+=======
+        if (null === $model->getKey()) {
+>>>>>>> 5a14301c (.)
 =======
         if (null === $model->getKey()) {
 >>>>>>> 5a14301c (.)
@@ -102,6 +114,7 @@ class UpdateAction
 
         /**
          * @phpstan-ignore method.notFound (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,11 +224,14 @@ class UpdateAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5a14301c (.)
          *
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__ . '\\Update\RelationAction')->execute($model, $data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -716,6 +732,8 @@ class UpdateAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

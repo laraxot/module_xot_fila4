@@ -36,6 +36,7 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -92,11 +93,14 @@ class XlsByModelClassAction
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param string $modelClass Classe del modello da esportare
      * @param array<string, mixed> $where Condizioni where per la query
      * @param array<int, string> $includes Relazioni o campi da includere
      * @param array<int, string> $excludes Campi da escludere
      * @param callable|null $callback Callback per manipolare i dati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +189,10 @@ class XlsByModelClassAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+     *
+     * @return BinaryFileResponse
+>>>>>>> 5a14301c (.)
      */
     public function execute(
         string $modelClass,
@@ -244,6 +252,7 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?callable $callback = null,
 =======
         null|callable $callback = null,
@@ -556,6 +565,9 @@ class XlsByModelClassAction
 =======
         ?callable $callback = null,
 >>>>>>> 71586de2 (.)
+=======
+        null|callable $callback = null,
+>>>>>>> 5a14301c (.)
     ): BinaryFileResponse {
         // Verifichiamo che la classe del modello esista
         Assert::classExists($modelClass);
@@ -583,7 +595,11 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($includes !== []) {
+=======
+        if ([] !== $includes) {
+>>>>>>> 5a14301c (.)
 =======
         if ([] !== $includes) {
 >>>>>>> 5a14301c (.)
@@ -615,7 +631,11 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($excludes !== []) {
+=======
+        if ([] !== $excludes) {
+>>>>>>> 5a14301c (.)
 =======
         if ([] !== $excludes) {
 >>>>>>> 5a14301c (.)
@@ -641,7 +661,10 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -662,7 +685,11 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($callback !== null) {
+=======
+        if (null !== $callback) {
+>>>>>>> 5a14301c (.)
 =======
         if (null !== $callback) {
 >>>>>>> 5a14301c (.)
@@ -705,6 +732,7 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int, string>  $includes  Campi da includere
 =======
      * @param array<int, string> $includes Campi da includere
@@ -1013,6 +1041,10 @@ class XlsByModelClassAction
 =======
      * @param  array<int, string>  $includes  Campi da includere
 >>>>>>> 71586de2 (.)
+=======
+     * @param array<int, string> $includes Campi da includere
+     *
+>>>>>>> 5a14301c (.)
      * @return array<int, string>
      */
     private function getWithByIncludes(array $includes): array
@@ -1028,7 +1060,11 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! Str::contains($includeStr, '.')) {
+=======
+            if (!Str::contains($includeStr, '.')) {
+>>>>>>> 5a14301c (.)
 =======
             if (!Str::contains($includeStr, '.')) {
 >>>>>>> 5a14301c (.)
@@ -1054,7 +1090,11 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! empty($parts[0])) {
+=======
+            if (!empty($parts[0])) {
+>>>>>>> 5a14301c (.)
 =======
             if (!empty($parts[0])) {
 >>>>>>> 5a14301c (.)
@@ -1093,6 +1133,7 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -1116,6 +1157,11 @@ class XlsByModelClassAction
 =======
 >>>>>>> 71586de2 (.)
      * @param  string  $modelClass  Classe del modello
+=======
+     * @param string $modelClass Classe del modello
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      * @param string $modelClass Classe del modello
      *

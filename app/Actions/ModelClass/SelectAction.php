@@ -20,7 +20,12 @@ class SelectAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
+=======
+     * @param class-string<Model> $modelClass
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass
      *

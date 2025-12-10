@@ -52,6 +52,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -69,17 +70,23 @@ use Override;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 use Carbon\Carbon;
 use Exception;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
 use Override;
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
 use Override;
@@ -89,12 +96,39 @@ use Override;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+use Override;
+>>>>>>> ab8cc3f3 (.)
 use Carbon\Carbon;
 use Exception;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
 use Modules\SaluteOra\Models\Appointment;
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
+<<<<<<< HEAD
+=======
+
+class ModelTrendChartWidget extends XotBaseChartWidget
+{
+    protected null|string $heading = null;
+    protected static null|int $sort = 5;
+    protected static bool $isLazy = true;
+    protected null|string $pollingInterval = '300s'; // 5 minuti
+
+    public string $model;
+
+    #[Override]
+    public function getHeading(): null|string
+<<<<<<< HEAD
+=======
+use Carbon\Carbon;
+use Exception;
+use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
+use Flowframe\Trend\Trend;
+use Flowframe\Trend\TrendValue;
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
@@ -364,6 +398,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 
 <<<<<<< HEAD
     public function getHeading(): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -699,10 +734,13 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -755,10 +793,13 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     {
         return static::transClass($this->model, 'widgets.model_trend_chart.heading');
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -884,12 +925,19 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+    #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
 =======
     #[Override]
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -1057,6 +1105,9 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 =======
     #[Override]
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     protected function getData(): array
     {
         try {
@@ -1085,6 +1136,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
 >>>>>>> 5a14301c (.)
 =======
@@ -1106,6 +1158,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 =======
 >>>>>>> 53d6a6ba (.)
 =======
+=======
+>>>>>>> ab8cc3f3 (.)
                         'data' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
 =======
 <<<<<<< HEAD
@@ -1121,12 +1175,28 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 5a14301c (.)
                             ? $value->aggregate
                             : 0),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                            ? $value->aggregate
+                            : 0),
+=======
+                        'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? $value->aggregate : 0),
+>>>>>>> f1d4085 (.)
+=======
+                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                            ? $value->aggregate
+                            : 0),
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                         'backgroundColor' => 'rgba(139, 92, 246, 0.5)',
                         'borderColor' => 'rgb(139, 92, 246)',
                         'borderWidth' => 2,
                         'tension' => 0.4,
                     ],
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1315,6 +1385,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 =======
 >>>>>>> 53d6a6ba (.)
 =======
+=======
+>>>>>>> ab8cc3f3 (.)
                 'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
 =======
 <<<<<<< HEAD
@@ -1329,6 +1401,21 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 5a14301c (.)
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                    ? Carbon::parse($value->date)->format('d/m')
+                    : ''),
+=======
+                'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? Carbon::parse($value->date)->format('d/m') : ''),
+>>>>>>> f1d4085 (.)
+=======
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                    ? Carbon::parse($value->date)->format('d/m')
+                    : ''),
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             ];
         } catch (Exception $e) {
 <<<<<<< HEAD
@@ -1502,6 +1589,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -1579,12 +1667,19 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+    #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
 =======
     #[Override]
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -1752,8 +1847,23 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 =======
     #[Override]
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     protected function getType(): string
     {
         return 'line';
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+=======
+}
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)

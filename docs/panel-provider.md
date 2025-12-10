@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -21,6 +22,9 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # Panel Provider in Modulo Xot
 
 ## XotBaseMainPanelProvider
@@ -110,6 +114,7 @@ public function panel(Panel $panel): Panel
 
 ### Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,3 +281,21 @@ public function panel(Panel $panel): Panel
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
+- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
+- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
+=======
+- [Documentazione Root](../../../project_docs/filament_panel_provider_rules.md)
+- [Architettura Filament](../../../project_docs/FILAMENT_BEST_PRACTICES.md)
+- [Configurazione Moduli](../../../project_docs/MODULE_ARCHITECTURE.md)
+>>>>>>> f1d4085 (.)
+=======
+- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
+- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
+- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
+>>>>>>> 73eab74 (.)
+
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

@@ -43,7 +43,9 @@ class GetViewNameSpacePathAction
      * @param  string  $ns  Il namespace della vista
      * @return string|null Il percorso del namespace o null se non trovato
      */
+<<<<<<< HEAD
     public function execute(string $ns): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,10 +133,15 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 >>>>>>> 17684f52 (.)
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
     public function execute(string $ns): null|string
 =======
     public function execute(string $ns): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,11 +264,14 @@ class GetViewNameSpacePathAction
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 >>>>>>> f1d4085 (.)
 =======
     public function execute(string $ns): null|string
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -314,6 +324,8 @@ class GetViewNameSpacePathAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     {
         $xot = XotData::make();
 
@@ -352,7 +364,9 @@ class GetViewNameSpacePathAction
             return null; // Restituiamo null se il tema non è una stringa
         }
 
+<<<<<<< HEAD
         return base_path('Themes/'.$theme_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,10 +454,15 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 >>>>>>> 17684f52 (.)
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
         return base_path('Themes/' . $theme_name);
 =======
         return base_path('Themes/'.$theme_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -566,11 +585,14 @@ class GetViewNameSpacePathAction
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 >>>>>>> f1d4085 (.)
 =======
         return base_path('Themes/' . $theme_name);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -623,5 +645,7 @@ class GetViewNameSpacePathAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     }
 }

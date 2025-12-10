@@ -46,14 +46,18 @@ class ExportXlsByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -109,6 +113,22 @@ class ExportXlsByLazyCollection
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+     * @param LazyCollection $collection La lazy collection da esportare
+     * @param string $filename Nome del file Excel
+     * @param array<int, string> $fields Campi da includere nell'export
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
+     * @return BinaryFileResponse
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
      */
     public function execute(
         LazyCollection $collection,
@@ -116,9 +136,33 @@ class ExportXlsByLazyCollection
         array $fields = [],
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
+<<<<<<< HEAD
         $stringFields = array_map(strval(...), array_values($fields));
 
         $export = new LazyCollectionExport($collection, $filename, $stringFields);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $stringFields = array_map(strval(...), array_values($fields));
+
+        $export = new LazyCollectionExport($collection, $filename, $stringFields);
+=======
+        $stringFields = array_map(function ($field) {
+            return strval($field);
+        }, array_values($fields));
+
+        $export = new LazyCollectionExport(
+            $collection,
+            $filename,
+            $stringFields
+        );
+>>>>>>> f1d4085 (.)
+=======
+        $stringFields = array_map(strval(...), array_values($fields));
+
+        $export = new LazyCollectionExport($collection, $filename, $stringFields);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         return Excel::download($export, $filename);
     }

@@ -15,7 +15,19 @@ class MorphToOneAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> f1d4085 (.)
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,12 +40,25 @@ class MorphToOneAction
 
         Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
 
+<<<<<<< HEAD
         if (! isset($relationDTO->data['lang'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!isset($relationDTO->data['lang'])) {
+=======
+        if (! isset($relationDTO->data['lang'])) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!isset($relationDTO->data['lang'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             $relationDTO->data['lang'] = App::getLocale();
         }
 
         // if ($rows !== null) {
         $rows->create($relationDTO->data);
+<<<<<<< HEAD
 
         // }
 =======
@@ -75,6 +100,24 @@ class MorphToOneAction
         // } else {
         //    $rows->sync($relation->data);
         // }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+        //}
+        // } else {
+        //    $rows->sync($relation->data);
+        // }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         /*
          * dddx([
          * 'message' => 'wip',
@@ -86,5 +129,25 @@ class MorphToOneAction
          *
          * dddx('wip');
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+        /*
+        dddx([
+            'message' => 'wip',
+            'row' => $row,
+            'relation' => $relation,
+            'relation_rows' => $relation->rows->exists(),
+            't' => $row->{$relation->name},
+        ]);
+
+        dddx('wip');
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 }

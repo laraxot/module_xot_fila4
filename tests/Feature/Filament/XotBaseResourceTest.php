@@ -2,6 +2,13 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -61,6 +68,12 @@ beforeEach(function () {
         protected static null|int $navigationSort = 1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
 =======
 namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 >>>>>>> d2b0a27 (.)
@@ -68,6 +81,7 @@ namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 
         protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
 
@@ -257,6 +271,8 @@ namespace Modules\Xot\Tests\Feature\Filament;
 >>>>>>> 9db27d12 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 test('xot base resource extends filament resource', function (): void {
     /* @phpstan-ignore-next-line property.notFound */
 =======
@@ -265,6 +281,7 @@ test('xot base resource extends filament resource', function (): void {
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -403,10 +420,13 @@ namespace Modules\Xot\Tests\Feature\Filament;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     };
 });
 
 test('xot base resource extends filament resource', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,6 +447,9 @@ test('xot base resource extends filament resource', function () {
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     expect($this->resource)->toBeInstanceOf(Resource::class);
 });
 

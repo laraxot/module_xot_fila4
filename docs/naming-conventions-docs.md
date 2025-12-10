@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -21,6 +22,9 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # Convenzioni di Naming nella Documentazione
 
 ## Regola: Nome del Progetto nei Moduli
@@ -46,6 +50,7 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 
 ### Dove Usare il Nome del Progetto
 ✅ CORRETTO:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,12 +269,18 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
 =======
+=======
+- `/project_docs/` (cartella root del progetto)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
 - `/docs/` (cartella root del progetto)
 =======
 >>>>>>> f1d4085 (.)
 =======
 - `/docs/` (cartella root del progetto)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 =======
 - `/docs/` (cartella root del progetto)
@@ -282,6 +293,8 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 >>>>>>> 6cba4fe (.)
 - `/docs/` (cartella root del progetto)
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 - `README.md` principale
 - File di configurazione specifici del progetto
 - Documentazione di deployment
@@ -331,6 +344,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 ## Collegamenti
 - [Struttura Moduli](module-structure.md)
 - [Convenzioni Generali](conventions.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,12 +455,15 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
 =======
+=======
+>>>>>>> ab8cc3f3 (.)
 - [Best Practices Documentazione](documentation-guidelines.md) 
 =======
 >>>>>>> f1d4085 (.)
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
@@ -652,3 +669,6 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

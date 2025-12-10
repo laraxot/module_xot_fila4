@@ -50,7 +50,18 @@ class DeleteTableIndexByModelClassIndexNameAction
         // $doctrineTable=$schemaManager->listTableDetails($table);
 >>>>>>> 5a14301c (.)
         $doctrineTable->dropIndex($indexName);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         // ALTER TABLE `roles` DROP INDEX `roles_name_guard_name_unique`;
         // dddx(['res'=>$res,'doctrineTable'=>$doctrineTable,'indexName'=>$indexName]);
     }

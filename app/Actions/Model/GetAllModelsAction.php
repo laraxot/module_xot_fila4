@@ -65,6 +65,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -189,7 +190,22 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 use Spatie\QueueableAction\QueueableAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\QueueableAction\QueueableAction;
+=======
+use Nwidart\Modules\Module as ModuleInstance;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
 class GetAllModelsAction
 {
@@ -197,6 +213,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,10 +280,13 @@ class GetAllModelsAction
 =======
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
 <<<<<<< HEAD
@@ -326,6 +346,8 @@ class GetAllModelsAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
      */
     public function execute(): array
     {
@@ -334,6 +356,7 @@ class GetAllModelsAction
         foreach ($modules as $module) {
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,6 +529,8 @@ class GetAllModelsAction
 =======
 =======
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 >>>>>>> d2b0a27 (.)
      *
      * @return array<int, string>
@@ -534,6 +559,7 @@ class GetAllModelsAction
 =======
 >>>>>>> b7afadf9 (.)
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -617,6 +643,9 @@ class GetAllModelsAction
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
             Assert::isArray($tmp, 'GetAllModelsByModuleNameAction must return array');
 
             // Type-safe merge per mantenere array<string, string>
@@ -625,6 +654,7 @@ class GetAllModelsAction
                 Assert::string($value, 'Value must be string');
                 $res[$key] = $value;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +743,12 @@ class GetAllModelsAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         }
 
         return $res;

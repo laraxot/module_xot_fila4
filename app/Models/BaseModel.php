@@ -106,6 +106,7 @@ abstract class BaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -163,6 +164,9 @@ abstract class BaseModel extends Model
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 
     /** @var list<string> */
     protected $fillable = ['id'];
@@ -176,6 +180,7 @@ abstract class BaseModel extends Model
         // 'password'
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 
@@ -193,6 +198,8 @@ abstract class BaseModel extends Model
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+=======
+>>>>>>> ab8cc3f3 (.)
     /**
      * Create a new factory instance for the model.
      *
@@ -204,7 +211,10 @@ abstract class BaseModel extends Model
         return app(GetFactoryAction::class)->execute(static::class);
     }
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     /** @return array<string, class-string|string> */
     protected function casts(): array
     {
@@ -213,6 +223,7 @@ abstract class BaseModel extends Model
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,10 +280,13 @@ abstract class BaseModel extends Model
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,11 +411,14 @@ abstract class BaseModel extends Model
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,4 +441,7 @@ abstract class BaseModel extends Model
 =======
     protected $connection = 'xot';
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 }

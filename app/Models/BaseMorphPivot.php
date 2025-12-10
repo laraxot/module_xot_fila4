@@ -87,8 +87,22 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
     /** @var list<string> */
     protected $fillable = [
         'id',
+<<<<<<< HEAD
         'post_id',
         'post_type',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'post_id',
+        'post_type',
+=======
+        'post_id', 'post_type',
+>>>>>>> f1d4085 (.)
+=======
+        'post_id',
+        'post_type',
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         'related_type',
         'user_id',
         'note',
@@ -100,9 +114,29 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
+<<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+=======
+
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+
+>>>>>>> f1d4085 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

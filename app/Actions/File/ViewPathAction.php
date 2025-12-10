@@ -17,6 +17,13 @@ class ViewPathAction
         $ns_name = Str::before($key, '::');
         $stringable = Str::of($key)->after('::')->toString();
         $ns_dir = app(GetViewNameSpacePathAction::class)->execute($ns_name);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         Assert::string(
             $group_dir = Str::replace('.', '/', $stringable),
 <<<<<<< HEAD
@@ -26,7 +33,9 @@ class ViewPathAction
 <<<<<<< HEAD
             '['.__LINE__.']['.class_basename(static::class).']',
         );
+<<<<<<< HEAD
         $res = $ns_dir.'/'.$group_dir.'.blade.php';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,9 +172,15 @@ class ViewPathAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+=======
+        $res = $ns_dir . '/' . $group_dir . '.blade.php';
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
         Assert::string($group_dir = Str::replace('.', '/', $stringable), '['.__LINE__.']['.class_basename(static::class).']');
         $res = $ns_dir.'/'.$group_dir.'.blade.php';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,6 +316,11 @@ class ViewPathAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
         return app(FixPathAction::class)->execute($res);
     }

@@ -108,6 +108,7 @@ use Modules\Xot\Datas\XotData;
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +147,17 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
     // use DatabaseMigrations;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+    //use DatabaseMigrations;
+>>>>>>> d2b0a27 (.)
 
     // SHARED TEST HELPER FUNCTIONS (DRY Pattern)
     // Queste funzioni erano duplicate in molti file di test
@@ -442,18 +454,51 @@ abstract class TestCase extends BaseTestCase
             'password' => Hash::make('password123'),
             'name' => fake()->name(),
         ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         $userData = array_merge($defaultData, $attributes);
 
         /** @var UserContract&Model $user */
         $user = $userClass::factory()->create($userData);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        
+        $userData = array_merge($defaultData, $attributes);
+        
+        /** @var UserContract&Model $user */
+        $user = $userClass::factory()->create($userData);
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         return $user;
     }
 
     /**
      * Mock XotData for widget testing (Gold Standard Pattern).
+<<<<<<< HEAD
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
      * Prevents "Class not found" errors and provides consistent behavior
      * across all widget tests.
 <<<<<<< HEAD
@@ -484,6 +529,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
 =======
 <<<<<<< HEAD
@@ -496,11 +542,17 @@ abstract class TestCase extends BaseTestCase
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
 >>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
+=======
+        $mockXotData = \Mockery::mock(XotData::class)->makePartial();
+=======
+        $mockXotData = Mockery::mock(XotData::class)->makePartial();
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -571,6 +623,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 
         // Mock dei metodi critici con fallback sicuri
         $mockXotData->shouldReceive('getUserClass')->andReturn(User::class);
@@ -630,6 +684,9 @@ abstract class TestCase extends BaseTestCase
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -647,6 +704,7 @@ abstract class TestCase extends BaseTestCase
             ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
             
         $mockXotData->shouldReceive('getUserResourceClassByType')
+<<<<<<< HEAD
 =======
 >>>>>>> 71586de2 (.)
 =======
@@ -656,6 +714,18 @@ abstract class TestCase extends BaseTestCase
 
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
+=======
+            ->with(Mockery::any())
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
+            
+        $mockXotData->shouldReceive('make')
+            ->andReturn($mockXotData);
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         // ✅ CRITICO: Bind nel container per risoluzione automatica
         app()->instance(XotData::class, $mockXotData);
     }
@@ -767,7 +837,19 @@ abstract class TestCase extends BaseTestCase
             'password' => 'password123',
             'password_confirmation' => 'password123',
         ];
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         return array_merge($defaultData, $overrides);
     }
 
@@ -779,6 +861,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
+<<<<<<< HEAD
     protected function assertUserAuthenticated(?string $expectedType = null): void
 =======
 =======
@@ -810,6 +893,25 @@ abstract class TestCase extends BaseTestCase
     {
         $this->assertAuthenticated();
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+    protected function assertUserAuthenticated(null|string $expectedType = null): void
+    {
+        $this->assertAuthenticated();
+
+<<<<<<< HEAD
+=======
+    protected function assertUserAuthenticated(?string $expectedType = null): void
+    {
+        $this->assertAuthenticated();
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         if ($expectedType !== null) {
             /** @var UserContract|null $user */
             $user = auth()->user();
@@ -832,7 +934,19 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 5a14301c (.)
             $this->assertNotNull($user);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             if ($user && method_exists($user, 'type')) {
                 $this->assertEquals($expectedType, $user->type ?? null);
 <<<<<<< HEAD

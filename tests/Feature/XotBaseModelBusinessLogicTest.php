@@ -44,6 +44,13 @@ namespace Modules\Xot\Tests\Feature;
 
 >>>>>>> 249a0067 (.)
 use Illuminate\Database\ConnectionInterface;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
@@ -51,6 +58,9 @@ use Modules\Xot\Models\XotBaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 use Modules\Xot\Tests\TestCase;
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -853,9 +863,24 @@ test('it supports relationship loading', function (): void {
     expect($baseModel->getWith())->toBeArray();
 });
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
 use Tests\TestCase;
+=======
+use Tests\TestCase;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Models\XotBaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -863,8 +888,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_extends_correct_base_class(): void
     {
         // Arrange & Act
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $baseModel = new BaseModel();
 
         // Assert
@@ -1109,11 +1137,15 @@ class XotBaseModelBusinessLogicTest extends TestCase
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
 >>>>>>> ab8cc3f3 (.)
     /** @test */
     public function it_supports_attribute_access(): void
     {
         // Arrange
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1246,6 +1278,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $hasGetAttributeMethod = method_exists($baseModel, 'getAttribute');
@@ -1257,9 +1292,12 @@ class XotBaseModelBusinessLogicTest extends TestCase
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     /** @test */
     public function it_supports_mass_assignment_protection(): void
     {
@@ -1271,6 +1309,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1303,6 +1342,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $fillable = $baseModel->getFillable();
@@ -1310,6 +1352,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         $this->assertIsArray($fillable);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -1317,6 +1360,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertIsArray($guarded);
     }
 
@@ -1331,6 +1376,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1353,11 +1399,15 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $hasEvents = method_exists($baseModel, 'fireModelEvent');
 
         // Assert
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1368,6 +1418,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertTrue($hasEvents);
     }
 
@@ -1382,6 +1434,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1404,11 +1457,15 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $hasObservers = method_exists($baseModel, 'getObservableEvents');
 
         // Assert
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1419,6 +1476,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertTrue($hasObservers);
     }
 
@@ -1433,6 +1492,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1455,11 +1515,15 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $hasScopes = method_exists($baseModel, 'addGlobalScope');
 
         // Assert
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1470,6 +1534,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertTrue($hasScopes);
     }
 
@@ -1484,6 +1550,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1506,6 +1573,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $hasAccessors = method_exists($baseModel, 'getAttributeValue');
@@ -1515,6 +1585,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($hasAccessors);
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -1527,6 +1598,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $this->assertTrue($hasAccessors);
 >>>>>>> 5a14301c (.)
+=======
+        $this->assertTrue($hasAccessors);
+>>>>>>> ab8cc3f3 (.)
         $this->assertTrue($hasMutators);
     }
 
@@ -1541,6 +1615,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1569,6 +1644,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $casts = $baseModel->getCasts();
@@ -1576,11 +1654,14 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Assert
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertIsArray($casts);
     }
 
@@ -1595,6 +1676,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1623,6 +1705,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $dates = $baseModel->getDates();
@@ -1630,11 +1715,14 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Assert
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertIsArray($dates);
     }
 
@@ -1649,6 +1737,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1677,6 +1766,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $hidden = $baseModel->getHidden();
@@ -1684,11 +1776,14 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Assert
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertIsArray($hidden);
     }
 
@@ -1703,6 +1798,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1731,6 +1827,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $visible = $baseModel->getVisible();
@@ -1738,11 +1837,14 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Assert
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertIsArray($visible);
     }
 
@@ -1757,6 +1859,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1785,6 +1888,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $appends = $baseModel->getAppends();
@@ -1792,11 +1898,14 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Assert
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertIsArray($appends);
     }
 
@@ -1811,6 +1920,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 =======
         $baseModel = new BaseModel();
@@ -1842,6 +1952,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
 
         // Act
         $with = $baseModel->getWith();
@@ -1850,6 +1963,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertIsArray($with);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1903,10 +2017,13 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2039,3 +2156,6 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

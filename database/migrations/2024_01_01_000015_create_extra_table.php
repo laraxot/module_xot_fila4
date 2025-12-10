@@ -42,6 +42,13 @@ return new class extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -109,5 +116,42 @@ return new class extends XotBaseMigration {
     }
 
     // end up
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        $this->tableCreate(
+            static function (Blueprint $table): void {
+                $table->increments('id');
+                $table->uuidMorphs('model');
+                $table->schemalessAttributes('extra_attributes');
+                $table->unique(['model_id', 'model_type'], 'morph_unique');
+            }
+        );
+
+        // -- UPDATE --
+        $this->tableUpdate(
+            function (Blueprint $table): void {
+                // if (! $this->hasColumn('name')) {
+                //    $table->string('name')->nullable();
+                // }
+                $this->updateTimestamps(table: $table, hasSoftDeletes: true);
+                // if (! $this->hasIndex('morph_unique')) {
+                //    $table->unique(['model_id', 'model_type'], 'morph_unique');
+                // }
+
+                if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
+                    $table->string('model_id', 36)->index()->change();
+                }
+            }
+        );
+    }
+
+    // end up
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     // end down
 };

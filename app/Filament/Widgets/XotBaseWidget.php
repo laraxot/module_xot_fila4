@@ -1563,6 +1563,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                     $res = $merge1;
                 }
 
+                /** @var array<string, mixed> */
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
@@ -1589,6 +1590,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                 //    $attributes['type'] = $model->type->value;
                 // }
 
+                /** @var array<string, mixed> */
                 return $attributes;
             }
         }

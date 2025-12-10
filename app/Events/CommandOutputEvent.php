@@ -64,7 +64,7 @@ class CommandOutputEvent implements ShouldBroadcast
 >>>>>>> 091f883c (.)
 
     /**
-     * @return array<string, mixed>
+     * @return list<Channel>
      */
     public function broadcastOn(): array
     {

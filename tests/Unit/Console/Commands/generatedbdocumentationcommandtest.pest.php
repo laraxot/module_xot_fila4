@@ -24,6 +24,8 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 
+use function Safe\file_put_contents;
+
 uses(TestCase::class);
 <<<<<<< HEAD
 <<<<<<< HEAD

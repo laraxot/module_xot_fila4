@@ -38,6 +38,7 @@ TextInput::make('first_name') // la label viene risolta automaticamente
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Doc specifica Patient](../../Patient/docs/langserviceprovider-labels.md)
 >>>>>>> 85cdef688 (.)
@@ -62,6 +63,9 @@ TextInput::make('first_name') // la label viene risolta automaticamente
 - [Doc specifica Patient](../../Patient/project_docs/langserviceprovider-labels.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 2bad128c (.)
+=======
+- [Doc specifica Patient](../../Patient/docs/langserviceprovider-labels.md)
+>>>>>>> 59259b43 (.)
 
 **Questa regola è obbligatoria per tutti i moduli.**
 
@@ -72,6 +76,7 @@ TextInput::make('first_name') // la label viene risolta automaticamente
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [langserviceprovider-labels.md](../../Patient/docs/langserviceprovider-labels.md)
 >>>>>>> 85cdef688 (.)
@@ -96,4 +101,7 @@ TextInput::make('first_name') // la label viene risolta automaticamente
 * [langserviceprovider-labels.md](../../Patient/project_docs/langserviceprovider-labels.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 2bad128c (.)
+=======
+* [langserviceprovider-labels.md](../../Patient/docs/langserviceprovider-labels.md)
+>>>>>>> 59259b43 (.)
 

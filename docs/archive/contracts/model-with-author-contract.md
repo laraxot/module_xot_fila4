@@ -33,6 +33,7 @@ interface ModelWithAuthorContract extends ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -48,6 +49,9 @@ interface ModelWithAuthorContract extends ModelContract
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+- Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 59259b43 (.)
 
 ## Collegamenti
 - [ModelContract](model-contract.md)
@@ -107,6 +111,7 @@ interface ModelWithAuthorContract extends ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -122,6 +127,9 @@ interface ModelWithAuthorContract extends ModelContract
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+- [Documentazione root](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 59259b43 (.)
 
     $table->foreign('deleter_id')->references('id')->on('users');
 });
@@ -174,6 +182,7 @@ class Article extends Model implements ModelWithAuthorContract
 - Mantenere la consistenza dei dati nelle relazioni
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,4 +305,9 @@ class Article extends Model implements ModelWithAuthorContract
 =======
 - Documentare eventuali personalizzazioni 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> ba1d49f3 (.)
+>>>>>>> 59259b43 (.)

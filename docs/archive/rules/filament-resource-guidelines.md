@@ -130,6 +130,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -151,6 +152,11 @@
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+- [Documentazione Principale sui Problemi di Namespace](../../../../docs/references/namespace-issues.md)
+- [Documentazione del Modulo Patient](../Patient/docs/errors/undefined-type-pending.md)
+- [Riferimento alle Linee Guida nel Modulo Patient](../Patient/docs/references/filament-guidelines-link.md)
+>>>>>>> 59259b43 (.)
 
 ## Note
 

@@ -87,6 +87,7 @@ Le classi base forniscono l'infrastruttura fondamentale per tutti i moduli del s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [base-classes.md](../../../Xot/docs/base-classes.md)
 * [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
@@ -118,4 +119,8 @@ Le classi base forniscono l'infrastruttura fondamentale per tutti i moduli del s
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+* [base-classes.md](../../../Xot/docs/base-classes.md)
+* [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
+>>>>>>> 59259b43 (.)
 

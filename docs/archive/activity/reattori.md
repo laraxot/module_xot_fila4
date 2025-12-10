@@ -13,6 +13,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-reactors/writing-your-first-reactor
 >>>>>>> 85cdef688 (.)
@@ -37,6 +38,9 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-reactors/writing-your-fir
 https://spatie.be/project_docs/laravel-event-sourcing/v7/using-reactors/writing-your-first-reactor
 >>>>>>> 6cba4fe (.)
 >>>>>>> 2bad128c (.)
+=======
+https://spatie.be/docs/laravel-event-sourcing/v7/using-reactors/writing-your-first-reactor
+>>>>>>> 59259b43 (.)
 
 
 Li utilizzi quando vuoi eseguire delle azioni solo quando si verifica l'evento originale. Non vuoi fare questo lavoro quando riproduci gli eventi.  
@@ -86,6 +90,7 @@ class EventSourcingServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ``` 
 =======
 ``` 
@@ -105,3 +110,5 @@ class EventSourcingServiceProvider extends ServiceProvider
 =======
 ``` 
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 59259b43 (.)

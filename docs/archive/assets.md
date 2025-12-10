@@ -255,6 +255,7 @@ document.addEventListener('alpine:init', () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [assets.md](../../../Xot/docs/assets.md)
 * [assets.md](../../../Cms/docs/themes/assets.md)
@@ -293,4 +294,9 @@ document.addEventListener('alpine:init', () => {
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+* [assets.md](../../../Xot/docs/assets.md)
+* [assets.md](../../../Cms/docs/themes/assets.md)
+* [assets.md](../../../../Themes/One/docs/assets.md)
+>>>>>>> 59259b43 (.)
 

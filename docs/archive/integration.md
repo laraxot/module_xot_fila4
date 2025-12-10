@@ -3,7 +3,6 @@
 ## Documentazione Collegata
 
 ### Laraxot
-<<<<<<< HEAD
 - [Documentazione Laraxot](../docs/laraxot/)
 - [Migrazione Struttura](../docs/migrazione-struttura.md)
 - [Namespace Rules](../docs/namespace-rules.md)
@@ -17,21 +16,6 @@
 - [Filament Risorse](../docs/filament-risorse.md)
 - [Personalizzazioni Avanzate](../docs/filament-personalizzazioni-avanzate.md)
 - [Traduzioni](../docs/traduzioni.md)
-=======
-- [Documentazione Laraxot](../project_docs/laraxot/)
-- [Migrazione Struttura](../project_docs/migrazione-struttura.md)
-- [Namespace Rules](../project_docs/namespace-rules.md)
-
-### Struttura e Convenzioni
-- [Namespace Convention](../project_docs/namespace-convention.md)
-- [Namespace Structure](../project_docs/namespace-structure.md)
-- [Standard Codice](../project_docs/standard-codice.md)
-
-### Implementazione
-- [Filament Risorse](../project_docs/filament-risorse.md)
-- [Personalizzazioni Avanzate](../project_docs/filament-personalizzazioni-avanzate.md)
-- [Traduzioni](../project_docs/traduzioni.md)
->>>>>>> 6cba4fe (.)
 
 ## Best Practices
 
@@ -90,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [integration.md](../../../Gdpr/docs/integration.md)
 * [integration.md](../../../Xot/docs/integration.md)
@@ -128,6 +113,11 @@
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+* [integration.md](../../../Gdpr/docs/integration.md)
+* [integration.md](../../../Xot/docs/integration.md)
+* [integration.md](../../../Job/docs/integration.md)
+>>>>>>> 59259b43 (.)
 
 
 ### Versione Incoming

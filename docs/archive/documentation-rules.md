@@ -41,6 +41,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -56,10 +57,14 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+- [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
+>>>>>>> 59259b43 (.)
 
 ## Documentazione per Modulo
 
 ### Core
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +76,8 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 59259b43 (.)
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -97,6 +104,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Changelog](../../../Xot/docs/changelog/README.md)
 - [Contributing](../../../Xot/docs/contributing.md)
 - [Security](../../../Xot/docs/security.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,4 +232,9 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> ba1d49f3 (.)
+>>>>>>> 59259b43 (.)

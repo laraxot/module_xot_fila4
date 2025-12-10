@@ -146,6 +146,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -854,6 +855,12 @@ use Spatie\QueueableAction\QueueableAction;
 =======
  *
 >>>>>>> cafe8bed (.)
+=======
+ *
+=======
+ * 
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -961,6 +968,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -1078,6 +1086,8 @@ class GetDistanceExpressionAction
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> cf971011 (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -1103,6 +1113,7 @@ class GetDistanceExpressionAction
         if (null !== $alias) {
 >>>>>>> 5a14301c (.)
             $sql .= " AS {$alias}";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1247,6 +1258,10 @@ class GetDistanceExpressionAction
 =======
     public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
 >>>>>>> 5e58b29b (.)
+=======
+=======
+    public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
+>>>>>>> cf971011 (.)
     {
         $sql = "
             (6371 * acos(
@@ -1260,6 +1275,7 @@ class GetDistanceExpressionAction
         
         if (null !== $alias) {
             $sql .= " AS $alias";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2433,6 +2449,9 @@ class GetDistanceExpressionAction
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
         }
 
         return DB::raw($sql);
@@ -2573,6 +2592,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -3274,3 +3294,9 @@ class GetDistanceExpressionAction
 =======
 }
 >>>>>>> cafe8bed (.)
+=======
+}
+=======
+} 
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)

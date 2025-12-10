@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -85,12 +86,15 @@ This document defines the standards and best practices for working with Enums in
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +132,8 @@ This document defines the standards and best practices for working with Enums in
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
 
 ## Naming Conventions
 
@@ -216,6 +222,7 @@ namespace Modules\<nome progetto>\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Enums;
 =======
 namespace Modules\SaluteOra\Enums;
@@ -268,6 +275,9 @@ namespace Modules\<nome modulo>\Enums;
 =======
 namespace Modules\<nome modulo>\Enums;
 >>>>>>> 3bf39332 (.)
+=======
+namespace Modules\<nome modulo>\Enums;
+>>>>>>> cf971011 (.)
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -305,6 +315,7 @@ enum AppointmentTypeEnum: string implements HasLabel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
 =======
@@ -375,6 +386,10 @@ enum AppointmentTypeEnum: string implements HasLabel
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
 >>>>>>> 3bf39332 (.)
+=======
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+>>>>>>> cf971011 (.)
             // ... other cases
         };
     }
@@ -399,6 +414,7 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 =======
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
@@ -451,6 +467,9 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 =======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 >>>>>>> 3bf39332 (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+>>>>>>> cf971011 (.)
 ```
 
 ## Updating Existing Enums
@@ -466,6 +485,7 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,3 +563,5 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)

@@ -261,6 +261,7 @@ test('complete tax filing process', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 =======
 ### Healthcare Domain () - **Real Data Preferred**
@@ -305,9 +306,13 @@ test('complete tax filing process', function () {
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 >>>>>>> 3bf39332 (.)
 =======
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+>>>>>>> cf971011 (.)
+=======
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,6 +429,8 @@ test('complete tax filing process', function () {
 =======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -644,6 +651,7 @@ test('legacy feature with mocks', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **For <nome progetto> Healthcare Domain**: 
 =======
 **For  Healthcare Domain**: 
@@ -688,9 +696,13 @@ test('legacy feature with mocks', function () {
 **For SaluteOra Healthcare Domain**: 
 >>>>>>> 3bf39332 (.)
 =======
+**For SaluteOra Healthcare Domain**: 
+>>>>>>> cf971011 (.)
+=======
 **For  Healthcare Domain**: 
 **For <nome progetto> Healthcare Domain**: 
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -807,6 +819,8 @@ test('legacy feature with mocks', function () {
 =======
 **For SaluteOra Healthcare Domain**: 
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 

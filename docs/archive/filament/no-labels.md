@@ -194,6 +194,7 @@ Se trovi codice che viola questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 =======
@@ -462,3 +463,9 @@ Se trovi codice che viola questa regola:
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> cf971011 (.)

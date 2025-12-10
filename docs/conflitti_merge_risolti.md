@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3bf39332 (.)
 =======
@@ -31,6 +32,8 @@
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
 # Risoluzione Conflitti di Merge 
 
 # Risoluzione Conflitti di Merge in <nome progetto>
@@ -57,6 +60,7 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -85,11 +89,14 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
 # Risoluzione Conflitti di Merge in <nome progetto>
 
 ## Problema
 
 Durante lo sviluppo del progetto <nome progetto>, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,6 +166,8 @@ Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`
@@ -279,6 +288,7 @@ La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -309,3 +319,5 @@ La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità 
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)

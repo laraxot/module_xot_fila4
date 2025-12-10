@@ -190,6 +190,7 @@ class NotificationLogResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Notify Module README](../../../Notify/project_docs/README.md)
 - [User Module README](../../../User/project_docs/README.md)
 - [<nome progetto> Module README](../../../<nome progetto>/project_docs/README.md)
@@ -278,6 +279,11 @@ class NotificationLogResource extends XotBaseResource
 - [SaluteOra Module README](../../../SaluteOra/project_docs/README.md)
 >>>>>>> 3bf39332 (.)
 =======
+- [Notify Module README](../../../Notify/project_docs/README.md)
+- [User Module README](../../../User/project_docs/README.md)
+- [SaluteOra Module README](../../../SaluteOra/project_docs/README.md)
+>>>>>>> cf971011 (.)
+=======
 - [Notify Module README](../../../Notify/docs/README.md)
 - [User Module README](../../../User/docs/README.md)
 - [Modulo Generico README](../../../<nome modulo>/docs/README.md)
@@ -285,6 +291,7 @@ class NotificationLogResource extends XotBaseResource
 - [User Module README](../../../User/project_docs/README.md)
 - [<nome progetto> Module README](../../../<nome progetto>/project_docs/README.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +444,8 @@ class NotificationLogResource extends XotBaseResource
 - [User Module README](../../../User/project_docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/project_docs/README.md)
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
 
 ### Standard di Riferimento
 - [NavigationLabelTrait](../traits/navigation-label-trait.md)

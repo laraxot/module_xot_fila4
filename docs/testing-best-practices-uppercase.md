@@ -149,6 +149,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -469,6 +470,12 @@ function mockXotData(): void
 >>>>>>> 6cba4fe (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 5bd842e3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);

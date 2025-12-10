@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -67,6 +68,8 @@
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
 # Report Consolidamento Documentazione - 27 Gennaio 2025
 
 ## Panoramica
@@ -145,6 +148,7 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Verifica che tutti gli esempi di codice siano conformi PHPStan level 10
 =======
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
@@ -203,6 +207,9 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 =======
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
 >>>>>>> 3bf39332 (.)
+=======
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> cf971011 (.)
    - Aggiornamento esempi non conformi
    - Test di funzionamento degli esempi
 
@@ -290,6 +297,7 @@ laravel/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Tutti gli esempi conformi PHPStan level 10
 =======
 - Tutti gli esempi conformi PHPStan Level 9
@@ -348,6 +356,9 @@ laravel/
 =======
 - Tutti gli esempi conformi PHPStan Level 9
 >>>>>>> 3bf39332 (.)
+=======
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> cf971011 (.)
 - Type hints espliciti e documentazione PHPDoc
 - Namespace corretti senza segmento `app`
 
@@ -406,6 +417,7 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 **Data Report**: 27 Gennaio 2025  
 **Stato**: Consolidamento in corso  
 **Prossimo Update**: Completamento consolidamento root docs
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,3 +505,5 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)

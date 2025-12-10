@@ -30,6 +30,7 @@ Questa regola è valida per tutti i moduli. Fare sempre riferimento alla documen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [docs di <main module>](../../<main module>/docs/traduzioni-navigation.mdc)
 =======
 - [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
@@ -136,3 +137,9 @@ Questa regola è valida per tutti i moduli. Fare sempre riferimento alla documen
 =======
 - [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
 >>>>>>> 53d6a6ba (.)
+=======
+- [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
+=======
+- [docs di <nome progetto>](../../../docs/traduzioni-navigation.mdc)
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)

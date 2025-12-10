@@ -324,10 +324,6 @@ class ComponentFileData extends Data
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
 
-    /**
-     * @param  EloquentCollection<int, mixed>|Collection<int, mixed>|array  $data
-     * @return DataCollection<int, static>
-     */
     public static function collection(EloquentCollection|Collection|array $data): DataCollection
     {
         return self::collect($data, DataCollection::class);

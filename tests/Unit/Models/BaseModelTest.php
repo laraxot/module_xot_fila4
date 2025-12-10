@@ -139,7 +139,7 @@ namespace Modules\Xot\Tests\Unit\Models;
 
 uses(TestCase::class);
 
-beforeEach(function (): void {
+beforeEach(function () {
     $this->baseModel = new class extends BaseModel
     {
 =======

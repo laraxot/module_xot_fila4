@@ -527,15 +527,11 @@ class StoreAction
         $validator = Validator::make($data, $rules);
         $validator->validate();
 
-        /** @var array<string, mixed> $validatedData */
-        $validatedData = $data;
-        $model = $model->fill($validatedData);
+        $model = $model->fill($data);
 
         $model->save();
 
-        /** @var array<string, mixed> $relationData */
-        $relationData = $data;
-        $relations = app(FilterRelationsAction::class)->execute($model, $relationData);
+        $relations = app(FilterRelationsAction::class)->execute($model, $data);
 
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe

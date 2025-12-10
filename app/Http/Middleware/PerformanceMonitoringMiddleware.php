@@ -58,10 +58,6 @@ class PerformanceMonitoringMiddleware
         $this->recordMemoryUsage();
 
         // Aggiungi header di performance
-<<<<<<< HEAD
-=======
-        Assert::isInstanceOf($response, Response::class);
->>>>>>> eeaa032 (.)
         $this->addPerformanceHeaders($response, $responseTime, $startMemory);
 
         return $response;

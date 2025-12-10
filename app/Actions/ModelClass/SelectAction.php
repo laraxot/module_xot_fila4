@@ -15,8 +15,6 @@ class SelectAction
     /**
      * Execute a select query.
      *
-<<<<<<< HEAD
-     * @param  class-string<Model>  $modelClass
      * @param class-string<Model> $modelClass
      *
      * @param class-string<Model> $modelClass
@@ -25,39 +23,8 @@ class SelectAction
      *
      * @param class-string<Model> $modelClass
      *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  class-string<Model>  $modelClass
-=======
      * @param class-string<Model> $modelClass
      *
->>>>>>> 5a14301c (.)
-=======
-     * @param class-string<Model> $modelClass
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param class-string<Model> $modelClass
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param class-string<Model> $modelClass
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param class-string<Model> $modelClass
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param class-string<Model> $modelClass
-     *
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      * @return array<mixed>
      */
     public function execute(string $modelClass, string $sql): array

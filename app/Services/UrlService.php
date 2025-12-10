@@ -14,7 +14,6 @@ namespace Modules\Xot\Services;
  */
 class UrlService
 {
-<<<<<<< HEAD
     private static ?self $instance = null;
     private static null|self $instance = null;
     private static null|self $instance = null;
@@ -80,409 +79,81 @@ class UrlService
     private static null|self $instance = null;
     private static ?self $instance = null;
     private static ?self $instance = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     private static ?self $instance = null;
-=======
     private static null|self $instance = null;
->>>>>>> 5a14301c (.)
-=======
     private static null|self $instance = null;
->>>>>>> 3fbbf1f5 (.)
-=======
     private static null|self $instance = null;
-=======
     private static null|self $instance = null;
->>>>>>> 399f46d3 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 17684f52 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 399f46d3 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 399f46d3 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 17684f52 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 399f46d3 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 17684f52 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     private static null|self $instance = null;
-=======
     private static ?self $instance = null;
->>>>>>> a12f125f4a (.)
-=======
     private static null|self $instance = null;
->>>>>>> b93ef594b4 (.)
-=======
+    private static null|self $instance = null;
     private static ?self $instance = null;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> ca9324a4 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
     private static ?self $instance = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
     private static ?self $instance = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
     private static ?self $instance = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
+    private static null|self $instance = null;
     private static ?self $instance = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
     private static null|self $instance = null;
-=======
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
     private static ?self $instance = null;
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
     private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     private static null|self $instance = null;
->>>>>>> ca9324a4 (.)
-=======
     private static null|self $instance = null;
-=======
+    private static null|self $instance = null;
     private static ?self $instance = null;
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
     private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 9db27d12 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 5a14301c (.)
-=======
     private static null|self $instance = null;
-=======
     private static ?self $instance = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     private static null|self $instance = null;
->>>>>>> ca9324a4 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 5a14301c (.)
-=======
-    private static null|self $instance = null;
-=======
     private static ?self $instance = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     private static null|self $instance = null;
->>>>>>> ca9324a4 (.)
-=======
     private static null|self $instance = null;
-=======
+    private static null|self $instance = null;
     private static ?self $instance = null;
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
     private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 9db27d12 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    private static null|self $instance = null;
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
     private static ?self $instance = null;
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
+    private static null|self $instance = null;
     private static ?self $instance = null;
->>>>>>> 71586de2 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 5a14301c (.)
-=======
     private static null|self $instance = null;
-=======
+    private static null|self $instance = null;
+    private static null|self $instance = null;
     private static ?self $instance = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     private static null|self $instance = null;
->>>>>>> ca9324a4 (.)
-=======
     private static null|self $instance = null;
-=======
     private static ?self $instance = null;
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-    private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    private static null|self $instance = null;
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
     private static ?self $instance = null;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
+    private static null|self $instance = null;
+    private static null|self $instance = null;
     private static ?self $instance = null;
->>>>>>> 71586de2 (.)
-=======
     private static null|self $instance = null;
->>>>>>> 5a14301c (.)
-=======
     private static null|self $instance = null;
-=======
-    private static ?self $instance = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-    private static null|self $instance = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     public function __construct()
     {
         // ---
-<<<<<<< HEAD
         include_once __DIR__.'/vendor/autoload.php';
         include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__ . '/vendor/autoload.php';
@@ -548,409 +219,81 @@ class UrlService
         include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         include_once __DIR__.'/vendor/autoload.php';
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 5a14301c (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3fbbf1f5 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 399f46d3 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 17684f52 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 399f46d3 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 399f46d3 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 17684f52 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 399f46d3 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 17684f52 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         include_once __DIR__ . '/vendor/autoload.php';
-=======
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> a12f125f4a (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> b93ef594b4 (.)
-=======
+        include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> ca9324a4 (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
         include_once __DIR__.'/vendor/autoload.php';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
         include_once __DIR__.'/vendor/autoload.php';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
         include_once __DIR__.'/vendor/autoload.php';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
+        include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
         include_once __DIR__ . '/vendor/autoload.php';
-=======
+        include_once __DIR__ . '/vendor/autoload.php';
+        include_once __DIR__ . '/vendor/autoload.php';
+        include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> ca9324a4 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
-=======
+        include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 9db27d12 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 5a14301c (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
-=======
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> ca9324a4 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 5a14301c (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
-=======
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> ca9324a4 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
-=======
+        include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 9db27d12 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
+        include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> 71586de2 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 5a14301c (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
-=======
+        include_once __DIR__ . '/vendor/autoload.php';
+        include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> ca9324a4 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
-=======
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
+        include_once __DIR__ . '/vendor/autoload.php';
+        include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__.'/vendor/autoload.php';
->>>>>>> 71586de2 (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 5a14301c (.)
-=======
         include_once __DIR__ . '/vendor/autoload.php';
-=======
-        include_once __DIR__.'/vendor/autoload.php';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        include_once __DIR__ . '/vendor/autoload.php';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     }
 
     public static function getInstance(): self
     {
-<<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
         if (!(self::$instance instanceof self)) {
@@ -983,257 +326,43 @@ class UrlService
             self::$instance = new self;
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
         if (!(self::$instance instanceof self)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!(self::$instance instanceof self)) {
-=======
+        if (!(self::$instance instanceof self)) {
         if (! self::$instance instanceof self) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!(self::$instance instanceof self)) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! self::$instance instanceof self) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             self::$instance = new self();
->>>>>>> 5a14301c (.)
-=======
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
->>>>>>> 5a14301c (.)
-=======
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
->>>>>>> 5a14301c (.)
-=======
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 300ef70 (.)
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
->>>>>>> 71586de2 (.)
-=======
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 300ef70 (.)
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
->>>>>>> 71586de2 (.)
-=======
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         }
 
         return self::$instance;
@@ -1249,38 +378,16 @@ class UrlService
 
     public function checkValidUrl(string $url): bool
     {
-<<<<<<< HEAD
         return filter_var($url, FILTER_VALIDATE_URL) !== false;
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         return filter_var($url, FILTER_VALIDATE_URL) !== false;
-=======
         return false !== filter_var($url, FILTER_VALIDATE_URL);
->>>>>>> 5a14301c (.)
-=======
         return false !== filter_var($url, FILTER_VALIDATE_URL);
->>>>>>> 5a14301c (.)
-=======
         return false !== filter_var($url, FILTER_VALIDATE_URL);
->>>>>>> 5a14301c (.)
-=======
         return false !== filter_var($url, FILTER_VALIDATE_URL);
->>>>>>> 5a14301c (.)
-=======
         return false !== filter_var($url, FILTER_VALIDATE_URL);
->>>>>>> 5a14301c (.)
-=======
-        return false !== filter_var($url, FILTER_VALIDATE_URL);
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     }
 }

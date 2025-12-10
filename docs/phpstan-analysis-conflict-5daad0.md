@@ -2,15 +2,6 @@
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
-<<<<<<< HEAD
-**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
-=======
-<<<<<<< HEAD
-**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 
 ## Analisi Completa
 
@@ -65,11 +56,6 @@ Accesso a proprietà non definite nei modelli.
 - Modelli User/Profile
 - Contratti e interfacce
 
-<<<<<<< HEAD
-### 3. **<nome modulo>** (Applicazione) - 15% errori
-=======
-### 3. **SaluteMo** (Applicazione) - 15% errori
->>>>>>> laraxot/develop
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -98,13 +84,6 @@ Accesso a proprietà non definite nei modelli.
 4. `User/app/Models/Profile.php` - Metodi e proprietà
 
 ### Priorità 3 (Applicazione)
-<<<<<<< HEAD
-1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
-2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
-=======
-1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
-2. `SaluteMo/app/Models/*` - Proprietà e relazioni
->>>>>>> laraxot/develop
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -115,11 +94,6 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 ### Fase 2: Autenticazione (User)
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
-<<<<<<< HEAD
-### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
-=======
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
->>>>>>> laraxot/develop
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale

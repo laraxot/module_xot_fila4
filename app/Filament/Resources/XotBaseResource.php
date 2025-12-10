@@ -4,70 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
-<<<<<<< HEAD
 use Exception;
 use ReflectionClass;
 use Exception;
 use Filament\Forms;
 use Filament\Infolists\Infolist;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Exception;
 use ReflectionClass;
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
 use Exception;
 use Filament\Forms;
 use Filament\Infolists\Infolist;
->>>>>>> 53d6a6ba (.)
->>>>>>> laraxot/develop
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -78,128 +24,15 @@ use Filament\Resources\Resource as FilamentResource;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Support\Components\Component;
-<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Filament\Schemas\Components\Component;
 use Filament\Resources\Pages\PageRegistration;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\RelationManagers\RelationGroup;
 use Filament\Resources\RelationManagers\RelationManagerConfiguration;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 use Filament\Pages\Enums\SubNavigationPosition;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Schemas\Schema;
@@ -207,152 +40,50 @@ use Exception;
 use ReflectionClass;
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Schemas\Components\Wizard\Step;
-<<<<<<< HEAD
 use Filament\Forms;
 use Filament\Resources\Resource as FilamentResource;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
-=======
-<<<<<<< HEAD
 use Filament\Forms;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Filament\Resources\Pages\PageRegistration;
-use Filament\Resources\Pages\Page;
-use Filament\Resources\RelationManagers\RelationGroup;
-use Filament\Resources\RelationManagers\RelationManagerConfiguration;
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
 use Filament\Forms;
-=======
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Pages\SubNavigationPosition;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Resources\Resource as FilamentResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 53d6a6ba (.)
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
->>>>>>> 5a14301c (.)
-=======
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 
 use function Safe\glob;
 
 use Webmozart\Assert\Assert;
 
-<<<<<<< HEAD
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 use ReflectionClass;
->>>>>>> 53d6a6ba (.)
-=======
 use ReflectionClass;
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
 use ReflectionClass;
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 use ReflectionClass;
->>>>>>> 53d6a6ba (.)
-=======
 use ReflectionClass;
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
 use ReflectionClass;
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Webmozart\Assert\Assert;
 
 use function Safe\glob;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 /**
  * @method static string getUrl(string $name, array<string, mixed> $parameters = [], bool $isAbsolute = true)
  */
@@ -360,7 +91,6 @@ abstract class XotBaseResource extends FilamentResource
 {
     use NavigationLabelTrait;
 
-<<<<<<< HEAD
     protected static ?string $model = null;
     protected static null|string $model = null;
     protected static null|string $model = null;
@@ -396,211 +126,47 @@ abstract class XotBaseResource extends FilamentResource
     protected static null|string $model = null;
     protected static null|string $model = null;
     protected static null|string $model = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected static ?string $model = null;
-=======
     protected static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
     protected static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
     protected static null|string $model = null;
-=======
     protected static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected static null|string $model = null;
-=======
     protected static ?string $model = null;
->>>>>>> a12f125f4a (.)
-=======
     protected static null|string $model = null;
->>>>>>> b93ef594b4 (.)
-=======
+    protected static null|string $model = null;
+    protected static null|string $model = null;
     protected static ?string $model = null;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
     protected static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
     protected static null|string $model = null;
-=======
+    protected static null|string $model = null;
+    protected static null|string $model = null;
     protected static ?string $model = null;
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
     protected static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     protected static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
     protected static null|string $model = null;
-=======
     protected static ?string $model = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     protected static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     protected static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
     protected static null|string $model = null;
-=======
     protected static ?string $model = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     protected static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     protected static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
     protected static null|string $model = null;
-=======
     protected static ?string $model = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     protected static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     protected static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    protected static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
-    protected static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
-    protected static null|string $model = null;
-=======
-    protected static ?string $model = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-    protected static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    protected static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     // protected static ?string $navigationIcon = 'heroicon-o-bell';
     // protected static ?string $navigationLabel = 'Custom Navigation Label';
@@ -609,19 +175,9 @@ abstract class XotBaseResource extends FilamentResource
     // protected static ?string $navigationGroup = 'Parametri di Sistema';
     // protected static ?int $navigationSort = null;
 
-<<<<<<< HEAD
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
-=======
-<<<<<<< HEAD
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
-=======
-<<<<<<< HEAD
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
-=======
-    protected static SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     public static function getModuleName(): string
     {
@@ -634,208 +190,39 @@ abstract class XotBaseResource extends FilamentResource
     }
 
     /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      * @return class-string<Model>
      */
     public static function getModel(): string
     {
-<<<<<<< HEAD
         if (null !== static::$model) {
         if (static::$model !== null) {
         if (static::$model !== null) {
         if (static::$model !== null) {
         if (static::$model !== null) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (null !== static::$model) {
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
         if (static::$model !== null) {
->>>>>>> 5a14301c (.)
-=======
         if (static::$model !== null) {
->>>>>>> 5a14301c (.)
-=======
         if (static::$model !== null) {
->>>>>>> 5a14301c (.)
-=======
         if (static::$model !== null) {
->>>>>>> 5a14301c (.)
-=======
         if (static::$model !== null) {
->>>>>>> 5a14301c (.)
-=======
         if (static::$model !== null) {
->>>>>>> 5a14301c (.)
             $res = static::$model;
             Assert::subclassOf(
                 $res,
                 Model::class,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                 \sprintf('Class %s must extend Eloquent Model', $res),
-=======
                 sprintf('Class %s must extend Eloquent Model', $res),
->>>>>>> 5a14301c (.)
-=======
                 sprintf('Class %s must extend Eloquent Model', $res),
->>>>>>> 3fbbf1f5 (.)
-=======
                 sprintf('Class %s must extend Eloquent Model', $res),
->>>>>>> 5a14301c (.)
-=======
                 sprintf('Class %s must extend Eloquent Model', $res),
->>>>>>> 5a14301c (.)
-=======
                 sprintf('Class %s must extend Eloquent Model', $res),
->>>>>>> 5a14301c (.)
-=======
                 sprintf('Class %s must extend Eloquent Model', $res),
->>>>>>> 5a14301c (.)
-=======
-                sprintf('Class %s must extend Eloquent Model', $res),
->>>>>>> 5a14301c (.)
             );
-<<<<<<< HEAD
-=======
-=======
-        if (static::$model != null) {
-            $res = static::$model;
-            Assert::subclassOf($res, Model::class, sprintf('Class %s must extend Eloquent Model', $res));
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> laraxot/develop
         if (static::$model !== null) {
             $res = static::$model;
             Assert::subclassOf(
                 $res,
                 Model::class,
-<<<<<<< HEAD
                 \sprintf('Class %s must extend Eloquent Model', $res),
                 sprintf('Class %s must extend Eloquent Model', $res),
                 sprintf('Class %s must extend Eloquent Model', $res),
@@ -843,11 +230,6 @@ abstract class XotBaseResource extends FilamentResource
                 sprintf('Class %s must extend Eloquent Model', $res),
                 sprintf('Class %s must extend Eloquent Model', $res),
             );
-=======
-                sprintf('Class %s must extend Eloquent Model', $res),
-            );
->>>>>>> b93ef594b4 (.)
-=======
      * @return class-string<\Illuminate\Database\Eloquent\Model>
      */
     public static function getModel(): string
@@ -855,185 +237,17 @@ abstract class XotBaseResource extends FilamentResource
         if (static::$model != null) {
             $res = static::$model;
             Assert::subclassOf($res, \Illuminate\Database\Eloquent\Model::class, sprintf('Class %s must extend Eloquent Model', $res));
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
             return $res;
         }
         $moduleName = static::getModuleName();
         $modelName = Str::before(class_basename(static::class), 'Resource');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
         $res = 'Modules\\'.$moduleName.'\Models\\'.$modelName;
         Assert::classExists($res, \sprintf('Model class %s does not exist', $res));
         Assert::subclassOf(
             $res,
             Model::class,
             \sprintf('Class %s must extend Eloquent Model', $res),
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-        $res = 'Modules\\' . $moduleName . '\Models\\' . $modelName;
-        Assert::classExists($res, sprintf('Model class %s does not exist', $res));
-        Assert::subclassOf(
-            $res,
-            Model::class,
-            sprintf('Class %s must extend Eloquent Model', $res),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-        );
-<<<<<<< HEAD
-=======
-=======
-        $res = 'Modules\\'.$moduleName.'\Models\\'.$modelName;
-        Assert::classExists($res, sprintf('Model class %s does not exist', $res));
-        Assert::subclassOf($res, Model::class, sprintf('Class %s must extend Eloquent Model', $res));
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> laraxot/develop
         $res = 'Modules\\' . $moduleName . '\Models\\' . $modelName;
         Assert::classExists($res, sprintf('Model class %s does not exist', $res));
         Assert::subclassOf(
@@ -1041,23 +255,22 @@ abstract class XotBaseResource extends FilamentResource
             Model::class,
             sprintf('Class %s must extend Eloquent Model', $res),
         );
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
-=======
+        $res = 'Modules\\' . $moduleName . '\Models\\' . $modelName;
+        Assert::classExists($res, sprintf('Model class %s does not exist', $res));
+        Assert::subclassOf(
+            $res,
+            Model::class,
+            sprintf('Class %s must extend Eloquent Model', $res),
+        );
         $res = 'Modules\\'.$moduleName.'\Models\\'.$modelName;
         Assert::classExists($res, sprintf('Model class %s does not exist', $res));
         Assert::subclassOf($res, \Illuminate\Database\Eloquent\Model::class, sprintf('Class %s must extend Eloquent Model', $res));
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         static::$model = $res;
 
         return $res;
     }
 
     /**
-<<<<<<< HEAD
      * @return array<string, Component>
      * @return array<string|int, Component>
      * @return array<string|int, Component>
@@ -1098,238 +311,57 @@ abstract class XotBaseResource extends FilamentResource
      * @return array<string, Component>
      * @return array<int, Htmlable|string>
      * @return array<string, Component>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, Component>
-=======
      * @return array<string|int, Component>
->>>>>>> 5a14301c (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 3fbbf1f5 (.)
-=======
      * @return array<string|int, Component>
-=======
      * @return array<string|int, Component>
->>>>>>> 399f46d3 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 399f46d3 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 399f46d3 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 399f46d3 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string|int, Component>
-=======
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
      * @return array<string|int, \Filament\Schemas\Components\Component>
->>>>>>> a12f125f4a (.)
-=======
      * @return array<string|int, Component>
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> ca9324a4 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
      * @return array<string|int, Component>
-=======
+     * @return array<string|int, Component>
      * @return array<string|int, \Filament\Schemas\Components\Component>
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
      * @return array<string|int, Component>
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> ca9324a4 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 5a14301c (.)
-=======
      * @return array<string|int, Component>
-=======
      * @return array<string|int, \Filament\Schemas\Components\Component>
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
      * @return array<string|int, Component>
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> ca9324a4 (.)
-=======
-     * @return array<string|int, Component>
->>>>>>> 5a14301c (.)
-=======
-     * @return array<string|int, Component>
-=======
-     * @return array<string|int, \Filament\Schemas\Components\Component>
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-     * @return array<string|int, Component>
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-     * @return array<string|int, Component>
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-     * @return array<string|int, Component>
->>>>>>> ca9324a4 (.)
-=======
      * @return array<string, Component>
->>>>>>> 53d6a6ba (.)
-=======
      * @return array<int, Htmlable|string>
->>>>>>> b7afadf9 (.)
-=======
      * @return array<string, Component>
->>>>>>> 71586de2 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 5a14301c (.)
-=======
      * @return array<string|int, Component>
-=======
      * @return array<string|int, \Filament\Schemas\Components\Component>
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
      * @return array<string|int, Component>
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> ca9324a4 (.)
-=======
      * @return array<string, Component>
->>>>>>> 53d6a6ba (.)
-=======
      * @return array<int, Htmlable|string>
->>>>>>> b7afadf9 (.)
-=======
      * @return array<string, Component>
->>>>>>> 71586de2 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 5a14301c (.)
-=======
      * @return array<string|int, Component>
-=======
      * @return array<string|int, \Filament\Schemas\Components\Component>
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
      * @return array<string|int, Component>
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
      * @return array<string|int, Component>
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
      */
     abstract public static function getFormSchema(): array;
 
     final public static function form(Schema $schema): Schema
     {
-<<<<<<< HEAD
         /** @var array<Htmlable|string> $components */
         $components = static::getFormSchema();
 
@@ -1337,66 +369,13 @@ abstract class XotBaseResource extends FilamentResource
 
         $components = static::getFormSchema();
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         /** @var array<Htmlable|string> $components */
         $components = static::getFormSchema();
 
-=======
->>>>>>> 53d6a6ba (.)
-=======
         $components = static::getFormSchema();
 
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
         $components = static::getFormSchema();
 
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
         return $schema
             ->components(static::getFormSchema())
             ->columns(static::getFormSchemaColumns());
@@ -1423,7 +402,6 @@ abstract class XotBaseResource extends FilamentResource
     final public static function infolist(Schema $schema): Schema
     {
         return $schema->components(static::getInfolistSchema());
-<<<<<<< HEAD
         return $schema->components(static::getFormSchema());
         return $schema->components(static::getFormSchema());
         return $schema->components(static::getFormSchema());
@@ -1435,63 +413,17 @@ abstract class XotBaseResource extends FilamentResource
         return $schema
             ->components(static::getFormSchema());
         return $schema->components(static::getFormSchema());
-=======
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 5a14301c (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 3fbbf1f5 (.)
-=======
         return $schema->components(static::getFormSchema());
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-        return $schema->components(static::getFormSchema());
-=======
         return $schema
             ->components(static::getFormSchema());
->>>>>>> a12f125f4a (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> laraxot/develop
      * @return array<string|int,\Filament\Forms\Components\Component>
      */
     abstract public static function getFormSchema(): array;
@@ -1500,7 +432,6 @@ abstract class XotBaseResource extends FilamentResource
     {
         return $form
             ->schema(static::getFormSchema());
-<<<<<<< HEAD
         return $schema->components(static::getFormSchema());
         return $schema->components(static::getFormSchema());
         return $schema->components(static::getFormSchema());
@@ -1524,134 +455,33 @@ abstract class XotBaseResource extends FilamentResource
         return $schema->components(static::getFormSchema());
         return $schema->components(static::getFormSchema());
         return $schema->components(static::getFormSchema());
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ca9324a4 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
         return $schema->components(static::getFormSchema());
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ed734516 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ed734516 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ed734516 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ed734516 (.)
-=======
         return $schema
             ->components(static::getFormSchema());
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ca9324a4 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ca9324a4 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ca9324a4 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> ca9324a4 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $schema->components(static::getFormSchema());
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     }
 
     /**
@@ -1659,29 +489,12 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function extendTableCallback(): array
     {
-<<<<<<< HEAD
         return [];
-=======
-<<<<<<< HEAD
         return [];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         return [];
-=======
+        return [];
         return [
         ];
->>>>>>> a12f125f4a (.)
-=======
-        return [];
->>>>>>> b93ef594b4 (.)
-=======
-        return [
-        ];
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     }
 
     /**
@@ -1691,7 +504,6 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function extendFormCallback(): array
     {
-<<<<<<< HEAD
         return [];
     }
 
@@ -1701,265 +513,38 @@ abstract class XotBaseResource extends FilamentResource
     public static function getNavigationBadge(): null|string
     public static function getNavigationBadge(): null|string
     public static function getNavigationBadge(): null|string
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         return [];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static function getNavigationBadge(): ?string
-=======
     public static function getNavigationBadge(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
     public static function getNavigationBadge(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
     public static function getNavigationBadge(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
     public static function getNavigationBadge(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
     public static function getNavigationBadge(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
     public static function getNavigationBadge(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-    public static function getNavigationBadge(): null|string
->>>>>>> 3fbbf1f5 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
-=======
->>>>>>> origin/develop
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         return [
         ];
     }
 
     public static function getNavigationBadge(): ?string
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> laraxot/develop
         return [];
     }
 
     public static function getNavigationBadge(): null|string
-<<<<<<< HEAD
     public static function getNavigationBadge(): null|string
     public static function getNavigationBadge(): null|string
     public static function getNavigationBadge(): null|string
     public static function getNavigationBadge(): null|string
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
     public static function getNavigationBadge(): null|string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
     public static function getNavigationBadge(): null|string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
     public static function getNavigationBadge(): null|string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
     public static function getNavigationBadge(): null|string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
     public static function getNavigationBadge(): null|string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     {
         try {
             $count = app(CountAction::class)->execute(static::getModel());
 
-<<<<<<< HEAD
             return number_format($count, 0).'';
             return number_format($count, 0) . '';
             return number_format($count, 0) . '';
@@ -1995,334 +580,55 @@ abstract class XotBaseResource extends FilamentResource
         } catch (Exception $e) {
         } catch (\Exception $e) {
         } catch (Exception $e) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             return number_format($count, 0).'';
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
             return number_format($count, 0) . '';
->>>>>>> 5a14301c (.)
-=======
             return number_format($count, 0) . '';
->>>>>>> 3fbbf1f5 (.)
-=======
             return number_format($count, 0) . '';
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
             return number_format($count, 0) . '';
-=======
             return number_format($count, 0).'';
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
             return number_format($count, 0) . '';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
             return number_format($count, 0) . '';
->>>>>>> 3fbbf1f5 (.)
-=======
             return number_format($count, 0) . '';
->>>>>>> 5a14301c (.)
-=======
             return number_format($count, 0) . '';
-=======
             return number_format($count, 0).'';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
             return number_format($count, 0) . '';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
             return number_format($count, 0) . '';
->>>>>>> 3fbbf1f5 (.)
-=======
             return number_format($count, 0) . '';
->>>>>>> 5a14301c (.)
-=======
             return number_format($count, 0) . '';
-=======
             return number_format($count, 0).'';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
             return number_format($count, 0) . '';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
             return number_format($count, 0) . '';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 53d6a6ba (.)
         } catch (Exception $e) {
-=======
         } catch (\Exception $e) {
->>>>>>> b7afadf9 (.)
-=======
         } catch (Exception $e) {
->>>>>>> 71586de2 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
             return number_format($count, 0) . '';
         } catch (Exception $e) {
->>>>>>> 5a14301c (.)
-=======
             return number_format($count, 0) . '';
         } catch (Exception $e) {
-=======
             return number_format($count, 0) . '';
         } catch (Exception $e) {
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             return number_format($count, 0) . '';
-=======
+            return number_format($count, 0) . '';
+        } catch (Exception $e) {
             return number_format($count, 0).'';
->>>>>>> a12f125f4a (.)
-=======
-            return number_format($count, 0) . '';
->>>>>>> b93ef594b4 (.)
-        } catch (Exception $e) {
-=======
-            return number_format($count, 0).'';
-<<<<<<< HEAD
-<<<<<<< HEAD
         } catch (\Exception $e) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
             return number_format($count, 0) . '';
         } catch (Exception $e) {
->>>>>>> ca9324a4 (.)
-=======
         } catch (Exception $e) {
->>>>>>> 53d6a6ba (.)
-=======
         } catch (\Exception $e) {
->>>>>>> b7afadf9 (.)
-=======
         } catch (Exception $e) {
->>>>>>> 71586de2 (.)
-=======
             return number_format($count, 0) . '';
         } catch (Exception $e) {
->>>>>>> 5a14301c (.)
-=======
         } catch (\Exception $e) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
             return '--';
         }
     }
 
     /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      * @return array<string, PageRegistration>
      */
     public static function getPages(): array
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         $prefix = static::class . '\Pages\\';
         $name = Str::of(class_basename(static::class))->before('Resource')->toString();
         $plural = Str::of($name)->plural()->toString();
@@ -2330,58 +636,6 @@ abstract class XotBaseResource extends FilamentResource
         $create = Str::of($prefix)->append('Create' . $name . '')->toString();
         $edit = Str::of($prefix)->append('Edit' . $name . '')->toString();
         $view = Str::of($prefix)->append('View' . $name . '')->toString();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> ed734516 (.)
->>>>>>> laraxot/develop
         $prefix = static::class.'\Pages\\';
         $name = Str::of(class_basename(static::class))->before('Resource')->toString();
         $plural = Str::of($name)->plural()->toString();
@@ -2389,28 +643,6 @@ abstract class XotBaseResource extends FilamentResource
         $create = Str::of($prefix)->append('Create'.$name.'')->toString();
         $edit = Str::of($prefix)->append('Edit'.$name.'')->toString();
         $view = Str::of($prefix)->append('View'.$name.'')->toString();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
->>>>>>> laraxot/develop
         $prefix = static::class . '\Pages\\';
         $name = Str::of(class_basename(static::class))->before('Resource')->toString();
         $plural = Str::of($name)->plural()->toString();
@@ -2418,57 +650,10 @@ abstract class XotBaseResource extends FilamentResource
         $create = Str::of($prefix)->append('Create' . $name . '')->toString();
         $edit = Str::of($prefix)->append('Edit' . $name . '')->toString();
         $view = Str::of($prefix)->append('View' . $name . '')->toString();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
-=======
->>>>>>> laraxot/develop
      * @return array<string, \Filament\Resources\Pages\PageRegistration>
      */
     public static function getPages(): array
     {
-<<<<<<< HEAD
-=======
->>>>>>> origin/develop
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         $prefix = static::class.'\Pages\\';
         $name = Str::of(class_basename(static::class))->before('Resource')->toString();
         $plural = Str::of($name)->plural()->toString();
@@ -2476,28 +661,6 @@ abstract class XotBaseResource extends FilamentResource
         $create = Str::of($prefix)->append('Create'.$name.'')->toString();
         $edit = Str::of($prefix)->append('Edit'.$name.'')->toString();
         $view = Str::of($prefix)->append('View'.$name.'')->toString();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> laraxot/develop
         $prefix = static::class . '\Pages\\';
         $name = Str::of(class_basename(static::class))->before('Resource')->toString();
         $plural = Str::of($name)->plural()->toString();
@@ -2505,97 +668,6 @@ abstract class XotBaseResource extends FilamentResource
         $create = Str::of($prefix)->append('Create' . $name . '')->toString();
         $edit = Str::of($prefix)->append('Edit' . $name . '')->toString();
         $view = Str::of($prefix)->append('View' . $name . '')->toString();
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
         /** @var class-string<Page> $index */
         $index = $index;
@@ -2607,25 +679,6 @@ abstract class XotBaseResource extends FilamentResource
         $view = $view;
 
         /** @var array<string, PageRegistration> $pages */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-
-        /** @var class-string<\Filament\Resources\Pages\Page> $index */
-        $index = $index;
-        /** @var class-string<\Filament\Resources\Pages\Page> $create */
-        $create = $create;
-        /** @var class-string<\Filament\Resources\Pages\Page> $edit */
-        $edit = $edit;
-        /** @var class-string<\Filament\Resources\Pages\Page> $view */
-        $view = $view;
-
-        /** @var array<string, \Filament\Resources\Pages\PageRegistration> $pages */
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         $pages = [
             'index' => $index::route('/'),
             'create' => $create::route('/create'),
@@ -2641,55 +694,12 @@ abstract class XotBaseResource extends FilamentResource
     }
 
     /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      * @return array<class-string<RelationManager>|RelationGroup|RelationManagerConfiguration>
      */
     public static function getRelations(): array
     {
         $reflector = new ReflectionClass(static::class);
         $filename = $reflector->getFileName();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
         Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
         $path = Str::of($filename)
@@ -2715,86 +725,10 @@ abstract class XotBaseResource extends FilamentResource
                 ->after('RelationManagers'.\DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
-<<<<<<< HEAD
         Assert::string($filename, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
         Assert::string($filename, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
         Assert::string($filename, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-        Assert::string($filename);
->>>>>>> a12f125f4a (.)
-=======
         Assert::string($filename, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> b93ef594b4 (.)
-=======
      * @return array<class-string<\Filament\Resources\RelationManagers\RelationManager>|\Filament\Resources\RelationManagers\RelationGroup|\Filament\Resources\RelationManagers\RelationManagerConfiguration>
      */
     public static function getRelations(): array
@@ -2802,9 +736,6 @@ abstract class XotBaseResource extends FilamentResource
         $reflector = new \ReflectionClass(static::class);
         $filename = $reflector->getFileName();
         Assert::string($filename);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
         $path = Str::of($filename)
             ->before('.php')
@@ -2812,31 +743,16 @@ abstract class XotBaseResource extends FilamentResource
             ->append('RelationManagers')
             ->toString();
 
-<<<<<<< HEAD
         $files = glob($path . DIRECTORY_SEPARATOR . '*RelationManager.php');
-=======
-<<<<<<< HEAD
         $files = glob($path . DIRECTORY_SEPARATOR . '*RelationManager.php');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $files = glob($path . DIRECTORY_SEPARATOR . '*RelationManager.php');
-=======
-        $files = glob($path.DIRECTORY_SEPARATOR.'*RelationManager.php');
->>>>>>> a12f125f4a (.)
-=======
         $files = glob($path . DIRECTORY_SEPARATOR . '*RelationManager.php');
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         Assert::isArray($files);
 
         /** @var array<class-string<RelationManager>> $res */
         $res = [];
         foreach ($files as $file) {
             $className = Str::of($file)
-<<<<<<< HEAD
                 ->after('RelationManagers' . DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class . '\RelationManagers\\')
@@ -2861,234 +777,37 @@ abstract class XotBaseResource extends FilamentResource
                 ->after('RelationManagers' . DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class . '\RelationManagers\\')
-=======
-<<<<<<< HEAD
                 ->after('RelationManagers' . DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class . '\RelationManagers\\')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
                 ->after('RelationManagers' . DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class . '\RelationManagers\\')
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
                 ->after('RelationManagers'.DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
                 ->after('RelationManagers'.DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
->>>>>>> 399f46d3 (.)
-=======
                 ->after('RelationManagers'.DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
->>>>>>> 399f46d3 (.)
-=======
                 ->after('RelationManagers'.DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
->>>>>>> 399f46d3 (.)
-=======
                 ->after('RelationManagers'.DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
->>>>>>> 399f46d3 (.)
-=======
-                ->after('RelationManagers'.DIRECTORY_SEPARATOR)
-                ->before('.php')
-                ->prepend(static::class.'\RelationManagers\\')
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
                 ->after('RelationManagers' . DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class . '\RelationManagers\\')
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
                 ->after('RelationManagers' . DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class . '\RelationManagers\\')
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
                 ->toString();
 
             if (class_exists($className)) {
                 Assert::subclassOf($className, RelationManager::class);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-        $files = glob($path.DIRECTORY_SEPARATOR.'*RelationManager.php');
-        Assert::isArray($files);
-
-        /** @var array<class-string<\Filament\Resources\RelationManagers\RelationManager>> $res */
-        $res = [];
-        foreach ($files as $file) {
-            $className = Str::of($file)
-                ->after('RelationManagers'.DIRECTORY_SEPARATOR)
-                ->before('.php')
-                ->prepend(static::class.'\RelationManagers\\')
-                ->toString();
-
-            if (class_exists($className)) {
-                Assert::subclassOf($className, \Filament\Resources\RelationManagers\RelationManager::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
                 $res[] = $className;
             }
         }
@@ -3099,7 +818,6 @@ abstract class XotBaseResource extends FilamentResource
     public static function getWizardSubmitAction(): Htmlable
     {
         $submit_view = 'pub_theme::filament.wizard.submit-button';
-<<<<<<< HEAD
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
         //@phpstan-ignore-next-line
@@ -3130,146 +848,39 @@ abstract class XotBaseResource extends FilamentResource
             throw new Exception("View {$submit_view} does not exist");
             throw new \Exception("View {$submit_view} does not exist");
             throw new Exception("View {$submit_view} does not exist");
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         //@phpstan-ignore-next-line
         if (!view()->exists($submit_view)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
         //@phpstan-ignore-next-line
         if (!view()->exists($submit_view)) {
->>>>>>> 3fbbf1f5 (.)
-=======
-        //@phpstan-ignore-next-line
-        if (!view()->exists($submit_view)) {
->>>>>>> 5a14301c (.)
-=======
-=======
         if (! view()->exists($submit_view)) {
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
         if (!view()->exists($submit_view)) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
         //@phpstan-ignore-next-line
         if (!view()->exists($submit_view)) {
->>>>>>> 5a14301c (.)
-=======
-=======
         if (! view()->exists($submit_view)) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         if (!view()->exists($submit_view)) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
         //@phpstan-ignore-next-line
         if (!view()->exists($submit_view)) {
->>>>>>> 5a14301c (.)
-=======
-=======
         if (! view()->exists($submit_view)) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         if (!view()->exists($submit_view)) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 53d6a6ba (.)
             throw new Exception("View {$submit_view} does not exist");
-=======
             throw new \Exception("View {$submit_view} does not exist");
->>>>>>> b7afadf9 (.)
-=======
             throw new Exception("View {$submit_view} does not exist");
->>>>>>> 71586de2 (.)
-=======
         //@phpstan-ignore-next-line
-<<<<<<< HEAD
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!view()->exists($submit_view)) {
-=======
-        if (! view()->exists($submit_view)) {
->>>>>>> a12f125f4a (.)
-=======
         if (!view()->exists($submit_view)) {
->>>>>>> b93ef594b4 (.)
             throw new Exception("View {$submit_view} does not exist");
-=======
         if (! view()->exists($submit_view)) {
             throw new \Exception("View {$submit_view} does not exist");
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
             throw new Exception("View {$submit_view} does not exist");
->>>>>>> 53d6a6ba (.)
-=======
             throw new \Exception("View {$submit_view} does not exist");
->>>>>>> b7afadf9 (.)
-=======
             throw new Exception("View {$submit_view} does not exist");
->>>>>>> 71586de2 (.)
-=======
         //@phpstan-ignore-next-line
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         }
         $render = view($submit_view)->render();
 
@@ -3279,80 +890,19 @@ abstract class XotBaseResource extends FilamentResource
     /**
      * Get attachments schema for forms.
      *
-<<<<<<< HEAD
      * @return array<int, Component>
-=======
-<<<<<<< HEAD
      * @return array<int, Component>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<int, Component>
-=======
-     * @return array<int, \Filament\Schemas\Components\Component>
->>>>>>> a12f125f4a (.)
-=======
      * @return array<int, Component>
->>>>>>> b93ef594b4 (.)
-=======
      * @return array<int, \Filament\Forms\Components\Component>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      */
     public static function getAttachmentsSchema(bool $multiple = true): array
     {
         $model = static::getModel();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
         if (! method_exists($model, 'getAttachments')) {
             return [];
         }
         $attachments = $model::getAttachments();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
         if (! \is_array($attachments)) {
             return [];
         }
@@ -3364,97 +914,16 @@ abstract class XotBaseResource extends FilamentResource
 
         /** @var array<int, Component> $schema */
         $schema = app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
-<<<<<<< HEAD
         if (!method_exists($model, 'getAttachments')) {
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
         if (!method_exists($model, 'getAttachments')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!method_exists($model, 'getAttachments')) {
-=======
+        if (!method_exists($model, 'getAttachments')) {
         if (! method_exists($model, 'getAttachments')) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!method_exists($model, 'getAttachments')) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! method_exists($model, 'getAttachments')) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             return [];
         }
         $attachments = $model::getAttachments();
         $disk = 'attachments';
         $schema = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
-<<<<<<< HEAD
 
         return $schema;
         Assert::isArray($attachments);
@@ -3487,244 +956,50 @@ abstract class XotBaseResource extends FilamentResource
         $schema = Str::of($name)
         $schema = Str::of($name)
         $schema = Str::of($name)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 
         return $schema;
-=======
-=======
         Assert::isArray($attachments);
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
         $disk = 'attachments';
         $form = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $form;
->>>>>>> 53d6a6ba (.)
-=======
         /** @var array<int, \Filament\Schemas\Components\Component> */
         return array_values($form);
->>>>>>> b7afadf9 (.)
-=======
         return $form;
->>>>>>> 71586de2 (.)
-=======
 
         return $schema;
->>>>>>> 5a14301c (.)
-=======
-=======
         Assert::isArray($attachments);
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
         $disk = 'attachments';
         $form = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $form;
->>>>>>> 53d6a6ba (.)
-=======
         /** @var array<int, \Filament\Schemas\Components\Component> */
         return array_values($form);
->>>>>>> b7afadf9 (.)
-=======
         return $form;
->>>>>>> 71586de2 (.)
-=======
 
         return $schema;
->>>>>>> 5a14301c (.)
     }
 
-<<<<<<< HEAD
     protected static function getStepByName(string $name): Step
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $methodName = Str::of($name)
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
     protected static function getStepByName(string $name): Step
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
         $schema = Str::of($name)
->>>>>>> 5a14301c (.)
-=======
         $schema = Str::of($name)
->>>>>>> 5a14301c (.)
-=======
         $schema = Str::of($name)
->>>>>>> 5a14301c (.)
-=======
         $schema = Str::of($name)
->>>>>>> 5a14301c (.)
-=======
         $schema = Str::of($name)
->>>>>>> 5a14301c (.)
-=======
         $schema = Str::of($name)
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             ->snake()
             ->studly()
             ->prepend('get')
             ->append('Schema')
             ->toString();
-<<<<<<< HEAD
 
         if (method_exists(static::class, $methodName)) {
-=======
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (method_exists(static::class, $methodName)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
             $schemaResult = static::$methodName();
             /** @var array<Htmlable|string> $schemaComponents */
             $schemaComponents = \is_array($schemaResult) ? array_values($schemaResult) : [];
@@ -3733,226 +1008,41 @@ abstract class XotBaseResource extends FilamentResource
         }
 
         return Step::make($name)->schema([]);
-<<<<<<< HEAD
         return Step::make($name)->schema(static::$schema());
         return Step::make($name)->schema(static::$schema());
         return Step::make($name)->schema(static::$schema());
 
         return Step::make($name)->schema(static::$schema());
-=======
-=======
         return Step::make($name)->schema(static::$schema());
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
         return Step::make($name)->schema(static::$schema());
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
         return Step::make($name)->schema(static::$schema());
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
         return Step::make($name)->schema(static::$schema());
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-        return Step::make($name)->schema(static::$schema());
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
 
         return Step::make($name)->schema(static::$schema());
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
 
         return Step::make($name)
             ->schema(static::$schema());
-<<<<<<< HEAD
 
         return Step::make($name)->schema(static::$schema());
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
 
         return Step::make($name)->schema(static::$schema());
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> laraxot/develop
     protected static function getStepByName(string $name): Forms\Components\Wizard\Step
     {
         $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
 
         return Forms\Components\Wizard\Step::make($name)
             ->schema(static::$schema());
-<<<<<<< HEAD
         return Step::make($name)->schema(static::$schema());
         return Step::make($name)->schema(static::$schema());
         return Step::make($name)->schema(static::$schema());
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
         return Step::make($name)->schema(static::$schema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
         return Step::make($name)->schema(static::$schema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
         return Step::make($name)->schema(static::$schema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> laraxot/develop
             return Step::make($name)->schema(static::$methodName());
         }
 
         return Step::make($name)->schema([]);
-<<<<<<< HEAD
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> laraxot/develop
             /** @var array<int|string, Component> $schema */
             $schema = static::{$methodName}();
             Assert::isArray($schema);
@@ -3962,10 +1052,6 @@ abstract class XotBaseResource extends FilamentResource
             return Step::make($name)->schema($schema);
         }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/develop
             /** @var array<int|string, Component> $schema */
             $schema = static::{$methodName}();
             Assert::isArray($schema);
@@ -3975,78 +1061,24 @@ abstract class XotBaseResource extends FilamentResource
             return Step::make($name)->schema($schema);
         }
 
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> laraxot/develop
         /** @var array<int, Component> $empty */
         $empty = [];
 
         return Step::make($name)->schema($empty);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> laraxot/develop
             return Step::make($name)->schema(static::$methodName());
         }
 
         return Step::make($name)->schema([]);
-<<<<<<< HEAD
         return Step::make($name)->schema(static::$schema());
-=======
->>>>>>> 71586de2 (.)
-=======
         return Step::make($name)->schema(static::$schema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> laraxot/develop
             return Step::make($name)->schema(static::$methodName());
         }
 
         return Step::make($name)->schema([]);
-<<<<<<< HEAD
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> laraxot/develop
             return Step::make($name)->schema(static::$methodName());
         }
 
         return Step::make($name)->schema([]);
-<<<<<<< HEAD
-=======
->>>>>>> 71586de2 (.)
-=======
         return Step::make($name)->schema(static::$schema());
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     }
 }

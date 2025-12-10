@@ -10,66 +10,18 @@ use Spatie\LaravelData\Data;
 class HasManyUpdateData extends Data
 {
     /**
-<<<<<<< HEAD
-     * @param  array<int|string>  $ids
      * @param array<int|string> $ids
      * @param array<int|string> $ids
      * @param array<int|string> $ids
      * @param array<int|string> $ids
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  array<int|string>  $ids
-=======
      * @param array<int|string> $ids
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $ids
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $ids
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $ids
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $ids
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $ids
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     public function __construct(
         public string $foreignKey,
         public mixed $parentKey,
         #[ArrayType]
         public array $ids = [],
-<<<<<<< HEAD
     ) {}
-=======
-<<<<<<< HEAD
-    ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ) {}
-=======
     ) {
     }
->>>>>>> a12f125f4a (.)
-=======
-    ) {}
->>>>>>> b93ef594b4 (.)
-=======
-    ) {
-    }
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 }

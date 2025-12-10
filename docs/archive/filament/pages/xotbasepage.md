@@ -1,544 +1,123 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 # XotBasePage - Classe Base per le Pagine Filament
 
 ## Descrizione
 
-<<<<<<< HEAD
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di <nome progetto>, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di <nome progetto>, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-=======
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 5a14301c (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 71f31700 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 472bd9dc (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 472bd9dc (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 3bf39332 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> cf971011 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> e7da37af (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 472bd9dc (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 3bf39332 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> cf971011 (.)
-=======
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> e7da37af (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di <nome progetto>, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 43d67f21 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 5a14301c (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 43d67f21 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> b7ea1cd1 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 5a14301c (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 43d67f21 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 5a14301c (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 43d67f21 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> b7ea1cd1 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 76bec91a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 55fe1822 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 5a14301c (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 43d67f21 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> b7ea1cd1 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 76bec91a (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 55fe1822 (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 5a14301c (.)
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 
 ## Percorso del File
 
 ```
-<<<<<<< HEAD
-/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-=======
-/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 5a14301c (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 71f31700 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 472bd9dc (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 472bd9dc (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 3bf39332 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> cf971011 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> e7da37af (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 472bd9dc (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 3bf39332 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> cf971011 (.)
-=======
-/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> e7da37af (.)
-=======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 43d67f21 (.)
-=======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 5a14301c (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 43d67f21 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> b7ea1cd1 (.)
-=======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 5a14301c (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 43d67f21 (.)
-=======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 5a14301c (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 43d67f21 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> b7ea1cd1 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 76bec91a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 55fe1822 (.)
-=======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 5a14301c (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 43d67f21 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> b7ea1cd1 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 76bec91a (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 55fe1822 (.)
-=======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 5a14301c (.)
-=======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ## Gerarchia di Ereditarietà
@@ -577,95 +156,26 @@ public function getTitle(): string
 ### Form Standardizzato
 
 ```php
-<<<<<<< HEAD
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
 public function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public function form(Form $form): Form
->>>>>>> 71f31700 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public function form(Form $form): Form
->>>>>>> 71f31700 (.)
-=======
 public function form(Form $form): Form
->>>>>>> c35986f4 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public function form(Form $form): Form
->>>>>>> 71f31700 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public function form(Form $form): Form
->>>>>>> 71f31700 (.)
-=======
 public function form(Form $form): Form
->>>>>>> c35986f4 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 33af3e61 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 5bd842e3 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 03ceeac3 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public function form(Form $form): Form
->>>>>>> 71f31700 (.)
-=======
 public function form(Form $form): Form
->>>>>>> c35986f4 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 33af3e61 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 5bd842e3 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 03ceeac3 (.)
-=======
 public function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
-public function form(Form $form): Form
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 {
     return $form
         ->schema($this->getFormSchema())
@@ -686,248 +196,59 @@ public function form(Form $form): Form
 ### Estensione Corretta
 
 ```php
-<<<<<<< HEAD
-namespace Modules\<nome progetto>\Filament\Pages;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Modules\<nome progetto>\Filament\Pages;
-=======
-namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> cf971011 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> e7da37af (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> cf971011 (.)
-=======
-namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> e7da37af (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\<nome modulo>\Filament\Pages;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> b7ea1cd1 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> b7ea1cd1 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 76bec91a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 55fe1822 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> b7ea1cd1 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 76bec91a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 55fe1822 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 
 use Modules\Xot\Filament\Resources\Pages\XotBasePage;
 
@@ -948,248 +269,59 @@ class MyCustomPage extends XotBasePage
 
 ```php
 // ❌ ERRORE: Non estendere mai direttamente Page
-<<<<<<< HEAD
-namespace Modules\<nome progetto>\Filament\Pages;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Modules\<nome progetto>\Filament\Pages;
-=======
-namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> cf971011 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> e7da37af (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> cf971011 (.)
-=======
-namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> e7da37af (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\<nome modulo>\Filament\Pages;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> b7ea1cd1 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> b7ea1cd1 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 76bec91a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 55fe1822 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 43d67f21 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> b7ea1cd1 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 76bec91a (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 55fe1822 (.)
-=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\SaluteOra\Filament\Pages;
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 
 use Filament\Pages\Page;
 
@@ -1270,246 +402,61 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 
 ## Collegamenti
 
-<<<<<<< HEAD
-- [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
-- [Pattern di Estensione](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-=======
-<<<<<<< HEAD
-- [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Pattern di Estensione](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
->>>>>>> 5a14301c (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
 - [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_xot_architecture.md)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 472bd9dc (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 472bd9dc (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 3bf39332 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> cf971011 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> e7da37af (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 472bd9dc (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 3bf39332 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> cf971011 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> e7da37af (.)
-=======
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
@@ -1519,266 +466,96 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 43d67f21 (.)
-=======
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
->>>>>>> 5a14301c (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 43d67f21 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> b7ea1cd1 (.)
-=======
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
->>>>>>> 5a14301c (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 43d67f21 (.)
-=======
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
->>>>>>> 5a14301c (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 43d67f21 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> ba1d49f3 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> b956ebe0 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 76bec91a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 0123915b (.)
-=======
->>>>>>> e7da37af (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 55fe1822 (.)
-=======
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
->>>>>>> 5a14301c (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 43d67f21 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> ba1d49f3 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> b956ebe0 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 76bec91a (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 0123915b (.)
-=======
->>>>>>> e7da37af (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 55fe1822 (.)
-=======
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
->>>>>>> 5a14301c (.)
-=======
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

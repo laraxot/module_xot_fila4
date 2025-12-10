@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # Risoluzione Conflitto: XotBaseServiceProvider
 
 ## Contesto
@@ -72,357 +27,86 @@ Questa scelta garantisce:
 ## Collegamenti
 - [Struttura moduli Xot](./MODULE_NAMESPACE_RULES.md)
 - [Best Practices Provider](./BEST-PRACTICES.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 - [docs/links.md globale](../../../../docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../docs/links.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6d05deed (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 43d67f21 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 43d67f21 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> b7ea1cd1 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 43d67f21 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 43d67f21 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> b7ea1cd1 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 76bec91a (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 6821f7a (.)
->>>>>>> 6d05deed (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 43d67f21 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> b7ea1cd1 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 76bec91a (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- [docs/links.md globale](../../../../project_docs/links.md)
-
-## Backlink
-- [docs/links.md](../../../../project_docs/links.md)
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 6821f7a (.)
->>>>>>> 6d05deed (.)
-- [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
-- [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
-<<<<<<< HEAD
-=======
-=======
-- [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
-- [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
+- [docs/links.md globale](../../../../project_docs/links.md)
+
+## Backlink
+- [docs/links.md](../../../../project_docs/links.md)
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
+- [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
+- [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)

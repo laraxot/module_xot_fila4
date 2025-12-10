@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # Action Usage Patterns - Regole Fondamentali
 
 ## 🎯 **REGOLA CRITICA: Pattern di Uso delle Action**
@@ -140,281 +95,88 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 ## 📖 **RIFERIMENTI**
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 43d67f21 (.)
-=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
->>>>>>> 5a14301c (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 43d67f21 (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> b7ea1cd1 (.)
-=======
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
->>>>>>> 5a14301c (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 43d67f21 (.)
-=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
->>>>>>> 5a14301c (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 43d67f21 (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> b7ea1cd1 (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 76bec91a (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 55fe1822 (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
->>>>>>> 5a14301c (.)
-=======
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 43d67f21 (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> b7ea1cd1 (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 88e35986 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 76bec91a (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 55fe1822 (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-- [Laravel Service Container](https://laravel.com/docs/container)
-- [Dependency Injection Patterns](https://laravel.com/docs/providers)
->>>>>>> 5a14301c (.)
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 399f46d3 (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---
@@ -422,86 +184,3 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 **PRIORITÀ**: CRITICA - Da seguire SEMPRE senza eccezioni
 **AGGIORNATO**: 2025-01-30
 **AUTORE**: Sistema di Qualità Laraxot
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)

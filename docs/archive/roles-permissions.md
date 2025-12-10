@@ -26,12 +26,3 @@ UPDATE permissions SET guard_name = 'web' WHERE guard_name = '' OR guard_name IS
 ```
 
 ## Collegamento documentazione specifica
-<<<<<<< HEAD
-Vedi anche: ../../User/docs/roles-permissions.md
-=======
-<<<<<<< HEAD
-Vedi anche: ../../User/docs/roles-permissions.md
-=======
-Vedi anche: ../../User/project_docs/roles-permissions.md
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

@@ -15,17 +15,6 @@ use Spipu\Html2Pdf\Exception\Html2PdfException;
 use Spipu\Html2Pdf\Html2Pdf;
 
 /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
  * ExceptionFormatter
  * HtmlParsingException
  * ImageException
@@ -33,14 +22,6 @@ use Spipu\Html2Pdf\Html2Pdf;
  * LongSentenceException
  * TableException
  */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
 ExceptionFormatter
 HtmlParsingException
 ImageException
@@ -48,60 +29,25 @@ LocaleException
 LongSentenceException
 TableException
 */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
 /**
  * Class HtmlService.
  */
 class HtmlService
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     public static function toPdf(
         string $html,
         string $out = 'show',
         string $pdforientation = 'L',
         string $filename = '',
     ): string {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
     public static function toPdf(string $html, string $out = 'show', string $pdforientation = 'L', string $filename = ''): string
     {
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-    public static function toPdf(string $html, string $out = 'show', string $pdforientation = 'L', string $filename = ''): string
-    {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         // dddx($params);
 
         // include_once __DIR__.'/vendor/autoload.php';
         // $pdforientation = 'L'; // default;
         // $out = 'show';
-<<<<<<< HEAD
         if ($filename === '') {
         if ('' === $filename) {
         if ('' === $filename) {
@@ -110,70 +56,25 @@ class HtmlService
             $filename = Storage::disk('local')->path('test.pdf');
         }
         /*
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if ($filename === '') {
-=======
         if ('' === $filename) {
->>>>>>> 5a14301c (.)
-=======
         if ('' === $filename) {
->>>>>>> 5a14301c (.)
-=======
         if ('' === $filename) {
->>>>>>> 5a14301c (.)
-=======
         if ('' === $filename) {
->>>>>>> 5a14301c (.)
-=======
         if ('' === $filename) {
->>>>>>> 5a14301c (.)
-=======
-        if ('' === $filename) {
->>>>>>> 5a14301c (.)
             $filename = Storage::disk('local')->path('test.pdf');
         }
         /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
          * extract($params);
          * if (! isset($html)) {
          * throw new \Exception('err html is missing');
          * }
          */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
         extract($params);
         if (! isset($html)) {
             throw new \Exception('err html is missing');
         }
         */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         if (request('debug', false)) {
             return $html;
         }
@@ -182,100 +83,24 @@ class HtmlService
             $html2pdf = new Html2Pdf($pdforientation, 'A4', 'it');
             $html2pdf->setTestTdInOnePage(false);
             $html2pdf->WriteHTML($html);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
             if ($out === 'content_PDF') {
                 return $html2pdf->Output($filename.'.pdf', 'S');
             }
 
             if ($out === 'file') {
-<<<<<<< HEAD
             if ('content_PDF' === $out) {
                 return $html2pdf->Output($filename . '.pdf', 'S');
             }
 
             if ('file' === $out) {
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
             if ('content_PDF' === $out) {
-<<<<<<< HEAD
                 return $html2pdf->Output($filename . '.pdf', 'S');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                 return $html2pdf->Output($filename . '.pdf', 'S');
-=======
+                return $html2pdf->Output($filename . '.pdf', 'S');
                 return $html2pdf->Output($filename.'.pdf', 'S');
->>>>>>> a12f125f4a (.)
-=======
-                return $html2pdf->Output($filename . '.pdf', 'S');
->>>>>>> b93ef594b4 (.)
-=======
-                return $html2pdf->Output($filename.'.pdf', 'S');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             }
 
             if ('file' === $out) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 $html2pdf->Output($filename, 'F');
 
                 return $filename;
@@ -300,17 +125,6 @@ class HtmlService
     }
 
     /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      * public static function toMpdf($html): string {
      * require_once __DIR__.'/vendor/autoload.php';
      *
@@ -320,14 +134,6 @@ class HtmlService
      * return $mpdf->Output();
      * }
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
     public static function toMpdf($html): string {
         require_once __DIR__.'/vendor/autoload.php';
 
@@ -337,12 +143,4 @@ class HtmlService
         return $mpdf->Output();
     }
     */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 }

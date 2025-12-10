@@ -25,19 +25,10 @@
         "coolsam/panel-modules": "*",
         "doctrine/dbal": "*",
         "fidum/laravel-eloquent-morph-to-one": "*",
-<<<<<<< HEAD
         "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "*",
         
-=======
-        "filament/filament": "^4.0",
-        "filament/spatie-laravel-media-library-plugin": "^4.0",
-<<<<<<< HEAD
         
-=======
-        "filament/spatie-laravel-translatable-plugin": "^4.0",
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",
@@ -48,40 +39,18 @@
         "livewire/flux": "^2.1.1",
         "livewire/volt": "^1.0",
         "maatwebsite/excel": "^3.1",
-        "nwidart/laravel-modules": "*",
-<<<<<<< HEAD
+        "nwidart/laravel-modules": "*"
         "predis/predis": "*",
         "predis/predis": "^2.2",
         "predis/predis": "^2.2",
         "predis/predis": "^2.2",
         "predis/predis": "^2.2",
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         "predis/predis": "*",
-=======
         "predis/predis": "^2.2",
->>>>>>> 5a14301c (.)
-=======
         "predis/predis": "^2.2",
->>>>>>> 5a14301c (.)
-=======
         "predis/predis": "^2.2",
->>>>>>> 5a14301c (.)
-=======
         "predis/predis": "^2.2",
->>>>>>> 5a14301c (.)
-=======
         "predis/predis": "^2.2",
->>>>>>> 5a14301c (.)
-=======
-        "predis/predis": "^2.2",
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         "spatie/cpu-load-health-check": "^1.0",
         "spatie/laravel-data": "^4.7",
         "spatie/laravel-health": "^1.29",
@@ -101,87 +70,18 @@
         "thecodingmachine/safe": "^3.0",
         "tightenco/parental": "*"
     },
-    "require_comment": {
-       "filament/spatie-laravel-translatable-plugin": "*"
-    },
-    "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.14",
-        "barryvdh/laravel-ide-helper": "^3.2",
-        "fakerphp/faker": "^1.24",
-        "larastan/larastan": "*",
-        "laravel/boost": "^1.0",
-        "laravel/pint": "^1.18",
-        "laravel/sail": "^1.41",
-        "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.6",
-        "orchestra/testbench": "*",
-        "pestphp/pest": "^3.8",
-        "pestphp/pest-plugin-laravel": "^3.2",
-        "pestphp/pest-plugin-type-coverage": "^3.6",
-        "thecodingmachine/phpstan-safe-rule": "*"
-    },
-    "require-dev_comment": {
-        "spatie/laravel-error-solutions": "*"
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../Tenant"
-        },
-        {
-            "type": "path",
-            "url": "./packages/coolsam/panel-modules"
-        },
-        {
-            "type": "composer",
-            "url": "https://packagist.org"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Modules\\Xot\\": "app/",
             "Modules\\Xot\\Database\\Factories\\": "database/factories/",
-            "Modules\\Xot\\Database\\Seeders\\": "database/seeders/",
-            "Modules\\Xot\\Tests\\": "tests/",
-            "Coolsam\\FilamentModules\\": "packages/coolsam/panel-modules/src/"
-            
-        },
-        "psr-4_comment": {
-            "Modules\\Xot\\Database\\Migrations\\": "database/migrations/"
-        },
-        "files": [
-            "Helpers/Helper.php"
-        ]
+            "Modules\\Xot\\Database\\Seeders\\": "database/seeders/"
+        }
     },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
     "autoload-dev": {
         "psr-4": {
             "Modules\\Xot\\Tests\\": "tests/"
         }
     },
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     "scripts": {
         "analyse": "vendor/bin/phpstan analyse",
         "test": "vendor/bin/pest",

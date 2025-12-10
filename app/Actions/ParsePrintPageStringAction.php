@@ -5,46 +5,22 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions;
 
 use Illuminate\Support\Arr;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
 
 use function Safe\preg_match_all;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -57,8 +33,6 @@ class ParsePrintPageStringAction
     /**
      * Execute the page string parsing.
      *
-<<<<<<< HEAD
-     * @param  string  $str  The page range string to parse
      * @param string $str The page range string to parse
      *
      * @param string $str The page range string to parse
@@ -67,39 +41,8 @@ class ParsePrintPageStringAction
      *
      * @param string $str The page range string to parse
      *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $str  The page range string to parse
-=======
      * @param string $str The page range string to parse
      *
->>>>>>> 5a14301c (.)
-=======
-     * @param string $str The page range string to parse
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param string $str The page range string to parse
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param string $str The page range string to parse
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param string $str The page range string to parse
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param string $str The page range string to parse
-     *
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      * @return array<int> Array of page numbers
      */
     public static function execute(string $str): array
@@ -108,34 +51,11 @@ class ParsePrintPageStringAction
         $matches = [];
         preg_match_all($pattern, $str, $matches);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
         Assert::notEmpty($matches[0], 'No valid page numbers found');
         $matchCount = count($matches[0]);
         $res = [];
 
         for ($i = 0; $i < $matchCount; $i++) {
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         Assert::isArray($matches);
         Assert::notEmpty($matches[0], 'No valid page numbers found');
         Assert::isArray($matches[0]);
@@ -143,91 +63,24 @@ class ParsePrintPageStringAction
         $res = [];
 
         for ($i = 0; $i < $matchCount; ++$i) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             $firstNumber = Arr::get($matches, "1.{$i}");
             $secondNumber = Arr::get($matches, "2.{$i}");
 
             Assert::string($firstNumber, 'First number must be a string');
             Assert::string($secondNumber, 'Second number must be a string');
 
-<<<<<<< HEAD
-            if ($secondNumber === '') {
+            if ('' === $secondNumber) {
             if ('' === $secondNumber) {
             if ('' === $secondNumber) {
             if ('' === $secondNumber) {
             if ('' === $secondNumber) {
                 $res[] = (int) $firstNumber;
             } else {
-                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            if ($secondNumber === '') {
-=======
-            if ('' === $secondNumber) {
->>>>>>> 5a14301c (.)
-=======
-            if ('' === $secondNumber) {
->>>>>>> 5a14301c (.)
-=======
-            if ('' === $secondNumber) {
->>>>>>> 5a14301c (.)
-=======
-            if ('' === $secondNumber) {
->>>>>>> 5a14301c (.)
-=======
-            if ('' === $secondNumber) {
->>>>>>> 5a14301c (.)
-=======
-            if ('' === $secondNumber) {
->>>>>>> 5a14301c (.)
-                $res[] = (int) $firstNumber;
-            } else {
-<<<<<<< HEAD
-                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
-=======
-=======
->>>>>>> origin/develop
                 $res = array_merge(
                     $res,
                     self::fromTo((int) $firstNumber, (int) $secondNumber)
                 );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             }
         }
 
@@ -237,9 +90,6 @@ class ParsePrintPageStringAction
     /**
      * Generate an array of numbers from start to end inclusive.
      *
-<<<<<<< HEAD
-     * @param  int  $from  Starting number
-     * @param  int  $to  Ending number
      * @param int $from Starting number
      * @param int $to   Ending number
      *
@@ -252,46 +102,9 @@ class ParsePrintPageStringAction
      * @param int $from Starting number
      * @param int $to   Ending number
      *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  int  $from  Starting number
-     * @param  int  $to  Ending number
-=======
      * @param int $from Starting number
      * @param int $to   Ending number
      *
->>>>>>> 5a14301c (.)
-=======
-     * @param int $from Starting number
-     * @param int $to   Ending number
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param int $from Starting number
-     * @param int $to   Ending number
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param int $from Starting number
-     * @param int $to   Ending number
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param int $from Starting number
-     * @param int $to   Ending number
-     *
->>>>>>> 5a14301c (.)
-=======
-     * @param int $from Starting number
-     * @param int $to   Ending number
-     *
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      * @return array<int> Array of sequential numbers
      */
     public static function fromTo(int $from, int $to): array

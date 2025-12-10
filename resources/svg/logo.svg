@@ -1,209 +1,7 @@
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5842a556 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 3849ae0e (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 3849ae0e (.)
-=======
->>>>>>> f0e04b64 (.)
-=======
->>>>>>> 399f46d3 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="xot-logo-title" role="img">
   <title id="xot-logo-title">Xot Framework Logo</title>
@@ -256,17 +54,12 @@
     
     <circle cx="32" cy="32" r="4" fill="url(#xot-gradient)" opacity="0.9"/>
     
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
     <circle cx="32" cy="32" r="2" fill="#ffffff" opacity="0.8"/>
   </g>
   
   <g opacity="0.3">
     <circle cx="32" cy="32" r="28" fill="none" stroke="url(#xot-gradient)" stroke-width="0.5" stroke-dasharray="2,4"/>
   </g>
-<<<<<<< HEAD
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
@@ -283,201 +76,22 @@
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 5a14301c (.)
 </svg>
-<<<<<<< HEAD
-=======
-    <!-- Core X symbol (Xot) -->
-    <g class="xot-framework">
-        <path stroke-linecap="round" stroke-linejoin="round" 
-              d="M9 9l6 6M15 9l-6 6" stroke-width="2" opacity="0.8" />
-        <circle cx="12" cy="12" r="2" stroke-width="1" opacity="0.6" />
-    </g>
-    
-    <!-- Extension points -->
-    <g class="xot-framework">
-        <circle cx="4" cy="4" r="0.5" fill="currentColor" opacity="0.5" />
-        <circle cx="20" cy="4" r="0.5" fill="currentColor" opacity="0.5" />
-        <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
-        <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
-    </g>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> d86d643a (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> b93ef594b4 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> ca9324a4 (.)
 </svg>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> fb8add77 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> c35986f4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f0e04b64 (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 71586de2 (.)
-=======
->>>>>>> fe347873 (.)
-=======
->>>>>>> 4a40af71 (.)
-=======
-=======
->>>>>>> 6d1255a8 (.)
-=======
->>>>>>> 3ae5e299 (.)
-=======
->>>>>>> 6d05deed (.)
-=======
->>>>>>> 6d1255a8 (.)
-=======
->>>>>>> 3ae5e299 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 15def8d (.)
-=======
-=======
->>>>>>> 6d1255a8 (.)
-=======
->>>>>>> 15def8d (.)
->>>>>>> 3ae5e299 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
->>>>>>> 7d72abc (.)
-<<<<<<< HEAD
->>>>>>> 6d1255a8 (.)
-=======
->>>>>>> 249a0067 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="xot-logo-title" role="img">
   <title id="xot-logo-title">Xot Framework Logo</title>
@@ -530,10 +144,6 @@
     
     <circle cx="32" cy="32" r="4" fill="url(#xot-gradient)" opacity="0.9"/>
     
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
     <!-- Core X symbol (Xot) -->
     <g class="xot-framework">
         <path stroke-linecap="round" stroke-linejoin="round" 
@@ -548,7 +158,6 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -572,184 +181,29 @@
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 6d05deed (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 43d67f21 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> b93ef594b4 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 17684f52 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> f1d4085 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
 
->>>>>>> fe347873 (.)
-=======
-=======
->>>>>>> 0d57514 (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> 7d72abc (.)
-<<<<<<< HEAD
->>>>>>> 6d1255a8 (.)
-=======
-=======
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
->>>>>>> 15def8d (.)
->>>>>>> 3ae5e299 (.)
 </svg>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c84488b (.)
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
-=======
-=======
 </svg>
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> fb8add77 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 71586de2 (.)
-=======
->>>>>>> fe347873 (.)
-=======
->>>>>>> 4a40af71 (.)
-=======
->>>>>>> 6d05deed (.)
-=======
->>>>>>> 6d1255a8 (.)
-=======
->>>>>>> 249a0067 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="xot-logo-title" role="img">
   <title id="xot-logo-title">Xot Framework Logo</title>
@@ -802,10 +256,6 @@
     
     <circle cx="32" cy="32" r="4" fill="url(#xot-gradient)" opacity="0.9"/>
     
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
     <!-- Core X symbol (Xot) -->
     <g class="xot-framework">
         <path stroke-linecap="round" stroke-linejoin="round" 
@@ -820,7 +270,6 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -834,89 +283,19 @@
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 6d05deed (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
-=======
-=======
->>>>>>> a12f125f4a (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> b93ef594b4 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
-=======
->>>>>>> f1d4085 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 0d57514 (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> 7d72abc (.)
-<<<<<<< HEAD
->>>>>>> 6d1255a8 (.)
-=======
-=======
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
->>>>>>> 15def8d (.)
->>>>>>> 3ae5e299 (.)
 </svg>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 43d67f21 (.)
-=======
-=======
->>>>>>> 14edd1a1 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -1018,40 +397,16 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
 </svg>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 492d6d3c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> e59778ae (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -1153,26 +508,12 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
-=======
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
 </svg>
-=======
-<<<<<<< HEAD
->>>>>>> e59778ae (.)
-=======
->>>>>>> 14edd1a1 (.)
-=======
->>>>>>> e59778ae (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -1274,7 +615,6 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -1284,41 +624,15 @@
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> b93ef594b4 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> ca9324a4 (.)
 </svg>
-<<<<<<< HEAD
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
->>>>>>> 3310e9c6 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -1420,7 +734,6 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
@@ -1433,50 +746,18 @@
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
 </svg>
->>>>>>> 5842a556 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
->>>>>>> cc7fb225 (.)
 </svg>
->>>>>>> 5a14301c (.)
-=======
 </svg>
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> c35986f4 (.)
 </svg>
-<<<<<<< HEAD
-=======
 </svg>
->>>>>>> 71f31700 (.)
-=======
 </svg>
->>>>>>> 71f31700 (.)
-=======
-</svg>
->>>>>>> c35986f4 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -1578,45 +859,18 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
 </svg>
->>>>>>> c84488b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
-=======
-=======
 </svg>
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
->>>>>>> 3310e9c6 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -1718,7 +972,6 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
@@ -1761,55 +1014,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
-=======
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
 </svg>
->>>>>>> 43d67f21 (.)
-=======
 </svg>
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
 </svg>
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> fb8add77 (.)
-=======
-=======
 </svg>
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
->>>>>>> cc7fb225 (.)
 </svg>
->>>>>>> b7ea1cd1 (.)
-=======
 </svg>
->>>>>>> c06600c (.)
->>>>>>> 14edd1a1 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -1911,7 +1127,6 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -1935,94 +1150,38 @@
 
 </svg>
 </svg>
-=======
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-=======
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 73eab74 (.)
-</svg>
->>>>>>> 16dc7ab0 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 5a14301c (.)
-=======
-</svg>
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
-=======
-=======
-</svg>
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 43d67f21 (.)
-=======
 </svg>
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
+</svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 5842a556 (.)
-=======
+</svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 5a14301c (.)
-=======
-</svg>
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
-=======
-=======
-</svg>
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
-=======
-=======
->>>>>>> fb8add77 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
+</svg>
+</svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
-=======
->>>>>>> 14edd1a1 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
-=======
->>>>>>> e59778ae (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
-=======
->>>>>>> 14edd1a1 (.)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+</svg>
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -2124,105 +1283,29 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> b93ef594b4 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-=======
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 9db27d12 (.)
-</svg>
-<<<<<<< HEAD
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 5842a556 (.)
-=======
-</svg>
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> fb8add77 (.)
-=======
-=======
-</svg>
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> b7ea1cd1 (.)
-=======
 </svg>
->>>>>>> c06600c (.)
->>>>>>> 14edd1a1 (.)
-=======
+</svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 16dc7ab0 (.)
-=======
-=======
 </svg>
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+</svg>
+</svg>
 
-<<<<<<< HEAD
-=======
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> f5516a5 (.)
-=======
->>>>>>> fe347873 (.)
 </svg>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
-=======
 </svg>
->>>>>>> 300ef70 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-=======
-=======
->>>>>>> 492d6d3c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -2324,7 +1407,6 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -2335,49 +1417,16 @@
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
 </svg>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> b7ea1cd1 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> b93ef594b4 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> ca9324a4 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> 9db27d12 (.)
 </svg>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c06600c (.)
->>>>>>> 3849ae0e (.)
-=======
->>>>>>> f0e04b64 (.)
-=======
-=======
 </svg>
->>>>>>> a5dccfe (.)
->>>>>>> 6d05deed (.)
-=======
->>>>>>> laraxot/develop
     <circle cx="32" cy="32" r="2" fill="#ffffff" opacity="0.8"/>
   </g>
   
@@ -2385,7 +1434,6 @@
     <circle cx="32" cy="32" r="28" fill="none" stroke="url(#xot-gradient)" stroke-width="0.5" stroke-dasharray="2,4"/>
   </g>
 </svg>
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
@@ -2408,109 +1456,31 @@
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
 </svg>
-=======
->>>>>>> 249a0067 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 5a14301c (.)
-=======
 </svg>
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> c35986f4 (.)
 </svg>
-<<<<<<< HEAD
-=======
-=======
-</svg>
-=======
->>>>>>> 71f31700 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> c84488b (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
-=======
-=======
 </svg>
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
 </svg>
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 5842a556 (.)
-=======
 </svg>
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> fb8add77 (.)
-=======
-=======
 </svg>
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
 </svg>
->>>>>>> c06600c (.)
->>>>>>> 14edd1a1 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 16dc7ab0 (.)
-=======
-=======
 </svg>
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
 
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> f5516a5 (.)
 </svg>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
-=======
 </svg>
->>>>>>> 300ef70 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-=======
-=======
->>>>>>> 492d6d3c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -2612,35 +1582,14 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
-<<<<<<< HEAD
 </svg>
 </svg>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> b93ef594b4 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 </svg>
-<<<<<<< HEAD
->>>>>>> c06600c (.)
->>>>>>> 3849ae0e (.)
-=======
->>>>>>> f0e04b64 (.)
-=======
-=======
 </svg>
->>>>>>> a5dccfe (.)
->>>>>>> 6d05deed (.)
-=======
->>>>>>> laraxot/develop
     <circle cx="32" cy="32" r="2" fill="#ffffff" opacity="0.8"/>
   </g>
   
@@ -2648,19 +1597,7 @@
     <circle cx="32" cy="32" r="28" fill="none" stroke="url(#xot-gradient)" stroke-width="0.5" stroke-dasharray="2,4"/>
   </g>
 </svg>
-<<<<<<< HEAD
-=======
->>>>>>> 249a0067 (.)
-=======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 </svg>
->>>>>>> 5a14301c (.)
-=======
 </svg>
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 492d6d3c (.)
->>>>>>> laraxot/develop

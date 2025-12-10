@@ -1,44 +1,18 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
 @php
 '<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
-=======
-<<<<<<< HEAD
 @php
 '<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
-=======
-<<<<<<< HEAD
 @php
 '<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
-=======
+@php
+'<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
 @php
 '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
->>>>>>> a12f125f4a (.)
-=======
-@php
-'<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
->>>>>>> b93ef594b4 (.)
-=======
-@php
-'<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 @endphp
 <rss version="2.0">
     <channel>

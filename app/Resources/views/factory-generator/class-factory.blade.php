@@ -1,69 +1,11 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 <?php
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-/** @var \ReflectionClass $reflection */
-/** @var array<string, string> $properties */
-
 ?>
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/** @var \ReflectionClass $reflection */
-/** @var array<string, string> $properties */
-
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-namespace Database\Factories;
-
-use Illuminate\Database\Eloquent\Factories\Factory;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 <?php if (array_key_exists('remember_token', $properties)): ?>
 use Illuminate\Support\Str;
 <?php endif; ?>
@@ -87,20 +29,6 @@ class <?= $reflection->getShortName(); ?>Factory extends Factory
 <?php endforeach; ?>
         ];
     }
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 @isset($properties['remember_token'])
     use Illuminate\Support\Str;
 @endisset
@@ -128,23 +56,4 @@ return [
 @endforeach
 ];
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 }

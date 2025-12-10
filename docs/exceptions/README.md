@@ -32,11 +32,6 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 ## Collegamenti
 - [Exception Handling Guidelines](../EXCEPTION-HANDLING-GUIDE.md)
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
-<<<<<<< HEAD
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-=======
-- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> laraxot/develop
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)

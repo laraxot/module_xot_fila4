@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # Risoluzione del Conflitto in ModelWithPosContract.php
 
 ## Problema
@@ -87,257 +42,51 @@ La correzione è stata verificata assicurandosi che:
 ## Collegamenti
 
 - [Documentazione sulla Risoluzione dei Conflitti](../RISOLUZIONE_CONFLITTI_MERGE.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
 - [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 43d67f21 (.)
-=======
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
 - [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
->>>>>>> 5a14301c (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 43d67f21 (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> b7ea1cd1 (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
->>>>>>> 5a14301c (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 43d67f21 (.)
-=======
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
 - [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
->>>>>>> 5a14301c (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 43d67f21 (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 76bec91a (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 55fe1822 (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
->>>>>>> 5a14301c (.)
-=======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 43d67f21 (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 88e35986 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 76bec91a (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 55fe1822 (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
->>>>>>> 5a14301c (.)
-=======
-- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
->>>>>>> 399f46d3 (.)

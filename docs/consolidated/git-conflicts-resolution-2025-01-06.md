@@ -1,285 +1,68 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
 
 ## Contesto
-<<<<<<< HEAD
-Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 5a14301c (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 399f46d3 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 43d67f21 (.)
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 5a14301c (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 399f46d3 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 43d67f21 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 17684f52 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> b7ea1cd1 (.)
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 5a14301c (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 399f46d3 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 43d67f21 (.)
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 5a14301c (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 399f46d3 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 43d67f21 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 17684f52 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> b7ea1cd1 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 88e35986 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> e0b8ebe3 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 76bec91a (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> cc52d333 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 55fe1822 (.)
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 5a14301c (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 399f46d3 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 43d67f21 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 17684f52 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> b7ea1cd1 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 88e35986 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> e0b8ebe3 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 76bec91a (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> cc52d333 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 55fe1822 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 5a14301c (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
 ## File Corretti
 
@@ -368,137 +151,34 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
-<<<<<<< HEAD
 ### 1. Controllo Conflitti
 ```bash
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
 ### 1. Controllo Conflitti
 ```bash
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> d86d643a (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> d86d643a (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> 472bd9dc (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> 3bf39332 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> cf971011 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> d86d643a (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> 472bd9dc (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> 3bf39332 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> cf971011 (.)
-=======
-### 1. Controllo Conflitti
-```bash
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
 
 ### 2. Validazione PHPStan
 ```bash
@@ -606,215 +286,75 @@ php artisan lang:check
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+### 1. Controllo Conflitti
+```bash
+### 1. Controllo Conflitti
+```bash
 **Stato**: ✅ Completato
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> 43d67f21 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 399f46d3 (.)
-=======
+### 1. Controllo Conflitti
+```bash
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 43d67f21 (.)
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> 17684f52 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> b7ea1cd1 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 399f46d3 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 43d67f21 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 399f46d3 (.)
-=======
+### 1. Controllo Conflitti
+```bash
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 43d67f21 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 17684f52 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> 88e35986 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> e0b8ebe3 (.)
-=======
+### 1. Controllo Conflitti
+```bash
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 76bec91a (.)
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> cc52d333 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 55fe1822 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> 5a14301c (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 399f46d3 (.)
-=======
+### 1. Controllo Conflitti
+```bash
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 43d67f21 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 17684f52 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> 88e35986 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> e0b8ebe3 (.)
-=======
+### 1. Controllo Conflitti
+```bash
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 76bec91a (.)
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> cc52d333 (.)
-=======
 **Stato**: ✅ Completato
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 55fe1822 (.)
-=======
-**Stato**: ✅ Completato
->>>>>>> 5a14301c (.)
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

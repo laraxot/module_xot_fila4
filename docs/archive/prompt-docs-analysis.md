@@ -1,561 +1,134 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Analisi e Miglioramenti del Prompt docs.txt
+> - [README.md documentazione generale](../../../../project_docs/README.md)
 
-> **Collegamenti correlati**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+> - [README.md documentazione generale](../../../../project_docs/README.md)
 > - [README.md documentazione generale](../../../../docs/README.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
+> - [README.md documentazione generale](../../../../project_docs/README.md)
+
+> - [README.md documentazione generale](../../../../project_docs/README.md)
 > - [README.md documentazione generale](../../../../docs/README.md)
->>>>>>> 5a14301c (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
 > - [README.md documentazione generale](../../../../docs/README.md)
->>>>>>> 5a14301c (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
-> - [README.md documentazione generale](../../../../docs/README.md)
->>>>>>> 5a14301c (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
 > - [README.md documentazione generale](../../../../project_docs/README.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
-<<<<<<< HEAD
-> - [README.md documentazione generale](../../../../docs/README.md)
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
 > - [README.md documentazione generale](../../../../docs/README.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
 > - [Miglioramenti al Prompt docs.txt](./prompt_docs_improvements.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 43d67f21 (.)
-=======
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
->>>>>>> 5a14301c (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 43d67f21 (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> b7ea1cd1 (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
->>>>>>> 5a14301c (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 43d67f21 (.)
-=======
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
->>>>>>> 5a14301c (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 43d67f21 (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> b7ea1cd1 (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 76bec91a (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 55fe1822 (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
->>>>>>> 5a14301c (.)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> 43d67f21 (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> b7ea1cd1 (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> 88e35986 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> 76bec91a (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> 55fe1822 (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
-
->>>>>>> 5a14301c (.)
-=======
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-
->>>>>>> 399f46d3 (.)
 ## Analisi della Struttura Attuale
 
 Il prompt `docs.txt` attuale presenta diverse problematiche strutturali che possono essere migliorate:
@@ -626,86 +199,3 @@ Dal punto di vista tecnico, l'implementazione di questi miglioramenti richiede:
 ## Conclusione
 
 Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qualità della documentazione nel progetto. I miglioramenti proposti mirano a renderlo più efficace e facile da seguire, mantenendo al contempo la sua natura di stringa continua come richiesto dalle regole del progetto.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)

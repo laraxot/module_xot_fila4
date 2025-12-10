@@ -12,27 +12,8 @@ class DestroyAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
     public function execute(Model $model, array $_data, array $_rules): Model
-=======
-<<<<<<< HEAD
-    public function execute(Model $model, array $_data, array $_rules): Model
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(Model $model, array $_data, array $_rules): Model
-=======
     public function execute(Model $model, array $data, array $rules): Model
->>>>>>> a12f125f4a (.)
-=======
-    public function execute(Model $model, array $_data, array $_rules): Model
->>>>>>> b93ef594b4 (.)
-=======
-    public function execute(Model $model, array $data, array $rules): Model
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     {
         // prende la chiave del modello
 

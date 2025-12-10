@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # Gestione della Documentazione e delle Regole
 
 ## Struttura della Documentazione
@@ -70,491 +25,107 @@ base_predict_fila3_mono/
 
 ### 1. Livelli di Documentazione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+- **Documentazione Globale** (`/project_docs/`)
+
+- **Documentazione Globale** (`/project_docs/`)
 - **Documentazione Globale** (`/docs/`)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
+- **Documentazione Globale** (`/project_docs/`)
+
+- **Documentazione Globale** (`/project_docs/`)
 - **Documentazione Globale** (`/docs/`)
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> b7ea1cd1 (.)
-=======
 - **Documentazione Globale** (`/docs/`)
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
+- **Documentazione Globale** (`/project_docs/`)
+
+- **Documentazione Globale** (`/project_docs/`)
+- **Documentazione Globale** (`/project_docs/`)
+
+- **Documentazione Globale** (`/project_docs/`)
+
+- **Documentazione Globale** (`/project_docs/`)
+- **Documentazione Globale** (`/project_docs/`)
+
+- **Documentazione Globale** (`/project_docs/`)
+- **Documentazione Globale** (`/project_docs/`)
 - **Documentazione Globale** (`/docs/`)
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> b7ea1cd1 (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 76bec91a (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 55fe1822 (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 - **Documentazione Globale** (`/docs/`)
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione Globale** (`/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> b7ea1cd1 (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> 88e35986 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> 76bec91a (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> 55fe1822 (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-- **Documentazione Globale** (`/docs/`)
->>>>>>> 5a14301c (.)
-=======
-- **Documentazione Globale** (`/project_docs/`)
->>>>>>> 399f46d3 (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
   - Stabilisce le convenzioni di base
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> b7ea1cd1 (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> b7ea1cd1 (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 76bec91a (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 55fe1822 (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
->>>>>>> 5a14301c (.)
-=======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 43d67f21 (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> b7ea1cd1 (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 88e35986 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 76bec91a (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 55fe1822 (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
->>>>>>> 5a14301c (.)
-=======
-- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
->>>>>>> 399f46d3 (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -582,459 +153,98 @@ Quando si identifica una nuova regola o pattern importante:
 
 2. **Aggiornamento Documentazione**
    - Se regola specifica del modulo:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      1. Aggiornare `Modules/[ModuleName]/docs/`
-<<<<<<< HEAD
-=======
      1. Aggiornare `Modules/[ModuleName]/docs/`
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-     1. Aggiornare `Modules/[ModuleName]/docs/`
-=======
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-     1. Aggiornare `Modules/[ModuleName]/docs/`
-=======
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
 1. Aggiornare `Modules/[ModuleName]/docs/`
-=======
      1. Aggiornare `Modules/[ModuleName]/docs/`
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/docs/`
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/docs/`
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/docs/`
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 6821f7a (.)
->>>>>>> 6d05deed (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/docs/`
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 6821f7a (.)
->>>>>>> 6d05deed (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/docs/`
->>>>>>> 5a14301c (.)
      2. Se rilevante, aggiungere riferimento in `/docs/`
 
    - Se regola globale:
      1. Aggiornare `/docs/`
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**
@@ -1115,86 +325,3 @@ Quando si identifica una nuova regola o pattern importante:
    - [ ] Aggiornare .windsurfrules
    - [ ] Verificare coerenza
    - [ ] Testare applicabilità 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)

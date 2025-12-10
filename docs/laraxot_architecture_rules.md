@@ -150,20 +150,10 @@ class MyAction
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
-=======
-namespace Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
->>>>>>> laraxot/develop
 
 use Filament\Actions\Action;
 use Filament\Actions\DeleteAction;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-<<<<<<< HEAD
-use Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
-=======
-use Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
->>>>>>> laraxot/develop
 
 class ViewQuestionChart extends XotBaseViewRecord
 {
@@ -205,11 +195,6 @@ class ViewQuestionChart extends XotBaseViewRecord
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-namespace Modules\Quaeris\Filament\Widgets;
-=======
-namespace Modules\<nome progetto>\Filament\Widgets;
->>>>>>> laraxot/develop
 
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
@@ -265,17 +250,6 @@ class QuestionChartFilterWidget extends XotBaseWidget
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-namespace Modules\Quaeris\Filament\Resources;
-
-use Modules\Xot\Filament\Resources\XotBaseResource;
-use Modules\Quaeris\Models\QuestionChart;
-=======
-namespace Modules\<nome progetto>\Filament\Resources;
-
-use Modules\Xot\Filament\Resources\XotBaseResource;
-use Modules\<nome progetto>\Models\QuestionChart;
->>>>>>> laraxot/develop
 
 class QuestionChartResource extends XotBaseResource
 {

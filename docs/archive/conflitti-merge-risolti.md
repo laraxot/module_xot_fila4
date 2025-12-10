@@ -1,287 +1,40 @@
-<<<<<<< HEAD
-# Risoluzione Conflitti di Merge 
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Risoluzione Conflitti di Merge 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 # Risoluzione Conflitti di Merge in <nome progetto>
 
 ## Problema
 
 Durante lo sviluppo del progetto <nome progetto>, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> 5a14301c (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> 5a14301c (.)
 # Risoluzione Conflitti di Merge in 
 
 ## Problema
 
 Durante lo sviluppo del progetto , sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 # Risoluzione Conflitti di Merge 
 
->>>>>>> 399f46d3 (.)
 # Risoluzione Conflitti di Merge in SaluteOra
 
 ## Problema
 
 Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 # Risoluzione Conflitti di Merge in 
 
 ## Problema
@@ -292,110 +45,6 @@ Durante lo sviluppo del progetto , sono stati identificati diversi file con conf
 ## Problema
 
 Durante lo sviluppo del progetto <nome progetto>, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`
@@ -507,51 +156,3 @@ Durante la risoluzione dei conflitti, nel file `Modules/Xot/app/Filament/Resourc
 ## Conclusioni
 
 La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità delle classi nel modulo Xot, permettendo l'analisi statica con PHPStan e garantendo il corretto funzionamento dell'applicazione. Le soluzioni implementate hanno mantenuto la coerenza del codice e migliorato la robustezza delle classi interessate.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

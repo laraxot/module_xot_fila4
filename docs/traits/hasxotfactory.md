@@ -311,19 +311,7 @@ class ComplexModelFactory extends Factory
 
 ### Type Safety
 
-<<<<<<< HEAD
 Il trait è completamente compatibile con PHPStan Level 9+:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il trait è completamente compatibile con PHPStan level 10+:
-=======
-Il trait è completamente compatibile con PHPStan Level 9+:
->>>>>>> cc7fb225 (.)
-=======
-Il trait è completamente compatibile con PHPStan Level 9+:
->>>>>>> cc7fb225 (.)
->>>>>>> laraxot/develop
 
 ```php
 /**
@@ -366,44 +354,17 @@ protected static function newFactory(): Factory
 - ✅ **Ripristinato** trait dopo cancellazione accidentale
 - ✅ **Documentato** business logic e architettura
 - ✅ **Aggiunto** supporto esplicito in BasePivot
-<<<<<<< HEAD
 - ✅ **PHPStan Level 9** compliant con type hints corretti
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- ✅ **PHPStan level 10** compliant con type hints corretti
-=======
-- ✅ **PHPStan Level 9** compliant con type hints corretti
->>>>>>> cc7fb225 (.)
-=======
-- ✅ **PHPStan Level 9** compliant con type hints corretti
->>>>>>> cc7fb225 (.)
->>>>>>> laraxot/develop
 
 ---
 
 **Autore**: Laraxot Core Team  
 **Ultima modifica**: 22 Ottobre 2025  
 **Stato**: ✅ Produzione  
-<<<<<<< HEAD
+
+
+
 **PHPStan**: Level 9 compliant
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-**PHPStan**: level 10 compliant
-
-
-
-=======
-**PHPStan**: Level 9 compliant
->>>>>>> cc7fb225 (.)
-
-
-
-=======
-**PHPStan**: Level 9 compliant
->>>>>>> cc7fb225 (.)
->>>>>>> laraxot/develop
 
 
 

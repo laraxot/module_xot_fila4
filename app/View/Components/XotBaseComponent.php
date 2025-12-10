@@ -4,114 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
 use InvalidArgumentException;
-<<<<<<< HEAD
 use InvalidArgumentException;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
-=======
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-use InvalidArgumentException;
-=======
-<<<<<<< HEAD
-use InvalidArgumentException;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-use Illuminate\Contracts\Support\Renderable;
-use Illuminate\Support\Str;
-use Illuminate\View\Component as IlluminateComponent;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
 /**
  * Class XotBaseComponent.
@@ -135,39 +35,11 @@ abstract class XotBaseComponent extends IlluminateComponent
     /**
      * Cache for resolved views.
      *
-<<<<<<< HEAD
-     * @var array<string, string>
      * @var array<string, view-string>
      * @var array<string, view-string>
      * @var array<string, view-string>
      * @var array<string, view-string>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @var array<string, string>
-=======
      * @var array<string, view-string>
->>>>>>> 5a14301c (.)
-=======
-     * @var array<string, view-string>
->>>>>>> 5a14301c (.)
-=======
-     * @var array<string, view-string>
->>>>>>> 5a14301c (.)
-=======
-     * @var array<string, view-string>
->>>>>>> 5a14301c (.)
-=======
-     * @var array<string, view-string>
->>>>>>> 5a14301c (.)
-=======
-     * @var array<string, view-string>
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     protected static array $viewCache = [];
 
@@ -182,39 +54,11 @@ abstract class XotBaseComponent extends IlluminateComponent
     }
 
     /**
-<<<<<<< HEAD
-     * Get the view name for this component.
      * Summary of getView.
      * Summary of getView.
      * Summary of getView.
      * Summary of getView.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * Get the view name for this component.
-=======
      * Summary of getView.
->>>>>>> 5a14301c (.)
-=======
-     * Summary of getView.
->>>>>>> 5a14301c (.)
-=======
-     * Summary of getView.
->>>>>>> 5a14301c (.)
-=======
-     * Summary of getView.
->>>>>>> 5a14301c (.)
-=======
-     * Summary of getView.
->>>>>>> 5a14301c (.)
-=======
-     * Summary of getView.
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      *
      * @return view-string
      */
@@ -223,29 +67,6 @@ abstract class XotBaseComponent extends IlluminateComponent
         $class = static::class;
 
         if (isset(self::$viewCache[$class])) {
-<<<<<<< HEAD
-            /** @var view-string */
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            /** @var view-string */
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             return self::$viewCache[$class];
         }
 
@@ -256,174 +77,23 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 300ef70 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
->>>>>>> laraxot/develop
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
 
         if (!view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
-<<<<<<< HEAD
         $view = $module_name_low.'::components.'.$comp_name;
         $view = $module_name_low . '::components.' . $comp_name;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-        $view = $module_name_low.'::components.'.$comp_name;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-        $view = $module_name_low . '::components.' . $comp_name;
->>>>>>> a6ef6dc7 (.)
->>>>>>> laraxot/develop
         $view = str_replace('._', '.', $view);
 
         if (! view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
-<<<<<<< HEAD
         $view = $module_name_low.'::components.'.$comp_name;
         $view = $module_name_low . '::components.' . $comp_name;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-        $view = $module_name_low.'::components.'.$comp_name;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-        $view = $module_name_low . '::components.' . $comp_name;
->>>>>>> a6ef6dc7 (.)
->>>>>>> laraxot/develop
         $view = str_replace('._', '.', $view);
 
         if (! view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
@@ -432,198 +102,22 @@ abstract class XotBaseComponent extends IlluminateComponent
         }
 
         /** @var view-string $view */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
 
         if (!view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
-<<<<<<< HEAD
-        }
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
         if (! view()->exists($view)) {
-<<<<<<< HEAD
-            throw new InvalidArgumentException("View [$view] does not exist.");
->>>>>>> a12f125f4a (.)
-=======
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
 
         if (!view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
->>>>>>> b93ef594b4 (.)
-=======
             throw new \InvalidArgumentException("View [$view] does not exist.");
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         self::$viewCache[$class] = $view;
 
         return $view;

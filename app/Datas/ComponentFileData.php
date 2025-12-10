@@ -15,34 +15,6 @@ use Spatie\LaravelData\DataCollection;
 class ComponentFileData extends Data
 {
     public string $name;
-<<<<<<< HEAD
-    public string $class;
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-=======
->>>>>>> laraxot/develop
 
     public string $class;
 
@@ -51,7 +23,21 @@ class ComponentFileData extends Data
     public ?string $path = null;
 
     public ?string $ns = null;
-<<<<<<< HEAD
+    public string $class;
+    public ?string $module = null;
+    public ?string $path = null;
+    public ?string $ns = null;
+    public null|string $module = null;
+    public null|string $path = null;
+    public null|string $ns = null;
+
+    public string $class;
+
+    public ?string $module = null;
+
+    public ?string $path = null;
+
+    public ?string $ns = null;
     public string $class;
     public null|string $module = null;
     public null|string $path = null;
@@ -62,83 +48,12 @@ class ComponentFileData extends Data
     public null|string $module = null;
     public null|string $path = null;
     public null|string $ns = null;
-=======
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-    public string $class;
-<<<<<<< HEAD
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ed734516 (.)
-=======
-    public ?string $module = null;
-    public ?string $path = null;
-    public ?string $ns = null;
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 21348520 (.)
-=======
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
 
     public string $class;
-
-    public ?string $module = null;
-
-    public ?string $path = null;
-
-    public ?string $ns = null;
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     public string $class;
     public null|string $module = null;
     public null|string $path = null;
     public null|string $ns = null;
-<<<<<<< HEAD
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
     public ?string $module = null;
     public ?string $path = null;
     public ?string $ns = null;
@@ -154,383 +69,10 @@ class ComponentFileData extends Data
     public null|string $module = null;
     public null|string $path = null;
     public null|string $ns = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-    public ?string $module = null;
-    public ?string $path = null;
-    public ?string $ns = null;
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-
-    public string $class;
-<<<<<<< HEAD
-
-    public ?string $module = null;
-
-    public ?string $path = null;
-
-    public ?string $ns = null;
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-    public string $class;
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-    public ?string $module = null;
-    public ?string $path = null;
-    public ?string $ns = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-    public ?string $module = null;
-    public ?string $path = null;
-    public ?string $ns = null;
->>>>>>> a12f125f4a (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> b93ef594b4 (.)
-=======
-    public ?string $module = null;
-    public ?string $path = null;
-    public ?string $ns = null;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-    public null|string $module = null;
-    public null|string $path = null;
-    public null|string $ns = null;
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     public static function collection(EloquentCollection|Collection|array $data): DataCollection
     {
         return self::collect($data, DataCollection::class);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     }
 }

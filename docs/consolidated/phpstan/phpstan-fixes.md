@@ -1,110 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
 # Correzioni PHPStan Livello 7 - Modulo Xot
 
 Questo documento traccia gli errori PHPStan di livello 7 identificati nel modulo Xot e le relative soluzioni implementate.
@@ -933,133 +826,6 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 * [phpstan_fixes.md](../../../UI/project_docs/phpstan_fixes.md)
 * [phpstan_fixes.md](../../../Media/project_docs/phpstan_fixes.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
@@ -1092,241 +858,66 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 **Soluzione**:
 - Aggiunto cast esplicito `@var array<string, mixed>` al risultato
 
-<<<<<<< HEAD
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 5a14301c (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 399f46d3 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 43d67f21 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 5a14301c (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 399f46d3 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 43d67f21 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 17684f52 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> b7ea1cd1 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 5a14301c (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 399f46d3 (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 43d67f21 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 5a14301c (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 399f46d3 (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 43d67f21 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 17684f52 (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> b7ea1cd1 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 88e35986 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> e0b8ebe3 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 76bec91a (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> cc52d333 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 55fe1822 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 5a14301c (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 399f46d3 (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 43d67f21 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 17684f52 (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> b7ea1cd1 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 88e35986 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> e0b8ebe3 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
-### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 76bec91a (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> cc52d333 (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
-=======
-### 4. <nome progetto>/app/States/Appointment/ReportPending.php
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 55fe1822 (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 5a14301c (.)
-=======
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`
@@ -1393,51 +984,3 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 - [PHPStan Level 10 Guidelines](./phpstan-level10-guidelines.md)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

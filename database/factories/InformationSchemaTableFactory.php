@@ -9,27 +9,11 @@ use Modules\Xot\Models\InformationSchemaTable;
 
 /**
  * InformationSchemaTable Factory
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
+ *
  * 
->>>>>>> a12f125f4a (.)
-=======
- *
->>>>>>> b93ef594b4 (.)
-=======
- * 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
  * @extends Factory<InformationSchemaTable>
  */
 class InformationSchemaTableFactory extends Factory
@@ -40,17 +24,6 @@ class InformationSchemaTableFactory extends Factory
     {
         /** @var string $tableName */
         $tableName = $this->faker->randomElement([
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             'users',
             'posts',
             'comments',
@@ -60,108 +33,38 @@ class InformationSchemaTableFactory extends Factory
             'products',
             'customers',
             'invoices',
-<<<<<<< HEAD
         ]);
 
         return [
             'table_catalog' => 'def',
-            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
-            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
-            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
-            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
-            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
-            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
-            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
-            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
-=======
-<<<<<<< HEAD
         ]);
 
-=======
-<<<<<<< HEAD
         ]);
 
-=======
-=======
->>>>>>> origin/develop
             'users', 'posts', 'comments', 'categories', 'tags',
             'orders', 'products', 'customers', 'invoices'
         ]);
         
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
         ]);
 
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         return [
             'table_catalog' => 'def',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
-=======
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 5a14301c (.)
-=======
-            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 5a14301c (.)
-=======
-            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 5a14301c (.)
-=======
-            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 5a14301c (.)
-=======
-            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 53d6a6ba (.)
-=======
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
->>>>>>> b7afadf9 (.)
-=======
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 71586de2 (.)
-=======
+            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
->>>>>>> 249a0067 (.)
-=======
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 5a14301c (.)
-=======
-            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 53d6a6ba (.)
-=======
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
->>>>>>> b7afadf9 (.)
-=======
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 71586de2 (.)
-=======
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
->>>>>>> 249a0067 (.)
-=======
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             'table_name' => $tableName,
             'table_type' => $this->faker->randomElement(['BASE TABLE', 'VIEW']),
             'engine' => $this->faker->randomElement(['InnoDB', 'MyISAM']),
@@ -186,7 +89,6 @@ class InformationSchemaTableFactory extends Factory
 
     public function baseTable(): static
     {
-<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -253,411 +155,85 @@ class InformationSchemaTableFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6dcebf8a (.)
         return $this->state(fn (array $_attributes): array => [
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> a12f125f4a (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> b93ef594b4 (.)
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-=======
-=======
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 9db27d12 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 9db27d12 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
         return $this->state(fn (array $_attributes): array => [
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
         return $this->state(fn (array $_attributes): array => [
->>>>>>> 71586de2 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
         return $this->state(fn (array $_attributes): array => [
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
         return $this->state(fn (array $_attributes): array => [
->>>>>>> 71586de2 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
             'table_type' => 'BASE TABLE',
         ]);
     }
 
     public function view(): static
     {
-<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -724,404 +300,79 @@ class InformationSchemaTableFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6dcebf8a (.)
         return $this->state(fn (array $_attributes): array => [
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> a12f125f4a (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> b93ef594b4 (.)
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-=======
-=======
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
         return $this->state(fn (array $_attributes): array => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 9db27d12 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 9db27d12 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
         return $this->state(fn (array $_attributes): array => [
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
         return $this->state(fn (array $_attributes): array => [
->>>>>>> 71586de2 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> ca9324a4 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
         return $this->state(fn (array $_attributes): array => [
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
         return $this->state(fn (array $_attributes): array => [
->>>>>>> 71586de2 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 5a14301c (.)
-=======
         return $this->state(fn(array $_attributes): array => [
-=======
         return $this->state(fn (array $attributes): array => [
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
             'table_type' => 'VIEW',
         ]);
     }

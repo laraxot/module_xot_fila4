@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # Regole di Estensione dei Modelli Laraxot
 
 ## Regola Fondamentale di Ereditarietà
@@ -98,281 +53,88 @@ I modelli aggregati e di totali (es. `OrganizzativaTotValutatoreId` del modulo P
 
 ### Memoria Storica
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 43d67f21 (.)
-=======
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 5a14301c (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 43d67f21 (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> b7ea1cd1 (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 5a14301c (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 43d67f21 (.)
-=======
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 5a14301c (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 43d67f21 (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> b7ea1cd1 (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 76bec91a (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 55fe1822 (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 5a14301c (.)
-=======
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 43d67f21 (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> b7ea1cd1 (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 88e35986 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 76bec91a (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 55fe1822 (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 5a14301c (.)
-=======
-Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
-
->>>>>>> 399f46d3 (.)
 ## Eccezioni
 
 Non esistono eccezioni a questa regola. Tutti i modelli concreti devono seguirla.
@@ -405,394 +167,121 @@ abstract class BaseModel extends XotBaseModel
 
 ## Backlink e Riferimenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 - [modules/xot/docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/docs/organizzativa-models.md](../Performance/docs/organizzativa-models.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: maggio 2025* 
-=======
-=======
-*Ultimo aggiornamento: maggio 2025* 
-=======
-=======
-*Ultimo aggiornamento: maggio 2025* 
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: maggio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 5a14301c (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 472bd9dc (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> b7ea1cd1 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 5a14301c (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 5a14301c (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 472bd9dc (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> cf971011 (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 76bec91a (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> e7da37af (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 55fe1822 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
+*Ultimo aggiornamento: maggio 2025* 
+*Ultimo aggiornamento: maggio 2025* 
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 6d05deed (.)
-=======
-*Ultimo aggiornamento: maggio 2025* 
->>>>>>> 5a14301c (.)
-=======
-*Ultimo aggiornamento: maggio 2025* 
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
-*Ultimo aggiornamento: maggio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 472bd9dc (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> cf971011 (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 76bec91a (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> e7da37af (.)
-=======
 - [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
 - [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 55fe1822 (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 90d386aa (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 6d05deed (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 5a14301c (.)
-=======
 *Ultimo aggiornamento: maggio 2025* 
->>>>>>> 399f46d3 (.)

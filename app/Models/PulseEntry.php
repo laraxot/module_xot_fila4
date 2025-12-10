@@ -4,28 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseEntryFactory;
 
 /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
  * @property string $id
  * @property int $timestamp
  * @property string $type
@@ -46,44 +29,9 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
  * @method static Builder<static>|PulseEntry whereType($value)
  * @method static Builder<static>|PulseEntry whereValue($value)
  *
-<<<<<<< HEAD
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
- *
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseEntryFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -91,27 +39,10 @@ use Illuminate\Database\Eloquent\Builder;
 /**
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
  * @method static PulseEntryFactory factory($count = null, $state = [])
  * @method static Builder|PulseEntry newModelQuery()
  * @method static Builder|PulseEntry newQuery()
  * @method static Builder|PulseEntry query()
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
  *
  * @property int $id
  * @property int $timestamp
@@ -120,17 +51,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string|null $key_hash
  * @property int|null $value
  *
-<<<<<<< HEAD
-=======
-=======
-=======
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> laraxot/develop
 /**
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
@@ -138,137 +58,27 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry  newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry  newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry  query()
-<<<<<<< HEAD
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
  * @property int         $id
  * @property int         $timestamp
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property int|null    $value
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
  * @method static Builder|PulseEntry whereId($value)
  * @method static Builder|PulseEntry whereKey($value)
  * @method static Builder|PulseEntry whereKeyHash($value)
  * @method static Builder|PulseEntry whereTimestamp($value)
  * @method static Builder|PulseEntry whereType($value)
  * @method static Builder|PulseEntry whereValue($value)
-<<<<<<< HEAD
- *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> laraxot/develop
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry whereKey($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry whereKeyHash($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry whereTimestamp($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry whereType($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry whereValue($value)
-<<<<<<< HEAD
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 399f46d3 (.)
- * @mixin IdeHelperPulseEntry
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
- * @mixin IdeHelperPulseEntry
->>>>>>> b7afadf9 (.)
-=======
- * @mixin IdeHelperPulseEntry
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> laraxot/develop
  * @mixin \Eloquent
  */
 /**
@@ -292,44 +102,12 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseEntry whereType($value)
  * @method static Builder<static>|PulseEntry whereValue($value)
  *
-<<<<<<< HEAD
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cc7fb225 (.)
-=======
  * @mixin IdeHelperPulseEntry
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
- * @mixin IdeHelperPulseEntry
->>>>>>> 71586de2 (.)
-=======
- * @mixin IdeHelperPulseEntry
->>>>>>> 5a14301c (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
- * @mixin IdeHelperPulseEntry
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
- * @mixin IdeHelperPulseEntry
->>>>>>> 71586de2 (.)
-=======
- * @mixin IdeHelperPulseEntry
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

@@ -4,61 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-<<<<<<< HEAD
-use Throwable;
 use Exception;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Throwable;
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-use Exception;
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 use Throwable;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Collection;
@@ -74,7 +20,7 @@ use function Safe\json_encode;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
+use Exception;
 use Exception;
 use Exception;
 use Exception;
@@ -84,108 +30,22 @@ use Filament\Facades\Filament;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Cache;
-=======
-=======
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-use Illuminate\Support\Str;
-use Webmozart\Assert\Assert;
-use Filament\Facades\Filament;
-<<<<<<< HEAD
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Cache;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Cache;
-=======
-use Illuminate\Support\Facades\File;
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Cache;
->>>>>>> b93ef594b4 (.)
-=======
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 use Filament\Facades\Filament;
 use Illuminate\Support\Facades\File;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 use Filament\Navigation\NavigationItem;
 use Modules\Tenant\Services\TenantService;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
-<<<<<<< HEAD
 use function Safe\json_encode;
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-use function Safe\json_encode;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
  * Ottimizzata per ridurre memory usage.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
-/**
- * Classe per gestire gli elementi di navigazione per i moduli.
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
  */
 class GetModulesNavigationItems
 {
@@ -201,21 +61,6 @@ class GetModulesNavigationItems
         $navs = [];
 
         $modules = TenantService::allModules();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
@@ -229,57 +74,15 @@ class GetModulesNavigationItems
                 $rolesCollection = $user->roles()->pluck('name');
                 $userRoles = $rolesCollection->toArray();
             } catch (Exception $e) {
-<<<<<<< HEAD
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
         Assert::isArray($modules);
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
         Assert::isArray($modules);
+        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
 
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 53d6a6ba (.)
-        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
-=======
-        Assert::isArray($modules);
->>>>>>> b7afadf9 (.)
-=======
-        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
->>>>>>> 71586de2 (.)
-=======
-        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
->>>>>>> 5a14301c (.)
-=======
-        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
->>>>>>> 53d6a6ba (.)
-=======
-        Assert::isArray($modules);
->>>>>>> b7afadf9 (.)
-=======
-        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
->>>>>>> 71586de2 (.)
-=======
-        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
->>>>>>> 5a14301c (.)
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         // Pre-load user roles to avoid N+1 queries
         $user = auth()->user();
         
@@ -289,30 +92,10 @@ class GetModulesNavigationItems
                 $userRoles = $user->roles()->pluck('name')->toArray();
             } catch (Exception $e) {
                 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 $userRoles = [];
             }
         }
 
-<<<<<<< HEAD
         
        
         
@@ -321,105 +104,14 @@ class GetModulesNavigationItems
        
         
        
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         
        
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        
-       
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        
-       
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        
-       
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        
-       
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        
-       
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
 
             $module_low = Str::lower($module);
             Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
             // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
             try {
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
@@ -431,56 +123,21 @@ class GetModulesNavigationItems
 
             // Verifichiamo che il file esista
             if (! File::exists($configFilePath)) {
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
             $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
             $configFilePath = $configPath . '/config.php';
 
             // Verifichiamo che il file esista
             if (!File::exists($configFilePath)) {
               
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
                 continue;
             }
 
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> b93ef594b4 (.)
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
 
             $module_low = Str::lower($module);
             Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
 
->>>>>>> laraxot/develop
             $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
             $configFilePath = $configPath . '/config.php';
 
@@ -489,16 +146,7 @@ class GetModulesNavigationItems
               
                 continue;
             }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-            
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
             
@@ -530,26 +178,11 @@ class GetModulesNavigationItems
                 continue; // Saltiamo questo modulo se il file di configurazione non esiste
             }
             
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             // Carichiamo la configurazione
             try {
                 /** @var array<string, mixed> $config */
                 $config = File::getRequire($configFilePath);
                 Assert::isArray($config, 'Il file di configurazione deve restituire un array');
-<<<<<<< HEAD
-            } catch (Exception $e) {
-=======
-<<<<<<< HEAD
-            } catch (Exception $e) {
-=======
-<<<<<<< HEAD
-            } catch (Exception $e) {
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
                 continue;
             }
 
@@ -557,9 +190,6 @@ class GetModulesNavigationItems
             $icon = $config['icon'] ?? 'heroicon-o-question-mark-circle';
             Assert::string($icon, "L'icona deve essere una stringa");
 
-<<<<<<< HEAD
-            // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
-            $role = $module_low.'::admin';
             $role = $module_low . '::admin';
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
             $role = $module_low . '::admin';
@@ -568,55 +198,14 @@ class GetModulesNavigationItems
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
             $role = $module_low . '::admin';
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
-            $role = $module_low.'::admin';
-=======
             $role = $module_low . '::admin';
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
->>>>>>> 5a14301c (.)
-=======
-            $role = $module_low . '::admin';
-            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
->>>>>>> 5a14301c (.)
-=======
-            $role = $module_low . '::admin';
-            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
->>>>>>> 5a14301c (.)
-=======
-            $role = $module_low . '::admin';
-            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
->>>>>>> 5a14301c (.)
-=======
-            $role = $module_low . '::admin';
-            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
->>>>>>> 5a14301c (.)
-=======
-            $role = $module_low . '::admin';
-            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
             $navigation_sort = $config['navigation_sort'] ?? 1;
             Assert::integerish($navigation_sort, 'navigation_sort deve essere un intero');
             $navigation_sort = (int) $navigation_sort;
 
             // Check role using pre-loaded roles instead of hasRole() method
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
             /*
              $hasRole = in_array($role, $userRoles, true);
 
@@ -636,19 +225,6 @@ class GetModulesNavigationItems
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
                 ->url('/'.$module_low.'/admin')
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
            /*
             $hasRole = in_array($role, $userRoles, true);
 
@@ -668,103 +244,22 @@ class GetModulesNavigationItems
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
                 ->url('/' . $module_low . '/admin')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
                 ->icon($icon)
                 ->group('Modules')
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    /**
-                     * @var Authenticatable|null $user
-                     */
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
                     $user = Filament::auth()->user();
                     if (null === $user) {
                         return false;
                     }
 
                     // Verifichiamo che il metodo hasRole esista
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    if (! method_exists($user, 'hasRole')) {
-                        return false;
-                    }
-
-                    return $user->hasRole($role);
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
                     if (!method_exists($user, 'hasRole')) {
                         return false;
                     }
 
                     return (bool) $user->hasRole($role);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
                 });
-<<<<<<< HEAD
-=======
-=======
-                // Se non riusciamo a caricare la configurazione, passiamo al modulo successivo
-=======
->>>>>>> b93ef594b4 (.)
                 continue;
             }
 
@@ -780,7 +275,6 @@ class GetModulesNavigationItems
             $navigation_sort = (int) $navigation_sort;
 
             // Check role using pre-loaded roles instead of hasRole() method
->>>>>>> laraxot/develop
            /*
             $hasRole = in_array($role, $userRoles, true);
 
@@ -804,42 +298,18 @@ class GetModulesNavigationItems
                 ->group('Modules')
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
-<<<<<<< HEAD
-                    /**
-                     * @var Authenticatable|null $user
-                     */
-=======
->>>>>>> laraxot/develop
                     $user = Filament::auth()->user();
                     if (null === $user) {
                         return false;
                     }
-<<<<<<< HEAD
 
                     // Verifichiamo che il metodo hasRole esista
-                    if (! method_exists($user, 'hasRole')) {
-                        return false;
-                    }
-
-                    return $user->hasRole($role);
-=======
-<<<<<<< HEAD
-                );
->>>>>>> a12f125f4a (.)
-=======
-
-                    // Verifichiamo che il metodo hasRole esista
->>>>>>> laraxot/develop
                     if (!method_exists($user, 'hasRole')) {
                         return false;
                     }
 
                     return (bool) $user->hasRole($role);
                 });
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
-=======
             } catch (\Exception $e) {
                 // Se non riusciamo a caricare la configurazione, passiamo al modulo successivo
                 continue;
@@ -877,26 +347,12 @@ class GetModulesNavigationItems
                         return (bool) $user->hasRole($role);
                     }
                 );
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
             $navs[] = $nav;
         }
 
         return $navs;
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     /**
      * Restituisce la versione cached e minimale dei moduli per UI rendering.
@@ -907,15 +363,6 @@ class GetModulesNavigationItems
     public function getCachedModuleConfigs(): array
     {
         $modules = TenantService::allModules();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
         // TenantService::allModules() restituisce sempre array
 
         $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
@@ -923,20 +370,6 @@ class GetModulesNavigationItems
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
         if (\is_array($cached)) {
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         Assert::isArray($modules);
 
         $cacheKey = 'xot:navigation:modules:' . md5(json_encode($modules));
@@ -944,32 +377,10 @@ class GetModulesNavigationItems
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
         if (is_array($cached)) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             return $cached;
         }
 
         // Se non presente in cache, rigenera usando la stessa logica di execute()
-<<<<<<< HEAD
-        /** @var array<int, array{module: string, module_low: string, icon: string, sort: int}> $result */
-        $result = Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
         $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
@@ -978,49 +389,14 @@ class GetModulesNavigationItems
         $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
         $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        /** @var array<int, array{module: string, module_low: string, icon: string, sort: int}> $result */
-        $result = Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
-=======
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
         $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
->>>>>>> 5a14301c (.)
-=======
-        /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
-        $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
->>>>>>> 5a14301c (.)
-=======
-        /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
-        $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
->>>>>>> 5a14301c (.)
-=======
-        /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
-        $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
->>>>>>> 5a14301c (.)
-=======
-        /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
-        $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
->>>>>>> 5a14301c (.)
-=======
-        /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
-        $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             $out = [];
             foreach ($modules as $module) {
                 Assert::string($module, 'Il nome del modulo deve essere una stringa');
                 $module_low = Str::lower($module);
                 Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
-<<<<<<< HEAD
-                $configFilePath = $configPath.'/config.php';
-                if (! File::exists($configFilePath)) {
                 $configFilePath = $configPath . '/config.php';
                 if (!File::exists($configFilePath)) {
                 $configFilePath = $configPath . '/config.php';
@@ -1029,40 +405,8 @@ class GetModulesNavigationItems
                 if (!File::exists($configFilePath)) {
                 $configFilePath = $configPath . '/config.php';
                 if (!File::exists($configFilePath)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                $configFilePath = $configPath.'/config.php';
-                if (! File::exists($configFilePath)) {
-=======
                 $configFilePath = $configPath . '/config.php';
                 if (!File::exists($configFilePath)) {
->>>>>>> 5a14301c (.)
-=======
-                $configFilePath = $configPath . '/config.php';
-                if (!File::exists($configFilePath)) {
->>>>>>> 5a14301c (.)
-=======
-                $configFilePath = $configPath . '/config.php';
-                if (!File::exists($configFilePath)) {
->>>>>>> 5a14301c (.)
-=======
-                $configFilePath = $configPath . '/config.php';
-                if (!File::exists($configFilePath)) {
->>>>>>> 5a14301c (.)
-=======
-                $configFilePath = $configPath . '/config.php';
-                if (!File::exists($configFilePath)) {
->>>>>>> 5a14301c (.)
-=======
-                $configFilePath = $configPath . '/config.php';
-                if (!File::exists($configFilePath)) {
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                     continue;
                 }
                 try {
@@ -1081,67 +425,14 @@ class GetModulesNavigationItems
                     'sort' => $navigation_sort,
                 ];
             }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 
             return $out;
         });
 
         return $result;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             return $out;
         });
 
         return $regen;
-<<<<<<< HEAD
     }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-    }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 }

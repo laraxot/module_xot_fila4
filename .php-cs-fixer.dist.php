@@ -1,32 +1,17 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
 
 
-=======
-<<<<<<< HEAD
 declare(strict_types=1);
 
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 
-=======
->>>>>>> a12f125f4a (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -35,39 +20,21 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
-<<<<<<< HEAD
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true);
     ->ignoreVCS(true);
     ->ignoreVCS(true)
     ->ignoreVCS(true)
     ->ignoreVCS(true)
     ->ignoreVCS(true)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     ->ignoreVCS(true);
-=======
     ->ignoreVCS(true)
->>>>>>> 5a14301c (.)
-=======
     ->ignoreVCS(true)
->>>>>>> 5a14301c (.)
-=======
     ->ignoreVCS(true)
->>>>>>> 5a14301c (.)
-=======
     ->ignoreVCS(true)
->>>>>>> 5a14301c (.)
-=======
     ->ignoreVCS(true)
->>>>>>> 5a14301c (.)
-=======
-    ->ignoreVCS(true)
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
 $config = new PhpCsFixer\Config();
 
@@ -94,10 +61,7 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
-    ->setFinder($finder)
+    ->setFinder($finder);
 
-<<<<<<< HEAD
 return $config;
-=======
 return $config;
->>>>>>> laraxot/develop

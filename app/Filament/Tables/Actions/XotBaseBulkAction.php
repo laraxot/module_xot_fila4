@@ -12,7 +12,6 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @method ?Model getRecord()
  */
-<<<<<<< HEAD
 abstract class XotBaseBulkAction extends BulkAction {}
 abstract class XotBaseBulkAction extends BulkAction
 {
@@ -26,42 +25,19 @@ abstract class XotBaseBulkAction extends BulkAction
 abstract class XotBaseBulkAction extends BulkAction
 {
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 abstract class XotBaseBulkAction extends BulkAction {}
-=======
 abstract class XotBaseBulkAction extends BulkAction
 {
 }
->>>>>>> 5a14301c (.)
-=======
 abstract class XotBaseBulkAction extends BulkAction
 {
 }
->>>>>>> 5a14301c (.)
-=======
 abstract class XotBaseBulkAction extends BulkAction
 {
 }
->>>>>>> 5a14301c (.)
-=======
 abstract class XotBaseBulkAction extends BulkAction
 {
 }
->>>>>>> 5a14301c (.)
-=======
 abstract class XotBaseBulkAction extends BulkAction
 {
 }
->>>>>>> 5a14301c (.)
-=======
-abstract class XotBaseBulkAction extends BulkAction
-{
-}
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop

@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -107,251 +65,14 @@ Questo è l'errore più comune e grave nelle convenzioni di namespace:
 
 ```php
 // GRAVEMENTE ERRATO
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 namespace Modules\<nome progetto>\App\Controllers;
 
 // CORRETTO
 namespace Modules\<nome progetto>\Controllers;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
 namespace Modules\SaluteOra\Controllers;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 namespace Modules\<nome progetto>\App\Controllers;
 
 // CORRETTO
@@ -360,110 +81,6 @@ namespace Modules\<nome modulo>\App\Controllers;
 
 // CORRETTO
 namespace Modules\<nome modulo>\Controllers;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ## esempi corretti vs errati
@@ -471,251 +88,14 @@ namespace Modules\<nome modulo>\Controllers;
 ### corretti ✓
 ```php
 namespace Modules\Xot\Console\Commands;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 namespace Modules\<nome progetto>\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\<nome progetto>\Filament\Resources;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\SaluteOra\Filament\Resources;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 namespace Modules\<nome progetto>\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
@@ -724,360 +104,19 @@ namespace Modules\<nome modulo>\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\<nome modulo>\Filament\Resources;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ### errati ✗
 ```php
 namespace Modules\Xot\app\Console\Commands;       // errato: 'app' nel namespace
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 namespace Modules\<nome progetto>\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura completamente sbagliata
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completamente sbagliata
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 namespace Modules\<nome progetto>\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
@@ -1086,110 +125,6 @@ namespace Modules\<nome modulo>\App\Models;           // errato: 'App' nel names
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\<nome modulo>\Controllers;      // errato: struttura completamente sbagliata
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ## struttura fisica vs namespace
@@ -1199,663 +134,198 @@ namespace App\Modules\<nome modulo>\Controllers;      // errato: struttura compl
 Anche se i file sono fisicamente collocati in una directory `app/`, il namespace **non deve mai riflettere** questa struttura.
 
 ```
-<<<<<<< HEAD
-Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
-Namespace corretto: namespace Modules\<nome progetto>\Models;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
-Namespace corretto: namespace Modules\<nome progetto>\Models;
-<<<<<<< HEAD
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 5a14301c (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 399f46d3 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 472bd9dc (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 472bd9dc (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 3bf39332 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> cf971011 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> e7da37af (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 472bd9dc (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 3bf39332 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> cf971011 (.)
-=======
-Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
-Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> e7da37af (.)
-=======
 Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
 Namespace corretto: namespace Modules\<nome progetto>\Models;
 Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
 Namespace corretto: namespace Modules\<nome modulo>\Models;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 43d67f21 (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
 Namespace corretto: namespace Modules\<nome progetto>\Models;
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 43d67f21 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 43d67f21 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> b7ea1cd1 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 76bec91a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 43d67f21 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> b7ea1cd1 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 76bec91a (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ### mappatura corretta percorso-namespace
 
 | percorso fisico | namespace corretto |
 |-----------------|--------------------|
-<<<<<<< HEAD
-| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
-| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
-| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
-<<<<<<< HEAD
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 5a14301c (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 399f46d3 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 472bd9dc (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 472bd9dc (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 3bf39332 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> cf971011 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> e7da37af (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 472bd9dc (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 3bf39332 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> cf971011 (.)
-=======
-| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
-| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> e7da37af (.)
-=======
 | `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
 | `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
 | `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome modulo>\Models` |
 | `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome modulo>\Filament\Resources` |
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 43d67f21 (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 | `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
 | `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 43d67f21 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 43d67f21 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> b7ea1cd1 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 76bec91a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 43d67f21 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> b7ea1cd1 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 76bec91a (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 | `/Modules/Xot/app/Providers/XotServiceProvider.php` | `Modules\Xot\Providers` |
 
 ### struttura directory completa
 
 ```
 Modules/
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
   <nome progetto>/
     app/                        // directory fisica
       Console/
@@ -1866,107 +336,6 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\<nome progetto>\Filament\Resources;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -1977,83 +346,6 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\SaluteOra\Filament\Resources;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
   <nome progetto>/
     app/                        // directory fisica
       Console/
@@ -2074,110 +366,6 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\<nome modulo>\Filament\Resources;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ## come verificare i namespace
@@ -2195,247 +383,59 @@ Prima di committare un file, verifica sempre che:
 Utilizza phpstan per verificare automaticamente i namespace:
 
 ```bash
-<<<<<<< HEAD
-php artisan phpstan:analyse --level=1 Modules/<nome progetto>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-php artisan phpstan:analyse --level=1 Modules/<nome progetto>
-<<<<<<< HEAD
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 5a14301c (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 399f46d3 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 472bd9dc (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 472bd9dc (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 3bf39332 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> cf971011 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> e7da37af (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 472bd9dc (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 3bf39332 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> cf971011 (.)
-=======
-php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> e7da37af (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 43d67f21 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 5a14301c (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 43d67f21 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> b7ea1cd1 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 5a14301c (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 43d67f21 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 5a14301c (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 43d67f21 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> b7ea1cd1 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 76bec91a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 55fe1822 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 5a14301c (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 43d67f21 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> b7ea1cd1 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 76bec91a (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 55fe1822 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 5a14301c (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ## motivazione di questa convenzione
@@ -2458,251 +458,14 @@ Un errore comune è includere `App` nel namespace:
 
 ```php
 // ERRATO ❌
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 namespace Modules\<nome progetto>\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\<nome progetto>\Console\Commands;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\SaluteOra\Console\Commands;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 namespace Modules\<nome progetto>\App\Console\Commands;
 
 // CORRETTO ✓
@@ -2711,110 +474,6 @@ namespace Modules\<nome modulo>\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\<nome modulo>\Console\Commands;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ### Conseguenze dell'Errore
@@ -2830,254 +489,65 @@ namespace Modules\<nome modulo>\Console\Commands;
 Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
-<<<<<<< HEAD
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
-<<<<<<< HEAD
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
->>>>>>> 5a14301c (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 399f46d3 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 472bd9dc (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 472bd9dc (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 3bf39332 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> cf971011 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> e7da37af (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 472bd9dc (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 3bf39332 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> cf971011 (.)
-=======
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> e7da37af (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 43d67f21 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
->>>>>>> 5a14301c (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 43d67f21 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> b7ea1cd1 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
->>>>>>> 5a14301c (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 43d67f21 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
->>>>>>> 5a14301c (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 43d67f21 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> b7ea1cd1 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 76bec91a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 55fe1822 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
->>>>>>> 5a14301c (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 43d67f21 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> b7ea1cd1 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 76bec91a (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 55fe1822 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
->>>>>>> 5a14301c (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ### PHP Stan
@@ -3109,51 +579,3 @@ php artisan cache:clear
 php artisan config:clear
 php artisan view:clear
 ```
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

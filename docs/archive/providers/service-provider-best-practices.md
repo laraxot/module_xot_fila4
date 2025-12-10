@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # Best Practices nei Service Provider
 
 ## Decisione Architetturale (2025-05-13)
@@ -73,281 +28,88 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 
 ## Backlink
 - [Torna a README.md del modulo Xot](../README.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 43d67f21 (.)
-=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
->>>>>>> 5a14301c (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 43d67f21 (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> b7ea1cd1 (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
->>>>>>> 5a14301c (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 43d67f21 (.)
-=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
->>>>>>> 5a14301c (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 43d67f21 (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> b7ea1cd1 (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 76bec91a (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 55fe1822 (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
->>>>>>> 5a14301c (.)
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> 43d67f21 (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> b7ea1cd1 (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> 88e35986 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> 76bec91a (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> 55fe1822 (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../docs/links.md)
-
->>>>>>> 5a14301c (.)
-=======
-- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
-
->>>>>>> 399f46d3 (.)
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica
@@ -483,86 +245,3 @@ Questa implementazione:
 L'utilizzo di `GetModulePathByGeneratorAction` anziché chiamate dirette a `module_path` rappresenta una best practice importante nel progetto il progetto. Questo approccio migliora la robustezza, la leggibilità e la manutenibilità del codice nei service provider.
 
 Si raccomanda di seguire questo pattern in tutti i service provider personalizzati per garantire coerenza e affidabilità nell'accesso ai percorsi dei moduli. 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)

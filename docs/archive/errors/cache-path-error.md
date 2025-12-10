@@ -44,13 +44,4 @@ Per prevenire questo errore in futuro:
 3. Utilizzare il pattern try-catch quando si accede alla cache in punti critici del sistema
 
 ## Riferimenti
-<<<<<<< HEAD
-- [Documentazione Laravel Cache](https://laravel.com/docs/cache)
-=======
-<<<<<<< HEAD
-- [Documentazione Laravel Cache](https://laravel.com/docs/cache)
-=======
-- [Documentazione Laravel Cache](https://laravel.com/project_docs/cache)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 - [Documentazione Xot Component System](../structure.md) 

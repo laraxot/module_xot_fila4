@@ -22,237 +22,29 @@ class GetFakerAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
     public function execute(string $name, ?string $type = null, ?string $_table = null): string
     {
         if ($type !== null && Str::startsWith($type, 'factory(')) {
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
-    {
-        if (null !== $type && Str::startsWith($type, 'factory(')) {
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
-    {
-        if (null !== $type && Str::startsWith($type, 'factory(')) {
-    public function execute(string $name, null|string $type = null, null|string $_table = null): string
-    {
-        if (null !== $type && Str::startsWith($type, 'factory(')) {
-    public function execute(string $name, null|string $type = null, null|string $_table = null): string
-    {
-        if (null !== $type && Str::startsWith($type, 'factory(')) {
-    public function execute(string $name, null|string $type = null, null|string $_table = null): string
-    {
-        if (null !== $type && Str::startsWith($type, 'factory(')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-    public function execute(string $name, ?string $type = null, ?string $_table = null): string
-    {
-        if ($type !== null && Str::startsWith($type, 'factory(')) {
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-    public function execute(string $name, null|string $type = null, null|string $_table = null): string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(string $name, null|string $type = null, null|string $_table = null): string
-=======
     public function execute(string $name, ?string $type = null, ?string $table = null): string
->>>>>>> a12f125f4a (.)
-=======
-    public function execute(string $name, null|string $type = null, null|string $_table = null): string
->>>>>>> b93ef594b4 (.)
-=======
-    public function execute(string $name, ?string $type = null, ?string $table = null): string
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         if (null !== $type && Str::startsWith($type, 'factory(')) {
->>>>>>> 5a14301c (.)
-=======
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
     {
         if (null !== $type && Str::startsWith($type, 'factory(')) {
->>>>>>> 5a14301c (.)
-=======
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
     {
         if (null !== $type && Str::startsWith($type, 'factory(')) {
->>>>>>> 5a14301c (.)
-=======
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
     {
         if (null !== $type && Str::startsWith($type, 'factory(')) {
->>>>>>> 5a14301c (.)
-=======
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
     {
         if (null !== $type && Str::startsWith($type, 'factory(')) {
->>>>>>> 5a14301c (.)
-=======
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
     {
         if (null !== $type && Str::startsWith($type, 'factory(')) {
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             return $type;
         }
 

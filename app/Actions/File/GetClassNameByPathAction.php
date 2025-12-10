@@ -4,45 +4,21 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\File;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
 use Spatie\QueueableAction\QueueableAction;
 
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 class GetClassNameByPathAction
 {
     use QueueableAction;
@@ -57,8 +33,6 @@ class GetClassNameByPathAction
         $namespace = $namespaceMatch[1] ?? '';
         $className = $classMatch[1] ?? '';
 
-<<<<<<< HEAD
-        return $namespace ? ($namespace.'\\'.$className) : $className;
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
         $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
         $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
@@ -75,302 +49,26 @@ class GetClassNameByPathAction
 
         return $fullClassName;
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
-
-        return $fullClassName;
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
-
-        return $fullClassName;
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
-
-        return $fullClassName;
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
-
-        return $fullClassName;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $namespace ? ($namespace.'\\'.$className) : $className;
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> b7afadf9 (.)
-        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b7afadf9 (.)
-        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
-=======
         $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
->>>>>>> f1d4085 (.)
-=======
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
->>>>>>> 71586de2 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
->>>>>>> 71586de2 (.)
 
         return $fullClassName;
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
-=======
-        $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
->>>>>>> a12f125f4a (.)
-=======
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
->>>>>>> b93ef594b4 (.)
-=======
-        $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-
-        return $fullClassName;
->>>>>>> 5a14301c (.)
-=======
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
 
         return $fullClassName;
->>>>>>> 5a14301c (.)
-=======
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
 
         return $fullClassName;
->>>>>>> 5a14301c (.)
-=======
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
 
         return $fullClassName;
->>>>>>> 5a14301c (.)
-=======
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
 
         return $fullClassName;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     }
 }
 
 /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
  * $class = Str::of($path)
  * ->after(base_path('Modules'))
  * ->prepend('\Modules')
@@ -378,14 +76,6 @@ class GetClassNameByPathAction
  * ->replace('/', '\\')
  * ->toString();
  */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
 $class = Str::of($path)
                     ->after(base_path('Modules'))
                     ->prepend('\Modules')
@@ -393,11 +83,3 @@ $class = Str::of($path)
                     ->replace('/', '\\')
                     ->toString();
                     */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

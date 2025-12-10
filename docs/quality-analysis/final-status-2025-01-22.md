@@ -127,7 +127,3 @@ Analisi sistematica di tutti i moduli con PHPStan livello 10, PHPMD e PHPInsight
 **Data**: 2025-01-22  
 **Analista**: AI Assistant
 
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/develop

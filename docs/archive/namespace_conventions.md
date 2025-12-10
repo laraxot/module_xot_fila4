@@ -65,67 +65,22 @@ Questo è l'errore più comune e grave nelle convenzioni di namespace:
 
 ```php
 // GRAVEMENTE ERRATO
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 namespace Modules\<nome progetto>\App\Controllers;
 
 // CORRETTO
 namespace Modules\<nome progetto>\Controllers;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
 namespace Modules\SaluteOra\Controllers;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
 namespace Modules\SaluteOra\Controllers;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
 namespace Modules\SaluteOra\Controllers;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ## esempi corretti vs errati
@@ -133,133 +88,43 @@ namespace Modules\SaluteOra\Controllers;
 ### corretti ✓
 ```php
 namespace Modules\Xot\Console\Commands;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 namespace Modules\<nome progetto>\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\<nome progetto>\Filament\Resources;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\SaluteOra\Filament\Resources;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\SaluteOra\Filament\Resources;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\SaluteOra\Filament\Resources;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ### errati ✗
 ```php
 namespace Modules\Xot\app\Console\Commands;       // errato: 'app' nel namespace
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 namespace Modules\<nome progetto>\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura completamente sbagliata
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completamente sbagliata
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completamente sbagliata
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completamente sbagliata
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ## struttura fisica vs namespace
@@ -269,123 +134,46 @@ namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completam
 Anche se i file sono fisicamente collocati in una directory `app/`, il namespace **non deve mai riflettere** questa struttura.
 
 ```
-<<<<<<< HEAD
-Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
-Namespace corretto: namespace Modules\<nome progetto>\Models;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
-Namespace corretto: namespace Modules\<nome progetto>\Models;
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 71f31700 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 71f31700 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 71f31700 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 71f31700 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 53d6a6ba (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 71f31700 (.)
-=======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 53d6a6ba (.)
-=======
-Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
-Namespace corretto: namespace Modules\SaluteOra\Models;
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ### mappatura corretta percorso-namespace
 
 | percorso fisico | namespace corretto |
 |-----------------|--------------------|
-<<<<<<< HEAD
-| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
-| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
-| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 71f31700 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 71f31700 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 71f31700 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 71f31700 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 53d6a6ba (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 71f31700 (.)
-=======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 53d6a6ba (.)
-=======
-| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
-| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 | `/Modules/Xot/app/Providers/XotServiceProvider.php` | `Modules\Xot\Providers` |
 
 ### struttura directory completa
 
 ```
 Modules/
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
   <nome progetto>/
     app/                        // directory fisica
       Console/
@@ -396,19 +184,6 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\<nome progetto>\Filament\Resources;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -419,19 +194,6 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\SaluteOra\Filament\Resources;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -442,10 +204,6 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\SaluteOra\Filament\Resources;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
-=======
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -456,10 +214,6 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\SaluteOra\Filament\Resources;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ## come verificare i namespace
@@ -477,43 +231,13 @@ Prima di committare un file, verifica sempre che:
 Utilizza phpstan per verificare automaticamente i namespace:
 
 ```bash
-<<<<<<< HEAD
-php artisan phpstan:analyse --level=1 Modules/<nome progetto>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-php artisan phpstan:analyse --level=1 Modules/<nome progetto>
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 71f31700 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 71f31700 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 71f31700 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 71f31700 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 53d6a6ba (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 71f31700 (.)
-=======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 53d6a6ba (.)
-=======
-php artisan phpstan:analyse --level=1 Modules/SaluteOra
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ## motivazione di questa convenzione
@@ -536,67 +260,22 @@ Un errore comune è includere `App` nel namespace:
 
 ```php
 // ERRATO ❌
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 namespace Modules\<nome progetto>\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\<nome progetto>\Console\Commands;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\SaluteOra\Console\Commands;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\SaluteOra\Console\Commands;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
-=======
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\SaluteOra\Console\Commands;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ### Conseguenze dell'Errore
@@ -612,43 +291,13 @@ namespace Modules\SaluteOra\Console\Commands;
 Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
-<<<<<<< HEAD
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 71f31700 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 71f31700 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 71f31700 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 71f31700 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 53d6a6ba (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 71f31700 (.)
-=======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 53d6a6ba (.)
-=======
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ```
 
 ### PHP Stan

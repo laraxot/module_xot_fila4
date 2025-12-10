@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services\Translators;
 
-<<<<<<< HEAD
 class Apertium extends BaseTranslator {}
 class Apertium extends BaseTranslator
 {
@@ -18,42 +17,19 @@ class Apertium extends BaseTranslator
 class Apertium extends BaseTranslator
 {
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 class Apertium extends BaseTranslator {}
-=======
 class Apertium extends BaseTranslator
 {
 }
->>>>>>> 5a14301c (.)
-=======
 class Apertium extends BaseTranslator
 {
 }
->>>>>>> 5a14301c (.)
-=======
 class Apertium extends BaseTranslator
 {
 }
->>>>>>> 5a14301c (.)
-=======
 class Apertium extends BaseTranslator
 {
 }
->>>>>>> 5a14301c (.)
-=======
 class Apertium extends BaseTranslator
 {
 }
->>>>>>> 5a14301c (.)
-=======
-class Apertium extends BaseTranslator
-{
-}
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop

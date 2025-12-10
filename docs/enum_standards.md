@@ -1,159 +1,18 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Enum Standards in <nome progetto>
-
-This document defines the standards and best practices for working with Enums in the <nome progetto> project.
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 5a14301c (.)
-=======
-# Enum Standards in <nome progetto>
-
-This document defines the standards and best practices for working with Enums in the <nome progetto> project.
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
 # Enum Standards in SaluteOra
 
 This document defines the standards and best practices for working with Enums in the SaluteOra project.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
->>>>>>> laraxot/develop
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
 ## Naming Conventions
 
@@ -225,91 +84,25 @@ This document defines the standards and best practices for working with Enums in
 declare(strict_types=1);
 
 namespace Modules\<nome progetto>\Enums;
-<<<<<<< HEAD
-namespace Modules\<nome progetto>\Enums;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Modules\<nome progetto>\Enums;
-=======
+namespace Modules\<nome modulo>\Enums;
 namespace Modules\SaluteOra\Enums;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\<nome modulo>\Enums;
->>>>>>> d86d643a (.)
-=======
+namespace Modules\<nome modulo>\Enums;
 namespace Modules\SaluteOra\Enums;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\<nome modulo>\Enums;
->>>>>>> d86d643a (.)
-=======
-namespace Modules\<nome modulo>\Enums;
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\SaluteOra\Enums;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\<nome modulo>\Enums;
->>>>>>> d86d643a (.)
-=======
+namespace Modules\<nome modulo>\Enums;
+namespace Modules\<nome modulo>\Enums;
+namespace Modules\<nome modulo>\Enums;
+namespace Modules\<nome modulo>\Enums;
 namespace Modules\SaluteOra\Enums;
->>>>>>> 5a14301c (.)
-=======
 namespace Modules\<nome modulo>\Enums;
->>>>>>> d86d643a (.)
-=======
 namespace Modules\<nome modulo>\Enums;
->>>>>>> 472bd9dc (.)
-=======
 namespace Modules\<nome modulo>\Enums;
->>>>>>> 3bf39332 (.)
-=======
 namespace Modules\<nome modulo>\Enums;
->>>>>>> cf971011 (.)
-=======
 namespace Modules\<nome modulo>\Enums;
->>>>>>> e7da37af (.)
-=======
 namespace Modules\SaluteOra\Enums;
->>>>>>> 5a14301c (.)
-=======
-namespace Modules\<nome modulo>\Enums;
->>>>>>> d86d643a (.)
-=======
-namespace Modules\<nome modulo>\Enums;
->>>>>>> 472bd9dc (.)
-=======
-namespace Modules\<nome modulo>\Enums;
->>>>>>> 3bf39332 (.)
-=======
-namespace Modules\<nome modulo>\Enums;
->>>>>>> cf971011 (.)
-=======
-namespace Modules\<nome modulo>\Enums;
->>>>>>> e7da37af (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -330,113 +123,44 @@ enum AppointmentTypeEnum: string implements HasLabel
         return match ($this) {
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
-<<<<<<< HEAD
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
-=======
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 5a14301c (.)
-=======
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> d86d643a (.)
-=======
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 5a14301c (.)
-=======
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> d86d643a (.)
-=======
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> 472bd9dc (.)
-=======
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 5a14301c (.)
-=======
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> d86d643a (.)
-=======
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 5a14301c (.)
-=======
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> d86d643a (.)
-=======
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> 472bd9dc (.)
-=======
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> 3bf39332 (.)
-=======
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> cf971011 (.)
-=======
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> e7da37af (.)
-=======
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 5a14301c (.)
-=======
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> d86d643a (.)
-=======
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> 472bd9dc (.)
-=======
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> 3bf39332 (.)
-=======
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> cf971011 (.)
-=======
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> e7da37af (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             // ... other cases
         };
     }
@@ -444,91 +168,25 @@ enum AppointmentTypeEnum: string implements HasLabel
 
 // Alias for backward compatibility
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
-<<<<<<< HEAD
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 5a14301c (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> d86d643a (.)
-=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 5a14301c (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> d86d643a (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> 472bd9dc (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 5a14301c (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> d86d643a (.)
-=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 5a14301c (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> d86d643a (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> 472bd9dc (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> 3bf39332 (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> cf971011 (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> e7da37af (.)
-=======
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 5a14301c (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> d86d643a (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> 472bd9dc (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> 3bf39332 (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> cf971011 (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> e7da37af (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 ```
 
 ## Updating Existing Enums
@@ -544,96 +202,3 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop

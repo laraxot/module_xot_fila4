@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 # Prompt di Documentazione
 
 ## Panoramica
@@ -95,247 +53,59 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi assoluti nei collegamenti
 - MAI includere il nome del progetto nei percorsi
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
-<<<<<<< HEAD
-- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
-<<<<<<< HEAD
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 5a14301c (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 399f46d3 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 472bd9dc (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 472bd9dc (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 3bf39332 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> cf971011 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> e7da37af (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 472bd9dc (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 3bf39332 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> cf971011 (.)
-=======
-- MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> e7da37af (.)
-=======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 43d67f21 (.)
-=======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 5a14301c (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 43d67f21 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> b7ea1cd1 (.)
-=======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 5a14301c (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 43d67f21 (.)
-=======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 5a14301c (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 43d67f21 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> b7ea1cd1 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 76bec91a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 55fe1822 (.)
-=======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 5a14301c (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 43d67f21 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> b7ea1cd1 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 76bec91a (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 55fe1822 (.)
-=======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 5a14301c (.)
-=======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
 ### Formato Corretto
 ```markdown
@@ -343,438 +113,111 @@ Questo documento descrive le regole e le best practices per i prompt di document
 # Collegamenti Corretti
 [Documento Correlato](../documento.md)
 [Documento in Sottodirectory](./sottodirectory/documento.md)
-<<<<<<< HEAD
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
-=======
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 43d67f21 (.)
-=======
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
->>>>>>> 5a14301c (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 43d67f21 (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> b7ea1cd1 (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
->>>>>>> 5a14301c (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 43d67f21 (.)
-=======
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
->>>>>>> 5a14301c (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 43d67f21 (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> b7ea1cd1 (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 76bec91a (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 55fe1822 (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
->>>>>>> 5a14301c (.)
-=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> 43d67f21 (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> b7ea1cd1 (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> 88e35986 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> 76bec91a (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> 55fe1822 (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
-[Documento in Root](../../../docs/documento.md)
->>>>>>> 5a14301c (.)
-=======
-[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
-[Documento in Root](../../../project_docs/documento.md)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
-<<<<<<< HEAD
-[Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/documento.md)
-[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/project_docs/documento.md)
-[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-[Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/documento.md)
-[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/project_docs/documento.md)
-[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
-=======
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
-=======
->>>>>>> d86d643a (.)
-=======
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
-[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
-[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 5a14301c (.)
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
@@ -782,188 +225,84 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 43d67f21 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 43d67f21 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> b7ea1cd1 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 76bec91a (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 43d67f21 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> b7ea1cd1 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 76bec91a (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ### Checklist di Validazione
@@ -1031,51 +370,3 @@ con collegamenti bidirezionali...
    - Mantenere aggiornate le regole
    - Documentare le correzioni
    - Aggiornare gli esempi
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

@@ -1,5 +1,4 @@
 parameters:
-<<<<<<< HEAD
     level: 10
     level: 7
     level: 7
@@ -7,90 +6,32 @@ parameters:
     level: 7
     level: 7
     level: 7
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     level: 10
-=======
     level: 7
->>>>>>> 5a14301c (.)
-=======
     level: 7
->>>>>>> 5a14301c (.)
-=======
     level: 7
->>>>>>> 5a14301c (.)
-=======
     level: 7
->>>>>>> 5a14301c (.)
-=======
     level: 7
->>>>>>> cc7fb225 (.)
-=======
     level: 7
->>>>>>> 5a14301c (.)
-=======
     level: 7
->>>>>>> cc7fb225 (.)
-=======
-    level: 7
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     paths:
         - app
         - config
         - database
         - routes
-<<<<<<< HEAD
         - tests
         - tests
         - tests
         - tests
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         - tests
->>>>>>> 5a14301c (.)
-=======
         - tests
->>>>>>> 5a14301c (.)
-=======
         - tests
->>>>>>> 5a14301c (.)
-=======
         - tests
->>>>>>> 5a14301c (.)
-=======
         - tests
->>>>>>> 5a14301c (.)
-=======
-        - tests
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     excludePaths:
         - app_old/*
         - vendor/*
         - tests/coverage/*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
     treatPhpDocTypesAsCertain: false
     reportUnmatchedIgnoredErrors: false
     checkArgumentsPassedByReference: true
@@ -98,20 +39,6 @@ parameters:
     checkFunctionNameCase: true
     inferPrivatePropertyTypeFromConstructor: true
 
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     checkMissingIterableValueType: true
     checkGenericClassInNonGenericObjectType: true
     checkMissingCallableSignature: true
@@ -139,25 +66,6 @@ parameters:
     # Regole per la documentazione
     checkPhpDocMissingReturn: true
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 services:
     -
         class: PHPStan\Rules\Methods\ReturnTypeRule

@@ -1,291 +1,60 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 # Correzione Struttura Cartelle Docs - Riepilogo Completo
 
 ## Contesto e Problema Identificato
 
-<<<<<<< HEAD
-Durante l'audit del sistema <nome progetto>, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Durante l'audit del sistema <nome progetto>, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
-=======
-Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 5a14301c (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 399f46d3 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 472bd9dc (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 472bd9dc (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 3bf39332 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> cf971011 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> e7da37af (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 472bd9dc (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 3bf39332 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> cf971011 (.)
-=======
-Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> e7da37af (.)
-=======
 Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 Durante l'audit del sistema <nome progetto>, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 43d67f21 (.)
-=======
 Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 5a14301c (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 43d67f21 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> b7ea1cd1 (.)
-=======
 Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 5a14301c (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 43d67f21 (.)
-=======
 Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 5a14301c (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 43d67f21 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> b7ea1cd1 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 76bec91a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 55fe1822 (.)
-=======
 Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 5a14301c (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 43d67f21 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> b7ea1cd1 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 76bec91a (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 55fe1822 (.)
-=======
 Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 5a14301c (.)
-=======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
 ## Violazioni Identificate e Corrette
 
@@ -295,719 +64,194 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 **Stato**: ✅ CORRETTA - Cartella eliminata, documentazione spostata nei moduli
 
 **File migrati**:
-<<<<<<< HEAD
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> 5a14301c (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 399f46d3 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> 5a14301c (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 399f46d3 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 17684f52 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> b7ea1cd1 (.)
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> 5a14301c (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 399f46d3 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> 5a14301c (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 399f46d3 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 17684f52 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> b7ea1cd1 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 88e35986 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> e0b8ebe3 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 76bec91a (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> cc52d333 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 55fe1822 (.)
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> 5a14301c (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 399f46d3 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 43d67f21 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 17684f52 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> b7ea1cd1 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 88e35986 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> e0b8ebe3 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
+- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 76bec91a (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> cc52d333 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 55fe1822 (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/docs/`
->>>>>>> 5a14301c (.)
-=======
-- `modularity-hardcoded-names.md` → `laravel/Modules/Notify/project_docs/`
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 - `modularity-audit-summary.md` → Contenuto integrato nei moduli specifici
 - Altri documenti analizzati e spostati nei moduli appropriati
 
 ### 2. ❌ Cartella `/laravel/docs` nella Root Laravel
-<<<<<<< HEAD
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> 5a14301c (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 399f46d3 (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 43d67f21 (.)
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> 5a14301c (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 399f46d3 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 43d67f21 (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 17684f52 (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> b7ea1cd1 (.)
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> 5a14301c (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 399f46d3 (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 43d67f21 (.)
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> 5a14301c (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 399f46d3 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 43d67f21 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 17684f52 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> b7ea1cd1 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 88e35986 (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> e0b8ebe3 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 76bec91a (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> cc52d333 (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 55fe1822 (.)
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> 5a14301c (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 399f46d3 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 43d67f21 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 17684f52 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> b7ea1cd1 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 88e35986 (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> e0b8ebe3 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
+**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 76bec91a (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> cc52d333 (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
-=======
 **Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 **Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 55fe1822 (.)
-=======
-**Problema**: Cartella `laravel/docs/` contenente 30+ file di documentazione
->>>>>>> 5a14301c (.)
-=======
-**Problema**: Cartella `laravel/project_docs/` contenente 30+ file di documentazione
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 **Impatto**: Violazione architettura modulare, documentazione non co-locata
 **Stato**: ✅ CORRETTA - Cartella eliminata, documentazione spostata nei moduli
 
 **File migrati**:
-<<<<<<< HEAD
-- `eloquent-unit-tests.md` → `laravel/Modules/<nome modulo>/project_docs/testing/`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- `eloquent-unit-tests.md` → `laravel/Modules/<nome modulo>/project_docs/testing/`
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> 5a14301c (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 399f46d3 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 43d67f21 (.)
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> 5a14301c (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 399f46d3 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 43d67f21 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 17684f52 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> b7ea1cd1 (.)
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> 5a14301c (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 399f46d3 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 43d67f21 (.)
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> 5a14301c (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 399f46d3 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 43d67f21 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 17684f52 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> b7ea1cd1 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 88e35986 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> e0b8ebe3 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 76bec91a (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> cc52d333 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 55fe1822 (.)
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> 5a14301c (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 399f46d3 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 43d67f21 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 17684f52 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> b7ea1cd1 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 88e35986 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> e0b8ebe3 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 76bec91a (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> cc52d333 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 55fe1822 (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/docs/testing/`
->>>>>>> 5a14301c (.)
-=======
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 - Altri documenti analizzati e spostati nei moduli appropriati
 
 ## Regola Critica Implementata
@@ -1015,138 +259,6 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 ### **Struttura Cartelle Docs - Mai Cartelle Docs nella Root**
 
 **REGOLA ASSOLUTAMENTE VIETATA**:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 - ❌ `/var/www/html/_bases/base_{nome_progetto}/project_docs/` (root progetto)
 - ❌ `/var/www/html/_bases/base_{nome_progetto}/laravel/project_docs/` (root Laravel)
 
@@ -1154,101 +266,6 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 - ✅ `laravel/Modules/{ModuleName}/project_docs/` - Documentazione del modulo
 - ✅ `laravel/Modules/{ModuleName}/project_docs/{categoria}/` - Sottocategorie
 - ✅ `laravel/Modules/{ModuleName}/project_docs/README.md` - Documentazione principale
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
 - ❌ `/var/www/html/_bases/base_{nome_progetto}/docs/` (root progetto)
 - ❌ `/var/www/html/_bases/base_{nome_progetto}/laravel/docs/` (root Laravel)
 
@@ -1256,133 +273,6 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 - ✅ `laravel/Modules/{ModuleName}/docs/` - Documentazione del modulo
 - ✅ `laravel/Modules/{ModuleName}/docs/{categoria}/` - Sottocategorie
 - ✅ `laravel/Modules/{ModuleName}/docs/README.md` - Documentazione principale
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
 ## Motivazioni Critiche
 
@@ -1430,138 +320,6 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 ```
 laravel/
 ├── Modules/
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 │   ├── Notify/project_docs/           # ✅ Documentazione modulo Notify
 │   ├── User/project_docs/             # ✅ Documentazione modulo User
 │   ├── UI/project_docs/               # ✅ Documentazione modulo UI
@@ -1574,88 +332,34 @@ laravel/
 │   ├── Lang/project_docs/             # ✅ Documentazione modulo Lang
 │   ├── Activity/project_docs/         # ✅ Documentazione modulo Activity
 │   ├── Job/project_docs/              # ✅ Documentazione modulo Job
-<<<<<<< HEAD
-│   ├── <nome modulo>/project_docs/         # ✅ Documentazione modulo <nome modulo>
-│   └── <nome progetto>/project_docs/        # ✅ Documentazione modulo <nome progetto>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-│   ├── <nome modulo>/project_docs/         # ✅ Documentazione modulo <nome modulo>
-│   └── <nome progetto>/project_docs/        # ✅ Documentazione modulo <nome progetto>
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 399f46d3 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 399f46d3 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 17684f52 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 399f46d3 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 399f46d3 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 17684f52 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 88e35986 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> e0b8ebe3 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> cc52d333 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 399f46d3 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 17684f52 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 88e35986 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> e0b8ebe3 (.)
-=======
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> cc52d333 (.)
-=======
-│   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
-│   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ├── Themes/
 │   ├── One/project_docs/              # ✅ Documentazione tema One
 │   └── Two/project_docs/              # ✅ Documentazione tema Two
@@ -1664,101 +368,6 @@ laravel/
 # ❌ NON ESISTONO PIÙ:
 # ./project_docs/                      # Root progetto
 # ./laravel/project_docs/              # Root Laravel
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
 │   ├── Notify/docs/           # ✅ Documentazione modulo Notify
 │   ├── User/docs/             # ✅ Documentazione modulo User
 │   ├── UI/docs/               # ✅ Documentazione modulo UI
@@ -1773,83 +382,24 @@ laravel/
 │   ├── Job/docs/              # ✅ Documentazione modulo Job
 │   ├── SaluteMo/docs/         # ✅ Documentazione modulo SaluteMo
 │   └── <nome modulo>/docs/        # ✅ Documentazione modulo 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 │   └── SaluteOra/docs/        # ✅ Documentazione modulo SaluteOra
-=======
 │   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> d86d643a (.)
-=======
+│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
 │   └── SaluteOra/docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 5a14301c (.)
-=======
 │   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> d86d643a (.)
-=======
-│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> 472bd9dc (.)
-=======
 │   └── SaluteOra/docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 5a14301c (.)
-=======
 │   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> d86d643a (.)
-=======
+│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
+│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
+│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
+│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
 │   └── SaluteOra/docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 5a14301c (.)
-=======
 │   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> d86d643a (.)
-=======
 │   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> 472bd9dc (.)
-=======
 │   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> 3bf39332 (.)
-=======
 │   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> cf971011 (.)
-=======
 │   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> e7da37af (.)
-=======
 │   └── SaluteOra/docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 5a14301c (.)
-=======
-│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> d86d643a (.)
-=======
-│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> 472bd9dc (.)
-=======
-│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> 3bf39332 (.)
-=======
-│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> cf971011 (.)
-=======
-│   └── <nome progetto>/docs/        # ✅ Documentazione modulo <nome progetto>
->>>>>>> e7da37af (.)
-=======
-│   └── SaluteOra/docs/        # ✅ Documentazione modulo SaluteOra
->>>>>>> 5a14301c (.)
 ├── Themes/
 │   ├── One/docs/              # ✅ Documentazione tema One
 │   └── Two/docs/              # ✅ Documentazione tema Two
@@ -1858,133 +408,6 @@ laravel/
 # ❌ NON ESISTONO PIÙ:
 # ./docs/                      # Root progetto
 # ./laravel/docs/              # Root Laravel
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ```
 
 ## Regole e Memorie Implementate
@@ -2071,351 +494,28 @@ find laravel/Themes -name "docs" -type d
 - [Memoria Cursor](../../../.cursor/memories/docs-structure-violation.mdc)
 
 ### **Documentazione Moduli**:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
 - [Modulo <nome modulo>](../<nome modulo>/project_docs/)
 - [Modulo <nome progetto>](../<nome progetto>/project_docs/)
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 - [Modulo Notify](../Notify/docs/)
 - [Modulo User](../User/docs/)
 - [Modulo UI](../UI/docs/)
 - [Modulo SaluteMo](../SaluteMo/docs/)
 - [Modulo ](../<nome modulo>/docs/)
 - [Modulo SaluteOra](../SaluteOra/docs/)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 399f46d3 (.)
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
 - [Modulo SaluteMo](../SaluteMo/project_docs/)
 - [Modulo SaluteOra](../SaluteOra/project_docs/)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 - [Modulo Notify](../Notify/docs/)
 - [Modulo User](../User/docs/)
 - [Modulo UI](../UI/docs/)
 - [Modulo SaluteMo](../SaluteMo/docs/)
 - [Modulo ](../<nome modulo>/docs/)
 - [Modulo <nome progetto>](../<nome progetto>/docs/)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
 ### **Documentazione Correlata**:
 - [Regole Modularità](modularity-hardcoded-names.md)
@@ -2431,51 +531,3 @@ find laravel/Themes -name "docs" -type d
 **Responsabile**: Team di sviluppo Laraxot
 **Verificato**: ✅ Conformità completa raggiunta
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

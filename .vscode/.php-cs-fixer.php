@@ -7,6 +7,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 
+=======
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
 declare(strict_types=1);
 
 
@@ -329,24 +337,21 @@ declare(strict_types=1);
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
+>>>>>>> 7e824610 (.)
 declare(strict_types=1);
 
 
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> ca9324a4 (.)
-=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> f1d4085 (.)
@@ -412,246 +417,87 @@ declare(strict_types=1);
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 7e824610 (.)
 declare(strict_types=1);
 
 
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 17684f52 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> 9db27d12 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> ca9324a4 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 17684f52 (.)
-=======
 declare(strict_types=1);
 
 
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> d2b0a27 (.)
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
 =======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> b7afadf9 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 300ef70 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6dcebf8a (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 71586de2 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> cafe8bed (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> e0b8ebe3 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> b956ebe0 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 17684f52 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 71586de2 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> cafe8bed (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> e0b8ebe3 (.)
-=======
-declare(strict_types=1);
-
-
 >>>>>>> b956ebe0 (.)
 =======
 declare(strict_types=1);
@@ -674,6 +520,7 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> 399f46d3 (.)
 >>>>>>> laraxot/develop
+>>>>>>> 7e824610 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -714,5 +561,9 @@ $config
 <<<<<<< HEAD
 return $config;
 =======
+<<<<<<< HEAD
+return $config;
+=======
 return $config;
 >>>>>>> laraxot/develop
+>>>>>>> 7e824610 (.)

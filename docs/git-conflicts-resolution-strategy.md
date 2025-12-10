@@ -10,27 +10,9 @@
 
 ### Perché i Conflitti Esistono
 
-<<<<<<< HEAD
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
-=======
 I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
->>>>>>> 53d6a6ba (.)
-=======
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
->>>>>>> 71586de2 (.)
-=======
-I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
->>>>>>> 53d6a6ba (.)
-=======
-I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
 
 1. **Bloccano l'esecuzione**: File con marker non sono validi PHP
 2. **Degradano qualità**: PHPStan e linter falliscono
@@ -165,45 +147,13 @@ public function test_example() {
 
 ### Fase 1: Analisi File
 
-<<<<<<< HEAD
 # Identifico conflitti
 
 # Conto sezioni conflittuali
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Identifico conflitti
-
-# Conto sezioni conflittuali
-=======
 ```bash
-=======
->>>>>>> 71586de2 (.)
 # Identifico conflitti
 
 # Conto sezioni conflittuali
-<<<<<<< HEAD
-grep -c "<<<<<<< HEAD" file.php
-```
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-```bash
-=======
->>>>>>> 71586de2 (.)
-# Identifico conflitti
-
-# Conto sezioni conflittuali
-<<<<<<< HEAD
-grep -c "<<<<<<< HEAD" file.php
-```
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
 
 ### Fase 2: Decisione Strategica
 
@@ -218,11 +168,6 @@ grep -c "<<<<<<< HEAD" file.php
 1. **Backup mentale**: Capisco ENTRAMBE le versioni
 2. **Scelta informata**: Seleziono versione migliore
 3. **Consolidamento**: Unisco parti valide se necessario
-<<<<<<< HEAD
-4. **Pulizia marker**: Rimuovo TUTTI i `<<<<<<<`, `=======`, `>>>>>>>`
-=======
-4. **Pulizia marker**: Rimuovo TUTTI i `[CONFLICT START]`, `[CONFLICT SEPARATOR]`, `[CONFLICT END]`
->>>>>>> laraxot/develop
 5. **Verifica sintassi**: `php -l file.php`
 6. **Verifica PHPStan**: `./vendor/bin/phpstan analyse file.php`
 
@@ -242,36 +187,14 @@ grep -c "<<<<<<< HEAD" file.php
 - **Performance:** Test suite < 30 secondi
 
 ### Tracking
-<<<<<<< HEAD
-
-# Conta conflitti rimanenti
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-# Conta conflitti rimanenti
-=======
-=======
->>>>>>> 53d6a6ba (.)
 ```bash
 # Conta conflitti rimanenti
 find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc -l
 ```
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
 
 # Conta conflitti rimanenti
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
 
 # Conta conflitti rimanenti
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
 
 ## Best Practices Emerse
 
@@ -306,17 +229,6 @@ I conflitti sono stati causati da:
 ### Prevenzione Futura
 
 **Git Hooks:**
-<<<<<<< HEAD
-# pre-commit: blocca commit con conflitti
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# pre-commit: blocca commit con conflitti
-=======
-=======
->>>>>>> 53d6a6ba (.)
 ```bash
 # pre-commit: blocca commit con conflitti
 if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; then
@@ -324,17 +236,8 @@ if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; the
     exit 1
 fi
 ```
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
 # pre-commit: blocca commit con conflitti
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
 # pre-commit: blocca commit con conflitti
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
 
 **CI/CD:**
 - Aggiungere check per marker conflitti

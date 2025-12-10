@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 # Regole per i Percorsi Relativi nella Documentazione
 
 > **Collegamenti correlati**
@@ -78,255 +36,65 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 
 1. **MAI utilizzare percorsi assoluti** come:
    ```markdown
-<<<<<<< HEAD
-   [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-   [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
-=======
-   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
-   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 5a14301c (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 472bd9dc (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 472bd9dc (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 3bf39332 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> cf971011 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> e7da37af (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 472bd9dc (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 3bf39332 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> cf971011 (.)
-=======
-   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> e7da37af (.)
-=======
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 5a14301c (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 5a14301c (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 5a14301c (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 76bec91a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 55fe1822 (.)
-=======
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 5a14301c (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 76bec91a (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 55fe1822 (.)
-=======
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 5a14301c (.)
-=======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:
@@ -378,51 +146,3 @@ L'uso di percorsi relativi garantisce che la documentazione funzioni correttamen
 
 - [Markdown Link Syntax](https://www.markdownguide.org/basic-syntax/#links)
 - [Relative vs Absolute URLs](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

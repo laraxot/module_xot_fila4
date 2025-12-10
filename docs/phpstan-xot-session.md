@@ -21,18 +21,3 @@
 - mantenere l'uso delle Assert solo dove realmente necessario (niente assert ridondanti su variabili già tipizzate)
 
 
-<<<<<<< HEAD
-
-
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 249a0067 (.)
->>>>>>> laraxot/develop

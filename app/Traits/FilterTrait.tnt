@@ -172,37 +172,15 @@ function ($item, $key) use ($lang) {
             } else {
                 $value = $params[$key];
                 //self::indexIfNotExistsStatic($el, $tbl, $conn);
-<<<<<<< HEAD
                 //dd(new self);
                 //dd(new self);
                 //dd(new self);
                 //dd(new self);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
-                //dd(new self);
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 (new self())->indexIfNotExists($el);
                 //$rows=$rows->where($el, $value);
                 $where[$el] = $value;
@@ -259,95 +237,33 @@ function ($item, $key) use ($lang) {
         //echo '<pre>';print_r($params);echo '</pre>';
         //$dbSchemaManager = $conn->getDoctrineSchemaManager();
         //$doctrineTable = $dbSchemaManager->listTableDetails($tbl);
-<<<<<<< HEAD
         //dd($doctrineTable);
         //dd($doctrineTable);
         //dd($doctrineTable);
         //dd($doctrineTable);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         //dd($doctrineTable);
->>>>>>> 5a14301c (.)
-=======
         //dd($doctrineTable);
->>>>>>> 5a14301c (.)
-=======
         //dd($doctrineTable);
->>>>>>> 5a14301c (.)
-=======
         //dd($doctrineTable);
->>>>>>> 5a14301c (.)
-=======
         //dd($doctrineTable);
->>>>>>> 5a14301c (.)
-=======
-        //dd($doctrineTable);
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         //------------------------
         $schema = $conn->getSchemaBuilder();
         $fields = collect($schema->getColumnListing($tbl));
 
         $trad = \explode('\\', __CLASS__);
         $trad = \mb_strtolower($trad[1]);
-<<<<<<< HEAD
         $lang = trans($trad.'::'.$tbl);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $lang = trans($trad.'::'.$tbl);
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         //dd($params);
         //dd($trad.'::'.$tbl);
         $lang = trans($trad.'::'.$tbl);
         //dd($lang);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
         if (! \is_array($lang)) {
             $lang = [];
         } //anche se non esiste
 
         $trans_file = $trad.'::link_'.$tbl;
-<<<<<<< HEAD
         $lang_link = trans($trans_file);
         //dd($trans_file);
         $lang_link = trans($trans_file);
@@ -361,101 +277,39 @@ function ($item, $key) use ($lang) {
         //dd($trans_file);
         $lang_link = trans($trans_file);
         //dd($lang_link);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $lang_link = trans($trans_file);
-=======
         //dd($trans_file);
         $lang_link = trans($trans_file);
         //dd($lang_link);
->>>>>>> 5a14301c (.)
-=======
         //dd($trans_file);
         $lang_link = trans($trans_file);
         //dd($lang_link);
->>>>>>> 5a14301c (.)
-=======
         //dd($trans_file);
         $lang_link = trans($trans_file);
         //dd($lang_link);
->>>>>>> 5a14301c (.)
-=======
         //dd($trans_file);
         $lang_link = trans($trans_file);
         //dd($lang_link);
->>>>>>> 5a14301c (.)
-=======
         //dd($trans_file);
         $lang_link = trans($trans_file);
         //dd($lang_link);
->>>>>>> 5a14301c (.)
-=======
-        //dd($trans_file);
-        $lang_link = trans($trans_file);
-        //dd($lang_link);
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         if (\is_array($lang_link)) {
             $lang = $lang_link;
         }
 
         $lang = \array_flip($lang);
         //echo '<pre>';print_r($lang);echo '</pre>';
-<<<<<<< HEAD
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         //dd(get_class());
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
         //dd($parz);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         $parz = $parz->map(
 function ($item, $key) use ($lang) {
             if (isset($lang[$item])) {
@@ -465,37 +319,15 @@ function ($item, $key) use ($lang) {
             return $item;
         });
         $intersect = $fields->intersect($parz);
-<<<<<<< HEAD
         //dd($intersect);
         //dd($intersect);
         //dd($intersect);
         //dd($intersect);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         //dd($intersect);
->>>>>>> 5a14301c (.)
-=======
         //dd($intersect);
->>>>>>> 5a14301c (.)
-=======
         //dd($intersect);
->>>>>>> 5a14301c (.)
-=======
         //dd($intersect);
->>>>>>> 5a14301c (.)
-=======
         //dd($intersect);
->>>>>>> 5a14301c (.)
-=======
-        //dd($intersect);
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         foreach ($intersect->all() as $el) {
             $key = trans($trad.'::'.$tbl.'.'.$el);
             $key_link = trans($trad.'::link_'.$tbl.'.'.$el);
@@ -510,37 +342,15 @@ function ($item, $key) use ($lang) {
             } else {
                 $value = $params[$key];
                 //self::indexIfNotExistsStatic($el, $tbl, $conn);
-<<<<<<< HEAD
                 //dd(new self);
                 //dd(new self);
                 //dd(new self);
                 //dd(new self);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
                 //dd(new self);
->>>>>>> 5a14301c (.)
-=======
-                //dd(new self);
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 (new self())->indexIfNotExists($el);
                 $rows = $rows->where($el, $value);
             }
@@ -551,7 +361,6 @@ function ($item, $key) use ($lang) {
             //$rows->indexIfNotExists($lang['ann']);
             $rows = $rows->whereRaw($lang['ann'].'=""');
         }
-<<<<<<< HEAD
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
@@ -564,44 +373,21 @@ function ($item, $key) use ($lang) {
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
->>>>>>> 5a14301c (.)
-=======
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
->>>>>>> 5a14301c (.)
-=======
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
->>>>>>> 5a14301c (.)
-=======
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
->>>>>>> 5a14301c (.)
-=======
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
->>>>>>> 5a14301c (.)
-=======
-        //dd(self::$single_date);
-        //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
-        //dd(trans($trad.'::'.$tbl.'.single_date'));
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
         //echo '<pre>';print_r($params);echo '</pre>';
         if (isset($params['date_between'])) {

@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # DIVIETO ASSOLUTO DI IMPLEMENTARE table()
 
 ## Regola Fondamentale Inviolabile
@@ -173,394 +128,121 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 
 ## Link a Risorse Correlate
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 - [Regole per RelationManager](/docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/docs/filament/teams_relation_manager.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: 3 Giugno 2025*
-=======
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
-=======
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 399f46d3 (.)
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> d86d643a (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> d86d643a (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 472bd9dc (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> b7ea1cd1 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> d86d643a (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> d86d643a (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 472bd9dc (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> cf971011 (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 76bec91a (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> e7da37af (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 55fe1822 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
 
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 6d05deed (.)
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> d86d643a (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 43d67f21 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 472bd9dc (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> cf971011 (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 76bec91a (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> e7da37af (.)
-=======
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 55fe1822 (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 90d386aa (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 6d05deed (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 399f46d3 (.)

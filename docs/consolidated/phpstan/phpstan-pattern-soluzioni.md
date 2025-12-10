@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # Pattern e Soluzioni per PHPStan Livello 10 - Modulo Xot
 
 Questo documento raccoglie i pattern comuni di errori PHPStan di livello 10 nel modulo Xot e le soluzioni standard implementate.
@@ -323,138 +278,20 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 
 1. Applicare sistematicamente questi pattern a tutto il codice del modulo Xot
 2. Estendere questi pattern ad altri moduli del progetto
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> d86d643a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> d86d643a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> 472bd9dc (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> 3bf39332 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> cf971011 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> e7da37af (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> d86d643a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> 472bd9dc (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> 3bf39332 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> cf971011 (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 6d05deed (.)
-=======
->>>>>>> 5a14301c (.)
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 ## Collegamenti tra versioni di PHPSTAN_PATTERN_SOLUZIONI.md
 * [PHPSTAN_PATTERN_SOLUZIONI.md](../../../Xot/project_docs/phpstan/PHPSTAN_PATTERN_SOLUZIONI.md)
@@ -473,202 +310,40 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 ---
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 43d67f21 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 43d67f21 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 76bec91a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 55fe1822 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 90d386aa (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6d05deed (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
->>>>>>> 6d05deed (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 5a14301c (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 399f46d3 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 43d67f21 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 17684f52 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 88e35986 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> e0b8ebe3 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 76bec91a (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> cc52d333 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 55fe1822 (.)
-=======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 6d05deed (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 5a14301c (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 399f46d3 (.)

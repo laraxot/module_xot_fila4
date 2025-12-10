@@ -4,240 +4,36 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Schemas\Components\Component;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
 use Filament\Schemas\Components\Component;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
-=======
->>>>>>> a12f125f4a (.)
-=======
 use Filament\Schemas\Components\Component;
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Schemas\Schema;
 use Filament\Forms;
-<<<<<<< HEAD
 use Filament\Forms;
 use Filament\Forms\ComponentContainer;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
 use Filament\Forms;
 use Filament\Forms\ComponentContainer;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Filament\Widgets\Widget;
 use Illuminate\Support\Arr;
 use Modules\Xot\Datas\EnvData;
 
 /**
-<<<<<<< HEAD
  * @property Schema $form
  */
 class EnvWidget extends Widget implements HasActions, HasForms
@@ -267,224 +63,44 @@ class EnvWidget extends Widget implements HasForms, HasActions
 class EnvWidget extends Widget implements HasForms, HasActions
 class EnvWidget extends Widget implements HasForms, HasActions
 class EnvWidget extends Widget implements HasForms, HasActions
-=======
-<<<<<<< HEAD
  * @property Schema $form
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 class EnvWidget extends Widget implements HasActions, HasForms
-=======
 class EnvWidget extends Widget implements HasForms, HasActions
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-class EnvWidget extends Widget implements HasForms, HasActions
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  * @property Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
  * @property \Filament\Schemas\Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions, HasActions
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
  * @property \Filament\Schemas\Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions, HasActions
->>>>>>> 399f46d3 (.)
-=======
  * @property \Filament\Schemas\Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions, HasActions
->>>>>>> 399f46d3 (.)
-=======
  * @property \Filament\Schemas\Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions, HasActions
->>>>>>> 399f46d3 (.)
-=======
  * @property \Filament\Schemas\Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions, HasActions
->>>>>>> 399f46d3 (.)
-=======
- * @property \Filament\Schemas\Schema $form
- */
-class EnvWidget extends Widget implements HasForms, HasActions, HasActions
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
  * @property Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
 class EnvWidget extends Widget implements HasForms, HasActions
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
  * @property Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
 class EnvWidget extends Widget implements HasForms, HasActions
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
 class EnvWidget extends Widget implements HasForms, HasActions
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
 class EnvWidget extends Widget implements HasForms, HasActions
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
 class EnvWidget extends Widget implements HasForms, HasActions
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 {
     use InteractsWithActions;
     use InteractsWithForms;
 
     /** @var array<string, mixed>|null */
-<<<<<<< HEAD
     public ?array $data = [];
     public null|array $data = [];
     public null|array $data = [];
@@ -519,231 +135,50 @@ class EnvWidget extends Widget implements HasForms, HasActions
     public null|array $data = [];
     public null|array $data = [];
     public null|array $data = [];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?array $data = [];
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
     public null|array $data = [];
->>>>>>> 3fbbf1f5 (.)
-=======
     public null|array $data = [];
-=======
     public null|array $data = [];
->>>>>>> 399f46d3 (.)
-=======
     public null|array $data = [];
->>>>>>> 399f46d3 (.)
-=======
     public null|array $data = [];
->>>>>>> 399f46d3 (.)
-=======
     public null|array $data = [];
->>>>>>> 399f46d3 (.)
-=======
     public null|array $data = [];
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
     public null|array $data = [];
-=======
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
     public ?array $data = [];
->>>>>>> a12f125f4a (.)
-=======
     public null|array $data = [];
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
     public null|array $data = [];
->>>>>>> ca9324a4 (.)
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
     public null|array $data = [];
-=======
+    public null|array $data = [];
     public ?array $data = [];
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
     public null|array $data = [];
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public null|array $data = [];
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public null|array $data = [];
->>>>>>> ca9324a4 (.)
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
     public null|array $data = [];
-=======
     public ?array $data = [];
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public null|array $data = [];
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public null|array $data = [];
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public null|array $data = [];
->>>>>>> ca9324a4 (.)
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
     public null|array $data = [];
-=======
     public ?array $data = [];
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public null|array $data = [];
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public null|array $data = [];
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public null|array $data = [];
->>>>>>> ca9324a4 (.)
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
     public null|array $data = [];
-=======
     public ?array $data = [];
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public null|array $data = [];
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public null|array $data = [];
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    public null|array $data = [];
->>>>>>> ca9324a4 (.)
-=======
-    public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
-    public null|array $data = [];
-=======
-    public ?array $data = [];
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-    public null|array $data = [];
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    public null|array $data = [];
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     public array $only = [];
 
     protected string $view = 'xot::filament.widgets.env';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
- * @property ComponentContainer $form
- */
-class EnvWidget extends Widget implements HasForms
-{
-    use InteractsWithForms;
-
-    /** @var array<string, mixed>|null */
-    public ?array $data = [];
-
-    public array $only = [];
-
-    protected static string $view = 'xot::filament.widgets.env';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     public function mount(): void
     {
@@ -754,46 +189,26 @@ class EnvWidget extends Widget implements HasForms
         $this->form->fill($this->data);
     }
 
-<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
-=======
-<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
-=======
-<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
-=======
-        return $schema
-            ->components($this->getFormSchema())
-            ->columns(1)
-            ->statePath('data');
->>>>>>> a12f125f4a (.)
-=======
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
->>>>>>> b93ef594b4 (.)
-=======
     public function form(Forms\Form $form): Forms\Form
     {
         return $form
             ->schema($this->getFormSchema())
             ->columns(1)
             ->statePath('data');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     }
 
     public function submit(): void
     {
-<<<<<<< HEAD
         if (! is_array($this->data)) {
         if (!is_array($this->data)) {
         if (!is_array($this->data)) {
@@ -829,211 +244,47 @@ class EnvWidget extends Widget implements HasForms
         if (!is_array($this->data)) {
         if (!is_array($this->data)) {
         if (!is_array($this->data)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! is_array($this->data)) {
-=======
         if (!is_array($this->data)) {
->>>>>>> 5a14301c (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 3fbbf1f5 (.)
-=======
         if (!is_array($this->data)) {
-=======
         if (!is_array($this->data)) {
->>>>>>> 399f46d3 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 399f46d3 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 399f46d3 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 399f46d3 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!is_array($this->data)) {
-=======
         if (! is_array($this->data)) {
->>>>>>> a12f125f4a (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> b93ef594b4 (.)
-=======
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
         if (! is_array($this->data)) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> ca9324a4 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
         if (!is_array($this->data)) {
-=======
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
         if (! is_array($this->data)) {
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
         if (!is_array($this->data)) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> ca9324a4 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 5a14301c (.)
-=======
         if (!is_array($this->data)) {
-=======
         if (! is_array($this->data)) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         if (!is_array($this->data)) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> ca9324a4 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 5a14301c (.)
-=======
         if (!is_array($this->data)) {
-=======
         if (! is_array($this->data)) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         if (!is_array($this->data)) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> ca9324a4 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 5a14301c (.)
-=======
         if (!is_array($this->data)) {
-=======
         if (! is_array($this->data)) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
         if (!is_array($this->data)) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
         if (!is_array($this->data)) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-        if (!is_array($this->data)) {
->>>>>>> ca9324a4 (.)
-=======
-        if (!is_array($this->data)) {
->>>>>>> 5a14301c (.)
-=======
-        if (!is_array($this->data)) {
-=======
-        if (! is_array($this->data)) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        if (!is_array($this->data)) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        if (!is_array($this->data)) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
             return;
         }
         EnvData::make()->update($this->data);
@@ -1041,15 +292,6 @@ class EnvWidget extends Widget implements HasForms
             ->title('Saved successfully')
             ->success()
             ->send();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
         /*
          * dddx([
@@ -1061,14 +303,6 @@ class EnvWidget extends Widget implements HasForms
 
     /**
      * @return array<Component>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
-
->>>>>>> b93ef594b4 (.)
         /*
          * dddx([
          * 'data' => $this->data,
@@ -1078,13 +312,8 @@ class EnvWidget extends Widget implements HasForms
     }
 
     /**
-<<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
->>>>>>> a12f125f4a (.)
-=======
      * @return array<Component>
->>>>>>> b93ef594b4 (.)
-=======
         /*
         dddx([
             'data' => $this->data,
@@ -1095,36 +324,17 @@ class EnvWidget extends Widget implements HasForms
 
     /**
      * @return array<Forms\Components\Component>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      */
     public function getFormSchema(): array
     {
         $all = [
             'app_url' => TextInput::make('app_url')
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
                 ->placeholder('http://localhost')
                 ->helperText('Required for file uploads and other internal configs')
                 ->required(),
             'debugbar_enabled' => Toggle::make('debugbar_enabled')->helperText(
                 'Enable/Disable debug mode to help debug errors',
             ),
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
 
                 ->placeholder('http://localhost')
                 ->helperText('Required for file uploads and other internal configs')
@@ -1132,20 +342,12 @@ class EnvWidget extends Widget implements HasForms
             'debugbar_enabled' => Toggle::make('debugbar_enabled')
 
                 ->helperText('Enable/Disable debug mode to help debug errors'),
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
                 ->placeholder('http://localhost')
                 ->helperText('Required for file uploads and other internal configs')
                 ->required(),
             'debugbar_enabled' => Toggle::make('debugbar_enabled')->helperText(
                 'Enable/Disable debug mode to help debug errors',
             ),
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             'google_maps_api_key' => TextInput::make('google_maps_api_key')
                 ->placeholder('AIzaSyAuB_...')
                 ->helperText('google maps api key'),
@@ -1155,7 +357,6 @@ class EnvWidget extends Widget implements HasForms
         ];
 
         /**
-<<<<<<< HEAD
          * @var array<Component>
          */
         return Arr::only($all, $this->only);
@@ -1171,62 +372,26 @@ class EnvWidget extends Widget implements HasForms
         $fields = Arr::only($all, $this->only);
 
         return $fields;
-=======
-<<<<<<< HEAD
          * @var array<Component>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
          * @var array<Component>
-=======
-         * @var array<\Filament\Schemas\Components\Component>
->>>>>>> a12f125f4a (.)
-=======
          * @var array<Component>
->>>>>>> b93ef594b4 (.)
-=======
          * @var array<Forms\Components\Component>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
          */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         return Arr::only($all, $this->only);
-=======
         $fields = Arr::only($all, $this->only);
 
         return $fields;
->>>>>>> 5a14301c (.)
-=======
         $fields = Arr::only($all, $this->only);
 
         return $fields;
->>>>>>> 5a14301c (.)
-=======
         $fields = Arr::only($all, $this->only);
 
         return $fields;
->>>>>>> 5a14301c (.)
-=======
         $fields = Arr::only($all, $this->only);
 
         return $fields;
->>>>>>> 5a14301c (.)
-=======
         $fields = Arr::only($all, $this->only);
 
         return $fields;
->>>>>>> 5a14301c (.)
-=======
-        $fields = Arr::only($all, $this->only);
-
-        return $fields;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     }
 }

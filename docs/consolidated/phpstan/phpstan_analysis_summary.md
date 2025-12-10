@@ -19,11 +19,6 @@ Based on the latest analysis:
 ### Common Error Types
 
 #### 1. Class Not Found Errors (15%)
-<<<<<<< HEAD
-- Missing classes from Modules\<nome progetto>\Models namespace
-=======
-- Missing classes from Modules\SaluteOra\Models namespace
->>>>>>> laraxot/develop
 - Missing traits (EnumTrait from Modules\Core\Traits)
 - Undefined classes in factories
 
@@ -70,11 +65,6 @@ Based on the latest analysis:
 
 ### Notify Module
 **Key Issues**:
-<<<<<<< HEAD
-- Missing <nome progetto> model classes
-=======
-- Missing SaluteOra model classes
->>>>>>> laraxot/develop
 - String function parameter type issues
 - Method not found errors on models
 
@@ -97,11 +87,6 @@ Based on the latest analysis:
 **Solution**:
 ```php
 // Use class_exists checks before referencing
-<<<<<<< HEAD
-if (!class_exists('Modules\\<nome progetto>\\Models\\Appointment')) {
-=======
-if (!class_exists('Modules\\SaluteOra\\Models\\Appointment')) {
->>>>>>> laraxot/develop
     // Handle missing class gracefully
     throw new \Exception('Required class not available');
 }
@@ -197,11 +182,6 @@ vendor/bin/phpstan analyse --generate-baseline
 ## Remaining Issues Requiring Manual Intervention
 
 ### High Priority
-<<<<<<< HEAD
-1. **Missing <nome progetto> Models**: Classes referenced but not available
-=======
-1. **Missing SaluteOra Models**: Classes referenced but not available
->>>>>>> laraxot/develop
 2. **Cross-Module Dependencies**: Tight coupling between modules
 3. **Factory Configuration**: Incorrect model references in factories
 

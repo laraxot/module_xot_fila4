@@ -8,146 +8,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Datas;
 
-<<<<<<< HEAD
-use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
-use Spipu\Html2Pdf\Exception\HtmlParsingException;
-=======
-<<<<<<< HEAD
-use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 249a0067 (.)
-use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\File;
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-use Illuminate\Support\Facades\Storage;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 3a08b27 (.)
-=======
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 249a0067 (.)
-use Illuminate\Support\Str;
-use Modules\Xot\Enums\PdfEngineEnum;
-use Spatie\LaravelData\Data;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Spipu\Html2Pdf\Exception\HtmlParsingException;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Spatie\LaravelPdf\Enums\Format;
 use Spatie\LaravelPdf\Enums\Orientation;
 use Spatie\LaravelPdf\Enums\Unit;
 use Spatie\LaravelPdf\Facades\Pdf;
-<<<<<<< HEAD
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
-use Webmozart\Assert\Assert;
-use Exception;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-use Spipu\Html2Pdf\Html2Pdf;
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
-<<<<<<< HEAD
-use Webmozart\Assert\Assert;
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -160,53 +31,10 @@ use Spatie\LaravelPdf\Facades\Pdf;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2850177 (.)
->>>>>>> 3a08b27 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> laraxot/develop
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
-=======
->>>>>>> origin/develop
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Illuminate\Support\Str;
 use Spatie\LaravelData\Data;
 use Spipu\Html2Pdf\Html2Pdf;
@@ -215,18 +43,6 @@ use Spatie\LaravelPdf\Enums\Unit;
 use Spatie\LaravelPdf\Facades\Pdf;
 use Spatie\LaravelPdf\Enums\Format;
 use Modules\Xot\Enums\PdfEngineEnum;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -238,74 +54,15 @@ use Spatie\LaravelPdf\Enums\Unit;
 use Spatie\LaravelPdf\Facades\Pdf;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
-<<<<<<< HEAD
-
 use Webmozart\Assert\Assert;
-=======
-<<<<<<< HEAD
-
->>>>>>> a12f125f4a (.)
-=======
-use Webmozart\Assert\Assert;
->>>>>>> b93ef594b4 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Spatie\LaravelPdf\Enums\Orientation;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
-<<<<<<< HEAD
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-use Spipu\Html2Pdf\Html2Pdf;
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
-use Webmozart\Assert\Assert;
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
 /**
  * Undocumented class.
@@ -338,17 +95,6 @@ class PdfData extends Data
 
     public string $dest = 'F';
     /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      * Dest can be :
      * I : send the file inline to the browser (default). The plug-in is used if available. The name given by name is used when one selects the "Save as" option on the link generating the PDF.
      * D : send to the browser and force a file download with the name given by name.
@@ -358,23 +104,6 @@ class PdfData extends Data
      * FD: equivalent to F + D option
      * E : return the document as base64 mime multi-part email attachment
      */
-<<<<<<< HEAD
-
-    // public static function make(Model $model = null, string $html = null): self
-
-=======
-<<<<<<< HEAD
-
-    // public static function make(Model $model = null, string $html = null): self
-
-=======
-<<<<<<< HEAD
-
-    // public static function make(Model $model = null, string $html = null): self
-
-=======
-=======
->>>>>>> origin/develop
         Dest can be :
         I : send the file inline to the browser (default). The plug-in is used if available. The name given by name is used when one selects the "Save as" option on the link generating the PDF.
         D : send to the browser and force a file download with the name given by name.
@@ -388,17 +117,9 @@ class PdfData extends Data
     // public static function make(Model $model = null, string $html = null): self
 
 
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
 
     // public static function make(Model $model = null, string $html = null): self
 
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     public PdfEngineEnum $engine = PdfEngineEnum::SPIPU;
 
     public string $html = '';
@@ -426,15 +147,6 @@ class PdfData extends Data
     {
         switch ($this->engine) {
             case PdfEngineEnum::SPIPU:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
                 try {
                     $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                     $html2pdf->writeHTML($html);
@@ -456,32 +168,10 @@ class PdfData extends Data
                  *
                  * break;
                  */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                 $html2pdf->writeHTML($html);
                 $html2pdf->output($this->getPath(), $this->dest);
                 break;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
             /*
              * case PdfEngineEnum::SPATIE:
@@ -495,29 +185,8 @@ class PdfData extends Data
              *
              * break;
              */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
         }
 
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
                 /*
             case PdfEngineEnum::SPATIE:
                 Pdf::html($this->html)
@@ -531,10 +200,6 @@ class PdfData extends Data
                 break;
                 */
         }
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> laraxot/develop
 
             /*
              * case PdfEngineEnum::SPATIE:
@@ -550,15 +215,8 @@ class PdfData extends Data
              */
         }
 
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
 
 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         $this->html = $html;
         // $this->engine->build($this);
 
@@ -573,8 +231,6 @@ class PdfData extends Data
         /**
          * @var non-falsy-string&view-string
          */
-<<<<<<< HEAD
-        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
@@ -609,211 +265,11 @@ class PdfData extends Data
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
-=======
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 5a14301c (.)
-=======
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 3fbbf1f5 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
-=======
-        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
->>>>>>> a12f125f4a (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> b93ef594b4 (.)
-=======
-        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> ca9324a4 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
-=======
-        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> ca9324a4 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 5a14301c (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
-=======
-        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> ca9324a4 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 5a14301c (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
-=======
-        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> ca9324a4 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 5a14301c (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
-=======
-        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> ca9324a4 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 5a14301c (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
-=======
-        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -826,77 +282,20 @@ class PdfData extends Data
 
     public function getContent(): string
     {
-<<<<<<< HEAD
         Assert::notNull(
             $res = Storage::disk($this->disk)->get($this->filename),
-            '['.__LINE__.']['.class_basename($this).']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-        Assert::notNull(
-            $res = Storage::disk($this->disk)->get($this->filename),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            '['.__LINE__.']['.class_basename($this).']',
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 3fbbf1f5 (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-        );
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
         Assert::notNull($res = Storage::disk($this->disk)->get($this->filename), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        Assert::notNull($res = Storage::disk($this->disk)->get($this->filename), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
         return $res;
     }
 
-<<<<<<< HEAD
-    /**
-     * @param  array<string, mixed>  $params
     /**
      * @param array<string, mixed> $params
      */
@@ -906,78 +305,6 @@ class PdfData extends Data
     /**
      * @param  array<string, mixed>  $params
      */
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    /**
-     * @param  array<string, mixed>  $params
-=======
-    /**
-     * @param array<string, mixed> $params
->>>>>>> 249a0067 (.)
-=======
-    /**
-     * @param array<string, mixed> $params
->>>>>>> 249a0067 (.)
-     */
-=======
->>>>>>> 53d6a6ba (.)
-=======
-    /**
-     * @param  array<string, mixed>  $params
-     */
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-    /**
-     * @param  array<string, mixed>  $params
-     */
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
     public function view(string $view, array $params = []): self
     {
         if (! view()->exists($view)) {
@@ -986,183 +313,27 @@ class PdfData extends Data
         $out = view($view, $params);
         $this->html = $out->render();
 
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     public function view(string $view, array $params = []): self
     {
         if (!view()->exists($view)) {
             throw new Exception('View ' . $view . ' not found');
-<<<<<<< HEAD
-        }
-        $out = view($view, $params);
-        $this->html = $out->render();
-=======
-<<<<<<< HEAD
-=======
-=======
-    public function view(string $view, array $params=[]): self
-    {
-        if(!view()->exists($view)){
-            throw new Exception('View '.$view.' not found');
->>>>>>> a12f125f4a (.)
-=======
     public function view(string $view, array $params = []): self
     {
         if (!view()->exists($view)) {
             throw new Exception('View ' . $view . ' not found');
->>>>>>> b93ef594b4 (.)
-=======
     public function view(string $view, array $params=[]): self
     {
         if(!view()->exists($view)){
             throw new \Exception('View '.$view.' not found');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
         $out = view($view, $params);
         $this->html = $out->render();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         return $this->fromHtml($this->html);
     }
 
     public function setEngine(PdfEngineEnum $engine): self
     {
         $this->engine = $engine;
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         return $this;
     }
 }

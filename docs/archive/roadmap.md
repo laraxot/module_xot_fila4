@@ -41,15 +41,6 @@
 - [x] Collegamenti bidirezionali
 - [ ] Completamento esempi
 - [ ] Testi in italiano
-<<<<<<< HEAD
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-=======
-<<<<<<< HEAD
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-=======
-  - [Dettagli e Passi](./roadmap/project_docs/status.md)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -244,21 +235,6 @@
 ## Collegamenti Bidirezionali
 
 ### Collegamenti ad Altri Moduli
-<<<<<<< HEAD
-- [Roadmap Modulo User](../User/docs/roadmap.md)
-- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
-- [Roadmap Modulo UI](../UI/docs/roadmap.md)
-=======
-<<<<<<< HEAD
-- [Roadmap Modulo User](../User/docs/roadmap.md)
-- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
-- [Roadmap Modulo UI](../UI/docs/roadmap.md)
-=======
-- [Roadmap Modulo User](../User/project_docs/roadmap.md)
-- [Roadmap Modulo Lang](../Lang/project_docs/roadmap.md)
-- [Roadmap Modulo UI](../UI/project_docs/roadmap.md)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -433,15 +409,6 @@
 ## Riferimenti
 
 ### Documentazione
-<<<<<<< HEAD
-- [Laravel Framework](https://laravel.com/docs/12.x)
-=======
-<<<<<<< HEAD
-- [Laravel Framework](https://laravel.com/docs/12.x)
-=======
-- [Laravel Framework](https://laravel.com/project_docs/12.x)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -456,10 +423,6 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -476,27 +439,6 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
-<<<<<<< HEAD
-=======
-=======
-* [roadmap.md](bashscripts/project_docs/roadmap.md)
-* [roadmap.md](docs/roadmap.md)
-* [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
-* [roadmap.md](../../../Notify/project_docs/roadmap.md)
-* [roadmap.md](../../../Xot/project_docs/roadmap.md)
-* [roadmap.md](../../../Dental/project_docs/roadmap.md)
-* [roadmap.md](../../../User/project_docs/roadmap.md)
-* [roadmap.md](../../../UI/project_docs/roadmap.md)
-* [roadmap.md](../../../Lang/project_docs/roadmap.md)
-* [roadmap.md](../../../Job/project_docs/roadmap.md)
-* [roadmap.md](../../../Media/project_docs/roadmap.md)
-* [roadmap.md](../../../Tenant/project_docs/roadmap.md)
-* [roadmap.md](../../../Activity/project_docs/roadmap.md)
-* [roadmap.md](../../../Patient/project_docs/roadmap.md)
-* [roadmap.md](../../../Cms/project_docs/roadmap.md)
-* [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
 
 ---

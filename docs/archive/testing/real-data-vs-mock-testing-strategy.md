@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -233,248 +191,59 @@ test('complete tax filing process', function () {
 
 ## 🏢 Domain-Specific Recommendations
 
-<<<<<<< HEAD
-### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
-=======
-### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 472bd9dc (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 472bd9dc (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 3bf39332 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> cf971011 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> e7da37af (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 472bd9dc (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 3bf39332 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> cf971011 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> e7da37af (.)
-=======
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 43d67f21 (.)
-=======
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 43d67f21 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> b7ea1cd1 (.)
-=======
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 43d67f21 (.)
-=======
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 43d67f21 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> b7ea1cd1 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 76bec91a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 55fe1822 (.)
-=======
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 43d67f21 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> b7ea1cd1 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 76bec91a (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 55fe1822 (.)
-=======
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -655,248 +424,59 @@ test('legacy feature with mocks', function () {
 
 ### Final Recommendation
 
-<<<<<<< HEAD
-**For <nome progetto> Healthcare Domain**: 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**For <nome progetto> Healthcare Domain**: 
-=======
-**For  Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 472bd9dc (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 472bd9dc (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 3bf39332 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> cf971011 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> e7da37af (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 472bd9dc (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 3bf39332 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> cf971011 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> e7da37af (.)
-=======
 **For  Healthcare Domain**: 
 **For <nome progetto> Healthcare Domain**: 
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 43d67f21 (.)
-=======
 **For  Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 43d67f21 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> b7ea1cd1 (.)
-=======
 **For  Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 43d67f21 (.)
-=======
 **For  Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 43d67f21 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> b7ea1cd1 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 76bec91a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 55fe1822 (.)
-=======
 **For  Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 43d67f21 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> b7ea1cd1 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 76bec91a (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 55fe1822 (.)
-=======
 **For  Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
 **For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -912,51 +492,3 @@ test('legacy feature with mocks', function () {
 **Decision Authority**: Technical Architecture Committee  
 **Implementation Timeline**: 4-week migration  
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop

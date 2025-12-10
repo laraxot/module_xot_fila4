@@ -13,60 +13,18 @@ use Spatie\LaravelData\Data;
 class FilemanagerData extends Data
 {
     /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
      * @param  string  $disk  Disco di storage predefinito
      * @param  array  $disks  Dischi di storage disponibili
      * @param  array  $allowed_ext  Estensioni file consentite
      * @param  int  $max_size  Dimensione massima file in MB
      * @param  string  $route_prefix  Prefisso per le rotte del file manager
      * @param  bool  $enable_crop  Abilita il crop delle immagini
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      * @param string $disk        Disco di storage predefinito
      * @param array  $disks       Dischi di storage disponibili
      * @param array  $allowed_ext Estensioni file consentite
      * @param int    $max_size    Dimensione massima file in MB
      * @param string $route_prefix Prefisso per le rotte del file manager
      * @param bool   $enable_crop Abilita il crop delle immagini
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     public function __construct(
         public readonly string $disk = 'public',
@@ -75,83 +33,21 @@ class FilemanagerData extends Data
         public readonly int $max_size = 10,
         public readonly string $route_prefix = 'filemanager',
         public readonly bool $enable_crop = true,
-<<<<<<< HEAD
     ) {}
+    ) {
+    }
 
     /**
      * Create a new instance of FilemanagerData with default values.
-=======
-<<<<<<< HEAD
-    ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ) {}
-=======
-    ) {
-    }
->>>>>>> a12f125f4a (.)
-=======
-    ) {}
->>>>>>> b93ef594b4 (.)
-=======
-    ) {
-    }
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-
-    /**
-     * Create a new instance of FilemanagerData with default values.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
      */
     public static function make(): static
     {
         return new static;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      *
      * @return static
      */
     public static function make(): static
     {
         return new static();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     }
 }

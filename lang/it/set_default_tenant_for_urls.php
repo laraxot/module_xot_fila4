@@ -1,61 +1,23 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
 
 
 
 
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 return [
     'actions' => [
         'authenticate' => [
             'label' => 'authenticate',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
             'icon' => 'ui-authenticate',
             'tooltip' => 'authenticate',
         ],
@@ -68,45 +30,12 @@ return [
             'label' => 'request',
             'tooltip' => 'request',
             'icon' => 'request',
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         ],
         'login' => [
             'label' => 'login',
         ],
         'request' => [
             'label' => 'request',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         ],
         'activeLocale' => [
             'label' => 'activeLocale',
@@ -126,15 +55,6 @@ return [
         'create' => [
             'label' => 'create',
         ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
         'hidePassword' => [
             'icon' => 'hidePassword',
             'label' => 'hidePassword',
@@ -145,21 +65,6 @@ return [
             'label' => 'showPassword',
             'tooltip' => 'showPassword',
         ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     ],
     'fields' => [
         'email' => [
@@ -400,39 +305,18 @@ return [
                 'placeholder' => 'zeusData.2',
                 'label' => 'zeusData.2',
             ],
-<<<<<<< HEAD
             [
             4 => [
             4 => [
             4 => [
             4 => [
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             [
-=======
             4 => [
->>>>>>> 5a14301c (.)
-=======
             4 => [
->>>>>>> 5a14301c (.)
-=======
             4 => [
->>>>>>> 5a14301c (.)
-=======
             4 => [
->>>>>>> 5a14301c (.)
-=======
             4 => [
->>>>>>> 5a14301c (.)
-=======
             4 => [
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 'description' => 'zeusData.4',
                 'helper_text' => 'zeusData.4',
                 'placeholder' => 'zeusData.4',
@@ -578,14 +462,6 @@ return [
         ],
     ],
 ];
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
 return array (
   'actions' => 
   array (
@@ -1080,11 +956,3 @@ return array (
     ),
   ),
 );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

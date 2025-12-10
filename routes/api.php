@@ -3,17 +3,6 @@
 declare(strict_types=1);
 
 /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
  * |--------------------------------------------------------------------------
  * | API Routes
  * |--------------------------------------------------------------------------
@@ -23,7 +12,8 @@ declare(strict_types=1);
  * | is assigned the "api" middleware group. Enjoy building your API!
  * |
  */
-<<<<<<< HEAD
+/*
+ * Route::middleware('auth:api')->get('/xot', function (Request $request) {
 /*
  * Route::middleware('auth:api')->get('/xot', function (Request $request) {
  *     return $request->user();
@@ -35,63 +25,9 @@ declare(strict_types=1);
  * return $request->user();
  * return $request->user();
  * return $request->user();
+ * return $request->user();
  * });
  */
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-/*
- * Route::middleware('auth:api')->get('/xot', function (Request $request) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- *     return $request->user();
-=======
- * return $request->user();
->>>>>>> 5a14301c (.)
-=======
- * return $request->user();
->>>>>>> 5a14301c (.)
-=======
- * return $request->user();
->>>>>>> 5a14301c (.)
-=======
- * return $request->user();
->>>>>>> 5a14301c (.)
-=======
- * return $request->user();
->>>>>>> cc7fb225 (.)
-=======
- * return $request->user();
->>>>>>> 249a0067 (.)
-=======
- * return $request->user();
->>>>>>> 5a14301c (.)
-=======
- * return $request->user();
->>>>>>> cc7fb225 (.)
-=======
- * return $request->user();
->>>>>>> 249a0067 (.)
-=======
- * return $request->user();
->>>>>>> 5a14301c (.)
- * });
- */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
 |--------------------------------------------------------------------------
 | API Routes
 |--------------------------------------------------------------------------
@@ -106,16 +42,8 @@ Route::middleware('auth:api')->get('/xot', function (Request $request) {
     return $request->user();
 });
 */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
 /*
  * Route::middleware('auth:api')->get('/xot', function (Request $request) {
  * return $request->user();
  * });
  */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

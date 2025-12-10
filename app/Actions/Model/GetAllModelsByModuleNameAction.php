@@ -8,126 +8,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model;
 
-<<<<<<< HEAD
 use stdClass;
 use stdClass;
 use stdClass;
 use stdClass;
 use stdClass;
-use Exception;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 399f46d3 (.)
-use stdClass;
->>>>>>> 5a14301c (.)
-=======
-use stdClass;
->>>>>>> 5a14301c (.)
-=======
-use stdClass;
->>>>>>> 5a14301c (.)
-=======
-use stdClass;
->>>>>>> 5a14301c (.)
-=======
-use stdClass;
->>>>>>> 5a14301c (.)
-=======
-use stdClass;
->>>>>>> 5a14301c (.)
-use Exception;
-=======
-<<<<<<< HEAD
 use stdClass;
 use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Nwidart\Modules\Facades\Module;
 use ReflectionClass;
 use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
-use stdClass;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use stdClass;
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
 class GetAllModelsByModuleNameAction
 {
@@ -135,116 +27,10 @@ class GetAllModelsByModuleNameAction
 
     /**
      * Execute the action.
-<<<<<<< HEAD
-     *
-     * @return array<string, class-string>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-     * @return array<string, class-string>
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     public function execute(string $moduleName): array
     {
         $mod = Module::find($moduleName);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -256,121 +42,9 @@ class GetAllModelsByModuleNameAction
         /** @var array<string, class-string> $data */
         $data = [];
         $ns = 'Modules\\'.$mod->getName().'\\Models';
-<<<<<<< HEAD
         if (!($mod instanceof \Nwidart\Modules\Module)) {
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!($mod instanceof \Nwidart\Modules\Module)) {
-=======
         if (! $mod instanceof \Nwidart\Modules\Module) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!($mod instanceof \Nwidart\Modules\Module)) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! $mod instanceof \Nwidart\Modules\Module) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             return [];
         }
 
@@ -380,33 +54,12 @@ class GetAllModelsByModuleNameAction
         $files = File::files($mod_path);
         $data = [];
         $ns = 'Modules\\' . $mod->getName() . '\\Models';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         // con la barra davanti non va il search ?
         foreach ($files as $file) {
             $filename = $file->getRelativePathname();
             $ext = '.php';
             // dddx(['ext' => $file->getExtension(), get_class_methods($file)]);
             if (Str::endsWith($filename, $ext)) {
-<<<<<<< HEAD
-                $tmp = new stdClass;
                 $tmp = new stdClass();
                 $tmp = new stdClass();
                 $tmp = new stdClass();
@@ -428,146 +81,12 @@ class GetAllModelsByModuleNameAction
                 $tmp = new stdClass();
                 $tmp = new stdClass();
                 $tmp = new stdClass();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                $tmp = new stdClass;
-=======
                 $tmp = new stdClass();
->>>>>>> 5a14301c (.)
-=======
-                $tmp = new stdClass();
-=======
-                $tmp = new stdClass();
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 17684f52 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 17684f52 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 17684f52 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-                $tmp = new stdClass();
-=======
-                $tmp = new \stdClass();
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> ca9324a4 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 9db27d12 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> ca9324a4 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 9db27d12 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 9db27d12 (.)
-=======
-                $tmp = new stdClass();
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
                 $name = mb_substr($filename, 0, -mb_strlen($ext));
                 // dddx(['name' => $name, 'name1' => $file->getFilenameWithoutExtension()]);
                 /**
                  * @var class-string
                  */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
                 $class = $ns.'\\'.$name;
                 // if ($tmp !== null) {
                 $tmp->class = $class;
@@ -578,28 +97,6 @@ class GetAllModelsByModuleNameAction
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
                     if (! $reflection_class->isAbstract()) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 $class = $ns . '\\' . $name;
                 //if ($tmp !== null) {
                 $tmp->class = $class;
@@ -608,11 +105,6 @@ class GetAllModelsByModuleNameAction
                 //}
                 // 434    Parameter #1 $argument of class ReflectionClass constructor expects class-string<T of object>|T of object, string given.
                 try {
-<<<<<<< HEAD
-                    $reflection_class = new ReflectionClass($tmp->class);
-                    if (!$reflection_class->isAbstract()) {
-                    if (! $reflection_class->isAbstract()) {
-                    if (!$reflection_class->isAbstract()) {
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
                     if (! $reflection_class->isAbstract()) {
@@ -630,241 +122,21 @@ class GetAllModelsByModuleNameAction
                     if (!$reflection_class->isAbstract()) {
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
+                    if (!$reflection_class->isAbstract()) {
+                    if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {
-=======
-<<<<<<< HEAD
-                    $reflection_class = new ReflectionClass($tmp->class);
                     if (!$reflection_class->isAbstract()) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    if (! $reflection_class->isAbstract()) {
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    if (!$reflection_class->isAbstract()) {
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {
-=======
-<<<<<<< HEAD
-                    $reflection_class = new ReflectionClass($tmp->class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    if (!$reflection_class->isAbstract()) {
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> a12f125f4a (.)
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> b93ef594b4 (.)
-                        $data[$tmp->name] = $tmp->class;
-                    }
-                } catch (Exception) {
-=======
                     $reflection_class = new \ReflectionClass($tmp->class);
                     if (! $reflection_class->isAbstract()) {
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (\Exception) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
                 }
             }
         }

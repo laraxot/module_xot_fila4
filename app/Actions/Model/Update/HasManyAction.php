@@ -4,114 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use InvalidArgumentException;
-<<<<<<< HEAD
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-=======
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-use InvalidArgumentException;
-=======
-<<<<<<< HEAD
-use InvalidArgumentException;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\HasManyUpdateData;
 use Modules\Xot\Datas\RelationData;
@@ -125,19 +25,6 @@ class HasManyAction
     /**
      * Execute the HasMany relation update.
      *
-<<<<<<< HEAD
-     * @throws InvalidArgumentException
-=======
-<<<<<<< HEAD
-     * @throws InvalidArgumentException
-=======
-<<<<<<< HEAD
-     * @throws InvalidArgumentException
-=======
-     * @throws \InvalidArgumentException
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      */
     public function execute(Model $model, RelationData $relationDTO): void
     {
@@ -145,27 +32,8 @@ class HasManyAction
 
         $updateData = new HasManyUpdateData(
             foreignKey: $relation->getForeignKeyName(),
-<<<<<<< HEAD
             parentKey: $model->getAttribute($relation->getLocalKeyName()),
-=======
-<<<<<<< HEAD
-            parentKey: $model->getAttribute($relation->getLocalKeyName()),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            parentKey: $model->getAttribute($relation->getLocalKeyName()),
-=======
             parentKey: $model->getAttribute($relation->getLocalKeyName())
->>>>>>> a12f125f4a (.)
-=======
-            parentKey: $model->getAttribute($relation->getLocalKeyName()),
->>>>>>> b93ef594b4 (.)
-=======
-            parentKey: $model->getAttribute($relation->getLocalKeyName())
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         );
 
         match (true) {
@@ -177,39 +45,11 @@ class HasManyAction
     /**
      * Determine if the update is a direct update.
      *
-<<<<<<< HEAD
-     * @param  array<string, mixed>  $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  array<string, mixed>  $data
-=======
      * @param array<string, mixed> $data
->>>>>>> 5a14301c (.)
-=======
-     * @param array<string, mixed> $data
->>>>>>> 5a14301c (.)
-=======
-     * @param array<string, mixed> $data
->>>>>>> 5a14301c (.)
-=======
-     * @param array<string, mixed> $data
->>>>>>> 5a14301c (.)
-=======
-     * @param array<string, mixed> $data
->>>>>>> 5a14301c (.)
-=======
-     * @param array<string, mixed> $data
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     private function isDirectUpdate(array $data): bool
     {
@@ -221,48 +61,24 @@ class HasManyAction
         /** @var Builder $query */
         $query = $relationDTO->related->newQuery();
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         $query->where($updateData->foreignKey, $updateData->parentKey)->update([$updateData->foreignKey => null]);
 
         $toIds = $relationDTO->data['to'] ?? [];
         if ($toIds) {
             $query
                 ->whereIn($relationDTO->related->getKeyName(), $toIds)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
         $query->where($updateData->foreignKey, $updateData->parentKey)
             ->update([$updateData->foreignKey => null]);
 
         $toIds = $relationDTO->data['to'] ?? [];
         if ($toIds) {
             $query->whereIn($relationDTO->related->getKeyName(), $toIds)
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
         $query->where($updateData->foreignKey, $updateData->parentKey)->update([$updateData->foreignKey => null]);
 
         $toIds = $relationDTO->data['to'] ?? [];
         if ($toIds) {
             $query
                 ->whereIn($relationDTO->related->getKeyName(), $toIds)
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
                 ->update([$updateData->foreignKey => $updateData->parentKey]);
         }
     }
@@ -274,8 +90,6 @@ class HasManyAction
 
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
-<<<<<<< HEAD
-            if (! isset($item[$keyName])) {
             if (!isset($item[$keyName])) {
             if (!isset($item[$keyName])) {
             if (!isset($item[$keyName])) {
@@ -340,404 +154,11 @@ class HasManyAction
             if (!isset($item[$keyName])) {
             if (! isset($item[$keyName])) {
             if (! isset($item[$keyName])) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
             if (! isset($item[$keyName])) {
-=======
             if (!isset($item[$keyName])) {
->>>>>>> 5a14301c (.)
-=======
             if (!isset($item[$keyName])) {
->>>>>>> 3fbbf1f5 (.)
-=======
-            if (!isset($item[$keyName])) {
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 17684f52 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 17684f52 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 17684f52 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> a12f125f4a (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> b93ef594b4 (.)
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> ca9324a4 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-            if (! isset($item[$keyName])) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-            if (! isset($item[$keyName])) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-            if (! isset($item[$keyName])) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-            if (! isset($item[$keyName])) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> ca9324a4 (.)
-=======
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 9db27d12 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 5a14301c (.)
-=======
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> ca9324a4 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 5a14301c (.)
-=======
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> ca9324a4 (.)
-=======
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 9db27d12 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> 71586de2 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 5a14301c (.)
-=======
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> ca9324a4 (.)
-=======
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> 71586de2 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 5a14301c (.)
-=======
-            if (!isset($item[$keyName])) {
-=======
-            if (! isset($item[$keyName])) {
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-            if (!isset($item[$keyName])) {
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
                 continue;
             }
 
@@ -746,33 +167,12 @@ class HasManyAction
                 $updateData->foreignKey => $updateData->parentKey,
             ]);
 
-<<<<<<< HEAD
-            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
-=======
-<<<<<<< HEAD
-            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
-=======
-=======
->>>>>>> origin/develop
             $result = app(UpdateAction::class)->execute(
                 $relationDTO->related,
                 $itemData,
                 []
             );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
             $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
             if ($result instanceof Model) {
                 $id = $result->getKey();
@@ -788,39 +188,11 @@ class HasManyAction
     /**
      * Clean up orphaned records after batch update.
      *
-<<<<<<< HEAD
-     * @param  array<int|string>  $updatedIds
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  array<int|string>  $updatedIds
-=======
      * @param array<int|string> $updatedIds
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $updatedIds
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $updatedIds
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $updatedIds
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $updatedIds
->>>>>>> 5a14301c (.)
-=======
-     * @param array<int|string> $updatedIds
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     private function cleanupOrphanedRecords(
         RelationData $relationDTO,
@@ -828,35 +200,10 @@ class HasManyAction
         array $updatedIds,
     ): void {
         if ($updatedIds) {
-<<<<<<< HEAD
             $relationDTO
                 ->related
                 ->newQuery()
-=======
-<<<<<<< HEAD
-            $relationDTO
-                ->related
-                ->newQuery()
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $relationDTO
-                ->related
-                ->newQuery()
-=======
             $relationDTO->related->newQuery()
->>>>>>> a12f125f4a (.)
-=======
-            $relationDTO
-                ->related
-                ->newQuery()
->>>>>>> b93ef594b4 (.)
-=======
-            $relationDTO->related->newQuery()
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
                 ->where($updateData->foreignKey, $updateData->parentKey)
                 ->whereNotIn($relationDTO->related->getKeyName(), $updatedIds)
                 ->update([$updateData->foreignKey => null]);

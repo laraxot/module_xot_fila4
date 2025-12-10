@@ -4,165 +4,35 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-<<<<<<< HEAD
 use Carbon\Carbon;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
 use Carbon\Carbon;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
-<<<<<<< HEAD
-=======
-use Override;
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 use Carbon\Carbon;
 use Exception;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
 use Override;
-<<<<<<< HEAD
 use Override;
-=======
->>>>>>> b7afadf9 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
 use Override;
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
 use Carbon\Carbon;
 use Exception;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
 use Override;
-<<<<<<< HEAD
 use Override;
 use Override;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 300ef70 (.)
 use Override;
-<<<<<<< HEAD
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 use Override;
->>>>>>> ab8cc3f3 (.)
->>>>>>> laraxot/develop
 use Carbon\Carbon;
 use Exception;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
 use Modules\SaluteOra\Models\Appointment;
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-<<<<<<< HEAD
     public function getHeading(): null|string
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
@@ -174,24 +44,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     public string $model;
 
     #[Override]
-<<<<<<< HEAD
     public function getHeading(): null|string
-=======
-<<<<<<< HEAD
     public function getHeading(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Carbon\Carbon;
-use Exception;
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-use Flowframe\Trend\Trend;
-use Flowframe\Trend\TrendValue;
-use Modules\SaluteOra\Models\Appointment;
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
@@ -203,22 +57,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     public string $model;
 
     #[Override]
-<<<<<<< HEAD
     public function getHeading(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Carbon\Carbon;
-use Exception;
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-use Flowframe\Trend\Trend;
-use Flowframe\Trend\TrendValue;
-use Modules\SaluteOra\Models\Appointment;
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> laraxot/develop
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
@@ -234,149 +73,6 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 
     #[\Override]
     public function getHeading(): ?string
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Override;
 use Carbon\Carbon;
 use Exception;
@@ -395,86 +91,10 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     public string $model;
 
     #[Override]
-<<<<<<< HEAD
     public function getHeading(): null|string
 use Override;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getHeading(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
-=======
 use Override;
->>>>>>> b93ef594b4 (.)
->>>>>>> laraxot/develop
 use Carbon\Carbon;
 use Exception;
 use Flowframe\Trend\Trend;
@@ -491,7 +111,6 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 
     public string $model;
 
-<<<<<<< HEAD
     public function getHeading(): ?string
     #[Override]
     public function getHeading(): null|string
@@ -511,131 +130,31 @@ use Carbon\Carbon;
 use Exception;
 use Carbon\Carbon;
 use Exception;
-=======
-<<<<<<< HEAD
     public function getHeading(): ?string
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
     #[Override]
     public function getHeading(): null|string
->>>>>>> b93ef594b4 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
 use Carbon\Carbon;
 use Exception;
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
 use Carbon\Carbon;
 use Exception;
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-=======
 use Carbon\Carbon;
 use Exception;
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
 use Carbon\Carbon;
 use Exception;
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
 use Carbon\Carbon;
 use Exception;
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-<<<<<<< HEAD
     public function getHeading(): ?string
-=======
-    public function getHeading(): ?string
->>>>>>> b7afadf9 (.)
-=======
     public function getHeading(): null|string
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Carbon\Carbon;
 use Exception;
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-=======
 use Carbon\Carbon;
 use Exception;
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
 use Carbon\Carbon;
 use Exception;
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-=======
-use Carbon\Carbon;
-use Exception;
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
 use Modules\SaluteOra\Models\Appointment;
-<<<<<<< HEAD
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
@@ -645,284 +164,49 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
->>>>>>> 399f46d3 (.)
-=======
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
->>>>>>> 17684f52 (.)
-=======
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     protected static ?string $heading = null;
     protected static ?int $sort = 5;
     protected static bool $isLazy = true;
     protected static ?string $pollingInterval = '300s'; // 5 minuti
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 7131bd09 (.)
->>>>>>> laraxot/develop
     protected ?string $heading = null;
     protected static ?int $sort = 5;
     protected static bool $isLazy = true;
     protected ?string $pollingInterval = '300s'; // 5 minuti
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     public string $model;
 
     public function getHeading(): ?string
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ed734516 (.)
->>>>>>> laraxot/develop
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
     protected ?string $heading = null;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> laraxot/develop
 
     protected static ?int $sort = 5;
 
     protected static bool $isLazy = true;
 
-<<<<<<< HEAD
     protected static ?int $sort = 5;
     protected static bool $isLazy = true;
-=======
-<<<<<<< HEAD
-=======
     protected static ?int $sort = 5;
     protected static bool $isLazy = true;
->>>>>>> ed734516 (.)
-=======
     protected static ?int $sort = 5;
     protected static bool $isLazy = true;
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    protected static ?int $sort = 5;
-    protected static bool $isLazy = true;
->>>>>>> ed734516 (.)
->>>>>>> laraxot/develop
     protected ?string $pollingInterval = '300s'; // 5 minuti
 
     public string $model;
 
-<<<<<<< HEAD
     #[Override]
     public function getHeading(): ?string
     #[Override]
@@ -932,121 +216,21 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     public function getHeading(): ?string
     public function getHeading(): ?string
     public function getHeading(): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
     public function getHeading(): ?string
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
     #[Override]
     public function getHeading(): ?string
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
     public function getHeading(): ?string
->>>>>>> 71586de2 (.)
-=======
     public function getHeading(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getHeading(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
     public function getHeading(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
     public function getHeading(): ?string
->>>>>>> 71586de2 (.)
-=======
     public function getHeading(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getHeading(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     {
         return static::transClass($this->model, 'widgets.model_trend_chart.heading');
     }
 
-<<<<<<< HEAD
     #[\Override]
     #[Override]
     #[Override]
@@ -1110,377 +294,75 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     #[Override]
     #[Override]
     #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[\Override]
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
-    #[Override]
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6dcebf8a (.)
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    #[Override]
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 9db27d12 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    #[Override]
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    #[Override]
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-    #[Override]
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> d2b0a27 (.)
-=======
-    #[Override]
->>>>>>> 300ef70 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-    #[Override]
->>>>>>> 71586de2 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    #[Override]
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    #[Override]
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-    #[Override]
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    #[Override]
->>>>>>> 71586de2 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
     protected function getData(): array
     {
         try {
@@ -1495,7 +377,6 @@ class ModelTrendChartWidget extends XotBaseChartWidget
             return [
                 'datasets' => [
                     [
-<<<<<<< HEAD
                         'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
                         'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
@@ -1512,220 +393,45 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                             ? $value->aggregate
                             : 0),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
                         'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue
-=======
-                        'label' => __('salutemo::widgets.appointment_creation_chart.label'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 5a14301c (.)
-=======
-                        'label' => __('salutemo::widgets.appointment_creation_chart.label'),
-<<<<<<< HEAD
-                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 5a14301c (.)
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 5a14301c (.)
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-<<<<<<< HEAD
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
+                        'label' => __('salutemo::widgets.appointment_creation_chart.label'),
+                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                         'data' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
                         'data' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
                         'data' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
->>>>>>> ab8cc3f3 (.)
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 5a14301c (.)
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
-                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 5a14301c (.)
-                            ? $value->aggregate
-                            : 0),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                             ? $value->aggregate
                             : 0),
-=======
+                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                            ? $value->aggregate
+                            : 0),
+                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                            ? $value->aggregate
+                            : 0),
                         'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? $value->aggregate : 0),
->>>>>>> a12f125f4a (.)
-=======
-                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-                            ? $value->aggregate
-                            : 0),
->>>>>>> b93ef594b4 (.)
-=======
-                        'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? $value->aggregate : 0),
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
                         'backgroundColor' => 'rgba(139, 92, 246, 0.5)',
                         'borderColor' => 'rgb(139, 92, 246)',
                         'borderWidth' => 2,
                         'tension' => 0.4,
                     ],
                 ],
-<<<<<<< HEAD
                 'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue
-=======
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
             ];
         } catch (\Exception $e) {
-<<<<<<< HEAD
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
@@ -1750,142 +456,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                 'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
                 'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-=======
-=======
-                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-                    ? Carbon::parse($value->date)->format('d/m')
-                    : ''),
-=======
-                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-                    ? Carbon::parse($value->date)->format('d/m')
-                    : ''),
->>>>>>> 3fbbf1f5 (.)
             ];
         } catch (Exception $e) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-                    ? Carbon::parse($value->date)->format('d/m')
-                    : ''),
-=======
-                'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? Carbon::parse($value->date)->format('d/m') : ''),
->>>>>>> a12f125f4a (.)
-=======
-                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-                    ? Carbon::parse($value->date)->format('d/m')
-                    : ''),
->>>>>>> b93ef594b4 (.)
-            ];
-        } catch (Exception $e) {
-=======
-                'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? \Carbon\Carbon::parse($value->date)->format('d/m') : ''),
-            ];
-        } catch (\Exception $e) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-                'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-                'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-                'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
->>>>>>> ab8cc3f3 (.)
-=======
-                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 5a14301c (.)
-=======
-                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
-                    ? Carbon::parse($value->date)->format('d/m')
-                    : ''),
-            ];
-        } catch (Exception $e) {
-<<<<<<< HEAD
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
@@ -1897,140 +469,53 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                 'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? \Carbon\Carbon::parse($value->date)->format('d/m') : ''),
             ];
         } catch (\Exception $e) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
+                'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
+                'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
-=======
-                'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? Carbon::parse($value->date)->format('d/m') : ''),
->>>>>>> a12f125f4a (.)
-=======
-                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-                    ? Carbon::parse($value->date)->format('d/m')
-                    : ''),
->>>>>>> b93ef594b4 (.)
             ];
         } catch (Exception $e) {
-=======
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                    ? Carbon::parse($value->date)->format('d/m')
+                    : ''),
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                    ? Carbon::parse($value->date)->format('d/m')
+                    : ''),
+            ];
+        } catch (Exception $e) {
                 'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? \Carbon\Carbon::parse($value->date)->format('d/m') : ''),
             ];
         } catch (\Exception $e) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                    ? Carbon::parse($value->date)->format('d/m')
+                    : ''),
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                    ? Carbon::parse($value->date)->format('d/m')
+                    : ''),
+            ];
+        } catch (Exception $e) {
+                'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? \Carbon\Carbon::parse($value->date)->format('d/m') : ''),
+            ];
+        } catch (\Exception $e) {
             // Fallback appropriato senza logging inutile
             return [
                 'datasets' => [
                     [
-<<<<<<< HEAD
                         'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
->>>>>>> 5a14301c (.)
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
->>>>>>> 5a14301c (.)
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
->>>>>>> 5a14301c (.)
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
->>>>>>> 5a14301c (.)
-=======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
->>>>>>> 5a14301c (.)
-=======
-                        'label' => __('salutemo::widgets.appointment_creation_chart.label'),
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                         'data' => [],
                         'backgroundColor' => 'rgba(139, 92, 246, 0.5)',
                         'borderColor' => 'rgb(139, 92, 246)',
@@ -2043,7 +528,6 @@ class ModelTrendChartWidget extends XotBaseChartWidget
         }
     }
 
-<<<<<<< HEAD
     #[\Override]
     #[Override]
     #[Override]
@@ -2107,399 +591,81 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     #[Override]
     #[Override]
     #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[\Override]
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
-    #[Override]
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6dcebf8a (.)
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    #[Override]
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 9db27d12 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    #[Override]
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    #[Override]
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-    #[Override]
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> d2b0a27 (.)
-=======
-    #[Override]
->>>>>>> 300ef70 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-    #[Override]
->>>>>>> 71586de2 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    #[Override]
->>>>>>> ca9324a4 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    #[Override]
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    #[Override]
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    #[Override]
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-    #[Override]
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    #[Override]
->>>>>>> 71586de2 (.)
-=======
-    #[Override]
->>>>>>> 5a14301c (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    #[Override]
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
     protected function getType(): string
     {
         return 'line';
     }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
+}
 } 
->>>>>>> a12f125f4a (.)
-=======
-}
->>>>>>> b93ef594b4 (.)
-=======
-} 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

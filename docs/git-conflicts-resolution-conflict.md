@@ -3,11 +3,6 @@
 ## Data: 2025-01-06
 
 ## Contesto
-<<<<<<< HEAD
-Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> laraxot/develop
 
 ## File Corretti
 
@@ -96,10 +91,6 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 
 ### 2. Validazione PHPStan
 ```bash
@@ -207,12 +198,3 @@ php artisan lang:check
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
-<<<<<<< HEAD
-**Stato**: ✅ Completato
-=======
-**Stato**: ✅ Completato
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

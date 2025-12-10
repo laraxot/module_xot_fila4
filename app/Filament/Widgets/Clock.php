@@ -12,19 +12,9 @@ class Clock extends Widget
 {
     public string $start = '';
 
-<<<<<<< HEAD
     protected string $view = 'xot::filament.widgets.clock';
-=======
-<<<<<<< HEAD
     protected string $view = 'xot::filament.widgets.clock';
-=======
-<<<<<<< HEAD
     protected string $view = 'xot::filament.widgets.clock';
-=======
-    protected static string $view = 'xot::filament.widgets.clock';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     public function begin(): void
     {
@@ -44,39 +34,17 @@ class Clock extends Widget
             // Decrement the counter...
             // $this->start = $this->start - 1;
             $this->start = (string) now();
-<<<<<<< HEAD
             if ($this->start === 'impossible') {
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             if ($this->start === 'impossible') {
-=======
             if ('impossible' === $this->start) {
->>>>>>> 5a14301c (.)
-=======
             if ('impossible' === $this->start) {
->>>>>>> 5a14301c (.)
-=======
             if ('impossible' === $this->start) {
->>>>>>> 5a14301c (.)
-=======
             if ('impossible' === $this->start) {
->>>>>>> 5a14301c (.)
-=======
             if ('impossible' === $this->start) {
->>>>>>> 5a14301c (.)
-=======
-            if ('impossible' === $this->start) {
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 $cond = false;
             }
         }

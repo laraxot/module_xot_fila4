@@ -18,17 +18,6 @@ use SlevomatCodingStandard\Sniffs\TypeHints\ReturnTypeHintSniff;
 
 return [
     /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      * |--------------------------------------------------------------------------
      * | Default Preset
      * |--------------------------------------------------------------------------
@@ -40,13 +29,6 @@ return [
      * | Supported: "default", "laravel", "symfony", "magento2", "drupal", "wordpress"
      * |
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     'preset' => 'laravel',
     /*
@@ -78,13 +60,6 @@ return [
      * | mind, that all added `Insights` must belong to a specific `Metric`.
      * |
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
     |--------------------------------------------------------------------------
     | Default Preset
     |--------------------------------------------------------------------------
@@ -96,9 +71,6 @@ return [
     | Supported: "default", "laravel", "symfony", "magento2", "drupal", "wordpress"
     |
     */
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
 
     'preset' => 'laravel',
     /*
@@ -121,33 +93,6 @@ return [
 
     'ide' => null,
     /*
-<<<<<<< HEAD
-=======
-
-    'preset' => 'laravel',
-
-    /*
-    |--------------------------------------------------------------------------
-    | IDE
-    |--------------------------------------------------------------------------
-    |
-    | This options allow to add hyperlinks in your terminal to quickly open
-    | files in your favorite IDE while browsing your PhpInsights report.
-    |
-    | Supported: "textmate", "macvim", "emacs", "sublime", "phpstorm",
-    | "atom", "vscode".
-    |
-    | If you have another IDE that is not in this list but which provide an
-    | url-handler, you could fill this config with a pattern like this:
-    |
-    | myide://open?url=file://%f&line=%l
-    |
-    */
-
-    'ide' => null,
-
-    /*
->>>>>>> origin/develop
     |--------------------------------------------------------------------------
     | Configuration
     |--------------------------------------------------------------------------
@@ -157,9 +102,6 @@ return [
     | mind, that all added `Insights` must belong to a specific `Metric`.
     |
     */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
      * |--------------------------------------------------------------------------
      * | Configuration
      * |--------------------------------------------------------------------------
@@ -169,54 +111,17 @@ return [
      * | mind, that all added `Insights` must belong to a specific `Metric`.
      * |
      */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     'exclude' => [
         //  'path/to/directory-or-file'
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     'add' => [
         Classes::class => [
             ForbiddenFinalClasses::class,
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     'remove' => [
         AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
@@ -229,37 +134,12 @@ return [
         ReturnTypeHintSniff::class,
         UselessFunctionDocCommentSniff::class,
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     /*
      * |--------------------------------------------------------------------------
      * | Requirements
@@ -270,13 +150,6 @@ return [
      * | code will be returned. This is optional and individually defined.
      * |
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
 
     /*
     |--------------------------------------------------------------------------
@@ -288,9 +161,6 @@ return [
     | code will be returned. This is optional and individually defined.
     |
     */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
     /*
      * |--------------------------------------------------------------------------
      * | Requirements
@@ -301,11 +171,6 @@ return [
      * | code will be returned. This is optional and individually defined.
      * |
      */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     'requirements' => [
         //        'min-quality' => 0,
@@ -314,15 +179,6 @@ return [
         //        'min-style' => 0,
         //        'disable-security-check' => false,
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -345,14 +201,6 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-
-=======
->>>>>>> b93ef594b4 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -366,24 +214,6 @@ return [
 
     'threads' => null,
     /*
-<<<<<<< HEAD
-=======
-
-    /*
-    |--------------------------------------------------------------------------
-    | Threads
-    |--------------------------------------------------------------------------
-    |
-    | Here you may adjust how many threads (core) PHPInsights can use to perform
-    | the analysis. This is optional, don't provide it and the tool will guess
-    | the max core number available. It accepts null value or integer > 0.
-    |
-    */
-
-    'threads' => null,
-
-    /*
->>>>>>> origin/develop
     |--------------------------------------------------------------------------
     | Timeout
     |--------------------------------------------------------------------------
@@ -393,9 +223,6 @@ return [
     | of Symfony's setTimeout function.
     |
     */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
      * |--------------------------------------------------------------------------
      * | Timeout
      * |--------------------------------------------------------------------------
@@ -405,11 +232,6 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     'timeout' => 60,
 ];

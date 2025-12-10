@@ -27,56 +27,9 @@ class CustomRelationAction
         $keyName = $relationDTO->related->getKeyName();
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
-<<<<<<< HEAD
-            /** @var array<string, mixed> $data PHPStan: ensure correct type */
             if (\in_array($keyName, array_keys($data), false)) {
                 $res = app(UpdateAction::class)->execute($related, $data, []);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            /** @var array<string, mixed> $data PHPStan: ensure correct type */
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-            if (\in_array($keyName, array_keys($data), false)) {
-<<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                $res = app(UpdateAction::class)->execute($related, $data, []);
-=======
-                // Assicura che $data sia type-safe per UpdateAction
-                /** @var array<string, mixed> $typedData */
-                $typedData = [];
-                foreach ($data as $key => $value) {
-                    $typedData[(string) $key] = $value;
-                }
-
-                $res = app(UpdateAction::class)->execute($related, $typedData, []);
->>>>>>> a12f125f4a (.)
-=======
-                $res = app(UpdateAction::class)->execute($related, $data, []);
->>>>>>> b93ef594b4 (.)
-=======
-                $res = app(UpdateAction::class)->execute($related, $data, []);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

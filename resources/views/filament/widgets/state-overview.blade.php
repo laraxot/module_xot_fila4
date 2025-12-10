@@ -1,32 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 {{-- Vista per il widget AppointmentOverviewWidget --}}
 <x-filament-widgets::widget>
         {{-- Grid responsive per gli stati degli appuntamenti (ottimizzato per 17 stati) --}}
@@ -55,62 +31,25 @@ declare(strict_types=1);
                 <div class="col-span-full text-center py-8">
                     <div class="text-gray-400 dark:text-gray-600">
                         <x-heroicon-o-calendar class="w-12 h-12 mx-auto mb-2" />
-<<<<<<< HEAD
                         <p class="text-sm">{{ __('<nome modulo>::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <p class="text-sm">{{ __('<nome modulo>::widgets.appointment_overview.empty_state') }}</p>
-=======
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
->>>>>>> 5a14301c (.)
-=======
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
->>>>>>> 5a14301c (.)
-=======
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
->>>>>>> 5a14301c (.)
-=======
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
->>>>>>> 5a14301c (.)
-=======
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
->>>>>>> 5a14301c (.)
-=======
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                     </div>
                 </div>
             @endforelse
         </div>
 
-<<<<<<< HEAD
 </x-filament-widgets::widget>
-=======
-<<<<<<< HEAD
 </x-filament-widgets::widget>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 </x-filament-widgets::widget>
-=======
 </x-filament-widgets::widget>
->>>>>>> a12f125f4a (.)
-=======
 </x-filament-widgets::widget>
->>>>>>> b93ef594b4 (.)
-=======
-</x-filament-widgets::widget>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

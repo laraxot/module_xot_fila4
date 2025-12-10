@@ -3,15 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Dashboard',
@@ -90,17 +81,6 @@ return [
                 'success' => 'Dati importati con successo',
                 'error' => 'Errore durante l\'importazione',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-    'resources' => 'Risorse',
-    'pages' => 'Pagine',
-    'widgets' => 'Widgets',
-=======
-    // NAVIGATION & STRUCTURE
->>>>>>> b93ef594b4 (.)
     'navigation' => [
         'label' => 'Dashboard',
         'plural_label' => 'Dashboard',
@@ -164,9 +144,6 @@ return [
     // ACTIONS - STRUTTURA ESPANSA OBBLIGATORIA
     'actions' => [
         'import' => [
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
             'label' => 'Importa Dati',
             'icon' => 'heroicon-o-arrow-up-tray',
             'color' => 'info',
@@ -181,8 +158,6 @@ return [
                 'success' => 'Dati importati con successo',
                 'error' => 'Errore durante l\'importazione',
             ],
->>>>>>> b93ef594b4 (.)
-=======
     'resources' => 'Risorse',
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
@@ -207,25 +182,11 @@ return [
     ],
     'actions' => [
         'import' => [
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             'fields' => [
                 'import_file' => 'Seleziona un file XLS o CSV da caricare',
             ],
         ],
         'export' => [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             'label' => 'Esporta Dati',
             'icon' => 'heroicon-o-arrow-down-tray',
             'color' => 'success',
@@ -240,19 +201,6 @@ return [
                 'success' => 'Dati esportati con successo',
                 'error' => 'Errore durante l\'esportazione',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             'filename_prefix' => 'Aree al',
             'columns' => [
                 'name' => 'Nome area',
@@ -260,17 +208,6 @@ return [
             ],
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     // SECTIONS - ORGANIZZAZIONE FORM
     'sections' => [
         'overview' => [
@@ -308,17 +245,4 @@ return [
     'resources' => 'Risorse',
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 ];

@@ -4,56 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Unit;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 use Filament\Tables\Table;
 use Mockery;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Override;
 use Filament\Tables\Table;
 use Mockery;
 use Modules\Xot\Filament\Traits\HasXotTable;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
 /**
  * Dummy class without the optional methods.
@@ -67,29 +25,6 @@ class HasTableWithoutOptionalMethodsTestClass
         $mock = Mockery::mock();
         $mock->shouldReceive('getTableColumns')->andReturn([]);
         $mock->shouldReceive('getTableContentGrid')->andReturn([]);
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         return $mock;
     }
 
@@ -104,39 +39,12 @@ class HasTableWithoutOptionalMethodsTestClass
         return Mockery::mock(Table::class);
     }
 
-<<<<<<< HEAD
-    public function getTablePage(): ?int
     public function getTablePage(): null|int
     public function getTablePage(): null|int
     public function getTablePage(): null|int
     public function getTablePage(): null|int
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getTablePage(): ?int
-=======
     public function getTablePage(): null|int
->>>>>>> 5a14301c (.)
-=======
     public function getTablePage(): null|int
->>>>>>> 5a14301c (.)
-=======
-    public function getTablePage(): null|int
->>>>>>> 5a14301c (.)
-=======
-    public function getTablePage(): null|int
->>>>>>> 5a14301c (.)
-=======
-    public function getTablePage(): null|int
->>>>>>> 5a14301c (.)
-=======
-    public function getTablePage(): null|int
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return 1;
     }
@@ -146,76 +54,22 @@ class HasTableWithoutOptionalMethodsTestClass
         return 10;
     }
 
-<<<<<<< HEAD
-    public function getTableSortColumn(): ?string
     public function getTableSortColumn(): null|string
     public function getTableSortColumn(): null|string
     public function getTableSortColumn(): null|string
     public function getTableSortColumn(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getTableSortColumn(): ?string
-=======
     public function getTableSortColumn(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getTableSortColumn(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSortColumn(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSortColumn(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSortColumn(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSortColumn(): null|string
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return null;
     }
 
-<<<<<<< HEAD
-    public function getTableSortDirection(): ?string
     public function getTableSortDirection(): null|string
     public function getTableSortDirection(): null|string
     public function getTableSortDirection(): null|string
     public function getTableSortDirection(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getTableSortDirection(): ?string
-=======
     public function getTableSortDirection(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getTableSortDirection(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSortDirection(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSortDirection(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSortDirection(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSortDirection(): null|string
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return null;
     }
@@ -230,113 +84,32 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
-<<<<<<< HEAD
-    public function getTableFilterState(string $_name): ?array
     public function getTableFilterState(string $_name): null|array
     public function getTableFilterState(string $_name): null|array
     public function getTableFilterState(string $_name): null|array
     public function getTableFilterState(string $_name): null|array
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getTableFilterState(string $_name): ?array
-=======
     public function getTableFilterState(string $_name): null|array
->>>>>>> 5a14301c (.)
-=======
     public function getTableFilterState(string $_name): null|array
->>>>>>> 5a14301c (.)
-=======
-    public function getTableFilterState(string $_name): null|array
->>>>>>> 5a14301c (.)
-=======
-    public function getTableFilterState(string $_name): null|array
->>>>>>> 5a14301c (.)
-=======
-    public function getTableFilterState(string $_name): null|array
->>>>>>> 5a14301c (.)
-=======
-    public function getTableFilterState(string $_name): null|array
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return [];
     }
 
-<<<<<<< HEAD
-    public function getTableGrouping(): ?string
     public function getTableGrouping(): null|string
     public function getTableGrouping(): null|string
     public function getTableGrouping(): null|string
     public function getTableGrouping(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getTableGrouping(): ?string
-=======
     public function getTableGrouping(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getTableGrouping(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableGrouping(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableGrouping(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableGrouping(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableGrouping(): null|string
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return null;
     }
 
-<<<<<<< HEAD
-    public function getTableSearchIndicator(): ?string
     public function getTableSearchIndicator(): null|string
     public function getTableSearchIndicator(): null|string
     public function getTableSearchIndicator(): null|string
     public function getTableSearchIndicator(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getTableSearchIndicator(): ?string
-=======
     public function getTableSearchIndicator(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getTableSearchIndicator(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSearchIndicator(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSearchIndicator(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSearchIndicator(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getTableSearchIndicator(): null|string
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return null;
     }
@@ -411,39 +184,12 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
-<<<<<<< HEAD
-    public function getMountedTableAction(): ?string
     public function getMountedTableAction(): null|string
     public function getMountedTableAction(): null|string
     public function getMountedTableAction(): null|string
     public function getMountedTableAction(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getMountedTableAction(): ?string
-=======
     public function getMountedTableAction(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getMountedTableAction(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getMountedTableAction(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getMountedTableAction(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getMountedTableAction(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getMountedTableAction(): null|string
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return null;
     }
@@ -463,39 +209,12 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
-<<<<<<< HEAD
-    public function getMountedTableBulkAction(): ?string
     public function getMountedTableBulkAction(): null|string
     public function getMountedTableBulkAction(): null|string
     public function getMountedTableBulkAction(): null|string
     public function getMountedTableBulkAction(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getMountedTableBulkAction(): ?string
-=======
     public function getMountedTableBulkAction(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getMountedTableBulkAction(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getMountedTableBulkAction(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getMountedTableBulkAction(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getMountedTableBulkAction(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getMountedTableBulkAction(): null|string
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return null;
     }
@@ -505,39 +224,12 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
-<<<<<<< HEAD
-    public function getActiveTableLocale(): ?string
     public function getActiveTableLocale(): null|string
     public function getActiveTableLocale(): null|string
     public function getActiveTableLocale(): null|string
     public function getActiveTableLocale(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getActiveTableLocale(): ?string
-=======
     public function getActiveTableLocale(): null|string
->>>>>>> 5a14301c (.)
-=======
     public function getActiveTableLocale(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getActiveTableLocale(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getActiveTableLocale(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getActiveTableLocale(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public function getActiveTableLocale(): null|string
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         return null;
     }
@@ -572,34 +264,11 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
     public function deselectAllTableRecords(): void {}
 
     public function mountTableAction(): void {}
 
     public function mountTableBulkAction(): void {}
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     public function deselectAllTableRecords(): void
     {
     }
@@ -611,40 +280,12 @@ class HasTableWithoutOptionalMethodsTestClass
     public function mountTableBulkAction(): void
     {
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
     public function mountedTableActionRecord(): mixed
     {
         return null;
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
     public function replaceMountedTableAction(): void {}
 
     public function replaceMountedTableBulkAction(): void {}
@@ -654,20 +295,6 @@ class HasTableWithoutOptionalMethodsTestClass
     public function resetTableColumnSearch(): void {}
 
     public function toggleTableReordering(): void {}
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     public function replaceMountedTableAction(): void
     {
     }
@@ -687,25 +314,6 @@ class HasTableWithoutOptionalMethodsTestClass
     public function toggleTableReordering(): void
     {
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
     public function parseTableFilterName(): string
     {

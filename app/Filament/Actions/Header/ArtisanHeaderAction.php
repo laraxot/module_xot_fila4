@@ -9,39 +9,17 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
-<<<<<<< HEAD
 // use Filament\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 // use Filament\Actions\Action;
-=======
 // use Filament\Tables\Actions\Action;
->>>>>>> 5a14301c (.)
-=======
 // use Filament\Tables\Actions\Action;
->>>>>>> 5a14301c (.)
-=======
 // use Filament\Tables\Actions\Action;
->>>>>>> 5a14301c (.)
-=======
 // use Filament\Tables\Actions\Action;
->>>>>>> 5a14301c (.)
-=======
 // use Filament\Tables\Actions\Action;
->>>>>>> 5a14301c (.)
-=======
-// use Filament\Tables\Actions\Action;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Artisan;
@@ -53,7 +31,6 @@ class ArtisanHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
 
             
             
@@ -117,444 +94,79 @@ class ArtisanHeaderAction extends Action
             
 
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
             
->>>>>>> 5a14301c (.)
-=======
             
->>>>>>> 3fbbf1f5 (.)
-=======
             
-=======
             
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> 17684f52 (.)
-=======
             
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> 17684f52 (.)
-=======
             
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> 17684f52 (.)
-=======
-            
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
             
-=======
 
             // 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
             
->>>>>>> b93ef594b4 (.)
-=======
 
             // 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> ca9324a4 (.)
-=======
             
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
             
-=======
             
->>>>>>> 7131bd09 (.)
-=======
             
->>>>>>> ed734516 (.)
-=======
             
->>>>>>> ed734516 (.)
-=======
             
->>>>>>> 7131bd09 (.)
-=======
             
->>>>>>> ed734516 (.)
-=======
             
->>>>>>> 7131bd09 (.)
-=======
             
->>>>>>> ed734516 (.)
-=======
 
             // 
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
             
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
             
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
             
->>>>>>> 9db27d12 (.)
-=======
             
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
             
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> ca9324a4 (.)
-=======
             
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
             
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
             
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
             
->>>>>>> 9db27d12 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> f1d4085 (.)
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
             
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
 
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
             
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
 
->>>>>>> 71586de2 (.)
-=======
             
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
             
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
             
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
             
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
             
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
             
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
 
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
 
->>>>>>> 71586de2 (.)
-=======
             
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
             
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
             
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
             // ->icon('heroicon-o-arrow-down-tray')
-<<<<<<< HEAD
             ->action(function (): void {
             ->action(function () {
             ->action(function () {
@@ -568,65 +180,20 @@ class ArtisanHeaderAction extends Action
             ->action(function (): void {
             ->action(function () {
             ->action(function () {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             ->action(function (): void {
-=======
             ->action(function () {
->>>>>>> 5a14301c (.)
-=======
             ->action(function () {
->>>>>>> 5a14301c (.)
-=======
             ->action(function () {
->>>>>>> 5a14301c (.)
-=======
             ->action(function () {
->>>>>>> 5a14301c (.)
-=======
-            ->action(function () {
->>>>>>> 53d6a6ba (.)
-=======
             ->action(function (): void {
->>>>>>> b7afadf9 (.)
-=======
             ->action(function () {
->>>>>>> 71586de2 (.)
-=======
             ->action(function () {
->>>>>>> 249a0067 (.)
-=======
             ->action(function () {
->>>>>>> 5a14301c (.)
-=======
             ->action(function () {
->>>>>>> 53d6a6ba (.)
-=======
             ->action(function (): void {
->>>>>>> b7afadf9 (.)
-=======
             ->action(function () {
->>>>>>> 71586de2 (.)
-=======
             ->action(function () {
->>>>>>> 249a0067 (.)
-=======
             ->action(function () {
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 Assert::string($cmd = $this->getName());
                 Artisan::call($cmd);
                 $output = Artisan::output();
@@ -638,7 +205,6 @@ class ArtisanHeaderAction extends Action
             });
     }
 
-<<<<<<< HEAD
     public static function getDefaultName(): ?string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -704,404 +270,77 @@ class ArtisanHeaderAction extends Action
     public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static function getDefaultName(): ?string
-=======
     public static function getDefaultName(): null|string
->>>>>>> 5a14301c (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 3fbbf1f5 (.)
-=======
     public static function getDefaultName(): null|string
-=======
     public static function getDefaultName(): null|string
->>>>>>> 399f46d3 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 17684f52 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 399f46d3 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 399f46d3 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 17684f52 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 399f46d3 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 17684f52 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static function getDefaultName(): null|string
-=======
     public static function getDefaultName(): ?string
->>>>>>> a12f125f4a (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> b93ef594b4 (.)
-=======
+    public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> ca9324a4 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
     public static function getDefaultName(): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
     public static function getDefaultName(): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
     public static function getDefaultName(): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
+    public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
     public static function getDefaultName(): null|string
-=======
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
     public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> ca9324a4 (.)
-=======
     public static function getDefaultName(): null|string
-=======
+    public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
     public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 9db27d12 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 5a14301c (.)
-=======
     public static function getDefaultName(): null|string
-=======
     public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> ca9324a4 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 5a14301c (.)
-=======
-    public static function getDefaultName(): null|string
-=======
     public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> ca9324a4 (.)
-=======
     public static function getDefaultName(): null|string
-=======
+    public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
     public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 9db27d12 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
     public static function getDefaultName(): ?string
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
+    public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
->>>>>>> 71586de2 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 5a14301c (.)
-=======
     public static function getDefaultName(): null|string
-=======
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> ca9324a4 (.)
-=======
     public static function getDefaultName(): null|string
-=======
     public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
     public static function getDefaultName(): ?string
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
->>>>>>> 71586de2 (.)
-=======
     public static function getDefaultName(): null|string
->>>>>>> 5a14301c (.)
-=======
     public static function getDefaultName(): null|string
-=======
-    public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     {
         return 'artisan_action';
     }

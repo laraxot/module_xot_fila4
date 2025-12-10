@@ -7,37 +7,11 @@ namespace Modules\Xot\Contracts;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-<<<<<<< HEAD
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Illuminate\Database\Query\Builder;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Database\Query\Builder;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Database\Query\Builder;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Database\Query\Builder;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Database\Query\Builder;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Database\Query\Builder;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Modules\User\Models\Role;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\Permission\Contracts\Permission;
@@ -51,9 +25,6 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string $slug
  * @property string $user_id
  * @property Collection<int, Role> $roles
-<<<<<<< HEAD
- * @property int|null $roles_count
- * @property UserContract $user
  * @property int|null              $roles_count
  * @property UserContract          $user
  * @property int|null              $roles_count
@@ -62,40 +33,8 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property UserContract          $user
  * @property int|null              $roles_count
  * @property UserContract          $user
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @property int|null $roles_count
- * @property UserContract $user
-=======
  * @property int|null              $roles_count
  * @property UserContract          $user
->>>>>>> 5a14301c (.)
-=======
- * @property int|null              $roles_count
- * @property UserContract          $user
->>>>>>> 5a14301c (.)
-=======
- * @property int|null              $roles_count
- * @property UserContract          $user
->>>>>>> 5a14301c (.)
-=======
- * @property int|null              $roles_count
- * @property UserContract          $user
->>>>>>> 5a14301c (.)
-=======
- * @property int|null              $roles_count
- * @property UserContract          $user
->>>>>>> 5a14301c (.)
-=======
- * @property int|null              $roles_count
- * @property UserContract          $user
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
  *
  * @phpstan-require-extends Model
  *
@@ -115,15 +54,10 @@ interface ProfileContract extends HasMedia
      *
      * @return $this
      */
-<<<<<<< HEAD
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
     public function assignRole($roles = []);
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
     public function assignRole($roles = []);
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
@@ -164,613 +98,55 @@ interface ProfileContract extends HasMedia
     ]);
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function assignRole($roles = []);
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-    public function assignRole($roles = []);
-=======
-<<<<<<< HEAD
-=======
-    public function assignRole($roles = []);
-=======
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-    public function assignRole($roles = []);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
-=======
->>>>>>> b7afadf9 (.)
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
->>>>>>> f1d4085 (.)
-=======
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 300ef70 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6dcebf8a (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 71586de2 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 249a0067 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> b93ef594b4 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 71586de2 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 249a0067 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 5a14301c (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     /**
      * Determine if the model has (one of) the given role(s).
      */
-<<<<<<< HEAD
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
-        ?string $guard = null,
         null|string $guard = null,
         null|string $guard = null,
         null|string $guard = null,
         null|string $guard = null,
     ): bool;
     public function hasRole($roles, ?string $guard = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-    public function hasRole(
-        string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        ?string $guard = null,
-=======
-        null|string $guard = null,
->>>>>>> 5a14301c (.)
-=======
-        null|string $guard = null,
->>>>>>> 3fbbf1f5 (.)
-=======
-        null|string $guard = null,
->>>>>>> 5a14301c (.)
-=======
-        null|string $guard = null,
->>>>>>> 5a14301c (.)
-=======
-        null|string $guard = null,
->>>>>>> 5a14301c (.)
-    ): bool;
-=======
-=======
->>>>>>> 6dcebf8a (.)
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> b7afadf9 (.)
-    public function hasRole($roles, ?string $guard = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 300ef70 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
->>>>>>> laraxot/develop
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
         ?string $guard = null,
     ): bool;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
-=======
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> laraxot/develop
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
         ?string $guard = null,
     ): bool;
-<<<<<<< HEAD
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
         null|string $guard = null,
     ): bool;
-<<<<<<< HEAD
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     /**
      * Determine if the model has any of the given role(s).
      *
      * Alias to hasRole() but without Guard controls
      */
-<<<<<<< HEAD
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
     public function hasAnyRole($roles = []): bool;
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
     public function hasAnyRole($roles = []): bool;
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
@@ -811,261 +187,19 @@ interface ProfileContract extends HasMedia
     ]): bool;
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function hasAnyRole($roles = []): bool;
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-    public function hasAnyRole($roles = []): bool;
-=======
-<<<<<<< HEAD
-=======
-    public function hasAnyRole($roles = []): bool;
-=======
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
-=======
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-    public function hasAnyRole($roles = []): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
-=======
->>>>>>> b7afadf9 (.)
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
->>>>>>> f1d4085 (.)
-=======
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 300ef70 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6dcebf8a (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 71586de2 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 249a0067 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> b93ef594b4 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 21348520 (.)
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 71586de2 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 249a0067 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 5a14301c (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
-<<<<<<< HEAD
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
@@ -1096,375 +230,22 @@ interface ProfileContract extends HasMedia
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-    public function hasPermissionTo(string|Permission $permission, ?string $guardName = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 21348520 (.)
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> f1d4085 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> b7afadf9 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> 71586de2 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> 249a0067 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 5a14301c (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 3fbbf1f5 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
->>>>>>> 17684f52 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
->>>>>>> 399f46d3 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> a12f125f4a (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> b93ef594b4 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> ca9324a4 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> 71586de2 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> 249a0067 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 5a14301c (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     /**
      * Create a new Eloquent query builder for the model.
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param Builder $query
-     *
-=======
-     * @param  Builder  $query
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      * @param Builder $query
      *
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query);
-<<<<<<< HEAD
-     * @param Builder $query
-     *
-     * @return \Illuminate\Database\Eloquent\Builder|static
-     */
-    public function newEloquentBuilder($query);
-=======
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
     /**
      * Undocumented function.
@@ -1472,8 +253,6 @@ interface ProfileContract extends HasMedia
     public function toggleSuperAdmin(): void;
 
     /**
-<<<<<<< HEAD
-     * ---return BelongsTo<UserContract, self>.
      * ---return BelongsTo<UserContract, self>.
      * Get the user that owns the profile.
      * ---return BelongsTo<UserContract, self>.
@@ -1483,56 +262,7 @@ interface ProfileContract extends HasMedia
      * Get the user that owns the profile.
      * ---return BelongsTo<UserContract, self>.
      * ---return BelongsTo<UserContract, self>.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * ---return BelongsTo<UserContract, self>.
-=======
-     * Get the user that owns the profile.
-<<<<<<< HEAD
->>>>>>> cc7fb225 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 53d6a6ba (.)
-=======
-     * Get the user that owns the profile.
->>>>>>> b7afadf9 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 71586de2 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 249a0067 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 5a14301c (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 53d6a6ba (.)
-=======
-     * Get the user that owns the profile.
->>>>>>> b7afadf9 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 71586de2 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 249a0067 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     public function user(): BelongsTo;
 

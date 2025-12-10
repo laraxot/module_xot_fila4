@@ -6,122 +6,28 @@ use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 use Modules\Xot\Models\HealthCheckResultHistoryItem;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
->>>>>>> laraxot/develop
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = HealthCheckResultHistoryItem::class;
 
     /**
      * Run the migrations.
-<<<<<<< HEAD
 return new class extends XotBaseMigration {
     protected null|string $model_class = HealthCheckResultHistoryItem::class;
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 return new class extends XotBaseMigration {
-<<<<<<< HEAD
     protected null|string $model_class = HealthCheckResultHistoryItem::class;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $model_class = HealthCheckResultHistoryItem::class;
-=======
+    protected null|string $model_class = HealthCheckResultHistoryItem::class;
     protected ?string $model_class = HealthCheckResultHistoryItem::class;
->>>>>>> a12f125f4a (.)
-=======
-    protected null|string $model_class = HealthCheckResultHistoryItem::class;
->>>>>>> b93ef594b4 (.)
-=======
-    protected ?string $model_class = HealthCheckResultHistoryItem::class;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
     /**
      * Run the migrations.
      *
      * @return void
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     public function up(): void
     {
         // -- CREATE --
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         $this->tableCreate(function (Blueprint $table): void {
             $table->id();
 
@@ -139,18 +45,6 @@ return new class extends XotBaseMigration {
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, false);
         });
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-        $this->tableCreate(
-            function (Blueprint $table): void {
-                $table->id();
-=======
-        $this->tableCreate(function (Blueprint $table): void {
-            $table->id();
->>>>>>> b93ef594b4 (.)
 
             $table->string('check_name');
             $table->string('check_label');
@@ -163,40 +57,13 @@ return new class extends XotBaseMigration {
         });
 
         // -- UPDATE --
-<<<<<<< HEAD
-=======
-        $this->tableCreate(
-            function (Blueprint $table): void {
-                $table->id();
-
-                $table->string('check_name');
-                $table->string('check_label');
-                $table->string('status');
-                $table->text('notification_message')->nullable();
-                $table->string('short_summary')->nullable();
-                $table->json('meta');
-                $table->timestamp('ended_at');
-                $table->uuid('batch')->index();
-            }
-        );
-
-        // -- UPDATE --
->>>>>>> origin/develop
         $this->tableUpdate(
             function (Blueprint $table): void {
                 $this->updateTimestamps($table, false);
             }
         );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, false);
         });
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     }
 };

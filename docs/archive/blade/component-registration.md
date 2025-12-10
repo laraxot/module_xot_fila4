@@ -104,12 +104,3 @@ return view('user::components.profile-card');
 
 - [XotBaseServiceProvider](../providers/xotbaseserviceprovider.md)
 - [RegisterBladeComponentsAction](../../app/Actions/Blade/RegisterBladeComponentsAction.php)
-<<<<<<< HEAD
-- [Laravel Blade Components](https://laravel.com/docs/blade#components)
-=======
-<<<<<<< HEAD
-- [Laravel Blade Components](https://laravel.com/docs/blade#components)
-=======
-- [Laravel Blade Components](https://laravel.com/project_docs/blade#components)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

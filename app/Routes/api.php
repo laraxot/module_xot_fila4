@@ -3,17 +3,6 @@
 declare(strict_types=1);
 
 /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
  * |--------------------------------------------------------------------------
  * | API Routes
  * |--------------------------------------------------------------------------
@@ -23,25 +12,11 @@ declare(strict_types=1);
  * | is assigned the "api" middleware group. Enjoy building your API!
  * |
  */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 /*
  * Route::middleware('auth:api')->get('/xot', function (Request $request) {
  * return $request->user();
  * });
  */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
 |--------------------------------------------------------------------------
 | API Routes
 |--------------------------------------------------------------------------
@@ -56,16 +31,8 @@ Route::middleware('auth:api')->get('/xot', function (Request $request) {
     return $request->user();
 });
 */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
 /*
  * Route::middleware('auth:api')->get('/xot', function (Request $request) {
  * return $request->user();
  * });
  */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

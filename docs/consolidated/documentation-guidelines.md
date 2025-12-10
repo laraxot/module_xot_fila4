@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -99,42 +54,14 @@ position: 1
 Ogni documento dovrebbe iniziare con:
 
 ```markdown
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 399f46d3 (.)
-=======
 
->>>>>>> 17684f52 (.)
-=======
 
->>>>>>> 88e35986 (.)
-=======
 
->>>>>>> e0b8ebe3 (.)
-=======
 
->>>>>>> cc52d333 (.)
-=======
 
->>>>>>> 90d386aa (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
-
->>>>>>> 399f46d3 (.)
 # Titolo Principale
 
 Breve introduzione che spiega lo scopo del documento e il contesto.
@@ -145,42 +72,14 @@ Breve introduzione che spiega lo scopo del documento e il contesto.
 Utilizzare una gerarchia chiara di intestazioni:
 
 ```markdown
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 399f46d3 (.)
-=======
 
->>>>>>> 17684f52 (.)
-=======
 
->>>>>>> 88e35986 (.)
-=======
 
->>>>>>> e0b8ebe3 (.)
-=======
 
->>>>>>> cc52d333 (.)
-=======
 
->>>>>>> 90d386aa (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
-
->>>>>>> 399f46d3 (.)
 ## Sezione Principale
 
 Descrizione della sezione principale.
@@ -252,42 +151,14 @@ La documentazione dei modelli dovrebbe includere:
 
 Esempio:
 ```markdown
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 399f46d3 (.)
-=======
 
->>>>>>> 17684f52 (.)
-=======
 
->>>>>>> 88e35986 (.)
-=======
 
->>>>>>> e0b8ebe3 (.)
-=======
 
->>>>>>> cc52d333 (.)
-=======
 
->>>>>>> 90d386aa (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
-
->>>>>>> 399f46d3 (.)
 ## NomeModello
 
 ```php
@@ -347,42 +218,14 @@ La documentazione dovrebbe essere aggiornata contemporaneamente alle modifiche d
 Utilizzare strumenti di generazione automatica quando possibile:
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 399f46d3 (.)
-=======
 
->>>>>>> 17684f52 (.)
-=======
 
->>>>>>> 88e35986 (.)
-=======
 
->>>>>>> e0b8ebe3 (.)
-=======
 
->>>>>>> cc52d333 (.)
-=======
 
->>>>>>> 90d386aa (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
-
->>>>>>> 399f46d3 (.)
 # Esempio: Generare documentazione per lo schema del database
 php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
 ```
@@ -419,42 +262,14 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 ### Documentazione di Modelli
 
 ```markdown
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 5a14301c (.)
-=======
 
->>>>>>> 399f46d3 (.)
-=======
 
->>>>>>> 17684f52 (.)
-=======
 
->>>>>>> 88e35986 (.)
-=======
 
->>>>>>> e0b8ebe3 (.)
-=======
 
->>>>>>> cc52d333 (.)
-=======
 
->>>>>>> 90d386aa (.)
-=======
 
->>>>>>> 5a14301c (.)
-=======
-
->>>>>>> 399f46d3 (.)
 # Modelli del Modulo Brain
 
 Questo documento descrive i modelli disponibili nel modulo Brain, che rappresentano le entità del database braindb.
@@ -505,86 +320,3 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)

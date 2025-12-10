@@ -4,42 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 use LogicException;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -48,180 +12,35 @@ use Filament\Pages\Concerns\InteractsWithFormActions;
 use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
-<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-=======
-<<<<<<< HEAD
-=======
-use Illuminate\Contracts\View\View;
->>>>>>> 53d6a6ba (.)
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Closure;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Concerns\InteractsWithFormActions;
-<<<<<<< HEAD
 use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Pages\Page as FilamentPage;
 use Filament\Pages\Page as FilamentPage;
 use Filament\Pages\Page as FilamentPage;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Resources\Pages\Page as FilamentPage;
-=======
 use Filament\Pages\Page as FilamentPage;
->>>>>>> 5a14301c (.)
-=======
 use Filament\Pages\Page as FilamentPage;
->>>>>>> 5a14301c (.)
-=======
 use Filament\Pages\Page as FilamentPage;
->>>>>>> 5a14301c (.)
-=======
 use Filament\Pages\Page as FilamentPage;
->>>>>>> 5a14301c (.)
-=======
-use Filament\Pages\Page as FilamentPage;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
 
-<<<<<<< HEAD
-=======
-=======
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> b93ef594b4 (.)
 use Filament\Schemas\Schema;
 use Closure;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -232,14 +51,9 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 
->>>>>>> b93ef594b4 (.)
-=======
 use Closure;
 use Filament\Forms\Form;
 use Illuminate\Support\Str;
@@ -254,9 +68,6 @@ use Modules\Xot\Filament\Traits\TransTrait;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Pages\Concerns\InteractsWithFormActions;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 /**
  * Base class for all custom pages in the application.
  *
@@ -264,15 +75,6 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
  * following the architectural pattern of never extending Filament classes directly.
  *
  * @property ?string $model
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
  * @property ?array  $data
  * @property Schema  $form
  */
@@ -281,86 +83,32 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
-<<<<<<< HEAD
  * @property ?array $data
  * @property Schema $form
  */
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
  * @property ?array $data
-<<<<<<< HEAD
  * @property Schema $form
  */
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  * @property Schema $form
  */
-=======
- * @property \Filament\Schemas\Schema $form
-*/
->>>>>>> a12f125f4a (.)
-=======
  * @property Schema $form
  */
->>>>>>> b93ef594b4 (.)
-=======
  * @property ComponentContainer $form
 */
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 abstract class XotBasePage extends FilamentPage implements HasForms
 {
     use InteractsWithForms;
     use NavigationLabelTrait;
     use TransTrait;
     use InteractsWithFormActions;
-<<<<<<< HEAD
     use TransTrait;
     use TransTrait;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
     use TransTrait;
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
     use TransTrait;
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 
     /**
      * The model class associated with this page, if any.
      */
-<<<<<<< HEAD
     public static ?string $model = null;
     public static null|string $model = null;
     public static null|string $model = null;
@@ -396,218 +144,53 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public static null|string $model = null;
     public static null|string $model = null;
     public static null|string $model = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static ?string $model = null;
-=======
     public static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
     public static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
     public static null|string $model = null;
-=======
     public static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
     public static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
     public static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
     public static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
     public static null|string $model = null;
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static null|string $model = null;
-=======
     public static ?string $model = null;
->>>>>>> a12f125f4a (.)
-=======
     public static null|string $model = null;
->>>>>>> b93ef594b4 (.)
-=======
+    public static null|string $model = null;
+    public static null|string $model = null;
     public static ?string $model = null;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
     public static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
     public static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
     public static null|string $model = null;
-=======
+    public static null|string $model = null;
+    public static null|string $model = null;
     public static ?string $model = null;
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
     public static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
     public static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
     public static null|string $model = null;
-=======
     public static ?string $model = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
     public static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
     public static null|string $model = null;
-=======
     public static ?string $model = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
     public static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
     public static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
     public static null|string $model = null;
-=======
     public static ?string $model = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
     public static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
     public static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-    public static null|string $model = null;
->>>>>>> ca9324a4 (.)
-=======
-    public static null|string $model = null;
->>>>>>> 5a14301c (.)
-=======
-    public static null|string $model = null;
-=======
-    public static ?string $model = null;
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-    public static null|string $model = null;
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-    public static null|string $model = null;
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 
     /**
      * The form data.
      *
      * @var array<string, mixed>
      */
-<<<<<<< HEAD
     public ?array $data = [];
     public null|array $data = [];
     public null|array $data = [];
@@ -616,169 +199,37 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public null|array $data = [];
     public null|array $data = [];
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?array $data = [];
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
     public null|array $data = [];
->>>>>>> 3fbbf1f5 (.)
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
     public null|array $data = [];
->>>>>>> 5a14301c (.)
-=======
-    public null|array $data = [];
->>>>>>> 5a14301c (.)
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public null|array $data = [];
 
-=======
+    public null|array $data = [];
+
+    public null|array $data = [];
+
     public ?array $data = [];
 
     
->>>>>>> a12f125f4a (.)
-=======
-    public null|array $data = [];
-
->>>>>>> b93ef594b4 (.)
-=======
-    public ?array $data = [];
-
-    
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     /**
      * Get the view that should be used for the page.
      */
     public function getView(): string
     {
-<<<<<<< HEAD
         if (isset($this->view)) {
             return $this->view;
-=======
-<<<<<<< HEAD
         if (isset($this->view)) {
             return $this->view;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (isset($this->view)) {
             return $this->view;
-=======
+        if (isset($this->view)) {
+            return $this->view;
         if (isset(static::$view)) {
             return static::$view;
->>>>>>> a12f125f4a (.)
-=======
-        if (isset($this->view)) {
-            return $this->view;
->>>>>>> b93ef594b4 (.)
-=======
-        if (isset(static::$view)) {
-            return static::$view;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         }
 
         $view = Str::of(static::class)
@@ -786,42 +237,15 @@ abstract class XotBasePage extends FilamentPage implements HasForms
             ->before('\\Filament\\')
             ->lower()
             ->append('::filament.pages.')
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             ->append(
                 Str::of(static::class)
                     ->afterLast('\\')
                     ->kebab()
                     ->toString(),
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
             ->append(Str::of(static::class)
                 ->afterLast('\\')
                 ->kebab()
                 ->toString()
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             );
 
         return $view->toString();
@@ -854,51 +278,27 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
      * Configure the form.
      */
-<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->statePath('data');
     }
 
     /**
-=======
-<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->statePath('data');
-=======
-<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $schema->components($this->getFormSchema())->statePath('data');
-=======
-        return $schema
-            ->components($this->getFormSchema())
-            ->statePath('data');
->>>>>>> a12f125f4a (.)
-=======
         return $schema->components($this->getFormSchema())->statePath('data');
->>>>>>> b93ef594b4 (.)
-=======
     public function form(Form $form): Form
     {
         return $form
             ->schema($this->getFormSchema())
             ->statePath('data');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
      * Get the associated model class for this page.
      *
      * This method must be non-static to properly override the parent method.
@@ -933,50 +333,21 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
     /**
-<<<<<<< HEAD
      * Get the form schema for the page.
      *
      * @return array<string, Component>
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
      * Get the form schema for the page.
      *
-<<<<<<< HEAD
      * @return array<string, Component>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, Component>
-=======
-     * @return array<string, \Filament\Schemas\Components\Component>
->>>>>>> a12f125f4a (.)
-=======
      * @return array<string, Component>
->>>>>>> b93ef594b4 (.)
-=======
      * @return array<string, Component>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      */
     protected function getFormSchema(): array
     {
         return [];
     }
 
-<<<<<<< HEAD
         
     /**
      * Get the associated model class for this page.
@@ -985,91 +356,17 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     {
         /** @phpstan-ignore property.staticAccess */
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    /**
-     * Get the associated model class for this page.
-     * 
-     * This method must be non-static to properly override the parent method.
-     * Returns the model class string or throws an exception if not set.
-     */
-    public function getModel(): string
-    {
-        if (static::$model === null) {
-            throw new \LogicException('Model class not set for page: ' . static::class);
-        }
-<<<<<<< HEAD
         
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
     /**
      * Get the associated model class for this page.
      */
-<<<<<<< HEAD
     public static function getModel(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static function getModel(): null|string
-=======
+    public static function getModel(): null|string
     public static function getModel(): ?string
->>>>>>> a12f125f4a (.)
-=======
-    public static function getModel(): null|string
->>>>>>> b93ef594b4 (.)
-=======
-    public static function getModel(): ?string
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         /** @phpstan-ignore property.staticAccess */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         return static::$model;
     }
 
@@ -1083,37 +380,10 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return collect();
     }
 
-<<<<<<< HEAD
     /*
      * Hook chiamato all'inizializzazione del componente.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
     /*
      * Hook chiamato all'inizializzazione del componente.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      *
      * public function mount(int|string $record): void
      * {
@@ -1121,14 +391,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * $this->form->fill($this->data ?? []);
      * }
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
      
     public function mount(int|string $record): void
     {
@@ -1136,14 +398,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         $this->form->fill($this->data ?? []);
     }
     */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     /**
      * Get the view data for the page.
      *

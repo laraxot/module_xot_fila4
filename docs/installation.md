@@ -1,47 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 # Installazione
 
 ## Requisiti di Sistema
@@ -172,197 +128,6 @@ php artisan serve
 - [Regole di Documentazione](documentation-rules.md)
 
 ## Collegamenti tra versioni di installation.md
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> a62d7646 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> 5cd593a5 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 099ab7a0 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 96276392 (.)
-=======
->>>>>>> 3baa48bd (.)
-=======
->>>>>>> 6d1255a8 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 3ae5e299 (.)
-=======
->>>>>>> 5b07d268 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> a62d7646 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> 5cd593a5 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 099ab7a0 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 96276392 (.)
-=======
->>>>>>> 3baa48bd (.)
-=======
->>>>>>> 6d1255a8 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 3ae5e299 (.)
-=======
->>>>>>> 5b07d268 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 * [installation.md](../../../Xot/docs/filament/installation.md)
 * [installation.md](../../../Xot/docs/installation.md)
 * [installation.md](../../../Xot/docs/base/installation.md)
@@ -370,65 +135,6 @@ php artisan serve
 * [installation.md](../../../Lang/docs/installation.md)
 * [installation.md](../../../Cms/docs/installation.md)
 * [installation.md](../../../../Themes/One/docs/installation.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3ae5e299 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> laraxot/develop
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
 * [installation.md](../../../Xot/project_docs/base/installation.md)
@@ -436,30 +142,7 @@ php artisan serve
 * [installation.md](../../../Lang/project_docs/installation.md)
 * [installation.md](../../../Cms/project_docs/installation.md)
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
-<<<<<<< HEAD
 
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 5b07d268 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-
->>>>>>> 6d1255a8 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 96276392 (.)
-=======
->>>>>>> laraxot/develop
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
 * [installation.md](../../../Xot/project_docs/base/installation.md)
@@ -467,44 +150,7 @@ php artisan serve
 * [installation.md](../../../Lang/project_docs/installation.md)
 * [installation.md](../../../Cms/project_docs/installation.md)
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
-<<<<<<< HEAD
 
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 3baa48bd (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-
->>>>>>> 099ab7a0 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3ae5e299 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> a62d7646 (.)
-=======
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> laraxot/develop
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
 * [installation.md](../../../Xot/project_docs/base/installation.md)
@@ -512,58 +158,7 @@ php artisan serve
 * [installation.md](../../../Lang/project_docs/installation.md)
 * [installation.md](../../../Cms/project_docs/installation.md)
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
-<<<<<<< HEAD
 
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 5b07d268 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> a62d7646 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-
->>>>>>> 6d1255a8 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 96276392 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> laraxot/develop
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
 * [installation.md](../../../Xot/project_docs/base/installation.md)
@@ -571,35 +166,7 @@ php artisan serve
 * [installation.md](../../../Lang/project_docs/installation.md)
 * [installation.md](../../../Cms/project_docs/installation.md)
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
-<<<<<<< HEAD
 
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 3baa48bd (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> cafe8bed (.)
-=======
->>>>>>> 5cd593a5 (.)
-
->>>>>>> 099ab7a0 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> a62d7646 (.)
-=======
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> laraxot/develop
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
 * [installation.md](../../../Xot/project_docs/base/installation.md)
@@ -607,70 +174,7 @@ php artisan serve
 * [installation.md](../../../Lang/project_docs/installation.md)
 * [installation.md](../../../Cms/project_docs/installation.md)
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
-<<<<<<< HEAD
 
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-=======
->>>>>>> a62d7646 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> 5cd593a5 (.)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> laraxot/develop
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
 * [installation.md](../../../Xot/project_docs/base/installation.md)
@@ -678,7 +182,6 @@ php artisan serve
 * [installation.md](../../../Lang/project_docs/installation.md)
 * [installation.md](../../../Cms/project_docs/installation.md)
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
-<<<<<<< HEAD
 
 
 
@@ -688,74 +191,5 @@ php artisan serve
 
 
 
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
 
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 
->>>>>>> 5bd842e3 (.)
-=======
-
->>>>>>> 03ceeac3 (.)
-=======
-
->>>>>>> 5a14301c (.)
-=======
-
->>>>>>> 71f31700 (.)
-=======
-
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
-
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-
->>>>>>> 5bd842e3 (.)
-=======
-
->>>>>>> 03ceeac3 (.)
-=======
-
->>>>>>> 5a14301c (.)
-=======
-
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop

@@ -1,26 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 <x-filament-panels::page>
     <x-filament-schemas::form wire:submit="save">
         {{ $this->form }}
@@ -30,13 +12,6 @@ declare(strict_types=1);
         />
 
     </x-filament-schemas::form>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> b93ef594b4 (.)
 <x-filament-panels::page>
     <x-filament-schemas::form wire:submit="save">
         {{ $this->form }}
@@ -45,13 +20,8 @@ declare(strict_types=1);
             :actions="$this->getFormActions()"
         />
 
-<<<<<<< HEAD
     </x-filament-panels::form>
->>>>>>> a12f125f4a (.)
-=======
     </x-filament-schemas::form>
->>>>>>> b93ef594b4 (.)
-=======
 <x-filament-panels::page>
     <x-filament-panels::form wire:submit="save">
         {{ $this->form }}
@@ -61,7 +31,4 @@ declare(strict_types=1);
         />
 
     </x-filament-panels::form>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 </x-filament-panels::page>

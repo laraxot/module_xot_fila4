@@ -4,37 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Export;
 
-<<<<<<< HEAD
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Illuminate\Http\Response;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Http\Response;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Http\Response;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Http\Response;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Http\Response;
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Http\Response;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Illuminate\Support\LazyCollection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\LazyCollectionExport;
@@ -48,136 +22,15 @@ class ExportXlsByLazyCollection
     /**
      * Esporta una lazy collection in Excel.
      *
-<<<<<<< HEAD
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-     * @param  LazyCollection  $collection  La lazy collection da esportare
-     * @param  string  $filename  Nome del file Excel
-     * @param  array<int, string>  $fields  Campi da includere nell'export
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
      * @param LazyCollection $collection La lazy collection da esportare
      * @param string $filename Nome del file Excel
      * @param array<int, string> $fields Campi da includere nell'export
-<<<<<<< HEAD
      *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-=======
      * 
->>>>>>> a12f125f4a (.)
-=======
-     *
->>>>>>> b93ef594b4 (.)
-=======
-     * 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return BinaryFileResponse
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-     * @param  LazyCollection  $collection  La lazy collection da esportare
-     * @param  string  $filename  Nome del file Excel
-     * @param  array<int, string>  $fields  Campi da includere nell'export
->>>>>>> b7afadf9 (.)
-=======
-     * @param  LazyCollection  $collection  La lazy collection da esportare
-     * @param  string  $filename  Nome del file Excel
-     * @param  array<int, string>  $fields  Campi da includere nell'export
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> laraxot/develop
-     * @param LazyCollection $collection La lazy collection da esportare
-     * @param string $filename Nome del file Excel
-     * @param array<int, string> $fields Campi da includere nell'export
-     *
-     * @return BinaryFileResponse
-<<<<<<< HEAD
-     * @param  LazyCollection  $collection  La lazy collection da esportare
-     * @param  string  $filename  Nome del file Excel
-     * @param  array<int, string>  $fields  Campi da includere nell'export
-     * @param  LazyCollection  $collection  La lazy collection da esportare
-     * @param  string  $filename  Nome del file Excel
-     * @param  array<int, string>  $fields  Campi da includere nell'export
-=======
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-     * @param  LazyCollection  $collection  La lazy collection da esportare
-     * @param  string  $filename  Nome del file Excel
-     * @param  array<int, string>  $fields  Campi da includere nell'export
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
-     * @param  LazyCollection  $collection  La lazy collection da esportare
-     * @param  string  $filename  Nome del file Excel
-     * @param  array<int, string>  $fields  Campi da includere nell'export
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> laraxot/develop
-     * @param LazyCollection $collection La lazy collection da esportare
-     * @param string $filename Nome del file Excel
-     * @param array<int, string> $fields Campi da includere nell'export
-     *
-     * @return BinaryFileResponse
-<<<<<<< HEAD
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
@@ -195,25 +48,17 @@ class ExportXlsByLazyCollection
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
+     * @param LazyCollection $collection La lazy collection da esportare
+     * @param string $filename Nome del file Excel
+     * @param array<int, string> $fields Campi da includere nell'export
+     *
+     * @return BinaryFileResponse
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      */
     public function execute(
         LazyCollection $collection,
@@ -221,25 +66,6 @@ class ExportXlsByLazyCollection
         array $fields = [],
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
-<<<<<<< HEAD
-        $stringFields = array_map(strval(...), array_values($fields));
-
-        $export = new LazyCollectionExport($collection, $filename, $stringFields);
-=======
-<<<<<<< HEAD
-        $stringFields = array_map(strval(...), array_values($fields));
-
-        $export = new LazyCollectionExport($collection, $filename, $stringFields);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $stringFields = array_map(strval(...), array_values($fields));
-
-        $export = new LazyCollectionExport($collection, $filename, $stringFields);
-=======
-=======
->>>>>>> origin/develop
         $stringFields = array_map(function ($field) {
             return strval($field);
         }, array_values($fields));
@@ -249,17 +75,9 @@ class ExportXlsByLazyCollection
             $filename,
             $stringFields
         );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
         $stringFields = array_map(strval(...), array_values($fields));
 
         $export = new LazyCollectionExport($collection, $filename, $stringFields);
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
         return Excel::download($export, $filename);
     }

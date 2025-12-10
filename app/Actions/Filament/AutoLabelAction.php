@@ -8,124 +8,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 use Filament\Forms\Components\Field;
 use Filament\Schemas\Components\Component;
 use Illuminate\Support\Arr;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\GetTransKeyAction;
 use ReflectionClass;
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use ReflectionClass;
 use Filament\Forms\Components\Field;
 use Illuminate\Support\Arr;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\GetTransKeyAction;
-=======
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-use Filament\Schemas\Components\Component;
-use ReflectionClass;
-use Filament\Forms\Components\Field;
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Components\Component;
-use ReflectionClass;
-use Filament\Forms\Components\Field;
-=======
-use Filament\Forms\Components\Field;
-use Filament\Forms\Components\Component;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-use Illuminate\Support\Arr;
-use Modules\Lang\Actions\SaveTransAction;
-use Modules\Xot\Actions\GetTransKeyAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -137,54 +31,10 @@ class AutoLabelAction
     use QueueableAction;
 
     /**
-<<<<<<< HEAD
-     * Applica automaticamente le etichette ai componenti Filament.
-     *
-     * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
      * Get the component name based on its actual type.
      *
      * @param Field|Component $component Il componente di cui ottenere il nome
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * Applica automaticamente le etichette ai componenti Filament.
-     *
-     * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-     * Get the component name based on its actual type.
-     *
-<<<<<<< HEAD
      * @param Field|Component $component Il componente di cui ottenere il nome
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param Field|Component $component Il componente di cui ottenere il nome
-=======
-     * @param Field|\Filament\Schemas\Components\Component $component Il componente di cui ottenere il nome
->>>>>>> a12f125f4a (.)
-=======
-     * @param Field|Component $component Il componente di cui ottenere il nome
->>>>>>> b93ef594b4 (.)
-=======
-     * @param Field|Component $component Il componente di cui ottenere il nome
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      * @return string Il nome del componente
      */
     private function getComponentName(Field|Component $component): string
@@ -192,27 +42,8 @@ class AutoLabelAction
         // Per i componenti Field di Filament
         if (method_exists($component, 'getName')) {
             $name = $component->getName();
-<<<<<<< HEAD
             return is_string($name) ? $name : ((string) $name);
-=======
-<<<<<<< HEAD
-            return is_string($name) ? $name : ((string) $name);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            return is_string($name) ? $name : ((string) $name);
-=======
             return is_string($name) ? $name : (string) $name;
->>>>>>> a12f125f4a (.)
-=======
-            return is_string($name) ? $name : ((string) $name);
->>>>>>> b93ef594b4 (.)
-=======
-            return is_string($name) ? $name : (string) $name;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         }
 
         // Per i componenti generali di Filament
@@ -221,41 +52,11 @@ class AutoLabelAction
         // @phpstan-ignore function.alreadyNarrowedType
         if (method_exists($component, 'getStatePath')) {
             $statePath = $component->getStatePath();
-<<<<<<< HEAD
             return $statePath ?? class_basename($component);
-=======
-<<<<<<< HEAD
-            return $statePath ?? class_basename($component);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            return $statePath ?? class_basename($component);
-=======
-            return $statePath;
->>>>>>> a12f125f4a (.)
-=======
-            return $statePath ?? class_basename($component);
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         }
 
         // Fallback a reflection per altri casi
         $reflectionClass = new ReflectionClass($component);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-            return $statePath;
-        }
-
-        // Fallback a reflection per altri casi
-        $reflectionClass = new \ReflectionClass($component);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         if ($reflectionClass->hasProperty('name') && $reflectionClass->getProperty('name')->isPublic()) {
             $property = $reflectionClass->getProperty('name');
             Assert::string($value = $property->getValue($component));
@@ -269,26 +70,6 @@ class AutoLabelAction
     /**
      * Applica automaticamente le etichette ai componenti Filament.
      *
-<<<<<<< HEAD
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     *
-=======
-<<<<<<< HEAD
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      * @return Field|Component Il componente con l'etichetta applicata
      */
     public function execute(Field|Component $component): Field|Component
@@ -302,46 +83,16 @@ class AutoLabelAction
         // Gestiamo il caso in cui $class sia vuoto
         if (empty($class)) {
             // Se non riusciamo a ottenere la classe dal backtrace, usiamo la classe del componente
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
             $class = $component::class;
         }
 
         if (is_object($class)) {
             $class = $class::class;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             $class = get_class($component);
         }
 
         if (is_object($class)) {
             $class = get_class($class);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         }
 
         // Assicuriamo che $class sia una stringa
@@ -359,30 +110,9 @@ class AutoLabelAction
         Assert::stringNotEmpty($componentName, 'Il nome del componente non può essere vuoto');
 
         // Costruiamo la chiave per l'etichetta
-<<<<<<< HEAD
-        $label_key = $trans_key.'.fields.'.$componentName.'.label';
         $label_key = $trans_key . '.fields.' . $componentName . '.label';
         $label_key = $trans_key . '.fields.' . $componentName . '.label';
         $label_key = $trans_key . '.fields.' . $componentName . '.label';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $label_key = $trans_key.'.fields.'.$componentName.'.label';
-=======
-        $label_key = $trans_key . '.fields.' . $componentName . '.label';
->>>>>>> 5a14301c (.)
-=======
-        $label_key = $trans_key . '.fields.' . $componentName . '.label';
->>>>>>> 5a14301c (.)
-=======
-        $label_key = $trans_key . '.fields.' . $componentName . '.label';
->>>>>>> 5a14301c (.)
-=======
-        $label_key = $trans_key . '.fields.' . $componentName . '.label';
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         $label = trans($label_key);
 
         if (is_string($label)) {
@@ -391,30 +121,9 @@ class AutoLabelAction
                 $label_value = $componentName;
 
                 // Proviamo a ottenere una traduzione più breve
-<<<<<<< HEAD
-                $label_key1 = $trans_key.'.fields.'.$componentName;
                 $label_key1 = $trans_key . '.fields.' . $componentName;
                 $label_key1 = $trans_key . '.fields.' . $componentName;
                 $label_key1 = $trans_key . '.fields.' . $componentName;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                $label_key1 = $trans_key.'.fields.'.$componentName;
-=======
-                $label_key1 = $trans_key . '.fields.' . $componentName;
->>>>>>> 5a14301c (.)
-=======
-                $label_key1 = $trans_key . '.fields.' . $componentName;
->>>>>>> 5a14301c (.)
-=======
-                $label_key1 = $trans_key . '.fields.' . $componentName;
->>>>>>> 5a14301c (.)
-=======
-                $label_key1 = $trans_key . '.fields.' . $componentName;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 $label1 = trans($label_key1);
 
                 if ($label_key1 !== $label1 && is_string($label1)) {
@@ -435,13 +144,6 @@ class AutoLabelAction
 
         return $component;
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 
     /**
      * Get the component name based on its actual type.
@@ -480,56 +182,18 @@ class AutoLabelAction
         // Ultima risorsa: ritorniamo il nome della classe
         return class_basename($component);
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> laraxot/develop
 
     /**
      * Applica automaticamente le etichette ai componenti Filament.
      *
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
-<<<<<<< HEAD
      * @return Field|Component Il componente con l'etichetta applicata
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-     * @return Field|Component Il componente con l'etichetta applicata
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param Field|Component $component Il componente a cui applicare l'etichetta
      *
      * @return Field|Component Il componente con l'etichetta applicata
-=======
-     * @param Field|\Filament\Schemas\Components\Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|\Filament\Schemas\Components\Component Il componente con l'etichetta applicata
->>>>>>> a12f125f4a (.)
-=======
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|Component Il componente con l'etichetta applicata
->>>>>>> b93ef594b4 (.)
-=======
      * @param Field|Component $component Il componente a cui applicare l'etichetta
      * 
      * @return Field|Component Il componente con l'etichetta applicata
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      */
     public function execute(Field|Component $component): Field|Component
     {
@@ -564,19 +228,7 @@ class AutoLabelAction
         Assert::stringNotEmpty($componentName, 'Il nome del componente non può essere vuoto');
 
         // Costruiamo la chiave per l'etichetta
-<<<<<<< HEAD
-        $label_key = $trans_key.'.fields.'.$componentName.'.label';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $label_key = $trans_key.'.fields.'.$componentName.'.label';
-=======
         $label_key = $trans_key . '.fields.' . $componentName . '.label';
->>>>>>> 5a14301c (.)
-=======
-        $label_key = $trans_key . '.fields.' . $componentName . '.label';
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         $label = trans($label_key);
 
         if (is_string($label)) {
@@ -585,19 +237,7 @@ class AutoLabelAction
                 $label_value = $componentName;
 
                 // Proviamo a ottenere una traduzione più breve
-<<<<<<< HEAD
-                $label_key1 = $trans_key.'.fields.'.$componentName;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                $label_key1 = $trans_key.'.fields.'.$componentName;
-=======
                 $label_key1 = $trans_key . '.fields.' . $componentName;
->>>>>>> 5a14301c (.)
-=======
-                $label_key1 = $trans_key . '.fields.' . $componentName;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 $label1 = trans($label_key1);
 
                 if ($label_key1 !== $label1 && is_string($label1)) {
@@ -618,14 +258,4 @@ class AutoLabelAction
 
         return $component;
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 }

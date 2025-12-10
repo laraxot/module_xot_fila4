@@ -4,197 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
->>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphPivot;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\Relations\Pivot;
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\MorphPivot;
 use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-use Illuminate\Database\Eloquent\Relations\MorphPivot;
-use Illuminate\Database\Eloquent\Relations\Pivot;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
-=======
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Relations\MorphPivot;
-use Illuminate\Database\Eloquent\Relations\Pivot;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -204,42 +23,6 @@ use Webmozart\Assert\Assert;
 trait RelationX
 {
     /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
      * @param  class-string<Model>  $related  Related model class
      * @param  class-string<Model>|string|null  $_table  Pivot table name
      * @param  string|null  $foreignPivotKey  Foreign pivot key
@@ -256,106 +39,6 @@ trait RelationX
         ?string $parentKey = null,
         ?string $relatedKey = null,
         ?string $relation = null,
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
      * @param class-string<Model>             $related         Related model class
      * @param class-string<Model>|string|null $_table          Pivot table name
      * @param string|null                     $foreignPivotKey Foreign pivot key
@@ -363,247 +46,40 @@ trait RelationX
      * @param string|null                     $parentKey       Parent key
      * @param string|null                     $relatedKey      Related key
      * @param string|null                     $relation        Relation name
-<<<<<<< HEAD
      */
     public function belongsToManyX(
         string $related,
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-     */
-    public function belongsToManyX(
-        string $related,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
->>>>>>> laraxot/develop
         ?string $_table = null,
         ?string $foreignPivotKey = null,
         ?string $relatedPivotKey = null,
         ?string $parentKey = null,
         ?string $relatedKey = null,
         ?string $relation = null,
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
         null|string $_table = null,
         null|string $foreignPivotKey = null,
         null|string $relatedPivotKey = null,
         null|string $parentKey = null,
         null|string $relatedKey = null,
         null|string $relation = null,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
     ): BelongsToMany {
         Assert::isInstanceOf(
             $related_model = app($related),
             Model::class,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
             '['.__LINE__.']['.class_basename($this).']',
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 43d67f21 (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 43d67f21 (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 43d67f21 (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 43d67f21 (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 43d67f21 (.)
-=======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 5a14301c (.)
         );
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
      * @param class-string<Model>             $related         aaa
      * @param class-string<Model>|string|null $table           aaa
      * @param string|null                     $foreignPivotKey aaa
@@ -611,13 +87,9 @@ trait RelationX
      * @param string|null                     $parentKey       aaa
      * @param string|null                     $relatedKey      aaa
      * @param string|null                     $relation        aaa
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
      */
     public function belongsToManyX(
         string $related,
->>>>>>> laraxot/develop
         null|string $_table = null,
         null|string $foreignPivotKey = null,
         null|string $relatedPivotKey = null,
@@ -625,36 +97,11 @@ trait RelationX
         null|string $relatedKey = null,
         null|string $relation = null,
     ): BelongsToMany {
-<<<<<<< HEAD
-        Assert::isInstanceOf(
-            $related_model = app($related),
-            Model::class,
-            '['.__LINE__.']['.class_basename($this).']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-        );
-=======
-<<<<<<< HEAD
-        Assert::isInstanceOf($related_model = app($related), Model::class, '['.__LINE__.']['.class_basename($this).']');
->>>>>>> a12f125f4a (.)
-=======
         Assert::isInstanceOf(
             $related_model = app($related),
             Model::class,
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
->>>>>>> b93ef594b4 (.)
-=======
      */
     public function belongsToManyX(
         string $related,
@@ -666,9 +113,6 @@ trait RelationX
         ?string $relation = null,
     ): BelongsToMany {
         Assert::isInstanceOf($related_model = app($related), Model::class, '['.__LINE__.']['.class_basename($this).']');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         $pivot = $this->guessPivot($related);
         $table = $pivot->getTable();
         $pivotFields = $pivot->getFillable();
@@ -676,150 +120,8 @@ trait RelationX
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
-<<<<<<< HEAD
-        
         // Handle cross-database relationships
         // if ($pivotDbName !== $dbName) {
-        if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-        // Handle cross-database relationships
-=======
-        // if ($pivotDbName !== $dbName) {
->>>>>>> 53d6a6ba (.)
-        if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 492d6d3c (.)
->>>>>>> laraxot/develop
-            $pivotDriver = $pivot->getConnection()->getDriverName();
-            // Only add database prefix for non-SQLite drivers
-            // SQLite doesn't support database.table syntax
-            if ($pivotDriver !== 'sqlite') {
-<<<<<<< HEAD
-                $table = $pivotDbName.'.'.$table;
-            }
-            $table = $pivotDbName . '.' . $table;
-                $table = $pivotDbName . '.' . $table;
-            }
-        }
-
-        // if ($pivotDbName !== $dbName) {
-        
-        // Handle cross-database relationships
-
-        // Handle cross-database relationships
-        // if ($pivotDbName !== $dbName) {
-        // if ($pivotDbName !== $dbName) {
-
-        // Handle cross-database relationships
-        // if ($pivotDbName !== $dbName) {
-=======
-<<<<<<< HEAD
-                $table = $pivotDbName.'.'.$table;
-            }
-=======
-<<<<<<< HEAD
-            $table = $pivotDbName . '.' . $table;
->>>>>>> 5a14301c (.)
-=======
-                $table = $pivotDbName . '.' . $table;
-            }
->>>>>>> 492d6d3c (.)
-        }
-
-=======
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-        // if ($pivotDbName !== $dbName) {
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-        
-        // Handle cross-database relationships
->>>>>>> 492d6d3c (.)
-=======
-
-        // Handle cross-database relationships
->>>>>>> b7afadf9 (.)
-=======
-        // if ($pivotDbName !== $dbName) {
->>>>>>> 71586de2 (.)
-=======
-        // if ($pivotDbName !== $dbName) {
->>>>>>> 53d6a6ba (.)
-=======
-
-        // Handle cross-database relationships
->>>>>>> b7afadf9 (.)
-=======
-        // if ($pivotDbName !== $dbName) {
->>>>>>> 71586de2 (.)
->>>>>>> laraxot/develop
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -828,58 +130,17 @@ trait RelationX
                 $table = $pivotDbName . '.' . $table;
             }
         }
-<<<<<<< HEAD
-        // }
 
         // if ($pivotDbName !== $dbName) {
         
         // Handle cross-database relationships
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        // }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 492d6d3c (.)
 
-=======
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-        // if ($pivotDbName !== $dbName) {
-=======
-        
         // Handle cross-database relationships
->>>>>>> 492d6d3c (.)
->>>>>>> laraxot/develop
+        // if ($pivotDbName !== $dbName) {
+        // if ($pivotDbName !== $dbName) {
+
+        // Handle cross-database relationships
+        // if ($pivotDbName !== $dbName) {
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -888,48 +149,10 @@ trait RelationX
                 $table = $pivotDbName . '.' . $table;
             }
         }
-<<<<<<< HEAD
-        // }
 
         // if ($pivotDbName !== $dbName) {
         
         // Handle cross-database relationships
-=======
-<<<<<<< HEAD
-        // }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 492d6d3c (.)
-
-=======
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-        // if ($pivotDbName !== $dbName) {
-=======
-        
-        // Handle cross-database relationships
->>>>>>> 492d6d3c (.)
->>>>>>> laraxot/develop
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -938,48 +161,10 @@ trait RelationX
                 $table = $pivotDbName . '.' . $table;
             }
         }
-<<<<<<< HEAD
-        // }
 
         // if ($pivotDbName !== $dbName) {
         
         // Handle cross-database relationships
-=======
-<<<<<<< HEAD
-        // }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 492d6d3c (.)
-
-=======
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-        // if ($pivotDbName !== $dbName) {
-=======
-        
-        // Handle cross-database relationships
->>>>>>> 492d6d3c (.)
->>>>>>> laraxot/develop
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -988,55 +173,10 @@ trait RelationX
                 $table = $pivotDbName . '.' . $table;
             }
         }
-<<<<<<< HEAD
-        // }
-        // }
-        // }
 
         // if ($pivotDbName !== $dbName) {
-=======
-<<<<<<< HEAD
-        // }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
-        // }
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-        // }
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 492d6d3c (.)
-
-=======
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-        // if ($pivotDbName !== $dbName) {
-=======
         
         // Handle cross-database relationships
->>>>>>> 492d6d3c (.)
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -1045,69 +185,38 @@ trait RelationX
                 $table = $pivotDbName . '.' . $table;
             }
         }
-<<<<<<< HEAD
         // }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
         // }
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-        // }
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 492d6d3c (.)
 
-=======
         // if ($pivotDbName !== $dbName) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
+        
+        // Handle cross-database relationships
+        if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
+            $pivotDriver = $pivot->getConnection()->getDriverName();
+            // Only add database prefix for non-SQLite drivers
+            // SQLite doesn't support database.table syntax
+            if ($pivotDriver !== 'sqlite') {
+                $table = $pivotDbName . '.' . $table;
+            }
+        }
+        // }
+        // }
+
+        // if ($pivotDbName !== $dbName) {
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $table = $pivotDbName . '.' . $table;
         }
         // }
-<<<<<<< HEAD
-        // }
-        // }
-
-=======
-
-=======
-=======
->>>>>>> origin/develop
         if ($pivotDbName != $dbName || $relatedDbName != $dbName) {
             $table = $pivotDbName.'.'.$table;
         }
         // }
         
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $table = $pivotDbName . '.' . $table;
         }
         // }
 
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         return $this->belongsToMany(
             related: $related,
             table: $table,
@@ -1122,276 +231,33 @@ trait RelationX
             ->withTimestamps();
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
     /**
      * Define a polymorphic many-to-many relationship.
      *
      * @template TRelatedModel of \Illuminate\Database\Eloquent\Model
      *
-<<<<<<< HEAD
      * @param class-string<TRelatedModel> $related
      *
      * @param  class-string<TRelatedModel>  $related
      * @param  class-string<TRelatedModel>  $related
      * @param  class-string<TRelatedModel>  $related
      * @param  class-string<TRelatedModel>  $related
+     * @param  class-string<TRelatedModel>  $related
      * @param  string  $name
      * @param  string|null  $_table
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-     * @param class-string<TRelatedModel> $related
-     *
-=======
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-     * @param  class-string<TRelatedModel>  $related
-<<<<<<< HEAD
-=======
-=======
-     * @param  class-string<TRelatedModel>  $related
->>>>>>> 5a14301c (.)
-=======
-     * @param  class-string<TRelatedModel>  $related
->>>>>>> 5a14301c (.)
-=======
-     * @param  class-string<TRelatedModel>  $related
->>>>>>> 5a14301c (.)
-=======
-     * @param  class-string<TRelatedModel>  $related
->>>>>>> 5a14301c (.)
-=======
-     * @param  class-string<TRelatedModel>  $related
->>>>>>> 5a14301c (.)
-     * @param  string  $name
-<<<<<<< HEAD
-     * @param  string|null  $_table
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string|null  $_table
-=======
      * @param  string|null  $table
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string|null  $_table
->>>>>>> b93ef594b4 (.)
-=======
-     * @param  string|null  $table
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
      * @param  string|null  $foreignPivotKey
      * @param  string|null  $relatedPivotKey
      * @param  string|null  $parentKey
      * @param  string|null  $relatedKey
      * @param  string|null  $relation
      * @param  bool  $inverse
-<<<<<<< HEAD
      * @return MorphToMany<TRelatedModel, $this>
      */
     public function morphToManyX(
         string $related,
         string $name,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-     * @return MorphToMany<TRelatedModel, $this>
-     */
-=======
-<<<<<<< HEAD
-     * @return MorphToMany<TRelatedModel, $this>
-     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-    public function morphToManyX(
-        string $related,
-        string $name,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
->>>>>>> laraxot/develop
         ?string $_table = null,
         ?string $foreignPivotKey = null,
         ?string $relatedPivotKey = null,
@@ -1400,202 +266,19 @@ trait RelationX
         ?string $relation = null,
         bool $inverse = false,
     ): MorphToMany {
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         null|string $_table = null,
         null|string $foreignPivotKey = null,
         null|string $relatedPivotKey = null,
         null|string $parentKey = null,
         null|string $relatedKey = null,
         null|string $relation = null,
-<<<<<<< HEAD
         bool $inverse = false,
     ) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-        bool $inverse = false,
-    ) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-=======
-=======
-     * @return \Illuminate\Database\Eloquent\Relations\MorphToMany<TRelatedModel, $this>
-     */
->>>>>>> origin/develop
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     public function morphToManyX($related, $name, $table = null, $foreignPivotKey = null,
                                 $relatedPivotKey = null, $parentKey = null,
                                 $relatedKey = null, $relation = null, $inverse = false)
     {
        
-<<<<<<< HEAD
         bool $inverse = false,
     ) {
         bool $inverse = false,
@@ -1604,298 +287,25 @@ trait RelationX
     ) {
         bool $inverse = false,
     ) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
         bool $inverse = false,
     ) {
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        bool $inverse = false,
-    ) {
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        bool $inverse = false,
-    ) {
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        bool $inverse = false,
-    ) {
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-        bool $inverse = false,
-    ) {
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         $pivot = $this->guessMorphPivot($related);
         $table = $pivot->getTable();
         $pivotFields = $pivot->getFillable();
 
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
-<<<<<<< HEAD
         // $relatedDbName = $related_model->getConnection()->getDatabaseName();
         //$relatedDbName = $related_model->getConnection()->getDatabaseName();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-        // $relatedDbName = $related_model->getConnection()->getDatabaseName();
-=======
-        //$relatedDbName = $related_model->getConnection()->getDatabaseName();
->>>>>>> 3fbbf1f5 (.)
->>>>>>> laraxot/develop
         if ($table === null) {
             $table = $pivot->getTable();
         }
 
-<<<<<<< HEAD
         //$relatedDbName = $related_model->getConnection()->getDatabaseName();
         if ($table === null) {
+        if($table==null){
             $table = $pivot->getTable();
         }
-=======
-=======
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-        //$relatedDbName = $related_model->getConnection()->getDatabaseName();
-<<<<<<< HEAD
-        if ($table === null) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if ($table === null) {
-=======
-        if($table==null){
->>>>>>> a12f125f4a (.)
-=======
-        if ($table === null) {
->>>>>>> b93ef594b4 (.)
-=======
-        if($table==null){
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-            $table = $pivot->getTable();
-        }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         return $this->morphToMany(
             related: $related,
             name: $name,
@@ -1907,14 +317,11 @@ trait RelationX
             relation: $relation,
             inverse: $inverse,
         )
-<<<<<<< HEAD
             ->using($pivot::class)
             ->withPivot($pivotFields)
             ->withTimestamps();
     }
 
-    public function guessMorphPivot(string $related, ?string $_class = null): MorphPivot
-    public function guessMorphPivot(string $related, ?string $_class = null)
     {
         $class = $this::class;
         $pivot_name = class_basename($related).'Morph';
@@ -1936,445 +343,37 @@ trait RelationX
     /**
      * @return MorphPivot
      */
-=======
-<<<<<<< HEAD
-            ->using($pivot::class)
-            ->withPivot($pivotFields)
-            ->withTimestamps();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            ->using($pivot::class)
-            ->withPivot($pivotFields)
-            ->withTimestamps();
-=======
-        ->using($pivot::class)
-        ->withPivot($pivotFields)
-        ->withTimestamps();
->>>>>>> a12f125f4a (.)
-=======
-            ->using($pivot::class)
-            ->withPivot($pivotFields)
-            ->withTimestamps();
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-    }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function guessMorphPivot(string $related, ?string $_class = null): MorphPivot
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function guessMorphPivot(string $related, ?string $_class = null)
->>>>>>> d86d643a (.)
-    {
-        $class = $this::class;
-        $pivot_name = class_basename($related).'Morph';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    /**
-     * @return MorphPivot
-     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-    /**
-     * @return MorphPivot
-     */
->>>>>>> 43d67f21 (.)
-=======
-    /**
-     * @return MorphPivot
-     */
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
-    /**
-     * @return MorphPivot
-     */
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
-    /**
-     * @return MorphPivot
-     */
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
-    /**
-     * @return MorphPivot
-     */
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
-    /**
-     * @return MorphPivot
-     */
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     public function guessMorphPivot(string $related, null|string $_class = null)
-    {
-        $class = $this::class;
-        $pivot_name = class_basename($related) . 'Morph';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
-
-        $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
-        $pivot = app($pivot_class);
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-<<<<<<< HEAD
-
-    public function guessMorphPivot(string $related,?string $class = null)
-    public function guessMorphPivot(string $related, null|string $_class = null)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
-=======
-    public function guessMorphPivot(string $related,?string $class = null)
-=======
-    public function guessMorphPivot(string $related, null|string $_class = null)
->>>>>>> b93ef594b4 (.)
->>>>>>> laraxot/develop
     {
         $class = $this::class;
         $pivot_name = class_basename($related) . 'Morph';
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
         $pivot = app($pivot_class);
-<<<<<<< HEAD
-        Assert::isInstanceOf($pivot,MorphPivot::class);
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-        Assert::isInstanceOf($pivot, MorphPivot::class);
         Assert::isInstanceOf($pivot, MorphPivot::class);
     public function guessMorphPivot(string $related,?string $class = null)
     public function guessMorphPivot(string $related, null|string $_class = null)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::isInstanceOf($pivot,MorphPivot::class);
->>>>>>> a12f125f4a (.)
-=======
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-        Assert::isInstanceOf($pivot, MorphPivot::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
-    public function guessMorphPivot(string $related,?string $class = null)
-=======
-    public function guessMorphPivot(string $related, null|string $_class = null)
->>>>>>> b93ef594b4 (.)
->>>>>>> laraxot/develop
     {
         $class = $this::class;
         $pivot_name = class_basename($related) . 'Morph';
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
         $pivot = app($pivot_class);
-<<<<<<< HEAD
-        Assert::isInstanceOf($pivot,MorphPivot::class);
         Assert::isInstanceOf($pivot, MorphPivot::class);
-=======
-<<<<<<< HEAD
-        Assert::isInstanceOf($pivot,MorphPivot::class);
->>>>>>> a12f125f4a (.)
-=======
         Assert::isInstanceOf($pivot, MorphPivot::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> laraxot/develop
+        Assert::isInstanceOf($pivot, MorphPivot::class);
+        Assert::isInstanceOf($pivot, MorphPivot::class);
+        Assert::isInstanceOf($pivot, MorphPivot::class);
+        Assert::isInstanceOf($pivot, MorphPivot::class);
+    public function guessMorphPivot(string $related,?string $class = null)
+    public function guessMorphPivot(string $related, null|string $_class = null)
+    {
+        $class = $this::class;
+        $pivot_name = class_basename($related) . 'Morph';
+
+        $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
+        $pivot = app($pivot_class);
+        Assert::isInstanceOf($pivot, MorphPivot::class);
         ->using($pivot::class)
         ->withPivot($pivotFields)
         ->withTimestamps();
@@ -2383,39 +382,6 @@ trait RelationX
     /**
      * @return \Illuminate\Database\Eloquent\Relations\MorphPivot
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     public function guessMorphPivot(string $related,?string $class = null)
     {
         $class = $this::class;
@@ -2423,8 +389,6 @@ trait RelationX
         
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
         $pivot = app($pivot_class);
-<<<<<<< HEAD
-        Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
 
         Assert::isInstanceOf($pivot,MorphPivot::class);
         Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
@@ -2434,526 +398,53 @@ trait RelationX
         Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
         Assert::isInstanceOf($pivot,MorphPivot::class);
         Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
         Assert::isInstanceOf($pivot,MorphPivot::class);
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
         Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-        Assert::isInstanceOf($pivot,MorphPivot::class);
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-        Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-        Assert::isInstanceOf($pivot,MorphPivot::class);
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-        Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-        Assert::isInstanceOf($pivot,MorphPivot::class);
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-        Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-        Assert::isInstanceOf($pivot,MorphPivot::class);
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-        Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         return $pivot;
     }
 
     /**
      * Guess the pivot class for a many-to-many relationship.
      *
-<<<<<<< HEAD
-     * @param  string  $related  The related model class name
-     * @param  string|class-string|null  $class  The class to use for parent class lookup (used internally)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $related  The related model class name
-     * @param  string|class-string|null  $class  The class to use for parent class lookup (used internally)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
->>>>>>> laraxot/develop
      * @param string                   $related The related model class name
      * @param string|class-string|null $class   The class to use for parent class lookup (used internally)
      *
      * @return Pivot
-<<<<<<< HEAD
      */
     public function guessPivot(string $related, ?string $class = null): Pivot
      * @param string $related The related model class name
      * @param string|class-string|null $class The class to use for parent class lookup (used internally)
-     * @return Pivot
-     */
+    {
+        $class ??= $this::class;
     public function guessPivot(string $related, null|string $class = null)
     {
         $class ??= $this::class;
-=======
->>>>>>> d86d643a (.)
-     */
-    public function guessPivot(string $related, ?string $class = null): Pivot
-=======
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-     * @param string $related The related model class name
-     * @param string|class-string|null $class The class to use for parent class lookup (used internally)
-<<<<<<< HEAD
-     * @return Pivot
-     */
-    public function guessPivot(string $related, null|string $class = null)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-    {
-        $class ??= $this::class;
-=======
-<<<<<<< HEAD
-     * @return Pivot
-     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function guessPivot(string $related, null|string $class = null)
-    {
-        $class ??= $this::class;
-=======
-    public function guessPivot(string $related, ?string $class = null)
-    {
-        $class = $class ?? $this::class;
->>>>>>> a12f125f4a (.)
-=======
-    public function guessPivot(string $related, null|string $class = null)
-    {
-        $class ??= $this::class;
->>>>>>> b93ef594b4 (.)
-=======
      * @return \Illuminate\Database\Eloquent\Relations\Pivot
      */
     public function guessPivot(string $related, ?string $class = null)
     {
         $class = $class ?? $this::class;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         $model_names = [
             class_basename($class),
             class_basename($related),
         ];
         sort($model_names);
-<<<<<<< HEAD
         $msg = '';
         $msg = '';
         $msg = '';
         $msg = '';
         $msg = '';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
         $msg = '';
->>>>>>> 5a14301c (.)
-=======
-        $msg = '';
->>>>>>> 5a14301c (.)
-=======
-        $msg = '';
->>>>>>> 5a14301c (.)
-=======
-        $msg = '';
->>>>>>> 5a14301c (.)
-=======
-        $msg = '';
->>>>>>> 5a14301c (.)
-=======
-        $msg = '';
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         $pivot_name = implode('', $model_names);
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
 
-<<<<<<< HEAD
-        $pivot = app($pivot_class);
-        Assert::isInstanceOf($pivot, Pivot::class);
-=======
-<<<<<<< HEAD
-        $pivot = app($pivot_class);
-        Assert::isInstanceOf($pivot, Pivot::class);
-=======
-=======
-        $msg='';
-=======
-        $msg = '';
->>>>>>> b93ef594b4 (.)
         $pivot_name = implode('', $model_names);
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
-<<<<<<< HEAD
-        
->>>>>>> a12f125f4a (.)
-=======
 
->>>>>>> b93ef594b4 (.)
         $pivot = app($pivot_class);
         Assert::isInstanceOf($pivot, Pivot::class);
-=======
         $msg='';
         $pivot_name = implode('', $model_names);
         
@@ -2961,69 +452,10 @@ trait RelationX
         
         $pivot = app($pivot_class);
         Assert::isInstanceOf($pivot, \Illuminate\Database\Eloquent\Relations\Pivot::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
         return $pivot;
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
->>>>>>> laraxot/develop
     public function guessPivotFullClass(string $pivot_name, string $related, ?string $class = null): string
     {
         $class ??= $this::class;
@@ -3073,7 +505,6 @@ trait RelationX
         $new_pivot_name = implode('', $model_names);
 
         return $this->guessPivotFullClass($new_pivot_name, $related, $parent_class);
-<<<<<<< HEAD
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
@@ -3086,180 +517,11 @@ trait RelationX
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
-<<<<<<< HEAD
-=======
->>>>>>> 0e51323 (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
-<<<<<<< HEAD
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 43d67f21 (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 0e51323 (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 43d67f21 (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 43d67f21 (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 43d67f21 (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 43d67f21 (.)
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     {
         $class ??= $this::class;
         $pivot_class = Str::of($class)
             ->beforeLast('\\')
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
->>>>>>> laraxot/develop
             ->append('\\'.$pivot_name)
             ->toString();
         if (! class_exists($pivot_class)) {
@@ -3271,45 +533,6 @@ trait RelationX
         if (! class_exists($pivot_class)) {
             if (false !== get_parent_class($class)) {
                 if (! Str::endsWith(get_parent_class($class), 'Morph')) {
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
             ->append('\\' . $pivot_name)
             ->toString();
         if (!class_exists($pivot_class)) {
@@ -3321,84 +544,11 @@ trait RelationX
         if (!class_exists($pivot_class)) {
             if (get_parent_class($class) !== false) {
                 if (!Str::endsWith(get_parent_class($class), 'Morph')) {
-<<<<<<< HEAD
     public function guessPivotFullClass(string $pivot_name, string $related, ?string $class = null):string{
         $class = $class ?? $this::class;
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
     {
         $class ??= $this::class;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, ?string $class = null):string{
-        $class = $class ?? $this::class;
-=======
-    public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
-    {
-        $class ??= $this::class;
->>>>>>> b93ef594b4 (.)
->>>>>>> laraxot/develop
         $pivot_class = Str::of($class)
             ->beforeLast('\\')
             ->append('\\' . $pivot_name)
@@ -3409,40 +559,6 @@ trait RelationX
                 ->append('\\' . $pivot_name)
                 ->toString();
         }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> laraxot/develop
     public function guessPivotFullClass(string $pivot_name, string $related, ?string $class = null):string{
         $class = $class ?? $this::class;
         $pivot_class = Str::of($class)
@@ -3455,248 +571,26 @@ trait RelationX
             ->append('\\'.$pivot_name)
             ->toString();
         }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
         if (! class_exists($pivot_class)) {
             
             if(get_parent_class($class)!==false){
                 if(!Str::endsWith(get_parent_class($class),'Morph')){
-<<<<<<< HEAD
         if (!class_exists($pivot_class)) {
             if (get_parent_class($class) !== false) {
                 if (!Str::endsWith(get_parent_class($class), 'Morph')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> a12f125f4a (.)
-=======
-        if (!class_exists($pivot_class)) {
-            if (get_parent_class($class) !== false) {
-                if (!Str::endsWith(get_parent_class($class), 'Morph')) {
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
                     $model_names = [
                         class_basename(get_parent_class($class)),
                         class_basename($related),
                     ];
                     sort($model_names);
                     $pivot_name = implode('', $model_names);
-<<<<<<< HEAD
-                }
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
                     
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-                    
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
->>>>>>> laraxot/develop
 
                 return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
             }
         }
 
-<<<<<<< HEAD
                 return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
             }
         }
@@ -3712,93 +606,13 @@ trait RelationX
                 return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
             }
         }
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
-=======
-=======
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
->>>>>>> 0e51323 (.)
-=======
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-                return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
-            }
-        }
->>>>>>> 43d67f21 (.)
-        return $pivot_class;
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
                 return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
             }
         }
         return $pivot_class;
-<<<<<<< HEAD
                 return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
             }
         }
         return $pivot_class;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     }
 }

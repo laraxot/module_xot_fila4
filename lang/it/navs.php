@@ -20,39 +20,18 @@ return [
         ],
         'login' => [
             'label' => 'Login',
-<<<<<<< HEAD
             'icon' => 'ui-login',
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             'icon' => 'ui-login',
-=======
             'icon' => 'heroicon-o-login',
->>>>>>> 5a14301c (.)
-=======
             'icon' => 'heroicon-o-login',
->>>>>>> 5a14301c (.)
-=======
             'icon' => 'heroicon-o-login',
->>>>>>> 5a14301c (.)
-=======
             'icon' => 'heroicon-o-login',
->>>>>>> 5a14301c (.)
-=======
             'icon' => 'heroicon-o-login',
->>>>>>> 5a14301c (.)
-=======
             'icon' => 'heroicon-o-login',
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         ],
         'macros' => [
             'label' => 'Macro',

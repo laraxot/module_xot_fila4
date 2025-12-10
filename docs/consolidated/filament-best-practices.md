@@ -1,110 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -273,133 +166,6 @@ public function getTableColumns(): array
         'created_at' => Tables\Columns\TextColumn::make('created_at')
             ->dateTime('d/m/Y H:i')
             ->sortable(),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -455,107 +221,6 @@ public static function getFormSchema(): array
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
 ## Regole per XotBaseEditRecord
 
 ### Implementazione Corretta
@@ -625,226 +290,30 @@ class CreateAppointment extends XotBaseCreateRecord
 ## Esempi di Implementazione Corretta
 
 ### ReportResource.php - IMPLEMENTAZIONE CORRETTA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
 // NON FARE MAI QUESTO
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
 public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 17684f52 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 17684f52 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 88e35986 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> e0b8ebe3 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> cc52d333 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 17684f52 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 88e35986 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> e0b8ebe3 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> cc52d333 (.)
-=======
 public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 {
     return $form->schema([
         // componenti...
@@ -892,107 +361,6 @@ TextInput::make('nome')
 ```php
 <?php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
 declare(strict_types=1);
 
 namespace Modules\SaluteMo\Filament\Resources;
@@ -1043,133 +411,6 @@ class ReportResource extends XotBaseResource
             'create' => Pages\CreateReport::route('/create'),
             'edit' => Pages\EditReport::route('/{record}/edit'),
         ];
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -1259,107 +500,6 @@ class SocioResource extends XotBaseResource
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 5a14301c (.)
 ## Checklist di Conformità
 
 Prima di considerare completa una risorsa Filament, verificare:
@@ -1415,133 +555,6 @@ Prima di considerare completa una risorsa Filament, verificare:
 - `EditAppointment.php` - Estende `XotBaseEditRecord`
 
 *Ultimo aggiornamento: gennaio 2025 - Correzioni per campi reali e rimozione label hardcoded*
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo
@@ -1950,481 +963,131 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 
 ### Esempio corretto
 ```php
-<<<<<<< HEAD
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 88e35986 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> e0b8ebe3 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 76bec91a (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> cc52d333 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 55fe1822 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 88e35986 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> e0b8ebe3 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 76bec91a (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> cc52d333 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 55fe1822 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
-<<<<<<< HEAD
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 88e35986 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> e0b8ebe3 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 76bec91a (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> cc52d333 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 55fe1822 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 88e35986 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> e0b8ebe3 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 76bec91a (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> cc52d333 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 55fe1822 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -2479,51 +1142,3 @@ Appointment::where('doctor_id', $doctorId)
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop

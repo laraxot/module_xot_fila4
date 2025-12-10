@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
-<<<<<<< HEAD
 use Exception;
 use Exception;
 use Exception;
@@ -26,167 +25,16 @@ use Exception;
 use Exception;
 use Exception;
 use Exception;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Exception;
->>>>>>> 5a14301c (.)
-=======
-use Exception;
-=======
-use Exception;
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> 17684f52 (.)
-=======
-use Exception;
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> 17684f52 (.)
-=======
-use Exception;
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> 17684f52 (.)
-=======
-use Exception;
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> ca9324a4 (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-use Exception;
->>>>>>> 9db27d12 (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> ca9324a4 (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-use Exception;
->>>>>>> 9db27d12 (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-use Exception;
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-use Exception;
->>>>>>> 9db27d12 (.)
-=======
-use Exception;
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\ExtraContract;
-<<<<<<< HEAD
-use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Modules\Xot\Models\Extra;
 use Modules\Xot\Models\Extra;
 use Modules\Xot\Models\Extra;
 use Modules\Xot\Models\Extra;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Spatie\SchemalessAttributes\SchemalessAttributes;
-=======
 use Modules\Xot\Models\Extra;
->>>>>>> 5a14301c (.)
-=======
-use Modules\Xot\Models\Extra;
->>>>>>> 5a14301c (.)
-=======
-use Modules\Xot\Models\Extra;
->>>>>>> 5a14301c (.)
-=======
-use Modules\Xot\Models\Extra;
->>>>>>> 5a14301c (.)
-=======
-use Modules\Xot\Models\Extra;
->>>>>>> 5a14301c (.)
-=======
-use Modules\Xot\Models\Extra;
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -214,87 +62,23 @@ trait HasExtraTrait
             ->append('\Models\Extra')
             ->toString();
         Assert::classExists($extra_class);
-<<<<<<< HEAD
         Assert::isAOf(
             $extra_class,
             Model::class,
-            '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
         );
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
-        Assert::isAOf(
-            $extra_class,
-            Model::class,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
->>>>>>> 3fbbf1f5 (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
->>>>>>> 5a14301c (.)
-=======
-            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
->>>>>>> 5a14301c (.)
-        );
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
         Assert::isAOf($extra_class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        Assert::isAOf($extra_class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         // Assert::isInstanceOf($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
         // Assert::implementsInterface($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
 
         return $this->morphOne($extra_class, 'model');
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
     public function getExtra(string $name): array|bool|float|int|string|null
     {
         $extra = $this->extra;
@@ -318,131 +102,43 @@ trait HasExtraTrait
         }
 
         return null;
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
     /**
      * @return array<string, mixed>|bool|int|string|null
      */
     public function getExtra(string $name): array|bool|int|string|null
     {
-<<<<<<< HEAD
         if ($this->extra === null) {
-=======
-<<<<<<< HEAD
-        if ($this->extra === null) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if ($this->extra === null) {
-=======
 
         if ($this->extra == null) {
->>>>>>> a12f125f4a (.)
-=======
-        if ($this->extra === null) {
->>>>>>> b93ef594b4 (.)
-=======
-
-        if ($this->extra == null) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             return null;
         }
         $value = $this->extra->extra_attributes->get($name);
         if (
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             is_array($value) ||
                 is_int($value) ||
                 // || is_float($value)
                 is_null($value) ||
                 is_bool($value) ||
                 is_string($value)
-<<<<<<< HEAD
-        ) {
-            /** @var array<string, mixed>|bool|int|string|null */
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
             is_array($value) || is_int($value)
             // || is_float($value)
             || is_null($value) || is_bool($value)
             || is_string($value)
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         ) {
             /** @var array<string, mixed>|bool|int|string|null */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        if (\is_array($value)) {
-            // PHPStan: Cast to ensure array<string, mixed> type
-            /** @var array<string, mixed> $value */
-            return $value;
-        }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 
         if ($value === null || \is_bool($value) || \is_string($value)) {
             return $value;
         }
 
         if (\is_int($value) || \is_float($value)) {
-<<<<<<< HEAD
             return $value;
         }
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
         throw new \Exception('['.__LINE__.']['.__CLASS__.']');
         throw new Exception('['.__LINE__.']['.__CLASS__.']');
@@ -468,7 +164,6 @@ trait HasExtraTrait
         throw new Exception('['.__LINE__.']['.__CLASS__.']');
             return $value;
         }
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
         throw new Exception('['.__LINE__.']['.__CLASS__.']');
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
@@ -479,363 +174,15 @@ trait HasExtraTrait
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
         throw new Exception('['.__LINE__.']['.__CLASS__.']');
         throw new Exception('['.__LINE__.']['.__CLASS__.']');
-=======
->>>>>>> fe347873 (.)
             return $value;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 399f46d3 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 17684f52 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 399f46d3 (.)
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
-=======
         throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> a12f125f4a (.)
-=======
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> b93ef594b4 (.)
-=======
-        throw new \Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88ea7103 (.)
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> b7afadf9 (.)
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> b7afadf9 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> 71586de2 (.)
-=======
-<<<<<<< HEAD
-=======
-        if (\is_array($value)) {
-            // PHPStan: Cast to ensure array<string, mixed> type
-            /** @var array<string, mixed> $value */
-            return $value;
-        }
-
-        if ($value === null || \is_bool($value) || \is_string($value)) {
-            return $value;
-        }
-
-        if (\is_int($value) || \is_float($value)) {
->>>>>>> fe347873 (.)
-            return $value;
-        }
-<<<<<<< HEAD
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> ca9324a4 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> 71586de2 (.)
-=======
-            return $value;
-        }
-<<<<<<< HEAD
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> laraxot/develop
     }
 
     /**
      * @param  int|float|string|array<string, mixed>|bool|null  $value
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/develop
      */
     public function setExtra(string $name, int|float|string|array|bool|null $value): void
     {
@@ -853,20 +200,6 @@ trait HasExtraTrait
         }
 
         $attributes->set($name, $value);
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
      * @return void
      */
     public function setExtra(string $name, $value)
@@ -874,74 +207,21 @@ trait HasExtraTrait
         $extra = $this->extra;
         if ($this->extra === null) {
             // $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => []]);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
             $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => json_encode([])]);
             Assert::implementsInterface(
                 $extra,
                 ExtraContract::class,
                 '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra . ']',
             );
-<<<<<<< HEAD
-        }
-        Assert::notNull($extra);
-        // $extra is asserted to be non-null above
-        $extra->extra_attributes->set($name, $value);
-=======
-<<<<<<< HEAD
-        }
-        Assert::notNull($extra);
-        // $extra is asserted to be non-null above
-=======
-<<<<<<< HEAD
-        }
-        Assert::notNull($extra);
-        // $extra is asserted to be non-null above
-=======
-=======
->>>>>>> origin/develop
             $extra = $this->extra()
                 ->firstOrCreate([], ['extra_attributes' => json_encode([])]);
             Assert::implementsInterface($extra, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra.']');
         }
         Assert::notNull($extra);
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
         }
         Assert::notNull($extra);
         // $extra is asserted to be non-null above
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         $extra->extra_attributes->set($name, $value);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> laraxot/develop
         $extra->save();
     }
 }

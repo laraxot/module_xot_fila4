@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 90d386aa (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
 # Aggiornamento File di Traduzione xot_base.php
 
 ## Data Aggiornamento
@@ -133,345 +88,134 @@ return [
 
 - [Regole Traduzioni Xot](translation_rules.md)
 - [Best Practices Traduzioni](translations-best-practices.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: 27 Gennaio 2025* 
-=======
-=======
-*Ultimo aggiornamento: 27 Gennaio 2025* 
-=======
-=======
-*Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 5a14301c (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 5a14301c (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 472bd9dc (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> b7ea1cd1 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 5a14301c (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 5a14301c (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 472bd9dc (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> cf971011 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 76bec91a (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> e7da37af (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 55fe1822 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 90d386aa (.)
-=======
-=======
->>>>>>> 6d05deed (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-<<<<<<< HEAD
-*Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 6d05deed (.)
-=======
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 5a14301c (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 399f46d3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> d86d643a (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 43d67f21 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 17684f52 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 472bd9dc (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 88e35986 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> e0b8ebe3 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> cf971011 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 76bec91a (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> cc52d333 (.)
-=======
 
-=======
->>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> e7da37af (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 55fe1822 (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 90d386aa (.)
-=======
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 6d05deed (.)
-=======
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 5a14301c (.)
-=======
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
->>>>>>> 399f46d3 (.)

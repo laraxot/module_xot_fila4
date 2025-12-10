@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 # PHPStan - Guida Completa Consolidata
 
 **Ultimo aggiornamento**: 2025-01-06  
@@ -84,255 +42,65 @@ parameters:
 ### Esecuzione Corretta
 ```bash
 # ✅ CORRETTO - Eseguire da directory Laravel
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 472bd9dc (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 472bd9dc (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 3bf39332 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> cf971011 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> e7da37af (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 472bd9dc (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 3bf39332 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> e7da37af (.)
-=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> b7ea1cd1 (.)
-=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> b7ea1cd1 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 76bec91a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 55fe1822 (.)
-=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> b7ea1cd1 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 76bec91a (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 55fe1822 (.)
-=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
 cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 
 # ❌ ERRATO - Mai usare artisan per phpstan
@@ -553,51 +321,3 @@ $variabile = $oggetto->proprietaNonStandard;
 ---
 
 *Guida consolidata che elimina duplicazioni e semplifica la manutenzione della documentazione PHPStan.*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
->>>>>>> laraxot/develop

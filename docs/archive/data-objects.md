@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data Objects
 
 ## Principi Fondamentali
@@ -250,3 +251,5 @@
 >>>>>>> 091f883c (.)
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 
+=======
+>>>>>>> cc7fb225 (.)

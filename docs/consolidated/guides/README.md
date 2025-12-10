@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -245,3 +246,5 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 >>>>>>> b7ea1cd1 (.)
 >>>>>>> ecd5ec32 (.)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+=======
+>>>>>>> cc7fb225 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices per Model States e Transizioni Custom
 
 ## Parametri aggiuntivi nelle transizioni custom
@@ -198,3 +199,5 @@
 >>>>>>> b7ea1cd1 (.)
 >>>>>>> ecd5ec32 (.)
   - [README.md centrale](../../../docs/README.md) 
+=======
+>>>>>>> cc7fb225 (.)

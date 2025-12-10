@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Troubleshooting - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTI i problemi comuni e le soluzioni del progetto
@@ -718,3 +719,5 @@ php artisan view:clear
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Troubleshooting*
+=======
+>>>>>>> cc7fb225 (.)

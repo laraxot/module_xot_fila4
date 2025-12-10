@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole Generali sulle State Machine
 
 ## Transizioni
@@ -147,3 +148,5 @@
 >>>>>>> ecd5ec32 (.)
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
+=======
+>>>>>>> cc7fb225 (.)

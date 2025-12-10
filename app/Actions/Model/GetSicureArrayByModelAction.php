@@ -144,10 +144,9 @@ class GetSicureArrayByModelAction
             $data = [];
             foreach ($model->getAttributes() as $key => $value) {
                 try {
-                    $data[$key] = $this->$key;
-
-                    /** @phpstan-ignore-next-line */
+                    $data[$key] = $value;
                 } catch (ValueError $e) {
+                    // Skip attributes that cause ValueError
                 }
             }
 

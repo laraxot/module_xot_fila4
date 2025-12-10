@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Script di Risoluzione Conflitti Git - FixCity Project
 
 ## Panoramica
@@ -1505,3 +1506,5 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 =======
 - [Architettura Modulare](../modular-architecture.md)
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> cc7fb225 (.)

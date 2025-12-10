@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Migrations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione migrazioni del progetto
@@ -787,3 +788,5 @@ rm Modules/SaluteMo/docs/database/migrations.md
 **Aggiornato**: 2025-08-07  
 **Categoria**: database  
 **Priorità**: CRITICA
+=======
+>>>>>>> cc7fb225 (.)

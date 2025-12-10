@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -1130,3 +1131,5 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 - [PHPStan Level 10 Guidelines](./phpstan-level10-guidelines.md)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
+=======
+>>>>>>> cc7fb225 (.)

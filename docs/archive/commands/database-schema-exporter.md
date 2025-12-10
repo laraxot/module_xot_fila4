@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DatabaseSchemaExporterCommand
 
 ## Descrizione
@@ -111,3 +112,5 @@ Il file JSON generato contiene:
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 >>>>>>> 091f883c (.)
 
+=======
+>>>>>>> cc7fb225 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -1806,3 +1807,5 @@ php artisan cache:clear
 php artisan config:clear
 php artisan view:clear
 ```
+=======
+>>>>>>> cc7fb225 (.)

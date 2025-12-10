@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione delle Eccezioni
 
 Questo documento fornisce una panoramica del sistema di gestione delle eccezioni nel modulo Xot.
@@ -154,3 +155,5 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 * [README.md](../../../../Themes/Two/project_docs/README.md)
 * [README.md](../../../../Themes/One/project_docs/README.md)
 
+=======
+>>>>>>> cc7fb225 (.)

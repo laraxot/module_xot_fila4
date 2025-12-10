@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Organizzazione Cartella BashScripts
 
 ## Regola Fondamentale
@@ -364,3 +365,5 @@ Per mantenere questa organizzazione:
 
 *Ultimo aggiornamento: 2025-01-29*
 *Responsabile: Sistema di Automazione Laraxot*
+=======
+>>>>>>> cc7fb225 (.)

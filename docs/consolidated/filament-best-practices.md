@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -1652,3 +1653,5 @@ Appointment::where('doctor_id', $doctorId)
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
 
+=======
+>>>>>>> cc7fb225 (.)

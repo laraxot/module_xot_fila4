@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proprietà `$data` in XotBaseWidget: COMPONENTE CRITICO DEL SISTEMA
 
 ## ⚠️ AVVISO CRITICO
@@ -213,3 +214,5 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 - [Livewire Properties Documentation](https://livewire.laravel.com/project_docs/properties)
 - [Filament Forms Documentation](https://filamentphp.com/project_docs/3.x/forms/installation)
 - [RegistrationWidget Example](../../User/project_docs/filament/widgets/registration-widget.md)
+=======
+>>>>>>> cc7fb225 (.)

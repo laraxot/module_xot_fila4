@@ -21,6 +21,9 @@ use Throwable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
 use Illuminate\Support\Facades\Auth;
 use Throwable;
 =======
@@ -67,6 +70,8 @@ use Illuminate\Support\Facades\Auth;
 use function Safe\json_encode;
 use Throwable;
 use Illuminate\Support\Facades\Auth;
+
+use function Safe\json_encode;
 
 class WebhookErrorFormatter
 {

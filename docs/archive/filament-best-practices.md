@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -935,3 +936,5 @@ Appointment::where('doctor_id', $doctorId)
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
 
+=======
+>>>>>>> cc7fb225 (.)

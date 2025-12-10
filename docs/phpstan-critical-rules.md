@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHPStan Critical Rules - INTOCCABILE
 
 ## 🚨 REGOLA ASSOLUTA 🚨
@@ -296,3 +297,5 @@ La configurazione PHPStan è **SACRA** e **INTOCCABILE**. Tutti gli errori PHPSt
 **Applicabilità**: Universale  
 **Violazioni**: 🚫 VIETATE ASSOLUTAMENTE  
 **Stato**: ✅ Regola Attiva e Vincolante
+=======
+>>>>>>> cc7fb225 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -703,3 +704,5 @@ Prima di considerare completa una risorsa Filament, verificare:
    - **Indirizzo e contatti**: via, cap, regione_id, provincia_id, etc.
    - **Dati bancari**: iban, intestatario, banca, filiale
    - **Modalità di ricezione**: Lista di modalità selezionabili
+=======
+>>>>>>> cc7fb225 (.)

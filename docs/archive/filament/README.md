@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filament
 
 Questa cartella contiene la documentazione relativa all'implementazione di Filament nel progetto.
@@ -358,3 +359,5 @@ $prefix = static::$translationPrefix;
 >>>>>>> 091f883c (.)
 // Aggiungere qui altri moduli se necessario
 
+=======
+>>>>>>> cc7fb225 (.)

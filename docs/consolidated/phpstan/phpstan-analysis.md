@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
@@ -447,3 +448,5 @@ class MyModel extends BaseModel
 **Stato**: 🔄 Analisi Completata - Correzioni in Corso  
 **phpstan.neon**: ✅ INTOCCATO  
 **Approccio**: DRY + KISS + Type Safety
+=======
+>>>>>>> cc7fb225 (.)

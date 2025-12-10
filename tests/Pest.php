@@ -9,6 +9,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -40,6 +41,10 @@ declare(strict_types=1);
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -1543,6 +1548,7 @@ namespace Modules\Xot\Tests\Pest;
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 =======
 namespace Modules\Xot\Tests\Pest;
 
@@ -1572,6 +1578,8 @@ namespace Modules\Xot\Tests\Pest;
 |
 */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1630,6 +1638,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -1665,6 +1674,10 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1878,6 +1891,7 @@ namespace Modules\Xot\Tests\Pest;
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 =======
 >>>>>>> 5bd842e3 (.)
 <<<<<<< HEAD
@@ -2234,6 +2248,7 @@ namespace Modules\Xot\Tests\Pest;
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2586,4 +2601,11 @@ namespace Modules\Xot\Tests\Pest;
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 44948f13 (.)
+<<<<<<< HEAD
 >>>>>>> f2dd5676b (.)
+=======
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 0ae90b17 (.)
+>>>>>>> 8fd88dd43 (.)

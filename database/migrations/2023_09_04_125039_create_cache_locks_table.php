@@ -43,6 +43,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -121,6 +122,10 @@ return new class extends XotBaseMigration {
 >>>>>>> 60f0a1820 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->string('key')->primary();
             $table->string('owner');
@@ -149,6 +154,9 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 9f27fc9a6 (.)
 =======
@@ -234,6 +242,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,5 +337,9 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
     }
 };

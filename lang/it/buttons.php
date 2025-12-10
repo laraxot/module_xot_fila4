@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Pulsanti',
@@ -84,8 +87,11 @@ return [
         'success_operation' => 'Operazione dell\'interfaccia completata',
     ],
     // LEGACY SUPPORT - Compatibilità con codice esistente
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
     'backend' => [
         'access' => [
             'users' => [

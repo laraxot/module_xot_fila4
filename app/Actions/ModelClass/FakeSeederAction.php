@@ -144,6 +144,7 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -184,6 +185,10 @@ class FakeSeederAction
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
         if (
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
@@ -212,6 +217,7 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -226,9 +232,12 @@ class FakeSeederAction
 =======
 >>>>>>> 9f27fc9a6 (.)
 =======
+>>>>>>> 8fd88dd43 (.)
+=======
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
 >>>>>>> f1d4085 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +282,9 @@ class FakeSeederAction
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
 >>>>>>> f1d4085 (.)
 >>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +418,7 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -446,10 +459,15 @@ class FakeSeederAction
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +585,13 @@ class FakeSeederAction
         Notification::make()->title($title)->success()->send();
 >>>>>>> f1d4085 (.)
 >>>>>>> f2dd5676b (.)
+=======
+=======
+        Notification::make()->title($title)->success()->send();
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
     }
 
     /**
@@ -599,6 +624,7 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -607,6 +633,8 @@ class FakeSeederAction
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -665,6 +693,7 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -742,11 +771,17 @@ class FakeSeederAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> f2dd5676b (.)
+=======
+=======
+        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -798,10 +833,15 @@ class FakeSeederAction
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
 
         /** @var Model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,6 +868,8 @@ class FakeSeederAction
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
 =======
         
         /** @var Model */
@@ -896,6 +938,7 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -947,6 +990,10 @@ class FakeSeederAction
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
         return $model->getTable();
     }
 }

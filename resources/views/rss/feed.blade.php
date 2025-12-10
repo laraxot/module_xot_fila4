@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -92,6 +93,10 @@
 >>>>>>> 60f0a1820 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
 <?php
 
 declare(strict_types=1);
@@ -99,6 +104,7 @@ declare(strict_types=1);
 ?>
 @php
 '<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,9 +167,12 @@ declare(strict_types=1);
 =======
 >>>>>>> f2dd5676b (.)
 =======
+>>>>>>> 8fd88dd43 (.)
+=======
 @php
 '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,6 +279,10 @@ declare(strict_types=1);
 >>>>>>> 60f0a1820 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
 @endphp
 <rss version="2.0">
     <channel>

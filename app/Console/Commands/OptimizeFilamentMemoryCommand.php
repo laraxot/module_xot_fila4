@@ -1880,6 +1880,61 @@ class OptimizeFilamentMemoryCommand extends Command
                 $this->warn("Dettagli {$type}:");
                 foreach ($items as $item) {
                     $itemString = is_string($item) ? $item : (string) $item;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8fd88dd43 (.)
+                    $this->line('  - '.str_replace(base_path(), '', (string) $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+<<<<<<< HEAD
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
                     $this->line('  - '.str_replace(base_path(), '', (string) $itemString));
                     $this->line('  - '.str_replace(base_path(), '', $itemString));
                     $this->line("  - " . str_replace(base_path(), '', $itemString));
@@ -1912,39 +1967,16 @@ class OptimizeFilamentMemoryCommand extends Command
                     $this->line('  - '.str_replace(base_path(), '', $itemString));
                     $this->line("  - " . str_replace(base_path(), '', $itemString));
                     $this->line('  - '.str_replace(base_path(), '', $itemString));
+                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+=======
+>>>>>>> 5842a556 (.)
+=======
+                    $this->line('  - '.str_replace(base_path(), '', $itemString));
+=======
                     $this->line('  - '.str_replace(base_path(), '', (string) $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
-                    $this->line('  - '.str_replace(base_path(), '', $itemString));
-                    $this->line("  - " . str_replace(base_path(), '', $itemString));
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 0ae90b17 (.)
+>>>>>>> 8fd88dd43 (.)
                 }
             }
         }

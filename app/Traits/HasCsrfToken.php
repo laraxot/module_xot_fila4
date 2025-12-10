@@ -23,6 +23,7 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -31,6 +32,8 @@ namespace Modules\Xot\Traits;
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 <<<<<<< HEAD
@@ -117,6 +120,7 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +241,12 @@ use Illuminate\Support\Facades\Session;
 >>>>>>> 60f0a1820 (.)
 =======
 >>>>>>> f2dd5676b (.)
+=======
+=======
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
 
 trait HasCsrfToken
 {
@@ -359,6 +369,7 @@ trait HasCsrfToken
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -433,12 +444,15 @@ trait HasCsrfToken
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
 }
 =======
 } 
 >>>>>>> f1d4085 (.)
 =======
 }
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,3 +524,6 @@ trait HasCsrfToken
 } 
 >>>>>>> f1d4085 (.)
 >>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)

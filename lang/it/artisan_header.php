@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
 <?php
 
 declare(strict_types=1);
@@ -28,6 +31,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 =======
 <?php return array (
   'actions' => 
@@ -51,3 +55,5 @@ return [
   ),
 );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)

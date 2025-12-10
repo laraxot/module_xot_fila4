@@ -35,6 +35,7 @@ class MorphOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,12 +107,15 @@ class MorphOneAction
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
 >>>>>>> f1d4085 (.)
 =======
     public function execute(Model $_model, RelationDTO $relationDTO): void
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +187,9 @@ class MorphOneAction
     public function execute(Model $model, RelationDTO $relationDTO): void
 >>>>>>> f1d4085 (.)
 >>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, MorphOne::class);
         // if (is_string($relation->data) && isJson($relation->data)) {

@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -25,6 +26,8 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Proprietà `$data` in XotBaseWidget: COMPONENTE CRITICO DEL SISTEMA
 
 ## ⚠️ AVVISO CRITICO
@@ -104,6 +107,7 @@ Se la proprietà `$data` viene rimossa da `XotBaseWidget`, si verificano i segue
 Prima di ogni commit che coinvolge `XotBaseWidget`, eseguire questo controllo:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +313,9 @@ grep -n "public ?array \$data" /var/www/html/base_saluteora/laravel/Modules/Xot/
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+grep -n "public ?array \$data" /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Widgets/XotBaseWidget.php
+>>>>>>> 5bd842e3 (.)
 ```
 
 Se il comando non restituisce risultati, LA PROPRIETÀ È STATA RIMOSSA e deve essere ripristinata immediatamente.
@@ -326,6 +333,7 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 - [Livewire Properties Documentation](https://livewire.laravel.com/docs/properties)
 - [Filament Forms Documentation](https://filamentphp.com/docs/3.x/forms/installation)
 - [RegistrationWidget Example](../../User/docs/filament/widgets/registration-widget.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,3 +423,5 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

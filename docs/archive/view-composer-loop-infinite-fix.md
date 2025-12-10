@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -25,6 +26,8 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -244,6 +247,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -522,6 +526,9 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> ba1d49f3 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 5bd842e3 (.)
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
 
@@ -531,6 +538,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Priorità**: P0 (Critical) - Bloccava sistema completo  
 **Impatto**: Sistema completamente non funzionale  
 **Tempo di risoluzione**: 15 minuti  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,3 +572,5 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

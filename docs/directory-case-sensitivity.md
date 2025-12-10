@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -28,6 +29,8 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Case Sensitivity e Struttura Corretta delle Directory nei Moduli Laravel
 
 ## Problemi Identificati
@@ -186,6 +189,7 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -236,3 +240,5 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

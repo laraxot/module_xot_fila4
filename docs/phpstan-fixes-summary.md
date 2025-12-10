@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71f31700 (.)
@@ -46,6 +47,8 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # PHPStan Fixes Summary - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
@@ -128,6 +131,7 @@ Tutti i tipi di ritorno non corrispondenti sono stati corretti:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -147,6 +151,8 @@ Tutti i tipi di ritorno non corrispondenti sono stati corretti:
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 ```php
 // PRIMA (errore PHPStan)
 public function provides(): array
@@ -281,6 +287,7 @@ Questi errori non compromettono la funzionalità e possono essere risolti in una
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, <nome modulo>, Geo, Cms, <main module>) sono completamente conformi al livello 9 di PHPStan.
 =======
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
@@ -312,6 +319,9 @@ Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli
 =======
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
 >>>>>>> c35986f4 (.)
+=======
+Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
+>>>>>>> 5bd842e3 (.)
 
 ---
 
@@ -320,6 +330,7 @@ Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli
 **phpstan.neon**: ✅ INTOCCATO  
 **Approccio**: DRY + KISS + Type Safety  
 **Stato**: ✅ COMPLETATO CON SUCCESSO
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,3 +521,5 @@ The fixes maintain backward compatibility while significantly improving type saf
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

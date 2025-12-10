@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -25,10 +26,13 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Organizzazione Cartella BashScripts
 
 ## Regola Fondamentale
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,6 +238,9 @@ La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **S
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
+>>>>>>> 5bd842e3 (.)
 
 ## Struttura Organizzata
 
@@ -269,6 +276,7 @@ bashscripts/
 - Documentazione risoluzione conflitti
 - Automazione push/pull operations
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,6 +471,8 @@ bashscripts/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 #### 5. **maintenance/** - Manutenzione Sistema
 - `backup.sh` - Script di backup
 - `restore_disk.md` - Documentazione ripristino
@@ -480,6 +490,7 @@ bashscripts/
 
 #### 8. **translations/** - Gestione Traduzioni
 - `fix_all_english_translations.sh` - Fix traduzioni inglesi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -679,6 +690,9 @@ bashscripts/
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+- `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
+>>>>>>> 5bd842e3 (.)
 - `verify_translations_syntax.sh` - Verifica sintassi traduzioni
 
 #### 9. **utilities/** - Utilità Generali
@@ -767,6 +781,7 @@ Per mantenere questa organizzazione:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -793,3 +808,5 @@ Per mantenere questa organizzazione:
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -31,6 +32,8 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Best Practices
 
 ## Laraxot Framework Standards
@@ -60,6 +63,7 @@
 - Use snake_case for all keys
 
 ## Code Quality
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +141,9 @@
 =======
 - PHPStan level 9+ for all new code
 >>>>>>> 33af3e61 (.)
+=======
+- PHPStan level 9+ for all new code
+>>>>>>> 5bd842e3 (.)
 - Complete PHPDoc annotations
 - Use Safe library for unsafe functions
 - Follow PSR-12 coding standards
@@ -146,6 +153,7 @@
 - Create bidirectional links between related documents
 - Update both module and root documentation
 - Include practical examples in all guides
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,3 +193,5 @@
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

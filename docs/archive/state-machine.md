@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -25,6 +26,8 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Regole Generali sulle State Machine
 
 ## Transizioni
@@ -36,6 +39,7 @@
 - Ogni errore e soluzione va documentato sia nella docs del modulo sia qui, con link bidirezionali.
 
 ## Collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,3 +348,8 @@
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+- [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
+- [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
+- [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
+>>>>>>> 5bd842e3 (.)

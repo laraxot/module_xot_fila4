@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -27,6 +28,8 @@
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 ---
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
@@ -132,6 +135,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -288,6 +292,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -356,6 +362,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -586,6 +593,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 
 ## h2 Heading
 
@@ -658,6 +667,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -710,6 +720,8 @@ class Foo extends bar
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 * [customizing-your-site.md](../../../Gdpr/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/project_docs/customizing-your-site.md)
@@ -778,6 +790,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -958,11 +971,14 @@ class Foo extends bar
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 * [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Tenant/docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1096,6 +1112,8 @@ class Foo extends bar
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 
 
 ### Versione Incoming
@@ -1103,6 +1121,7 @@ class Foo extends bar
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1169,3 +1188,5 @@ class Foo extends bar
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

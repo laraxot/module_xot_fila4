@@ -90,6 +90,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -108,10 +109,13 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 uses(TestCase::class)->in('Feature', 'Unit');
 =======
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +284,9 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 5bd842e3 (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -287,6 +294,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -799,10 +807,13 @@ pest()->extend(TestCase::class)
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+=======
+>>>>>>> 5bd842e3 (.)
  * | Quando definisci aspettative globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1812,11 +1823,14 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
 =======
+>>>>>>> 5bd842e3 (.)
+=======
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
 
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
@@ -1833,6 +1847,9 @@ namespace Modules\Xot\Tests\Pest;
  * |
  */
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 5bd842e3 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1846,6 +1863,7 @@ namespace Modules\Xot\Tests\Pest;
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2149,10 +2167,17 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+// function something() {
+//     // ...
+// }
+=======
+>>>>>>> 5bd842e3 (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2921,3 +2946,6 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 5bd842e3 (.)

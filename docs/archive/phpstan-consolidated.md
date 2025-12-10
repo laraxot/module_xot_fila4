@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -25,6 +26,8 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # PHPStan - Guida Completa Consolidata
 
 **Ultimo aggiornamento**: 2025-01-06  
@@ -69,6 +72,7 @@ parameters:
 ### Esecuzione Corretta
 ```bash
 # ✅ CORRETTO - Eseguire da directory Laravel
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +278,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 5bd842e3 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 
 # ❌ ERRATO - Mai usare artisan per phpstan
@@ -501,6 +508,7 @@ $variabile = $oggetto->proprietaNonStandard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -527,3 +535,5 @@ $variabile = $oggetto->proprietaNonStandard;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

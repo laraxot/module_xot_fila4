@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -27,6 +28,8 @@
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 ---
 title: Model
 description: Model Queuable Actions
@@ -39,6 +42,7 @@ section: content
 # Model Queuable Actions
 
 ## Collegamenti tra versioni di model.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +281,10 @@ section: content
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 >>>>>>> cafe8bed (.)
+=======
+* [model.md](../../../Xot/docs/model.md)
+* [model.md](../../../Xot/docs/service/model.md)
+>>>>>>> 5bd842e3 (.)
 
 
 ### Versione Incoming
@@ -285,6 +293,7 @@ section: content
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -351,3 +360,5 @@ section: content
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

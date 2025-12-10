@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -27,6 +28,8 @@
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # DatabaseSchemaExporter Command Documentation
 
 ## Overview
@@ -81,6 +84,7 @@ Tabelle trovate: users, migrations, password_resets
 - Ottimizzata la query di estrazione tabelle 
 
 ## Collegamenti tra versioni di database-schema-exporter.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,3 +264,8 @@ Tabelle trovate: users, migrations, password_resets
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 5bd842e3 (.)

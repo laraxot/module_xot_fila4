@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -25,6 +26,8 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Prompt di Documentazione
 
 ## Panoramica
@@ -80,6 +83,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi assoluti nei collegamenti
 - MAI includere il nome del progetto nei percorsi
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +282,9 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5bd842e3 (.)
 
 ### Formato Corretto
 ```markdown
@@ -287,6 +294,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Sottodirectory](./sottodirectory/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -560,12 +568,15 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> ba1d49f3 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -921,6 +932,11 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 5bd842e3 (.)
 ```
 
 ### Checklist di Validazione
@@ -995,6 +1011,7 @@ con collegamenti bidirezionali...
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -1021,3 +1038,5 @@ con collegamenti bidirezionali...
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

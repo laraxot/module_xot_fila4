@@ -88,6 +88,7 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
@@ -112,9 +113,12 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 =======
 >>>>>>> ab5b3a4f (.)
 =======
+>>>>>>> 88e745db5 (.)
+=======
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
@@ -133,6 +137,8 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 88e745db5 (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
@@ -155,6 +161,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
@@ -179,9 +186,12 @@ curl -I http://personale2022.prov.tv.local/admin
 =======
 >>>>>>> ab5b3a4f (.)
 =======
+>>>>>>> 88e745db5 (.)
+=======
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
@@ -200,6 +210,8 @@ curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 88e745db5 (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
@@ -222,6 +234,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 >>>>>>> 85cdef688 (.)
 =======
@@ -291,6 +304,11 @@ curl -I http://personale2022.prov.tv.local/admin
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 
 >>>>>>> aba62c408 (.)
+=======
+=======
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)
 # senza redirect automatico
 ```
 
@@ -414,6 +432,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -429,10 +448,14 @@ performance::admin
 =======
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 88e745db5 (.)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,6 +490,9 @@ performance::admin
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)
 
 ## Aggiornamenti
 
@@ -482,6 +508,7 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,3 +564,8 @@ performance::admin
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-27* 
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)

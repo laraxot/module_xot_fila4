@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -53,7 +54,13 @@
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 # Best Practices per Laraxot
 
 ## Riferimenti al modello User
@@ -133,6 +140,7 @@ public function process(\Modules\User\Models\User $user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -197,7 +205,13 @@ public function process(\Modules\User\Models\User $user) {
 =======
 =======
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**

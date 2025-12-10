@@ -55,7 +55,11 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 >>>>>>> ab5b3a4f (.):docs/git_conflicts_resolution_2025_01_06.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> 358ba79a7 (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.):docs/git_conflicts_resolution_2025_01_06.md
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
@@ -159,7 +163,16 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto <no
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> 358ba79a7 (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.):docs/git_conflicts_resolution_2025_01_06.md
 
 ## File Corretti
 

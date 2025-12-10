@@ -33,9 +33,13 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
 - Modules/<main module>/app/Filament/Resources/UserResource.php
 - Modules/<main module>/app/Filament/Resources/UserResource/Pages/CreateUser.php
 - Modules/<main module>/app/Enums/UserType.php
@@ -74,7 +78,12 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 - Modules/SaluteOra/app/Filament/Resources/UserResource.php
 - Modules/SaluteOra/app/Filament/Resources/UserResource/Pages/CreateUser.php
 - Modules/SaluteOra/app/Enums/UserType.php
@@ -85,6 +94,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 - Modules/SaluteOra/Enums/UserType.php
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,7 +118,12 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
 - Modules/<nome progetto>/app/Filament/Resources/UserResource.php
 - Modules/<nome progetto>/app/Filament/Resources/UserResource/Pages/CreateUser.php
 - Modules/<nome progetto>/app/Enums/UserType.php
@@ -140,6 +155,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -166,7 +182,22 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+- Modules/SaluteOra/app/Filament/Resources/UserResource.php
+- Modules/SaluteOra/app/Filament/Resources/UserResource/Pages/CreateUser.php
+- Modules/SaluteOra/app/Enums/UserType.php
+- Modules/SaluteOra/app/Enums/UserState.php
+
+## Esempio errato
+- Modules/SaluteOra/Filament/Resources/UserResource.php
+- Modules/SaluteOra/Enums/UserType.php
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 
 Questa regola garantisce coerenza, manutenibilità e rispetto delle convenzioni PSR-4 e delle best practice del progetto.
 
@@ -238,7 +269,11 @@ class User extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -297,7 +332,40 @@ class User extends Model {
 =======
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+=======
+- [<nome progetto>/docs/uso-label-filament.mdc](../../../docs/uso-label-filament.mdc)
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+=======
+- [<nome progetto>/docs/uso-label-filament.mdc](../../../docs/uso-label-filament.mdc)
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+>>>>>>> 53d6a6ba (.)
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+=======
+- [<nome progetto>/docs/uso-label-filament.mdc](../../../docs/uso-label-filament.mdc)
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 - https://github.com/spatie/laravel-model-states
 
 ---
@@ -355,6 +423,7 @@ class User extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -368,6 +437,9 @@ class User extends Model {
 =======
 <<<<<<< HEAD
 >>>>>>> aba62c408 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
@@ -450,13 +522,19 @@ class User extends Model {
 =======
 =======
 >>>>>>> b956ebe0 (.)
+<<<<<<< HEAD
 >>>>>>> aba62c408 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
 [← Torna a SaluteOra/docs](../../SaluteOra/docs/uso-label-filament.mdc)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -480,7 +558,12 @@ class User extends Model {
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
 - [<nome progetto>/docs/uso-label-filament.mdc](../../../docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
@@ -500,6 +583,7 @@ class User extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -526,7 +610,18 @@ class User extends Model {
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+- https://github.com/spatie/laravel-model-states
+
+[← Torna a SaluteOra/docs](../../SaluteOra/docs/uso-label-filament.mdc)
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 
 # Regola sui Path dei File di Codice nei Moduli Laravel
 
@@ -561,9 +656,13 @@ Tutti i file di codice (Actions, Models, Controllers, ecc.) dei moduli Laravel D
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
 Modules/<main module>/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
@@ -598,13 +697,19 @@ Modules/<main module>/Actions/Patient/Calendar/FetchEventsAction.php
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 Modules/SaluteOra/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
 Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,7 +733,12 @@ Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
 Modules/<nome progetto>/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
@@ -648,6 +758,7 @@ Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -674,7 +785,18 @@ Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+Modules/SaluteOra/app/Actions/Patient/Calendar/FetchEventsAction.php
+
+// Errato
+Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 ```
 
 ## Collegamenti
@@ -715,7 +837,11 @@ final class FetchEventsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -774,7 +900,40 @@ Vedi anche: [<nome progetto>/docs/queueable-actions-guide.md](../../../docs/queu
 =======
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+>>>>>>> 5a14301c (.)
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+=======
+Vedi anche: [<nome progetto>/docs/queueable-actions-guide.md](../../../docs/queueable-actions-guide.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+>>>>>>> 43d67f21 (.)
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+=======
+Vedi anche: [<nome progetto>/docs/queueable-actions-guide.md](../../../docs/queueable-actions-guide.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+>>>>>>> 53d6a6ba (.)
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+=======
+Vedi anche: [<nome progetto>/docs/queueable-actions-guide.md](../../../docs/queueable-actions-guide.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 
 # Regola Namespace per Actions
 
@@ -800,6 +959,7 @@ Esempio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -811,6 +971,9 @@ namespace Modules\<main module>\App\Actions\Patient\Calendar;
 Vedi anche: <main module>/docs/directory-structure.md
 <<<<<<< HEAD
 namespace Modules\<main module>\Actions\Patient\Calendar;
+=======
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
 namespace Modules\<main module>\Actions\Patient\Calendar;
 namespace Modules\SaluteOra\Actions\Patient\Calendar;
 namespace Modules\<main module>\Actions\Patient\Calendar;
@@ -848,7 +1011,12 @@ Vedi anche: <main module>/docs/directory-structure.md
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 namespace Modules\SaluteOra\Actions\Patient\Calendar;
 // Errato
 namespace Modules\SaluteOra\App\Actions\Patient\Calendar;
@@ -869,6 +1037,7 @@ Vedi anche: SaluteOra/docs/directory-structure.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 =======
@@ -880,7 +1049,12 @@ Vedi anche: SaluteOra/docs/directory-structure.md
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
 namespace Modules\<nome modulo>\Actions\Patient\Calendar;
 // Errato
 namespace Modules\<nome modulo>\App\Actions\Patient\Calendar;
@@ -896,6 +1070,7 @@ Vedi anche: SaluteOra/docs/directory-structure.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -922,4 +1097,12 @@ Vedi anche: SaluteOra/docs/directory-structure.md
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+Vedi anche: SaluteOra/docs/directory-structure.md
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)

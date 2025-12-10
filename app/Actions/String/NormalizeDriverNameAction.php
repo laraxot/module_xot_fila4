@@ -19,6 +19,7 @@ namespace Modules\Xot\Actions\String;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -29,7 +30,12 @@ namespace Modules\Xot\Actions\String;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 
 <<<<<<< HEAD
 =======
@@ -125,6 +131,7 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
@@ -132,10 +139,13 @@ use function Safe\preg_replace;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> cf971011 (.)
 =======
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,7 +179,13 @@ use function Safe\preg_replace;
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 
 /**
  * Action per normalizzare i nomi dei driver.
@@ -281,6 +297,7 @@ class NormalizeDriverNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -290,12 +307,18 @@ class NormalizeDriverNameAction
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
     use QueueableAction;
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
     use QueueableAction;
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +351,8 @@ class NormalizeDriverNameAction
 =======
     use QueueableAction;
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cf971011 (.)
 
 >>>>>>> 5a14301c (.)
 =======
@@ -368,6 +393,7 @@ class NormalizeDriverNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -377,13 +403,19 @@ class NormalizeDriverNameAction
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
      * @param string $driver Nome del driver da normalizzare
      * @param  string  $driver  Nome del driver da normalizzare
      * @param string $driver Nome del driver da normalizzare
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,7 +552,15 @@ class NormalizeDriverNameAction
      * @param string $driver Nome del driver da normalizzare
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
@@ -528,6 +568,7 @@ class NormalizeDriverNameAction
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -648,12 +689,18 @@ class NormalizeDriverNameAction
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
         return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
         return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -786,6 +833,13 @@ class NormalizeDriverNameAction
         return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD

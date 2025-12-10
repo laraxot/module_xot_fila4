@@ -256,7 +256,9 @@ class ProcessDoctorModerationAction
 >>>>>>> 85cdef688 (.)
 =======
 - [Laravel Queues](https://laravel.com/docs/queues)
+<<<<<<< HEAD
 - [Spatie Documentation](https://spatie.be/docs/laravel-queueable-action) 
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 - [Laravel Queues](https://laravel.com/docs/queues)
@@ -312,3 +314,8 @@ class ProcessDoctorModerationAction
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Spatie Documentation](https://spatie.be/docs/laravel-queueable-action) 
 >>>>>>> aba62c408 (.)
+=======
+=======
+- [Spatie Documentation](https://spatie.be/docs/laravel-queueable-action) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)

@@ -347,6 +347,7 @@ Registrazione manuale dei metodi di gestione degli eventi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
 >>>>>>> 85cdef688 (.)
@@ -399,3 +400,9 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-c
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
 >>>>>>> aba62c408 (.)
+=======
+https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
+=======
+https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)

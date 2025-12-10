@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -29,7 +30,12 @@
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> ab5b3a4f (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.):docs/TESTING_BEST_PRACTICES.md
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -84,6 +90,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 =======
 >>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
@@ -117,7 +124,13 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> ab5b3a4f (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.):docs/TESTING_BEST_PRACTICES.md
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -300,6 +313,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:docs/testing-best-practices-conflict.md
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -318,6 +332,10 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.):docs/TESTING_BEST_PRACTICES.md
 **Last Update**: Dicembre 2024 
 =======
 <<<<<<< HEAD
@@ -356,4 +374,14 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 **Last Update**: Dicembre 2024 
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> ab5b3a4f (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.):docs/TESTING_BEST_PRACTICES.md

@@ -47,6 +47,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,6 +64,8 @@ use ReflectionMethod;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> cf971011 (.)
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 
@@ -73,6 +76,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
@@ -82,7 +86,12 @@ use SplFileObject;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 use SplFileObject;
 use ReflectionMethod;
 use SplFileObject;
@@ -242,6 +251,7 @@ use SplFileObject;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,7 +471,15 @@ use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace;
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -504,6 +522,7 @@ class GetPropertiesFromMethodsByModelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     use QueueableAction;
 =======
 <<<<<<< HEAD
@@ -516,7 +535,12 @@ class GetPropertiesFromMethodsByModelAction
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
@@ -525,6 +549,7 @@ use SplFileObject;
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,13 +583,19 @@ use SplFileObject;
 =======
     use QueueableAction;
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -640,7 +671,12 @@ use SplFileObject;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
      * @param Model $model Il modello da analizzare
      *
      * @param  Model  $model  Il modello da analizzare
@@ -649,6 +685,7 @@ use SplFileObject;
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -784,7 +821,15 @@ use SplFileObject;
      *
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+     * @param  Model  $model  Il modello da analizzare
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -945,6 +990,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -993,12 +1039,18 @@ use SplFileObject;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1135,7 +1187,16 @@ use SplFileObject;
 =======
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -1227,6 +1288,7 @@ use SplFileObject;
      *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1385,7 +1447,15 @@ use SplFileObject;
 =======
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
      * @param string $codeStr Il codice da analizzare
      * @param Model $model Il modello
      * @param string $method Il nome del metodo
@@ -1445,6 +1515,7 @@ use SplFileObject;
      * @return void
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1570,7 +1641,17 @@ use SplFileObject;
      * @return void
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -1650,6 +1731,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! ($relationObj instanceof Relation)) {
 >>>>>>> ecd5ec32 (.)
 =======
@@ -1695,7 +1777,12 @@ use SplFileObject;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
             if (!($relationObj instanceof Relation)) {
             if (! ($relationObj instanceof Relation)) {
             if (! ($relationObj instanceof Relation)) {
@@ -1703,6 +1790,7 @@ use SplFileObject;
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1836,7 +1924,15 @@ use SplFileObject;
             if (!($relationObj instanceof Relation)) {
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+            if (! ($relationObj instanceof Relation)) {
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
                 return;
             }
 
@@ -1870,6 +1966,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! method_exists($relationObj, 'getForeignKeyName')) {
 >>>>>>> ecd5ec32 (.)
 =======
@@ -1915,7 +2012,12 @@ use SplFileObject;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 88e745db5 (.)
             if (!method_exists($relationObj, 'getForeignKeyName')) {
             if (! method_exists($relationObj, 'getForeignKeyName')) {
             if (! method_exists($relationObj, 'getForeignKeyName')) {
@@ -1923,6 +2025,7 @@ use SplFileObject;
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2056,7 +2159,15 @@ use SplFileObject;
             if (!method_exists($relationObj, 'getForeignKeyName')) {
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -2096,6 +2207,7 @@ use SplFileObject;
 <<<<<<< HEAD
         } catch (Exception $e) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2177,11 +2289,14 @@ use SplFileObject;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> cf971011 (.)
+=======
             $type = 'factory(' . $relatedClass . '::class)';
 >>>>>>> 0e51323 (.)
 =======
             $type = 'factory(' . $relatedClass . '::class)';
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2517,7 +2632,15 @@ use SplFileObject;
             $type = 'factory(' . $relatedClass . '::class)';
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+            $type = 'factory('.$relatedClass.'::class)';
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+>>>>>>> 88e745db5 (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             

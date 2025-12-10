@@ -175,6 +175,7 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
+/** */
 class PulseEntry extends BaseModel
 {
     /** @var list<string> */

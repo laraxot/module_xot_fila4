@@ -1256,6 +1256,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
         Assert::isInstanceOf($paginator, Paginator::class);
 =======
 =======
@@ -1305,6 +1306,16 @@ abstract class XotBaseListRecords extends FilamentListRecords
         $modelClass = $this->getModel();
         // dddx($modelClass);
         app(UpdateCountAction::class)->execute($modelClass, $count);
+=======
+        if (is_object($paginator) && method_exists($paginator, 'total')) {
+            $count = $paginator->total();
+            Assert::integer($count, 'Total must be an integer');
+
+            $modelClass = $this->getModel();
+            app(UpdateCountAction::class)->execute($modelClass, $count);
+        }
+        Assert::isInstanceOf($paginator, Paginator::class);
+>>>>>>> eeaa032 (.)
 
             'all' === $this->getTableRecordsPerPage() ? $query->count() : $this->getTableRecordsPerPage(),
         );

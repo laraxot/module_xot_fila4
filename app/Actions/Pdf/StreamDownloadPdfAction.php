@@ -537,8 +537,16 @@ class StreamDownloadPdfAction
             if (! view()->exists($view)) {
                 throw new Exception('View '.$view.' not found');
             }
+<<<<<<< HEAD
             /** @var array<string, mixed> $viewData */
             $viewData = is_array($data) ? $data : [];
+=======
+            if (! is_array($data)) {
+                $data = [];
+            }
+            /** @var array<string, mixed> $viewData */
+            $viewData = $data;
+>>>>>>> eeaa032 (.)
             $html = view($view, $viewData)->render();
         }
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(self::class));

@@ -84,6 +84,9 @@ use Spatie\ModelStatus\Status;
  */
 interface ModelWithStatusContract
 {
+    /**
+     * @return MorphMany
+     */
     public function statuses(): MorphMany;
 
 <<<<<<< HEAD

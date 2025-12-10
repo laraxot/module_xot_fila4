@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 85cdef688 (.)
@@ -86,6 +87,9 @@
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 358ba79a7 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> aba62c408 (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -289,6 +293,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
@@ -345,6 +350,11 @@
 >>>>>>> 88ee35c4e (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> aba62c408 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -528,6 +538,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Framework](https://laravel.com/docs/12.x)
 >>>>>>> 85cdef688 (.)
@@ -564,6 +575,9 @@
 - [Laravel Framework](https://laravel.com/project_docs/12.x)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 358ba79a7 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> aba62c408 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -578,7 +592,6 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
-<<<<<<< HEAD
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -595,24 +608,6 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
-=======
-* [roadmap.md](bashscripts/project_docs/roadmap.md)
-* [roadmap.md](docs/roadmap.md)
-* [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
-* [roadmap.md](../../../Notify/project_docs/roadmap.md)
-* [roadmap.md](../../../Xot/project_docs/roadmap.md)
-* [roadmap.md](../../../Dental/project_docs/roadmap.md)
-* [roadmap.md](../../../User/project_docs/roadmap.md)
-* [roadmap.md](../../../UI/project_docs/roadmap.md)
-* [roadmap.md](../../../Lang/project_docs/roadmap.md)
-* [roadmap.md](../../../Job/project_docs/roadmap.md)
-* [roadmap.md](../../../Media/project_docs/roadmap.md)
-* [roadmap.md](../../../Tenant/project_docs/roadmap.md)
-* [roadmap.md](../../../Activity/project_docs/roadmap.md)
-* [roadmap.md](../../../Patient/project_docs/roadmap.md)
-* [roadmap.md](../../../Cms/project_docs/roadmap.md)
-* [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
->>>>>>> 6cba4fe (.)
 
 
 ---

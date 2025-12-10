@@ -152,6 +152,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
@@ -182,15 +183,13 @@ return [
 >>>>>>> 88ee35c4e (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/docs/errori_comuni_traduzione.md)
 - [Convenzioni di documentazione](/laravel/Modules/Xot/docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/docs/translation_rules.md)
-=======
-- [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
-- [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
-- [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
->>>>>>> 6cba4fe (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,3 +225,5 @@ return [
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> aba62c408 (.)

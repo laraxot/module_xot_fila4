@@ -74,6 +74,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -84,10 +85,13 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 <<<<<<< HEAD
@@ -216,6 +220,8 @@ use function Safe\preg_replace;
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
 class SanitizeAction
 {
     use QueueableAction;
@@ -666,6 +672,7 @@ class SanitizeAction
 /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -697,6 +704,8 @@ class SanitizeAction
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
  * $string = trim($item);
  *
  *
@@ -709,6 +718,7 @@ class SanitizeAction
  * // Additional removal of non-printable characters
  * $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,3 +822,5 @@ $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)

@@ -342,18 +342,12 @@ class CleanupTemporaryFilesJob extends Job
 
 ## Riferimenti
 
-<<<<<<< HEAD
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/3.x/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/docs/10.x/filesystem)
 - [docs/fileupload-foreach-error-fix.md](../../../docs/fileupload-foreach-error-fix.md)
 - [Modules/User/docs/registration-widget.md](../../User/docs/registration-widget.md)
-=======
-- [Filament FileUpload Documentation](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload)
-- [Laravel File Storage](https://laravel.com/project_docs/10.x/filesystem)
-- [docs/fileupload-foreach-error-fix.md](../../../project_docs/fileupload-foreach-error-fix.md)
-- [Modules/User/project_docs/registration-widget.md](../../User/project_docs/registration-widget.md)
->>>>>>> 6cba4fe (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,3 +386,5 @@ class CleanupTemporaryFilesJob extends Job
 =======
 *Ultimo aggiornamento: 2025-01-03* 
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> aba62c408 (.)

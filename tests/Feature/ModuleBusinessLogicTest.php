@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature;
 
-<<<<<<< HEAD
 use Illuminate\Database\QueryException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13,6 +12,7 @@ use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +141,8 @@ use Tests\TestCase;
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -240,6 +242,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -259,6 +262,9 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> aba62c408 (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -535,6 +541,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -554,6 +561,9 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> aba62c408 (.)
 
             Module::create($moduleData);
         }
@@ -651,6 +661,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -723,3 +734,5 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)

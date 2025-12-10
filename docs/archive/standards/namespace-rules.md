@@ -347,17 +347,10 @@ Se si verificano errori "Class not found" o problemi di autoloading:
 
 ## Collegamenti Correlati
 
-<<<<<<< HEAD
 - [Convenzioni](../../../docs/conventions.md)
 - [Naming Conventions](../../../docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
-=======
-- [Convenzioni](../../../project_docs/conventions.md)
-- [Naming Conventions](../../../project_docs/naming-conventions.md)
-- [Documentazione Xot](../CODE-STANDARDS.md)
-- [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)
->>>>>>> 6cba4fe (.)
 
 Ultima modifica: 31/03/2025 
 <<<<<<< HEAD

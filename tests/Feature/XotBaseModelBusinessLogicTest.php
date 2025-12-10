@@ -31,18 +31,21 @@ use Illuminate\Database\ConnectionInterface;
 namespace Modules\Xot\Tests\Feature;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 <<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
-use Illuminate\Database\ConnectionInterface;
 =======
-<<<<<<< HEAD
+>>>>>>> b956ebe0 (.)
 use Illuminate\Database\ConnectionInterface;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
@@ -70,6 +73,7 @@ use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Tests\TestCase;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Tests\TestCase;
 <<<<<<< HEAD
@@ -106,6 +110,8 @@ use Tests\TestCase;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -1442,8 +1448,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         $this->assertNotNull($connection);
-<<<<<<< HEAD
         $this->assertInstanceOf(ConnectionInterface::class, $connection);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         $this->assertInstanceOf(ConnectionInterface::class, $connection);
@@ -1452,6 +1458,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
     }
 
     /** @test */
@@ -2326,6 +2334,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -2381,6 +2390,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aba62c408 (.)
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
@@ -2445,4 +2457,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> b956ebe0 (.)
+>>>>>>> aba62c408 (.)

@@ -141,6 +141,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +206,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
 - [Architettura dei Provider](../../../docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../docs/architecture/modules.md)
 
@@ -235,6 +238,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -262,6 +266,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 7131bd09 (.)
+=======
 - [Architettura dei Provider](../../../project_docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../project_docs/architecture/modules.md)
 
@@ -269,6 +275,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 - [Notify ServiceProvider](../../Notify/project_docs/service-provider.md)
 - [User ServiceProvider](../../User/project_docs/service-provider.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,6 +349,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
 
 ## Note Importanti
 
@@ -375,6 +384,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 =======
 <<<<<<< HEAD
@@ -486,6 +496,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 >>>>>>> 71f31700 (.)
+=======
+* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
+=======
+* [XotBaseServiceProvider.md](../../../../project_docs/moduli/xot/XotBaseServiceProvider.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 

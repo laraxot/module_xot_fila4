@@ -77,6 +77,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -111,10 +112,13 @@ class StoreAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +183,8 @@ class StoreAction
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
     /**
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $rules
@@ -186,6 +192,7 @@ class StoreAction
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,17 +502,29 @@ class StoreAction
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
         $data['created_by'] = authId();
         /*if (
+<<<<<<< HEAD
          * ! isset($data['user_id'])
          * && \in_array('user_id',  $row->getFillable(), false)
          * && 'user_id' !== $row->getKeyName()
          * ) {
          * $data['user_id'] = \Auth::id();
          * }*/
+=======
+            ! isset($data['user_id'])
+            && \in_array('user_id',  $row->getFillable(), false)
+            && 'user_id' !== $row->getKeyName()
+        ) {
+            $data['user_id'] = \Auth::id();
+        }*/
+>>>>>>> f1d4085 (.)
 
         $validator = Validator::make($data, $rules);
         $validator->validate();
@@ -680,6 +699,7 @@ class StoreAction
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
@@ -702,11 +722,15 @@ class StoreAction
             $relationshipType = class_basename($relationClass);
 
 >>>>>>> ca9324a4 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 7131bd09 (.)
             $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
             $action = app($action_class);
             Assert::object($action);
             if (!method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in [' . $action_class . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -779,11 +803,15 @@ class StoreAction
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
             $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';
             $action = app($action_class);
             Assert::object($action);
             if (! method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in ['.$action_class.']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1058,6 +1086,9 @@ class StoreAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
             }
             $action->execute($model, $relation);
         }

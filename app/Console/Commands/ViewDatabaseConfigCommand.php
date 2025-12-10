@@ -53,7 +53,9 @@ class ViewDatabaseConfigCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,10 +167,14 @@ class ViewDatabaseConfigCommand extends Command
 =======
 >>>>>>> origin/develop
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
     public function __construct()
     {
         parent::__construct();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,6 +342,9 @@ class ViewDatabaseConfigCommand extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
     /**
      * Execute the console command.
@@ -343,6 +352,7 @@ class ViewDatabaseConfigCommand extends Command
     public function handle(): void
     {
         Assert::isArray($connections = config('database.connections'));
+<<<<<<< HEAD
         $database = Arr::map($connections, function (array $item) {
             $item['password'] = '********';
 
@@ -350,6 +360,17 @@ class ViewDatabaseConfigCommand extends Command
 
             // return Arr::except($item, ['password']);
         });
+=======
+        $database = Arr::map(
+            $connections,
+            function (array $item) {
+                $item['password'] = '********';
+
+                return $item;
+                // return Arr::except($item, ['password']);
+            }
+        );
+>>>>>>> f1d4085 (.)
         dddx($database);
     }
 }

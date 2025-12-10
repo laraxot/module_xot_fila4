@@ -51,6 +51,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -158,7 +159,11 @@ use Override;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
 use Override;
+=======
+>>>>>>> f1d4085 (.)
 use Exception;
 use Illuminate\Http\Response;
 >>>>>>> 5a14301c (.)
@@ -185,12 +190,16 @@ use Illuminate\Http\Response;
 
 class JsonEncodeException extends ApplicationException
 {
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> f1d4085 (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
+<<<<<<< HEAD
     #[Override]
     public function help(): string
     {
@@ -210,6 +219,7 @@ class JsonEncodeException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,11 +469,14 @@ class JsonEncodeException extends ApplicationException
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 7131bd09 (.)
+=======
     public function help(): string
     {
         $res = trans('exception.json_not_encoded.help');
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         if (! \is_string($res)) {
@@ -524,11 +537,15 @@ class JsonEncodeException extends ApplicationException
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
         }
 
         return $res;
     }
 
+<<<<<<< HEAD
     #[Override]
     public function error(): string
     {
@@ -548,6 +565,7 @@ class JsonEncodeException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -797,11 +815,14 @@ class JsonEncodeException extends ApplicationException
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 7131bd09 (.)
+=======
     public function error(): string
     {
         $res = trans('exception.json_not_encoded.error');
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         if (! \is_string($res)) {
@@ -862,6 +883,9 @@ class JsonEncodeException extends ApplicationException
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
         }
 
         return $res;

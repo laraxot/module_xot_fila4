@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
+<<<<<<< HEAD
+=======
+use InvalidArgumentException;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
+>>>>>>> f1d4085 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\RelationData as RelationDTO;
@@ -19,6 +25,7 @@ class MorphManyAction
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,10 +97,13 @@ class MorphManyAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
         if ([] === $relationDTO->data) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
             $model->{$relationDTO->name}()->saveMany($relationDTO->data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +312,9 @@ class MorphManyAction
 <<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
         if ($relationDTO->data === []) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model - type assertion per dynamic relationship
@@ -310,17 +323,21 @@ class MorphManyAction
             Assert::object($morphRelation, sprintf('Relation "%s" must return an object', $relationName));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
 
             if (! method_exists($morphRelation, 'saveMany')) {
                 throw new InvalidArgumentException(sprintf('Relation "%s" must support saveMany() method', $relationName));
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,6 +501,8 @@ class MorphManyAction
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
             // Cast to HasMany or MorphMany that supports saveMany()
             if ($morphRelation instanceof HasMany ||
                 $morphRelation instanceof MorphMany) {
@@ -492,6 +511,7 @@ class MorphManyAction
                 throw new InvalidArgumentException(sprintf('Relation "%s" must be HasMany or MorphMany to support saveMany()', $relationName));
             }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -534,6 +554,8 @@ class MorphManyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
 
             return;
         }
@@ -547,6 +569,7 @@ class MorphManyAction
             Assert::isArray($data);
             if (\in_array($keyName, array_keys($data), false)) {
                 /*
+<<<<<<< HEAD
                  * $related_id = $data[$keyName];
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
@@ -573,6 +596,7 @@ class MorphManyAction
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
 =======
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,10 +719,14 @@ class MorphManyAction
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
                 $related_id = $data[$keyName];
                 $row = $related->firstOrCreate([$keyName => $related_id]);
                 $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,6 +777,10 @@ class MorphManyAction
 
                 // Assicura che $data sia type-safe per UpdateAction
 >>>>>>> 399f46d3 (.)
+=======
+
+                // Assicura che $data sia type-safe per UpdateAction
+>>>>>>> 7131bd09 (.)
                 /** @var array<string, mixed> $typedData */
                 $typedData = [];
                 foreach ($data as $key => $value) {
@@ -756,6 +788,7 @@ class MorphManyAction
                 }
 
                 $res = app(UpdateAction::class)->execute($related, $typedData, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -931,6 +964,9 @@ class MorphManyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -938,6 +974,7 @@ class MorphManyAction
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1081,6 +1118,10 @@ class MorphManyAction
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+        $model->{$relationDTO->name}()->saveMany($models);
+=======
+>>>>>>> 7131bd09 (.)
         // Type assertion per dynamic relationship method
         $relationName = $relationDTO->name;
         $morphRelation = $model->{$relationName}();
@@ -1097,6 +1138,7 @@ class MorphManyAction
         } else {
             throw new InvalidArgumentException(sprintf('Relation "%s" must be HasMany or MorphMany to support saveMany()', $relationName));
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1274,6 +1316,9 @@ class MorphManyAction
 =======
         $model->{$relationDTO->name}()->saveMany($models);
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
     }

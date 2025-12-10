@@ -58,6 +58,7 @@ trait CreatesApplication
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $app = require __DIR__.'/../../../bootstrap/app.php';
 =======
         $app = require __DIR__ . '/../../../bootstrap/app.php';
@@ -304,6 +305,12 @@ trait CreatesApplication
 =======
         $app = require __DIR__ . '/../../../bootstrap/app.php';
 >>>>>>> ca9324a4 (.)
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+=======
+        $app = require __DIR__.'/../../../bootstrap/app.php';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
         $app->make(Kernel::class)->bootstrap();
 

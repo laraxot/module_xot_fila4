@@ -128,6 +128,7 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -161,6 +162,8 @@ class GetModulePathByGeneratorAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
         $relativePath = Config::string('modules.paths.generator.' . $generatorPath . '.path');
 <<<<<<< HEAD
 =======
@@ -209,6 +212,7 @@ class GetModulePathByGeneratorAction
                 ']');
         }
         Assert::string($res, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,9 +495,12 @@ class GetModulePathByGeneratorAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 7131bd09 (.)
+=======
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
         try {
             $res = module_path($moduleName, $relativePath);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -547,11 +554,14 @@ class GetModulePathByGeneratorAction
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
         } catch (Exception|Error $e) {
             throw new Exception('Module path not found: '.$moduleName.' '.$generatorPath);
         }
         Assert::string($res);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,6 +681,8 @@ class GetModulePathByGeneratorAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
 
         return $res;
     }

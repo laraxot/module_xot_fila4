@@ -192,6 +192,7 @@ class FakeSeederAction
      */
     public function execute(string $modelClass, int $qty): void
     {
+<<<<<<< HEAD
         if (
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +228,9 @@ class FakeSeederAction
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
 >>>>>>> 5a14301c (.)
         ) {
+=======
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
+>>>>>>> f1d4085 (.)
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
         }
 
@@ -326,10 +330,14 @@ class FakeSeederAction
     private function sendNotification(string $modelClass, int $count): void
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
+<<<<<<< HEAD
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+=======
+        Notification::make()->title($title)->success()->send();
+>>>>>>> f1d4085 (.)
     }
 
     /**
@@ -368,16 +376,29 @@ class FakeSeederAction
         if ($qty <= self::MAX_RECORDS) {
             return;
         }
+<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+=======
+        app(self::class)
+            ->onQueue()
+            ->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> f1d4085 (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
+<<<<<<< HEAD
 
         /** @var Model */
         $model = app($modelClass);
 
+=======
+        
+        /** @var Model */
+        $model = app($modelClass);
+        
+>>>>>>> f1d4085 (.)
         return $model->getTable();
     }
 }

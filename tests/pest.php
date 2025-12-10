@@ -67,6 +67,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -218,6 +219,8 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 7131bd09 (.)
  * |--------------------------------------------------------------------------
  * | Test Case
  * |--------------------------------------------------------------------------
@@ -226,6 +229,7 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +377,9 @@ use Modules\Xot\Tests\TestCase;
 =======
 =======
 >>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
 |--------------------------------------------------------------------------
 | Test Case
 |--------------------------------------------------------------------------
@@ -381,6 +388,7 @@ use Modules\Xot\Tests\TestCase;
 | Estende il TestCase specifico del modulo che fornisce il setup necessario.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -699,10 +707,14 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,6 +913,8 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 7131bd09 (.)
  * |--------------------------------------------------------------------------
  * | Expectations
  * |--------------------------------------------------------------------------
@@ -910,6 +924,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1046,11 +1061,15 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
 |--------------------------------------------------------------------------
 | Expectations
 |--------------------------------------------------------------------------
 |
 | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1061,10 +1080,13 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> e59778ae (.)
+=======
+>>>>>>> 7131bd09 (.)
 | Quando definisci here expectation globali, saranno disponibili 
 | in tutti i test del modulo.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1471,12 +1493,16 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1770,6 +1796,8 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 7131bd09 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1801,6 +1829,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2193,6 +2222,8 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> e59778ae (.)
 =======
+>>>>>>> 7131bd09 (.)
+=======
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -2205,6 +2236,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 // function something() {
 //     // ...
 // } 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -2246,3 +2278,6 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)

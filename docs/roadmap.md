@@ -134,6 +134,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
 =======
 <<<<<<< HEAD
@@ -218,6 +219,12 @@
 =======
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 71f31700 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -450,6 +457,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -462,10 +470,13 @@
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,10 +492,13 @@
 >>>>>>> a62d7646 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
 - [Roadmap Modulo User](../User/project_docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/project_docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/project_docs/roadmap.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +572,8 @@
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -761,7 +777,11 @@
 ## Riferimenti
 
 ### Documentazione
+<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/docs/12.x)
+=======
+- [Laravel Framework](https://laravel.com/project_docs/12.x)
+>>>>>>> f1d4085 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -776,6 +796,7 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1018,6 +1039,8 @@
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -1049,6 +1072,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1063,6 +1087,8 @@
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
 =======
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
@@ -1081,6 +1107,7 @@
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1128,6 +1155,8 @@
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
 
 
 ---

@@ -179,6 +179,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelInputContract {}
 =======
 interface ModelInputContract
@@ -529,3 +530,11 @@ interface ModelInputContract
 {
 }
 >>>>>>> ca9324a4 (.)
+=======
+interface ModelInputContract
+{
+}
+=======
+interface ModelInputContract {}
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)

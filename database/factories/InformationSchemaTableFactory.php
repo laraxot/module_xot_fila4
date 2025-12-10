@@ -9,7 +9,11 @@ use Modules\Xot\Models\InformationSchemaTable;
 
 /**
  * InformationSchemaTable Factory
+<<<<<<< HEAD
  *
+=======
+ * 
+>>>>>>> f1d4085 (.)
  * @extends Factory<InformationSchemaTable>
  */
 class InformationSchemaTableFactory extends Factory
@@ -20,6 +24,7 @@ class InformationSchemaTableFactory extends Factory
     {
         /** @var string $tableName */
         $tableName = $this->faker->randomElement([
+<<<<<<< HEAD
             'users',
             'posts',
             'comments',
@@ -31,6 +36,12 @@ class InformationSchemaTableFactory extends Factory
             'invoices',
         ]);
 
+=======
+            'users', 'posts', 'comments', 'categories', 'tags',
+            'orders', 'products', 'customers', 'invoices'
+        ]);
+        
+>>>>>>> f1d4085 (.)
         return [
             'table_catalog' => 'def',
 <<<<<<< HEAD
@@ -137,6 +148,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         return $this->state(fn (array $_attributes): array => [
@@ -379,6 +391,12 @@ class InformationSchemaTableFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> ca9324a4 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+=======
+        return $this->state(fn (array $attributes): array => [
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
             'table_type' => 'BASE TABLE',
         ]);
     }
@@ -428,6 +446,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         return $this->state(fn (array $_attributes): array => [
@@ -670,6 +689,12 @@ class InformationSchemaTableFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> ca9324a4 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+=======
+        return $this->state(fn (array $attributes): array => [
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
             'table_type' => 'VIEW',
         ]);
     }

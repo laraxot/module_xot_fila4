@@ -147,6 +147,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelWithAuthorContract {}
 =======
 interface ModelWithAuthorContract
@@ -497,3 +498,11 @@ interface ModelWithAuthorContract
 {
 }
 >>>>>>> ca9324a4 (.)
+=======
+interface ModelWithAuthorContract
+{
+}
+=======
+interface ModelWithAuthorContract {}
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)

@@ -56,6 +56,7 @@ class CreateDirectoryForFilenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -136,6 +137,8 @@ class CreateDirectoryForFilenameAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
         if (!File::exists(\dirname($filename))) {
 >>>>>>> 5a14301c (.)
 =======
@@ -154,6 +157,10 @@ class CreateDirectoryForFilenameAction
         if (!File::exists(\dirname($filename))) {
 >>>>>>> 5a14301c (.)
             File::makeDirectory(\dirname($filename), 0o755, true, true);
+=======
+        if (! File::exists(\dirname($filename))) {
+            File::makeDirectory(\dirname($filename), 0755, true, true);
+>>>>>>> f1d4085 (.)
         }
     }
 }

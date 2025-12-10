@@ -89,11 +89,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ## Collegamenti tra versioni di prompts.md
 * [prompts.md](docs/prompts.md)
-<<<<<<< HEAD
 * [prompts.md](../../../Xot/docs/prompts.md)
-=======
-* [prompts.md](../../../Xot/project_docs/prompts.md)
->>>>>>> 6cba4fe (.)
 
 
 ## Modifiche al Prompt docs.txt
@@ -119,6 +115,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +442,9 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
 >>>>>>> 6cba4fe (.)
 >>>>>>> 88e35986 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> ba1d49f3 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -531,6 +531,7 @@ Il prompt `docs.txt` serve come:
 3. **Collegamenti Standardizzati**:
    ```markdown
    [Documento](./path/relativo) #tag-correlati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -736,3 +737,5 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> ba1d49f3 (.)

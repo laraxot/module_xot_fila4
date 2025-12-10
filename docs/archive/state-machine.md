@@ -94,6 +94,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../../<nome progetto>/docs/state-machine.md](../../<nome progetto>/docs/state-machine.md)
 <<<<<<< HEAD
 =======
@@ -277,10 +278,9 @@
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
-- [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
 =======
-- [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
->>>>>>> 6cba4fe (.)
+>>>>>>> ba1d49f3 (.)
+- [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
 >>>>>>> 33af3e61 (.)

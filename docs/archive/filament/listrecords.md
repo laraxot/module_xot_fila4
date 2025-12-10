@@ -202,8 +202,8 @@
 # List Records in Filament
 
 > **AGGIORNAMENTO 2025-05-28:**
-<<<<<<< HEAD
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md) e [SaluteOra/docs/README.md](../../SaluteOra/docs/README.md). Vedi esempi di implementazione e note di propagazione.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +325,8 @@
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
 >>>>>>> 6cba4fe (.)
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
 
 ## Estensione Corretta
 
@@ -554,6 +556,7 @@ public function getTableColumns(): array
 ```
 
 ## PROPAGAZIONE (2025-05-28):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -882,3 +885,6 @@ La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metod
 La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md).
 >>>>>>> 6cba4fe (.)
 >>>>>>> 88e35986 (.)
+=======
+La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md).
+>>>>>>> ba1d49f3 (.)

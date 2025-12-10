@@ -231,15 +231,9 @@ public function test_registration_widget_loads_without_errors_for_existing_user(
 
 ## Riferimenti
 
-<<<<<<< HEAD
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields/file-upload)
 - [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
 - [Livewire File Uploads](https://livewire.laravel.com/docs/file-uploads)
-=======
-- [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields/file-upload)
-- [Laravel Eloquent Accessors](https://laravel.com/project_docs/eloquent-accessors)
-- [Livewire File Uploads](https://livewire.laravel.com/project_docs/file-uploads)
->>>>>>> 6cba4fe (.)
 
 ## Casi Correlati
 
@@ -254,4 +248,3 @@ Questo pattern si applica anche a:
 **Tipo**: Troubleshooting Guide  
 **Modulo**: Xot (Base)  
 **Applicabilità**: Tutti i widget con FileUpload che caricano dati esistenti  
-**Aggiornato**: 2025-01-07 

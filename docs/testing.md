@@ -784,6 +784,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -803,7 +804,14 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 - [Root Testing Organization](../../../docs/testing-organization.md)
 <<<<<<< HEAD
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
@@ -885,7 +893,11 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,10 +948,13 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+>>>>>>> 099ab7a0 (.)
+=======
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -968,6 +983,8 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> aa96bb619 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -1047,7 +1064,12 @@ test('no memory leaks in repeated operations', function (): void {
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 
 ### Framework Documentation
 - [Xot Framework Architecture](./architecture.md)
@@ -1076,6 +1098,7 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -1089,6 +1112,9 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 <<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 <<<<<<< HEAD
@@ -1318,7 +1344,18 @@ test('no memory leaks in repeated operations', function (): void {
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+- [Laravel Testing](https://laravel.com/docs/testing)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+=======
+- [Laravel Testing](https://laravel.com/project_docs/testing)
+- [Spatie Laravel Data](https://spatie.be/project_docs/laravel-data)
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 
 ---
 

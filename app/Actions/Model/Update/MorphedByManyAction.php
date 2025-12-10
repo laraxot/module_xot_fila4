@@ -30,6 +30,7 @@ class MorphedByManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -72,6 +73,8 @@ class MorphedByManyAction
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
     public function execute(Model $_model, RelationDTO $_relationDTO): void
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
@@ -90,6 +93,7 @@ class MorphedByManyAction
          * $model->$name()->touch();
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,10 +172,14 @@ class MorphedByManyAction
 <<<<<<< HEAD
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
         dddx('wip');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +213,9 @@ class MorphedByManyAction
         /*
 >>>>>>> origin/develop
 >>>>>>> f8f76a284 (.)
+=======
+        /*
+>>>>>>> aa96bb619 (.)
         foreach ($data as $k => $v) {
             if (! \is_array($v)) {
                 $v = [];
@@ -217,6 +228,7 @@ class MorphedByManyAction
             $model->$name()->touch();
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,5 +325,8 @@ class MorphedByManyAction
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     }
 }

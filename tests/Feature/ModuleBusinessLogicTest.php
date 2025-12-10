@@ -11,6 +11,7 @@ use Illuminate\Database\QueryException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
@@ -85,9 +86,15 @@ use Tests\TestCase;
 =======
 >>>>>>> f8f76a284 (.)
 =======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> aa96bb619 (.)
+=======
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +192,9 @@ use Tests\TestCase;
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -728,6 +738,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -821,3 +832,8 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)

@@ -79,6 +79,7 @@ it('casts boolean values', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 
@@ -126,9 +127,14 @@ it('casts boolean values', function (): void {
     expect($trueResult)->toBe(1.0)->toBeFloat()->and($falseResult)->toBe(0.0)->toBeFloat();
 >>>>>>> 5400be3e2 (.)
 =======
+
+    expect($trueResult)->toBe(1.0)->toBeFloat()->and($falseResult)->toBe(0.0)->toBeFloat();
+>>>>>>> aa96bb619 (.)
+=======
     
     expect($trueResult)->toBe(1.0)->toBeFloat()
         ->and($falseResult)->toBe(0.0)->toBeFloat();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,6 +202,9 @@ it('casts boolean values', function (): void {
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 });
 
 it('casts arrays', function (): void {
@@ -326,6 +335,7 @@ it('casts with range validation', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     expect($normal)->toBe(50.0)
         ->and($aboveMax)->toBe(100.0)
@@ -368,11 +378,17 @@ it('casts with range validation', function (): void {
     expect($normal)->toBe(50.0)->and($aboveMax)->toBe(100.0)->and($belowMin)->toBe(0.0);
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+
+    expect($normal)->toBe(50.0)->and($aboveMax)->toBe(100.0)->and($belowMin)->toBe(0.0);
+=======
+>>>>>>> aa96bb619 (.)
     
     expect($normal)->toBe(50.0)
         ->and($aboveMax)->toBe(100.0)
         ->and($belowMin)->toBe(0.0);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +419,8 @@ it('casts with range validation', function (): void {
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> aa96bb619 (.)
 });
 
 it('casts with range and default', function (): void {
@@ -437,6 +455,7 @@ it('handles infinite values', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 
@@ -484,9 +503,14 @@ it('handles infinite values', function (): void {
     expect($infResult)->toBe(0.0)->and($nanResult)->toBe(0.0);
 >>>>>>> 5400be3e2 (.)
 =======
+
+    expect($infResult)->toBe(0.0)->and($nanResult)->toBe(0.0);
+>>>>>>> aa96bb619 (.)
+=======
     
     expect($infResult)->toBe(0.0)
         ->and($nanResult)->toBe(0.0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,6 +578,9 @@ it('handles infinite values', function (): void {
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 });
 
 it('handles infinite values with default', function (): void {
@@ -567,6 +594,7 @@ it('handles infinite values with default', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 
@@ -614,9 +642,14 @@ it('handles infinite values with default', function (): void {
     expect($infResult)->toBe(5.0)->and($nanResult)->toBe(5.0);
 >>>>>>> 5400be3e2 (.)
 =======
+
+    expect($infResult)->toBe(5.0)->and($nanResult)->toBe(5.0);
+>>>>>>> aa96bb619 (.)
+=======
     
     expect($infResult)->toBe(5.0)
         ->and($nanResult)->toBe(5.0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,6 +717,9 @@ it('handles infinite values with default', function (): void {
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 });
 
 it('casts scientific notation', function (): void {
@@ -697,6 +733,7 @@ it('casts scientific notation', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 
@@ -744,9 +781,14 @@ it('casts scientific notation', function (): void {
     expect($result1)->toBe(123.0)->and($result2)->toBe(0.0123);
 >>>>>>> 5400be3e2 (.)
 =======
+
+    expect($result1)->toBe(123.0)->and($result2)->toBe(0.0123);
+>>>>>>> aa96bb619 (.)
+=======
     
     expect($result1)->toBe(123.0)
         ->and($result2)->toBe(0.0123);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -814,6 +856,9 @@ it('casts scientific notation', function (): void {
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 });
 
 it('handles decimal comma', function (): void {
@@ -826,6 +871,7 @@ it('handles decimal comma', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -918,3 +964,9 @@ it('handles decimal comma', function (): void {
 });
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+});
+=======
+});
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)

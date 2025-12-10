@@ -177,6 +177,7 @@ done
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6a1fe786 (.)
 <<<<<<< HEAD
@@ -204,7 +205,12 @@ done
 =======
 =======
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 - [Modules/Progressioni/docs/plan.md](../../Progressioni/docs/plan.md) - Piano di verifica sistematica
 - [Modules/Xot/docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
 - [Modules/Xot/docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
@@ -292,6 +298,7 @@ done
 =======
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,10 +315,13 @@ done
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> 099ab7a0 (.)
 - [Modules/Progressioni/project_docs/plan.md](../../Progressioni/project_docs/plan.md) - Piano di verifica sistematica
 - [Modules/Xot/project_docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
 - [Modules/Xot/project_docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,6 +345,8 @@ done
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> aa96bb619 (.)
 =======
 >>>>>>> 34579462 (.)
 >>>>>>> e769883c (.)
@@ -427,7 +439,12 @@ done
 - [Modules/Xot/docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
 - [Modules/Xot/docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 - [/.windsurf/rules/filament-resource-model-alignment.mdc](../../../../.windsurf/rules/filament-resource-model-alignment.mdc) - Regole Windsurf
 - [/.cursor/rules/filament-resource-model-alignment.mdc](../../../../.cursor/rules/filament-resource-model-alignment.mdc) - Regole Cursor
 

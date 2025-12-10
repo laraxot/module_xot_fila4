@@ -23,6 +23,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +120,12 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
      *
 >>>>>>> 5cb992cc6 (.)
+=======
+     *
+=======
+     * 
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];
@@ -131,6 +138,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +196,13 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
         $package->name('cool-modules');
 >>>>>>> 5cb992cc6 (.)
+=======
+        $package->name('cool-modules');
+=======
+        $package
+            ->name('cool-modules');
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     }
 
         $package->name('cool-modules');
@@ -264,6 +279,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -306,11 +322,14 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,11 +383,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
            
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
                 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,10 +481,14 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +541,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -554,6 +583,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 =======
@@ -628,6 +658,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
                 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -643,6 +676,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                             fn () => new HtmlString(
                                 '<a href="'.url('/admin').'" class="m-2 p-2 mt-4 inline-flex gap-2 block rounded-lg font-bold bg-gray-500/10">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -690,10 +724,16 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                                        </svg>
+                                        Main Panel
+>>>>>>> aa96bb619 (.)
                                       </a>'
                             ),
                         );
                     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -782,6 +822,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

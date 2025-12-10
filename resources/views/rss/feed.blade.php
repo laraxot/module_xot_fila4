@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -55,6 +56,8 @@
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 <?php
 
 declare(strict_types=1);
@@ -62,6 +65,7 @@ declare(strict_types=1);
 ?>
 @php
 '<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,9 +109,12 @@ declare(strict_types=1);
 =======
 >>>>>>> 5ca118c34 (.)
 =======
+>>>>>>> aa96bb619 (.)
+=======
 @php
 '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +188,8 @@ declare(strict_types=1);
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 @endphp
 <rss version="2.0">
     <channel>

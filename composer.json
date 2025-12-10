@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -97,10 +98,16 @@
         
 >>>>>>> 5400be3e2 (.)
 =======
+        "filament/filament": "*",
+        "filament/spatie-laravel-media-library-plugin": "*",
+        
+>>>>>>> aa96bb619 (.)
+=======
         "filament/filament": "^3.4",
         "filament/spatie-laravel-media-library-plugin": "^3.2",
         "filament/spatie-laravel-translatable-plugin": "^3.2",
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,6 +183,8 @@
         "filament/spatie-laravel-media-library-plugin": "*",
         
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",
@@ -226,6 +235,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
@@ -240,10 +250,13 @@
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> aa96bb619 (.)
     "require_comment": {
        "filament/spatie-laravel-translatable-plugin": "*"
     },
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +296,9 @@
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.14",
         "barryvdh/laravel-ide-helper": "^3.2",

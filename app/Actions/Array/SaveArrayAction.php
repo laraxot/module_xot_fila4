@@ -38,6 +38,7 @@ class SaveArrayAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +123,12 @@ class SaveArrayAction
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+            default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
+=======
+            default => throw new InvalidArgumentException("Formato non supportato: {$format}")
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
         };
     }
 }

@@ -122,6 +122,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -240,7 +241,10 @@ trait Updater
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 0123915b (.)
+=======
+>>>>>>> 099ab7a0 (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
 =======
@@ -258,11 +262,15 @@ trait Updater
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
         return $this->belongsTo(
             $profileClass,
             'created_by',
             'user_id'
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +310,9 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     }
 
     /**
@@ -373,6 +384,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -383,6 +395,9 @@ trait Updater
 =======
 <<<<<<< HEAD
 >>>>>>> 5cb992cc6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -585,7 +600,10 @@ trait Updater
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 0123915b (.)
+=======
+>>>>>>> 099ab7a0 (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -596,11 +614,15 @@ trait Updater
 =======
 >>>>>>> origin/develop
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
         return $this->belongsTo(
             $profileClass,
             'updated_by',
             'user_id'
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 =======
@@ -618,6 +640,9 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     }
 
     /**
@@ -775,6 +800,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -817,6 +843,8 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -836,6 +864,7 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -947,6 +976,9 @@ trait Updater
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
         static::creating(
             static function (Model $model): void {
                 Assert::isArray($attributes = $model->getAttributes());
@@ -978,6 +1010,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -1035,10 +1068,14 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1091,6 +1128,8 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
             Assert::isArray($attributes = $model->attributes);
@@ -1113,6 +1152,7 @@ trait Updater
 }
 
 // end trait Updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1208,6 +1248,9 @@ trait Updater
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
         static::deleting(
             static function (Model $model): void {
                 Assert::isArray($attributes = $model->attributes);
@@ -1219,6 +1262,7 @@ trait Updater
         );
     }
 }// end trait Updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1284,3 +1328,6 @@ trait Updater
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)

@@ -40,6 +40,7 @@ class OptionData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -66,9 +67,13 @@ class OptionData extends Data
     ) {}
 >>>>>>> 5400be3e2 (.)
 =======
+    ) {}
+>>>>>>> aa96bb619 (.)
+=======
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +174,8 @@ class OptionData extends Data
 =======
     ) {}
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 
     /**
      * Create a new instance of OptionData with default values.

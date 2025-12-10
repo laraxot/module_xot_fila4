@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -48,6 +49,8 @@
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 declare(strict_types=1);
 
 
@@ -73,6 +76,7 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +148,8 @@ return [
 =======
 >>>>>>> 5ca118c34 (.)
 =======
+>>>>>>> aa96bb619 (.)
+=======
 return [
     /*
     |--------------------------------------------------------------------------
@@ -155,6 +161,7 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,10 +201,13 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +260,8 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -278,6 +290,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +383,9 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem']
         ],
         'memory' => [
@@ -397,6 +413,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
     /*
 =======
@@ -423,6 +440,9 @@ return [
     /*
 >>>>>>> origin/develop
 >>>>>>> f8f76a284 (.)
+=======
+    /*
+>>>>>>> aa96bb619 (.)
     |--------------------------------------------------------------------------
     | MCP Model Contexts
     |--------------------------------------------------------------------------
@@ -431,6 +451,7 @@ return [
     | Ogni contesto definisce trait, relazioni e validazioni richieste.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -523,6 +544,9 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 
     'contexts' => [
         'User' => [
@@ -540,6 +564,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -582,6 +607,8 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -590,6 +617,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -678,6 +706,9 @@ return [
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
                 'HasParent'
             ],
             'relationships' => [
@@ -694,6 +725,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -751,6 +783,9 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
         ],
         'Doctor' => [
             'extends' => 'User',
@@ -766,6 +801,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -871,6 +907,12 @@ return [
 =======
                 'HasParent',
 >>>>>>> 5cb992cc6 (.)
+=======
+                'HasParent',
+=======
+                'HasParent'
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
             ],
             'context' => 'medical',
             'validations' => [
@@ -885,6 +927,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'specialization',
             ],
 <<<<<<< HEAD
@@ -925,9 +968,14 @@ return [
             ],
 >>>>>>> 5400be3e2 (.)
 =======
+                'specialization',
+            ],
+>>>>>>> aa96bb619 (.)
+=======
                 'specialization'
             ]
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1034,6 +1082,8 @@ return [
                 'specialization',
             ],
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
         ],
         'Patient' => [
             'extends' => 'User',
@@ -1049,6 +1099,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1154,10 +1205,17 @@ return [
 =======
                 'HasParent',
 >>>>>>> 5cb992cc6 (.)
+=======
+                'HasParent',
+=======
+                'HasParent'
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1210,6 +1268,8 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
                 'medical_history',
             ],
         ],
@@ -1222,6 +1282,7 @@ return [
      * | Regole di validazione per i contesti dei modelli.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1283,11 +1344,14 @@ return [
 =======
 >>>>>>> f8f76a284 (.)
 =======
+>>>>>>> aa96bb619 (.)
+=======
                 'medical_history'
             ]
         ]
     ],
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1321,6 +1385,9 @@ return [
     /*
 >>>>>>> origin/develop
 >>>>>>> f8f76a284 (.)
+=======
+    /*
+>>>>>>> aa96bb619 (.)
     |--------------------------------------------------------------------------
     | MCP Validation Rules
     |--------------------------------------------------------------------------
@@ -1336,6 +1403,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -1419,10 +1487,14 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1473,9 +1545,14 @@ return [
     ],
 >>>>>>> 5400be3e2 (.)
 =======
+        'throw_exceptions' => false,
+    ],
+>>>>>>> aa96bb619 (.)
+=======
         'throw_exceptions' => false
     ]
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1582,4 +1659,6 @@ return [
         'throw_exceptions' => false,
     ],
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 ];

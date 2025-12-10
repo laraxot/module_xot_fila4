@@ -42,6 +42,7 @@ class SpipuPdfByHtmlAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +145,12 @@ class SpipuPdfByHtmlAction
 =======
             'content' => $html2pdf->output($path, 'S'), // D
 >>>>>>> 5cb992cc6 (.)
+=======
+            'content' => $html2pdf->output($path, 'S'), // D
+=======
+            'content' => $html2pdf->output($path, 'S'),  // D
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
             default => $path,
         };
     }

@@ -75,6 +75,7 @@ return new class extends XotBaseMigration
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -88,6 +89,9 @@ return new class extends XotBaseMigration
 =======
 <<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,7 +151,12 @@ return new class extends XotBaseMigration
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 - [User Module Database Errors](../../User/docs/DATABASE_ERRORS.md)
 - [Xot Base Classes](../XOT_BASE_CLASSES.md)
 - [Code Quality](../CODE_QUALITY.md)
@@ -213,6 +222,16 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+- [User Module Database Errors](../../User/project_docs/DATABASE_ERRORS.md)
+- [Xot Base Classes](../XOT_BASE_CLASSES.md)
+- [Code Quality](../CODE_QUALITY.md)
+- [Root Documentation](../../../../project_docs/collegamenti-documentazione.md)
+>>>>>>> f1d4085 (.)
+- [Database Guidelines](../DATABASE_GUIDELINES.md)
+>>>>>>> 099ab7a0 (.)
 <<<<<<< HEAD
 =======
 =======

@@ -111,6 +111,7 @@ class GetProductsArrayDummyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -161,6 +162,8 @@ class GetProductsArrayDummyAction
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
 
             return Arr::only($item, [
                 'id',
@@ -172,6 +175,7 @@ class GetProductsArrayDummyAction
                 'category',
                 'thumbnail',
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,6 +230,9 @@ class GetProductsArrayDummyAction
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
             
             return Arr::only(
                 $item,
@@ -240,6 +247,7 @@ class GetProductsArrayDummyAction
                     'thumbnail',
                 ]
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,6 +319,9 @@ class GetProductsArrayDummyAction
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
         });
 
         return $products;

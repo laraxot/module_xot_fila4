@@ -109,6 +109,7 @@ Modules/<NomeModulo>/
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -122,6 +123,9 @@ Modules/<NomeModulo>/
 =======
 <<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 <<<<<<< HEAD
@@ -351,7 +355,18 @@ Modules/<NomeModulo>/
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 
 ## Struttura
 
@@ -670,6 +685,7 @@ Action::make('delete')
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -683,6 +699,9 @@ Action::make('delete')
 =======
 <<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -742,7 +761,12 @@ Action::make('delete')
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -785,7 +809,10 @@ Action::make('delete')
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> aa96bb619 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -816,7 +843,12 @@ Action::make('delete')
 =======
 >>>>>>> d79d36e0 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> aa96bb619 (.)
 * [translations.md](../../../Chart/project_docs/translations.md)
 * [translations.md](../../../Reporting/project_docs/translations.md)
 * [translations.md](../../../Gdpr/project_docs/translations.md)
@@ -848,6 +880,7 @@ Action::make('delete')
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -911,7 +944,12 @@ Action::make('delete')
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 
 
 ### Versione Incoming

@@ -75,6 +75,7 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -88,6 +89,9 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 =======
 <<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
 <<<<<<< HEAD
@@ -317,7 +321,18 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+=======
+* [event-sourcing.md](../../../Xot/project_docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/project_docs/it/config/event-sourcing.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 
 
 ### Versione Incoming

@@ -64,6 +64,7 @@ class SetDefaultTenantForUrlsMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -114,6 +115,8 @@ class SetDefaultTenantForUrlsMiddleware
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -122,6 +125,7 @@ class SetDefaultTenantForUrlsMiddleware
             'tenant' => Filament::getTenant(),
             // 'referrer' => url()->previous(),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +194,10 @@ class SetDefaultTenantForUrlsMiddleware
     public function handle(Request $request, \Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
 >>>>>>> origin/develop
 >>>>>>> f8f76a284 (.)
+=======
+=======
+    public function handle(Request $request, Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
+>>>>>>> aa96bb619 (.)
     {
         URL::defaults(
             [
@@ -197,6 +205,7 @@ class SetDefaultTenantForUrlsMiddleware
                 // 'referrer' => url()->previous(),
             ]
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +277,9 @@ class SetDefaultTenantForUrlsMiddleware
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 
         // @phpstan-ignore return.type
         return $next($request);

@@ -24,6 +24,7 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +127,12 @@ class BelongsToAction
 =======
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> 5cb992cc6 (.)
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
@@ -136,6 +143,7 @@ class BelongsToAction
         // $rows = $relation->rows;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,7 +352,12 @@ class BelongsToAction
 =======
 =======
 >>>>>>> 0123915b (.)
+<<<<<<< HEAD
 >>>>>>> 5cb992cc6 (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
         // dd([$relation->name]);
         // dd([$relation->name]);
         // dd([$relation->name]);
@@ -365,6 +378,7 @@ class BelongsToAction
          * 't1'=>$rows,
          * ]);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,6 +460,9 @@ class BelongsToAction
 <<<<<<< HEAD
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
 
         // dd([$relation->name]);
         /*
@@ -455,6 +472,7 @@ class BelongsToAction
             return;
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,6 +506,9 @@ class BelongsToAction
         /*
 >>>>>>> origin/develop
 >>>>>>> f8f76a284 (.)
+=======
+        /*
+>>>>>>> aa96bb619 (.)
         dddx([
             'message' => 'wip',
             'row' => $row,
@@ -497,6 +518,7 @@ class BelongsToAction
             't1'=>$rows,
         ]);
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -590,5 +612,8 @@ class BelongsToAction
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     }
 }

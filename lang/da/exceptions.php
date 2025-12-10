@@ -11,6 +11,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -61,6 +62,8 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -70,6 +73,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +128,9 @@ return [
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
     |--------------------------------------------------------------------------
     | Exception Language Lines
     |--------------------------------------------------------------------------
@@ -133,6 +140,7 @@ return [
     | found in a intuitive way.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,6 +212,9 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
 
     'backend' => [
         'access' => [
@@ -232,6 +243,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -325,6 +337,11 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
             'users' => [
                 'cant_deactivate_self' => 'Du kan ikke udføre denne handling på dig selv.',
                 'cant_delete_self' => 'Du kan ikke slette dig selv.',
@@ -357,6 +374,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -450,6 +468,11 @@ return [
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -472,6 +495,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Din konto er blevet deaktiveret.',
             'email_taken' => 'Denne e-mailadresse er allerede i brug.',
 <<<<<<< HEAD
@@ -548,10 +572,16 @@ return [
 =======
 >>>>>>> origin/develop
 >>>>>>> f8f76a284 (.)
+=======
+            'deactivated' => 'Din konto er blevet deaktiveret.',
+            'email_taken' => 'Denne e-mailadresse er allerede i brug.',
+=======
+>>>>>>> aa96bb619 (.)
 
             'deactivated' => 'Din konto er blevet deaktiveret.',
             'email_taken' => 'Denne e-mailadresse er allerede i brug.',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -640,6 +670,9 @@ return [
             'deactivated' => 'Din konto er blevet deaktiveret.',
             'email_taken' => 'Denne e-mailadresse er allerede i brug.',
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
             'password' => [
                 'change_mismatch' => 'Dette er ikke din gamle adgangskode.',
             ],

@@ -138,6 +138,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -151,6 +152,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,7 +214,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 - [Architettura dei Provider](../../../docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../docs/architecture/modules.md)
 
@@ -242,7 +251,10 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> aa96bb619 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -273,7 +285,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> d79d36e0 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> aa96bb619 (.)
 - [Architettura dei Provider](../../../project_docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../project_docs/architecture/modules.md)
 
@@ -294,6 +311,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,7 +375,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 
 ## Note Importanti
 
@@ -387,6 +410,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -400,6 +424,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -556,7 +583,16 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
+=======
+* [XotBaseServiceProvider.md](../../../../project_docs/moduli/xot/XotBaseServiceProvider.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+>>>>>>> aa96bb619 (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 

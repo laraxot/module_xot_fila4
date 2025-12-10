@@ -33,6 +33,7 @@ class FilterRelationsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, array $relations): array
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,6 +136,12 @@ class FilterRelationsAction
 =======
     public function execute(Model $_model, array $relations): array
 >>>>>>> 5cb992cc6 (.)
+=======
+    public function execute(Model $_model, array $relations): array
+=======
+    public function execute(Model $model, array $relations): array
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
     {
         $filtered = [];
 

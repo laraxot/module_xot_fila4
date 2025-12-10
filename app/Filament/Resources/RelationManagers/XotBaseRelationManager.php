@@ -347,8 +347,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 5a14301c (.)
     public function getFormSchema(): array
     {
-        $schema = $this->getResource()::getFormSchema();
-        return is_array($schema) ? array_values($schema) : [];
+        return array_values($this->getResource()::getFormSchema());
     }
 
 <<<<<<< HEAD
@@ -373,6 +372,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     //*
 >>>>>>> 5a14301c (.)
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         $index = Arr::get($this->getResource()::getPages(), 'index');

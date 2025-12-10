@@ -2,48 +2,16 @@
 
 ## Convenzioni di naming
 
-### Regole fondamentali per file di documentazione (.md)
+### Regole fondamentali
 1. **Nomi file in minuscolo**: Tutti i file nelle cartelle `docs` DEVONO avere nomi in minuscolo
-   - ❌ ERRATO: `phpstan_fixes.md`, `SERVICE_PROVIDER.md`, `PHPStanFixes.md`
-   - ✅ CORRETTO: `phpstan-fixes.md`, `service-provider.md`
+   - ❌ ERRATO: `phpstan_fixes.md`, `SERVICE_PROVIDER.md`
+   - ✅ CORRETTO: `phpstan_fixes.md`, `service_provider.md`
 
-2. **Unica eccezione**: L'unico file di documentazione che può contenere maiuscole è `README.md`
+2. **Unica eccezione**: L'unico file che può contenere maiuscole è `README.md`
 
 3. **Nomi cartelle in minuscolo**: Tutte le sottocartelle nelle directory `docs` DEVONO avere nomi in minuscolo
    - ❌ ERRATO: `PHPStan`, `Models`, `UI_COMPONENTS`
    - ✅ CORRETTO: `phpstan`, `models`, `ui_components`
-
-4. **No date nei nomi file**: I nomi dei file .md NON devono contenere date
-   - ❌ ERRATO: `phpstan-fixes-2025-01-10.md`, `report_2025.md`
-   - ✅ CORRETTO: `phpstan-fixes.md`, `report.md`
-
-### Regole fondamentali per file PHP
-
-1. **Classi e interfacce**: DEVONO usare PascalCase secondo PSR-4
-   - ❌ ERRATO: `userModel.php`, `user_model.php`, `USERMODEL.php`
-   - ✅ CORRETTO: `UserModel.php`, `ArticleResource.php`, `HasXotTable.php`
-
-2. **File di test**: DEVONO usare PascalCase con suffisso `Test.php` o `.pest.php`
-   - ❌ ERRATO: `usertest.php`, `user_test.php`, `userTest.php`, `fixstructuretest.pest.php`
-   - ✅ CORRETTO: `UserTest.php`, `UserModelTest.php`, `FixStructureTest.pest.php`
-
-3. **NO file duplicati con case diverso**: Se esistono file con stesso nome ma case diverso, eliminare quello lowercase
-   - ❌ ERRATO: Avere sia `fixstructuretest.pest.php` che `FixStructureTest.pest.php`
-   - ✅ CORRETTO: Solo `FixStructureTest.pest.php` (eliminare `fixstructuretest.pest.php`)
-
-4. **Test Pest**: Il nome del file deve corrispondere al nome della classe o funzionalità testata
-   - ❌ ERRATO: `test1.pest.php`, `mytest.pest.php`
-   - ✅ CORRETTO: `ArticleResourceTest.pest.php`, `UserModelTest.pest.php`
-
-### Regola generale per il progetto
-
-**I file di documentazione (.md) usano lowercase, i file PHP usano PascalCase (PSR-4).**
-
-Questa distinzione è fondamentale per:
-- Portabilità cross-platform (sistemi case-sensitive vs case-insensitive)
-- Conformità con standard PSR-4 per autoload
-- Evitare conflitti di naming
-- Mantenere consistenza nel codebase
 
 ### Struttura dei file di documentazione
 1. **Intestazione**: Ogni file di documentazione deve iniziare con un'intestazione che includa:

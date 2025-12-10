@@ -94,6 +94,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -260,7 +261,14 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -270,6 +278,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | Qui puoi definire aspettative globali per il modulo Xot.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,7 +365,12 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
@@ -377,6 +391,7 @@ namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 use Modules\Xot\Tests\TestCase;
@@ -1568,7 +1583,12 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1713,6 +1733,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 <<<<<<< HEAD
@@ -1723,12 +1744,15 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> b7afadf9 (.)
 =======
+=======
+>>>>>>> f0e04b64 (.)
 
 >>>>>>> 76bec91a (.)
 // function something() {
 //     // ...
 <<<<<<< HEAD
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2505,4 +2529,9 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)

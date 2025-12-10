@@ -362,11 +362,14 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
 =======
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -447,7 +450,12 @@ class SanitizeAction
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
@@ -471,6 +479,7 @@ class SanitizeAction
             $str = $this->execute($afterStr);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,7 +768,12 @@ class SanitizeAction
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         }
 
         return $str;

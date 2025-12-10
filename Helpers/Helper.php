@@ -290,6 +290,7 @@ use function Safe\realpath;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -420,7 +421,13 @@ if (! function_exists('isRunningTestBench')) {
 if (!function_exists('isRunningTestBench')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('isRunningTestBench')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function isRunningTestBench(): bool
     {
         /*
@@ -559,6 +566,7 @@ if (!function_exists('isRunningTestBench')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -572,6 +580,8 @@ if (!function_exists('isRunningTestBench')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('snake_case')) {
 if (!function_exists('snake_case')) {
 if (! function_exists('snake_case')) {
@@ -724,7 +734,13 @@ if (! function_exists('snake_case')) {
 if (!function_exists('snake_case')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('snake_case')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function snake_case(string $str): string
     {
         return Str::snake($str);
@@ -769,6 +785,7 @@ if (!function_exists('snake_case')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> e9ee2ea9 (.)
@@ -780,6 +797,8 @@ if (!function_exists('snake_case')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('str_slug')) {
 =======
 >>>>>>> ecd5ec32 (.)
@@ -935,7 +954,13 @@ if (! function_exists('str_slug')) {
 if (!function_exists('str_slug')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('str_slug')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function str_slug(string $str): string
     {
         return Str::slug($str);
@@ -980,6 +1005,7 @@ if (!function_exists('str_slug')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> e9ee2ea9 (.)
@@ -991,6 +1017,8 @@ if (!function_exists('str_slug')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('str_singular')) {
 =======
 >>>>>>> ecd5ec32 (.)
@@ -1146,7 +1174,13 @@ if (! function_exists('str_singular')) {
 if (!function_exists('str_singular')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('str_singular')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function str_singular(string $str): string
     {
         return Str::singular($str);
@@ -1191,6 +1225,7 @@ if (!function_exists('str_singular')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> e9ee2ea9 (.)
@@ -1202,6 +1237,8 @@ if (!function_exists('str_singular')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('starts_with')) {
 =======
 >>>>>>> ecd5ec32 (.)
@@ -1357,7 +1394,13 @@ if (! function_exists('starts_with')) {
 if (!function_exists('starts_with')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('starts_with')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function starts_with(string $str, string $str1): bool
     {
         return Str::startsWith($str, $str1);
@@ -1402,6 +1445,7 @@ if (!function_exists('starts_with')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> e9ee2ea9 (.)
@@ -1413,6 +1457,8 @@ if (!function_exists('starts_with')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('ends_with')) {
 =======
 >>>>>>> ecd5ec32 (.)
@@ -1568,7 +1614,13 @@ if (! function_exists('ends_with')) {
 if (!function_exists('ends_with')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('ends_with')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function ends_with(string $str, string $str1): bool
     {
         return Str::endsWith($str, $str1);
@@ -1613,6 +1665,7 @@ if (!function_exists('ends_with')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> e9ee2ea9 (.)
@@ -1624,6 +1677,8 @@ if (!function_exists('ends_with')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('str_contains')) {
 =======
 >>>>>>> ecd5ec32 (.)
@@ -1779,7 +1834,13 @@ if (! function_exists('str_contains')) {
 if (!function_exists('str_contains')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('str_contains')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function str_contains(string $str, string $str1): bool
     {
         return Str::contains($str, $str1);
@@ -1788,6 +1849,7 @@ if (!function_exists('str_contains')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1835,6 +1897,8 @@ if (!function_exists('str_contains')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('hex2rgba')) {
     function hex2rgba(string $color, float $opacity = -1.0): string
     {
@@ -1994,7 +2058,13 @@ if (! function_exists('hex2rgba')) {
 if (!function_exists('hex2rgba')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('hex2rgba')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /* Convert hexdec color string to rgb(a) string */
 
     function hex2rgba(string $color, float $opacity = -1.0): string
@@ -2057,6 +2127,7 @@ if (! function_exists('hex2rgba')) {
 <<<<<<< HEAD
 =======
         // Sanitize $color if "#" is provided
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2282,13 +2353,20 @@ if (! function_exists('hex2rgba')) {
         if ('#' === $color[0]) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        if ($color[0] === '#') {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             $color = mb_substr($color, 1);
         }
 
         // Check if color has 6 or 3 characters and get values
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2383,13 +2461,19 @@ if (! function_exists('hex2rgba')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         if (mb_strlen($color) === 6) {
             $hex = [$color[0].$color[1], $color[2].$color[3], $color[4].$color[5]];
         } elseif (mb_strlen($color) === 3) {
             $hex = [$color[0].$color[0], $color[1].$color[1], $color[2].$color[2]];
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2597,7 +2681,12 @@ if (! function_exists('hex2rgba')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         } else {
             return $default;
         }
@@ -2607,6 +2696,7 @@ if (! function_exists('hex2rgba')) {
 <<<<<<< HEAD
 =======
         // Check if opacity is set(rgba or rgb)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2703,7 +2793,12 @@ if (! function_exists('hex2rgba')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         if ($opacity !== -1.0) {
             if ($opacity < 0 || $opacity > 1) {
                 $opacity = 1.0;
@@ -2713,6 +2808,7 @@ if (! function_exists('hex2rgba')) {
             $output = 'rgb('.implode(',', $rgb).')';
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2947,7 +3043,12 @@ if (! function_exists('dddx')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         }
 
         // Return rgb(a) color string
@@ -2957,6 +3058,7 @@ if (! function_exists('dddx')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3118,7 +3220,13 @@ if (! function_exists('dddx')) {
 if (!function_exists('dddx')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('dddx')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function dddx(mixed $params): string
 if (!function_exists('dddx')) {
 if (! function_exists('dddx')) {
@@ -3177,6 +3285,7 @@ if (!function_exists('dddx')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
         Assert::string($doc_root = $_SERVER['DOCUMENT_ROOT'], __FILE__.':'.__LINE__.' - Helper');
         Assert::string($doc_root = $_SERVER['DOCUMENT_ROOT'], __FILE__.':'.__LINE__.' - Helper');
@@ -3194,6 +3303,8 @@ if (!function_exists('dddx')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
         Assert::string($doc_root = $_SERVER['DOCUMENT_ROOT'], __FILE__.':'.__LINE__.' - Helper');
 =======
 >>>>>>> ca9324a4 (.)
@@ -3341,7 +3452,13 @@ if (!function_exists('dddx')) {
         Assert::string($doc_root = $_SERVER['DOCUMENT_ROOT'], __FILE__ . ':' . __LINE__ . ' - Helper');
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        Assert::string($doc_root = $_SERVER['DOCUMENT_ROOT'], __FILE__.':'.__LINE__.' - Helper');
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         $doc_root = str_replace('/', DIRECTORY_SEPARATOR, $doc_root);
 
         $dir_piece = explode(DIRECTORY_SEPARATOR, __DIR__);
@@ -3352,6 +3469,7 @@ if (!function_exists('dddx')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3399,6 +3517,8 @@ if (!function_exists('dddx')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
         if (! defined('LARAVEL_START')) {
 =======
 >>>>>>> ecd5ec32 (.)
@@ -3554,7 +3674,13 @@ if (!function_exists('dddx')) {
         if (!defined('LARAVEL_START')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        if (! defined('LARAVEL_START')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             define('LARAVEL_START', microtime(true));
         }
 
@@ -3566,6 +3692,7 @@ if (!function_exists('dddx')) {
             'time' => microtime(true) - $start,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3743,7 +3870,13 @@ if (!function_exists('dddx')) {
             'memory_taken' => round(memory_get_peak_usage() / (1024 * 1024), 2) . ' MB',
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+            'memory_taken' => round(memory_get_peak_usage() / (1024 * 1024), 2).' MB',
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             // 'file_1' => $file, //da sistemare
         ];
         if (
@@ -3835,6 +3968,7 @@ if (!function_exists('dddx')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -3848,6 +3982,8 @@ if (!function_exists('dddx')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getFilename')) {
 if (!function_exists('getFilename')) {
 if (! function_exists('getFilename')) {
@@ -4026,7 +4162,13 @@ if (! function_exists('getFilename')) {
 if (!function_exists('getFilename')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getFilename')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function getFilename(array $params): string
     {
         $tmp = debug_backtrace();
@@ -4036,10 +4178,10 @@ if (!function_exists('getFilename')) {
         $params_list = collect($params)->except(['_token', '_method'])->implode('_');
 
         return Str::slug(
-<<<<<<< HEAD
             str_replace('Controller', '', $class).'_'.str_replace('do_', '', $func).'_'.$params_list,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4217,13 +4359,19 @@ if (!function_exists('getFilename')) {
             str_replace('Controller', '', $class) . '_' . str_replace('do_', '', $func) . '_' . $params_list,
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         );
     }
 }
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4273,6 +4421,8 @@ if (!function_exists('getFilename')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('req_uri')) {
 if (!function_exists('req_uri')) {
 if (! function_exists('req_uri')) {
@@ -4425,7 +4575,13 @@ if (! function_exists('req_uri')) {
 if (!function_exists('req_uri')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('req_uri')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function req_uri(): mixed
     {
         return $_SERVER['REQUEST_URI'] ?? '';
@@ -4470,6 +4626,7 @@ if (!function_exists('req_uri')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -4483,6 +4640,8 @@ if (!function_exists('req_uri')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('in_admin')) {
 if (!function_exists('in_admin')) {
 if (! function_exists('in_admin')) {
@@ -4635,7 +4794,13 @@ if (! function_exists('in_admin')) {
 if (!function_exists('in_admin')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('in_admin')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /**
      * ---.
      */
@@ -4683,6 +4848,7 @@ if (!function_exists('in_admin')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -4696,6 +4862,8 @@ if (!function_exists('in_admin')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('inAdmin')) {
 if (!function_exists('inAdmin')) {
 if (! function_exists('inAdmin')) {
@@ -4848,7 +5016,13 @@ if (! function_exists('inAdmin')) {
 if (!function_exists('inAdmin')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('inAdmin')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /**
      * ---.
      */
@@ -4866,6 +5040,7 @@ if (!function_exists('inAdmin')) {
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5037,7 +5212,13 @@ if (!function_exists('inAdmin')) {
         if ('admin' === Request::segment(2)) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        if (Request::segment(2) === 'admin') {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             return true;
         }
 
@@ -5046,6 +5227,7 @@ if (!function_exists('inAdmin')) {
 <<<<<<< HEAD
         return (is_countable($segments) ? count($segments) : 0) > 0 &&
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5124,13 +5306,19 @@ if (!function_exists('inAdmin')) {
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         return
             (is_countable($segments) ? count($segments) : 0) > 0 &&
             $segments[0] === 'livewire' &&
             session('in_admin') === true;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5422,7 +5610,12 @@ if (! function_exists('dddx')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     }
 }
 
@@ -5433,6 +5626,7 @@ if (! function_exists('dddx')) {
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5476,6 +5670,8 @@ if (! function_exists('dddx')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('isHome')) {
 if (!function_exists('isHome')) {
 if (! function_exists('isHome')) {
@@ -5611,7 +5807,13 @@ if (! function_exists('isHome')) {
 if (!function_exists('isHome')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('isHome')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function isHome(): bool
     {
         if (URL::current() === url('')) {
@@ -5659,6 +5861,7 @@ if (!function_exists('isHome')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -5672,6 +5875,8 @@ if (!function_exists('isHome')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('isAdminHome')) {
 if (!function_exists('isAdminHome')) {
 if (! function_exists('isAdminHome')) {
@@ -5807,7 +6012,13 @@ if (! function_exists('isAdminHome')) {
 if (!function_exists('isAdminHome')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('isAdminHome')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function isAdminHome(): bool
     {
         return URL::current() === route('admin.index');
@@ -5852,6 +6063,7 @@ if (!function_exists('isAdminHome')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -5865,6 +6077,8 @@ if (!function_exists('isAdminHome')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('isAdmin')) {
 if (!function_exists('isAdmin')) {
 if (! function_exists('isAdmin')) {
@@ -6001,7 +6215,13 @@ if (! function_exists('isAdmin')) {
 if (!function_exists('isAdmin')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('isAdmin')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function isAdmin(): bool
     {
         return Route::is('*admin*');
@@ -6046,6 +6266,7 @@ if (!function_exists('isAdmin')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -6059,6 +6280,8 @@ if (!function_exists('isAdmin')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('fullTextWildcards')) {
 if (!function_exists('fullTextWildcards')) {
     /* protected */
@@ -6616,7 +6839,13 @@ if (! function_exists('fullTextWildcards')) {
 if (!function_exists('fullTextWildcards')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('fullTextWildcards')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /* protected */
 if (! function_exists('asset_theme')) {
     function asset_theme(string $filename): string {
@@ -7148,6 +7377,7 @@ if (! function_exists('fullTextWildcards')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -7161,6 +7391,8 @@ if (! function_exists('fullTextWildcards')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
                 $words[$key] = '+'.$word.'*';
                 $words[$key] = '+' . $word . '*';
                 $words[$key] = '+'.$word.'*';
@@ -7313,7 +7545,13 @@ if (! function_exists('fullTextWildcards')) {
                 $words[$key] = '+' . $word . '*';
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+                $words[$key] = '+'.$word.'*';
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             }
         }
 
@@ -7359,6 +7597,7 @@ if (! function_exists('fullTextWildcards')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -7372,6 +7611,8 @@ if (! function_exists('fullTextWildcards')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('isContainer')) {
 if (!function_exists('isContainer')) {
 if (! function_exists('isContainer')) {
@@ -7524,7 +7765,13 @@ if (! function_exists('isContainer')) {
 if (!function_exists('isContainer')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('isContainer')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function isContainer(): bool
     {
         [$containers, $items] = params2ContainerItem();
@@ -7571,6 +7818,7 @@ if (!function_exists('isContainer')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -7584,6 +7832,8 @@ if (!function_exists('isContainer')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('isItem')) {
 if (!function_exists('isItem')) {
 if (! function_exists('isItem')) {
@@ -7736,7 +7986,13 @@ if (! function_exists('isItem')) {
 if (!function_exists('isItem')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('isItem')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function isItem(): bool
     {
         [$containers, $items] = params2ContainerItem();
@@ -7747,6 +8003,7 @@ if (!function_exists('isItem')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7847,7 +8104,12 @@ if (!function_exists('isItem')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('params2ContainerItem')) {
     /**
      * @return array<array>
@@ -7857,6 +8119,7 @@ if (! function_exists('params2ContainerItem')) {
         if ($params === null) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8033,7 +8296,12 @@ if (!function_exists('params2ContainerItem')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             // Call to static method current() on an unknown class Route.
             // $params = optional(\Route::current())->parameters();
             // Cannot call method parameters() on mixed.
@@ -8054,6 +8322,7 @@ if (!function_exists('params2ContainerItem')) {
             if (
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8206,7 +8475,13 @@ if (!function_exists('params2ContainerItem')) {
                 !empty($matches) &&
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+                ! empty($matches) &&
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
                     isset($matches[1], $matches[2]) &&
                     is_string($matches[1]) &&
                     is_string($matches[2])
@@ -8260,6 +8535,7 @@ if (!function_exists('params2ContainerItem')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -8273,6 +8549,8 @@ if (!function_exists('params2ContainerItem')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getModelFields')) {
 if (!function_exists('getModelFields')) {
 if (!function_exists('getModelFields')) {
@@ -8404,7 +8682,13 @@ if (! function_exists('getModelFields')) {
 if (!function_exists('getModelFields')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getModelFields')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function getModelFields(Model $model): array
     {
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
@@ -8413,6 +8697,7 @@ if (!function_exists('getModelFields')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8473,10 +8758,13 @@ if (!function_exists('getModelFields')) {
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
 if (! function_exists('getModelByName')) {
     function getModelByName(string $name): Model
     {
         $registered = config('morph_map.'.$name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8670,7 +8958,12 @@ if (! function_exists('getModelByName')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         if (is_string($registered) && class_exists($registered)) {
             Assert::isInstanceOf($res = app($registered), Model::class);
 
@@ -8680,6 +8973,7 @@ if (! function_exists('getModelByName')) {
         // getFirst..
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8729,6 +9023,8 @@ if (! function_exists('getModelByName')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
         $files_path = base_path('Modules').'/*/Models/*.php';
         $files_path = base_path('Modules') . '/*/Models/*.php';
         $files_path = base_path('Modules').'/*/Models/*.php';
@@ -8881,7 +9177,13 @@ if (! function_exists('getModelByName')) {
         $files_path = base_path('Modules') . '/*/Models/*.php';
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        $files_path = base_path('Modules').'/*/Models/*.php';
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         Assert::isArray($files = glob($files_path));
         // if (false === $files) {
         //    throw new Exception('['.__LINE__.']['.__FILE__.']');
@@ -8890,6 +9192,7 @@ if (! function_exists('getModelByName')) {
         $path = Arr::first($files, function ($file) use ($name): bool {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9042,7 +9345,13 @@ if (! function_exists('getModelByName')) {
             Assert::string($file, __FILE__ . ':' . __LINE__ . ' - Helper');
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+            Assert::string($file, __FILE__.':'.__LINE__.' - Helper');
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             $info = pathinfo($file);
 
             // Accedi direttamente a 'filename', che esiste sempre in pathinfo
@@ -9053,6 +9362,7 @@ if (! function_exists('getModelByName')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9143,7 +9453,12 @@ if (! function_exists('getModelByName')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         if ($path === null) {
             throw new Exception('['.$name.'] not in morph_map ['.__LINE__.']['.__FILE__.']');
         }
@@ -9156,6 +9471,7 @@ if (! function_exists('getModelByName')) {
         $class = 'Modules\\'.$module_name.'\Models\\'.$info['filename'];
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9460,7 +9776,12 @@ if (! function_exists('getModelByName')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 
         Assert::isInstanceOf($res = app($class), Model::class);
 
@@ -9514,6 +9835,7 @@ if (! function_exists('getModelByName')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -9527,6 +9849,8 @@ if (! function_exists('getModelByName')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getModuleFromModel')) {
 if (!function_exists('getModuleFromModel')) {
 if (! function_exists('getModuleFromModel')) {
@@ -9671,7 +9995,13 @@ if (! function_exists('getModuleFromModel')) {
 if (!function_exists('getModuleFromModel')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getModuleFromModel')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function getModuleFromModel(object $model): Nwidart\Modules\Module
     {
         $class = $model::class;
@@ -9731,6 +10061,7 @@ if (!function_exists('getModuleFromModel')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -9744,6 +10075,8 @@ if (!function_exists('getModuleFromModel')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getModuleNameFromModel')) {
 if (!function_exists('getModuleNameFromModel')) {
 if (! function_exists('getModuleNameFromModel')) {
@@ -9896,7 +10229,13 @@ if (! function_exists('getModuleNameFromModel')) {
 if (!function_exists('getModuleNameFromModel')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getModuleNameFromModel')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function getModuleNameFromModel(object $model): string
     {
         $class = $model::class;
@@ -9907,6 +10246,7 @@ if (!function_exists('getModuleNameFromModel')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10007,7 +10347,12 @@ if (!function_exists('getModuleNameFromModel')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getModuleNameFromModelName')) {
     function getModuleNameFromModelName(string $model_name): string
     {
@@ -10016,6 +10361,7 @@ if (! function_exists('getModuleNameFromModelName')) {
             throw new Exception('['.__LINE__.']['.__FILE__.']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10235,7 +10581,12 @@ if (! function_exists('getModuleNameFromModelName')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         }
 
         Assert::isInstanceOf($model = app($model_class), Model::class);
@@ -10246,6 +10597,7 @@ if (! function_exists('getModuleNameFromModelName')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10295,6 +10647,8 @@ if (! function_exists('getModuleNameFromModelName')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getTransformerFromModel')) {
 if (!function_exists('getTransformerFromModel')) {
 if (! function_exists('getTransformerFromModel')) {
@@ -10447,13 +10801,20 @@ if (! function_exists('getTransformerFromModel')) {
 if (!function_exists('getTransformerFromModel')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getTransformerFromModel')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function getTransformerFromModel(object $model, string $type = 'Resource'): mixed
     {
         $class = $model::class;
         $module_name = getModuleNameFromModel($model);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10834,7 +11195,15 @@ if (!function_exists('getTransformerFromModel')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        $transformer = '\\Modules\\'.$module_name.'\Transformers\\'.class_basename($model).''.$type;
+        // dddx($transformer.' '.class_exists($transformer));
+        if (! class_exists($transformer)) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             dddx('preso');
         }
 
@@ -10844,6 +11213,7 @@ if (!function_exists('getTransformerFromModel')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10893,6 +11263,8 @@ if (!function_exists('getTransformerFromModel')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getAllModules')) {
 if (!function_exists('getAllModules')) {
 if (! function_exists('getAllModules')) {
@@ -11045,7 +11417,13 @@ if (! function_exists('getAllModules')) {
 if (!function_exists('getAllModules')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getAllModules')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function getAllModules(): array
     {
         return Module::all();
@@ -11054,6 +11432,7 @@ if (!function_exists('getAllModules')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11154,7 +11533,12 @@ if (!function_exists('getAllModules')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getAllModulesModels')) {
     /**
      * Get all models from all enabled modules.
@@ -11173,6 +11557,7 @@ if (! function_exists('getAllModulesModels')) {
      * @throws ReflectionException
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11373,7 +11758,12 @@ if (!function_exists('getAllModulesModels')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
      */
     function getAllModulesModels(): array
     {
@@ -11383,10 +11773,10 @@ if (!function_exists('getAllModulesModels')) {
         $modules = Module::all();
 
         foreach ($modules as $module) {
-<<<<<<< HEAD
             if (! ($module instanceof Nwidart\Modules\Laravel\Module)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11570,7 +11960,12 @@ if (!function_exists('getAllModulesModels')) {
             if (!($module instanceof Nwidart\Modules\Laravel\Module)) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
                 continue;
             }
 
@@ -11586,6 +11981,7 @@ if (!function_exists('getAllModulesModels')) {
             } catch (Exception $e) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11861,7 +12257,15 @@ if (!function_exists('getAllModulesModels')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+                Log::error('[Module:'.
+                $moduleName.
+                '] Error getting models: '.
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
                 $e->getMessage());
 
                 continue;
@@ -11916,6 +12320,7 @@ if (!function_exists('getAllModulesModels')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -11929,6 +12334,8 @@ if (!function_exists('getAllModulesModels')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getModuleModels')) {
 if (!function_exists('getModuleModels')) {
 if (! function_exists('getModuleModels')) {
@@ -12081,7 +12488,13 @@ if (! function_exists('getModuleModels')) {
 if (!function_exists('getModuleModels')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getModuleModels')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /**
      * @throws ReflectionException
      */
@@ -12118,6 +12531,7 @@ if (!function_exists('getModuleModels')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12212,7 +12626,12 @@ if (!function_exists('getModuleModels')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('xotModel')) {
     function xotModel(string $name): Model
     {
@@ -12221,6 +12640,7 @@ if (! function_exists('xotModel')) {
             throw new Exception('['.__LINE__.']['.__FILE__.']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12448,7 +12868,12 @@ if (! function_exists('xotModel')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         }
 
         Assert::isInstanceOf($res = app($model_class), Model::class);
@@ -12459,6 +12884,7 @@ if (! function_exists('xotModel')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12559,7 +12985,12 @@ if (! function_exists('xotModel')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('deltaTime')) {
     function deltaTime(): void
     {
@@ -12570,6 +13001,7 @@ if (! function_exists('deltaTime')) {
 if (! function_exists('bracketsToDotted')) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14747,6 +15179,8 @@ if (! function_exists('bracketsToDotted')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
     // privacies[111][pivot][title] => privacies.111.pivot.title
 
     function bracketsToDotted(string $str, string $_quotation_marks = ''): string
@@ -14758,6 +15192,7 @@ if (! function_exists('bracketsToDotted')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14928,13 +15363,20 @@ if (! function_exists('dottedToBrackets')) {
 if (!function_exists('dottedToBrackets')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('dottedToBrackets')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     // privacies.111.pivot.title => privacies[111][pivot][title]
     function dottedToBrackets(string $str, string $_quotation_marks = ''): string
     {
         return collect(explode('.', $str))
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15087,13 +15529,20 @@ if (!function_exists('dottedToBrackets')) {
             ->map(static fn(string $v, $k): string => 0 === $k ? $v : ('[' . $v . ']'))
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+            ->map(static fn (string $v, $k): string => $k === 0 ? $v : ('['.$v.']'))
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             ->implode('');
     }
 }
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15137,6 +15586,8 @@ if (!function_exists('dottedToBrackets')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('array_merge_recursive_distinct')) {
 if (!function_exists('array_merge_recursive_distinct')) {
 if (! function_exists('dottedToBrackets')) {
@@ -15289,7 +15740,13 @@ if (! function_exists('array_merge_recursive_distinct')) {
 if (!function_exists('array_merge_recursive_distinct')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('array_merge_recursive_distinct')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function array_merge_recursive_distinct(array &$array1, array &$array2): array
     {
         $merged = $array1;
@@ -15308,6 +15765,7 @@ if (!function_exists('array_merge_recursive_distinct')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15499,7 +15957,13 @@ if (! function_exists('getRelationships')) {
 if (!function_exists('getRelationships')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getRelationships')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /**
      * @throws ReflectionException
      */
@@ -15516,6 +15980,7 @@ if (!function_exists('getRelationships')) {
             $args = $reflection->getParameters();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15668,7 +16133,13 @@ if (!function_exists('getRelationships')) {
             if ([] !== $args) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+            if ($args !== []) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
                 continue;
             }
 
@@ -15705,6 +16176,7 @@ if (! function_exists('getRelationships')) {
             try {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15849,7 +16321,12 @@ if (! function_exists('getRelationships')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
                 $return = $reflection->invoke($model);
                 $check = $return instanceof Relation;
                 /*
@@ -15857,6 +16334,7 @@ if (! function_exists('getRelationships')) {
                     $related_model = new ReflectionClass($return->getRelated())->getName();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16039,7 +16517,12 @@ if (! function_exists('getRelationships')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
                     $msg = [
                         'name' => $reflection->name,
                         'type' => class_basename($return),
@@ -16047,6 +16530,7 @@ if (! function_exists('getRelationships')) {
                         // $msg['type']=(new \ReflectionClass($return))->getShortName();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16118,7 +16602,12 @@ if (! function_exists('getRelationships')) {
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
                         'model' => $related_model,
                     ];
                     $data[] = $msg;
@@ -16140,6 +16629,7 @@ if (! function_exists('getRelationships')) {
                 // Log::debug(['error' => $e->getMessage(), 'file' => $e->getFile(), 'line' => $e->getLine()]);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16444,7 +16934,12 @@ if (! function_exists('getRelationships')) {
             } catch (ErrorException) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             }
         }
 
@@ -16540,6 +17035,7 @@ if (! function_exists('getRelationships')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -16553,6 +17049,8 @@ if (! function_exists('getRelationships')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('removeQueryParams')) {
 if (!function_exists('removeQueryParams')) {
 if (! function_exists('removeQueryParams')) {
@@ -16705,7 +17203,13 @@ if (! function_exists('removeQueryParams')) {
 if (!function_exists('removeQueryParams')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('removeQueryParams')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function removeQueryParams(array $params = []): string
     {
         $url = url()->current(); // get the base URL - everything to the left of the "?"
@@ -16997,8 +17501,8 @@ if (!function_exists('removeQueryParams')) {
         }
 
         // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
-<<<<<<< HEAD
         return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71586de2 (.)
 =======
@@ -17017,7 +17521,12 @@ if (!function_exists('removeQueryParams')) {
         return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     }
 }
 
@@ -17035,6 +17544,7 @@ if (!function_exists('removeQueryParams')) {
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17202,13 +17712,20 @@ if (! function_exists('addQueryParams')) {
 if (!function_exists('addQueryParams')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('addQueryParams')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function addQueryParams(array $params = []): string
     {
         $query = array_merge((array) request()->query(), $params); // merge the existing query parameters with the ones we want to add
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17299,7 +17816,12 @@ if (!function_exists('addQueryParams')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
         return url()->current().'?'.http_build_query($query); // rebuild the URL with the new parameters array
     }
 }
@@ -17307,6 +17829,7 @@ if (!function_exists('addQueryParams')) {
 if (! function_exists('isJson')) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17478,7 +18001,12 @@ if (! function_exists('isJson')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /*
      * function isJson($string) {
      * json_decode($string);
@@ -17521,6 +18049,7 @@ if (! function_exists('isJson')) {
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17611,7 +18140,12 @@ if (! function_exists('isJson')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getRouteParameters')) {
     function getRouteParameters(): array
     {
@@ -17619,6 +18153,7 @@ if (! function_exists('getRouteParameters')) {
         if (! ($route instanceof Illuminate\Routing\Route)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17898,7 +18433,12 @@ if (! function_exists('getRouteParameters')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             return [];
         }
 
@@ -17908,6 +18448,7 @@ if (! function_exists('getRouteParameters')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18165,7 +18706,14 @@ if (!function_exists('getRouteName')) {
     function getRouteName(): null|string
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('getRouteName')) {
+    function getRouteName(): ?string
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     {
         // getRouteName();
         /**
@@ -18174,6 +18722,7 @@ if (!function_exists('getRouteName')) {
         $route = request()->route();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18223,6 +18772,8 @@ if (!function_exists('getRouteName')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
         if (! ($route instanceof Illuminate\Routing\Route)) {
         if (!($route instanceof Illuminate\Routing\Route)) {
         if (! ($route instanceof Illuminate\Routing\Route)) {
@@ -18373,7 +18924,13 @@ if (!function_exists('getRouteName')) {
         if (!($route instanceof Illuminate\Routing\Route)) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        if (! ($route instanceof Illuminate\Routing\Route)) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             return null;
         }
 
@@ -18390,6 +18947,7 @@ if (!function_exists('getRouteName')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18480,13 +19038,19 @@ if (!function_exists('getRouteName')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('getModTradFilepath')) {
     function getModTradFilepath(string $file_path): string
     {
         Assert::string($file_path = Str::replace('\\', '/', $file_path), '['.__LINE__.']['.__FILE__.']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18652,7 +19216,12 @@ if (! function_exists('getModTradFilepath')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 
         $stringable = Str::of($file_path)
             ->after('/Modules/')
@@ -18663,6 +19232,7 @@ if (! function_exists('getModTradFilepath')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18706,6 +19276,8 @@ if (! function_exists('getModTradFilepath')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
         return $stringable.'::'.$group;
         return $stringable . '::' . $group;
         return $stringable.'::'.$group;
@@ -18852,7 +19424,13 @@ if (! function_exists('getModTradFilepath')) {
         return $stringable . '::' . $group;
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        return $stringable.'::'.$group;
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     }
 }
 
@@ -18900,6 +19478,7 @@ if (! function_exists('getModTradFilepath')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -18913,6 +19492,8 @@ if (! function_exists('getModTradFilepath')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('is_active')) {
 if (!function_exists('is_active')) {
 if (! function_exists('is_active')) {
@@ -19055,7 +19636,13 @@ if (! function_exists('is_active')) {
 if (!function_exists('is_active')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('is_active')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /**
      * Determines if the given routes are active.
      */
@@ -19067,6 +19654,7 @@ if (!function_exists('is_active')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19167,7 +19755,12 @@ if (!function_exists('is_active')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('md_to_html')) {
     /**
      * Convert Markdown to HTML.
@@ -19175,6 +19768,7 @@ if (! function_exists('md_to_html')) {
     function md_to_html(?string $markdown): ?string
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19374,7 +19968,12 @@ if (! function_exists('md_to_html')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     {
         return $markdown;
 
@@ -19384,6 +19983,7 @@ if (! function_exists('md_to_html')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19433,6 +20033,8 @@ if (! function_exists('md_to_html')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('replace_links')) {
 if (!function_exists('replace_links')) {
 if (! function_exists('replace_links')) {
@@ -19585,7 +20187,13 @@ if (! function_exists('replace_links')) {
 if (!function_exists('replace_links')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('replace_links')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /**
      * Convert Standalone Urls to HTML.
      */
@@ -19638,6 +20246,7 @@ if (!function_exists('replace_links')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -19651,6 +20260,8 @@ if (!function_exists('replace_links')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('debugStack')) {
 if (!function_exists('debugStack')) {
 if (! function_exists('debugStack')) {
@@ -19803,7 +20414,13 @@ if (! function_exists('debugStack')) {
 if (!function_exists('debugStack')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('debugStack')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /**
      * Undocumented function.
      */
@@ -19811,6 +20428,7 @@ if (!function_exists('debugStack')) {
     {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20017,7 +20635,13 @@ if (!function_exists('debugStack')) {
         if (!extension_loaded('xdebug')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -20028,6 +20652,7 @@ if (!function_exists('debugStack')) {
         ) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20072,6 +20697,9 @@ if (!function_exists('debugStack')) {
 =======
 <<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 87e9cbda1 (.)
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
                 '/../../vendor/',
             ]);
@@ -20263,7 +20891,13 @@ if (!function_exists('debugStack')) {
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
                 '/../../vendor/']);
         }
 
@@ -20330,6 +20964,7 @@ if (! function_exists('is_active')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20521,7 +21156,13 @@ if (! function_exists('secondsToHms')) {
 if (!function_exists('secondsToHms')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('secondsToHms')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function secondsToHms(float $seconds, int $decimal = 0): string
     {
         $hours = floor($seconds / 3600);
@@ -20532,6 +21173,7 @@ if (!function_exists('secondsToHms')) {
         if ($hours > 0) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20581,6 +21223,8 @@ if (!function_exists('secondsToHms')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
             $str .= ($hours < 9 ? '0'.$hours : $hours).':';
             $str .= ($hours < 9 ? ('0' . $hours) : $hours) . ':';
         }
@@ -20658,7 +21302,12 @@ if (! function_exists('rowsToSql')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
             $str .= ($hours < 9 ? ('0'.$hours) : $hours).':';
         }
 
@@ -20678,11 +21327,14 @@ if (! function_exists('rowsToSql')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 01502290 (.)
 =======
 >>>>>>> 5e6aa70fe (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (!function_exists('rowsToSql')) {
 <<<<<<< HEAD
 =======
@@ -20902,7 +21554,13 @@ if (! function_exists('rowsToSql')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('rowsToSql')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     /**
      * Undocumented function.
      */
@@ -20981,6 +21639,7 @@ if (! function_exists('rowsToSql')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -20994,6 +21653,8 @@ if (! function_exists('rowsToSql')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('str_limit')) {
 if (!function_exists('str_limit')) {
 if (! function_exists('str_limit')) {
@@ -21155,7 +21816,13 @@ if (! function_exists('str_limit')) {
 if (!function_exists('str_limit')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('str_limit')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function str_limit(string $str, int $limit): string
     {
         return Str::limit($str, $limit); // per xstream
@@ -21164,6 +21831,7 @@ if (!function_exists('str_limit')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21264,7 +21932,12 @@ if (!function_exists('str_limit')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('inArrayBetween')) {
     function inArrayBetween(
         int $curr,
@@ -21273,6 +21946,7 @@ if (! function_exists('inArrayBetween')) {
         ?string $field_end = 'end',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21475,7 +22149,12 @@ if (! function_exists('inArrayBetween')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     ): bool {
         foreach ($data as $v) {
             Assert::isArray($v);
@@ -21521,6 +22200,7 @@ if (! function_exists('secondsToHms')) {
     {
         return gmdate('H:i:s', (int) $seconds);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21621,7 +22301,12 @@ if (! function_exists('secondsToHms')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('inArrayBetweenKey')) {
     function inArrayBetweenKey(
         int $curr,
@@ -21630,6 +22315,7 @@ if (! function_exists('inArrayBetweenKey')) {
         ?string $field_end = 'end',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21832,7 +22518,12 @@ if (! function_exists('inArrayBetweenKey')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     ): int|bool {
         foreach ($data as $k => $v) {
             Assert::isArray($v);
@@ -21889,6 +22580,7 @@ if (! function_exists('inArrayBetweenKey')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -21902,6 +22594,8 @@ if (! function_exists('inArrayBetweenKey')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('is_base64')) {
 if (!function_exists('is_base64')) {
 if (! function_exists('is_base64')) {
@@ -22054,7 +22748,13 @@ if (! function_exists('is_base64')) {
 if (!function_exists('is_base64')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('is_base64')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function is_base64(string $s): bool
     {
         return (bool) preg_match('/^[a-zA-Z0-9\/\r\n+]*={0,2}$/', $s);
@@ -22063,6 +22763,7 @@ if (!function_exists('is_base64')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22112,6 +22813,8 @@ if (!function_exists('is_base64')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('recursive_unset')) {
 if (!function_exists('recursive_unset')) {
     function recursive_unset(array &$array, string $unwanted_key): void
@@ -22917,7 +23620,13 @@ if (! function_exists('recursive_unset')) {
 if (!function_exists('recursive_unset')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('recursive_unset')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function recursive_unset(array &$array, string $unwanted_key): void
     {
         unset($array[$unwanted_key]);
@@ -22931,6 +23640,7 @@ if (!function_exists('recursive_unset')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23128,7 +23838,13 @@ if (! function_exists('profile')) {
 if (!function_exists('profile')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('profile')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function profile(): Model|ProfileContract
     {
         $xotData = XotData::make();
@@ -23139,6 +23855,7 @@ if (!function_exists('profile')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23188,6 +23905,8 @@ if (!function_exists('profile')) {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('cssInLine')) {
 if (!function_exists('cssInLine')) {
 if (! function_exists('cssInLine')) {
@@ -23340,7 +24059,13 @@ if (! function_exists('cssInLine')) {
 if (!function_exists('cssInLine')) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+if (! function_exists('cssInLine')) {
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     function cssInLine(string $file): string
     {
         return File::get(app(AssetPathAction::class)->execute($file));
@@ -23349,6 +24074,7 @@ if (!function_exists('cssInLine')) {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23449,7 +24175,12 @@ if (!function_exists('cssInLine')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
 if (! function_exists('authId')) {
     /**
      * Get the current authenticated user ID from Filament or Laravel auth.
@@ -23457,6 +24188,7 @@ if (! function_exists('authId')) {
     function authId(): ?string
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23670,7 +24402,12 @@ if (! function_exists('authId')) {
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     {
         try {
             $filamentAuth = Filament::auth();
@@ -23696,6 +24433,7 @@ if (! function_exists('authId')) {
  * @template T
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23795,13 +24533,19 @@ if (! function_exists('authId')) {
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
  *
  * @param  T|null  $object  L'oggetto da controllare
  * @param  string  $method  Il nome del metodo da chiamare
  * @param  mixed  ...$args  Gli argomenti da passare al metodo
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23837,6 +24581,8 @@ function safe_object_call($object, string $method, mixed ...$args): mixed
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> b34b487c9 (.)
+=======
+>>>>>>> 87e9cbda1 (.)
  */
 function safe_object_call($object, string $method, mixed ...$args): mixed
 {
@@ -23975,13 +24721,19 @@ function safe_object_call($object, string $method, mixed ...$args): mixed
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
  * @return mixed|null
  */
 function safe_object_call($object, string $method, ...$args)
 {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24077,7 +24829,12 @@ function safe_object_call($object, string $method, ...$args)
 =======
 =======
 >>>>>>> 3849ae0e (.)
+<<<<<<< HEAD
 >>>>>>> b34b487c9 (.)
+=======
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> 87e9cbda1 (.)
     if (! is_object($object)) {
         return;
     }
@@ -24085,6 +24842,7 @@ function safe_object_call($object, string $method, ...$args)
     if (! method_exists($object, $method)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24178,6 +24936,8 @@ function safe_object_call($object, string $method, ...$args) {
     if (!method_exists($object, $method)) {
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
         return null;
     }
 

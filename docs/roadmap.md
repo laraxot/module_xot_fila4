@@ -71,18 +71,31 @@
 - [ ] Ottimizzazione cache
   - [Dettagli e Passi](./roadmap/lang/translations.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 ### Fase 1: Core Foundation (COMPLETATA)
 - ✅ Base classes
 - ✅ Contracts system
 - ✅ Basic services
 - ✅ Utility functions
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 ### 5. Documentazione (75%)
 - [x] Struttura base
 - [x] Guide principali
 - [x] Collegamenti bidirezionali
 - [ ] Completamento esempi
 - [ ] Testi in italiano
+<<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
@@ -138,6 +151,20 @@
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -168,12 +195,23 @@
 - [-] Custom Fields [60%](roadmap/custom-fields.md)
 - [-] Widgets [55%](roadmap/widgets.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 ## Metriche di Successo
 - **Performance**: < 50ms response time
 - **Memory Usage**: < 128MB per request
 - **Code Coverage**: > 90% test coverage
 - **Uptime**: 99.99% availability
 - **Reliability**: Zero critical bugs
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 ### Testing & Quality [60%]
 - [-] Unit Tests [50%](roadmap/unit-tests.md)
 - [-] Feature Tests [45%](roadmap/feature-tests.md)
@@ -338,9 +376,11 @@
 ## Collegamenti Bidirezionali
 
 ### Collegamenti ad Altri Moduli
+<<<<<<< HEAD
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Roadmap Modulo User](../User/project_docs/roadmap.md)
@@ -404,27 +444,46 @@
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 7468a7d2 (.)
 =======
 - [Roadmap Modulo User](../User/project_docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/project_docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/project_docs/roadmap.md)
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
+=======
+>>>>>>> 7468a7d2 (.)
 =======
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
 - [Best Practices](./BEST-PRACTICES.md)
 - [Testing](./testing-best-practices.md)
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
 ## Prossimi Passi
 
@@ -433,6 +492,7 @@
 2. Migliorare la copertura dei test [60% → 85%]
 3. Implementare nuovi traits [95% → 100%]
 
+<<<<<<< HEAD
 ### Q3 2024
 1. Ottimizzare l'integrazione Filament [70% → 90%]
 2. Rafforzare la sicurezza [65% → 85%]
@@ -611,6 +671,10 @@
 ## Collegamenti tra versioni di roadmap.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 ## Risorse e Documentazione
 - [Architecture Guide](./architecture.md)
@@ -620,6 +684,10 @@
 - [Deployment Guide](./deployment.md)
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7468a7d2 (.)
 ### Q3 2024
 1. Ottimizzare l'integrazione Filament [70% → 90%]
 2. Rafforzare la sicurezza [65% → 85%]
@@ -781,8 +849,20 @@
 ## Riferimenti
 
 ### Documentazione
+<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/docs/12.x)
 - [Laravel Framework](https://laravel.com/docs/12.x)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Framework](https://laravel.com/docs/12.x)
+=======
+- [Laravel Framework](https://laravel.com/project_docs/12.x)
+>>>>>>> f1d4085 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -797,6 +877,7 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -807,6 +888,13 @@
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -825,9 +913,15 @@
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
@@ -844,6 +938,7 @@
 * [roadmap.md](../../../Patient/project_docs/roadmap.md)
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -892,6 +987,13 @@
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 
 ---

@@ -60,6 +60,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -77,6 +78,8 @@ class MorphToManyAction
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
             if (! isset($data['to'])) {
 =======
             if (!isset($data['to'])) {
@@ -134,10 +137,17 @@ class MorphToManyAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+            if (! isset($data['to'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
             if (!isset($data['to'])) {
 =======
             if (! isset($data['to'])) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,7 +241,16 @@ class MorphToManyAction
 =======
             if (!isset($data['to'])) {
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
                 $data['to'] = [];
             }
 
@@ -279,6 +298,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -296,6 +316,8 @@ class MorphToManyAction
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
         if (! Arr::isAssoc($data)) {
 =======
         if (!Arr::isAssoc($data)) {
@@ -353,10 +375,17 @@ class MorphToManyAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+        if (! Arr::isAssoc($data)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
         if (!Arr::isAssoc($data)) {
 =======
         if (! Arr::isAssoc($data)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,12 +479,28 @@ class MorphToManyAction
 =======
         if (!Arr::isAssoc($data)) {
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+        if (!Arr::isAssoc($data)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
             $relationDTO->rows->sync($data);
 
             return;
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         dddx([
             'message' => 'wip',
             'row' => $model,
@@ -488,6 +533,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -497,6 +543,11 @@ class MorphToManyAction
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         dddx(
             [
                 'message' => 'wip',
@@ -506,6 +557,7 @@ class MorphToManyAction
                 't' => $model->{$relationDTO->name},
             ]
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         dddx('wip');
@@ -529,6 +581,11 @@ class MorphToManyAction
         /*
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+
+        dddx('wip');
+        /*
+>>>>>>> 7468a7d2 (.)
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
                 if (! isset($v['pivot'])) {
@@ -546,6 +603,7 @@ class MorphToManyAction
             }
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -588,5 +646,11 @@ class MorphToManyAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

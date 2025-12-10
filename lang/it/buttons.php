@@ -3,6 +3,13 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Pulsanti',
@@ -83,6 +90,14 @@ return [
         'success_operation' => 'Operazione dell\'interfaccia completata',
     ],
     // LEGACY SUPPORT - Compatibilità con codice esistente
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     'backend' => [
         'access' => [
             'users' => [

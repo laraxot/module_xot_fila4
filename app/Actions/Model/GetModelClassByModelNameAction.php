@@ -22,6 +22,22 @@ class GetModelClassByModelNameAction
     {
         Assert::isArray($morph_map = config('morph_map'));
         $modelClass = collect($morph_map)->get($modelName);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if ($modelClass === null) {
+            return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
+        }
+<<<<<<< HEAD
+        Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 7468a7d2 (.)
         if (null === $modelClass) {
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
@@ -81,6 +97,11 @@ class GetModelClassByModelNameAction
 >>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -88,6 +109,12 @@ class GetModelClassByModelNameAction
 >>>>>>> 2f3197ab (.)
         Assert::string($modelClass);
         Assert::string($modelClass);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 7468a7d2 (.)
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         Assert::string($modelClass);
 <<<<<<< HEAD
@@ -208,7 +235,17 @@ class GetModelClassByModelNameAction
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
         return $modelClass;
     }

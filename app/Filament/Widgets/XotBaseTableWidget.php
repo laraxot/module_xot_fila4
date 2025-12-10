@@ -1,5 +1,12 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 declare(strict_types=1);
 
 
@@ -23,6 +30,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Filament\Widgets;
 
 use Filament\Widgets\TableWidget as FilamentTableWidget;
@@ -34,10 +42,15 @@ use Filament\Widgets\TableWidget as FilamentTableWidget;
 =======
 >>>>>>> 218dfed3 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
 namespace Modules\Xot\Filament\Widgets;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Filament\Widgets\TableWidget as FilamentTableWidget;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -71,6 +84,11 @@ use Filament\Widgets\TableWidget as FilamentTableWidget;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
 abstract class XotBaseTableWidget extends FilamentTableWidget
 {

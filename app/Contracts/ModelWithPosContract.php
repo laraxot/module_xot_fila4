@@ -141,6 +141,7 @@ interface ModelWithPosContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -166,6 +167,8 @@ interface ModelWithPosContract {}
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
 interface ModelWithPosContract {}
 =======
 interface ModelWithPosContract
@@ -268,12 +271,19 @@ interface ModelWithPosContract
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+interface ModelWithPosContract {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
 interface ModelWithPosContract
 {
 }
 =======
 interface ModelWithPosContract {}
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,10 +297,13 @@ interface ModelWithPosContract {}
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 interface ModelWithPosContract
 {
 }
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,4 +442,10 @@ interface ModelWithPosContract
 {
 }
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)

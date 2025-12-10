@@ -1,5 +1,12 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 declare(strict_types=1);
 
 
@@ -44,10 +51,35 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+return [
+    /*
+    |--------------------------------------------------------------------------
+    | MCP Servers Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Configurazione dei server MCP disponibili nel sistema.
+    | Ogni server ha un comando e argomenti specifici.
+    |
+    */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -76,6 +108,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +149,11 @@ return [
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem']
         ],
         'memory' => [
@@ -137,12 +175,16 @@ return [
     ],
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
     /*
 =======
     /*
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+    /*
+>>>>>>> 7468a7d2 (.)
     |--------------------------------------------------------------------------
     | MCP Model Contexts
     |--------------------------------------------------------------------------
@@ -151,6 +193,7 @@ return [
     | Ogni contesto definisce trait, relazioni e validazioni richieste.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -184,6 +227,12 @@ return [
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
     'contexts' => [
         'User' => [
@@ -191,6 +240,13 @@ return [
             'traits' => [
                 'HasFactory',
                 'Notifiable',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -199,6 +255,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,6 +292,11 @@ return [
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
                 'HasParent'
             ],
             'relationships' => [
@@ -245,6 +307,7 @@ return [
             'type_column' => 'type'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -261,12 +324,20 @@ return [
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         ],
         'Doctor' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
+<<<<<<< HEAD
                 'HasParent',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,12 +378,27 @@ return [
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'HasParent',
+=======
+                'HasParent'
+>>>>>>> f1d4085 (.)
+=======
+                'HasParent',
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'medical_license',
+<<<<<<< HEAD
                 'specialization',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,17 +412,28 @@ return [
                 'specialization'
             ]
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'specialization',
+            ],
+>>>>>>> 7468a7d2 (.)
 =======
                 'specialization'
             ]
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
+=======
+>>>>>>> 7468a7d2 (.)
 =======
                 'specialization',
             ],
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
@@ -363,12 +460,17 @@ return [
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         ],
         'Patient' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
+<<<<<<< HEAD
                 'HasParent',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,10 +511,30 @@ return [
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'HasParent',
+=======
+                'HasParent'
+>>>>>>> f1d4085 (.)
+=======
+                'HasParent',
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 'medical_history',
             ],
         ],
@@ -430,6 +552,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ],
 =======
 =======
@@ -450,11 +573,16 @@ return [
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
                 'medical_history'
             ]
         ]
     ],
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
     /*
@@ -462,6 +590,9 @@ return [
     /*
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+    /*
+>>>>>>> 7468a7d2 (.)
     |--------------------------------------------------------------------------
     | MCP Validation Rules
     |--------------------------------------------------------------------------
@@ -471,6 +602,7 @@ return [
     */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -501,12 +633,20 @@ return [
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
+<<<<<<< HEAD
         'throw_exceptions' => false,
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,17 +660,28 @@ return [
         'throw_exceptions' => false
     ]
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'throw_exceptions' => false,
+    ],
+>>>>>>> 7468a7d2 (.)
 =======
         'throw_exceptions' => false
     ]
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
+=======
+>>>>>>> 7468a7d2 (.)
 =======
         'throw_exceptions' => false,
     ],
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
@@ -557,4 +708,7 @@ return [
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 ];

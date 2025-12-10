@@ -2,6 +2,13 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 namespace Modules\Xot\Tests\Unit;
 
 use Filament\Tables\Table;
@@ -9,7 +16,17 @@ use Mockery;
 use Modules\Xot\Tests\Unit\Support\DummyTestModel;
 use Modules\Xot\Tests\Unit\Support\HasTableWithoutOptionalMethodsTestClass;
 use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
+<<<<<<< HEAD
 use Tests\TestCase;
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 7468a7d2 (.)
 use Tests\TestCase;
 use Mockery;
 use Filament\Tables\Table;
@@ -71,7 +88,13 @@ use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 7468a7d2 (.)
 use Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Mockery;
@@ -82,6 +105,7 @@ use Illuminate\Support\Collection;
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,6 +183,11 @@ uses(TestCase::class);
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
 uses(TestCase::class);
 <<<<<<< HEAD
@@ -204,7 +233,19 @@ afterEach(function () {
     Mockery::close();
 });
 
+<<<<<<< HEAD
 it('tests table method with all methods implemented', function () {
+=======
+<<<<<<< HEAD
+it('tests table method with all methods implemented', function (): void {
+=======
+it('tests table method with all methods implemented', function () {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     // Avoid DB/Schema access inside TableExistsByModelClassActions
     /** @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
@@ -232,6 +273,7 @@ it('tests table method with all methods implemented', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -241,10 +283,16 @@ it('tests table method with all methods implemented', function () {
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         // Avoid DB/Schema access inside TableExistsByModelClassActions
         Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
             ->shouldReceive('execute')
             ->andReturn(true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -274,6 +322,9 @@ it('tests table method with all methods implemented', function () {
 =======
 
 >>>>>>> ce6fc085 (.)
+=======
+
+>>>>>>> 7468a7d2 (.)
         // Create partial mock and defer missing to real methods so trait's table() runs
         $mock = Mockery::mock(HasTableWithXot::class)
             ->makePartial()
@@ -294,6 +345,7 @@ it('tests table method with all methods implemented', function () {
         ->once()
         ->andReturn([]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 
     // Other required method stubs
@@ -302,6 +354,10 @@ it('tests table method with all methods implemented', function () {
     // Other required method stubs
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+
+    // Other required method stubs
+>>>>>>> 7468a7d2 (.)
     $mock->shouldReceive('getModelClass')
         ->andReturn(DummyModel::class);
     $mock->shouldReceive('getTableRecordTitleAttribute')
@@ -310,6 +366,7 @@ it('tests table method with all methods implemented', function () {
         ->andReturn('Test Table');
     $mock->shouldReceive('getTableFilters')
         ->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -339,10 +396,17 @@ it('tests table method with all methods implemented', function () {
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     // Stub optional methods to avoid resolving translator / actions
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
     $mock->shouldReceive('getTableActions')->andReturn([]);
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,8 +428,28 @@ it('tests table method with all methods implemented', function () {
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+    /** @phpstan-ignore-next-line method.nonObject */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+<<<<<<< HEAD
+=======
+=======
+    $mock->shouldReceive('getTableFiltersFormColumns')
+        ->andReturn(1);
+    $mock->shouldReceive('getTableEmptyStateActions')
+        ->andReturn([]);
+>>>>>>> f1d4085 (.)
+=======
+    $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
+    $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     // Create a mock for Table
     $tableMock = Mockery::mock(Table::class);
@@ -393,7 +477,19 @@ it('tests table method with all methods implemented', function () {
     expect($result)->toBe($tableMock);
 });
 
+<<<<<<< HEAD
 it('tests table method with no optional methods implemented', function () {
+=======
+<<<<<<< HEAD
+it('tests table method with no optional methods implemented', function (): void {
+=======
+it('tests table method with no optional methods implemented', function () {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     // Avoid DB/Schema access inside TableExistsByModelClassActions
     /* @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
@@ -412,6 +508,7 @@ it('tests table method with no optional methods implemented', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -421,10 +518,16 @@ it('tests table method with no optional methods implemented', function () {
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         // Avoid DB/Schema access inside TableExistsByModelClassActions
         Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
             ->shouldReceive('execute')
             ->andReturn(true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -444,10 +547,14 @@ it('tests table method with no optional methods implemented', function () {
 =======
 
 >>>>>>> ce6fc085 (.)
+=======
+
+>>>>>>> 7468a7d2 (.)
         // Create partial mock and defer missing to real methods so trait's table() runs
         $mock = Mockery::mock(HasTableWithoutOptionalMethods::class)
             ->makePartial()
             ->shouldDeferMissing();
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 
@@ -457,6 +564,10 @@ it('tests table method with no optional methods implemented', function () {
     // Other required method stubs
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+
+    // Other required method stubs
+>>>>>>> 7468a7d2 (.)
     $mock->shouldReceive('getModelClass')
         ->andReturn(DummyModel::class);
     $mock->shouldReceive('getTableRecordTitleAttribute')
@@ -465,6 +576,7 @@ it('tests table method with no optional methods implemented', function () {
         ->andReturn('Test Table');
     $mock->shouldReceive('getTableFilters')
         ->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -494,10 +606,17 @@ it('tests table method with no optional methods implemented', function () {
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     // Avoid constructing Filament Actions which require translator binding
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
     $mock->shouldReceive('getTableActions')->andReturn([]);
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,8 +638,28 @@ it('tests table method with no optional methods implemented', function () {
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+    /** @phpstan-ignore-next-line method.nonObject */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+<<<<<<< HEAD
+=======
+=======
+    $mock->shouldReceive('getTableFiltersFormColumns')
+        ->andReturn(1);
+    $mock->shouldReceive('getTableEmptyStateActions')
+        ->andReturn([]);
+>>>>>>> f1d4085 (.)
+=======
+    $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
+    $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     // Create a mock for Table
     $tableMock = Mockery::mock(Table::class);
@@ -553,6 +692,7 @@ it('tests table method with no optional methods implemented', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -566,6 +706,12 @@ it('tests table method with no optional methods implemented', function () {
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 
 /**
  * Dummy class that uses HasTable and HasXotTable traits for testing.
@@ -1078,6 +1224,7 @@ class HasTableWithoutOptionalMethods
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class DummyModel extends \Illuminate\Database\Eloquent\Model
 {
     // Empty dummy model just to satisfy instanceof checks
@@ -1085,10 +1232,13 @@ class DummyModel extends \Illuminate\Database\Eloquent\Model
 =======
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 7468a7d2 (.)
 class DummyModel extends Model
 {
     // Empty dummy model just to satisfy instanceof checks
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -1113,3 +1263,9 @@ class DummyModel extends \Illuminate\Database\Eloquent\Model
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)

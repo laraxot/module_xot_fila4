@@ -76,7 +76,9 @@ use function Safe\json_encode;
 class WebhookErrorFormatter
 {
     public function __construct(
+<<<<<<< HEAD
         private Throwable $exception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +116,19 @@ class WebhookErrorFormatter
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        private Throwable $exception,
+=======
+        private Throwable $exception
+>>>>>>> f1d4085 (.)
+=======
+        private Throwable $exception,
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     ) {}
 
     /**
@@ -129,6 +144,13 @@ class WebhookErrorFormatter
             'file' => $this->exception->getFile(),
             'line' => $this->exception->getLine(),
             'trace' => $this->exception->getTraceAsString(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
             'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -146,6 +168,7 @@ class WebhookErrorFormatter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -155,6 +178,11 @@ class WebhookErrorFormatter
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
             'exception' => sprintf(
                 '`%s` (Code `%s`)',
                 get_class($this->exception),
@@ -165,6 +193,7 @@ class WebhookErrorFormatter
                 $this->exception->getFile(),
                 $this->exception->getLine()
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
             'ip' => request()->ip(),
@@ -187,11 +216,16 @@ class WebhookErrorFormatter
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
             'ip' => request()->ip(),
 >>>>>>> ce6fc085 (.)
+=======
+            'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
+            'ip' => request()->ip(),
+>>>>>>> 7468a7d2 (.)
             'thrown_while_calling' => sprintf(
                 '[%s] %s',
                 request()->getMethod(),
                 request()->fullUrl()
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
             'url_previous' => url()->previous(),
@@ -201,12 +235,17 @@ class WebhookErrorFormatter
             /*
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+            'url_previous' => url()->previous(),
+            /*
+>>>>>>> 7468a7d2 (.)
             'exception_details' => sprintf(
                 "Trace:\n```json \n %s \n ```\n\n Previous: \n `%s`",
                 json_encode($this->exception->getTrace(), JSON_PRETTY_PRINT),
                 $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
             ),
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -238,6 +277,12 @@ class WebhookErrorFormatter
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         ];
     }
 }

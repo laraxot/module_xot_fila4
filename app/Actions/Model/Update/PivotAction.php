@@ -17,6 +17,13 @@ class PivotAction
     /**
      * Undocumented function.
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
@@ -37,6 +44,7 @@ class PivotAction
          *
          *
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,10 +71,16 @@ class PivotAction
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
         dddx('wip');
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         /*
@@ -74,6 +88,9 @@ class PivotAction
         /*
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+        /*
+>>>>>>> 7468a7d2 (.)
 
             $parent_panel = $this->panel->getParent();
             if (null !== $parent_panel) {
@@ -84,6 +101,7 @@ class PivotAction
 
 
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -119,5 +137,11 @@ class PivotAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

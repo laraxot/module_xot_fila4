@@ -1,10 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 # Linee Guida per la Documentazione
 
 ## Principi Fondamentali
 
 1. **Struttura Modulare**
+<<<<<<< HEAD
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/project_docs/`
@@ -112,20 +122,34 @@
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> 7468a7d2 (.)
 =======
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/project_docs/`
    - Le regole generali sono in `/Modules/Xot/project_docs/`
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
+=======
+>>>>>>> 7468a7d2 (.)
 =======
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -135,7 +159,9 @@
 
 3. **Organizzazione dei Contenuti**
    ```
+<<<<<<< HEAD
    Modules/Xot/docs/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
    Modules/Xot/project_docs/
@@ -203,6 +229,19 @@
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   Modules/Xot/docs/
+=======
+   Modules/Xot/project_docs/
+>>>>>>> f1d4085 (.)
+=======
+   Modules/Xot/docs/
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -268,7 +307,9 @@ public function example(): void
 
 ### 1. Struttura Base
 ```
+<<<<<<< HEAD
 Modules/{ModuleName}/docs/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Modules/{ModuleName}/project_docs/
@@ -336,6 +377,19 @@ Modules/{ModuleName}/docs/
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Modules/{ModuleName}/docs/
+=======
+Modules/{ModuleName}/project_docs/
+>>>>>>> f1d4085 (.)
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -421,6 +475,7 @@ php artisan api:generate
 
 ## Collegamenti tra versioni di documentation.md
 * [documentation.md](docs/rules/documentation.md)
+<<<<<<< HEAD
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
@@ -460,4 +515,28 @@ php artisan api:generate
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+* [documentation.md](../../../Xot/docs/documentation.md)
+* [documentation.md](../../../Xot/docs/guidelines/documentation.md)
+* [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
+=======
+* [documentation.md](../../../Xot/project_docs/documentation.md)
+* [documentation.md](../../../Xot/project_docs/guidelines/documentation.md)
+* [documentation.md](../../../Cms/project_docs/roadmap/features/documentation.md)
+>>>>>>> f1d4085 (.)
+=======
+* [documentation.md](../../../Xot/docs/documentation.md)
+* [documentation.md](../../../Xot/docs/guidelines/documentation.md)
+* [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
+>>>>>>> 73eab74 (.)
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)

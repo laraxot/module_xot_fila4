@@ -34,6 +34,7 @@ use Filament\Forms\Components\Select;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -43,8 +44,12 @@ use Filament\Forms\Components\Select;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
+=======
+>>>>>>> ab8cc3f3 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Components\Component;
@@ -54,7 +59,56 @@ use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Models\Module;
 use Override;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 73eab74 (.)
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
+use Filament\Forms;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Toggle;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Models\Module;
+
+class ModuleResource extends XotBaseResource
+{
+    protected static null|string $model = Module::class;
+
+    /**
+     * @return array<string, Component>
+     */
+    #[Override]
+<<<<<<< HEAD
+=======
+use Modules\Xot\Models\Module;
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
 class ModuleResource extends XotBaseResource
 {
@@ -233,6 +287,7 @@ class ModuleResource extends XotBaseResource
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,6 +468,24 @@ class ModuleResource extends XotBaseResource
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+    #[Override]
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -434,6 +507,13 @@ class ModuleResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -441,6 +521,20 @@ class ModuleResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public static function getRelations(): array
+    {
+        return [
+        ];
+    }
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public static function getPages(): array
     {
     public static function getRelations(): array

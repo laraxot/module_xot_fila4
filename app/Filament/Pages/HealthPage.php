@@ -36,6 +36,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -59,6 +60,19 @@ use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
+=======
+use Filament\Widgets\WidgetConfiguration;
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -78,8 +92,20 @@ use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
 use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -549,14 +575,20 @@ class HealthPage extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 =======
                 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -582,6 +614,11 @@ class HealthPage extends Page
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

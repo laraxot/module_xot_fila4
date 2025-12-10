@@ -15,7 +15,9 @@ class MorphToOneAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +55,19 @@ class MorphToOneAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> f1d4085 (.)
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     {
         // if ($relationDTO === null) {
         //    return;
@@ -60,12 +75,25 @@ class MorphToOneAction
 
         Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
 
+<<<<<<< HEAD
         if (! isset($relationDTO->data['lang'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!isset($relationDTO->data['lang'])) {
+=======
+        if (! isset($relationDTO->data['lang'])) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!isset($relationDTO->data['lang'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             $relationDTO->data['lang'] = App::getLocale();
         }
 
         // if ($rows !== null) {
         $rows->create($relationDTO->data);
+<<<<<<< HEAD
 
         // }
         //if ($relationDTO === null) {
@@ -122,6 +150,24 @@ class MorphToOneAction
         // } else {
         //    $rows->sync($relation->data);
         // }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+        //}
+        // } else {
+        //    $rows->sync($relation->data);
+        // }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         /*
          * dddx([
          * 'message' => 'wip',
@@ -137,6 +183,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -146,6 +193,11 @@ class MorphToOneAction
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 
         /*
         dddx([
@@ -158,6 +210,7 @@ class MorphToOneAction
 
         dddx('wip');
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -194,5 +247,11 @@ class MorphToOneAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

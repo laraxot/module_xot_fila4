@@ -32,6 +32,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -63,6 +64,19 @@ use Error;
 use Error;
 use Error;
 use Error;
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Error;
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Filament\Schemas\Components\Component;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
@@ -169,6 +183,7 @@ use Modules\Xot\Contracts\StateContract;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +216,12 @@ use Error;
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+use Error;
+>>>>>>> 7468a7d2 (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -209,6 +230,7 @@ use Modules\Xot\Contracts\StateContract;
 use Modules\SaluteOra\Models\Appointment;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -227,6 +249,12 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 /**
  * Widget per la panoramica degli appuntamenti per stato.
  * Mostra statistiche compatte degli appuntamenti raggruppati per stato.
@@ -237,7 +265,19 @@ class StateOverviewWidget extends XotBaseWidget
      * Vista del widget.
      */
     protected string $view = 'xot::filament.widgets.state-overview';
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     /**
      * Vista del widget.
      */
@@ -269,7 +309,19 @@ class StateOverviewWidget extends XotBaseWidget
      * Titolo del widget.
      */
     public string $title = '';
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     /**
      * Occupa tutta la larghezza disponibile.
      */
@@ -285,11 +337,39 @@ class StateOverviewWidget extends XotBaseWidget
      * Occupa tutta la larghezza disponibile.
      */
     protected int|string|array $columnSpan = 'full';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     /**
      * Intervallo di polling disabilitato per performance.
      */
+<<<<<<< HEAD
     /** @var class-string */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    protected static ?string $pollingInterval = null;
+
+    /** @var class-string */
+=======
+    protected static null|string $pollingInterval = null;
+<<<<<<< HEAD
+=======
+    
+    /**
+     * Intervallo di polling disabilitato per performance.
+     */
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     protected static ?string $pollingInterval = null;
     protected static null|string $pollingInterval = null;
 
@@ -352,9 +432,25 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected static null|string $pollingInterval = null;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     public string $stateClass;
     public string $model;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public string $cacheKey = '';
     public string $cacheKey = '';
 
@@ -363,7 +459,9 @@ class StateOverviewWidget extends XotBaseWidget
      *
      * @return array<int|string, Component>
      */
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,11 +567,34 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+    #[\Override]
+=======
+    #[Override]
+<<<<<<< HEAD
+=======
+    public string $cacheKey='';
+>>>>>>> d2b0a27 (.)
+    /**
+     * @return array<string, mixed>
+     */
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     public function getFormSchema(): array
     {
         return [];
     }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +635,19 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     /**
      * Dati da passare alla vista.
      *
@@ -521,6 +655,16 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getViewData(): array
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         return [
             'states' => $this->getStates(),
             // 'title' => $this->getWidgetTitle(),
@@ -541,6 +685,13 @@ class StateOverviewWidget extends XotBaseWidget
             //'title' => $this->getWidgetTitle(),
         ];
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     protected function getCacheKey(): string
     {
@@ -586,13 +737,36 @@ class StateOverviewWidget extends XotBaseWidget
             return $cacheKey;
         } catch (Error $e) {
             if ($this->cacheKey === '') {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    
+    
+
+
+    protected function getCacheKey(): string
+    {
+        try{
+            $cacheKey = 'states-' . class_basename($this->model).'-'.class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+            return $cacheKey;
+        }catch(Error $e){
+            if($this->cacheKey==''){
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 $this->cacheKey = Str::uuid()->toString();
             }
 
             return $this->cacheKey;
         }
     }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -656,6 +830,19 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     /**
      * Ottiene gli stati degli appuntamenti con statistiche.
      *
@@ -668,8 +855,13 @@ class StateOverviewWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 7468a7d2 (.)
+<<<<<<< HEAD
         /** @var array<int, array<string, mixed>> $res */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -688,6 +880,13 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
 
         Assert::isArray($res);
@@ -699,6 +898,7 @@ class StateOverviewWidget extends XotBaseWidget
         return $res;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,6 +928,11 @@ class StateOverviewWidget extends XotBaseWidget
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
        
         
         $res= Cache::remember(
@@ -735,6 +940,7 @@ class StateOverviewWidget extends XotBaseWidget
             now()->addMinutes(5),
             fn () => $this->calculateStates()
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         Assert::isArray($res);
@@ -768,10 +974,16 @@ class StateOverviewWidget extends XotBaseWidget
     
 <<<<<<< HEAD
 =======
+=======
+
+        Assert::isArray($res);
+        return $res;
+>>>>>>> 7468a7d2 (.)
         
     }
     
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -786,6 +998,11 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     /**
      * Calcola le statistiche degli stati degli appuntamenti.
      *
@@ -799,12 +1016,17 @@ class StateOverviewWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 7468a7d2 (.)
+<<<<<<< HEAD
         Assert::isArray($states);
 
         if (! class_exists($this->model) || ! class_exists($this->stateClass)) {
             return $states;
         }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
@@ -820,6 +1042,13 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
         $modelInstance = app($this->model);
 
@@ -914,6 +1143,7 @@ class StateOverviewWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -959,6 +1189,11 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         
         
         $modelInstance = app($this->model);
@@ -985,6 +1220,7 @@ class StateOverviewWidget extends XotBaseWidget
     
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -1001,6 +1237,12 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     /**
      * Ottiene il conteggio degli appuntamenti per uno stato specifico.
      * IMPORTANTE: Mostra TUTTI gli appuntamenti, non filtrati per utente.
@@ -1008,10 +1250,20 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getCountForState(string $stateName): int
     {
+<<<<<<< HEAD
         /** @var Builder<Model> $query */
         /** @var \Illuminate\Database\Eloquent\Builder<\Illuminate\Database\Eloquent\Model> $query */
         /** @var Builder<Model> $query */
         /** @var \Illuminate\Database\Eloquent\Builder<\Illuminate\Database\Eloquent\Model> $query */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var Builder<Model> $query */
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         $query = $this->model::where('state', $stateName);
         $count = $query->count();
 
@@ -1021,6 +1273,7 @@ class StateOverviewWidget extends XotBaseWidget
         return $this->model::where('state', $stateName)->count();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1110,6 +1363,21 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+        return $this->model::where('state', $stateName)->count();
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     /**
      * Pulisce il nome dell'icona rimuovendo prefissi non necessari.
      */
@@ -1122,14 +1390,20 @@ class StateOverviewWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -1155,5 +1429,10 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

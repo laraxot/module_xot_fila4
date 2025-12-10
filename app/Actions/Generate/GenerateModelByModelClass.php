@@ -15,6 +15,16 @@ class GenerateModelByModelClass
 {
     use QueueableAction;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /** @var array<string, mixed> */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public array $replaces = [];
 
     /**
@@ -87,6 +97,7 @@ class GenerateModelByModelClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> a67e542f (.)
@@ -96,6 +107,8 @@ class GenerateModelByModelClass
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
      * @param  string  $model_class  the class name of the model
 =======
      * @param string $model_class the class name of the model
@@ -208,12 +221,19 @@ class GenerateModelByModelClass
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+     * @param  string  $model_class  the class name of the model
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
      * @param string $model_class the class name of the model
      *
      * @return string
 =======
      * @param  string  $model_class  the class name of the model
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,10 +247,13 @@ class GenerateModelByModelClass
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
      * @param string $model_class the class name of the model
      *
      * @return string
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,7 +392,13 @@ class GenerateModelByModelClass
      *
      * @return string
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
      */
     public function execute(string $model_class): string
     {
@@ -402,6 +431,7 @@ class GenerateModelByModelClass
                 $content = $this->{'replace'.$k}($v, $content);
                 Assert::string($content, 'Content must remain string after replace');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,6 +557,7 @@ class GenerateModelByModelClass
                 $content = $this->{'replace' . $k}($v, $content);
             if (method_exists($this, 'replace' . $k)) {
                 $content = $this->{'replace' . $k}($v, $content);
+<<<<<<< HEAD
             if (method_exists($this, 'replace'.$k)) {
                 $content = $this->{'replace'.$k}($v, $content);
             if (method_exists($this, 'replace'.$k)) {
@@ -535,11 +566,39 @@ class GenerateModelByModelClass
                 $content = $this->{'replace'.$k}($v, $content);
             if (method_exists($this, 'replace' . $k)) {
                 $content = $this->{'replace' . $k}($v, $content);
+=======
+>>>>>>> 5a14301c (.)
+=======
+            Assert::string($k, 'Replace key must be string');
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+                Assert::string($content, 'Content must remain string after replace');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
             }
 
             // $content=$this->replace($content,$k,$v);
         }
+<<<<<<< HEAD
         Assert::string($content, 'Content must be string before final replacements');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $content = is_string($content) ? str_replace(' extends Model', ' extends BaseModel', $content) : $content;
+        $content = is_string($content) ? str_replace('use \Modules\Xot\Models\Traits\HasXotFactory;', '', $content) : $content;
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+=======
+>>>>>>> 7468a7d2 (.)
         $content = str_replace(' extends Model', ' extends BaseModel', $content);
         $content = is_string($content) ? str_replace(' extends Model', ' extends BaseModel', $content) : $content;
         $content = is_string($content) ? str_replace('use HasFactory;', '', $content) : $content;
@@ -610,9 +669,21 @@ class GenerateModelByModelClass
 =======
 >>>>>>> 17684f52 (.)
 =======
+        Assert::string($content, 'Content must be string before final replacements');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+<<<<<<< HEAD
+        $content = str_replace('use \Modules\Xot\Models\Traits\HasXotFactory;', '', $content);
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+=======
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
             if (method_exists($this, 'replace'.$k)) {
                 $content = $this->{'replace'.$k}($v, $content);
                 Assert::string($content, 'Content must be string after replace method');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -673,7 +744,12 @@ class GenerateModelByModelClass
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
             }
             // $content=$this->replace($content,$k,$v);
         }
@@ -708,6 +784,7 @@ class GenerateModelByModelClass
         Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -779,7 +856,15 @@ class GenerateModelByModelClass
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
         if ($content !== $content_old) {
             File::put($filename, $content);
@@ -791,6 +876,13 @@ class GenerateModelByModelClass
     public function replaceDummyTable(string $value, string $content): string
     {
         $table_start = mb_strpos($content, 'protected $table');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         Assert::integer(
             $fillable_start = mb_strpos($content, 'protected $fillable'),
         $fillable_end = mb_strpos($content, '];', $fillable_start);
@@ -806,16 +898,36 @@ class GenerateModelByModelClass
         $fillable_end = mb_strpos($content, '];', $fillable_start);
         Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
         $fillable_end = mb_strpos($content, '];', $fillable_start);
+<<<<<<< HEAD
+=======
+        if (false === $table_start) {
+            $before = mb_substr($content, 0, $fillable_end + 2);
+            $after = mb_substr($content, $fillable_end + 2);
+            $content = $before . PHP_EOL . '    protected $table = "' . $value . '";' . PHP_EOL . $after;
+<<<<<<< HEAD
+=======
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+>>>>>>> d2b0a27 (.)
         if ($table_start === false) {
             $before = mb_substr($content, 0, $fillable_end + 2);
             $after = mb_substr($content, $fillable_end + 2);
             $content = $before.PHP_EOL.'    protected $table = "'.$value.'";'.PHP_EOL.$after;
+<<<<<<< HEAD
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
         $fillable_end = mb_strpos($content, '];', $fillable_start);
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
         $fillable_end = mb_strpos($content, '];', $fillable_start);
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 7468a7d2 (.)
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
         $fillable_end = mb_strpos($content, '];', $fillable_start);
@@ -987,7 +1099,18 @@ class GenerateModelByModelClass
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         }
 
         return $content;
@@ -1063,6 +1186,7 @@ class GenerateModelByModelClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> a67e542f (.)
@@ -1072,6 +1196,8 @@ class GenerateModelByModelClass
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
      * @param  string  $model_class  The class name of the model to create the factory for
 =======
      * @param string $model_class The class name of the model to create the factory for
@@ -1184,12 +1310,19 @@ class GenerateModelByModelClass
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+     * @param  string  $model_class  The class name of the model to create the factory for
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
      * @param string $model_class The class name of the model to create the factory for
      *
      * @return void
 =======
      * @param  string  $model_class  The class name of the model to create the factory for
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1203,10 +1336,13 @@ class GenerateModelByModelClass
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
      * @param string $model_class The class name of the model to create the factory for
      *
      * @return void
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1345,7 +1481,13 @@ class GenerateModelByModelClass
      *
      * @return void
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
      */
     public function generate(string $model_class): void
     {
@@ -1354,6 +1496,13 @@ class GenerateModelByModelClass
         $artisan_cmd = 'module:make-model';
         $artisan_params = ['model' => $model_name, 'module' => $module_name];
         $res = Artisan::call($artisan_cmd, $artisan_params);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         /*
          * $output=Artisan::output();
@@ -1371,6 +1520,7 @@ class GenerateModelByModelClass
          */
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1417,6 +1567,11 @@ class GenerateModelByModelClass
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         /*
         $output=Artisan::output();
 
@@ -1435,11 +1590,15 @@ class GenerateModelByModelClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7468a7d2 (.)
     /**
      * @param  array<string, mixed>  $replaces
      */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -1454,6 +1613,11 @@ class GenerateModelByModelClass
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     public function setCustomReplaces(array $replaces): self
     {
         $this->replaces = array_merge($this->replaces, $replaces);

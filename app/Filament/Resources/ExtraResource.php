@@ -32,6 +32,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -41,6 +42,10 @@ namespace Modules\Xot\Filament\Resources;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
@@ -88,6 +93,57 @@ use Override;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 73eab74 (.)
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\CreateExtra;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\EditExtra;
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Models\Extra;
+
+class ExtraResource extends XotBaseResource
+{
+    protected static null|string $model = Extra::class;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Models\Extra;
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+
+class ExtraResource extends XotBaseResource
+{
+    protected static ?string $model = Extra::class;
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 =======
 use Filament\Schemas\Components\Component;
 use Override;
@@ -638,11 +694,29 @@ class ExtraResource extends XotBaseResource
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
     /**
      * Get the form schema for the resource.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
      * @return array<string, Component>
      */
     #[Override]
@@ -652,6 +726,7 @@ class ExtraResource extends XotBaseResource
             'id' => TextInput::make('id')->required()->maxLength(36),
             'post_type' => TextInput::make('post_type')->required()->maxLength(255),
             'post_id' => TextInput::make('post_id')->required()->numeric(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -690,6 +765,16 @@ class ExtraResource extends XotBaseResource
         return [
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+     * @return array<string, \Filament\Schemas\Components\Component>
+     */
+    public static function getFormSchema(): array
+    {
+        return [
+>>>>>>> 7468a7d2 (.)
             'id' => TextInput::make('id')
                 ->required()
                 ->maxLength(36),
@@ -702,6 +787,7 @@ class ExtraResource extends XotBaseResource
                 ->required()
                 ->numeric(),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'id' => TextInput::make('id')->required()->maxLength(36),
@@ -730,6 +816,12 @@ class ExtraResource extends XotBaseResource
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
             'value' => KeyValue::make('value')
                 ->keyLabel('Chiave')
                 ->valueLabel('Valore')
@@ -738,6 +830,13 @@ class ExtraResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -745,6 +844,7 @@ class ExtraResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -768,6 +868,10 @@ class ExtraResource extends XotBaseResource
 =======
 >>>>>>> 218dfed3 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
     public static function getRelations(): array
     {
         return [
@@ -775,6 +879,7 @@ class ExtraResource extends XotBaseResource
     }
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -793,6 +898,11 @@ class ExtraResource extends XotBaseResource
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     public static function getPages(): array
     {
         return [

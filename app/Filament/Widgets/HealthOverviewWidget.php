@@ -153,6 +153,7 @@ class HealthOverviewWidget extends BaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -182,6 +183,8 @@ class HealthOverviewWidget extends BaseWidget
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
                 ->description($result->notificationMessage.' '.$result->status)
 =======
                 ->description($result->notificationMessage . ' ' . $result->status)
@@ -239,10 +242,17 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
                 ->description($result->notificationMessage . ' ' . $result->status)
 =======
                 ->description($result->notificationMessage.' '.$result->status)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,18 +412,35 @@ class HealthOverviewWidget extends BaseWidget
 =======
                 ->description($result->notificationMessage . ' ' . $result->status)
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }
 
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
          * return [
          * Stat::make('Unique views', '192.1k'),
          * Stat::make('Bounce rate', '21%'),
          * Stat::make('Average time on page', '3:12'),
          * ];
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,12 +455,18 @@ class HealthOverviewWidget extends BaseWidget
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         return [
             Stat::make('Unique views', '192.1k'),
             Stat::make('Bounce rate', '21%'),
             Stat::make('Average time on page', '3:12'),
         ];
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -456,6 +489,12 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return $stats;
     }
 }

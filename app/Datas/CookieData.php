@@ -30,18 +30,27 @@ class CookieData extends Data
         public readonly int $duration_days = 365,
         public readonly string $policy_url = '/cookie-policy',
         public readonly string $banner_style = 'bottom',
+<<<<<<< HEAD
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {
     }
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ) {}
+>>>>>>> 7468a7d2 (.)
 =======
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -72,6 +81,12 @@ class CookieData extends Data
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
     /**
      * Create a new instance of CookieData with default values.

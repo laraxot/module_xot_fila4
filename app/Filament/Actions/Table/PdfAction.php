@@ -40,14 +40,20 @@ class PdfAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -73,6 +79,11 @@ class PdfAction extends Action
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
             ->tooltip('pdf')
             ->openUrlInNewTab()
             // ->icon('heroicon-o-cloud-arrow-down')
@@ -80,6 +91,7 @@ class PdfAction extends Action
             ->icon('heroicon-o-document-arrow-down')
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +162,8 @@ class PdfAction extends Action
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+=======
+>>>>>>> 7468a7d2 (.)
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
 =======
 >>>>>>> 091f883c (.)
@@ -157,10 +171,25 @@ class PdfAction extends Action
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+            ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
             ->action(fn (Model $record) => app(PdfByModelAction::class)
                 ->execute(model: $record));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 7468a7d2 (.)
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
             ->action(fn (Model $record) => app(PdfByModelAction::class)
                 ->execute(model: $record));
@@ -334,6 +363,16 @@ class PdfAction extends Action
 =======
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+            ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

@@ -15,6 +15,33 @@ use Spatie\LaravelData\DataCollection;
 class ComponentFileData extends Data
 {
     public string $name;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    public string $class;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|string $module = null;
+    public null|string $path = null;
+    public null|string $ns = null;
+=======
+    public ?string $module = null;
+    public ?string $path = null;
+    public ?string $ns = null;
+>>>>>>> f1d4085 (.)
+=======
+    public null|string $module = null;
+    public null|string $path = null;
+    public null|string $ns = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
     public string $class;
 
@@ -279,14 +306,20 @@ class ComponentFileData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -312,5 +345,10 @@ class ComponentFileData extends Data
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

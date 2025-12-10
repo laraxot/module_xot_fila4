@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Traits;
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -25,16 +27,27 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+>>>>>>> 7468a7d2 (.)
+=======
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
+=======
+>>>>>>> 7468a7d2 (.)
 =======
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
@@ -55,6 +68,9 @@ use Illuminate\Support\Facades\App;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
 trait HasCsrfToken
 {
@@ -158,7 +174,9 @@ trait HasCsrfToken
     {
         return Session::token() === $this->_token;
     }
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,3 +217,16 @@ trait HasCsrfToken
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+=======
+}
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)

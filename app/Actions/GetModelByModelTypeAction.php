@@ -62,6 +62,7 @@ class GetModelByModelTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -71,7 +72,22 @@ class GetModelByModelTypeAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     public function execute(string $model_type, ?string $model_id): Model
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string $model_type, null|string $model_id): Model
+=======
+    public function execute(string $model_type, ?string $model_id): Model
+>>>>>>> f1d4085 (.)
+=======
+    public function execute(string $model_type, null|string $model_id): Model
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
         Assert::isInstanceOf($model = app($model_class), Model::class);
@@ -79,6 +95,7 @@ class GetModelByModelTypeAction
             $model = $model->find($model_id);
         }
 
+<<<<<<< HEAD
         if ($model === null) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
@@ -87,6 +104,7 @@ class GetModelByModelTypeAction
     public function execute(string $model_type, ?string $model_id): Model
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -220,10 +238,21 @@ class GetModelByModelTypeAction
 >>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
+=======
+        if (null === $model) {
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
+=======
+=======
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 7468a7d2 (.)
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
             throw new \Exception('['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
@@ -354,7 +383,17 @@ class GetModelByModelTypeAction
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         }
 
         return $model;

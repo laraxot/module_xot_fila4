@@ -1,8 +1,25 @@
+<<<<<<< HEAD:docs/phpstan-fixes-gennaio.md
 # 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 <<<<<<<< HEAD:docs/phpstan-fixes-gennaio.md
 # Correzioni PHPStan - Gennaio 2025
 ========
 >>>>>>>> 7ee87c138 (.):docs/phpstan-fixes-gennaio-2025.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+# 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
+=======
+# Correzioni PHPStan - Gennaio 2025
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.):docs/phpstan-fixes-gennaio-2025.md
 
 **Data**: 27 Gennaio 2025  
 **Status**: ✅ COMPLETATO CON SUCCESSO  
@@ -387,15 +404,25 @@ public function getAllColors(): array
 
 *Ultimo aggiornamento: Gennaio 2025* 
 
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: Gennaio 2025* 
 
 
 *Ultimo aggiornamento: Gennaio 2025* 
+<<<<<<< HEAD:docs/phpstan-fixes-gennaio.md
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7468a7d2 (.):docs/phpstan-fixes-gennaio-2025.md
 ## Collegamenti Correlati
 - [Architettura Modulo Xot](./architecture.md)
 - [Filament Widgets](./filament-widgets.md)
 - [Performance Monitoring](./performance-monitoring.md)
+<<<<<<< HEAD:docs/phpstan-fixes-gennaio.md
+=======
+=======
+>>>>>>> 7468a7d2 (.):docs/phpstan-fixes-gennaio-2025.md
 # 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 
 **Data**: 27 Gennaio 2025  
@@ -601,6 +628,7 @@ public function getModels(): array
 **🌐 Translation Standards**: IT/EN complete ✅  
 **🚀 Performance**: 98/100 score  
 **✨ Test Coverage**: 90% ✅
+<<<<<<< HEAD:docs/phpstan-fixes-gennaio.md
 
 
 
@@ -620,3 +648,7 @@ public function getModels(): array
 
 =======
 >>>>>>>> 7ee87c138 (.):docs/phpstan-fixes-gennaio-2025.md
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.):docs/phpstan-fixes-gennaio-2025.md

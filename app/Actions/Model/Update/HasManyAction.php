@@ -98,7 +98,9 @@ class HasManyAction
 
         $updateData = new HasManyUpdateData(
             foreignKey: $relation->getForeignKeyName(),
+<<<<<<< HEAD
             parentKey: $model->getAttribute($relation->getLocalKeyName()),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +138,19 @@ class HasManyAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            parentKey: $model->getAttribute($relation->getLocalKeyName()),
+=======
+            parentKey: $model->getAttribute($relation->getLocalKeyName())
+>>>>>>> f1d4085 (.)
+=======
+            parentKey: $model->getAttribute($relation->getLocalKeyName()),
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         );
 
         match (true) {
@@ -163,11 +178,19 @@ class HasManyAction
         /** @var Builder $query */
         $query = $relationDTO->related->newQuery();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $query->where($updateData->foreignKey, $updateData->parentKey)->update([$updateData->foreignKey => null]);
 
         $toIds = $relationDTO->data['to'] ?? [];
         if ($toIds) {
             $query
+<<<<<<< HEAD
                 ->whereIn($relationDTO->related->getKeyName(), $toIds)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,12 +205,21 @@ class HasManyAction
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+<<<<<<< HEAD
+                ->whereIn($related->getKeyName(), $toIds)
+=======
+                ->whereIn($relationDTO->related->getKeyName(), $toIds)
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         $query->where($updateData->foreignKey, $updateData->parentKey)
             ->update([$updateData->foreignKey => null]);
 
         $toIds = $relationDTO->data['to'] ?? [];
         if ($toIds) {
             $query->whereIn($relationDTO->related->getKeyName(), $toIds)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -219,6 +251,12 @@ class HasManyAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
                 ->update([$updateData->foreignKey => $updateData->parentKey]);
         }
     }
@@ -269,6 +307,7 @@ class HasManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -286,6 +325,8 @@ class HasManyAction
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
             if (! isset($item[$keyName])) {
 =======
             if (!isset($item[$keyName])) {
@@ -343,10 +384,17 @@ class HasManyAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+            if (! isset($item[$keyName])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
             if (!isset($item[$keyName])) {
 =======
             if (! isset($item[$keyName])) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,7 +488,16 @@ class HasManyAction
 =======
             if (!isset($item[$keyName])) {
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
                 continue;
             }
 
@@ -454,11 +511,21 @@ class HasManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            $result = app(UpdateAction::class)->execute($related, $itemData, []);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
+=======
+>>>>>>> 7468a7d2 (.)
             $result = app(UpdateAction::class)->execute(
                 $relationDTO->related,
                 $itemData,
                 []
             );
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -472,6 +539,13 @@ class HasManyAction
 =======
 >>>>>>> 091f883c (.)
             $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
+=======
+>>>>>>> f1d4085 (.)
+=======
+            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
             if ($result instanceof Model) {
                 $id = $result->getKey();
@@ -499,6 +573,7 @@ class HasManyAction
         array $updatedIds,
     ): void {
         if ($updatedIds) {
+<<<<<<< HEAD
             $relationDTO
                 ->related
                 ->newQuery()
@@ -527,9 +602,29 @@ class HasManyAction
 >>>>>>> a12f125f4a (.)
 >>>>>>> ce6fc085 (.)
 =======
+<<<<<<< HEAD
+            $relation = $relationDTO->rows;
+            Assert::isInstanceOf($relation, HasMany::class);
+            $related = $relation->getRelated();
+            Assert::notNull($related, 'Related model cannot be null');
+
+            $related
+                ->newQuery()
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
             $relationDTO
                 ->related
                 ->newQuery()
+=======
+            $relationDTO->related->newQuery()
+>>>>>>> f1d4085 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+            $relationDTO
+                ->related
+                ->newQuery()
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
@@ -544,6 +639,10 @@ class HasManyAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
                 ->where($updateData->foreignKey, $updateData->parentKey)
                 ->whereNotIn($relationDTO->related->getKeyName(), $updatedIds)
                 ->update([$updateData->foreignKey => null]);

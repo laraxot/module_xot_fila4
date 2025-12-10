@@ -4,6 +4,28 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Filament\Facades\Filament;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Panel;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Filament\Panel;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+use Filament\Pages\Dashboard;
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Filament\Panel;
 use Filament\Facades\Filament;
 use Filament\Panel;
@@ -98,7 +120,17 @@ class MainDashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
     protected static ?string $title = 'Main Dashboard';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+    protected static null|string $title = 'Main Dashboard';
+>>>>>>> d2b0a27 (.)
 
     protected static ?int $navigationSort = 1;
 =======
@@ -322,6 +354,7 @@ class MainDashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -410,6 +443,11 @@ class MainDashboard extends XotBaseDashboard
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
     protected static ?string $title = 'Main Dashboard';
 
     protected static ?int $navigationSort = 1;
@@ -438,6 +476,7 @@ class MainDashboard extends XotBaseDashboard
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -454,5 +493,11 @@ class MainDashboard extends XotBaseDashboard
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

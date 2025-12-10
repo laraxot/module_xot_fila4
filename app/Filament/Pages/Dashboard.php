@@ -23,8 +23,10 @@ use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 use Filament\Widgets\Widget;
@@ -34,10 +36,38 @@ class Dashboard extends XotBaseDashboard
 {
 class Dashboard extends XotBaseDashboard
 {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Dashboard extends XotBaseDashboard
+{
+=======
+=======
+>>>>>>> origin/develop
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Dashboard extends XotBaseDashboard
+{
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 class Dashboard extends XotBaseDashboard
 {
     
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 7468a7d2 (.)
 class Dashboard extends XotBaseDashboard
 {
 use Filament\Forms\Form;
@@ -153,9 +183,13 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
 class Dashboard extends XotBaseDashboard
 {
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
@@ -233,7 +267,13 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -243,6 +283,7 @@ class Dashboard extends XotBaseDashboard
     }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,9 +329,15 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 88ea7103 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
 
     
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,5 +371,13 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 }

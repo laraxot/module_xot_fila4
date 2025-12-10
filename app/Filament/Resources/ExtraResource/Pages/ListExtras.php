@@ -32,6 +32,7 @@ namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -41,11 +42,35 @@ namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 use Filament\Actions\BulkAction;
 use Filament\Actions\DeleteBulkAction;
+<<<<<<< HEAD
 use Filament\Actions\EditAction;
+=======
+<<<<<<< HEAD
+=======
+use Filament\Actions\EditAction;
+use Filament\Actions\DeleteBulkAction;
+use Filament\Tables\Filters\BaseFilter;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+use Filament\Tables;
+>>>>>>> d2b0a27 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\BaseFilter;
 use Modules\Xot\Filament\Resources\ExtraResource;
@@ -171,6 +196,16 @@ use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 /**
  * @see ExtraResource
  */
@@ -178,6 +213,13 @@ class ListExtras extends XotBaseListRecords
 {
     protected static string $resource = ExtraResource::class;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -186,6 +228,7 @@ class ListExtras extends XotBaseListRecords
             'model_type' => TextColumn::make('model_type')->searchable()->label('Model Type'),
             'model_id' => TextColumn::make('model_id')->sortable()->label('Model ID'),
             'extra_attributes' => TextColumn::make('extra_attributes')->searchable()->label('Extra Attributes'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +242,11 @@ class ListExtras extends XotBaseListRecords
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
     public function getTableColumns(): array
     {
         return [
@@ -219,6 +267,7 @@ class ListExtras extends XotBaseListRecords
                 ->label('Extra Attributes'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -250,12 +299,19 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         ];
     }
 
     /**
      * @return array<BaseFilter>
      */
+<<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +319,7 @@ class ListExtras extends XotBaseListRecords
 <<<<<<< HEAD
      * @return array<BaseFilter>
      */
+<<<<<<< HEAD
     #[Override]
      * @return array<BaseFilter>
      */
@@ -303,6 +360,18 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     public function getTableFilters(): array
     {
         return [];
@@ -311,6 +380,7 @@ class ListExtras extends XotBaseListRecords
     /**
      * @return array<string, Action|ActionGroup>
      */
+<<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +388,7 @@ class ListExtras extends XotBaseListRecords
 <<<<<<< HEAD
      * @return array<string, Action|ActionGroup>
      */
+<<<<<<< HEAD
     #[Override]
      * @return array<string, Action|ActionGroup>
      */
@@ -358,6 +429,18 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     public function getTableActions(): array
     {
         return [
@@ -366,6 +449,11 @@ class ListExtras extends XotBaseListRecords
     }
 
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
      * @return array<string, BulkAction>
      */
     #[Override]
@@ -375,6 +463,7 @@ class ListExtras extends XotBaseListRecords
 <<<<<<< HEAD
      * @return array<string, BulkAction>
      */
+<<<<<<< HEAD
     #[Override]
      * @return array<string, BulkAction>
      */
@@ -406,9 +495,15 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> a12f125f4a (.)
 >>>>>>> ce6fc085 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7468a7d2 (.)
+=======
      * @return array<string, BulkAction>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
@@ -424,6 +519,10 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     public function getTableBulkActions(): array
     {
         return [

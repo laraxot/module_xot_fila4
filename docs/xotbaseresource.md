@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 # XotBaseResource
 
 ## Panoramica
@@ -13,6 +21,7 @@ Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle 
 ```php
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,7 +59,13 @@ final public static function form(Form $form): Form
 =======
 final public static function form(Form $form): Form
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+final public static function form(Form $form): Form
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 {
     return $form->schema(static::getFormSchema());
 }
@@ -115,6 +130,13 @@ class NotificationResource extends XotBaseResource
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 - [Architettura Filament](../../../docs/architecture/filament.md)
 - [Gestione Risorse](../../../docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../docs/regole/xotbaseresource-rules.md)
@@ -124,9 +146,15 @@ class NotificationResource extends XotBaseResource
 - [User Resource](../../User/docs/filament-resources.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 - [Architettura Filament](../../../project_docs/architecture/filament.md)
 - [Gestione Risorse](../../../project_docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../project_docs/regole/xotbaseresource-rules.md)
@@ -134,6 +162,7 @@ class NotificationResource extends XotBaseResource
 ### Collegamenti ai Moduli
 - [Notify Resource](../../Notify/project_docs/filament-resources.md)
 - [User Resource](../../User/project_docs/filament-resources.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -145,6 +174,12 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 ## Note Importanti
 
@@ -162,6 +197,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
@@ -172,6 +208,8 @@ class NotificationResource extends XotBaseResource
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
 <<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
@@ -189,4 +227,22 @@ class NotificationResource extends XotBaseResource
 =======
 5. Seguire le convenzioni di Filament 
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> 5a14301c (.)
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> 71f31700 (.)
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)

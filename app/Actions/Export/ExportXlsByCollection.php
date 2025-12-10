@@ -35,6 +35,7 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -66,6 +67,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
@@ -78,6 +80,17 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+=======
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\CollectionExport;
@@ -86,6 +99,7 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +135,11 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
@@ -130,6 +149,7 @@ use Spatie\QueueableAction\QueueableAction;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -148,6 +168,12 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
 /**
  * Classe per l'esportazione di collezioni in formato Excel.
@@ -255,6 +281,27 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+        null|string $transKey = null,
+        array $fields = [],
+    ): BinaryFileResponse {
+        // Assicuriamo che $fields sia un array di stringhe
+        $stringFields = array_map(fn(mixed $field): string => (string) $field, array_values($fields));
+
+        $export = new CollectionExport(
+            collection: $collection,
+            transKey: $transKey,
+            fields: $stringFields,
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         ?string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -356,6 +403,7 @@ class ExportXlsByCollection
         $stringFields = array_map(fn(mixed $field): string => (string) $field, array_values($fields));
 
         $export = new CollectionExport(
+<<<<<<< HEAD
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
@@ -425,10 +473,13 @@ class ExportXlsByCollection
             transKey: $transKey,
             fields: $stringFields
 <<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
             collection: $normalizedCollection,
             headings: [],
             columns: $stringFields,
+<<<<<<< HEAD
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields
@@ -456,6 +507,16 @@ class ExportXlsByCollection
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+            collection: $collection,
+            transKey: $transKey,
+            fields: $stringFields
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         );
 
         return Excel::download($export, $filename);

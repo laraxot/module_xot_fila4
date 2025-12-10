@@ -31,7 +31,9 @@ class PdfByHtmlAction_Portrait
 
         return match ($out) {
             'download' => response()->download($path, $filename, $headers),
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +71,19 @@ class PdfByHtmlAction_Portrait
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'content' => $html2pdf->output($path, 'S'), // D
+=======
+            'content' => $html2pdf->output($path, 'S'),  // D
+>>>>>>> f1d4085 (.)
+=======
+            'content' => $html2pdf->output($path, 'S'), // D
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
             default => $path,
         };
     }

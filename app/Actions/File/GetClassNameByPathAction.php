@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\File;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,11 +30,17 @@ use function Safe\preg_match;
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -57,6 +71,12 @@ use function Safe\preg_match;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 class GetClassNameByPathAction
 {
     use QueueableAction;
@@ -96,6 +116,7 @@ class GetClassNameByPathAction
 
         return $fullClassName;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +203,20 @@ class GetClassNameByPathAction
 =======
 >>>>>>> 9db27d12 (.)
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+=======
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+=======
+        $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
+>>>>>>> f1d4085 (.)
+=======
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
         return $fullClassName;
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
@@ -194,6 +229,13 @@ class GetClassNameByPathAction
 }
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
  * $class = Str::of($path)
  * ->after(base_path('Modules'))
  * ->prepend('\Modules')
@@ -201,6 +243,7 @@ class GetClassNameByPathAction
  * ->replace('/', '\\')
  * ->toString();
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +258,11 @@ class GetClassNameByPathAction
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 $class = Str::of($path)
                     ->after(base_path('Modules'))
                     ->prepend('\Modules')
@@ -222,6 +270,7 @@ $class = Str::of($path)
                     ->replace('/', '\\')
                     ->toString();
                     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -244,3 +293,9 @@ $class = Str::of($path)
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)

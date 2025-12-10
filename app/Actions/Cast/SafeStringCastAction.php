@@ -6,7 +6,9 @@ namespace Modules\Xot\Actions\Cast;
 
 /**
  * Action per convertire in modo sicuro un valore mixed in string.
+<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +46,19 @@ namespace Modules\Xot\Actions\Cast;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+=======
+ * 
+>>>>>>> f1d4085 (.)
+=======
+ *
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -71,6 +86,13 @@ class SafeStringCastAction
             return $value;
         }
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
          * if ($value instanceof \BackedEnum) {
          * return $value->value;
          * }
@@ -96,6 +118,7 @@ class SafeStringCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -105,11 +128,17 @@ class SafeStringCastAction
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         if ($value instanceof \BackedEnum) {
             return $value->value;
         }
             */
         
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (is_null($value)) {
             return '';
@@ -154,6 +183,11 @@ class SafeStringCastAction
             return '';
         }
 >>>>>>> ce6fc085 (.)
+=======
+        if (is_null($value)) {
+            return '';
+        }
+>>>>>>> 7468a7d2 (.)
         
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -167,6 +201,7 @@ class SafeStringCastAction
         return '';
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -185,6 +220,12 @@ class SafeStringCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *

@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -216,6 +224,7 @@ test('complete tax filing process', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -225,6 +234,8 @@ test('complete tax filing process', function () {
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 7468a7d2 (.)
 ### Healthcare Domain () - **Real Data Preferred**
 <<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
@@ -286,12 +297,15 @@ test('complete tax filing process', function () {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
 =======
+=======
+>>>>>>> ab8cc3f3 (.)
 ### Healthcare Domain () - **Real Data Preferred**
 =======
 >>>>>>> f1d4085 (.)
 =======
 ### Healthcare Domain () - **Real Data Preferred**
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 =======
 ### Healthcare Domain () - **Real Data Preferred**
@@ -389,7 +403,13 @@ test('complete tax filing process', function () {
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -595,6 +615,7 @@ test('legacy feature with mocks', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -604,6 +625,8 @@ test('legacy feature with mocks', function () {
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 7468a7d2 (.)
 **For  Healthcare Domain**: 
 <<<<<<< HEAD
 **For  Healthcare Domain**: 
@@ -665,12 +688,15 @@ test('legacy feature with mocks', function () {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
 =======
+=======
+>>>>>>> ab8cc3f3 (.)
 **For  Healthcare Domain**: 
 =======
 >>>>>>> f1d4085 (.)
 =======
 **For  Healthcare Domain**: 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 =======
 **For  Healthcare Domain**: 
@@ -768,7 +794,13 @@ test('legacy feature with mocks', function () {
 **For <nome progetto> Healthcare Domain**: 
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+**For SaluteOra Healthcare Domain**: 
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -794,6 +826,7 @@ test('legacy feature with mocks', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -811,4 +844,12 @@ test('legacy feature with mocks', function () {
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)

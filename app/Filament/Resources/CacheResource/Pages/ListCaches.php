@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
 use Filament\Actions\Action;
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Override;
 use Filament\Actions\CreateAction;
@@ -30,6 +36,10 @@ use Override;
 use Filament\Actions\CreateAction;
 use Filament\Actions\CreateAction;
 use Filament\Actions;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 use Override;
 use Filament\Actions\CreateAction;
 use Filament\Actions;
@@ -39,6 +49,25 @@ use Filament\Actions;
 use Override;
 use Filament\Actions\CreateAction;
 use Filament\Actions;
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+use Filament\Actions\CreateAction;
+use Filament\Actions\Action;
+>>>>>>> f1d4085 (.)
+=======
+use Filament\Actions\Action;
+use Override;
+use Filament\Actions\CreateAction;
+>>>>>>> 73eab74 (.)
+use Filament\Actions;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Enums\TableLayoutEnum;
@@ -59,6 +88,16 @@ use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 /**
  * @see CacheResource
  */
@@ -75,7 +114,9 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +153,21 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+    /**
+     * @return array<string, mixed>
+     */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     public function getTableColumns(): array
     {
         return [
@@ -125,14 +181,20 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -158,6 +220,11 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
             'value' => TextColumn::make('value')
                 ->searchable()
                 ->wrap()
@@ -167,14 +234,20 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -200,6 +273,11 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
             'expiration' => TextColumn::make('expiration')
                 ->dateTime()
                 ->sortable()
@@ -207,7 +285,9 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +324,21 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+    /**
+     * @return array<string, mixed>
+     */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -254,7 +349,9 @@ class ListCaches extends XotBaseListRecords
     /**
      * @return array<string, Action>
      */
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +392,18 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
     protected function getHeaderActions(): array
     {
         return [

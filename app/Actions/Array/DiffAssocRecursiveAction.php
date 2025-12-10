@@ -33,6 +33,13 @@ class DiffAssocRecursiveAction
      */
     public static function fixType(array $data): array
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $collection = collect($data)->map(static function ($item) {
             if (! is_array($item)) {
                 throw new Exception('['.__LINE__.']['.__CLASS__.']');
@@ -50,6 +57,7 @@ class DiffAssocRecursiveAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -59,10 +67,16 @@ class DiffAssocRecursiveAction
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         $collection = collect($data)
             ->map(
                 static function ($item) {
                     if (! is_array($item)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -98,6 +112,10 @@ class DiffAssocRecursiveAction
                         throw new \Exception('['.__LINE__.']['.__CLASS__.']');
 >>>>>>> ce6fc085 (.)
                     }
+=======
+                        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+                    }
+>>>>>>> 7468a7d2 (.)
 
                     return collect($item)
                         ->map(
@@ -111,6 +129,7 @@ class DiffAssocRecursiveAction
                         )->all();
                 }
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -129,6 +148,12 @@ class DiffAssocRecursiveAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
         return $collection->all();
     }
@@ -141,6 +166,13 @@ class DiffAssocRecursiveAction
         $coll_1 = collect(self::fixType($arr_1));
         $arr_2 = self::fixType($arr_2);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $ris = $coll_1->filter(static function ($value, $key) use ($arr_2) {
             try {
                 return ! \in_array($value, $arr_2, false);
@@ -163,6 +195,23 @@ class DiffAssocRecursiveAction
 >>>>>>> 091f883c (.)
             }
         });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        $ris = $coll_1->filter(
+            static function ($value, $key) use ($arr_2) {
+                try {
+                    return ! \in_array($value, $arr_2, false);
+                } catch (Exception $exception) {
+                    dddx(['err' => $exception->getMessage(), 'value' => $value, 'key' => $key, 'arr_2' => $arr_2]);
+                }
+            }
+        );
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         return $ris->all();
     }

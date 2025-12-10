@@ -18,14 +18,35 @@ class ExportXlsByQuery
     /**
      * Esporta i risultati di una query in Excel.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
      * @param  Builder  $query  Query da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
      * @param  int|null  $limit  Limite di righe da esportare
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
      * @param Builder $query Query da esportare
      * @param string $filename Nome del file Excel
      * @param array<int, string> $fields Campi da includere nell'export
      * @param int|null $limit Limite di righe da esportare
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +85,7 @@ class ExportXlsByQuery
      *
 =======
 =======
+<<<<<<< HEAD
      * 
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -76,6 +98,22 @@ class ExportXlsByQuery
 =======
 >>>>>>> a67e542f (.)
      * @return BinaryFileResponse
+=======
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
+     * @return BinaryFileResponse
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
      */
     public function execute(
         Builder $query,
@@ -110,6 +148,9 @@ class ExportXlsByQuery
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
         ?int $limit = null,
 =======
 =======
@@ -208,28 +249,48 @@ class ExportXlsByQuery
         $stringFields = array_map(strval(...), array_values($fields));
 
         // Apply limit if needed before creating export
+<<<<<<< HEAD
         null|int $limit = null,
         ?int $limit = null,
         null|int $limit = null,
         ?int $limit = null,
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
         null|int $limit = null,
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         ?int $limit = null,
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(function ($field) {
             return strval($field);
         }, array_values($fields));
+<<<<<<< HEAD
         null|int $limit = null,
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
 
         $export = new QueryExport(
             query: $query,
             transKey: null,
+<<<<<<< HEAD
             fields: $stringFields,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +332,21 @@ class ExportXlsByQuery
         );
         // Note: QueryExport doesn't accept a limit parameter directly
         // If limit is needed, apply it to the query before passing to the exporter
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            fields: $stringFields,
+=======
+            fields: $stringFields
+>>>>>>> f1d4085 (.)
+=======
+            fields: $stringFields,
+>>>>>>> 73eab74 (.)
+        );
+        // Note: QueryExport doesn't accept a limit parameter directly
+        // If limit is needed, apply it to the query before passing to the exporter
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         if ($limit !== null) {
             $query->limit($limit);
         }

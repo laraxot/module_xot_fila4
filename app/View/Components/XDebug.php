@@ -93,18 +93,27 @@ class XDebug extends Component
         // public Post $article,
         // public bool $showAuthor = false,
         public string $tpl = 'v1',
+<<<<<<< HEAD
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {
     }
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ) {}
+>>>>>>> 7468a7d2 (.)
 =======
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -135,6 +144,12 @@ class XDebug extends Component
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
     public function render(): View
     {
@@ -164,6 +179,7 @@ class XDebug extends Component
     {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +312,48 @@ class XDebug extends Component
         if (!extension_loaded('xdebug')) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+        if (! extension_loaded('xdebug')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+        if (!extension_loaded('xdebug')) {
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 3310e9c6 (.)
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!extension_loaded('xdebug')) {
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 7468a7d2 (.)
 >>>>>>> 3fbbf1f5 (.)
 =======
         if (!extension_loaded('xdebug')) {
@@ -317,7 +375,16 @@ class XDebug extends Component
 =======
         if (!extension_loaded('xdebug')) {
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,6 +433,7 @@ class XDebug extends Component
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,13 +519,23 @@ class XDebug extends Component
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
         return is_string($out1) ? $out1 : ((string) $out1);
+=======
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         return is_string($out1) ? $out1 : ((string) $out1);
         return is_string($out1) ? $out1 : (string) $out1;
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -545,6 +623,15 @@ class XDebug extends Component
 =======
         return is_string($out1) ? $out1 : ((string) $out1);
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

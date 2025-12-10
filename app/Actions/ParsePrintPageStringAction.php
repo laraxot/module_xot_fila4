@@ -5,11 +5,19 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions;
 
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,12 +31,18 @@ use function Safe\preg_match_all;
 =======
 >>>>>>> origin/develop
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 
 use function Safe\preg_match_all;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -59,6 +73,12 @@ use function Safe\preg_match_all;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -119,6 +139,7 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = array_merge(
                     $res,
                     self::fromTo((int) $firstNumber, (int) $secondNumber)
@@ -135,7 +156,23 @@ class ParsePrintPageStringAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+=======
+                $res = array_merge(
+                    $res,
+                    self::fromTo((int) $firstNumber, (int) $secondNumber)
+                );
+>>>>>>> f1d4085 (.)
+=======
+                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             }
         }
 

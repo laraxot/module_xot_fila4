@@ -178,6 +178,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -195,6 +196,8 @@ class MorphToOneAction
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -252,10 +255,17 @@ class MorphToOneAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+        if (! isset($data['lang'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
         if (!isset($data['lang'])) {
 =======
         if (! isset($data['lang'])) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,13 +359,23 @@ class MorphToOneAction
 =======
         if (!isset($data['lang'])) {
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Return the prepared data
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -391,6 +411,8 @@ class MorphToOneAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
         return array_filter($data, static fn ($value) => $value !== null);
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
@@ -449,13 +471,23 @@ class MorphToOneAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
         return array_filter($data, static fn($value) => null !== $value);
+=======
+=======
+        return array_filter($data, static fn ($value) => $value !== null);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn ($value) => null !== $value);
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -542,6 +574,15 @@ class MorphToOneAction
 =======
         return array_filter($data, static fn($value) => null !== $value);
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+        return array_filter($data, static fn($value) => null !== $value);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

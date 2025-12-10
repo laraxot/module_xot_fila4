@@ -16,9 +16,15 @@ use Modules\Xot\Traits\Updater;
  * Class BaseModel.
  */
 {
+<<<<<<< HEAD
 abstract class BaseModel extends Model
 {
     use HasFactory;
+=======
+    protected $connection = 'xot';
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 
     // use Searchable;
     // //use Cachable;
@@ -70,6 +76,9 @@ abstract class BaseModel extends Model
     protected $perPage = 30;
 
     protected $connection = 'xot';
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 
     /** @var list<string> */
     protected $fillable = ['id'];
@@ -94,6 +103,19 @@ abstract class BaseModel extends Model
         return app(GetFactoryAction::class)->execute(static::class);
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     /** @return array<string, class-string|string> */
     protected function casts(): array
     {
@@ -102,6 +124,7 @@ abstract class BaseModel extends Model
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,10 +160,15 @@ abstract class BaseModel extends Model
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -156,10 +184,24 @@ abstract class BaseModel extends Model
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
     protected $connection = 'xot';
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 }

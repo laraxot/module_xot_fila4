@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -41,6 +49,7 @@ function mockXotData(): void
     $mockXotData->shouldReceive('getUserClass')
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,8 +120,30 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
+=======
+>>>>>>> 6cba4fe (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 7468a7d2 (.)
 >>>>>>> 3310e9c6 (.)
 =======
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
@@ -213,7 +244,13 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -392,13 +429,19 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 - [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -545,6 +588,16 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> ce6fc085 (.)
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> f1d4085 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
@@ -555,6 +608,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,6 +740,30 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3fbbf1f5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
@@ -725,4 +803,63 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3fbbf1f5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3310e9c6 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> c35986f4 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)

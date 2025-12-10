@@ -103,6 +103,7 @@ class ModuleService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -132,6 +133,8 @@ class ModuleService
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
     private static ?self $_instance = null;
 =======
     private static null|self $_instance = null;
@@ -189,10 +192,17 @@ class ModuleService
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+    private static ?self $_instance = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
     private static null|self $_instance = null;
 =======
     private static ?self $_instance = null;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,7 +362,16 @@ class ModuleService
 =======
     private static null|self $_instance = null;
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+    private static null|self $_instance = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
     /**
      * getInstance.
@@ -365,6 +384,7 @@ class ModuleService
         if (! (self::$_instance instanceof self)) {
             self::$_instance = new self;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +477,7 @@ class ModuleService
             self::$_instance = new self();
         if (!(self::$_instance instanceof self)) {
             self::$_instance = new self();
+<<<<<<< HEAD
         if (!(self::$_instance instanceof self)) {
             self::$_instance = new self();
         if (! (self::$_instance instanceof self)) {
@@ -518,6 +539,25 @@ class ModuleService
             self::$_instance = new self;
         if (!(self::$_instance instanceof self)) {
             self::$_instance = new self();
+=======
+>>>>>>> 5a14301c (.)
+=======
+        if (! (self::$_instance instanceof self)) {
+            self::$_instance = new self;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!(self::$_instance instanceof self)) {
+=======
+        if (! self::$_instance instanceof self) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!(self::$_instance instanceof self)) {
+>>>>>>> 73eab74 (.)
+            self::$_instance = new self();
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         }
 
         return self::$_instance;
@@ -549,19 +589,59 @@ class ModuleService
     public function getModels(): array
     {
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
          * if (null == $module) {
          * return [];
          * }
          */
         $mod = Module::find($this->name);
+<<<<<<< HEAD
         $mod = Module::find($this->name);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
+=======
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+            return [];
+        }
+
+        $mod_path = $mod->getPath() . '/Models';
+<<<<<<< HEAD
+=======
+        if (null == $module) {
+            return [];
+        }
+        */
+        $mod = Module::find($this->name);
+        if (! $mod instanceof \Nwidart\Modules\Module) {
+>>>>>>> d2b0a27 (.)
             return [];
         }
 
         $mod_path = $mod->getPath().'/Models';
+<<<<<<< HEAD
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 7468a7d2 (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -840,13 +920,25 @@ class ModuleService
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         $mod_path = str_replace(['\\', '/'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $mod_path);
 
         $files = File::files($mod_path);
         $data = [];
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -882,6 +974,8 @@ class ModuleService
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
         $ns = 'Modules\\'.$mod->getName().'\\Models'; // con la barra davanti non va il search ?
         $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
         $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
@@ -940,13 +1034,23 @@ class ModuleService
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
         $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
+=======
+=======
+        $ns = 'Modules\\'.$mod->getName().'\\Models'; // con la barra davanti non va il search ?
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
         $ns = 'Modules\\'.$mod->getName().'\\Models';  // con la barra davanti non va il search ?
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1100,7 +1204,16 @@ class ModuleService
 =======
         $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+        $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         foreach ($files as $file) {
             $filename = $file->getRelativePathname();
             $ext = '.php';
@@ -1184,11 +1297,32 @@ class ModuleService
 
                 $name = mb_substr($filename, 0, -mb_strlen($ext));
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+                /**
+                 * @var class-string
+                 */
+                $class = $ns . '\\' . $name;
+<<<<<<< HEAD
+=======
+                
+>>>>>>> d2b0a27 (.)
                 /**
                  * @var class-string
                  */
                 $class = $ns.'\\'.$name;
+<<<<<<< HEAD
                 // Strict comparison using === between stdClass and null will always evaluate to false.
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+                //Strict comparison using === between stdClass and null will always evaluate to false.
+>>>>>>> d2b0a27 (.)
 
                 // if ($tmp === null) {
                 //    continue;
@@ -1233,6 +1367,7 @@ class ModuleService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
@@ -1285,6 +1420,8 @@ class ModuleService
 =======
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> 7468a7d2 (.)
                     if (! $reflection_class->isAbstract()) {
 =======
                     if (!$reflection_class->isAbstract()) {
@@ -1304,10 +1441,17 @@ class ModuleService
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+                    if (! $reflection_class->isAbstract()) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
                     if (!$reflection_class->isAbstract()) {
 =======
                     if (! $reflection_class->isAbstract()) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1373,7 +1517,16 @@ class ModuleService
 =======
                     if (!$reflection_class->isAbstract()) {
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

@@ -64,6 +64,7 @@ use Webmozart\Assert\Assert;
 
 /**
  * Action per gestire in modo sicuro l'accesso agli attributi dei modelli Eloquent.
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,23 +125,38 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+>>>>>>> 7468a7d2 (.)
 =======
  * 
 >>>>>>> f1d4085 (.)
 =======
  *
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
 =======
 =======
 <<<<<<< HEAD
+=======
+ * Questa action centralizza la logica di accesso sicuro agli attributi per evitare:
+ * - Uso di property_exists() con modelli Eloquent (anti-pattern)
+ * - Errori di tipo con getAttribute() che restituisce mixed
+ * - Duplicazione di logica di verifica attributi
+>>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
  * 
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
  *
@@ -152,6 +168,13 @@ use Webmozart\Assert\Assert;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+ *
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di accesso attributi
  * - KISS: Metodi semplici e diretti
@@ -198,6 +221,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -262,6 +286,24 @@ use Webmozart\Assert\Assert;
  * @package Modules\Xot\Actions\Cast
  *
  * @package Modules\Xot\Actions\Cast
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+=======
+ * 
+>>>>>>> f1d4085 (.)
+=======
+ *
+>>>>>>> 73eab74 (.)
+ * @package Modules\Xot\Actions\Cast
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
  */
 class SafeAttributeCastAction
 {
@@ -295,7 +337,9 @@ class SafeAttributeCastAction
         Assert::isInstanceOf($model, Model::class);
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +377,19 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return $model->getAttribute($attribute) !== null;
     }
 
@@ -359,7 +416,19 @@ class SafeAttributeCastAction
     public function hasNonEmptyAttribute(Model $model, string $attribute): bool
     {
         Assert::stringNotEmpty($attribute);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $value = $model->getAttribute($attribute);
 
         Assert::isInstanceOf($model, Model::class);
@@ -414,6 +483,15 @@ class SafeAttributeCastAction
      * @param  string|null  $default  Valore di default se l'attributo non esiste o è null
      * @return string Il valore dell'attributo convertito in string
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
     public function getStringAttribute(Model $model, string $attribute, null|string $default = ''): string
     {
      * @param Model $model Il modello Eloquent
@@ -436,6 +514,7 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getStringAttribute(Model $model, string $attribute, ?string $default = ''): string
     public function getStringAttribute(Model $model, string $attribute, null|string $default = ''): string
     {
@@ -510,6 +589,13 @@ class SafeAttributeCastAction
 >>>>>>> b93ef594b4 (.)
     {
         Assert::isInstanceOf($model, Model::class);
+=======
+=======
+>>>>>>> d2b0a27 (.)
+    public function getStringAttribute(Model $model, string $attribute, ?string $default = ''): string
+    {
+        Assert::isInstanceOf($model, Model::class);
+>>>>>>> 7468a7d2 (.)
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -517,6 +603,7 @@ class SafeAttributeCastAction
         if ($value === null) {
             return $default ?? '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 >>>>>>> a12f125f4a (.)
@@ -557,6 +644,15 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return (string) $value;
     }
 
@@ -568,6 +664,15 @@ class SafeAttributeCastAction
      * @param  int|null  $default  Valore di default se l'attributo non esiste o è null
      * @return int Il valore dell'attributo convertito in int
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
     public function getIntAttribute(Model $model, string $attribute, null|int $default = 0): int
     {
      * @param Model $model Il modello Eloquent
@@ -590,6 +695,7 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getIntAttribute(Model $model, string $attribute, ?int $default = 0): int
     public function getIntAttribute(Model $model, string $attribute, null|int $default = 0): int
     {
@@ -664,6 +770,13 @@ class SafeAttributeCastAction
 >>>>>>> b93ef594b4 (.)
     {
         Assert::isInstanceOf($model, Model::class);
+=======
+=======
+>>>>>>> d2b0a27 (.)
+    public function getIntAttribute(Model $model, string $attribute, ?int $default = 0): int
+    {
+        Assert::isInstanceOf($model, Model::class);
+>>>>>>> 7468a7d2 (.)
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -671,6 +784,7 @@ class SafeAttributeCastAction
         if ($value === null) {
             return $default ?? 0;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 >>>>>>> a12f125f4a (.)
@@ -711,6 +825,15 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return app(SafeIntCastAction::class)->execute($value, $default);
     }
 
@@ -722,6 +845,15 @@ class SafeAttributeCastAction
      * @param  float|null  $default  Valore di default se l'attributo non esiste o è null
      * @return float Il valore dell'attributo convertito in float
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
     public function getFloatAttribute(Model $model, string $attribute, null|float $default = 0.0): float
     {
      * @param Model $model Il modello Eloquent
@@ -744,6 +876,7 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getFloatAttribute(Model $model, string $attribute, ?float $default = 0.0): float
     public function getFloatAttribute(Model $model, string $attribute, null|float $default = 0.0): float
     {
@@ -818,6 +951,13 @@ class SafeAttributeCastAction
 >>>>>>> b93ef594b4 (.)
     {
         Assert::isInstanceOf($model, Model::class);
+=======
+=======
+>>>>>>> d2b0a27 (.)
+    public function getFloatAttribute(Model $model, string $attribute, ?float $default = 0.0): float
+    {
+        Assert::isInstanceOf($model, Model::class);
+>>>>>>> 7468a7d2 (.)
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -825,6 +965,7 @@ class SafeAttributeCastAction
         if ($value === null) {
             return $default ?? 0.0;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 >>>>>>> a12f125f4a (.)
@@ -865,6 +1006,15 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return app(SafeFloatCastAction::class)->execute($value, $default);
     }
 
@@ -876,6 +1026,15 @@ class SafeAttributeCastAction
      * @param  bool|null  $default  Valore di default se l'attributo non esiste o è null
      * @return bool Il valore dell'attributo convertito in boolean
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
     public function getBooleanAttribute(Model $model, string $attribute, null|bool $default = false): bool
     {
      * @param Model $model Il modello Eloquent
@@ -898,6 +1057,7 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getBooleanAttribute(Model $model, string $attribute, ?bool $default = false): bool
     public function getBooleanAttribute(Model $model, string $attribute, null|bool $default = false): bool
     {
@@ -972,6 +1132,13 @@ class SafeAttributeCastAction
 >>>>>>> b93ef594b4 (.)
     {
         Assert::isInstanceOf($model, Model::class);
+=======
+=======
+>>>>>>> d2b0a27 (.)
+    public function getBooleanAttribute(Model $model, string $attribute, ?bool $default = false): bool
+    {
+        Assert::isInstanceOf($model, Model::class);
+>>>>>>> 7468a7d2 (.)
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -979,6 +1146,7 @@ class SafeAttributeCastAction
         if ($value === null) {
             return $default ?? false;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 >>>>>>> a12f125f4a (.)
@@ -1019,6 +1187,15 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return app(SafeBooleanCastAction::class)->execute($value, $default);
     }
 
@@ -1030,6 +1207,15 @@ class SafeAttributeCastAction
      * @param  array|null  $default  Valore di default se l'attributo non esiste o è null
      * @return array Il valore dell'attributo convertito in array
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 7468a7d2 (.)
     public function getArrayAttribute(Model $model, string $attribute, null|array $default = []): array
     {
      * @param Model $model Il modello Eloquent
@@ -1052,6 +1238,7 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getArrayAttribute(Model $model, string $attribute, ?array $default = []): array
     public function getArrayAttribute(Model $model, string $attribute, null|array $default = []): array
     {
@@ -1126,6 +1313,13 @@ class SafeAttributeCastAction
 >>>>>>> b93ef594b4 (.)
     {
         Assert::isInstanceOf($model, Model::class);
+=======
+=======
+>>>>>>> d2b0a27 (.)
+    public function getArrayAttribute(Model $model, string $attribute, ?array $default = []): array
+    {
+        Assert::isInstanceOf($model, Model::class);
+>>>>>>> 7468a7d2 (.)
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -1133,6 +1327,7 @@ class SafeAttributeCastAction
         if ($value === null) {
             return $default ?? [];
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 >>>>>>> a12f125f4a (.)
@@ -1173,6 +1368,15 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return app(SafeArrayCastAction::class)->execute($value, $default);
     }
 
@@ -1199,7 +1403,9 @@ class SafeAttributeCastAction
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1237,13 +1443,28 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return match ($type) {
             'string' => $this->getStringAttribute($model, $attribute, is_string($default) ? $default : null),
             'int' => $this->getIntAttribute($model, $attribute, is_int($default) ? $default : null),
             'float' => $this->getFloatAttribute($model, $attribute, is_float($default) ? $default : null),
             'bool' => $this->getBooleanAttribute($model, $attribute, is_bool($default) ? $default : null),
             'array' => $this->getArrayAttribute($model, $attribute, is_array($default) ? $default : null),
+<<<<<<< HEAD
             default => throw new InvalidArgumentException("Tipo non supportato: {$type}"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1281,6 +1502,19 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            default => throw new InvalidArgumentException("Tipo non supportato: {$type}"),
+=======
+            default => throw new InvalidArgumentException("Tipo non supportato: {$type}")
+>>>>>>> f1d4085 (.)
+=======
+            default => throw new InvalidArgumentException("Tipo non supportato: {$type}"),
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         };
     }
 
@@ -1296,7 +1530,19 @@ class SafeAttributeCastAction
     public function hasAttributeValue(Model $model, string $attribute, mixed $expectedValue): bool
     {
         Assert::stringNotEmpty($attribute);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $actualValue = $model->getAttribute($attribute);
 
         Assert::isInstanceOf($model, Model::class);
@@ -1360,9 +1606,45 @@ class SafeAttributeCastAction
      * @return mixed Il valore dell'attributo validato e convertito
      */
     public function getValidatedAttribute(
+<<<<<<< HEAD
         Model $model,
         string $attribute,
         string $type,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ?callable $validator = null,
+        mixed $default = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+        Model $model,
+        string $attribute,
+        string $type,
+        null|callable $validator = null,
+        mixed $default = null,
+<<<<<<< HEAD
+=======
+        Model $model, 
+        string $attribute, 
+        string $type, 
+        ?callable $validator = null,
+        mixed $default = null
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+    ): mixed {
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 7468a7d2 (.)
         null|callable $validator = null,
         mixed $default = null,
 <<<<<<< HEAD
@@ -1410,6 +1692,13 @@ class SafeAttributeCastAction
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         $value = $this->getTypedAttribute($model, $attribute, $type, $default);
 
@@ -1421,6 +1710,7 @@ class SafeAttributeCastAction
             return $default;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1453,6 +1743,11 @@ class SafeAttributeCastAction
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
         
         $value = $this->getTypedAttribute($model, $attribute, $type, $default);
         
@@ -1460,6 +1755,7 @@ class SafeAttributeCastAction
             return $default;
         }
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1478,6 +1774,12 @@ class SafeAttributeCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
         return $value;
     }
 
@@ -1531,6 +1833,7 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -1548,6 +1851,8 @@ class SafeAttributeCastAction
 =======
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
     public static function getString(Model $model, string $attribute, ?string $default = ''): string
 =======
     public static function getString(Model $model, string $attribute, null|string $default = ''): string
@@ -1605,10 +1910,17 @@ class SafeAttributeCastAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+    public static function getString(Model $model, string $attribute, ?string $default = ''): string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
     public static function getString(Model $model, string $attribute, null|string $default = ''): string
 =======
     public static function getString(Model $model, string $attribute, ?string $default = ''): string
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1702,7 +2014,16 @@ class SafeAttributeCastAction
 =======
     public static function getString(Model $model, string $attribute, null|string $default = ''): string
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+    public static function getString(Model $model, string $attribute, null|string $default = ''): string
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     {
         return app(self::class)->getStringAttribute($model, $attribute, $default);
     }

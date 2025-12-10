@@ -5,12 +5,21 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\SessionResource\Pages;
 
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+<<<<<<< HEAD
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Filament\Actions;
@@ -35,11 +44,25 @@ use Filament\Actions;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+use Filament\Actions;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Modules\Xot\Filament\Resources\SessionResource;
 
 class EditSession extends XotBaseEditRecord
 {
     protected static string $resource = SessionResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,24 +79,36 @@ use Modules\Xot\Filament\Resources\SessionResource;
 =======
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 use Modules\Xot\Filament\Resources\SessionResource;
 
 
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
 
 
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 7468a7d2 (.)
 class EditSession extends XotBaseEditRecord
 {
     protected static string $resource = SessionResource::class;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -126,4 +161,10 @@ class EditSession extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecor
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 }

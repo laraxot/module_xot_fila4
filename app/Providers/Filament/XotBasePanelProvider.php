@@ -42,6 +42,7 @@ use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -51,8 +52,42 @@ use Illuminate\Support\Facades\File;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+use Filament\Panel;
+use Filament\PanelProvider;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+use Webmozart\Assert\Assert;
+use Modules\Xot\Datas\XotData;
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\File;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
+<<<<<<< HEAD
+=======
+use Illuminate\Routing\Middleware\SubstituteBindings;
+use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Filament\Http\Middleware\DisableBladeIconComponents;
+use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
+use Filament\Http\Middleware\DispatchServingFilamentEvent;
+use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
+use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
+use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+<<<<<<< HEAD
+=======
+use Filament\Http\Middleware\Authenticate;
+>>>>>>> d2b0a27 (.)
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Filament\Panel;
@@ -69,7 +104,10 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7468a7d2 (.)
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -426,7 +464,18 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 abstract class XotBasePanelProvider extends PanelProvider
 {
@@ -442,7 +491,9 @@ abstract class XotBasePanelProvider extends PanelProvider
         $metatag = MetatagData::make();
 
         $main_module = Str::lower(XotData::make()->main_module);
+<<<<<<< HEAD
         $default = $main_module === $moduleLow;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -465,6 +516,19 @@ abstract class XotBasePanelProvider extends PanelProvider
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $default = $main_module === $moduleLow;
+=======
+        $default = ($main_module === $moduleLow);
+>>>>>>> f1d4085 (.)
+=======
+        $default = $main_module === $moduleLow;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
 
         $panel = $panel
             ->default($default)
@@ -477,6 +541,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
         // ---------------------
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -500,7 +565,20 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
         $panel
             ->maxContentWidth('full')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $panel
+            ->maxContentWidth('full')
+=======
+        $panel->maxContentWidth('full')
+>>>>>>> f1d4085 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+        $panel
+            ->maxContentWidth('full')
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
         $panel
@@ -513,6 +591,9 @@ abstract class XotBasePanelProvider extends PanelProvider
         $panel
             ->maxContentWidth('full')
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
             ->topNavigation($this->topNavigation)
             ->globalSearch($this->globalSearch)
             ->readOnlyRelationManagersOnResourceViewPagesByDefault(false)
@@ -548,6 +629,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -557,8 +639,20 @@ abstract class XotBasePanelProvider extends PanelProvider
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
             ->id($moduleLow.'::admin')
             ->path($moduleLow.'/admin')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+            ->id($moduleLow . '::admin')
+            ->path($moduleLow . '/admin')
+>>>>>>> d2b0a27 (.)
             // Configure Filament discovery for module components (unconditional; dirs are expected to exist)
             ->discoverResources(
                 in: base_path('Modules/'.$this->module.'/app/Filament/Resources'),
@@ -682,12 +776,24 @@ abstract class XotBasePanelProvider extends PanelProvider
                 Authenticate::class,
             ]);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 7468a7d2 (.)
        
 
 <<<<<<< HEAD
        
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,7 +853,12 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
 >>>>>>> 17684f52 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 7468a7d2 (.)
             ->id($moduleLow.'::admin')
             ->path($moduleLow.'/admin')
             ->discoverResources(
@@ -815,6 +926,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
 =======
@@ -927,7 +1039,18 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+
+       
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
         return $panel;
     }
 
@@ -968,6 +1091,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
@@ -981,6 +1105,9 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
 <<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
         return $ns.'\\'.$this->module;
         return $ns . '\\' . $this->module;
         return $ns . '\\' . $this->module;
@@ -1004,6 +1131,12 @@ abstract class XotBasePanelProvider extends PanelProvider
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+        return $ns.'\\'.$this->module;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
         return $ns . '\\' . $this->module;
 =======
 >>>>>>> 218dfed3 (.)
@@ -1023,6 +1156,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1124,6 +1258,15 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
         return $ns . '\\' . $this->module;
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+        return $ns . '\\' . $this->module;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
     }
 }

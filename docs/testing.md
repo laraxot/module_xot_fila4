@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 # Testing Guidelines - Modulo Xot
 
 ## Framework di Testing: Pest
@@ -673,6 +681,7 @@ test('no memory leaks in repeated operations', function (): void {
 ## Links di Riferimento
 
 ### Internal Documentation
+<<<<<<< HEAD
 - [Root Testing Organization](../../../docs/testing-organization.md)
 <<<<<<< HEAD
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
@@ -748,6 +757,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Testing Organization](../../../docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
 - [<nome progetto> Testing Guidelines](../../../docs/testing.md)
@@ -800,10 +810,23 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 218dfed3 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+- [Root Testing Organization](../../../docs/testing-organization.md)
+- [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
+- [Cms Testing Guidelines](../../Cms/docs/testing.md)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -812,6 +835,11 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 ### Framework Documentation
 - [Xot Framework Architecture](./architecture.md)
@@ -820,8 +848,10 @@ test('no memory leaks in repeated operations', function (): void {
 
 ### External Resources
 - [Pest Documentation](https://pestphp.com/)
+<<<<<<< HEAD
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -929,20 +959,34 @@ test('no memory leaks in repeated operations', function (): void {
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Testing](https://laravel.com/docs/testing)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+>>>>>>> 7468a7d2 (.)
 =======
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Spatie Laravel Data](https://spatie.be/project_docs/laravel-data)
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
+=======
+>>>>>>> 7468a7d2 (.)
 =======
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
 
 ---
 
@@ -959,6 +1003,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -976,4 +1021,12 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)

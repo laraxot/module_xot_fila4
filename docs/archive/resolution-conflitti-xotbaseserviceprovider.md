@@ -175,6 +175,7 @@ Per maggiori dettagli sui vantaggi di questo approccio, consultare la documentaz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 *Collegamento bidirezionale: vedi anche `/project_docs/providers/service_provider_best_practices.md`* 
@@ -237,3 +238,8 @@ Per maggiori dettagli sui vantaggi di questo approccio, consultare la documentaz
 =======
 *Collegamento bidirezionale: vedi anche `/project_docs/providers/service_provider_best_practices.md`* 
 >>>>>>> 0117b849c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)

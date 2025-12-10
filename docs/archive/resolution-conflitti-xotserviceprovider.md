@@ -49,6 +49,7 @@ Il file presentava molteplici conflitti git non risolti tra branch `HEAD`, `orig
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 *Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*
@@ -111,3 +112,8 @@ Il file presentava molteplici conflitti git non risolti tra branch `HEAD`, `orig
 =======
 *Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*
 >>>>>>> 0117b849c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)

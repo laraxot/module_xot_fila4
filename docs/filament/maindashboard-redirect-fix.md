@@ -103,6 +103,7 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
@@ -142,9 +143,12 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 =======
 >>>>>>> 9f193021d (.)
 =======
+>>>>>>> d9f43fce9 (.)
+=======
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,6 +200,8 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> d9f43fce9 (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
@@ -233,6 +239,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
@@ -272,9 +279,12 @@ curl -I http://personale2022.prov.tv.local/admin
 =======
 >>>>>>> 9f193021d (.)
 =======
+>>>>>>> d9f43fce9 (.)
+=======
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,6 +336,8 @@ curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> d9f43fce9 (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
@@ -363,6 +375,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 >>>>>>> 85cdef688 (.)
 =======
@@ -507,6 +520,11 @@ curl -I http://personale2022.prov.tv.local/admin
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 
 >>>>>>> 60f0a1820 (.)
+=======
+=======
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)
 # senza redirect automatico
 ```
 
@@ -687,6 +705,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -720,10 +739,14 @@ performance::admin
 =======
 =======
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> d9f43fce9 (.)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,6 +823,9 @@ performance::admin
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)
 
 ## Aggiornamenti
 
@@ -815,6 +841,7 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,3 +960,8 @@ performance::admin
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-27* 
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)

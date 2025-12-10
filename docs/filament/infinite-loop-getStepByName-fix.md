@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -56,7 +57,12 @@
 =======
 =======
 >>>>>>> 6d05deed (.)
+<<<<<<< HEAD
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 39bb163e (.)
+>>>>>>> d9f43fce9 (.)
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 
 ## 🚨 **PROBLEMA CRITICO RISOLTO**
@@ -190,6 +196,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -218,13 +225,19 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 >>>>>>> 6d05deed (.)
+<<<<<<< HEAD
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 39bb163e (.)
+>>>>>>> d9f43fce9 (.)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,7 +303,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 >>>>>>> 6d05deed (.)
+<<<<<<< HEAD
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 39bb163e (.)
+>>>>>>> d9f43fce9 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -323,6 +341,7 @@ Questo fix dimostra l'importanza di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ab5b3a4f (.)
@@ -330,6 +349,8 @@ Questo fix dimostra l'importanza di:
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> d9f43fce9 (.)
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
@@ -397,4 +418,10 @@ Questo fix dimostra l'importanza di:
 =======
 =======
 >>>>>>> 0d20089f (.)
+<<<<<<< HEAD
 >>>>>>> ba7efc23f (.)
+=======
+=======
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 39bb163e (.)
+>>>>>>> d9f43fce9 (.)

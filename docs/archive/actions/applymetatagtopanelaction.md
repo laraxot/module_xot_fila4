@@ -159,6 +159,7 @@ In caso di errore durante l'applicazione dei metatag:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - La documentazione è mantenuta aggiornata nella cartella docs 
 =======
 - La documentazione è mantenuta aggiornata nella cartella docs 
@@ -226,3 +227,8 @@ In caso di errore durante l'applicazione dei metatag:
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+=======
+- La documentazione è mantenuta aggiornata nella cartella docs 
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)

@@ -25,6 +25,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Motivazione e applicazione nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md)
 >>>>>>> 85cdef688 (.)
@@ -97,6 +98,9 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 - [Motivazione e applicazione nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+- [Motivazione e applicazione nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md)
+>>>>>>> d9f43fce9 (.)
 
 ## Memo e regole operative permanenti (per tutti i moduli che seguono Xot)
 
@@ -151,6 +155,7 @@ class AdminPanelProvider extends Modules\Xot\Providers\Filament\XotBasePanelProv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
 =======
@@ -261,3 +266,9 @@ class AdminPanelProvider extends Modules\Xot\Providers\Filament\XotBasePanelProv
 
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
 >>>>>>> 317b552da (.)
+=======
+  - [Documentazione generale e convenzioni di progetto](../../../../project_docs/coding-standards.md)
+  - [Esempio e memo nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
+
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> d9f43fce9 (.)

@@ -4,11 +4,11 @@
 - Ogni colonna usata nelle azioni deve essere aggiunta tramite update sicuro (`hasColumn`), fallback robusto e documentazione aggiornata
 - Aggiornare sempre sia questa documentazione che quella nei moduli
 - Link rapidi:
-  - [Pipeline Performance](../Performance/docs/organizzativa-pipeline.md)
-  - [Best practices Performance](../Performance/docs/performance-best-practices.md)
-  - [Distribuzione valutatore_id](../Performance/docs/valutatore-distribution-implementation.md)
-  - [Regole naming](../Performance/docs/convenzioni-modulo.md)
-  - [Azioni](../Performance/docs/azioni_organizzativa.md)
+  - [Pipeline Performance](../../Performance/docs/organizzativa-pipeline.md)
+  - [Best practices Performance](../../Performance/docs/performance-best-practices.md)
+  - [Distribuzione valutatore_id](../../Performance/docs/valutatore-distribution-implementation.md)
+  - [Regole naming](../../Performance/docs/convenzioni-modulo.md)
+  - [Azioni](../../Performance/docs/azioni_organizzativa.md)
 - Warning: errori comuni su naming, colonne mancanti, fallback, convenzioni
 
 ---
@@ -491,6 +491,33 @@ public function profile(): BelongsTo
 }
 ```
 
+### Tipi di Ritorno Compatibili
+
+Quando si estende una classe o si implementa un'interfaccia, assicurarsi che i tipi di ritorno siano compatibili:
+
+```php
+// ❌ ERRATO: Tipo di ritorno incompatibile
+class Profile extends BaseModel
+{
+    public function creator(): BelongsTo
+    {
+        return $this->belongsTo(User::class);  // Tipo incompatibile con il metodo padre
+    }
+}
+
+// ✅ CORRETTO: Tipo di ritorno compatibile
+class Profile extends BaseModel
+{
+    /**
+     * @return BelongsTo<\Illuminate\Database\Eloquent\Model&\Modules\Xot\Contracts\ProfileContract, static>
+     */
+    public function creator(): BelongsTo
+    {
+        return $this->belongsTo(User::class);  // Tipo compatibile con il metodo padre
+    }
+}
+```
+
 ### Tipi Nullable e Controlli
 
 Quando si lavora con tipi nullable, essere espliciti nei controlli:
@@ -656,3 +683,119 @@ public function processValue(?string $value): string
     return $value ?? '';  // È chiaro che $value è una stringa nullable
 }
 ```
+
+## File .gitignore Standardizzati
+
+### Prototipo Standardizzato
+
+Tutti i moduli Laraxot devono utilizzare il prototipo standardizzato per i file `.gitignore` definito in `laravel/Modules/Xot/docs/gitignore-prototype.md`.
+
+### Regole Obbligatorie
+
+1. **`*:Zone.Identifier`**: **OBBLIGATORIO** in tutti i moduli per ignorare i file di identificazione della zona Windows
+2. **Struttura organizzata**: Sezioni ben definite per dipendenze, cache, build, Laravel, configurazioni locali, IDE, Git, file temporali e documentazione
+3. **Ordinamento alfabetico**: All'interno di ogni sezione, le regole devono essere ordinate alfabeticamente
+4. **Commenti descrittivi**: Ogni sezione deve avere un commento che ne descrive il contenuto
+
+### Struttura Standard
+
+```gitignore
+# Dependencies and packages
+/vendor/
+/node_modules/
+/docs/vendor/
+
+# Lock files and cache
+*.lock
+*.cache
+*.phar
+*.jar
+package-lock.json
+yarn-error.log
+npm-debug.log
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Log files
+*.log
+error_log
+
+# Build directories
+/build/
+/build
+build/
+
+# Laravel specific
+bootstrap/compiled.php
+app/storage/
+public/storage
+public/hot
+public_html/storage
+public_html/hot
+storage/*.key
+.env
+
+# Local configurations
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# IDE specific
+/.idea
+.phpintel
+
+# Git specific
+.git-blame-ignore-revs
+.git-rewrite/
+.git-rewrite
+
+# Temporary and system files
+*.tmp
+*.swp
+*.swo
+*.stackdump
+*.exe
+*:Zone.Identifier
+.DS_Store
+*.old
+*.old1
+*.backup
+*.backup.*
+*.bak
+*.new
+
+# Documentation and cache
+docs/phpstan/
+docs/cache/
+cache/
+
+# Development tools
+.windsurf/
+.cursor/
+```
+
+### Verifica Conformità
+
+Per verificare che un modulo rispetti il prototipo standardizzato:
+
+1. Controllare la presenza di `*:Zone.Identifier`
+2. Verificare l'ordinamento alfabetico delle regole
+3. Assicurarsi che tutte le sezioni standard siano presenti
+4. Controllare che i commenti siano appropriati
+
+### Aggiornamento dei Moduli
+
+Quando si aggiorna un modulo esistente:
+
+1. Copiare il prototipo standardizzato
+2. Verificare che tutte le regole siano presenti
+3. Mantenere eventuali regole specifiche del modulo (se necessarie)
+4. Documentare eventuali personalizzazioni nella documentazione del modulo
+
+---
+
+**Data Creazione**: 27 Gennaio 2025  
+**Ultimo Aggiornamento**: 3 Giugno 2025 (aggiunta standardizzazione .gitignore)  
+**Stato**: Consolidato da docs/ root  
+**Priorità**: CRITICA (Convenzioni fondamentali Laraxot)

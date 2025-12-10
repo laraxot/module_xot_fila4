@@ -47,6 +47,7 @@ ModuleName/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -205,6 +206,8 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> d9f43fce9 (.)
 ```
 
 ## Collegamenti
@@ -233,6 +236,7 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 62cc8443 (.)
 =======
@@ -243,10 +247,13 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> d9f43fce9 (.)
 - [UI](../UI/project_docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/project_docs/README.md) - Gestione contenuti
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 - [User](../User/project_docs/README.md) - Gestione utenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +351,8 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> d9f43fce9 (.)
 
 ## Struttura Dettagliata
 
@@ -472,6 +481,7 @@ php artisan xot:analyze-naming
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
 >>>>>>> 85cdef688 (.)
@@ -544,6 +554,9 @@ Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
+>>>>>>> d9f43fce9 (.)
 
 ## Esempi
 
@@ -607,6 +620,7 @@ User/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 62cc8443 (.)
 =======
@@ -617,6 +631,8 @@ User/
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> d9f43fce9 (.)
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
@@ -682,6 +698,7 @@ User/
 - [Grafici](../Chart/project_docs/charts.md)
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,6 +918,8 @@ User/
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> d9f43fce9 (.)
 
 # Struttura dei Moduli Laravel
 
@@ -1061,6 +1080,7 @@ Se trovi una directory con case errato:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 >>>>>>> 85cdef688 (.)
@@ -1133,4 +1153,7 @@ Se trovi una directory con case errato:
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+* [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+>>>>>>> d9f43fce9 (.)
 

@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Laraxot PTVX - Documentazione Consolidata
 =======
 <<<<<<< HEAD
@@ -17,11 +21,47 @@
 
 ## Panoramica
 
-Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+Il modulo **Xot** è il core framework di Laraxot PTVX. Fornisce:
+- Classi base (`XotBase*`) per Resources, Widgets, Actions, Blocks
+- Pattern architetturali condivisi (Accessors, Traits, Delegation)
+- Strumenti comuni (XotData, MetatagData, Navigation, Trans)
+- Automazioni git/bash (cartella `bashscripts/`)
+
+Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Livewire 3, PHPStan livello 10 e PHP 8.3.
+
+## 🔧 Correzioni Recenti
+
+### Fix Critici (Novembre 2025)
+
+1. **Merge Conflict Cleanup**
+   - Risolti 18 file con duplicazioni  dovute a merge automatici
+   - Focus su `HasXotTable.php`, `XotBaseChartWidget.php`, `MetatagData.php`
+
+2. **Script Git Conflicts**
+   - `resolve_conflicts_current_change_v6.sh` aggiornato alla v6.1
+   - Bug fixati: cleanup temp, stat detection, exit code robusto
+
+3. **Code Quality Improvements**
+   - Risolti errori di sintassi che bloccavano PHPStan analysis
+   - Migliorato il punteggio PHP Insights (Code: 52.6%, Complexity: 93.1%, Architecture: 35.3%, Style: 60.2%)
+   - Fissato GenerateFormByFileAction.php con missing braces e variabili indefiniti
+   - Corretti file di test con funzioni malformed
+
+4. **Documentazione**
+   - Guide conflitti riscritta (v2.0) con approccio filosofico
+   - Documenti di bugfix e analisi inseriti in docs/Xot
+
+**Dettagli**: vedi [bugfix-hasxottable-duplicate-if.md](./bugfix-hasxottable-duplicate-if.md), [syntax-errors-mass-fix.md](./syntax-errors-mass-fix.md) e [QUALITY_IMPROVEMENTS_SUMMARY_2025_11_18.md](./QUALITY_IMPROVEMENTS_SUMMARY_2025_11_18.md)
+
+---
 
 ## Architettura Modulare
 
 ### Principi Fondamentali
+- **Modularità**: 36 moduli indipendenti
+- **Coerenza**: Convenzioni namespace, file system uniforme
+- **Estensibilità**: Classi base estendibili
+- **Manutenibilità**: Strumenti comuni, automazioni
 
 <<<<<<< HEAD
 =======
@@ -54,10 +94,17 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 
 ### Documenti Principali
 
+#### Qualità del Codice
+- **[Lo Zen degli Strumenti di Qualità](quality-tools-zen.md)** ⭐ NUOVO - Filosofia completa PHPStan, Larastan, Safe, Assert, PHPMD, PHP Insights
+- **[Best Practices Eloquent](eloquent-properties-best-practices.md)** - Guida completa per proprietà Eloquent
+- **[Report Rimozione property_exists](property-exists-removal-report-2025-01-05.md)** - Eliminazione completa di property_exists
+- **[Code Quality Rules](code-quality.md)** - Regole PHPStan, PHPMD, PHPInsights
+
+#### Framework e Convenzioni
 - [Convenzioni Laraxot](conventions.md) - Regole e convenzioni per lo sviluppo
 - [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
-- [Piano Consolidamento](DOCS_CONSOLIDATION_PLAN.md) - Piano per consolidare documentazione
+- [Cast Actions](cast-actions.md) - Azioni di cast sicure
 - [Collegamenti](links.md) - Raccolta di link e riferimenti
 
 ### Moduli del Sistema
@@ -81,11 +128,9 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 
 ---
 
-**Data Creazione**: 27 Gennaio 2025  
-**Stato**: Consolidato da docs/ root  
-**Priorità**: CRITICA (Documentazione principale)
-# 🏗️ **Xot Module** - Framework Base Laraxot
+## Strumenti Principali
 
+<<<<<<< HEAD
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
@@ -168,22 +213,26 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 4. Generare la chiave: `php artisan key:generate`
 5. Eseguire le migrazioni: `php artisan migrate`
 6. Avviare il server: `php artisan serve`
+=======
+| Componente | Descrizione |
+|------------|-------------|
+| `XotData` | Accesso centralizzato a config e dati cross-modulo |
+| `MetatagData` | Gestione SEO/meta per front-end |
+| `HasXotTable` | Trait avanzato per Filament tables |
+| `TransTrait` | Traduzioni dinamiche e prefissi |
+| `XotBaseRouteServiceProvider` | Routing modulare |
+>>>>>>> 414a4ffcb (.)
 
 ---
 
-**Data Creazione**: 27 Gennaio 2025  
-**Stato**: Consolidato da docs/ root  
-**Priorità**: CRITICA (Documentazione principale)
-# 🏗️ **Xot Module** - Framework Base Laraxot
+## Testing & Qualità
 
-[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
-[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
-[![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN%20%7C%20DE-green.svg)](https://laravel.com/docs/localization)
-[![Base Framework](https://img.shields.io/badge/Framework-Base%20Core-orange.svg)](https://laraxot.com/)
-[![Modular Architecture](https://img.shields.io/badge/Architecture-Modular%20Monolith-yellow.svg)](https://martinfowler.com/articles/modular-monolith.html)
-[![Quality Score](https://img.shields.io/badge/Quality%20Score-98%25-brightgreen.svg)](https://github.com/laraxot/xot-module)
+- **PHPStan**: Livello 10 (config in `phpstan.neon`)
+- **Pest**: Test business logic moduli core
+- **Laravel Pint**: PSR-12 + convenzioni Laraxot
+- **Automazioni**: script in `bashscripts/test/`
 
+<<<<<<< HEAD
 > **🚀 Modulo Xot**: Framework base e cuore architetturale di Laraxot - fornisce classi base, traits, convenzioni e infrastruttura core per tutti i moduli dell'ecosistema.
 
 ## 📋 **Panoramica**
@@ -363,18 +412,14 @@ class UserFilter extends XotBaseFilter
 ## 🚀 **Installation & Setup**
 
 ### 📦 **Installazione**
+=======
+>>>>>>> 414a4ffcb (.)
 ```bash
-# Il modulo Xot è automaticamente incluso come dipendenza core
-# Non richiede installazione separata
-
-# Verifica installazione
-php artisan module:list | grep Xot
-
-# Pubblicazione asset (se necessario)
-php artisan vendor:publish --tag=xot-config
-php artisan vendor:publish --tag=xot-views
+./vendor/bin/phpstan analyse Modules/Xot --level=max
+./vendor/bin/pest Modules/Xot/tests
 ```
 
+<<<<<<< HEAD
 ### ⚙️ **Configurazione**
 ```php
 // config/xot.php (auto-pubblicato)
@@ -512,63 +557,37 @@ ls Modules/*/lang/*/
 - **📚 Docs**: [Documentazione Completa](https://docs.laraxot.com/xot)
 - **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)
 
+=======
+>>>>>>> 414a4ffcb (.)
 ---
 
-### 🏆 **Achievements**
+## Roadmap
 
-- **🏅 Framework Base**: Cuore architetturale Laraxot ✅
-- **🏅 PHPStan Level 9**: Classi base certificate ✅
-- **🏅 Translation Standards**: Template traduzioni certificate ✅
-- **🏅 Base Classes**: 15+ classi base ottimizzate ✅
-- **🏅 Traits Ecosystem**: 20+ traits per funzionalità comuni ✅
-- **🏅 Service Providers**: Pattern standardizzato per moduli ✅
-
-### 📈 **Statistics**
-
-- **🏗️ Classi Base**: 15+ classi fondamentali
-- **🔧 Traits Disponibili**: 20+ traits per funzionalità comuni
-- **📦 Service Providers**: Pattern standardizzato per tutti i moduli
-- **🎨 Componenti Filament**: Widget, Resources, Forms base
-- **🧪 Test Coverage**: 95%
-- **⚡ Performance Score**: 98/100
+1. Consolidamento documentazione (500 → 120 file)
+2. Automatizzare script di merge (PSR-4 + syntax pre-commit)
+3. Portare test coverage > 90%
+4. Introdurre dashboard health check moduli
 
 ---
 
-**🔄 Ultimo aggiornamento**: 09 Settembre 2025  
-**📦 Versione**: 3.0.0  
-**🐛 PHPStan Level 9**: Classi base certificate ✅  
-**🌐 Translation Standards**: Template traduzioni certificate ✅  
-**🚀 Performance**: 98/100 score
+## Link Utili
 
+<<<<<<< HEAD
 ## Documentation Archive & Legacy
 <<<<<<< HEAD
 =======
 # Xot Module - Framework Base Laraxot
 >>>>>>> 551c768c4 (.)
+=======
+- [CHANGELOG](./CHANGELOG.md)
+- [Bugfix HasXotTable](./bugfix-hasxottable-duplicate-if.md)
+- [Mass Syntax Fix](./syntax-errors-mass-fix.md)
+- [Git Conflict Guide](../../../bashscripts/docs/git-conflict-resolution-guide.md)
+- [Namespace Conventions](./namespace_conventions.md)
+- [Testing Guidelines](./testing.md)
+>>>>>>> 414a4ffcb (.)
 
-## Overview
-Modulo base del framework Laraxot con funzionalità core e best practices.
-
-## Quick Links
-- [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
-- [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
-- [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
-- [Filament Complete Guide](consolidated/filament-complete-guide.md)
-- [PHPStan Complete Guide](consolidated/phpstan-complete-guide.md)
-- [Migration Complete Guide](consolidated/migration-complete-guide.md)
-- [Testing Complete Guide](consolidated/testing-complete-guide.md)
-- [Translation Complete Guide](consolidated/translation-complete-guide.md)
-
-## Architecture
-- Base classes per tutti i moduli
-- Service providers centralizzati
-- Convenzioni e standard
-- Actions per operazioni PDF e business logic
-
-### Actions
-- [GetPdfContentByRecordAction](actions/get-pdf-content-by-record-action.md) - Generazione contenuto PDF da record Eloquent
-- [ContentPdfAction](archive/actions/content-pdf-action.md) - Generazione PDF da HTML/viste
-- [StreamDownloadPdfAction](archive/actions/pdf-stream-download-action.md) - Download PDF diretto
+---
 
 ## Installation
 ```bash
@@ -579,6 +598,8 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
+=======
+=======
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
@@ -588,10 +609,10 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **KISS**: Semplicità e chiarezza
 - **Type Safety**: Tipizzazione rigorosa
 - **Documentation**: Documentazione essenziale
-## Quick Links Legacy
 
 ## Links
 - [Root Documentation](../../../project_docs/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: Sistema di documentazione automatica*
 ## Quick Links Legacy
@@ -607,10 +628,16 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
+=======
+=======
+## Quick Links Legacy
+=======
+>>>>>>> 414a4ffcb (.)
 ## Quick Links Legacy
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1201,3 +1228,6 @@ Modulo core del sistema Laraxot che fornisce classi base e funzionalità comuni 
 =======
 >>>>>>> 71f31700 (.)
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

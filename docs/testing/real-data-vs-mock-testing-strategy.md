@@ -299,6 +299,7 @@ test('complete tax filing process', function () {
 >>>>>>> f8f76a284 (.)
 ### Healthcare Domain () - **Real Data Preferred**
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain () - **Real Data Preferred**
@@ -598,6 +599,9 @@ test('complete tax filing process', function () {
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 >>>>>>> 551c768c4 (.)
+=======
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+>>>>>>> 414a4ffcb (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -863,6 +867,7 @@ test('legacy feature with mocks', function () {
 >>>>>>> f8f76a284 (.)
 **For  Healthcare Domain**: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **For  Healthcare Domain**: 
 **For  Healthcare Domain**: 
 **For  Healthcare Domain**: 
@@ -1162,6 +1167,9 @@ test('legacy feature with mocks', function () {
 **For  Healthcare Domain**: 
 **For <nome progetto> Healthcare Domain**: 
 >>>>>>> 551c768c4 (.)
+=======
+**For <nome progetto> Healthcare Domain**: 
+>>>>>>> 414a4ffcb (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -1177,6 +1185,7 @@ test('legacy feature with mocks', function () {
 **Decision Authority**: Technical Architecture Committee  
 **Implementation Timeline**: 4-week migration  
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1234,3 +1243,6 @@ test('legacy feature with mocks', function () {
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

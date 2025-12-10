@@ -103,6 +103,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 # compile assets with Laravel Mix
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +262,8 @@ npm run dev
 # options: dev, prod
 npm run dev
 ```
+=======
+>>>>>>> 414a4ffcb (.)
 # options: dev, prod
 npm run dev
 ```
@@ -279,6 +282,7 @@ npm run dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -287,6 +291,8 @@ npm run dev
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # options: dev, prod
 npm run dev
 ```
@@ -365,6 +371,7 @@ npm run dev
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,3 +434,7 @@ npm run dev
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

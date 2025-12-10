@@ -41,6 +41,7 @@ use Filament\Pages\Dashboard;
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 use Filament\Panel;
+<<<<<<< HEAD
 use Filament\Facades\Filament;
 use Filament\Panel;
 use Filament\Pages\Dashboard;
@@ -80,6 +81,8 @@ use Filament\Pages\Dashboard;
 =======
 use Filament\Panel;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -88,6 +91,7 @@ use Webmozart\Assert\Assert;
  */
 class MainDashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
@@ -100,6 +104,8 @@ class MainDashboard extends XotBaseDashboard
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
@@ -111,6 +117,7 @@ class MainDashboard extends XotBaseDashboard
     protected static ?string $title = 'Main Dashboard';
 
     protected static ?int $navigationSort = 1;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +307,8 @@ class MainDashboard extends XotBaseDashboard
     protected static null|int $navigationSort = 1;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Use the canonical slug so Filament resolves the home link to this page
@@ -347,6 +356,7 @@ class MainDashboard extends XotBaseDashboard
             $module_name = Str::before($panel_name, '::admin');
             $url = '/'.$module_name.'/admin';
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::notNull($user = auth()->user(), '[' . __LINE__ . '][' . class_basename($this) . ']');
         $modules = $user->roles->filter(static fn($item) => Str::endsWith($item->name, '::admin'));
 
@@ -357,12 +367,15 @@ class MainDashboard extends XotBaseDashboard
             $url = '/' . $module_name . '/admin';
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             redirect($url);
         }
 
         // Solo se non ha accesso a nessun modulo, redirect alla home locale
         if ($modules->count() === 0) {
             $url = '/'.app()->getLocale();
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (0 === $modules->count()) {
             $url = '/' . app()->getLocale();
@@ -386,6 +399,8 @@ class MainDashboard extends XotBaseDashboard
             $url = '/' . app()->getLocale();
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             redirect($url);
         }
 
@@ -403,6 +418,7 @@ class MainDashboard extends XotBaseDashboard
             // Widget per mostrare i moduli disponibili
             // Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
            //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
            //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
            //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
@@ -414,6 +430,8 @@ class MainDashboard extends XotBaseDashboard
            //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 
@@ -425,6 +443,7 @@ class MainDashboard extends XotBaseDashboard
     public function getColumns(): int|array
     {
         return 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,5 +608,7 @@ class MainDashboard extends XotBaseDashboard
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

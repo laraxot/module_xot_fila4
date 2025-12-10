@@ -27,11 +27,14 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'heading' => 'Saúde da aplicação',
             'heading' => 'Saúde da aplicação',
             'heading' => 'Saúde da aplicação',
 
             'heading' => 'Saúde da aplicação',
+=======
+>>>>>>> 414a4ffcb (.)
 
 =======
 =======

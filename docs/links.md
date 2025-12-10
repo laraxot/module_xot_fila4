@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +176,9 @@
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Links
 
 ## Documentazione Generale
@@ -194,6 +198,7 @@
 ## Documentazione Tecnica
 
 ### Sviluppo e Qualità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -259,6 +264,9 @@
 =======
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan level 10
 >>>>>>> 551c768c4 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan level 10
+>>>>>>> 414a4ffcb (.)
 - [PHPStan Usage](phpstan-usage.md) - Guida all'uso di PHPStan per l'analisi statica
 - [Testing Guidelines](testing-guidelines.md) - Linee guida per i test
 - [Code Quality](code-quality.md) - Metriche e standard di qualità del codice
@@ -504,6 +512,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -607,6 +616,8 @@
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -726,6 +737,7 @@
 * [links.md](../../Tenant/docs/it/links/links.md)
 * [links.md](../../Cms/docs/links.md)
 * [links.md](../../../Themes/One/docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,3 +1139,7 @@
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+
+=======
+>>>>>>> 414a4ffcb (.)

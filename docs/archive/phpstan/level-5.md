@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +251,8 @@
 
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # Rapporto PHPStan Livello 5 per il modulo Xot
 
 Data analisi: 2025-04-15 21:54:17
@@ -313,6 +316,7 @@ Trovati 4 errori al livello 5.
 =======
 >>>>>>> 80bc07e81 (.)
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+<<<<<<< HEAD
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -478,6 +482,10 @@ Trovati 4 errori al livello 5.
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 >>>>>>> 551c768c4 (.)
+=======
+### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 414a4ffcb (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -548,6 +556,7 @@ Trovati 4 errori al livello 5.
 =======
 >>>>>>> 80bc07e81 (.)
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+<<<<<<< HEAD
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -713,6 +722,10 @@ Trovati 4 errori al livello 5.
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 >>>>>>> 551c768c4 (.)
+=======
+### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 414a4ffcb (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -788,6 +801,7 @@ aurmich/dev
 * [level_5.md](laravel/Modules/Activity/docs/phpstan/level_5.md)
 * [level_5.md](laravel/Modules/Patient/docs/phpstan/level_5.md)
 * [level_5.md](laravel/Modules/Cms/docs/phpstan/level_5.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1009,6 +1023,8 @@ aurmich/dev
 >>>>>>> 358ba79a7 (.)
 =======
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 
 =======
 >>>>>>> a5dccfe (.)

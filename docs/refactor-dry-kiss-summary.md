@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -75,6 +76,9 @@
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/phpstan-consolidated.md`
 >>>>>>> 60f0a1820 (.)
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/phpstan-consolidated.md`
+>>>>>>> 414a4ffcb (.)
 - ✅ **99% riduzione duplicazioni**
 - ✅ **Single Source of Truth** implementato
 
@@ -98,6 +102,7 @@
 - Standard inconsistenti
 
 **Dopo il refactor:**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +165,9 @@
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
 >>>>>>> 60f0a1820 (.)
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
+>>>>>>> 414a4ffcb (.)
 - ✅ **99% riduzione duplicazioni**
 - ✅ **Regole universali** per tutti i moduli
 
@@ -180,6 +188,7 @@
 - Best practices frammentate
 
 **Dopo il refactor:**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,6 +251,9 @@
 =======
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
 >>>>>>> 60f0a1820 (.)
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+>>>>>>> 414a4ffcb (.)
 - ✅ **96% riduzione duplicazioni**
 - ✅ **Procedure universali** standardizzate
 
@@ -281,6 +293,7 @@
 | Lang | 22+ | Localizzazione standardizzata |
 | Media | 9+ | Asset management unificato |
 | Notify | 19+ | Notifiche standardizzate |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -476,6 +489,10 @@
 | <nome modulo> | 13+ | Business logic semplificata |
 | <nome progetto> | 45+ | Core business centralizzato |
 >>>>>>> 551c768c4 (.)
+=======
+| <nome modulo> | 13+ | Business logic semplificata |
+| <nome progetto> | 45+ | Core business centralizzato |
+>>>>>>> 414a4ffcb (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |
@@ -497,6 +514,7 @@
 
 ### Documentazione Tecnica Centralizzata
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -559,6 +577,9 @@
 =======
 /laravel/Modules/Xot/docs/
 >>>>>>> 60f0a1820 (.)
+=======
+/laravel/Modules/Xot/docs/
+>>>>>>> 414a4ffcb (.)
 ├── phpstan-consolidated.md          # TUTTE le regole PHPStan
 ├── translations-consolidated.md     # TUTTE le regole traduzioni
 ├── migrations-consolidated.md       # TUTTE le regole migrazioni
@@ -575,6 +596,7 @@
 
 ### Documentazione Moduli (Solo Specifiche)
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,6 +659,9 @@
 =======
 /laravel/Modules/{Module}/docs/
 >>>>>>> 60f0a1820 (.)
+=======
+/laravel/Modules/{Module}/docs/
+>>>>>>> 414a4ffcb (.)
 ├── README.md                        # Overview modulo
 ├── api.md                          # API specifiche modulo
 └── features/                       # Funzionalità specifiche

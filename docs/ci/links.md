@@ -263,6 +263,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -515,6 +516,8 @@ Deptrac
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming
@@ -730,6 +733,7 @@ Deptrac
   > Sistema di code per operazioni asincrone. Gestione dei processi in background.
 
 - [Modulo Cache](../../../Cache/docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -991,6 +995,8 @@ Deptrac
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
   > Gestione della cache del sistema. Ottimizzazione delle performance.
 
 ## Implementazioni di Esempio
@@ -1177,6 +1183,7 @@ return [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1232,3 +1239,6 @@ return [
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

@@ -10,6 +10,7 @@ namespace Modules\Xot\Exceptions;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,10 +94,13 @@ use Override;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Exception;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
 use Exception;
@@ -166,6 +170,8 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Str;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class ModelDeletionException extends ApplicationException
 {
@@ -195,6 +201,7 @@ class ModelDeletionException extends ApplicationException
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,6 +276,8 @@ class ModelDeletionException extends ApplicationException
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
@@ -294,6 +303,7 @@ class ModelDeletionException extends ApplicationException
     public function help(): string
     {
         $res = trans('exception.model_not_deleted.help');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -391,6 +401,8 @@ class ModelDeletionException extends ApplicationException
     public function help(): string
     {
         $res = trans('exception.model_not_deleted.help');
+=======
+>>>>>>> 414a4ffcb (.)
         if (! \is_string($res)) {
 <<<<<<< HEAD
 =======
@@ -416,6 +428,7 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> 17684f52 (.)
 >>>>>>> ce6fc085 (.)
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
     #[Override]
     public function help(): string
     {
@@ -603,6 +616,8 @@ class ModelDeletionException extends ApplicationException
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         return $res;
@@ -645,6 +660,7 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> 7468a7d2 (.)
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         if (! \is_string($res)) {
@@ -945,6 +961,8 @@ class ModelDeletionException extends ApplicationException
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         return $res;

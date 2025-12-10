@@ -41,6 +41,7 @@ function mockXotData(): void
     $mockXotData->shouldReceive('getUserClass')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +221,9 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 >>>>>>> 551c768c4 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 414a4ffcb (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -397,6 +401,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -455,6 +460,10 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 414a4ffcb (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---

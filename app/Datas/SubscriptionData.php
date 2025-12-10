@@ -38,6 +38,7 @@ class SubscriptionData extends Data
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static();
         return new static();
         return new static();
@@ -311,5 +312,8 @@ class SubscriptionData extends Data
 =======
         return new static;
 >>>>>>> 551c768c4 (.)
+=======
+        return new static;
+>>>>>>> 414a4ffcb (.)
     }
 }

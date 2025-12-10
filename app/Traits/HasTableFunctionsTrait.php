@@ -59,6 +59,7 @@ namespace Modules\Xot\Traits;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
+<<<<<<< HEAD
 use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
@@ -632,6 +633,8 @@ use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -640,6 +643,7 @@ trait HasTableFunctionsTrait
      * Get the table columns for the list view.
      *
      * @return array<string, Column>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, Column>
@@ -655,6 +659,8 @@ trait HasTableFunctionsTrait
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function getTableColumns(): array
     {
@@ -665,6 +671,7 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
             'created_at' => TextColumn::make('created_at')->dateTime(),
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -755,6 +762,8 @@ trait HasTableFunctionsTrait
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 
@@ -762,6 +771,7 @@ trait HasTableFunctionsTrait
      * Get the table actions.
      *
      * @return array<string, Action>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, Action>
@@ -777,6 +787,8 @@ trait HasTableFunctionsTrait
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function getTableActions(): array
     {
@@ -820,6 +832,7 @@ trait HasTableFunctionsTrait
 =======
 >>>>>>> a67e542f (.)
                 ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 091f883c (.)
@@ -927,6 +940,8 @@ trait HasTableFunctionsTrait
 =======
                 ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     'record' => $record,
                 ])),
             'delete' => Action::make('delete')
@@ -942,6 +957,7 @@ trait HasTableFunctionsTrait
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
                 ->action(fn ($record) => $record->delete())
+<<<<<<< HEAD
                 ->action(fn($record) => $record->delete())
 <<<<<<< HEAD
 =======
@@ -1288,6 +1304,8 @@ trait HasTableFunctionsTrait
 =======
                 ->action(fn ($record) => $record->delete())
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -1303,6 +1321,7 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, BulkAction>
      * @return array<string, BulkAction>
      * @return array<string, BulkAction>
@@ -1362,6 +1381,8 @@ trait HasTableFunctionsTrait
      * @return array<string, BulkAction>
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function getTableBulkActions(): array
     {
@@ -1402,6 +1423,7 @@ trait HasTableFunctionsTrait
 =======
 >>>>>>> 218dfed3 (.)
                 ->action(fn ($records) => $records->each->delete())
+<<<<<<< HEAD
                 ->action(fn($records) => $records->each->delete())
                 ->action(fn($records) => $records->each->delete())
                 ->action(fn($records) => $records->each->delete())
@@ -1710,12 +1732,15 @@ trait HasTableFunctionsTrait
 =======
                 ->action(fn ($records) => $records->each->delete())
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 ->requiresConfirmation(),
         ];
     }
 
     /**
      * Get the resource slug.
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return string
@@ -1737,6 +1762,8 @@ trait HasTableFunctionsTrait
      * @return string
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     protected function getResourceSlug(): string
     {

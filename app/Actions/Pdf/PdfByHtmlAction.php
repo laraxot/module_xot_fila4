@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Pdf;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +297,8 @@ use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Illuminate\Support\Facades\Storage;
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -448,6 +451,7 @@ class PdfByHtmlAction
      * @param  string  $orientation  Orientamento (P=Portrait, L=Landscape)
      * @param  PdfEngineEnum  $engine  Engine da utilizzare
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $html Contenuto HTML da convertire
      * @param string $filename Nome del file PDF
      * @param string $disk Disco di storage
@@ -457,6 +461,8 @@ class PdfByHtmlAction
      * @return string|BinaryFileResponse
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(
         string $html,
@@ -494,6 +500,7 @@ class PdfByHtmlAction
         // Genera il PDF utilizzando PdfData
         $data->fromHtml($html);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +574,8 @@ class PdfByHtmlAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Restituisce il risultato in base al tipo di output richiesto
         return match ($out) {
             'download' => $data->download(),

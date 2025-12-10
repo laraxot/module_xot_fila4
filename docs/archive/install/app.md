@@ -34,6 +34,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [app.md](../../../Xot/docs/install/app.md)
 * [app.md](../../../Tenant/docs/it/config/app.md)
@@ -133,6 +134,10 @@ return [
 * [app.md](../../../Xot/docs/install/app.md)
 * [app.md](../../../Tenant/docs/it/config/app.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [app.md](../../../Xot/docs/install/app.md)
+* [app.md](../../../Tenant/docs/it/config/app.md)
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming

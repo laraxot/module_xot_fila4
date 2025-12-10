@@ -1,6 +1,7 @@
 parameters:
     level: 10
 <<<<<<< HEAD
+<<<<<<< HEAD
     level: 7
     level: 7
     level: 7
@@ -17,11 +18,14 @@ parameters:
     level: 7
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     paths:
         - app
         - config
         - database
         - routes
+<<<<<<< HEAD
 <<<<<<< HEAD
         - tests
         - tests
@@ -34,6 +38,8 @@ parameters:
         - tests
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     excludePaths:
         - app_old/*
         - vendor/*
@@ -45,6 +51,7 @@ parameters:
     checkFunctionNameCase: true
     inferPrivatePropertyTypeFromConstructor: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     checkMissingIterableValueType: true
     checkGenericClassInNonGenericObjectType: true
@@ -75,6 +82,8 @@ parameters:
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 services:
     -
         class: PHPStan\Rules\Methods\ReturnTypeRule

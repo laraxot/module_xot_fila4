@@ -6,6 +6,7 @@ namespace Modules\Xot\Casts;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -31,6 +32,11 @@ use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use InvalidArgumentException;
 >>>>>>> 551c768c4 (.)
+=======
+use Exception;
+use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
+use InvalidArgumentException;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\ValueObjects\PhoneValueObject;
 
 class PhoneCast implements CastsAttributes
@@ -110,6 +116,7 @@ class PhoneCast implements CastsAttributes
     {
         if (! is_string($value)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,6 +531,8 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         return PhoneValueObject::fromString($value);
@@ -603,6 +612,7 @@ class PhoneCast implements CastsAttributes
     public function set(mixed $_model, string $_key, mixed $value, array $_attributes): string
     {
         if (! ($value instanceof PhoneValueObject)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -956,6 +966,9 @@ class PhoneCast implements CastsAttributes
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+            throw new InvalidArgumentException('The given value is not an Phone instance.');
+>>>>>>> 414a4ffcb (.)
         }
 
         return $value->toString();

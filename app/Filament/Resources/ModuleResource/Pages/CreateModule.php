@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +150,10 @@ class CreateModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreateRe
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+class CreateModule extends XotBaseCreateRecord
+>>>>>>> 414a4ffcb (.)
 {
     protected static string $resource = ModuleResource::class;
 }

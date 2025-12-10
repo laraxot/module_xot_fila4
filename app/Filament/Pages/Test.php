@@ -10,6 +10,7 @@ class Test extends Page
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'modules.xot.filament.pages.test';
@@ -22,6 +23,8 @@ class Test extends Page
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'modules.xot.filament.pages.test';

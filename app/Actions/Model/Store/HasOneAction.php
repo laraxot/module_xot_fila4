@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Model\Store;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -19,6 +20,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Arr;
@@ -76,6 +80,7 @@ class HasOneAction
 >>>>>>> 5cf46378 (.)
             if (! ($related instanceof Model)) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -401,6 +406,8 @@ class HasOneAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             }
 
             $rows->save($related);
@@ -440,6 +447,7 @@ class HasOneAction
          * $model->update($data1);
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518,5 +526,7 @@ class HasOneAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

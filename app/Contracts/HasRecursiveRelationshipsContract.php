@@ -6,6 +6,7 @@ namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +65,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\Collection;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors;
@@ -96,6 +101,7 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings;
  * @property Collection<static> $parentAndSelf The model's direct parent and itself.
  * @property int|null $parent_and_self_count
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int                $id
  * @property string $name
  * @property int                $depth
@@ -117,6 +123,8 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings;
  * @property int|null           $parent_and_self_count
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  *
  * @phpstan-require-extends Model
  *
@@ -143,6 +151,7 @@ interface HasRecursiveRelationshipsContract
      * Get the path separator.
      */
     public function getPathSeparator(): string;
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return string
@@ -192,6 +201,8 @@ interface HasRecursiveRelationshipsContract
     public function getPathSeparator();
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the additional custom paths.
@@ -205,6 +216,7 @@ interface HasRecursiveRelationshipsContract
      */
     public function getExpressionName(): string;
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array
      */
     public function getCustomPaths();
@@ -217,11 +229,14 @@ interface HasRecursiveRelationshipsContract
     public function getExpressionName();
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's ancestors.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return Ancestors
@@ -231,11 +246,16 @@ interface HasRecursiveRelationshipsContract
      */
     public function ancestors(): Ancestors;
 >>>>>>> 551c768c4 (.)
+=======
+     */
+    public function ancestors(): Ancestors;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's ancestors and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return Ancestors
@@ -245,11 +265,16 @@ interface HasRecursiveRelationshipsContract
      */
     public function ancestorsAndSelf(): Ancestors;
 >>>>>>> 551c768c4 (.)
+=======
+     */
+    public function ancestorsAndSelf(): Ancestors;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's bloodline.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Bloodline<static>
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return Bloodline
@@ -259,31 +284,25 @@ interface HasRecursiveRelationshipsContract
      */
     public function bloodline(): Bloodline;
 >>>>>>> 551c768c4 (.)
+=======
+     */
+    public function bloodline(): Bloodline;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's children.
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return HasMany
      * @return HasMany<Model, Model>
+=======
+>>>>>>> 414a4ffcb (.)
      * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
-     *
-     * @return HasMany
-     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
-     *
-     * @return HasMany
-     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
-     *
-     * @return HasMany
-     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
-     *
-     * @return HasMany
-     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
-     *
-     * @return HasMany
      */
+<<<<<<< HEAD
     public function children();
      * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
      *
@@ -307,11 +326,15 @@ interface HasRecursiveRelationshipsContract
      */
     public function children(): HasMany;
 >>>>>>> 551c768c4 (.)
+=======
+    public function children(): HasMany;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's children and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return Descendants
@@ -321,11 +344,16 @@ interface HasRecursiveRelationshipsContract
      */
     public function childrenAndSelf(): Descendants;
 >>>>>>> 551c768c4 (.)
+=======
+     */
+    public function childrenAndSelf(): Descendants;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's descendants.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return Descendants
@@ -335,11 +363,16 @@ interface HasRecursiveRelationshipsContract
      */
     public function descendants(): Descendants;
 >>>>>>> 551c768c4 (.)
+=======
+     */
+    public function descendants(): Descendants;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's descendants and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return Descendants
@@ -349,10 +382,15 @@ interface HasRecursiveRelationshipsContract
      */
     public function descendantsAndSelf(): Descendants;
 >>>>>>> 551c768c4 (.)
+=======
+     */
+    public function descendantsAndSelf(): Descendants;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's parent.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
@@ -396,11 +434,17 @@ interface HasRecursiveRelationshipsContract
      */
     public function parent(): BelongsTo;
 >>>>>>> 551c768c4 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     */
+    public function parent(): BelongsTo;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's parent and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return Ancestors
@@ -410,31 +454,25 @@ interface HasRecursiveRelationshipsContract
      */
     public function parentAndSelf(): Ancestors;
 >>>>>>> 551c768c4 (.)
+=======
+     */
+    public function parentAndSelf(): Ancestors;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's root ancestor.
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return RootAncestor
      * @return RootAncestor<Model, Model>
+=======
+>>>>>>> 414a4ffcb (.)
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
-     *
-     * @return RootAncestor
-     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
-     *
-     * @return RootAncestor
-     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
-     *
-     * @return RootAncestor
-     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
-     *
-     * @return RootAncestor
-     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
-     *
-     * @return RootAncestor
      */
+<<<<<<< HEAD
     public function rootAncestor();
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
      *
@@ -458,6 +496,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function rootAncestor(): RootAncestor;
 >>>>>>> 551c768c4 (.)
+=======
+    public function rootAncestor(): RootAncestor;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's root ancestor or self.
@@ -471,25 +512,15 @@ interface HasRecursiveRelationshipsContract
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return Siblings
      * @return Siblings<Model, Model>
+=======
+>>>>>>> 414a4ffcb (.)
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
-     *
-     * @return Siblings
-     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
-     *
-     * @return Siblings
-     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
-     *
-     * @return Siblings
-     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
-     *
-     * @return Siblings
-     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
-     *
-     * @return Siblings
      */
+<<<<<<< HEAD
     public function siblings();
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
      *
@@ -513,10 +544,14 @@ interface HasRecursiveRelationshipsContract
      */
     public function siblings(): Siblings;
 >>>>>>> 551c768c4 (.)
+=======
+    public function siblings(): Siblings;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the model's siblings and itself.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -530,6 +565,9 @@ interface HasRecursiveRelationshipsContract
 =======
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
 >>>>>>> 551c768c4 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+>>>>>>> 414a4ffcb (.)
      */
     public function siblingsAndSelf(): Siblings;
 
@@ -547,6 +585,7 @@ interface HasRecursiveRelationshipsContract
      * Determine if an attribute is an integer.
      */
     public function isIntegerAttribute(string $attribute): bool;
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return Siblings
@@ -603,6 +642,8 @@ interface HasRecursiveRelationshipsContract
     public function isIntegerAttribute($attribute);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * added by XOT, viene utilizzato nelle options delle select.

@@ -1113,6 +1113,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/project_docs/phpstan/)
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
@@ -1419,6 +1420,8 @@ tests_old
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming
@@ -1611,6 +1614,7 @@ tests_old
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1877,6 +1881,8 @@ tests_old
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 
 ---
@@ -1901,6 +1907,7 @@ b6f667c (.)
 - Aggiornare la documentazione del modulo con esempi e riferimenti.
 
 Vedi anche la documentazione specifica del modulo per dettagli e casi particolari.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1958,3 +1965,6 @@ Vedi anche la documentazione specifica del modulo per dettagli e casi particolar
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

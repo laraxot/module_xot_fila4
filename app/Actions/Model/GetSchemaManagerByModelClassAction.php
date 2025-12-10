@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Model;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,6 +307,11 @@ use Illuminate\Support\Facades\DB;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+use Doctrine\DBAL\Schema\AbstractSchemaManager;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use RuntimeException;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -318,6 +324,7 @@ class GetSchemaManagerByModelClassAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $modelClass La classe del modello
      * @param string $modelClass La classe del modello
      * @param string $modelClass La classe del modello
@@ -591,12 +598,16 @@ class GetSchemaManagerByModelClassAction
 =======
      * @param  string  $modelClass  La classe del modello
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  string  $modelClass  La classe del modello
+>>>>>>> 414a4ffcb (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
     {
         Assert::isInstanceOf($model = app($modelClass), EloquentModel::class);
         $connection = $model->getConnection();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -613,10 +624,14 @@ class GetSchemaManagerByModelClassAction
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         // In Laravel 9+ il metodo getDoctrineSchemaManager è stato deprecato
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             return $connection->getDoctrineSchemaManager();
@@ -911,12 +926,17 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
 =======
+=======
+>>>>>>> 414a4ffcb (.)
             $schemaManager = $connection->getDoctrineSchemaManager();
 
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
 
             return $schemaManager;
+<<<<<<< HEAD
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

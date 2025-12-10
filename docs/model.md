@@ -100,6 +100,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [model.md](../../../Xot/project_docs/model.md)
 * [model.md](../../../Xot/project_docs/service/model.md)
 * [model.md](../../../Xot/docs/model.md)
@@ -406,6 +407,8 @@ section: content
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming
@@ -414,6 +417,7 @@ section: content
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -471,3 +475,6 @@ section: content
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

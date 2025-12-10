@@ -201,6 +201,7 @@ interface StateContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, \Filament\Forms\Components\Component>
 =======
 =======
@@ -352,6 +353,8 @@ interface StateContract
 =======
      * @return array<string, Component>
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function modalFormSchema(): array;
 

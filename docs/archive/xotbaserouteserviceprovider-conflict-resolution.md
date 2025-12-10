@@ -41,6 +41,7 @@ Il file conteneva marker di conflitto git  all'interno del metodo `boot()`, con 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,3 +257,9 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

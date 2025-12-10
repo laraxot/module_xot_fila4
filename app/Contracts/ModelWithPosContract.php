@@ -46,6 +46,7 @@ use Spatie\ModelStatus\Status;
  * @method array treeSons()
  * @method array toArray()
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int                      $id
  * @property int|null                 $user_id
  * @property string|null              $post_type
@@ -80,12 +81,15 @@ use Spatie\ModelStatus\Status;
  * @method array     toArray()
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @method BelongsTo user()
  *
  * @phpstan-require-extends Model
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 interface ModelWithPosContract
@@ -498,3 +502,6 @@ interface ModelWithPosContract {}
 =======
 interface ModelWithPosContract {}
 >>>>>>> 551c768c4 (.)
+=======
+interface ModelWithPosContract {}
+>>>>>>> 414a4ffcb (.)

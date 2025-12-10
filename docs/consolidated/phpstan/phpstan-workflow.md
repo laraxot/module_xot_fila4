@@ -167,6 +167,7 @@ class MyModel extends BaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,6 +250,9 @@ class MyModel extends BaseModel
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 ## Struttura del Progetto e Workflow
 
 ### Architettura Modulare
@@ -414,6 +418,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
      - .windsurfrules per Windsurf
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -505,6 +510,9 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
    - Mantenere coerenza tra le diverse documentazioni 
 ## Collegamenti tra versioni di PHPSTAN_WORKFLOW.md
 * [PHPSTAN_WORKFLOW.md](../../../Xot/project_docs/phpstan/PHPSTAN_WORKFLOW.md)
@@ -524,6 +532,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 
 
    - Mantenere coerenza tra le diverse documentazioni 
+<<<<<<< HEAD
 <<<<<<< HEAD
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
@@ -724,3 +733,9 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
    - Mantenere coerenza tra le diverse documentazioni 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+=======
+>>>>>>> 414a4ffcb (.)

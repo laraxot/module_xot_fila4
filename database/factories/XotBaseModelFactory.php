@@ -21,6 +21,7 @@ use Modules\Xot\Models\XotBaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @extends Factory<XotBaseModel>
  * @extends Factory<XotBaseModel>
 =======
@@ -69,6 +70,8 @@ use Modules\Xot\Models\XotBaseModel;
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  */
 class XotBaseModelFactory extends Factory
 {
@@ -76,6 +79,7 @@ class XotBaseModelFactory extends Factory
      * The name of the factory's corresponding model.
      *
      * @var class-string<XotBaseModel>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +140,8 @@ class XotBaseModelFactory extends Factory
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     protected $model = XotBaseModel::class;
 

@@ -31,6 +31,7 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -67,6 +68,8 @@ use Doctrine\DBAL\Schema\Index;
 use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class GetTableIndexesByModelClassAction
 {
@@ -77,6 +80,7 @@ class GetTableIndexesByModelClassAction
      */
     public function execute(string $modelClass): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -115,5 +119,12 @@ class GetTableIndexesByModelClassAction
 
         return $formManager->listTableIndexes($table);
 >>>>>>> 551c768c4 (.)
+=======
+        Assert::isInstanceOf($model = app($modelClass), Model::class);
+        $table = $model->getTable();
+        $formManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+
+        return $formManager->listTableIndexes($table);
+>>>>>>> 414a4ffcb (.)
     }
 }

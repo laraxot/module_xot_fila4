@@ -80,6 +80,7 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 - [Documentation Guidelines](../DOCUMENTATION-GUIDELINES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,3 +184,6 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 =======
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 414a4ffcb (.)

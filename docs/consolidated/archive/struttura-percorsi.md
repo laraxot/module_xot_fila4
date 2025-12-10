@@ -66,6 +66,7 @@
 
 **Tutti i percorsi assoluti nel progetto <nome progetto> DEVONO includere il segmento `laravel/` dopo `base_<nome progetto>/`.**
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura dei percorsi nel progetto 
 
 ## Regola fondamentale
@@ -331,12 +332,15 @@
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 Questa regola è **ASSOLUTA** e non ammette eccezioni.
 
 ## Anatomia di un percorso corretto
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -525,6 +529,9 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 /var/www/html/base_<nome progetto>/laravel/{componente}/{resto-del-percorso}
 >>>>>>> 551c768c4 (.)
+=======
+/var/www/html/base_<nome progetto>/laravel/{componente}/{resto-del-percorso}
+>>>>>>> 414a4ffcb (.)
                          ↑        ↑
                      progetto  segmento
                     principale OBBLIGATORIO
@@ -592,6 +599,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 /var/www/html/base_<nome progetto>/laravel/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_<nome progetto>/laravel/resources/lang/it/validation.php
 /var/www/html/base_<nome progetto>/laravel/vendor/laravel/framework/...
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/base_techplanner_fila3_mono/laravel/app/Models/User.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Patient/Models/Doctor.php
@@ -847,6 +855,8 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### ❌ Percorsi ERRATI
@@ -909,6 +919,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 /var/www/html/base_<nome progetto>/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_<nome progetto>/resources/lang/it/validation.php
 /var/www/html/base_<nome progetto>/vendor/laravel/framework/...
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/base_techplanner_fila3_mono/app/Models/User.php
 /var/www/html/base_techplanner_fila3_mono/Modules/Patient/Models/Doctor.php
@@ -1164,11 +1175,14 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Struttura completa del progetto
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1357,6 +1371,9 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 /var/www/html/base_<nome progetto>/
 >>>>>>> 551c768c4 (.)
+=======
+/var/www/html/base_<nome progetto>/
+>>>>>>> 414a4ffcb (.)
 ├── .cursor/                            # Configurazioni editor
 ├── .windsurf/                          # Configurazioni di sistema
 ├── docs/                               # Documentazione generale
@@ -1460,6 +1477,7 @@ grep -r "/var/www/html/base_<nome progetto>/app" --include="*.php" /var/www/html
 grep -r "/var/www/html/base_<nome progetto>/Modules" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/Themes" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/resources" --include="*.php" /var/www/html/base_<nome progetto>/laravel
+<<<<<<< HEAD
 <<<<<<< HEAD
 grep -r "/var/www/html/base_techplanner_fila3_mono/app" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/Modules" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
@@ -1711,6 +1729,8 @@ grep -r "/var/www/html/base_<nome progetto>/resources" --include="*.php" /var/ww
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Correzzione automatica (opzionale)
@@ -1720,6 +1740,7 @@ Se si trovano percorsi errati, è possibile correggerli automaticamente con:
 ```bash
 
 # Correzione automatica (uso con cautela)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2028,10 +2049,16 @@ find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed 
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Modules|/var/www/html/base_<nome progetto>/laravel/Modules|g' {} \;
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Themes|/var/www/html/base_<nome progetto>/laravel/Themes|g' {} \;
 >>>>>>> 551c768c4 (.)
+=======
+find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/app|/var/www/html/base_<nome progetto>/laravel/app|g' {} \;
+find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Modules|/var/www/html/base_<nome progetto>/laravel/Modules|g' {} \;
+find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Themes|/var/www/html/base_<nome progetto>/laravel/Themes|g' {} \;
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Riferimenti correlati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2372,3 +2399,8 @@ find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed 
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
+>>>>>>> 414a4ffcb (.)

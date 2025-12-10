@@ -249,6 +249,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
 4. **Rispetta la struttura standard dei moduli**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,4 +395,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
 =======
    - Usa il percorso `/var/www/html/base_<nome progetto>/laravel/Modules/NomeModulo/app/Models/` per i modelli
 >>>>>>> 551c768c4 (.)
+=======
+   - Usa il percorso `/var/www/html/base_<nome progetto>/laravel/Modules/NomeModulo/app/Models/` per i modelli
+>>>>>>> 414a4ffcb (.)
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")

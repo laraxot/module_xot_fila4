@@ -135,6 +135,7 @@ use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Nwidart\Modules\Facades\Module;
@@ -317,6 +318,9 @@ use Nwidart\Modules\Facades\Module;
 use Nwidart\Modules\Facades\Module;
 
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+=======
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 =======
 <<<<<<< HEAD
@@ -361,6 +365,7 @@ class ListModules extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
 =======
@@ -417,6 +422,8 @@ class ListModules extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -453,6 +460,7 @@ class ListModules extends XotBaseListRecords
             'name' => TextColumn::make('name')->searchable()->sortable(),
             'path' => TextColumn::make('path')->searchable()->sortable(),
             'enabled' => TextColumn::make('enabled')->sortable(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,6 +544,8 @@ class ListModules extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 
@@ -547,6 +557,7 @@ class ListModules extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,6 +630,8 @@ class ListModules extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableFilters(): array
     {
         return [
@@ -644,6 +657,7 @@ class ListModules extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<Action|ActionGroup>
 =======
 =======
@@ -708,6 +722,8 @@ class ListModules extends XotBaseListRecords
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
     #[Override]
     public function getTableActions(): array
     {
@@ -757,6 +773,7 @@ class ListModules extends XotBaseListRecords
      * @return array<string, BulkAction>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,6 +859,8 @@ class ListModules extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableBulkActions(): array
     {
         return [

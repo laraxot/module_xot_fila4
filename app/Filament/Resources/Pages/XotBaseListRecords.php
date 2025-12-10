@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords as FilamentListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords as FilamentListRecords;
@@ -22,6 +23,8 @@ use Filament\Tables;
 use Filament\Tables\Table;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
@@ -112,6 +115,7 @@ use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 >>>>>>> a67e542f (.)
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< HEAD
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
@@ -559,6 +563,8 @@ use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\TransTrait;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -577,12 +583,15 @@ abstract class XotBaseListRecords extends FilamentListRecords
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     use TransTrait;
 
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * Get the resource class name.
      *
@@ -597,12 +606,15 @@ abstract class XotBaseListRecords extends FilamentListRecords
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /*
      * Get the table columns.
      *
@@ -697,6 +709,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
      * abstract public function getTableColumns(): array;
      */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +928,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * Get the default sort column and direction.
      *
@@ -929,6 +944,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
      * Get the header actions.
      *
      * @return array<string, Action>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -980,6 +996,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     protected function getHeaderActions(): array
     {
@@ -1004,6 +1022,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
             // ExportXlsAction::make('export_xls'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1148,10 +1167,13 @@ abstract class XotBaseListRecords extends FilamentListRecords
 =======
             // ExportXlsAction::make('export_xls'),
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Get the resource class name.
      *
@@ -1255,6 +1277,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
     /**
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * Paginate the table query.
      */
     protected function paginateTableQuery(Builder $query): Paginator
@@ -1266,6 +1290,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
 <<<<<<< HEAD
 
         Assert::isInstanceOf($paginator, Paginator::class);
+<<<<<<< HEAD
             $this->getTableRecordsPerPage() === 'all' ? $query->count() : $this->getTableRecordsPerPage(),
         );
 
@@ -1319,6 +1344,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         if (! method_exists($paginator, 'total')) {
             return $paginator;
@@ -1334,6 +1361,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
             $count = $paginator->total();
             Assert::integer($count, 'Total must be an integer');
 
+<<<<<<< HEAD
             $modelClass = $this->getModel();
             app(UpdateCountAction::class)->execute($modelClass, $count);
         }
@@ -1596,3 +1624,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+        return $paginator;
+    }
+}
+>>>>>>> 414a4ffcb (.)

@@ -179,6 +179,7 @@ public function panel(Panel $panel): Panel
 <<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 *Ultimo aggiornamento: 2025-01-06* 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
@@ -277,3 +278,6 @@ public function panel(Panel $panel): Panel
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

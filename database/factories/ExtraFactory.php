@@ -33,6 +33,7 @@ use Modules\Xot\Models\Extra;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -96,6 +97,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 class ExtraFactory extends Factory
 {
     /**
@@ -105,6 +108,7 @@ class ExtraFactory extends Factory
      * @var class-string<Extra>
      */
     protected $model = Extra::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -125,6 +129,8 @@ class ExtraFactory extends Factory
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Define the model's default state.

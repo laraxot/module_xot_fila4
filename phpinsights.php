@@ -187,6 +187,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8fd88dd43 (.)
 =======
@@ -625,10 +626,13 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     'exclude' => [
         //  'path/to/directory-or-file'
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,6 +804,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     'add' => [
         Classes::class => [
             ForbiddenFinalClasses::class,
@@ -831,6 +837,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -976,6 +983,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     'remove' => [
         AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
@@ -1014,6 +1023,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -1159,6 +1169,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
@@ -1316,6 +1328,7 @@ return [
 =======
 >>>>>>> 0117b849c (.)
 
+<<<<<<< HEAD
     /*
     |--------------------------------------------------------------------------
     | Requirements
@@ -1490,6 +1503,8 @@ return [
 =======
 >>>>>>> 851793957 (.)
 
+=======
+>>>>>>> 414a4ffcb (.)
     'requirements' => [
         //        'min-quality' => 0,
         //        'min-complexity' => 0,
@@ -1616,6 +1631,7 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1975,6 +1991,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     'timeout' => 60,
 ];

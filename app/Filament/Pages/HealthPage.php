@@ -49,6 +49,7 @@ namespace Modules\Xot\Filament\Pages;
 =======
 >>>>>>> 091f883c (.)
 use Filament\Widgets\WidgetConfiguration;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Filament\Widgets\WidgetConfiguration;
@@ -142,6 +143,8 @@ use Spatie\Health\Checks\Check;
 =======
 use Filament\Widgets\WidgetConfiguration;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -158,6 +161,7 @@ use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 use Spatie\Health\Checks\Check;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 <<<<<<< HEAD
 use Spatie\Health\Checks\Check;
@@ -183,6 +187,8 @@ use Spatie\Health\Checks\Checks;
 =======
 use Spatie\Health\Checks\Check;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Spatie\Health\Checks\Checks\CacheCheck;
 use Spatie\Health\Checks\Checks\DatabaseCheck;
 use Spatie\Health\Checks\Checks\DatabaseConnectionCountCheck;
@@ -202,6 +208,7 @@ use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
@@ -409,6 +416,8 @@ use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class HealthPage extends Page
 {
@@ -428,6 +437,7 @@ class HealthPage extends Page
         /** @var array<int, Check> $checks */
 <<<<<<< HEAD
         $checks = [
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
 
     protected string $view = 'xot::filament.pages.health';
@@ -441,6 +451,8 @@ class HealthPage extends Page
 =======
 >>>>>>> 551c768c4 (.)
         $checks = [
+=======
+>>>>>>> 414a4ffcb (.)
             OptimizedAppCheck::new(),
             DebugModeCheck::new(),
             EnvironmentCheck::new(),
@@ -454,6 +466,7 @@ class HealthPage extends Page
             HorizonCheck::new(),
             // Checks\MeiliSearchCheck::new(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
@@ -466,6 +479,8 @@ class HealthPage extends Page
             //Checks\MeiliSearchCheck::new(),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             QueueCheck::new(),
             RedisCheck::new(),
             ScheduleCheck::new(),
@@ -489,6 +504,7 @@ class HealthPage extends Page
          *
          * @phpstan-ignore-next-line argument.type
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
             /** @var CpuLoadCheck $check */
             $check = CpuLoadCheck::new();
@@ -627,6 +643,8 @@ class HealthPage extends Page
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -640,15 +658,19 @@ class HealthPage extends Page
      * @return array<int, Action>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<int, Action>
      */
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     protected function getHeaderActions(): array
     {
         return [
             Action::make('refresh')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -711,6 +733,8 @@ class HealthPage extends Page
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()
@@ -732,6 +756,7 @@ class HealthPage extends Page
      * @return array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<int, WidgetConfiguration>
      */
@@ -748,6 +773,8 @@ class HealthPage extends Page
      */
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     protected function getViewData(): array
     {
         $checkResults = app(ResultStore::class)->latestResults();

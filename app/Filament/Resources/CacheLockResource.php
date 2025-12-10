@@ -65,6 +65,7 @@ use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TextInput;
@@ -79,12 +80,15 @@ use Filament\Forms\Components\TextInput;
 =======
 >>>>>>> 551c768c4 (.)
 use Filament\Forms\Components\TextInput;
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Models\CacheLock;
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
@@ -393,10 +397,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 
 class CacheLockResource extends XotBaseResource
 {
     protected static ?string $model = CacheLock::class;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Schemas\Components\Component;
@@ -749,6 +756,8 @@ class CacheLockResource extends XotBaseResource
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the form schema for the resource.
@@ -788,6 +797,7 @@ class CacheLockResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -892,6 +902,8 @@ class CacheLockResource extends XotBaseResource
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public static function getPages(): array
     {
         return [

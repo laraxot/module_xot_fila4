@@ -106,6 +106,7 @@ namespace Modules\ModuleName\App\Console\Commands;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,3 +381,7 @@ namespace Modules\ModuleName\App\Console\Commands;
 - [Convenzioni di Namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/namespace_conventions.md)
 - [Struttura Moduli](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/module_structure.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [Convenzioni di Namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/namespace_conventions.md)
+- [Struttura Moduli](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/module_structure.md)
+>>>>>>> 414a4ffcb (.)

@@ -12,6 +12,7 @@ namespace Modules\Xot\Relations;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,12 +71,17 @@ use Closure;
 use Closure;
 use Exception;
 >>>>>>> 551c768c4 (.)
+=======
+use Closure;
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 use function call_user_func;
 
@@ -89,6 +95,8 @@ use function call_user_func;
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 /**
  * Class CustomRelation.
  *
@@ -113,6 +121,7 @@ class CustomRelation extends Relation
         /**
          * The eagerConstraints callback.
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -168,11 +177,14 @@ class CustomRelation extends Relation
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         protected ?Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
          */
         protected ?Closure $eagerMatcher,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,6 +543,8 @@ class CustomRelation extends Relation
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     ) {
         parent::__construct($query, $model);
     }
@@ -551,6 +565,7 @@ class CustomRelation extends Relation
         // Parameter #1 $function of function call_user_func expects callable(): mixed, Closure|null given.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!\is_callable($this->eagerConstraints)) {
         if (!\is_callable($this->eagerConstraints)) {
         if (!\is_callable($this->eagerConstraints)) {
@@ -800,6 +815,10 @@ class CustomRelation extends Relation
         if (! \is_callable($this->eagerConstraints)) {
             throw new Exception('eagerConstraints is not callable');
 >>>>>>> 551c768c4 (.)
+=======
+        if (! \is_callable($this->eagerConstraints)) {
+            throw new Exception('eagerConstraints is not callable');
+>>>>>>> 414a4ffcb (.)
         }
 
         \call_user_func($this->eagerConstraints, $this, $models);
@@ -807,6 +826,7 @@ class CustomRelation extends Relation
 
     /**
      * Initialize the relation on a set of models.
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @param  string  $relation
@@ -820,6 +840,8 @@ class CustomRelation extends Relation
      * @param  string  $relation
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function initRelation(array $models, $relation): array
     {
@@ -834,6 +856,7 @@ class CustomRelation extends Relation
      * Match the eagerly loaded results to their parents.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $relation
      * @param  string  $relation
      * @param  string  $relation
@@ -841,11 +864,14 @@ class CustomRelation extends Relation
      * @param  string  $relation
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return array<int, Model>
      */
     public function match(array $models, Collection $collection, $relation): array
     {
         // Trying to invoke Closure|null but it might not be a callable.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!\is_callable($this->eagerMatcher)) {
@@ -1097,6 +1123,10 @@ class CustomRelation extends Relation
         if (! \is_callable($this->eagerMatcher)) {
             throw new Exception('eagerMatcher is not callable');
 >>>>>>> 551c768c4 (.)
+=======
+        if (! \is_callable($this->eagerMatcher)) {
+            throw new Exception('eagerMatcher is not callable');
+>>>>>>> 414a4ffcb (.)
         }
 
         Assert::isArray($res = ($this->eagerMatcher)($models, $collection, $relation, $this));
@@ -1111,6 +1141,7 @@ class CustomRelation extends Relation
      * @return Collection<int, Model>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getResults()
     public function getResults()
     public function getResults()
@@ -1119,6 +1150,9 @@ class CustomRelation extends Relation
 =======
     public function getResults(): Collection
 >>>>>>> 551c768c4 (.)
+=======
+    public function getResults(): Collection
+>>>>>>> 414a4ffcb (.)
     {
         return $this->get();
     }
@@ -1126,6 +1160,7 @@ class CustomRelation extends Relation
     /**
      * Execute the query as a "select" statement.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  array<int, string>  $columns
      * @param  array<int, string>  $columns
@@ -1135,6 +1170,9 @@ class CustomRelation extends Relation
 =======
      * @param  mixed  $columns
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  mixed  $columns
+>>>>>>> 414a4ffcb (.)
      */
     public function get($columns = ['*']): Collection
     {
@@ -1143,6 +1181,7 @@ class CustomRelation extends Relation
         // models with the result of those columns as a separate model relation.
         $columns = $this->query->getQuery()->columns ? [] : $columns;
         if ($columns === ['*']) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $columns = [$this->related->getTable() . '.*'];
@@ -1418,6 +1457,9 @@ class CustomRelation extends Relation
 =======
             $columns = [$this->related->getTable().'.*'];
 >>>>>>> 551c768c4 (.)
+=======
+            $columns = [$this->related->getTable().'.*'];
+>>>>>>> 414a4ffcb (.)
         }
 
         $query = $this->query->applyScopes();

@@ -123,6 +123,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8fd88dd43 (.)
 =======
@@ -322,6 +323,8 @@ use Filament\Resources\Pages\Page as FilamentResourcePage;
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 abstract class XotBaseResourcePage extends FilamentResourcePage
 {

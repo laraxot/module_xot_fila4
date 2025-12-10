@@ -37,6 +37,7 @@ use Illuminate\Queue\SerializesModels;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 
 =======
 =======
@@ -188,6 +189,8 @@ use Illuminate\Queue\SerializesModels;
 =======
  *
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * Mailable per l'invio di dati di record via email.
  */
 class RecordMail extends Mailable
@@ -203,6 +206,7 @@ class RecordMail extends Mailable
      * Crea una nuova istanza del mailable.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data I dati del record
      * @param array<string, mixed> $data I dati del record
      * @param array<string, mixed> $data I dati del record
@@ -211,6 +215,9 @@ class RecordMail extends Mailable
 =======
      * @param  array<string, mixed>  $data  I dati del record
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<string, mixed>  $data  I dati del record
+>>>>>>> 414a4ffcb (.)
      */
     public function __construct(array $data)
     {
@@ -255,6 +262,7 @@ class RecordMail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -553,3 +561,5 @@ class RecordMail extends Mailable
     }
 }
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

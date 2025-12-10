@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +150,10 @@ class CreateLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecor
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+class CreateLog extends XotBaseCreateRecord
+>>>>>>> 414a4ffcb (.)
 {
     protected static string $resource = LogResource::class;
 }

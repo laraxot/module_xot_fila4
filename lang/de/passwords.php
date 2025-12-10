@@ -8,6 +8,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +272,8 @@ declare(strict_types=1);
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 return [
     'password' => 'Passwörter müssen mind. 6 Zeichen haben und gleich der Wiederholung sein.',
     'reset' => 'Dein Passwort wurde zurückgesetzt!',

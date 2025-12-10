@@ -14,6 +14,7 @@ class TableExistsByModelClassActions
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!class_exists($modelClass)) {
         if (!class_exists($modelClass)) {
         if (!class_exists($modelClass)) {
@@ -287,6 +288,9 @@ class TableExistsByModelClassActions
 =======
         if (! class_exists($modelClass)) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! class_exists($modelClass)) {
+>>>>>>> 414a4ffcb (.)
             return false;
         }
 
@@ -313,6 +317,7 @@ class TableExistsByModelClassActions
             return true; // I modelli Sushi sono considerati come se avessero sempre una tabella
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,6 +393,8 @@ class TableExistsByModelClassActions
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $tableName = $model->getTable();
 
         return Schema::connection($model->getConnectionName())->hasTable($tableName);

@@ -9,9 +9,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Relations\Pivot;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Database\Eloquent\Relations\Pivot;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
@@ -50,6 +54,7 @@ use Illuminate\Support\Carbon;
  * @method BelongsTo user()
  * @method mixed getAttributeValue(string $key)
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $post_type
@@ -82,6 +87,8 @@ use Illuminate\Support\Carbon;
  * @method mixed     getAttributeValue(string $key)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  *
  * @phpstan-require-extends Model
  *
@@ -208,6 +215,7 @@ interface ModelContract
      * Convert the model instance to an array representation.
      *
      * @return array<mixed>
+<<<<<<< HEAD
 <<<<<<< HEAD
     /*
      * Save a new model and return the instance. Allow mass-assignment.
@@ -401,6 +409,8 @@ interface ModelContract
      * @return array
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function toArray();
 
@@ -432,12 +442,15 @@ interface ModelContract
     public function newInstance($attributes = [], $exists = false);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return mixed|int|string
      */
     public function getKey();
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /*
      * Add a basic where clause to the query.
      *
@@ -446,6 +459,7 @@ interface ModelContract
      * @param  mixed  $value
      * @param  string $boolean
      * @return $this
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,6 +558,8 @@ interface ModelContract
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
@@ -722,6 +738,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public function firstOrFail($columns = ['*']);
     */
@@ -978,4 +995,6 @@ interface ModelContract
      * public function firstOrFail($columns = ['*']);
      */
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

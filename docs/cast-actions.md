@@ -38,6 +38,7 @@ L'uso di `property_exists()` con modelli Laravel è problematico perché:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'uso di `property_exists()` con modelli Laravel è problematico perché:
 
 L'uso di `property_exists()` con modelli Laravel è problematico perché:
@@ -59,6 +60,8 @@ L'uso di `property_exists()` con modelli Laravel è problematico perché:
 >>>>>>> 1a525d0ea (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - È una funzione PHP generica che non conosce l'architettura Laravel
 - Può dare falsi positivi con proprietà dinamiche di Eloquent
 - È meno performante e meno leggibile
@@ -276,6 +279,7 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 - [SafeArrayCastAction](../app/Actions/Cast/SafeArrayCastAction.php)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,3 +342,7 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

@@ -12,6 +12,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 return new class extends XotBaseMigration
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
@@ -33,6 +34,8 @@ return new class extends XotBaseMigration
 return new class extends XotBaseMigration {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * Run the migrations.
      */
@@ -145,6 +148,7 @@ return new class extends XotBaseMigration {
             $table->schemalessAttributes('extra_attributes');
             $table->unique(['model_id', 'model_type'], 'morph_unique');
         });
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 300ef70 (.)
@@ -158,6 +162,8 @@ return new class extends XotBaseMigration {
             $table->schemalessAttributes('extra_attributes');
             $table->unique(['model_id', 'model_type'], 'morph_unique');
         });
+=======
+>>>>>>> 414a4ffcb (.)
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
@@ -173,6 +179,7 @@ return new class extends XotBaseMigration {
             // }
 
             if ($this->hasColumn('model_id') && $this->getColumnType('model_id') === 'bigint') {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
@@ -190,12 +197,15 @@ return new class extends XotBaseMigration {
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $table->string('model_id', 36)->index()->change();
             }
         });
     }
 
     // end up
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -549,5 +559,7 @@ return new class extends XotBaseMigration {
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     // end down
 };

@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Class;
 // use Modules\Xot\Services\ArrayService;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +109,10 @@ use Exception;
 use Exception;
 use ReflectionClass;
 >>>>>>> 551c768c4 (.)
+=======
+use Exception;
+use ReflectionClass;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetFilenameByClassnameAction
@@ -198,6 +203,7 @@ class GetFilenameByClassnameAction
 =======
 >>>>>>> 7468a7d2 (.)
             $filename = base_path($filename).'.php';
+<<<<<<< HEAD
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
@@ -407,11 +413,14 @@ class GetFilenameByClassnameAction
 =======
             $filename = base_path($filename).'.php';
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         if (is_string($filename)) {
             return $filename;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -652,5 +661,8 @@ class GetFilenameByClassnameAction
 =======
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
 >>>>>>> 551c768c4 (.)
+=======
+        throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+>>>>>>> 414a4ffcb (.)
     }
 }

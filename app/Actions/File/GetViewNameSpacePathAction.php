@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\View;
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
@@ -15,6 +16,8 @@ use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class GetViewNameSpacePathAction
 {
@@ -28,6 +31,7 @@ class GetViewNameSpacePathAction
      */
 <<<<<<< HEAD
     public function execute(string $ns): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +258,8 @@ class GetViewNameSpacePathAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $xot = XotData::make();
 
@@ -289,6 +295,7 @@ class GetViewNameSpacePathAction
 
 <<<<<<< HEAD
         return base_path('Themes/'.$theme_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,5 +522,7 @@ class GetViewNameSpacePathAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

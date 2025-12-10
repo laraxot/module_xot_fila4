@@ -31,6 +31,7 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use ZipArchive;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -69,6 +70,8 @@ use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class DownloadZipByPathsDiskAction
 {
@@ -87,8 +90,9 @@ class DownloadZipByPathsDiskAction
         $zipPath = 'temp/'.$zipFileName;
 
         // Crea un file temporaneo per lo ZIP usando Storage
-        $zip = new ZipArchive();
+        $zip = new ZipArchive;
         $tempFilePath = storage_path('app/'.$zipPath);
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param array<string> $attachments Array di percorsi file
      * @param string $disk Nome del disco di storage
@@ -116,6 +120,8 @@ class DownloadZipByPathsDiskAction
         $tempFilePath = storage_path('app/' . $zipPath);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         // Assicurati che la directory temp esista
         Storage::disk('local')->makeDirectory('temp');
@@ -124,6 +130,7 @@ class DownloadZipByPathsDiskAction
             foreach ($attachments as $attachment) {
                 $filePath = $attachment;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -191,6 +198,12 @@ class DownloadZipByPathsDiskAction
 =======
                         $zip->addFromString($attachment.'.pdf', $fileContent);
 >>>>>>> 551c768c4 (.)
+=======
+                if (Storage::disk($disk)->exists($filePath)) {
+                    $fileContent = Storage::disk($disk)->get($filePath);
+                    if ($fileContent !== null) {
+                        $zip->addFromString($attachment.'.pdf', $fileContent);
+>>>>>>> 414a4ffcb (.)
                     }
                 } else {
                     dddx(['filePath' => $filePath]);
@@ -198,6 +211,7 @@ class DownloadZipByPathsDiskAction
             }
             $zip->close();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             $downloadFileName = 'attachments_' . uniqid() . '.zip';
             $downloadFileName = 'attachments_' . uniqid() . '.zip';
@@ -207,10 +221,14 @@ class DownloadZipByPathsDiskAction
 =======
             $downloadFileName = 'attachments_'.uniqid().'.zip';
 >>>>>>> 551c768c4 (.)
+=======
+            $downloadFileName = 'attachments_'.uniqid().'.zip';
+>>>>>>> 414a4ffcb (.)
 
             // Usa response()->download() per il download
             return response()->download($tempFilePath, $downloadFileName, [
                 'Content-Type' => 'application/zip',
+<<<<<<< HEAD
 <<<<<<< HEAD
             ]); //->deleteFileAfterSend(true);
             ]); //->deleteFileAfterSend(true);
@@ -228,6 +246,9 @@ class DownloadZipByPathsDiskAction
 =======
             ]); // ->deleteFileAfterSend(true);
 >>>>>>> 551c768c4 (.)
+=======
+            ]); // ->deleteFileAfterSend(true);
+>>>>>>> 414a4ffcb (.)
         }
 
         return null;

@@ -140,6 +140,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8fd88dd43 (.)
 =======
@@ -330,6 +331,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     'backend' => [
         'access' => [
@@ -343,6 +346,7 @@ return [
                 'not_found' => 'El Rol requerido no existe.',
                 'update_error' => 'Hubo un problema al modificar el Rol. Intentelo de nuevo.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +518,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'users' => [
                 'cant_deactivate_self' => 'No puede desactivarse a sí mismo.',
                 'cant_delete_self' => 'No puede eliminarse usted mismo.',
@@ -558,6 +564,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -703,6 +710,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -741,6 +750,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1002,6 +1012,8 @@ return [
             'deactivated' => 'Su cuenta ha sido desactivada.',
             'email_taken' => 'El correo especificado ya está registrado.',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'password' => [
                 'change_mismatch' => 'La contraseña antigua no coincide.',
             ],

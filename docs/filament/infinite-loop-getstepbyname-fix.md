@@ -173,6 +173,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -228,10 +229,13 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 >>>>>>> 3bf39332 (.)
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -366,6 +370,8 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -387,6 +393,7 @@ Questo fix dimostra l'importanza di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -431,6 +438,10 @@ Questo fix dimostra l'importanza di:
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+=======
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 414a4ffcb (.)
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 =======
 <<<<<<< HEAD
@@ -481,6 +492,7 @@ Questo fix dimostra l'importanza di:
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+<<<<<<< HEAD
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
 <<<<<<< HEAD
 =======
@@ -501,6 +513,24 @@ Questo fix dimostra l'importanza di:
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
 >>>>>>> 5a14301c (.)
 =======
+=======
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 414a4ffcb (.)
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 >>>>>>> 71f31700 (.)
 =======

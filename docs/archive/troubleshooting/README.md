@@ -7,6 +7,7 @@
 - **Solution**: Check namespace imports and method signatures
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,6 +96,9 @@
 =======
 - **Prevention**: Always run PHPStan level 10+ before commits
 >>>>>>> 551c768c4 (.)
+=======
+- **Prevention**: Always run PHPStan level 10+ before commits
+>>>>>>> 414a4ffcb (.)
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings

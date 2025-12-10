@@ -17,6 +17,7 @@ use Modules\Xot\Models\InformationSchemaTable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  *
  *
@@ -76,6 +77,8 @@ use Modules\Xot\Models\InformationSchemaTable;
  *
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @extends Factory<InformationSchemaTable>
  */
 class InformationSchemaTableFactory extends Factory
@@ -132,6 +135,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
         return [
             'table_catalog' => 'def',
+<<<<<<< HEAD
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
@@ -182,6 +186,9 @@ class InformationSchemaTableFactory extends Factory
 =======
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 >>>>>>> 551c768c4 (.)
+=======
+            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
+>>>>>>> 414a4ffcb (.)
             'table_name' => $tableName,
             'table_type' => $this->faker->randomElement(['BASE TABLE', 'VIEW']),
             'engine' => $this->faker->randomElement(['InnoDB', 'MyISAM']),
@@ -280,6 +287,7 @@ class InformationSchemaTableFactory extends Factory
 =======
 >>>>>>> 7468a7d2 (.)
         return $this->state(fn (array $_attributes): array => [
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -556,6 +564,8 @@ class InformationSchemaTableFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'table_type' => 'BASE TABLE',
         ]);
     }
@@ -636,6 +646,7 @@ class InformationSchemaTableFactory extends Factory
 =======
 >>>>>>> 7468a7d2 (.)
         return $this->state(fn (array $_attributes): array => [
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -912,6 +923,8 @@ class InformationSchemaTableFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'table_type' => 'VIEW',
         ]);
     }

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +60,8 @@
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Errori Risolti
 
@@ -462,6 +465,7 @@ protected $model = Cache::class;
 - [README.md](./README.md)
 - [Troubleshooting](./troubleshooting.md)
 - [Best Practices](../docs/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2086,3 +2090,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> 551c768c4 (.)
+=======
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> 414a4ffcb (.)

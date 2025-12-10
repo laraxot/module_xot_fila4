@@ -43,6 +43,7 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `/docs/` (cartella root del progetto)
 >>>>>>> 85cdef688 (.)
@@ -121,6 +122,9 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 =======
 - `/docs/` (cartella root del progetto)
 >>>>>>> 80bc07e81 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 414a4ffcb (.)
 - `README.md` principale
 - File di configurazione specifici del progetto
 - Documentazione di deployment

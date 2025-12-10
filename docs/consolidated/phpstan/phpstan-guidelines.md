@@ -208,6 +208,7 @@ jobs:
 ### 3. Quality Gates
 - **Level 7**: Basic type checking (minimum standard)
 - **Level 8**: Strict type checking (recommended)
+- **level 10**: Maximum strictness (ideal for new code)
 
 ## Common Issues and Solutions
 

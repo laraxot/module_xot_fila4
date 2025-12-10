@@ -159,6 +159,7 @@ Modules/<NomeModulo>/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
@@ -465,6 +466,8 @@ Modules/<NomeModulo>/
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Struttura
 
@@ -957,6 +960,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -1216,6 +1220,8 @@ Action::make('delete')
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming
@@ -1224,6 +1230,7 @@ Action::make('delete')
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1281,3 +1288,6 @@ Action::make('delete')
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

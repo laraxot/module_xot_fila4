@@ -96,6 +96,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -196,6 +197,8 @@ return [
 declare(strict_types=1);
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 return [
     /*
      * |--------------------------------------------------------------------------
@@ -456,6 +459,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,6 +830,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     'contexts' => [
         'User' => [
@@ -938,6 +944,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1190,6 +1197,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ],
         'Doctor' => [
             'extends' => 'User',
@@ -1222,6 +1231,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
                 'HasParent',
                 'HasParent',
@@ -1376,6 +1386,8 @@ return [
 =======
                 'HasParent',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             ],
             'context' => 'medical',
             'validations' => [
@@ -1408,6 +1420,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'specialization',
             ],
                 'specialization',
@@ -1625,6 +1638,8 @@ return [
                 'specialization',
             ],
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ],
         'Patient' => [
             'extends' => 'User',
@@ -1657,6 +1672,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
                 'HasParent',
                 'HasParent',
@@ -1811,6 +1827,8 @@ return [
 =======
                 'HasParent',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             ],
             'context' => 'medical',
             'validations' => [
@@ -1924,6 +1942,7 @@ return [
      * | Regole di validazione per i contesti dei modelli.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2231,6 +2250,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     'validation' => [
         'strict' => true,
@@ -2258,6 +2279,7 @@ return [
 <<<<<<< HEAD
         'throw_exceptions' => false,
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2480,4 +2502,6 @@ return [
         'throw_exceptions' => false,
     ],
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ];

@@ -253,6 +253,7 @@ declare(strict_types=1);
                         <x-heroicon-o-calendar class="w-12 h-12 mx-auto mb-2" />
                         <p class="text-sm">{{ __('<nome modulo>::widgets.appointment_overview.empty_state') }}</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
@@ -266,6 +267,8 @@ declare(strict_types=1);
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     </div>
                 </div>
             @endforelse
@@ -299,6 +302,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 </x-filament-widgets::widget>
+<<<<<<< HEAD
 </x-filament-widgets::widget>
 </x-filament-widgets::widget>
 </x-filament-widgets::widget>
@@ -452,3 +456,5 @@ declare(strict_types=1);
 =======
 </x-filament-widgets::widget>
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

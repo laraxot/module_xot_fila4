@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,10 +240,14 @@ Tutti i percorsi assoluti DEVONO includere il segmento `laravel/` subito dopo la
 =======
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Struttura dei percorsi nel progetto 
 
-## Regola fondamentale
+> **Ambiente di riferimento**: `/var/www/_bases/base_ptvx_fila4_mono/`
 
+<<<<<<< HEAD
 **Tutti i percorsi assoluti nel progetto PTVX DEVONO includere il segmento `laravel/` dopo `base_ptvx_fila3_mono/`.**
 <<<<<<< HEAD
 =======
@@ -1257,13 +1262,20 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
                          ↑        ↑
                      progetto  segmento
                     principale OBBLIGATORIO
-```
-
-## Percorsi corretti vs. percorsi errati
-
-### ✅ Percorsi CORRETTI
+=======
+## 🔑 Regola Fondamentale
+Tutti i percorsi assoluti DEVONO includere il segmento `laravel/` subito dopo la directory di base del progetto.
 
 ```
+/var/www/_bases/base_ptvx_fila4_mono/laravel/{componente}/{resto-del-percorso}
+                                 ↑
+                           segmento obbligatorio
+>>>>>>> 414a4ffcb (.)
+```
+
+## ✅ Percorsi Correttamente Formati
+```
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1754,11 +1766,18 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+/var/www/_bases/base_ptvx_fila4_mono/laravel/app/Models/User.php
+/var/www/_bases/base_ptvx_fila4_mono/laravel/Modules/Xot/app/Providers/XotBaseServiceProvider.php
+/var/www/_bases/base_ptvx_fila4_mono/laravel/Themes/One/resources/views/layouts/app.blade.php
+/var/www/_bases/base_ptvx_fila4_mono/laravel/resources/lang/it/validation.php
+/var/www/_bases/base_ptvx_fila4_mono/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php
+>>>>>>> 414a4ffcb (.)
 ```
 
-### ❌ Percorsi ERRATI
-
+## ❌ Percorsi Errati (segmento mancante)
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2249,11 +2268,16 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+/var/www/_bases/base_ptvx_fila4_mono/app/Models/User.php
+/var/www/_bases/base_ptvx_fila4_mono/Modules/Xot/app/Providers/XotBaseServiceProvider.php
+/var/www/_bases/base_ptvx_fila4_mono/resources/lang/it/validation.php
+>>>>>>> 414a4ffcb (.)
 ```
 
-## Struttura completa del progetto
-
+## 🗂️ Anatomia del Progetto
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/base_techplanner_fila3_mono/
 /var/www/html/base_saluteora/
@@ -2730,6 +2754,12 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+/var/www/_bases/base_ptvx_fila4_mono/
+├── docs/                 # Documentazione generale
+└── laravel/              # ⭐ Applicazione Laravel
+    ├── app/
+>>>>>>> 414a4ffcb (.)
     │   ├── Console/
     │   ├── Exceptions/
     │   ├── Http/
@@ -2776,6 +2806,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
     ├── storage/
     ├── themes/
     └── vendor/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3014,6 +3045,8 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Importanza della regola
@@ -3311,6 +3344,7 @@ grep -r "/var/www/html/base_<nome progetto>/resources" --include="*.php" /var/ww
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 851793957 (.)
@@ -3602,6 +3636,8 @@ grep -r "/var/www/_bases/base_ptv_fila3_mono/resources" --include="*.php" /var/w
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Correzzione automatica (opzionale)
@@ -3658,6 +3694,7 @@ Se si trovano percorsi errati, è possibile correggerli automaticamente con:
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
+<<<<<<< HEAD
 <<<<<<< HEAD
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/app|/var/www/html/base_<nome progetto>/laravel/app|g' {} \;
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Modules|/var/www/html/base_<nome progetto>/laravel/Modules|g' {} \;
@@ -4123,6 +4160,14 @@ find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/app|/var/www/html/base_<nome progetto>/laravel/app|g' {} \;
+find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Modules|/var/www/html/base_<nome progetto>/laravel/Modules|g' {} \;
+find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Themes|/var/www/html/base_<nome progetto>/laravel/Themes|g' {} \;
+find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
+find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
+find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Riferimenti correlati
@@ -4300,6 +4345,7 @@ find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed
 - [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Struttura del progetto](../Xot/docs/architecture/struttura-progetto.md)
 - [Regole di namespace](../Xot/docs/standards/namespace-conventions.md)
@@ -4741,3 +4787,8 @@ find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

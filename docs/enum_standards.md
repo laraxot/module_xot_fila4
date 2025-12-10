@@ -44,6 +44,7 @@ This document defines the standards and best practices for working with Enums in
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+<<<<<<< HEAD
 # Enum Standards in SaluteOra
 
 This document defines the standards and best practices for working with Enums in the SaluteOra project.
@@ -118,6 +119,8 @@ This document defines the standards and best practices for working with Enums in
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Naming Conventions
 
@@ -191,6 +194,7 @@ declare(strict_types=1);
 namespace Modules\<nome progetto>\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Enums;
 =======
 <<<<<<< HEAD
@@ -253,6 +257,9 @@ namespace Modules\<nome modulo>\Enums;
 =======
 namespace Modules\<nome progetto>\Enums;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome progetto>\Enums;
+>>>>>>> 414a4ffcb (.)
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -296,6 +303,7 @@ enum AppointmentTypeEnum: string implements HasLabel
 >>>>>>> 7e4835b8e (.)
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
+<<<<<<< HEAD
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
@@ -365,6 +373,8 @@ enum AppointmentTypeEnum: string implements HasLabel
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             // ... other cases
         };
     }
@@ -399,6 +409,7 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 <<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+<<<<<<< HEAD
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
@@ -445,6 +456,8 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 =======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Updating Existing Enums

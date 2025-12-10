@@ -31,6 +31,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -92,6 +93,8 @@ This decrease amount of guard logic within the system.
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 namespace Modules\Xot\ValueObjects;
 
@@ -132,6 +135,7 @@ class EmailValueObject
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
         if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+<<<<<<< HEAD
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 <<<<<<< HEAD
 =======
@@ -361,6 +365,9 @@ class EmailValueObject
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+            throw new InvalidArgumentException(sprintf('Email address %s is considered valid.', $email));
+>>>>>>> 414a4ffcb (.)
         }
     }
 }

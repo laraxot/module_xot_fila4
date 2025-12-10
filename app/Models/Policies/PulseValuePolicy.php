@@ -6,6 +6,7 @@ namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +252,11 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\PulseValue;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\PulseValue;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class PulseValuePolicy extends XotBasePolicy
 {
@@ -295,6 +301,7 @@ class PulseValuePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, PulseValue $pulse_value): bool
 =======
 =======
@@ -351,6 +358,8 @@ class PulseValuePolicy extends XotBasePolicy
     public function view(UserContract $user, PulseValue $_pulse_value): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_value.view');
     }
@@ -374,6 +383,7 @@ class PulseValuePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, PulseValue $pulse_value): bool
 =======
 =======
@@ -430,6 +440,8 @@ class PulseValuePolicy extends XotBasePolicy
     public function update(UserContract $user, PulseValue $_pulse_value): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_value.update');
     }
@@ -445,6 +457,7 @@ class PulseValuePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, PulseValue $pulse_value): bool
 =======
 =======
@@ -501,6 +514,8 @@ class PulseValuePolicy extends XotBasePolicy
     public function delete(UserContract $user, PulseValue $_pulse_value): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_value.delete');
     }
@@ -516,6 +531,7 @@ class PulseValuePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, PulseValue $pulse_value): bool
 =======
 =======
@@ -572,6 +588,8 @@ class PulseValuePolicy extends XotBasePolicy
     public function restore(UserContract $user, PulseValue $_pulse_value): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_value.restore');
     }
@@ -583,6 +601,7 @@ class PulseValuePolicy extends XotBasePolicy
     {
         return $user->hasPermissionTo('pulse_value.forceDelete');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -599,3 +618,6 @@ class PulseValuePolicy extends XotBasePolicy
 =======
 }
 >>>>>>> 091f883c (.)
+=======
+}
+>>>>>>> 414a4ffcb (.)

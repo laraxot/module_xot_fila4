@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\File;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +72,11 @@ use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
 use RuntimeException;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Support\Facades\File;
+use InvalidArgumentException;
+use RuntimeException;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -85,6 +91,7 @@ class AddStrictTypesDeclarationAction
      */
     public function execute(string $filePath): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!File::exists($filePath)) {
 <<<<<<< HEAD
@@ -141,6 +148,9 @@ class AddStrictTypesDeclarationAction
 =======
         if (! File::exists($filePath)) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! File::exists($filePath)) {
+>>>>>>> 414a4ffcb (.)
             throw new InvalidArgumentException("Il file {$filePath} non esiste");
         }
 
@@ -154,6 +164,7 @@ class AddStrictTypesDeclarationAction
         // Trova la posizione del tag di apertura PHP
         $phpTagPos = strpos($content, '<?php');
         if ($phpTagPos === false) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -170,6 +181,9 @@ class AddStrictTypesDeclarationAction
 =======
             throw new RuntimeException("Il file {$filePath} non ha un tag di apertura PHP valido");
 >>>>>>> 091f883c (.)
+=======
+            throw new RuntimeException("Il file {$filePath} non ha un tag di apertura PHP valido");
+>>>>>>> 414a4ffcb (.)
         }
 
         // Trova la prima riga non vuota dopo il tag PHP

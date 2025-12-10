@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\String;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +324,10 @@ class SanitizeAction
 class SanitizeAction
 {
 >>>>>>> 551c768c4 (.)
+=======
+class SanitizeAction
+{
+>>>>>>> 414a4ffcb (.)
     public function execute(string $str): string
     {
         $str = strip_tags($str);
@@ -463,6 +468,7 @@ class SanitizeAction
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
 
+<<<<<<< HEAD
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
 
@@ -793,6 +799,9 @@ class SanitizeAction
 
         return trim($str);
 >>>>>>> 551c768c4 (.)
+=======
+        return trim($str);
+>>>>>>> 414a4ffcb (.)
     }
 }
 
@@ -845,6 +854,7 @@ class SanitizeAction
  * // Additional removal of non-printable characters
  * $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -951,3 +961,5 @@ $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 414a4ffcb (.)

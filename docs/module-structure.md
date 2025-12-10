@@ -49,6 +49,7 @@ ModuleName/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -211,6 +212,8 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> d9f43fce9 (.)
 =======
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Collegamenti
@@ -492,6 +495,7 @@ php artisan xot:analyze-naming
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
 >>>>>>> 85cdef688 (.)
@@ -570,6 +574,9 @@ Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
 >>>>>>> 80bc07e81 (.)
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
+>>>>>>> 414a4ffcb (.)
 
 ## Esempi
 
@@ -1101,6 +1108,7 @@ Se trovi una directory con case errato:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 >>>>>>> 85cdef688 (.)
@@ -1179,4 +1187,7 @@ Se trovi una directory con case errato:
 =======
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+>>>>>>> 414a4ffcb (.)
 

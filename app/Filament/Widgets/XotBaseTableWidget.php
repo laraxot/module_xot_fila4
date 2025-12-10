@@ -96,6 +96,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -111,11 +112,14 @@ declare(strict_types=1);
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 namespace Modules\Xot\Filament\Widgets;
 
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\TableWidget as FilamentTableWidget;
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +348,8 @@ use Filament\Widgets\TableWidget as FilamentTableWidget;
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 abstract class XotBaseTableWidget extends FilamentTableWidget
 {

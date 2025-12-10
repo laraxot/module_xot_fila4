@@ -69,6 +69,7 @@ interface UserContract extends
 > - `@property \Illuminate\Database\Eloquent\Collection<int, UserRole> $roles`
 > - `@property \Illuminate\Database\Eloquent\Collection<int, TeamContract> $teams`
 >
+> Questo consente a PHPStan level 10 di riconoscere correttamente i magic attribute Eloquent quando i moduli (es. User, <nome progetto>) lavorano solo contro il contratto Xot.
 
 ### 2. ProfileContract
 **File**: `app/Contracts/ProfileContract.php`
@@ -222,6 +223,45 @@ interface WithStateStatusContract
 
 ### 6. HasRecursiveRelationshipsContract
 **File**: `app/Contracts/HasRecursiveRelationshipsContract.php`
+**Purpose**: Hierarchical and tree-like model structures
+
+```php
+interface HasRecursiveRelationshipsContract
+{
+    // Parent-Child Relationships
+    public function parent(): BelongsTo;
+    public function children(): HasMany;
+    public function ancestors(): Collection;
+    public function descendants(): Collection;
+
+    // Tree Navigation
+    public function getParent(): ?self;
+    public function getChildren(): Collection;
+    public function hasChildren(): bool;
+    public function hasParent(): bool;
+    public function isRoot(): bool;
+    public function isLeaf(): bool;
+
+    // Hierarchy Queries
+    public function getDepth(): int;
+    public function getLevel(): int;
+    public function getRoot(): self;
+    public function getLeaves(): Collection;
+    public function getSiblings(): Collection;
+
+    // Tree Manipulation
+    public function makeRoot(): self;
+    public function makeChildOf(self $parent): self;
+    public function moveTo(self $parent): self;
+    public function moveToRoot(): self;
+
+    // Tree Structure
+    public function getTree(): Collection;
+    public function getPath(): Collection;
+    public function getPathString(string $separator = ' > '): string;
+    public function getDescendantsTree(): Collection;
+}
+```
 
 ## 🔧 Contract Implementation Guidelines
 

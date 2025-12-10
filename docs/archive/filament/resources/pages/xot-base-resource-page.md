@@ -76,6 +76,7 @@ La classe astratta `XotBaseResourcePage` fornisce una base comune per tutte le p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Gestione Risorse](../../../docs/filament/resources.md)
@@ -248,3 +249,8 @@ La classe astratta `XotBaseResourcePage` fornisce una base comune per tutte le p
 - [Gestione Risorse](../../../docs/filament/resources.md)
 - [Relazioni](../../../docs/filament/relations.md) 
 >>>>>>> 80bc07e81 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Gestione Risorse](../../../docs/filament/resources.md)
+- [Relazioni](../../../docs/filament/relations.md) 
+>>>>>>> 414a4ffcb (.)

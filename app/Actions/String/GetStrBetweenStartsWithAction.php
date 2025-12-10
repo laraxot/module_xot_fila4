@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\String;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -19,6 +20,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetStrBetweenStartsWithAction
@@ -41,6 +45,7 @@ class GetStrBetweenStartsWithAction
 >>>>>>> 7468a7d2 (.)
         if ($pos === false) {
             throw new Exception("Cannot find {$start} in {$body} [".__LINE__.']['.__FILE__.']');
+<<<<<<< HEAD
         if (false === $pos) {
 <<<<<<< HEAD
             throw new Exception("Cannot find {$start} in {$body} [" . __LINE__ . '][' . __FILE__ . ']');
@@ -281,6 +286,8 @@ class GetStrBetweenStartsWithAction
         if ($pos === false) {
             throw new Exception("Cannot find {$start} in {$body} [".__LINE__.']['.__FILE__.']');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
         $pos1 = mb_strpos($body, $close, $pos);
 
@@ -290,6 +297,7 @@ class GetStrBetweenStartsWithAction
             $open_count = mb_substr_count($body1, $open);
             $close_count = mb_substr_count($body1, $close);
 <<<<<<< HEAD
+<<<<<<< HEAD
             ++$length;
             ++$length;
             ++$length;
@@ -298,6 +306,9 @@ class GetStrBetweenStartsWithAction
 =======
             $length++;
 >>>>>>> 551c768c4 (.)
+=======
+            $length++;
+>>>>>>> 414a4ffcb (.)
         } while ($open_count !== $close_count);
 
         return $body1;

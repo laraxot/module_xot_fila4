@@ -230,6 +230,7 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 **Analysis Reports**: `bashscripts/quality-improvement/results/Xot/`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -1377,3 +1378,5 @@ unset($translations['existing_key']); // MAI!
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

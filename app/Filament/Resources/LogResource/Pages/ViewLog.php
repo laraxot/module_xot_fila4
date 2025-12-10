@@ -11,6 +11,7 @@ use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Override;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Override;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
@@ -29,6 +30,8 @@ use function Safe\json_encode;
 use Modules\Xot\Filament\Resources\LogResource;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 use function Safe\json_encode;
 
@@ -37,17 +40,21 @@ class ViewLog extends XotBaseViewRecord
     protected static string $resource = LogResource::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<int, \Filament\Support\Components\Component>
      */
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     #[Override]
     protected function getInfolistSchema(): array
     {
         $log = $this->getRecord()->getModel();
 
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
         return [
         return [
@@ -75,6 +82,8 @@ class ViewLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord
         return [
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'log_info' => Section::make('Informazioni Log')->schema([
                 'log_grid' => Grid::make(['default' => 3])->schema([
                     'id' => TextEntry::make('id'),
@@ -88,6 +97,7 @@ class ViewLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord
                     ),
                     'extra' => TextEntry::make('extra')->formatStateUsing(
                         fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
+<<<<<<< HEAD
 <<<<<<< HEAD
             Section::make('Informazioni Log')->schema([
                 Grid::make(['default' => 3])->schema([
@@ -148,6 +158,9 @@ class ViewLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord
 =======
                     ),
 >>>>>>> 551c768c4 (.)
+=======
+                    ),
+>>>>>>> 414a4ffcb (.)
                 ]),
             ]),
         ];

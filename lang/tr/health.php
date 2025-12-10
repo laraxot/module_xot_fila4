@@ -45,6 +45,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'heading' => 'Uygulama Sağlığı',
             'heading' => 'Uygulama Sağlığı',
             'heading' => 'Uygulama Sağlığı',
@@ -246,6 +247,8 @@ return [
 =======
             'heading' => 'Uygulama Sağlığı',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'navigation' => [
                 'group' => 'Ayarlar',
                 'label' => 'Uygulama Sağlığı',
@@ -276,6 +279,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -421,6 +425,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'notifications' => [
                 'check_results' => 'Sonuçları kontrol et.',
             ],

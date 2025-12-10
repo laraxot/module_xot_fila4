@@ -73,6 +73,7 @@ Based on importance and interdependencies:
 3. **Tenant** - Multi-tenancy
 
 ### Tier 2 - Major Business Logic
+4. **<nome progetto>** - Survey management (main application)
 5. **Limesurvey** - Survey integration
 6. **Cms** - Content management
 7. **Notify** - Notifications (email/SMS)

@@ -145,6 +145,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,6 +418,9 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -460,6 +464,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -716,6 +721,9 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione
@@ -787,6 +795,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 ## Collegamenti
 - [Configurazione Generale](CONFIGURATION.md)
 - [Gestione Asset](assets.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -877,3 +886,8 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+- [Struttura Temi](themes.md) 
+=======
+>>>>>>> 414a4ffcb (.)

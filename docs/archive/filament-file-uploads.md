@@ -26,6 +26,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +206,9 @@ Questo documento descrive le best practice per la gestione dei file upload nei f
 =======
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di <nome progetto>, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
 >>>>>>> 551c768c4 (.)
+=======
+Questo documento descrive le best practice per la gestione dei file upload nei form Filament di <nome progetto>, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
+>>>>>>> 414a4ffcb (.)
 
 ## Configurazione del Componente FileUpload
 
@@ -251,6 +255,7 @@ FileUpload::make('certifications')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -285,6 +290,9 @@ FileUpload::make('certifications')
 =======
 È fondamentale che i campi utilizzati nei componenti `FileUpload` corrispondano ai campi disponibili nel database. Per una documentazione dettagliata sulla mappatura dei campi, consulta la [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/docs/DATABASE_FIELD_MAPPING.md).
 >>>>>>> 5cb992cc6 (.)
+=======
+È fondamentale che i campi utilizzati nei componenti `FileUpload` corrispondano ai campi disponibili nel database. Per una documentazione dettagliata sulla mappatura dei campi, consulta la [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/docs/DATABASE_FIELD_MAPPING.md).
+>>>>>>> 414a4ffcb (.)
 
 ### Campi per File Singoli
 
@@ -375,6 +383,7 @@ Forms\Components\FileUpload::make('certifications')
 - [Gestione degli Utenti](/docs/user-management.md)
 - [Pattern di Ereditarietà dei Modelli](/docs/model-inheritance-patterns.md)
 - [Documentazione Ufficiale di Filament](https://filamentphp.com/docs/3.x/forms/fields/file-upload)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,3 +491,5 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +176,9 @@
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -9868,6 +9872,7 @@ php scripts/check-namespaces.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
@@ -9986,6 +9991,8 @@ php scripts/check-namespaces.php
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 
@@ -9995,6 +10002,7 @@ php scripts/check-namespaces.php
  aurmich/dev
  aurmich/dev
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10052,3 +10060,6 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

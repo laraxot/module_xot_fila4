@@ -68,6 +68,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 # h1 Heading
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +171,9 @@ Here’s a quick preview of what some of the basic type styles will look like in
 #### h4 Heading
 ##### h5 Heading
 
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -340,6 +344,7 @@ class Foo extends bar
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,3 +407,7 @@ class Foo extends bar
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

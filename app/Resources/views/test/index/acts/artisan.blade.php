@@ -132,6 +132,7 @@ artisan blade
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 artisan blade
 =======
 =======
@@ -270,3 +271,5 @@ artisan blade
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

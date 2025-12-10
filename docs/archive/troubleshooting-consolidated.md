@@ -25,6 +25,7 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -59,6 +60,9 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
 >>>>>>> 5cb992cc6 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
+>>>>>>> 414a4ffcb (.)
 - **Implementazione**: Fix nei singoli moduli (solo fix, non docs)
 
 ## Problemi Comuni e Soluzioni
@@ -249,6 +253,7 @@ Codice non conforme agli standard di tipizzazione.
 # Eseguire da directory Laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,6 +440,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 >>>>>>> 551c768c4 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> 414a4ffcb (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -662,9 +670,8 @@ public function test_b(): void
 <<<<<<< HEAD
 ### Errore: Conflitti Git
 
-### Errore: Conflitti Git
-
 **Sintomo**
+<<<<<<< HEAD
 ### Errore: Conflitti Git
 
 **Sintomo**
@@ -1036,6 +1043,8 @@ public function test_b(): void
 
 **Sintomo**
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

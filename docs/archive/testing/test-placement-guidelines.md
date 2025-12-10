@@ -81,6 +81,7 @@ Dopo aver aggiunto o spostato test:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `docs/testing.md` → `Modules/Xot/docs/testing/test-placement-guidelines.md`
 >>>>>>> 85cdef688 (.)
@@ -159,6 +160,9 @@ Dopo aver aggiunto o spostato test:
 =======
    - `docs/testing.md` → `Modules/Xot/docs/testing/test-placement-guidelines.md`
 >>>>>>> 80bc07e81 (.)
+=======
+   - `docs/testing.md` → `Modules/Xot/docs/testing/test-placement-guidelines.md`
+>>>>>>> 414a4ffcb (.)
    - Questo file → `docs/testing.md`
 
 ## 5. Checklist PR

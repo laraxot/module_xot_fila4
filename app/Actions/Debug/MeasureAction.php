@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Debug;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Closure;
@@ -33,12 +34,17 @@ use Illuminate\Support\Facades\Log;
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+use Closure;
+use Filament\Notifications\Notification;
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Classe per misurare le performance di esecuzione di un blocco di codice.
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +106,8 @@ use Webmozart\Assert\Assert;
  *
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @template T
  */
 class MeasureAction
@@ -107,6 +115,7 @@ class MeasureAction
     /**
      * Esegue una closure misurando il tempo di esecuzione e l'utilizzo di memoria.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -187,10 +196,15 @@ class MeasureAction
      * @param  Closure():T  $closure  La closure da eseguire e misurare
      * @param  string  $label  Etichetta opzionale per identificare la misurazione
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  Closure():T  $closure  La closure da eseguire e misurare
+     * @param  string  $label  Etichetta opzionale per identificare la misurazione
+>>>>>>> 414a4ffcb (.)
      * @return T Il risultato dell'esecuzione della closure
      */
     public function execute(Closure $closure, string $label = ''): mixed
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -430,6 +444,8 @@ class MeasureAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $start = microtime(true);
         $memory_start = memory_get_usage();
 
@@ -447,6 +463,7 @@ class MeasureAction
             'label' => $label,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'execution_time' => round($execution_time, 2) . ' ms',
             'memory_usage' => round($memory_usage, 2) . ' KB',
             'execution_time' => round($execution_time, 2) . ' ms',
@@ -821,6 +838,10 @@ class MeasureAction
             'execution_time' => round($execution_time, 2).' ms',
             'memory_usage' => round($memory_usage, 2).' KB',
 >>>>>>> 551c768c4 (.)
+=======
+            'execution_time' => round($execution_time, 2).' ms',
+            'memory_usage' => round($memory_usage, 2).' KB',
+>>>>>>> 414a4ffcb (.)
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
@@ -828,6 +849,7 @@ class MeasureAction
         Notification::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
             ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
@@ -1202,6 +1224,10 @@ class MeasureAction
             ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
 >>>>>>> 551c768c4 (.)
+=======
+            ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
+>>>>>>> 414a4ffcb (.)
             ->success()
             ->persistent()
             ->send();

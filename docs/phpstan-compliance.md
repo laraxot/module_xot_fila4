@@ -1,7 +1,10 @@
 # PHPStan Compliance - Xot Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 ## 📚 Documentazione Correlata
 
 - [Pattern Comuni Progetto](../../../../docs/phpstan/pattern-comuni.md)
@@ -15,7 +18,10 @@
 **Data Inizio:** 10 Ottobre 2025  
 **Target:** PHPStan Level 10 - 0 Errori
 =======
+<<<<<<< HEAD
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ## Status: ✅ FULLY COMPLIANT
 
 **Analysis Date:** September 22, 2025
@@ -26,10 +32,14 @@
 ## Compliance Summary
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The Xot module is fully compliant with PHPStan level 9 analysis, demonstrating:
 =======
 The Xot module is fully compliant with PHPStan level 10 analysis, demonstrating:
 >>>>>>> 551c768c4 (.)
+=======
+The Xot module is fully compliant with PHPStan level 10 analysis, demonstrating:
+>>>>>>> 414a4ffcb (.)
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling

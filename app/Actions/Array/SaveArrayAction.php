@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Array;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use InvalidArgumentException;
@@ -23,6 +24,9 @@ use InvalidArgumentException;
 =======
 use InvalidArgumentException;
 >>>>>>> 80bc07e81 (.)
+=======
+use InvalidArgumentException;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
@@ -51,6 +55,7 @@ class SaveArrayAction
 <<<<<<< HEAD
 <<<<<<< HEAD
             default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +179,8 @@ class SaveArrayAction
 =======
             default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         };
     }
 }

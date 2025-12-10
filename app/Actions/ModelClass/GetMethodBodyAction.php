@@ -17,6 +17,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ReflectionClass;
 <<<<<<< HEAD
@@ -197,6 +198,9 @@ use ReflectionClass;
 =======
 use ReflectionClass;
 >>>>>>> 60f0a1820 (.)
+=======
+use ReflectionClass;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -344,6 +348,7 @@ class GetMethodBodyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -390,12 +395,16 @@ class GetMethodBodyAction
 =======
         $reflection_class = new ReflectionClass($class_name);
 >>>>>>> 60f0a1820 (.)
+=======
+        $reflection_class = new ReflectionClass($class_name);
+>>>>>>> 414a4ffcb (.)
         $table_method = $reflection_class->getMethod($method_name);
         $start_line = $table_method->getStartLine() - 1; // it's actually - 1, otherwise you wont get the function() block
         $end_line = $table_method->getEndLine();
         $length = $end_line - $start_line;
         Assert::string($file_name = $table_method->getFileName());
         $source = file($file_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
         $body = implode('', \array_slice($source, $start_line, $length));
 
@@ -416,5 +425,9 @@ class GetMethodBodyAction
 
         return implode('', \array_slice($source, $start_line, $length));
 >>>>>>> 551c768c4 (.)
+=======
+
+        return implode('', \array_slice($source, $start_line, $length));
+>>>>>>> 414a4ffcb (.)
     }
 }

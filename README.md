@@ -1,6 +1,7 @@
 # Modulo Xot - Framework Base
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
 [![Laravel Version](https://img.shields.io/badge/Laravel-12.x-orange.svg)](https://laravel.com)
 [![Filament Version](https://img.shields.io/badge/Filament-4.x-purple.svg)](https://filamentphp.com)
@@ -242,6 +243,25 @@ Il modulo **Xot** è il cuore del framework Laraxot, fornendo le classi base, i 
 
 ## 💻 Development
 
+=======
+> **Version**: 3.0 - DRY + KISS Documentation Refactor
+> **Status**: ✅ Core Framework Module
+> **Last Updated**: December 2025
+
+## 📋 Overview
+
+Il modulo **Xot** è il cuore del framework Laraxot, fornendo le classi base, i service provider e le funzionalità fondamentali che abilitano tutti gli altri moduli del sistema.
+
+## 🏗️ Architecture
+
+- [Base Classes](architecture/base-classes.md) - Classi base per modelli, risorse, provider
+- [Core Models](architecture/models.md) - Modelli fondamentali del sistema
+- [Service Providers](architecture/providers.md) - Provider per funzionalità core
+- [Database Layer](architecture/database.md) - Migrazioni e strutture dati base
+
+## 💻 Development
+
+>>>>>>> 414a4ffcb (.)
 - [Setup & Configuration](development/setup.md) - Installazione e configurazione base
 - [Extension Patterns](development/extensions.md) - Come estendere Xot correttamente
 - [Best Practices](development/practices.md) - Convenzioni e linee guida

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni per i Namespace nei Moduli
 # Convenzioni per i Namespace nei Moduli
 =======
@@ -80,6 +81,9 @@
 =======
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Convenzioni per i Namespace nei Moduli
 =======
 <<<<<<< HEAD
@@ -856,6 +860,7 @@ php artisan view:clear
 
 ## Panoramica
 Questo documento definisce le convenzioni per l'organizzazione dei namespace nel modulo Xot.
+<<<<<<< HEAD
 
 ## Struttura Base
 I namespace nei moduli di OrisBroker Framework devono seguire una struttura precisa per mantenere la coerenza del codebase.
@@ -1130,6 +1135,9 @@ Questo documento definisce le convenzioni per l'organizzazione dei namespace nel
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Struttura Base
 - `Xot\App`: Classi principali dell'applicazione
@@ -10387,6 +10395,7 @@ php scripts/check-namespaces.php
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10447,3 +10456,6 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

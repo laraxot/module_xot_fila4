@@ -30,6 +30,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5cf46378 (.)
@@ -84,6 +85,8 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 
 use function Safe\file_get_contents;
+=======
+>>>>>>> 414a4ffcb (.)
 
 use function Safe\file_get_contents;
 =======
@@ -119,6 +122,7 @@ test('xot base model is abstract', function (): void {
     $reflection = new ReflectionClass(XotBaseModel::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -133,6 +137,9 @@ test('xot base model is abstract', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
     expect($reflection->isAbstract())->toBeTrue();
 });
 
@@ -142,6 +149,7 @@ test('xot base model uses updater trait', function (): void {
     $traits = $reflection->getTraitNames();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -156,6 +164,9 @@ test('xot base model uses updater trait', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
     expect($traits)->toContain(Updater::class);
 });
 
@@ -183,6 +194,7 @@ test('xot base model has correct strict types declaration', function (): void {
     $filename = $reflection->getFileName();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -197,6 +209,9 @@ test('xot base model has correct strict types declaration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
     if ($filename) {
         $content = file_get_contents($filename);
         expect($content)->toContain('declare(strict_types=1);');
@@ -209,6 +224,7 @@ test('xot base model has correct use statements', function (): void {
     $filename = $reflection->getFileName();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -223,6 +239,9 @@ test('xot base model has correct use statements', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
     if ($filename) {
         $content = file_get_contents($filename);
         expect($content)->toContain('use Illuminate\Database\Eloquent\Model;');
@@ -247,6 +266,7 @@ test('xot base model has correct property types', function (): void {
     if ($snakeType !== null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if ($snakeType !== null) {
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
@@ -266,10 +286,13 @@ test('xot base model has correct property types', function (): void {
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         expect($snakeType->getName())->toBe('bool');
     } else {
         expect(XotBaseModel::$snakeAttributes)->toBeTrue();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,6 +322,9 @@ test('xot base model has correct property types', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
     if ($perPageType !== null) {
 =======
 >>>>>>> 53d6a6ba (.)

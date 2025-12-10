@@ -8,6 +8,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +272,8 @@ declare(strict_types=1);
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 return [
     'backend' => [
         'takeaway' => [
@@ -278,6 +281,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
                 'messages' => [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -351,6 +355,8 @@ return [
                 'messages' => [],
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             ],
             'category' => [
                 'create_error' => 'Create Error',

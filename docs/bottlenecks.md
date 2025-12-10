@@ -891,6 +891,7 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1130,3 +1131,7 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+
+=======
+>>>>>>> 414a4ffcb (.)

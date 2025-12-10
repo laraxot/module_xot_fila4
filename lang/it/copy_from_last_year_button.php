@@ -101,6 +101,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -119,6 +120,8 @@ declare(strict_types=1);
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 return [
     'actions' => [
         'copy_from_last_year' => [
@@ -126,6 +129,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,3 +345,5 @@ return array (
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

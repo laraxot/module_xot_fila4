@@ -13,6 +13,7 @@ use ReflectionClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -257,10 +258,13 @@ use function Safe\json_decode;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -299,7 +303,10 @@ use function Safe\json_decode;
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use function Safe\json_decode;
+use function Safe\json_encode;
 
 =======
 <<<<<<< HEAD
@@ -359,6 +366,7 @@ class GetComponentsAction
     ): DataCollection {
         Assert::string(
             $namespace = Str::replace('/', '\\', $namespace),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -645,6 +653,11 @@ class GetComponentsAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+            '['.__LINE__.']['.class_basename(static::class).']',
+        );
+        $components_json = $path.'/_components.json';
+>>>>>>> 414a4ffcb (.)
         $components_json = app(FixPathAction::class)->execute($components_json);
 
         $path = app(FixPathAction::class)->execute($path);
@@ -652,6 +665,7 @@ class GetComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! File::exists($path)) {
+<<<<<<< HEAD
         if (! File::exists($path)) {
         if (! File::exists($path)) {
         if (!File::exists($path)) {
@@ -859,6 +873,10 @@ class GetComponentsAction
                 File::makeDirectory($path, 0o755, true, true);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            if (Str::startsWith($path, base_path('Modules'))) {
+                File::makeDirectory($path, 0o755, true, true);
+>>>>>>> 414a4ffcb (.)
             }
         }
 
@@ -888,6 +906,7 @@ class GetComponentsAction
             $comps = json_decode($content, false);
 <<<<<<< HEAD
             if (! is_array($comps)) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             if (!is_array($comps)) {
@@ -943,6 +962,11 @@ class GetComponentsAction
             }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+                $comps = [];
+            }
+
+>>>>>>> 414a4ffcb (.)
             return ComponentFileData::collection($comps);
         }
 <<<<<<< HEAD
@@ -965,6 +989,7 @@ class GetComponentsAction
         $files = File::allFiles($path);
         $comps = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1049,6 +1074,10 @@ class GetComponentsAction
 =======
             if ($file->getExtension() !== 'php') {
 >>>>>>> 551c768c4 (.)
+=======
+        foreach ($files as $file) {
+            if ($file->getExtension() !== 'php') {
+>>>>>>> 414a4ffcb (.)
                 continue;
             }
 
@@ -1152,6 +1181,7 @@ class GetComponentsAction
 
             try {
                 if (! class_exists($comp_ns)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 '[' . __LINE__ . '][' . class_basename(static::class) . ']',
             );
@@ -1364,6 +1394,11 @@ class GetComponentsAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                    throw new Exception("La classe {$comp_ns} non esiste");
+                }
+
+>>>>>>> 414a4ffcb (.)
                 /** @var class-string<object> $comp_ns */
                 $reflection = new ReflectionClass($comp_ns);
                 if ($reflection->isAbstract()) {
@@ -1372,6 +1407,7 @@ class GetComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1442,6 +1478,8 @@ class GetComponentsAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $comps[] = ComponentFileData::from([
                     'name' => $comp_name,
                     'class' => $class_name,
@@ -1475,6 +1513,7 @@ class GetComponentsAction
                  * 'message' => $e->getMessage(),
                  * ]);
                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1574,10 +1613,13 @@ class GetComponentsAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 throw $e;
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1594,6 +1636,9 @@ class GetComponentsAction
 =======
         $content = json_encode($comps, JSON_THROW_ON_ERROR);
 >>>>>>> 091f883c (.)
+=======
+        $content = json_encode($comps, JSON_THROW_ON_ERROR);
+>>>>>>> 414a4ffcb (.)
         $old_content = File::exists($components_json) ? File::get($components_json) : '';
 
         if ($old_content !== $content) {

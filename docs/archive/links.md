@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [README](../docs/README.md) - Documentazione principale del progetto
 - [Roadmap](../docs/roadmap.md) - Piano di sviluppo
@@ -141,6 +142,11 @@
 - [Roadmap](../docs/roadmap.md) - Piano di sviluppo
 - [Filosofia](../docs/filosofia.md) - Principi e filosofia del progetto
 >>>>>>> 80bc07e81 (.)
+=======
+- [README](../docs/README.md) - Documentazione principale del progetto
+- [Roadmap](../docs/roadmap.md) - Piano di sviluppo
+- [Filosofia](../docs/filosofia.md) - Principi e filosofia del progetto
+>>>>>>> 414a4ffcb (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)

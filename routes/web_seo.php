@@ -39,6 +39,7 @@ Route::middleware($middleware)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -343,3 +344,5 @@ Route::middleware($middleware)
         Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
     });
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

@@ -8,6 +8,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +272,8 @@ declare(strict_types=1);
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 return [
     'accepted' => 'The :attribute rmust be accepted.',
     'active_url' => 'The :attribute is not a valid URL.',

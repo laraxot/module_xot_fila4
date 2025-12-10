@@ -33,6 +33,7 @@ class GenerateModelByModelClassCommand extends Command
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +325,8 @@ class GenerateModelByModelClassCommand extends Command
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Execute the console command.
@@ -349,6 +352,7 @@ class GenerateModelByModelClassCommand extends Command
         Assert::classExists(
             $model_class = $this->argument('model_class'),
             '['.__LINE__.']['.class_basename($this).']',
+<<<<<<< HEAD
 <<<<<<< HEAD
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
@@ -423,6 +427,9 @@ class GenerateModelByModelClassCommand extends Command
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        );
+>>>>>>> 414a4ffcb (.)
 
         app(GenerateModelByModelClass::class)
             ->setCustomReplaces(['DummyTable' => 'lime_survey_xxx'])

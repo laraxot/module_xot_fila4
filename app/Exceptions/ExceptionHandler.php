@@ -11,6 +11,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -32,6 +33,9 @@ use Exception;
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 5cf46378 (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Foundation\Configuration\Exceptions;
 =======
 <<<<<<< HEAD
@@ -50,6 +54,7 @@ use Illuminate\Foundation\Configuration\Exceptions;
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
@@ -91,6 +96,9 @@ class ExceptionHandler
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 5cf46378 (.)
+=======
+use Modules\Xot\Actions\View\GetViewPathAction;
+>>>>>>> 414a4ffcb (.)
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler
@@ -125,6 +133,7 @@ class ExceptionHandler
      * Configura la gestione delle eccezioni.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Exceptions $exceptions Configuratore eccezioni Laravel
      * @return void
      * @param Exceptions $exceptions Configuratore eccezioni Laravel
@@ -138,6 +147,9 @@ class ExceptionHandler
 =======
      * @param  Exceptions  $exceptions  Configuratore eccezioni Laravel
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  Exceptions  $exceptions  Configuratore eccezioni Laravel
+>>>>>>> 414a4ffcb (.)
      */
     public static function handles(Exceptions $exceptions): void
     {
@@ -145,6 +157,7 @@ class ExceptionHandler
 <<<<<<< HEAD
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +241,8 @@ class ExceptionHandler
             $status_code = $e->getStatusCode();
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             if ($request->wantsJson()) {
                 return response()->json([
                     'message' => $e->getMessage(),
@@ -259,6 +274,7 @@ class ExceptionHandler
             $view_params = ['exception' => $e];
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,6 +570,8 @@ class ExceptionHandler
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

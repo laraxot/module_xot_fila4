@@ -33,6 +33,7 @@ https://medium.com/@dkthelearner/mastering-laravel-pipeline-and-query-builder-fo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [filter.md](../../../Xot/docs/actions/filter.md)
 * [filter.md](../../../Xot/docs/links/filter.md)
@@ -132,6 +133,10 @@ https://medium.com/@dkthelearner/mastering-laravel-pipeline-and-query-builder-fo
 * [filter.md](../../../Xot/docs/actions/filter.md)
 * [filter.md](../../../Xot/docs/links/filter.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [filter.md](../../../Xot/docs/actions/filter.md)
+* [filter.md](../../../Xot/docs/links/filter.md)
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming

@@ -48,6 +48,7 @@ function mockXotData(): void
     $mock = \\Mockery::mock(\\Modules\\Xot\\Datas\\XotData::class)->makePartial();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +228,9 @@ function mockXotData(): void
 =======
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
 >>>>>>> 551c768c4 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> 414a4ffcb (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }

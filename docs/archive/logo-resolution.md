@@ -174,6 +174,7 @@ Per la versione dark:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,10 +415,14 @@ Per la versione dark:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 ---
 
 ### Nota Importante
 Questo documento è parte della documentazione generale del modulo Xot e descrive un meccanismo riutilizzabile in diversi progetti. La documentazione nei moduli è generica e riutilizzabile, mentre le informazioni specifiche del progetto si trovano nella documentazione nella root del progetto.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -482,3 +487,7 @@ Questo documento è parte della documentazione generale del modulo Xot e descriv
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

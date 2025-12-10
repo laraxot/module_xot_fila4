@@ -10,6 +10,7 @@
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
 - [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
 - [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
@@ -20,5 +21,8 @@
 =======
 - [../../<directory progetto>/docs/state-machine.md](../../<directory progetto>/docs/state-machine.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [../../<directory progetto>/docs/state-machine.md](../../<directory progetto>/docs/state-machine.md)
+>>>>>>> 414a4ffcb (.)
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)

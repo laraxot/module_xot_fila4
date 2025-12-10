@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 
 use Illuminate\Database\Eloquent\Model;
@@ -17,6 +18,8 @@ use Illuminate\Database\Eloquent\Model;
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 /**
  * Class XotBaseUuidModel.
  *
@@ -29,6 +32,7 @@ abstract class XotBaseUuidModel extends XotBaseModel
 {
     public $incrementing = false;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 abstract class XotBaseUuidModel extends Model
 {
@@ -56,6 +60,8 @@ abstract class XotBaseUuidModel extends Model
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /** @var bool */
     public $timestamps = true;
 
@@ -85,6 +91,7 @@ abstract class XotBaseUuidModel extends Model
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5cf46378 (.)
@@ -105,10 +112,13 @@ abstract class XotBaseUuidModel extends Model
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'uuid' => 'string',
@@ -122,6 +132,8 @@ abstract class XotBaseUuidModel extends Model
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',

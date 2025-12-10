@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Resources\SessionResource\Pages;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,11 +75,14 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Resources\SessionResource;
 
 class EditSession extends XotBaseEditRecord
 {
     protected static string $resource = SessionResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,4 +208,6 @@ class EditSession extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecor
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

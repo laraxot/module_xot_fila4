@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 85cdef688 (.)
@@ -82,6 +83,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 80bc07e81 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 414a4ffcb (.)
 
 ## File Corretti
 
@@ -284,6 +288,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Stato**: ✅ Completato
 =======
 **Stato**: ✅ Completato
@@ -306,3 +311,6 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> 80bc07e81 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 414a4ffcb (.)

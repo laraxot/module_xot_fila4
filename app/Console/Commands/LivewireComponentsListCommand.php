@@ -33,6 +33,7 @@ class LivewireComponentsListCommand extends Command
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +325,8 @@ class LivewireComponentsListCommand extends Command
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Execute the console command.
@@ -339,6 +342,7 @@ class LivewireComponentsListCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -426,6 +430,8 @@ class LivewireComponentsListCommand extends Command
         // print_r($registeredComponents);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // dddx(get_class_methods(app(ComponentRegistry::class)));
         // $manifest = app(\Livewire\LivewireComponentsFinder::class)->getManifest();
         // dddx($manifest);
@@ -439,6 +445,7 @@ class LivewireComponentsListCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -494,6 +501,8 @@ class LivewireComponentsListCommand extends Command
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Stampa o manipola l'array di componenti come desiderato
         // print_r($registeredComponents);
         // dddx(get_class_methods(app(LivewireManager::class)));

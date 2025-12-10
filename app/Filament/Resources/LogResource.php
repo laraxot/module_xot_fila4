@@ -16,6 +16,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
 use Override;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 use Override;
 use Override;
@@ -157,6 +158,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class LogResource extends XotBaseResource
 {
@@ -167,6 +170,7 @@ class LogResource extends XotBaseResource
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $model = Log::class;
 
@@ -192,6 +196,8 @@ class LogResource extends XotBaseResource
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     #[Override]
     public static function getFormSchema(): array
     {
@@ -202,6 +208,7 @@ class LogResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     #[Override]
@@ -226,10 +233,13 @@ class LogResource extends XotBaseResource
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public static function getInfolistSchema(): array
     {
         return [
             'name' => TextEntry::make('name')->columnSpanFull(),
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function infolist(Schema $schema): Schema
     {
@@ -241,6 +251,8 @@ class LogResource extends XotBaseResource
             TextEntry::make('name')->columnSpanFull(),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             /*
              * Infolists\Components\TextEntry::make('email')
              * ->columnSpanFull(),
@@ -251,6 +263,7 @@ class LogResource extends XotBaseResource
              */
             'file-content' => FileContentEntry::make('file-content'),
 <<<<<<< HEAD
+<<<<<<< HEAD
             FileContentEntry::make('file-content'),
             FileContentEntry::make('file-content'),
             FileContentEntry::make('file-content'),
@@ -263,6 +276,8 @@ class LogResource extends XotBaseResource
             FileContentEntry::make('file-content'),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             /*
              * RepeatableEntry::make('lines')
              * ->schema([
@@ -270,6 +285,7 @@ class LogResource extends XotBaseResource
              * ])
              */
         ];
+<<<<<<< HEAD
 <<<<<<< HEAD
         ]);
         ]);
@@ -308,6 +324,8 @@ class LogResource extends XotBaseResource
         ]);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     #[Override]

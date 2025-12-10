@@ -101,6 +101,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
+<<<<<<< HEAD
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/docs/` (module).
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
@@ -242,10 +243,13 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - All docs filenames lowercase except `README.md`.
 
 ## 7. PHPStan
 - Do not modify `laravel/phpstan.neon`.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -311,6 +315,9 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Use CLI flags for scope/limits; target level 10+. Keep array key/value types explicit.
 >>>>>>> 551c768c4 (.)
+=======
+- Use CLI flags for scope/limits; target level 10+. Keep array key/value types explicit.
+>>>>>>> 414a4ffcb (.)
 
 ## 8. Testing
 - No `RefreshDatabase`.
@@ -367,6 +374,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> ce6fc085 (.)
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
+<<<<<<< HEAD
 ## 10. Icons & Assets ()
 - SVG in `laravel/Modules//resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
 <<<<<<< HEAD
@@ -517,6 +525,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 551c768c4 (.)
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
+=======
+>>>>>>> 414a4ffcb (.)
 ## 10. Icons & Assets (<nome progetto>)
 - SVG in `laravel/Modules/<nome progetto>/resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
 <<<<<<< HEAD
@@ -628,6 +638,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - Add JS callbacks: `eventDidMount`, `eventClassNames`, `selectAllow`, `eventAllow`.
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
@@ -835,3 +846,6 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Backlinks: see `Modules/<nome modulo>/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
 >>>>>>> 551c768c4 (.)
+=======
+- Backlinks: see `Modules/<nome modulo>/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+>>>>>>> 414a4ffcb (.)

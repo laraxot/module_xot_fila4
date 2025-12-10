@@ -3,6 +3,7 @@
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # REGOLA CRITICA: Cartelle docs root VIETATE
 
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
@@ -304,6 +305,10 @@
 - `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
 - `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
 >>>>>>> 551c768c4 (.)
+=======
+- `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 414a4ffcb (.)
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -332,6 +337,7 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 # Comando per verificare che non esistano cartelle docs root
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518,6 +524,9 @@ find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep
 =======
 find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
 >>>>>>> 551c768c4 (.)
+=======
+find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
+>>>>>>> 414a4ffcb (.)
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```

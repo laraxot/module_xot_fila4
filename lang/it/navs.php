@@ -22,6 +22,7 @@ return [
             'label' => 'Login',
             'icon' => 'ui-login',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
@@ -35,6 +36,8 @@ return [
             'icon' => 'heroicon-o-login',
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ],
         'macros' => [
             'label' => 'Macro',

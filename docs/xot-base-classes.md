@@ -290,6 +290,7 @@ The Xot base classes provide a centralized way to customize and extend functiona
 - [Patient Module - Namespace Conventions](../../Patient/project_docs/NAMESPACE_CONVENTIONS.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,3 +436,8 @@ The Xot base classes provide a centralized way to customize and extend functiona
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

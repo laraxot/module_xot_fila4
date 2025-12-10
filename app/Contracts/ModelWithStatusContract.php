@@ -46,6 +46,7 @@ use Spatie\ModelStatus\Status;
  * @method array treeSons()
  * @method array toArray()
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int                      $id
  * @property int|null                 $user_id
  * @property string|null              $post_type
@@ -79,6 +80,8 @@ use Spatie\ModelStatus\Status;
  * @method array     toArray()
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @method BelongsTo user()
  *
  * @phpstan-require-extends Model
@@ -144,6 +147,7 @@ interface ModelWithStatusContract
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
+<<<<<<< HEAD
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
@@ -603,4 +607,6 @@ interface ModelWithStatusContract
 
     public function setStatus(string $name, ?string $reason = null): self;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

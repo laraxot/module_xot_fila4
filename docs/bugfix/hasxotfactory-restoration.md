@@ -12,10 +12,14 @@
 ```
 Symfony\Component\ErrorHandler\Error\FatalError - Internal Server Error
 <<<<<<< HEAD
+<<<<<<< HEAD
 During class fetch: Uncaught ErrorException: include(/var/www/_bases/base_quaeris_fila4_mono/laravel/vendor/composer/../../Modules/Xot/app/Models/Traits/HasXotFactory.php): 
 =======
 During class fetch: Uncaught ErrorException: include(/var/www/_bases/base_<nome progetto>_fila4_mono/laravel/vendor/composer/../../Modules/Xot/app/Models/Traits/HasXotFactory.php): 
 >>>>>>> 551c768c4 (.)
+=======
+During class fetch: Uncaught ErrorException: include(/var/www/_bases/base_<nome progetto>_fila4_mono/laravel/vendor/composer/../../Modules/Xot/app/Models/Traits/HasXotFactory.php): 
+>>>>>>> 414a4ffcb (.)
 Failed to open stream: No such file or directory
 ```
 
@@ -194,10 +198,14 @@ Creati documenti:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_quaeris_fila4_mono/laravel
 =======
 cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel
 >>>>>>> 551c768c4 (.)
+=======
+cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel
+>>>>>>> 414a4ffcb (.)
 composer dump-autoload
 ```
 
@@ -407,8 +415,14 @@ Aggiungere al pipeline CI:
 **Data Chiusura**: 22 Ottobre 2025
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> 551c768c4 (.)
+=======
+
+
+
+>>>>>>> 414a4ffcb (.)

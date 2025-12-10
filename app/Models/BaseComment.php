@@ -13,6 +13,7 @@ namespace Modules\Xot\Models;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +46,9 @@ abstract class BaseComment extends XotBaseModel
 =======
 abstract class BaseComment extends BaseModel
 >>>>>>> 551c768c4 (.)
+=======
+abstract class BaseComment extends BaseModel
+>>>>>>> 414a4ffcb (.)
 {
     // Common properties and methods for comments can be added here.
 }

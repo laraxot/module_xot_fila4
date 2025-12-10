@@ -193,6 +193,7 @@ test('complete tax filing process', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +373,9 @@ test('complete tax filing process', function () {
 =======
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 >>>>>>> 551c768c4 (.)
+=======
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+>>>>>>> 414a4ffcb (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -554,6 +558,7 @@ test('legacy feature with mocks', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,6 +738,9 @@ test('legacy feature with mocks', function () {
 =======
 **For <nome progetto> Healthcare Domain**: 
 >>>>>>> 551c768c4 (.)
+=======
+**For <nome progetto> Healthcare Domain**: 
+>>>>>>> 414a4ffcb (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 

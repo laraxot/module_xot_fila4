@@ -22,6 +22,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -62,6 +63,10 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> 5cb992cc6 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 414a4ffcb (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -163,6 +168,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Aggiornare la documentazione ogni volta che si corregge questo errore.
 
 ### Collegamento
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -464,6 +470,9 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 =======
 - Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
 >>>>>>> 551c768c4 (.)
+=======
+- Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
+>>>>>>> 414a4ffcb (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore
@@ -497,6 +506,7 @@ $prefix = static::$translationPrefix;
 ```
 
 ## Moduli che fanno riferimento a questa regola
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,5 +549,8 @@ $prefix = static::$translationPrefix;
 =======
 - [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
 >>>>>>> 5cb992cc6 (.)
+=======
+- [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
+>>>>>>> 414a4ffcb (.)
 // Aggiungere qui altri moduli se necessario
 

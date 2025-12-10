@@ -6,6 +6,7 @@ namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +252,11 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\CacheLock;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\CacheLock;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class CacheLockPolicy extends XotBasePolicy
 {
@@ -295,6 +301,7 @@ class CacheLockPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, CacheLock $cache_lock): bool
 =======
 =======
@@ -351,6 +358,8 @@ class CacheLockPolicy extends XotBasePolicy
     public function view(UserContract $user, CacheLock $_cache_lock): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('cache_lock.view');
     }
@@ -374,6 +383,7 @@ class CacheLockPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, CacheLock $cache_lock): bool
 =======
 =======
@@ -430,6 +440,8 @@ class CacheLockPolicy extends XotBasePolicy
     public function update(UserContract $user, CacheLock $_cache_lock): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('cache_lock.update');
     }
@@ -445,6 +457,7 @@ class CacheLockPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, CacheLock $cache_lock): bool
 =======
 =======
@@ -501,6 +514,8 @@ class CacheLockPolicy extends XotBasePolicy
     public function delete(UserContract $user, CacheLock $_cache_lock): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('cache_lock.delete');
     }
@@ -516,6 +531,7 @@ class CacheLockPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, CacheLock $cache_lock): bool
 =======
 =======
@@ -572,6 +588,8 @@ class CacheLockPolicy extends XotBasePolicy
     public function restore(UserContract $user, CacheLock $_cache_lock): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('cache_lock.restore');
     }
@@ -583,6 +601,7 @@ class CacheLockPolicy extends XotBasePolicy
     {
         return $user->hasPermissionTo('cache_lock.forceDelete');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -599,3 +618,6 @@ class CacheLockPolicy extends XotBasePolicy
 =======
 }
 >>>>>>> 091f883c (.)
+=======
+}
+>>>>>>> 414a4ffcb (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +176,9 @@
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -327,6 +331,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,6 +447,11 @@ namespace Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\ReportResource;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\ReportResource;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Filament\Actions;
 use Filament\Tables;
@@ -949,6 +959,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,6 +1075,11 @@ namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 
@@ -1100,6 +1116,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1215,6 +1232,11 @@ namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 /**
@@ -1438,6 +1460,7 @@ class CreateAppointment extends XotBaseCreateRecord
 // NON FARE MAI QUESTO
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1501,6 +1524,9 @@ public static function form(Form $form): Form
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 551c768c4 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 414a4ffcb (.)
 {
     return $form->schema([
         // componenti...
@@ -1548,6 +1574,7 @@ TextInput::make('nome')
 ```php
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 namespace Modules\SaluteMo\Filament\Resources;
@@ -1725,10 +1752,13 @@ use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 =======
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources;
+namespace Modules\<nome modulo>\Filament\Resources;
 
+<<<<<<< HEAD
 use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 <<<<<<< HEAD
 =======
@@ -1769,6 +1799,9 @@ use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
+>>>>>>> 414a4ffcb (.)
 use Modules\<nome modulo>\Models\Report;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
@@ -3029,6 +3062,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
@@ -3197,6 +3231,8 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Regole per Widget Filament: Path View e Localizzazione
 
@@ -3210,6 +3246,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 =======
@@ -3358,6 +3395,9 @@ protected static string $view = '<nome progetto>::filament.widgets.find-doctor-a
 =======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 551c768c4 (.)
+=======
+protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 414a4ffcb (.)
 TextInput::make('location')->required()
 ```
 
@@ -3365,6 +3405,7 @@ TextInput::make('location')->required()
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 =======
@@ -3513,6 +3554,9 @@ protected static string $view = '<nome progetto>::widgets.find-doctor-and-appoin
 =======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 >>>>>>> 551c768c4 (.)
+=======
+protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
+>>>>>>> 414a4ffcb (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -3567,6 +3611,7 @@ Appointment::where('doctor_id', $doctorId)
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3624,3 +3669,6 @@ Appointment::where('doctor_id', $doctorId)
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

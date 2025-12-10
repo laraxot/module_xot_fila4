@@ -140,6 +140,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8fd88dd43 (.)
 =======
@@ -330,6 +331,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     'backend' => [
         'access' => [
@@ -343,6 +346,7 @@ return [
                 'not_found' => 'Denne rolle findes ikke.',
                 'update_error' => 'Der opstod et problem ved opdatering af denne rolle. Prøv venligst igen.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +518,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'users' => [
                 'cant_deactivate_self' => 'Du kan ikke udføre denne handling på dig selv.',
                 'cant_delete_self' => 'Du kan ikke slette dig selv.',
@@ -557,6 +563,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -702,6 +709,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -740,6 +749,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1001,6 +1011,8 @@ return [
             'deactivated' => 'Din konto er blevet deaktiveret.',
             'email_taken' => 'Denne e-mailadresse er allerede i brug.',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'password' => [
                 'change_mismatch' => 'Dette er ikke din gamle adgangskode.',
             ],

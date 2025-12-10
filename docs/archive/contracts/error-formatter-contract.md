@@ -79,6 +79,7 @@ interface ErrorFormatterContract
 - [Error Formatters](../exceptions/formatters/README.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,3 +183,6 @@ interface ErrorFormatterContract
 =======
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 414a4ffcb (.)

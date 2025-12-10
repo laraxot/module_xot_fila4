@@ -12,6 +12,7 @@ class FilterRelationsAction
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $relations
      *
      * @param array<string, mixed> $relations
@@ -25,6 +26,9 @@ class FilterRelationsAction
 =======
      * @param  array<string, mixed>  $relations
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<string, mixed>  $relations
+>>>>>>> 414a4ffcb (.)
      * @return array<string, Relation>
      */
 <<<<<<< HEAD
@@ -49,6 +53,7 @@ class FilterRelationsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(Model $_model, array $relations): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +210,8 @@ class FilterRelationsAction
 =======
     public function execute(Model $_model, array $relations): array
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $filtered = [];
 

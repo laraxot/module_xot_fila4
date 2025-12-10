@@ -6,6 +6,7 @@ namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,11 @@ use Illuminate\Support\Carbon;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Support\Carbon;
+use Modules\Xot\Database\Factories\FeedFactory;
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Modules\Xot\Models\Feed.
@@ -106,6 +112,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|Feed whereUpdatedAt($value)
  * @method static Builder<static>|Feed whereUpdatedBy($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @method static FeedFactory factory($count = null, $state = [])
  * @method static Builder|Feed newModelQuery()
@@ -186,6 +193,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

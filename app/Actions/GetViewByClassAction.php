@@ -31,6 +31,7 @@ use InvalidArgumentException;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -69,6 +70,8 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Classe per ottenere una vista basata su una classe.
@@ -94,6 +97,7 @@ class GetViewByClassAction
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
     public function execute(string $class, array $params = [], ?string $viewName = null): View
+<<<<<<< HEAD
      * @param string $class Nome della classe
      * @param array<string, mixed> $params Parametri da passare alla vista
      * @param string|null $viewName Nome personalizzato della vista
@@ -112,6 +116,8 @@ class GetViewByClassAction
         $viewName = $viewName ?? $this->getViewNameFromClass($class);
         
     public function execute(string $class, array $params = [], null|string $viewName = null): View
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
@@ -158,6 +164,7 @@ class GetViewByClassAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Ottiene il nome della vista dal nome della classe.
      *
      * @param string $class Nome della classe
@@ -180,6 +187,11 @@ class GetViewByClassAction
      *
      * @param  string  $class  Il nome completo della classe
 >>>>>>> 551c768c4 (.)
+=======
+     * Risolve il percorso della view basato sul namespace della classe.
+     *
+     * @param  string  $class  Il nome completo della classe
+>>>>>>> 414a4ffcb (.)
      * @return string Il percorso della view
      */
     public function executeOld(string $class): string
@@ -189,6 +201,7 @@ class GetViewByClassAction
 
         // Verifica che la classe sia nel namespace Modules
         if ($arr[0] !== 'Modules') {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $arr = explode('\\', $class);
         Assert::isArray($arr);
@@ -242,6 +255,8 @@ class GetViewByClassAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             throw new InvalidArgumentException('Class must be in Modules namespace');
         }
 
@@ -306,6 +321,7 @@ class GetViewByClassAction
         $className = end($parts);
 
         return Str::kebab($className);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -565,5 +581,7 @@ class GetViewByClassAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

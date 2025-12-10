@@ -69,6 +69,7 @@ npm run copy
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +256,9 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
 >>>>>>> 551c768c4 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
+>>>>>>> 414a4ffcb (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -264,6 +268,7 @@ npm run copy         # Copia in /public/
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,6 +455,9 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
 >>>>>>> 551c768c4 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
+>>>>>>> 414a4ffcb (.)
 npm install
 npm run build
 npm run copy
@@ -517,6 +525,7 @@ export default defineConfig({
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 <<<<<<< HEAD
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+<<<<<<< HEAD
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
@@ -576,3 +585,5 @@ export default defineConfig({
 =======
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

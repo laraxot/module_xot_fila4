@@ -43,6 +43,7 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @property array<array-key, mixed> $meta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -87,6 +88,8 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @property array                           $meta
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @property string $ended_at
  * @property string $batch
  * @property Carbon|null $created_at
@@ -111,6 +114,7 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @method static Builder<static>|HealthCheckResultHistoryItem whereUpdatedAt($value)
  * @method static Builder<static>|HealthCheckResultHistoryItem whereUpdatedBy($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
  *
@@ -178,6 +182,8 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class HealthCheckResultHistoryItem extends BaseHealthCheckResultHistoryItem

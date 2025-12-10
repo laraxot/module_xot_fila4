@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -17,6 +18,10 @@ return [
 
 return [
 >>>>>>> 551c768c4 (.)
+=======
+
+return [
+>>>>>>> 414a4ffcb (.)
     'actions' => [
         'route:list' => [
             'label' => 'route:list',

@@ -26,6 +26,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +206,9 @@ Documentazione completa delle best practice PHPStan per le factory Laravel, basa
 =======
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
 >>>>>>> 551c768c4 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
+>>>>>>> 414a4ffcb (.)
 
 ## 📚 Principi Fondamentali
 
@@ -529,6 +533,7 @@ Vedere:
 ### Documentazione Implementazione
 Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-compliance.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedere: `Modules//database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -803,6 +808,8 @@ Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-complian
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## 📊 Metriche di Successo
 
@@ -838,6 +845,7 @@ Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-complian
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 <<<<<<< HEAD
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+<<<<<<< HEAD
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
@@ -897,3 +905,5 @@ Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-complian
 =======
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

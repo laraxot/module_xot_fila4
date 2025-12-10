@@ -41,6 +41,7 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/Content_Selection_and_Hig
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [search.md](../../../Xot/docs/features/search.md)
 * [search.md](../../../Xot/docs/rules/search.md)
@@ -140,6 +141,10 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/Content_Selection_and_Hig
 * [search.md](../../../Xot/docs/features/search.md)
 * [search.md](../../../Xot/docs/rules/search.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [search.md](../../../Xot/docs/features/search.md)
+* [search.md](../../../Xot/docs/rules/search.md)
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming

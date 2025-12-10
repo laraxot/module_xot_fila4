@@ -3,6 +3,7 @@
 ## 🎯 Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
@@ -13,6 +14,9 @@ Documentazione completa delle best practice PHPStan per le factory Laravel, basa
 =======
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <main module> e conformi ai principi del framework Laraxot.
 >>>>>>> 551c768c4 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <main module> e conformi ai principi del framework Laraxot.
+>>>>>>> 414a4ffcb (.)
 
 ## 📚 Principi Fondamentali
 
@@ -275,10 +279,14 @@ $result = $string . (string) $faker->method();
 
 ### Correzione Completa UserFactory
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 =======
 Vedere: `Modules/<main module>/database/factories/UserFactory.php`
 >>>>>>> 551c768c4 (.)
+=======
+Vedere: `Modules/<main module>/database/factories/UserFactory.php`
+>>>>>>> 414a4ffcb (.)
 
 ### Factory Specializzate Corrette
 Vedere:
@@ -287,6 +295,7 @@ Vedere:
 - `Modules/<main module>/database/factories/PatientFactory.php`
 
 ### Documentazione Implementazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
@@ -303,6 +312,9 @@ Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 =======
 Vedere: `Modules/<main module>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> 551c768c4 (.)
+=======
+Vedere: `Modules/<main module>/docs/factories/phpstan-factory-compliance.md`
+>>>>>>> 414a4ffcb (.)
 
 ## 📊 Metriche di Successo
 

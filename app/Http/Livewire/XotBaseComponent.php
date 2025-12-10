@@ -7,6 +7,7 @@ namespace Modules\Xot\Http\Livewire;
 // use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -20,6 +21,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Livewire\Component;
@@ -43,6 +47,7 @@ abstract class XotBaseComponent extends Component
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -220,11 +225,14 @@ abstract class XotBaseComponent extends Component
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $view = $module_name_low.'::livewire.'.$comp_name;
         $view = str_replace('._', '.', $view);
         // fare distinzione fra inAdmin o no ?
         if (! view()->exists($view)) {
             throw new Exception('View not Exists['.$view.']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -469,6 +477,8 @@ abstract class XotBaseComponent extends Component
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         return $view;

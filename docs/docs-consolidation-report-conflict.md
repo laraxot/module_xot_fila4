@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 <<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 =======
@@ -128,6 +129,34 @@
 >>>>>>> laraxot/develop
 >>>>>>> 50d6b63f (.)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> d86d643a (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> d86d643a (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> d86d643a (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> cf971011 (.)
+>>>>>>> e7da37af (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 39bb163e (.)
+>>>>>>> 9e42a036 (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> d86d643a (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> cf971011 (.)
+>>>>>>> e7da37af (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 39bb163e (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 414a4ffcb (.)
 # Report Consolidamento Documentazione - 27 Gennaio 2025
 
 ## Panoramica
@@ -231,21 +260,39 @@ Questo report documenta il progresso del consolidamento della documentazione sec
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
 <<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 50d6b63f (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan level 10
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 472bd9dc (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 50d6b63f (.)
+>>>>>>> 472bd9dc (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 3bf39332 (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> cf971011 (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> e7da37af (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 6d05deed (.)
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -340,6 +387,29 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 >>>>>>> laraxot/develop
 >>>>>>> 50d6b63f (.)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 39bb163e (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 9e42a036 (.)
+>>>>>>> 5a14301c (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 472bd9dc (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 3bf39332 (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> cf971011 (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> e7da37af (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 6d05deed (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 39bb163e (.)
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 414a4ffcb (.)
    - Aggiornamento esempi non conformi
    - Test di funzionamento degli esempi
 
@@ -452,21 +522,39 @@ laravel/
 - Tutti gli esempi conformi PHPStan Level 9
 <<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 50d6b63f (.)
+- Tutti gli esempi conformi PHPStan level 10
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 472bd9dc (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 50d6b63f (.)
+>>>>>>> 472bd9dc (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 3bf39332 (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> cf971011 (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> e7da37af (.)
 - Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 6d05deed (.)
 - Tutti gli esempi conformi PHPStan Level 9
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -561,6 +649,29 @@ laravel/
 >>>>>>> laraxot/develop
 >>>>>>> 50d6b63f (.)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 39bb163e (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 9e42a036 (.)
+>>>>>>> 5a14301c (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 472bd9dc (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 3bf39332 (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> cf971011 (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> e7da37af (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 6d05deed (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 39bb163e (.)
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 414a4ffcb (.)
 - Type hints espliciti e documentazione PHPDoc
 - Namespace corretti senza segmento `app`
 
@@ -619,6 +730,7 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 **Data Report**: 27 Gennaio 2025  
 **Stato**: Consolidamento in corso  
 **Prossimo Update**: Completamento consolidamento root docs
+<<<<<<< HEAD
 <<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 ========
 >>>>>>>> 7ee87c138 (.):docs/DOCS_CONSOLIDATION_REPORT.md
@@ -784,3 +896,53 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 >>>>>>> laraxot/develop
 >>>>>>> 50d6b63f (.)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> 43d67f21 (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> d86d643a (.)
+>>>>>>> 43d67f21 (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> d86d643a (.)
+>>>>>>> 43d67f21 (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> d86d643a (.)
+>>>>>>> 43d67f21 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> cc7fb225 (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 71586de2 (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 76bec91a (.)
+>>>>>>> e7da37af (.)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 0d20089f (.)
+>>>>>>> 39bb163e (.)
+>>>>>>> b396242e (.)
+>>>>>>> 9e42a036 (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> d86d643a (.)
+>>>>>>> 43d67f21 (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> cc7fb225 (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 71586de2 (.)
+>>>>>>> cf971011 (.)
+>>>>>>> 76bec91a (.)
+>>>>>>> e7da37af (.)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 0d20089f (.)
+>>>>>>> 39bb163e (.)
+>>>>>>> b396242e (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 414a4ffcb (.)

@@ -176,7 +176,10 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 - [Best Practices Documentazione](documentation-guidelines.md) 
 <<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
+=======
+=======
 - [Best Practices Documentazione](documentation-guidelines.md) 
+<<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
 - [Best Practices Documentazione](documentation-guidelines.md) 
 - [Best Practices Documentazione](documentation-guidelines.md) 
@@ -303,3 +306,6 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

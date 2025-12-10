@@ -55,6 +55,7 @@ class ListFilamentPanels extends Command
 >>>>>>> 2f3197ab (.)
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
+<<<<<<< HEAD
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
             $providersPath = $module->getPath() . '/Providers';
@@ -460,6 +461,8 @@ class ListFilamentPanels extends Command
             if (!is_dir($providersPath)) {
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 continue;
             }
 
@@ -586,6 +589,7 @@ class ListFilamentPanels extends Command
                     continue;
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
@@ -933,6 +937,8 @@ class ListFilamentPanels extends Command
                 $this->info("Found panel in {$moduleName}: {$provider}");
                 $this->info('Found panel in '.$moduleName.': '.$provider);
                 $this->info("Found panel in {$moduleName}: {$provider}");
+=======
+>>>>>>> 414a4ffcb (.)
                 $this->info("Found panel in {$moduleName}: {$provider}");
 =======
                 $this->info('Found panel in '.$moduleName.': '.$provider);

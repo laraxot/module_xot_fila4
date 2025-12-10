@@ -37,6 +37,7 @@ use function Safe\preg_match;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -123,10 +124,13 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di cast int in tutto il progetto
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
  * - Robustezza: Gestisce tutti i casi edge e mantiene la type safety
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
@@ -273,6 +277,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  */
 class SafeIntCastAction
 {
@@ -287,6 +293,7 @@ class SafeIntCastAction
      */
 <<<<<<< HEAD
     public function execute(mixed $value, ?int $default = 0): int
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +521,8 @@ class SafeIntCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         // Se è già un int, restituiscilo direttamente
         if (is_int($value)) {
@@ -541,6 +550,7 @@ class SafeIntCastAction
             return is_finite($value) ? ((int) $value) : ($default ?? 0);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,6 +635,8 @@ class SafeIntCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è null, restituisci il default
         if (is_null($value)) {
             return $default ?? 0;
@@ -637,6 +649,7 @@ class SafeIntCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -693,6 +706,8 @@ class SafeIntCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è una stringa, prova a convertirla
         if (is_string($value)) {
             return $this->parseStringToInt($value, $default);
@@ -705,6 +720,7 @@ class SafeIntCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -761,6 +777,8 @@ class SafeIntCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è un booleano, convertilo (true = 1, false = 0)
         if (is_bool($value)) {
             return $value ? 1 : 0;
@@ -773,6 +791,7 @@ class SafeIntCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -829,6 +848,8 @@ class SafeIntCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è un array e ha un solo elemento numerico
         if (is_array($value) && count($value) === 1) {
             return $this->execute(reset($value), $default);
@@ -843,6 +864,7 @@ class SafeIntCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -890,11 +912,14 @@ class SafeIntCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è un oggetto con metodo __toString, prova a convertirlo
         if (is_object($value) && method_exists($value, '__toString')) {
             return $this->parseStringToInt((string) $value, $default);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -969,11 +994,14 @@ class SafeIntCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Per tutti gli altri tipi, restituisci il default
         return $default ?? 0;
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     private function parseStringToInt(string $value, ?int $default = 0): int
@@ -1219,6 +1247,8 @@ class SafeIntCastAction
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * Metodo statico di convenienza per chiamate dirette.
      *
      * @param  mixed  $value  Il valore da convertire
@@ -1465,6 +1495,7 @@ class SafeIntCastAction
      */
     private function parseStringToInt(string $value, ?int $default = 0): int
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Converte una stringa in int con gestione avanzata.
      *
      * @param string $value La stringa da convertire
@@ -1475,6 +1506,8 @@ class SafeIntCastAction
     private function parseStringToInt(string $value, null|int $default = 0): int
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $trimmed = trim($value);
 
@@ -1489,6 +1522,7 @@ class SafeIntCastAction
         // Verifica se è un numero valido
         if (is_numeric($normalized)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $int = (int) $normalized;
             return $int;
             $int = (int) $normalized;
@@ -1502,10 +1536,14 @@ class SafeIntCastAction
 =======
             return (int) $normalized;
 >>>>>>> 551c768c4 (.)
+=======
+            return (int) $normalized;
+>>>>>>> 414a4ffcb (.)
         }
 
         // Prova a estrarre solo i numeri
         $matches = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
@@ -1515,11 +1553,15 @@ class SafeIntCastAction
 =======
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && ! empty($matches[0])) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && ! empty($matches[0])) {
+>>>>>>> 414a4ffcb (.)
             return (int) $matches[0];
         }
 
         return $default ?? 0;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -1816,4 +1858,6 @@ class SafeIntCastAction
     }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

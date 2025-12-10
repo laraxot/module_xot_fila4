@@ -114,6 +114,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +301,9 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 ❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/file.md`
 >>>>>>> 551c768c4 (.)
+=======
+❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 414a4ffcb (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -411,6 +415,7 @@ Il prompt `docs.txt` serve come:
    ```
 <<<<<<< HEAD
    ```
+<<<<<<< HEAD
    ```
    ```
    ```
@@ -470,3 +475,5 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

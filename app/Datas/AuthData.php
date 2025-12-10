@@ -21,6 +21,7 @@ class AuthData extends Data
      * @param  array  $throttle  Configurazione throttling
      * @param  array  $social  Provider social abilitati
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $guard          Guard predefinita
      * @param array  $guards         Guards disponibili
      * @param array  $providers      Provider di autenticazione
@@ -30,6 +31,8 @@ class AuthData extends Data
      * @param array  $social         Provider social abilitati
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function __construct(
         public readonly string $guard = 'web',
@@ -80,6 +83,7 @@ class AuthData extends Data
 =======
 >>>>>>> 8fd88dd43 (.)
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +277,8 @@ class AuthData extends Data
 =======
     ) {}
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Create a new instance of AuthData with default values.
@@ -280,6 +286,7 @@ class AuthData extends Data
     public static function make(): static
     {
         return new static;
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return static
@@ -289,5 +296,7 @@ class AuthData extends Data
         return new static();
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

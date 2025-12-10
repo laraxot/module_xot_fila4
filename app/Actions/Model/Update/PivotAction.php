@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Model\Update;
 
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\Pivot;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use Spatie\QueueableAction\QueueableAction;
@@ -14,6 +15,10 @@ use Webmozart\Assert\Assert;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Datas\RelationData as RelationDTO;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 414a4ffcb (.)
 
 class PivotAction
 {
@@ -122,6 +127,7 @@ class PivotAction
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
         Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
         Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
@@ -131,6 +137,10 @@ class PivotAction
         $rows = $relationDTO->rows;
         // $rows is already typed as Relation in RelationDTO
 >>>>>>> 551c768c4 (.)
+=======
+        $rows = $relationDTO->rows;
+        // $rows is already typed as Relation in RelationDTO
+>>>>>>> 414a4ffcb (.)
         dddx('wip');
 
         /*
@@ -144,6 +154,7 @@ class PivotAction
          *
          *
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,5 +499,7 @@ class PivotAction
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

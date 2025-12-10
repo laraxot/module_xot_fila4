@@ -66,6 +66,7 @@
 1. **Errore**: Directory errata
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +313,10 @@
    - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
    - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
 >>>>>>> 551c768c4 (.)
+=======
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+>>>>>>> 414a4ffcb (.)
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`

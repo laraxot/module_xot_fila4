@@ -72,6 +72,7 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 - [Performance Guidelines](../performance/database-queries.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,3 +176,6 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 =======
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 414a4ffcb (.)

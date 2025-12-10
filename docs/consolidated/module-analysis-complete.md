@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +184,9 @@ Il modulo Xot è la base fondamentale del sistema SaluteOra, fornendo classi bas
 =======
 Il modulo Xot è la base fondamentale del sistema <nome progetto>, fornendo classi base, trait e funzionalità condivise per tutti gli altri moduli. Questo documento fornisce un'analisi completa dello stato attuale di factory, seeder e test, con focus sulla business logic.
 >>>>>>> 551c768c4 (.)
+=======
+Il modulo Xot è la base fondamentale del sistema <nome progetto>, fornendo classi base, trait e funzionalità condivise per tutti gli altri moduli. Questo documento fornisce un'analisi completa dello stato attuale di factory, seeder e test, con focus sulla business logic.
+>>>>>>> 414a4ffcb (.)
 
 ## 🏗️ Struttura Modelli e Relazioni
 
@@ -431,6 +435,7 @@ Il modulo Xot è la base fondamentale del sistema <nome progetto>, fornendo clas
 **Stato**: In Progress
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,3 +572,8 @@ Il modulo Xot è la base fondamentale del sistema <nome progetto>, fornendo clas
 >>>>>>> 551c768c4 (.)
 **Prossima Revisione**: Gennaio 2025
 
+=======
+**Responsabile**: Team Sviluppo <nome progetto>
+**Prossima Revisione**: Gennaio 2025
+
+>>>>>>> 414a4ffcb (.)

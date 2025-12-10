@@ -32,6 +32,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -295,6 +296,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -401,6 +404,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -447,6 +451,9 @@ class ModuleBusinessLogicTest extends TestCase
 =======
         $this->expectException(QueryException::class);
 >>>>>>> 60f0a1820 (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> 414a4ffcb (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -730,6 +737,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -776,6 +784,9 @@ class ModuleBusinessLogicTest extends TestCase
 =======
             $this->expectException(QueryException::class);
 >>>>>>> 60f0a1820 (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> 414a4ffcb (.)
 
             Module::create($moduleData);
         }
@@ -863,6 +874,7 @@ class ModuleBusinessLogicTest extends TestCase
         $this->assertEquals(42, $moduleErrorLog[0]['context']['line']);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1034,3 +1046,5 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

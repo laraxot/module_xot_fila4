@@ -70,6 +70,7 @@ interface ModelWithAuthorContract extends ModelContract
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +159,9 @@ interface ModelWithAuthorContract extends ModelContract
 =======
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 414a4ffcb (.)
 - [Contracts Overview](./README.md)
 - [Documentazione root](../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
 
@@ -210,6 +214,7 @@ class Article extends Model implements ModelWithAuthorContract
 - Implementare sempre tutte le relazioni richieste
 - Gestire correttamente i casi di soft delete
 - Mantenere la consistenza dei dati nelle relazioni
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,3 +282,6 @@ class Article extends Model implements ModelWithAuthorContract
 =======
 - Documentare eventuali personalizzazioni 
 >>>>>>> 551c768c4 (.)
+=======
+- Documentare eventuali personalizzazioni 
+>>>>>>> 414a4ffcb (.)

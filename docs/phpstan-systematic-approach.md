@@ -73,6 +73,7 @@
 **Scopo**: Guida operativa per correggere sistematicamente TUTTI gli errori PHPStan
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +161,9 @@
 =======
 **Principi**: DRY + KISS + Type Safety level 10/10
 >>>>>>> 551c768c4 (.)
+=======
+**Principi**: DRY + KISS + Type Safety level 10/10
+>>>>>>> 414a4ffcb (.)
 
 ## 🏗️ Architettura Fondamentale
 
@@ -293,6 +297,7 @@ $collection->get('key', 'default');
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +385,9 @@ $collection->get('key', 'default');
 =======
 - [ ] Zero errori PHPStan level 10+ su tutti i moduli
 >>>>>>> 551c768c4 (.)
+=======
+- [ ] Zero errori PHPStan level 10+ su tutti i moduli
+>>>>>>> 414a4ffcb (.)
 - [ ] Documentazione aggiornata per ogni modulo
 - [ ] Pattern comuni documentati e riutilizzabili
 - [ ] Framework robusto per sviluppi futuri
@@ -391,6 +399,7 @@ $collection->get('key', 'default');
 - [PHPStan Consolidated Guide](consolidated/phpstan/phpstan-consolidated.md)
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -533,3 +542,6 @@ $collection->get('key', 'default');
 =======
 *Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
 >>>>>>> 551c768c4 (.)
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 414a4ffcb (.)

@@ -55,6 +55,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +234,9 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> 551c768c4 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 414a4ffcb (.)
 
 ### Formato Corretto
 ```markdown
@@ -274,6 +278,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> e39b54ba7 (.)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
+<<<<<<< HEAD
 =======
 >>>>>>> ecd5ec32 (.)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
@@ -450,12 +455,15 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -759,6 +767,11 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> 551c768c4 (.)
+=======
+[Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/documento.md)
+[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/project_docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### Checklist di Validazione

@@ -111,6 +111,7 @@ class Article extends Model implements ModelWithUserContract
 - [User Management](../features/USER-MANAGEMENT.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,3 +230,7 @@ class Article extends Model implements ModelWithUserContract
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 414a4ffcb (.)

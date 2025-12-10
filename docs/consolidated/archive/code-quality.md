@@ -8,6 +8,7 @@ This document defines the mandatory code quality standards for Laraxot projects.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +124,11 @@ This document defines the mandatory code quality standards for Laraxot projects.
 - **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
 - **MINIMUM** PHPStan level 10 for all new code
 >>>>>>> 551c768c4 (.)
+=======
+### 1. Strict Typing and PHPStan level 10+
+- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
+- **MINIMUM** PHPStan level 10 for all new code
+>>>>>>> 414a4ffcb (.)
 - **NEVER** use `mixed` types unless absolutely necessary
 - **ALWAYS** provide explicit return types and parameter types
 
@@ -295,6 +301,7 @@ $content = \file_get_contents($path); // Può restituire false
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,6 +488,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 >>>>>>> 551c768c4 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> 414a4ffcb (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -580,6 +590,7 @@ unset($translations['existing_key']); // MAI!
 **Versione**: 2.0  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,6 +770,9 @@ unset($translations['existing_key']); // MAI!
 =======
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 >>>>>>> 551c768c4 (.)
+=======
+**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
+>>>>>>> 414a4ffcb (.)
 
 ---
 

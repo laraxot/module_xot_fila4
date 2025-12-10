@@ -6,6 +6,7 @@ namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +252,11 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Cache;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\Cache;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class CachePolicy extends XotBasePolicy
 {
@@ -295,6 +301,7 @@ class CachePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, Cache $cache): bool
 =======
 =======
@@ -351,6 +358,8 @@ class CachePolicy extends XotBasePolicy
     public function view(UserContract $user, Cache $_cache): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('cache.view');
     }
@@ -374,6 +383,7 @@ class CachePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, Cache $cache): bool
 =======
 =======
@@ -430,6 +440,8 @@ class CachePolicy extends XotBasePolicy
     public function update(UserContract $user, Cache $_cache): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('cache.update');
     }
@@ -445,6 +457,7 @@ class CachePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, Cache $cache): bool
 =======
 =======
@@ -501,6 +514,8 @@ class CachePolicy extends XotBasePolicy
     public function delete(UserContract $user, Cache $_cache): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('cache.delete');
     }
@@ -516,6 +531,7 @@ class CachePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, Cache $cache): bool
 =======
 =======
@@ -572,6 +588,8 @@ class CachePolicy extends XotBasePolicy
     public function restore(UserContract $user, Cache $_cache): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('cache.restore');
     }

@@ -30,6 +30,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -270,6 +271,10 @@ uses(Tests\TestCase::class);
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+uses(TestCase::class);
+>>>>>>> 414a4ffcb (.)
 
 afterEach(function (): void {
     Mockery::close();
@@ -330,6 +335,7 @@ it('tests table method with all methods implemented', function () {
     $mock->shouldReceive('getTableHeading')->andReturn('Test Table');
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFilters')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +492,8 @@ it('tests table method with all methods implemented', function () {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     // Stub optional methods to avoid resolving translator / actions
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
@@ -493,6 +501,7 @@ it('tests table method with all methods implemented', function () {
     $mock->shouldReceive('getTableActions')->andReturn([]);
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +535,8 @@ it('tests table method with all methods implemented', function () {
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
 <<<<<<< HEAD
@@ -650,6 +661,7 @@ it('tests table method with no optional methods implemented', function () {
     $mock->shouldReceive('getTableHeading')->andReturn('Test Table');
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFilters')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -781,6 +793,8 @@ it('tests table method with no optional methods implemented', function () {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     // Avoid constructing Filament Actions which require translator binding
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
@@ -788,6 +802,7 @@ it('tests table method with no optional methods implemented', function () {
     $mock->shouldReceive('getTableActions')->andReturn([]);
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -821,6 +836,8 @@ it('tests table method with no optional methods implemented', function () {
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
 <<<<<<< HEAD
@@ -902,6 +919,7 @@ it('tests table method with no optional methods implemented', function () {
     /* @phpstan-ignore-next-line argument.templateType */
     expect($result)->toBe($tableMock);
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1502,3 +1520,5 @@ class DummyModel extends \Illuminate\Database\Eloquent\Model
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)

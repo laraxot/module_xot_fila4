@@ -11,6 +11,7 @@
 ## Collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,5 +198,8 @@
 =======
 - [../../<nome progetto>/docs/state-machine.md](../../<nome progetto>/docs/state-machine.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [../../<nome progetto>/docs/state-machine.md](../../<nome progetto>/docs/state-machine.md)
+>>>>>>> 414a4ffcb (.)
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)

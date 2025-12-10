@@ -106,6 +106,7 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
@@ -210,6 +211,10 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> 80bc07e81 (.)
+=======
+# Accedere direttamente al panel PDND
+curl -I http://personale2022.prov.tv.local/pdnd/admin
+>>>>>>> 414a4ffcb (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
@@ -250,6 +255,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
@@ -354,6 +360,10 @@ curl -I http://personale2022.prov.tv.local/admin
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> 80bc07e81 (.)
+=======
+# Accedere al dashboard principale
+curl -I http://personale2022.prov.tv.local/admin
+>>>>>>> 414a4ffcb (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
@@ -379,6 +389,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
@@ -546,11 +557,16 @@ curl -I http://personale2022.prov.tv.local/admin
 =======
 >>>>>>> 5df5c7505 (.)
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+<<<<<<< HEAD
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # senza redirect automatico
 ```
 
@@ -594,6 +610,7 @@ I ruoli devono seguire il pattern `{module}::admin`:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
@@ -666,6 +683,9 @@ I ruoli devono seguire il pattern `{module}::admin`:
 =======
 
 >>>>>>> 80bc07e81 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
 # Esempi di ruoli corretti
 pdnd::admin
 user::admin
@@ -911,6 +931,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 2025-01-27* 
 >>>>>>> 85cdef688 (.)
@@ -1011,3 +1032,6 @@ performance::admin
 =======
 *Ultimo aggiornamento: 2025-01-27* 
 >>>>>>> 80bc07e81 (.)
+=======
+*Ultimo aggiornamento: 2025-01-27* 
+>>>>>>> 414a4ffcb (.)

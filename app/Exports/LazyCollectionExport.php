@@ -6,9 +6,13 @@ namespace Modules\Xot\Exports;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Contracts\Support\Arrayable;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Contracts\Support\Arrayable;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Collection;
 use Illuminate\Support\LazyCollection;
 use Iterator;
@@ -18,9 +22,13 @@ use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
 use Modules\Lang\Actions\TransCollectionAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Traversable;
 >>>>>>> 551c768c4 (.)
+=======
+use Traversable;
+>>>>>>> 414a4ffcb (.)
 
 /**
  * @implements WithMapping<\Illuminate\Database\Eloquent\Model>
@@ -31,6 +39,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
     public array $headings;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public null|string $transKey;
@@ -306,6 +315,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
     public ?string $transKey;
 >>>>>>> 551c768c4 (.)
+=======
+    public ?string $transKey;
+>>>>>>> 414a4ffcb (.)
 
     /** @var array<int, string> */
     public array $fields = [];
@@ -313,6 +325,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param  LazyCollection<int, \Illuminate\Database\Eloquent\Model>  $collection
     /**
@@ -325,6 +338,8 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 414a4ffcb (.)
      * @param  array<int, string>  $fields
      */
 <<<<<<< HEAD
@@ -360,6 +375,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     public function __construct(
         public LazyCollection $collection,
         ?string $transKey = null,
+<<<<<<< HEAD
      * @param array<int, string> $fields
      */
     public function __construct(
@@ -437,6 +453,10 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        array $fields = [],
+    ) {
+>>>>>>> 414a4ffcb (.)
         // $this->headings = count($headings) > 0 ? $headings : collect($collection->first())->keys()->toArray();
 
         $this->transKey = $transKey;
@@ -497,6 +517,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         /*
          * return [
          * $row->,
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Undocumented function.
      *
@@ -635,6 +656,8 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         /*
          * return [
          * $item->,
+=======
+>>>>>>> 414a4ffcb (.)
          * ];
          */
 =======
@@ -750,6 +773,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         }
 
         $head = $this->collection->first();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -916,6 +940,11 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
         return collect($headArray)->keys();
 >>>>>>> 551c768c4 (.)
+=======
+        $headArray = $this->normalizeRow($head);
+
+        return collect($headArray)->keys();
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
@@ -954,6 +983,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     public function iterator(): Iterator
@@ -968,12 +998,16 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
     public function iterator(): Iterator
 >>>>>>> 091f883c (.)
+=======
+    public function iterator(): Iterator
+>>>>>>> 414a4ffcb (.)
     {
         /* @phpstan-ignore return.type */
         return $this->collection->getIterator();
     }
 
     /**
+     * @param  mixed  $row
      * @return array<int|string, mixed>
      */
     private function normalizeRow(mixed $row): array

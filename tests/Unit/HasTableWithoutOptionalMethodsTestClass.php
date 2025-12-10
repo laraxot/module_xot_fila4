@@ -9,12 +9,15 @@ use Mockery;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 use Filament\Tables\Table;
 use Mockery;
 use Modules\Xot\Filament\Traits\HasXotTable;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Dummy class without the optional methods.
@@ -29,9 +32,13 @@ class HasTableWithoutOptionalMethodsTestClass
         $mock->shouldReceive('getTableColumns')->andReturn([]);
         $mock->shouldReceive('getTableContentGrid')->andReturn([]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         return $mock;
     }
 
@@ -47,6 +54,7 @@ class HasTableWithoutOptionalMethodsTestClass
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTablePage(): null|int
     public function getTablePage(): null|int
     public function getTablePage(): null|int
@@ -56,6 +64,9 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getTablePage(): ?int
 >>>>>>> 551c768c4 (.)
+=======
+    public function getTablePage(): ?int
+>>>>>>> 414a4ffcb (.)
     {
         return 1;
     }
@@ -66,6 +77,7 @@ class HasTableWithoutOptionalMethodsTestClass
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableSortColumn(): null|string
     public function getTableSortColumn(): null|string
     public function getTableSortColumn(): null|string
@@ -75,10 +87,14 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getTableSortColumn(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getTableSortColumn(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableSortDirection(): null|string
     public function getTableSortDirection(): null|string
@@ -89,6 +105,9 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getTableSortDirection(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getTableSortDirection(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -104,6 +123,7 @@ class HasTableWithoutOptionalMethodsTestClass
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableFilterState(string $_name): null|array
     public function getTableFilterState(string $_name): null|array
     public function getTableFilterState(string $_name): null|array
@@ -113,10 +133,14 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getTableFilterState(string $_name): ?array
 >>>>>>> 551c768c4 (.)
+=======
+    public function getTableFilterState(string $_name): ?array
+>>>>>>> 414a4ffcb (.)
     {
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableGrouping(): null|string
     public function getTableGrouping(): null|string
@@ -127,10 +151,14 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getTableGrouping(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getTableGrouping(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableSearchIndicator(): null|string
     public function getTableSearchIndicator(): null|string
@@ -141,6 +169,9 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getTableSearchIndicator(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getTableSearchIndicator(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -216,6 +247,7 @@ class HasTableWithoutOptionalMethodsTestClass
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getMountedTableAction(): null|string
     public function getMountedTableAction(): null|string
     public function getMountedTableAction(): null|string
@@ -225,6 +257,9 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getMountedTableAction(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getMountedTableAction(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -245,6 +280,7 @@ class HasTableWithoutOptionalMethodsTestClass
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getMountedTableBulkAction(): null|string
     public function getMountedTableBulkAction(): null|string
     public function getMountedTableBulkAction(): null|string
@@ -254,6 +290,9 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getMountedTableBulkAction(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getMountedTableBulkAction(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -264,6 +303,7 @@ class HasTableWithoutOptionalMethodsTestClass
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getActiveTableLocale(): null|string
     public function getActiveTableLocale(): null|string
     public function getActiveTableLocale(): null|string
@@ -273,6 +313,9 @@ class HasTableWithoutOptionalMethodsTestClass
 =======
     public function getActiveTableLocale(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getActiveTableLocale(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -313,6 +356,7 @@ class HasTableWithoutOptionalMethodsTestClass
 
     public function mountTableBulkAction(): void {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function deselectAllTableRecords(): void
     {
     }
@@ -326,6 +370,8 @@ class HasTableWithoutOptionalMethodsTestClass
     }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     public function mountedTableActionRecord(): mixed
     {
@@ -341,6 +387,7 @@ class HasTableWithoutOptionalMethodsTestClass
     public function resetTableColumnSearch(): void {}
 
     public function toggleTableReordering(): void {}
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function replaceMountedTableAction(): void
     {
@@ -363,6 +410,8 @@ class HasTableWithoutOptionalMethodsTestClass
     }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     public function parseTableFilterName(): string
     {

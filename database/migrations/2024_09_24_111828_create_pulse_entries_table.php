@@ -8,6 +8,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 return new class extends XotBaseMigration
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
@@ -29,6 +30,8 @@ return new class extends XotBaseMigration
 return new class extends XotBaseMigration {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * Run the migrations.
      */
@@ -37,6 +40,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! $this->shouldRun()) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +232,8 @@ return new class extends XotBaseMigration {
 =======
         if (! $this->shouldRun()) {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             return;
         }
         // -- CREATE --
@@ -242,6 +248,7 @@ return new class extends XotBaseMigration {
                 'sqlite' => $table->string('key_hash'),
                 default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
@@ -254,6 +261,8 @@ return new class extends XotBaseMigration {
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             };
             $table->bigInteger('value')->nullable();
 
@@ -262,6 +271,7 @@ return new class extends XotBaseMigration {
             $table->index('key_hash'); // For mapping...
             $table->index(['timestamp', 'type', 'key_hash', 'value']); // For aggregate queries...
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,5 +404,7 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 };

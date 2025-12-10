@@ -75,10 +75,14 @@ trait HasCommonScopes
     public function scopeDraft(Builder $query): Builder
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $query->where(function ($q) {
 =======
         return $query->where(function ($q): void {
 >>>>>>> 551c768c4 (.)
+=======
+        return $query->where(function ($q): void {
+>>>>>>> 414a4ffcb (.)
             $q->whereNull('published_at')
                 ->orWhere('published_at', '>', now());
         });
@@ -89,9 +93,12 @@ trait HasCommonScopes
      *
      * @param  Builder<static>  $query
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $date
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return Builder<static>
      */
     public function scopeCreatedAfter(Builder $query, mixed $date): Builder
@@ -104,9 +111,12 @@ trait HasCommonScopes
      *
      * @param  Builder<static>  $query
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $date
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return Builder<static>
      */
     public function scopeCreatedBefore(Builder $query, mixed $date): Builder
@@ -119,9 +129,12 @@ trait HasCommonScopes
      *
      * @param  Builder<static>  $query
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $date
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return Builder<static>
      */
     public function scopeUpdatedAfter(Builder $query, mixed $date): Builder
@@ -134,9 +147,12 @@ trait HasCommonScopes
      *
      * @param  Builder<static>  $query
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|int  $userId
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return Builder<static>
      */
     public function scopeCreatedBy(Builder $query, string|int $userId): Builder

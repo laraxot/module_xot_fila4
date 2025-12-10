@@ -140,6 +140,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8fd88dd43 (.)
 =======
@@ -330,6 +331,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     'backend' => [
         'access' => [
@@ -343,6 +346,7 @@ return [
                 'not_found' => 'Die rol bestaat niet.',
                 'update_error' => 'Er is een probleem opgetreden bij het bijwerken van deze rol. Probeer het nogmaals.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +518,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'users' => [
                 'cant_deactivate_self' => 'U kunt uzelf niet deactiveren',
                 'cant_delete_self' => 'U kunt uzelf niet verwijderen.',
@@ -558,6 +564,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -703,6 +710,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -741,6 +750,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1002,6 +1012,8 @@ return [
             'deactivated' => 'Uw account is gedactiveerd.',
             'email_taken' => 'Dat emailadres is al in gebruik.',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'password' => [
                 'change_mismatch' => 'Dat is niet uw oude wachtwoord',
             ],

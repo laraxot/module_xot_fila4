@@ -14,6 +14,7 @@ namespace Modules\Xot\Actions\Dummy;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -59,6 +60,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 60f0a1820 (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
 use Spatie\QueueableAction\QueueableAction;
@@ -71,6 +75,7 @@ class GetProductsArrayDummyAction
     /**
      * Execute the function with the given model class.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,11 +132,22 @@ class GetProductsArrayDummyAction
 =======
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
 >>>>>>> 60f0a1820 (.)
+=======
+     * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(): array
     {
         // API
-        Assert::isArray($products = Http::get('https://dummyjson.com/products')->json());
+        $response = Http::get('https://dummyjson.com/products');
+        
+        // Ensure we have a Response, not Promise
+        if ($response instanceof \GuzzleHttp\Promise\PromiseInterface) {
+            $response = $response->wait();
+        }
+        
+        /** @var \Illuminate\Http\Client\Response $response */
+        Assert::isArray($products = $response->json());
         Assert::isArray($products['products']);
 
         // filtering some attributes
@@ -139,12 +155,15 @@ class GetProductsArrayDummyAction
             // Verifichiamo che $item sia un array prima di usare Arr::only
             if (! is_array($item)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         // filtering some attributes
         $products = Arr::map($products['products'], function ($item) {
             // Verifichiamo che $item sia un array prima di usare Arr::only
             if (!is_array($item)) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 return []; // Restituiamo un array vuoto se $item non è un array
             }
 <<<<<<< HEAD
@@ -260,6 +279,7 @@ class GetProductsArrayDummyAction
                 'category',
                 'thumbnail',
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -494,5 +514,8 @@ class GetProductsArrayDummyAction
         return $products;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+        });
+>>>>>>> 414a4ffcb (.)
     }
 }

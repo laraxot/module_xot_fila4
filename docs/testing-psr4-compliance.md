@@ -356,6 +356,7 @@ composer dump-autoload
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 =======
@@ -579,6 +580,9 @@ composer dump-autoload
 =======
 - [Testing Guide - Modulo <nome modulo>](../../<nome modulo>/docs/testing.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [Testing Guide - Modulo <nome modulo>](../../<nome modulo>/docs/testing.md)
+>>>>>>> 414a4ffcb (.)
 - [PHPStan Configuration](./phpstan-configuration-fixes.md)
 - [Best Practices](./best-practices-consolidated.md)
 

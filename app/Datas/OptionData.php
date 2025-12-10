@@ -19,6 +19,7 @@ class OptionData extends Data
      * @param  string  $prefix  Prefisso per le chiavi delle opzioni
      * @param  array  $autoload  Opzioni da caricare automaticamente
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $cache_driver    Driver per la cache delle opzioni
      * @param bool   $enable_cache    Se abilitare la cache delle opzioni
      * @param int    $cache_ttl       TTL cache in secondi
@@ -26,6 +27,8 @@ class OptionData extends Data
      * @param array  $autoload        Opzioni da caricare automaticamente
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function __construct(
         public readonly string $cache_driver = 'file',
@@ -65,6 +68,7 @@ class OptionData extends Data
 =======
 >>>>>>> 8fd88dd43 (.)
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +262,8 @@ class OptionData extends Data
 =======
     ) {}
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Create a new instance of OptionData with default values.
@@ -265,6 +271,7 @@ class OptionData extends Data
     public static function make(): static
     {
         return new static;
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return static
@@ -274,5 +281,7 @@ class OptionData extends Data
         return new static();
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

@@ -11,6 +11,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 return new class extends XotBaseMigration
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
@@ -24,6 +25,8 @@ return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * Run the migrations.
      */
@@ -137,6 +140,7 @@ return new class extends XotBaseMigration {
             $table->string('owner');
             $table->integer('expiration');
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,5 +354,7 @@ return new class extends XotBaseMigration {
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 };

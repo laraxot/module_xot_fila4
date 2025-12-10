@@ -15,6 +15,7 @@ namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 use Filament\Actions\Action;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 300ef70 (.)
@@ -104,6 +105,9 @@ use Filament\Actions;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+use Filament\Actions\CreateAction;
+>>>>>>> 414a4ffcb (.)
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Enums\TableLayoutEnum;
@@ -112,6 +116,7 @@ use Modules\Xot\Filament\Resources\CacheResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 use Override;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
@@ -128,6 +133,8 @@ use Modules\Xot\Filament\Widgets\Clock;
 use Override;
 >>>>>>> 551c768c4 (.)
 
+=======
+>>>>>>> 414a4ffcb (.)
 
 =======
 <<<<<<< HEAD
@@ -175,6 +182,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
 =======
@@ -231,6 +239,8 @@ class ListCaches extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableColumns(): array
     {
         return [
@@ -246,6 +256,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -301,6 +312,8 @@ class ListCaches extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'value' => TextColumn::make('value')
                 ->searchable()
                 ->wrap()
@@ -312,6 +325,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -367,6 +381,8 @@ class ListCaches extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'expiration' => TextColumn::make('expiration')
                 ->dateTime()
                 ->sortable()
@@ -383,6 +399,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
 =======
@@ -439,6 +456,8 @@ class ListCaches extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -457,6 +476,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, Action>
      */
     #[Override]
@@ -515,6 +535,8 @@ class ListCaches extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     protected function getHeaderActions(): array
     {
         return [

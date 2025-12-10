@@ -100,6 +100,7 @@
 | Notify | 19+ | Notifiche standardizzate |
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,6 +294,10 @@
 | <nome modulo> | 13+ | Business logic semplificata |
 | <nome progetto> | 45+ | Core business centralizzato |
 >>>>>>> 551c768c4 (.)
+=======
+| <nome modulo> | 13+ | Business logic semplificata |
+| <nome progetto> | 45+ | Core business centralizzato |
+>>>>>>> 414a4ffcb (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |

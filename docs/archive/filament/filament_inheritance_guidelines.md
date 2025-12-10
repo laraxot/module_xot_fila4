@@ -19,6 +19,7 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
    ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +46,9 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 =======
    grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
 >>>>>>> 551c768c4 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
+>>>>>>> 414a4ffcb (.)
    ```
 
 3. **Principio di Sostituzione di Liskov**: Le sottoclassi devono essere sostituibili alle loro classi base senza alterare il comportamento corretto del programma.
@@ -122,6 +126,7 @@ public function getNavigationLabel(): string // Non static!
 - [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,3 +163,7 @@ public function getNavigationLabel(): string // Non static!
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+>>>>>>> 414a4ffcb (.)

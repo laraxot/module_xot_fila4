@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +607,8 @@ php artisan lang:check
 
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 
+=======
+>>>>>>> 414a4ffcb (.)
 - [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
 
 ### Modulo User
@@ -880,6 +883,7 @@ php artisan lang:check
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1123,6 +1127,8 @@ php artisan lang:check
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
@@ -1153,6 +1159,7 @@ php artisan lang:check
 =======
 >>>>>>> 358ba79a7 (.)
 **Stato**: ✅ Completato
+<<<<<<< HEAD
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
@@ -1200,3 +1207,7 @@ php artisan lang:check
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

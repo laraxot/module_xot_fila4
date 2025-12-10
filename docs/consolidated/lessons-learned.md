@@ -58,6 +58,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - Do not modify `laravel/phpstan.neon`.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +122,9 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Use CLI flags for scope/limits; target level 10+. Keep array key/value types explicit.
 >>>>>>> 551c768c4 (.)
+=======
+- Use CLI flags for scope/limits; target level 10+. Keep array key/value types explicit.
+>>>>>>> 414a4ffcb (.)
 
 ## 8. Testing
 - No `RefreshDatabase`.
@@ -177,6 +181,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> ce6fc085 (.)
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
+<<<<<<< HEAD
 ## 10. Icons & Assets ()
 - SVG in `laravel/Modules//resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
 <<<<<<< HEAD
@@ -327,6 +332,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 551c768c4 (.)
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
+=======
+>>>>>>> 414a4ffcb (.)
 ## 10. Icons & Assets (<nome progetto>)
 - SVG in `laravel/Modules/<nome progetto>/resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
 <<<<<<< HEAD
@@ -440,6 +447,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518,3 +526,6 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Backlinks: see `Modules/<nome modulo>/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
 >>>>>>> 551c768c4 (.)
+=======
+- Backlinks: see `Modules/<nome modulo>/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+>>>>>>> 414a4ffcb (.)

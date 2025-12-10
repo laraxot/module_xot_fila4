@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Forms\Components;
 
 use Filament\Forms\Components\Field;
 use Illuminate\Contracts\Support\Htmlable;
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Forms\Components\Field;
 =======
@@ -29,6 +30,8 @@ use Filament\Forms\Components\Field;
 =======
 use Illuminate\Contracts\Support\Htmlable;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -47,6 +50,7 @@ abstract class XotBaseFormComponent extends Field
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Base class for form components.
  *
  * @method static static make(string $name) Create a new instance of the component
@@ -58,6 +62,8 @@ abstract class XotBaseFormComponent extends Field
      */
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getName(): string
     {
         $name = parent::getName();
@@ -79,6 +85,7 @@ abstract class XotBaseFormComponent extends Field
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * Get the component label.
      */
@@ -97,10 +104,13 @@ abstract class XotBaseFormComponent extends Field
         }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return (string) $label;
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Configure the component.
      */
@@ -233,12 +243,15 @@ abstract class XotBaseFormComponent extends Field
      *
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return array<string, mixed>
      */
     public function getValidationRules(): array
     {
         /** @var array<string, mixed> */
         return parent::getValidationRules();
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @var array<string, mixed> */
         return parent::getValidationRules();
@@ -249,5 +262,7 @@ abstract class XotBaseFormComponent extends Field
         return $rules;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

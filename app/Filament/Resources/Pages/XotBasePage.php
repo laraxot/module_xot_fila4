@@ -16,6 +16,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
@@ -72,6 +73,9 @@ use Modules\Xot\Filament\Traits\TransTrait;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Pages\Concerns\InteractsWithFormActions;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+=======
+
+>>>>>>> 414a4ffcb (.)
 /**
  * Base class for all custom pages in the application.
  *
@@ -87,6 +91,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property ?array $data
  * @property Schema $form
@@ -112,11 +117,14 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use TransTrait;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * The model class associated with this page, if any.
      */
     public static ?string $model = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static null|string $model = null;
     public static null|string $model = null;
@@ -195,6 +203,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public static null|string $model = null;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * The form data.
@@ -203,6 +213,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      */
     public ?array $data = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $data = [];
     public null|array $data = [];
     public null|array $data = [];
@@ -211,23 +222,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public null|array $data = [];
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
-    public ?array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-
-    public null|array $data = [];
-
-    public null|array $data = [];
-
-    public ?array $data = [];
-
-    
     /**
      * Get the view that should be used for the page.
      */
@@ -235,14 +232,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     {
         if (isset($this->view)) {
             return $this->view;
-        if (isset($this->view)) {
-            return $this->view;
-        if (isset($this->view)) {
-            return $this->view;
-        if (isset($this->view)) {
-            return $this->view;
-        if (isset(static::$view)) {
-            return static::$view;
         }
 
         $view = Str::of(static::class)
@@ -255,10 +244,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
                     ->afterLast('\\')
                     ->kebab()
                     ->toString(),
-            ->append(Str::of(static::class)
-                ->afterLast('\\')
-                ->kebab()
-                ->toString()
             );
 
         return $view->toString();
@@ -298,6 +283,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->statePath('data');
@@ -315,6 +301,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * Get the associated model class for this page.
      *
      * This method must be non-static to properly override the parent method.
@@ -352,18 +340,13 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Get the form schema for the page.
      *
      * @return array<string, Component>
-     * Get the form schema for the page.
-     *
-     * @return array<string, Component>
-     * @return array<string, Component>
-     * @return array<string, Component>
-     * @return array<string, Component>
      */
     protected function getFormSchema(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -435,6 +418,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Hook chiamato all'inizializzazione del componente.
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /*
      * Hook chiamato all'inizializzazione del componente.
      *
@@ -444,13 +429,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * $this->form->fill($this->data ?? []);
      * }
      */
-     
-    public function mount(int|string $record): void
-    {
-        parent::mount($record);
-        $this->form->fill($this->data ?? []);
-    }
-    */
     /**
      * Get the view data for the page.
      *

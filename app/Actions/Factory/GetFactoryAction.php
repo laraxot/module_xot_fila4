@@ -14,6 +14,7 @@ namespace Modules\Xot\Actions\Factory;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -26,10 +27,14 @@ use Exception;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -37,6 +42,8 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -50,6 +57,7 @@ class GetFactoryAction
     /**
      * Execute the function with the given model class.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $model_class the class name of the model
      *
@@ -76,6 +84,11 @@ class GetFactoryAction
      *
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  string  $model_class  the class name of the model
+     *
+     * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(string $model_class): Factory
     {
@@ -157,6 +170,7 @@ class GetFactoryAction
             return $factory;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,6 +340,8 @@ class GetFactoryAction
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $this->createFactory($model_class);
 
         // Lancia un'eccezione con informazioni specifiche
@@ -347,6 +363,7 @@ class GetFactoryAction
 <<<<<<< HEAD
 <<<<<<< HEAD
             class_basename($this),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -505,12 +522,15 @@ class GetFactoryAction
 =======
             class_basename($this),
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ));
     }
 
     /**
      * Get the factory class name for a model class.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $model_class The model class name
      * @param string $model_class The model class name
@@ -520,6 +540,9 @@ class GetFactoryAction
 =======
      * @param  string  $model_class  The model class name
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  string  $model_class  The model class name
+>>>>>>> 414a4ffcb (.)
      * @return string The fully qualified factory class name
      */
     public function getFactoryClass(string $model_class): string
@@ -541,6 +564,7 @@ class GetFactoryAction
 
         $model_name = class_basename($model_class);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -725,6 +749,8 @@ class GetFactoryAction
         $model_name = class_basename($model_class);
 
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Costruiamo il nome della classe factory seguendo le convenzioni di Laravel
         $factory_class = Str::of($model_class)
             ->before('\Models\\')
@@ -753,6 +779,7 @@ class GetFactoryAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             
         Assert::stringNotEmpty($factory_class, 'Factory class non può essere vuota');
         
@@ -932,12 +959,15 @@ class GetFactoryAction
         Assert::stringNotEmpty($factory_class, 'Factory class non può essere vuota');
 
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return $factory_class;
     }
 
     /**
      * Create a factory for the given model class.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $model_class The class name of the model to create the factory for
      *
@@ -957,6 +987,9 @@ class GetFactoryAction
 =======
      * @param  string  $model_class  The class name of the model to create the factory for
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  string  $model_class  The class name of the model to create the factory for
+>>>>>>> 414a4ffcb (.)
      */
     public function createFactory(string $model_class): void
     {
@@ -1039,6 +1072,7 @@ class GetFactoryAction
         $artisan_cmd = 'module:make-factory';
         $artisan_params = ['name' => $model_name, 'module' => $module_name];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1269,6 +1303,8 @@ class GetFactoryAction
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         Artisan::call($artisan_cmd, $artisan_params);
     }
 }

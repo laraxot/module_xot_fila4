@@ -7,6 +7,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseEntryFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -43,6 +46,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseEntry whereType($value)
  * @method static Builder<static>|PulseEntry whereValue($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
@@ -180,6 +184,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

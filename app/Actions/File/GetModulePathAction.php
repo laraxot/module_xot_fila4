@@ -34,6 +34,7 @@ use function Safe\scandir;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -105,6 +106,8 @@ use function Safe\scandir;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 class GetModulePathAction
 {
     use QueueableAction;
@@ -123,6 +126,7 @@ class GetModulePathAction
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
      * @param  string  $moduleName  Il nome del modulo
+<<<<<<< HEAD
      * @param  string  $moduleName  Il nome del modulo
      *
      *
@@ -398,12 +402,15 @@ class GetModulePathAction
 =======
      * @param  string  $moduleName  Il nome del modulo
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return string Il percorso completo del modulo
      */
     public function execute(string $moduleName): string
     {
         try {
             $module_path = Module::getModulePath($moduleName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +773,12 @@ class GetModulePathAction
             if (! File::exists($modulesPath)) {
                 return __DIR__.'/../';
 >>>>>>> 551c768c4 (.)
+=======
+        } catch (Exception) {
+            $modulesPath = base_path('Modules');
+            if (! File::exists($modulesPath)) {
+                return __DIR__.'/../';
+>>>>>>> 414a4ffcb (.)
             }
 
             $files = scandir($modulesPath);
@@ -793,6 +806,7 @@ class GetModulePathAction
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!is_string($item)) {
                     return false;
                 }
@@ -810,6 +824,8 @@ class GetModulePathAction
                 }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 return Str::lower($item) === $moduleNameLower;
             })->first();
 
@@ -840,6 +856,7 @@ class GetModulePathAction
             }
 
             $module_path = base_path('Modules/'.$foundModule);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1197,6 +1214,8 @@ class GetModulePathAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         return $module_path;

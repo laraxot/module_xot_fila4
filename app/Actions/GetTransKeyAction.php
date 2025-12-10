@@ -27,6 +27,7 @@ class GetTransKeyAction
             $class = Arr::get($backtrace, '1.class');
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ('' === $class) {
             $backtrace = debug_backtrace();
             Assert::isArray($backtrace);
@@ -125,6 +126,8 @@ class GetTransKeyAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         $arr = explode('\\', $class);
@@ -134,6 +137,7 @@ class GetTransKeyAction
             $backtrace = array_slice(debug_backtrace(), 2);
             $res = Arr::first(
                 $backtrace,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,10 +195,14 @@ class GetTransKeyAction
 =======
                 fn (array $item): bool => (isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'),
 >>>>>>> 551c768c4 (.)
+=======
+                fn (array $item): bool => (isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'),
+>>>>>>> 414a4ffcb (.)
             );
 
             if ($res === null || ! isset($res['object'])) {
                 $page = Arr::get(debug_backtrace(), '0.args.0');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -364,12 +372,16 @@ class GetTransKeyAction
 =======
                 Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 >>>>>>> 551c768c4 (.)
+=======
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+>>>>>>> 414a4ffcb (.)
                 $main_module = XotData::make()->main_module;
                 $main_module_low = mb_strtolower($main_module);
                 $page_arr = explode('\\', $page);
                 $page_arr_count = count($page_arr);
                 $page_arr_last = $page_arr[$page_arr_count - 1];
                 $page_arr_last_snake = Str::of($page_arr_last)->snake()->toString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 $tmp = $main_module_low . '::' . $page_arr_last_snake;
@@ -480,6 +492,10 @@ class GetTransKeyAction
 
                 return $main_module_low.'::'.$page_arr_last_snake;
 >>>>>>> 551c768c4 (.)
+=======
+
+                return $main_module_low.'::'.$page_arr_last_snake;
+>>>>>>> 414a4ffcb (.)
             }
 
             $class = get_class($res['object']);
@@ -499,6 +515,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (in_array($type, ['RelationManager'], strict: true)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (in_array($type, ['RelationManager'])) {
 =======
@@ -524,6 +541,8 @@ class GetTransKeyAction
             if (in_array($type, ['RelationManager'], strict: true)) {
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $class = Str::of($class)->singular()->toString();
             }
         }
@@ -572,6 +591,7 @@ class GetTransKeyAction
         }
         if (in_array($last, ['action'], strict: true)) {
             $class_snake = Str::beforeLast($class_snake, '_'.$last);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -821,6 +841,8 @@ class GetTransKeyAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         if (Str::endsWith($class_snake, 'form_schema')) {
@@ -831,6 +853,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (in_array($first, ['list'], strict: true)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (in_array($first, ['list'])) {
 =======
@@ -856,12 +879,15 @@ class GetTransKeyAction
         if (in_array($first, ['list'], strict: true)) {
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $class_snake = Str::of($class_snake)
                 // ->after('list_')
                 ->singular()
                 ->toString();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $tmp = $module_low . '::' . $class_snake;
@@ -995,5 +1021,8 @@ class GetTransKeyAction
 =======
         return $module_low.'::'.$class_snake;
 >>>>>>> 551c768c4 (.)
+=======
+        return $module_low.'::'.$class_snake;
+>>>>>>> 414a4ffcb (.)
     }
 }

@@ -6,6 +6,7 @@ namespace Modules\Xot\Services\Trend\Adapters;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,11 +161,16 @@ use Error;
 use Error;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Error;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class MySqlAdapter extends AbstractAdapter
 {
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +258,8 @@ class MySqlAdapter extends AbstractAdapter
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function format(string $column, string $interval): string
     {
         $format = match ($interval) {
@@ -261,6 +269,7 @@ class MySqlAdapter extends AbstractAdapter
             'month' => '%Y-%m',
             'year' => '%Y',
             default => throw new Error('Invalid interval.'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             default => throw new Error('Invalid interval.'),
@@ -276,6 +285,8 @@ class MySqlAdapter extends AbstractAdapter
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
         };
 
         return sprintf("date_format(%s, '%s')", $column, $format);

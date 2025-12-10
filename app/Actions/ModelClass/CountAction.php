@@ -34,6 +34,7 @@ use InvalidArgumentException;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,6 +422,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -433,6 +436,7 @@ class CountAction
      * Execute the count action for the given model class.
      *
      * @param class-string<Model> $modelClass The fully qualified model class name
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
      * @return int The total count of records
@@ -464,6 +468,11 @@ class CountAction
      * @return int The total count of records
 =======
 >>>>>>> 551c768c4 (.)
+=======
+     * @return int The total count of records
+     *
+     * @throws InvalidArgumentException If model class is invalid or not found
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(string $modelClass): int
     {

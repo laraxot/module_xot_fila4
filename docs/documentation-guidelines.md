@@ -305,6 +305,7 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/p
 =======
 >>>>>>> 2f3197ab (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+<<<<<<< HEAD
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
@@ -400,6 +401,8 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/p
 =======
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 ```
 
@@ -472,6 +475,7 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 =======
 >>>>>>> 2f3197ab (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+<<<<<<< HEAD
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
@@ -567,6 +571,8 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 =======
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 ```
 
@@ -628,6 +634,7 @@ Per implementare queste linee guida:
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -683,3 +690,6 @@ Per implementare queste linee guida:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

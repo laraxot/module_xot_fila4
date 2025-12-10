@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Facades\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,6 +243,14 @@ use Illuminate\Support\Facades\Route;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Str;
+use Modules\Xot\Http\Middleware\SetDefaultTenantForUrlsMiddleware;
+>>>>>>> 414a4ffcb (.)
 
 // public function boot(\Illuminate\Routing\Router $router)
 
@@ -250,10 +259,15 @@ use Illuminate\Support\Facades\Route;
 class RouteServiceProvider extends ServiceProvider
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public string $name = 'Xot';
 
 >>>>>>> 551c768c4 (.)
+=======
+    public string $name = 'Xot';
+
+>>>>>>> 414a4ffcb (.)
     /**
      * The root namespace to assume when generating URLs to actions.
      */
@@ -269,6 +283,7 @@ class RouteServiceProvider extends ServiceProvider
     protected string $module_ns = __NAMESPACE__;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $name = 'Xot';
 
     public string $name = 'Xot';
@@ -281,6 +296,8 @@ class RouteServiceProvider extends ServiceProvider
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * Called before routes are registered.
      * Register any model bindings or pattern based filters.
@@ -304,6 +321,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapWebRoutes();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * Define the "web" routes for the application.
@@ -405,6 +423,8 @@ class RouteServiceProvider extends ServiceProvider
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function registerMyMiddleware(Router $router): void
     {
         $router->prependMiddlewareToGroup('web', SetDefaultTenantForUrlsMiddleware::class);
@@ -425,6 +445,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
         $locales = config()->has('laravellocalization.supportedLocales')
             ? config('laravellocalization.supportedLocales')
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +522,10 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+            : null;
+
+>>>>>>> 414a4ffcb (.)
         if (is_array($locales)) {
             $langs = array_keys($locales);
         }
@@ -566,6 +591,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
         if (! is_array($langs)) {
+<<<<<<< HEAD
         if (!is_array($langs)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -834,12 +860,15 @@ class RouteServiceProvider extends ServiceProvider
 =======
         if (! is_array($langs)) {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $langs = ['it' => 'it', 'en' => 'en'];
         }
 
         $lang_pattern = collect(array_keys($langs))->implode('|');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang_pattern = '/|' . $lang_pattern . '|/i';
         $lang_pattern = '/|' . $lang_pattern . '|/i';
         $lang_pattern = '/|' . $lang_pattern . '|/i';
@@ -1113,12 +1142,16 @@ class RouteServiceProvider extends ServiceProvider
 =======
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 >>>>>>> 551c768c4 (.)
+=======
+        $lang_pattern = '/|'.$lang_pattern.'|/i';
+>>>>>>> 414a4ffcb (.)
 
         $router->pattern('lang', $lang_pattern);
 
         $models = config('morph_map');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_array($models)) {
         if (!is_array($models)) {
         if (!is_array($models)) {
@@ -1392,6 +1425,9 @@ class RouteServiceProvider extends ServiceProvider
 =======
         if (! is_array($models)) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! is_array($models)) {
+>>>>>>> 414a4ffcb (.)
             $models = [];
         }
 
@@ -1506,6 +1542,7 @@ class RouteServiceProvider extends ServiceProvider
             ->group(base_path('Modules/Xot/routes/api.php'));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -1688,6 +1725,8 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     // end registerRoutePattern

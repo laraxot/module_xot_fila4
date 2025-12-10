@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +176,9 @@
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Standard per le Migrazioni in 
 
 ## Introduzione
@@ -275,6 +279,7 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 ## Introduzione
 
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di <nome progetto>. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -586,6 +591,8 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Principi Fondamentali
 
@@ -728,6 +735,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
  utilizza diverse connessioni al database per diversi tipi di dati:
+<<<<<<< HEAD
 <<<<<<< HEAD
  utilizza diverse connessioni al database per diversi tipi di dati:
  utilizza diverse connessioni al database per diversi tipi di dati:
@@ -988,6 +996,9 @@ SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
  utilizza diverse connessioni al database per diversi tipi di dati:
 <nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
 >>>>>>> 551c768c4 (.)
+=======
+<nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 414a4ffcb (.)
 
 1. **mysql**: Connessione principale per la maggior parte delle tabelle
 2. **user**: Connessione per i dati degli utenti
@@ -1081,6 +1092,7 @@ Ogni modulo può avere best practices specifiche per le migrazioni. Consultare l
 - [Best Practices per le Migrazioni nel Modulo Patient](/laravel/Modules/Patient/docs/MIGRATION_BEST_PRACTICES.md)
 - [Best Practices per le Migrazioni nel Modulo Tenant](/laravel/Modules/Tenant/docs/MIGRATION_BEST_PRACTICES.md)
 - [Best Practices per le Migrazioni nel Modulo User](/laravel/Modules/User/docs/MIGRATION_BEST_PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1259,6 +1271,8 @@ Ogni modulo può avere best practices specifiche per le migrazioni. Consultare l
 - [Best Practices per le Migrazioni nel Modulo Tenant](/laravel/Modules/Tenant/docs/MIGRATION_BEST_PRACTICES.md)
 - [Best Practices per le Migrazioni nel Modulo User](/laravel/Modules/User/docs/MIGRATION_BEST_PRACTICES.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Errori Comuni e Come Evitarli
 
@@ -1398,6 +1412,7 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 <<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+<<<<<<< HEAD
 <<<<<<< HEAD
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
@@ -1722,3 +1737,7 @@ Seguire questi standard per le migrazioni è fondamentale per garantire la coere
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 =======
 >>>>>>> 551c768c4 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+>>>>>>> 414a4ffcb (.)

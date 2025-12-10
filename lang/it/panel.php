@@ -8,6 +8,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +272,8 @@ declare(strict_types=1);
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 return [
     'title' => 'Pannello di Amministrazione',
     'description' => 'Gestione del pannello di amministrazione',
@@ -379,6 +382,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 ];
 ];
@@ -438,3 +442,5 @@ return [
 ];
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)

@@ -156,6 +156,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
 =======
@@ -365,6 +366,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
+=======
+use Illuminate\Database\ConnectionInterface;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
@@ -566,12 +571,10 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_extends_correct_base_class(): void
     {
         // Arrange & Act
-        $baseModel = new BaseModel();
-        $baseModel = new BaseModel();
-        $baseModel = new BaseModel();
-        $baseModel = new BaseModel();
+        $baseModel = new BaseModel;
 
         // Assert
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(XotBaseModel::class, $baseModel);
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -780,153 +783,14 @@ test('it supports relationship loading', function (): void {
     }
 
     /** @test */
+=======
+>>>>>>> 414a4ffcb (.)
         $this->assertInstanceOf(XotBaseModel::class, $baseModel);
         $this->assertInstanceOf(Model::class, $baseModel);
     }
 
     /** @test */
     public function it_has_required_traits(): void
-    {
-        // Arrange
-
-        // Act & Assert
-        $this->assertTrue(method_exists($baseModel, 'getTable'));
-        $this->assertTrue(method_exists($baseModel, 'getConnection'));
-        $this->assertTrue(method_exists($baseModel, 'getKeyName'));
-    }
-
-    /** @test */
-    public function it_can_be_instantiated_without_database(): void
-    {
-        // Arrange & Act
-
-        // Assert
-        $this->assertInstanceOf(BaseModel::class, $baseModel);
-        $this->assertNotNull($baseModel);
-    }
-
-    /** @test */
-    public function it_supports_table_name_override(): void
-    {
-        // Arrange
-
-        // Act
-        $tableName = $baseModel->getTable();
-
-        // Assert
-        $this->assertIsString($tableName);
-        $this->assertNotEmpty($tableName);
-    }
-
-    /** @test */
-    public function it_supports_connection_override(): void
-    {
-        // Arrange
-
-        // Act
-        $connection = $baseModel->getConnection();
-
-        // Assert
-        $this->assertNotNull($connection);
-        $this->assertInstanceOf(ConnectionInterface::class, $connection);
-    }
-
-    /** @test */
-    public function it_supports_key_name_override(): void
-    {
-        // Arrange
-
-        // Act
-        $keyName = $baseModel->getKeyName();
-
-        // Assert
-        $this->assertIsString($keyName);
-        $this->assertEquals('id', $keyName);
-    }
-
-    /** @test */
-    public function it_can_be_used_as_base_for_other_models(): void
-    {
-        // Arrange
-
-        // Act & Assert
-        $this->assertInstanceOf(XotBaseModel::class, $module);
-        $this->assertInstanceOf(Model::class, $module);
-    }
-
-    /** @test */
-    public function it_supports_model_configuration(): void
-    {
-        // Arrange
-
-        // Act
-        $fillable = $baseModel->getFillable();
-        $hidden = $baseModel->getHidden();
-        $casts = $baseModel->getCasts();
-
-        // Assert
-        $this->assertIsArray($fillable);
-        $this->assertIsArray($hidden);
-        $this->assertIsArray($casts);
-    }
-
-    /** @test */
-    public function it_supports_soft_deletes_when_configured(): void
-    {
-        // Arrange
-
-        // Act
-        $usesSoftDeletes = method_exists($baseModel, 'trashed');
-
-        // Assert
-        // Nota: Non tutti i modelli base usano soft deletes
-        // Questo test verifica solo la possibilità di configurazione
-        $this->assertTrue(true); // Placeholder per logica specifica
-    }
-
-    /** @test */
-    public function it_supports_timestamps_when_configured(): void
-    {
-        // Arrange
-
-        // Act
-        $usesTimestamps = $baseModel->usesTimestamps();
-
-        // Assert
-        // Nota: I modelli base possono avere configurazioni diverse
-        $this->assertIsBool($usesTimestamps);
-    }
-
-    /** @test */
-    public function it_supports_tenant_isolation_when_configured(): void
-    {
-        // Arrange
-
-        // Act
-        $hasTenantTrait = method_exists($baseModel, 'getTenantKey');
-
-        // Assert
-        // Nota: Non tutti i modelli base usano tenant isolation
-        // Questo test verifica solo la possibilità di configurazione
-        $this->assertTrue(true); // Placeholder per logica specifica
-    }
-
-    /** @test */
-    public function it_supports_audit_trail_when_configured(): void
-    {
-        // Arrange
-
-        // Act
-        $hasAuditTrait = method_exists($baseModel, 'getAuditEvents');
-
-        // Assert
-        // Nota: Non tutti i modelli base usano audit trail
-        // Questo test verifica solo la possibilità di configurazione
-        $this->assertTrue(true); // Placeholder per logica specifica
-    }
-
-    /** @test */
-    public function it_can_be_serialized(): void
     {
         // Arrange
         $baseModel = new BaseModel;
@@ -1006,6 +870,7 @@ test('it supports relationship loading', function (): void {
     {
         // Arrange
         $baseModel = new BaseModel;
+<<<<<<< HEAD
 <<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -1778,6 +1643,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
     {
         // Arrange
         $baseModel = new BaseModel();
+=======
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $fillable = $baseModel->getFillable();
@@ -1794,7 +1661,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_soft_deletes_when_configured(): void
     {
         // Arrange
-        $baseModel = new BaseModel();
+        $baseModel = new BaseModel;
 
         // Act
         $usesSoftDeletes = method_exists($baseModel, 'trashed');
@@ -1809,7 +1676,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_timestamps_when_configured(): void
     {
         // Arrange
-        $baseModel = new BaseModel();
+        $baseModel = new BaseModel;
 
         // Act
         $usesTimestamps = $baseModel->usesTimestamps();
@@ -1823,7 +1690,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_tenant_isolation_when_configured(): void
     {
         // Arrange
-        $baseModel = new BaseModel();
+        $baseModel = new BaseModel;
 
         // Act
         $hasTenantTrait = method_exists($baseModel, 'getTenantKey');
@@ -1838,7 +1705,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_audit_trail_when_configured(): void
     {
         // Arrange
-        $baseModel = new BaseModel();
+        $baseModel = new BaseModel;
 
         // Act
 =======
@@ -1859,6 +1726,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_can_be_serialized(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel();
 
         // Act
@@ -1971,6 +1839,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_can_be_serialized(): void
     {
         // Arrange
+=======
+>>>>>>> 414a4ffcb (.)
         $baseModel = new BaseModel;
 
         // Act
@@ -2055,8 +1925,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_attribute_access(): void
     {
         // Arrange
-        $baseModel = new BaseModel();
-        $baseModel = new BaseModel();
+        $baseModel = new BaseModel;
 
         // Act
         $hasGetAttributeMethod = method_exists($baseModel, 'getAttribute');
@@ -2080,6 +1949,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_mass_assignment_protection(): void
     {
         // Arrange
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2142,6 +2012,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $fillable = $baseModel->getFillable();
@@ -2165,6 +2038,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -2193,6 +2067,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $hasEvents = method_exists($baseModel, 'fireModelEvent');
@@ -2217,6 +2094,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -2245,6 +2123,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $hasObservers = method_exists($baseModel, 'getObservableEvents');
@@ -2269,6 +2150,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -2297,6 +2179,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $hasScopes = method_exists($baseModel, 'addGlobalScope');
@@ -2321,6 +2206,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -2349,6 +2235,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $hasAccessors = method_exists($baseModel, 'getAttributeValue');
@@ -2358,6 +2247,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
         $this->assertTrue($hasAccessors);
+<<<<<<< HEAD
         $this->assertTrue($hasAccessors);
         $this->assertTrue($hasAccessors);
         $this->assertTrue($hasAccessors);
@@ -2376,6 +2266,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $this->assertTrue($hasAccessors);
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $this->assertTrue($hasMutators);
     }
 
@@ -2383,6 +2275,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_casting(): void
     {
         // Arrange
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2417,6 +2310,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $casts = $baseModel->getCasts();
@@ -2438,6 +2334,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2470,6 +2367,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $dates = $baseModel->getDates();
@@ -2491,6 +2391,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2523,6 +2424,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $hidden = $baseModel->getHidden();
@@ -2544,6 +2448,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2576,6 +2481,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $visible = $baseModel->getVisible();
@@ -2597,6 +2505,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2629,6 +2538,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $appends = $baseModel->getAppends();
@@ -2650,6 +2562,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2685,6 +2598,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
         $baseModel = new BaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 414a4ffcb (.)
 
         // Act
         $with = $baseModel->getWith();
@@ -2693,6 +2609,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertIsArray($with);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2973,3 +2890,5 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

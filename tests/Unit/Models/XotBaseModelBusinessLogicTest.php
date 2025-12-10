@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
@@ -17,11 +18,15 @@ use Illuminate\Database\Eloquent\Model;
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 091f883c (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Models\XotBaseModel;
 
 <<<<<<< HEAD
 describe('XotBaseModel Business Logic', function () {
     test('xot base model extends eloquent model', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -43,10 +48,14 @@ describe('XotBaseModel Business Logic', function (): void {
 =======
         expect(XotBaseModel::class)->toBeSubclassOf(Model::class);
 >>>>>>> 091f883c (.)
+=======
+        expect(XotBaseModel::class)->toBeSubclassOf(Model::class);
+>>>>>>> 414a4ffcb (.)
     });
 
 <<<<<<< HEAD
     test('xot base model can be instantiated', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     test('xot base model can be instantiated', function (): void {
@@ -122,6 +131,9 @@ describe('XotBaseModel Business Logic', function (): void {
 =======
         $model = new XotBaseModel;
 >>>>>>> 551c768c4 (.)
+=======
+        $model = new XotBaseModel;
+>>>>>>> 414a4ffcb (.)
 
         expect($model)->toBeInstanceOf(XotBaseModel::class);
         expect($model)->toBeInstanceOf(Model::class);
@@ -130,6 +142,7 @@ describe('XotBaseModel Business Logic', function (): void {
     test('xot base model provides foundation for other models', function (): void {
         expect(class_exists(XotBaseModel::class))->toBeTrue();
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -146,3 +159,6 @@ describe('XotBaseModel Business Logic', function (): void {
 =======
 });
 >>>>>>> 091f883c (.)
+=======
+});
+>>>>>>> 414a4ffcb (.)

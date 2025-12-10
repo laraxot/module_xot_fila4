@@ -6,6 +6,7 @@ namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +252,11 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Log;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\Log;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class LogPolicy extends XotBasePolicy
 {
@@ -295,6 +301,7 @@ class LogPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, Log $log): bool
 =======
 =======
@@ -351,6 +358,8 @@ class LogPolicy extends XotBasePolicy
     public function view(UserContract $user, Log $_log): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('log.view');
     }
@@ -374,6 +383,7 @@ class LogPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, Log $log): bool
 =======
 =======
@@ -430,6 +440,8 @@ class LogPolicy extends XotBasePolicy
     public function update(UserContract $user, Log $_log): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('log.update');
     }
@@ -445,6 +457,7 @@ class LogPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, Log $log): bool
 =======
 =======
@@ -501,6 +514,8 @@ class LogPolicy extends XotBasePolicy
     public function delete(UserContract $user, Log $_log): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('log.delete');
     }
@@ -516,6 +531,7 @@ class LogPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, Log $log): bool
 =======
 =======
@@ -572,6 +588,8 @@ class LogPolicy extends XotBasePolicy
     public function restore(UserContract $user, Log $_log): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('log.restore');
     }
@@ -583,6 +601,7 @@ class LogPolicy extends XotBasePolicy
     {
         return $user->hasPermissionTo('log.forceDelete');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -599,3 +618,6 @@ class LogPolicy extends XotBasePolicy
 =======
 }
 >>>>>>> 091f883c (.)
+=======
+}
+>>>>>>> 414a4ffcb (.)

@@ -34,6 +34,7 @@
 ## Cosa
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +74,11 @@
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> ce6fc085 (.)
+=======
+
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 - Rimozione dei marker di conflitto Git in `composer.json`
 - Eliminazione dell'inserimento errato del branch alias `aurmich/dev` nelle sezioni `require-comment` e `require-dev-comment`, che non fanno parte della configurazione delle dipendenze
 - Conservazione delle sezioni `require` e `require-dev` pulite, mantenendo solo le dipendenze ufficiali documentate nel modulo Xot
@@ -80,6 +86,7 @@
 
 ## Collegamento alla doc root
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -378,3 +385,7 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

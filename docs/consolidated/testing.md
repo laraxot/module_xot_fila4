@@ -675,6 +675,7 @@ test('no memory leaks in repeated operations', function (): void {
 ### Internal Documentation
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,6 +920,10 @@ test('no memory leaks in repeated operations', function (): void {
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
+>>>>>>> 414a4ffcb (.)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 
 ### Framework Documentation

@@ -29,6 +29,7 @@
 - proseguire con la normalizzazione dei file in `docs/` (evitare duplicati e nomi non conformi);
 - verificare dopo ogni refactor che gli helper condivisi rispettino la tipizzazione stretta.
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
@@ -332,3 +333,5 @@ class MyModel extends BaseModel
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

@@ -99,6 +99,7 @@ it('casts boolean values', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     expect($trueResult)->toBe(1.0)->toBeFloat()
         ->and($falseResult)->toBe(0.0)->toBeFloat();
@@ -256,6 +257,8 @@ it('casts boolean values', function (): void {
 
     expect($trueResult)->toBe(1.0)->toBeFloat()->and($falseResult)->toBe(0.0)->toBeFloat();
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 });
 
 it('casts arrays', function (): void {
@@ -265,6 +268,7 @@ it('casts arrays', function (): void {
 });
 
 it('casts objects', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,6 +373,9 @@ it('casts objects', function (): void {
 =======
     $result = $this->action->execute(new stdClass);
 >>>>>>> 551c768c4 (.)
+=======
+    $result = $this->action->execute(new stdClass);
+>>>>>>> 414a4ffcb (.)
     expect($result)->toBe(0.0)->toBeFloat();
 });
 
@@ -379,6 +386,7 @@ it('casts with range validation', function (): void {
     $aboveMax = $this->action->executeWithRange(150.0, 0.0, 100.0);
     /** @phpstan-ignore-next-line property.notFound */
     $belowMin = $this->action->executeWithRange(-10.0, 0.0, 100.0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +433,8 @@ it('casts with range validation', function (): void {
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     expect($normal)->toBe(50.0)->and($aboveMax)->toBe(100.0)->and($belowMin)->toBe(0.0);
 =======
@@ -581,6 +591,7 @@ it('handles infinite values', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     expect($infResult)->toBe(0.0)
         ->and($nanResult)->toBe(0.0);
@@ -738,6 +749,8 @@ it('handles infinite values', function (): void {
 
     expect($infResult)->toBe(0.0)->and($nanResult)->toBe(0.0);
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 });
 
 it('handles infinite values with default', function (): void {
@@ -771,6 +784,7 @@ it('handles infinite values with default', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     expect($infResult)->toBe(5.0)
         ->and($nanResult)->toBe(5.0);
@@ -928,6 +942,8 @@ it('handles infinite values with default', function (): void {
 
     expect($infResult)->toBe(5.0)->and($nanResult)->toBe(5.0);
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 });
 
 it('casts scientific notation', function (): void {
@@ -961,6 +977,7 @@ it('casts scientific notation', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     expect($result1)->toBe(123.0)
         ->and($result2)->toBe(0.0123);
@@ -1118,6 +1135,8 @@ it('casts scientific notation', function (): void {
 
     expect($result1)->toBe(123.0)->and($result2)->toBe(0.0123);
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 });
 
 it('handles decimal comma', function (): void {
@@ -1141,6 +1160,7 @@ it('handles decimal comma', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1274,3 +1294,5 @@ it('handles decimal comma', function (): void {
 =======
 });
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

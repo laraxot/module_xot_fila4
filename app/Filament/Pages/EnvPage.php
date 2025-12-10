@@ -13,6 +13,7 @@ class EnvPage extends Page
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
@@ -25,6 +26,8 @@ class EnvPage extends Page
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';

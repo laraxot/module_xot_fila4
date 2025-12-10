@@ -5,10 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Services;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Support\Renderable;
@@ -23,6 +26,7 @@ use function Safe\fopen;
 use function Safe\preg_match_all;
 
 if (! defined('STDIN')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 if (!defined('STDIN')) {
 if (!defined('STDIN')) {
@@ -124,6 +128,8 @@ if (!defined('STDIN')) {
 if (!defined('STDIN')) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     define('STDIN', fopen('php://stdin', 'r'));
 }
 
@@ -147,6 +153,7 @@ class ArtisanService
         // da fare anche in noconsole, e magari mettere un policy
         $module_name = Request::input('module', '');
         if (! is_string($module_name)) {
+<<<<<<< HEAD
         if (!is_string($module_name)) {
         if (!is_string($module_name)) {
         if (!is_string($module_name)) {
@@ -262,6 +269,8 @@ class ArtisanService
         $module_name = Request::input('module', '');
         if (! is_string($module_name)) {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $module_name = '';
         }
         switch ($act) {
@@ -272,6 +281,7 @@ class ArtisanService
                     echo '<h3>Module '.$module_name.'</h3>';
 
                     return self::exe('module:migrate '.$module_name.' --force');
+<<<<<<< HEAD
 <<<<<<< HEAD
                 if ('' !== $module_name) {
                     echo '<h3>Module ' . $module_name . '</h3>';
@@ -409,895 +419,9 @@ class ArtisanService
                     echo '<h3>Module ' . $module_name . '</h3>';
 
                     return self::exe('module:migrate ' . $module_name . ' --force');
+=======
+>>>>>>> 414a4ffcb (.)
                 }
-
-                }
-
-                }
-
-                if ('' !== $module_name) {
-                    echo '<h3>Module ' . $module_name . '</h3>';
-
-                    return self::exe('module:migrate ' . $module_name . ' --force');
-                    echo '<h3>Module '.$module_name.'</h3>';
-
-                    return self::exe('module:migrate '.$module_name.' --force');
-                }
-
-                }
-
-                }
-
-                }
-
-                return self::exe('migrate --force');
-
-            case 'routelist':
-                return self::exe('route:list');
-            case 'queue:flush':
-                return self::exe('queue:flush');
-            case 'routelist1':
-                return self::showRouteList();
-            case 'optimize':
-                return self::exe('optimize');
-            case 'clear':
-                echo self::exe('cache:clear').PHP_EOL;
-                echo self::exe('config:clear').PHP_EOL;
-                echo self::exe('event:clear').PHP_EOL;
-                echo self::exe('route:clear').PHP_EOL;
-                echo self::exe('view:clear').PHP_EOL;
-                echo self::exe('debugbar:clear').PHP_EOL;
-                echo self::exe('opcache:clear').PHP_EOL;
-                echo self::exe('optimize:clear').PHP_EOL;
-                echo self::exe('key:generate').PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear().PHP_EOL;
-                echo self::errorClear().PHP_EOL;
-                echo self::debugbarClear().PHP_EOL;
-                echo PHP_EOL.'DONE'.PHP_EOL;
-                echo self::exe('cache:clear') . PHP_EOL;
-                echo self::exe('config:clear') . PHP_EOL;
-                echo self::exe('event:clear') . PHP_EOL;
-                echo self::exe('route:clear') . PHP_EOL;
-                echo self::exe('view:clear') . PHP_EOL;
-                echo self::exe('debugbar:clear') . PHP_EOL;
-                echo self::exe('opcache:clear') . PHP_EOL;
-                echo self::exe('optimize:clear') . PHP_EOL;
-                echo self::exe('key:generate') . PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear() . PHP_EOL;
-                echo self::errorClear() . PHP_EOL;
-                echo self::debugbarClear() . PHP_EOL;
-                echo PHP_EOL . 'DONE' . PHP_EOL;
-                echo self::exe('cache:clear').PHP_EOL;
-                echo self::exe('config:clear').PHP_EOL;
-                echo self::exe('event:clear').PHP_EOL;
-                echo self::exe('route:clear').PHP_EOL;
-                echo self::exe('view:clear').PHP_EOL;
-                echo self::exe('debugbar:clear').PHP_EOL;
-                echo self::exe('opcache:clear').PHP_EOL;
-                echo self::exe('optimize:clear').PHP_EOL;
-                echo self::exe('key:generate').PHP_EOL;
-
-                // -- non artisan
-
-                // -- non artisan
-
-                // -- non artisan
-
-                // -- non artisan
-
-                // -- non artisan
-                echo self::sessionClear().PHP_EOL;
-                echo self::errorClear().PHP_EOL;
-                echo self::debugbarClear().PHP_EOL;
-                echo PHP_EOL.'DONE'.PHP_EOL;
-                echo self::exe('cache:clear') . PHP_EOL;
-                echo self::exe('config:clear') . PHP_EOL;
-                echo self::exe('event:clear') . PHP_EOL;
-                echo self::exe('route:clear') . PHP_EOL;
-                echo self::exe('view:clear') . PHP_EOL;
-                echo self::exe('debugbar:clear') . PHP_EOL;
-                echo self::exe('opcache:clear') . PHP_EOL;
-                echo self::exe('optimize:clear') . PHP_EOL;
-                echo self::exe('key:generate') . PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear() . PHP_EOL;
-                echo self::errorClear() . PHP_EOL;
-                echo self::debugbarClear() . PHP_EOL;
-                echo PHP_EOL . 'DONE' . PHP_EOL;
-                echo self::exe('cache:clear').PHP_EOL;
-                echo self::exe('config:clear').PHP_EOL;
-                echo self::exe('event:clear').PHP_EOL;
-                echo self::exe('route:clear').PHP_EOL;
-                echo self::exe('view:clear').PHP_EOL;
-                echo self::exe('debugbar:clear').PHP_EOL;
-                echo self::exe('opcache:clear').PHP_EOL;
-                echo self::exe('optimize:clear').PHP_EOL;
-                echo self::exe('key:generate').PHP_EOL;
-
-                // -- non artisan
-
-                // -- non artisan
-
-                // -- non artisan
-
-                // -- non artisan
-
-                // -- non artisan
-                echo self::sessionClear().PHP_EOL;
-                echo self::errorClear().PHP_EOL;
-                echo self::debugbarClear().PHP_EOL;
-                echo PHP_EOL.'DONE'.PHP_EOL;
-                echo self::exe('cache:clear') . PHP_EOL;
-                echo self::exe('config:clear') . PHP_EOL;
-                echo self::exe('event:clear') . PHP_EOL;
-                echo self::exe('route:clear') . PHP_EOL;
-                echo self::exe('view:clear') . PHP_EOL;
-                echo self::exe('debugbar:clear') . PHP_EOL;
-                echo self::exe('opcache:clear') . PHP_EOL;
-                echo self::exe('optimize:clear') . PHP_EOL;
-                echo self::exe('key:generate') . PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear() . PHP_EOL;
-                echo self::errorClear() . PHP_EOL;
-                echo self::debugbarClear() . PHP_EOL;
-                echo PHP_EOL . 'DONE' . PHP_EOL;
-                break;
-            case 'clearcache':
-                return self::exe('cache:clear');
-            case 'routecache':
-                return self::exe('route:cache');
-            case 'routeclear':
-                return self::exe('route:clear');
-            case 'viewclear':
-                return self::exe('view:clear');
-            case 'configcache':
-                return self::exe('config:cache');
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            case 'debugbar:clear':
-                self::debugbarClear();
-                break;
-
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-
-            case 'module-list':
-                return self::exe('module:list');
-            case 'module-disable':
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-                return self::exe('module:disable ' . $module_name);
-            case 'module-enable':
-                return self::exe('module:enable ' . $module_name);
-            // ----------------------------------------------------------------------
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-                return self::exe('module:disable ' . $module_name);
-            case 'module-enable':
-                return self::exe('module:enable ' . $module_name);
-            // ----------------------------------------------------------------------
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-            case 'error':
-            case 'error-show':
-                return self::errorShow()->render();
-            case 'error-clear':
-                return self::errorClear();
-
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                try {
-                    return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                } catch (\Exception $e) {
-                    dddx($e);
-                }
-                */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-
-            default:
-                return '';
-        $moduleName = self::getModuleName();
-        $registry = new CommandRegistry;
-                if ($module_name !== '') {
-                    echo '<h3>Module '.$module_name.'</h3>';
-                if ($module_name !== '') {
-                    echo '<h3>Module '.$module_name.'</h3>';
-
-            default:
-                return '';
-        $moduleName = self::getModuleName();
-        $registry = new CommandRegistry;
-                if ($module_name !== '') {
-                    echo '<h3>Module '.$module_name.'</h3>';
-                if ($module_name !== '') {
-                    echo '<h3>Module '.$module_name.'</h3>';
-
-                    return self::exe('module:migrate '.$module_name.' --force');
-                }
-
-        if ($handler === null) {
-            return '';
-        if ($handler === null) {
-            return '';
-                return self::exe('migrate --force');
-
-            case 'routelist':
-                return self::exe('route:list');
-            case 'queue:flush':
-                return self::exe('queue:flush');
-            case 'routelist1':
-                return self::showRouteList();
-            case 'optimize':
-                return self::exe('optimize');
-            case 'clear':
-                echo self::exe('cache:clear').PHP_EOL;
-                echo self::exe('config:clear').PHP_EOL;
-                echo self::exe('event:clear').PHP_EOL;
-                echo self::exe('route:clear').PHP_EOL;
-                echo self::exe('view:clear').PHP_EOL;
-                echo self::exe('debugbar:clear').PHP_EOL;
-                echo self::exe('opcache:clear').PHP_EOL;
-                echo self::exe('optimize:clear').PHP_EOL;
-                echo self::exe('key:generate').PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear().PHP_EOL;
-                echo self::errorClear().PHP_EOL;
-                echo self::debugbarClear().PHP_EOL;
-                echo PHP_EOL.'DONE'.PHP_EOL;
-                echo self::exe('cache:clear') . PHP_EOL;
-                echo self::exe('config:clear') . PHP_EOL;
-                echo self::exe('event:clear') . PHP_EOL;
-                echo self::exe('route:clear') . PHP_EOL;
-                echo self::exe('view:clear') . PHP_EOL;
-                echo self::exe('debugbar:clear') . PHP_EOL;
-                echo self::exe('opcache:clear') . PHP_EOL;
-                echo self::exe('optimize:clear') . PHP_EOL;
-                echo self::exe('key:generate') . PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear() . PHP_EOL;
-                echo self::errorClear() . PHP_EOL;
-                echo self::debugbarClear() . PHP_EOL;
-                echo PHP_EOL . 'DONE' . PHP_EOL;
-                echo self::exe('cache:clear').PHP_EOL;
-                echo self::exe('config:clear').PHP_EOL;
-                echo self::exe('event:clear').PHP_EOL;
-                echo self::exe('route:clear').PHP_EOL;
-                echo self::exe('view:clear').PHP_EOL;
-                echo self::exe('debugbar:clear').PHP_EOL;
-                echo self::exe('opcache:clear').PHP_EOL;
-                echo self::exe('optimize:clear').PHP_EOL;
-                echo self::exe('key:generate').PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear().PHP_EOL;
-                echo self::errorClear().PHP_EOL;
-                echo self::debugbarClear().PHP_EOL;
-                echo PHP_EOL.'DONE'.PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear() . PHP_EOL;
-                echo self::errorClear() . PHP_EOL;
-                echo self::debugbarClear() . PHP_EOL;
-                echo PHP_EOL . 'DONE' . PHP_EOL;
-                break;
-            case 'clearcache':
-                return self::exe('cache:clear');
-            case 'routecache':
-                return self::exe('route:cache');
-            case 'routeclear':
-                return self::exe('route:clear');
-            case 'viewclear':
-                return self::exe('view:clear');
-            case 'configcache':
-                return self::exe('config:cache');
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-            // -------------------------------------------------------------------
-                // -------------------------------------------------------------------
-            case 'debugbar:clear':
-                self::debugbarClear();
-                break;
-
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-            // ------------------------------------------------------------------
-                // ------------------------------------------------------------------
-
-            case 'module-list':
-                return self::exe('module:list');
-            case 'module-disable':
-                return self::exe('module:disable ' . $module_name);
-            case 'module-enable':
-                return self::exe('module:enable ' . $module_name);
-            // ----------------------------------------------------------------------
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-                return self::exe('module:disable ' . $module_name);
-            case 'module-enable':
-                return self::exe('module:enable ' . $module_name);
-            // ----------------------------------------------------------------------
-            case 'error':
-            case 'error-show':
-                return self::errorShow()->render();
-            case 'error-clear':
-                return self::errorClear();
-
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                try {
-                    return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                } catch (\Exception $e) {
-                    dddx($e);
-                }
-                */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-            // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-            /* da vedere se e' necessaria
-             * try {
-             * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-             * } catch (\Exception $e) {
-             * dddx($e);
-             * }
-             */
-            // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-
-            default:
-                return '';
-
-            default:
-                return '';
-
-            default:
-                return '';
-        $moduleName = self::getModuleName();
-        $registry = new CommandRegistry;
-                if ($module_name !== '') {
-                    echo '<h3>Module '.$module_name.'</h3>';
-
-            default:
-                return '';
-
-            default:
-                return '';
-
-            default:
-                return '';
-        $moduleName = self::getModuleName();
-        $registry = new CommandRegistry;
-                if ($module_name !== '') {
-                    echo '<h3>Module '.$module_name.'</h3>';
-
-                    return self::exe('module:migrate '.$module_name.' --force');
-                }
-
-        if ($handler === null) {
-            return '';
-        if ($handler === null) {
-            return '';
-                return self::exe('migrate --force');
-
-            case 'routelist':
-                return self::exe('route:list');
-            case 'queue:flush':
-                return self::exe('queue:flush');
-            case 'routelist1':
-                return self::showRouteList();
-            case 'optimize':
-                return self::exe('optimize');
-            case 'clear':
-                echo self::exe('cache:clear').PHP_EOL;
-                echo self::exe('config:clear').PHP_EOL;
-                echo self::exe('event:clear').PHP_EOL;
-                echo self::exe('route:clear').PHP_EOL;
-                echo self::exe('view:clear').PHP_EOL;
-                echo self::exe('debugbar:clear').PHP_EOL;
-                echo self::exe('opcache:clear').PHP_EOL;
-                echo self::exe('optimize:clear').PHP_EOL;
-                echo self::exe('key:generate').PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear().PHP_EOL;
-                echo self::errorClear().PHP_EOL;
-                echo self::debugbarClear().PHP_EOL;
-                echo PHP_EOL.'DONE'.PHP_EOL;
-                break;
-            case 'clearcache':
-                return self::exe('cache:clear');
-            case 'routecache':
-                return self::exe('route:cache');
-            case 'routeclear':
-                return self::exe('route:clear');
-            case 'viewclear':
-                return self::exe('view:clear');
-            case 'configcache':
-                return self::exe('config:cache');
-                // -------------------------------------------------------------------
-            case 'debugbar:clear':
-                self::debugbarClear();
-                break;
-
-                // ------------------------------------------------------------------
-
-            case 'module-list':
-                return self::exe('module:list');
-            case 'module-disable':
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-            case 'error':
-            case 'error-show':
-                return self::errorShow()->render();
-            case 'error-clear':
-                return self::errorClear();
-
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-
-            default:
-                return '';
-        }
-
-        }
 
                 return self::exe('migrate --force');
 
@@ -1365,16 +489,6 @@ class ArtisanService
                  * dddx($e);
                  * }
                  */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                try {
-                    return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                } catch (\Exception $e) {
-                    dddx($e);
-                }
-                */
                 // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
 
             default:
@@ -1496,6 +610,7 @@ class ArtisanService
         if ($log !== '' && File::exists(storage_path('logs/'.$log))) {
             $content = File::get(storage_path('logs/'.$log));
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($log)) {
             $log = '';
         }
@@ -1588,12 +703,15 @@ class ArtisanService
             $content = File::get(storage_path('logs/'.$log));
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         $pattern = '/url":"([^"]*)"/';
         preg_match_all($pattern, $content, $matches);
 
         $urls = array_unique($matches[1]);
+<<<<<<< HEAD
 <<<<<<< HEAD
         $urls = array_unique($matches[1]);
         // Verifica che l'array $matches contenga l'indice 1 prima di accedervi
@@ -1637,6 +755,8 @@ class ArtisanService
         $urls = array_unique($matches[1]);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $view_params = [
             'view' => $view,
             'lang' => app()->getLocale(),
@@ -1670,33 +790,6 @@ class ArtisanService
          * 'views' => ThemeService::getDefaultViewArray(),
          * ]);
          */
-        $view = ThemeService::g1etViewModule();
-
-        dddx([
-            'view' => $view,
-            'this' => get_class(),
-            'parent' => get_parent_class(),
-            'debug' => \debug_backtrace(),
-        ]);
-        */
-        /*
-        $debug = \debug_backtrace();
-        $file = $debug[1]['file'];
-
-        dddx([
-            'file' => $file,
-            'views' => ThemeService::getDefaultViewArray(),
-        ]);
-        */
-        /*
-         * $debug = \debug_backtrace();
-         * $file = $debug[1]['file'];
-         *
-         * dddx([
-         * 'file' => $file,
-         * 'views' => ThemeService::getDefaultViewArray(),
-         * ]);
-         */
         /**
          * @phpstan-var view-string
          */
@@ -1721,6 +814,7 @@ class ArtisanService
                 // Parameter #1 $paths of static method Illuminate\Filesystem\Filesystem::delete() expects array|string, Symfony\Component\Finder\SplFileInfo given.
                 echo '<br/>'.$file->getRealPath();
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ('log' === $file->getExtension() && false !== $file->getRealPath()) {
                 // Parameter #1 $paths of static method Illuminate\Filesystem\Filesystem::delete() expects array|string, Symfony\Component\Finder\SplFileInfo given.
                 echo '<br/>' . $file->getRealPath();
@@ -1903,12 +997,15 @@ class ArtisanService
                 echo '<br/>' . $file->getRealPath();
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
                 File::delete($file->getRealPath());
             }
         }
 
         return '<pre>laravel.log cleared !</pre> ('.\count($files).' Files )';
+<<<<<<< HEAD
 <<<<<<< HEAD
         return '<pre>laravel.log cleared !</pre> (' . \count($files) . ' Files )';
         return '<pre>laravel.log cleared !</pre> (' . \count($files) . ' Files )';
@@ -2031,6 +1128,8 @@ class ArtisanService
         return '<pre>laravel.log cleared !</pre> (' . \count($files) . ' Files )';
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     public static function sessionClear(): string
@@ -2040,6 +1139,7 @@ class ArtisanService
         foreach ($files as $file) {
             if ($file->getExtension() === '' && $file->getRealPath() !== false) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($file->getExtension() === '' && $file->getRealPath() !== false) {
             if ('' === $file->getExtension() && false !== $file->getRealPath()) {
             if ('' === $file->getExtension() && false !== $file->getRealPath()) {
@@ -2106,6 +1206,8 @@ class ArtisanService
             if ('' === $file->getExtension() && false !== $file->getRealPath()) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 // echo '<br/>'.$file->getRealPath();
 
                 File::delete($file->getRealPath());
@@ -2115,6 +1217,7 @@ class ArtisanService
         }
 
         return 'Session cleared! ('.\count($files).' Files )';
+<<<<<<< HEAD
 <<<<<<< HEAD
         return 'Session cleared! (' . \count($files) . ' Files )';
         return 'Session cleared! (' . \count($files) . ' Files )';
@@ -2237,6 +1340,8 @@ class ArtisanService
         return 'Session cleared! (' . \count($files) . ' Files )';
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     public static function debugbarClear(): string
@@ -2245,6 +1350,7 @@ class ArtisanService
         foreach ($files as $file) {
             if ($file->getExtension() === 'json' && $file->getRealPath() !== false) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($file->getExtension() === 'json' && $file->getRealPath() !== false) {
             if ('json' === $file->getExtension() && false !== $file->getRealPath()) {
             if ('json' === $file->getExtension() && false !== $file->getRealPath()) {
@@ -2311,6 +1417,8 @@ class ArtisanService
             if ('json' === $file->getExtension() && false !== $file->getRealPath()) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 // echo '<br/>'.$file->getRealPath();
 
                 File::delete($file->getRealPath());
@@ -2321,6 +1429,7 @@ class ArtisanService
 
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
 <<<<<<< HEAD
+<<<<<<< HEAD
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
@@ -2336,10 +1445,13 @@ class ArtisanService
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
      * @param  array<string, mixed>  $arguments
+<<<<<<< HEAD
 <<<<<<< HEAD
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
@@ -2412,6 +1524,8 @@ class ArtisanService
      * @param array<string, mixed> $arguments
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public static function exe(string $command, array $arguments = []): string
     {
@@ -2422,6 +1536,7 @@ class ArtisanService
 
 <<<<<<< HEAD
             return $output.'[<pre>'.Artisan::output().'</pre>]'; // dato che mi carico solo le route minime menufull.delete non esiste.. impostare delle route comuni.
+<<<<<<< HEAD
         } catch (\Exception $exception) {
             // throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
             return '[<pre>'.$exception->getMessage().'</pre>]';
@@ -2495,6 +1610,8 @@ class ArtisanService
 =======
 >>>>>>> 551c768c4 (.)
             return $output.'[<pre>'.Artisan::output().'</pre>]'; // dato che mi carico solo le route minime menufull.delete non esiste.. impostare delle route comuni.
+=======
+>>>>>>> 414a4ffcb (.)
         } catch (Exception $exception) {
             // throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
             return '[<pre>'.$exception->getMessage().'</pre>]';
@@ -2530,6 +1647,7 @@ class ArtisanService
          * catch (\Symfony\Component\Console\Exception\CommandNotFoundException $e) {
          * return '<br/>'.$command.' non effettuato';
          * }*/
+<<<<<<< HEAD
         } catch (Exception $exception) {
             // throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
             return '[<pre>' . $exception->getMessage() . '</pre>]';
@@ -2842,5 +1960,7 @@ class ArtisanService
          * catch (\Symfony\Component\Console\Exception\CommandNotFoundException $e) {
          * return '<br/>'.$command.' non effettuato';
          * }*/
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

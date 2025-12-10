@@ -80,6 +80,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +232,11 @@ namespace Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\ReportResource;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\ReportResource;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Filament\Actions;
 use Filament\Tables;
@@ -331,6 +337,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,6 +489,11 @@ namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 
@@ -518,6 +530,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -669,6 +682,11 @@ namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 /**
@@ -732,6 +750,7 @@ namespace Modules\<nome modulo>\Filament\Resources;
 use Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
 use Modules\<nome progetto>\Models\Report;
 use Modules\<nome progetto>\Models\Report;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -888,6 +907,8 @@ use Modules\<nome progetto>\Models\Report;
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
 

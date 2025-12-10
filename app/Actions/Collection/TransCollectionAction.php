@@ -16,6 +16,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -91,6 +92,8 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Action per la traduzione di elementi di una collezione.
@@ -99,6 +102,7 @@ class TransCollectionAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public null|string $transKey;
@@ -374,6 +378,9 @@ class TransCollectionAction
 =======
     public ?string $transKey;
 >>>>>>> 551c768c4 (.)
+=======
+    public ?string $transKey;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Esegue la traduzione di una collezione.
@@ -397,6 +404,7 @@ class TransCollectionAction
      * @param  Collection<int|string, mixed>  $collection
      * @return Collection<int|string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(Collection $collection, null|string $transKey): Collection
     public function execute(Collection $collection, null|string $transKey): Collection
@@ -497,6 +505,12 @@ class TransCollectionAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public function execute(Collection $collection, ?string $transKey): Collection
+    {
+        if ($transKey === null) {
+            return $collection->map(SafeStringCastAction::cast(...));
+>>>>>>> 414a4ffcb (.)
         }
 
         $this->transKey = $transKey;
@@ -504,6 +518,7 @@ class TransCollectionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
         return $collection->map($this->trans(...));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +580,8 @@ class TransCollectionAction
         return $collection->map($this->trans(...));
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
@@ -578,6 +595,7 @@ class TransCollectionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $item L'elemento da tradurre
      *
 =======
@@ -633,11 +651,14 @@ class TransCollectionAction
      * @param  mixed  $item  L'elemento da tradurre
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return string L'elemento tradotto o l'elemento originale se la traduzione non esiste
      */
     public function trans(mixed $item): string
     {
         // Converte l'item in stringa se non lo è già
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!\is_string($item)) {
@@ -881,10 +902,18 @@ class TransCollectionAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! \is_string($item)) {
+            $item = SafeStringCastAction::cast($item);
+        }
+
+        if (empty($item) || $this->transKey === null) {
+>>>>>>> 414a4ffcb (.)
             return $item;
         }
 
         // Prima prova la traduzione diretta
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $key = $this->transKey . '.' . $item;
@@ -1160,6 +1189,9 @@ class TransCollectionAction
 =======
         $key = $this->transKey.'.'.$item;
 >>>>>>> 551c768c4 (.)
+=======
+        $key = $this->transKey.'.'.$item;
+>>>>>>> 414a4ffcb (.)
         $trans = trans($key);
 
         // Se la traduzione esiste ed è una stringa, la restituisce
@@ -1171,6 +1203,7 @@ class TransCollectionAction
         $itemWithUnderscore = str_replace('.', '_', $item);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
@@ -1444,6 +1477,9 @@ class TransCollectionAction
 =======
         $keyWithUnderscore = $this->transKey.'.'.$itemWithUnderscore;
 >>>>>>> 551c768c4 (.)
+=======
+        $keyWithUnderscore = $this->transKey.'.'.$itemWithUnderscore;
+>>>>>>> 414a4ffcb (.)
         $transWithUnderscore = trans($keyWithUnderscore);
 
         // Se la traduzione con underscore esiste ed è una stringa, la restituisce

@@ -16,6 +16,7 @@
 
 ### 1. Conflitti Git Risolti (4 file)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - `Modules/Quaeris/app/Filament/Pages/DashboardV2.php`
@@ -27,6 +28,14 @@
 - `Modules/<nome progetto>/app/Datas/DashboardFilterData.php`
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+- `Modules/Quaeris/app/Filament/Pages/DashboardV2.php`
+- `Modules/Quaeris/app/Datas/AlertDashboardFilterData.php`
+- `Modules/Quaeris/app/Datas/DashboardFilterData.php`
+- `Modules/<nome progetto>/app/Filament/Pages/DashboardV2.php`
+- `Modules/<nome progetto>/app/Datas/AlertDashboardFilterData.php`
+- `Modules/<nome progetto>/app/Datas/DashboardFilterData.php`
+>>>>>>> 414a4ffcb (.)
 
 **Pattern**: Risoluzione manuale sempre scegliendo la versione HEAD con codice funzionante.
 

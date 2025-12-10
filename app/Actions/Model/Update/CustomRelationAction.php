@@ -30,9 +30,13 @@ class CustomRelationAction
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /** @var array<string, mixed> $data PHPStan: ensure correct type */
 >>>>>>> 551c768c4 (.)
+=======
+            /** @var array<string, mixed> $data PHPStan: ensure correct type */
+>>>>>>> 414a4ffcb (.)
             if (\in_array($keyName, array_keys($data), false)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +60,7 @@ class CustomRelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -303,6 +308,8 @@ class CustomRelationAction
 =======
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

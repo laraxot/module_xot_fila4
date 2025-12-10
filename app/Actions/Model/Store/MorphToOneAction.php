@@ -23,6 +23,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $model, RelationDTO $relationDTO): void
 =======
 =======
@@ -79,6 +80,8 @@ class MorphToOneAction
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         // if ($relationDTO === null) {
         //    return;
@@ -125,6 +128,7 @@ class MorphToOneAction
 >>>>>>> 5cf46378 (.)
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
         //if ($relationDTO === null) {
         //    return;
@@ -179,6 +183,8 @@ class MorphToOneAction
         //}
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // } else {
         //    $rows->sync($relation->data);
         // }
@@ -227,6 +233,7 @@ class MorphToOneAction
          *
          * dddx('wip');
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,5 +322,7 @@ class MorphToOneAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

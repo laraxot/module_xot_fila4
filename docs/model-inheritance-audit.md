@@ -147,6 +147,7 @@ class TemporaryUpload extends BaseModel implements HasMedia  // ✅
 
 ---
 
+#### <nome progetto>
 **BaseModel**: ❌ Estende direttamente `Model` invece di `XotBaseModel`
 
 **Modelli da correggere**:
@@ -203,6 +204,7 @@ class TestSushiModel extends BaseModel  // ✅
 - ❌ Cms
 - ❌ Chart
 - ❌ Geo
+- ❌ <nome progetto>
 
 **Totale**: 4/13 moduli (31%)
 
@@ -218,6 +220,8 @@ class TestSushiModel extends BaseModel  // ✅
 | Job | `TaskComment.php` | Estende `Model` invece di `BaseModel` |
 | Lang | `BaseModelLang.php` | Estende `Model` invece di `BaseModel` |
 | Media | `TemporaryUpload.php` | Estende `Model` invece di `BaseModel` |
+| <nome progetto> | `BaseModel.php` | Estende `Model` invece di `XotBaseModel` |
+| <nome progetto> | `ContactSimple.php` | Estende `Model` invece di `BaseModel` |
 | Tenant | `TestSushiModel.php` | Estende `Model` invece di `BaseModel` |
 
 **Totale**: 11 file da correggere
@@ -233,6 +237,7 @@ class TestSushiModel extends BaseModel  // ✅
 
 ### 🔴 Alta Priorità
 1. **Cms** - BaseModel e Conf (modulo core per contenuti)
+2. **<nome progetto>** - BaseModel e ContactSimple (modulo specifico del progetto)
 
 ### 🟡 Media Priorità
 3. **Chart** - BaseModel
@@ -252,6 +257,7 @@ Per verificare tutti i moduli:
 
 ```bash
 #!/bin/bash
+cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel/Modules
 
 for module in */; do
     echo "=== Checking $module ==="
@@ -266,6 +272,7 @@ done
 
 1. ✅ **User** - Completato (15 Ottobre 2025)
 2. ⏳ **Cms** - Da correggere (BaseModel + Conf)
+3. ⏳ **<nome progetto>** - Da correggere (BaseModel + ContactSimple)
 4. ⏳ **Chart** - Da correggere (BaseModel)
 5. ⏳ **Geo** - Da correggere (BaseModel + GeoNamesCap)
 6. ⏳ **Job** - Da correggere (TaskComment)
@@ -287,6 +294,7 @@ done
 Questi modelli possono comunque estendere `BaseModel` senza problemi.
 
 #### Modelli con HasMedia
+- `<nome progetto>/BaseModel.php` - Implementa `HasMedia`
 - `Media/TemporaryUpload.php` - Implementa `HasMedia`
 
 `XotBaseModel` è compatibile con `HasMedia` di Spatie.

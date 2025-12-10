@@ -26,6 +26,7 @@
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +206,9 @@
 =======
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in <nome progetto>. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 >>>>>>> 551c768c4 (.)
+=======
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in <nome progetto>. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+>>>>>>> 414a4ffcb (.)
 
 ## Caratteristiche Principali
 
@@ -399,6 +403,7 @@ try {
 5. La registrazione dei componenti è automatica ma configurabile 
 <<<<<<< HEAD
 5. La registrazione dei componenti è automatica ma configurabile 
+<<<<<<< HEAD
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
@@ -458,3 +463,5 @@ try {
 =======
 5. La registrazione dei componenti è automatica ma configurabile 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

@@ -140,6 +140,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8fd88dd43 (.)
 =======
@@ -330,6 +331,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     'backend' => [
         'access' => [
@@ -343,6 +346,7 @@ return [
                 'not_found' => "Ce rôle n'existe pas.",
                 'update_error' => 'Un problème est survenu lors de la mise à jour du rôle. Veuillez réessayer.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +518,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'users' => [
                 'cant_deactivate_self' => 'Vous ne pouvez pas vous désactiver vous-même.',
                 'cant_delete_self' => 'Vous ne pouvez pas vous supprimer vous-même.',
@@ -558,6 +564,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -703,6 +710,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -741,6 +750,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1002,6 +1012,8 @@ return [
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'password' => [
                 'change_mismatch' => "L'ancien mot de passe est invalide.",
             ],

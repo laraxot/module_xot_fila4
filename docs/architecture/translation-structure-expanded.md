@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
@@ -138,6 +139,11 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 ## Scopo
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
 <<<<<<< HEAD
+=======
+# Struttura Traduzioni Espansa - Modulo Xot
+
+## Scopo
+>>>>>>> 414a4ffcb (.)
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
 =======
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
@@ -512,6 +518,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 - [User Module Translations](/Modules/User/project_docs/translation-guidelines.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -687,6 +694,8 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### File di Implementazione
 - `lang/es/labels.php` - Etichette generali spagnole

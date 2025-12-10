@@ -6,6 +6,7 @@ namespace Modules\Xot\Datas;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -19,6 +20,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Facades\File;
 use Livewire\Wireable;
 use Spatie\LaravelData\Concerns\WireableData;
@@ -41,6 +45,7 @@ class EnvData extends Data implements Wireable
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,11 +221,14 @@ class EnvData extends Data implements Wireable
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     private static ?self $instance = null;
 
     public static function make(): self
     {
         if (! self::$instance) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -460,6 +468,8 @@ class EnvData extends Data implements Wireable
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $data = [];
 
             foreach ($_ENV as $k => $v) {
@@ -469,12 +479,15 @@ class EnvData extends Data implements Wireable
                 }
                 if ($v === 'true') {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if ('false' === $v) {
                     $v = false;
                 }
                 if ('true' === $v) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     $v = true;
                 }
                 $data[$k] = $v;
@@ -493,6 +506,7 @@ class EnvData extends Data implements Wireable
 
         foreach ($data as $k => $v) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
             if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
             if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
@@ -501,6 +515,9 @@ class EnvData extends Data implements Wireable
 =======
             if ($v !== $this->$k && (is_bool($v) || is_int($v) || is_string($v))) {
 >>>>>>> 551c768c4 (.)
+=======
+            if ($v !== $this->$k && (is_bool($v) || is_int($v) || is_string($v))) {
+>>>>>>> 414a4ffcb (.)
                 $env_content = $this->updateVar($k, $v, $env_content);
             }
         }
@@ -516,6 +533,7 @@ class EnvData extends Data implements Wireable
 <<<<<<< HEAD
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
+<<<<<<< HEAD
         $pos_start = mb_strpos($env_content, $key . '=');
         if (false === $pos_start) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -623,12 +641,15 @@ class EnvData extends Data implements Wireable
 >>>>>>> 551c768c4 (.)
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
+=======
+>>>>>>> 414a4ffcb (.)
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
             return $env_content."\n".$replace;
         }
         $pos_end = mb_strpos($env_content, "\n", $pos_start);
         if ($pos_end === false) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -990,11 +1011,14 @@ class EnvData extends Data implements Wireable
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         $length = $pos_end - $pos_start;
         $find = mb_substr($env_content, $pos_start, $length + 1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $env_content = str($env_content)->replace($find, $replace)->toString();
 
@@ -1014,12 +1038,16 @@ class EnvData extends Data implements Wireable
 =======
         return str($env_content)->replace($find, $replace)->toString();
 >>>>>>> 551c768c4 (.)
+=======
+        return str($env_content)->replace($find, $replace)->toString();
+>>>>>>> 414a4ffcb (.)
     }
 
     public function getLine(string $key, int|bool|string $value): string
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $replace = $key . '=';
         $replace = $key . '=';
         $replace = $key . '=';
@@ -1293,12 +1321,16 @@ class EnvData extends Data implements Wireable
 =======
         $replace = $key.'=';
 >>>>>>> 551c768c4 (.)
+=======
+        $replace = $key.'=';
+>>>>>>> 414a4ffcb (.)
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
         if (is_string($value)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $replace .= '"' . $value . '"';
             $replace .= '"' . $value . '"';
             $replace .= '"' . $value . '"';
@@ -1572,6 +1604,9 @@ class EnvData extends Data implements Wireable
 =======
             $replace .= '"'.$value.'"';
 >>>>>>> 551c768c4 (.)
+=======
+            $replace .= '"'.$value.'"';
+>>>>>>> 414a4ffcb (.)
         }
         if (is_int($value)) {
             $replace .= $value;

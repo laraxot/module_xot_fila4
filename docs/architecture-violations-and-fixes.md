@@ -30,6 +30,7 @@
 Durante lo sviluppo è stata identificata una **violazione architetturale critica** nel `LoginTest.php` del modulo Cms:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +710,8 @@ $user = User::factory()->create([...]);
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -821,6 +824,7 @@ $user = $userClass::factory()->create($attributes);
 <<<<<<< HEAD
 <<<<<<< HEAD
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+<<<<<<< HEAD
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
@@ -1113,6 +1117,8 @@ $user = $userClass::factory()->create($attributes);
 =======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     ],
 ],
 ```
@@ -1265,6 +1271,7 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
+<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
@@ -1520,6 +1527,8 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -1765,6 +1774,7 @@ use Modules\<nome modulo>\Models\Doctor;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -2175,6 +2185,8 @@ use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -2279,6 +2291,7 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
+<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
@@ -2534,6 +2547,8 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -2638,6 +2653,7 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
+<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
@@ -2893,6 +2909,8 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -2951,6 +2969,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 ### **Fase 3: Testing e Validazione**
 1. Test che XotData risolve correttamente
 2. Verify dei contratti implementati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3016,6 +3035,9 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 3. PHPStan level 10+ compliance
 >>>>>>> 551c768c4 (.)
+=======
+3. PHPStan level 10+ compliance
+>>>>>>> 414a4ffcb (.)
 4. Test di regressione
 
 ## 📚 **Link e Riferimenti**
@@ -3032,6 +3054,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [IsTenant Trait](../../User/app/Models/Traits/IsTenant.php)
 
 ### **Documentazione Moduli**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3075,6 +3098,8 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 <<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 <<<<<<< HEAD
@@ -3094,6 +3119,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 >>>>>>> ce6fc085 (.)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
@@ -3450,6 +3476,9 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+>>>>>>> 414a4ffcb (.)
 
 ---
 
@@ -3491,6 +3520,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 **Responsabile**: Team Architettura Laraxot 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3809,3 +3839,9 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+**Responsabile**: Team Architettura Laraxot 
+=======
+=======
+>>>>>>> 414a4ffcb (.)

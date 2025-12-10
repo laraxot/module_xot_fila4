@@ -44,6 +44,7 @@ use Spipu\Html2Pdf\Html2Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -108,6 +109,8 @@ TableException
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Class HtmlService.
@@ -136,6 +139,7 @@ class HtmlService
         string $pdforientation = 'L',
         string $filename = '',
     ): string {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,12 +203,15 @@ class HtmlService
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // dddx($params);
 
         // include_once __DIR__.'/vendor/autoload.php';
         // $pdforientation = 'L'; // default;
         // $out = 'show';
         if ($filename === '') {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if ('' === $filename) {
         if ('' === $filename) {
@@ -222,6 +229,8 @@ class HtmlService
         if ('' === $filename) {
         if ('' === $filename) {
         if ('' === $filename) {
+=======
+>>>>>>> 414a4ffcb (.)
             $filename = Storage::disk('local')->path('test.pdf');
         }
         /*
@@ -245,6 +254,7 @@ class HtmlService
          * throw new \Exception('err html is missing');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +323,8 @@ class HtmlService
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         if (request('debug', false)) {
             return $html;
         }
@@ -375,6 +387,7 @@ class HtmlService
 
             if ($out === 'file') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ('content_PDF' === $out) {
                 return $html2pdf->Output($filename . '.pdf', 'S');
             }
@@ -390,6 +403,8 @@ class HtmlService
             if ('file' === $out) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $html2pdf->Output($filename, 'F');
 
                 return $filename;
@@ -439,6 +454,7 @@ class HtmlService
      * return $mpdf->Output();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,4 +527,6 @@ class HtmlService
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

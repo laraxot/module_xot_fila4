@@ -150,10 +150,12 @@ class MyAction
 
 declare(strict_types=1);
 
+namespace Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
 
 use Filament\Actions\Action;
 use Filament\Actions\DeleteAction;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+use Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
 
 class ViewQuestionChart extends XotBaseViewRecord
 {
@@ -195,6 +197,7 @@ class ViewQuestionChart extends XotBaseViewRecord
 
 declare(strict_types=1);
 
+namespace Modules\<nome progetto>\Filament\Widgets;
 
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
@@ -250,6 +253,10 @@ class QuestionChartFilterWidget extends XotBaseWidget
 
 declare(strict_types=1);
 
+namespace Modules\<nome progetto>\Filament\Resources;
+
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Modules\<nome progetto>\Models\QuestionChart;
 
 class QuestionChartResource extends XotBaseResource
 {

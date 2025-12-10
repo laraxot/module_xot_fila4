@@ -708,6 +708,7 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> e769883c (.)
 - [Root Testing Organization](../../../docs/testing-organization.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
@@ -1215,6 +1216,11 @@ test('no memory leaks in repeated operations', function (): void {
 - [<nome progetto> Testing Guidelines](../../../docs/testing.md)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+- [<nome progetto> Testing Guidelines](../../../docs/testing.md)
+- [Cms Testing Guidelines](../../Cms/docs/testing.md)
+>>>>>>> 414a4ffcb (.)
 
 ### Framework Documentation
 - [Xot Framework Architecture](./architecture.md)
@@ -1287,6 +1293,7 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 851793957 (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1596,12 +1603,15 @@ test('no memory leaks in repeated operations', function (): void {
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ---
 
 **Ultimo aggiornamento**: Dicembre 2024  
 **Framework**: Pest v2.x  
 **Coverage Target**: 90%+ per core framework  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1659,3 +1669,6 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

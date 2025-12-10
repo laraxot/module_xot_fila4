@@ -33,6 +33,7 @@ use Modules\Xot\Datas\RelationData as RelationDTO;
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -71,6 +72,8 @@ use Illuminate\Support\Facades\App;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -86,6 +89,7 @@ final class MorphOneAction
     /**
      * Execute the morphOne relationship action.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param Model       $model       The model instance
      * @param RelationDTO $relationDTO The relation data transfer object
@@ -122,6 +126,13 @@ final class MorphOneAction
      * @throws InvalidArgumentException When relation is not MorphOne
      * @throws RuntimeException When data array is invalid
 >>>>>>> 091f883c (.)
+=======
+     * @param  Model  $model  The model instance
+     * @param  RelationDTO  $relationDTO  The relation data transfer object
+     *
+     * @throws InvalidArgumentException When relation is not MorphOne
+     * @throws RuntimeException When data array is invalid
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
@@ -144,6 +155,7 @@ final class MorphOneAction
      * Validate and prepare the data array.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data The input data array
      *
      * @param array<string, mixed> $data The input data array
@@ -157,11 +169,15 @@ final class MorphOneAction
 =======
      * @param  array<string, mixed>  $data  The input data array
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<string, mixed>  $data  The input data array
+>>>>>>> 414a4ffcb (.)
      * @return array<string, mixed> The validated and prepared data
      */
     private function validateAndPrepareData(array $data): array
     {
         // Ensure the 'lang' key is set to the current locale if not provided
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!isset($data['lang'])) {
@@ -437,6 +453,9 @@ final class MorphOneAction
 =======
         if (! isset($data['lang'])) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> 414a4ffcb (.)
             $data['lang'] = App::getLocale();
         }
 
@@ -505,6 +524,7 @@ final class MorphOneAction
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         return array_filter($data, static fn ($value): bool => $value !== null);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a67e542f (.)
@@ -766,5 +786,7 @@ final class MorphOneAction
 =======
         return array_filter($data, static fn ($value): bool => $value !== null);
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

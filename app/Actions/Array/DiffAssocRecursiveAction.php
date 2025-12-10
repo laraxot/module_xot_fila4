@@ -15,6 +15,7 @@ namespace Modules\Xot\Actions\Array;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,6 +64,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 80bc07e81 (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -198,6 +202,7 @@ class DiffAssocRecursiveAction
                 return $item0;
             })->all();
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +563,8 @@ class DiffAssocRecursiveAction
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         return $collection->all();
     }
@@ -922,6 +929,7 @@ class DiffAssocRecursiveAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 80bc07e81 (.)
 =======
 =======
@@ -945,6 +953,8 @@ class DiffAssocRecursiveAction
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         return $ris->all();
     }

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -738,6 +739,8 @@ declare(strict_types=1);
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -775,12 +778,4 @@ $config
     ])
     ->setFinder($finder)
 
-<<<<<<< HEAD
 return $config;
-=======
-<<<<<<< HEAD
-return $config;
-=======
-return $config;
->>>>>>> laraxot/develop
->>>>>>> 7e824610 (.)

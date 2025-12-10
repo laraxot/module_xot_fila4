@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\CacheResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +150,10 @@ class CreateCache extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreateRec
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+class CreateCache extends XotBaseCreateRecord
+>>>>>>> 414a4ffcb (.)
 {
     protected static string $resource = CacheResource::class;
 }

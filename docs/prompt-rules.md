@@ -51,6 +51,7 @@ La documentazione generica deve essere sempre inserita nella cartella `docs` del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 <<<<<<< HEAD
@@ -183,6 +184,10 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/project_docs/README.md) per i dettagli.
 >>>>>>> 80bc07e81 (.)
+=======
+La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
+La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/project_docs/README.md) per i dettagli.
+>>>>>>> 414a4ffcb (.)
 
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)

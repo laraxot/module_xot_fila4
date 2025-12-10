@@ -10,6 +10,7 @@ Trovati 4 errori al livello max.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,6 +197,9 @@ Trovati 4 errori al livello max.
 =======
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 >>>>>>> 551c768c4 (.)
+=======
+### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 414a4ffcb (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -215,6 +219,7 @@ Trovati 4 errori al livello max.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +406,9 @@ Trovati 4 errori al livello max.
 =======
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 >>>>>>> 551c768c4 (.)
+=======
+### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 414a4ffcb (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 

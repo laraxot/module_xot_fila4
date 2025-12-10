@@ -11,6 +11,7 @@ namespace Modules\Xot\Filament\Actions\Header;
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
 // use Filament\Actions\Action;
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
@@ -23,6 +24,8 @@ namespace Modules\Xot\Filament\Actions\Header;
 // use Filament\Tables\Actions\Action;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
@@ -64,6 +67,7 @@ class FakeSeederHeaderAction extends Action
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
+<<<<<<< HEAD
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
@@ -93,6 +97,8 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 TextInput::make('qty')
                     ->required()
                     ->numeric()
@@ -109,6 +115,7 @@ class FakeSeederHeaderAction extends Action
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
             ->action(function (array $data, ListRecords $livewire): void {
+<<<<<<< HEAD
             ->action(function (array $data, ListRecords $livewire) {
             ->action(function (array $data, ListRecords $livewire) {
             ->action(function (array $data, ListRecords $livewire) {
@@ -145,6 +152,8 @@ class FakeSeederHeaderAction extends Action
 =======
             ->action(function (array $data, ListRecords $livewire): void {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();
@@ -194,6 +203,7 @@ class FakeSeederHeaderAction extends Action
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
                 $title = 'On Queue '.$qty.' '.$modelClass;
+<<<<<<< HEAD
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
 <<<<<<< HEAD
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
@@ -504,6 +514,8 @@ class FakeSeederHeaderAction extends Action
 =======
                 $title = 'On Queue '.$qty.' '.$modelClass;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -546,6 +558,7 @@ class FakeSeederHeaderAction extends Action
 =======
 >>>>>>> 218dfed3 (.)
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -854,6 +867,8 @@ class FakeSeederHeaderAction extends Action
 =======
     public static function getDefaultName(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return 'fake_seeder';
     }

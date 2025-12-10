@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Update migrazioni Performance](../../Performance/docs/migration_update_rules.md)
 - [Root MODULE_NAMESPACE_RULES.md](../../../docs/MODULE_NAMESPACE_RULES.md)
@@ -192,11 +193,16 @@
 =======
 >>>>>>> 5df5c7505 (.)
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 - [Update migrazioni Performance](../../Performance/docs/migration_update_rules.md)
 - [Root MODULE_NAMESPACE_RULES.md](../../../docs/MODULE_NAMESPACE_RULES.md)
 - [Update migrazioni Performance](../../Performance/project_docs/migration_update_rules.md)
 - [Root MODULE_NAMESPACE_RULES.md](../../../project_docs/MODULE_NAMESPACE_RULES.md)
+<<<<<<< HEAD
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ---
 
@@ -221,6 +227,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Regole update migrazioni Performance](../../Performance/docs/migration_update_rules.md) ← questa doc è sempre aggiornata
 - [Ripresa lavoro migrazioni in root](../../../docs/MODULE_NAMESPACE_RULES.md)
@@ -372,11 +379,16 @@
 =======
 >>>>>>> 5df5c7505 (.)
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 - [Regole update migrazioni Performance](../../Performance/docs/migration_update_rules.md) ← questa doc è sempre aggiornata
 - [Ripresa lavoro migrazioni in root](../../../docs/MODULE_NAMESPACE_RULES.md)
 - [Regole update migrazioni Performance](../../Performance/project_docs/migration_update_rules.md) ← questa doc è sempre aggiornata
 - [Ripresa lavoro migrazioni in root](../../../project_docs/MODULE_NAMESPACE_RULES.md)
+<<<<<<< HEAD
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 Ultimo aggiornamento: 2025-05-13
 
@@ -405,6 +417,7 @@ Ultimo aggiornamento: 2025-05-13
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Vedi esempio e motivazione in [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
 <<<<<<< HEAD
@@ -537,10 +550,15 @@ Ultimo aggiornamento: 2025-05-13
 - Vedi esempio e motivazione in [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
 - Vedi esempio e motivazione in [Modules/Performance/project_docs/azioni_organizzativa.md](../../Performance/project_docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
 >>>>>>> 80bc07e81 (.)
+=======
+- Vedi esempio e motivazione in [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
+- Vedi esempio e motivazione in [Modules/Performance/project_docs/azioni_organizzativa.md](../../Performance/project_docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
+>>>>>>> 414a4ffcb (.)
 
 ---
 
 **Backlink modulo Performance:**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,12 +609,16 @@ Ultimo aggiornamento: 2025-05-13
 =======
 - [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md)
 >>>>>>> 80bc07e81 (.)
+=======
+- [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md)
+>>>>>>> 414a4ffcb (.)
 - [Modules/Performance/project_docs/azioni_organizzativa.md](../../Performance/project_docs/azioni_organizzativa.md)
 
 ---
 
 ## Pattern definitivo HeaderAction custom Filament 3
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -810,6 +832,10 @@ Ultimo aggiornamento: 2025-05-13
 - Segui SEMPRE il pattern documentato in [Modules/Performance/docs/azioni_organizzativa.md#2025-05-14-pattern-definitivo-headeraction-custom-filament-3]
 - Segui SEMPRE il pattern documentato in [Modules/Performance/project_docs/azioni_organizzativa.md#2025-05-14-pattern-definitivo-headeraction-custom-filament-3]
 >>>>>>> 80bc07e81 (.)
+=======
+- Segui SEMPRE il pattern documentato in [Modules/Performance/docs/azioni_organizzativa.md#2025-05-14-pattern-definitivo-headeraction-custom-filament-3]
+- Segui SEMPRE il pattern documentato in [Modules/Performance/project_docs/azioni_organizzativa.md#2025-05-14-pattern-definitivo-headeraction-custom-filament-3]
+>>>>>>> 414a4ffcb (.)
 - Il pattern Filament 2 (override statico di make) è obsoleto e genera errori: non usarlo mai nei nuovi moduli o refactoring.
 
 ---
@@ -818,6 +844,7 @@ Ultimo aggiornamento: 2025-05-13
 
 - Le colonne delle tabelle Filament devono essere derivate solo dal modello e dalla migrazione.
 - La UI può mostrare solo un sottoinsieme delle colonne, secondo le regole documentate in Performance.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,6 +997,10 @@ Ultimo aggiornamento: 2025-05-13
 - Ogni modifica va documentata in [Modules/Performance/docs/list_table_columns_analysis.md#organizzativacatcoeff]
 - Ogni modifica va documentata in [Modules/Performance/project_docs/list_table_columns_analysis.md#organizzativacatcoeff]
 >>>>>>> 80bc07e81 (.)
+=======
+- Ogni modifica va documentata in [Modules/Performance/docs/list_table_columns_analysis.md#organizzativacatcoeff]
+- Ogni modifica va documentata in [Modules/Performance/project_docs/list_table_columns_analysis.md#organizzativacatcoeff]
+>>>>>>> 414a4ffcb (.)
 
 ---
 

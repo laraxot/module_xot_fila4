@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 use Override;
 =======
@@ -96,10 +97,13 @@ use Override;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -221,6 +225,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 
 =======
 <<<<<<< HEAD
@@ -295,6 +301,7 @@ class ListCacheLocks extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
 =======
@@ -351,6 +358,8 @@ class ListCacheLocks extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableColumns(): array
     {
         return [
@@ -365,6 +374,7 @@ class ListCacheLocks extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -443,6 +453,8 @@ class ListCacheLocks extends XotBaseListRecords
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 }

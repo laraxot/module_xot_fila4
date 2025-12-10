@@ -6,6 +6,7 @@ namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +252,11 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Extra;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\Extra;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class ExtraPolicy extends XotBasePolicy
 {
@@ -295,6 +301,7 @@ class ExtraPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, Extra $extra): bool
 =======
 =======
@@ -351,6 +358,8 @@ class ExtraPolicy extends XotBasePolicy
     public function view(UserContract $user, Extra $_extra): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('extra.view');
     }
@@ -374,6 +383,7 @@ class ExtraPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, Extra $extra): bool
 =======
 =======
@@ -430,6 +440,8 @@ class ExtraPolicy extends XotBasePolicy
     public function update(UserContract $user, Extra $_extra): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('extra.update');
     }
@@ -445,6 +457,7 @@ class ExtraPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, Extra $extra): bool
 =======
 =======
@@ -501,6 +514,8 @@ class ExtraPolicy extends XotBasePolicy
     public function delete(UserContract $user, Extra $_extra): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('extra.delete');
     }
@@ -516,6 +531,7 @@ class ExtraPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, Extra $extra): bool
 =======
 =======
@@ -572,6 +588,8 @@ class ExtraPolicy extends XotBasePolicy
     public function restore(UserContract $user, Extra $_extra): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('extra.restore');
     }

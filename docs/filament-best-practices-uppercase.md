@@ -78,6 +78,7 @@ public static function getFormSchema(): array
 // NON FARE MAI QUESTO
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +142,9 @@ public static function form(Form $form): Form
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 551c768c4 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 414a4ffcb (.)
 {
     return $form->schema([
         // componenti...
@@ -772,6 +776,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 >>>>>>> 2f3197ab (.)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
+<<<<<<< HEAD
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
@@ -1112,3 +1117,10 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
+- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
 use Illuminate\Database\Eloquent\Model;
@@ -36,6 +37,11 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Modules\Xot\Models\Traits\RelationX;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Modules\Xot\Models\Traits\HasXotFactory;
+use Modules\Xot\Models\Traits\RelationX;
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -45,6 +51,7 @@ abstract class XotBaseModel extends EloquentModel
 {
     use HasXotFactory;
     use RelationX;
+<<<<<<< HEAD
 <<<<<<< HEAD
     // use Searchable;
 abstract class XotBaseModel extends Model
@@ -84,6 +91,8 @@ abstract class XotBaseModel extends Model
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     use Updater;
 
     /**
@@ -116,10 +125,15 @@ abstract class XotBaseModel extends Model
     protected $perPage = 30;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /** @var string */
     protected $connection = 'xot';
 >>>>>>> 551c768c4 (.)
+=======
+    /** @var string */
+    protected $connection = 'xot';
+>>>>>>> 414a4ffcb (.)
 
     /** @var list<string> */
     protected $appends = [];
@@ -129,6 +143,7 @@ abstract class XotBaseModel extends Model
 
     /** @var string */
     protected $keyType = 'int';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public $incrementing = true;
@@ -160,12 +175,15 @@ abstract class XotBaseModel extends Model
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /** @var list<string> */
     protected $hidden = [
         // 'password'
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -188,12 +206,16 @@ abstract class XotBaseModel extends Model
 =======
     /** @return array<string, string> */
 >>>>>>> 551c768c4 (.)
+=======
+    /** @return array<string, string> */
+>>>>>>> 414a4ffcb (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'uuid' => 'string',
             'published_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -205,6 +227,9 @@ abstract class XotBaseModel extends Model
 =======
             'verified_at' => 'datetime',
 >>>>>>> 551c768c4 (.)
+=======
+            'verified_at' => 'datetime',
+>>>>>>> 414a4ffcb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -213,6 +238,7 @@ abstract class XotBaseModel extends Model
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -245,4 +271,6 @@ abstract class XotBaseModel extends Model
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

@@ -66,6 +66,7 @@
 1. **Errore**: Directory errata
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +313,10 @@
    - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
    - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
 >>>>>>> 551c768c4 (.)
+=======
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+>>>>>>> 414a4ffcb (.)
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`
@@ -323,6 +328,7 @@
 
 ## Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,5 +391,8 @@
 =======
 - [Data Objects Patient](../Patient/docs/data-objects.md)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Data Objects Patient](../Patient/docs/data-objects.md)
+>>>>>>> 414a4ffcb (.)
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 

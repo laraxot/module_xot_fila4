@@ -6,6 +6,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Str;
@@ -152,6 +153,9 @@ use Illuminate\Support\Facades\File;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+use Modules\Xot\Services\ModuleService;
+>>>>>>> 414a4ffcb (.)
 
 describe('ModuleService Integration', function (): void {
     beforeEach(function (): void {
@@ -198,6 +202,7 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(class_exists('Nwidart\Modules\Facades\Module'))->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))->toBeTrue();
 =======
@@ -254,6 +259,8 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     });
 
     it('can find existing modules', function (): void {
@@ -294,6 +301,7 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($chartService)->toBeInstanceOf(ModuleService::class)
             ->and($userService)->toBeInstanceOf(ModuleService::class)
             ->and($xotService)->toBeInstanceOf(ModuleService::class);
@@ -354,6 +362,8 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     });
 
     it('returns models from existing modules', function (): void {
@@ -364,6 +374,7 @@ describe('ModuleService Integration', function (): void {
         $models = $chartService->getModels();
 
         expect($models)->toBeArray();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -380,6 +391,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         // Should contain Chart model
         $hasChartModel = false;
 <<<<<<< HEAD
@@ -394,6 +408,7 @@ describe('ModuleService Integration', function (): void {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -408,6 +423,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($hasChartModel)->toBeTrue();
     });
 
@@ -436,6 +454,7 @@ describe('ModuleService Integration', function (): void {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -450,6 +469,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($hasUserModels)->toBeTrue();
     });
 
@@ -458,6 +480,7 @@ describe('ModuleService Integration', function (): void {
         $models = $this->service->getModels();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -472,6 +495,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         // BaseModel should not be included (it's abstract)
         /* @phpstan-ignore-next-line argument.type */
         $modelNames = array_keys($models);
@@ -481,6 +507,7 @@ describe('ModuleService Integration', function (): void {
     it('returns class strings as values', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +560,10 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+
+        foreach ($models as $key => $modelClass) {
+>>>>>>> 414a4ffcb (.)
             expect($key)
                 ->toBeString()
                 ->and($modelClass)
@@ -540,6 +571,7 @@ describe('ModuleService Integration', function (): void {
                 /* @phpstan-ignore-next-line argument.type */
                 ->and(str_contains($modelClass, 'Modules\\'))
                 ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +638,8 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
     });
 
@@ -613,6 +647,7 @@ describe('ModuleService Integration', function (): void {
         // Test that reflection operations don't cause crashes
         /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -629,6 +664,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         // Test each returned model class
         /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
@@ -643,6 +681,7 @@ describe('ModuleService Integration', function (): void {
         $models = $this->service->getModels();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -657,12 +696,16 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($models)->toBeArray();
     });
 
     it('handles snake_case conversion correctly', function (): void {
         // Test string conversion logic
         $testString = 'TestModelName';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -683,6 +726,10 @@ describe('ModuleService Integration', function (): void {
         $snakeCase = Str::snake($testString);
 
 >>>>>>> 091f883c (.)
+=======
+        $snakeCase = Str::snake($testString);
+
+>>>>>>> 414a4ffcb (.)
         expect($snakeCase)->toBe('test_model_name');
     });
 
@@ -720,6 +767,7 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($models)->toBeArray()->and($models)->toBeEmpty();
         
         expect($models)->toBeArray()
@@ -798,6 +846,10 @@ describe('ModuleService Integration', function (): void {
         expect($models)->toBeArray()->and($models)->toBeEmpty();
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+
+        expect($models)->toBeArray()->and($models)->toBeEmpty();
+>>>>>>> 414a4ffcb (.)
     });
 
     it('handles namespace construction correctly', function (): void {
@@ -806,6 +858,7 @@ describe('ModuleService Integration', function (): void {
         $chartService = new ModuleService('Chart');
         /** @phpstan-ignore-next-line method.nonObject */
         $models = $chartService->getModels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -826,6 +879,9 @@ describe('ModuleService Integration', function (): void {
 =======
         /* @phpstan-ignore-next-line foreach.nonIterable */
 >>>>>>> 5cf46378 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         foreach ($models as $modelClass) {
             expect($modelClass)->toContain('Modules\\Chart\\');
         }
@@ -844,6 +900,7 @@ describe('ModuleService Integration', function (): void {
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             /* @phpstan-ignore-next-line argument.type */
@@ -923,6 +980,8 @@ describe('ModuleService Integration', function (): void {
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
     });
 
@@ -946,6 +1005,7 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(fn () => $service->getModels())->not->toThrow(Exception::class);
 =======
 =======
@@ -1002,6 +1062,8 @@ describe('ModuleService Integration', function (): void {
             expect($service->getModels(...))->not->toThrow(Exception::class);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
     });
 
@@ -1040,6 +1102,7 @@ describe('ModuleService Integration', function (): void {
                 /* @phpstan-ignore-next-line argument.type */
                 ->and(strlen($value))
                 ->toBeGreaterThan(0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1112,12 +1175,15 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
     });
 
     it('can work with Laravel service container', function (): void {
         // Test service container integration
         $serviceFromContainer = app(ModuleService::class, ['name' => 'TestModule']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1134,6 +1200,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($serviceFromContainer)->toBeInstanceOf(ModuleService::class);
     });
 
@@ -1157,6 +1226,7 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($results[0])->toBe($results[1])
             ->and($results[1])->toBe($results[2]);
 =======
@@ -1223,12 +1293,15 @@ describe('ModuleService Integration', function (): void {
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     });
 
     it('validates module path resolution', function (): void {
         // Test that module paths are resolved correctly
         /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1249,6 +1322,9 @@ describe('ModuleService Integration', function (): void {
 =======
         /* @phpstan-ignore-next-line foreach.nonIterable */
 >>>>>>> 5cf46378 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         foreach ($models as $modelClass) {
             // Each model class should follow the correct namespace pattern
             expect($modelClass)->toMatch('/^Modules\\\\[A-Za-z]+\\\\Models\\\\[A-Za-z]+$/');
@@ -1259,6 +1335,7 @@ describe('ModuleService Integration', function (): void {
         // Test file system operations
         /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1275,6 +1352,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         // Should not cause file system errors
         expect($models)->toBeArray();
     });
@@ -1282,6 +1362,7 @@ describe('ModuleService Integration', function (): void {
     it('integrates with Laravel string helpers', function (): void {
         // Test string helper integration
         expect(class_exists('Illuminate\Support\Str'))->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1302,6 +1383,10 @@ describe('ModuleService Integration', function (): void {
 
         $testStudly = Str::studly('test_string');
 >>>>>>> 091f883c (.)
+=======
+
+        $testStudly = Str::studly('test_string');
+>>>>>>> 414a4ffcb (.)
         expect($testStudly)->toBe('TestString');
     });
 
@@ -1311,6 +1396,7 @@ describe('ModuleService Integration', function (): void {
         $reflection = new ReflectionClass($this->service);
         /** @phpstan-ignore-next-line method.nonObject */
         $constructor = $reflection->getConstructor();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1397,6 +1483,10 @@ describe('ModuleService Integration', function (): void {
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+
+        expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
+>>>>>>> 414a4ffcb (.)
     });
 
     it('can handle model discovery efficiently', function (): void {
@@ -1417,6 +1507,7 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7468a7d2 (.)
@@ -1483,5 +1574,7 @@ describe('ModuleService Integration', function (): void {
         expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     });
 });

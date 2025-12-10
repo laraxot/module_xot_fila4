@@ -168,6 +168,7 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 - [filament/widgets/xot-base-widget.md](./filament/widgets/xot-base-widget.md) - Documentazione su XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,3 +231,7 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Trans;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +73,11 @@ use Illuminate\Support\Str;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Throwable;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Throwable;
+>>>>>>> 414a4ffcb (.)
 use Webmozart\Assert\Assert;
 
 class GetTransFilenameAction
@@ -85,6 +91,7 @@ class GetTransFilenameAction
         try {
             $langPath = app(GetModulePathByGeneratorAction::class)->execute($ns, 'lang');
             Assert::string($langPath, 'Percorso lang non valido');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,10 +308,14 @@ class GetTransFilenameAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        } catch (Throwable $e) {
+>>>>>>> 414a4ffcb (.)
             $langPath = base_path('Modules/'.$ns.'/lang');
         }
 
         $lang_path_full = $langPath.'/'.$lang.'/'.$file.'.php';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,5 +391,9 @@ class GetTransFilenameAction
 
         return str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
 >>>>>>> 551c768c4 (.)
+=======
+
+        return str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
+>>>>>>> 414a4ffcb (.)
     }
 }

@@ -6,6 +6,7 @@ namespace Modules\Xot\Providers;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -19,6 +20,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Filament\Notifications\Notification;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Config;
@@ -31,16 +35,22 @@ use Illuminate\Support\Facades\Route;
 abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public string $name = '';
 
 >>>>>>> 551c768c4 (.)
+=======
+    public string $name = '';
+
+>>>>>>> 414a4ffcb (.)
     protected string $moduleNamespace = 'Modules\Xot\Http\Controllers';
 
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public string $name = '';
 
@@ -54,6 +64,8 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * Undocumented function.
      */
@@ -78,6 +90,7 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
     protected function mapWebRoutes(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ('' === $this->name) {
         if ('' === $this->name) {
         if ('' === $this->name) {
@@ -86,6 +99,9 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 =======
         if ($this->name === '') {
 >>>>>>> 551c768c4 (.)
+=======
+        if ($this->name === '') {
+>>>>>>> 414a4ffcb (.)
             Notification::make()
                 ->title('Error')
                 ->danger()
@@ -159,6 +175,7 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a67e542f (.)
@@ -420,6 +437,8 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 =======
         Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
@@ -441,6 +460,7 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 >>>>>>> 7468a7d2 (.)
         if ($this->name === '') {
             throw new Exception('name is empty on ['.static::class.']');
+<<<<<<< HEAD
         if ('' === $this->name) {
         if ('' === $this->name) {
 <<<<<<< HEAD
@@ -687,10 +707,13 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
         if ($this->name === '') {
             throw new Exception('name is empty on ['.static::class.']');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
         Route::prefix('api')
             ->middleware('api')
             ->namespace($this->moduleNamespace)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             ->group($this->module_dir . '/../../routes/api.php');
@@ -966,5 +989,8 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 =======
             ->group($this->module_dir.'/../../routes/api.php');
 >>>>>>> 551c768c4 (.)
+=======
+            ->group($this->module_dir.'/../../routes/api.php');
+>>>>>>> 414a4ffcb (.)
     }
 }

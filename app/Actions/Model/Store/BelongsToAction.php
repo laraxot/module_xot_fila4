@@ -38,6 +38,7 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $model, RelationDTO $relationDTO): void
 =======
 =======
@@ -174,6 +175,8 @@ class BelongsToAction
 =======
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
@@ -182,6 +185,7 @@ class BelongsToAction
         $relationDTO->rows->associate($related);
 
         // $rows = $relation->rows;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -461,6 +465,8 @@ class BelongsToAction
         // dd([$relation->name]);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         /*
          * if (null == $row->{$relation->name}) {
          * $row->{$relation->name}()->create($relation->data);
@@ -478,6 +484,7 @@ class BelongsToAction
          * 't1'=>$rows,
          * ]);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,5 +812,7 @@ class BelongsToAction
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

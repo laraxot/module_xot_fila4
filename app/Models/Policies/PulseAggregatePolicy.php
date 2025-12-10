@@ -9,6 +9,7 @@ namespace Modules\Xot\Models\Policies;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\PulseAggregate;
 use Override;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +242,8 @@ use Modules\Xot\Models\PulseAggregate;
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class PulseAggregatePolicy extends XotBasePolicy
 {
@@ -256,6 +259,7 @@ class PulseAggregatePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function viewAny(UserContract $user): bool
 =======
 =======
@@ -322,6 +326,8 @@ class PulseAggregatePolicy extends XotBasePolicy
     public function viewAny(UserContract $user): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.viewAny');
     }
@@ -337,6 +343,7 @@ class PulseAggregatePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, PulseAggregate $pulse_aggregate): bool
 =======
 =======
@@ -393,6 +400,8 @@ class PulseAggregatePolicy extends XotBasePolicy
     public function view(UserContract $user, PulseAggregate $_pulse_aggregate): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.view');
     }
@@ -406,6 +415,7 @@ class PulseAggregatePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -466,6 +476,8 @@ class PulseAggregatePolicy extends XotBasePolicy
     public function create(UserContract $user): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.create');
     }
@@ -481,6 +493,7 @@ class PulseAggregatePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, PulseAggregate $pulse_aggregate): bool
 =======
 =======
@@ -537,6 +550,8 @@ class PulseAggregatePolicy extends XotBasePolicy
     public function update(UserContract $user, PulseAggregate $_pulse_aggregate): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.update');
     }
@@ -552,6 +567,7 @@ class PulseAggregatePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, PulseAggregate $pulse_aggregate): bool
 =======
 =======
@@ -608,6 +624,8 @@ class PulseAggregatePolicy extends XotBasePolicy
     public function delete(UserContract $user, PulseAggregate $_pulse_aggregate): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.delete');
     }
@@ -623,6 +641,7 @@ class PulseAggregatePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, PulseAggregate $pulse_aggregate): bool
 =======
 =======
@@ -679,6 +698,8 @@ class PulseAggregatePolicy extends XotBasePolicy
     public function restore(UserContract $user, PulseAggregate $_pulse_aggregate): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.restore');
     }
@@ -705,6 +726,7 @@ class PulseAggregatePolicy extends XotBasePolicy
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
@@ -735,3 +757,5 @@ class PulseAggregatePolicy extends XotBasePolicy
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)

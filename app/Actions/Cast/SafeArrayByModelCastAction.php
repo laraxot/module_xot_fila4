@@ -32,6 +32,7 @@ use Spatie\QueueableAction\QueueableAction;
 use ValueError;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -70,6 +71,8 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class SafeArrayByModelCastAction
 {
@@ -95,6 +98,7 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
         try {
+<<<<<<< HEAD
         try {
             /** @var array<string, mixed> */
             $attributes = $model->attributesToArray();
@@ -103,6 +107,8 @@ class SafeArrayByModelCastAction
         } catch (ValueError|Error|Exception $e) {
         try {
 <<<<<<< HEAD
+=======
+>>>>>>> 414a4ffcb (.)
             return $model->attributesToArray();
 =======
             /** @var array<string, mixed> */
@@ -111,6 +117,7 @@ class SafeArrayByModelCastAction
             return $attributes;
 >>>>>>> b7afadf9 (.)
         } catch (ValueError|Error|Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +204,8 @@ class SafeArrayByModelCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             return $this->safeExecute($model);
         }
     }
@@ -385,6 +394,7 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -780,5 +790,7 @@ class SafeArrayByModelCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

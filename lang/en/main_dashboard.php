@@ -9,6 +9,7 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 return array (
   'sections' => 
   array (
@@ -21,3 +22,5 @@ return array (
 );
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

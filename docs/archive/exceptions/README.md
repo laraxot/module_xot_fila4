@@ -34,6 +34,7 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +194,12 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> 60f0a1820 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+## Collegamenti tra versioni di README.md
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 414a4ffcb (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)

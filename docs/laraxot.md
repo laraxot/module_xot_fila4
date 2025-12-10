@@ -1428,6 +1428,7 @@ class MyAction extends XotBaseAction
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1491,6 +1492,9 @@ public static function form(Form $form): Form
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 551c768c4 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 414a4ffcb (.)
 {
     return $form->schema([
         // Utilizzare helper Xot
@@ -2520,6 +2524,7 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. La documentazione va in `/project_docs/`
 4. La documentazione va in `/docs/`
 4. La documentazione va in `/docs/`
@@ -2740,6 +2745,8 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 =======
 4. La documentazione va in `/docs/`
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 # Gestione Temi e Assets
 
@@ -3392,6 +3399,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3472,6 +3480,8 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 # Filament 3 Forms e Componenti
 # Filament 4 Forms e Componenti
 # Filament 4 Forms e Componenti
+=======
+>>>>>>> 414a4ffcb (.)
 # Filament 3 Forms e Componenti
 <<<<<<< HEAD
 =======
@@ -3617,6 +3627,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3697,6 +3708,8 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 # Filament 3 Plugins e Notifiche
 # Filament 4 Plugins e Notifiche
 # Filament 4 Plugins e Notifiche
+=======
+>>>>>>> 414a4ffcb (.)
 # Filament 3 Plugins e Notifiche
 <<<<<<< HEAD
 =======
@@ -4260,6 +4273,7 @@ $remember = $data['remember'] ?? false;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4340,6 +4354,8 @@ $remember = $data['remember'] ?? false;
 # Setup Assets Filament 3
 # Setup Assets Filament 4
 # Setup Assets Filament 4
+=======
+>>>>>>> 414a4ffcb (.)
 # Setup Assets Filament 3
 <<<<<<< HEAD
 =======
@@ -6388,6 +6404,7 @@ class CustomAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6468,6 +6485,8 @@ class CustomAction
 # Notifiche in Filament 3
 # Notifiche in Filament 4
 # Notifiche in Filament 4
+=======
+>>>>>>> 414a4ffcb (.)
 # Notifiche in Filament 3
 <<<<<<< HEAD
 =======
@@ -6566,6 +6585,7 @@ $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 ```
 
 ### ✅ Filament 3 (Modo Corretto)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6724,6 +6744,8 @@ $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```php
 use Filament\Notifications\Notification;
 
@@ -7432,6 +7454,7 @@ $remember = $data['remember'] ?? false;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7512,6 +7535,8 @@ $remember = $data['remember'] ?? false;
 # Setup Assets Filament 3
 # Setup Assets Filament 4
 # Setup Assets Filament 4
+=======
+>>>>>>> 414a4ffcb (.)
 # Setup Assets Filament 3
 <<<<<<< HEAD
 =======
@@ -9721,6 +9746,7 @@ Le informazioni aggiuntive devono essere mostrate solo nella vista dettaglio:
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9784,6 +9810,9 @@ public static function form(Form $form): Form
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 551c768c4 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 414a4ffcb (.)
 {
     return $form
         ->schema([
@@ -9887,6 +9916,7 @@ Framework based on Laravel for building modular applications.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9967,6 +9997,8 @@ Framework based on Laravel for building modular applications.
 # Widget Configuration in Filament 3
 # Widget Configuration in Filament 4
 # Widget Configuration in Filament 4
+=======
+>>>>>>> 414a4ffcb (.)
 # Widget Configuration in Filament 3
 <<<<<<< HEAD
 =======
@@ -10119,6 +10151,7 @@ class ClientMapWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10199,6 +10232,8 @@ class ClientMapWidget extends Widget
 1. La configurazione dei widget è stata semplificata in Filament 3
 1. La configurazione dei widget è stata semplificata in Filament 4
 1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+>>>>>>> 414a4ffcb (.)
 1. La configurazione dei widget è stata semplificata in Filament 3
 <<<<<<< HEAD
 =======
@@ -10265,6 +10300,7 @@ class ClientMapWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10345,6 +10381,8 @@ class ClientMapWidget extends Widget
 # Configurazione Widget in Filament 3 (Laravel 11+)
 # Configurazione Widget in Filament 4 (Laravel 11+)
 # Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+>>>>>>> 414a4ffcb (.)
 # Configurazione Widget in Filament 3 (Laravel 11+)
 <<<<<<< HEAD
 =======
@@ -10510,6 +10548,7 @@ class ClientMapWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10590,6 +10629,8 @@ class ClientMapWidget extends Widget
 1. **Breaking Changes in Filament 3**
 1. **Breaking Changes in Filament 4**
 1. **Breaking Changes in Filament 4**
+=======
+>>>>>>> 414a4ffcb (.)
 1. **Breaking Changes in Filament 3**
 <<<<<<< HEAD
 =======
@@ -10667,6 +10708,7 @@ class ClientMapWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10747,6 +10789,8 @@ class ClientMapWidget extends Widget
 # Widget Reattivi in Filament 3 (Laravel 11+)
 # Widget Reattivi in Filament 4 (Laravel 11+)
 # Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+>>>>>>> 414a4ffcb (.)
 # Widget Reattivi in Filament 3 (Laravel 11+)
 <<<<<<< HEAD
 =======
@@ -10923,6 +10967,7 @@ class ClientMapWidget extends Widget
   - Contact section
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10978,3 +11023,6 @@ class ClientMapWidget extends Widget
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

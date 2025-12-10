@@ -45,6 +45,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'heading' => 'Salud de la aplicación',
             'heading' => 'Salud de la aplicación',
             'heading' => 'Salud de la aplicación',
@@ -246,6 +247,8 @@ return [
 =======
             'heading' => 'Salud de la aplicación',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'navigation' => [
                 'group' => 'Configuración',
                 'label' => 'Salud de la aplicación',
@@ -276,6 +279,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -421,6 +425,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'notifications' => [
                 'check_results' => 'Revisar resultados desde',
             ],

@@ -11,6 +11,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 return new class extends XotBaseMigration
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
@@ -24,6 +25,8 @@ return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * Run the migrations.
      */
@@ -153,6 +156,7 @@ return new class extends XotBaseMigration {
             }
             $this->updateTimestamps($table, true);
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,5 +499,7 @@ return new class extends XotBaseMigration {
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 };

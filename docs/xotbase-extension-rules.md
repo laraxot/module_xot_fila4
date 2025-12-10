@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 62cc8443 (.)
 =======
@@ -32,6 +33,8 @@
 =======
 =======
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # XotBase Extension Rules - Comprehensive Guide
 
 ## 🚨 Critical Architectural Rule
@@ -238,6 +241,7 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 >>>>>>> 6ca989d8 (.)
@@ -281,6 +285,8 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 >>>>>>> 5df5c7505 (.)
 =======
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE

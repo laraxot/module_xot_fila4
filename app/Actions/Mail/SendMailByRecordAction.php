@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Mail;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use InvalidArgumentException;
 =======
 <<<<<<< HEAD
@@ -112,10 +113,11 @@ use Illuminate\Support\Facades\Mail;
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
 use InvalidArgumentException;
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Mail\Mailable;
-use Illuminate\Support\Facades\Mail;
 use InvalidArgumentException;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Illuminate\Support\Facades\Mail;
@@ -123,6 +125,8 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Modules\Xot\Actions\Export\PdfByModelAction;
@@ -140,6 +144,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
      * @param  Model  $record  Il record da utilizzare come dati per la mail
      * @param  string  $mailClass  La classe Mailable da utilizzare
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398,6 +403,11 @@ class SendMailByRecordAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+     */
+    public function execute(Model $record, string $mailClass): void
+    {
+>>>>>>> 414a4ffcb (.)
         Assert::classExists($mailClass);
         // Expected an implementation of "Illuminate\Mail\Mailable". Got: "Modules\Performance\Mail\SchedaMail"
         // Assert::implementsInterface($mailClass, Mailable::class);
@@ -407,6 +417,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -852,12 +863,20 @@ class SendMailByRecordAction
         // dddx(Mail::to($record)->send(new $mailClass($record)));
         // $res=Mail::to('marco.sottana@gmail.com')->send($mail);
 >>>>>>> 551c768c4 (.)
+=======
+        // @var Mailable $mail
+        // $mail = app($mailClass, ['record' => $record]);
+        // Mail::send($mail);
+        // dddx(Mail::to($record)->send(new $mailClass($record)));
+        // $res=Mail::to('marco.sottana@gmail.com')->send($mail);
+>>>>>>> 414a4ffcb (.)
 
         // Verifica che il model abbia le proprietà/metodi necessari
         if (($record->email ?? null) === null || empty($record->email)) {
             throw new InvalidArgumentException('Model must have email property');
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!method_exists($record, 'option')) {
@@ -931,6 +950,8 @@ class SendMailByRecordAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         if (! method_exists($record, 'option')) {
             throw new InvalidArgumentException('Model must implement option method');
         }
@@ -999,6 +1020,7 @@ class SendMailByRecordAction
             subject: $subject,
             body_html: $bodyHtml,
             attachments: [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!method_exists($record, 'option')) {
@@ -1259,10 +1281,13 @@ class SendMailByRecordAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 app(PdfByModelAction::class)->execute(
                     model: $record,
                     out: 'path',
                 ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1318,6 +1343,8 @@ class SendMailByRecordAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             ],
         );
         SmtpData::make()->send($emailData);
@@ -1328,6 +1355,7 @@ class SendMailByRecordAction
             'act' => 'sendMail',
             'handle' => authId(),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
         ];
         $emailData = EmailData::from($data);
@@ -1698,5 +1726,7 @@ class SendMailByRecordAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

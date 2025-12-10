@@ -28,6 +28,7 @@ per esempio:
 - `/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/app/Models/...`
 - `/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/app/Http/Controllers/...`
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -64,6 +65,8 @@ per esempio:
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### namespace corretto
 
@@ -76,6 +79,7 @@ namespace Modules\{NomeModulo}\{Tipo}\...;
 per esempio:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +126,11 @@ per esempio:
 - `namespace Modules\<nome progetto>\Models;`
 - `namespace Modules\<nome progetto>\Http\Controllers;`
 >>>>>>> 551c768c4 (.)
+=======
+- `namespace Modules\<nome progetto>\Filament\Resources;`
+- `namespace Modules\<nome progetto>\Models;`
+- `namespace Modules\<nome progetto>\Http\Controllers;`
+>>>>>>> 414a4ffcb (.)
 
 ## errore comune
 
@@ -130,6 +139,7 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +166,9 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 =======
 /var/www/html/base_<nome progetto>/laravel/Modules/{NomeModulo}/{Tipo}/...
 >>>>>>> 551c768c4 (.)
+=======
+/var/www/html/base_<nome progetto>/laravel/Modules/{NomeModulo}/{Tipo}/...
+>>>>>>> 414a4ffcb (.)
 ```
 
 questo è **errato** perché omette la directory `app/` nel percorso fisico.
@@ -171,6 +184,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 |-----------|----------------|
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +221,10 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 | `Modules\<nome progetto>\Filament\Resources\DoctorResource` | `/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php` |
 | `Modules\User\Models\User` | `/var/www/html/base_<nome progetto>/laravel/Modules/User/app/Models/User.php` |
 >>>>>>> 551c768c4 (.)
+=======
+| `Modules\<nome progetto>\Filament\Resources\DoctorResource` | `/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php` |
+| `Modules\User\Models\User` | `/var/www/html/base_<nome progetto>/laravel/Modules/User/app/Models/User.php` |
+>>>>>>> 414a4ffcb (.)
 
 ## come evitare l'errore
 
@@ -218,6 +236,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,3 +273,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 - [convenzioni di codice](/var/www/html/base_<nome progetto>/laravel/docs/conventions.md)
 - [struttura progetto](/var/www/html/base_<nome progetto>/laravel/docs/project-structure.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [convenzioni di codice](/var/www/html/base_<nome progetto>/laravel/docs/conventions.md)
+- [struttura progetto](/var/www/html/base_<nome progetto>/laravel/docs/project-structure.md)
+>>>>>>> 414a4ffcb (.)

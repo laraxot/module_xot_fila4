@@ -57,6 +57,7 @@ ignoreErrors:
 - [<nome progetto> - PHPStan Relationship Covariance Fix](../<nome progetto>/docs/phpstan-relationship-covariance-fix.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,6 +305,8 @@ ignoreErrors:
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### 2. Cast da Mixed
 

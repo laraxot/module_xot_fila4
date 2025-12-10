@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:docs/script-risoluzione-conflitti-conflict.md
 =======
 <<<<<<< HEAD
@@ -17,6 +18,9 @@
 >>>>>>> 551c768c4 (.)
 =======
 >>>>>>> 7ee87c138 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+>>>>>>> 414a4ffcb (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
 
 ## Panoramica
@@ -141,13 +145,18 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
+>>>>>>> 50d6b63f (.)
+# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3fbbf1f5 (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3310e9c6 (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3310e9c6 (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> cafe8bed (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
-# Script di Risoluzione Conflitti Git - FixCity Project
-# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 5cd593a5 (.)
 
 ## Panoramica
 
@@ -211,7 +220,10 @@ declare(strict_types=1);
 // 2. Usare type hints espliciti
 // 3. Seguire PSR-12
 // 4. Aggiungere PHPDoc per metodi pubblici
-# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+```
+
+>>>>>>> 6dcebf8a (.)
+>>>>>>> 6dcebf8a (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
 
 ## Panoramica
@@ -354,6 +366,21 @@ find . -name "*.php" -exec php -l {} \;
 >>>>>>> 6dcebf8a (.)
 >>>>>>> 92bc33604 (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3fbbf1f5 (.)
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3310e9c6 (.)
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3310e9c6 (.)
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> cafe8bed (.)
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 5cd593a5 (.)
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3310e9c6 (.)
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> cafe8bed (.)
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 5cd593a5 (.)
 
 ## Panoramica
 
@@ -419,6 +446,7 @@ declare(strict_types=1);
 // 4. Aggiungere PHPDoc per metodi pubblici
 ```
 
+>>>>>>> 50d6b63f (.)
 #### File di Configurazione
 ```php
 <?php
@@ -477,6 +505,7 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
@@ -503,6 +532,12 @@ find . -name "*.php" -exec php -l {} \;
 # Script di Risoluzione Conflitti Git - FixCity Project
 >>>>>>> 5cd593a5 (.)
 >>>>>>> 92bc33604 (.)
+=======
+>>>>>>> 5a14301c (.)
+# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3fbbf1f5 (.)
+>>>>>>> 414a4ffcb (.)
 
 ## Panoramica
 
@@ -576,6 +611,7 @@ declare(strict_types=1);
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -609,7 +645,70 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+#### File di Configurazione
+```php
+<?php
+
+declare(strict_types=1);
+
+return [
+    /*
+     * |--------------------------------------------------------------------------
+     * | Section Name
+     * |--------------------------------------------------------------------------
+     * |
+     * | Description
+     * |
+     */
+    'key' => 'value',
+];
+```
+
+#### File di Documentazione
+```markdown
+# Titolo Documento - FixCity Project
+
+## Sezione
+
+Contenuto aggiornato con riferimenti corretti al progetto.
+
+## Collegamenti
+- [Documento Correlato](./related-document.md)
+- [Architettura](../architecture.md)
+```
+
+#### File SVG
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto SVG -->
+</svg>
+```
+
+## Comandi Utili
+
+### Verifica Sintassi PHP
+```bash
+# Verifica singolo file
+php -l path/to/file.php
+
+# Verifica tutti i file PHP modificati
+find . -name "*.php" -exec php -l {} \;
+```
+
+>>>>>>> 5a14301c (.)
+# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+>>>>>>> 414a4ffcb (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3fbbf1f5 (.)
 
 ## Panoramica
 
@@ -736,6 +835,7 @@ find . -name "*.php" -exec php -l {} \;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 =======
@@ -762,6 +862,12 @@ find . -name "*.php" -exec php -l {} \;
 =======
 # Script di Risoluzione Conflitti Git - FixCity Project
 >>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 5a14301c (.)
+# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3fbbf1f5 (.)
+>>>>>>> 414a4ffcb (.)
 
 ## Panoramica
 
@@ -825,6 +931,7 @@ declare(strict_types=1);
 // 2. Usare type hints espliciti
 // 3. Seguire PSR-12
 // 4. Aggiungere PHPDoc per metodi pubblici
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1430,15 +1537,221 @@ find . -name "*.php" -exec php -l {} \;
 >>>>>>> laraxot/develop
 >>>>>>> 50d6b63f (.)
 >>>>>>> 551c768c4 (.)
+=======
+```
+
+#### File di Configurazione
+```php
+<?php
+
+declare(strict_types=1);
+
+return [
+    /*
+     * |--------------------------------------------------------------------------
+     * | Section Name
+     * |--------------------------------------------------------------------------
+     * |
+     * | Description
+     * |
+     */
+    'key' => 'value',
+];
+```
+
+#### File di Documentazione
+```markdown
+# Titolo Documento - FixCity Project
+
+## Sezione
+
+Contenuto aggiornato con riferimenti corretti al progetto.
+
+## Collegamenti
+- [Documento Correlato](./related-document.md)
+- [Architettura](../architecture.md)
+```
+
+#### File SVG
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto SVG -->
+</svg>
+```
+
+## Comandi Utili
+
+### Verifica Sintassi PHP
+```bash
+# Verifica singolo file
+php -l path/to/file.php
+
+# Verifica tutti i file PHP modificati
+find . -name "*.php" -exec php -l {} \;
+```
+
+>>>>>>> 5a14301c (.)
+# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3fbbf1f5 (.)
+
+## Panoramica
+
+Questo documento fornisce una guida sistematica per la risoluzione dei conflitti Git nel progetto FixCity, basata sull'esperienza acquisita durante la risoluzione di 161 file con conflitti.
+
+## Workflow Sistematico
+
+### 1. Identificazione Conflitti
+
+```bash
+# Trova tutti i file con conflitti Git
+git status --porcelain | grep "^UU\|^AA\|^DD"
+
+# Lista dettagliata dei conflitti
+git diff --name-only --diff-filter=U
+
+# Conta i conflitti per categoria
+grep -r "<<< HEAD" --include="*.php" . | wc -l
+grep -r "<<< HEAD" --include="*.md" . | wc -l
+grep -r "<<< HEAD" --include="*.svg" . | wc -l
+```
+
+### 2. Categorizzazione per Priorità
+
+**Priorità 1 - File Critici**
+- `composer.json`
+- File di configurazione (`config/`)
+- File `.env`
+- Service Provider
+
+**Priorità 2 - Logica Business**
+- Models
+- Services
+- Controllers
+- Migrations
+
+**Priorità 3 - Interfaccia**
+- Views Blade
+- Componenti Filament
+- Assets (CSS, JS)
+
+**Priorità 4 - Documentazione**
+- File `.md`
+- README
+- Changelog
+
+**Priorità 5 - Assets**
+- File SVG
+- Immagini
+- File statici
+
+### 3. Strategie di Risoluzione
+
+#### File PHP
+```php
+<?php
+
+declare(strict_types=1);
+
+// 1. Mantenere sempre declare(strict_types=1)
+// 2. Usare type hints espliciti
+// 3. Seguire PSR-12
+// 4. Aggiungere PHPDoc per metodi pubblici
+```
+
+#### File di Configurazione
+```php
+<?php
+
+declare(strict_types=1);
+
+return [
+    /*
+     * |--------------------------------------------------------------------------
+     * | Section Name
+     * |--------------------------------------------------------------------------
+     * |
+     * | Description
+     * |
+     */
+    'key' => 'value',
+];
+```
+
+#### File di Documentazione
+```markdown
+# Titolo Documento - FixCity Project
+
+## Sezione
+
+Contenuto aggiornato con riferimenti corretti al progetto.
+
+## Collegamenti
+- [Documento Correlato](./related-document.md)
+- [Architettura](../architecture.md)
+```
+
+#### File SVG
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto SVG -->
+</svg>
+```
+
+## Comandi Utili
+
+### Verifica Sintassi PHP
+```bash
+# Verifica singolo file
+php -l path/to/file.php
+
+# Verifica tutti i file PHP modificati
+find . -name "*.php" -exec php -l {} \;
+```
+
+>>>>>>> 5a14301c (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 414a4ffcb (.)
 ## COME FUNZIONANO
 
 ### Logica di Risoluzione
 Gli script risolvono i conflitti Git prendendo sempre la **"incoming change"** (develop):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 5a14301c (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 414a4ffcb (.)
 ```
+codice locale (viene RIMOSSO)
+codice incoming (viene MANTENUTO)
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1478,14 +1791,15 @@ codice incoming (viene MANTENUTO)
 ```
 
 >>>>>>> 92bc33604 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ### Algoritmo AWK
 ```awk
 BEGIN { skip = 0 }
-/^<<<<<<< HEAD/ { skip = 1; next }    # Inizia a saltare
-/^=======/ { skip = 0; next }         # Smette di saltare
 /^>>>>>>> / { next }                  # Rimuove marker finale
 !skip { print }                       # Stampa solo se non sta saltando
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 7ee87c138 (.)
@@ -1517,6 +1831,16 @@ BEGIN { skip = 0 }
 >>>>>>> laraxot/develop
 >>>>>>> 50d6b63f (.)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 5a14301c (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> 414a4ffcb (.)
 
 ## RISULTATI OTTENUTI
 
@@ -1554,6 +1878,7 @@ file.php → file.php.backup
 ### 🔄 **Ripristino**
 Per ripristinare un file:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1563,6 +1888,10 @@ Per ripristinare un file:
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
+=======
+### Verifica PHPStan
+>>>>>>> 3fbbf1f5 (.)
+>>>>>>> 414a4ffcb (.)
 ```bash
 # Ripristina singolo file
 mv file.php.backup file.php
@@ -1653,6 +1982,7 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### ✅ **Controlli Eseguiti**
 <<<<<<< HEAD
 1. **Nessun marker rimasto**
@@ -1984,6 +2314,15 @@ grep -r "<<<<<<< HEAD\|=======\|>>>>>>> " . --include="*.php"
 ### Verifica PHPStan
 >>>>>>> 6dcebf8a (.)
 >>>>>>> 92bc33604 (.)
+=======
+### ✅ **Controlli Eseguiti**
+1. **Nessun marker rimasto**
+>>>>>>> 5a14301c (.)
+### Verifica PHPStan
+>>>>>>> 3fbbf1f5 (.)
+### Verifica PHPStan
+>>>>>>> 6dcebf8a (.)
+>>>>>>> 414a4ffcb (.)
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
@@ -2038,6 +2377,7 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ### ❌ Automazione Cieca
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### Verifica PHPStan
 =======
@@ -2107,61 +2447,12 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 ```bash
 <<<<<<< HEAD
 ### Verifica PHPStan
-```bash
-# Verifica singolo file
-./vendor/bin/phpstan analyse --level=10 path/to/file.php
-
-# Verifica modulo completo
-./vendor/bin/phpstan analyse --level=10 Modules/ModuleName/
-```
-
-### Verifica Struttura
-```bash
-# Controlla namespace
-grep -r "namespace" --include="*.php" Modules/ModuleName/
-
-# Controlla import
-grep -r "use " --include="*.php" Modules/ModuleName/
-```
-
-## Checklist di Risoluzione
-
-### Per Ogni File PHP
-- [ ] `declare(strict_types=1)` presente
-- [ ] Type hints espliciti
-- [ ] Return types dichiarati
-- [ ] PHPDoc per metodi pubblici
-- [ ] PSR-12 compliance
-- [ ] Namespace corretto
-- [ ] Import statements appropriati
-- [ ] Sintassi valida (`php -l`)
-
-### Per Ogni File di Configurazione
-- [ ] Sintassi PHP valida
-- [ ] Struttura array corretta
-- [ ] Commenti PHPDoc appropriati
-- [ ] Chiavi e valori coerenti
-- [ ] Compatibilità Laravel 11
-
-### Per Ogni File di Documentazione
-- [ ] Riferimenti aggiornati a FixCity
-- [ ] Backlink bidirezionali
-- [ ] Coerenza terminologica
-- [ ] Struttura markdown valida
-- [ ] Collegamenti funzionanti
-
-### Per Ogni File SVG
-- [ ] Sintassi XML valida
-- [ ] Attributi accessibilità
-- [ ] Dimensioni appropriate
-- [ ] Stili CSS corretti
-- [ ] Compatibilità browser
-
-## Errori Comuni da Evitare
-
-### ❌ Automazione Cieca
-```bash
+=======
+# Verifica conflitti rimanenti
+>>>>>>> 5a14301c (.)
 ### Verifica PHPStan
+>>>>>>> 3fbbf1f5 (.)
+>>>>>>> 414a4ffcb (.)
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
@@ -2216,6 +2507,65 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ### ❌ Automazione Cieca
 ```bash
+# Verifica conflitti rimanenti
+>>>>>>> 5a14301c (.)
+### Verifica PHPStan
+>>>>>>> 3fbbf1f5 (.)
+```bash
+# Verifica singolo file
+./vendor/bin/phpstan analyse --level=10 path/to/file.php
+
+# Verifica modulo completo
+./vendor/bin/phpstan analyse --level=10 Modules/ModuleName/
+```
+
+### Verifica Struttura
+```bash
+# Controlla namespace
+grep -r "namespace" --include="*.php" Modules/ModuleName/
+
+# Controlla import
+grep -r "use " --include="*.php" Modules/ModuleName/
+```
+
+## Checklist di Risoluzione
+
+### Per Ogni File PHP
+- [ ] `declare(strict_types=1)` presente
+- [ ] Type hints espliciti
+- [ ] Return types dichiarati
+- [ ] PHPDoc per metodi pubblici
+- [ ] PSR-12 compliance
+- [ ] Namespace corretto
+- [ ] Import statements appropriati
+- [ ] Sintassi valida (`php -l`)
+
+### Per Ogni File di Configurazione
+- [ ] Sintassi PHP valida
+- [ ] Struttura array corretta
+- [ ] Commenti PHPDoc appropriati
+- [ ] Chiavi e valori coerenti
+- [ ] Compatibilità Laravel 11
+
+### Per Ogni File di Documentazione
+- [ ] Riferimenti aggiornati a FixCity
+- [ ] Backlink bidirezionali
+- [ ] Coerenza terminologica
+- [ ] Struttura markdown valida
+- [ ] Collegamenti funzionanti
+
+### Per Ogni File SVG
+- [ ] Sintassi XML valida
+- [ ] Attributi accessibilità
+- [ ] Dimensioni appropriate
+- [ ] Stili CSS corretti
+- [ ] Compatibilità browser
+
+## Errori Comuni da Evitare
+
+### ❌ Automazione Cieca
+```bash
+<<<<<<< HEAD
 ### Verifica PHPStan
 ```bash
 # Verifica singolo file
@@ -7069,3 +7419,6 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 >>>>>>> laraxot/develop
 >>>>>>> 50d6b63f (.)
 >>>>>>> 551c768c4 (.)
+=======
+# Verifica conflitti rimanenti
+>>>>>>> 414a4ffcb (.)

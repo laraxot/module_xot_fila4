@@ -297,6 +297,7 @@ trait HasXotOptimizations
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [bottlenecks_detailed.md](../../../Xot/docs/bottlenecks_detailed.md)
 * [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
@@ -367,6 +368,11 @@ trait HasXotOptimizations
 * [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
 * [bottlenecks_detailed.md](../../../Media/docs/bottlenecks_detailed.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [bottlenecks_detailed.md](../../../Xot/docs/bottlenecks_detailed.md)
+* [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
+* [bottlenecks_detailed.md](../../../Media/docs/bottlenecks_detailed.md)
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming

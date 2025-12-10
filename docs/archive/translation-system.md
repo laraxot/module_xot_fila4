@@ -37,6 +37,7 @@ Questo documento sostituisce e consolida **50+ file di traduzione duplicati** tr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/translation-system.md`
 >>>>>>> 85cdef688 (.)
@@ -115,6 +116,9 @@ Questo documento sostituisce e consolida **50+ file di traduzione duplicati** tr
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/translation-system.md`
 >>>>>>> 80bc07e81 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/translation-system.md`
+>>>>>>> 414a4ffcb (.)
 - **Implementazione**: File di traduzione nei singoli moduli (solo traduzioni, non docs)
 
 ## Principi Fondamentali

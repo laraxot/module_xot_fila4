@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +191,9 @@
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 >>>>>>> 551c768c4 (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+>>>>>>> 414a4ffcb (.)
 
 ## Analisi Completa
 
@@ -246,6 +250,7 @@ Accesso a proprietà non definite nei modelli.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +314,9 @@ Accesso a proprietà non definite nei modelli.
 =======
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
 >>>>>>> 551c768c4 (.)
+=======
+### 3. **<nome modulo>** (Applicazione) - 15% errori
+>>>>>>> 414a4ffcb (.)
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -339,6 +347,7 @@ Accesso a proprietà non definite nei modelli.
 ### Priorità 3 (Applicazione)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,6 +437,10 @@ Accesso a proprietà non definite nei modelli.
 1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
 2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
 >>>>>>> 551c768c4 (.)
+=======
+1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
+>>>>>>> 414a4ffcb (.)
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -440,6 +453,7 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,6 +517,9 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 =======
 ### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
 >>>>>>> 551c768c4 (.)
+=======
+### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
+>>>>>>> 414a4ffcb (.)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale

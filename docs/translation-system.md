@@ -337,6 +337,7 @@ php artisan view:clear
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -650,3 +651,11 @@ php artisan view:clear
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+- [Documentazione Laravel Translations](https://laravel.com/docs/localization)
+- [Filament Form Components](https://filamentphp.com/docs/forms)
+- [Best Practices Filament](../docs/filament-best-practices.md)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

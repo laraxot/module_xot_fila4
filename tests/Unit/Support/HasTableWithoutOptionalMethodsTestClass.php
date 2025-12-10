@@ -16,6 +16,7 @@ use Illuminate\Contracts\Pagination\CursorPaginator;
 use Filament\Actions\Action;
 use Filament\Support\Contracts\TranslatableContentDriver;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 use Override;
 use Override;
@@ -24,6 +25,8 @@ use Override;
 use Override;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Tables\Contracts\HasTable;
 use Filament\Tables\Table;
 use Modules\Xot\Filament\Traits\HasXotTable;
@@ -47,6 +50,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mock->shouldReceive('getTableColumns')->andReturn([]);
         $mock->shouldReceive('getTableContentGrid')->andReturn([]);
         return $mock;
@@ -55,6 +59,8 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     #[Override]
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableColumns(): array
     {
         return [];
@@ -68,12 +74,15 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 
     public function getTablePage(): int|string
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Mockery::mock(Table::class);
     }
 
     public function getTablePage(): null|int
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return 1;
     }
@@ -95,6 +104,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 
     public function getTableSortColumn(): ?string
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableSortColumn(): null|string
     public function getTableSortColumn(): null|string
     public function getTableSortColumn(): null|string
@@ -103,10 +113,13 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     public function getTableSortColumn(): null|string
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableSortDirection(): null|string
     public function getTableSortDirection(): null|string
@@ -117,6 +130,9 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getTableSortDirection(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getTableSortDirection(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -139,6 +155,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 
     public function getTableGrouping(): ?Group
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableFiltersForm(): mixed
     public function getTableFiltersForm(): mixed
     public function getTableFiltersForm(): mixed
@@ -147,6 +164,8 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     public function getTableFiltersForm(): mixed
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -155,6 +174,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     {
         /** @var Indicator */
         return Mockery::mock(Indicator::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableFilterState(string $name): null|array
     {
@@ -171,6 +191,8 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return null;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     public function getTableColumnSearchIndicators(): array
@@ -190,6 +212,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 
     public function getTableRecord(mixed $key): array|Model|null
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableRecords(): array
     {
         return [];
@@ -198,6 +221,8 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     public function getTableRecord(): mixed
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -211,6 +236,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     {
         return new Collection;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableRecordKey(): mixed
     {
         return null;
@@ -221,6 +247,8 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return [];
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     public function getAllTableRecordsCount(): int
@@ -245,6 +273,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 
     public function getFilteredTableQuery(): ?Builder
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableQueryForExport(): mixed
     public function getTableQueryForExport(): mixed
     public function getTableQueryForExport(): mixed
@@ -253,10 +282,13 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     public function getTableQueryForExport(): mixed
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getFilteredTableQuery(): mixed
     public function getFilteredTableQuery(): mixed
@@ -267,10 +299,14 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getFilteredSortedTableQuery(): ?Builder
 >>>>>>> 551c768c4 (.)
+=======
+    public function getFilteredSortedTableQuery(): ?Builder
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getFilteredSortedTableQuery(): mixed
     public function getFilteredSortedTableQuery(): mixed
@@ -281,10 +317,14 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getAllTableSummaryQuery(): ?Builder
 >>>>>>> 551c768c4 (.)
+=======
+    public function getAllTableSummaryQuery(): ?Builder
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getAllTableSummaryQuery(): mixed
     public function getAllTableSummaryQuery(): mixed
@@ -295,10 +335,14 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getPageTableSummaryQuery(): ?Builder
 >>>>>>> 551c768c4 (.)
+=======
+    public function getPageTableSummaryQuery(): ?Builder
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getPageTableSummaryQuery(): mixed
     public function getPageTableSummaryQuery(): mixed
@@ -309,10 +353,14 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getMountedTableAction(): ?Action
 >>>>>>> 551c768c4 (.)
+=======
+    public function getMountedTableAction(): ?Action
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getMountedTableAction(): null|string
     public function getMountedTableAction(): null|string
@@ -323,10 +371,14 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getMountedTableActionForm(): ?Schema
 >>>>>>> 551c768c4 (.)
+=======
+    public function getMountedTableActionForm(): ?Schema
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getMountedTableActionForm(): mixed
     {
@@ -337,6 +389,9 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getMountedTableActionRecord(): ?Model
 >>>>>>> 551c768c4 (.)
+=======
+    public function getMountedTableActionRecord(): ?Model
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -347,6 +402,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getMountedTableBulkAction(): null|string
     public function getMountedTableBulkAction(): null|string
     public function getMountedTableBulkAction(): null|string
@@ -356,10 +412,14 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getMountedTableBulkAction(): ?Action
 >>>>>>> 551c768c4 (.)
+=======
+    public function getMountedTableBulkAction(): ?Action
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getMountedTableBulkActionForm(): mixed
     public function getMountedTableBulkActionForm(): mixed
@@ -370,10 +430,14 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getMountedTableBulkActionForm(): ?Schema
 >>>>>>> 551c768c4 (.)
+=======
+    public function getMountedTableBulkActionForm(): ?Schema
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getActiveTableLocale(): null|string
     public function getActiveTableLocale(): null|string
@@ -384,6 +448,9 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function getActiveTableLocale(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+    public function getActiveTableLocale(): ?string
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -404,6 +471,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function isTableColumnToggledHidden(): bool
     public function isTableColumnToggledHidden(): bool
     public function isTableColumnToggledHidden(): bool
@@ -413,10 +481,14 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function isTableColumnToggledHidden(string $name): bool
 >>>>>>> 551c768c4 (.)
+=======
+    public function isTableColumnToggledHidden(string $name): bool
+>>>>>>> 414a4ffcb (.)
     {
         return false;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function callMountedTableAction(): mixed
     public function callMountedTableAction(): mixed
@@ -427,6 +499,9 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 =======
     public function callMountedTableAction(mixed $arguments = []): mixed
 >>>>>>> 551c768c4 (.)
+=======
+    public function callMountedTableAction(mixed $arguments = []): mixed
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }
@@ -442,6 +517,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 
     public function mountTableBulkAction(string $name, mixed $selectedRecords = []): void {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function deselectAllTableRecords(): void
     {
     }
@@ -455,6 +531,8 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     public function mountedTableActionRecord(): mixed
     {
@@ -477,6 +555,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     }
 
     public function makeFilamentTranslatableContentDriver(): ?TranslatableContentDriver
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function replaceMountedTableAction(): void
     {
@@ -506,6 +585,8 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     public function makeFilamentTranslatableContentDriver(): mixed
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return null;
     }

@@ -125,6 +125,7 @@ grep -r "public static function getTableActions" --include="*Resource.php" /var/
 grep -r "public static function getTableBulkActions" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 grep -r "public static function getNavigationGroup" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
@@ -379,6 +380,8 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Processo di refactoring

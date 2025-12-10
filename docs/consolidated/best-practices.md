@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices per Laraxot
 =======
 <<<<<<< HEAD
@@ -86,6 +87,9 @@
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Best Practices per Laraxot
 
 ## Riferimenti al modello User
@@ -154,6 +158,7 @@ public function process(\Modules\User\Models\User $user) {
     // Codice
 }
 ``` 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -269,6 +274,9 @@ public function process(\Modules\User\Models\User $user) {
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -991,6 +999,7 @@ public function createModel(array $data): MioModello
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🔧 **Best Practices Modulo Xot**
 
 ## Riferimenti al modello User
@@ -1194,3 +1203,6 @@ public function process(\Modules\User\Models\User $user) {
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

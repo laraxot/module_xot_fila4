@@ -8,6 +8,7 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Component;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
@@ -25,39 +26,10 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Select;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Component;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Select;
-use Filament\Schemas\Components\Component;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Select;
-use Filament\Schemas\Components\Component;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Select;
-use Filament\Schemas\Components\Component;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Select;
-use Filament\Schemas\Components\Component;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Select;
-use Filament\Schemas\Components\Component;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Select;
-use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Forms\Components\Builder\Block;
-use Filament\Forms\Components\Select;
-use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Forms\Components\Select;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Forms\Components\Builder\Block;
-use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 
 abstract class XotBaseBlock
 {
@@ -66,11 +38,14 @@ abstract class XotBaseBlock
     public static function make(string $name = 'article_list', string $context = 'form'): Block
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public static function make(string $name = 'article_list', string $context = 'form'): Block
     {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         /** @var array<Component> $schema */
         $schema = array_merge(static::getBlockSchema(), static::getBlockVarSchema());
 
@@ -78,6 +53,7 @@ abstract class XotBaseBlock
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
         /**
          * @var array<Component>
@@ -119,11 +95,9 @@ abstract class XotBaseBlock
      *
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return array<Component>
-     * @return array<Component>
-     * @return array<Component>
-     * @return array<Component>
-     * @return array<\Filament\Forms\Components\Component>
      */
     public static function getBlockSchema(): array
     {
@@ -131,6 +105,7 @@ abstract class XotBaseBlock
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Undocumented function.
      *
@@ -156,6 +131,8 @@ abstract class XotBaseBlock
      *
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return array<Component>
      */
     public static function getBlockVarSchema(): array
@@ -164,25 +141,6 @@ abstract class XotBaseBlock
 
         return [
             Select::make('view')->options($options),
-     */
-    public static function getBlockVarSchema(): array
-    {
-        $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('article_list', false);
-
-        return [
-            Select::make('view')
-                ->options($options),
-            Select::make('view')->options($options),
-     * @return array<\Filament\Forms\Components\Component>
-     */
-    public static function getBlockVarSchema(): array
-    {
-        $options = app(GetViewBlocksOptionsByTypeAction::class)
-            ->execute('article_list', false);
-
-        return [
-            Select::make('view')
-                ->options($options),
         ];
     }
 }

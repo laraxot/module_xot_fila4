@@ -31,6 +31,7 @@ use ReflectionFunction;
 use Throwable;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -82,6 +83,8 @@ use ReflectionFunction;
 use ReflectionClass;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * The handlers repository.
@@ -130,6 +133,7 @@ class HandlersRepository
     /**
      * Retrieve all reporters handling the given exception.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,11 +264,20 @@ class HandlersRepository
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public function getReportersByException(Throwable $e): array
+    {
+        return array_filter(
+            $this->reporters,
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+        );
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
      * Retrieve all renderers handling the given exception.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,11 +408,20 @@ class HandlersRepository
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public function getRenderersByException(Throwable $e): array
+    {
+        return array_filter(
+            $this->renderers,
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+        );
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
      * Retrieve all console renderers handling the given exception.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -530,6 +552,14 @@ class HandlersRepository
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public function getConsoleRenderersByException(Throwable $e): array
+    {
+        return array_filter(
+            $this->consoleRenderers,
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+        );
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
@@ -627,6 +657,7 @@ class HandlersRepository
         }
 
         return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -982,5 +1013,7 @@ class HandlersRepository
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

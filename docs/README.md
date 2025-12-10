@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Xot Module - Framework Base Laraxot
 =======
 <<<<<<< HEAD
@@ -275,113 +276,67 @@ Configurazione automatica tramite service providers.
 **Stato**: Consolidato da docs/ root  
 **Priorità**: CRITICA (Documentazione principale)
 # 🏗️ **Xot Module** - Framework Base Laraxot
+=======
+# 🏗️ **Xot Module** - Il Cuore del Framework Laraxot
+>>>>>>> 414a4ffcb (.)
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
-[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-[![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
-[![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN%20%7C%20DE-green.svg)](https://laravel.com/docs/localization)
-[![Base Framework](https://img.shields.io/badge/Framework-Base%20Core-orange.svg)](https://laraxot.com/)
+[![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
+[![PHP 8.3](https://img.shields.io/badge/PHP-8.3-blueviolet.svg)](https://www.php.net/)
+[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
 [![Modular Architecture](https://img.shields.io/badge/Architecture-Modular%20Monolith-yellow.svg)](https://martinfowler.com/articles/modular-monolith.html)
-[![Quality Score](https://img.shields.io/badge/Quality%20Score-98%25-brightgreen.svg)](https://github.com/laraxot/xot-module)
 
 > **🚀 Modulo Xot**: Framework base e cuore architetturale di Laraxot - fornisce classi base, traits, convenzioni e infrastruttura core per tutti i moduli dell'ecosistema.
 
 ## 📋 **Panoramica**
 
-Il modulo **Xot** è il **framework base** di Laraxot, fornendo:
+Il modulo **Xot** è il **framework base** di Laraxot PTVX, un ecosistema modulare basato su **Laravel 12** e **Filament 4**, progettato per applicazioni enterprise. Fornisce gli strumenti fondamentali e i pattern architetturali per garantire coerenza, estensibilità e manutenibilità in tutto il progetto.
 
-- 🏗️ **Classi Base Universali** - XotBaseResource, XotBaseWidget, XotBaseMigration
-- 🔧 **Traits Fondamentali** - HasXotTable, HasUuid, HasMedia, HasStates
-- 📦 **Service Providers Core** - XotBaseServiceProvider con auto-discovery
-- 🎯 **Convenzioni Standard** - Naming, structure, best practices per tutti i moduli
-- ⚡ **Infrastruttura Core** - Actions, Enums, Exceptions, Helpers comuni
-- 🎨 **Componenti Filament** - Widget, Resources, Forms base per UI consistente
+### Principi Fondamentali
+- **Modularità**: Ogni funzionalità è organizzata in moduli indipendenti e autoconsistenti.
+- **Coerenza**: Adozione di una struttura uniforme, convenzioni di naming e best practice standardizzate.
+- **Estensibilità**: Progettato per facilitare l'aggiunta di nuovi moduli e l'espansione delle funzionalità esistenti.
+- **Manutenibilità**: Codice pulito, ben documentato e supportato da strumenti di analisi statica.
 
 ## ⚡ **Architettura Core**
 
 ### 🏗️ **Base Classes Pattern**
+Tutti i componenti principali dei moduli devono estendere le classi base fornite da Xot per ereditare funzionalità comuni e garantire coerenza.
+
 ```php
-// Tutte le Resource Filament estendono XotBaseResource
+// Esempio di una Resource Filament
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class UserResource extends XotBaseResource
 {
     protected static ?string $model = User::class;
     
-    // Il metodo table() NON deve mai essere sovrascritto
-    // XotBaseResource fornisce già configurazione ottimizzata
-}
-
-// Tutti i Widget estendono XotBaseWidget
-use Modules\Xot\Filament\Widgets\XotBaseWidget;
-
-class StatsWidget extends XotBaseWidget
-{
-    protected static string $view = 'user::filament.widgets.stats';
+    // Il metodo table() e form() NON devono essere sovrascritti
+    // se non per aggiungere logica specifica, ma la base
+    // è già fornita da XotBaseResource.
 }
 ```
 
 ### 🔧 **Traits Ecosystem**
-```php
-// Trait per tabelle con convenzioni standard
-use Modules\Xot\Traits\HasXotTable;
-
-class User extends Model
-{
-    use HasXotTable;
-    
-    // Automaticamente ottiene: UUID primary keys, timestamps, soft deletes
-    // Convenzioni naming tabelle, fillable guards, type safety
-}
-
-// Trait per gestione media
-use Modules\Xot\Traits\HasMedia;
-
-class Patient extends Model
-{
-    use HasMedia;
-    
-    public function registerMediaCollections(): void
-    {
-        $this->addMediaCollection('profile_photos')
-            ->singleFile()
-            ->acceptsMimeTypes(['image/jpeg', 'image/png']);
-    }
-}
-```
+Xot fornisce un ricco ecosistema di Trait per aggiungere funzionalità comuni ai modelli e ad altre classi.
+- **HasXotTable**: Aggiunge funzionalità avanzate alle tabelle Filament.
+- **HasUuid**: Gestisce automaticamente UUID come chiavi primarie.
+- **HasMedia**: Integra Spatie Media Library con convenzioni standard.
+- **HasStates**: Fornisce una gestione degli stati per i modelli.
+- **TransTrait**: Semplifica le traduzioni dinamiche.
 
 ### 📦 **Service Provider Pattern**
-```php
-// Tutti i Service Provider estendono XotBaseServiceProvider
-use Modules\Xot\Providers\XotBaseServiceProvider;
+I Service Provider di ogni modulo estendono `XotBaseServiceProvider`, che automatizza la registrazione di:
+- Migrations, Views, Translations, e Config
+- Routes (web.php, api.php)
+- Filament Resources, Pages, e Widgets
+- Comandi Artisan e Policies
 
-class UserServiceProvider extends XotBaseServiceProvider
-{
-    protected string $module_name = 'User';
-    protected string $module_dir = __DIR__;
-    
-    // Auto-registrazione di:
-    // - Migrations, Views, Translations, Config
-    // - Routes (web.php, api.php)
-    // - Filament Resources e Widgets
-    // - Commands e Policies
-}
-```
-
-## 🎯 **Funzionalità Core**
+## 🎯 **Funzionalità Principali**
 
 ### ⚡ **Actions Framework**
+Un pattern standardizzato per incapsulare la business logic in classi riutilizzabili e testabili.
 ```php
-// Pattern standardizzato per business logic
 use Modules\Xot\Actions\XotBaseAction;
 
 class CreateUserAction extends XotBaseAction
@@ -389,123 +344,57 @@ class CreateUserAction extends XotBaseAction
     public function execute(array $data): User
     {
         $user = User::create($data);
-        
-        // Auto-logging con activity trail
-        $this->logActivity('user.created', $user);
-        
-        // Auto-dispatching eventi
-        event(new UserCreated($user));
-        
+        $this->logActivity('user.created', $user); // Logging automatico
+        event(new UserCreated($user)); // Dispatching eventi
         return $user;
     }
 }
 ```
 
 ### 🏷️ **Enums System**
+Le Enum di Xot implementano `XotBaseEnum`, che fornisce traduzioni automatiche e altri helper.
 ```php
-// Enum base con traduzioni automatiche
 use Modules\Xot\Enums\XotBaseEnum;
 
 enum UserStatus: string implements XotBaseEnum
 {
     case ACTIVE = 'active';
     case INACTIVE = 'inactive';
-    case SUSPENDED = 'suspended';
-    
+
     public function getLabel(): string
     {
-        return match($this) {
-            self::ACTIVE => __('xot::enums.user_status.active'),
-            self::INACTIVE => __('xot::enums.user_status.inactive'),
-            self::SUSPENDED => __('xot::enums.user_status.suspended'),
-        };
+        // Traduzione gestita centralmente
+        return __('xot::enums.user_status.'.$this->value);
     }
 }
 ```
 
-### 🔍 **Advanced Query Filters**
-```php
-// Sistema filtri per API e ricerche
-use Modules\Xot\QueryFilters\XotBaseFilter;
+## 🛠️ **Sviluppo e Qualità**
 
-class UserFilter extends XotBaseFilter
-{
-    public function status(string $status): Builder
-    {
-        return $this->builder->where('status', $status);
-    }
-    
-    public function search(string $term): Builder
-    {
-        return $this->builder->where(function ($query) use ($term) {
-            $query->where('name', 'like', "%{$term}%")
-                  ->orWhere('email', 'like', "%{$term}%");
-        });
-    }
-}
-```
+### Convenzioni
+- **Namespace**: I namespace dei moduli **NON** devono includere il segmento `app`.
+- **Tipizzazione Forte**: Utilizzo di `declare(strict_types=1);` e type hints rigorosi in tutto il codice.
+- **File di Traduzione**: Seguire la struttura espansa `['label' => '...', 'tooltip' => '...']`.
 
-## 🎯 **Stato Qualità - Gennaio 2025**
+### Strumenti di Qualità
+- **PHPStan**: Livello 10. La configurazione è in `phpstan.neon`.
+- **Pest**: Utilizzato per i test della business logic nei moduli core.
+- **Laravel Pint**: Formattazione del codice secondo lo standard PSR-12 e le convenzioni Laraxot.
 
-### ✅ **PHPStan Level 9 Compliance**
-- **File Core Certificati**: 15/15 classi base raggiungono Level 9
-- **Type Safety**: 100% su traits e helpers fondamentali  
-- **Runtime Safety**: 100% con error handling robusto su base classes
-- **Template Types**: Risolti tutti i problemi Collection generics
-
-### ✅ **Translation Standards Compliance**
-- **Helper Text**: 100% corretti per tutti i componenti base
-- **Localizzazione**: 100% template traduzioni per IT/EN/DE
-- **Sintassi**: 100% sintassi moderna nei file base
-- **Struttura**: 100% struttura espansa per convenzioni
-
-### 📊 **Metriche Performance**
-- **Base Class Loading**: < 10ms per caricamento classi base
-- **Trait Resolution**: < 5ms per risoluzione traits
-- **Service Provider Boot**: < 50ms per boot completo modulo
-- **Memory Footprint**: < 20MB per infrastruttura core
-
-## 🚀 **Installation & Setup**
-
-### 📦 **Installazione**
+Esegui i controlli di qualità dalla root del progetto Laravel:
 ```bash
-# Il modulo Xot è automaticamente incluso come dipendenza core
-# Non richiede installazione separata
-
-# Verifica installazione
-php artisan module:list | grep Xot
-
-# Pubblicazione asset (se necessario)
-php artisan vendor:publish --tag=xot-config
-php artisan vendor:publish --tag=xot-views
+./vendor/bin/phpstan analyse Modules/Xot --level=max
+./vendor/bin/pest Modules/Xot/tests
+./vendor/bin/pint
 ```
 
-### ⚙️ **Configurazione**
-```php
-// config/xot.php (auto-pubblicato)
-return [
-    'base_classes' => [
-        'resource' => \Modules\Xot\Filament\Resources\XotBaseResource::class,
-        'widget' => \Modules\Xot\Filament\Widgets\XotBaseWidget::class,
-        'migration' => \Modules\Xot\Database\Migrations\XotBaseMigration::class,
-    ],
-    
-    'conventions' => [
-        'uuid_primary' => true,
-        'soft_deletes' => true,
-        'timestamps' => true,
-        'fillable_guarding' => true,
-    ],
-    
-    'features' => [
-        'activity_logging' => true,
-        'media_management' => true,
-        'state_transitions' => true,
-        'tenant_awareness' => true,
-    ],
-];
-```
+## 🗺️ **Roadmap**
+1.  **Consolidamento Documentazione**: Unificare e semplificare la documentazione di tutti i moduli (obiettivo: 500 → 120 file).
+2.  **Automazione Script di Merge**: Creare script per la gestione automatica dei conflitti comuni e la validazione pre-commit.
+3.  **Aumento Test Coverage**: Portare la copertura dei test per i moduli core sopra il 90%.
+4.  **Dashboard Health Check**: Introdurre una dashboard per monitorare lo stato di salute e la compliance di tutti i moduli.
 
+<<<<<<< HEAD
 ## 📚 **Documentazione Dettagliata**
 
 ### 🏗️ **Architettura**
@@ -942,3 +831,10 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+## 🔗 **Link Utili**
+- [CHANGELOG](./CHANGELOG.md)
+- [Guida alla Risoluzione dei Conflitti Git](../../../bashscripts/docs/git-conflict-resolution-guide.md)
+- [Convenzioni sui Namespace](./namespace_conventions.md)
+- [Linee Guida per il Testing](./testing.md)
+>>>>>>> 414a4ffcb (.)

@@ -19,11 +19,13 @@ Failed to load resource: the server responded with a status of 404 (Not Found)
 
 ```bash
 # Configurazione .env
+APP_URL=http://<nome progetto>.local
 
 # Browser accede a
 http://127.0.0.1:8000
 ```
 
+**Risultato**: Livewire genera URL con `<nome progetto>.local` ma browser invia richieste a `127.0.0.1:8000` → 404
 
 ## ✅ Soluzioni
 
@@ -39,6 +41,7 @@ APP_URL=http://127.0.0.1:8000
 APP_URL=http://localhost:8000
 
 # Se accedi tramite dominio locale
+APP_URL=http://<nome progetto>.local
 ```
 
 **Dopo la modifica**:
@@ -50,10 +53,19 @@ php artisan optimize:clear
 
 ### Soluzione 2: Aggiungere Host al Sistema
 
+Se vuoi usare `<nome progetto>.local`, aggiungi al file hosts:
+
+**Linux/Mac**: `/etc/hosts`
+```
+127.0.0.1 <nome progetto>.local
 ```
 
 **Windows**: `C:\Windows\System32\drivers\etc\hosts`
 ```
+127.0.0.1 <nome progetto>.local
+```
+
+Poi accedi tramite: `http://<nome progetto>.local:8000`
 
 ### Soluzione 3: Trusted Proxies (Per Ambienti Complessi)
 
@@ -124,18 +136,21 @@ APP_URL=http://127.0.0.1:8000
 
 ```bash
 # .env per sviluppo con virtual host
+APP_URL=http://<nome progetto>.local
 ```
 
 ### Produzione
 
 ```bash
 # .env per produzione
+APP_URL=https://<nome progetto>.com
 ```
 
 ## 🔧 Comandi Rapidi Fix
 
 ```bash
 # Quick fix completo
+cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel
 
 # 1. Modifica APP_URL in .env
 nano .env  # o vim .env

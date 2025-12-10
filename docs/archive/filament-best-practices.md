@@ -59,6 +59,7 @@ public static function getFormSchema(): array
 // NON FARE MAI QUESTO
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +123,9 @@ public static function form(Form $form): Form
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 551c768c4 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 414a4ffcb (.)
 {
     return $form->schema([
         // componenti...
@@ -665,6 +669,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -723,6 +728,10 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
+- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
+>>>>>>> 414a4ffcb (.)
 
 ## Regole per Widget Filament: Path View e Localizzazione
 
@@ -736,6 +745,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -914,6 +924,9 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 =======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 551c768c4 (.)
+=======
+protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 414a4ffcb (.)
 TextInput::make('location')->required()
 ```
 
@@ -921,6 +934,7 @@ TextInput::make('location')->required()
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1099,6 +1113,9 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 =======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 >>>>>>> 551c768c4 (.)
+=======
+protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
+>>>>>>> 414a4ffcb (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

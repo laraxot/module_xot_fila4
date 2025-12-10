@@ -38,6 +38,7 @@ Route::middleware($middleware)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f8f76a284 (.)
@@ -122,6 +123,8 @@ Route::middleware($middleware)
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     ->group(static function (): void {
         Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
     });

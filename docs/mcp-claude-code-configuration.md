@@ -2,6 +2,7 @@
 
 ## Panoramica
 
+Claude Code utilizza comandi CLI per configurare i server MCP. Questa guida descrive come configurare i server MCP per il progetto <nome progetto> Fila4 Mono.
 
 ## Prerequisiti
 
@@ -16,6 +17,7 @@
 Permette l'accesso ai file del progetto.
 
 ```bash
+claude mcp add --transport http filesystem-<nome progetto> http://localhost:8000/mcp/filesystem
 ```
 
 **Nota**: Richiede un server MCP HTTP in esecuzione. Per sviluppo locale, utilizzare server STDIO invece.
@@ -25,6 +27,7 @@ Permette l'accesso ai file del progetto.
 Permette chiamate HTTP e API.
 
 ```bash
+claude mcp add --transport http fetch-<nome progetto> http://localhost:8000/mcp/fetch
 ```
 
 ### 3. Memory Server
@@ -32,6 +35,7 @@ Permette chiamate HTTP e API.
 Memoria temporanea per contesto tra richieste.
 
 ```bash
+claude mcp add --transport http memory-<nome progetto> http://localhost:8000/mcp/memory
 ```
 
 ### 4. MySQL Server
@@ -39,6 +43,7 @@ Memoria temporanea per contesto tra richieste.
 Interazione con database MySQL.
 
 ```bash
+claude mcp add --transport http mysql-<nome progetto> http://localhost:8000/mcp/mysql
 ```
 
 **Variabili d'ambiente richieste**:
@@ -53,6 +58,7 @@ Interazione con database MySQL.
 Analisi codice e ottimizzazione.
 
 ```bash
+claude mcp add --transport http sequential-thinking-<nome progetto> http://localhost:8000/mcp/sequential-thinking
 ```
 
 ## Configurazione con Server STDIO (Raccomandato)
@@ -62,16 +68,19 @@ Per sviluppo locale, è preferibile utilizzare server STDIO invece di HTTP:
 ### Filesystem con STDIO
 
 ```bash
+claude mcp add filesystem-<nome progetto> npx -y @modelcontextprotocol/server-filesystem /var/www/_bases/base_<nome progetto>_fila4_mono
 ```
 
 ### Memory con STDIO
 
 ```bash
+claude mcp add memory-<nome progetto> npx -y @modelcontextprotocol/server-memory
 ```
 
 ### MySQL con STDIO
 
 ```bash
+claude mcp add mysql-<nome progetto> npx -y @modelcontextprotocol/server-mysql
 ```
 
 **Con variabili d'ambiente**:
@@ -82,6 +91,7 @@ export DB_USERNAME=your_username
 export DB_PASSWORD=your_password
 export DB_DATABASE=your_database
 
+claude mcp add mysql-<nome progetto> npx -y @modelcontextprotocol/server-mysql
 ```
 
 ## Gestione Server
@@ -95,11 +105,13 @@ claude mcp list
 ### Rimozione Server
 
 ```bash
+claude mcp remove filesystem-<nome progetto>
 ```
 
 ### Test Connessione
 
 ```bash
+claude mcp test filesystem-<nome progetto>
 ```
 
 ## Configurazione Avanzata
@@ -110,6 +122,7 @@ Per server MCP personalizzati, creare uno script wrapper:
 
 ```bash
 #!/bin/bash
+# ~/bin/mcp-mysql-<nome progetto>.sh
 
 export MYSQL_HOST="${DB_HOST:-localhost}"
 export MYSQL_PORT="${DB_PORT:-3306}"
@@ -123,6 +136,8 @@ exec npx -y @modelcontextprotocol/server-mysql
 Poi aggiungere il server:
 
 ```bash
+chmod +x ~/bin/mcp-mysql-<nome progetto>.sh
+claude mcp add mysql-<nome progetto> ~/bin/mcp-mysql-<nome progetto>.sh
 ```
 
 ## Troubleshooting
@@ -136,6 +151,7 @@ Poi aggiungere il server:
 
 2. Controllare permessi file:
    ```bash
+   ls -la /var/www/_bases/base_<nome progetto>_fila4_mono
    ```
 
 3. Verificare variabili d'ambiente:
@@ -153,10 +169,12 @@ Poi aggiungere il server:
 
 2. Verificare credenziali nel file `.env`:
    ```bash
+   grep DB_ /var/www/_bases/base_<nome progetto>_fila4_mono/laravel/.env
    ```
 
 ## Best Practices
 
+1. **Utilizzare nomi descrittivi**: Prefissare i nomi server con il progetto (es. `filesystem-<nome progetto>`)
 2. **Variabili d'ambiente**: Mai hardcodare credenziali nei comandi
 3. **Test regolari**: Verificare periodicamente che i server funzionino
 4. **Documentazione**: Mantenere questa documentazione aggiornata

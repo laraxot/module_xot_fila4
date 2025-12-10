@@ -6,6 +6,7 @@ namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,10 +68,13 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Database\Factories\PulseAggregateFactory;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
@@ -86,11 +90,17 @@ use Illuminate\Database\Eloquent\Builder;
  * @property int $bucket
  * @property int $period
 >>>>>>> 551c768c4 (.)
+=======
+ * @property string $id
+ * @property int $bucket
+ * @property int $period
+>>>>>>> 414a4ffcb (.)
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property string $aggregate
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @method static Builder|PulseAggregate whereAggregate($value)
  * @method static Builder|PulseAggregate whereBucket($value)
@@ -115,6 +125,11 @@ use Illuminate\Database\Eloquent\Builder;
  * @property int|null $count
  *
 <<<<<<< HEAD
+=======
+ * @property int|null $count
+ *
+ * @method static PulseAggregateFactory factory($count = null, $state = [])
+>>>>>>> 414a4ffcb (.)
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
  * @method static Builder<static>|PulseAggregate query()
@@ -128,6 +143,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate whereType($value)
  * @method static Builder<static>|PulseAggregate whereValue($value)
  *
+<<<<<<< HEAD
  * @property int|null    $count
  * @method static Builder|PulseAggregate whereAggregate($value)
  * @method static Builder|PulseAggregate whereBucket($value)
@@ -222,6 +238,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

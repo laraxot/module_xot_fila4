@@ -6,6 +6,7 @@ namespace Modules\Xot\Filament\Resources\SessionResource\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +317,8 @@ use Override;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -323,6 +326,7 @@ use Modules\Xot\Filament\Resources\SessionResource;
 <<<<<<< HEAD
 use Override;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 551c768c4 (.)
@@ -347,6 +351,8 @@ use Override;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 /**
  * @see SessionResource
  */
@@ -363,6 +369,7 @@ class ListSessions extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
 =======
@@ -419,6 +426,8 @@ class ListSessions extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -450,6 +459,7 @@ class ListSessions extends XotBaseListRecords
     {
         return [
             'id' => TextColumn::make('id')->sortable()->label('ID'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,6 +537,8 @@ class ListSessions extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'user_id' => TextColumn::make('user_id')
                 ->sortable()
                 ->searchable()
@@ -540,6 +552,7 @@ class ListSessions extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
             'ip_address' => TextColumn::make('ip_address')->searchable()->label('IP Address'),
+<<<<<<< HEAD
             'ip_address' => TextColumn::make('ip_address')->searchable()->label('IP Address'),
 =======
 =======
@@ -615,6 +628,8 @@ class ListSessions extends XotBaseListRecords
             'ip_address' => TextColumn::make('ip_address')->searchable()->label('IP Address'),
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'user_agent' => TextColumn::make('user_agent')
                 ->searchable()
                 ->wrap()
@@ -626,6 +641,7 @@ class ListSessions extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -681,6 +697,8 @@ class ListSessions extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'payload' => TextColumn::make('payload')
                 ->searchable()
                 ->wrap()
@@ -692,6 +710,7 @@ class ListSessions extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -747,6 +766,8 @@ class ListSessions extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'last_activity' => TextColumn::make('last_activity')
                 ->dateTime()
                 ->sortable()

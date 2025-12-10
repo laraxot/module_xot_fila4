@@ -8,6 +8,7 @@ namespace Modules\Xot\Exceptions\Formatters;
 <<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Throwable;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +77,8 @@ use Illuminate\Support\Facades\Auth;
 use function Safe\json_encode;
 use Throwable;
 use Illuminate\Support\Facades\Auth;
+=======
+>>>>>>> 414a4ffcb (.)
 
 use function Safe\json_encode;
 =======
@@ -112,6 +115,7 @@ class WebhookErrorFormatter
 <<<<<<< HEAD
 <<<<<<< HEAD
         private Throwable $exception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +236,8 @@ class WebhookErrorFormatter
 =======
         private Throwable $exception,
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     ) {}
 
     /**
@@ -319,6 +325,7 @@ class WebhookErrorFormatter
              * $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
              * ),
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,6 +602,8 @@ class WebhookErrorFormatter
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 }

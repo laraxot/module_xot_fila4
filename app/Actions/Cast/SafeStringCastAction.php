@@ -33,6 +33,7 @@ namespace Modules\Xot\Actions\Cast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 
 =======
 =======
@@ -184,6 +185,8 @@ namespace Modules\Xot\Actions\Cast;
 =======
  *
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -193,6 +196,7 @@ class SafeStringCastAction
      * Converte in modo sicuro un valore mixed in string.
      * impostare delle eccezzioni ?
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param mixed $value Il valore da convertire
      *
@@ -207,6 +211,9 @@ class SafeStringCastAction
 =======
      * @param  mixed  $value  Il valore da convertire
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  mixed  $value  Il valore da convertire
+>>>>>>> 414a4ffcb (.)
      * @return string Il valore convertito in string
      */
     public function execute(mixed $value): string
@@ -338,6 +345,7 @@ class SafeStringCastAction
         return '';
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -704,6 +712,12 @@ class SafeStringCastAction
 =======
      * @param  mixed  $value  Il valore da convertire
 >>>>>>> 551c768c4 (.)
+=======
+    /**
+     * Metodo statico di convenienza per chiamate dirette.
+     *
+     * @param  mixed  $value  Il valore da convertire
+>>>>>>> 414a4ffcb (.)
      * @return string Il valore convertito in string
      */
     public static function cast(mixed $value): string

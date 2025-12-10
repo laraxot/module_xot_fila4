@@ -119,6 +119,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 ### Collegamento
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +299,9 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 =======
 - Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
 >>>>>>> 551c768c4 (.)
+=======
+- Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
+>>>>>>> 414a4ffcb (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore

@@ -24,6 +24,7 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\RelationManagers\RelationManager;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
@@ -73,6 +74,8 @@ use Filament\Tables\Actions\Action;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
 use Modules\Xot\Actions\GetTransKeyAction;
 use Webmozart\Assert\Assert;
@@ -109,6 +112,7 @@ class ExportXlsTableAction extends Action
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
@@ -141,6 +145,8 @@ class ExportXlsTableAction extends Action
                     collect($livewire->tableFilters)->flatten()->implode('-') .
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire_class);
                 $transKey .= '.fields';
@@ -148,6 +154,7 @@ class ExportXlsTableAction extends Action
                 if ($query === null) {
                     throw new Exception('Query is null');
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +252,8 @@ class ExportXlsTableAction extends Action
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
                 $rows = $query->get();
                 /** @var array<int, string> $fields */
@@ -255,6 +264,7 @@ class ExportXlsTableAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,6 +329,8 @@ class ExportXlsTableAction extends Action
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     // Ensure fields are properly formatted as array<int, string>
                     $fields = [];
                     foreach ($rawFields as $key => $field) {
@@ -368,6 +380,7 @@ class ExportXlsTableAction extends Action
 =======
 >>>>>>> 218dfed3 (.)
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -676,6 +689,8 @@ class ExportXlsTableAction extends Action
 =======
     public static function getDefaultName(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return 'export_xls';
     }

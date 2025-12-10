@@ -275,6 +275,7 @@ PASSO 1
 <<<<<<< HEAD
 <<<<<<< HEAD
 @endsection
+<<<<<<< HEAD
 @endsection
 @endsection
 @endsection
@@ -428,3 +429,5 @@ PASSO 1
 =======
 @endsection
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

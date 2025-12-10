@@ -124,6 +124,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -239,6 +240,8 @@ use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * @see LogResource
@@ -271,6 +274,7 @@ class ListLogs extends XotBaseListRecords
     {
         return [
             'id' => TextColumn::make('id')->sortable()->label('ID'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +352,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'message' => TextColumn::make('message')
                 ->searchable()
                 ->wrap()
@@ -359,6 +365,7 @@ class ListLogs extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -414,6 +421,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'level' => TextColumn::make('level')
                 ->searchable()
                 ->sortable()
@@ -425,6 +434,7 @@ class ListLogs extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -480,6 +490,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'level_name' => TextColumn::make('level_name')
                 ->searchable()
                 ->sortable()
@@ -491,6 +503,7 @@ class ListLogs extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -546,6 +559,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'context' => TextColumn::make('context')
                 ->searchable()
                 ->wrap()
@@ -557,6 +572,7 @@ class ListLogs extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -612,6 +628,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
@@ -652,6 +670,7 @@ class ListLogs extends XotBaseListRecords
                 'info' => 'Info',
                 'debug' => 'Debug',
             ]),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +780,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 
@@ -770,6 +791,7 @@ class ListLogs extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,6 +864,8 @@ class ListLogs extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableActions(): array
     {
         return [
@@ -868,6 +892,7 @@ class ListLogs extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, BulkAction>
      */
 <<<<<<< HEAD
@@ -948,6 +973,8 @@ class ListLogs extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableBulkActions(): array
     {
         return [

@@ -17,6 +17,7 @@ class StartQueryLogAction
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
@@ -47,6 +48,9 @@ class StartQueryLogAction
 =======
         Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
 >>>>>>> 551c768c4 (.)
+=======
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+>>>>>>> 414a4ffcb (.)
             $sql = $query->sql;
             $time = $query->time;
             $connection = $query->connection->getName();
@@ -55,6 +59,7 @@ class StartQueryLogAction
                 'driver' => 'daily',
                 'path' => storage_path('logs/querylog.log'),
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -334,6 +339,8 @@ class StartQueryLogAction
 =======
 >>>>>>> 17684f52 (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);

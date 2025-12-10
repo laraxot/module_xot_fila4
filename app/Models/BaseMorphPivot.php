@@ -72,6 +72,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'post_id', 'post_type',
 =======
 =======
@@ -262,6 +263,8 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_id',
         'post_type',
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         'related_type',
         'user_id',
         'note',
@@ -273,6 +276,7 @@ abstract class BaseMorphPivot extends MorphPivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,6 +467,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 8fd88dd43 (.)
 =======
+=======
+>>>>>>> 414a4ffcb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',

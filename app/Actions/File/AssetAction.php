@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\File;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -19,6 +20,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\XotData;
@@ -32,6 +36,7 @@ class AssetAction
     /**
      * Gestisce i percorsi degli asset, copiandoli nella directory pubblica se necessario.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @param string $path Il percorso dell'asset
@@ -47,6 +52,9 @@ class AssetAction
 =======
      * @param  string  $path  Il percorso dell'asset
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  string  $path  Il percorso dell'asset
+>>>>>>> 414a4ffcb (.)
      * @return string Il percorso pubblico dell'asset
      *
      * @throws Exception Se il file sorgente non esiste o non può essere copiato
@@ -73,6 +81,7 @@ class AssetAction
 
         $ns_after0 = Str::before($ns_after, '/');
         $ns_after1 = Str::after($ns_after, '/');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,14 +120,11 @@ class AssetAction
 =======
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $ns_after =
-            str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
-        $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
-            str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
-        $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
-        $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
-            str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)).'/'.$ns_after1;
+<<<<<<< HEAD
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
 <<<<<<< HEAD
         $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
@@ -327,6 +333,8 @@ class AssetAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         if (Str::startsWith($ns_after, '/')) {
             $ns_after = Str::after($ns_after, '/');
@@ -356,6 +364,7 @@ class AssetAction
 <<<<<<< HEAD
 
             // Costruiamo i percorsi
+<<<<<<< HEAD
 
             // Costruiamo i percorsi
 =======
@@ -529,6 +538,8 @@ class AssetAction
             // Costruiamo i percorsi
             
             // Costruiamo i percorsi
+=======
+>>>>>>> 414a4ffcb (.)
             $themeResourcePath = 'Themes/'.$theme.'/resources/'.$ns_after;
             $filename_from = app(FixPathAction::class)->execute(base_path($themeResourcePath));
 
@@ -681,6 +692,7 @@ class AssetAction
 <<<<<<< HEAD
             if (! File::exists($filename_to)) {
                 if (! File::exists(\dirname($filename_to))) {
+<<<<<<< HEAD
             if (! File::exists($filename_to)) {
                 if (! File::exists(\dirname($filename_to))) {
             if (! File::exists($filename_to)) {
@@ -898,10 +910,14 @@ class AssetAction
                     File::makeDirectory(\dirname($filename_to), 0o755, true, true);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                    File::makeDirectory(\dirname($filename_to), 0o755, true, true);
+>>>>>>> 414a4ffcb (.)
                 }
 
                 try {
                     File::copy($filename_from, $filename_to);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -949,6 +965,9 @@ class AssetAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                } catch (Exception $e) {
+>>>>>>> 414a4ffcb (.)
                     throw new Exception(
                         'message:['.
                         $e->getMessage().
@@ -964,6 +983,7 @@ class AssetAction
                             ']
                         file to ['.
                             $filename_to.
+<<<<<<< HEAD
 <<<<<<< HEAD
                         'message:[' .
                         $e->getMessage() .
@@ -981,6 +1001,8 @@ class AssetAction
                             $filename_to .
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                             ']',
                         $e->getCode(),
                         $e,
@@ -1001,6 +1023,7 @@ class AssetAction
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
             Assert::string($asset, '['.__LINE__.']['.class_basename(static::class).']');
+<<<<<<< HEAD
             Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
 <<<<<<< HEAD
 =======
@@ -1306,6 +1329,8 @@ class AssetAction
 =======
             Assert::string($asset, '['.__LINE__.']['.class_basename(static::class).']');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
             return $asset;
         }
@@ -1320,6 +1345,7 @@ class AssetAction
 <<<<<<< HEAD
         $filename_from = app(FixPathAction::class)->execute($module_path.'/resources/'.$ns_after);
         $asset = 'assets/'.$ns.'/'.$ns_after;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1537,6 +1563,8 @@ class AssetAction
         if (!File::exists($filename_to) || 'production' !== app()->environment()) {
             if (!File::exists(\dirname($filename_to))) {
 <<<<<<< HEAD
+=======
+>>>>>>> 414a4ffcb (.)
         $filename_to = app(FixPathAction::class)->execute(public_path($asset));
         $asset = Str::replace(url(''), '', asset($asset));
         if (! File::exists($filename_from)) {
@@ -1550,6 +1578,7 @@ class AssetAction
         if (! File::exists($filename_to) || app()->environment() !== 'production') {
             if (! File::exists(\dirname($filename_to))) {
                 File::makeDirectory(\dirname($filename_to), 0o755, true, true);
+<<<<<<< HEAD
                 File::makeDirectory(\dirname($filename_to), 0o755, true, true);
         $filename_from = app(FixPathAction::class)->execute($module_path.'/resources/'.$ns_after);
         $asset = 'assets/'.$ns.'/'.$ns_after;
@@ -1625,6 +1654,8 @@ class AssetAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             }
             try {
                 File::copy($filename_from, $filename_to);
@@ -1661,6 +1692,7 @@ class AssetAction
                     file to ['.
                         $filename_to.
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'message:[' .
                     $e->getMessage() .
                         ']
@@ -1677,6 +1709,8 @@ class AssetAction
                         $filename_to .
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                         ']',
                     $e->getCode(),
                     $e,
@@ -1697,6 +1731,7 @@ class AssetAction
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
         Assert::string($asset, '['.__LINE__.']['.class_basename(static::class).']');
+<<<<<<< HEAD
         Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
 <<<<<<< HEAD
 =======
@@ -2020,6 +2055,8 @@ class AssetAction
 =======
         Assert::string($asset, '['.__LINE__.']['.class_basename(static::class).']');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         return $asset;
     }

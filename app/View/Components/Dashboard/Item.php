@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\View\Components\Dashboard;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Contracts\Support\Renderable;
@@ -13,6 +14,9 @@ use Illuminate\Contracts\Support\Renderable;
 =======
 use Illuminate\Contracts\View\View;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Contracts\View\View;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\View\Component;
 
 // use Modules\Xot\View\Components\XotBaseComponent;
@@ -28,6 +32,7 @@ class Item extends Component
         $view = 'xot::components.dashboard.item';
         /** @var array<string, string> $view_params */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render(): Renderable
     {
         /**
@@ -36,6 +41,8 @@ class Item extends Component
         $view = 'xot::components.dashboard.item';
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $view_params = [
             'view' => $view,
         ];

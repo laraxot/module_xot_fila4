@@ -4,6 +4,7 @@
 
 **Total Issues Identified:** 744 PHPStan errors
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 **Critical Modules:** Chart, Quaeris
@@ -11,12 +12,17 @@
 **Critical Modules:** Chart, <nome progetto>
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+**Critical Modules:** Chart, Quaeris
+**Critical Modules:** Chart, <nome progetto>
+>>>>>>> 414a4ffcb (.)
 **Status:** 🔴 **Requires Immediate Action**
 
 ## Quick Start Guide
 
 ### Immediate Actions (Today)
 1. **Add Safe function imports** to all problematic files
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -25,6 +31,10 @@
 2. **Comment out quantum code** in <nome progetto> module
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+2. **Comment out quantum code** in Quaeris module
+2. **Comment out quantum code** in <nome progetto> module
+>>>>>>> 414a4ffcb (.)
 3. **Run PHPStan again** to verify progress
 
 ### Week 1 Goals
@@ -47,6 +57,7 @@ Modules/Chart/app/Actions/ChartJs/ExportToSvgAction.php
 Modules/Chart/app/Actions/ExportChartToPngAction.php
 Modules/Chart/app/Actions/ExportChartToSvgAction.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 Modules/Quaeris/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
@@ -54,6 +65,10 @@ Modules/Quaeris/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
 Modules/<nome progetto>/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+Modules/Quaeris/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
+Modules/<nome progetto>/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
+>>>>>>> 414a4ffcb (.)
 # ... and others identified in analysis
 ```
 
@@ -72,6 +87,7 @@ use function Safe\htmlspecialchars;
 **Priority:** 🔴 CRITICAL
 **Estimated Time:** 1-2 hours
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 **Files:** Quaeris quantum actions
@@ -79,6 +95,10 @@ use function Safe\htmlspecialchars;
 **Files:** <nome progetto> quantum actions
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+**Files:** Quaeris quantum actions
+**Files:** <nome progetto> quantum actions
+>>>>>>> 414a4ffcb (.)
 
 **Options:**
 1. **Comment out** quantum features temporarily
@@ -254,6 +274,7 @@ class ChartDataValidator
 - [PHPStan Configuration](../phpstan.neon)
 - [Chart Module Documentation](../Chart/docs/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Quaeris Module Documentation](../Quaeris/docs/)
@@ -261,6 +282,10 @@ class ChartDataValidator
 - [<nome progetto> Module Documentation](../<nome progetto>/docs/)
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+- [Quaeris Module Documentation](../Quaeris/docs/)
+- [<nome progetto> Module Documentation](../<nome progetto>/docs/)
+>>>>>>> 414a4ffcb (.)
 
 ## Emergency Procedures
 

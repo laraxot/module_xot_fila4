@@ -93,6 +93,7 @@ use Modules\Xot\Filament\Resources\ExtraResource\Pages\EditExtra;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
 use Modules\Xot\Models\Extra;
 use Override;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Override;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
@@ -431,10 +432,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 
 class ExtraResource extends XotBaseResource
 {
     protected static ?string $model = Extra::class;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Schemas\Components\Component;
@@ -790,6 +794,8 @@ class ExtraResource extends XotBaseResource
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the form schema for the resource.
@@ -819,6 +825,7 @@ class ExtraResource extends XotBaseResource
             'id' => TextInput::make('id')->required()->maxLength(36),
             'post_type' => TextInput::make('post_type')->required()->maxLength(255),
             'post_id' => TextInput::make('post_id')->required()->numeric(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -929,6 +936,8 @@ class ExtraResource extends XotBaseResource
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'value' => KeyValue::make('value')
                 ->keyLabel('Chiave')
                 ->valueLabel('Valore')
@@ -960,6 +969,7 @@ class ExtraResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1032,6 +1042,8 @@ class ExtraResource extends XotBaseResource
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public static function getPages(): array
     {
         return [

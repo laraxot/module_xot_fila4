@@ -3,6 +3,7 @@
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
@@ -41,6 +42,23 @@
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 50d6b63f (.)
+**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 71f31700 (.)
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 71f31700 (.)
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 71f31700 (.)
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 71f31700 (.)
+>>>>>>> 50d6b63f (.)
+**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
+>>>>>>> cc7fb225 (.)
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 414a4ffcb (.)
 
 ## Analisi Completa
 
@@ -96,6 +114,7 @@ Accesso a proprietà non definite nei modelli.
 - Contratti e interfacce
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,10 +127,18 @@ Accesso a proprietà non definite nei modelli.
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 50d6b63f (.)
+### 3. **<nome modulo>** (Applicazione) - 15% errori
+>>>>>>> 414a4ffcb (.)
 ### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 71f31700 (.)
 ### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 71f31700 (.)
 ### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 71f31700 (.)
 ### 3. **SaluteMo** (Applicazione) - 15% errori
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -122,6 +149,12 @@ Accesso a proprietà non definite nei modelli.
 >>>>>>> 50d6b63f (.)
 >>>>>>> cc7fb225 (.)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 71f31700 (.)
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 50d6b63f (.)
+>>>>>>> cc7fb225 (.)
+>>>>>>> 414a4ffcb (.)
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -151,6 +184,7 @@ Accesso a proprietà non definite nei modelli.
 
 ### Priorità 3 (Applicazione)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,25 +198,40 @@ Accesso a proprietà non definite nei modelli.
 2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 50d6b63f (.)
+1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
+>>>>>>> 414a4ffcb (.)
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 71f31700 (.)
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 71f31700 (.)
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 71f31700 (.)
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> 414a4ffcb (.)
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
 >>>>>>> 50d6b63f (.)
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -193,6 +242,7 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 ### Fase 2: Autenticazione (User)
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -206,10 +256,18 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 ### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 50d6b63f (.)
+### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
+>>>>>>> 414a4ffcb (.)
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 71f31700 (.)
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 71f31700 (.)
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 71f31700 (.)
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -220,6 +278,12 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 >>>>>>> 50d6b63f (.)
 >>>>>>> cc7fb225 (.)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 71f31700 (.)
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 50d6b63f (.)
+>>>>>>> cc7fb225 (.)
+>>>>>>> 414a4ffcb (.)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale

@@ -166,6 +166,7 @@ public function processData(array $data): void
 **🎯 OBIETTIVO RAGGIUNTO**: 832 → 0 errori PHPStan (-832, -100%)  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,3 +285,7 @@ public function processData(array $data): void
 **🏆 STATUS**: PERFETTO - PHPStan level 10 CLEAN  
 **📊 QUALITÀ CODICE**: Maximum Type Safety Achieved
 >>>>>>> 551c768c4 (.)
+=======
+**🏆 STATUS**: PERFETTO - PHPStan level 10 CLEAN  
+**📊 QUALITÀ CODICE**: Maximum Type Safety Achieved
+>>>>>>> 414a4ffcb (.)

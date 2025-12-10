@@ -68,6 +68,7 @@ Per dettagli implementativi e best practice vedi:
 - [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
 - [<nome progetto>/docs/geo-integration.md](../../<nome progetto>/docs/geo-integration.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Aggiornare la documentazione di Geo/docs, <nome modulo>/docs e questa stessa doc con collegamenti bidirezionali.
 
 Per dettagli implementativi e best practice vedi:
@@ -394,6 +395,8 @@ Per dettagli implementativi e best practice vedi:
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [Questa stessa doc (Xot/module-structure.md)](module-structure.md)
 
 ---

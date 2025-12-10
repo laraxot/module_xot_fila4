@@ -34,6 +34,7 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -101,6 +102,8 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di cast float in tutto il progetto
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
@@ -113,6 +116,7 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 
 =======
 =======
@@ -169,6 +173,8 @@ use function Safe\preg_replace;
  *
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * Casi d'uso tipici:
  * - Conversione di valori da API esterne
  * - Parsing di dati da file CSV/JSON
@@ -205,6 +211,7 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -286,6 +293,8 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * // Con validazione di range
  * $percentage = SafeFloatCastAction::castWithRange($mixedValue, 0.0, 100.0);
  */
@@ -300,6 +309,7 @@ class SafeFloatCastAction
      */
 <<<<<<< HEAD
     public function execute(mixed $value, ?float $default = 0.0): float
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,6 +537,8 @@ class SafeFloatCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         // Se è già un float, verifica che sia valido
         if (is_float($value)) {
@@ -540,6 +552,7 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -596,6 +609,8 @@ class SafeFloatCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è un intero, convertilo in float
         if (is_int($value)) {
             return (float) $value;
@@ -608,6 +623,7 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -664,6 +680,8 @@ class SafeFloatCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è null, restituisci il default
         if (is_null($value)) {
             return $default ?? 0.0;
@@ -676,6 +694,7 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -732,6 +751,8 @@ class SafeFloatCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è una stringa, prova a convertirla
         if (is_string($value)) {
             return $this->parseStringToFloat($value, $default);
@@ -744,6 +765,7 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -800,6 +822,8 @@ class SafeFloatCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è un booleano, convertilo (true = 1.0, false = 0.0)
         if (is_bool($value)) {
             return $value ? 1.0 : 0.0;
@@ -812,6 +836,7 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -868,6 +893,8 @@ class SafeFloatCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è un array e ha un solo elemento numerico
         if (is_array($value) && count($value) === 1) {
             return $this->execute(reset($value), $default);
@@ -882,6 +909,7 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -929,11 +957,14 @@ class SafeFloatCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è un oggetto con metodo __toString, prova a convertirlo
         if (is_object($value) && method_exists($value, '__toString')) {
             return $this->parseStringToFloat((string) $value, $default);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1008,11 +1039,14 @@ class SafeFloatCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Per tutti gli altri tipi, restituisci il default
         return $default ?? 0.0;
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     private function parseStringToFloat(string $value, ?float $default = 0.0): float
@@ -1038,9 +1072,20 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
     private function parseStringToFloat(string $value, ?float $default = 0.0): float
+=======
+     * Metodo statico di convenienza per chiamate dirette.
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  float|null  $default  Valore di default se la conversione fallisce (default: 0.0)
+     * @return float Il valore convertito in float
+     */
+    public static function cast(mixed $value, ?float $default = 0.0): float
+>>>>>>> 414a4ffcb (.)
     {
-        $trimmed = trim($value);
+        return app(self::class)->execute($value, $default);
+    }
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1075,6 +1120,125 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
     private function parseStringToFloat(string $value, null|float $default = 0.0): float
+=======
+    /**
+     * Converte un valore in float con validazione di range.
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  float  $min  Valore minimo consentito
+     * @param  float  $max  Valore massimo consentito
+     * @param  float|null  $default  Valore di default se la conversione fallisce
+     * @return float Il valore convertito e validato
+     */
+    public function executeWithRange(mixed $value, float $min, float $max, ?float $default = null): float
+    {
+        $float = $this->execute($value, $default);
+
+        // Clamp il valore tra min e max
+        return max($min, min($max, $float));
+    }
+
+    /**
+     * Metodo statico di convenienza per cast con range.
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  float  $min  Valore minimo consentito
+     * @param  float  $max  Valore massimo consentito
+     * @param  float|null  $default  Valore di default se la conversione fallisce
+     * @return float Il valore convertito e validato
+     */
+    public static function castWithRange(mixed $value, float $min, float $max, ?float $default = null): float
+    {
+        return app(self::class)->executeWithRange($value, $min, $max, $default);
+    }
+
+    /**
+     * Converte un valore in float con controllo di precisione.
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  int  $precision  Numero di decimali (default: 2)
+     * @param  float|null  $default  Valore di default se la conversione fallisce
+     * @return float Il valore convertito con precisione specificata
+     */
+    public function executeWithPrecision(mixed $value, int $precision = 2, ?float $default = 0.0): float
+    {
+        $float = $this->execute($value, $default);
+
+        return round($float, max(0, $precision));
+    }
+
+    /**
+     * Metodo statico per cast con precisione.
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  int  $precision  Numero di decimali (default: 2)
+     * @param  float|null  $default  Valore di default se la conversione fallisce
+     * @return float Il valore convertito con precisione specificata
+     */
+    public static function castWithPrecision(mixed $value, int $precision = 2, ?float $default = 0.0): float
+    {
+        return app(self::class)->executeWithPrecision($value, $precision, $default);
+    }
+
+    /**
+     * Converte un valore in percentuale (0-100).
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  float|null  $default  Valore di default se la conversione fallisce
+     * @return float Il valore convertito come percentuale (0-100)
+     */
+    public function executeAsPercentage(mixed $value, ?float $default = 0.0): float
+    {
+        return $this->executeWithRange($value, 0.0, 100.0, $default);
+    }
+
+    /**
+     * Metodo statico per cast come percentuale.
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  float|null  $default  Valore di default se la conversione fallisce
+     * @return float Il valore convertito come percentuale (0-100)
+     */
+    public static function castAsPercentage(mixed $value, ?float $default = 0.0): float
+    {
+        return app(self::class)->executeAsPercentage($value, $default);
+    }
+
+    /**
+     * Converte un valore in formato monetario (sempre positivo, 2 decimali).
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  float|null  $default  Valore di default se la conversione fallisce
+     * @return float Il valore convertito come importo monetario
+     */
+    public function executeAsCurrency(mixed $value, ?float $default = 0.0): float
+    {
+        $float = $this->execute($value, $default);
+
+        return round(abs($float), 2);
+    }
+
+    /**
+     * Metodo statico per cast come importo monetario.
+     *
+     * @param  mixed  $value  Il valore da convertire
+     * @param  float|null  $default  Valore di default se la conversione fallisce
+     * @return float Il valore convertito come importo monetario
+     */
+    public static function castAsCurrency(mixed $value, ?float $default = 0.0): float
+    {
+        return app(self::class)->executeAsCurrency($value, $default);
+    }
+
+    /**
+     * Converte una stringa in float con gestione avanzata.
+     *
+     * @param  string  $value  La stringa da convertire
+     * @param  float|null  $default  Valore di default
+     * @return float Il valore convertito
+     */
+    private function parseStringToFloat(string $value, ?float $default = 0.0): float
+>>>>>>> 414a4ffcb (.)
     {
         $trimmed = trim($value);
 
@@ -1126,6 +1290,7 @@ class SafeFloatCastAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Gestisci separatori decimali comuni (virgola europea)
         $normalized = str_replace(',', '.', $trimmed);
 
@@ -1173,6 +1338,8 @@ class SafeFloatCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             // Verifica che non sia infinito o NaN
             if (is_finite($float)) {
                 return $float;
@@ -1195,6 +1362,7 @@ class SafeFloatCastAction
 
         return $default ?? 0.0;
     }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -2255,3 +2423,6 @@ class SafeFloatCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+}
+>>>>>>> 414a4ffcb (.)

@@ -392,6 +392,7 @@ grep -r "public static function getTableBulkActions" --include="*Resource.php" /
 grep -r "public static function getNavigationGroup" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -726,6 +727,8 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Processo di refactoring
@@ -735,6 +738,7 @@ Se questi metodi sono trovati in una classe esistente:
 1. Rimuovere completamente il metodo se il comportamento è standard
 2. Se contiene personalizzazioni critiche, discutere con il team come ottenere lo stesso risultato usando meccanismi standard
 3. Documentare qualsiasi eccezione con commenti dettagliati che spiegano perché è necessaria
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -792,3 +796,6 @@ Se questi metodi sono trovati in una classe esistente:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

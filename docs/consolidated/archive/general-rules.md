@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,6 +304,11 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
 
 Questo documento contiene le regole generali che devono essere seguite in tutto il progetto <nome progetto> per garantire coerenza e qualità del codice.
 >>>>>>> 551c768c4 (.)
+=======
+# Regole Generali del Progetto <nome progetto>
+
+Questo documento contiene le regole generali che devono essere seguite in tutto il progetto <nome progetto> per garantire coerenza e qualità del codice.
+>>>>>>> 414a4ffcb (.)
 
 ## Struttura dei Namespace
 - **Modelli**: Utilizzare il namespace `Modules\<nome modulo>\Models` per tutti i modelli.

@@ -6,6 +6,7 @@ namespace Modules\Xot\Tests;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,23 +60,29 @@ use Mockery;
 use Modules\SaluteOra\Models\User;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
 use Mockery;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\SaluteOra\Models\User;
 use Mockery;
 use Modules\SaluteOra\Models\User;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +138,9 @@ abstract class TestCase extends BaseTestCase
 =======
 <<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
     // use DatabaseMigrations;
 =======
 <<<<<<< HEAD
@@ -161,6 +171,7 @@ abstract class TestCase extends BaseTestCase
 
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -289,32 +300,40 @@ abstract class TestCase extends BaseTestCase
     //use DatabaseMigrations;
 
     // =============================================================================
+=======
+>>>>>>> 414a4ffcb (.)
     // SHARED TEST HELPER FUNCTIONS (DRY Pattern)
-    // =============================================================================
     // Queste funzioni erano duplicate in molti file di test
     // Centralizzate qui per manutenibilità e coerenza
-    // =============================================================================
 
     /**
      * Generate a unique email for testing to prevent database conflicts.
+<<<<<<< HEAD
      *
      * @return string
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     protected static function generateUniqueEmail(): string
     {
         $faker = fake();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         return $faker->unique()->safeEmail();
     }
 
     /**
      * Get the configured User class via XotData (correct architecture pattern).
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -329,6 +348,8 @@ abstract class TestCase extends BaseTestCase
      * @return string
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     protected static function getUserClass(): string
     {
@@ -339,6 +360,7 @@ abstract class TestCase extends BaseTestCase
      * Create a test user via XotData pattern with proper architecture.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $attributes
      * @return UserContract
      * @param array<string, mixed> $attributes
@@ -357,6 +379,9 @@ abstract class TestCase extends BaseTestCase
 =======
      * @param  array<string, mixed>  $attributes
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<string, mixed>  $attributes
+>>>>>>> 414a4ffcb (.)
      */
     protected static function createTestUser(array $attributes = []): UserContract
     {
@@ -389,6 +414,7 @@ abstract class TestCase extends BaseTestCase
         /* @phpstan-ignore-next-line method.nonObject */
         $user = $userClass::factory()->create($userData);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,6 +499,8 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return $user;
     }
 
@@ -481,6 +509,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -560,6 +589,10 @@ abstract class TestCase extends BaseTestCase
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
      *
      * @return void
+=======
+     * Prevents "Class not found" errors and provides consistent behavior
+     * across all widget tests.
+>>>>>>> 414a4ffcb (.)
      */
     protected static function mockXotData(): void
     {
@@ -635,6 +668,7 @@ abstract class TestCase extends BaseTestCase
             ->shouldReceive('getUserResourceClassByType')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with(\Mockery::any())
             /* @phpstan-ignore-next-line method.nonObject */
@@ -714,6 +748,8 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             ->with(Mockery::any())
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
 
@@ -754,6 +790,7 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> d2b0a27 (.)
         // ✅ CRITICO: Bind nel container per risoluzione automatica
         app()->instance(XotData::class, $mockXotData);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         
@@ -870,12 +907,15 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
      * Create test user with specific type for multi-type testing.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $type
      * @param array<string, mixed> $attributes
      * @return UserContract
@@ -900,14 +940,21 @@ abstract class TestCase extends BaseTestCase
 =======
      * @param  array<string, mixed>  $attributes
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<string, mixed>  $attributes
+>>>>>>> 414a4ffcb (.)
      */
     protected static function createTestUserWithType(string $type, array $attributes = []): UserContract
     {
         $attributes['type'] = $type;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         return static::createTestUser($attributes);
     }
 
@@ -916,6 +963,7 @@ abstract class TestCase extends BaseTestCase
      *
      * @param  array<string, mixed>  $overrides
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $overrides
      * @param  array<string, mixed>  $overrides
      * @param array<string, mixed> $overrides
@@ -923,6 +971,8 @@ abstract class TestCase extends BaseTestCase
      * @param array<string, mixed> $overrides
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return array<string, mixed>
      */
     protected static function generateTestData(array $overrides = []): array
@@ -936,6 +986,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -997,11 +1048,14 @@ abstract class TestCase extends BaseTestCase
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return array_merge($defaultData, $overrides);
     }
 
     /**
      * Assert that user is authenticated with correct type.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1038,11 +1092,10 @@ abstract class TestCase extends BaseTestCase
         $this->assertAuthenticated();
 
 <<<<<<< HEAD
+=======
+     */
+>>>>>>> 414a4ffcb (.)
     protected function assertUserAuthenticated(?string $expectedType = null): void
-    {
-        $this->assertAuthenticated();
-        
-    protected function assertUserAuthenticated(null|string $expectedType = null): void
     {
         $this->assertAuthenticated();
 
@@ -1090,6 +1143,7 @@ abstract class TestCase extends BaseTestCase
 
             if ($user && method_exists($user, 'type')) {
                 self::assertSame($expectedType, $user->type ?? null);
+<<<<<<< HEAD
 <<<<<<< HEAD
             $this->assertNotNull($user);
 <<<<<<< HEAD
@@ -1160,6 +1214,8 @@ abstract class TestCase extends BaseTestCase
                 $this->assertEquals($expectedType, $user->type ?? null);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             }
         }
     }

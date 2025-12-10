@@ -7,6 +7,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +122,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
@@ -153,6 +156,7 @@ use Modules\Xot\Database\Factories\ExtraFactory;
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
 use Override;
+<<<<<<< HEAD
 use Override;
 use Override;
 use Override;
@@ -224,6 +228,8 @@ use Modules\Xot\Contracts\ExtraContract;
 =======
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Spatie\SchemalessAttributes\Casts\SchemalessAttributes;
 use Spatie\SchemalessAttributes\SchemalessAttributesTrait;
 use Webmozart\Assert\Assert;
@@ -231,6 +237,7 @@ use Webmozart\Assert\Assert;
 /**
  * Model Extra.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int                                               $id
  * @property int|null                                          $model_id
@@ -252,6 +259,11 @@ use Webmozart\Assert\Assert;
  * @property int|null $model_id
  * @property string|null $model_type
 >>>>>>> 551c768c4 (.)
+=======
+ * @property int $id
+ * @property int|null $model_id
+ * @property string|null $model_type
+>>>>>>> 414a4ffcb (.)
  * @property \Spatie\SchemalessAttributes\SchemalessAttributes $extra_attributes
  *
  * @method static Builder|BaseModel disableCache()
@@ -269,12 +281,15 @@ use Webmozart\Assert\Assert;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property Carbon|null $deleted_at
  * @property string|null                     $deleted_by
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  *
  * @method static Builder|Extra whereCreatedAt($value)
  * @method static Builder|Extra whereCreatedBy($value)
@@ -303,6 +318,7 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
         'extra_attributes',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function scopeWithExtraAttributes(): Builder
     {
@@ -427,6 +443,10 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
     // ✅ CORRETTO: NON implementare scopeWithExtraAttributes() manualmente
     // Il trait SchemalessAttributesTrait lo fornisce automaticamente!
 >>>>>>> 551c768c4 (.)
+=======
+    // ✅ CORRETTO: NON implementare scopeWithExtraAttributes() manualmente
+    // Il trait SchemalessAttributesTrait lo fornisce automaticamente!
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Get the attributes that should be cast.
@@ -466,6 +486,7 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -485,6 +506,8 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',

@@ -75,6 +75,7 @@ PHPStan offre più livelli di rigore nell'analisi (da 0 a 10). Il framework Lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
@@ -118,6 +119,10 @@ PHPStan offre più livelli di rigore nell'analisi (da 0 a 10). Il framework Lara
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 414a4ffcb (.)
 # Analisi a livello 9 (standard corrente)
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9
 
@@ -261,6 +266,7 @@ public function post(): \Illuminate\Database\Eloquent\Relations\BelongsTo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
@@ -304,6 +310,10 @@ public function post(): \Illuminate\Database\Eloquent\Relations\BelongsTo
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 414a4ffcb (.)
 # Esempio per GitHub Actions
 name: PHPStan
 
@@ -347,6 +357,7 @@ Seguendo questa guida, sarai in grado di utilizzare efficacemente PHPStan all'in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
@@ -390,6 +401,10 @@ Seguendo questa guida, sarai in grado di utilizzare efficacemente PHPStan all'in
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 414a4ffcb (.)
 # Dalla directory laravel del progetto
 cd /percorso/al/progetto/laravel
 
@@ -401,6 +416,7 @@ cd /percorso/al/progetto/laravel
 
 # Analisi con output dettagliato
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9 --verbose
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,3 +483,7 @@ cd /percorso/al/progetto/laravel
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 551c768c4 (.)
+=======
+``` 
+>>>>>>> 6cba4fe (.)
+>>>>>>> 414a4ffcb (.)

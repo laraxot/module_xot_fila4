@@ -57,6 +57,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [metatag.md](../../../Xot/docs/install/metatag.md)
 * [metatag.md](../../../Tenant/docs/it/config/metatag.md)
@@ -156,6 +157,10 @@ return [
 * [metatag.md](../../../Xot/docs/install/metatag.md)
 * [metatag.md](../../../Tenant/docs/it/config/metatag.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [metatag.md](../../../Xot/docs/install/metatag.md)
+* [metatag.md](../../../Tenant/docs/it/config/metatag.md)
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md) e [SaluteOra/docs/README.md](../../SaluteOra/docs/README.md). Vedi esempi di implementazione e note di propagazione.
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md) e [SaluteOra/docs/README.md](../../SaluteOra/docs/README.md). Vedi esempi di implementazione e note di propagazione.
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
@@ -319,6 +320,12 @@
 > **AGGIORNAMENTO 2025-05-28:**
 > Questa policy è stata aggiornata e propagata anche in [<nome progetto>/docs/resources/studio-resource.md](../../<nome progetto>/docs/resources/studio-resource.md) e [<nome progetto>/docs/README.md](../../<nome progetto>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
 >>>>>>> 551c768c4 (.)
+=======
+# List Records in Filament
+
+> **AGGIORNAMENTO 2025-05-28:**
+> Questa policy è stata aggiornata e propagata anche in [<nome progetto>/docs/resources/studio-resource.md](../../<nome progetto>/docs/resources/studio-resource.md) e [<nome progetto>/docs/README.md](../../<nome progetto>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 414a4ffcb (.)
 
 ## Estensione Corretta
 
@@ -413,6 +420,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 3. **❌ Metodi Senza Prefisso List**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **❌ Metodi Senza Prefisso List**:
 2. **❌ Metodi Senza Prefisso List**:
 2. **❌ Metodi Senza Prefisso List**:
@@ -460,6 +468,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
    ```php
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
@@ -551,6 +561,7 @@ public function getTableColumns(): array
 ```
 
 ## PROPAGAZIONE (2025-05-28):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -896,3 +907,6 @@ La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metod
 =======
 La pagina ListStudios del modulo <nome progetto> implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome progetto>/docs/resources/studio-resource.md](../../<nome progetto>/docs/resources/studio-resource.md).
 >>>>>>> 551c768c4 (.)
+=======
+La pagina ListStudios del modulo <nome progetto> implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome progetto>/docs/resources/studio-resource.md](../../<nome progetto>/docs/resources/studio-resource.md).
+>>>>>>> 414a4ffcb (.)

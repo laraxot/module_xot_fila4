@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Export;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
@@ -12,6 +13,8 @@ use Illuminate\Http\Response;
 use Illuminate\Http\Response;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\LazyCollection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\LazyCollectionExport;
@@ -30,6 +33,7 @@ class ExportXlsByLazyCollection
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
+<<<<<<< HEAD
      * @param LazyCollection $collection La lazy collection da esportare
      * @param string $filename Nome del file Excel
      * @param array<int, string> $fields Campi da includere nell'export
@@ -133,6 +137,8 @@ class ExportXlsByLazyCollection
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(
         LazyCollection $collection,
@@ -140,6 +146,7 @@ class ExportXlsByLazyCollection
         array $fields = [],
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +179,8 @@ class ExportXlsByLazyCollection
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $stringFields = array_map(strval(...), array_values($fields));
 
         $export = new LazyCollectionExport($collection, $filename, $stringFields);

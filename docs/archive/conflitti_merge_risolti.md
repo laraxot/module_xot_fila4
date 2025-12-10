@@ -6,6 +6,7 @@
 
 Durante lo sviluppo del progetto <main module>, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti di Merge in SaluteOra
 
 ## Problema
@@ -23,6 +24,8 @@ Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file
 Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`

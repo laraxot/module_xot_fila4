@@ -10,6 +10,7 @@ namespace Modules\Xot\Actions;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -23,6 +24,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -36,6 +40,7 @@ class GetModelClassByModelTypeAction
     public function execute(string $model_type): string
     {
         $morph_map = config('morph_map');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!is_array($morph_map)) {
@@ -392,6 +397,10 @@ class GetModelClassByModelTypeAction
         if (! is_array($morph_map)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> 551c768c4 (.)
+=======
+        if (! is_array($morph_map)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 414a4ffcb (.)
         }
 
         Assert::string($res = collect($morph_map)->get($model_type));

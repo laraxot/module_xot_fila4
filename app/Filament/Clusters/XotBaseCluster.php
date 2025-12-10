@@ -73,6 +73,7 @@ use Illuminate\Contracts\Support\Htmlable;
 >>>>>>> 5cf46378 (.)
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Lang;
 <<<<<<< HEAD
 use Filament\Clusters\Cluster as FilamentCluster;
@@ -635,6 +636,8 @@ use Illuminate\Support\Facades\Lang;
 >>>>>>> 60f0a1820 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster
@@ -739,6 +742,7 @@ class XotBaseCluster extends FilamentCluster
      * return 'ZZZZZZZZZZZZZZZZZZ';
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -932,6 +936,8 @@ class XotBaseCluster extends FilamentCluster
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     public function getTitle(): Htmlable|string
     {
@@ -944,13 +950,10 @@ class XotBaseCluster extends FilamentCluster
 <<<<<<< HEAD
 
         // return Lang::get('broker::cliente.navigation_group');
-        //return Lang::get('broker::cliente.navigation_group');
-        //return Lang::get('broker::cliente.navigation_group');
-        //return Lang::get('broker::cliente.navigation_group');
-        //return Lang::get('broker::cliente.navigation_group');
         return 'AAAAAAAAA';
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1228,6 +1231,8 @@ class XotBaseCluster extends FilamentCluster
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /*
      * protected static ?string $navigationIcon = 'heroicon-o-users';
      *

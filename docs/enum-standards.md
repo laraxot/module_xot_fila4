@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,6 +300,11 @@ This document defines the standards and best practices for working with Enums in
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
 >>>>>>> 551c768c4 (.)
+=======
+# Enum Standards in <nome progetto>
+
+This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+>>>>>>> 414a4ffcb (.)
 
 ## Naming Conventions
 
@@ -371,6 +377,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -549,6 +556,9 @@ namespace Modules\SaluteOra\Enums;
 =======
 namespace Modules\<nome progetto>\Enums;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome progetto>\Enums;
+>>>>>>> 414a4ffcb (.)
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -569,6 +579,7 @@ enum AppointmentTypeEnum: string implements HasLabel
         return match ($this) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -807,6 +818,10 @@ enum AppointmentTypeEnum: string implements HasLabel
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
 >>>>>>> 551c768c4 (.)
+=======
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+>>>>>>> 414a4ffcb (.)
             // ... other cases
         };
     }
@@ -815,6 +830,7 @@ enum AppointmentTypeEnum: string implements HasLabel
 // Alias for backward compatibility
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -993,6 +1009,9 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 =======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 >>>>>>> 551c768c4 (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Updating Existing Enums

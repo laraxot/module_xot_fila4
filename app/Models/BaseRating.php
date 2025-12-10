@@ -13,6 +13,7 @@ namespace Modules\Xot\Models;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +46,9 @@ abstract class BaseRating extends XotBaseModel
 =======
 abstract class BaseRating extends BaseModel
 >>>>>>> 551c768c4 (.)
+=======
+abstract class BaseRating extends BaseModel
+>>>>>>> 414a4ffcb (.)
 {
     // Common properties and methods for ratings can be added here.
 }

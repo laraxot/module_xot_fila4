@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 use Filament\Schemas\Components\Component;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +46,8 @@ use Filament\Actions\AttachAction;
 =======
 >>>>>>> 5cf46378 (.)
 use Filament\Schemas\Components\Component;
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -52,22 +55,12 @@ use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecord
 use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Contracts\Support\Htmlable;
-use Override;
-use Filament\Actions\CreateAction;
-use Filament\Actions\Action;
-use Filament\Schemas\Schema;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Table;
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Override;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use Override;
 use Webmozart\Assert\Assert;
@@ -166,6 +159,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -188,6 +183,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         NavigationLabelTrait::transChoice insteadof HasXotTable;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     use NavigationLabelTrait;
     use NavigationLabelTrait;
     use NavigationLabelTrait;
@@ -199,6 +195,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     use NavigationLabelTrait;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     // protected static string $resource;
 
@@ -231,6 +229,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * Restituisce lo schema del form per i record correlati.
      *
      * @return array<\Filament\Schemas\Components\Component>
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<\Filament\Forms\Components\Component>
     /*
@@ -532,6 +531,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> 87e9cbda1 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     // abstract public static function getFormSchema(): array;
 
@@ -570,23 +571,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     {
         return [
             'id' => TextColumn::make('id')->label('ID')->sortable(),
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')
-                ->label('ID')
-                ->sortable(),
-
-    #[Override]
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')->label('ID')->sortable(),
             'name' => TextColumn::make('name')
                 ->label('Nome')
                 ->searchable()
                 ->sortable(),
-
             'created_at' => TextColumn::make('created_at')
                 ->label('Data Creazione')
                 ->dateTime('d/m/Y H:i')
@@ -604,20 +592,6 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     {
         return [
             'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
-        ];
-        return [
-            'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
-        ];
-        return [
-            'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
-        ];
-        return [
-            'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
-        ];
-        return [
-            'create' => CreateAction::make()
-                ->label('Crea Nuovo')
-                ->disableCreateAnother(),
         ];
     }
 
@@ -662,6 +636,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 
                     return is_string($url) ? $url : (string) $url;
                 }),
+<<<<<<< HEAD
 <<<<<<< HEAD
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
@@ -765,6 +740,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')
@@ -799,6 +776,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * 'create' => CreateAction::make()
      * ->label('Crea Nuovo')
      * ->disableCreateAnother(),
+<<<<<<< HEAD
 <<<<<<< HEAD
      * ]);
      * }
@@ -848,6 +826,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Restituisce il titolo della pagina.
@@ -860,8 +840,6 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 
         $titleString = '';
         if ($recordTitle instanceof Htmlable) {
-        if ($recordTitle instanceof Htmlable) {
-        if ($recordTitle instanceof Htmlable) {
             $titleString = $recordTitle->toHtml();
         } else {
             $titleString = (string) $recordTitle;
@@ -870,6 +848,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return Str::of($relationship)
             ->title()
             ->prepend($titleString.' - ')
+<<<<<<< HEAD
 <<<<<<< HEAD
             ->prepend($titleString . ' - ')
             ->prepend($titleString . ' - ')
@@ -948,6 +927,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             ->prepend($titleString . ' - ')
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             ->toString();
     }
 }

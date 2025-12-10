@@ -12,7 +12,10 @@ Per validare tutti i moduli con PHPStan a livello 7:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 
 >>>>>>> 6cba4fe (.)
 # Posizionarsi nella directory principale di Laravel
@@ -26,7 +29,10 @@ Per validare un singolo modulo:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 
 >>>>>>> 6cba4fe (.)
 # Posizionarsi nella directory principale di Laravel
@@ -40,7 +46,10 @@ Se ci sono troppi errori da risolvere immediatamente, è possibile generare un b
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 
 >>>>>>> 6cba4fe (.)
 # Posizionarsi nella directory principale di Laravel

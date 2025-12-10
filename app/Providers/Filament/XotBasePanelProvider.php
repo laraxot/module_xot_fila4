@@ -6,6 +6,7 @@ namespace Modules\Xot\Providers\Filament;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Panel;
 use Filament\PanelProvider;
 use Illuminate\Support\Arr;
@@ -85,6 +86,8 @@ use Illuminate\Support\Facades\File;
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 <<<<<<< HEAD
@@ -162,6 +165,7 @@ use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,21 +562,32 @@ use Webmozart\Assert\Assert;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 abstract class XotBasePanelProvider extends PanelProvider
 {
-    /**
-     * Bootstrap any application services.
-     */
-    public function boot(): void
+    protected string $module;
+
+    protected bool $topNavigation = false;
+
+    protected bool $globalSearch = false;
+
+    protected bool $navigation = true;
+
+    public function panel(Panel $panel): Panel
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 414a4ffcb (.)
         $moduleNamespace = $this->getModuleNamespace();
         $moduleLow = Str::lower($this->module);
         $metatag = MetatagData::make();
 
         $main_module = Str::lower(XotData::make()->main_module);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $default = $main_module === $moduleLow;
@@ -622,6 +637,9 @@ abstract class XotBasePanelProvider extends PanelProvider
         $default = $main_module === $moduleLow;
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        $default = $main_module === $moduleLow;
+>>>>>>> 414a4ffcb (.)
 
         $panel = $panel
             ->default($default)
@@ -641,6 +659,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
@@ -704,6 +723,10 @@ abstract class XotBasePanelProvider extends PanelProvider
             ->maxContentWidth('full')
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        $panel
+            ->maxContentWidth('full')
+>>>>>>> 414a4ffcb (.)
             ->topNavigation($this->topNavigation)
             ->globalSearch($this->globalSearch)
             ->readOnlyRelationManagersOnResourceViewPagesByDefault(false)
@@ -812,6 +835,7 @@ abstract class XotBasePanelProvider extends PanelProvider
                 in: base_path('Modules/'.$this->module.'/app/Filament/Clusters'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -904,6 +928,8 @@ abstract class XotBasePanelProvider extends PanelProvider
                 in: base_path('Modules/' . $this->module . '/app/Filament/Clusters'),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 for: sprintf('%s\\Filament\\Clusters', $moduleNamespace),
             )
             ->middleware([
@@ -921,6 +947,7 @@ abstract class XotBasePanelProvider extends PanelProvider
                 Authenticate::class,
             ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1235,14 +1262,14 @@ abstract class XotBasePanelProvider extends PanelProvider
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return $panel;
     }
 
-    /**
-     * Register any application services.
-     */
-    public function register(): void
+    protected function getModuleNamespace(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $ns . '\\' . $this->module;
         return $ns . '\\' . $this->module;
@@ -1424,6 +1451,10 @@ abstract class XotBasePanelProvider extends PanelProvider
         return $ns . '\\' . $this->module;
         return $ns . '\\' . $this->module;
         return $ns . '\\' . $this->module;
+=======
+        Assert::string($ns = config('modules.namespace'));
+
+>>>>>>> 414a4ffcb (.)
         return $ns.'\\'.$this->module;
 =======
 >>>>>>> ca9324a4 (.)

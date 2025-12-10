@@ -7,6 +7,7 @@ namespace Modules\Xot\Models;
 use Modules\Xot\Database\Factories\CacheFactory;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
@@ -14,12 +15,15 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Modules\Xot\Models\Cache.
  *
  * @property string $key
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -59,9 +63,11 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * @property string $key
  * @property string $value
+=======
+>>>>>>> 414a4ffcb (.)
  * @property int $expiration
  *
- * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
+ * @method static CacheFactory factory($count = null, $state = [])
  * @method static Builder<static>|Cache newModelQuery()
  * @method static Builder<static>|Cache newQuery()
  * @method static Builder<static>|Cache query()
@@ -69,6 +75,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Cache whereKey($value)
  * @method static Builder<static>|Cache whereValue($value)
  *
+<<<<<<< HEAD
  * @property int    $expiration
  * @method static CacheFactory factory($count = null, $state = [])
  * @method static Builder|Cache newModelQuery()
@@ -131,6 +138,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

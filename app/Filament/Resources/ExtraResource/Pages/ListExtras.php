@@ -123,6 +123,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -244,6 +245,8 @@ use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
+=======
+>>>>>>> 414a4ffcb (.)
 
 =======
 <<<<<<< HEAD
@@ -297,6 +300,7 @@ class ListExtras extends XotBaseListRecords
             'model_type' => TextColumn::make('model_type')->searchable()->label('Model Type'),
             'model_id' => TextColumn::make('model_id')->sortable()->label('Model ID'),
             'extra_attributes' => TextColumn::make('extra_attributes')->searchable()->label('Extra Attributes'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,6 +392,8 @@ class ListExtras extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 
@@ -397,6 +403,7 @@ class ListExtras extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,6 +476,8 @@ class ListExtras extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableFilters(): array
     {
         return [];
@@ -484,6 +493,7 @@ class ListExtras extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, Action|ActionGroup>
      */
 <<<<<<< HEAD
@@ -552,6 +562,8 @@ class ListExtras extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableActions(): array
     {
         return [
@@ -577,6 +589,7 @@ class ListExtras extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, BulkAction>
      */
 <<<<<<< HEAD
@@ -657,6 +670,8 @@ class ListExtras extends XotBaseListRecords
     #[Override]
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getTableBulkActions(): array
     {
         return [

@@ -45,6 +45,15 @@ interface UserContract
 ```
 
 ### 3. HasRecursiveRelationshipsContract Cleanup
+**Problem**: Metodi in conflitto con trait `Staudenmeir\LaravelAdjacencyList`
+
+**Methods Removed**:
+- `getQualifiedParentKeyName(): string`
+- `getLocalKeyName(): string`
+- `getQualifiedLocalKeyName(): string`
+- `getDepthName(): string`
+
+**Solution**: Il trait fornisce già queste implementazioni
 
 ## Helper Functions Fixed
 

@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -257,6 +258,10 @@ declare(strict_types=1);
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> 414a4ffcb (.)
 namespace Modules\Xot\Datas\Transformers;
 
 use Modules\Xot\Actions\File\AssetAction;
@@ -265,6 +270,7 @@ use Spatie\LaravelData\Support\DataProperty;
 <<<<<<< HEAD
 use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,6 +349,8 @@ use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * AssetTransformer - Trasforma riferimenti di file in percorsi completi per le risorse
@@ -448,6 +456,7 @@ class AssetTransformer implements Transformer
     {
 <<<<<<< HEAD
         if (! is_string($value) || empty($value)) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -720,4 +729,11 @@ class AssetTransformer implements Transformer
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            return '';
+        }
+
+        return app(AssetAction::class)->execute($value);
+    }
+>>>>>>> 414a4ffcb (.)
 }

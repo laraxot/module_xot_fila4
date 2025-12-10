@@ -6,6 +6,7 @@ namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +252,11 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\HealthCheckResultHistoryItem;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\HealthCheckResultHistoryItem;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
 {
@@ -295,6 +301,7 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
 =======
 =======
@@ -351,6 +358,8 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
     public function view(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('health_check_result_history_item.view');
     }
@@ -374,6 +383,7 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
 =======
 =======
@@ -430,6 +440,8 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
     public function update(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('health_check_result_history_item.update');
     }
@@ -445,6 +457,7 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
 =======
 =======
@@ -501,6 +514,8 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
     public function delete(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('health_check_result_history_item.delete');
     }
@@ -516,6 +531,7 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
 =======
 =======
@@ -572,6 +588,8 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
     public function restore(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('health_check_result_history_item.restore');
     }
@@ -623,6 +641,7 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -649,3 +668,5 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)

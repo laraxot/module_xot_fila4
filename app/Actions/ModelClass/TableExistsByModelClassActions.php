@@ -14,6 +14,7 @@ class TableExistsByModelClassActions
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!class_exists($modelClass)) {
         if (!class_exists($modelClass)) {
         if (!class_exists($modelClass)) {
@@ -287,6 +288,9 @@ class TableExistsByModelClassActions
 =======
         if (! class_exists($modelClass)) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! class_exists($modelClass)) {
+>>>>>>> 414a4ffcb (.)
             return false;
         }
 
@@ -332,6 +336,7 @@ class TableExistsByModelClassActions
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -354,6 +359,8 @@ class TableExistsByModelClassActions
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $tableName = $model->getTable();
 
         return Schema::connection($model->getConnectionName())->hasTable($tableName);

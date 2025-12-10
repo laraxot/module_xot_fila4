@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Model;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +172,11 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use ValueError;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Spatie\QueueableAction\QueueableAction;
+use ValueError;
+>>>>>>> 414a4ffcb (.)
 
 class GetSicureArrayByModelAction
 {
@@ -194,6 +200,7 @@ class GetSicureArrayByModelAction
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
         try {
+<<<<<<< HEAD
             return $model->attributesToArray(); // "" is not a valid backing value for enum Modules\SaluteOra\Enums\OccurrenceFrequencyEnum
             return $model->attributesToArray(); // "" is not a valid backing value for enum Modules\SaluteOra\Enums\OccurrenceFrequencyEnum
             return $model->attributesToArray(); // "" is not a valid backing value for enum Modules\SaluteOra\Enums\OccurrenceFrequencyEnum
@@ -226,6 +233,9 @@ class GetSicureArrayByModelAction
 =======
             return $model->attributesToArray(); // "" is not a valid backing value for enum Modules\<main module>\Enums\OccurrenceFrequencyEnum
 >>>>>>> 551c768c4 (.)
+=======
+            return $model->attributesToArray(); // "" is not a valid backing value for enum Modules\<main module>\Enums\OccurrenceFrequencyEnum
+>>>>>>> 414a4ffcb (.)
         } catch (ValueError $e) {
             $data = [];
             foreach ($model->getAttributes() as $key => $value) {
@@ -253,6 +263,7 @@ class GetSicureArrayByModelAction
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -285,6 +296,8 @@ class GetSicureArrayByModelAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
             return $data;
         }
     }

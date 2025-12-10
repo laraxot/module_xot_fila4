@@ -44,6 +44,7 @@ describe('ModuleService', function () {
     beforeEach(function () {});
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Module;
 <<<<<<< HEAD
@@ -680,6 +681,8 @@ describe('ModuleService', function () {
         /** @phpstan-ignore-next-line property.notFound */
 >>>>>>> b7afadf9 (.)
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 
     it('can be instantiated', function () {
 >>>>>>> 551c768c4 (.)
@@ -693,6 +696,7 @@ describe('ModuleService', function () {
         $nameProperty = $reflection->getProperty('name');
         /** @phpstan-ignore-next-line method.nonObject */
         $nameProperty->setAccessible(true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1295,6 +1299,15 @@ describe('ModuleService', function () {
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+
+        expect($nameProperty->getValue($this->service))->toBe('TestModule');
+    });
+
+    it('can be instantiated with different module names', function () {
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+>>>>>>> 414a4ffcb (.)
     });
 
     it('has getModels method', function (): void {
@@ -1306,6 +1319,7 @@ describe('ModuleService', function () {
         // Mock the Module facade to avoid database dependencies
         /** @phpstan-ignore-next-line property.notFound */
         $result = $this->service->getModels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1332,6 +1346,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($result)->toBeArray();
     });
 
@@ -1351,6 +1368,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
             expect($key)->toBeString()->and($value)->toBeString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1455,6 +1473,8 @@ describe('ModuleService', function () {
 =======
             expect($key)->toBeString()->and($value)->toBeString();
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
     });
 
@@ -1462,6 +1482,7 @@ describe('ModuleService', function () {
         // Test the logic that filters out abstract classes
         /** @phpstan-ignore-next-line property.notFound */
         $result = $this->service->getModels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1488,6 +1509,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         // The result should not contain BaseModel (which is abstract)
         expect($result)->not->toHaveKey('base_model');
     });
@@ -1500,6 +1524,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1522,6 +1547,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($result)->toBeArray();
     });
 
@@ -1535,6 +1563,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1557,6 +1586,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($method->isPublic())->toBeTrue();
     });
 
@@ -1565,6 +1597,7 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('getModels');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1596,6 +1629,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         $docComment = $method->getDocComment();
         expect($docComment)->toContain('@return array<string, class-string>');
     });
@@ -1605,6 +1641,7 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('getModels');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1673,10 +1710,14 @@ describe('ModuleService', function () {
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
     it('handles empty module gracefully', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1981,6 +2022,8 @@ describe('ModuleService', function () {
 >>>>>>> 88ea7103 (.)
 >>>>>>> 218dfed3 (.)
         $emptyService = new ModuleService()->setName('NonExistentModule');
+=======
+>>>>>>> 414a4ffcb (.)
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
@@ -2226,6 +2269,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2248,6 +2292,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($reflection->hasProperty('name'))->toBeTrue();
     });
 
@@ -2256,6 +2303,7 @@ describe('ModuleService', function () {
         // It uses setName() method for configuration (fluent interface)
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->service);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2322,11 +2370,15 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($reflection->hasMethod('setName'))
             ->toBeTrue()
             /** @phpstan-ignore-next-line method.nonObject */
             ->and($reflection->getMethod('setName')->isPublic())
             ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2415,11 +2467,14 @@ describe('ModuleService', function () {
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     });
 
     it('validates class structure', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->service);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2486,6 +2541,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($reflection->isInstantiable())
             ->toBeTrue()
             /** @phpstan-ignore-next-line method.nonObject */
@@ -2505,6 +2563,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7468a7d2 (.)
@@ -2590,6 +2649,8 @@ describe('ModuleService', function () {
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     });
 
     it('has proper method visibility', function (): void {
@@ -2597,6 +2658,7 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         /** @phpstan-ignore-next-line method.nonObject */
         $methods = $reflection->getMethods();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2746,6 +2808,9 @@ describe('ModuleService', function () {
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect(count($publicMethods))->toBeGreaterThan(0);
     });
 
@@ -2758,6 +2823,7 @@ describe('ModuleService', function () {
         // Test that the service correctly processes .php files
         /** @phpstan-ignore-next-line property.notFound */
         $result = $this->service->getModels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2784,6 +2850,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         expect($result)->toBeArray();
     });
 
@@ -2805,6 +2874,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2827,6 +2897,9 @@ describe('ModuleService', function () {
 =======
 
 >>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         // Should not throw exceptions
         expect($result)->toBeArray();
     });

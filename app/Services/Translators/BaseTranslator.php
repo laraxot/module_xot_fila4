@@ -6,6 +6,7 @@ namespace Modules\Xot\Services\Translators;
 
 abstract class BaseTranslator {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseTranslator
 {
 }
@@ -36,3 +37,5 @@ abstract class BaseTranslator
 }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

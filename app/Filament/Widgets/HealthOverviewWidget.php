@@ -9,6 +9,7 @@ namespace Modules\Xot\Filament\Widgets;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +95,8 @@ use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Spatie\Health\ResultStores\ResultStore;
 
 class HealthOverviewWidget extends BaseWidget
@@ -116,6 +119,7 @@ class HealthOverviewWidget extends BaseWidget
         $checkResults = app(ResultStore::class)->latestResults();
         if ($checkResults === null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null === $checkResults) {
         if (null === $checkResults) {
         if (null === $checkResults) {
@@ -128,6 +132,8 @@ class HealthOverviewWidget extends BaseWidget
         if (null === $checkResults) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             return $stats;
         }
         foreach ($checkResults->storedCheckResults as $result) {
@@ -168,6 +174,7 @@ class HealthOverviewWidget extends BaseWidget
 =======
 >>>>>>> 218dfed3 (.)
                 ->description($result->notificationMessage.' '.$result->status)
+<<<<<<< HEAD
                 ->description($result->notificationMessage . ' ' . $result->status)
                 ->description($result->notificationMessage . ' ' . $result->status)
                 ->description($result->notificationMessage . ' ' . $result->status)
@@ -476,6 +483,8 @@ class HealthOverviewWidget extends BaseWidget
 =======
                 ->description($result->notificationMessage.' '.$result->status)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }
@@ -503,6 +512,7 @@ class HealthOverviewWidget extends BaseWidget
          * Stat::make('Average time on page', '3:12'),
          * ];
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -572,6 +582,8 @@ class HealthOverviewWidget extends BaseWidget
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return $stats;
     }
 }

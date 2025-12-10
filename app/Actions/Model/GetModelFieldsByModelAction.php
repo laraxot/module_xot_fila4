@@ -57,6 +57,7 @@ class GetModelFieldsByModelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $model->getConnection()
             ->getSchemaBuilder()
             ->getColumnListing($model->getTable());
@@ -255,5 +256,7 @@ class GetModelFieldsByModelAction
 =======
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

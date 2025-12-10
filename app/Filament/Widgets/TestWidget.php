@@ -15,6 +15,7 @@ class TestWidget extends Widget
 
     protected int|string|array $columnSpan = 'full';
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected int | string | array $columnSpan = 'full';
 
     protected int | string | array $columnSpan = 'full';
@@ -36,6 +37,8 @@ class TestWidget extends Widget
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Determina se il widget deve essere visibile.

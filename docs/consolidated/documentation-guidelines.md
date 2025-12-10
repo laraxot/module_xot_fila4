@@ -85,6 +85,7 @@ Ogni documento dovrebbe iniziare con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -97,6 +98,8 @@ Ogni documento dovrebbe iniziare con:
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # Titolo Principale
 
 Breve introduzione che spiega lo scopo del documento e il contesto.
@@ -110,6 +113,7 @@ Utilizzare una gerarchia chiara di intestazioni:
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -122,6 +126,8 @@ Utilizzare una gerarchia chiara di intestazioni:
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ## Sezione Principale
 
 Descrizione della sezione principale.
@@ -196,6 +202,7 @@ Esempio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -208,6 +215,8 @@ Esempio:
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ## NomeModello
 
 ```php
@@ -270,6 +279,7 @@ Utilizzare strumenti di generazione automatica quando possibile:
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -282,6 +292,8 @@ Utilizzare strumenti di generazione automatica quando possibile:
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # Esempio: Generare documentazione per lo schema del database
 php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
 ```
@@ -321,6 +333,7 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -333,6 +346,8 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # Modelli del Modulo Brain
 
 Questo documento descrive i modelli disponibili nel modulo Brain, che rappresentano le entità del database braindb.
@@ -383,6 +398,7 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -447,3 +463,7 @@ Per implementare queste linee guida:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

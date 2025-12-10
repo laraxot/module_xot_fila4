@@ -13,6 +13,7 @@
   ```php
   protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
+<<<<<<< HEAD
   protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
   ```
 - **Esempio sbagliato:**
@@ -30,11 +31,14 @@
   protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
   ```
 
 ## Label e Placeholder
 
 - Non usare MAI // Label gestita automaticamente da LangServiceProvider, ->placeholder(), né stringhe tradotte direttamente nei componenti Filament.
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/SaluteOra/lang/it/widgets.php).
 - Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/SaluteOra/lang/it/widgets.php).
@@ -46,6 +50,9 @@
 =======
 - Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/<main module>/lang/it/widgets.php).
 >>>>>>> 551c768c4 (.)
+=======
+- Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/<main module>/lang/it/widgets.php).
+>>>>>>> 414a4ffcb (.)
 - Chi estende XotBaseWidget, XotBaseResource, XotBasePage deve affidarsi solo alle chiavi di traduzione.
 - **Esempio corretto:**
   ```php
@@ -59,6 +66,7 @@
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-functionality.md) 
 Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-functionality.md) 
 Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-functionality.md) 
@@ -69,3 +77,6 @@ Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-fu
 =======
 Vedi anche: [find-dentist-functionality.md](../../<directory progetto>/docs/find-dentist-functionality.md) 
 >>>>>>> 551c768c4 (.)
+=======
+Vedi anche: [find-dentist-functionality.md](../../<directory progetto>/docs/find-dentist-functionality.md) 
+>>>>>>> 414a4ffcb (.)

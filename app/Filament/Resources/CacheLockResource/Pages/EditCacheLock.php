@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,10 +122,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class EditCacheLock extends XotBaseEditRecord
 {
     protected static string $resource = CacheLockResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,4 +244,6 @@ class EditCacheLock extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRec
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

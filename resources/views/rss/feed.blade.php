@@ -133,6 +133,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @php
 '<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
 @php
@@ -289,6 +290,8 @@ declare(strict_types=1);
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 @endphp
 <rss version="2.0">
     <channel>

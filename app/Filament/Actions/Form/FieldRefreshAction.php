@@ -12,6 +12,7 @@ use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Set;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Schemas\Components\Utilities\Set;
@@ -23,6 +24,8 @@ use Modules\Xot\Actions\GetTransKeyAction;
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class FieldRefreshAction extends Action
 {
@@ -40,6 +43,7 @@ class FieldRefreshAction extends Action
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
             ->action(function ($record, Set $set): void {
+<<<<<<< HEAD
             ->action(function ($record, Set $set): void {
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
@@ -67,6 +71,8 @@ class FieldRefreshAction extends Action
 =======
             ->action(function ($record, Set $set): void {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
@@ -85,6 +91,7 @@ class FieldRefreshAction extends Action
                 Notification::make()
                     ->title('Valore ricalcolato')
                     ->body('Il valore del campo è stato ricalcolato con successo')
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $method = 'get' . Str::studly($name) . '';
                 $method = 'get'.Str::studly($name).'';
@@ -150,12 +157,15 @@ class FieldRefreshAction extends Action
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     ->success()
                     ->send();
             });
     }
 
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -169,6 +179,8 @@ class FieldRefreshAction extends Action
     public static function getDefaultName(): null|string
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return 'field_refresh';
     }

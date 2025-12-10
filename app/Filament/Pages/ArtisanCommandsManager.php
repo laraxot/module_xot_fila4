@@ -8,6 +8,7 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Exception;
 use Filament\Actions\Action;
@@ -19,6 +20,8 @@ use Filament\Pages\Page;
 use Filament\Pages\Page;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Support\Enums\IconPosition;
 use Livewire\Attributes\On;
 use Modules\Xot\Actions\ExecuteArtisanCommandAction;
@@ -59,6 +62,7 @@ class ArtisanCommandsManager extends XotBasePage
      * @var array<string, string>
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      *
      *
@@ -72,6 +76,8 @@ class ArtisanCommandsManager extends XotBasePage
      *
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @phpstan-var array<string, string>
      */
     protected $listeners = [
@@ -83,6 +89,7 @@ class ArtisanCommandsManager extends XotBasePage
         'artisan-command.error' => 'handleCommandError',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function getHeaderActions(): array
     {
@@ -1903,6 +1910,8 @@ class ArtisanCommandsManager extends XotBasePage
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function executeCommand(string $command): void
     {
         $this->reset(['output', 'status']);
@@ -1912,6 +1921,7 @@ class ArtisanCommandsManager extends XotBasePage
         try {
             app(ExecuteArtisanCommandAction::class)->execute($command);
         } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         } catch (Exception $e) {
@@ -1927,6 +1937,8 @@ class ArtisanCommandsManager extends XotBasePage
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
             Notification::make()
                 ->title(__('xot::artisan-commands-manager.notifications.error'))
                 ->body($e->getMessage())

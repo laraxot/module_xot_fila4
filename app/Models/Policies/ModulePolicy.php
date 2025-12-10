@@ -6,6 +6,7 @@ namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +252,11 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Module;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\Module;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class ModulePolicy extends XotBasePolicy
 {
@@ -295,6 +301,7 @@ class ModulePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, Module $module): bool
 =======
 =======
@@ -351,6 +358,8 @@ class ModulePolicy extends XotBasePolicy
     public function view(UserContract $user, Module $_module): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('module.view');
     }
@@ -374,6 +383,7 @@ class ModulePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, Module $module): bool
 =======
 =======
@@ -430,6 +440,8 @@ class ModulePolicy extends XotBasePolicy
     public function update(UserContract $user, Module $_module): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('module.update');
     }
@@ -445,6 +457,7 @@ class ModulePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, Module $module): bool
 =======
 =======
@@ -501,6 +514,8 @@ class ModulePolicy extends XotBasePolicy
     public function delete(UserContract $user, Module $_module): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('module.delete');
     }
@@ -516,6 +531,7 @@ class ModulePolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, Module $module): bool
 =======
 =======
@@ -572,6 +588,8 @@ class ModulePolicy extends XotBasePolicy
     public function restore(UserContract $user, Module $_module): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('module.restore');
     }
@@ -583,6 +601,7 @@ class ModulePolicy extends XotBasePolicy
     {
         return $user->hasPermissionTo('module.forceDelete');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -599,3 +618,6 @@ class ModulePolicy extends XotBasePolicy
 =======
 }
 >>>>>>> 091f883c (.)
+=======
+}
+>>>>>>> 414a4ffcb (.)

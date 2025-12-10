@@ -133,6 +133,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 >>>>>>> 85cdef688 (.)
@@ -211,6 +212,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
+>>>>>>> 414a4ffcb (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 

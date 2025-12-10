@@ -10,6 +10,7 @@ namespace Modules\Xot\Actions\Model;
 
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
@@ -17,6 +18,8 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Facades\Validator;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -27,6 +30,7 @@ class UpdateAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
@@ -35,6 +39,9 @@ class UpdateAction
 =======
      * @param  array<string, mixed>  $data
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<string, mixed>  $data
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(Model $model, array $data, array $rules): Model
     {
@@ -44,6 +51,7 @@ class UpdateAction
         $keyName = $model->getKeyName();
         // $data['updated_by'] = authId();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null === $model->getKey()) {
         if (null === $model->getKey()) {
         if (null === $model->getKey()) {
@@ -52,6 +60,9 @@ class UpdateAction
 =======
         if ($model->getKey() === null) {
 >>>>>>> 551c768c4 (.)
+=======
+        if ($model->getKey() === null) {
+>>>>>>> 414a4ffcb (.)
             $key = $data[$keyName];
             /** @var array<string, mixed> $data */
             $data = collect($data)->except($keyName)->toArray();
@@ -66,6 +77,7 @@ class UpdateAction
 
         /**
          * @phpstan-ignore method.notFound (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -248,10 +260,13 @@ class UpdateAction
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__.'\\Update\RelationAction')->execute($model, $data);
+<<<<<<< HEAD
          *
          */
         $model = tap($model)->update($data);
@@ -497,6 +512,8 @@ class UpdateAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

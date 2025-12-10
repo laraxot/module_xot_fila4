@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
@@ -15,6 +16,8 @@ use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\User\Models\Role;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\Permission\Contracts\Permission;
@@ -28,6 +31,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string $slug
  * @property string $user_id
  * @property Collection<int, Role> $roles
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int|null              $roles_count
  * @property UserContract          $user
@@ -43,6 +47,10 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property int|null $roles_count
  * @property UserContract $user
 >>>>>>> 551c768c4 (.)
+=======
+ * @property int|null $roles_count
+ * @property UserContract $user
+>>>>>>> 414a4ffcb (.)
  *
  * @phpstan-require-extends Model
  *
@@ -74,6 +82,7 @@ interface ProfileContract extends HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function assignRole($roles = []);
     public function assignRole($roles = []);
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
@@ -211,6 +220,8 @@ interface ProfileContract extends HasMedia
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Determine if the model has (one of) the given role(s).
@@ -227,6 +238,7 @@ interface ProfileContract extends HasMedia
 >>>>>>> 5cf46378 (.)
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
+<<<<<<< HEAD
         null|string $guard = null,
         null|string $guard = null,
         null|string $guard = null,
@@ -346,6 +358,10 @@ interface ProfileContract extends HasMedia
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+        ?string $guard = null,
+    ): bool;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Determine if the model has any of the given role(s).
@@ -364,6 +380,7 @@ interface ProfileContract extends HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function hasAnyRole($roles = []): bool;
     public function hasAnyRole($roles = []): bool;
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
@@ -501,12 +518,15 @@ interface ProfileContract extends HasMedia
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
@@ -711,6 +731,9 @@ interface ProfileContract extends HasMedia
 =======
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 >>>>>>> 551c768c4 (.)
+=======
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Undocumented function.
@@ -726,6 +749,7 @@ interface ProfileContract extends HasMedia
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
      * ---return BelongsTo<UserContract, self>.
+<<<<<<< HEAD
      * Get the user that owns the profile.
      * ---return BelongsTo<UserContract, self>.
 <<<<<<< HEAD
@@ -745,6 +769,8 @@ interface ProfileContract extends HasMedia
 =======
      * ---return BelongsTo<UserContract, self>.
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function user(): BelongsTo;
 

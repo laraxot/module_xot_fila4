@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\File;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -19,6 +20,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 091f883c (.)
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Facades\File;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -115,6 +119,7 @@ class CopyAction
                     'Caught exception: '.
                     $e->getMessage().
                     ' ['.__LINE__.']['.class_basename(static::class).']',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -307,6 +312,9 @@ class CopyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                );
+>>>>>>> 414a4ffcb (.)
             }
         }
 
@@ -321,6 +329,7 @@ class CopyAction
         // not rewite
         try {
             File::copy($from, $to);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,6 +377,9 @@ class CopyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        } catch (Exception $exception) {
+>>>>>>> 414a4ffcb (.)
             throw new Exception(
                 'Unable to copy
                     from ['.
@@ -379,6 +391,7 @@ class CopyAction
                     message ['.
                 $exception->getMessage().
 <<<<<<< HEAD
+<<<<<<< HEAD
                     from [' .
                 $from .
                 ']
@@ -389,10 +402,13 @@ class CopyAction
                 $exception->getMessage() .
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     ']',
                 $exception->getCode(),
                 $exception,
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -465,6 +481,8 @@ class CopyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
     }
 }

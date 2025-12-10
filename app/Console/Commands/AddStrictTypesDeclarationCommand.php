@@ -15,6 +15,7 @@ namespace Modules\Xot\Console\Commands;
 use Webmozart\Assert\Assert;
 use SplFileInfo;
 use Exception;
+<<<<<<< HEAD
 use Exception;
 use SplFileInfo;
 use Exception;
@@ -53,6 +54,8 @@ use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
 use SplFileInfo;
 use Exception;
 use SplFileInfo;
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
@@ -78,6 +81,7 @@ class AddStrictTypesDeclarationCommand extends Command
     /**
      * @var array<string>
      */
+<<<<<<< HEAD
     /**
      * @var array<int, string>
      */
@@ -118,6 +122,8 @@ class AddStrictTypesDeclarationCommand extends Command
      * @var array<string>
      */
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     private array $excludedPaths = [
         'views',
         'config',
@@ -139,12 +145,15 @@ class AddStrictTypesDeclarationCommand extends Command
                 $this->error("Il modulo {$moduleOption} non esiste");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($moduleOption) {
             $modulePath .= '/' . $moduleOption;
             if (!File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 return 1;
             }
         }
@@ -158,6 +167,7 @@ class AddStrictTypesDeclarationCommand extends Command
                 if ($dryRun) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::isInstanceOf($file, SplFileInfo::class);
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
@@ -167,11 +177,14 @@ class AddStrictTypesDeclarationCommand extends Command
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     $fileName = $file->getRealPath();
                     if ($fileName === false) {
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+<<<<<<< HEAD
 <<<<<<< HEAD
                     $filePath = $file->getRealPath();
                     $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
@@ -197,6 +210,8 @@ class AddStrictTypesDeclarationCommand extends Command
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     $count++;
 
                     continue;
@@ -211,6 +226,7 @@ class AddStrictTypesDeclarationCommand extends Command
                 assert(is_string($path));
 
                 try {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
@@ -227,11 +243,14 @@ class AddStrictTypesDeclarationCommand extends Command
                     
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
 <<<<<<< HEAD
                 } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 } catch (\Exception $e) {
@@ -265,6 +284,9 @@ class AddStrictTypesDeclarationCommand extends Command
 =======
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
 >>>>>>> 551c768c4 (.)
+=======
+                    $this->error("Errore nel processare {$path}: ".$e->getMessage());
+>>>>>>> 414a4ffcb (.)
                 }
             }
         }
@@ -285,25 +307,6 @@ class AddStrictTypesDeclarationCommand extends Command
 >>>>>>> 5cf46378 (.)
     /**
      * @return array<SplFileInfo>
-    /**
-     * @return array<\SplFileInfo>
-     */
-    /**
-     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
-     */
-    /**
-     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
-     */
-    /**
-     * @return array<SplFileInfo>
-    /**
-     * @return array<\SplFileInfo>
-     */
-    /**
-     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
-     */
-    /**
-     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
      */
 <<<<<<< HEAD
 =======
@@ -334,6 +337,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
     private function shouldProcessFile(SplFileInfo $file): bool
 <<<<<<< HEAD
+<<<<<<< HEAD
     private function shouldProcessFile(SplFileInfo $file): bool
     private function shouldProcessFile(SplFileInfo $file): bool
     private function shouldProcessFile(\SplFileInfo $file): bool
@@ -373,6 +377,11 @@ class AddStrictTypesDeclarationCommand extends Command
         // Verifica l'estensione
         if (! str_ends_with($file->getFilename(), '.php')) {
 >>>>>>> 551c768c4 (.)
+=======
+    {
+        // Verifica l'estensione
+        if (! str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> 414a4ffcb (.)
             return false;
         }
 
@@ -393,6 +402,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
         return ! str_contains($content, 'declare(strict_types=1)');
 <<<<<<< HEAD
+<<<<<<< HEAD
         return !str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
@@ -404,5 +414,7 @@ class AddStrictTypesDeclarationCommand extends Command
         return !str_contains($content, 'declare(strict_types=1)');
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

@@ -81,6 +81,7 @@ class HandlerDecorator implements ExceptionHandlerContract
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,3 +200,7 @@ class HandlerDecorator implements ExceptionHandlerContract
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Error Formatters](./formatters/README.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters](./formatters/README.md) 
+>>>>>>> 414a4ffcb (.)

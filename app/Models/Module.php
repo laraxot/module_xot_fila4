@@ -6,6 +6,7 @@ namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -72,6 +73,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
+=======
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
@@ -91,6 +95,7 @@ use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
 <<<<<<< HEAD
 =======
@@ -329,6 +334,8 @@ use function Safe\json_encode;
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -354,6 +361,7 @@ use function Safe\json_encode;
  * @mixin \Eloquent
  */
 final class Module extends BaseModel
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -448,6 +456,8 @@ class Module extends Model
 class Module extends Model
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 {
     use Sushi;
 
@@ -530,6 +540,7 @@ class Module extends Model
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!is_array($config)) {
             if (!is_array($config)) {
             if (!is_array($config)) {
@@ -538,6 +549,9 @@ class Module extends Model
 =======
             if (! is_array($config)) {
 >>>>>>> 551c768c4 (.)
+=======
+            if (! is_array($config)) {
+>>>>>>> 414a4ffcb (.)
                 $config = [];
             }
             $colors = Arr::get($config, 'colors', []);
@@ -555,6 +569,7 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +781,8 @@ class Module extends Model
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return array_values($modules);
     }
 

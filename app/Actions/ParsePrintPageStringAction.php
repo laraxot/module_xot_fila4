@@ -32,6 +32,7 @@ use Webmozart\Assert\Assert;
 use function Safe\preg_match_all;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
 <<<<<<< HEAD
 =======
@@ -364,6 +365,8 @@ use function Safe\preg_match_all;
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -376,6 +379,7 @@ class ParsePrintPageStringAction
     /**
      * Execute the page string parsing.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $str The page range string to parse
      *
@@ -390,6 +394,9 @@ class ParsePrintPageStringAction
 =======
      * @param  string  $str  The page range string to parse
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  string  $str  The page range string to parse
+>>>>>>> 414a4ffcb (.)
      * @return array<int> Array of page numbers
      */
     public static function execute(string $str): array
@@ -404,6 +411,7 @@ class ParsePrintPageStringAction
 
         for ($i = 0; $i < $matchCount; $i++) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::isArray($matches);
         Assert::notEmpty($matches[0], 'No valid page numbers found');
         Assert::isArray($matches[0]);
@@ -413,12 +421,15 @@ class ParsePrintPageStringAction
         for ($i = 0; $i < $matchCount; ++$i) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $firstNumber = Arr::get($matches, "1.{$i}");
             $secondNumber = Arr::get($matches, "2.{$i}");
 
             Assert::string($firstNumber, 'First number must be a string');
             Assert::string($secondNumber, 'Second number must be a string');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             if ('' === $secondNumber) {
             if ('' === $secondNumber) {
@@ -505,6 +516,11 @@ class ParsePrintPageStringAction
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+            if ($secondNumber === '') {
+                $res[] = (int) $firstNumber;
+            } else {
+>>>>>>> 414a4ffcb (.)
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 =======
 =======
@@ -668,6 +684,7 @@ class ParsePrintPageStringAction
      * Generate an array of numbers from start to end inclusive.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param int $from Starting number
      * @param int $to   Ending number
      *
@@ -687,6 +704,10 @@ class ParsePrintPageStringAction
      * @param  int  $from  Starting number
      * @param  int  $to  Ending number
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  int  $from  Starting number
+     * @param  int  $to  Ending number
+>>>>>>> 414a4ffcb (.)
      * @return array<int> Array of sequential numbers
      */
     public static function fromTo(int $from, int $to): array

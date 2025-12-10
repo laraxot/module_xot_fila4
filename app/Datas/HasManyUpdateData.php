@@ -11,6 +11,7 @@ class HasManyUpdateData extends Data
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<int|string> $ids
      * @param array<int|string> $ids
      * @param array<int|string> $ids
@@ -19,6 +20,9 @@ class HasManyUpdateData extends Data
 =======
      * @param  array<int|string>  $ids
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<int|string>  $ids
+>>>>>>> 414a4ffcb (.)
      */
     public function __construct(
         public string $foreignKey,
@@ -57,6 +61,7 @@ class HasManyUpdateData extends Data
 =======
 >>>>>>> 8fd88dd43 (.)
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,4 +255,6 @@ class HasManyUpdateData extends Data
 =======
     ) {}
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

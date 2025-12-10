@@ -10,6 +10,7 @@ namespace Modules\Xot\Http\Middleware;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Closure;
@@ -23,6 +24,9 @@ use Closure;
 =======
 use Closure;
 >>>>>>> 091f883c (.)
+=======
+use Closure;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\URL;
 use Symfony\Component\HttpFoundation\Response;
@@ -32,6 +36,7 @@ class SetDefaultLocaleForUrls
     /**
      * Handle an incoming request.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -83,11 +88,15 @@ class SetDefaultLocaleForUrls
 =======
      * @param  Closure(Request):Response  $next
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  Closure(Request):Response  $next
+>>>>>>> 414a4ffcb (.)
      */
     public function handle(Request $request, Closure $next): Response
     {
         $user = $request->user();
         $lang = app()->getLocale();
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (null !== $user) {
         if (null !== $user) {
@@ -97,6 +106,9 @@ class SetDefaultLocaleForUrls
 =======
         if ($user !== null) {
 >>>>>>> 551c768c4 (.)
+=======
+        if ($user !== null) {
+>>>>>>> 414a4ffcb (.)
             $lang = $user->lang ?? app()->getLocale();
         }
 

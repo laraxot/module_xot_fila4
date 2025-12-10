@@ -81,6 +81,7 @@ namespace Modules\<nome progetto>\App\Controllers;
 // CORRETTO
 namespace Modules\<nome progetto>\Controllers;
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
@@ -105,6 +106,8 @@ namespace Modules\<nome progetto>\Controllers;
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## esempi corretti vs errati
@@ -128,6 +131,7 @@ namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\<nome progetto>\Filament\Resources;
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
@@ -152,6 +156,8 @@ namespace Modules\<nome progetto>\Filament\Resources;
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### errati ✗
@@ -173,6 +179,7 @@ namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura completamente sbagliata
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
@@ -197,6 +204,8 @@ namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura com
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## struttura fisica vs namespace
@@ -208,6 +217,7 @@ Anche se i file sono fisicamente collocati in una directory `app/`, il namespace
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +254,10 @@ Namespace corretto: namespace Modules\<nome progetto>\Models;
 Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
 Namespace corretto: namespace Modules\<nome progetto>\Models;
 >>>>>>> 551c768c4 (.)
+=======
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome progetto>\Models;
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### mappatura corretta percorso-namespace
@@ -252,6 +266,7 @@ Namespace corretto: namespace Modules\<nome progetto>\Models;
 |-----------------|--------------------|
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +303,10 @@ Namespace corretto: namespace Modules\<nome progetto>\Models;
 | `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
 | `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
 >>>>>>> 551c768c4 (.)
+=======
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
+>>>>>>> 414a4ffcb (.)
 | `/Modules/Xot/app/Providers/XotServiceProvider.php` | `Modules\Xot\Providers` |
 
 ### struttura directory completa
@@ -316,6 +335,7 @@ Modules/
         Resources/
           PatientResource.php  // namespace Modules\<nome progetto>\Filament\Resources;
 <<<<<<< HEAD
+<<<<<<< HEAD
   SaluteOra/
 =======
   <nome progetto>/
@@ -359,6 +379,8 @@ Modules/
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## come verificare i namespace
@@ -376,6 +398,7 @@ Prima di committare un file, verifica sempre che:
 Utilizza phpstan per verificare automaticamente i namespace:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -404,6 +427,9 @@ php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 =======
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 >>>>>>> 551c768c4 (.)
+=======
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## motivazione di questa convenzione
@@ -442,6 +468,7 @@ namespace Modules\<nome progetto>\App\Console\Commands;
 // CORRETTO ✓
 namespace Modules\<nome progetto>\Console\Commands;
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
@@ -466,6 +493,8 @@ namespace Modules\<nome progetto>\Console\Commands;
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### Conseguenze dell'Errore
@@ -481,6 +510,7 @@ namespace Modules\<nome progetto>\Console\Commands;
 Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -509,6 +539,9 @@ grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/
 =======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
 >>>>>>> 551c768c4 (.)
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### PHP Stan

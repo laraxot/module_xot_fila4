@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Model\Update;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +54,8 @@ use RuntimeException;
 use RuntimeException;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -60,9 +63,13 @@ use Illuminate\Support\Facades\Session;
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use RuntimeException;
 >>>>>>> 551c768c4 (.)
+=======
+use RuntimeException;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -94,6 +101,7 @@ class BelongsToManyAction
             \in_array('to', array_keys($relationDTO->data), false) ||
                 \in_array('from', array_keys($relationDTO->data), false)
         ) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +180,8 @@ class BelongsToManyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
             $to = $relationDTO->data['to'] ?? [];
 
@@ -198,6 +208,7 @@ class BelongsToManyAction
             $rows->sync($to);
 <<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
+<<<<<<< HEAD
             $status = 'collegati [' . implode(', ', $to) . '] ';
 <<<<<<< HEAD
 =======
@@ -502,6 +513,8 @@ class BelongsToManyAction
 =======
             $status = 'collegati ['.implode(', ', $to).'] ';
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             Session::flash('status', $status);
 
             return;
@@ -522,6 +535,7 @@ class BelongsToManyAction
                 $safeData = $data;
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -846,11 +860,14 @@ class BelongsToManyAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -867,10 +884,14 @@ class BelongsToManyAction
 =======
                 throw new RuntimeException(sprintf('Key "%s" not found in relation data.', $keyName));
 >>>>>>> 091f883c (.)
+=======
+                throw new RuntimeException(sprintf('Key "%s" not found in relation data.', $keyName));
+>>>>>>> 414a4ffcb (.)
             }
         }
 
         // Sincronizza gli ID raccolti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!empty($ids)) {
@@ -1146,12 +1167,16 @@ class BelongsToManyAction
 =======
         if (! empty($ids)) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! empty($ids)) {
+>>>>>>> 414a4ffcb (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile
                 Assert::allScalar($ids, 'The "ids" array must contain only scalar values.');
 
                 $rows->syncWithoutDetaching($ids);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1172,6 +1197,10 @@ class BelongsToManyAction
             } catch (Exception $e) {
                 throw new RuntimeException(sprintf('Error during syncWithoutDetaching: %s', $e->getMessage()));
 >>>>>>> 091f883c (.)
+=======
+            } catch (Exception $e) {
+                throw new RuntimeException(sprintf('Error during syncWithoutDetaching: %s', $e->getMessage()));
+>>>>>>> 414a4ffcb (.)
             }
         }
     }

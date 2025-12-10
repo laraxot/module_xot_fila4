@@ -11,6 +11,7 @@
 - **Collegamenti**:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,3 +146,7 @@
   - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/project_docs/model-states-errors.md)
 >>>>>>> 551c768c4 (.)
   - [README.md centrale](../../../project_docs/README.md) 
+=======
+  - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/project_docs/model-states-errors.md)
+  - [README.md centrale](../../../project_docs/README.md) 
+>>>>>>> 414a4ffcb (.)

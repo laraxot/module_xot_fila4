@@ -37,6 +37,7 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
     -   Verificare che le virgole `,` siano usate correttamente per separare gli elementi degli array.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,8 +76,12 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 >>>>>>> ce6fc085 (.)
     -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
 <<<<<<< HEAD
+=======
+>>>>>>> 414a4ffcb (.)
     -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+=======
     -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -242,6 +247,8 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 =======
     -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 2.  **Validazione**:
     -   Utilizzare un IDE con linting PHP attivo.
@@ -282,6 +289,7 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 -   Se si verifica un `ParseError`, controllare attentamente la linea indicata e quelle immediatamente precedenti.
 -   Errori come `unexpected token ";", expecting ")"` alla fine di un file `return array(...);` spesso indicano una parentesi `(` non chiusa all'interno dell'array.
 -   Commentare sezioni dell'array (approccio divide et impera) può aiutare a isolare la riga o la sezione che causa l'errore.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -346,3 +354,7 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

@@ -9,11 +9,14 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 414a4ffcb (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -32,6 +35,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 uses(TestCase::class, RefreshDatabase::class);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 beforeEach(function () {
     $this->resource = new class extends XotBaseResource {
@@ -282,41 +286,19 @@ test('xot base resource extends filament resource', function (): void {
     /* @phpstan-ignore-next-line property.notFound */
 
         protected static ?int $navigationSort = 1;
+=======
+>>>>>>> 414a4ffcb (.)
 beforeEach(function () {
     $this->resource = new class extends XotBaseResource
     {
         protected static ?string $model = null;
-beforeEach(function () {
-    $this->resource = new class extends XotBaseResource {
-        protected static null|string $model = null;
 
         protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 
         protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
-
-    protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
-
-    protected static ?int $navigationSort = 1;
-
-    /**
-     * @return array<int, \Filament\Support\Contracts\HasLabel|string>
-     */
-    public static function getFormSchema(): array
-    {
-        return [];
-    }
-}
-beforeEach(function () {
-    $this->resource = new class extends XotBaseResource
-    {
-        protected static ?string $model = null;
-
-        protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
-
-
         protected static ?int $navigationSort = 1;
+<<<<<<< HEAD
         protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
 
         protected static ?int $navigationSort = 1;
@@ -523,6 +505,8 @@ test('xot base resource extends filament resource', function (): void {
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     };
 });
 

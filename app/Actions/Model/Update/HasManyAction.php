@@ -31,6 +31,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -68,6 +69,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\HasManyUpdateData;
 use Modules\Xot\Datas\RelationData;
@@ -81,6 +84,7 @@ class HasManyAction
     /**
      * Execute the HasMany relation update.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -97,6 +101,9 @@ class HasManyAction
 =======
      * @throws InvalidArgumentException
 >>>>>>> 091f883c (.)
+=======
+     * @throws InvalidArgumentException
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(Model $model, RelationData $relationDTO): void
     {
@@ -107,6 +114,7 @@ class HasManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
             parentKey: $model->getAttribute($relation->getLocalKeyName()),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,6 +176,8 @@ class HasManyAction
             parentKey: $model->getAttribute($relation->getLocalKeyName()),
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         );
 
         match (true) {
@@ -180,6 +190,7 @@ class HasManyAction
      * Determine if the update is a direct update.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
@@ -188,6 +199,9 @@ class HasManyAction
 =======
      * @param  array<string, mixed>  $data
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<string, mixed>  $data
+>>>>>>> 414a4ffcb (.)
      */
     private function isDirectUpdate(array $data): bool
     {
@@ -227,6 +241,7 @@ class HasManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -311,6 +326,8 @@ class HasManyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 ->update([$updateData->foreignKey => $updateData->parentKey]);
         }
     }
@@ -327,6 +344,7 @@ class HasManyAction
 
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (!isset($item[$keyName])) {
@@ -602,6 +620,9 @@ class HasManyAction
 =======
             if (! isset($item[$keyName])) {
 >>>>>>> 551c768c4 (.)
+=======
+            if (! isset($item[$keyName])) {
+>>>>>>> 414a4ffcb (.)
                 continue;
             }
 
@@ -610,6 +631,7 @@ class HasManyAction
                 $updateData->foreignKey => $updateData->parentKey,
             ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -649,6 +671,8 @@ class HasManyAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
 =======
 =======
@@ -681,6 +705,7 @@ class HasManyAction
      * Clean up orphaned records after batch update.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
@@ -689,6 +714,9 @@ class HasManyAction
 =======
      * @param  array<int|string>  $updatedIds
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<int|string>  $updatedIds
+>>>>>>> 414a4ffcb (.)
      */
     private function cleanupOrphanedRecords(
         RelationData $relationDTO,
@@ -701,6 +729,7 @@ class HasManyAction
             $relationDTO
                 ->related
                 ->newQuery()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,6 +825,8 @@ class HasManyAction
                 ->newQuery()
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 ->where($updateData->foreignKey, $updateData->parentKey)
                 ->whereNotIn($related->getKeyName(), $updatedIds)
                 ->update([$updateData->foreignKey => null]);

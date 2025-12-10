@@ -17,6 +17,7 @@ Fixed all instances of `property_exists()` usage in Eloquent models across the c
 - **FilamentOptimizationServiceProvider.php:67,76-79** - Fixed multiple `property_exists($query, 'time')` → `isset($query->time)`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ### ✅ Quaeris Module
@@ -24,6 +25,10 @@ Fixed all instances of `property_exists()` usage in Eloquent models across the c
 ### ✅ <nome progetto> Module
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+### ✅ Quaeris Module
+### ✅ <nome progetto> Module
+>>>>>>> 414a4ffcb (.)
 - **ViewQuestionChartVisualizationWidget.php:185** - Fixed `property_exists($this, 'livewire')` → `isset($this->livewire)`
 
 ### ✅ Chart Module

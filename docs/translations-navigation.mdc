@@ -30,6 +30,7 @@ Questa regola è valida per tutti i moduli. Fare sempre riferimento alla documen
 <<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
 - [docs di <main module>](../../<main module>/docs/traduzioni-navigation.mdc)
+<<<<<<< HEAD
 =======
 >>>>>>> ecd5ec32 (.)
 - [docs di <main module>](../../<main module>/docs/traduzioni-navigation.mdc)
@@ -130,3 +131,5 @@ Questa regola è valida per tutti i moduli. Fare sempre riferimento alla documen
 =======
 - [docs di <main module>](../../<main module>/docs/traduzioni-navigation.mdc)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

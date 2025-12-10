@@ -9,13 +9,15 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+=======
+>>>>>>> 414a4ffcb (.)
 use Laravel\Passport\PersonalAccessTokenResult;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Laravel\Passport\PersonalAccessTokenResult;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Laravel\Passport\PersonalAccessTokenResult;
 use Illuminate\Database\Eloquent\Model;
@@ -29,10 +31,13 @@ use Laravel\Passport\PersonalAccessTokenResult;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Laravel\Passport\Token;
 use Laravel\Passport\TransientToken;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
  *
@@ -46,6 +51,8 @@ use Laravel\Passport\TransientToken;
  *
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @phpstan-require-extends Model
  */
 interface PassportHasApiTokensContract
@@ -70,6 +77,7 @@ interface PassportHasApiTokensContract
      * @return Token|TransientToken|null
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function token();
     public function token();
     public function token();
@@ -78,10 +86,14 @@ interface PassportHasApiTokensContract
 =======
     public function token(): Token|TransientToken|null;
 >>>>>>> 551c768c4 (.)
+=======
+    public function token(): Token|TransientToken|null;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Determine if the current API token has a given scope.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $scope
      *
@@ -93,10 +105,16 @@ interface PassportHasApiTokensContract
      */
     public function tokenCan(string $scope);
 >>>>>>> 551c768c4 (.)
+=======
+     * @return bool
+     */
+    public function tokenCan(string $scope);
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Create a new personal access token for the user.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $name
      *
@@ -108,6 +126,11 @@ interface PassportHasApiTokensContract
      */
     public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<int, string>  $scopes
+     */
+    public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Set the current access token for the user.

@@ -123,6 +123,7 @@ class NotificationLogResource extends XotBaseResource
 - [Notify Module README](../../../Notify/docs/README.md)
 - [User Module README](../../../User/docs/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
@@ -133,6 +134,9 @@ class NotificationLogResource extends XotBaseResource
 =======
 - [<main module> Module README](../../../<main module>/docs/README.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [<main module> Module README](../../../<main module>/docs/README.md)
+>>>>>>> 414a4ffcb (.)
 
 ### Standard di Riferimento
 - [NavigationLabelTrait](../traits/navigation-label-trait.md)

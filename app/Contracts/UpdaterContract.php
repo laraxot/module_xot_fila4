@@ -6,6 +6,7 @@ namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,20 +65,28 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 >>>>>>> 551c768c4 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Modules\Xot\Contracts\UpdaterContract.
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null $created_by
  * @property string|null $updated_by
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -139,11 +148,14 @@ use Illuminate\Support\Carbon;
  * @property string|null                     $updated_by
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  *
  * @phpstan-require-extends Model
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 interface UpdaterContract
 {
@@ -163,3 +175,6 @@ interface UpdaterContract
 =======
 interface UpdaterContract {}
 >>>>>>> 551c768c4 (.)
+=======
+interface UpdaterContract {}
+>>>>>>> 414a4ffcb (.)

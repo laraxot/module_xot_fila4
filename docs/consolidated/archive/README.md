@@ -34,6 +34,7 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +123,9 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 =======
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 414a4ffcb (.)
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)

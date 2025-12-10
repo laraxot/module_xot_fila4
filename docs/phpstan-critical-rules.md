@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +191,9 @@
 =======
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`**
 >>>>>>> 551c768c4 (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`**
+>>>>>>> 414a4ffcb (.)
 
 ## Motivazione
 

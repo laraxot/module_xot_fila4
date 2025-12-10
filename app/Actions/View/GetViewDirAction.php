@@ -24,6 +24,7 @@ class GetViewDirAction
         $view_dir = $pack_dir.'/'.$relative_path;
 
         return str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
+<<<<<<< HEAD
         $view_dir = $pack_dir . '/' . $relative_path;
         $view_dir = $pack_dir . '/' . $relative_path;
         $view_dir = $pack_dir.'/'.$relative_path;
@@ -169,5 +170,7 @@ class GetViewDirAction
 
         return str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

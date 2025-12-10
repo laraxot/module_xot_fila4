@@ -56,6 +56,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +239,10 @@ base_predict_fila3_mono/
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+- **Documentazione Globale** (`/docs/`)
+=======
+>>>>>>> 414a4ffcb (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -246,6 +251,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,6 +434,10 @@ base_predict_fila3_mono/
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
+=======
+>>>>>>> 414a4ffcb (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -490,6 +500,7 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 62cc8443 (.)
      1. Aggiornare `Modules/[ModuleName]/docs/`
 =======
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
@@ -607,6 +618,8 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
 =======
+=======
+>>>>>>> 414a4ffcb (.)
      1. Aggiornare `Modules/[ModuleName]/docs/`
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
@@ -615,6 +628,7 @@ Quando si identifica una nuova regola o pattern importante:
 
    - Se regola globale:
      1. Aggiornare `/docs/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -857,6 +871,9 @@ Quando si identifica una nuova regola o pattern importante:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**
@@ -939,6 +956,7 @@ Quando si identifica una nuova regola o pattern importante:
    - [ ] Testare applicabilità 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1001,3 +1019,7 @@ Quando si identifica una nuova regola o pattern importante:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

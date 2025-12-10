@@ -31,6 +31,7 @@ use Illuminate\View\Component as IlluminateComponent;
 use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -68,6 +69,8 @@ use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Class XotBaseComponent.
@@ -92,6 +95,7 @@ abstract class XotBaseComponent extends IlluminateComponent
      * Cache for resolved views.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var array<string, view-string>
      * @var array<string, view-string>
      * @var array<string, view-string>
@@ -100,6 +104,9 @@ abstract class XotBaseComponent extends IlluminateComponent
 =======
      * @var array<string, string>
 >>>>>>> 551c768c4 (.)
+=======
+     * @var array<string, string>
+>>>>>>> 414a4ffcb (.)
      */
     protected static array $viewCache = [];
 
@@ -115,6 +122,7 @@ abstract class XotBaseComponent extends IlluminateComponent
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Summary of getView.
      * Summary of getView.
      * Summary of getView.
@@ -123,6 +131,9 @@ abstract class XotBaseComponent extends IlluminateComponent
 =======
      * Get the view name for this component.
 >>>>>>> 551c768c4 (.)
+=======
+     * Get the view name for this component.
+>>>>>>> 414a4ffcb (.)
      *
      * @return view-string
      */
@@ -132,9 +143,13 @@ abstract class XotBaseComponent extends IlluminateComponent
 
         if (isset(self::$viewCache[$class])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             /** @var view-string */
 >>>>>>> 551c768c4 (.)
+=======
+            /** @var view-string */
+>>>>>>> 414a4ffcb (.)
             return self::$viewCache[$class];
         }
 
@@ -145,6 +160,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $view = $module_name_low . '::components.' . $comp_name;
@@ -256,6 +272,8 @@ abstract class XotBaseComponent extends IlluminateComponent
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
@@ -277,6 +295,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         }
 
         /** @var view-string $view */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -428,6 +447,8 @@ abstract class XotBaseComponent extends IlluminateComponent
         }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         self::$viewCache[$class] = $view;
 
         return $view;

@@ -6,6 +6,7 @@ namespace Modules\Xot\Console\Commands;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,6 +153,8 @@ namespace Modules\Xot\Console\Commands;
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Exception;
 <<<<<<< HEAD
 use Illuminate\Console\Command;
@@ -176,6 +179,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> d2b0a27 (.)
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Exception;
@@ -303,6 +307,8 @@ use function Safe\file_get_contents;
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class ExecuteSqlFileCommand extends Command
 {
@@ -331,6 +337,7 @@ class ExecuteSqlFileCommand extends Command
 <<<<<<< HEAD
         Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! file_exists($filePath)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function handle(): int
      */
@@ -891,6 +898,8 @@ class ExecuteSqlFileCommand extends Command
         Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! file_exists($filePath)) {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -927,6 +936,7 @@ class ExecuteSqlFileCommand extends Command
         } catch (Exception $e) {
 <<<<<<< HEAD
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1196,6 +1206,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
             return Command::FAILURE;
         } finally {

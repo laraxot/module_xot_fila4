@@ -61,6 +61,7 @@ use Modules\Xot\Tests\TestCase;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +426,9 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
+=======
+
+>>>>>>> 414a4ffcb (.)
 uses(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
@@ -465,6 +469,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> ecd5ec32 (.)
 
 /*
+<<<<<<< HEAD
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -1076,6 +1081,8 @@ pest()->extend(TestCase::class)
 | in tutti i test del modulo.
 |
 */
+=======
+>>>>>>> 414a4ffcb (.)
  * |--------------------------------------------------------------------------
  * | Expectations
  * |--------------------------------------------------------------------------
@@ -1085,10 +1092,8 @@ pest()->extend(TestCase::class)
  * | in tutti i test del modulo.
  * |
  */
-namespace Modules\Xot\Tests\Pest;
-namespace Modules\Xot\Tests\Pest;
-namespace Modules\Xot\Tests\Pest;
 
+<<<<<<< HEAD
 
 use Modules\Xot\Tests\TestCase;
 
@@ -1611,6 +1616,8 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 87e9cbda1 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1676,6 +1683,7 @@ namespace Modules\Xot\Tests\Pest;
 
 // function something() {
 //     // ...
+<<<<<<< HEAD
 // function something() {
 //     // ...
 // function something() {
@@ -2412,6 +2420,8 @@ namespace Modules\Xot\Tests\Pest;
 
 // function something() {
 //     // ...
+=======
+>>>>>>> 414a4ffcb (.)
 // }
 =======
 >>>>>>> 5842a556 (.)

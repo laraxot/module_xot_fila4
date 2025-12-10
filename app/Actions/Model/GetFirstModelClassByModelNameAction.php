@@ -43,6 +43,7 @@ class GetFirstModelClassByModelNameAction
             $modelClass,
             '['.__LINE__.']['.class_basename($this).']',
 <<<<<<< HEAD
+<<<<<<< HEAD
         $models = app(GetAllModelsAction::class)->execute();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +179,9 @@ class GetFirstModelClassByModelNameAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+        );
+>>>>>>> 414a4ffcb (.)
 
         return $modelClass;
     }

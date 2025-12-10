@@ -37,6 +37,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 **Collegamento bidirezionale:**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
 - [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
 =======
@@ -176,6 +177,8 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [Motivazione e applicazione nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md)
 =======
 >>>>>>> ca9324a4 (.)
@@ -305,6 +308,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 - **Collegamenti rapidi**:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
   - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
   - [Documentazione generale e convenzioni di progetto](../../../../project_docs/coding-standards.md)
@@ -377,11 +381,16 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
   - [Documentazione generale e convenzioni di progetto](../../../../project_docs/coding-standards.md)
   - [Esempio e memo nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
 
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+=======
+=======
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+<<<<<<< HEAD
 <<<<<<< HEAD
   - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
   - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
@@ -807,3 +816,6 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

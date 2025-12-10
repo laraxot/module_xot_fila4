@@ -7,6 +7,7 @@ namespace Modules\Xot\Models;
 use Modules\Xot\Database\Factories\CacheLockFactory;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
@@ -14,12 +15,15 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Modules\Xot\Models\CacheLock.
  *
  * @property string $key
  * @property string $owner
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -59,9 +63,11 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * @property string $key
  * @property string $owner
+=======
+>>>>>>> 414a4ffcb (.)
  * @property int $expiration
  *
- * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
+ * @method static CacheLockFactory factory($count = null, $state = [])
  * @method static Builder<static>|CacheLock newModelQuery()
  * @method static Builder<static>|CacheLock newQuery()
  * @method static Builder<static>|CacheLock query()
@@ -69,6 +75,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|CacheLock whereKey($value)
  * @method static Builder<static>|CacheLock whereOwner($value)
  *
+<<<<<<< HEAD
  * @property int    $expiration
  * @method static CacheLockFactory factory($count = null, $state = [])
  * @method static Builder|CacheLock newModelQuery()
@@ -131,6 +138,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

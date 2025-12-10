@@ -37,6 +37,7 @@ use function Safe\exec;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -105,6 +106,8 @@ use function Safe\exec;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 class DatabaseBackUpCommand extends Command
 {
     /**
@@ -124,6 +127,7 @@ class DatabaseBackUpCommand extends Command
     /**
      * Create a new command instance.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -417,6 +421,8 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Execute the console command.
@@ -427,6 +433,7 @@ class DatabaseBackUpCommand extends Command
 <<<<<<< HEAD
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -652,10 +659,13 @@ class DatabaseBackUpCommand extends Command
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         Assert::string(
             $backup_path = Str::replace(['/', '\\'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $backup_path),
             'wip',
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +733,8 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         Assert::string($user = config('database.connections.mysql.username'));
         Assert::string($password = config('database.connections.mysql.password'));
         Assert::string($host = config('database.connections.mysql.host'));
@@ -740,11 +752,14 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
         $command =
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
         $command =
+=======
+>>>>>>> 414a4ffcb (.)
             'mysqldump --user='.
             $user.
             ' --password='.
@@ -754,6 +769,7 @@ class DatabaseBackUpCommand extends Command
             ' '.
             $database.
             '  | gzip > '.
+<<<<<<< HEAD
 <<<<<<< HEAD
             'mysqldump --user=' .
             $user .
@@ -823,6 +839,9 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            $backup_path;
+>>>>>>> 414a4ffcb (.)
 
         $returnVar = null;
         $output = null;

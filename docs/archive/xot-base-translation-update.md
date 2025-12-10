@@ -118,6 +118,7 @@ return [
 - [Best Practices Traduzioni](translations-best-practices.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,3 +456,12 @@ return [
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+=======
+=======
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+=======
+>>>>>>> 414a4ffcb (.)

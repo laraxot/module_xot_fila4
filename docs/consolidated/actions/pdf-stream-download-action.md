@@ -144,6 +144,7 @@ Generated PDF data can be attached to emails through the notification system.
 - `Modules\Notify\Emails\SpatieEmail.php` - Email attachment handling
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +324,9 @@ Generated PDF data can be attached to emails through the notification system.
 =======
 - `Modules\<nome progetto>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 >>>>>>> 551c768c4 (.)
+=======
+- `Modules\<nome progetto>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 414a4ffcb (.)
 
 ## Notes
 - The action uses QueueableAction trait, making it suitable for background processing

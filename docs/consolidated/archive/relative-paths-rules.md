@@ -38,6 +38,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,6 +225,9 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
    [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
 >>>>>>> 551c768c4 (.)
+=======
+   [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 414a4ffcb (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:

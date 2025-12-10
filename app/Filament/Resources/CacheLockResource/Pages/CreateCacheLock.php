@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +150,10 @@ class CreateCacheLock extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreat
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+
+class CreateCacheLock extends XotBaseCreateRecord
+>>>>>>> 414a4ffcb (.)
 {
     protected static string $resource = CacheLockResource::class;
 }

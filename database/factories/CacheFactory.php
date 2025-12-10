@@ -12,17 +12,21 @@ use Modules\Xot\Models\Cache;
  * @extends Factory<Cache>
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @extends Factory<Cache>
  */
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 class CacheFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var class-string<Cache>
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @var class-string<Model>
      * @var class-string<Model>
@@ -37,6 +41,8 @@ class CacheFactory extends Factory
      * @var class-string<Model>
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     protected $model = Cache::class;
 

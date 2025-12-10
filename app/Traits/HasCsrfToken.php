@@ -40,6 +40,7 @@ use Illuminate\Support\Facades\Session;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -252,12 +253,15 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 trait HasCsrfToken
 {
     /**
      * CSRF token for the current request.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @var string
      *
@@ -278,11 +282,14 @@ trait HasCsrfToken
      * @var string
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public string $_token;
 
     /**
      * Mount the component and set the CSRF token.
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return void
@@ -304,6 +311,8 @@ trait HasCsrfToken
      * @return void
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function mount(): void
     {
@@ -313,6 +322,7 @@ trait HasCsrfToken
     /**
      * Get the CSRF token.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -333,6 +343,8 @@ trait HasCsrfToken
      * @return string
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function getCsrfToken(): string
     {
@@ -341,6 +353,7 @@ trait HasCsrfToken
 
     /**
      * Verify if the CSRF token is valid.
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return bool
@@ -362,6 +375,8 @@ trait HasCsrfToken
      * @return bool
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function verifyCsrfToken(): bool
     {
@@ -394,6 +409,7 @@ trait HasCsrfToken
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 }
 }
@@ -548,3 +564,5 @@ trait HasCsrfToken
 =======
 }
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

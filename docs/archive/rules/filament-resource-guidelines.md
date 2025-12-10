@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +180,9 @@
 =======
 # Linee Guida per le Risorse Filament nel Progetto <nome progetto>
 >>>>>>> 551c768c4 (.)
+=======
+# Linee Guida per le Risorse Filament nel Progetto <nome progetto>
+>>>>>>> 414a4ffcb (.)
 
 ## Regole Generali
 
@@ -189,6 +193,7 @@
 
 ## Collegamenti Bidirezionali
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,3 +482,12 @@ Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni
 =======
 Queste linee guida sono centrali per tutti i moduli del progetto <nome progetto>. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
 >>>>>>> 551c768c4 (.)
+=======
+- [Documentazione Principale sui Problemi di Namespace](../../../../docs/references/namespace-issues.md)
+- [Documentazione del Modulo Patient](../Patient/docs/errors/undefined-type-pending.md)
+- [Riferimento alle Linee Guida nel Modulo Patient](../Patient/docs/references/filament-guidelines-link.md)
+
+## Note
+
+Queste linee guida sono centrali per tutti i moduli del progetto <nome progetto>. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+>>>>>>> 414a4ffcb (.)

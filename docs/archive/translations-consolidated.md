@@ -30,6 +30,7 @@ Questo documento sostituisce e consolida **107+ file traduzioni duplicati** trov
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -80,6 +81,9 @@ Questo documento sostituisce e consolida **107+ file traduzioni duplicati** trov
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
 >>>>>>> 60f0a1820 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
+>>>>>>> 414a4ffcb (.)
 - **File lang**: Solo nei singoli moduli (contenuto, non docs)
 
 ## Principi Fondamentali Universali
@@ -335,6 +339,7 @@ return [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398,10 +403,14 @@ return [
 =======
 ### <nome modulo> Module
 >>>>>>> 551c768c4 (.)
+=======
+### <nome modulo> Module
+>>>>>>> 414a4ffcb (.)
 - **Focus**: Health management, Medical data
 - **Campi comuni**: `patient_id`, `doctor_id`, `date`, `notes`
 - **Stati**: `scheduled`, `completed`, `cancelled`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -583,6 +592,9 @@ return [
 =======
 ### <nome progetto> Module (CRITICO)
 >>>>>>> 551c768c4 (.)
+=======
+### <nome progetto> Module (CRITICO)
+>>>>>>> 414a4ffcb (.)
 - **Focus**: Core health platform, Appointments
 - **Campi comuni**: `appointment_id`, `patient_id`, `doctor_id`, `studio_id`
 - **Stati**: `scheduled`, `confirmed`, `in_progress`, `completed`, `cancelled`
@@ -655,6 +667,7 @@ TextInput::make('name') // Label automatica da traduzione
 # Controllo chiavi hardcoded (tutti i moduli)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -834,12 +847,16 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 >>>>>>> 551c768c4 (.)
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
+>>>>>>> 414a4ffcb (.)
     php artisan translation:check-hardcoded --module=$module
 done
 
 # Validazione sintassi (tutti i moduli)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1019,6 +1036,9 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 >>>>>>> 551c768c4 (.)
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
+>>>>>>> 414a4ffcb (.)
     php artisan translation:validate-syntax --module=$module
 done
 ```
@@ -1114,6 +1134,7 @@ rm Modules/<nome progetto>/docs/translations-states-analysis.md
 rm Modules/<nome progetto>/docs/translation-rules.md
 rm Modules/<nome progetto>/docs/translation_standards.md
 rm Modules/<nome progetto>/docs/translations-appointments.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 # 
 rm Modules/<nome modulo>/docs/translation-files-improvement.md
@@ -1381,6 +1402,8 @@ rm Modules/<nome progetto>/docs/translations-appointments.md
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 # User
 rm Modules/User/docs/translations.md
@@ -1397,6 +1420,7 @@ rm Modules/Lang/docs/translation_notify_conversion.md
 ```
 
 ### Mantenere Solo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1459,6 +1483,9 @@ rm Modules/Lang/docs/translation_notify_conversion.md
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
 >>>>>>> 60f0a1820 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
+>>>>>>> 414a4ffcb (.)
 - **File lang**: Solo contenuto traduzioni nei singoli moduli
 
 ## Troubleshooting Universale

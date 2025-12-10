@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\View;
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +242,8 @@ use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
+=======
+>>>>>>> 414a4ffcb (.)
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -341,6 +344,7 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -390,6 +394,10 @@ class GetViewNameSpacePathAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+     * @throws Exception
+     */
+>>>>>>> 414a4ffcb (.)
     public function execute(?string $module_name = null): string
 =======
 <<<<<<< HEAD
@@ -422,6 +430,7 @@ class GetViewNameSpacePathAction
             /** @var non-falsy-string $namespace_path */
 <<<<<<< HEAD
             $namespace_path = $module_path.'resources/views';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -722,6 +731,8 @@ class GetViewNameSpacePathAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         } else {
             /** @var non-falsy-string $namespace_path */
             $namespace_path = resource_path('views');

@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -204,6 +205,9 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
+=======
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -336,6 +340,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 use Spipu\Html2Pdf\Html2Pdf;
 =======
 =======
@@ -411,6 +416,8 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class StreamDownloadPdfAction
 {
@@ -421,6 +428,7 @@ class StreamDownloadPdfAction
     /**
      * Genera un PDF dall'HTML fornito.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $html  Contenuto HTML da convertire
@@ -537,6 +545,11 @@ class StreamDownloadPdfAction
      * @param  string|null  $view  Nome della view da renderizzare
      * @param  array<string, mixed>|null  $data  Dati da passare alla view
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  string|null  $html  Contenuto HTML da convertire
+     * @param  string|null  $view  Nome della view da renderizzare
+     * @param  array<string, mixed>|null  $data  Dati da passare alla view
+>>>>>>> 414a4ffcb (.)
      * @param  string  $filename  Nome del file PDF
      */
     public function execute(
@@ -554,6 +567,7 @@ class StreamDownloadPdfAction
             $html = view($view, $viewData)->render();
         }
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1025,6 +1039,8 @@ class StreamDownloadPdfAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
@@ -1072,6 +1088,7 @@ class StreamDownloadPdfAction
         return response()->streamDownload(function () use ($html2pdf): void {
             $html2pdf->output();
         }, 'report-'.$filename);
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1559,5 +1576,7 @@ class StreamDownloadPdfAction
             $html2pdf->output();
         }, 'report-'.$filename);
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

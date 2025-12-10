@@ -57,6 +57,7 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per ulteriori dettagli sul progetto specifico, consultare la documentazione nella root del progetto: [INDEX.md](../../../project_docs/INDEX.md).
 - Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md).
 - Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/project_docs/convenzioni-namespace-filament.md).
@@ -383,3 +384,11 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+- Per ulteriori dettagli sul progetto specifico, consultare la documentazione nella root del progetto: [INDEX.md](../../../docs/INDEX.md).
+- Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md).
+- Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/docs/convenzioni-namespace-filament.md).
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

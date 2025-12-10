@@ -37,6 +37,7 @@
 - [Struttura dei moduli](./MODULE_STRUCTURE.md) - Convenzioni di struttura dei moduli
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
@@ -199,6 +200,8 @@
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 - [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 
 ### Moduli Collegati
@@ -207,6 +210,7 @@
 - [Lang](../Lang/docs/README.md) - Traduzioni
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
@@ -296,6 +300,8 @@
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -435,6 +441,7 @@ $submit = function() {
 - [Best Practices](../UI/docs/best-practices.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -973,6 +980,8 @@ $submit = function() {
 - [Grafici](../Chart/project_docs/charts.md)
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### Modulo Cms
 - [Frontend](../Cms/docs/frontend.md)
@@ -1035,6 +1044,7 @@ $submit = function() {
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
 =======
+<<<<<<< HEAD
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
@@ -1129,3 +1139,7 @@ $submit = function() {
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

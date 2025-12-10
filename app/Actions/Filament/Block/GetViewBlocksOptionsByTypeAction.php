@@ -39,6 +39,7 @@ class GetViewBlocksOptionsByTypeAction
 >>>>>>> 7468a7d2 (.)
      * @param  string  $type  Il tipo di blocco da cercare
      * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
+<<<<<<< HEAD
      * @param string $type Il tipo di blocco da cercare
      * @param bool $img Se includere i percorsi delle immagini invece dei nomi
 <<<<<<< HEAD
@@ -300,6 +301,8 @@ class GetViewBlocksOptionsByTypeAction
      * @param  string  $type  Il tipo di blocco da cercare
      * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
@@ -327,6 +330,7 @@ class GetViewBlocksOptionsByTypeAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +338,8 @@ class GetViewBlocksOptionsByTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 414a4ffcb (.)
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
 =======
 >>>>>>> 7468a7d2 (.)
@@ -356,6 +362,7 @@ class GetViewBlocksOptionsByTypeAction
             return []; // Ritorna un array vuoto se non ci sono file
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -508,6 +515,8 @@ class GetViewBlocksOptionsByTypeAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         Assert::isArray($files, 'Il risultato di File::glob() deve essere un array');
 
         $fixPathAction = app(FixPathAction::class);
@@ -540,6 +549,7 @@ class GetViewBlocksOptionsByTypeAction
             // Estraiamo il nome del modulo dal percorso
             $modulePath = Str::of($pathStr)->between(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 DIRECTORY_SEPARATOR . 'Modules' . DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR . 'Modules' . DIRECTORY_SEPARATOR,
@@ -554,10 +564,15 @@ class GetViewBlocksOptionsByTypeAction
                 DIRECTORY_SEPARATOR.'Modules'.DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR.'resources'.DIRECTORY_SEPARATOR,
 >>>>>>> 551c768c4 (.)
+=======
+                DIRECTORY_SEPARATOR.'Modules'.DIRECTORY_SEPARATOR,
+                DIRECTORY_SEPARATOR.'resources'.DIRECTORY_SEPARATOR,
+>>>>>>> 414a4ffcb (.)
             );
 
             Assert::notEmpty($modulePath, 'Impossibile estrarre il nome del modulo dal percorso');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
             $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
@@ -567,6 +582,9 @@ class GetViewBlocksOptionsByTypeAction
 =======
             $module_low = is_string($modulePath) ? $modulePath : (string) $modulePath->lower();
 >>>>>>> 551c768c4 (.)
+=======
+            $module_low = is_string($modulePath) ? $modulePath : (string) $modulePath->lower();
+>>>>>>> 414a4ffcb (.)
             Assert::stringNotEmpty($module_low, 'Il nome del modulo in minuscolo non può essere vuoto');
 
             // Estraiamo il nome del file
@@ -578,6 +596,7 @@ class GetViewBlocksOptionsByTypeAction
             Assert::stringNotEmpty($name, 'Il nome del componente non può essere vuoto');
 
             // Costruiamo il nome della vista
+<<<<<<< HEAD
 <<<<<<< HEAD
             $view = $module_low . '::components.blocks.' . $type . '.' . $name;
             Assert::stringNotEmpty($view, 'Il nome della vista non può essere vuoto');
@@ -593,12 +612,17 @@ class GetViewBlocksOptionsByTypeAction
             $view = $module_low.'::components.blocks.'.$type.'.'.$name;
             // $view è sempre stringa non vuota perché costruita da stringhe non vuote
 >>>>>>> 551c768c4 (.)
+=======
+            $view = $module_low.'::components.blocks.'.$type.'.'.$name;
+            // $view è sempre stringa non vuota perché costruita da stringhe non vuote
+>>>>>>> 414a4ffcb (.)
 
             if ($img) {
                 // Se è richiesto il percorso dell'immagine, lo costruiamo
                 $assetAction = app(AssetAction::class);
                 Assert::isCallable([$assetAction, 'execute'], 'AssetAction::execute deve essere chiamabile');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
                 $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
@@ -608,6 +632,9 @@ class GetViewBlocksOptionsByTypeAction
 =======
                 $imgPath = $module_low.'::img/screenshots/'.$name.'.png';
 >>>>>>> 551c768c4 (.)
+=======
+                $imgPath = $module_low.'::img/screenshots/'.$name.'.png';
+>>>>>>> 414a4ffcb (.)
                 $img_path = $assetAction->execute($imgPath);
                 Assert::stringNotEmpty($img_path, 'Il percorso dell\'immagine non può essere vuoto');
 
@@ -616,6 +643,7 @@ class GetViewBlocksOptionsByTypeAction
 
             return [$view => $name];
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
         
         $opts = Arr::mapWithKeys(
@@ -773,6 +801,8 @@ class GetViewBlocksOptionsByTypeAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         // Assicuriamo che il risultato sia un array di stringhe
         /** @var array<string, string> $result */
@@ -780,6 +810,7 @@ class GetViewBlocksOptionsByTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,6 +872,8 @@ class GetViewBlocksOptionsByTypeAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         Assert::isArray($result, 'Il risultato deve essere un array');
         foreach ($result as $key => $value) {
             Assert::string($key, 'La chiave dell\'array deve essere una stringa');
@@ -854,6 +887,7 @@ class GetViewBlocksOptionsByTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -910,6 +944,8 @@ class GetViewBlocksOptionsByTypeAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return $result;
     }
 }

@@ -308,6 +308,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </style>
 </style>
 </style>
@@ -462,3 +463,5 @@ declare(strict_types=1);
 =======
 </style>
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

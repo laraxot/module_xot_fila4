@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +191,9 @@
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 >>>>>>> 551c768c4 (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+>>>>>>> 414a4ffcb (.)
 
 ## Problema Identificato
 

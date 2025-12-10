@@ -96,6 +96,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -196,6 +197,8 @@ return [
 declare(strict_types=1);
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 return [
     /*
      * |--------------------------------------------------------------------------
@@ -464,6 +467,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8fd88dd43 (.)
 =======
@@ -686,6 +690,8 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     'module_paths' => [
         'xot' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot',
         'broker' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Broker',

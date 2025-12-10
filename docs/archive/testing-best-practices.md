@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -568,6 +569,10 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 414a4ffcb (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
@@ -602,6 +607,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 >>>>>>> 2bad128c (.)
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -660,3 +666,6 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

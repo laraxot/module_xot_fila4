@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Module;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Exception;
 <<<<<<< HEAD
@@ -247,6 +248,10 @@ use Illuminate\Support\Str;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+use Exception;
+use Illuminate\Support\Facades\File;
+>>>>>>> 414a4ffcb (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetModuleConfigAction
@@ -267,6 +272,7 @@ class GetModuleConfigAction
         $configFile = $configPath.'/'.$config.'.php';
         if (! file_exists($configFile)) {
             throw new Exception('Config file not found: '.$configFile);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -400,6 +406,11 @@ class GetModuleConfigAction
         dddx(File::getRequire($configFile));
 
 >>>>>>> 551c768c4 (.)
+=======
+        }
+        dddx(File::getRequire($configFile));
+
+>>>>>>> 414a4ffcb (.)
         return [];
     }
 }

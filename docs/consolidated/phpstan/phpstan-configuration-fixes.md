@@ -73,6 +73,7 @@ ignoreErrors:
 **Documentazione Specifica**: 
 - [<nome progetto> - PHPStan Relationship Covariance Fix](../<nome progetto>/project_docs/phpstan-relationship-covariance-fix.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Moduli Interessati**: , Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
@@ -323,6 +324,8 @@ ignoreErrors:
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### 2. Cast da Mixed
 

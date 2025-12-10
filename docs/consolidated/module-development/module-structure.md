@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura dei Moduli in il progetto
 # Struttura dei Moduli in il progetto
 =======
@@ -1018,6 +1019,10 @@ laravel/Modules/Patient/
 │   ├── Filament/
 │   ├── Http/
 # Module Structure in Laraxot
+=======
+=======
+# Struttura dei Moduli in il progetto
+>>>>>>> 414a4ffcb (.)
 
 ## Panoramica
 Questo documento descrive la struttura standard dei moduli nel progetto il progetto.
@@ -1453,6 +1458,7 @@ Module/
 ├── database/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1533,6 +1539,8 @@ Module/
 <<<<<<< HEAD
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 =======
 │   ├── migrations/
 │   └── seeders/
@@ -1632,6 +1640,7 @@ Se trovi una directory con case errato:
 
 ## Collegamenti tra versioni di module_structure.md
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)
 │   ├── factories/
@@ -2047,6 +2056,9 @@ Se trovi una directory con case errato:
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/
@@ -2146,6 +2158,7 @@ Route::middleware('api')->prefix('api')->group(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2206,3 +2219,6 @@ Route::middleware('api')->prefix('api')->group(function () {
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

@@ -88,6 +88,7 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 - [Webhook Integration](../../integrations/WEBHOOK-GUIDE.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,3 +207,7 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 - [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 - [Error Formatters Overview](../README.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters Overview](../README.md) 
+>>>>>>> 414a4ffcb (.)

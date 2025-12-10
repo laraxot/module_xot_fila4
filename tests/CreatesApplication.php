@@ -16,6 +16,7 @@ trait CreatesApplication
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $app = require __DIR__ . '/../../../bootstrap/app.php';
         $app = require __DIR__ . '/../../../bootstrap/app.php';
         $app = require __DIR__ . '/../../../bootstrap/app.php';
@@ -304,6 +305,9 @@ trait CreatesApplication
 =======
         $app = require __DIR__.'/../../../bootstrap/app.php';
 >>>>>>> 551c768c4 (.)
+=======
+        $app = require __DIR__.'/../../../bootstrap/app.php';
+>>>>>>> 414a4ffcb (.)
 
         assert($app instanceof Application);
         /* @phpstan-ignore-next-line method.nonObject */

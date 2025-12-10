@@ -47,6 +47,7 @@ class ExportXlsByQuery
      * @param  int|null  $limit  Limite di righe da esportare
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -152,6 +153,8 @@ class ExportXlsByQuery
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(
         Builder $query,
@@ -160,6 +163,7 @@ class ExportXlsByQuery
 <<<<<<< HEAD
 <<<<<<< HEAD
         ?int $limit = null,
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -346,6 +350,8 @@ class ExportXlsByQuery
         }, array_values($fields));
 <<<<<<< HEAD
         null|int $limit = null,
+=======
+>>>>>>> 414a4ffcb (.)
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
@@ -360,6 +366,7 @@ class ExportXlsByQuery
             transKey: null,
 <<<<<<< HEAD
             fields: $stringFields,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,6 +404,8 @@ class ExportXlsByQuery
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
         );
         // Note: QueryExport doesn't accept a limit parameter directly
         // If limit is needed, apply it to the query before passing to the exporter

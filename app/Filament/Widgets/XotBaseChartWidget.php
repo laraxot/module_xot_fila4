@@ -24,6 +24,7 @@ use Filament\Support\RawJs;
 use Filament\Widgets\ChartWidget as FilamentChartWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
@@ -63,6 +64,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Traits\TransTrait;
 =======
 <<<<<<< HEAD
@@ -131,6 +134,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 
     protected ?string $pollingInterval = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
     use TransTrait;
     use InteractsWithPageFilters;
     use TransTrait;
@@ -140,6 +144,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     protected static null|int $sort = 1;
     protected static bool $isLazy = true;
     protected null|string $pollingInterval = null;
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Restituisce il titolo del widget.
@@ -147,17 +153,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
      * CRITICO: Deve essere public per rispettare il contratto ChartWidget
      */
     public function getHeading(): ?string
-    public function getHeading(): ?string
-    public function getHeading(): ?string
-    public function getHeading(): null|string
-    public function getHeading(): null|string
-    public function getHeading(): null|string
-    public function getHeading(): null|string
-    public function getHeading(): null|string
-    public function getHeading(): null|string
-    public function getHeading(): null|string
     {
         return static::trans('navigation.heading');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +310,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
@@ -350,6 +350,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'mode' => 'index',
                     'intersect' => false,
                     'callbacks' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -535,11 +536,14 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                         }'
                             ,
 <<<<<<< HEAD
+=======
+>>>>>>> 414a4ffcb (.)
                         'label' => 'function(context) {
                             return "'.
                                 __('<nome modulo>::widgets.patient_registration_trend.total_registrations').
                                 '".replace(":count", context.parsed.y);
                         }',
+<<<<<<< HEAD
                         'label' =>
 
                                 'function(context) {
@@ -792,6 +796,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     ],
                 ],
             ],
@@ -801,6 +807,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'title' => [
                         'display' => true,
                         'text' => __('<nome modulo>::widgets.patient_registration_trend.period.label'),
+<<<<<<< HEAD
 <<<<<<< HEAD
                         'text' => __('salutemo::widgets.patient_registration_trend.period.label'),
                         'text' => __('salutemo::widgets.patient_registration_trend.period.label'),
@@ -814,6 +821,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                         'text' => __('salutemo::widgets.patient_registration_trend.period.label'),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     ],
                     'grid' => [
                         'display' => false,
@@ -825,6 +834,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                         'display' => true,
                         'text' => __('<nome modulo>::widgets.patient_registration_trend.total_registrations'),
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'text' => __('salutemo::widgets.patient_registration_trend.total_registrations'),
                         'text' => __('salutemo::widgets.patient_registration_trend.total_registrations'),
                         'text' => __('salutemo::widgets.patient_registration_trend.total_registrations'),
@@ -837,6 +847,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                         'text' => __('salutemo::widgets.patient_registration_trend.total_registrations'),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     ],
                     'beginAtZero' => true,
                     'ticks' => [
@@ -858,6 +870,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected function getHeight(): ?string
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -995,10 +1008,13 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     protected function getHeight(): null|string
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return '300px';
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1155,3 +1171,5 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)

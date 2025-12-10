@@ -13,6 +13,7 @@
 // ❌ PROBLEMA ATTUALE
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +254,10 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 >>>>>>> 551c768c4 (.)
+=======
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
+public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+>>>>>>> 414a4ffcb (.)
 ```
 
 #### 2. XotData Incompleto
@@ -271,6 +276,7 @@ public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 - **XotBase classes**: Eccellente pattern di estensione
 - **Service Provider**: Centralizzazione corretta
 - **Migration Base**: XotBaseMigration ben progettata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -336,6 +342,9 @@ public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 =======
 - **Type Safety**: PHPStan level 10 compliance
 >>>>>>> 551c768c4 (.)
+=======
+- **Type Safety**: PHPStan level 10 compliance
+>>>>>>> 414a4ffcb (.)
 
 ### Consolidamento Documentazione
 - **Approccio DRY+KISS**: Eliminazione duplicazioni
@@ -544,6 +553,7 @@ abstract class XotBaseModel extends Model
 - [ ] **Documentazione** completa con esempi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,6 +617,9 @@ abstract class XotBaseModel extends Model
 =======
 - [ ] **Type safety** con PHPStan level 10
 >>>>>>> 551c768c4 (.)
+=======
+- [ ] **Type safety** con PHPStan level 10
+>>>>>>> 414a4ffcb (.)
 - [ ] **Performance** < 1ms per risoluzione classe
 
 ### Documentazione
@@ -637,6 +650,7 @@ abstract class XotBaseModel extends Model
 ### Pre-Implementazione
 ```bash
 # Verifica path hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -817,6 +831,9 @@ grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 =======
 grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
 >>>>>>> 551c768c4 (.)
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+>>>>>>> 414a4ffcb (.)
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"

@@ -25,6 +25,7 @@ class Clock extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected string $view = 'xot::filament.widgets.clock';
     protected string $view = 'xot::filament.widgets.clock';
 =======
@@ -73,6 +74,8 @@ class Clock extends Widget
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     public function begin(): void
     {
@@ -94,6 +97,7 @@ class Clock extends Widget
             $this->start = (string) now();
             if ($this->start === 'impossible') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
@@ -106,6 +110,8 @@ class Clock extends Widget
             if ('impossible' === $this->start) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $cond = false;
             }
         }

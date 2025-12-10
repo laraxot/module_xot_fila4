@@ -12,17 +12,21 @@ use Modules\Xot\Models\Session;
  * @extends Factory<Session>
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @extends Factory<Session>
  */
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 class SessionFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var class-string<Session>
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @var class-string<Model>
      * @var class-string<Model>
@@ -36,6 +40,8 @@ class SessionFactory extends Factory
      * @var class-string<Model>
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     protected $model = Session::class;
 

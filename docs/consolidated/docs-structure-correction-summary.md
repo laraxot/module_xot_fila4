@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +184,9 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 Durante l'audit del sistema <nome progetto>, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 >>>>>>> 551c768c4 (.)
+=======
+Durante l'audit del sistema <nome progetto>, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
+>>>>>>> 414a4ffcb (.)
 
 ## Violazioni Identificate e Corrette
 
@@ -202,6 +206,7 @@ Durante l'audit del sistema <nome progetto>, è stata identificata una **violazi
 **Stato**: ✅ CORRETTA - Cartella eliminata, documentazione spostata nei moduli
 
 **File migrati**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -267,6 +272,9 @@ Durante l'audit del sistema <nome progetto>, è stata identificata una **violazi
 =======
 - `eloquent-unit-tests.md` → `laravel/Modules/<nome modulo>/project_docs/testing/`
 >>>>>>> 551c768c4 (.)
+=======
+- `eloquent-unit-tests.md` → `laravel/Modules/<nome modulo>/project_docs/testing/`
+>>>>>>> 414a4ffcb (.)
 - Altri documenti analizzati e spostati nei moduli appropriati
 
 ## Regola Critica Implementata
@@ -328,6 +336,7 @@ Durante l'audit del sistema <nome progetto>, è stata identificata una **violazi
 ```
 laravel/
 ├── Modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -516,6 +525,8 @@ laravel/
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 │   ├── Notify/project_docs/           # ✅ Documentazione modulo Notify
 │   ├── User/project_docs/             # ✅ Documentazione modulo User
 │   ├── UI/project_docs/               # ✅ Documentazione modulo UI
@@ -528,6 +539,7 @@ laravel/
 │   ├── Lang/project_docs/             # ✅ Documentazione modulo Lang
 │   ├── Activity/project_docs/         # ✅ Documentazione modulo Activity
 │   ├── Job/project_docs/              # ✅ Documentazione modulo Job
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
@@ -706,6 +718,10 @@ laravel/
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+│   ├── <nome modulo>/project_docs/         # ✅ Documentazione modulo <nome modulo>
+│   └── <nome progetto>/project_docs/        # ✅ Documentazione modulo <nome progetto>
+>>>>>>> 414a4ffcb (.)
 ├── Themes/
 │   ├── One/project_docs/              # ✅ Documentazione tema One
 │   └── Two/project_docs/              # ✅ Documentazione tema Two
@@ -857,6 +873,7 @@ find laravel/Themes -name "docs" -type d
 - [Modulo UI](../UI/project_docs/)
 - [Modulo <nome modulo>](../<nome modulo>/project_docs/)
 - [Modulo <nome progetto>](../<nome progetto>/project_docs/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1179,6 +1196,8 @@ find laravel/Themes -name "docs" -type d
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### **Documentazione Correlata**:
 - [Regole Modularità](modularity-hardcoded-names.md)

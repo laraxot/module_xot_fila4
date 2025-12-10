@@ -36,6 +36,7 @@ Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle 
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,6 +100,9 @@ final public static function form(Form $form): Form
 =======
 final public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 551c768c4 (.)
+=======
+final public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 414a4ffcb (.)
 {
     return $form->schema(static::getFormSchema());
 }
@@ -339,6 +343,7 @@ class NotificationResource extends XotBaseResource
 ### Collegamenti ai Moduli
 - [Notify Resource](../../Notify/docs/filament-resources.md)
 - [User Resource](../../User/docs/filament-resources.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +601,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Note Importanti
 
@@ -630,6 +637,7 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 7468a7d2 (.)
 5. Seguire le convenzioni di Filament 
+<<<<<<< HEAD
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
@@ -689,3 +697,6 @@ class NotificationResource extends XotBaseResource
 5. Seguire le convenzioni di Filament 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

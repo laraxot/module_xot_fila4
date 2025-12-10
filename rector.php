@@ -61,6 +61,7 @@ return static function (RectorConfig $rectorConfig): void {
     // Import short classes
     $rectorConfig->importShortClasses(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Rector\PHPUnit\Set\PHPUnitLevelSetList;
 =======
 >>>>>>> 28fc70fe (.)
@@ -832,4 +833,6 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 };

@@ -38,6 +38,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -65,6 +66,8 @@ declare(strict_types=1);
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 return [
     'actions' => [
         'authenticate' => [
@@ -83,6 +86,7 @@ return [
             'icon' => 'request',
 <<<<<<< HEAD
         ],
+<<<<<<< HEAD
         'login' => [
             'label' => 'login',
         ],
@@ -91,6 +95,8 @@ return [
 =======
 >>>>>>> 551c768c4 (.)
         ],
+=======
+>>>>>>> 414a4ffcb (.)
         'activeLocale' => [
             'label' => 'activeLocale',
         ],
@@ -361,6 +367,7 @@ return [
             ],
             [
 <<<<<<< HEAD
+<<<<<<< HEAD
             4 => [
             4 => [
             4 => [
@@ -374,6 +381,8 @@ return [
             4 => [
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 'description' => 'zeusData.4',
                 'helper_text' => 'zeusData.4',
                 'placeholder' => 'zeusData.4',
@@ -519,6 +528,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1095,3 +1105,5 @@ return array (
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)

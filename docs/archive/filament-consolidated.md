@@ -38,6 +38,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +218,9 @@ namespace Modules\SaluteOra\Filament\Resources;
 =======
 namespace Modules\<nome progetto>\Filament\Resources;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Resources;
+>>>>>>> 414a4ffcb (.)
 
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms\Components\TextInput;
@@ -258,6 +262,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +442,9 @@ namespace Modules\SaluteOra\Filament\Pages;
 =======
 namespace Modules\<nome progetto>\Filament\Pages;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Pages;
+>>>>>>> 414a4ffcb (.)
 
 use Modules\Xot\Filament\Pages\XotBasePage;
 
@@ -445,6 +453,7 @@ class DashboardPage extends XotBasePage
     protected static ?string $navigationIcon = 'heroicon-o-home';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -623,6 +632,9 @@ class DashboardPage extends XotBasePage
 =======
     protected static string $view = '<nome progetto>::filament.pages.dashboard';
 >>>>>>> 551c768c4 (.)
+=======
+    protected static string $view = '<nome progetto>::filament.pages.dashboard';
+>>>>>>> 414a4ffcb (.)
 
     /**
      * @return array<class-string>
@@ -632,6 +644,7 @@ class DashboardPage extends XotBasePage
         return [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,6 +824,9 @@ class DashboardPage extends XotBasePage
 =======
             \Modules\<nome progetto>\Filament\Widgets\StatsWidget::class,
 >>>>>>> 551c768c4 (.)
+=======
+            \Modules\<nome progetto>\Filament\Widgets\StatsWidget::class,
+>>>>>>> 414a4ffcb (.)
         ];
     }
 }
@@ -824,6 +840,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1003,6 +1020,9 @@ namespace Modules\SaluteOra\Filament\Widgets;
 =======
 namespace Modules\<nome progetto>\Filament\Widgets;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Widgets;
+>>>>>>> 414a4ffcb (.)
 
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
@@ -1030,6 +1050,7 @@ class StatsWidget extends XotBaseWidget
 TextInput::make('name')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,6 +1347,11 @@ TextInput::make('name')
     ->placeholder(__('<nome progetto>::fields.name.placeholder'))
     ->helperText(__('<nome progetto>::fields.name.help'))
 >>>>>>> 551c768c4 (.)
+=======
+    ->label(__('<nome progetto>::fields.name.label'))
+    ->placeholder(__('<nome progetto>::fields.name.placeholder'))
+    ->helperText(__('<nome progetto>::fields.name.help'))
+>>>>>>> 414a4ffcb (.)
     ->required()
     ->maxLength(255);
 ```
@@ -1372,6 +1398,7 @@ Select::make('status')
     ->options([
         'active' => __('<nome progetto>::fields.status.options.active'),
         'inactive' => __('<nome progetto>::fields.status.options.inactive'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1621,6 +1648,8 @@ Select::make('status')
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     ])
     ->required();
 ```
@@ -1628,6 +1657,7 @@ Select::make('status')
 ### Date Picker
 ```php
 DatePicker::make('appointment_date')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1868,6 +1898,10 @@ DatePicker::make('appointment_date')
     ->label(__('<nome progetto>::fields.appointment_date.label'))
     ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
 >>>>>>> 551c768c4 (.)
+=======
+    ->label(__('<nome progetto>::fields.appointment_date.label'))
+    ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
+>>>>>>> 414a4ffcb (.)
     ->required()
     ->minDate(now());
 ```
@@ -1879,6 +1913,7 @@ DatePicker::make('appointment_date')
 Tables\Columns\TextColumn::make('name')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2057,6 +2092,9 @@ Tables\Columns\TextColumn::make('name')
 =======
     ->label(__('<nome progetto>::fields.name.label'))
 >>>>>>> 551c768c4 (.)
+=======
+    ->label(__('<nome progetto>::fields.name.label'))
+>>>>>>> 414a4ffcb (.)
     ->searchable()
     ->sortable();
 ```
@@ -2066,6 +2104,7 @@ Tables\Columns\TextColumn::make('name')
 Tables\Columns\BadgeColumn::make('status')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2244,6 +2283,9 @@ Tables\Columns\BadgeColumn::make('status')
 =======
     ->label(__('<nome progetto>::fields.status.label'))
 >>>>>>> 551c768c4 (.)
+=======
+    ->label(__('<nome progetto>::fields.status.label'))
+>>>>>>> 414a4ffcb (.)
     ->colors([
         'success' => 'active',
         'danger' => 'inactive',
@@ -2294,6 +2336,7 @@ Tables\Columns\TextColumn::make('actions')
             ->label(__('<nome progetto>::actions.edit.label')),
         Tables\Actions\DeleteAction::make()
             ->label(__('<nome progetto>::actions.delete.label')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2549,6 +2592,8 @@ Tables\Columns\TextColumn::make('actions')
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     ]);
 ```
 
@@ -2559,6 +2604,7 @@ Tables\Columns\TextColumn::make('actions')
 Tables\Actions\CreateAction::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2737,6 +2783,9 @@ Tables\Actions\CreateAction::make()
 =======
     ->label(__('<nome progetto>::actions.create.label'))
 >>>>>>> 551c768c4 (.)
+=======
+    ->label(__('<nome progetto>::actions.create.label'))
+>>>>>>> 414a4ffcb (.)
     ->icon('heroicon-o-plus')
     ->color('primary');
 ```
@@ -2746,6 +2795,7 @@ Tables\Actions\CreateAction::make()
 Tables\Actions\EditAction::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2924,6 +2974,9 @@ Tables\Actions\EditAction::make()
 =======
     ->label(__('<nome progetto>::actions.edit.label'))
 >>>>>>> 551c768c4 (.)
+=======
+    ->label(__('<nome progetto>::actions.edit.label'))
+>>>>>>> 414a4ffcb (.)
     ->icon('heroicon-o-pencil')
     ->color('warning');
 ```
@@ -2972,6 +3025,7 @@ Tables\Actions\DeleteAction::make()
     ->requiresConfirmation()
     ->modalHeading(__('<nome progetto>::actions.delete.modal_heading'))
     ->modalDescription(__('<nome progetto>::actions.delete.modal_description'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3227,6 +3281,8 @@ Tables\Actions\DeleteAction::make()
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## 🎯 Best Practices
@@ -3299,6 +3355,7 @@ namespace Modules\<nome progetto>\Filament\Resources;
 
 // ❌ ERRATO - Namespace con 'App'
 namespace Modules\<nome progetto>\App\Filament\Resources;
+<<<<<<< HEAD
 <<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources;
 
@@ -3550,6 +3607,8 @@ namespace Modules\<nome modulo>\App\Filament\Resources;
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### 3. Ereditarietà
@@ -3623,6 +3682,7 @@ class <nome progetto>ServiceProvider extends XotBaseServiceProvider
 
 // ❌ ERRATO - Estendere direttamente
 class <nome progetto>ServiceProvider extends ServiceProvider
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ServiceProvider extends XotBaseServiceProvider
 {
@@ -3886,6 +3946,8 @@ class <nome progetto>ServiceProvider extends ServiceProvider
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## 🚨 Errori Comuni
@@ -3969,6 +4031,7 @@ namespace Modules\<nome progetto>\App\Filament\Resources;
 
 // ✅ CORRETTO
 namespace Modules\<nome progetto>\Filament\Resources;
+<<<<<<< HEAD
 <<<<<<< HEAD
 namespace Modules\<nome modulo>\App\Filament\Resources;
 
@@ -4220,6 +4283,8 @@ namespace Modules\<nome modulo>\Filament\Resources;
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## 📋 Checklist Pre-Commit

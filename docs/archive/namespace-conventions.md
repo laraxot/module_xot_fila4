@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +55,9 @@
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9315,6 +9319,7 @@ php scripts/check-namespaces.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -9365,6 +9370,9 @@ php scripts/check-namespaces.php
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+>>>>>>> 414a4ffcb (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 
@@ -9374,6 +9382,7 @@ php scripts/check-namespaces.php
  aurmich/dev
  aurmich/dev
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -9436,3 +9445,6 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

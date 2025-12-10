@@ -131,6 +131,7 @@ Generare e mantenere aggiornata una documentazione dettagliata in formato Markdo
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -143,6 +144,8 @@ Generare e mantenere aggiornata una documentazione dettagliata in formato Markdo
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ## Tabella: nome_tabella
 
 **Descrizione:** Questa tabella contiene dati relativi a...
@@ -472,6 +475,7 @@ public function up(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -484,6 +488,8 @@ public function up(): void
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # Genera documentazione dello schema da un file JSON
 php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
 
@@ -497,6 +503,7 @@ php artisan schema:generate-diagram --tables=tabella1,tabella2 --path=/path/to/o
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -509,6 +516,8 @@ php artisan schema:generate-diagram --tables=tabella1,tabella2 --path=/path/to/o
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 # Esporta lo schema del database in JSON
 php artisan db:export-schema --connection=nome_connessione --output=/path/to/output.json
 
@@ -556,6 +565,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 - Verificare che ci siano indici appropriati
 - Controllare che i tipi di dati siano ottimali per l'uso previsto
 - Utilizzare query builder o raw queries per query complesse
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -620,3 +630,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

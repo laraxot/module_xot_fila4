@@ -385,6 +385,7 @@ foreach ($properties as $property) {
 **Soluzione**: Rinominato in `$filterData` e rimosso il trait
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 **File**: `/Modules/Quaeris/docs/PROPERTY_CONFLICT_RESOLUTION_FILAMENT_TRAITS.md`
@@ -392,6 +393,9 @@ foreach ($properties as $property) {
 **File**: `/Modules/<nome progetto>/docs/PROPERTY_CONFLICT_RESOLUTION_FILAMENT_TRAITS.md`
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+**File**: `/Modules/Quaeris/docs/PROPERTY_CONFLICT_RESOLUTION_FILAMENT_TRAITS.md`
+>>>>>>> 414a4ffcb (.)
 
 ---
 
@@ -524,6 +528,7 @@ class MyPage extends XotBaseViewRecord
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 - `/Modules/Xot/docs/FILAMENT_4_LARAXOT_RULES.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - `/Modules/Quaeris/docs/PROPERTY_CONFLICT_RESOLUTION_FILAMENT_TRAITS.md`
@@ -531,3 +536,6 @@ class MyPage extends XotBaseViewRecord
 - `/Modules/<nome progetto>/docs/PROPERTY_CONFLICT_RESOLUTION_FILAMENT_TRAITS.md`
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+- `/Modules/Quaeris/docs/PROPERTY_CONFLICT_RESOLUTION_FILAMENT_TRAITS.md`
+>>>>>>> 414a4ffcb (.)

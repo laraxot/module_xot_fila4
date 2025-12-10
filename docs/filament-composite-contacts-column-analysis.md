@@ -493,6 +493,7 @@ Questa implementazione stabilisce un precedente per:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [UI Icons System](../../UI/project_docs/icons.md)
 - [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
@@ -697,6 +698,11 @@ Questa implementazione stabilisce un precedente per:
 - [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
 - [Filament Official Documentation](https://filamentphp.com/project_docs/3.x/tables/columns)
 >>>>>>> 80bc07e81 (.)
+=======
+- [UI Icons System](../../UI/project_docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/project_docs/3.x/tables/columns)
+>>>>>>> 414a4ffcb (.)
 
 ---
 

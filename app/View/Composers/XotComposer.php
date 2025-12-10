@@ -6,6 +6,7 @@ namespace Modules\Xot\View\Composers;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,10 +269,16 @@ use Illuminate\View\View;
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> ce6fc085 (.)
+=======
+use Illuminate\Contracts\Auth\Authenticatable;
+use Exception;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
+use Jenssegers\Agent\Agent;
+use Modules\Xot\Actions\File\AssetAction;
 use Modules\Xot\Actions\File\AssetPathAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
@@ -279,6 +286,7 @@ use Nwidart\Modules\Facades\Module;
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 <<<<<<< HEAD
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -345,6 +353,8 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Class XotComposer.
@@ -355,6 +365,7 @@ class XotComposer
      * Undocumented function.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<mixed|void> $arguments
      * @param array<mixed|void> $arguments
      * @param array<mixed|void> $arguments
@@ -363,6 +374,9 @@ class XotComposer
 =======
      * @param  array<mixed|void>  $arguments
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<mixed|void>  $arguments
+>>>>>>> 414a4ffcb (.)
      */
     public function __call(string $name, array $arguments): mixed
     {
@@ -387,6 +401,7 @@ class XotComposer
         $module = Arr::first($modules, static function ($module) use ($name): bool {
             // Ensure the module is an instance of LaravelModule
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!($module instanceof LaravelModule)) {
             if (!($module instanceof LaravelModule)) {
             if (!($module instanceof LaravelModule)) {
@@ -395,18 +410,26 @@ class XotComposer
 =======
             if (! ($module instanceof LaravelModule)) {
 >>>>>>> 551c768c4 (.)
+=======
+            if (! ($module instanceof LaravelModule)) {
+>>>>>>> 414a4ffcb (.)
                 return false;
             }
 
             Assert::string($moduleName = $module->getName());
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             $class = '\Modules\\'.$moduleName.'\View\Composers\ThemeComposer';
 >>>>>>> 551c768c4 (.)
+=======
+            $class = '\Modules\\'.$moduleName.'\View\Composers\ThemeComposer';
+>>>>>>> 414a4ffcb (.)
 
             return method_exists($class, $name);
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -458,6 +481,8 @@ class XotComposer
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         if (! \is_object($module)) {
             throw new Exception('Create a View\Composers\ThemeComposer.php inside a module with ['.
                 $name.
@@ -466,6 +491,7 @@ class XotComposer
 
         Assert::isInstanceOf($module, LaravelModule::class, '['.__LINE__.']['.class_basename($this).']');
         $class = '\Modules\\'.$module->getName().'\View\Composers\ThemeComposer';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,6 +996,8 @@ class XotComposer
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         $app = app($class);
         $callback = [$app, $name];
@@ -987,6 +1015,7 @@ class XotComposer
         $view->with('lang', $lang);
         $view->with('_theme', $this);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1163,9 +1192,12 @@ class XotComposer
 >>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
             $agent = new Agent();
+=======
+>>>>>>> 414a4ffcb (.)
         if (class_exists('\Jenssegers\Agent\Agent')) {
 <<<<<<< HEAD
             $agent = new Agent;
+<<<<<<< HEAD
             $agent = new Agent();
             $agent = new Agent();
         if (class_exists('\Jenssegers\Agent\Agent')) {
@@ -1230,6 +1262,8 @@ class XotComposer
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $view->with('isMobile', $agent->isMobile());
             $view->with('isTablet', $agent->isTablet());
             $view->with('isDesktop', $agent->isDesktop());
@@ -1238,6 +1272,7 @@ class XotComposer
         if (Auth::check()) {
             $profile = XotData::make()->getProfileModel();
             $view->with('profile', $profile);
+<<<<<<< HEAD
 <<<<<<< HEAD
             $view->with('user', auth()->user());
             $view->with('user', auth()->user());
@@ -1249,11 +1284,17 @@ class XotComposer
             $user = auth()->user();
             $view->with('user', $user);
 >>>>>>> 551c768c4 (.)
+=======
+            /** @var Authenticatable|null $user */
+            $user = auth()->user();
+            $view->with('user', $user);
+>>>>>>> 414a4ffcb (.)
         }
     }
 
     public function asset(string $str): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1270,6 +1311,9 @@ class XotComposer
 =======
         return asset(app(AssetAction::class)->execute($str));
 >>>>>>> 091f883c (.)
+=======
+        return asset(app(AssetAction::class)->execute($str));
+>>>>>>> 414a4ffcb (.)
     }
 
     public function path(string $str): string
@@ -1277,6 +1321,7 @@ class XotComposer
 <<<<<<< HEAD
 <<<<<<< HEAD
         return app(AssetPathAction::class)->execute($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1338,11 +1383,14 @@ class XotComposer
         return app(AssetPathAction::class)->execute($str);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     public function metatag(string $str): string|bool|null
     {
         $metatag = MetatagData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $fun = 'get' . Str::studly($str);
@@ -1618,6 +1666,9 @@ class XotComposer
 =======
         $fun = 'get'.Str::studly($str);
 >>>>>>> 551c768c4 (.)
+=======
+        $fun = 'get'.Str::studly($str);
+>>>>>>> 414a4ffcb (.)
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

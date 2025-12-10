@@ -89,6 +89,7 @@ Questa scelta garantisce:
 - [docs/links.md](../../../../docs/links.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -286,10 +287,15 @@ Questa scelta garantisce:
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+=======
+=======
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
@@ -334,3 +340,6 @@ Questa scelta garantisce:
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

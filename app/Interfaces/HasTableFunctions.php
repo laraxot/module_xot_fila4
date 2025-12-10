@@ -6,6 +6,7 @@ namespace Modules\Xot\Interfaces;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,12 +188,18 @@ use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
 >>>>>>> 551c768c4 (.)
+=======
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+use Filament\Tables\Columns\Column;
+>>>>>>> 414a4ffcb (.)
 
 interface HasTableFunctions
 {
     /**
      * Get the table columns for the list view.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -209,12 +216,16 @@ interface HasTableFunctions
 =======
      * @return array<string, Column>
 >>>>>>> 091f883c (.)
+=======
+     * @return array<string, Column>
+>>>>>>> 414a4ffcb (.)
      */
     public function getTableColumns(): array;
 
     /**
      * Get the table actions.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -231,6 +242,9 @@ interface HasTableFunctions
 =======
      * @return array<string, Action>
 >>>>>>> 091f883c (.)
+=======
+     * @return array<string, Action>
+>>>>>>> 414a4ffcb (.)
      */
     public function getTableActions(): array;
 
@@ -240,6 +254,7 @@ interface HasTableFunctions
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, BulkAction>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,6 +316,8 @@ interface HasTableFunctions
      * @return array<string, BulkAction>
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function getTableBulkActions(): array;
 }

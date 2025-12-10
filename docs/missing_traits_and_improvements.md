@@ -70,6 +70,7 @@ class LimeJsonService
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 // QuaerisService.php
@@ -79,6 +80,12 @@ class QuaerisService
 class <nome progetto>Service
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+// QuaerisService.php
+class QuaerisService
+// <nome progetto>Service.php
+class <nome progetto>Service
+>>>>>>> 414a4ffcb (.)
 {
     use SingletonTrait;
     
@@ -552,6 +559,7 @@ class LimeJsonService
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 // QuaerisService.php
@@ -561,6 +569,12 @@ class QuaerisService
 class <nome progetto>Service
 >>>>>>> laraxot/develop
 >>>>>>> 551c768c4 (.)
+=======
+// QuaerisService.php
+class QuaerisService
+// <nome progetto>Service.php
+class <nome progetto>Service
+>>>>>>> 414a4ffcb (.)
 {
     use SingletonTrait;
     

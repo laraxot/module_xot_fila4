@@ -11,6 +11,7 @@ namespace Modules\Xot\Console\Commands;
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Exception;
 =======
@@ -23,6 +24,8 @@ use Exception;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Console\Command;
 use Modules\Xot\Actions\ParsePrintPageStringAction;
 
@@ -45,6 +48,7 @@ class ParsePrintPageStringCommand extends Command
     /**
      * Create a new command instance.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -338,6 +342,8 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Execute the console command.
@@ -377,6 +383,7 @@ class ParsePrintPageStringCommand extends Command
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         if (! is_string($str)) {
+<<<<<<< HEAD
         if (!is_string($str)) {
         if (!is_string($str)) {
         if (!is_string($str)) {
@@ -681,6 +688,9 @@ class ParsePrintPageStringCommand extends Command
         if (! is_string($str)) {
             throw new Exception('argument str must be a string');
 >>>>>>> 551c768c4 (.)
+=======
+            throw new Exception('argument str must be a string');
+>>>>>>> 414a4ffcb (.)
         }
         dddx(app(ParsePrintPageStringAction::class)->execute($str));
     }

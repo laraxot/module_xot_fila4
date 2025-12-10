@@ -931,15 +931,19 @@ class XotPerformanceMonitor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1a525d0ea (.)
 =======
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [Laravel Architecture Patterns](https://laravel.com/docs/architecture-concepts)
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level-10.md)
 - [SOLID Principles in PHP](../../../docs/solid-principles.md)
 - [Performance Best Practices](../../../docs/performance-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -982,6 +986,8 @@ class XotPerformanceMonitor
 >>>>>>> ce6fc085 (.)
 =======
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

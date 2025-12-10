@@ -8,6 +8,7 @@ la classe `XotBasePage` estende `Filament\Pages\Page` e si trova in:
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34,6 +35,9 @@ la classe `XotBasePage` estende `Filament\Pages\Page` e si trova in:
 =======
 /var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 >>>>>>> 551c768c4 (.)
+=======
+/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## namespace
@@ -98,6 +102,7 @@ class SettingsPage extends XotBasePage
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +129,9 @@ namespace Modules\<nome progetto>\Filament\Pages;
 =======
 namespace Modules\<nome progetto>\Filament\Pages;
 >>>>>>> 551c768c4 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Pages;
+>>>>>>> 414a4ffcb (.)
 
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Filament\Forms\Components\TextInput;
@@ -135,6 +143,7 @@ class DashboardSettings extends XotBasePage
     
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +170,9 @@ class DashboardSettings extends XotBasePage
 =======
     protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
 >>>>>>> 551c768c4 (.)
+=======
+    protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+>>>>>>> 414a4ffcb (.)
     
     protected function getFormFields(): array
     {
@@ -255,6 +267,7 @@ class DashboardSettingsPolicy
 ## collegamento ad altre documentazioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +304,10 @@ class DashboardSettingsPolicy
 - [pattern di estensione filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-best-practices.md)
 >>>>>>> 551c768c4 (.)
+=======
+- [pattern di estensione filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-best-practices.md)
+>>>>>>> 414a4ffcb (.)
 
 ## ATTENZIONE: errori critici da evitare
 - NON dichiarare mai abstract getFormSchema() in XotBasePage: la classe base Filament lo implementa già. Fornire sempre una implementazione di default (array vuoto).

@@ -208,6 +208,7 @@ Codice non conforme agli standard di tipizzazione.
 # Eseguire da directory Laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,6 +395,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 >>>>>>> 551c768c4 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> 414a4ffcb (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 

@@ -11,6 +11,7 @@ namespace Modules\Xot\Filament\Actions\Header;
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
 // use Filament\Actions\Action;
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
@@ -26,6 +27,8 @@ use Exception;
 use Exception;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
@@ -48,6 +51,7 @@ class ExportXlsAction extends Action
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
@@ -77,6 +81,8 @@ class ExportXlsAction extends Action
                     collect($livewire->tableFilters)->flatten()->implode('-') .
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
@@ -88,42 +94,12 @@ class ExportXlsAction extends Action
 
                 $resource = $livewire->getResource();
 
-            ->tooltip(__('xot::actions.export_xls'))
-            ->icon('heroicon-o-arrow-down-tray')
-            ->action(static function (ListRecords $livewire) {
-                $filename =
-                    class_basename($livewire) .
-                    '-' .
-                    collect($livewire->tableFilters)->flatten()->implode('-') .
-                    '.xlsx';
-                $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
-                $transKey .= '.fields';
-                $query = $livewire->getFilteredTableQuery();
-                if ($query === null) {
-                    throw new Exception('Query is null');
-                }
-                $rows = $query->get();
-
-                $resource = $livewire->getResource();
-
-                
-
-            ->tooltip(__('xot::actions.export_xls'))
-            ->icon('heroicon-o-arrow-down-tray')
-            ->action(static function (ListRecords $livewire) {
-                $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
-                $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
-                $transKey .= '.fields';
-                $query = $livewire->getFilteredTableQuery();
-                $rows = $query->get();
-                
-                $resource = $livewire->getResource();
-                
                 /** @var array<int, string> $fields */
                 $fields = [];
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                   
@@ -137,6 +113,8 @@ class ExportXlsAction extends Action
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                         $fields = array_map(
                             /**
                              * @param  mixed  $field
@@ -159,6 +137,7 @@ class ExportXlsAction extends Action
                             },
                             $rawFields
                         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         /** @var array<int, string> $fields */
@@ -188,6 +167,8 @@ class ExportXlsAction extends Action
                         }, $rawFields);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     }
                     Assert::isArray($fields);
                 }
@@ -197,6 +178,7 @@ class ExportXlsAction extends Action
     }
 
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -236,6 +218,8 @@ class ExportXlsAction extends Action
     public static function getDefaultName(): null|string
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return 'export_xls';
     }

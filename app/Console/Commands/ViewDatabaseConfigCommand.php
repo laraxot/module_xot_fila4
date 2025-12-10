@@ -33,6 +33,7 @@ class ViewDatabaseConfigCommand extends Command
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +325,8 @@ class ViewDatabaseConfigCommand extends Command
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Execute the console command.
@@ -354,6 +357,7 @@ class ViewDatabaseConfigCommand extends Command
 
             // return Arr::except($item, ['password']);
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,6 +439,8 @@ class ViewDatabaseConfigCommand extends Command
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         dddx($database);
     }
 }

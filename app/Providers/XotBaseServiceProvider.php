@@ -6,6 +6,7 @@ namespace Modules\Xot\Providers;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +71,8 @@ use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
+=======
+>>>>>>> 414a4ffcb (.)
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 =======
@@ -79,9 +82,6 @@ use Exception;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
-use BladeUI\Icons\Factory as BladeIconsFactory;
-use Illuminate\Support\Facades\Blade;
-use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
@@ -90,6 +90,7 @@ use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
 use Throwable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
@@ -108,15 +109,33 @@ use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Webmozart\Assert\Assert;
 
+/**
+ * Class XotBaseServiceProvider.
+ */
 abstract class XotBaseServiceProvider extends ServiceProvider
 {
+    use PathNamespace;
+
+    public string $name = '';
+
+    public string $nameLower = '';
+
+    protected string $module_dir = __DIR__;
+
+    protected string $module_ns = __NAMESPACE__;
+
+    protected string $module_base_ns;
+
     /**
-     * Bootstrap any application services.
+     * Boot the application events.
      */
     public function boot(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
@@ -163,16 +182,23 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->registerViews();
         $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
 >>>>>>> 551c768c4 (.)
+=======
+        $this->registerTranslations();
+        $this->registerConfig();
+        $this->registerViews();
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+>>>>>>> 414a4ffcb (.)
         $this->registerLivewireComponents();
         $this->registerBladeComponents();
         $this->registerCommands();
     }
 
     /**
-     * Register any application services.
+     * Register the service provider.
      */
     public function register(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
@@ -246,6 +272,12 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
 >>>>>>> 551c768c4 (.)
+=======
+        $this->nameLower = Str::lower($this->name);
+        $this->module_ns = collect(explode('\\', $this->module_ns))->slice(0, -1)->implode('\\');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+>>>>>>> 414a4ffcb (.)
         $this->registerBladeIcons();
     }
 
@@ -290,6 +322,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
             $svgPath = $assetsPath.'/../svg';
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on [' . static::class . ']');
             throw new Exception('name is empty on [' . static::class . ']');
             throw new \Exception('name is empty on ['.static::class.']');
@@ -310,61 +343,14 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             $svgPath = $assetsPath . '/../svg';
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             try {
                 $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
             } catch (\Throwable $e) {
                 // Ignore missing SVG path
             }
         });
-
-        // $svgPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'svg');
-        /*
-         * Assert::string($relativePath = config('modules.paths.generator.assets.path'));
-         *
-         * try {
-         * $svgPath = module_path($this->name, $relativePath.'/../svg');
-         * if (! is_string($svgPath)) {
-         * throw new \Exception('Invalid SVG path');
-         * }
-         * $resolvedPath = $svgPath;
-         * $svgPath = $resolvedPath;
-         * } catch (\Error $e) {
-         * $svgPath = base_path('Modules/'.$this->name.'/'.$relativePath.'/../svg');
-         * if (! is_string($svgPath)) {
-         * throw new \Exception('Invalid fallback SVG path');
-         * }
-         * }
-         *
-         * $basePath = base_path(DIRECTORY_SEPARATOR);
-         * $svgPath = str_replace($basePath, '', $svgPath);
-         *
-         * Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
-         * Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
-         */
-        // $svgPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'svg');
-        /*
-        Assert::string($relativePath = config('modules.paths.generator.assets.path'));
-
-        try {
-            $svgPath = module_path($this->name, $relativePath.'/../svg');
-            if (! is_string($svgPath)) {
-                throw new \Exception('Invalid SVG path');
-            }
-            $resolvedPath = $svgPath;
-            $svgPath = $resolvedPath;
-        } catch (\Error $e) {
-            $svgPath = base_path('Modules/'.$this->name.'/'.$relativePath.'/../svg');
-            if (! is_string($svgPath)) {
-                throw new \Exception('Invalid fallback SVG path');
-            }
-        }
-
-        $basePath = base_path(DIRECTORY_SEPARATOR);
-        $svgPath = str_replace($basePath, '', $svgPath);
-
-        Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
-        Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
-        */
 
         // $svgPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'svg');
         /*
@@ -398,6 +384,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerViews(): void
     {
         if ($this->name === '') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -484,6 +471,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             throw new Exception('name is empty on ['.static::class.']');
 >>>>>>> 551c768c4 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 414a4ffcb (.)
         }
 
         $viewPath = module_path($this->name, 'resources/views');
@@ -495,6 +485,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Restituisce il path della cartella lang del modulo, con fallback robusto.
      */
@@ -544,10 +535,16 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
      * @throws \Exception
 >>>>>>> 5cf46378 (.)
+=======
+     * Registra le traduzioni del modulo.
+     *
+     * @throws Exception
+>>>>>>> 414a4ffcb (.)
      */
     public function registerTranslations(): void
     {
         if ($this->name === '') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -634,6 +631,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             throw new Exception('name is empty on ['.static::class.']');
 >>>>>>> 551c768c4 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 414a4ffcb (.)
         }
 
         $langPath = $this->getLangPath();
@@ -646,6 +646,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
      */
     public function registerFactories(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!app()->environment('production')) {
         if (!app()->environment('production')) {
@@ -689,10 +690,14 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
         if (! app()->environment('production')) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! app()->environment('production')) {
+>>>>>>> 414a4ffcb (.)
             // app(Factory::class)->load($this->module_dir.'/../Database/factories');
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 Assert::string($file);
@@ -735,11 +740,14 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function registerBladeComponents(): void
     {
         $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
         try {
             Blade::anonymousComponentPath($componentViewPath);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         } catch (Exception|CannotRegisterIconSet $e) {
@@ -750,6 +758,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         } catch (Exception|CannotRegisterIconSet $e) {
         } catch (\Exception $e) {
         } catch (Exception|CannotRegisterIconSet $e) {
+=======
+>>>>>>> 414a4ffcb (.)
         } catch (Exception $e) {
 =======
 <<<<<<< HEAD
@@ -779,6 +789,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $componentClassPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-class');
 
         $namespace = $this->module_ns.'\View\Components';
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * Register config.
@@ -839,6 +850,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $namespace = $this->module_ns . '\View\Components';
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         Blade::componentNamespace($namespace, $this->nameLower);
 
         app(RegisterBladeComponentsAction::class)->execute($componentClassPath, $this->module_ns);
@@ -851,6 +864,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         $prefix = '';
         app(RegisterLivewireComponentsAction::class)
+<<<<<<< HEAD
 <<<<<<< HEAD
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
@@ -892,12 +906,16 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             ->execute($this->module_dir.'/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
 >>>>>>> 551c768c4 (.)
+=======
+            ->execute($this->module_dir.'/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 414a4ffcb (.)
     }
 
     public function registerCommands(): void
     {
         $prefix = '';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $this->module_dir . '/../Console/Commands',
                 'Modules\\' . $this->name . '\\Console\\Commands',
@@ -914,10 +932,15 @@ abstract class XotBaseServiceProvider extends ServiceProvider
                 $prefix,
             );
         if ($comps->count() === 0) {
+=======
+        $comps = app(GetComponentsAction::class)
+            ->execute(
+>>>>>>> 414a4ffcb (.)
                 $this->module_dir.'/../Console/Commands',
                 'Modules\\'.$this->name.'\\Console\\Commands',
                 $prefix,
             );
+<<<<<<< HEAD
         if ($comps->count() == 0) {
                 $this->module_dir . '/../Console/Commands',
                 'Modules\\' . $this->name . '\\Console\\Commands',
@@ -929,6 +952,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> 551c768c4 (.)
                 $prefix,
             );
+=======
+>>>>>>> 414a4ffcb (.)
         if ($comps->count() === 0) {
             return;
         }
@@ -937,6 +962,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $commands = array_map(static function (mixed $item): string {
             Assert::isArray($item);
             Assert::keyExists($item, 'ns');
+<<<<<<< HEAD
 <<<<<<< HEAD
             Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
             Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -959,6 +985,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             Assert::string($item['ns'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 >>>>>>> 551c768c4 (.)
+=======
+            Assert::string($item['ns'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+>>>>>>> 414a4ffcb (.)
 
             return $item['ns'];
         }, $commands);

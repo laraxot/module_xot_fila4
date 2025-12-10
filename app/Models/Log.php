@@ -6,12 +6,16 @@ namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Sushi\Sushi;
 use Override;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Sushi\Sushi;
 use Override;
 use Modules\Xot\Database\Factories\FeedFactory;
+=======
+use Modules\Xot\Database\Factories\LogFactory;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
 use Override;
@@ -105,6 +109,7 @@ use Sushi\Sushi;
 =======
 >>>>>>> 2f3197ab (.)
 use Sushi\Sushi;
+<<<<<<< HEAD
 use Sushi\Sushi;
 use Sushi\Sushi;
 <<<<<<< HEAD
@@ -154,6 +159,8 @@ use Illuminate\Support\Facades\File;
 use Override;
 use Sushi\Sushi;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 // --- services
 // --- TRAITS ---
@@ -193,6 +200,7 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -326,10 +334,13 @@ use Sushi\Sushi;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -346,6 +357,9 @@ class Log extends BaseModel
 =======
     use Sushi;
 >>>>>>> 091f883c (.)
+=======
+    use Sushi;
+>>>>>>> 414a4ffcb (.)
 
     protected $fillable = ['id', 'name', 'size'];
 
@@ -359,6 +373,7 @@ class Log extends BaseModel
 
         foreach ($files as $file) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ('log' === $file->getExtension()) {
             if ('log' === $file->getExtension()) {
             if ('log' === $file->getExtension()) {
@@ -367,6 +382,9 @@ class Log extends BaseModel
 =======
             if ($file->getExtension() === 'log') {
 >>>>>>> 551c768c4 (.)
+=======
+            if ($file->getExtension() === 'log') {
+>>>>>>> 414a4ffcb (.)
                 $rows[] = [
                     'id' => $file->getFilenameWithoutExtension(),
                     'name' => $file->getFilenameWithoutExtension(),
@@ -378,6 +396,7 @@ class Log extends BaseModel
         return $rows;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -613,6 +632,8 @@ class Log extends BaseModel
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
@@ -623,6 +644,7 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
 =======
@@ -656,12 +678,15 @@ class Log extends BaseModel
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'name' => 'string',
             'size' => 'integer',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -688,6 +713,8 @@ class Log extends BaseModel
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -811,6 +838,7 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -926,3 +954,5 @@ class Log extends BaseModel
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)

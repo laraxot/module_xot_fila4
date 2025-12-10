@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +54,8 @@
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 # Roadmap Modulo Xot
 
@@ -93,6 +96,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -120,6 +124,8 @@
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ### 5. Documentazione (75%)
 - [x] Struttura base
 - [x] Guide principali
@@ -129,6 +135,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,6 +306,8 @@
 =======
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -333,6 +342,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -361,6 +371,8 @@
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ### Testing & Quality [60%]
 - [-] Unit Tests [50%](roadmap/unit-tests.md)
 - [-] Feature Tests [45%](roadmap/feature-tests.md)
@@ -573,6 +585,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Roadmap Modulo User](../User/project_docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/project_docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/project_docs/roadmap.md)
@@ -779,6 +792,8 @@
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -1010,6 +1025,7 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1316,6 +1332,8 @@
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -1332,6 +1350,7 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1526,6 +1545,8 @@
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 
 ---

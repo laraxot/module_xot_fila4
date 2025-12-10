@@ -31,6 +31,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -82,15 +83,22 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Modules\Xot\Models\Session.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * @property string $id
  * @property string|null $user_id
 >>>>>>> 551c768c4 (.)
+=======
+ * @property string $id
+ * @property string|null $user_id
+>>>>>>> 414a4ffcb (.)
  * @property string|null $ip_address
  * @property string|null $user_agent
  * @property string $payload
@@ -121,6 +129,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int                             $id
  * @property int|null                        $user_id
@@ -281,6 +290,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class Session extends BaseModel

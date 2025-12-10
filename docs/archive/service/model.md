@@ -311,6 +311,7 @@ foreach ((new ReflectionClass($model))->getMethods(ReflectionMethod::IS_PUBLIC) 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
@@ -410,5 +411,9 @@ foreach ((new ReflectionClass($model))->getMethods(ReflectionMethod::IS_PUBLIC) 
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [model.md](../../../Xot/docs/model.md)
+* [model.md](../../../Xot/docs/service/model.md)
+>>>>>>> 414a4ffcb (.)
 
 ```

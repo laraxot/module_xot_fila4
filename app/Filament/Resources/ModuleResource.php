@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,11 +312,14 @@ use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
 use Filament\Forms;
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Illuminate\Support\Str;
 use Modules\Xot\Models\Module;
 use Override;
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
@@ -354,11 +358,14 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 
 class ModuleResource extends XotBaseResource
 {
     protected static ?string $model = Module::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Override;
@@ -563,12 +570,16 @@ class ModuleResource extends XotBaseResource
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    #[Override]
+>>>>>>> 414a4ffcb (.)
     public static function getFormSchema(): array
     {
         return [
             'name' => TextInput::make('name')->required(),
             'description' => TextInput::make('description'),
             'icon' => Select::make('icon')->options([]),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'icon' => IconPicker::make('icon'),
             'icon' => IconPicker::make('icon'),
@@ -582,6 +593,8 @@ class ModuleResource extends XotBaseResource
             'icon' => IconPicker::make('icon'),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'priority' => TextInput::make('priority'),
             'status' => Toggle::make('status'),
         ];
@@ -631,6 +644,7 @@ class ModuleResource extends XotBaseResource
 <<<<<<< HEAD
     public static function getPages(): array
     {
+<<<<<<< HEAD
     public static function getRelations(): array
     {
         return [];
@@ -643,6 +657,8 @@ class ModuleResource extends XotBaseResource
 >>>>>>> 5cf46378 (.)
     public static function getPages(): array
     {
+=======
+>>>>>>> 414a4ffcb (.)
         $prefix = static::class.'\\Pages\\';
         $name = Str::of(class_basename(static::class))->before('Resource')->toString();
         $plural = Str::of($name)->plural()->toString();
@@ -661,6 +677,7 @@ class ModuleResource extends XotBaseResource
             'index' => $index::route('/'),
             'create' => $create::route('/create'),
             'edit' => $edit::route('/{record}/edit'),
+<<<<<<< HEAD
 <<<<<<< HEAD
         return [
             'index' => ListModules::route('/'),
@@ -743,6 +760,8 @@ class ModuleResource extends XotBaseResource
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 }

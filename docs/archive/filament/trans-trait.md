@@ -88,6 +88,7 @@ class MyResource
 - [Translation Guidelines](../TRANSLATIONS-BEST-PRACTICES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,3 +192,6 @@ class MyResource
 =======
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 414a4ffcb (.)

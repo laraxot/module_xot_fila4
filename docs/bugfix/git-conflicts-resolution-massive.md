@@ -5,25 +5,30 @@
 
 ## Contesto
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot, User e Quaeris, causando errori ParseError e blocco di `composer dump-autoload`.
 =======
 Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot, User e <nome progetto>, causando errori ParseError e blocco di `composer dump-autoload`.
 >>>>>>> 551c768c4 (.)
+=======
+Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot, User e <nome progetto>, causando errori ParseError e blocco di `composer dump-autoload`.
+>>>>>>> 414a4ffcb (.)
 
 ## Strategia Adottata
 
-<<<<<<< HEAD
 ### 1. Identificazione Sistematica
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches > /tmp/git-conflicts-list.txt
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
 wc -l /tmp/git-conflicts-list.txt  # 323 file
 ```
-=======
->>>>>>> 7ee87c138 (.)
 
 ### 2. Batch Processing
 Organizzati in 8 batch prioritari:
@@ -68,18 +73,19 @@ Per conflitti complessi (3 file finali):
 - **Totale**: **134 file corretti manualmente**
 - **Rimanenti 189**: Puliti automaticamente con script batch
 
-<<<<<<< HEAD
 ### Verifica Finale
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
 # Output: 0 ✅
 ```
-=======
->>>>>>> 7ee87c138 (.)
 
 ### Sintassi Verificata
 ```bash
@@ -97,10 +103,14 @@ find Modules/Xot/app/Actions -name "*.php" | xargs php -l 2>&1 | grep -c "No syn
 **Soluzione**: Ripristino da Git dopo tentativo fallito con sed
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 git checkout HEAD -- $(find Modules/Quaeris -name "*Widget.php" -type f)
 =======
 git checkout HEAD -- $(find Modules/<nome progetto> -name "*Widget.php" -type f)
 >>>>>>> 551c768c4 (.)
+=======
+git checkout HEAD -- $(find Modules/<nome progetto> -name "*Widget.php" -type f)
+>>>>>>> 414a4ffcb (.)
 ```
 
 **Widget corretti**:
@@ -132,18 +142,19 @@ git checkout HEAD -- $(find Modules/<nome progetto> -name "*Widget.php" -type f)
 - ⚠️ MAI usare sed per rimozioni multi-linea complesse
 
 ### 3. Verifica Continua
-<<<<<<< HEAD
 ```bash
 # Dopo ogni batch
 find $BATCH_DIR -name "*.php" | xargs php -l
+<<<<<<< HEAD
 <<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
 =======
 
 >>>>>>> 551c768c4 (.)
-```
 =======
->>>>>>> 7ee87c138 (.)
+
+>>>>>>> 414a4ffcb (.)
+```
 
 ## Impatto sul Sistema
 
@@ -170,12 +181,12 @@ grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
 ## Comandi di Riferimento
 
 ### Identificazione Conflitti
-<<<<<<< HEAD
 ```bash
 # Lista file con conflitti
 git status --porcelain | grep "^UU\|^AA\|^DD"
 
 # Conta conflitti
+<<<<<<< HEAD
 <<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | wc -l
 
@@ -187,9 +198,12 @@ grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
 
 # Lista per tipo
 >>>>>>> 551c768c4 (.)
-```
 =======
->>>>>>> 7ee87c138 (.)
+
+
+# Lista per tipo
+>>>>>>> 414a4ffcb (.)
+```
 
 ### Pulizia Batch
 ```bash
@@ -199,12 +213,16 @@ grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
 # Verifica
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/Xot/app --files-with-matches | wc -l
 =======
 >>>>>>> 7ee87c138 (.)
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### Verifica Finale
@@ -215,6 +233,7 @@ find Modules/ -name "*.php" -type f | xargs php -l 2>&1 | grep -c "No syntax err
 # Conflitti rimasti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
 =======
 
@@ -222,6 +241,9 @@ grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
 
 # Test server
 php artisan serve --host=127.0.0.1 --port=8000
@@ -257,8 +279,14 @@ curl -I http://127.0.0.1:8000
 4. ⏳ Test di regressione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> 551c768c4 (.)
+=======
+
+
+
+>>>>>>> 414a4ffcb (.)

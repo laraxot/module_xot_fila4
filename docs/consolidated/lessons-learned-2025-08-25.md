@@ -66,6 +66,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Use CLI flags for scope/limits; target level 9+. Keep array key/value types explicit.
 =======
 <<<<<<< HEAD
@@ -132,6 +133,9 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Use CLI flags for scope/limits; target level 9+. Keep array key/value types explicit.
 >>>>>>> 80bc07e81 (.)
+=======
+- Use CLI flags for scope/limits; target level 10+. Keep array key/value types explicit.
+>>>>>>> 414a4ffcb (.)
 
 ## 8. Testing
 - No `RefreshDatabase`.
@@ -140,6 +144,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 ## 9. URL Localization & Frontoffice
 - URLs prefixed by locale: `/{locale}/...`; get locale via `app()->getLocale()`.
 - Homepage blade: `Themes/One/resources/views/pages/index.blade.php` (`pub_theme::pages.index`).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +318,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 >>>>>>> d9f43fce9 (.)
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets ()
@@ -321,6 +328,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 
 ## 10. Icons & Assets (<nome progetto>)
 - SVG in `laravel/Modules/<nome progetto>/resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
+<<<<<<< HEAD
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,6 +435,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 ## 10. Icons & Assets (<nome progetto>)
 - SVG in `laravel/Modules/<nome progetto>/resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.
@@ -445,6 +455,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - Add JS callbacks: `eventDidMount`, `eventClassNames`, `selectAllow`, `eventAllow`.
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,3 +531,6 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
 >>>>>>> 80bc07e81 (.)
+=======
+- Backlinks: see `Modules/<nome modulo>/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+>>>>>>> 414a4ffcb (.)

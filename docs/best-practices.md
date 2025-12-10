@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +155,9 @@
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # Best Practices
 
 ## Laravel
@@ -202,6 +206,7 @@
 - Verificare la testabilità
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,6 +397,10 @@
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -1111,6 +1120,7 @@ public function createModel(array $data): MioModello
 <<<<<<< HEAD
 - [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+<<<<<<< HEAD
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 - [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
@@ -1261,10 +1271,13 @@ public function createModel(array $data): MioModello
 - [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1305,3 +1318,6 @@ public function createModel(array $data): MioModello
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

@@ -29,6 +29,7 @@ Questo documento sostituisce e consolida **40+ file di best practices duplicati*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -79,6 +80,9 @@ Questo documento sostituisce e consolida **40+ file di best practices duplicati*
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/best-practices-consolidated.md`
 >>>>>>> 60f0a1820 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/best-practices-consolidated.md`
+>>>>>>> 414a4ffcb (.)
 - **Implementazione**: Codice nei singoli moduli (solo implementazione, non docs)
 
 ## Principi Fondamentali
@@ -509,6 +513,7 @@ Modules/UI/resources/views/components/ui/
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,6 +700,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 >>>>>>> 551c768c4 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> 414a4ffcb (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -899,6 +907,7 @@ return new class extends XotBaseMigration {
 # Eseguire da directory Laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1085,6 +1094,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 >>>>>>> 551c768c4 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> 414a4ffcb (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 

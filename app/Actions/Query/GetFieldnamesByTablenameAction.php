@@ -32,6 +32,7 @@ use Spatie\QueueableAction\QueueableAction;
 use Throwable;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -69,6 +70,8 @@ use Illuminate\Support\Facades\Schema;
 use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Webmozart\Assert\Assert;
 
 final class GetFieldnamesByTablenameAction
@@ -86,6 +89,7 @@ final class GetFieldnamesByTablenameAction
      */
 <<<<<<< HEAD
     public function execute(string $table, ?string $connectionName = null): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -317,6 +321,8 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -343,6 +349,7 @@ final class GetFieldnamesByTablenameAction
         Assert::string($connectionName ??= config('database.default'));
 
         // Validate database connection
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!$this->isValidConnection($connectionName)) {
         if (!$this->isValidConnection($connectionName)) {
@@ -462,10 +469,15 @@ final class GetFieldnamesByTablenameAction
 =======
             throw new InvalidArgumentException(sprintf('Invalid database connection: %s',  $connectionName));
 >>>>>>> 5cf46378 (.)
+=======
+        if (! $this->isValidConnection($connectionName)) {
+            throw new InvalidArgumentException(sprintf('Invalid database connection: %s', $connectionName));
+>>>>>>> 414a4ffcb (.)
         }
 
         // Check if table exists in the database
         if (! Schema::connection($connectionName)->hasTable($table)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,11 +515,19 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            throw new InvalidArgumentException(sprintf(
+                'Table "%s" does not exist in connection "%s".',
+                $table,
+                $connectionName,
+            ));
+>>>>>>> 414a4ffcb (.)
         }
 
         // Get and return column listing
         try {
             $columns = Schema::connection($connectionName)->getColumnListing($table);
+<<<<<<< HEAD
 <<<<<<< HEAD
             $columns = array_values($columns);
             // $columns = array_map('strval', $columns);
@@ -559,6 +579,11 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> ce6fc085 (.)
 
+=======
+
+            return array_values($columns);
+            // $columns = array_map('strval', $columns);
+>>>>>>> 414a4ffcb (.)
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (Throwable $e) {
             throw new InvalidArgumentException(sprintf(
@@ -566,6 +591,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $e->getMessage(),
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (\Throwable $e) {
@@ -619,6 +645,8 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
     }
 
@@ -631,6 +659,7 @@ final class GetFieldnamesByTablenameAction
             DB::connection($connectionName)->getPdo();
 
             return true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -647,6 +676,9 @@ final class GetFieldnamesByTablenameAction
 =======
         } catch (Throwable $e) {
 >>>>>>> 091f883c (.)
+=======
+        } catch (Throwable $e) {
+>>>>>>> 414a4ffcb (.)
             return false;
         }
     }

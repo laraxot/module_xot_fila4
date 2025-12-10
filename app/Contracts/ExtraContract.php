@@ -35,6 +35,7 @@ use Illuminate\Support\Carbon;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -71,6 +72,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Modules\Xot\Contracts\ExtraContract.
@@ -83,6 +86,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder|ExtraContract withExtraAttributes()
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int         $id
  * @property int         $id
  * @property int         $id
@@ -91,6 +95,9 @@ use Illuminate\Support\Carbon;
 =======
  * @property int $id
 >>>>>>> 551c768c4 (.)
+=======
+ * @property int $id
+>>>>>>> 414a4ffcb (.)
  * @property string $model_type
  * @property string $model_id
  * @property Carbon|null $created_at
@@ -116,6 +123,7 @@ use Illuminate\Support\Carbon;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ExtraContract
 {
 }
@@ -134,3 +142,6 @@ interface ExtraContract
 =======
 interface ExtraContract {}
 >>>>>>> 551c768c4 (.)
+=======
+interface ExtraContract {}
+>>>>>>> 414a4ffcb (.)

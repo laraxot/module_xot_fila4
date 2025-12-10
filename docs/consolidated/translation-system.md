@@ -327,7 +327,10 @@ php artisan view:clear
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 <<<<<<< HEAD
 - [Schema Conventions](../project_docs/schema-conventions.md) 
+=======
+=======
 - [Schema Conventions](../project_docs/schema-conventions.md) 
+<<<<<<< HEAD
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
@@ -454,3 +457,6 @@ php artisan view:clear
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

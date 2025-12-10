@@ -34,6 +34,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -101,6 +102,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di cast array in tutto il progetto
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
@@ -113,6 +116,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 
 =======
 =======
@@ -169,6 +173,8 @@ use Spatie\QueueableAction\QueueableAction;
  *
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * Casi d'uso tipici:
  * - Conversione di valori da API esterne
  * - Parsing di dati da file CSV/JSON
@@ -205,6 +211,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -286,6 +293,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * // Con validazione di struttura
  * $array = SafeArrayCastAction::castWithKeys($mixedValue, ['required_key']);
  */
@@ -302,6 +311,7 @@ class SafeArrayCastAction
      */
 <<<<<<< HEAD
     public function execute(mixed $value, ?array $default = []): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -529,6 +539,8 @@ class SafeArrayCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         // Se è già un array, restituiscilo direttamente
         if (is_array($value)) {
@@ -540,6 +552,7 @@ class SafeArrayCastAction
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,11 +604,14 @@ class SafeArrayCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è null, restituisci il default
         if (is_null($value)) {
             return $default ?? [];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -784,10 +800,16 @@ class SafeArrayCastAction
         if (is_object($value) && get_class($value) === 'stdClass') {
             return (array) $value;
         }
+=======
+        // Se è una Collection Laravel, convertila in array
+        if (is_object($value) && method_exists($value, 'toArray')) {
+            $result = $value->toArray();
+>>>>>>> 414a4ffcb (.)
 
             return is_array($result) ? $result : ($default ?? []);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -994,11 +1016,23 @@ class SafeArrayCastAction
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+        // Se è un oggetto stdClass, convertilo in array
+        if (is_object($value) && $value::class === 'stdClass') {
+            return (array) $value;
+        }
+
+        // Se è un oggetto con metodo __toArray, usalo
+        if (is_object($value) && method_exists($value, '__toArray')) {
+            $result = $value->__toArray();
+
+>>>>>>> 414a4ffcb (.)
             return is_array($result) ? $result : ($default ?? []);
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1060,6 +1094,8 @@ class SafeArrayCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è un oggetto con proprietà pubbliche, convertilo in array
         if (is_object($value)) {
             return get_object_vars($value);
@@ -1074,6 +1110,7 @@ class SafeArrayCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 =======
@@ -1121,11 +1158,14 @@ class SafeArrayCastAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Se è uno scalare, avvolgilo in un array
         if (is_scalar($value)) {
             return [$value];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1200,6 +1240,8 @@ class SafeArrayCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // Per tutti gli altri tipi, restituisci il default
         return $default ?? [];
     }
@@ -1222,6 +1264,7 @@ class SafeArrayCastAction
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
     public function executeWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+<<<<<<< HEAD
      * @param mixed $value Il valore da convertire
      * @param array $requiredKeys Chiavi che devono essere presenti
      * @param array|null $default Valore di default se la conversione fallisce
@@ -1240,6 +1283,8 @@ class SafeArrayCastAction
         $array = $this->execute($value, $default);
         
     public function executeWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $array = $this->execute($value, $default);
 
@@ -1287,18 +1332,22 @@ class SafeArrayCastAction
             }
             if (! array_key_exists($key, $array)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!is_string($key) && !is_int($key)) {
                 continue;
             }
             if (!array_key_exists($key, $array)) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 return $default ?? [];
             }
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1360,6 +1409,8 @@ class SafeArrayCastAction
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return $array;
     }
 
@@ -1381,6 +1432,7 @@ class SafeArrayCastAction
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
     public function executeWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+<<<<<<< HEAD
      * @param mixed $value Il valore da convertire
      * @param array $allowedKeys Solo queste chiavi saranno mantenute
      * @param array|null $default Valore di default se la conversione fallisce
@@ -1437,6 +1489,8 @@ class SafeArrayCastAction
 =======
 >>>>>>> 73eab74 (.)
     public function executeWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $array = $this->execute($value, $default);
 
@@ -1451,6 +1505,7 @@ class SafeArrayCastAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
         // Filtra solo le chiavi permesse
+<<<<<<< HEAD
         $flippedKeys = array_flip(array_filter($allowedKeys, fn($key) => is_string($key) || is_int($key)));
         $flippedKeys = array_flip(array_filter($allowedKeys, fn($key) => is_string($key) || is_int($key)));
         $flippedKeys = array_flip(array_filter($allowedKeys, fn($key) => is_string($key) || is_int($key)));
@@ -1458,6 +1513,10 @@ class SafeArrayCastAction
         $flippedKeys = array_flip(array_filter($allowedKeys, fn($key) => is_string($key) || is_int($key)));
 =======
 >>>>>>> 551c768c4 (.)
+=======
+        $flippedKeys = array_flip(array_filter($allowedKeys, fn ($key) => is_string($key) || is_int($key)));
+
+>>>>>>> 414a4ffcb (.)
         return array_intersect_key($array, $flippedKeys);
     }
 
@@ -1471,6 +1530,7 @@ class SafeArrayCastAction
      */
 <<<<<<< HEAD
     public function executeWithValueType(mixed $value, string $valueType, ?array $default = []): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1526,6 +1586,8 @@ class SafeArrayCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $array = $this->execute($value, $default);
 
@@ -1539,6 +1601,7 @@ class SafeArrayCastAction
                 return array_map(SafeFloatCastAction::cast(...), $array);
             case 'bool':
                 return array_map(SafeBooleanCastAction::cast(...), $array);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1637,6 +1700,8 @@ class SafeArrayCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             default:
                 return $array;
         }
@@ -1645,6 +1710,7 @@ class SafeArrayCastAction
     /**
      * Verifica se un valore può essere convertito in array.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param mixed $value Il valore da verificare
      *
@@ -1659,10 +1725,14 @@ class SafeArrayCastAction
 =======
      * @param  mixed  $value  Il valore da verificare
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  mixed  $value  Il valore da verificare
+>>>>>>> 414a4ffcb (.)
      * @return bool True se il valore può essere convertito in array
      */
     public function canCast(mixed $value): bool
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1690,6 +1760,8 @@ class SafeArrayCastAction
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         return is_array($value) || is_null($value) || is_object($value) || is_scalar($value);
 =======
 <<<<<<< HEAD
@@ -1722,6 +1794,7 @@ class SafeArrayCastAction
      */
 <<<<<<< HEAD
     public static function cast(mixed $value, ?array $default = []): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1949,6 +2022,8 @@ class SafeArrayCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return app(self::class)->execute($value, $default);
     }
@@ -1963,6 +2038,7 @@ class SafeArrayCastAction
      */
 <<<<<<< HEAD
     public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2191,6 +2267,8 @@ class SafeArrayCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return app(self::class)->executeWithKeys($value, $requiredKeys, $default);
     }
@@ -2205,6 +2283,7 @@ class SafeArrayCastAction
      */
 <<<<<<< HEAD
     public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2433,6 +2512,8 @@ class SafeArrayCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return app(self::class)->executeWithFilter($value, $allowedKeys, $default);
     }
@@ -2447,6 +2528,7 @@ class SafeArrayCastAction
      */
 <<<<<<< HEAD
     public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2675,6 +2757,8 @@ class SafeArrayCastAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return app(self::class)->executeWithValueType($value, $valueType, $default);
     }

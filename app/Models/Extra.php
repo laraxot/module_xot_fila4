@@ -31,6 +31,7 @@ use Illuminate\Support\Carbon;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -83,6 +84,8 @@ use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Model Extra.
@@ -117,6 +120,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @mixin \Eloquent
  */
 final class Extra extends BaseExtra {}
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int                                               $id
  * @property int|null                                          $model_id
@@ -189,3 +193,5 @@ class Extra extends BaseExtra
 }
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

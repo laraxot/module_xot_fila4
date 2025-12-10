@@ -254,6 +254,7 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,9 +436,14 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+>>>>>>> 414a4ffcb (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+<<<<<<< HEAD
 >>>>>>> 43d67f21 (.)
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
@@ -588,3 +594,5 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

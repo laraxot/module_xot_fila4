@@ -9,6 +9,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +348,10 @@ use Illuminate\Database\Eloquent\Collection;
 use Exception;
 use Illuminate\Database\Eloquent\Collection;
 >>>>>>> 551c768c4 (.)
+=======
+use Exception;
+use Illuminate\Database\Eloquent\Collection;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -406,6 +411,7 @@ class BelongsToAction
         if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
             $related_id = Arr::first($relationDTO->data);
             if ($related_id === null) {
+<<<<<<< HEAD
         if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
             $related_id = Arr::first($relationDTO->data);
             if ($related_id === null) {
@@ -740,6 +746,8 @@ class BelongsToAction
             $related_id = Arr::first($relationDTO->data);
             if ($related_id === null) {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 return;
             }
 
@@ -747,6 +755,7 @@ class BelongsToAction
             Assert::notNull($relatedModel, 'Related model cannot be null');
             $related = $relatedModel->find($related_id);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1087,6 +1096,10 @@ class BelongsToAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+            if (! ($related instanceof Model)) {
+                throw new Exception('Expected a single model, got null or invalid object.');
+>>>>>>> 414a4ffcb (.)
             }
             $res = $rows->associate($related);
             $res->save();
@@ -1097,6 +1110,7 @@ class BelongsToAction
         if (Arr::isAssoc($relationDTO->data)) {
             $sub = $rows->firstOrCreate();
             // $sub = $rows->first() ?? $rows->getModel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (null === $sub) {
@@ -1453,6 +1467,10 @@ class BelongsToAction
             if ($sub === null) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> 551c768c4 (.)
+=======
+            if ($sub === null) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 414a4ffcb (.)
             }
 
             app(RelationAction::class)->execute($sub, $relationDTO->data);
@@ -1520,11 +1538,11 @@ class BelongsToAction
             if (! is_object($relation) || ! method_exists($relation, 'update')) {
                 return;
             }
-            }
 
             $relation->update($data);
 <<<<<<< HEAD
 
+<<<<<<< HEAD
             $relation->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
@@ -1769,6 +1787,8 @@ class BelongsToAction
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             return;
         }
 

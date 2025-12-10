@@ -11,6 +11,7 @@ abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationsh
 {
     use TypedHasRecursiveRelationships;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
 
 abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationshipsContract
@@ -18,4 +19,6 @@ abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationsh
     use HasRecursiveRelationships;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

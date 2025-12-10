@@ -74,6 +74,7 @@ class ViewExport implements FromView
     public ?array $fields = null;
 
     public ?string $transKey = null;
+<<<<<<< HEAD
     public null|array $fields = null;
 
     public null|string $transKey = null;
@@ -533,10 +534,13 @@ class ViewExport implements FromView
 
     public ?string $transKey = null;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Summary of __construct.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
@@ -641,9 +645,12 @@ class ViewExport implements FromView
 =======
 >>>>>>> ce6fc085 (.)
      * @param array<string> $fields
+=======
+     * @param  array<string>  $fields
+>>>>>>> 414a4ffcb (.)
      */
-    public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
     public function __construct(View $view, ?string $transKey = null, ?array $fields = null)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -788,6 +795,8 @@ class ViewExport implements FromView
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $this->view = $view;
         $this->transKey = $transKey;

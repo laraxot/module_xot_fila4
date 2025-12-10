@@ -57,6 +57,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 - Modules/<main module>/Enums/UserType.php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -219,6 +220,8 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 Questa regola garantisce coerenza, manutenibilità e rispetto delle convenzioni PSR-4 e delle best practice del progetto.
 
@@ -301,6 +304,7 @@ class User extends Model {
 <<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
+<<<<<<< HEAD
 =======
 >>>>>>> ecd5ec32 (.)
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
@@ -401,6 +405,8 @@ class User extends Model {
 =======
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - https://github.com/spatie/laravel-model-states
 
 ---
@@ -429,6 +435,7 @@ class User extends Model {
 - [.windsurf/rules/model-states.mdc](../../../.windsurf/rules/model-states.mdc)
 - https://github.com/spatie/laravel-model-states
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - https://github.com/spatie/laravel-model-states
@@ -482,10 +489,13 @@ class User extends Model {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
 [← Torna a <main module>/docs](../../<main module>/docs/uso-label-filament.mdc)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -678,6 +688,8 @@ class User extends Model {
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 # Regola sui Path dei File di Codice nei Moduli Laravel
 
@@ -730,6 +742,7 @@ Modules/<main module>/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
 Modules/<main module>/Actions/Patient/Calendar/FetchEventsAction.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -874,6 +887,8 @@ Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ## Collegamenti
@@ -925,6 +940,7 @@ final class FetchEventsAction
 <<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
+<<<<<<< HEAD
 =======
 >>>>>>> ecd5ec32 (.)
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
@@ -1025,6 +1041,8 @@ Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/que
 =======
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 # Regola Namespace per Actions
 
@@ -1062,6 +1080,7 @@ namespace Modules\<main module>\App\Actions\Patient\Calendar;
 ```
 
 Vedi anche: <main module>/docs/directory-structure.md
+<<<<<<< HEAD
 =======
 >>>>>>> 5e6aa70fe (.)
 <<<<<<< HEAD
@@ -1218,3 +1237,5 @@ Vedi anche: SaluteOra/docs/directory-structure.md
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

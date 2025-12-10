@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5cf46378 (.)
@@ -134,6 +135,10 @@ namespace Modules\Xot\Tests\Feature;
 
 namespace Modules\Xot\Tests\Feature;
 
+=======
+declare(strict_types=1);
+
+>>>>>>> 414a4ffcb (.)
 namespace Modules\Xot\Tests\Feature;
 
 =======
@@ -184,6 +189,7 @@ function removeDirectory(string $dir): void
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (is_dir($dir)) {
         $objects = scandir($dir);
         foreach ($objects as $object) {
@@ -202,6 +208,8 @@ function removeDirectory(string $dir): void
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     private string $testDir;
 
     protected function setUp(): void
@@ -209,15 +217,8 @@ function removeDirectory(string $dir): void
         parent::setUp();
 
         // Creiamo una directory temporanea per i test
-        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
         $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
+<<<<<<< HEAD
         $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
         $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
 <<<<<<< HEAD
@@ -338,6 +339,9 @@ function removeDirectory(string $dir): void
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+        mkdir($this->testDir, 0o755, true);
+>>>>>>> 414a4ffcb (.)
 
         // Impostiamo la directory di lavoro
         chdir($this->testDir);
@@ -364,6 +368,7 @@ function removeDirectory(string $dir): void
                         $this->rrmdir($dir.DIRECTORY_SEPARATOR.$object);
                     } else {
                         unlink($dir.DIRECTORY_SEPARATOR.$object);
+<<<<<<< HEAD
                     if (is_dir($dir . DIRECTORY_SEPARATOR . $object) && !is_link($dir . '/' . $object)) {
                         $this->rrmdir($dir . DIRECTORY_SEPARATOR . $object);
                     } else {
@@ -622,6 +627,8 @@ function removeDirectory(string $dir): void
 =======
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
                     }
 <<<<<<< HEAD
 =======
@@ -734,6 +741,7 @@ function removeDirectory(string $dir): void
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -802,6 +810,8 @@ function removeDirectory(string $dir): void
         mkdir($this->testDir . '/Actions', 0o755, true);
         file_put_contents($this->testDir . '/Actions/test.php', '<?php echo "test";');
         rmdir($dir);
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     #[Test]
@@ -810,6 +820,7 @@ function removeDirectory(string $dir): void
         // Creiamo una struttura di directory di test
         mkdir($this->testDir.'/Actions', 0o755, true);
         file_put_contents($this->testDir.'/Actions/test.php', '<?php echo "test";');
+<<<<<<< HEAD
     {
         // Creiamo una struttura di directory di test
         mkdir($this->testDir . '/Actions', 0o755, true);
@@ -868,6 +879,8 @@ function removeDirectory(string $dir): void
         mkdir($this->testDir.'/Actions', 0o755, true);
         file_put_contents($this->testDir.'/Actions/test.php', '<?php echo "test";');
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
@@ -900,6 +913,7 @@ function removeDirectory(string $dir): void
         // Creiamo una struttura di directory di test
         mkdir($this->testDir.'/Config', 0o755, true);
         file_put_contents($this->testDir.'/Config/test.php', '<?php echo "test";');
+<<<<<<< HEAD
 <<<<<<< HEAD
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
@@ -1172,6 +1186,8 @@ function removeDirectory(string $dir): void
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
@@ -1207,6 +1223,7 @@ function removeDirectory(string $dir): void
 
         mkdir($this->testDir.'/config', 0o755, true);
         file_put_contents($this->testDir.'/config/secondary.php', '<?php echo "secondary";');
+<<<<<<< HEAD
 <<<<<<< HEAD
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
@@ -1504,6 +1521,8 @@ function removeDirectory(string $dir): void
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
@@ -1531,6 +1550,7 @@ function removeDirectory(string $dir): void
         static::assertFileExists($this->testDir.'/config/secondary.php');
         static::assertDirectoryDoesNotExist($this->testDir.'/Config');
         static::assertDirectoryExists($this->testDir.'/config_old');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1892,6 +1912,8 @@ function removeDirectory(string $dir): void
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }
 

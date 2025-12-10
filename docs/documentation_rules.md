@@ -49,6 +49,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+<<<<<<< HEAD
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -123,6 +124,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### Formato Corretto
 ```markdown
@@ -201,6 +204,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -291,6 +295,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### Checklist di Validazione
@@ -340,6 +346,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+<<<<<<< HEAD
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -414,6 +421,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### Formato Corretto
 ```markdown
@@ -492,6 +501,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -582,6 +592,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### Checklist di Validazione
@@ -632,6 +644,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+<<<<<<< HEAD
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -706,6 +719,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### Formato Corretto
 ```markdown
@@ -784,6 +799,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -874,6 +890,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ```
 
 ### Checklist di Validazione

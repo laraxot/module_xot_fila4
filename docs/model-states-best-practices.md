@@ -11,6 +11,7 @@
 - **Collegamenti**:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
 =======
@@ -120,4 +121,7 @@
 =======
   - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/docs/model-states-errors.md)
 >>>>>>> 551c768c4 (.)
+=======
+  - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/docs/model-states-errors.md)
+>>>>>>> 414a4ffcb (.)
   - [README.md centrale](../../../docs/README.md) 

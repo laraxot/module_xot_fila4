@@ -9,6 +9,7 @@ use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Support\Components\Component;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
@@ -26,38 +27,15 @@ use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Schemas\Schema;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
-use Modules\Xot\Filament\Traits\TransTrait;
-
-use Filament\Forms\Form;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 
 abstract class XotBaseEditRecord extends FilamentEditRecord
 {
     use TransTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * Configure the form.
@@ -173,6 +151,8 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     public static function getNavigationLabel(): string
     {
         return static::transFunc(__FUNCTION__);
@@ -241,6 +221,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
             */
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -335,4 +316,6 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

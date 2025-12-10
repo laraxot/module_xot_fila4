@@ -27,6 +27,7 @@
 ## Contesto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 =======
@@ -199,6 +200,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 551c768c4 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 414a4ffcb (.)
 
 ## File Corretti
 
@@ -438,6 +442,7 @@ php artisan lang:check
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -614,6 +619,8 @@ php artisan lang:check
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ## Best Practices Applicate
 
@@ -783,6 +790,7 @@ php artisan lang:check
 - [Translation Standards](../../project_docs/translation-standards.md)
 - [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
 - [Git Best Practices](../../project_docs/git-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -961,6 +969,8 @@ php artisan lang:check
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ---
 
@@ -991,6 +1001,7 @@ php artisan lang:check
 **Stato**: ✅ Completato
 <<<<<<< HEAD
 **Stato**: ✅ Completato
+<<<<<<< HEAD
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
@@ -1050,3 +1061,5 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

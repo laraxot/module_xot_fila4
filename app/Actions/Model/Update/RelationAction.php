@@ -29,6 +29,7 @@ class RelationAction
      * Undocumented function.
      *
      * @param  array<string, mixed>  $data
+<<<<<<< HEAD
      *
      * @param array<string, mixed> $data
      *
@@ -64,6 +65,8 @@ class RelationAction
      *
      * @param  array<string, mixed>  $data
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(Model $model, array $data): void
     {
@@ -81,6 +84,7 @@ class RelationAction
          * ]);
          * }
          * // */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,6 +208,8 @@ class RelationAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
             $relationClass = $relation::class;
@@ -211,6 +217,7 @@ class RelationAction
 
 <<<<<<< HEAD
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,6 +455,8 @@ class RelationAction
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

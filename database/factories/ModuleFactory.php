@@ -17,6 +17,7 @@ use Modules\Xot\Models\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  *
  *
@@ -76,6 +77,8 @@ use Modules\Xot\Models\Module;
  *
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @extends Factory<Module>
  */
 class ModuleFactory extends Factory
@@ -170,6 +173,7 @@ class ModuleFactory extends Factory
 =======
 >>>>>>> 7468a7d2 (.)
         return $this->state(fn (array $_attributes): array => [
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -449,6 +453,8 @@ class ModuleFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'is_active' => true,
         ]);
     }
@@ -529,6 +535,7 @@ class ModuleFactory extends Factory
 =======
 >>>>>>> 7468a7d2 (.)
         return $this->state(fn (array $_attributes): array => [
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -808,6 +815,8 @@ class ModuleFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'is_active' => false,
         ]);
     }
@@ -888,6 +897,7 @@ class ModuleFactory extends Factory
 =======
 >>>>>>> 7468a7d2 (.)
         return $this->state(fn (array $_attributes): array => [
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -1163,6 +1173,8 @@ class ModuleFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'priority' => $this->faker->numberBetween(80, 100),
         ]);
     }

@@ -24,6 +24,7 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Pages\MainDashboard;
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Filament\Panel;
 use Filament\PanelProvider;
@@ -90,6 +91,8 @@ use Modules\Xot\Filament\Pages\MainDashboard;
 use Nwidart\Modules\Facades\Module;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 abstract class XotBaseMainPanelProvider extends PanelProvider
 {
@@ -102,6 +105,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         $panel->id('admin')->path('admin');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!Module::has('Cms')) {
         if (!Module::has('Cms')) {
         if (!Module::has('Cms')) {
@@ -111,20 +115,13 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         if (! Module::has('Cms')) {
             // $panel->login(Login::class);
 >>>>>>> 551c768c4 (.)
+=======
+        if (! Module::has('Cms')) {
+            // $panel->login(Login::class);
+>>>>>>> 414a4ffcb (.)
             $panel->login();
         }
 
-        $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);
-
-        if (!Module::has('Cms')) {
-            $panel->login();
-        }
-
-        $panel = $panel
-            ->passwordReset()
-            ->sidebarFullyCollapsibleOnDesktop()
-            ->spa()
-            ->profile(null, true);
         $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);
 
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
@@ -161,6 +158,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         }
         $panel = $panel
 <<<<<<< HEAD
+<<<<<<< HEAD
         $panel = $panel
         $panel = $panel
         $panel = $panel
@@ -196,6 +194,8 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             ->widgets([
                 // Widgets\AccountWidget::class,
             ])
@@ -216,6 +216,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         $navs = app(GetModulesNavigationItems::class)->execute();
         $panel->navigationItems($navs);
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         
         
@@ -224,6 +225,9 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+
+>>>>>>> 414a4ffcb (.)
         // Temporaneamente disabilitato per debug tenancy
         // $profile_url = MyProfilePage::getUrl(panel: $panel->getId());
         $profile_url = '#';
@@ -232,30 +236,6 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             MenuItem::make()
                 ->label(__('user::default.profile.my_profile'))
                 ->url($profile_url)
-        $navs = app(GetModulesNavigationItems::class)->execute();
-        $panel->navigationItems($navs);
-        
-        // Temporaneamente disabilitato per debug tenancy
-        // $profile_url = MyProfilePage::getUrl(panel: $panel->getId());
-        $profile_url = '#';
-
-        $panel->userMenuItems([
-            MenuItem::make()
-                ->label(__('user::default.profile.my_profile'))
-                ->url($profile_url)
-
-        $navs = app(GetModulesNavigationItems::class)->execute();
-        $panel->navigationItems($navs);
-
-        try {
-            $profile_url = MyProfilePage::getUrl(panel: $panel->getId());
-        } catch (\Exception $e) {
-            $profile_url = '#';
-        }
-
-        $panel->userMenuItems([
-            MenuItem::make()
-                ->url(fn (): string => $profile_url)
                 ->icon('heroicon-o-user'),
         ]);
 

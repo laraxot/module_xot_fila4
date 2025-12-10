@@ -48,6 +48,7 @@ class UrlService
 =======
 >>>>>>> 218dfed3 (.)
     private static ?self $instance = null;
+<<<<<<< HEAD
     private static null|self $instance = null;
     private static null|self $instance = null;
     private static null|self $instance = null;
@@ -356,6 +357,8 @@ class UrlService
 =======
     private static ?self $instance = null;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     public function __construct()
     {
@@ -394,6 +397,7 @@ class UrlService
 =======
 >>>>>>> 218dfed3 (.)
         include_once __DIR__.'/vendor/autoload.php';
+<<<<<<< HEAD
         include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__ . '/vendor/autoload.php';
         include_once __DIR__ . '/vendor/autoload.php';
@@ -702,6 +706,8 @@ class UrlService
 =======
         include_once __DIR__.'/vendor/autoload.php';
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     public static function getInstance(): self
@@ -710,6 +716,7 @@ class UrlService
 <<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -913,6 +920,8 @@ class UrlService
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
 
         return self::$instance;
@@ -930,6 +939,7 @@ class UrlService
     {
         return filter_var($url, FILTER_VALIDATE_URL) !== false;
 <<<<<<< HEAD
+<<<<<<< HEAD
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
@@ -942,5 +952,7 @@ class UrlService
         return false !== filter_var($url, FILTER_VALIDATE_URL);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

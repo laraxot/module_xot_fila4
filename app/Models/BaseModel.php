@@ -8,6 +8,7 @@ namespace Modules\Xot\Models;
 // ---------- traits
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,10 +48,13 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Class BaseModel.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 {
 <<<<<<< HEAD
@@ -102,6 +106,9 @@ abstract class BaseModel extends Model
 =======
 abstract class BaseModel extends XotBaseModel
 >>>>>>> b7afadf9 (.)
+=======
+abstract class BaseModel extends XotBaseModel
+>>>>>>> 414a4ffcb (.)
 {
     protected $connection = 'xot';
 <<<<<<< HEAD
@@ -118,6 +125,7 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
 
+<<<<<<< HEAD
     /** @var list<string> */
     protected $fillable = ['id'];
 
@@ -160,6 +168,8 @@ abstract class BaseModel extends XotBaseModel
     protected $connection = 'xot';
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /** @return array<string, class-string|string> */
     protected function casts(): array
     {
@@ -168,6 +178,7 @@ abstract class BaseModel extends XotBaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,11 +509,14 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected $connection = 'xot';
@@ -525,4 +539,6 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

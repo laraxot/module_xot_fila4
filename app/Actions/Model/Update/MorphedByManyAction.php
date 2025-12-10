@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
@@ -15,6 +16,8 @@ use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 class MorphedByManyAction
 {
@@ -138,6 +141,7 @@ class MorphedByManyAction
          * $model->$name()->touch();
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,5 +490,7 @@ class MorphedByManyAction
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

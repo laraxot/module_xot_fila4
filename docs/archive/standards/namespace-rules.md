@@ -197,6 +197,7 @@ namespace Modules\Patient\Models;
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
 // File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
@@ -348,6 +349,8 @@ namespace Modules\Patient\Models;
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 namespace Modules\Dental\Services;
 ```
 

@@ -48,6 +48,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Laravel\Passport\PersonalAccessTokenResult;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 use BackedEnum;
 use DateTime;
@@ -75,6 +76,8 @@ use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Laravel\Passport\Token;
 use Laravel\Passport\TransientToken;
 use Modules\User\Contracts\TeamContract;
@@ -102,6 +105,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  *
  * @phpstan-require-extends Model
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @mixin IdeHelperUserContract
  */
@@ -726,6 +730,11 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function areas();
     public function avatar();
     */
+=======
+ * @mixin \Eloquent
+ */
+interface UserContract extends Authenticatable
+>>>>>>> 414a4ffcb (.)
 {
     /*
      * public function isSuperAdmin();
@@ -744,6 +753,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function hasRole(
         string|int|array|UserRole|Collection $roles,
         ?string $guard = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Update the model in the database.
      *
@@ -1011,8 +1021,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
         null|string $guard = null,
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     ): bool;
-    public function hasRole(string|int|array|Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
 
     /**
      * Assign the given role to the model.
@@ -1054,6 +1065,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 
     /**
      * Get the user's roles.
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function assignRole(array|string|int|Role|Collection $roles = []);
 
@@ -1217,6 +1229,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function roles(): BelongsToMany;
 
@@ -1254,6 +1268,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * Switch the user's context to the given team.
      */
     public function switchTeam(TeamContract $team): bool;
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Get all of the tenants the user belongs to.
      *
@@ -1414,4 +1429,6 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

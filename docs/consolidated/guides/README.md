@@ -6,6 +6,7 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 ## Quick Links
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +70,9 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 =======
 - [🏆 PHPStan level 10 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
 >>>>>>> 551c768c4 (.)
+=======
+- [🏆 PHPStan level 10 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+>>>>>>> 414a4ffcb (.)
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Filament Complete Guide](consolidated/filament-complete-guide.md)
@@ -102,6 +106,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Documentation**: Documentazione essenziale
 
 ## Links
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -295,3 +300,8 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [Root Documentation](../../../project_docs/)
 - [<nome progetto> Module](../<nome progetto>/project_docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+=======
+- [Root Documentation](../../../project_docs/)
+- [<nome progetto> Module](../<nome progetto>/project_docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+>>>>>>> 414a4ffcb (.)

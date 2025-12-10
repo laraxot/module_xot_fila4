@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Filament\Actions;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
@@ -91,6 +92,8 @@ use Filament\Actions;
 =======
 >>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
@@ -144,6 +147,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
@@ -199,6 +203,8 @@ use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Actions\Array\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Models\Module;
 
 =======
@@ -244,6 +250,7 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! ($module instanceof Model) || ! isset($module->path)) {
+<<<<<<< HEAD
         if (! ($module instanceof Model) || ! isset($module->path)) {
 =======
 <<<<<<< HEAD
@@ -306,12 +313,15 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> 551c768c4 (.)
         if (! ($module instanceof Model) || ! isset($module->path)) {
+=======
+>>>>>>> 414a4ffcb (.)
             return;
         }
 
         $config_path = $module->path.'/config/config.php';
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -736,6 +746,8 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());
@@ -781,6 +793,7 @@ class EditModule extends XotBaseEditRecord
          * // Richiama il file di configurazione per essere sicuro che i colori siano caricati
          * Config::set('modules.colors', $colorsConfig);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -866,5 +879,7 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

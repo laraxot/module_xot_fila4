@@ -55,6 +55,7 @@ public function getTableColumns(): array
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/project_docs/filament-resources.md).
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/project_docs/filament-resources.md).
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/project_docs/filament-resources.md).
@@ -210,6 +211,8 @@ public function getTableColumns(): array
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/docs/filament-resources.md).
 
 ## Collegamenti
@@ -217,6 +220,7 @@ public function getTableColumns(): array
 - [Regola Globale - Root Docs](../../../../docs/filament-table-columns.md)
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
@@ -305,6 +309,8 @@ public function getTableColumns(): array
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ## Nota storica: correzione XotBaseManageRelatedRecords
 
 - La classe XotBaseManageRelatedRecords è stata aggiornata per rispettare PHPStan livello 10.
@@ -320,6 +326,7 @@ public function getTableColumns(): array
 **Ultimo aggiornamento:** 2025-05-13
 
 **Link bidirezionale:** Aggiornare anche la root docs e la docs dei moduli coinvolti.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -384,3 +391,7 @@ public function getTableColumns(): array
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

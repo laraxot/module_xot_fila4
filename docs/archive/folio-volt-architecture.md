@@ -38,6 +38,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Struttura dei Moduli](./MODULE_STRUCTURE.md) - Convenzioni di struttura dei moduli
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../project_docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 - [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
@@ -224,6 +225,8 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 - [Convenzioni di Naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 
@@ -234,6 +237,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Patient](../../Patient/docs/README.md) - Gestione pazienti
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
@@ -324,6 +328,8 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 ## Regole Fondamentali
 
 ### Case Sensitivity e Struttura delle Directory
@@ -559,6 +565,7 @@ new class extends Component {
 - [Best Practices](../UI/docs/best-practices.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1097,6 +1104,8 @@ new class extends Component {
 - [Grafici](../Chart/project_docs/charts.md)
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
+=======
+>>>>>>> 414a4ffcb (.)
 
 ### Modulo Cms
 - [Frontend](../Cms/docs/frontend.md)
@@ -1159,6 +1168,7 @@ new class extends Component {
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
 =======
+<<<<<<< HEAD
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
@@ -1253,3 +1263,7 @@ new class extends Component {
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+>>>>>>> 414a4ffcb (.)

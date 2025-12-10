@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
@@ -21,6 +22,8 @@ use Filament\Schemas\Schema;
 use Filament\Forms\Get;
 use Filament\Pages\Dashboard as BaseBashboard;
 use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
@@ -40,6 +43,7 @@ use Filament\Widgets\WidgetConfiguration;
 >>>>>>> 8fd88dd43 (.)
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
@@ -452,6 +456,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -471,6 +477,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -854,4 +861,6 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 }

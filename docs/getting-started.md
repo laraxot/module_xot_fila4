@@ -96,6 +96,7 @@ As with all Jigsaw sites, configuration settings can be found in `config.php`; y
 =======
 >>>>>>> 2f3197ab (.)
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
+<<<<<<< HEAD
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
@@ -173,6 +174,8 @@ As with all Jigsaw sites, configuration settings can be found in `config.php`; y
 >>>>>>> 88ea7103 (.)
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
 =======
 >>>>>>> f1d4085 (.)
@@ -405,6 +408,7 @@ return [
 =======
 >>>>>>> 2f3197ab (.)
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/project_docs/collections/) to learn more.
+<<<<<<< HEAD
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/project_docs/collections/) to learn more.
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/project_docs/collections/) to learn more.
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/project_docs/collections/) to learn more.
@@ -482,6 +486,8 @@ return [
 >>>>>>> 88ea7103 (.)
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
 =======
 >>>>>>> f1d4085 (.)
@@ -714,6 +720,7 @@ You can write your content using a [variety of file types](http://jigsaw.tighten
 You can write your content using a [variety of file types](http://jigsaw.tighten.co/project_docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/project_docs/navigation.php).
 
 [Read more about navigation.](/project_docs/navigation)
+<<<<<<< HEAD
 You can write your content using a [variety of file types](http://jigsaw.tighten.co/project_docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/project_docs/navigation.php).
 
 [Read more about navigation.](/project_docs/navigation)
@@ -903,6 +910,8 @@ You can write your content using a [variety of file types](http://jigsaw.tighten
 =======
 >>>>>>> 44948f13 (.)
 >>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 414a4ffcb (.)
 You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/docs/navigation.php).
 
 [Read more about navigation.](/docs/navigation)
@@ -1119,6 +1128,7 @@ section: content
 =======
 >>>>>>> 2f3197ab (.)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
+<<<<<<< HEAD
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
@@ -1196,6 +1206,8 @@ section: content
 >>>>>>> 88ea7103 (.)
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
 =======
 >>>>>>> f1d4085 (.)
@@ -1425,6 +1437,7 @@ Files that don't require processing (such as images and fonts) can be added dire
 =======
 >>>>>>> 2f3197ab (.)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
+<<<<<<< HEAD
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
@@ -1502,6 +1515,8 @@ Files that don't require processing (such as images and fonts) can be added dire
 >>>>>>> 88ea7103 (.)
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
 =======
 >>>>>>> f1d4085 (.)
@@ -1865,6 +1880,7 @@ npm run dev
 # options: dev, prod
 npm run dev
 ```
+<<<<<<< HEAD
 # options: dev, prod
 npm run dev
 ```
@@ -2090,6 +2106,8 @@ npm run dev
 npm run dev
 ```
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 # options: dev, prod
 npm run dev
@@ -2548,6 +2566,7 @@ npm run dev
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2603,3 +2622,6 @@ npm run dev
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

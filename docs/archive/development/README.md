@@ -33,6 +33,7 @@ Questa documentazione è essenziale per tutti gli sviluppatori che lavorano al p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
@@ -132,6 +133,10 @@ Questa documentazione è essenziale per tutti gli sviluppatori che lavorano al p
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 414a4ffcb (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)

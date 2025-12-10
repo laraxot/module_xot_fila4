@@ -1,15 +1,15 @@
 <?php
 
 declare(strict_types=1);
- 
+
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
-use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 use Modules\Xot\Tests\TestCase;
 <<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
 
 use function Safe\file_put_contents;
 use function Safe\json_encode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +56,8 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> 851793957 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 uses(TestCase::class);
 
@@ -75,6 +77,7 @@ beforeEach(function (): void {
     $schemaDir = dirname($this->testSchemaPath);
     if (! File::exists($schemaDir)) {
         File::makeDirectory($schemaDir, 0o755, true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +112,9 @@ beforeEach(function (): void {
 =======
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
 >>>>>>> 551c768c4 (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> 414a4ffcb (.)
     }
 
     // Create a test schema file

@@ -14,6 +14,7 @@ use Filament\Actions\Action;
 use Filament\Resources\Pages\Page;
 use Illuminate\Database\Eloquent\Collection;
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Filament\Tables\Actions\Action;
 use Filament\Resources\Pages\Page;
 use Illuminate\Database\Eloquent\Collection;
@@ -26,6 +27,8 @@ use Illuminate\Database\Eloquent\Collection;
 use Filament\Actions\Action;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
 use Modules\Xot\Actions\GetTransKeyAction;
@@ -102,6 +105,7 @@ class ExportTreeXlsAction extends Action
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
                 $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
+<<<<<<< HEAD
                 $filename = class_basename($livewire) . '-' . collect($tableFilters)->flatten()->implode('-') . '.xlsx';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,14 +481,14 @@ class ExportTreeXlsAction extends Action
 =======
                 $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
                 // $query = $livewire->getFilteredTableQuery(); // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
                 // $rows = $query->get();
                 Assert::implementsInterface($record, HasRecursiveRelationshipsContract::class);
                 $rows = $record->descendantsAndSelf;
-                Assert::isInstanceOf($rows, Collection::class);
-                Assert::isInstanceOf($rows, Collection::class);
                 Assert::isInstanceOf($rows, Collection::class);
                 $resource = $livewire->getResource();
                 $fields = [];
@@ -495,6 +499,7 @@ class ExportTreeXlsAction extends Action
 <<<<<<< HEAD
                     $fields = array_map(fn ($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
                     // PHPStan: $fields is array after array_map
+<<<<<<< HEAD
                     $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
                     $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
                     Assert::isArray($fields);
@@ -1027,6 +1032,8 @@ class ExportTreeXlsAction extends Action
 =======
                     $fields = array_map(fn ($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
                     // PHPStan: $fields is array after array_map
+=======
+>>>>>>> 414a4ffcb (.)
                 }
 
                 /** @var array<int, string> $fields */
@@ -1039,6 +1046,7 @@ class ExportTreeXlsAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71586de2 (.)
 =======
@@ -1068,6 +1076,8 @@ class ExportTreeXlsAction extends Action
 =======
     public static function getDefaultName(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return 'export_tree_xls';
     }

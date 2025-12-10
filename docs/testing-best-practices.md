@@ -44,6 +44,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 // ✅ CRITICO: Mock XotData per ogni test
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,10 +357,13 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 beforeEach(function (): void {
     mockXotData();
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +405,9 @@ beforeEach(function (): void {
 =======
 // ✅ CRITICO: Test diretti senza describe() o dataset()
 >>>>>>> 5cb992cc6 (.)
+=======
+// ✅ CRITICO: Test diretti senza describe() o dataset()
+>>>>>>> 414a4ffcb (.)
 test('widget can be rendered', function () {
     Livewire::test({WidgetName}::class)
         ->assertStatus(200);
@@ -415,6 +422,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         ->andReturn(\Modules\SaluteOra\Models\User::class);
@@ -605,6 +613,9 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 >>>>>>> 551c768c4 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 414a4ffcb (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -801,6 +812,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -1302,3 +1314,5 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 **Last Update**: Dicembre 2024 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)

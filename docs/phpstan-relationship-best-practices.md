@@ -226,6 +226,7 @@ Prima di committare modelli con relazioni, verificare:
 - [ ] PHPStan livello 9+ passa senza errori
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +413,9 @@ Prima di committare modelli con relazioni, verificare:
 =======
 - [ ] **MAI** modificare `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 >>>>>>> 551c768c4 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+>>>>>>> 414a4ffcb (.)
 
 ## Verifica PHPStan
 

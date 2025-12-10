@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Traits;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 use Illuminate\Support\Str;
@@ -15,6 +16,8 @@ use Modules\Xot\Actions\File\SvgExistsAction;
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 trait NavigationLabelTrait
 {
@@ -41,6 +44,7 @@ trait NavigationLabelTrait
     //     return static::transFunc(__FUNCTION__);
     // }
     // Rimosso per compatibilità Filament v4 - il metodo è già definito nella classe Resource
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +112,8 @@ trait NavigationLabelTrait
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     public static function getPluralModelLabel(): string
     {
@@ -121,6 +127,7 @@ trait NavigationLabelTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 =======
@@ -174,6 +181,8 @@ trait NavigationLabelTrait
 
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // return static::transFunc(__FUNCTION__);
     }
 
@@ -236,6 +245,7 @@ trait NavigationLabelTrait
 =======
 >>>>>>> 218dfed3 (.)
     public static function getNavigationSort(): ?int
+<<<<<<< HEAD
     public static function getNavigationSort(): null|int
     public static function getNavigationSort(): null|int
     public static function getNavigationSort(): null|int
@@ -544,6 +554,8 @@ trait NavigationLabelTrait
 =======
     public static function getNavigationSort(): ?int
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
@@ -623,6 +635,7 @@ trait NavigationLabelTrait
 =======
 >>>>>>> 7468a7d2 (.)
         if ($value === 0) {
+<<<<<<< HEAD
         if (0 === $value) {
         if (0 === $value) {
         if (0 === $value) {
@@ -898,6 +911,8 @@ trait NavigationLabelTrait
 =======
         if ($value === 0) {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);
@@ -981,6 +996,7 @@ trait NavigationLabelTrait
  * return $res;
  * }
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1165,3 +1181,5 @@ public static function transPath(string $key): string
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)

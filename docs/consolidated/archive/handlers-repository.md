@@ -127,6 +127,7 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [Error Formatters](../formatters/README.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,3 +246,7 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 - [Handlers Overview](./README.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Handlers Overview](./README.md) 
+>>>>>>> 414a4ffcb (.)

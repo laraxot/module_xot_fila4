@@ -239,6 +239,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -478,3 +479,7 @@ return new class extends XotBaseMigration
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+- [Database Guidelines](../DATABASE_GUIDELINES.md)
+=======
+>>>>>>> 414a4ffcb (.)

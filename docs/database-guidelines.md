@@ -363,6 +363,7 @@ return new class extends XotBaseMigration {
 >>>>>>> 2f3197ab (.)
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
+<<<<<<< HEAD
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
@@ -514,6 +515,8 @@ return new class extends XotBaseMigration {
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
 
@@ -735,6 +738,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 - Utilizzare query builder o raw queries per query complesse
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -790,3 +794,6 @@ php artisan db:analyze-usage --connection=nome_connessione
 =======
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

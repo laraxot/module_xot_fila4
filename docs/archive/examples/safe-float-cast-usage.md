@@ -458,6 +458,7 @@ class Product extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [DRY Principle](../../docs/dry-principle.md)
 - [KISS Principle](../../docs/kiss-principle.md)
@@ -557,10 +558,15 @@ class Product extends BaseModel
 - [DRY Principle](../../docs/dry-principle.md)
 - [KISS Principle](../../docs/kiss-principle.md)
 >>>>>>> 80bc07e81 (.)
+=======
+- [DRY Principle](../../docs/dry-principle.md)
+- [KISS Principle](../../docs/kiss-principle.md)
+>>>>>>> 414a4ffcb (.)
 - [Xot Actions Documentation](../actions/README.md)
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -663,3 +669,6 @@ class Product extends BaseModel
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 80bc07e81 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 414a4ffcb (.)

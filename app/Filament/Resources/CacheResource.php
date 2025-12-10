@@ -16,6 +16,7 @@ class CacheResource extends XotBaseResource
 {
     protected static ?string $model = Cache::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 use Override;
 use Override;
@@ -108,6 +109,8 @@ class CacheResource extends XotBaseResource
 
 
 
+=======
+>>>>>>> 414a4ffcb (.)
 
 =======
 
@@ -119,6 +122,7 @@ class CacheResource extends XotBaseResource
             'key' => TextInput::make('key')->required()->maxLength(255),
             'expiration' => TextInput::make('expiration')->required()->numeric(),
             'value' => KeyValue::make('value')->columnSpanFull(),
+<<<<<<< HEAD
 <<<<<<< HEAD
             TextInput::make('key')->required()->maxLength(255),
             TextInput::make('expiration')->required()->numeric(),
@@ -140,6 +144,8 @@ class CacheResource extends XotBaseResource
             'value' => KeyValue::make('value')->columnSpanFull(),
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         ];
     }
 
@@ -149,53 +155,6 @@ class CacheResource extends XotBaseResource
         return [];
     }
 
-    #[Override]
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-use Modules\Xot\Models\Cache;
-
-class CacheResource extends XotBaseResource
-{
-    protected static null|string $model = Cache::class;
-
-    /**
-     * @return array<int, \Filament\Support\Components\Component>
-     */
-
-
-
-
-    #[Override]
-    public static function getFormSchema(): array
-    {
-        return [
-            'key' => TextInput::make('key')->required()->maxLength(255),
-            'expiration' => TextInput::make('expiration')->required()->numeric(),
-            'value' => KeyValue::make('value')->columnSpanFull(),
-            TextInput::make('key')->required()->maxLength(255),
-            TextInput::make('expiration')->required()->numeric(),
-            KeyValue::make('value')->columnSpanFull(),
-            'key' => TextInput::make('key')->required()->maxLength(255),
-            'expiration' => TextInput::make('expiration')->required()->numeric(),
-            'value' => KeyValue::make('value')->columnSpanFull(),
-            'key' => TextInput::make('key')->required()->maxLength(255),
-            'expiration' => TextInput::make('expiration')->required()->numeric(),
-            'value' => KeyValue::make('value')->columnSpanFull(),
-            'key' => TextInput::make('key')->required()->maxLength(255),
-            'expiration' => TextInput::make('expiration')->required()->numeric(),
-            'value' => KeyValue::make('value')->columnSpanFull(),
-            'key' => TextInput::make('key')->required()->maxLength(255),
-            'expiration' => TextInput::make('expiration')->required()->numeric(),
-            'value' => KeyValue::make('value')->columnSpanFull(),
-        ];
-    }
-
-    #[Override]
-    public static function getRelations(): array
-    {
-        return [];
-    }
-
-    #[Override]
     #[Override]
     public static function getPages(): array
     {

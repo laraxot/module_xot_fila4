@@ -17,6 +17,7 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  *
  *
@@ -76,6 +77,8 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
  *
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -95,6 +98,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'CacheCheck',
                 'CacheCheck',
                 'CacheCheck',
@@ -154,6 +158,8 @@ class HealthCheckResultHistoryItemFactory extends Factory
                 'CacheCheck',
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -246,6 +252,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
 >>>>>>> 7468a7d2 (.)
         return $this->state(fn (array $_attributes): array => [
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -525,6 +532,8 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -606,6 +615,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
 >>>>>>> 7468a7d2 (.)
         return $this->state(fn (array $_attributes): array => [
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -881,6 +891,8 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

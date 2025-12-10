@@ -6,6 +6,7 @@ namespace Modules\Xot\ValueObjects;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,6 +64,10 @@ use InvalidArgumentException;
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+use InvalidArgumentException;
+
+>>>>>>> 414a4ffcb (.)
 use function Safe\preg_match;
 
 /**
@@ -71,6 +76,7 @@ use function Safe\preg_match;
 readonly class PhoneValueObject
 {
     private function __construct(
+<<<<<<< HEAD
 <<<<<<< HEAD
         private  string $phone,
         private  string $phone,
@@ -90,10 +96,14 @@ readonly class PhoneValueObject
 =======
         private string $phone,
 >>>>>>> 551c768c4 (.)
+=======
+        private string $phone,
+>>>>>>> 414a4ffcb (.)
     ) {}
 
     public static function fromString(string $phone): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (0 === preg_match('/^\+1\d{10}$/', $phone)) {
 <<<<<<< HEAD
@@ -150,6 +160,9 @@ readonly class PhoneValueObject
 =======
         if (preg_match('/^\+1\d{10}$/', $phone) === 0) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (preg_match('/^\+1\d{10}$/', $phone) === 0) {
+>>>>>>> 414a4ffcb (.)
             throw new InvalidArgumentException('It is not valid phone value');
         }
 

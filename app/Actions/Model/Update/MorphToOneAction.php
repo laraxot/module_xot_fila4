@@ -31,6 +31,7 @@ use Illuminate\Support\Facades\App;
 use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -68,6 +69,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -86,6 +89,7 @@ class MorphToOneAction
     /**
      * Execute the action to create a MorphToOne relationship.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param Model       $model       The parent model
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
@@ -118,6 +122,12 @@ class MorphToOneAction
 =======
      * @throws InvalidArgumentException When relation type is invalid
 >>>>>>> 091f883c (.)
+=======
+     * @param  Model  $model  The parent model
+     * @param  RelationDTO  $relationDTO  Data transfer object containing relationship information
+     *
+     * @throws InvalidArgumentException When relation type is invalid
+>>>>>>> 414a4ffcb (.)
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
@@ -136,6 +146,7 @@ class MorphToOneAction
      * Prepare the data array for creation.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data The input data array
      *
      * @param array<string, mixed> $data The input data array
@@ -149,11 +160,15 @@ class MorphToOneAction
 =======
      * @param  array<string, mixed>  $data  The input data array
 >>>>>>> 551c768c4 (.)
+=======
+     * @param  array<string, mixed>  $data  The input data array
+>>>>>>> 414a4ffcb (.)
      * @return array<string, mixed> The prepared data array
      */
     private function prepareData(array $data): array
     {
         // Ensure the 'lang' key is set to the current locale if not provided
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!isset($data['lang'])) {
@@ -429,6 +444,9 @@ class MorphToOneAction
 =======
         if (! isset($data['lang'])) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> 414a4ffcb (.)
             $data['lang'] = App::getLocale();
         }
 
@@ -507,6 +525,7 @@ class MorphToOneAction
 =======
 >>>>>>> 7468a7d2 (.)
         return array_filter($data, static fn ($value) => $value !== null);
+<<<<<<< HEAD
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
@@ -715,5 +734,7 @@ class MorphToOneAction
 =======
         return array_filter($data, static fn ($value) => $value !== null);
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

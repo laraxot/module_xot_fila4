@@ -6,6 +6,7 @@ namespace Modules\Xot\Rules;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 =======
@@ -277,6 +278,11 @@ use Webmozart\Assert\Assert;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+use Exception;
+use Illuminate\Contracts\Validation\Rule;
+use Illuminate\Support\Carbon;
+>>>>>>> 414a4ffcb (.)
 
 /**
  * Class DateTimeRule.
@@ -315,6 +321,7 @@ class DateTimeRule implements Rule
             return false;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $_attribute The attribute name being validated
      * @param mixed $value The value being validated
@@ -634,6 +641,8 @@ class DateTimeRule implements Rule
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);
@@ -646,6 +655,7 @@ class DateTimeRule implements Rule
 <<<<<<< HEAD
          * request()->replace([$attribute=>$value_new]);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -724,6 +734,8 @@ class DateTimeRule implements Rule
          */
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
         return true;
     }
@@ -838,6 +850,7 @@ class DateTimeRule implements Rule
  *
  *
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -998,3 +1011,5 @@ class StorePostRequest extends FormRequest
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)

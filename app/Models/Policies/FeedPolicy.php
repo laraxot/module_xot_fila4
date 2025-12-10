@@ -6,6 +6,7 @@ namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +252,11 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Feed;
 use Override;
 >>>>>>> 551c768c4 (.)
+=======
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\Feed;
+use Override;
+>>>>>>> 414a4ffcb (.)
 
 class FeedPolicy extends XotBasePolicy
 {
@@ -295,6 +301,7 @@ class FeedPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, Feed $feed): bool
 =======
 =======
@@ -351,6 +358,8 @@ class FeedPolicy extends XotBasePolicy
     public function view(UserContract $user, Feed $_feed): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('feed.view');
     }
@@ -374,6 +383,7 @@ class FeedPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, Feed $feed): bool
 =======
 =======
@@ -430,6 +440,8 @@ class FeedPolicy extends XotBasePolicy
     public function update(UserContract $user, Feed $_feed): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('feed.update');
     }
@@ -445,6 +457,7 @@ class FeedPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, Feed $feed): bool
 =======
 =======
@@ -501,6 +514,8 @@ class FeedPolicy extends XotBasePolicy
     public function delete(UserContract $user, Feed $_feed): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('feed.delete');
     }
@@ -516,6 +531,7 @@ class FeedPolicy extends XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, Feed $feed): bool
 =======
 =======
@@ -572,6 +588,8 @@ class FeedPolicy extends XotBasePolicy
     public function restore(UserContract $user, Feed $_feed): bool
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return $user->hasPermissionTo('feed.restore');
     }
@@ -583,6 +601,7 @@ class FeedPolicy extends XotBasePolicy
     {
         return $user->hasPermissionTo('feed.forceDelete');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -599,3 +618,6 @@ class FeedPolicy extends XotBasePolicy
 =======
 }
 >>>>>>> 091f883c (.)
+=======
+}
+>>>>>>> 414a4ffcb (.)

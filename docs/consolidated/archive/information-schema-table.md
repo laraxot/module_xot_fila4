@@ -85,6 +85,7 @@ class InformationSchemaTable extends Model
 - [Schema Documentation](../DIRECTORY-STRUCTURE-GUIDE.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,3 +204,7 @@ class InformationSchemaTable extends Model
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Model Best Practices](../models/README.md) 
 >>>>>>> 551c768c4 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Model Best Practices](../models/README.md) 
+>>>>>>> 414a4ffcb (.)

@@ -11,6 +11,7 @@ namespace Modules\Xot\Filament\Actions\Header;
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
 // use Filament\Actions\Action;
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
@@ -23,6 +24,8 @@ namespace Modules\Xot\Filament\Actions\Header;
 // use Filament\Tables\Actions\Action;
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Artisan;
@@ -81,6 +84,7 @@ class ArtisanHeaderAction extends Action
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 
+<<<<<<< HEAD
             
             
             
@@ -369,6 +373,8 @@ class ArtisanHeaderAction extends Action
 =======
 
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
@@ -384,6 +390,7 @@ class ArtisanHeaderAction extends Action
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
             ->action(function (): void {
+<<<<<<< HEAD
             ->action(function () {
             ->action(function () {
             ->action(function () {
@@ -420,6 +427,8 @@ class ArtisanHeaderAction extends Action
 =======
             ->action(function (): void {
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 Assert::string($cmd = $this->getName());
                 Artisan::call($cmd);
                 $output = Artisan::output();
@@ -465,6 +474,7 @@ class ArtisanHeaderAction extends Action
 =======
 >>>>>>> 218dfed3 (.)
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -773,6 +783,8 @@ class ArtisanHeaderAction extends Action
 =======
     public static function getDefaultName(): ?string
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     {
         return 'artisan_action';
     }

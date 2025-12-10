@@ -31,6 +31,7 @@ use function Safe\preg_match;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -100,6 +101,8 @@ use function Safe\preg_match;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 class GetClassNameByPathAction
 {
     use QueueableAction;
@@ -114,6 +117,7 @@ class GetClassNameByPathAction
         $namespace = $namespaceMatch[1] ?? '';
         $className = $classMatch[1] ?? '';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
@@ -287,6 +291,9 @@ class GetClassNameByPathAction
 =======
         return $namespace ? ($namespace.'\\'.$className) : $className;
 >>>>>>> 551c768c4 (.)
+=======
+        return $namespace ? ($namespace.'\\'.$className) : $className;
+>>>>>>> 414a4ffcb (.)
     }
 }
 
@@ -314,6 +321,7 @@ class GetClassNameByPathAction
  * ->replace('/', '\\')
  * ->toString();
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,3 +392,5 @@ $class = Str::of($path)
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)

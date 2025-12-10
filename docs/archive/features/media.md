@@ -48,6 +48,7 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/upload.txt}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [media.md](../../../Xot/docs/features/media.md)
 * [media.md](../../../Xot/docs/roadmap/bottlenecks/media.md)
@@ -147,6 +148,10 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/upload.txt}
 * [media.md](../../../Xot/docs/features/media.md)
 * [media.md](../../../Xot/docs/roadmap/bottlenecks/media.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [media.md](../../../Xot/docs/features/media.md)
+* [media.md](../../../Xot/docs/roadmap/bottlenecks/media.md)
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming

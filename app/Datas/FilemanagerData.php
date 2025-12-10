@@ -20,6 +20,7 @@ class FilemanagerData extends Data
      * @param  string  $route_prefix  Prefisso per le rotte del file manager
      * @param  bool  $enable_crop  Abilita il crop delle immagini
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $disk        Disco di storage predefinito
      * @param array  $disks       Dischi di storage disponibili
      * @param array  $allowed_ext Estensioni file consentite
@@ -28,6 +29,8 @@ class FilemanagerData extends Data
      * @param bool   $enable_crop Abilita il crop delle immagini
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function __construct(
         public readonly string $disk = 'public',
@@ -68,6 +71,7 @@ class FilemanagerData extends Data
 =======
 >>>>>>> 8fd88dd43 (.)
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +265,8 @@ class FilemanagerData extends Data
 =======
     ) {}
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
     /**
      * Create a new instance of FilemanagerData with default values.
@@ -268,6 +274,7 @@ class FilemanagerData extends Data
     public static function make(): static
     {
         return new static;
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return static
@@ -277,5 +284,7 @@ class FilemanagerData extends Data
         return new static();
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

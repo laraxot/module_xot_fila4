@@ -27,6 +27,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -283,6 +284,8 @@ declare(strict_types=1);
 
 
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -291,6 +294,7 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< HEAD
 <<<<<<< HEAD
     ->ignoreVCS(true)
     ->ignoreVCS(true)
@@ -310,6 +314,9 @@ $finder = PhpCsFixer\Finder::create()
 =======
     ->ignoreVCS(true);
 >>>>>>> 551c768c4 (.)
+=======
+    ->ignoreVCS(true);
+>>>>>>> 414a4ffcb (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -336,7 +343,6 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
-    ->setFinder($finder);
+    ->setFinder($finder)
 
-return $config;
 return $config;

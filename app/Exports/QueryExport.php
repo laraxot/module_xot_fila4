@@ -6,6 +6,7 @@ namespace Modules\Xot\Exports;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
 =======
@@ -79,6 +80,11 @@ use Traversable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
 >>>>>>> 551c768c4 (.)
+=======
+use Traversable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Contracts\Support\Arrayable;
+>>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 =======
@@ -102,6 +108,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 {
     use Exportable;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /** @var array<int, string> */
@@ -441,6 +448,12 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 >>>>>>> 5cf46378 (.)
 
     public array $headings;
+=======
+    public array $headings = [];
+
+    /** @var array<int, int|string> */
+    public array $fields = [];
+>>>>>>> 414a4ffcb (.)
 
 <<<<<<< HEAD
     public ?string $transKey = null;
@@ -469,6 +482,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
     public string $sheetName;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  array<int, string>  $fields
      */
@@ -592,6 +606,9 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 
     /**
      * @param  array<int, string>  $fields
+=======
+     * @param array<int, int|string> $fields
+>>>>>>> 414a4ffcb (.)
      */
     public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
 <<<<<<< HEAD
@@ -748,6 +765,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 >>>>>>> ab8cc3f3 (.)
     }
 
+<<<<<<< HEAD
     public function getHead(): Collection
     {
         if (! empty($this->fields)) {
@@ -923,6 +941,9 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 =======
     /**
 >>>>>>> 551c768c4 (.)
+=======
+    /**
+>>>>>>> 414a4ffcb (.)
      * @return Collection<int, int|string>
      */
     public function getHead(): Collection
@@ -943,6 +964,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
                     static fn (mixed $heading): int|string => \is_int($heading) ? $heading : (string) $heading
                 );
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!empty($this->fields)) {
             return collect($this->fields);
     public function getHead(): Collection
@@ -955,6 +977,8 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
             return collect($this->fields);
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         }
         /**
          * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
@@ -974,6 +998,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
             );
 
         return $result;
+<<<<<<< HEAD
 <<<<<<< HEAD
             return collect([]);
         }
@@ -996,6 +1021,8 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     public function headings(): array
@@ -1014,6 +1041,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
         $translated = app(TransCollectionAction::class)->execute($headingsWithKeys, $this->transKey);
 
         return $translated->toArray();
+<<<<<<< HEAD
 <<<<<<< HEAD
         $headings = $this->getHead();
         $transKey = $this->transKey;
@@ -1039,6 +1067,8 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 
     /**
@@ -1121,6 +1151,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -1170,6 +1201,8 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         // ->orderBy('id');
 <<<<<<< HEAD
 =======
@@ -1315,6 +1348,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
         }
 
         return (array) $row;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1791,5 +1825,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

@@ -89,6 +89,7 @@
    ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,8 +128,12 @@
 >>>>>>> ce6fc085 (.)
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
 <<<<<<< HEAD
+=======
+>>>>>>> 414a4ffcb (.)
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
+=======
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -294,10 +299,13 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -338,8 +346,12 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 >>>>>>> ce6fc085 (.)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
 <<<<<<< HEAD
+=======
+>>>>>>> 414a4ffcb (.)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
+=======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -505,6 +517,8 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
    ```
 
 ## Manutenzione della documentazione
@@ -540,6 +554,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 ## Collegamenti a documentazione correlata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -690,12 +705,15 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 414a4ffcb (.)
 - [Documentazione generale](../../../docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 *Ultimo aggiornamento: Giugno 2025*
+<<<<<<< HEAD
 >>>>>>> 551c768c4 (.)
 =======
 *Ultimo aggiornamento: Giugno 2025*
@@ -845,3 +863,11 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+=======
+- [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
+
+*Ultimo aggiornamento: Giugno 2025*
+=======
+>>>>>>> 414a4ffcb (.)

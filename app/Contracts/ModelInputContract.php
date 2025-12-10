@@ -24,6 +24,7 @@ use Illuminate\Support\Carbon;
  * @property bool $is_reclamed
  * @property bool $table_enable
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $name
@@ -38,6 +39,8 @@ use Illuminate\Support\Carbon;
  * @property bool               $table_enable
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @property PivotContract|null $pivot
  * @property string $tennant_name
  * @property string $mail_subject
@@ -64,6 +67,7 @@ use Illuminate\Support\Carbon;
  * @method array treeSons()
  * @method array toArray()
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @method mixed     getKey()
  * @method string    getRouteKey()
  * @method string    getRouteKeyName()
@@ -82,12 +86,15 @@ use Illuminate\Support\Carbon;
  * @method array     toArray()
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @method BelongsTo user()
  *
  * @phpstan-require-extends Model
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 interface ModelInputContract
@@ -500,3 +507,6 @@ interface ModelInputContract {}
 =======
 interface ModelInputContract {}
 >>>>>>> 551c768c4 (.)
+=======
+interface ModelInputContract {}
+>>>>>>> 414a4ffcb (.)

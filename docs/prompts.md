@@ -137,6 +137,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [prompts.md](../../../Xot/project_docs/prompts.md)
 * [prompts.md](../../../Xot/docs/prompts.md)
 * [prompts.md](../../../Xot/docs/prompts.md)
@@ -305,6 +306,8 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 * [prompts.md](../../../Xot/docs/prompts.md)
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 
 
 ## Modifiche al Prompt docs.txt
@@ -330,6 +333,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
@@ -897,6 +901,11 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 >>>>>>> 551c768c4 (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 414a4ffcb (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -1010,6 +1019,7 @@ Il prompt `docs.txt` serve come:
 =======
 >>>>>>> 7468a7d2 (.)
    ```
+<<<<<<< HEAD
    ```
    ```
    ```
@@ -1069,3 +1079,6 @@ Il prompt `docs.txt` serve come:
    ```
 =======
 >>>>>>> 551c768c4 (.)
+=======
+=======
+>>>>>>> 414a4ffcb (.)

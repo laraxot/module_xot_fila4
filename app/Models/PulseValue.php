@@ -6,6 +6,7 @@ namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseValueFactory;
@@ -19,11 +20,14 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseValueFactory;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
@@ -37,10 +41,15 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $id
  * @property int $timestamp
 >>>>>>> 551c768c4 (.)
+=======
+ * @property string $id
+ * @property int $timestamp
+>>>>>>> 414a4ffcb (.)
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,6 +141,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
@@ -146,6 +157,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseValue whereType($value)
  * @method static Builder<static>|PulseValue whereValue($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -249,6 +261,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

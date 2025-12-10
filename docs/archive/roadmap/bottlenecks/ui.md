@@ -189,6 +189,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../UI/docs/ui.md)
@@ -288,4 +289,8 @@
 * [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../UI/docs/ui.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
+* [ui.md](../../../UI/docs/ui.md)
+>>>>>>> 414a4ffcb (.)
 

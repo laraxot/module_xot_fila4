@@ -316,6 +316,7 @@ class XotPageTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [implementation.md](../../../Gdpr/docs/implementation.md)
 * [implementation.md](../../../Xot/docs/implementation.md)
@@ -436,6 +437,11 @@ class XotPageTest extends TestCase
 * [implementation.md](../../../Xot/docs/implementation.md)
 * [implementation.md](../../../Job/docs/implementation.md)
 >>>>>>> 80bc07e81 (.)
+=======
+* [implementation.md](../../../Gdpr/docs/implementation.md)
+* [implementation.md](../../../Xot/docs/implementation.md)
+* [implementation.md](../../../Job/docs/implementation.md)
+>>>>>>> 414a4ffcb (.)
 
 
 ### Versione Incoming

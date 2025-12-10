@@ -23,6 +23,7 @@ class MorphToManyAction
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
@@ -296,6 +297,9 @@ class MorphToManyAction
 =======
             if (! isset($data['to'])) {
 >>>>>>> 551c768c4 (.)
+=======
+            if (! isset($data['to'])) {
+>>>>>>> 414a4ffcb (.)
                 $data['to'] = [];
             }
 
@@ -306,6 +310,7 @@ class MorphToManyAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
@@ -579,6 +584,9 @@ class MorphToManyAction
 =======
         if (! Arr::isAssoc($data)) {
 >>>>>>> 551c768c4 (.)
+=======
+        if (! Arr::isAssoc($data)) {
+>>>>>>> 414a4ffcb (.)
             $relationDTO->rows->sync($data);
 
             return;
@@ -628,6 +636,7 @@ class MorphToManyAction
          * }
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,5 +780,7 @@ class MorphToManyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

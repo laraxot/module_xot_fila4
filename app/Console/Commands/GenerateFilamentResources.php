@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Console\Commands;
 
 use Exception;
-use Exception;
-use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
@@ -24,10 +22,13 @@ class GenerateFilamentResources extends Command
 
         // Assicuriamoci che $moduleName sia una stringa
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // Assicuriamoci che $moduleName sia una stringa
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         if (! is_string($moduleName)) {
             $this->error('Il nome del modulo deve essere una stringa.');
 
@@ -37,6 +38,7 @@ class GenerateFilamentResources extends Command
         $module = Module::find($moduleName);
 
         if (! $module) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!$module) {
         
@@ -88,6 +90,8 @@ class GenerateFilamentResources extends Command
         if (!$module) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -97,6 +101,7 @@ class GenerateFilamentResources extends Command
 
         $modelsPath = $module->getPath().'/app/Models';
         if (! File::isDirectory($modelsPath)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
@@ -226,6 +231,8 @@ class GenerateFilamentResources extends Command
         if (!File::isDirectory($modelsPath)) {
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -241,6 +248,7 @@ class GenerateFilamentResources extends Command
             $params = [
                 $modelName, // Resource name as positional argument
 <<<<<<< HEAD
+<<<<<<< HEAD
             $panel = $panelName . '::admin';
             $params = [
                 'name' => $modelName,
@@ -282,6 +290,8 @@ class GenerateFilamentResources extends Command
                 'name' => $modelName,
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
                 '--panel' => $panel,
                 '--model-namespace' => "Modules\\{$moduleName}\\Models",
                 '--generate' => true,
@@ -290,8 +300,6 @@ class GenerateFilamentResources extends Command
             ];
             try {
                 Artisan::call('make:filament-resource', $params);
-            } catch (Exception $e) {
-            } catch (Exception $e) {
             } catch (Exception $e) {
                 $this->error($e->getMessage());
             }

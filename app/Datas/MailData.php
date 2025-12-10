@@ -24,6 +24,7 @@ class MailData extends Data
      * @param  string|null  $reply_to  Indirizzo per le risposte
      * @param  bool  $verify_peer  Verifica certificato peer SSL
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $driver         Driver per l'invio delle email
      * @param string $host           Host SMTP
      * @param int         $port           Porta SMTP
@@ -36,6 +37,8 @@ class MailData extends Data
      * @param bool        $verify_peer    Verifica certificato peer SSL
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     public function __construct(
         public readonly string $driver = 'smtp',
@@ -49,6 +52,7 @@ class MailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
         public readonly ?string $reply_to = null,
+<<<<<<< HEAD
         public readonly ?string $reply_to = null,
         public readonly ?string $reply_to = null,
 =======
@@ -173,6 +177,8 @@ class MailData extends Data
 =======
         public readonly ?string $reply_to = null,
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
         public readonly bool $verify_peer = true,
     ) {}
 
@@ -183,6 +189,7 @@ class MailData extends Data
     {
         return new static;
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return static
      */
@@ -191,5 +198,7 @@ class MailData extends Data
         return new static();
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
     }
 }

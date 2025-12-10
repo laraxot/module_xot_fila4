@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +191,9 @@ La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **S
 =======
 La cartella `/var/www/html/_bases/base_<nome progetto>/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 >>>>>>> 551c768c4 (.)
+=======
+La cartella `/var/www/html/_bases/base_<nome progetto>/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
+>>>>>>> 414a4ffcb (.)
 
 ## Struttura Organizzata
 
@@ -244,6 +248,7 @@ bashscripts/
 - `fix_all_english_translations.sh` - Fix traduzioni inglesi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,6 +428,9 @@ bashscripts/
 =======
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni <nome progetto>
 >>>>>>> 551c768c4 (.)
+=======
+- `fix_<nome progetto>_translations.sh` - Fix traduzioni <nome progetto>
+>>>>>>> 414a4ffcb (.)
 - `verify_translations_syntax.sh` - Verifica sintassi traduzioni
 
 #### 9. **utilities/** - Utilità Generali

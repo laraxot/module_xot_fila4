@@ -12,17 +12,21 @@ use Modules\Xot\Models\CacheLock;
  * @extends Factory<CacheLock>
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @extends Factory<CacheLock>
  */
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
 class CacheLockFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var class-string<CacheLock>
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @var class-string<Model>
      * @var class-string<Model>
@@ -36,6 +40,8 @@ class CacheLockFactory extends Factory
      * @var class-string<Model>
 =======
 >>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 414a4ffcb (.)
      */
     protected $model = CacheLock::class;
 

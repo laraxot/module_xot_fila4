@@ -10,6 +10,10 @@ namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
 // use Filament\Actions\Action;
+// use Filament\Tables\Actions\Action;
+// use Filament\Tables\Actions\Action;
+// use Filament\Tables\Actions\Action;
+// use Filament\Tables\Actions\Action;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Resources\Pages\ListRecords;
@@ -28,10 +32,86 @@ class SanitizeFieldsHeaderAction extends Action
             ->tooltip('sanitize')
             ->icon('heroicon-o-shield-exclamation')
             ->action(function (ListRecords $livewire): void {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire): void {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire): void {
+            ->action(function (ListRecords $livewire) {
+            ->action(function (ListRecords $livewire) {
                 $resource = $livewire->getResource();
                 $modelClass = $resource::getModel();
                 // @phpstan-ignore staticMethod.nonObject
                 $rows = $modelClass::get();
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (!is_iterable($rows)) {
+                if (! is_iterable($rows)) {
                 if (! is_iterable($rows)) {
                     $rows = [];
                 }
@@ -48,6 +128,65 @@ class SanitizeFieldsHeaderAction extends Action
                             $row->{$fieldName} = $string;
                             $save = true;
                             $c++;
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+                        Assert::string($item = $row->{$field});
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string != $item) {
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+                            $row->{$field} = $string;
+                            $save = true;
+                            ++$c;
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        if (! is_string($field)) {
+                            continue;
+                        }
+
+                        $item = $row->{$field};
+                        Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                        if (! is_string($field)) {
+                            continue;
+                        }
+
+                        $item = $row->{$field};
+                        Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                        $fieldName = is_string($field) ? $field : (string) $field;
+                        $item = $row->{$fieldName};
+                        Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                        $fieldName = is_string($field) ? $field : (string) $field;
+                        $item = $row->{$fieldName};
+                        Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+                            $row->{$field} = $string;
+                            $save = true;
+                            ++$c;
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+                            $row->{$field} = $string;
+                            $save = true;
+                            ++$c;
                         }
                     }
                     if ($save) {
@@ -55,6 +194,70 @@ class SanitizeFieldsHeaderAction extends Action
                     }
                 }
                 Notification::make()
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title('' . $c . ' record sanitized')
+                    ->title(''.$c.' record sanitized')
                     ->title(''.$c.' record sanitized')
                     ->success()
                     ->send();
@@ -68,6 +271,70 @@ class SanitizeFieldsHeaderAction extends Action
         return $this;
     }
 
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
     {
         return 'sanitize-fields-header';

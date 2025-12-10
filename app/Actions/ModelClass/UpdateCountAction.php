@@ -7,6 +7,10 @@ namespace Modules\Xot\Actions\ModelClass;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
+use Illuminate\Support\Facades\DB;
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -19,6 +23,10 @@ class UpdateCountAction
      * Execute the count action for the given model class.
      *
      * @param class-string<Model> $modelClass The fully qualified model class name
+     *
+     *
+     *
+     *
      */
     public function execute(string $modelClass, int $total): void
     {

@@ -17,5 +17,39 @@ class AssetPathAction
         $module_path = Module::getModulePath($ns).'resources';
 
         return $module_path.'/'.$file;
+        $module_path = Module::getModulePath($ns) . 'resources';
+
+        return $module_path . '/' . $file;
+        $module_path = Module::getModulePath($ns) . 'resources';
+
+        return $module_path . '/' . $file;
+        [$ns,$file] = explode('::', $asset);
+        $module_path = Module::getModulePath($ns).'resources';
+
+        return $module_path.'/'.$file;
+        [$ns, $file] = explode('::', $asset);
+        $module_path = Module::getModulePath($ns) . 'resources';
+
+        return $module_path . '/' . $file;
+        $module_path = Module::getModulePath($ns) . 'resources';
+
+        return $module_path . '/' . $file;
+        $module_path = Module::getModulePath($ns) . 'resources';
+
+        return $module_path . '/' . $file;
+        $module_path = Module::getModulePath($ns) . 'resources';
+
+        return $module_path . '/' . $file;
+        [$ns, $file] = explode('::', $asset);
+        $module_path = Module::getModulePath($ns).'resources';
+
+        return $module_path.'/'.$file;
+        [$ns,$file] = explode('::', $asset);
+        $module_path = Module::getModulePath($ns).'resources';
+
+        return $module_path.'/'.$file;
+        $module_path = Module::getModulePath($ns) . 'resources';
+
+        return $module_path . '/' . $file;
     }
 }

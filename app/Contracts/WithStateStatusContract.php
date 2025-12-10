@@ -6,6 +6,16 @@ namespace Modules\Xot\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\ModelStates\State;
+use Spatie\ModelStates\State;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\ModelStates\State;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\ModelStates\State;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\ModelStates\State;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\ModelStates\State;
+use Illuminate\Database\Eloquent\Model;
 
 /**
  * @property State $status
@@ -13,3 +23,15 @@ use Spatie\ModelStates\State;
  * @phpstan-require-extends Model
  */
 interface WithStateStatusContract {}
+interface WithStateStatusContract
+{
+}
+interface WithStateStatusContract
+{
+}
+interface WithStateStatusContract
+{
+}
+interface WithStateStatusContract
+{
+}

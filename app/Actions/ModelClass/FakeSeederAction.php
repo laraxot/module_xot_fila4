@@ -4,6 +4,48 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\ModelClass;
 
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -27,6 +69,14 @@ class FakeSeederAction
      *
      * @param  class-string<Model>  $modelClass  The fully qualified model class name
      * @param  int<1, max>  $qty  Number of records to generate
+     * @param class-string<Model> $modelClass The fully qualified model class name
+     * @param int<1, max>         $qty        Number of records to generate
+     * @param class-string<Model> $modelClass The fully qualified model class name
+     * @param int<1, max>         $qty        Number of records to generate
+     * @param class-string<Model> $modelClass The fully qualified model class name
+     * @param int<1, max>         $qty        Number of records to generate
+     * @param class-string<Model> $modelClass The fully qualified model class name
+     * @param int<1, max>         $qty        Number of records to generate
      *
      * @throws InvalidArgumentException When model class is invalid
      */
@@ -36,6 +86,18 @@ class FakeSeederAction
             ! class_exists($modelClass) ||
                 ! is_subclass_of($modelClass, Model::class) ||
                 ! in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+            !class_exists($modelClass) ||
+                !is_subclass_of($modelClass, Model::class) ||
+                !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+            !class_exists($modelClass) ||
+                !is_subclass_of($modelClass, Model::class) ||
+                !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+            !class_exists($modelClass) ||
+                !is_subclass_of($modelClass, Model::class) ||
+                !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+            !class_exists($modelClass) ||
+                !is_subclass_of($modelClass, Model::class) ||
+                !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
         ) {
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
         }
@@ -70,6 +132,10 @@ class FakeSeederAction
      * Get the model factory.
      *
      * @param  class-string<Model>  $modelClass
+     * @param class-string<Model> $modelClass
+     * @param class-string<Model> $modelClass
+     * @param class-string<Model> $modelClass
+     * @param class-string<Model> $modelClass
      *
      * @throws RuntimeException
      */
@@ -87,6 +153,14 @@ class FakeSeederAction
      *
      * @param  class-string<Model>  $modelClass
      * @param  int<1, max>  $count
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $count
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $count
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $count
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $count
      */
     private function sendNotification(string $modelClass, int $count): void
     {
@@ -102,6 +176,14 @@ class FakeSeederAction
      *
      * @param  class-string<Model>  $modelClass
      * @param  int<1, max>  $qty
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $qty
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $qty
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $qty
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $qty
      */
     private function queueRemainingRecords(string $modelClass, int $qty): void
     {

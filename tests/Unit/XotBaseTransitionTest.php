@@ -7,6 +7,18 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\States\Transitions\XotBaseTransition;
 
+
+describe('XotBaseTransition', function () {
+    beforeEach(function () {
+        // Create a concrete test transition class
+        /* @phpstan-ignore-next-line property.notFound, new.internalClass */
+        $this->transition = new TestTransitionForTest($this->record);
+uses(RefreshDatabase::class);
+describe('XotBaseTransition', function (): void {
+    beforeEach(function (): void {
+        // Create a test record using concrete class
+        /* @phpstan-ignore-next-line property.notFound, new.internalClass */
+        $this->record = new TestModelForTransition;
 uses(RefreshDatabase::class);
 
 describe('XotBaseTransition', function () {
@@ -14,6 +26,55 @@ describe('XotBaseTransition', function () {
         // Create a concrete test transition class
         $this->transition = new class extends XotBaseTransition
         {
+        $this->transition = new class extends XotBaseTransition {
+        $this->transition = new class extends XotBaseTransition {
+        $this->transition = new class extends XotBaseTransition {
+        $this->transition = new class extends XotBaseTransition {
+            public static string $name = 'test_transition';
+
+            #[Override]
+        /* @phpstan-ignore-next-line property.notFound, new.internalClass */
+        $this->transition = new TestTransitionForTest($this->record);
+uses(RefreshDatabase::class);
+
+describe('XotBaseTransition', function () {
+    beforeEach(function () {
+        // Create a concrete test transition class
+        /* @phpstan-ignore-next-line property.notFound, new.internalClass */
+        $this->transition = new TestTransitionForTest($this->record);
+uses(RefreshDatabase::class);
+uses(RefreshDatabase::class);
+
+describe('XotBaseTransition', function () {
+    beforeEach(function () {
+        // Create a concrete test transition class
+        $this->transition = new class extends XotBaseTransition
+        {
+            public static string $name = 'test_transition';
+
+            #[Override]
+        $this->transition = new class extends XotBaseTransition {
+        $this->transition = new class extends XotBaseTransition
+        {
+            public static string $name = 'test_transition';
+
+            #[Override]
+
+
+        $this->transition = new class extends XotBaseTransition {
+            public static string $name = 'test_transition';
+
+            #[Override]
+        $this->transition = new class extends XotBaseTransition {
+            public static string $name = 'test_transition';
+            
+
+
+        $this->transition = new class extends XotBaseTransition {
+            public static string $name = 'test_transition';
+
+            #[Override]
+        $this->transition = new class extends XotBaseTransition {
             public static string $name = 'test_transition';
 
             #[Override]
@@ -27,12 +88,85 @@ describe('XotBaseTransition', function () {
 
             #[Override]
             public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(?UserContract $recipient): void
             {
                 // Mock implementation
             }
         };
 
         // Create a test record
+        $this->record = new class extends Model implements UserContract
+        {
+        $this->record = new class extends Model implements UserContract {
+        $this->record = new class extends Model implements UserContract {
+        $this->record = new class extends Model implements UserContract {
+        $this->record = new class extends Model implements UserContract {
+            protected $table = 'test_users';
+
+            protected $fillable = ['name', 'email'];
+        $this->record = new class extends Model implements UserContract {
+        $this->record = new class extends Model implements UserContract
+        {
+            protected $table = 'test_users';
+
+            protected $fillable = ['name', 'email'];
+        $this->record = new class extends Model implements UserContract
+        {
+            protected $table = 'test_users';
+
+            protected $fillable = ['name', 'email'];
+        $this->record = new class extends Model implements UserContract {
         $this->record = new class extends Model implements UserContract
         {
             protected $table = 'test_users';
@@ -55,6 +189,50 @@ describe('XotBaseTransition', function () {
                 return '';
             }
 
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): null|string
+            public function getRememberToken(): ?string
             public function getRememberToken(): ?string
             {
                 return null;
@@ -85,6 +263,21 @@ describe('XotBaseTransition', function () {
     it('has record property', function () {
         $reflection = new ReflectionObject($this->transition);
         expect($reflection->hasProperty('record'))->toBeTrue();
+    it('has record property', function (): void {
+        /* @phpstan-ignore-next-line property.notFound */
+    it('has record property', function () {
+    it('has record property', function () {
+    it('has record property', function () {
+    it('has record property', function () {
+    it('has record property', function () {
+        expect(property_exists($this->transition, 'record'))->toBeTrue();
+        expect(property_exists($this->transition, 'record'))->toBeTrue();
+        expect(property_exists($this->transition, 'record'))->toBeTrue();
+        expect(property_exists($this->transition, 'record'))->toBeTrue();
+    it('has record property', function () {
+    it('has record property', function (): void {
+        /* @phpstan-ignore-next-line property.notFound */
+        expect(property_exists($this->transition, 'record'))->toBeTrue();
     });
 
     it('can get record', function () {
@@ -99,6 +292,9 @@ describe('XotBaseTransition', function () {
 
     it('can send notifications without errors', function () {
         // This should not throw an exception
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect($this->transition->sendNotifications(...))->not->toThrow(Exception::class);
     });
 
@@ -113,10 +309,17 @@ describe('XotBaseTransition', function () {
             ->toBeArray()
             ->and($recipients)
             ->toHaveKey('test_user')
+            /* @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+            ->and($recipients['test_user'])
+            ->toBeInstanceOf(RecordNotificationData::class);
             ->and($recipients)
             ->toHaveKey('null_user')
             ->and($recipients['null_user'])
             ->toBeNull();
+        expect($recipients)->toBeArray()
+            ->and($recipients)->toHaveKey('test_user')
+            ->and($recipients)->toHaveKey('null_user')
+            ->and($recipients['null_user'])->toBeNull();
     });
 
     it('has sendRecipientNotification method', function () {
@@ -125,6 +328,302 @@ describe('XotBaseTransition', function () {
 
     it('can send notification to user contract', function () {
         // This should not throw an exception
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))
+            ->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))
+            ->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))
+            ->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        /* @phpstan-ignore-next-line property.notFound */
+        expect(fn () => $this->transition->sendRecipientNotification($recipientData, []))->not->toThrow(Exception::class);
+    });
+
+    it('can send notification to null recipient', function () {
+        // This should not throw an exception
+        expect(fn () => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification(null))
+            ->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification(null))
+            ->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification(null))
+            ->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+    });
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        /* @phpstan-ignore-next-line property.notFound */
+        expect(fn () => $this->transition->sendRecipientNotification($recipientData, []))->not->toThrow(Exception::class);
+    });
+
+    it('processes recipients correctly in sendNotifications', function (): void {
+        // Create a test model
+        /* @phpstan-ignore-next-line new.internalClass */
+        $mockModel = new TestModelForTransition;
+
+    it('processes recipients correctly in sendNotifications', function () {
+        // Mock recipients with mixed types
+        $transition = new class extends XotBaseTransition
+        {
+        $transition = new class extends XotBaseTransition {
+        $transition = new class extends XotBaseTransition {
+        $transition = new class extends XotBaseTransition {
+        $transition = new class extends XotBaseTransition {
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+    });
+
+    it('can send notification to null recipient', function () {
+        // This should not throw an exception
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+    });
+
+    it('processes recipients correctly in sendNotifications', function () {
+        // Mock recipients with mixed types
+        $transition = new class extends XotBaseTransition {
+            public static string $name = 'test_mixed_transition';
+
+            #[Override]
+            public function getNotificationRecipients(): array
+            {
+                return [
+                    'valid_user' => new class extends Model implements UserContract
+                    {
+                    'valid_user' => new class extends Model implements UserContract {
+                    'valid_user' => new class extends Model implements UserContract {
+                    'valid_user' => new class extends Model implements UserContract {
+                    'valid_user' => new class extends Model implements UserContract {
+                        protected $table = 'test_users';
+
+                        public function getAuthIdentifierName(): string
+                        {
+                            return 'id';
+                        }
+
+                        public function getAuthIdentifier(): mixed
+                        {
+                            return 1;
+                        }
+
+                        public function getAuthPassword(): string
+                        {
+                            return '';
+                        }
+
+                        public function getRememberToken(): ?string
+                        public function getRememberToken(): null|string
+                        public function getRememberToken(): null|string
+                        public function getRememberToken(): null|string
+                        public function getRememberToken(): null|string
+                        {
+                            return null;
+                        }
+
+                        public function setRememberToken($value): void {}
+                        public function setRememberToken($value): void
+                        {
+                        }
+                        public function setRememberToken($value): void
+                        {
+                        }
+                        public function setRememberToken($value): void
+                        {
+                        }
+                        public function setRememberToken($value): void
+                        {
+                        }
+
+                        public function getRememberTokenName(): string
+                        {
+                            return 'remember_token';
+                        }
+                    },
+                    'null_user' => null,
+                ];
+            }
+
+            #[Override]
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            #[Override]
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            {
+                // Mock implementation
+            }
+        };
+
+        // Create transition with concrete model
+        $transition = new TestTransitionForTest($mockModel);
+
+        // Create transition with concrete model
+        $transition = new TestTransitionForTest($mockModel);
+
+        // This should process without errors
+        expect($transition->sendNotifications(...))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+    });
+
+    it('can send notification to null recipient', function () {
+        // This should not throw an exception
+        expect(fn () => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+    });
+
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+    });
+
+    it('can send notification to null recipient', function () {
+        // This should not throw an exception
+        expect(fn () => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+    });
+
+    it('processes recipients correctly in sendNotifications', function () {
+        // Mock recipients with mixed types
+        $transition = new class extends XotBaseTransition
+        {
+            public static string $name = 'test_mixed_transition';
+
+            #[Override]
+            public function getNotificationRecipients(): array
+            {
+                return [
+                    'valid_user' => new class extends Model implements UserContract
+                    {
+                        protected $table = 'test_users';
+
+                        public function getAuthIdentifierName(): string
+                        {
+                            return 'id';
+                        }
+
+                        public function getAuthIdentifier(): mixed
+                        {
+                            return 1;
+                        }
+
+                        public function getAuthPassword(): string
+                        {
+                            return '';
+                        }
+
+                        public function getRememberToken(): ?string
+                        {
+                            return null;
+                        }
+
+                        public function setRememberToken($value): void {}
+
+                        public function getRememberTokenName(): string
+                        {
+                            return 'remember_token';
+                        }
+                    },
+                    'null_user' => null,
+                ];
+            }
+
+            #[Override]
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(null|UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            public function sendRecipientNotification(?UserContract $recipient): void
+            {
+                // Mock implementation
+            }
+        };
+
+        // This should process without errors
+        expect($transition->sendNotifications(...))->not->toThrow(Exception::class);
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+        expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+    });
+
+    it('can send notification to null recipient', function () {
+        // This should not throw an exception
+        expect(fn () => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+    });
+
         expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
     });
 
@@ -205,6 +704,12 @@ describe('XotBaseTransition', function () {
 
         // Check sendNotifications method
         $sendMethod = $reflection->getMethod('sendNotifications');
+
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
+
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
+
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
         expect($sendMethod->isPublic())->toBeTrue()->and($sendMethod->getReturnType()?->getName())->toBe('void');
 
         // Check getRecord method
@@ -231,6 +736,7 @@ describe('XotBaseTransition', function () {
 
     it('validates inheritance requirements', function () {
         // Test that concrete implementations must provide required methods
+        /* @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->transition, 'getNotificationRecipients'))
             ->toBeTrue()
             ->and(method_exists($this->transition, 'sendRecipientNotification'))

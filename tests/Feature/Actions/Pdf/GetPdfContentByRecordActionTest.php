@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature\Actions\Pdf;
 
+use ReflectionClass;
+use ReflectionClass;
+use ReflectionClass;
+use ReflectionClass;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Modules\User\Models\User;
@@ -22,6 +26,10 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         parent::setUp();
         $this->action = new GetPdfContentByRecordAction;
+        $this->action = new GetPdfContentByRecordAction();
+        $this->action = new GetPdfContentByRecordAction();
+        $this->action = new GetPdfContentByRecordAction();
+        $this->action = new GetPdfContentByRecordAction();
     }
 
     /** @test */
@@ -87,6 +95,34 @@ class GetPdfContentByRecordActionTest extends TestCase
         {
             protected $table = 'test_performance';
 
+
+
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+            protected $fillable = ['id', 'matr', 'cognome', 'nome'];
+
+            public string $matr = '';
+
+            public string $cognome = '';
+
+            public string $nome = '';
+
+            public function getKey(): int
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+            protected $fillable = ['id', 'matr', 'cognome', 'nome'];
+
+            public string $matr = '';
+
+            public string $cognome = '';
+
+            public string $nome = '';
+
+            public function getKey(): int
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 
             public function getKey()

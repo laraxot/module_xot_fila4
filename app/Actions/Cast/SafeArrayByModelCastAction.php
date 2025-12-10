@@ -9,6 +9,12 @@ use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use ValueError;
+use ValueError;
+use Error;
+use Exception;
+use Doctrine\DBAL\Schema\Index;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\QueueableAction\QueueableAction;
 
 class SafeArrayByModelCastAction
 {
@@ -19,6 +25,17 @@ class SafeArrayByModelCastAction
      */
     public function execute(Model $model): array
     {
+        try {
+            return $model->attributesToArray();
+        try {
+            /** @var array<string, mixed> */
+            $attributes = $model->attributesToArray();
+
+            return $attributes;
+        } catch (ValueError|Error|Exception $e) {
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
@@ -42,5 +59,93 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
+
+
+
+
+
+    public function safeExecute(Model $model): array
+    {
+        $data = [];
+        foreach ($model->getAttributes() as $key => $value) {
+            try {
+                $data[$key] = $model->$key;
+
+                /** @phpstan-ignore-next-line */
+            } catch (ValueError|Error $e) {
+            }
+        }
+        
+        return $data;;
+
+        return $data;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public function safeExecute(Model $model): array
+    {
+        $data=[];
+        foreach($model->getAttributes() as $key=>$value){
+            try{
+                $data[$key]=$model->$key;
+                /** @phpstan-ignore-next-line */
+            }catch(\ValueError|\Error $e){
+            }catch(\ValueError|\Error $e){
+            }catch(ValueError|Error $e){
+            }catch(\ValueError|\Error $e){
+            }catch(ValueError|Error $e){
+            }catch(\ValueError|\Error $e){
+            }catch(ValueError|Error $e){
+            }catch(\ValueError|\Error $e){
+            }catch(ValueError|Error $e){
+            }catch(\ValueError|\Error $e){
+            }catch(ValueError|Error $e){
+            }catch(ValueError|Error $e){
+            }catch(ValueError|Error $e){
+            }catch(\ValueError|\Error $e){
+            }catch(ValueError|Error $e){
+            }catch(\ValueError|\Error $e){
+            }catch(ValueError|Error $e){
+            }catch(ValueError|Error $e){
+                
+            }
+        }
+        
+        return $data;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

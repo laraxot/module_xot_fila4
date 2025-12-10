@@ -4,11 +4,36 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\ExtraContract;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
+use Modules\Xot\Models\Extra;
+use Modules\Xot\Models\Extra;
+use Modules\Xot\Models\Extra;
+use Modules\Xot\Models\Extra;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -40,6 +65,11 @@ trait HasExtraTrait
             $extra_class,
             Model::class,
             '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
         );
         // Assert::isInstanceOf($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
         // Assert::implementsInterface($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
@@ -70,6 +100,72 @@ trait HasExtraTrait
         }
 
         return null;
+    /**
+     * @return array<string, mixed>|bool|int|string|null
+     */
+    public function getExtra(string $name): array|bool|int|string|null
+    {
+        if ($this->extra === null) {
+            return null;
+        }
+        $value = $this->extra->extra_attributes->get($name);
+        if (
+            is_array($value) ||
+                is_int($value) ||
+                // || is_float($value)
+                is_null($value) ||
+                is_bool($value) ||
+                is_string($value)
+        ) {
+            /** @var array<string, mixed>|bool|int|string|null */
+
+        if ($value === null || \is_bool($value) || \is_string($value)) {
+            return $value;
+        }
+
+        if (\is_int($value) || \is_float($value)) {
+            return $value;
+        }
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new \Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+            return $value;
+        }
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
     }
 
     /**
@@ -91,6 +187,23 @@ trait HasExtraTrait
         }
 
         $attributes->set($name, $value);
+     * @return void
+     */
+    public function setExtra(string $name, $value)
+    {
+        $extra = $this->extra;
+        if ($this->extra === null) {
+            // $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => []]);
+            $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => json_encode([])]);
+            Assert::implementsInterface(
+                $extra,
+                ExtraContract::class,
+                '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra . ']',
+            );
+        }
+        Assert::notNull($extra);
+        // $extra is asserted to be non-null above
+        $extra->extra_attributes->set($name, $value);
         $extra->save();
     }
 }

@@ -9,6 +9,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Filament;
 
 // use Filament\Forms\Commands\Concerns\CanGenerateForms; // Non disponibile in Filament v4
+use Filament\Resources\Resource;
+use Filament\Resources\Resource;
+use Filament\Resources\Resource;
+use Filament\Resources\Resource;
+use Filament\Resources\Resource;
 use Filament\Support\Commands\Concerns\CanReadModelSchemas;
 // use Filament\Tables\Commands\Concerns\CanGenerateTables; // Non disponibile in Filament v4
 use Illuminate\Database\Eloquent\Model;
@@ -40,6 +45,24 @@ class GenerateTableColumnsByFileAction
             return;
         }
         if (! \in_array($file->getExtension(), ['php'], false)) {
+     * @param File $file Il file della risorsa Filament
+     *
+     * @return void
+     */
+    public function execute(File $file): void
+    {
+        if (!$file->isFile()) {
+            return;
+        }
+        if (!\in_array($file->getExtension(), ['php'], false)) {
+        if (! $file->isFile()) {
+            return;
+        }
+        if (! \in_array($file->getExtension(), ['php'], false)) {
+        if (!$file->isFile()) {
+            return;
+        }
+        if (!\in_array($file->getExtension(), ['php'], false)) {
             return;
         }
         $filename = $file->getPathname();
@@ -47,6 +70,11 @@ class GenerateTableColumnsByFileAction
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
             '['.__LINE__.']['.class_basename($this).']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
         $class_name = Str::substr($class_name, 0, -4);
 
@@ -58,6 +86,11 @@ class GenerateTableColumnsByFileAction
 
         // Verifichiamo che il metodo getModel esista
         if (! method_exists($resourceInstance, 'getModel')) {
+        /** @var Resource $resourceInstance */
+        $resourceInstance = app($class_name);
+
+        // Verifichiamo che il metodo getModel esista
+        if (!method_exists($resourceInstance, 'getModel')) {
             return;
         }
 
@@ -75,6 +108,12 @@ class GenerateTableColumnsByFileAction
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'table');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->columns(', '(', ')');
         $body_new = '->columns(['.chr(13).'// TODO: Generate table columns'.chr(13).'])';
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
@@ -82,6 +121,12 @@ class GenerateTableColumnsByFileAction
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'form');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->schema(', '(', ')');
         $body_new = '->schema(['.chr(13).'// TODO: Generate form schema'.chr(13).'])';
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
@@ -117,6 +162,12 @@ class GenerateTableColumnsByFileAction
     {
         // Debug information - commented out for production
         /*
+     * @param File $file Il file da analizzare
+     *
+     * @return void
+     */
+    public function ddFile(File $file): void
+    {
         dd([
             'getRelativePath' => $file->getRelativePath(), // =  ""
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
@@ -129,6 +180,13 @@ class GenerateTableColumnsByFileAction
             'getPathname' => $file->getPathname(),
             'isFile' => $file->isFile(), // true
             'getRealPath' => $file->getRealPath(),
+            'getPath' => $file->getPath(), // = /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/Resources
+            'getFilename' => $file->getFilename(), // = AssenzeResource.php
+            'getExtension' => $file->getExtension(), // php
+            'getBasename' => $file->getBasename(), // AssenzeResource.php
+            'getPathname' => $file->getPathname(), // "/var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
+            'isFile' => $file->isFile(), // true
+            'getRealPath' => $file->getRealPath(), // /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
             // 'getFileInfo' => $file->getFileInfo(),
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),

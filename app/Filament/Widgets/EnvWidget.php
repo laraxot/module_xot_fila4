@@ -7,6 +7,13 @@ namespace Modules\Xot\Filament\Widgets;
 use Filament\Schemas\Schema;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
+use Filament\Schemas\Components\Component;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Schemas\Schema;
+use Filament\Forms;
+use Filament\Forms;
+use Filament\Forms\ComponentContainer;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -21,12 +28,71 @@ use Modules\Xot\Datas\EnvData;
  * @property Schema $form
  */
 class EnvWidget extends Widget implements HasActions, HasForms
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
 {
     use InteractsWithActions;
     use InteractsWithForms;
 
     /** @var array<string, mixed>|null */
     public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
 
     public array $only = [];
 
@@ -49,6 +115,40 @@ class EnvWidget extends Widget implements HasActions, HasForms
     public function submit(): void
     {
         if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
             return;
         }
         EnvData::make()->update($this->data);
@@ -90,5 +190,17 @@ class EnvWidget extends Widget implements HasActions, HasForms
          * @var array<Component>
          */
         return Arr::only($all, $this->only);
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
     }
 }

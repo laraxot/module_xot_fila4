@@ -15,6 +15,22 @@ use Filament\Schemas\Schema;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Closure;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Pages\Concerns\InteractsWithFormActions;
+use Filament\Resources\Pages\Page as FilamentPage;
+use Filament\Pages\Page as FilamentPage;
+use Filament\Pages\Page as FilamentPage;
+use Filament\Pages\Page as FilamentPage;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Modules\Xot\Filament\Traits\TransTrait;
+use Webmozart\Assert\Assert;
 
 /**
  * Base class for all custom pages in the application.
@@ -31,11 +47,56 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
+ * @property ?array $data
+ * @property Schema $form
+ */
+abstract class XotBasePage extends FilamentPage implements HasForms
+{
+    use InteractsWithForms;
+    use NavigationLabelTrait;
+    use TransTrait;
+    use InteractsWithFormActions;
+    use TransTrait;
+    use TransTrait;
 
     /**
      * The model class associated with this page, if any.
      */
     public static ?string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static ?string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static ?string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static ?string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static ?string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static ?string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
+    public static null|string $model = null;
 
     /**
      * The form data.
@@ -43,6 +104,12 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * @var array<string, mixed>
      */
     public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
 
     /**
      * Get the view that should be used for the page.
@@ -142,6 +209,27 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     protected function getFormSchema(): array
     {
         return [];
+    }
+
+        
+    /**
+     * Get the associated model class for this page.
+     */
+    public static function getModel(): null|string
+    {
+        /** @phpstan-ignore property.staticAccess */
+
+        return static::$model;
+    }
+
+    /**
+     * Get the resources associated with this page.
+     *
+     * @return Collection<string>
+     */
+    public static function getResources(): Collection
+    {
+        return collect();
     }
 
     /*

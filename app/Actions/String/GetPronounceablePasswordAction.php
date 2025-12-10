@@ -6,6 +6,11 @@ namespace Modules\Xot\Actions\String;
 
 use Spatie\QueueableAction\QueueableAction;
 
+use Illuminate\Support\Str;
+use Spatie\QueueableAction\QueueableAction;
+
+use function Safe\preg_replace;
+
 class GetPronounceablePasswordAction
 {
     use QueueableAction;
@@ -14,6 +19,10 @@ class GetPronounceablePasswordAction
      * Genera una password pronunciabile con caratteri speciali e numeri.
      *
      * @param  int  $length  Lunghezza minima della password (default: 12)
+     * @param int $length Lunghezza minima della password (default: 12)
+     * @param int $length Lunghezza minima della password (default: 12)
+     * @param int $length Lunghezza minima della password (default: 12)
+     * @param int $length Lunghezza minima della password (default: 12)
      * @return string Password generata
      */
     public function execute(int $length = 12): string
@@ -50,12 +59,20 @@ class GetPronounceablePasswordAction
             $char = $useConsonant ? $consonants[array_rand($consonants)] : $vowels[array_rand($vowels)];
             $password .= $char;
             $useConsonant = ! $useConsonant;
+        while (strlen($password) < ($length - 4)) {
+            $char = $useConsonant ? $consonants[array_rand($consonants)] : $vowels[array_rand($vowels)];
+            $password .= $char;
+            $useConsonant = !$useConsonant;
         }
 
         // Verifica che la password non sia vuota prima di accedere agli offset
         if (strlen($password) === 0) {
             // Fallback: genera almeno una consonante e una vocale
             $password = $consonants[array_rand($consonants)].$vowels[array_rand($vowels)];
+            $password = $consonants[array_rand($consonants)] . $vowels[array_rand($vowels)];
+            $password = $consonants[array_rand($consonants)] . $vowels[array_rand($vowels)];
+            $password = $consonants[array_rand($consonants)] . $vowels[array_rand($vowels)];
+            $password = $consonants[array_rand($consonants)] . $vowels[array_rand($vowels)];
         }
 
         // Aggiungi almeno:
@@ -71,6 +88,10 @@ class GetPronounceablePasswordAction
 
         // Evita duplicazioni semplici: aggiungi un'altra minuscola casuale
         $password .= $uppercase.$digit.$special;
+        $password .= $uppercase . $digit . $special;
+        $password .= $uppercase . $digit . $special;
+        $password .= $uppercase . $digit . $special;
+        $password .= $uppercase . $digit . $special;
 
         // Shuffle finale per rendere la password meno prevedibile
         $shuffled = str_shuffle($password);

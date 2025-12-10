@@ -34,12 +34,63 @@ class DatabaseBackUpCommand extends Command
     /**
      * Create a new command instance.
      */
+     *
+     * @return void
+     */
+    
+    
+    public function __construct()
+    {
+        parent::__construct();
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+        $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
+        $backup_path = storage_path('app/backup/' . $filename);
+        $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
+        $backup_path = storage_path('app/backup/' . $filename);
+        $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
+        $backup_path = storage_path('app/backup/' . $filename);
+        $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
+        $backup_path = storage_path('app/backup/' . $filename);
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+        $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
+        $backup_path = storage_path('app/backup/' . $filename);
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+        $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
+        $backup_path = storage_path('app/backup/' . $filename);
+        $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
+        $backup_path = storage_path('app/backup/' . $filename);
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
         Assert::string(
@@ -60,6 +111,15 @@ class DatabaseBackUpCommand extends Command
             ' '.
             $database.
             '  | gzip > '.
+            'mysqldump --user=' .
+            $user .
+            ' --password=' .
+            $password .
+            ' --host=' .
+            $host .
+            ' ' .
+            $database .
+            '  | gzip > ' .
             $backup_path;
 
         $returnVar = null;

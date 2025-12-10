@@ -12,10 +12,119 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Factory;
 
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+
+use SplFileObject;
+use ReflectionMethod;
+use SplFileObject;
+use ReflectionMethod;
+use SplFileObject;
+use ReflectionMethod;
+use SplFileObject;
+use ReflectionMethod;
+use SplFileObject;
+use ReflectionMethod;
+use SplFileObject;
+use ReflectionMethod;
+use SplFileObject;
+use ReflectionMethod;
+use SplFileObject;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
@@ -31,9 +140,124 @@ use function Safe\preg_replace;
 class GetPropertiesFromMethodsByModelAction
 {
     use QueueableAction;
+use ReflectionMethod;
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
 
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     *
+     *
+     * 
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * 
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * 
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * 
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * 
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
      *
      * @param  Model  $model  Il modello da analizzare
      * @return array<string, string> Dati estratti dalle relazioni
@@ -44,6 +268,36 @@ class GetPropertiesFromMethodsByModelAction
         $methods = get_class_methods($model);
 
         foreach ($methods as $method) {
+        Assert::isInstanceOf($model, Model::class, 'Il parametro deve essere un\'istanza di Model');
+
+        $methods = get_class_methods($model);
+        Assert::isArray($methods, 'get_class_methods deve restituire un array');
+
+        $data = [];
+
+        foreach ($methods as $method) {
+            Assert::string($method, 'Il nome del metodo deve essere una stringa');
+
+        
+
+        $methods = get_class_methods($model);
+        Assert::isArray($methods, 'get_class_methods deve restituire un array');
+
+        $data = [];
+
+        foreach ($methods as $method) {
+            Assert::string($method, 'Il nome del metodo deve essere una stringa');
+            
+
+        
+        $methods = get_class_methods($model);
+        Assert::isArray($methods, 'get_class_methods deve restituire un array');
+        
+        $data = [];
+        
+        foreach ($methods as $method) {
+            Assert::string($method, 'Il nome del metodo deve essere una stringa');
+            
             // Ignoriamo i metodi che iniziano con "get" e quelli ereditati da Model
             if (Str::startsWith($method, 'get') || method_exists(Model::class, $method)) {
                 continue;
@@ -62,6 +316,11 @@ class GetPropertiesFromMethodsByModelAction
 
                 // Leggiamo il contenuto del metodo
                 $file = new SplFileObject($filename);
+                Assert::isInstanceOf(
+                    $file,
+                    SplFileObject::class,
+                    'Errore nella creazione dell\'oggetto SplFileObject',
+                );
 
                 $file->seek($reflection->getStartLine() - 1);
                 $startLine = $file->key();
@@ -89,6 +348,71 @@ class GetPropertiesFromMethodsByModelAction
                 Assert::stringNotEmpty($code, 'Il codice del metodo non può essere vuoto');
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -98,6 +422,11 @@ class GetPropertiesFromMethodsByModelAction
                 $end = $end !== false ? $end : mb_strlen($codeStr);
 
                 $length = $end - $begin + 1;
+                $length = ($end - $begin) + 1;
+                $length = ($end - $begin) + 1;
+                $length = ($end - $begin) + 1;
+                $length = ($end - $begin) + 1;
+                $length = ($end - $begin) + 1;
                 Assert::greaterThan($length, 0, 'La lunghezza del corpo della funzione deve essere positiva');
 
                 $codeStr = mb_substr($codeStr, $begin, $length);
@@ -121,6 +450,44 @@ class GetPropertiesFromMethodsByModelAction
      * @param  Model  $model  Il modello
      * @param  string  $method  Il nome del metodo
      * @param  array<string, string>  &$data  L'array in cui salvare i dati estratti
+     * @param string $codeStr Il codice da analizzare
+     * @param Model $model Il modello
+     * @param string $method Il nome del metodo
+     * @param array<string, string> &$data L'array in cui salvare i dati estratti
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -137,10 +504,128 @@ class GetPropertiesFromMethodsByModelAction
 
             // Verifichiamo che sia effettivamente una relazione
             if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
                 return;
             }
 
             // Verifichiamo che il metodo getForeignKeyName esista
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
             if (! method_exists($relationObj, 'getForeignKeyName')) {
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
@@ -157,6 +642,264 @@ class GetPropertiesFromMethodsByModelAction
             // Assert::isCallable rimosso - metodo verificato a compile time
 
             $type = 'factory('.$relatedClass.'::class)';
+            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
+
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+        } catch (Exception $e) {
+            
+
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
+
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            
+        } catch (Exception $e) {
+            
+            // Verifichiamo che il metodo getForeignKeyName esista
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+                throw new \Exception('Il metodo getForeignKeyName non esiste nella relazione');
+            }
+            
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+            
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata $relatedClass non esiste");
+            
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+            
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            $type = 'factory('.$relatedClass.'::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            
+        } catch (Exception $e) {
+            
+
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
+
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            
+        } catch (Exception $e) {
+            
+            // Verifichiamo che il metodo getForeignKeyName esista
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+                throw new \Exception('Il metodo getForeignKeyName non esiste nella relazione');
+            }
+            
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+            
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata $relatedClass non esiste");
+            
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+            
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+        } catch (Exception $e) {
+            
+
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
+
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            
+        } catch (Exception $e) {
+            
+            // Verifichiamo che il metodo getForeignKeyName esista
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+                throw new \Exception('Il metodo getForeignKeyName non esiste nella relazione');
+            }
+            
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+            
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata $relatedClass non esiste");
+            
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+            
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+        } catch (Exception $e) {
+            
+
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
+
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            
+        } catch (Exception $e) {
+            
+            // Verifichiamo che il metodo getForeignKeyName esista
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+                throw new \Exception('Il metodo getForeignKeyName non esiste nella relazione');
+            }
+            
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+            
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata $relatedClass non esiste");
+            
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+            
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+        } catch (Exception $e) {
+            
+
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
+
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            
+        } catch (Exception $e) {
+            
+            // Verifichiamo che il metodo getForeignKeyName esista
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+                throw new \Exception('Il metodo getForeignKeyName non esiste nella relazione');
+            }
+            
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+            
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata $relatedClass non esiste");
+            
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+            
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $type = 'factory(' . $relatedClass . '::class)';
+            $type = 'factory('.$relatedClass.'::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione
             return;

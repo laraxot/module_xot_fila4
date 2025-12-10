@@ -7,6 +7,14 @@ namespace Modules\Xot\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Http\Response;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\Http\Request;
 
 class Cors
 {
@@ -14,6 +22,13 @@ class Cors
      * Handle an incoming request.
      */
     public function handle(Request $request, Closure $next): Response
+     *
+     * @return Response
+     */
+    public function handle(Request $request, Closure $next)
+     * @return Response
+     */
+    public function handle(Request $request, Closure $next)
     {
         $response = $next($request);
 

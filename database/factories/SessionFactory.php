@@ -17,6 +17,10 @@ class SessionFactory extends Factory
      * The name of the factory's corresponding model.
      *
      * @var class-string<Session>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
      */
     protected $model = Session::class;
 

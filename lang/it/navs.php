@@ -21,6 +21,10 @@ return [
         'login' => [
             'label' => 'Login',
             'icon' => 'ui-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
         ],
         'macros' => [
             'label' => 'Macro',

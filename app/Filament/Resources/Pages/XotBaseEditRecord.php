@@ -8,11 +8,100 @@ use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Support\Components\Component;
 use Illuminate\Database\Eloquent\Model;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Modules\Xot\Filament\Traits\TransTrait;
 
 abstract class XotBaseEditRecord extends FilamentEditRecord
 {
     use TransTrait;
+
+    /**
+     * Configure the form.
+     *
+     * @param Schema $form The form instance to configure
+     * @return Schema The configured form
+     */
+    public function form(Schema $form): Schema
+    {
+        $schema = $this->getFormSchema();
+
+        if (empty($schema)) {
+            $resource = $this->getResource();
+            $schema = $resource::getFormSchema();
+        }
+
+        // Ensure schema is properly typed for PHPStan level 10
+        /** @var array<string|int, Component>|array<Component> $validSchema */
+        $validSchema = $schema;
+
+        return $form->components($validSchema);
+    }
+
+    /**
+     * Get the form schema.
+     *
+     * @return array<int, \Filament\Support\Components\Component>
+        
+        // Ensure schema is properly typed for PHPStan level 10
+        /** @var array<string|int, \Filament\Schemas\Components\Component>|array<\Filament\Schemas\Components\Component> $validSchema */
+        $validSchema = $schema;
+        
+        return $form->components($validSchema);
+        
+
+        // Ensure schema is properly typed for PHPStan level 10
+        /** @var array<string|int, Component>|array<Component> $validSchema */
+        $validSchema = $schema;
+
+        return $form->components($validSchema);
+    }
+
+    /**
+     * Get the form schema.
+     *
+     * @return array<string|int, \Filament\Schemas\Components\Component>|array<\Filament\Schemas\Components\Component>
+     * @return array<string|int, Component>|array<Component>
+        
+        // Ensure schema is properly typed for PHPStan level 10
+        /** @var array<string|int, \Filament\Forms\Components\Component>|array<\Filament\Forms\Components\Component> $validSchema */
+        $validSchema = $schema;
+        
+        return $form->schema($validSchema);
+    }
+    
+    /**
+     * Get the form schema.
+     *
+     * @return array<string|int, \Filament\Schemas\Components\Component>|array<\Filament\Schemas\Components\Component>
+     * @return array<string|int, \Filament\Forms\Components\Component>|array<\Filament\Forms\Components\Component>
+     * @return array<string|int, Component>|array<Component>
+     * @return array<string|int, \Filament\Schemas\Components\Component>|array<\Filament\Schemas\Components\Component>
+     * @return array<string|int, \Filament\Forms\Components\Component>|array<\Filament\Forms\Components\Component>
+     * @return array<string|int, Component>|array<Component>
+     * @return array<string|int, \Filament\Schemas\Components\Component>|array<\Filament\Schemas\Components\Component>
+     * @return array<string|int, \Filament\Forms\Components\Component>|array<\Filament\Forms\Components\Component>
+     * @return array<string|int, Component>|array<Component>
+     * @return array<string|int, \Filament\Schemas\Components\Component>|array<\Filament\Schemas\Components\Component>
+     * @return array<string|int, \Filament\Forms\Components\Component>|array<\Filament\Forms\Components\Component>
+     */
+    protected function getFormSchema(): array
+    {
+        return [];
+    }
 
     public static function getNavigationLabel(): string
     {
@@ -78,4 +167,45 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
             */
         ];
     }
+
+
+
+
+
+
+
+    public static function canDelete(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        $result = $resource::canDelete($record);
+
+        $result = $resource::canDelete($record);
+
+        return is_bool($result) ? $result : false;
+    }
+
+    public static function canForceDelete(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        $result = $resource::canForceDelete($record);
+
+        $result = $resource::canForceDelete($record);
+
+        return is_bool($result) ? $result : false;
+    }
+
+    public static function canRestore(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        $result = $resource::canRestore($record);
+
+        $result = $resource::canRestore($record);
+
+        return is_bool($result) ? $result : false;
+    }
+
+
 }

@@ -11,10 +11,30 @@ namespace Modules\Xot\Contracts;
 use Laravel\Passport\PersonalAccessTokenResult;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
 use Laravel\Passport\Token;
 use Laravel\Passport\TransientToken;
 
 /**
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
  * @phpstan-require-extends Model
  */
 interface PassportHasApiTokensContract
@@ -39,6 +59,10 @@ interface PassportHasApiTokensContract
      * @return Token|TransientToken|null
      */
     public function token(): Token|TransientToken|null;
+    public function token();
+    public function token();
+    public function token();
+    public function token();
 
     /**
      * Determine if the current API token has a given scope.
@@ -46,6 +70,11 @@ interface PassportHasApiTokensContract
      * @return bool
      */
     public function tokenCan(string $scope);
+     * @param string $scope
+     *
+     * @return bool
+     */
+    public function tokenCan($scope);
 
     /**
      * Create a new personal access token for the user.
@@ -53,6 +82,11 @@ interface PassportHasApiTokensContract
      * @param  array<int, string>  $scopes
      */
     public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
+     * @param string $name
+     *
+     * @return PersonalAccessTokenResult
+     */
+    public function createToken($name, array $scopes = []);
 
     /**
      * Set the current access token for the user.

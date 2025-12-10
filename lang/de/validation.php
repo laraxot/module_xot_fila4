@@ -2,6 +2,26 @@
 
 declare(strict_types=1);
 
+
+declare(strict_types=1);
+
+
+
+
+declare(strict_types=1);
+
+
+
+
+declare(strict_types=1);
+
+
+
+
+declare(strict_types=1);
+
+
+
 return [
     'accepted' => ':attribute must Akzeptert werden.',
     'active_url' => ':attribute ist keine gültige URL.',

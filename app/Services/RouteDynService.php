@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services;
 
+
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
@@ -26,6 +27,92 @@ class RouteDynService
      * @return array<string, mixed>
      */
     public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, null|string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
+    public static function getGroupOpts(array $v, ?string $namespace): array
     {
         return [
             'prefix' => self::getPrefix($v, $namespace),
@@ -41,11 +128,272 @@ class RouteDynService
     {
         if (isset($v['prefix'])) {
             Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+    public static function getPrefix(array $v, null|string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix']);
+    public static function getPrefix(array $v, null|string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, null|string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, null|string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+    public static function getPrefix(array $v, null|string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getPrefix(array $v, ?string $namespace): string
+    {
+        if (isset($v['prefix'])) {
+            Assert::string($prefix = $v['prefix'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
             return $prefix;
         }
 
         Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix . '/{' . $param_name . '}';
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name']);
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix . '/{' . $param_name . '}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix . '/{' . $param_name . '}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix . '/{' . $param_name . '}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $prefix = mb_strtolower($name);
+        $param_name = self::getParamName($v, $namespace);
+        if ($param_name !== '') {
+            return $prefix.'/{'.$param_name.'}';
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $prefix = mb_strtolower($name);
         $param_name = self::getParamName($v, $namespace);
         if ($param_name !== '') {
@@ -62,11 +410,210 @@ class RouteDynService
     {
         if (isset($v['as'])) {
             Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+    public static function getAs(array $v, null|string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as']);
+    public static function getAs(array $v, null|string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, null|string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, null|string $_namespace): string
+    {
+        if (isset($v['as'])) {
+    public static function getAs(array $v, null|string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAs(array $v, ?string $_namespace): string
+    {
+        if (isset($v['as'])) {
+            Assert::string($as = $v['as'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
             return $as;
         }
 
         Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $as = mb_strtolower($name);
         $as = str_replace('/', '.', $as);
 
@@ -80,6 +627,135 @@ class RouteDynService
         }
 
         return '.';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        return $as . '.';
+        return $as . '.';
+        return $as . '.';
+        return $as.'.';
+        // Assicuriamoci che $as sia una stringa prima di usare preg_replace
+        if (is_string($as)) {
+            $replaced = preg_replace('/{.*}./', '', $as);
+            $as = is_string($replaced) ? $replaced : $as;
+            $as = str_replace(['{', '}'], '', $as);
+
+            return $as.'.';
+        }
+
+        return '.';
+        return $as . '.';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        return $as . '.';
+        return $as.'.';
+        return $as . '.';
+        return $as . '.';
+        return $as . '.';
+        return $as.'.';
+        // Assicuriamoci che $as sia una stringa prima di usare preg_replace
+        if (is_string($as)) {
+            $replaced = preg_replace('/{.*}./', '', $as);
+            $as = is_string($replaced) ? $replaced : $as;
+            $as = str_replace(['{', '}'], '', $as);
+
+            return $as.'.';
+        }
+
+        return '.';
+        return $as . '.';
+        return $as . '.';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        return $as . '.';
+        return $as.'.';
+        return $as . '.';
+        return $as . '.';
+        return $as . '.';
+        return $as.'.';
+        // Assicuriamoci che $as sia una stringa prima di usare preg_replace
+        if (is_string($as)) {
+            $replaced = preg_replace('/{.*}./', '', $as);
+            $as = is_string($replaced) ? $replaced : $as;
+            $as = str_replace(['{', '}'], '', $as);
+
+            return $as.'.';
+        }
+
+        return '.';
+        return $as . '.';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        return $as . '.';
+        return $as.'.';
+        return $as . '.';
+        return $as . '.';
+        return $as . '.';
+        return $as.'.';
+        // Assicuriamoci che $as sia una stringa prima di usare preg_replace
+        if (is_string($as)) {
+            $replaced = preg_replace('/{.*}./', '', $as);
+            $as = is_string($replaced) ? $replaced : $as;
+            $as = str_replace(['{', '}'], '', $as);
+
+            return $as.'.';
+        }
+
+        return '.';
+        return $as . '.';
+        return $as . '.';
+        return $as . '.';
+        return $as . '.';
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = mb_strtolower($name);
+        $as = str_replace('/', '.', $as);
+
+        return $as . '.';
+        return $as.'.';
+        return $as . '.';
+        return $as . '.';
+        return $as . '.';
+        return $as.'.';
+        // Assicuriamoci che $as sia una stringa prima di usare preg_replace
+        if (is_string($as)) {
+            $replaced = preg_replace('/{.*}./', '', $as);
+            $as = is_string($replaced) ? $replaced : $as;
+            $as = str_replace(['{', '}'], '', $as);
+
+            return $as.'.';
+        }
+
+        return '.';
+        return $as . '.';
+        return $as . '.';
+        return $as . '.';
     }
 
     /**
@@ -89,11 +765,240 @@ class RouteDynService
     {
         if (isset($v['namespace'])) {
             Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+    public static function getNamespace(array $v, null|string $namespace): null|string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace']);
+    public static function getNamespace(array $v, null|string $namespace): null|string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, null|string $namespace): null|string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, null|string $namespace): null|string
+    {
+        if (isset($v['namespace'])) {
+    public static function getNamespace(array $v, null|string $namespace): null|string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getNamespace(array $v, ?string $namespace): ?string
+    {
+        if (isset($v['namespace'])) {
+            Assert::string($namespace = $v['namespace'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
             return $namespace;
         }
 
         Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name']);
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name']);
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name']);
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name']);
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name']);
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($namespace = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $namespace = str_replace(['{', '}'], '', $namespace);
         if ($namespace === '') {
             return null;
@@ -109,12 +1014,159 @@ class RouteDynService
     {
         if (isset($v['act'])) {
             Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+    public static function getAct(array $v, null|string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act']);
+    public static function getAct(array $v, null|string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, null|string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, null|string $_namespace): string
+    {
+        if (isset($v['act'])) {
+    public static function getAct(array $v, null|string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getAct(array $v, ?string $_namespace): string
+    {
+        if (isset($v['act'])) {
+            Assert::string($act = $v['act'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
             return $act;
         }
 
         Assert::nullOrString($v['act'] = $v['name']);
         Assert::nullOrString($v['act']);
+        $v['act'] = preg_replace('/{.*}\//', '', (string) $v['act']);
+        if ($v['act'] === null) {
+            $v['act'] = '';
+        }
 
         // Convertiamo esplicitamente a stringa e gestiamo il caso null
         $act = (string) ($v['act'] ?? '');
@@ -129,6 +1181,96 @@ class RouteDynService
         $act = str_replace(['{', '}'], '', $camelCase);
 
         return Str::camel($act);
+        $v['act'] = preg_replace('/{.*}\//', '', (string) $v['act']);
+        if ($v['act'] === null) {
+            $v['act'] = '';
+        }
+
+        // Convertiamo esplicitamente a stringa e gestiamo il caso null
+        $act = (string) ($v['act'] ?? '');
+
+        return Str::camel($v['act']);
+        // Applichiamo le trasformazioni in modo sicuro
+        $replaced = preg_replace('/{.*}\//', '', $act);
+        $act = is_string($replaced) ? $replaced : $act;
+        $act = str_replace('/', '_', $act);
+
+        // Assicuriamoci che sia una stringa prima di usare Str::camel
+        $camelCase = Str::camel($act);
+        $act = str_replace(['{', '}'], '', $camelCase);
+
+        return Str::camel($act);
+        return Str::camel($v['act']);
+
+        // Convertiamo esplicitamente a stringa e gestiamo il caso null
+        $act = (string) ($v['act'] ?? '');
+
+        return Str::camel($v['act']);
+        // Applichiamo le trasformazioni in modo sicuro
+        $replaced = preg_replace('/{.*}\//', '', $act);
+        $act = is_string($replaced) ? $replaced : $act;
+        $act = str_replace('/', '_', $act);
+
+        // Assicuriamoci che sia una stringa prima di usare Str::camel
+        $camelCase = Str::camel($act);
+        $act = str_replace(['{', '}'], '', $camelCase);
+
+        return Str::camel($act);
+        return Str::camel($v['act']);
+        return Str::camel($v['act']);
+
+        // Convertiamo esplicitamente a stringa e gestiamo il caso null
+        $act = (string) ($v['act'] ?? '');
+
+        return Str::camel($v['act']);
+        // Applichiamo le trasformazioni in modo sicuro
+        $replaced = preg_replace('/{.*}\//', '', $act);
+        $act = is_string($replaced) ? $replaced : $act;
+        $act = str_replace('/', '_', $act);
+
+        // Assicuriamoci che sia una stringa prima di usare Str::camel
+        $camelCase = Str::camel($act);
+        $act = str_replace(['{', '}'], '', $camelCase);
+
+        return Str::camel($act);
+        return Str::camel($v['act']);
+
+        // Convertiamo esplicitamente a stringa e gestiamo il caso null
+        $act = (string) ($v['act'] ?? '');
+
+        return Str::camel($v['act']);
+        // Applichiamo le trasformazioni in modo sicuro
+        $replaced = preg_replace('/{.*}\//', '', $act);
+        $act = is_string($replaced) ? $replaced : $act;
+        $act = str_replace('/', '_', $act);
+
+        // Assicuriamoci che sia una stringa prima di usare Str::camel
+        $camelCase = Str::camel($act);
+        $act = str_replace(['{', '}'], '', $camelCase);
+
+        return Str::camel($act);
+        return Str::camel($v['act']);
+        return Str::camel($v['act']);
+        return Str::camel($v['act']);
+        return Str::camel($v['act']);
+
+        // Convertiamo esplicitamente a stringa e gestiamo il caso null
+        $act = (string) ($v['act'] ?? '');
+
+        return Str::camel($v['act']);
+        // Applichiamo le trasformazioni in modo sicuro
+        $replaced = preg_replace('/{.*}\//', '', $act);
+        $act = is_string($replaced) ? $replaced : $act;
+        $act = str_replace('/', '_', $act);
+
+        // Assicuriamoci che sia una stringa prima di usare Str::camel
+        $camelCase = Str::camel($act);
+        $act = str_replace(['{', '}'], '', $camelCase);
+
+        return Str::camel($act);
+        return Str::camel($v['act']);
+        return Str::camel($v['act']);
+        return Str::camel($v['act']);
     }
 
     /**
@@ -138,11 +1280,298 @@ class RouteDynService
     {
         if (isset($v['param_name'])) {
             Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+    public static function getParamName(array $v, null|string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name']);
+    public static function getParamName(array $v, null|string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, null|string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, null|string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+    public static function getParamName(array $v, null|string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getParamName(array $v, ?string $_namespace): string
+    {
+        if (isset($v['param_name'])) {
+            Assert::string($param_name = $v['param_name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
             return $param_name;
         }
 
         Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name']);
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name']);
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name']);
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $param_name = 'id_' . $name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $param_name = 'id_'.$name;
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $param_name = 'id_'.$name;
         $param_name = str_replace(['{', '}'], '', $param_name);
 
@@ -153,6 +1582,92 @@ class RouteDynService
      * @param  array<string, mixed>  $v
      * @return array<int, string>
      */
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, null|string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
+    public static function getParamsName(array $v, ?string $namespace): array
     public static function getParamsName(array $v, ?string $namespace): array
     {
         $param_name = self::getParamName($v, $namespace);
@@ -165,9 +1680,82 @@ class RouteDynService
      * @return array<string, mixed>
      */
     public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
     {
         $param_name = self::getParamName($v, $namespace);
         $params_name = self::getParamsName($v, $namespace);
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    public static function getResourceOpts(array $v, null|string $namespace): array
+    public static function getResourceOpts(array $v, ?string $namespace): array
+    {
+        $param_name = self::getParamName($v, $namespace);
+        $params_name = self::getParamsName($v, $namespace);
+        Assert::isArray($params_name);
 
         $opts = [
             'parameters' => [mb_strtolower((string) $v['name']) => implode('}/{', $params_name)],
@@ -178,6 +1766,92 @@ class RouteDynService
             $opts['only'] = $v['only'];
         }
 
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && !isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
+        if ($param_name === '' && ! isset($opts['only'])) {
         if ($param_name === '' && ! isset($opts['only'])) {
             $opts['only'] = ['index'];
         }
@@ -194,11 +1868,240 @@ class RouteDynService
     {
         if (isset($v['controller'])) {
             Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+    public static function getController(array $v, null|string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getController(array $v, ?string $namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller']);
+    public static function getController(array $v, null|string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, null|string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, null|string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+    public static function getController(array $v, null|string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getController(array $v, ?string $_namespace): string
+    {
+        if (isset($v['controller'])) {
+            Assert::string($controller = $v['controller'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
             return $controller;
         }
 
         Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name']);
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name']);
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name']);
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name']);
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name']);
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($v['controller'] = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $v['controller'] = str_replace(['/', '{', '}'], ['_', '', ''], $v['controller']);
         $v['controller'] = Str::studly($v['controller']);
         $v['controller'] .= 'Controller';
@@ -212,6 +2115,224 @@ class RouteDynService
     public static function getUri(array $v, ?string $_namespace): string
     {
         Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $namespace): string
+    {
+        Assert::string($name = $v['name']);
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $namespace): string
+    {
+        Assert::string($name = $v['name']);
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, null|string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getUri(array $v, ?string $_namespace): string
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
         // return mb_strtolower(is_string($v) ? $v : (string) $v['name);
         return $name;
@@ -221,6 +2342,69 @@ class RouteDynService
      * @param  array<string, mixed>  $v
      * @return array<int, string>
      */
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, null|string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
+    public static function getMethod(array $v, ?string $_namespace): array
     public static function getMethod(array $v, ?string $_namespace): array
     {
         if (isset($v['method'])) {
@@ -235,10 +2419,182 @@ class RouteDynService
      * @param  array<string, mixed>  $v
      */
     public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, null|string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
+    public static function getUses(array $v, ?string $namespace): string
     {
         $controller = self::getController($v, $namespace);
         $act = self::getAct($v, $namespace);
 
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
+        return $controller . '@' . $act;
+        return $controller.'@'.$act;
+        return $controller.'@'.$act;
         return $controller.'@'.$act;
     }
 
@@ -247,13 +2603,215 @@ class RouteDynService
      * @return array<string, mixed>
      */
     public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
     {
         Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $as = Str::slug($name);
         $uses = self::getUses($v, $namespace);
         if ($curr !== null) {
             $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
         } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name']);
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name']);
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, null|string $namespace, null|string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    public static function getCallback(array $v, ?string $namespace, ?string $curr): array
+    {
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $as = Str::slug($name);
+        $uses = self::getUses($v, $namespace);
+        if ($curr !== null) {
+            $uses = '\\'.self::$namespace_start.'\\'.$curr.'\\'.$uses;
+        } else {
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
+            $uses = '\\' . self::$namespace_start . '\\' . $uses;
+            $uses = '\\'.self::$namespace_start.'\\'.$uses;
             $uses = '\\'.self::$namespace_start.'\\'.$uses;
         }
 
@@ -268,7 +2826,122 @@ class RouteDynService
         ?string $namespace = null,
         ?string $namespace_start = null,
         ?string $curr = null,
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
     ): void {
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+    ): void {
+        Assert::isArray($array, 'The $array parameter must be an array.');
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+    ): void {
+        Assert::isArray($array, 'The $array parameter must be an array.');
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+    ): void {
+        Assert::isArray($array, 'The $array parameter must be an array.');
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+    ): void {
+        Assert::isArray($array, 'The $array parameter must be an array.');
+        null|string $namespace = null,
+        null|string $namespace_start = null,
+        null|string $curr = null,
+        ?string $namespace = null,
+        ?string $namespace_start = null,
+        ?string $curr = null,
+    ): void {
+        Assert::isArray($array, 'The $array parameter must be an array.');
         Assert::notEmpty($array, 'The $array parameter cannot be empty.');
 
         if ($namespace_start !== null) {
@@ -293,11 +2966,183 @@ class RouteDynService
      * @param  array<string, mixed>  $v
      */
     public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, null|string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
+    public static function createRouteResource(array $v, ?string $namespace): void
     {
         if ($v['name'] === null) {
             return;
         }
         Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name']);
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($name = $v['name'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $opts = self::getResourceOpts($v, $namespace);
         $controller = self::getController($v, $namespace);
 
@@ -307,6 +3152,186 @@ class RouteDynService
     /**
      * @param  array<string, mixed>  $v
      */
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
+    public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['subs'])) {
     public static function createRouteSubs(array $v, ?string $namespace, ?string $curr): void
     {
         if (! isset($v['subs'])) {
@@ -323,6 +3348,186 @@ class RouteDynService
     /**
      * @param  array<string, mixed>  $v
      */
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, null|string $namespace, null|string $curr): void
+    {
+        if (!isset($v['acts']) || !is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
+    public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
+    {
+        if (! isset($v['acts']) || ! is_array($v['acts'])) {
     public static function createRouteActs(array $v, ?string $namespace, ?string $curr): void
     {
         if (! isset($v['acts']) || ! is_array($v['acts'])) {
@@ -352,6 +3557,27 @@ class RouteDynService
         }
 
         return [
+            'index' => $prefix . '.index',
+            'create' => $prefix . '.create',
+            'store' => $prefix . '.store',
+            'show' => $prefix . '.show',
+            'edit' => $prefix . '.edit',
+            'update' => $prefix . '.update',
+            'destroy' => $prefix . '.destroy',
+            'index' => $prefix.'.index',
+            'create' => $prefix.'.create',
+            'store' => $prefix.'.store',
+            'show' => $prefix.'.show',
+            'edit' => $prefix.'.edit',
+            'update' => $prefix.'.update',
+            'destroy' => $prefix.'.destroy',
+            'index' => $prefix . '.index',
+            'create' => $prefix . '.create',
+            'store' => $prefix . '.store',
+            'show' => $prefix . '.show',
+            'edit' => $prefix . '.edit',
+            'update' => $prefix . '.update',
+            'destroy' => $prefix . '.destroy',
             'index' => $prefix.'.index',
             'create' => $prefix.'.create',
             'store' => $prefix.'.store',

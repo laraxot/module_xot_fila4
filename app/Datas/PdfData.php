@@ -16,6 +16,56 @@ use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
+use Spatie\LaravelPdf\Enums\Format;
+use Spatie\LaravelPdf\Enums\Orientation;
+use Spatie\LaravelPdf\Enums\Unit;
+use Spatie\LaravelPdf\Facades\Pdf;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Webmozart\Assert\Assert;
+use Exception;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+use Modules\Xot\Enums\PdfEngineEnum;
+use Spatie\LaravelData\Data;
+use Spatie\LaravelPdf\Enums\Format;
+use Spatie\LaravelPdf\Enums\Orientation;
+use Spatie\LaravelPdf\Enums\Unit;
+use Spatie\LaravelPdf\Facades\Pdf;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Webmozart\Assert\Assert;
+use Spipu\Html2Pdf\Exception\HtmlParsingException;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Str;
+use Spatie\LaravelData\Data;
+use Spipu\Html2Pdf\Html2Pdf;
+use Webmozart\Assert\Assert;
+use Spatie\LaravelPdf\Enums\Unit;
+use Spatie\LaravelPdf\Facades\Pdf;
+use Spatie\LaravelPdf\Enums\Format;
+use Modules\Xot\Enums\PdfEngineEnum;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+use Modules\Xot\Enums\PdfEngineEnum;
+use Spatie\LaravelData\Data;
+use Spatie\LaravelPdf\Enums\Format;
+use Spatie\LaravelPdf\Enums\Orientation;
+use Spatie\LaravelPdf\Enums\Unit;
+use Spatie\LaravelPdf\Facades\Pdf;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+
+use Webmozart\Assert\Assert;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
+use Spatie\LaravelPdf\Enums\Orientation;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
@@ -111,6 +161,23 @@ class PdfData extends Data
                  *
                  * break;
                  */
+                $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
+                $html2pdf->writeHTML($html);
+                $html2pdf->output($this->getPath(), $this->dest);
+                break;
+
+            /*
+             * case PdfEngineEnum::SPATIE:
+             * Pdf::html($this->html)
+             * ->orientation(Orientation::Portrait)
+             * ->format(Format::A4)
+             * ->margins(10, 10, 20, 0, Unit::Pixel)
+             * // ->name(str_slug($project->nome).'-REPORT.pdf')
+             * ->save($this->getPath());
+             * ;
+             *
+             * break;
+             */
         }
 
         $this->html = $html;
@@ -128,6 +195,40 @@ class PdfData extends Data
          * @var non-falsy-string&view-string
          */
         $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -143,11 +244,24 @@ class PdfData extends Data
         Assert::notNull(
             $res = Storage::disk($this->disk)->get($this->filename),
             '['.__LINE__.']['.class_basename($this).']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
 
         return $res;
     }
 
+    /**
+     * @param  array<string, mixed>  $params
+    /**
+     * @param array<string, mixed> $params
+     */
+    /**
+     * @param  array<string, mixed>  $params
+     */
     /**
      * @param  array<string, mixed>  $params
      */
@@ -159,6 +273,13 @@ class PdfData extends Data
         $out = view($view, $params);
         $this->html = $out->render();
 
+    public function view(string $view, array $params = []): self
+    {
+        if (!view()->exists($view)) {
+            throw new Exception('View ' . $view . ' not found');
+        }
+        $out = view($view, $params);
+        $this->html = $out->render();
         return $this->fromHtml($this->html);
     }
 

@@ -6,6 +6,69 @@ namespace Modules\Xot\Filament\Traits;
 
 use Illuminate\Contracts\Translation\Translator;
 use Exception;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
+use Exception;
+use TypeError;
+use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Lang\Actions\SaveTransAction;
@@ -20,6 +83,7 @@ trait TransTrait
      *
      * @param  array<string, bool|float|int|string|null>  $params
      *
+     * @param array<string, bool|float|int|string|null> $params
      * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
      */
     public static function trans(string $key, bool $exceptionIfNotExist = false, array $params = []): string
@@ -31,6 +95,101 @@ trait TransTrait
         if (is_string($res)) {
             if ($exceptionIfNotExist && $res === $tmp) {
                 throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+     * @param array<string, bool|float|int|string|null> $params
+     * @param array<string, bool|float|int|string|null> $params
+     * @param array<string, bool|float|int|string|null> $params
+     * @param  array<string, bool|float|int|string|null>  $params
+     *
+     * @param  array<string, bool|float|int|string|null>  $params
+     *
+     * @param  array<string, bool|float|int|string|null>  $params
+     *
+     * @param  array<string, bool|float|int|string|null>  $params
+     *
+     * @param array<string, bool|float|int|string|null> $params
+     * @param  array<string, bool|float|int|string|null>  $params
+     *
+     * @param  array<string, bool|float|int|string|null>  $params
+     *
+     * @param array<string, bool|float|int|string|null> $params
+     * @param array<string, bool|float|int|string|null> $params
+     * @param  array<string, bool|float|int|string|null>  $params
+     *
+     * @param  array<string, bool|float|int|string|null>  $params
+     *
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     */
+    public static function trans(string $key, bool $exceptionIfNotExist = false, array $params = []): string
+    {
+        $tmp = static::getKeyTrans($key);
+        /** @var array|Translator|string $res */
+        $res = trans($tmp, $params);
+
+        if (is_string($res)) {
+            if ($exceptionIfNotExist && $res === $tmp) {
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+     * @throws \Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+     */
+    public static function trans(string $key, bool $exceptionIfNotExist = false): string
+    {
+        $tmp = static::getKeyTrans($key);
+        /** @var array|\Illuminate\Contracts\Translation\Translator|string $res */
+        $res = trans($tmp);
+     * @param array<string, bool|float|int|string|null> $params
+     * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     */
+    public static function trans(string $key, bool $exceptionIfNotExist = false, array $params = []): string
+    {
+        $tmp = static::getKeyTrans($key);
+        /** @var array|Translator|string $res */
+        $res = trans($tmp, $params);
+
+        if (is_string($res)) {
+            if ($exceptionIfNotExist && $res === $tmp) {
+                throw new \Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+     * @throws \Exception Se exceptionIfNotExist è true e la traduzione non esiste
+     */
+    public static function trans(string $key, bool $exceptionIfNotExist = false): string
+    {
+        $tmp = static::getKeyTrans($key);
+        /** @var array|\Illuminate\Contracts\Translation\Translator|string $res */
+        $res = trans($tmp);
+
+        if (is_string($res)) {
+            if ($exceptionIfNotExist && $res === $tmp) {
+                throw new \Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+        /** @var array|Translator|string $res */
+        $res = trans($tmp);
+
+        if (is_string($res)) {
+            if ($exceptionIfNotExist && $res === $tmp) {
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
             }
 
             return $res;
@@ -44,6 +203,36 @@ trait TransTrait
         }
 
         return 'fix:'.$tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:'.$tmp;
+        return 'fix:'.$tmp;
+        return 'fix:'.$tmp;
+                return is_string($first) ? $first : (string) $first;
+            }
+        }
+
+        return 'fix:'.$tmp;
+                return is_string($first) ? $first : ((string) $first);
+            }
+        }
+
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:'.$tmp;
+        return 'fix:'.$tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:' . $tmp;
+        return 'fix:'.$tmp;
+        return 'fix:'.$tmp;
     }
 
     /**
@@ -54,6 +243,70 @@ trait TransTrait
         /** @var string */
         $transKey = app(GetTransKeyAction::class)->execute(static::class);
 
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
         $key = $transKey.'.'.$key;
         $key = Str::of($key)->replace('.cluster.pages.', '.')->toString();
         if (Str::startsWith($key, 'edit_')) {
@@ -80,6 +333,70 @@ trait TransTrait
         $transKey = app(GetTransKeyAction::class)->execute(static::class);
 
         $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey . '.' . $key;
+        $key = $transKey.'.'.$key;
+        $key = $transKey.'.'.$key;
         $key = Str::of($key)->replace('.cluster.pages.', '.')->toString();
         $key = Str::of($key)->replace('::edit_', '::')->toString();
 
@@ -96,6 +413,34 @@ trait TransTrait
         /** @var string $type */
         $type = $piece[2] ?? '';
         Assert::string($type, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        Assert::string($type = $piece[2], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        $piece = Str::of($class)->explode('\\')->toArray();
+        Assert::string($type = $piece[2], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $module = Str::of($class)->between('Modules\\', '\\' . $type . '\\')->toString();
+
+        $module_low = Str::of($module)->lower()->toString();
+
+        $model = Str::of($class)->between('\\' . $type . '\\', '\\')->toString();
+        $model_snake = Str::of($model)->snake()->toString();
+        $key = $module_low . '::' . $model_snake;
+        Assert::string($type = $piece[2]);
+        Assert::string($type = $piece[2], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($type = $piece[2]);
+        Assert::string($type = $piece[2]);
+        $module = Str::of($class)->between('Modules\\', '\\'.$type.'\\')->toString();
+        Assert::string($type = $piece[2], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $module = Str::of($class)->between('Modules\\', '\\' . $type . '\\')->toString();
+
+        $module_low = Str::of($module)->lower()->toString();
+
+        $model = Str::of($class)->between('\\' . $type . '\\', '\\')->toString();
+        $model_snake = Str::of($model)->snake()->toString();
+        $key = $module_low.'::'.$model_snake;
+        $key = $module_low . '::' . $model_snake;
+        Assert::string($type = $piece[2]);
+        Assert::string($type = $piece[2]);
+        Assert::string($type = $piece[2]);
+        Assert::string($type = $piece[2], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $module = Str::of($class)->between('Modules\\', '\\'.$type.'\\')->toString();
 
         $module_low = Str::of($module)->lower()->toString();
@@ -104,6 +449,26 @@ trait TransTrait
         $model_snake = Str::of($model)->snake()->toString();
 
         return $module_low.'::'.$model_snake;
+        $piece = Str::of($class)->explode('\\')->toArray();
+        $piece = Str::of($class)->explode('\\')->toArray();
+        $piece = Str::of($class)->explode('\\')->toArray();
+        Assert::string($type = $piece[2], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $module = Str::of($class)->between('Modules\\', '\\' . $type . '\\')->toString();
+
+        $module_low = Str::of($module)->lower()->toString();
+
+        $model = Str::of($class)->between('\\' . $type . '\\', '\\')->toString();
+        $model_snake = Str::of($model)->snake()->toString();
+        $key = $module_low . '::' . $model_snake;
+        $key = $module_low.'::'.$model_snake;
+        $key = $module_low.'::'.$model_snake;
+        $key = $module_low.'::'.$model_snake;
+        $key = $module_low.'::'.$model_snake;
+        $key = $module_low.'::'.$model_snake;
+
+        return $key;
+
+        return $key;
     }
 
     /**
@@ -117,6 +482,35 @@ trait TransTrait
         $result = trans($key_full);
 
         return is_string($result) ? $result : $key_full;
+        $key_full = $class_key . '.' . $key;
+        $key_full = $class_key.'.'.$key;
+        $key_full = $class_key.'.'.$key;
+        $key_full = $class_key.'.'.$key;
+        $key_full = $class_key.'.'.$key;
+        $key_full = $class_key.'.'.$key;
+        $key_full = $class_key . '.' . $key;
+        $key_full = $class_key . '.' . $key;
+        $key_full = $class_key . '.' . $key;
+        $key_full = $class_key.'.'.$key;
+        $key_full = $class_key . '.' . $key;
+        $key_full = $class_key.'.'.$key;
+        $key_full = $class_key . '.' . $key;
+        $key_full = $class_key.'.'.$key;
+        $key_full = $class_key.'.'.$key;
+
+        return trans($key_full);
+        $key_full = $class_key . '.' . $key;
+
+        return trans($key_full);
+        $key_full = $class_key . '.' . $key;
+
+        return trans($key_full);
+        $key_full = $class_key . '.' . $key;
+
+        return trans($key_full);
+        $key_full = $class_key . '.' . $key;
+
+        return trans($key_full);
     }
 
     /**
@@ -130,6 +524,10 @@ trait TransTrait
 
         try {
             /** @var array<string, mixed>|Translator|string $trans */
+        /** @var string|array<int|string,mixed>|null */
+        $trans = null;
+
+        try {
             $trans = trans($key);
         } catch (TypeError $e) {
             dddx([
@@ -149,6 +547,28 @@ trait TransTrait
                 if (is_string($transValue) || is_numeric($transValue) || is_array($transValue)) {
                     $trans = $transValue;
                 }
+            $item = Str::of($key)->after($group . '.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $item = Str::of($key)->after($group . '.')->toString();
+            $item = Str::of($key)->after($group . '.')->toString();
+            $item = Str::of($key)->after($group . '.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $item = Str::of($key)->after($group . '.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $item = Str::of($key)->after($group . '.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $item = Str::of($key)->after($group.'.')->toString();
+            $group_arr = trans($group);
+            if (is_array($group_arr)) {
+                $trans = Arr::get($group_arr, $item);
+            $item = Str::of($key)->after($group . '.')->toString();
+            $group_arr = trans($group);
+            if (is_array($group_arr)) {
+                $trans = Arr::get($group_arr, $item);
             }
         }
         if (is_numeric($trans)) {
@@ -187,6 +607,70 @@ trait TransTrait
         }
 
         return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:'.$key;
+        return 'fix:'.$key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:' . $key;
+        return 'fix:'.$key;
+        return 'fix:'.$key;
     }
 
     /**
@@ -199,6 +683,12 @@ trait TransTrait
         /** @var string $result */
         $result = trans_choice($key, $number, $replace);
 
+     * @param array<string, bool|float|int|string|null> $replace
+     */
+    protected function transChoice(string $key, int $number, array $replace = []): string
+    {
+        $result = trans_choice($key, $number, $replace);
+        //@phpstan-ignore-next-line
         return is_string($result) ? $result : $key;
     }
 }

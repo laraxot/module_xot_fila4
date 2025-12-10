@@ -71,7 +71,31 @@ it('casts arrays', function (): void {
 });
 
 it('casts objects', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
+    /** @phpstan-ignore-next-line property.notFound */
     $result = $this->action->execute(new stdClass);
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
+    $result = $this->action->execute(new stdClass());
     expect($result)->toBe(0.0)->toBeFloat();
 });
 

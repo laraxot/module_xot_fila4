@@ -8,6 +8,10 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use InvalidArgumentException;
+use InvalidArgumentException;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\HasManyUpdateData;
 use Modules\Xot\Datas\RelationData;
@@ -42,6 +46,10 @@ class HasManyAction
      * Determine if the update is a direct update.
      *
      * @param  array<string, mixed>  $data
+     * @param array<string, mixed> $data
+     * @param array<string, mixed> $data
+     * @param array<string, mixed> $data
+     * @param array<string, mixed> $data
      */
     private function isDirectUpdate(array $data): bool
     {
@@ -71,6 +79,70 @@ class HasManyAction
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
             if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (!isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
+            if (! isset($item[$keyName])) {
                 continue;
             }
 
@@ -96,6 +168,10 @@ class HasManyAction
      * Clean up orphaned records after batch update.
      *
      * @param  array<int|string>  $updatedIds
+     * @param array<int|string> $updatedIds
+     * @param array<int|string> $updatedIds
+     * @param array<int|string> $updatedIds
+     * @param array<int|string> $updatedIds
      */
     private function cleanupOrphanedRecords(
         RelationData $relationDTO,

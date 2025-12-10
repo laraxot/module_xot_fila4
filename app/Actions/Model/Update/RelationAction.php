@@ -17,6 +17,14 @@ class RelationAction
      * Undocumented function.
      *
      * @param  array<string, mixed>  $data
+     *
+     * @param  array<string, mixed>  $data
+     *
+     * @param array<string, mixed> $data
+     *
+     * @param  array<string, mixed>  $data
+     *
+     * @param array<string, mixed> $data
      */
     public function execute(Model $model, array $data): void
     {
@@ -37,6 +45,36 @@ class RelationAction
             $relationshipType = class_basename($relationClass);
 
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $relationClass = get_class($relation);
+            $relationshipType = class_basename($relationClass);
+
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+
+
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

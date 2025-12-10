@@ -7,6 +7,21 @@ namespace Modules\Xot\Filament\Widgets;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\ResultStores\ResultStore;
 
 class HealthOverviewWidget extends BaseWidget
@@ -28,12 +43,80 @@ class HealthOverviewWidget extends BaseWidget
 
         $checkResults = app(ResultStore::class)->latestResults();
         if ($checkResults === null) {
+        if (null === $checkResults) {
+        if (null === $checkResults) {
+        if (null === $checkResults) {
+        if (null === $checkResults) {
             return $stats;
         }
         foreach ($checkResults->storedCheckResults as $result) {
             $label = $result->label;
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage . ' ' . $result->status)
+                ->description($result->notificationMessage.' '.$result->status)
                 ->description($result->notificationMessage.' '.$result->status)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));

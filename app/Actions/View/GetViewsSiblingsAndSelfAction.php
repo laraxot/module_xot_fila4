@@ -30,6 +30,70 @@ class GetViewsSiblingsAndSelfAction
         $views = [];
         foreach ($files as $file) {
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
                 continue;
             }
 

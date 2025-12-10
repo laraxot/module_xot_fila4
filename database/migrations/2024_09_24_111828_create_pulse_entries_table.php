@@ -7,11 +7,34 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 return new class extends XotBaseMigration
 {
+return new class extends XotBaseMigration {
+return new class extends XotBaseMigration {
+return new class extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
+return new class extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
     /**
      * Run the migrations.
      */
     public function up(): void
     {
+        if (! $this->shouldRun()) {
+        if (!$this->shouldRun()) {
+        if (!$this->shouldRun()) {
+        if (!$this->shouldRun()) {
+        if (!$this->shouldRun()) {
+        if (! $this->shouldRun()) {
+        if (! $this->shouldRun()) {
+        if (! $this->shouldRun()) {
+        if (! $this->shouldRun()) {
+        if (!$this->shouldRun()) {
+        if (! $this->shouldRun()) {
+        if (! $this->shouldRun()) {
+        if (!$this->shouldRun()) {
+        if (!$this->shouldRun()) {
+        if (! $this->shouldRun()) {
         if (! $this->shouldRun()) {
             return;
         }
@@ -26,6 +49,10 @@ return new class extends XotBaseMigration
                 'pgsql' => $table->uuid('key_hash')->storedAs('md5("key")::uuid'),
                 'sqlite' => $table->string('key_hash'),
                 default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
+                default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
+                default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
+                default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
+                default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
             };
             $table->bigInteger('value')->nullable();
 

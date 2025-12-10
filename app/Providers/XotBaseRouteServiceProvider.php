@@ -24,6 +24,14 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+    public string $name = '';
+
+    public string $name = '';
+
+    public string $name = '';
+
+    public string $name = '';
+
     /**
      * Undocumented function.
      */
@@ -48,6 +56,10 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
     protected function mapWebRoutes(): void
     {
         if ($this->name === '') {
+        if ('' === $this->name) {
+        if ('' === $this->name) {
+        if ('' === $this->name) {
+        if ('' === $this->name) {
             Notification::make()
                 ->title('Error')
                 ->danger()
@@ -58,6 +70,86 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
             return;
         }
         Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')
+            ->namespace($this->moduleNamespace)
+            ->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')
+            ->namespace($this->moduleNamespace)
+            ->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')
+            ->namespace($this->moduleNamespace)
+            ->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')
+            ->namespace($this->moduleNamespace)
+            ->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')
+            ->namespace($this->moduleNamespace)
+            ->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')
+            ->namespace($this->moduleNamespace)
+            ->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')
+            ->namespace($this->moduleNamespace)
+            ->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
     }
 
     /**
@@ -67,10 +159,120 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
     {
         if ($this->name === '') {
             throw new Exception('name is empty on ['.static::class.']');
+        if ('' === $this->name) {
+            throw new Exception('name is empty on [' . static::class . ']');
+        if ('' === $this->name) {
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new \Exception('name is empty on ['.static::class.']');
+        if ('' === $this->name) {
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+        if ('' === $this->name) {
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+        if ('' === $this->name) {
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+        if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
+        if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
+        if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+        if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
+        if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
+        if ('' === $this->name) {
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+        if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
+        if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
         }
         Route::prefix('api')
             ->middleware('api')
             ->namespace($this->moduleNamespace)
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir . '/../../routes/api.php');
+            ->group($this->module_dir.'/../../routes/api.php');
             ->group($this->module_dir.'/../../routes/api.php');
     }
 }

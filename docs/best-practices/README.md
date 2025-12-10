@@ -27,6 +27,28 @@
 - Use snake_case for all keys
 
 ## Code Quality
+- PHPStan level 10+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
+- PHPStan level 9+ for all new code
 - PHPStan level 9+ for all new code
 - Complete PHPDoc annotations
 - Use Safe library for unsafe functions

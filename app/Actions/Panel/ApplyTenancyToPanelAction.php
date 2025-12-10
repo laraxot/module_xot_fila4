@@ -7,6 +7,11 @@ namespace Modules\Xot\Actions\Panel;
 use Filament\Panel;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Gate;
+use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
+use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
+use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -27,6 +32,24 @@ class ApplyTenancyToPanelAction
         // $user = Auth::user();
 
         // if (Gate::allows('superadmin', $user)) {
+        //$user = Auth::user();
+
+        //if (Gate::allows('superadmin', $user)) {
+        //$user = Auth::user();
+
+        //if (Gate::allows('superadmin', $user)) {
+        //$user = Auth::user();
+
+        //if (Gate::allows('superadmin', $user)) {
+        //$user = Auth::user();
+
+        //if (Gate::allows('superadmin', $user)) {
+        // if (Gate::allows('superadmin', $user)) {
+        // if (Gate::allows('superadmin', $user)) {
+        //if (Gate::allows('superadmin', $user)) {
+        //$user = Auth::user();
+
+        //if (Gate::allows('superadmin', $user)) {
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')
@@ -36,6 +59,16 @@ class ApplyTenancyToPanelAction
         // Configurazione limitata per non-superadmin
         // $panel->tenant($tenant_class, slugAttribute: 'slug');
         // }
+        //} else {
+        // Configurazione limitata per non-superadmin
+        //$panel->tenant($tenant_class, slugAttribute: 'slug');
+        //}
+        // $panel->tenant($tenant_class, slugAttribute: 'slug');
+        // }
+        //$panel->tenant($tenant_class, slugAttribute: 'slug');
+        //}
+        //$panel->tenant($tenant_class, slugAttribute: 'slug');
+        //}
 
         return $panel;
     }

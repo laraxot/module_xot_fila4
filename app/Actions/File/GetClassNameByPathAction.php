@@ -24,6 +24,33 @@ class GetClassNameByPathAction
         $className = $classMatch[1] ?? '';
 
         return $namespace ? ($namespace.'\\'.$className) : $className;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+        $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+
+        return $fullClassName;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+
+        return $fullClassName;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+
+        return $fullClassName;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+
+        return $fullClassName;
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+
+        return $fullClassName;
     }
 }
 

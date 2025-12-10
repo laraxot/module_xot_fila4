@@ -12,6 +12,13 @@ return new class extends XotBaseMigration
 
     /**
      * Run the migrations.
+return new class extends XotBaseMigration {
+    protected null|string $model_class = HealthCheckResultHistoryItem::class;
+
+    /**
+     * Run the migrations.
+     *
+     * @return void
      */
     public function up(): void
     {

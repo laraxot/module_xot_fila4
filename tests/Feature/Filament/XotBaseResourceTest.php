@@ -15,10 +15,136 @@ beforeEach(function () {
     $this->resource = new class extends XotBaseResource
     {
         protected static ?string $model = null;
+    $this->resource = new class extends XotBaseResource {
+        protected static null|string $model = null;
+    $this->resource = new class extends XotBaseResource {
+        protected static null|string $model = null;
+    $this->resource = new class extends XotBaseResource {
+        protected static null|string $model = null;
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
+
+    protected static ?int $navigationSort = 1;
+
+    /**
+     * @return array<int, \Filament\Support\Contracts\HasLabel|string>
+     */
+    public static function getFormSchema(): array
+    {
+        return [];
+    }
+}
+namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
+namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 
         protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 
         protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
+
+        protected static ?int $navigationSort = 1;
+        protected static null|int $navigationSort = 1;
+        protected static ?string $model = null;
+        protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+        protected static ?string $navigationGroup = 'Test Group';
+        protected static ?int $navigationSort = 1;
+        protected static null|int $navigationSort = 1;
+namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
+
+namespace Modules\Xot\Tests\Feature\Filament;
+
+
+        protected static ?int $navigationSort = 1;
+        protected static null|int $navigationSort = 1;
+        protected static null|int $navigationSort = 1;
+test('xot base resource extends filament resource', function (): void {
+    /* @phpstan-ignore-next-line property.notFound */
+
+        protected static ?int $navigationSort = 1;
+beforeEach(function () {
+    $this->resource = new class extends XotBaseResource
+    {
+        protected static ?string $model = null;
+beforeEach(function () {
+    $this->resource = new class extends XotBaseResource {
+        protected static null|string $model = null;
+
+        protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+        protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
+
+        protected static ?int $navigationSort = 1;
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
+
+    protected static ?int $navigationSort = 1;
+
+    /**
+     * @return array<int, \Filament\Support\Contracts\HasLabel|string>
+     */
+    public static function getFormSchema(): array
+    {
+        return [];
+    }
+}
+beforeEach(function () {
+    $this->resource = new class extends XotBaseResource
+    {
+        protected static ?string $model = null;
+
+        protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+test('xot base resource extends filament resource', function (): void {
+    /* @phpstan-ignore-next-line property.notFound */
+        protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
+
+        protected static ?int $navigationSort = 1;
+        protected static null|int $navigationSort = 1;
+namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
+
+namespace Modules\Xot\Tests\Feature\Filament;
+
+
+        protected static ?int $navigationSort = 1;
+        protected static ?string $model = null;
+        protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+        protected static ?string $navigationGroup = 'Test Group';
+        protected static ?int $navigationSort = 1;
+beforeEach(function () {
+    $this->resource = new class() extends XotBaseResource
+    {
+        protected static ?string $model = null;
+
+        protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+        protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
+
+        protected static ?int $navigationSort = 1;
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
+
+    protected static ?int $navigationSort = 1;
+
+    /**
+     * @return array<int, \Filament\Support\Contracts\HasLabel|string>
+     */
+    public static function getFormSchema(): array
+    {
+        return [];
+    }
+}
+beforeEach(function () {
+    $this->resource = new class extends XotBaseResource
+    {
+        protected static ?string $model = null;
+
+        protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+test('xot base resource extends filament resource', function (): void {
+    /* @phpstan-ignore-next-line property.notFound */
+        protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
 
         protected static ?int $navigationSort = 1;
     };

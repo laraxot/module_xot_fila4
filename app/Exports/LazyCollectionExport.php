@@ -24,16 +24,91 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     public array $headings;
 
     public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public ?string $transKey;
+    public ?string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public null|string $transKey;
+    public ?string $transKey;
+    public ?string $transKey;
 
     /** @var array<int, string> */
     public array $fields = [];
 
     /**
+    /**
+     * @param  LazyCollection<int, \Illuminate\Database\Eloquent\Model>  $collection
+    /**
+     * @param  LazyCollection<int, \Illuminate\Database\Eloquent\Model>  $collection
+    /**
+     * @param  LazyCollection<int, \Illuminate\Database\Eloquent\Model>  $collection
      * @param  array<int, string>  $fields
      */
     public function __construct(
         public LazyCollection $collection,
         ?string $transKey = null,
+     * @param array<int, string> $fields
+     */
+    public function __construct(
+        public LazyCollection $collection,
+        null|string $transKey = null,
         array $fields = [],
     ) {
         // $this->headings = count($headings) > 0 ? $headings : collect($collection->first())->keys()->toArray();
@@ -64,6 +139,60 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         /*
          * return [
          * $row->,
+     * Undocumented function.
+     *
+     * @param Collection $item
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+     * @param  \Illuminate\Database\Eloquent\Model  $item
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+     * Undocumented function.
+     *
+     * @param Collection $item
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+     * @param  \Illuminate\Database\Eloquent\Model  $item
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+     */
+    public function map($item): array
+    {
+        $data = $item->only($this->fields);
+
+        return $data->toArray();
+        $fields = array_map('strval', $this->fields);
+        $data = $item->only($fields);
+
+        return $data;
+        return $data->toArray();
+        return $data->toArray();
+        return $data->toArray();
+        return $data->toArray();
+        return $data->toArray();
+        return $data->toArray();
+        return $data->toArray();
+        return $data->toArray();
+
+        /*
+         * return [
+         * $item->,
          * ];
          */
     }
@@ -74,10 +203,65 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
             return collect($this->fields);
         }
 
+        /**
+         * @var array
+         */
         $head = $this->collection->first();
         $headArray = $this->normalizeRow($head);
 
         return collect($headArray)->keys();
+        if (!empty($this->fields)) {
+            return collect($this->fields);
+        }
+
+        /**
+         * @var array
+         */
+        $head = $this->collection->first();
+
+        return collect($head)->keys();
+
+        return collect($head)->keys();
+        if ($head === null) {
+            return collect([]);
+        }
+
+        if ($head === null) {
+            return collect([]);
+        }
+
+        if (is_array($head)) {
+            $keys = array_keys($head);
+            $stringKeys = [];
+            foreach ($keys as $key) {
+                $stringKeys[] = (string) $key;
+            }
+
+            return collect($stringKeys);
+        }
+
+        if ($head instanceof \Illuminate\Database\Eloquent\Model) {
+            $attributes = $head->getAttributes();
+            $keys = array_keys($attributes);
+            $stringKeys = [];
+            foreach ($keys as $key) {
+                $stringKeys[] = (string) $key;
+            }
+
+            return collect($stringKeys);
+        }
+
+        return collect([]);
+
+        return collect($head)->keys();
+
+        return collect($head)->keys();
+
+        return collect($head)->keys();
+
+        return collect($head)->keys();
+
+        return collect($head)->keys();
     }
 
     public function headings(): array
@@ -104,7 +288,6 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     }
 
     /**
-     * @param  mixed  $row
      * @return array<int|string, mixed>
      */
     private function normalizeRow(mixed $row): array

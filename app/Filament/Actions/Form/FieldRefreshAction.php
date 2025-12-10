@@ -11,6 +11,13 @@ namespace Modules\Xot\Filament\Actions\Form;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Set;
+use Filament\Schemas\Components\Utilities\Set;
+use Filament\Notifications\Notification;
+use Filament\Resources\Pages\ListRecords;
+use Illuminate\Support\Str;
+use Modules\Xot\Actions\Export\ExportXlsByCollection;
+use Modules\Xot\Actions\GetTransKeyAction;
+use Webmozart\Assert\Assert;
 
 class FieldRefreshAction extends Action
 {
@@ -22,6 +29,16 @@ class FieldRefreshAction extends Action
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
             ->action(function ($record, Set $set): void {
+        $this->translateLabel();
+        $this->icon('heroicon-o-arrow-path')
+            ->tooltip('Ricalcola valore')
+            ->action(function ($state, Set $set, $record) {
+            ->action(function ($state, $set, $record) {
+            ->action(function ($state, $set, $record): void {
+            ->action(function ($state, $set, $record) {
+            ->action(function ($state, $set, $record) {
+            ->action(function ($state, $set, $record): void {
+            ->action(function ($state, $set, $record) {
                 $name = $this->getName();
                 if ($name === null) {
                     return;
@@ -40,12 +57,53 @@ class FieldRefreshAction extends Action
                 Notification::make()
                     ->title('Valore ricalcolato')
                     ->body('Il valore del campo è stato ricalcolato con successo')
+                $method = 'get' . Str::studly($name) . '';
+                $method = 'get'.Str::studly($name).'';
+                $value = $record->$method();
+                $set($name, $value);
+                Notification::make()
+                    ->title('Ricalcolato ' . $name)
+                    ->body('vecchio valore: ' . $state . ' nuovo valore: ' . $value)
+                $method = 'get'.Str::studly($name).'';
+                $value = $record->$method();
+                $set($name, $value);
+                Notification::make()
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+
+                if (! is_object($record) || ! method_exists($record, $method)) {
+                    return;
+                }
+
+                $callable = [$record, $method];
+                if (! is_callable($callable)) {
+                    return;
+                }
+
+                $value = call_user_func($callable);
+                if (is_callable($set)) {
+                    $set($name, $value);
+                }
+
+                $oldValue = is_scalar($state) ? (string) $state : 'non-scalar';
+                $newValue = is_scalar($value) ? (string) $value : 'non-scalar';
+
+                Notification::make()
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$oldValue.' nuovo valore: '.$newValue)
+                Notification::make()
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
                     ->success()
                     ->send();
             });
     }
 
     public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
     {
         return 'field_refresh';
     }

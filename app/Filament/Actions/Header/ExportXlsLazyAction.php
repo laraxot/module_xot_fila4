@@ -11,6 +11,10 @@ namespace Modules\Xot\Filament\Actions\Header;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Actions\Export\ExportXlsByLazyCollection;
 use Modules\Xot\Actions\Export\ExportXlsByQuery;
 use Modules\Xot\Actions\Export\ExportXlsStreamByLazyCollection;
@@ -37,6 +41,18 @@ class ExportXlsLazyAction extends Action
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
@@ -69,6 +85,15 @@ class ExportXlsLazyAction extends Action
                             },
                             $rawFields
                         );
+                        $fields = array_map(static function ($field): string {
+                            if (is_object($field) && method_exists($field, '__toString')) {
+                                return $field->__toString();
+                            }
+                            if (is_scalar($field)) {
+                                return (string) $field;
+                            }
+                            return '';
+                        }, $rawFields);
                     }
                     Assert::isArray($fields);
                 }
@@ -83,6 +108,11 @@ class ExportXlsLazyAction extends Action
                     $stringFields = array_values($fields);
 
                     // PHPStan knows $lazy is Builder|Relation here, no need for Assert
+                    Assert::isInstanceOf($lazy, Builder::class);
+
+                    /** @var array<int, string> $stringFields */
+                    $stringFields = array_values($fields);
+
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
                 }
 
@@ -97,6 +127,53 @@ class ExportXlsLazyAction extends Action
             });
     }
 
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): ?string
+                    return app(ExportXlsStreamByLazyCollection::class)->execute(
+                        $lazyCursor, 
+                        $filename, 
+                        $transKey, 
+                        array_values($fields)
+                    );
+                    return app(ExportXlsStreamByLazyCollection::class)
+                        ->execute($lazyCursor, $filename, $transKey, array_values($fields));
+                }
+
+                return app(ExportXlsByLazyCollection::class)->execute($lazyCursor, $filename, array_values($fields));
+            });
+    }
+
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+                }
+
+                return app(ExportXlsByLazyCollection::class)->execute(
+                    $lazyCursor, 
+                    $filename, 
+                    array_values($fields)
+                );
+            });
+    }
+
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
     {
         return 'export_xls';

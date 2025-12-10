@@ -12,6 +12,10 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Filament\GenerateTableColumnsByFileAction;
+use Modules\Xot\Actions\Filament\GenerateTableColumnsByFileAction;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
 use Nwidart\Modules\Facades\Module;
 use Webmozart\Assert\Assert;
 
@@ -34,6 +38,20 @@ class GenerateTableColumnsCommand extends Command
     /**
      * Create a new command instance.
      */
+     *
+     * @return void
+     */
+    
+    
+    public function __construct()
+    {
+        parent::__construct();
+    }
+    
+    
+    
+    
+    
 
     /**
      * Execute the console command.
@@ -49,6 +67,15 @@ class GenerateTableColumnsCommand extends Command
 
         $this->info($module_name);
         $this->info($module_path);
+        Assert::string($module_name = $this->argument('module'), '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $module_path = Module::getModulePath($module_name);
+        if (!Str::endsWith($module_path, '/')) {
+            $module_path .= '/';
+        }
+        $filament_resources_path = $module_path . 'Filament/Resources';
+
+        $this->info($module_name); // = Progressioni
+        $this->info($module_path); // = /var/www/html/ptvx/laravel/Modules/Progressioni/
         $this->info($filament_resources_path);
 
         $files = File::files($filament_resources_path);

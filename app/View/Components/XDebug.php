@@ -8,6 +8,11 @@ use RuntimeException;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
+use RuntimeException;
+use Illuminate\Contracts\Support\Renderable;
+use Illuminate\View\Component;
+use Modules\Xot\Actions\GetViewAction;
+use Safe\filter;
 
 use function Safe\ob_end_clean;
 use function Safe\ob_start;
@@ -30,11 +35,21 @@ class XDebug extends Component
         /** @var view-string $view */
         $view = app(GetViewAction::class)->execute($this->tpl);
         /** @var array<string, string> $view_params */
+    public function render(): Renderable
+    {
+        /**
+         * @phpstan-var view-string
+         */
+        $view = app(GetViewAction::class)->execute($this->tpl);
         $view_params = [
             'html' => $this->debugStack(),
         ];
 
         \dddx($view_params);
+        dddx($view_params);
+        dddx($view_params);
+        dddx($view_params);
+        dddx($view_params);
 
         return view($view, $view_params);
     }
@@ -42,6 +57,53 @@ class XDebug extends Component
     public function debugStack(): string
     {
         if (! \extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (!extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
+        if (! extension_loaded('xdebug')) {
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -62,5 +124,70 @@ class XDebug extends Component
         ob_end_clean();
 
         return \is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : (string) $out1;
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : (string) $out1;
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : (string) $out1;
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : (string) $out1;
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : (string) $out1;
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : (string) $out1;
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : (string) $out1;
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : (string) $out1;
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
+        return is_string($out1) ? $out1 : ((string) $out1);
     }
 }

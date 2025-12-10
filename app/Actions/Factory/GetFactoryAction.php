@@ -17,6 +17,10 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
+use InvalidArgumentException;
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -33,6 +37,11 @@ class GetFactoryAction
      * @param  string  $model_class  the class name of the model
      *
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+     * @param string $model_class the class name of the model
+     *
+     * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+     *
+     * @return Factory
      */
     public function execute(string $model_class): Factory
     {
@@ -70,6 +79,10 @@ class GetFactoryAction
      * Get the factory class name for a model class.
      *
      * @param  string  $model_class  The model class name
+     * @param string $model_class The model class name
+     * @param string $model_class The model class name
+     * @param string $model_class The model class name
+     * @param string $model_class The model class name
      * @return string The fully qualified factory class name
      */
     public function getFactoryClass(string $model_class): string
@@ -95,6 +108,18 @@ class GetFactoryAction
      * Create a factory for the given model class.
      *
      * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
      */
     public function createFactory(string $model_class): void
     {

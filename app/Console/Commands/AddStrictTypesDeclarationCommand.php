@@ -7,9 +7,20 @@ namespace Modules\Xot\Console\Commands;
 use Webmozart\Assert\Assert;
 use SplFileInfo;
 use Exception;
+use Exception;
+use SplFileInfo;
+use Exception;
+use SplFileInfo;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
+use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
+use SplFileInfo;
 
 class AddStrictTypesDeclarationCommand extends Command
 {
@@ -21,6 +32,12 @@ class AddStrictTypesDeclarationCommand extends Command
 
     /**
      * @var array<string>
+     */
+    /**
+     * @var array<int, string>
+     */
+    /**
+     * @var array<int, string>
      */
     private array $excludedPaths = [
         'views',
@@ -42,6 +59,10 @@ class AddStrictTypesDeclarationCommand extends Command
             if (! File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
 
+        if ($moduleOption) {
+            $modulePath .= '/' . $moduleOption;
+            if (!File::isDirectory($modulePath)) {
+                $this->error("Il modulo {$moduleOption} non esiste");
                 return 1;
             }
         }
@@ -58,6 +79,13 @@ class AddStrictTypesDeclarationCommand extends Command
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+                    $filePath = $file->getRealPath();
+                    $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
+                    $this->info("Verrebbe processato: {$file}");
+                    $this->info("Verrebbe processato: {$file}");
+                    $filePath = $file->getRealPath();
+                    $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
+                    $this->info("Verrebbe processato: {$file}");
                     $count++;
 
                     continue;
@@ -72,11 +100,30 @@ class AddStrictTypesDeclarationCommand extends Command
                 assert(is_string($path));
 
                 try {
+            if ($this->shouldProcessFile($file)) {
+                if ($dryRun) {
+                    $this->info("Verrebbe processato: {$file}");
+                    $count++;
+                    continue;
+                }
+
+                try {
+                    $path = $file->getRealPath();
+                    if ($path === false) {
+                        continue;
+                    }
+                    
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
                 } catch (Exception $e) {
+                } catch (\Exception $e) {
+                } catch (\Exception $e) {
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
                 }
             }
         }
@@ -89,6 +136,14 @@ class AddStrictTypesDeclarationCommand extends Command
 
     /**
      * @return array<SplFileInfo>
+    /**
+     * @return array<\SplFileInfo>
+     */
+    /**
+     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
+     */
+    /**
+     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
      */
     private function findPhpFiles(string $path): array
     {
@@ -96,9 +151,19 @@ class AddStrictTypesDeclarationCommand extends Command
     }
 
     private function shouldProcessFile(SplFileInfo $file): bool
+    private function shouldProcessFile(SplFileInfo $file): bool
+    private function shouldProcessFile(SplFileInfo $file): bool
+    private function shouldProcessFile(\SplFileInfo $file): bool
     {
         // Verifica l'estensione
         if (! str_ends_with($file->getFilename(), '.php')) {
+        if (!str_ends_with($file->getFilename(), '.php')) {
+        if (!str_ends_with($file->getFilename(), '.php')) {
+    private function shouldProcessFile(SplFileInfo $file): bool
+    private function shouldProcessFile(\Symfony\Component\Finder\SplFileInfo $file): bool
+    {
+        // Verifica l'estensione
+        if (!str_ends_with($file->getFilename(), '.php')) {
             return false;
         }
 
@@ -118,5 +183,8 @@ class AddStrictTypesDeclarationCommand extends Command
         $content = File::get($path);
 
         return ! str_contains($content, 'declare(strict_types=1)');
+        return !str_contains($content, 'declare(strict_types=1)');
+        return !str_contains($content, 'declare(strict_types=1)');
+        return !str_contains($content, 'declare(strict_types=1)');
     }
 }

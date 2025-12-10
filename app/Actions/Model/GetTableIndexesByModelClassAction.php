@@ -8,6 +8,10 @@ use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Illuminate\Database\Eloquent\Model;
+use Doctrine\DBAL\Schema\Index;
+use Spatie\QueueableAction\QueueableAction;
 
 class GetTableIndexesByModelClassAction
 {
@@ -23,5 +27,17 @@ class GetTableIndexesByModelClassAction
         $formManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
 
         return $formManager->listTableIndexes($table);
+        $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+
+        return $schemaManager->listTableIndexes($table);
+        $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+
+        return $schemaManager->listTableIndexes($table);
+        $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+
+        return $schemaManager->listTableIndexes($table);
+        $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+
+        return $schemaManager->listTableIndexes($table);
     }
 }

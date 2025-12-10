@@ -26,5 +26,17 @@ class GetMethodBodyAction
         $source = file($file_name);
 
         return implode('', \array_slice($source, $start_line, $length));
+        $body = implode('', \array_slice($source, $start_line, $length));
+
+        return $body;
+        $body = implode('', \array_slice($source, $start_line, $length));
+
+        return $body;
+        $body = implode('', \array_slice($source, $start_line, $length));
+
+        return $body;
+        $body = implode('', \array_slice($source, $start_line, $length));
+
+        return $body;
     }
 }

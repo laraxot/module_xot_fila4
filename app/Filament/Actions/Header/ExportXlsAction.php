@@ -10,6 +10,10 @@ namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
 // use Filament\Actions\Action;
+// use Filament\Tables\Actions\Action;
+// use Filament\Tables\Actions\Action;
+// use Filament\Tables\Actions\Action;
+// use Filament\Tables\Actions\Action;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
@@ -31,6 +35,18 @@ class ExportXlsAction extends Action
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
@@ -69,6 +85,17 @@ class ExportXlsAction extends Action
                             },
                             $rawFields
                         );
+                        /** @var array<int, string> $fields */
+                        /** @var array<int, string> $fields */
+                        $fields = array_map(static function ($field): string {
+                            if (is_object($field) && method_exists($field, '__toString')) {
+                                return $field->__toString();
+                            }
+                            if (is_scalar($field)) {
+                                return (string) $field;
+                            }
+                            return '';
+                        }, $rawFields);
                     }
                     Assert::isArray($fields);
                 }
@@ -78,6 +105,30 @@ class ExportXlsAction extends Action
     }
 
     public static function getDefaultName(): ?string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+                return app(ExportXlsByCollection::class)->execute(
+                    $rows, 
+                    $filename, 
+                    $transKey, 
+                    array_values($fields)
+                );
+            });
+    }
+
+    public static function getDefaultName(): ?string
+                return app(ExportXlsByCollection::class)->execute($rows, $filename, $transKey, array_values($fields));
+            });
+    }
+
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
+    public static function getDefaultName(): null|string
     {
         return 'export_xls';
     }

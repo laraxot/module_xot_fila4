@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+
+
+
+
 return [
     'actions' => [
         'authenticate' => [
@@ -12,11 +16,18 @@ return [
         'login' => [
             'label' => 'login',
             'tooltip' => 'login',
+            'icon' => 'login',
         ],
         'request' => [
             'label' => 'request',
             'tooltip' => 'request',
             'icon' => 'request',
+        ],
+        'login' => [
+            'label' => 'login',
+        ],
+        'request' => [
+            'label' => 'request',
         ],
         'activeLocale' => [
             'label' => 'activeLocale',
@@ -287,6 +298,10 @@ return [
                 'label' => 'zeusData.2',
             ],
             [
+            4 => [
+            4 => [
+            4 => [
+            4 => [
                 'description' => 'zeusData.4',
                 'helper_text' => 'zeusData.4',
                 'placeholder' => 'zeusData.4',

@@ -8,6 +8,12 @@ use Modules\Xot\Tests\TestCase;
 
 use function Safe\file_put_contents;
 use function Safe\json_encode;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+>>>>>>>> a6ef6dc7 (.):tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.pest.php
 
 uses(TestCase::class);
 
@@ -24,6 +30,11 @@ beforeEach(function (): void {
     if (! File::exists($schemaDir)) {
         File::makeDirectory($schemaDir, 0o755, true);
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+    if (! File::exists(dirname($this->testSchemaPath))) {
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>>> a6ef6dc7 (.):tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.pest.php
     }
 
     // Create a test schema file

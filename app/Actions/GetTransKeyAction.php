@@ -26,6 +26,40 @@ class GetTransKeyAction
             $backtrace = debug_backtrace();
             $class = Arr::get($backtrace, '1.class');
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+        if ('' === $class) {
+            $backtrace = debug_backtrace();
+            Assert::isArray($backtrace);
+            $class = Arr::get($backtrace, '1.class');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
         }
 
         $arr = explode('\\', $class);
@@ -36,11 +70,57 @@ class GetTransKeyAction
             $res = Arr::first(
                 $backtrace,
                 fn (array $item): bool => (isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'),
+                fn (array $item): bool => (
+                    isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'
+                ),
             );
 
             if ($res === null || ! isset($res['object'])) {
                 $page = Arr::get(debug_backtrace(), '0.args.0');
                 Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        if ('Modules' !== $arr[0]) {
+            $backtrace = array_slice(debug_backtrace(), 2);
+            $res = Arr::first(
+                $backtrace,
+                fn(array $item): bool => (
+                    isset($item['object']) && 'Modules' === explode('\\', get_class($item['object']))[0]
+                ),
+            );
+
+            if (null === $res || !isset($res['object'])) {
+                $page = Arr::get(debug_backtrace(), '0.args.0');
+                Assert::string($page, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                function (array $item): bool {
+                    return isset($item['object']) && 'Modules' === explode('\\', get_class($item['object']))[0];
+                }
+                fn(array $item): bool => (
+                    isset($item['object']) && 'Modules' === explode('\\', get_class($item['object']))[0]
+                ),
+            );
+
+            if (null === $res || !isset($res['object'])) {
+                $page = Arr::get(debug_backtrace(), '0.args.0');
+                Assert::string($page);
+                Assert::string($page, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                function (array $item): bool {
+                    return isset($item['object']) && 'Modules' === explode('\\', get_class($item['object']))[0];
+                }
+            );
+
+            if (null === $res || ! isset($res['object'])) {
+                $page = Arr::get(debug_backtrace(), '0.args.0');
+                Assert::string($page);
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
                 $main_module = XotData::make()->main_module;
                 $main_module_low = mb_strtolower($main_module);
                 $page_arr = explode('\\', $page);
@@ -49,6 +129,33 @@ class GetTransKeyAction
                 $page_arr_last_snake = Str::of($page_arr_last)->snake()->toString();
 
                 return $main_module_low.'::'.$page_arr_last_snake;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+                $tmp = $main_module_low.'::'.$page_arr_last_snake;
+                $tmp = $main_module_low.'::'.$page_arr_last_snake;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+                $tmp = $main_module_low.'::'.$page_arr_last_snake;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+                $tmp = $main_module_low.'::'.$page_arr_last_snake;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+                $tmp = $main_module_low.'::'.$page_arr_last_snake;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+                $tmp = $main_module_low.'::'.$page_arr_last_snake;
+                $tmp = $main_module_low.'::'.$page_arr_last_snake;
+
+                return $tmp;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+
+                return $tmp;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+
+                return $tmp;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+
+                return $tmp;
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+
+                return $tmp;
             }
 
             $class = get_class($res['object']);
@@ -79,6 +186,26 @@ class GetTransKeyAction
         }
         if (in_array($last, ['action'], strict: true)) {
             $class_snake = Str::beforeLast($class_snake, '_'.$last);
+        if (in_array($first, ['dashboard', 'list', 'get', 'manage', 'edit', 'view'], strict: true)) {
+            $class_snake = implode('_', array_slice($arr, 1));
+        }
+        if (in_array($last, ['action'], strict: true)) {
+            $class_snake = Str::beforeLast($class_snake, '_'.$last);
+        if (in_array($first, ['dashboard', 'list', 'get', 'manage'], strict: true)) {
+            $class_snake = implode('_', array_slice($arr, 1));
+        }
+        if (in_array($last, ['action'], strict: true)) {
+            $class_snake = Str::beforeLast($class_snake, '_' . $last);
+        if (in_array($first, ['dashboard', 'list', 'get', 'manage'])) {
+            $class_snake = implode('_', array_slice($arr, 1));
+        }
+        if (in_array($last, ['action'])) {
+            $class_snake = Str::beforeLast($class_snake, '_'.$last);
+        if (in_array($first, ['dashboard', 'list', 'get', 'manage'], strict: true)) {
+            $class_snake = implode('_', array_slice($arr, 1));
+        }
+        if (in_array($last, ['action'], strict: true)) {
+            $class_snake = Str::beforeLast($class_snake, '_' . $last);
         }
 
         if (Str::endsWith($class_snake, 'form_schema')) {
@@ -94,5 +221,32 @@ class GetTransKeyAction
         }
 
         return $module_low.'::'.$class_snake;
+        $tmp = $module_low . '::' . $class_snake;
+        $tmp = $module_low.'::'.$class_snake;
+        $tmp = $module_low.'::'.$class_snake;
+        $tmp = $module_low . '::' . $class_snake;
+        $tmp = $module_low.'::'.$class_snake;
+        $tmp = $module_low . '::' . $class_snake;
+        $tmp = $module_low . '::' . $class_snake;
+        $tmp = $module_low.'::'.$class_snake;
+        $tmp = $module_low . '::' . $class_snake;
+        $tmp = $module_low.'::'.$class_snake;
+        $tmp = $module_low . '::' . $class_snake;
+        $tmp = $module_low.'::'.$class_snake;
+        $tmp = $module_low.'::'.$class_snake;
+
+        return $tmp;
+        $tmp = $module_low . '::' . $class_snake;
+
+        return $tmp;
+        $tmp = $module_low . '::' . $class_snake;
+
+        return $tmp;
+        $tmp = $module_low . '::' . $class_snake;
+
+        return $tmp;
+        $tmp = $module_low . '::' . $class_snake;
+
+        return $tmp;
     }
 }

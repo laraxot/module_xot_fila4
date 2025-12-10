@@ -23,5 +23,32 @@ class GetViewByModelClassAction
         $model_name = Str::of($model_name)->snake()->toString();
 
         return $module_low.'::'.$model_name.$suffix;
+        $view = $module_low . '::' . $model_name . $suffix;
+        $view = $module_low.'::'.$model_name.$suffix;
+        $view = $module_low.'::'.$model_name.$suffix;
+        $view = $module_low . '::' . $model_name . $suffix;
+        $view = $module_low.'::'.$model_name.$suffix;
+        $view = $module_low . '::' . $model_name . $suffix;
+        $view = $module_low . '::' . $model_name . $suffix;
+        $view = $module_low.'::'.$model_name.$suffix;
+        $view = $module_low . '::' . $model_name . $suffix;
+        $view = $module_low.'::'.$model_name.$suffix;
+        $view = $module_low . '::' . $model_name . $suffix;
+        $view = $module_low.'::'.$model_name.$suffix;
+        $view = $module_low.'::'.$model_name.$suffix;
+
+        return $view;
+        $view = $module_low . '::' . $model_name . $suffix;
+
+        return $view;
+        $view = $module_low . '::' . $model_name . $suffix;
+
+        return $view;
+        $view = $module_low . '::' . $model_name . $suffix;
+
+        return $view;
+        $view = $module_low . '::' . $model_name . $suffix;
+
+        return $view;
     }
 }

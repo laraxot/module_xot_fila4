@@ -10,6 +10,11 @@ use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
 use PDO;
 
+use PDO;
+use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
 use function Safe\preg_match;
 
 /**
@@ -63,11 +68,17 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         // Ottimizza le query di default
         DB::listen(function ($query): void {
+        DB::listen(function ($query) {
             // PHPStan: $query è \Illuminate\Database\Events\QueryExecuted
             if (! is_object($query) || ! isset($query->time)) {
                 return;
             }
 
+        DB::listen(function ($query): void {
+        DB::listen(function ($query) {
+        DB::listen(function ($query) {
+        DB::listen(function ($query): void {
+        DB::listen(function ($query) {
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
 
@@ -77,6 +88,28 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                     'bindings' => $query->bindings ?? [],
                     'time' => $query->time,
                     'connection' => $query->connectionName ?? '',
+        DB::listen(function ($query) {
+            // Log query che superano la soglia di tempo
+            $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
+            
+            if ($query->time > $threshold) {
+                Log::warning('Slow query detected', [
+                    'sql' => $query->sql,
+                    'bindings' => $query->bindings,
+                    'time' => $query->time,
+                    'connection' => $query->connectionName,
+                    'sql' => $sql,
+                    'bindings' => $bindings,
+                    'time' => $timeValue,
+                    'connection' => $connection,
+                    'sql' => property_exists($query, 'sql') ? $query->sql : '',
+                    'bindings' => property_exists($query, 'bindings') ? $query->bindings : [],
+                    'time' => $query->time,
+                    'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
+                    'sql' => property_exists($query, 'sql') ? $query->sql : '',
+                    'bindings' => property_exists($query, 'bindings') ? $query->bindings : [],
+                    'time' => $query->time,
+                    'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
                 ]);
             }
         });
@@ -97,11 +130,18 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             DB::enableQueryLog();
 
             // Log delle query alla fine della richiesta
-            app()->terminating(function (): void {
+            app()->terminating(function () {
                 $queries = DB::getQueryLog();
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
 
+            
+            // Log delle query alla fine della richiesta
+            app()->terminating(function () {
+                $queries = DB::getQueryLog();
+                $totalQueries = count($queries);
+                $totalTime = array_sum(array_column($queries, 'time'));
+                
                 if ($totalQueries > 50 || $totalTime > 1000) {
                     Log::info('High query count or time detected', [
                         'total_queries' => $totalQueries,
@@ -133,6 +173,10 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
 
+        
+        // Ottimizza la configurazione di Eloquent
+        $this->optimizeEloquentConfiguration();
+        
         // Configura caching aggressivo
         $this->configureAggressiveCaching();
     }
@@ -147,6 +191,10 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             // Questo può essere fatto per modelli specifici se necessario
         }
 
+        
+        
+        
+        
         // Configura connection pooling se disponibile
         $currentOptions = config('database.connections.mysql.options');
         if ($currentOptions) {
@@ -174,6 +222,10 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             $this->cacheModuleConfigurations();
         }
 
+        
+        
+        
+        
         // Cache delle navigation items
         if (config('filament_optimization.cache.navigation', true)) {
             // Già implementato in GetModulesNavigationItems
@@ -210,9 +262,29 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                         if (is_string($moduleName)) {
                             $configs[$moduleName] = require $configPath;
                         }
+                    $configPath = $module->getPath().'/Config/config.php';
+                    if (file_exists($configPath)) {
+                        $configs[$module->getName()] = require $configPath;
+                        $configs[$module->getName()] = require $configPath;
+                    $configPath = $module->getPath().'/Config/config.php';
+                    if (file_exists($configPath)) {
+                        $configs[$module->getName()] = require $configPath;
+                        $configs[$moduleName] = require $configPath;
+                        $configs[$module->getName()] = require $configPath;
                     }
                 }
 
+                
+                foreach ($modules as $module) {
+                    $configPath = $module->getPath() . '/Config/config.php';
+                    if (file_exists($configPath)) {
+                        $configs[$module->getName()] = require $configPath;
+                    }
+                }
+                
+                    }
+                }
+                
                 return $configs;
             });
         });
@@ -225,10 +297,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         $maxQueries = config('filament_optimization.development.max_queries_per_request', 100);
 
-        app()->terminating(function () use ($maxQueries): void {
+        app()->terminating(function () use ($maxQueries) {
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
 
+        
+        app()->terminating(function () use ($maxQueries) {
+            $queries = DB::getQueryLog();
+            $totalQueries = count($queries);
+            
             if ($totalQueries > $maxQueries) {
                 Log::warning("High query count detected: {$totalQueries} queries", [
                     'url' => request()->fullUrl(),
@@ -249,8 +326,21 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             return str_contains($path, '/admin') ||
                    str_ends_with($path, '/admin') ||
                    preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+            return str_contains($path, '/admin')
+                   || str_ends_with($path, '/admin')
+                   || preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
         }
 
+        if (!app()->runningInConsole() && request()) {
+            $path = request()->path();
+            return str_contains($path, '/admin') || 
+                   str_ends_with($path, '/admin') ||
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+        }
+        
         return false;
     }
 }

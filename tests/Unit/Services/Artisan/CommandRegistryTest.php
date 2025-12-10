@@ -8,8 +8,8 @@ use Modules\Xot\Services\Artisan\Handlers\CacheCommandHandler;
 use Modules\Xot\Services\Artisan\Handlers\MigrationCommandHandler;
 
 test('command registry can register handlers', function (): void {
-    $registry = new CommandRegistry;
-    $handler = new MigrationCommandHandler;
+    $registry = new CommandRegistry();
+    $handler = new MigrationCommandHandler();
 
     $registry->register($handler);
 
@@ -17,13 +17,13 @@ test('command registry can register handlers', function (): void {
 });
 
 test('command registry returns null for unknown commands', function (): void {
-    $registry = new CommandRegistry;
+    $registry = new CommandRegistry();
 
     expect($registry->findHandler('unknown-command'))->toBeNull();
 });
 
 test('command registry finds correct handler for migrate command', function (): void {
-    $registry = new CommandRegistry;
+    $registry = new CommandRegistry();
 
     $handler = $registry->findHandler('migrate');
 
@@ -31,7 +31,7 @@ test('command registry finds correct handler for migrate command', function (): 
 });
 
 test('command registry finds correct handler for cache commands', function (): void {
-    $registry = new CommandRegistry;
+    $registry = new CommandRegistry();
 
     $handler = $registry->findHandler('clear');
 
@@ -40,7 +40,7 @@ test('command registry finds correct handler for cache commands', function (): v
 
 /* @phpstan-ignore-next-line method.notFound */
 test('command registry supports multiple cache commands', function (string $command): void {
-    $registry = new CommandRegistry;
+    $registry = new CommandRegistry();
 
     $handler = $registry->findHandler($command);
 

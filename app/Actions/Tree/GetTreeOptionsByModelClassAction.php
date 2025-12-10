@@ -19,12 +19,24 @@ class GetTreeOptionsByModelClassAction
 
     /**
      * @param  class-string<HasRecursiveRelationshipsContract>  $class
+     * @param class-string<HasRecursiveRelationshipsContract> $class
+     *
+     * @param class-string<HasRecursiveRelationshipsContract> $class
+     *
+     * @param class-string<HasRecursiveRelationshipsContract> $class
+     *
+     * @param class-string<HasRecursiveRelationshipsContract> $class
+     *
      * @return array<int|string, string>
      */
     public function execute(string $class, Model|callable|null $_where = null): array
     {
         /** @var HasRecursiveRelationshipsContract $model */
         $model = new $class;
+        $model = new $class();
+        $model = new $class();
+        $model = new $class();
+        $model = new $class();
 
         /** @var Collection<int, HasRecursiveRelationshipsContract> $collection */
         // @phpstan-ignore generics.notSubtype
@@ -37,6 +49,26 @@ class GetTreeOptionsByModelClassAction
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : (string) $row->getLabel();
+            /* @var HasRecursiveRelationshipsContract $row */
+            $key = $row->getKey();
+            $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
+                ? $row
+                : ((string) $row->getLabel());
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
             $this->parse($row);
         }
 
@@ -50,6 +82,37 @@ class GetTreeOptionsByModelClassAction
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
                 Str::repeat('---', $child->depth).'   '.$child->getLabel();
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            /** @var HasRecursiveRelationshipsContract $child */
+            $key = $child->getKey();
+            $this->options[is_string($key) ? $key : ((string) $key)] =
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+                Str::repeat('---', $child->depth).'   '.$child->getLabel();
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+            /** @var HasRecursiveRelationshipsContract $child */
+            $key = $child->getKey();
+            $this->options[is_string($key) ? $key : ((string) $key)] =
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
         }
     }
 }

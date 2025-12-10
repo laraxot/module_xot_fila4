@@ -17,6 +17,10 @@ class FeedFactory extends Factory
      * The name of the factory's corresponding model.
      *
      * @var class-string<Feed>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
      */
     protected $model = Feed::class;
 

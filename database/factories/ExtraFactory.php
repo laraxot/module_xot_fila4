@@ -10,6 +10,21 @@ use Modules\Xot\Models\Extra;
 /**
  * @extends Factory<Extra>
  */
+use Modules\Xot\Models\Extra;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\Extra;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\Extra;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\Extra;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\Extra;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
 class ExtraFactory extends Factory
 {
     /**

@@ -7,6 +7,14 @@ namespace Modules\Xot\Actions\Import;
 use Exception;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Schema\Builder;
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
@@ -28,6 +36,10 @@ class ImportCsvAction
      * @param  string  $filename  the name of the file to import
      * @param  string  $db  the database connection name
      * @param  string  $tbl  the table name where data will be imported
+     * @param string $disk     the storage disk where the file is located
+     * @param string $filename the name of the file to import
+     * @param string $db       the database connection name
+     * @param string $tbl      the table name where data will be imported
      *
      * @throws Exception
      */
@@ -75,6 +87,11 @@ class ImportCsvAction
      * @return array<ColumnData>
      */
     private function getTableColumns(Builder $conn, string $tbl): array
+     * @param Builder $conn
+     *
+     * @return ColumnData[]
+     */
+    private function getTableColumns($conn, string $tbl): array
     {
         $columns = $conn->getColumnListing($tbl);
         $excludedColumns = ['id'];
@@ -97,11 +114,27 @@ class ImportCsvAction
      *
      * @param  array<ColumnData>  $columns
      * @return array<string>
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
      */
     private function prepareFields(array $columns): array
     {
         return array_map(
             fn (ColumnData $column) => $column->type === 'decimal' ? '@'.$column->name : $column->name,
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
             $columns,
         );
     }
@@ -110,6 +143,10 @@ class ImportCsvAction
      * Build the SQL query for importing data.
      *
      * @param  array<ColumnData>  $columns
+     * @param ColumnData[] $columns
+     * @param ColumnData[] $columns
+     * @param ColumnData[] $columns
+     * @param ColumnData[] $columns
      */
     private function buildSql(string $path, string $db, string $tbl, string $fieldsUpList, array $columns): string
     {
@@ -122,15 +159,129 @@ class ImportCsvAction
             "ESCAPED BY '".
             '"'.
             "' ".
+            "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' " .
+            "INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 " .
+            "FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '" .
+            '"' .
+            "' " .
+            "ESCAPED BY '" .
+            '"' .
+            "' " .
             "LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
 
         $sqlReplace = [];
         foreach ($columns as $column) {
             if ($column->type === 'decimal') {
+            if ('decimal' === $column->type) {
+            if ('decimal' === $column->type) {
+            if ('decimal' === $column->type) {
+            if ('decimal' === $column->type) {
                 $sqlReplace[] = "{$column->name} = REPLACE(@{$column->name}, ',', '.')";
             }
         }
 
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
         if (! empty($sqlReplace)) {
             $sql .= ' SET '.implode(', ', $sqlReplace).';';
         }
@@ -146,12 +297,28 @@ class ImportCsvAction
      *
      * @deprecated This method is currently unused but kept for future expansion.
      *
+     * @param string[] $columns
+     *
+     * @return ColumnData[]
+     * @deprecated This method is currently unused but kept for future expansion.
      * @phpstan-ignore method.unused
      */
     private function transformColumnsToColumnData(array $columns): array
     {
         return array_map(
             function (string $column): ColumnData {
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
                 return new ColumnData(
                     name: $column,
                     type: 'string', // Default type, modify if necessary

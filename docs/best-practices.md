@@ -1,4 +1,3 @@
-=======
 # Best Practices
 
 ## Laravel
@@ -45,8 +44,6 @@
 - Verificare la performance
 - Controllare la manutenibilità
 - Verificare la testabilità
-=======
-=======
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -764,8 +761,26 @@ public function createModel(array $data): MioModello
 - [**Architettura**](architecture.md) - Architettura del modulo Xot
 - [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
-=======

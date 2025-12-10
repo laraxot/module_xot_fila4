@@ -7,6 +7,10 @@ namespace Modules\Xot\Contracts;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Query\Builder;
+use Illuminate\Database\Query\Builder;
+use Illuminate\Database\Query\Builder;
+use Illuminate\Database\Query\Builder;
 use Modules\User\Models\Role;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\Permission\Contracts\Permission;
@@ -22,6 +26,14 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property Collection<int, Role> $roles
  * @property int|null $roles_count
  * @property UserContract $user
+ * @property int|null              $roles_count
+ * @property UserContract          $user
+ * @property int|null              $roles_count
+ * @property UserContract          $user
+ * @property int|null              $roles_count
+ * @property UserContract          $user
+ * @property int|null              $roles_count
+ * @property UserContract          $user
  *
  * @phpstan-require-extends Model
  *
@@ -43,6 +55,52 @@ interface ProfileContract extends HasMedia
      */
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
+    public function assignRole($roles = []);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole($roles = []);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
 
     /**
      * Determine if the model has (one of) the given role(s).
@@ -50,13 +108,82 @@ interface ProfileContract extends HasMedia
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
         ?string $guard = null,
+        null|string $guard = null,
+        null|string $guard = null,
+        null|string $guard = null,
+        null|string $guard = null,
     ): bool;
+    public function hasRole($roles, ?string $guard = null): bool;
+    public function hasRole(
+        string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
+        ?string $guard = null,
+    ): bool;
+    public function hasRole(
+        string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
+        ?string $guard = null,
+    ): bool;
+    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
+    public function hasRole(
+        string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
+        null|string $guard = null,
+    ): bool;
+    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
+    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
+    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
+    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
+    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
 
     /**
      * Determine if the model has any of the given role(s).
      *
      * Alias to hasRole() but without Guard controls
      */
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole($roles = []): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole($roles = []): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
 
@@ -66,6 +193,50 @@ interface ProfileContract extends HasMedia
      * @throws PermissionDoesNotExist
      */
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+
+    /**
+     * Create a new Eloquent query builder for the model.
+     *
+     * @param Builder $query
+     *
+     * @return \Illuminate\Database\Eloquent\Builder|static
+     */
+    public function newEloquentBuilder($query);
+     * @param Builder $query
+     *
+     * @return \Illuminate\Database\Eloquent\Builder|static
+     */
+    public function newEloquentBuilder($query);
 
     /**
      * Undocumented function.
@@ -73,6 +244,15 @@ interface ProfileContract extends HasMedia
     public function toggleSuperAdmin(): void;
 
     /**
+     * ---return BelongsTo<UserContract, self>.
+     * ---return BelongsTo<UserContract, self>.
+     * Get the user that owns the profile.
+     * ---return BelongsTo<UserContract, self>.
+     * ---return BelongsTo<UserContract, self>.
+     * ---return BelongsTo<UserContract, self>.
+     * ---return BelongsTo<UserContract, self>.
+     * Get the user that owns the profile.
+     * ---return BelongsTo<UserContract, self>.
      * ---return BelongsTo<UserContract, self>.
      */
     public function user(): BelongsTo;

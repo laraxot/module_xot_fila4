@@ -193,6 +193,100 @@ test('complete tax filing process', function () {
 
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -375,6 +469,100 @@ test('legacy feature with mocks', function () {
 
 **For  Healthcare Domain**: 
 **For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -390,4 +578,3 @@ test('legacy feature with mocks', function () {
 **Decision Authority**: Technical Architecture Committee  
 **Implementation Timeline**: 4-week migration  
 
-=======

@@ -17,6 +17,7 @@ use Webmozart\Assert\Assert;
  * @property int|null $created_by ID dell'utente che ha creato il record
  * @property int|null $updated_by ID dell'utente che ha aggiornato il record
  * @property int|null $deleted_by ID dell'utente che ha eliminato il record
+ *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @property-read ProfileContract|null $deleter
@@ -25,23 +26,51 @@ trait Updater
 {
     /**
      * Get the user who created the model.
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
      */
     public function creator(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
     }
 
     /**
      * Get the last user who updated the model.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
      */
     public function updater(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
     }
 
@@ -86,6 +115,10 @@ trait Updater
          */
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
 
             if (\in_array('deleted_by', array_keys($attributes), false)) {
                 $model->setAttribute('deleted_by', authId());

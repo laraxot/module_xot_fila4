@@ -29,6 +29,10 @@ class GetProductsArrayDummyAction
         return Arr::map($products['products'], function ($item) {
             // Verifichiamo che $item sia un array prima di usare Arr::only
             if (! is_array($item)) {
+        // filtering some attributes
+        $products = Arr::map($products['products'], function ($item) {
+            // Verifichiamo che $item sia un array prima di usare Arr::only
+            if (!is_array($item)) {
                 return []; // Restituiamo un array vuoto se $item non è un array
             }
 
@@ -43,5 +47,13 @@ class GetProductsArrayDummyAction
                 'thumbnail',
             ]);
         });
+
+        return $products;
+
+        return $products;
+
+        return $products;
+
+        return $products;
     }
 }

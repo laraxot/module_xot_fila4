@@ -17,6 +17,10 @@ class LogFactory extends Factory
      * The name of the factory's corresponding model.
      *
      * @var class-string<Log>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
      */
     protected $model = Log::class;
 

@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+use Filament\Forms\Form;
+use Filament\Forms\Form;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -17,6 +22,106 @@ use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Contracts\View\View;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
@@ -29,6 +134,10 @@ use Webmozart\Assert\Assert;
  * @property string $title Titolo del widget
  * @property string $icon Icona del widget
  * @property array<string, mixed>|null $data Dati del form
+ * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
+ * @property string                    $title        Titolo del widget
+ * @property string                    $icon         Icona del widget
+ * @property array<string, mixed>|null $data         Dati del form
  * @property Schema $form
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
@@ -43,6 +152,97 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public string $title = '';
 
     public string $icon = '';
+ * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
+ * @property string                    $title        Titolo del widget
+ * @property string                    $icon         Icona del widget
+ * @property array<string, mixed>|null $data         Dati del form
+ * @property Schema $form
+ */
+abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
+{
+    use InteractsWithActions;
+
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+    // use InteractsWithPageTable;
+    use InteractsWithForms;
+    use TransTrait;
+
+    public string $title = '';
+
+    public string $icon = '';
+
+
+
+
+
+
+
+
+    protected int|string|array $columnSpan = 'full';
+ * @property Schema $form
+ */
+abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
+{
+    use InteractsWithActions;
+
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+    // use InteractsWithPageTable;
+    use InteractsWithForms;
+    use TransTrait;
+
+    public string $title = '';
+
+    public string $icon = '';
+
+    protected int|string|array $columnSpan = 'full';
+ * @property Schema $form
+ */
+abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
+{
+    use InteractsWithActions;
+
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+    // use InteractsWithPageTable;
+    use InteractsWithForms;
+    use TransTrait;
+
+    public string $title = '';
+
+    public string $icon = '';
+
+    protected int|string|array $columnSpan = 'full';
+ * @property Schema $form
+ */
+abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
+{
+    use InteractsWithActions;
+
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+    // use InteractsWithPageTable;
+    use InteractsWithForms;
+    use TransTrait;
+
+    public string $title = '';
+
+    public string $icon = '';
+
+    protected int|string|array $columnSpan = 'full';
+ * @property Schema $form
+ */
+abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
+{
+    use InteractsWithActions;
+
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+    // use InteractsWithPageTable;
+    use InteractsWithForms;
+    use TransTrait;
+
+    public string $title = '';
+
+    public string $icon = '';
+
+    protected int|string|array $columnSpan = 'full';
 
     /**
      * Lista degli eventi ascoltati dal widget.
@@ -67,6 +267,24 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     protected string $view = 'xot::filament.widgets.base';
 
     protected int|string|array $columnSpan = 'full';
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public ?array $data = [];
 
     /*
      * public function __construct()
@@ -96,6 +314,58 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      * Configura il form del widget.
      *
      * @param  Schema  $schema  Il form da configurare
+     * @param Schema $schema Il form da configurare
+     *
+     * @return Form Il form configurato
+     */
+    public function form(Form $form): Form
+     * @param Schema $schema Il form da configurare
+     *
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param Schema $schema Il form da configurare
+     *
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param Schema $schema Il form da configurare
+     *
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param Schema $schema Il form da configurare
+     *
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param Schema $schema Il form da configurare
+     *
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+     * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
@@ -118,6 +388,67 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             }
         }
         if (! empty($data)) {
+        if (!empty($data)) {
+     * @param FilamentForm $form Il form da configurare
+     *
+     * @return FilamentForm Il form configurato
+     */
+    public function form(FilamentForm $form): FilamentForm
+    {
+        $form = $form->schema($this->getFormSchema());
+        $form->statePath('data');
+        $data = $this->getFormFill();
+
+        $form->model($this->getFormModel());
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        $schema->model($this->getFormModel());
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
+        if (! empty($data)) {
+        if (!empty($data)) {
+        if (! empty($data)) {
             // $form->fill($data);
             // $this->data=$data;
         }
@@ -128,6 +459,77 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
         if ($model === null) {
             return [];
         }
@@ -147,6 +549,66 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
                         if ($value === null) {
+                        if (null === $value) {
+                        if (null === $value) {
+                        if (null === $value) {
+                        if (null === $value) {
+                        if (null === $value) {
+                    $defaults = $model->getDataDefaults();
+                    $merge1 = array_merge($defaults, $res);
+                    $merge1 = Arr::map($merge1, function ($value, $key) use ($defaults) {
+                        if (null == $value) {
+                    /** @var array<string, mixed> $defaults */
+                    $defaults = $model->getDataDefaults();
+                    $merge1 = array_merge($defaults, $res);
+                    $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
+                        if ($value === null) {
+                        if (null === $value) {
+                        if ($value === null) {
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -162,6 +624,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
                 return $model->getAttributes();
+                $attributes = $model->getAttributes();
+
+                // Gestisci specificamente gli enum se presenti
+                // if (isset($attributes['type']) && $model->type instanceof \BackedEnum) {
+                //    $attributes['type'] = $model->type->value;
+                // }
+
+                return $attributes;
             }
         }
 
@@ -179,6 +649,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             $fields = array_merge($fields, $defaults);
         }
 
+        return $fieldsWithNull;
+        /** @var array<string, mixed> */
+        return $fieldsWithNull;
+        return $fields;
+        return $fields;
+        return $fields;
+        return $fields;
         return $fields;
     }
 
@@ -193,7 +670,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     /**
      * Eseguito quando i filtri vengono aggiornati.
-     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario.
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
      */
     // public function filtersUpdated(): void
     // {
@@ -225,6 +702,12 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     }
 
     /**
+        return $fields;
+        /** @var array<string, mixed> */
+        return $fieldsWithNull;
+    }
+
+    /**
      * Ottiene le azioni del form.
      *
      * @return array<int|string, Action>
@@ -247,6 +730,33 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return null;
     }
 
+    /**
+     * Salva i dati del form.
+     * Override nelle classi figlie se necessario.
+     */
+    public function save(): void
+    {
+        // Implementare nelle classi figlie
+    }
+
+    /**
+     * Eseguito quando i filtri vengono aggiornati.
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
+     */
+    // public function filtersUpdated(): void
+    // {
+    //     $this->reset('data');
+    // }
+
+    public static function getNavigationLabel(): string
+    {
+        /*
+         * return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
+         * ->headline());
+         */
+        return static::transFunc(__FUNCTION__);
+    }
+
     protected function getStepByName(string $name): Step
     {
         $schema = Str::of($name)
@@ -260,5 +770,134 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $schemaComponents = $this->$schema();
 
         return Step::make($name)->schema($schemaComponents);
+    }
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        return Step::make($name)->schema($schemaComponents);
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema($this->$schema());
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        return Step::make($name)->schema($schemaComponents);
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema($this->$schema());
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        return Step::make($name)->schema($schemaComponents);
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema($this->$schema());
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        return Step::make($name)->schema($schemaComponents);
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema($this->$schema());
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+        return Step::make($name)->schema($schemaComponents);
+    }
+
+    public function getWizardSubmitAction(): Action
+    {
+        /** @var view-string $submit_view */
+        $submit_view = 'pub_theme::filament.wizard.submit-button';
+
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+        return Action::make('submit')
+            ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
+            ->submit('save')
+            ->view((string) $submit_view);
     }
 }

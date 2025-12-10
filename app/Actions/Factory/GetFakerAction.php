@@ -25,6 +25,21 @@ class GetFakerAction
     public function execute(string $name, ?string $type = null, ?string $_table = null): string
     {
         if ($type !== null && Str::startsWith($type, 'factory(')) {
+    public function execute(string $name, null|string $type = null, null|string $_table = null): string
+    {
+        if (null !== $type && Str::startsWith($type, 'factory(')) {
+    public function execute(string $name, null|string $type = null, null|string $_table = null): string
+    {
+        if (null !== $type && Str::startsWith($type, 'factory(')) {
+    public function execute(string $name, null|string $type = null, null|string $_table = null): string
+    {
+        if (null !== $type && Str::startsWith($type, 'factory(')) {
+    public function execute(string $name, null|string $type = null, null|string $_table = null): string
+    {
+        if (null !== $type && Str::startsWith($type, 'factory(')) {
+    public function execute(string $name, null|string $type = null, null|string $_table = null): string
+    {
+        if (null !== $type && Str::startsWith($type, 'factory(')) {
             return $type;
         }
 

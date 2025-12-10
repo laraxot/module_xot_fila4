@@ -18,5 +18,26 @@ class ExportButton
             ->icon('heroicon-o-inbox-arrow-down')
             // ->visible(null != $year)
             ->action(static fn () => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            
+            ->tooltip('export XLS')
+            ->icon('heroicon-o-inbox-arrow-down')
+            // ->visible(null != $year)
+            ->action(static fn () => dddx('WIP'));
+            ->tooltip('export XLS')
+            ->icon('heroicon-o-inbox-arrow-down')
+            // ->visible(null != $year)
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
+            ->action(static fn() => dddx('WIP'));
     }
 }

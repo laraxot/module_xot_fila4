@@ -35,11 +35,13 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         $panel->id('admin')->path('admin');
 
         if (! Module::has('Cms')) {
-            // $panel->login(Login::class);
-            $panel->login();
+             $panel->login();
         }
 
-        $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);
+        $panel = $panel->passwordReset()
+            ->sidebarFullyCollapsibleOnDesktop()
+            ->spa()
+            ->profile(null, true);
 
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
 
@@ -73,8 +75,8 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
                 for: 'App\\Filament\\Widgets',
             );
         }
-        $panel = $panel
-            ->widgets([
+
+        $panel = $panel->widgets([
                 // Widgets\AccountWidget::class,
             ])
             ->middleware([
@@ -91,6 +93,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             ->authMiddleware([
                 Authenticate::class,
             ]);
+
         $navs = app(GetModulesNavigationItems::class)->execute();
         $panel->navigationItems($navs);
 

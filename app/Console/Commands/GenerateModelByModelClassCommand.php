@@ -31,6 +31,27 @@ class GenerateModelByModelClassCommand extends Command
     /**
      * Create a new command instance.
      */
+     *
+     * @return void
+     */
+    
+    
+    public function __construct()
+    {
+        parent::__construct();
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     /**
      * Execute the console command.
@@ -40,6 +61,11 @@ class GenerateModelByModelClassCommand extends Command
         Assert::classExists(
             $model_class = $this->argument('model_class'),
             '['.__LINE__.']['.class_basename($this).']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
 
         app(GenerateModelByModelClass::class)

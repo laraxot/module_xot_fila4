@@ -12,11 +12,29 @@ namespace Modules\Xot\Relations;
 
 use Closure;
 use Exception;
+use Exception;
+use Closure;
+use Exception;
+use Closure;
+use Exception;
+use Closure;
+use Exception;
+use Closure;
+use Exception;
+use Closure;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Webmozart\Assert\Assert;
+
+use function call_user_func;
+
+use function call_user_func;
+
+use function call_user_func;
+
+use function call_user_func;
 
 /**
  * Class CustomRelation.
@@ -42,11 +60,40 @@ class CustomRelation extends Relation
         /**
          * The eagerConstraints callback.
          */
+        protected null|Closure $eagerConstraints,
+        /**
+         * The eager constraints model matcher.
+         */
+        protected null|Closure $eagerMatcher,
         protected ?Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
          */
         protected ?Closure $eagerMatcher,
+        protected null|Closure $eagerConstraints,
+        /**
+         * The eager constraints model matcher.
+         */
+        protected null|Closure $eagerMatcher,
+        protected ?Closure $eagerConstraints,
+        /**
+         * The eager constraints model matcher.
+         */
+        protected ?Closure $eagerMatcher,
+        protected null|Closure $eagerConstraints,
+        /**
+         * The eager constraints model matcher.
+         */
+        protected null|Closure $eagerMatcher,
+        protected \Closure $baseConstraints,
+        /**
+         * The eagerConstraints callback.
+         */
+        protected ?\Closure $eagerConstraints,
+        /**
+         * The eager constraints model matcher.
+         */
+        protected ?\Closure $eagerMatcher,
     ) {
         parent::__construct($query, $model);
     }
@@ -66,6 +113,52 @@ class CustomRelation extends Relation
     {
         // Parameter #1 $function of function call_user_func expects callable(): mixed, Closure|null given.
         if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (!\is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
+        if (! \is_callable($this->eagerConstraints)) {
             throw new Exception('eagerConstraints is not callable');
         }
 
@@ -74,6 +167,14 @@ class CustomRelation extends Relation
 
     /**
      * Initialize the relation on a set of models.
+     *
+     * @param  string  $relation
+     *
+     * @param  string  $relation
+     *
+     * @param  string  $relation
+     *
+     * @param  string  $relation
      */
     public function initRelation(array $models, $relation): array
     {
@@ -87,11 +188,61 @@ class CustomRelation extends Relation
     /**
      * Match the eagerly loaded results to their parents.
      *
+     * @param  string  $relation
+     * @param  string  $relation
+     * @param  string  $relation
+     * @param  string  $relation
      * @return array<int, Model>
      */
     public function match(array $models, Collection $collection, $relation): array
     {
         // Trying to invoke Closure|null but it might not be a callable.
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (!\is_callable($this->eagerMatcher)) {
+        if (! \is_callable($this->eagerMatcher)) {
         if (! \is_callable($this->eagerMatcher)) {
             throw new Exception('eagerMatcher is not callable');
         }
@@ -108,6 +259,10 @@ class CustomRelation extends Relation
      * @return Collection<int, Model>
      */
     public function getResults(): Collection
+    public function getResults()
+    public function getResults()
+    public function getResults()
+    public function getResults()
     {
         return $this->get();
     }
@@ -116,6 +271,10 @@ class CustomRelation extends Relation
      * Execute the query as a "select" statement.
      *
      * @param  mixed  $columns
+     * @param  array<int, string>  $columns
+     * @param  array<int, string>  $columns
+     * @param  array<int, string>  $columns
+     * @param  array<int, string>  $columns
      */
     public function get($columns = ['*']): Collection
     {
@@ -124,6 +283,70 @@ class CustomRelation extends Relation
         // models with the result of those columns as a separate model relation.
         $columns = $this->query->getQuery()->columns ? [] : $columns;
         if ($columns === ['*']) {
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable() . '.*'];
+            $columns = [$this->related->getTable().'.*'];
             $columns = [$this->related->getTable().'.*'];
         }
 

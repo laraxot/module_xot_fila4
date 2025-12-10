@@ -9,6 +9,11 @@ use Illuminate\Support\Collection;
 use Mockery;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
+use Mockery;
+use Override;
+use Filament\Tables\Table;
+use Illuminate\Support\Collection;
+use Modules\Xot\Filament\Traits\HasXotTable;
 
 /**
  * Dummy class that uses HasTable and HasXotTable traits for testing.
@@ -38,6 +43,10 @@ class HasTableWithXotTestClass
     }
 
     public function getTablePage(): ?int
+    public function getTablePage(): null|int
+    public function getTablePage(): null|int
+    public function getTablePage(): null|int
+    public function getTablePage(): null|int
     {
         return 1;
     }
@@ -48,11 +57,19 @@ class HasTableWithXotTestClass
     }
 
     public function getTableSortColumn(): ?string
+    public function getTableSortColumn(): null|string
+    public function getTableSortColumn(): null|string
+    public function getTableSortColumn(): null|string
+    public function getTableSortColumn(): null|string
     {
         return null;
     }
 
     public function getTableSortDirection(): ?string
+    public function getTableSortDirection(): null|string
+    public function getTableSortDirection(): null|string
+    public function getTableSortDirection(): null|string
+    public function getTableSortDirection(): null|string
     {
         return null;
     }
@@ -68,16 +85,28 @@ class HasTableWithXotTestClass
     }
 
     public function getTableFilterState(string $_name): ?array
+    public function getTableFilterState(string $_name): null|array
+    public function getTableFilterState(string $_name): null|array
+    public function getTableFilterState(string $_name): null|array
+    public function getTableFilterState(string $_name): null|array
     {
         return [];
     }
 
     public function getTableGrouping(): ?string
+    public function getTableGrouping(): null|string
+    public function getTableGrouping(): null|string
+    public function getTableGrouping(): null|string
+    public function getTableGrouping(): null|string
     {
         return null;
     }
 
     public function getTableSearchIndicator(): ?string
+    public function getTableSearchIndicator(): null|string
+    public function getTableSearchIndicator(): null|string
+    public function getTableSearchIndicator(): null|string
+    public function getTableSearchIndicator(): null|string
     {
         return null;
     }
@@ -110,6 +139,10 @@ class HasTableWithXotTestClass
     public function getSelectedTableRecords(bool $_shouldFetchSelectedRecords = true): Collection
     {
         return new Collection;
+        return new Collection();
+        return new Collection();
+        return new Collection();
+        return new Collection();
     }
 
     public function getAllTableRecordsCount(): int
@@ -153,6 +186,10 @@ class HasTableWithXotTestClass
     }
 
     public function getMountedTableAction(): ?string
+    public function getMountedTableAction(): null|string
+    public function getMountedTableAction(): null|string
+    public function getMountedTableAction(): null|string
+    public function getMountedTableAction(): null|string
     {
         return null;
     }
@@ -173,6 +210,10 @@ class HasTableWithXotTestClass
     }
 
     public function getMountedTableBulkAction(): ?string
+    public function getMountedTableBulkAction(): null|string
+    public function getMountedTableBulkAction(): null|string
+    public function getMountedTableBulkAction(): null|string
+    public function getMountedTableBulkAction(): null|string
     {
         return null;
     }
@@ -183,6 +224,10 @@ class HasTableWithXotTestClass
     }
 
     public function getActiveTableLocale(): ?string
+    public function getActiveTableLocale(): null|string
+    public function getActiveTableLocale(): null|string
+    public function getActiveTableLocale(): null|string
+    public function getActiveTableLocale(): null|string
     {
         return null;
     }
@@ -222,6 +267,17 @@ class HasTableWithXotTestClass
     public function mountTableAction(): void {}
 
     public function mountTableBulkAction(): void {}
+    public function deselectAllTableRecords(): void
+    {
+    }
+
+    public function mountTableAction(): void
+    {
+    }
+
+    public function mountTableBulkAction(): void
+    {
+    }
 
     public function mountedTableActionRecord(): mixed
     {
@@ -237,6 +293,25 @@ class HasTableWithXotTestClass
     public function resetTableColumnSearch(): void {}
 
     public function toggleTableReordering(): void {}
+    public function replaceMountedTableAction(): void
+    {
+    }
+
+    public function replaceMountedTableBulkAction(): void
+    {
+    }
+
+    public function resetTableSearch(): void
+    {
+    }
+
+    public function resetTableColumnSearch(): void
+    {
+    }
+
+    public function toggleTableReordering(): void
+    {
+    }
 
     public function parseTableFilterName(): string
     {

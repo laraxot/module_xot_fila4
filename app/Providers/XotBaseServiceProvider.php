@@ -6,6 +6,16 @@ namespace Modules\Xot\Providers;
 
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
+use Exception;
+use Throwable;
+use Modules\Xot\Actions\File\GetComponentsAction;
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use Exception;
+use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use Exception;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
@@ -17,6 +27,18 @@ use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
 use Throwable;
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
 use Webmozart\Assert\Assert;
 
 /**
@@ -45,6 +67,40 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->registerConfig();
         $this->registerViews();
         $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
         $this->registerLivewireComponents();
         $this->registerBladeComponents();
         $this->registerCommands();
@@ -59,6 +115,64 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->module_ns = collect(explode('\\', $this->module_ns))->slice(0, -1)->implode('\\');
         $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
         $this->registerBladeIcons();
     }
 
@@ -68,9 +182,25 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             throw new Exception('name is empty on ['.static::class.']');
         }
 
-        $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory): void {
+        $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory) {
             $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
             $svgPath = $assetsPath.'/../svg';
+            throw new Exception('name is empty on [' . static::class . ']');
+        }
+
+        $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory) {
+            $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
+            $svgPath = $assetsPath . '/../svg';
+            $svgPath = $assetsPath . '/../svg';
+            $svgPath = $assetsPath . '/../svg';
+            $svgPath = $assetsPath.'/../svg';
+            $svgPath = $assetsPath . '/../svg';
+            $svgPath = $assetsPath.'/../svg';
+            $svgPath = $assetsPath . '/../svg';
+            $svgPath = $assetsPath.'/../svg';
+            $svgPath = $assetsPath . '/../svg';
+            $svgPath = $assetsPath.'/../svg';
+            $svgPath = $assetsPath . '/../svg';
             try {
                 $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
             } catch (Throwable $e) {
@@ -111,6 +241,50 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         if ($this->name === '') {
             throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new \Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new \Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new \Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
         }
 
         $viewPath = module_path($this->name, 'resources/views');
@@ -122,6 +296,30 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     }
 
     /**
+     * Restituisce il path della cartella lang del modulo, con fallback robusto.
+     */
+    protected function getLangPath(): string
+    {
+        try {
+            return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'lang');
+        } catch (Throwable $e) {
+            return base_path('Modules/' . $this->name . '/lang');
+        } catch (\Throwable $e) {
+            return base_path('Modules/'.$this->name.'/lang');
+            return base_path('Modules/' . $this->name . '/lang');
+            return base_path('Modules/' . $this->name . '/lang');
+            return base_path('Modules/'.$this->name.'/lang');
+            return base_path('Modules/' . $this->name . '/lang');
+            return base_path('Modules/' . $this->name . '/lang');
+        } catch (Throwable $e) {
+            return base_path('Modules/' . $this->name . '/lang');
+            return base_path('Modules/' . $this->name . '/lang');
+        } catch (\Throwable $e) {
+            return base_path('Modules/'.$this->name.'/lang');
+        }
+    }
+
+    /**
      * Registra le traduzioni del modulo.
      *
      * @throws Exception
@@ -129,6 +327,50 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerTranslations(): void
     {
         if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new \Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new \Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on [' . static::class . ']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
+            throw new \Exception('name is empty on ['.static::class.']');
+            throw new Exception('name is empty on ['.static::class.']');
             throw new Exception('name is empty on ['.static::class.']');
         }
 
@@ -143,7 +385,56 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerFactories(): void
     {
         if (! app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (! app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (! app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (! app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (! app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (! app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
+        if (!app()->environment('production')) {
             // app(Factory::class)->load($this->module_dir.'/../Database/factories');
+        }
+    }
+
+                Assert::string($file);
+                if (! is_string($file)) {
+                    continue;
+                }
+                $content = File::getRequire($file);
+                $info = pathinfo($file);
+                $key = $this->nameLower.'::'.$info['filename'];
+                Config::set($key, $content);
+            }
+        } catch (Exception $e) {
+            // Ignore missing configuration
+            return;
         }
     }
 
@@ -152,6 +443,15 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
         try {
             Blade::anonymousComponentPath($componentViewPath);
+        } catch (Exception $e) {
+        } catch (Exception|CannotRegisterIconSet $e) {
+        } catch (\Exception $e) {
+        } catch (Exception|CannotRegisterIconSet $e) {
+        } catch (Exception $e) {
+        } catch (Exception|CannotRegisterIconSet $e) {
+        } catch (Exception|CannotRegisterIconSet $e) {
+        } catch (\Exception $e) {
+        } catch (Exception|CannotRegisterIconSet $e) {
         } catch (Exception $e) {
             // Ignore missing component view path
             dddx([
@@ -164,6 +464,48 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $componentClassPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-class');
 
         $namespace = $this->module_ns.'\View\Components';
+    /**
+     * Register config.
+     */
+    protected function registerConfig(): void
+    {
+        try {
+            $configPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'config');
+
+            $files = File::glob($configPath . '/*.php');
+
+            foreach ($files as $file) {
+                $content = File::getRequire($file);
+                $info = pathinfo($file);
+                $key = $this->nameLower . '::' . $info['filename'];
+                Config::set($key, $content);
+            }
+        } catch (Exception $e) {
+            // Ignore missing configuration
+            return;
+        }
+    }
+
+    public function registerBladeComponents(): void
+    {
+        $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
+        try{
+            Blade::anonymousComponentPath($componentViewPath);
+        } catch (Exception|\BladeUI\Icons\Exceptions\CannotRegisterIconSet $e) {
+            // Ignore missing component view path
+            dddx([
+                'name'=>$this->name, 
+                'componentViewPath'=>$componentViewPath, 
+                'e'=>$e->getMessage()
+            ]);
+        }
+        Blade::anonymousComponentPath($componentViewPath);
+        Blade::anonymousComponentPath($componentViewPath);
+        Blade::anonymousComponentPath($componentViewPath);
+
+        $componentClassPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-class');
+
+        $namespace = $this->module_ns . '\View\Components';
         Blade::componentNamespace($namespace, $this->nameLower);
 
         app(RegisterBladeComponentsAction::class)->execute($componentClassPath, $this->module_ns);
@@ -177,6 +519,39 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $prefix = '';
         app(RegisterLivewireComponentsAction::class)
             ->execute($this->module_dir.'/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute(
+                $this->module_dir.'/../Http/Livewire',
+                Str::before($this->module_ns, '\Providers'),
+                $prefix
+            );
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
     }
 
     public function registerCommands(): void
@@ -187,6 +562,18 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             ->execute(
                 $this->module_dir.'/../Console/Commands',
                 'Modules\\'.$this->name.'\\Console\\Commands',
+        $comps = app(GetComponentsAction::class)
+            ->execute(
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
                 $prefix,
             );
         if ($comps->count() === 0) {
@@ -198,6 +585,10 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             Assert::isArray($item);
             Assert::keyExists($item, 'ns');
             Assert::string($item['ns'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 
             return $item['ns'];
         }, $commands);

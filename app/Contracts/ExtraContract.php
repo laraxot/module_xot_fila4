@@ -12,6 +12,10 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
+use Spatie\SchemalessAttributes\SchemalessAttributes;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
 
 /**
  * Modules\Xot\Contracts\ExtraContract.
@@ -24,6 +28,10 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  * @method static Builder|ExtraContract withExtraAttributes()
  *
  * @property int $id
+ * @property int         $id
+ * @property int         $id
+ * @property int         $id
+ * @property int         $id
  * @property string $model_type
  * @property string $model_id
  * @property Carbon|null $created_at
@@ -49,3 +57,15 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  * @mixin \Eloquent
  */
 interface ExtraContract {}
+interface ExtraContract
+{
+}
+interface ExtraContract
+{
+}
+interface ExtraContract
+{
+}
+interface ExtraContract
+{
+}

@@ -6,6 +6,12 @@ namespace Modules\Xot\Database\Migrations;
 
 use Closure;
 use Exception;
+use ReflectionClass;
+use Exception;
+use Closure;
+use RuntimeException;
+use Illuminate\Database\Schema\ColumnDefinition;
+use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -27,15 +33,68 @@ use Webmozart\Assert\Assert;
  */
 abstract class XotBaseMigration extends Migration
 {
-    protected Model $model;
+    protected ?Model $model = null; // Make it nullable and initialize to null
 
     protected ?string $model_class = null;
+    protected null|string $model_class = null;
+    protected null|string $model_class = null;
+    protected null|string $model_class = null;
+    protected null|string $model_class = null;
+    protected null|string $model_class = null;
 
     public function __construct()
     {
         $this->model_class ??= $this->getModelClass();
-        Assert::isInstanceOf($model = app($this->model_class), Model::class);
-        $this->model = $model;
+    protected ?string $model_class = null;
+    protected null|string $model_class = null;
+
+    public function __construct()
+    {
+        $this->model_class ??= $this->getModelClass();
+    protected ?string $model_class = null;
+    protected null|string $model_class = null;
+    protected null|string $model_class = null;
+
+    public function __construct()
+    {
+        $this->model_class ??= $this->getModelClass();
+    protected ?string $model_class = null;
+    protected null|string $model_class = null;
+
+    public function __construct()
+    {
+        $this->model_class ??= $this->getModelClass();
+    protected ?string $model_class = null;
+    protected ?string $table_name = null; // Add this property
+
+    public function __construct()
+    {
+        // Only try to resolve model_class if not explicitly set by child migration
+        $this->model_class ??= $this->getModelClass();
+
+        // Instantiate model only if model_class is valid and extends Model
+        if ($this->model_class && class_exists($this->model_class) && is_a($this->model_class, Model::class, true)) {
+            $this->model = app($this->model_class);
+            // Assert::isInstanceOf($this->model, Model::class); // No need for assert here as condition checks it
+        }
+
+        // Set table_name if explicitly defined in child migration, or derive from model if available
+        if ($this->table_name === null && $this->model !== null) {
+            $this->table_name = $this->model->getTable();
+        } elseif ($this->table_name === null) {
+            // Attempt to derive table name from migration class name as a last resort
+            $name = class_basename($this);
+            if (Str::startsWith($name, 'Create') && Str::endsWith($name, 'Table')) {
+                $this->table_name = Str::snake(Str::between($name, 'Create', 'Table'));
+            } elseif (Str::startsWith($name, 'Add') && Str::endsWith($name, 'Table')) {
+                 $this->table_name = Str::snake(Str::between($name, 'To', 'Table'));
+            } else {
+                // For migrations not following CreateXTable or AddXToYTable convention,
+                // table_name must be explicitly set in the child migration.
+                // Or, use reflection to get table name if possible.
+                // For now, leave as null if cannot be derived.
+            }
+        }
     }
 
     /**
@@ -44,6 +103,10 @@ abstract class XotBaseMigration extends Migration
     public function getModelClass(): string
     {
         if ($this->model_class !== null) {
+        if (null !== $this->model_class) {
+        if (null !== $this->model_class) {
+        if (null !== $this->model_class) {
+        if (null !== $this->model_class) {
             return $this->model_class;
         }
 
@@ -67,6 +130,145 @@ abstract class XotBaseMigration extends Migration
         $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
 
         $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename
+            ? Str::of($filename)
+                ->after($mod_path)
+                ->explode(\DIRECTORY_SEPARATOR)[1]
+            : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
+        $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+        $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
+        $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
             ->replace('/', \DIRECTORY_SEPARATOR)
             ->toString();
 
@@ -75,7 +277,14 @@ abstract class XotBaseMigration extends Migration
 
     public function getTable(): string
     {
-        return $this->model->getTable();
+        if ($this->table_name !== null) {
+            return $this->table_name;
+        }
+        // Fallback to model if available (though it should have been set in construct)
+        if ($this->model !== null) {
+            return $this->model->getTable();
+        }
+        throw new RuntimeException('Table name not defined for migration. Please set $table_name property or ensure $model_class is set correctly.');
     }
 
     public function getConn(): Builder
@@ -108,6 +317,18 @@ abstract class XotBaseMigration extends Migration
      * @return array<\Doctrine\DBAL\Schema\Index>
      *
      * @throws \Doctrine\DBAL\Exception
+     * @throws \Doctrine\DBAL\Exception
+     *
+     * @return array<\Doctrine\DBAL\Schema\Index>
+     * @throws \Doctrine\DBAL\Exception
+     *
+     * @return array<\Doctrine\DBAL\Schema\Index>
+     * @throws \Doctrine\DBAL\Exception
+     *
+     * @return array<\Doctrine\DBAL\Schema\Index>
+     * @throws \Doctrine\DBAL\Exception
+     *
+     * @return array<\Doctrine\DBAL\Schema\Index>
      */
     // public function getTableIndexes(): array
     // {
@@ -118,6 +339,10 @@ abstract class XotBaseMigration extends Migration
      * Add common fields to the table.
      *
      * @param  Blueprint  $table  The table blueprint
+     * @param Blueprint $table The table blueprint
+     * @param Blueprint $table The table blueprint
+     * @param Blueprint $table The table blueprint
+     * @param Blueprint $table The table blueprint
      */
     public function addCommonFields(Blueprint $table): void
     {
@@ -128,6 +353,70 @@ abstract class XotBaseMigration extends Migration
     /**
      * Check if a table exists.
      */
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(null|string $table = null): bool
+    public function tableExists(?string $table = null): bool
     public function tableExists(?string $table = null): bool
     {
         return $this->getConn()->hasTable($table ?? $this->getTable());
@@ -208,6 +497,70 @@ abstract class XotBaseMigration extends Migration
     public function dropPrimaryKey(): void
     {
         $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
         $this->query($sql);
     }
 
@@ -234,10 +587,80 @@ abstract class XotBaseMigration extends Migration
     public function renameColumn(string $from, string $to): void
     {
         $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to): void {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
             $table->renameColumn($from, $to);
         });
     }
 
+    public function tableCreate(Closure $next, null|string $table = null): void
+    {
+        $tableName = $table ?? $this->getTable();
+        if (!$this->tableExists($tableName)) {
+
+                $table->renameColumn($from, $to);
+
+        });
+    }
+
+    public function tableCreate(Closure $next, ?string $table = null): void
+    {
+        $tableName = $table ?? $this->getTable();
+        if (! $this->tableExists($tableName)) {
+    public function tableCreate(Closure $next, null|string $table = null): void
+    {
+        $tableName = $table ?? $this->getTable();
+        if (!$this->tableExists($tableName)) {
+
+                $table->renameColumn($from, $to);
+
+            $table->renameColumn($from, $to);
+        });
+    }
+
+    public function tableCreate(Closure $next, null|string $table = null): void
+    {
+        $tableName = $table ?? $this->getTable();
+        if (! $this->tableExists($tableName)) {
+        if (!$this->tableExists($tableName)) {
+
+                $table->renameColumn($from, $to);
+
+            $table->renameColumn($from, $to);
+        });
+    }
+
+    public function tableCreate(Closure $next, null|string $table = null): void
+    {
+        $tableName = $table ?? $this->getTable();
+        if (! $this->tableExists($tableName)) {
+        if (!$this->tableExists($tableName)) {
+
+                $table->renameColumn($from, $to);
+
+        });
+    }
+
+    public function tableCreate(\Closure $next, ?string $table = null): void
+    {
+        $tableName = $table ?? $this->getTable();
+        if (! $this->tableExists($tableName)) {
+    public function tableCreate(Closure $next, null|string $table = null): void
+    {
+        $tableName = $table ?? $this->getTable();
+        if (!$this->tableExists($tableName)) {
     public function tableCreate(Closure $next, ?string $table = null): void
     {
         $tableName = $table ?? $this->getTable();
@@ -246,6 +669,70 @@ abstract class XotBaseMigration extends Migration
         }
     }
 
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(\Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, null|string $table = null): void
+    public function tableUpdate(Closure $next, ?string $table = null): void
     public function tableUpdate(Closure $next, ?string $table = null): void
     {
         $tableName = $table ?? $this->getTable();
@@ -273,6 +760,84 @@ abstract class XotBaseMigration extends Migration
         $userClass = $xot->getUserClass();
 
         if (! $this->hasColumn('updated_at') && ! $this->hasColumn('created_at')) {
+        if (!$this->hasColumn('updated_at') && !$this->hasColumn('created_at')) {
+            $table->timestamps();
+        }
+
+        if (!$this->hasColumn('updated_by')) {
+            $table->foreignIdFor($userClass, 'updated_by')->nullable();
+        }
+
+        if (!$this->hasColumn('created_by')) {
+            $table->foreignIdFor($userClass, 'created_by')->nullable();
+        }
+
+        if ($hasSoftDeletes && !$this->hasColumn('deleted_at')) {
+            $table->softDeletes();
+            if (!$this->hasColumn('deleted_by')) {
+        if (!$this->hasColumn('updated_at') && !$this->hasColumn('created_at')) {
+            $table->timestamps();
+        }
+
+        if (! $this->hasColumn('updated_by')) {
+            $table->foreignIdFor($userClass, 'updated_by')->nullable();
+        }
+
+        if (! $this->hasColumn('created_by')) {
+            $table->foreignIdFor($userClass, 'created_by')->nullable();
+        }
+
+        if ($hasSoftDeletes && ! $this->hasColumn('deleted_at')) {
+            $table->softDeletes();
+            if (! $this->hasColumn('deleted_by')) {
+        if (! $this->hasColumn('updated_at') && ! $this->hasColumn('created_at')) {
+            $table->timestamps();
+        }
+
+        if (! $this->hasColumn('updated_by')) {
+            $table->foreignIdFor($userClass, 'updated_by')->nullable();
+        }
+
+        if (! $this->hasColumn('created_by')) {
+            $table->foreignIdFor($userClass, 'created_by')->nullable();
+        }
+
+        if ($hasSoftDeletes && ! $this->hasColumn('deleted_at')) {
+            $table->softDeletes();
+            if (! $this->hasColumn('deleted_by')) {
+        if (!$this->hasColumn('updated_at') && !$this->hasColumn('created_at')) {
+            $table->timestamps();
+        }
+
+        if (!$this->hasColumn('updated_by')) {
+            $table->foreignIdFor($userClass, 'updated_by')->nullable();
+        }
+
+        if (!$this->hasColumn('created_by')) {
+            $table->foreignIdFor($userClass, 'created_by')->nullable();
+        }
+
+        if ($hasSoftDeletes && !$this->hasColumn('deleted_at')) {
+            $table->softDeletes();
+            if (!$this->hasColumn('deleted_by')) {
+        if (! $this->hasColumn('updated_at') && ! $this->hasColumn('created_at')) {
+        if (!$this->hasColumn('updated_at') && !$this->hasColumn('created_at')) {
+            $table->timestamps();
+        }
+
+        if (!$this->hasColumn('updated_by')) {
+            $table->foreignIdFor($userClass, 'updated_by')->nullable();
+        }
+
+        if (!$this->hasColumn('created_by')) {
+            $table->foreignIdFor($userClass, 'created_by')->nullable();
+        }
+
+        if ($hasSoftDeletes && !$this->hasColumn('deleted_at')) {
+            $table->softDeletes();
+            if (! $this->hasColumn('deleted_by')) {
+            if (!$this->hasColumn('deleted_by')) {
+        if (! $this->hasColumn('updated_at') && ! $this->hasColumn('created_at')) {
             $table->timestamps();
         }
 
@@ -292,12 +857,117 @@ abstract class XotBaseMigration extends Migration
         }
 
         if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
             $table->foreignIdFor($userClass, 'deleted_by')->nullable();
         }
     }
 
     public function updateUser(Blueprint $table): void
     {
+        $methodName = 'updateUserKey' . Str::studly($this->model->getKeyType());
+        $this->{$methodName}($table);
+
+        if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
+            $table->string('model_id', 36)->index()->change();
+        }
+
+        if ($this->hasColumn('team_id') && 'bigint' === $this->getColumnType('team_id')) {
+            $table->uuid('team_id')->nullable()->change();
+        $methodName = 'updateUserKey'.Str::studly($this->model->getKeyType());
+        $this->{$methodName}($table);
+
+        if ($this->hasColumn('model_id') && $this->getColumnType('model_id') === 'bigint') {
+            $table->string('model_id', 36)->index()->change();
+        }
+
+        if ($this->hasColumn('team_id') && $this->getColumnType('team_id') === 'bigint') {
+        $methodName = 'updateUserKey' . Str::studly($this->model->getKeyType());
+        $methodName = 'updateUserKey'.Str::studly($this->model->getKeyType());
+        $methodName = 'updateUserKey' . Str::studly($this->model->getKeyType());
+        $this->{$methodName}($table);
+
+        if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
+            $table->string('model_id', 36)->index()->change();
+        }
+
+        if ($this->hasColumn('team_id') && 'bigint' === $this->getColumnType('team_id')) {
+            $table->uuid('team_id')->nullable()->change();
+
+                $table->uuid('team_id')->nullable()->change();
+
+            $table->uuid('team_id')->nullable()->change();
+        $methodName = 'updateUserKey'.Str::studly($this->model->getKeyType());
+        $this->{$methodName}($table);
+
+        if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
+
+                $table->string('model_id', 36)->index()->change();
+
+        }
+
         $methodName = 'updateUserKey'.Str::studly($this->model->getKeyType());
         $this->{$methodName}($table);
 
@@ -307,6 +977,10 @@ abstract class XotBaseMigration extends Migration
 
         if ($this->hasColumn('team_id') && $this->getColumnType('team_id') === 'bigint') {
             $table->uuid('team_id')->nullable()->change();
+        if ($this->hasColumn('team_id') && 'bigint' === $this->getColumnType('team_id')) {
+
+                $table->uuid('team_id')->nullable()->change();
+
         }
     }
 
@@ -321,12 +995,85 @@ abstract class XotBaseMigration extends Migration
         }
 
         if ($this->hasColumn('user_id') && $this->getColumnType('user_id') === 'bigint') {
+        if (!$this->hasColumn('id')) {
+            $table->uuid('id')->primary()->first();
+        }
+
+        if ($this->hasColumn('id') && 'bigint' === $this->getColumnType('id')) {
+            $table->uuid('id')->change();
+        }
+
+        if ($this->hasColumn('user_id') && 'bigint' === $this->getColumnType('user_id')) {
             $table->uuid('user_id')->change();
         }
     }
 
     public function updateUserKeyInt(Blueprint $table): void
     {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (!$this->hasColumn('id')) {
+        if (! $this->hasColumn('id')) {
         if (! $this->hasColumn('id')) {
             $table->id('id')->first();
         }
@@ -343,6 +1090,12 @@ abstract class XotBaseMigration extends Migration
     {
         /** @var string */
         return Config::get('pulse.storage.database.connection');
+    public function getConnection(): null|string
+    {
+        /** @var string */
+        $pulse_connection = Config::get('pulse.storage.database.connection');
+
+        return $pulse_connection;
     }
 
     /**
@@ -354,6 +1107,36 @@ abstract class XotBaseMigration extends Migration
             return true;
         }
 
+        if (! App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (! App::environment('testing')) {
+        if (! App::environment('testing')) {
+        if (! App::environment('testing')) {
+        if (in_array($this->driver(), ['mariadb', 'mysql', 'pgsql', 'sqlite'])) {
+            return true;
+        }
+
+        if (! App::environment('testing')) {
+        if (in_array($this->driver(), ['mariadb', 'mysql', 'pgsql', 'sqlite'], strict: true)) {
+            return true;
+        }
+
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (! App::environment('testing')) {
+        if (! App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (!App::environment('testing')) {
+        if (! App::environment('testing')) {
         if (! App::environment('testing')) {
             throw new RuntimeException("Pulse does not support the [{$this->driver()}] database driver.");
         }
@@ -381,6 +1164,31 @@ abstract class XotBaseMigration extends Migration
     protected function driver(): string
     {
         return DB::connection($this->getConnection())->getDriverName();
+    }
+
+    /**
+     * Add a foreign ID column to the table based on a related model.
+     *
+     * @param Blueprint $table
+     * @param  string  $class
+     * @param  string|null  $column
+     * @return ColumnDefinition
+     */
+    public function foreignIdFor($table, string $class, null|string $column = null)
+    public function foreignIdFor($table, string $class, ?string $column = null)
+    public function foreignIdFor($table, string $class, ?string $column = null)
+    public function foreignIdFor($table, string $class, null|string $column = null)
+    public function foreignIdFor($table, string $class, ?string $column = null)
+    public function foreignIdFor($table, string $class, ?string $column = null)
+    public function foreignIdFor($table, string $class, null|string $column = null)
+    public function foreignIdFor($table, string $class, ?string $column = null)
+    public function foreignIdFor($table, string $class, ?string $column = null)
+    {
+        return $table->foreignIdFor($class, $column);
+    }
+    public function foreignIdFor($table, string $class, null|string $column = null)
+    {
+        return $table->foreignIdFor($class, $column);
     }
 }
 

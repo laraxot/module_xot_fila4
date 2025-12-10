@@ -6,6 +6,9 @@ namespace Modules\Xot\Filament\Resources;
 
 use Exception;
 use ReflectionClass;
+use Exception;
+use Filament\Forms;
+use Filament\Infolists\Infolist;
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -18,6 +21,24 @@ use Filament\Schemas\Schema;
 use Filament\Support\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
+use Filament\Schemas\Components\Component;
+use Filament\Resources\Pages\PageRegistration;
+use Filament\Resources\Pages\Page;
+use Filament\Resources\RelationManagers\RelationGroup;
+use Filament\Resources\RelationManagers\RelationManagerConfiguration;
+use Filament\Pages\Enums\SubNavigationPosition;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Schemas\Schema;
+use Exception;
+use ReflectionClass;
+use Filament\Resources\RelationManagers\RelationManager;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Forms;
+use Filament\Resources\Resource as FilamentResource;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Contracts\View\View;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Contracts\View\View;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
@@ -28,6 +49,16 @@ use function Safe\glob;
 
 use Webmozart\Assert\Assert;
 
+use ReflectionClass;
+use ReflectionClass;
+use ReflectionClass;
+use ReflectionClass;
+use ReflectionClass;
+use ReflectionClass;
+use Webmozart\Assert\Assert;
+
+use function Safe\glob;
+
 /**
  * @method static string getUrl(string $name, array<string, mixed> $parameters = [], bool $isAbsolute = true)
  */
@@ -36,6 +67,40 @@ abstract class XotBaseResource extends FilamentResource
     use NavigationLabelTrait;
 
     protected static ?string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static ?string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static ?string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static ?string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static ?string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static ?string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
+    protected static null|string $model = null;
 
     // protected static ?string $navigationIcon = 'heroicon-o-bell';
     // protected static ?string $navigationLabel = 'Custom Navigation Label';
@@ -62,11 +127,21 @@ abstract class XotBaseResource extends FilamentResource
     public static function getModel(): string
     {
         if (null !== static::$model) {
+        if (static::$model !== null) {
+        if (static::$model !== null) {
+        if (static::$model !== null) {
+        if (static::$model !== null) {
+        if (static::$model !== null) {
             $res = static::$model;
             Assert::subclassOf(
                 $res,
                 Model::class,
                 \sprintf('Class %s must extend Eloquent Model', $res),
+                sprintf('Class %s must extend Eloquent Model', $res),
+                sprintf('Class %s must extend Eloquent Model', $res),
+                sprintf('Class %s must extend Eloquent Model', $res),
+                sprintf('Class %s must extend Eloquent Model', $res),
+                sprintf('Class %s must extend Eloquent Model', $res),
             );
 
             return $res;
@@ -79,6 +154,12 @@ abstract class XotBaseResource extends FilamentResource
             $res,
             Model::class,
             \sprintf('Class %s must extend Eloquent Model', $res),
+        $res = 'Modules\\' . $moduleName . '\Models\\' . $modelName;
+        Assert::classExists($res, sprintf('Model class %s does not exist', $res));
+        Assert::subclassOf(
+            $res,
+            Model::class,
+            sprintf('Class %s must extend Eloquent Model', $res),
         );
         static::$model = $res;
 
@@ -86,6 +167,45 @@ abstract class XotBaseResource extends FilamentResource
     }
 
     /**
+     * @return array<string, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, \Filament\Schemas\Components\Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, \Filament\Schemas\Components\Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, \Filament\Schemas\Components\Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string, Component>
+     * @return array<int, Htmlable|string>
+     * @return array<string, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, \Filament\Schemas\Components\Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string|int, Component>
+     * @return array<string, Component>
+     * @return array<int, Htmlable|string>
      * @return array<string, Component>
      */
     abstract public static function getFormSchema(): array;
@@ -95,8 +215,12 @@ abstract class XotBaseResource extends FilamentResource
         /** @var array<Htmlable|string> $components */
         $components = static::getFormSchema();
 
+        $components = static::getFormSchema();
+
+        $components = static::getFormSchema();
+
         return $schema
-            ->components($components)
+            ->components(static::getFormSchema())
             ->columns(static::getFormSchemaColumns());
     }
 
@@ -121,6 +245,48 @@ abstract class XotBaseResource extends FilamentResource
     final public static function infolist(Schema $schema): Schema
     {
         return $schema->components(static::getInfolistSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema
+            ->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+     * @return array<string|int,\Filament\Forms\Components\Component>
+     */
+    abstract public static function getFormSchema(): array;
+
+    final public static function form(Form $form): Form
+    {
+        return $form
+            ->schema(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema
+            ->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
+        return $schema->components(static::getFormSchema());
     }
 
     /**
@@ -142,11 +308,62 @@ abstract class XotBaseResource extends FilamentResource
     }
 
     public static function getNavigationBadge(): ?string
+    public static function getNavigationBadge(): null|string
+    public static function getNavigationBadge(): null|string
+    public static function getNavigationBadge(): null|string
+    public static function getNavigationBadge(): null|string
+    public static function getNavigationBadge(): null|string
+        return [
+        ];
+    }
+
+    public static function getNavigationBadge(): ?string
+        return [];
+    }
+
+    public static function getNavigationBadge(): null|string
+    public static function getNavigationBadge(): null|string
+    public static function getNavigationBadge(): null|string
+    public static function getNavigationBadge(): null|string
+    public static function getNavigationBadge(): null|string
     {
         try {
             $count = app(CountAction::class)->execute(static::getModel());
 
             return number_format($count, 0).'';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0).'';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0).'';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+            return number_format($count, 0).'';
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+        } catch (Exception $e) {
+        } catch (\Exception $e) {
+        } catch (Exception $e) {
+            return number_format($count, 0) . '';
+        } catch (Exception $e) {
+            return number_format($count, 0) . '';
+        } catch (Exception $e) {
+            return number_format($count, 0) . '';
+            return number_format($count, 0) . '';
+        } catch (Exception $e) {
+            return number_format($count, 0).'';
+        } catch (\Exception $e) {
+            return number_format($count, 0) . '';
+        } catch (Exception $e) {
+        } catch (Exception $e) {
+        } catch (\Exception $e) {
         } catch (Exception $e) {
             return '--';
         }
@@ -157,6 +374,13 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function getPages(): array
     {
+        $prefix = static::class . '\Pages\\';
+        $name = Str::of(class_basename(static::class))->before('Resource')->toString();
+        $plural = Str::of($name)->plural()->toString();
+        $index = Str::of($prefix)->append('List' . $plural)->toString();
+        $create = Str::of($prefix)->append('Create' . $name . '')->toString();
+        $edit = Str::of($prefix)->append('Edit' . $name . '')->toString();
+        $view = Str::of($prefix)->append('View' . $name . '')->toString();
         $prefix = static::class.'\Pages\\';
         $name = Str::of(class_basename(static::class))->before('Resource')->toString();
         $plural = Str::of($name)->plural()->toString();
@@ -164,6 +388,31 @@ abstract class XotBaseResource extends FilamentResource
         $create = Str::of($prefix)->append('Create'.$name.'')->toString();
         $edit = Str::of($prefix)->append('Edit'.$name.'')->toString();
         $view = Str::of($prefix)->append('View'.$name.'')->toString();
+        $prefix = static::class . '\Pages\\';
+        $name = Str::of(class_basename(static::class))->before('Resource')->toString();
+        $plural = Str::of($name)->plural()->toString();
+        $index = Str::of($prefix)->append('List' . $plural)->toString();
+        $create = Str::of($prefix)->append('Create' . $name . '')->toString();
+        $edit = Str::of($prefix)->append('Edit' . $name . '')->toString();
+        $view = Str::of($prefix)->append('View' . $name . '')->toString();
+     * @return array<string, \Filament\Resources\Pages\PageRegistration>
+     */
+    public static function getPages(): array
+    {
+        $prefix = static::class.'\Pages\\';
+        $name = Str::of(class_basename(static::class))->before('Resource')->toString();
+        $plural = Str::of($name)->plural()->toString();
+        $index = Str::of($prefix)->append('List'.$plural)->toString();
+        $create = Str::of($prefix)->append('Create'.$name.'')->toString();
+        $edit = Str::of($prefix)->append('Edit'.$name.'')->toString();
+        $view = Str::of($prefix)->append('View'.$name.'')->toString();
+        $prefix = static::class . '\Pages\\';
+        $name = Str::of(class_basename(static::class))->before('Resource')->toString();
+        $plural = Str::of($name)->plural()->toString();
+        $index = Str::of($prefix)->append('List' . $plural)->toString();
+        $create = Str::of($prefix)->append('Create' . $name . '')->toString();
+        $edit = Str::of($prefix)->append('Edit' . $name . '')->toString();
+        $view = Str::of($prefix)->append('View' . $name . '')->toString();
 
         /** @var class-string<Page> $index */
         $index = $index;
@@ -221,6 +470,45 @@ abstract class XotBaseResource extends FilamentResource
                 ->after('RelationManagers'.\DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
+        Assert::string($filename, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+
+        $path = Str::of($filename)
+            ->before('.php')
+            ->append(DIRECTORY_SEPARATOR)
+            ->append('RelationManagers')
+            ->toString();
+
+        $files = glob($path . DIRECTORY_SEPARATOR . '*RelationManager.php');
+        Assert::isArray($files);
+
+        /** @var array<class-string<RelationManager>> $res */
+        $res = [];
+        foreach ($files as $file) {
+            $className = Str::of($file)
+                ->after('RelationManagers' . DIRECTORY_SEPARATOR)
+                ->before('.php')
+                ->prepend(static::class . '\RelationManagers\\')
+                ->after('RelationManagers' . DIRECTORY_SEPARATOR)
+                ->before('.php')
+                ->prepend(static::class . '\RelationManagers\\')
+                ->after('RelationManagers'.DIRECTORY_SEPARATOR)
+                ->before('.php')
+                ->prepend(static::class.'\RelationManagers\\')
+                ->after('RelationManagers'.DIRECTORY_SEPARATOR)
+                ->before('.php')
+                ->prepend(static::class.'\RelationManagers\\')
+                ->after('RelationManagers'.DIRECTORY_SEPARATOR)
+                ->before('.php')
+                ->prepend(static::class.'\RelationManagers\\')
+                ->after('RelationManagers'.DIRECTORY_SEPARATOR)
+                ->before('.php')
+                ->prepend(static::class.'\RelationManagers\\')
+                ->after('RelationManagers' . DIRECTORY_SEPARATOR)
+                ->before('.php')
+                ->prepend(static::class . '\RelationManagers\\')
+                ->after('RelationManagers' . DIRECTORY_SEPARATOR)
+                ->before('.php')
+                ->prepend(static::class . '\RelationManagers\\')
                 ->toString();
 
             if (class_exists($className)) {
@@ -237,6 +525,33 @@ abstract class XotBaseResource extends FilamentResource
         $submit_view = 'pub_theme::filament.wizard.submit-button';
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
+        //@phpstan-ignore-next-line
+        if (!view()->exists($submit_view)) {
+        //@phpstan-ignore-next-line
+        if (!view()->exists($submit_view)) {
+        if (! view()->exists($submit_view)) {
+        if (!view()->exists($submit_view)) {
+        //@phpstan-ignore-next-line
+        if (!view()->exists($submit_view)) {
+        if (! view()->exists($submit_view)) {
+        if (!view()->exists($submit_view)) {
+        //@phpstan-ignore-next-line
+        if (!view()->exists($submit_view)) {
+        if (! view()->exists($submit_view)) {
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+            throw new \Exception("View {$submit_view} does not exist");
+            throw new Exception("View {$submit_view} does not exist");
+        //@phpstan-ignore-next-line
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        if (!view()->exists($submit_view)) {
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        if (! view()->exists($submit_view)) {
+            throw new \Exception("View {$submit_view} does not exist");
+            throw new Exception("View {$submit_view} does not exist");
+            throw new \Exception("View {$submit_view} does not exist");
             throw new Exception("View {$submit_view} does not exist");
         }
         $render = view($submit_view)->render();
@@ -267,13 +582,44 @@ abstract class XotBaseResource extends FilamentResource
 
         /** @var array<int, Component> $schema */
         $schema = app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
+        if (!method_exists($model, 'getAttachments')) {
+            return [];
+        }
+        $attachments = $model::getAttachments();
+        $disk = 'attachments';
+        $schema = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
 
         return $schema;
+        Assert::isArray($attachments);
+        $disk = 'attachments';
+        $form = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
+
+        return $form;
+        /** @var array<int, \Filament\Schemas\Components\Component> */
+        return array_values($form);
+        return $form;
+
+        return $schema;
+        Assert::isArray($attachments);
+        $disk = 'attachments';
+        $form = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
+
+        return $form;
+        /** @var array<int, \Filament\Schemas\Components\Component> */
+        return array_values($form);
+        return $form;
     }
 
     protected static function getStepByName(string $name): Step
     {
         $methodName = Str::of($name)
+    protected static function getStepByName(string $name): Step
+    {
+        $schema = Str::of($name)
+        $schema = Str::of($name)
+        $schema = Str::of($name)
+        $schema = Str::of($name)
+        $schema = Str::of($name)
             ->snake()
             ->studly()
             ->prepend('get')
@@ -286,6 +632,65 @@ abstract class XotBaseResource extends FilamentResource
             $schemaComponents = \is_array($schemaResult) ? array_values($schemaResult) : [];
 
             return Step::make($name)->schema($schemaComponents);
+        }
+
+        return Step::make($name)->schema([]);
+        return Step::make($name)->schema(static::$schema());
+        return Step::make($name)->schema(static::$schema());
+        return Step::make($name)->schema(static::$schema());
+
+        return Step::make($name)->schema(static::$schema());
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema(static::$schema());
+
+        return Step::make($name)->schema(static::$schema());
+    protected static function getStepByName(string $name): Forms\Components\Wizard\Step
+    {
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Forms\Components\Wizard\Step::make($name)
+            ->schema(static::$schema());
+        return Step::make($name)->schema(static::$schema());
+        return Step::make($name)->schema(static::$schema());
+        return Step::make($name)->schema(static::$schema());
+            return Step::make($name)->schema(static::$methodName());
+        }
+
+        return Step::make($name)->schema([]);
+            /** @var array<int|string, Component> $schema */
+            $schema = static::{$methodName}();
+            Assert::isArray($schema);
+            Assert::allIsInstanceOf($schema, Component::class);
+
+            // @phpstan-ignore-next-line
+            return Step::make($name)->schema($schema);
+        }
+
+            /** @var array<int|string, Component> $schema */
+            $schema = static::{$methodName}();
+            Assert::isArray($schema);
+            Assert::allIsInstanceOf($schema, Component::class);
+
+            // @phpstan-ignore-next-line
+            return Step::make($name)->schema($schema);
+        }
+
+        /** @var array<int, Component> $empty */
+        $empty = [];
+
+        return Step::make($name)->schema($empty);
+            return Step::make($name)->schema(static::$methodName());
+        }
+
+        return Step::make($name)->schema([]);
+        return Step::make($name)->schema(static::$schema());
+            return Step::make($name)->schema(static::$methodName());
+        }
+
+        return Step::make($name)->schema([]);
+            return Step::make($name)->schema(static::$methodName());
         }
 
         return Step::make($name)->schema([]);

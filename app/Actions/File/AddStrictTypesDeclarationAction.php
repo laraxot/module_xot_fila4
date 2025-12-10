@@ -7,6 +7,21 @@ namespace Modules\Xot\Actions\File;
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
 use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use Illuminate\Support\Facades\File;
+use InvalidArgumentException;
+use RuntimeException;
+use Illuminate\Support\Facades\File;
+use InvalidArgumentException;
+use RuntimeException;
+use Illuminate\Support\Facades\File;
+use InvalidArgumentException;
+use RuntimeException;
+use Illuminate\Support\Facades\File;
+use InvalidArgumentException;
+use RuntimeException;
+use Illuminate\Support\Facades\File;
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -22,6 +37,10 @@ class AddStrictTypesDeclarationAction
     public function execute(string $filePath): void
     {
         if (! File::exists($filePath)) {
+        if (!File::exists($filePath)) {
+        if (!File::exists($filePath)) {
+        if (!File::exists($filePath)) {
+        if (!File::exists($filePath)) {
             throw new InvalidArgumentException("Il file {$filePath} non esiste");
         }
 

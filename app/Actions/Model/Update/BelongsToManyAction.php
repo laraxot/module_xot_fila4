@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
+use RuntimeException;
+use RuntimeException;
+use RuntimeException;
+use RuntimeException;
+use RuntimeException;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -35,6 +40,36 @@ class BelongsToManyAction
 
             $rows->sync($to);
             $status = 'collegati ['.implode(', ', $to).'] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati ['.implode(', ', $to).'] ';
+            $status = 'collegati ['.implode(', ', $to).'] ';
+            $status = 'collegati ['.implode(', ', $to).'] ';
+            $to = is_iterable($to) ? iterator_to_array($to) : (array) $to;
+            Assert::allScalar($to, 'The "to" field must contain only scalar values.');
+
+            $rows->sync($to);
+            $status = 'collegati ['.implode(', ', $to).'] ';
+            $to = is_iterable($to) ? iterator_to_array($to) : ((array) $to);
+            Assert::allScalar($to, 'The "to" field must contain only scalar values.');
+
+            $rows->sync($to);
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati ['.implode(', ', $to).'] ';
+            $status = 'collegati ['.implode(', ', $to).'] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+            $status = 'collegati ['.implode(', ', $to).'] ';
+            $status = 'collegati ['.implode(', ', $to).'] ';
             Session::flash('status', $status);
 
             return;
@@ -54,6 +89,78 @@ class BelongsToManyAction
                 $safeData = $data;
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+
+                // Assicura che $data sia type-safe per UpdateAction
+
+                // Assicura che $data sia type-safe per UpdateAction
+
+                // Assicura che $data sia type-safe per UpdateAction
+
+                // Assicura che $data sia type-safe per UpdateAction
+                /** @var array<string, mixed> $typedData */
+                $typedData = [];
+                foreach ($data as $key => $value) {
+                    $typedData[(string) $key] = $value;
+                }
+
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $typedData, []);
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+
+                // Assicura che $data sia type-safe per UpdateAction
+                /** @var array<string, mixed> $typedData */
+                $typedData = $data;
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $typedData, []);
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+
+                // Assicura che $data sia type-safe per UpdateAction
+                /** @var array<string, mixed> $typedData */
+                $typedData = [];
+                foreach ($data as $key => $value) {
+                    $typedData[(string) $key] = $value;
+                }
+
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $typedData, []);
+
+                // Assicura che $data sia type-safe per UpdateAction
+                /** @var array<string, mixed> $typedData */
+                $typedData = $data;
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $typedData, []);
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
@@ -64,6 +171,70 @@ class BelongsToManyAction
         }
 
         // Sincronizza gli ID raccolti
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (! empty($ids)) {
+        if (! empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (!empty($ids)) {
+        if (! empty($ids)) {
         if (! empty($ids)) {
             try {
                 // Assicura che $ids sia un array di valori scalari

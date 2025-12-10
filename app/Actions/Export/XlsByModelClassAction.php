@@ -28,12 +28,91 @@ class XlsByModelClassAction
      * @param  array<int, string>  $includes  Relazioni o campi da includere
      * @param  array<int, string>  $excludes  Campi da escludere
      * @param  callable|null  $callback  Callback per manipolare i dati
+     * @param string $modelClass Classe del modello da esportare
+     * @param array<string, mixed> $where Condizioni where per la query
+     * @param array<int, string> $includes Relazioni o campi da includere
+     * @param array<int, string> $excludes Campi da escludere
+     * @param callable|null $callback Callback per manipolare i dati
+     *
+     * @return BinaryFileResponse
+     *
+     * @return BinaryFileResponse
+     *
+     * @return BinaryFileResponse
+     *
+     * @return BinaryFileResponse
+     *
+     * @return BinaryFileResponse
      */
     public function execute(
         string $modelClass,
         array $where = [],
         array $includes = [],
         array $excludes = [],
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        ?callable $callback = null,
+        ?callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        null|callable $callback = null,
+        ?callable $callback = null,
         ?callable $callback = null,
     ): BinaryFileResponse {
         // Verifichiamo che la classe del modello esista
@@ -58,6 +137,10 @@ class XlsByModelClassAction
 
         // Filtriamo i campi se sono specificati gli includes
         if ($includes !== []) {
+        if ([] !== $includes) {
+        if ([] !== $includes) {
+        if ([] !== $includes) {
+        if ([] !== $includes) {
             $rows = $rows->map(static function ($item) use ($includes) {
                 $data = [];
                 foreach ($includes as $include) {
@@ -70,6 +153,10 @@ class XlsByModelClassAction
 
         // Nascondiamo i campi esclusi
         if ($excludes !== []) {
+        if ([] !== $excludes) {
+        if ([] !== $excludes) {
+        if ([] !== $excludes) {
+        if ([] !== $excludes) {
             $rows = $rows->map(function ($item) use ($excludes) {
                 if (is_object($item) && method_exists($item, 'makeHidden')) {
                     /** @var Model $item */
@@ -82,6 +169,10 @@ class XlsByModelClassAction
 
         // Applichiamo il callback se fornito
         if ($callback !== null) {
+        if (null !== $callback) {
+        if (null !== $callback) {
+        if (null !== $callback) {
+        if (null !== $callback) {
             $rows = $rows->map($callback);
         }
 
@@ -97,6 +188,43 @@ class XlsByModelClassAction
      * Ottiene le relazioni da caricare in base ai campi inclusi.
      *
      * @param  array<int, string>  $includes  Campi da includere
+     * @param  array<int, string>  $includes  Campi da includere
+     * @param  array<int, string>  $includes  Campi da includere
+     * @param  array<int, string>  $includes  Campi da includere
+     *
+     *
+     *
+     * 
+     * @param array<int, string> $includes Campi da includere
+     *
+     * 
+     *
+     * 
+     *
+     * @param array<int, string> $includes Campi da includere
+     *
+     * 
+     *
+     * @param array<int, string> $includes Campi da includere
+     *
+     * 
+     *
+     * 
+     *
+     * @param  array<int, string>  $includes  Campi da includere
+     * @param array<int, string> $includes Campi da includere
+     *
+     *
+     * @param  array<int, string>  $includes  Campi da includere
+     * @param  array<int, string>  $includes  Campi da includere
+     * @param array<int, string> $includes Campi da includere
+     *
+     * 
+     *
+     * 
+     *
+     * @param  array<int, string>  $includes  Campi da includere
+     * @param  array<int, string>  $includes  Campi da includere
      * @return array<int, string>
      */
     private function getWithByIncludes(array $includes): array
@@ -108,12 +236,20 @@ class XlsByModelClassAction
 
             // Verifichiamo se contiene un punto (indicatore di relazione)
             if (! Str::contains($includeStr, '.')) {
+            if (!Str::contains($includeStr, '.')) {
+            if (!Str::contains($includeStr, '.')) {
+            if (!Str::contains($includeStr, '.')) {
+            if (!Str::contains($includeStr, '.')) {
                 continue;
             }
 
             // Estraiamo il nome della relazione (prima parte prima del punto)
             $parts = explode('.', $includeStr);
             if (! empty($parts[0])) {
+            if (!empty($parts[0])) {
+            if (!empty($parts[0])) {
+            if (!empty($parts[0])) {
+            if (!empty($parts[0])) {
                 $with[] = $parts[0];
             }
         }
@@ -125,6 +261,23 @@ class XlsByModelClassAction
      * Genera il nome del file di export.
      *
      * @param  string  $modelClass  Classe del modello
+     * @param  string  $modelClass  Classe del modello
+     * @param  string  $modelClass  Classe del modello
+     * @param string $modelClass Classe del modello
+     *
+     * @return string
+     * @param string $modelClass Classe del modello
+     *
+     * @return string
+     * @param string $modelClass Classe del modello
+     *
+     * @return string
+     * @param string $modelClass Classe del modello
+     *
+     * @return string
+     * @param string $modelClass Classe del modello
+     *
+     * @return string
      */
     private function getExportName(string $modelClass): string
     {

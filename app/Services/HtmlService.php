@@ -40,6 +40,10 @@ class HtmlService
         // $pdforientation = 'L'; // default;
         // $out = 'show';
         if ($filename === '') {
+        if ('' === $filename) {
+        if ('' === $filename) {
+        if ('' === $filename) {
+        if ('' === $filename) {
             $filename = Storage::disk('local')->path('test.pdf');
         }
         /*
@@ -61,6 +65,11 @@ class HtmlService
             }
 
             if ($out === 'file') {
+            if ('content_PDF' === $out) {
+                return $html2pdf->Output($filename . '.pdf', 'S');
+            }
+
+            if ('file' === $out) {
                 $html2pdf->Output($filename, 'F');
 
                 return $filename;

@@ -4,8 +4,58 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\ModelClass;
 
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+use Illuminate\Database\Eloquent\Model;
+use InvalidArgumentException;
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Models\InformationSchemaTable;
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -23,6 +73,10 @@ class CountAction
      * @return int The total count of records
      *
      * @throws InvalidArgumentException If model class is invalid or not found
+     *
+     * @throws InvalidArgumentException If model class is invalid or not found
+     *
+     * @return int The total count of records
      */
     public function execute(string $modelClass): int
     {

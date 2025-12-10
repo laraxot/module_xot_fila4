@@ -6,6 +6,22 @@ namespace Modules\Xot\Exceptions\Formatters;
 
 use Illuminate\Support\Facades\Auth;
 use Throwable;
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+
+use function Safe\json_encode;
+
+use function Safe\json_encode;
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+
+use function Safe\json_encode;
 
 class WebhookErrorFormatter
 {

@@ -10,6 +10,21 @@ use Modules\Xot\Models\PulseAggregate;
 /**
  * @extends Factory<PulseAggregate>
  */
+use Modules\Xot\Models\PulseAggregate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseAggregate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseAggregate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseAggregate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseAggregate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
 class PulseAggregateFactory extends Factory
 {
     /**

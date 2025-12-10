@@ -5,6 +5,21 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Pdf;
 
 use Exception;
+use Exception;
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Webmozart\Assert\Assert;
@@ -36,6 +51,17 @@ class ContentPdfAction
         ?string $html = null,
         ?string $view = null,
         ?array $data = null,
+     * @param string|null $html Contenuto HTML da convertire
+     * @param string|null $view Nome della vista Blade da renderizzare
+     * @param array<string, mixed>|null $data Dati da passare alla vista
+     * @param string $_filename Nome del file PDF (per riferimento, attualmente non utilizzato)
+     * @return string Contenuto binario del PDF
+     * @throws Exception Se la vista non esiste
+     */
+    public function execute(
+        null|string $html = null,
+        null|string $view = null,
+        null|array $data = null,
         string $_filename = 'my_doc.pdf',
     ): string {
         // Generate HTML content if view is provided
@@ -44,6 +70,10 @@ class ContentPdfAction
                 throw new Exception('View '.$view.' not found');
             }
             if (! is_array($data)) {
+            if (!view()->exists($view)) {
+                throw new Exception('View ' . $view . ' not found');
+            }
+            if (!is_array($data)) {
                 $data = [];
             }
             $html = view($view, $data)->render();
@@ -82,6 +112,66 @@ class ContentPdfAction
     /**
      * @param  array<string, mixed>  $data
      */
+     * @param string $view Nome della vista Blade
+     * @param array $data Dati da passare alla vista
+     * @param string $filename Nome del file PDF (per riferimento)
+     * @return string Contenuto binario del PDF
+     */
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    /**
+     * @param  array<string, mixed>  $data
+     */
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+        /** @var array<string, mixed> $data */
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(
+        string $view,
+        array $data = [],
+        string $filename = 'document.pdf'
+    ): string {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    /**
+     * @param  array<string, mixed>  $data
+     */
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+    /**
+     * @param  array<string, mixed>  $data
+     */
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {
         return $this->execute(
@@ -99,6 +189,14 @@ class ContentPdfAction
      *
      * @param  string  $html  Contenuto HTML
      * @param  string  $filename  Nome del file PDF (per riferimento)
+     * @param string $html Contenuto HTML
+     * @param string $filename Nome del file PDF (per riferimento)
+     * @param string $html Contenuto HTML
+     * @param string $filename Nome del file PDF (per riferimento)
+     * @param string $html Contenuto HTML
+     * @param string $filename Nome del file PDF (per riferimento)
+     * @param string $html Contenuto HTML
+     * @param string $filename Nome del file PDF (per riferimento)
      * @return string Contenuto binario del PDF
      */
     public function fromHtml(string $html, string $filename = 'document.pdf'): string

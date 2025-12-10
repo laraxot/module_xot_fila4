@@ -8,6 +8,18 @@ use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Log;
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Webmozart\Assert\Assert;
@@ -38,6 +50,35 @@ class GetPdfContentByRecordAction
      * @throws Exception Se la vista non esiste o si verificano errori di generazione
      */
     public function execute(Model $record, ?string $filename = null): string
+     * @param Model       $record   Record Eloquent da cui generare il PDF
+     * @param string|null $filename Nome file PDF personalizzato (opzionale)
+     *
+     * @throws Exception Se la vista non esiste o si verificano errori di generazione
+     *
+     * @return string Contenuto binario del PDF
+     */
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, ?string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, ?string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, ?string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, ?string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, ?string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, ?string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, ?string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, ?string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
+    public function execute(Model $record, null|string $filename = null): string
     {
         // Generate view name following Laraxot conventions
         $viewName = $this->generateViewName($record);
@@ -48,6 +89,108 @@ class GetPdfContentByRecordAction
         // Validate view existence
         if (! view()->exists($viewName)) {
             throw new Exception("View '{$viewName}' not found for model ".$record::class);
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
         }
 
         // Render view to HTML
@@ -62,6 +205,10 @@ class GetPdfContentByRecordAction
 
         // Generate filename if not provided
         if ($filename === null) {
+        if (null === $filename) {
+        if (null === $filename) {
+        if (null === $filename) {
+        if (null === $filename) {
             $filename = $this->generateFilename($record);
         }
 
@@ -74,6 +221,18 @@ class GetPdfContentByRecordAction
      *
      * @param  Model  $record  Record Eloquent
      * @param  string  $filename  Nome file personalizzato
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
      * @return string Contenuto binario del PDF
      */
     public function fromRecord(Model $record, string $filename): string
@@ -85,6 +244,14 @@ class GetPdfContentByRecordAction
      * Genera il nome della vista seguendo le convenzioni Laraxot.
      *
      * @param  Model  $record  Record Eloquent
+     * @param Model $record Record Eloquent
+     *
+     * @param Model $record Record Eloquent
+     *
+     * @param Model $record Record Eloquent
+     *
+     * @param Model $record Record Eloquent
+     *
      * @return string Nome della vista nel formato {module}::{model-kebab}.show.pdf
      */
     protected function generateViewName(Model $record): string
@@ -94,6 +261,32 @@ class GetPdfContentByRecordAction
         $module = Str::between($modelClass, 'Modules\\', '\\Models');
 
         return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        $modelClass = get_class($record);
+        $modelName = class_basename($modelClass);
+        $module = Str::between($modelClass, 'Modules\\', '\\Models');
+
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
     }
 
     /**
@@ -101,17 +294,48 @@ class GetPdfContentByRecordAction
      *
      * @param  Model  $record  Record Eloquent
      * @param  string  $viewName  Nome della vista
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
      * @return array<string, mixed> Parametri per la vista
      */
     protected function prepareViewParameters(Model $record, string $viewName): array
     {
         $modelClass = $record::class;
+        $modelClass = get_class($record);
+        $modelClass = get_class($record);
+        $modelClass = get_class($record);
+        $modelClass = get_class($record);
         $modelName = class_basename($modelClass);
         $module = Str::between($modelClass, 'Modules\\', '\\Models');
 
         $params = [
             'view' => $viewName,
             'row' => $record,
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
             'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
         ];
 
@@ -134,6 +358,14 @@ class GetPdfContentByRecordAction
      * Genera nome file automatico basato sul record.
      *
      * @param  Model  $record  Record Eloquent
+     * @param Model $record Record Eloquent
+     *
+     * @param Model $record Record Eloquent
+     *
+     * @param Model $record Record Eloquent
+     *
+     * @param Model $record Record Eloquent
+     *
      * @return string Nome file generato
      */
     protected function generateFilename(Model $record): string
@@ -141,6 +373,9 @@ class GetPdfContentByRecordAction
         $modelName = class_basename($record::class);
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName).'_'.(string) ($recordKey ?? 'unknown');
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
 
         // Enhanced filename for records with identification fields
         if (isset($record->matr, $record->cognome, $record->nome)) {
@@ -149,15 +384,126 @@ class GetPdfContentByRecordAction
             $nome = is_string($record->nome) ? $record->nome : 'unknown';
 
             return 'scheda_'.(string) ($recordKey ?? 'unknown').'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+            return 'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+            return 'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
         }
 
         // Enhanced filename for records with name field
         if (isset($record->name) && is_string($record->name)) {
+            return $baseFilename . '_' . Str::slug($record->name) . '.pdf';
+        }
+
+        // Default filename pattern
+        return $baseFilename . '.pdf';
+        $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
+
+        // Enhanced filename for records with identification fields
+        if (isset($record->matr) && isset($record->cognome) && isset($record->nome)) {
+            return 'scheda_'.$record->getKey().'_'.$record->matr.'_'.
+                   $record->cognome.'_'.$record->nome.'.pdf';
+        }
+
+        // Enhanced filename for records with name field
+        if (isset($record->name)) {
             return $baseFilename.'_'.Str::slug($record->name).'.pdf';
         }
 
         // Default filename pattern
         return $baseFilename.'.pdf';
+            return $baseFilename . '_' . Str::slug($record->name) . '.pdf';
+        }
+
+        // Default filename pattern
+        return $baseFilename . '.pdf';
+        $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+
+        // Enhanced filename for records with identification fields
+        if (isset($record->matr, $record->cognome, $record->nome)) {
+            $matr = is_string($record->matr) ? $record->matr : 'unknown';
+            $cognome = is_string($record->cognome) ? $record->cognome : 'unknown';
+            $nome = is_string($record->nome) ? $record->nome : 'unknown';
+
+            return (
+                'scheda_' . ((string) ($recordKey ?? 'unknown')) . '_' . $matr . '_' . $cognome . '_' . $nome . '.pdf'
+            );
+        }
+
+        // Enhanced filename for records with name field
+        if (isset($record->name) && is_string($record->name)) {
+            return $baseFilename . '_' . Str::slug($record->name) . '.pdf';
+        }
+
+        // Default filename pattern
+        return $baseFilename.'.pdf';
+        return $baseFilename . '.pdf';
+        return $baseFilename . '.pdf';
+        $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
+
+        // Enhanced filename for records with identification fields
+        if (isset($record->matr) && isset($record->cognome) && isset($record->nome)) {
+            return 'scheda_'.$record->getKey().'_'.$record->matr.'_'.
+                   $record->cognome.'_'.$record->nome.'.pdf';
+        }
+
+        // Enhanced filename for records with name field
+        if (isset($record->name)) {
+            return $baseFilename.'_'.Str::slug($record->name).'.pdf';
+        }
+
+        // Default filename pattern
+        return $baseFilename.'.pdf';
+        $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+
+        // Enhanced filename for records with identification fields
+        if (isset($record->matr, $record->cognome, $record->nome)) {
+            $matr = is_string($record->matr) ? $record->matr : 'unknown';
+            $cognome = is_string($record->cognome) ? $record->cognome : 'unknown';
+            $nome = is_string($record->nome) ? $record->nome : 'unknown';
+
+            return (
+                'scheda_' . ((string) ($recordKey ?? 'unknown')) . '_' . $matr . '_' . $cognome . '_' . $nome . '.pdf'
+            );
+        }
+
+        // Enhanced filename for records with name field
+        if (isset($record->name) && is_string($record->name)) {
+            return $baseFilename . '_' . Str::slug($record->name) . '.pdf';
+        }
+
+        // Default filename pattern
+        return $baseFilename.'.pdf';
+        return $baseFilename . '.pdf';
+        return $baseFilename . '.pdf';
+        return $baseFilename . '.pdf';
+        return $baseFilename . '.pdf';
     }
 
     /**
@@ -168,6 +514,12 @@ class GetPdfContentByRecordAction
      * @return string Contenuto binario del PDF
      *
      * @throws Exception Se si verificano errori durante la generazione PDF
+     * @param string $html     Contenuto HTML da convertire
+     * @param string $filename Nome file per riferimento
+     *
+     * @throws Exception Se si verificano errori durante la generazione PDF
+     *
+     * @return string Contenuto binario del PDF
      */
     protected function generatePdfContent(string $html, string $filename): string
     {
@@ -197,6 +549,71 @@ class GetPdfContentByRecordAction
                 'trace' => $e->getTraceAsString(),
             ]);
 
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
             throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
         }
     }

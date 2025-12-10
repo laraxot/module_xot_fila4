@@ -6,6 +6,16 @@ namespace Modules\Xot\Actions\File;
 
 use BladeUI\Icons\Factory as IconFactory;
 use Exception;
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 
 /**
@@ -19,6 +29,14 @@ class SvgExistsAction
      * Verifica se l'SVG esiste nei set di icone registrati.
      *
      * @param  string  $svgName  Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
      * @return bool true se l'SVG esiste, false altrimenti
      */
     public function execute(string $svgName): bool

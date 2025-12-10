@@ -4,8 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services\Trend\Adapters;
 
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
 use Error;
 use Override;
+use Override;
+use Error;
+use Override;
+use Error;
+use Override;
+use Error;
+use Override;
+use Error;
+use Override;
+use Error;
 
 class SqliteAdapter extends AbstractAdapter
 {

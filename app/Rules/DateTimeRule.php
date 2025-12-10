@@ -7,6 +7,57 @@ namespace Modules\Xot\Rules;
 use Exception;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Carbon;
+use Webmozart\Assert\Assert;
+use Exception;
+use Illuminate\Contracts\Validation\Rule;
+use Illuminate\Support\Carbon;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Illuminate\Contracts\Validation\Rule;
+use Illuminate\Support\Carbon;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
 
 /**
  * Class DateTimeRule.
@@ -28,6 +79,33 @@ class DateTimeRule implements Rule
         if (! is_string($value)) {
             return false;
         }
+
+     * @param string $_attribute The attribute name being validated
+     * @param mixed $value The value being validated
+     */
+    public function passes($_attribute, $value): bool
+    {
+        // dddx($attribute); //published_at
+        // dddx($value);//10/10/2019 13:43
+        // return 5 === strlen($value);
+
+        if (!is_string($value)) {
+        if (! is_string($value)) {
+        if (! is_string($value)) {
+        if (!is_string($value)) {
+        if (! is_string($value)) {
+        if (! is_string($value)) {
+        if (!is_string($value)) {
+        if (!is_string($value)) {
+        if (! is_string($value)) {
+        if (! is_string($value)) {
+            return false;
+        }
+
+        Assert::string(
+            $value,
+            __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__) . ' - Value must be a string for datetime validation'
+        );
 
         $format = 'd/m/Y H:i';
         try {

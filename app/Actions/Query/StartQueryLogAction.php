@@ -16,6 +16,18 @@ class StartQueryLogAction
     public function execute(): void
     {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
             $sql = $query->sql;
             $time = $query->time;
             $connection = $query->connection->getName();
@@ -24,6 +36,18 @@ class StartQueryLogAction
                 'driver' => 'daily',
                 'path' => storage_path('logs/querylog.log'),
             ]);
+            $log->debug('query : ' . $sql);
+            $log->debug('time ' . $time);
+            $log->debug('connection ' . $connection);
+            $log->debug('bindings ' . print_r($query->bindings, true));
+            $log->debug('query : '.$sql);
+            $log->debug('time '.$time);
+            $log->debug('connection '.$connection);
+            $log->debug('bindings '.print_r($query->bindings, true));
+            $log->debug('query : ' . $sql);
+            $log->debug('time ' . $time);
+            $log->debug('connection ' . $connection);
+            $log->debug('bindings ' . print_r($query->bindings, true));
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);

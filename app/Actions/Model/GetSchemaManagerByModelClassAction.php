@@ -7,6 +7,48 @@ namespace Modules\Xot\Actions\Model;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use RuntimeException;
+use RuntimeException;
+use Doctrine\DBAL\Schema\AbstractSchemaManager;
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+use RuntimeException;
+use Doctrine\DBAL\Schema\AbstractSchemaManager;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use RuntimeException;
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+use RuntimeException;
+use Doctrine\DBAL\Schema\AbstractSchemaManager;
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+use Doctrine\DBAL\Schema\AbstractSchemaManager;
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -17,6 +59,70 @@ class GetSchemaManagerByModelClassAction
     /**
      * Ottiene lo schema manager Doctrine per una classe di modello Eloquent.
      *
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param string $modelClass La classe del modello
+     * @param  string  $modelClass  La classe del modello
      * @param  string  $modelClass  La classe del modello
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
@@ -29,11 +135,79 @@ class GetSchemaManagerByModelClassAction
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            $schemaManager = $connection->getDoctrineSchemaManager();
+
+            $schemaManager = $connection->getDoctrineSchemaManager();
+            $schemaManager = $connection->getDoctrineSchemaManager();
+
+            return $connection->getDoctrineSchemaManager();
+            $schemaManager = $connection->getDoctrineSchemaManager();
             $schemaManager = $connection->getDoctrineSchemaManager();
 
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
 
             return $schemaManager;
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            $schemaManager = $connection->getDoctrineSchemaManager();
+            Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class, 'Schema manager must be instance of AbstractSchemaManager');
+
+            return $schemaManager;
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
+            return $connection->getDoctrineSchemaManager();
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

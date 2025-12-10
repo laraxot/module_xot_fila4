@@ -25,6 +25,83 @@ class HasOneAction
             $related = $relationDTO->related->find($related_id);
             if (! ($related instanceof Model)) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+            if (!($related instanceof Model)) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+
+        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+            if (! $related instanceof Model) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            if (!($related instanceof Model)) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+
+        if (! Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+            if (! $related instanceof Model) {
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+
+            // Verifica che related sia un Model prima di chiamare find()
+            if (! ($relationDTO->related instanceof Model)) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).'] Related must be a Model instance');
+            }
+
+            $related = $relationDTO->related::find($related_id);
+            if (! ($related instanceof Model)) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+            if (!($related instanceof Model)) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+
+        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+            if (! $related instanceof Model) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            if (!($related instanceof Model)) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+
+        if (! Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+            if (! $related instanceof Model) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
             }
 
             $rows->save($related);

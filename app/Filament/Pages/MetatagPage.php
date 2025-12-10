@@ -4,6 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Utilities\Get;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Utilities\Get;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Utilities\Get;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Utilities\Get;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Utilities\Get;
 use Filament\Actions\Action;
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\Repeater;
@@ -19,6 +29,7 @@ use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+use Filament\Schemas\Schema;
 
 /**
  * @property Schema $form
@@ -29,8 +40,41 @@ class MetatagPage extends Page implements HasForms
     use NavigationLabelTrait;
 
     public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'xot::filament.pages.metatag';
 
@@ -56,6 +100,22 @@ class MetatagPage extends Page implements HasForms
                 TextInput::make('author'),
                 TextInput::make('description'),
                 TextInput::make('keywords'),
+                /*
+                 * FileUpload::make('logo_header')
+                 * ->preserveFilenames()
+                 * ->image()
+                 * ->imageEditor()
+                 * ->moveFiles()
+                 * ->disk('public')
+                 * ->visibility('public')
+                 * ->directory('logo')
+                 * ->formatStateUsing(fn ($state): array =>[basename($state)])
+                 * //->formatStateUsing(fn ($state): array =>['/uploads/photos/pexels-giona-mason-19138633.jpg'])
+                 * ->dehydrateStateUsing(fn ($state) => collect($state)->map(function($item){
+                 * return Storage::disk('public')->url($item);
+                 * })->first() )
+                 * ,
+                 */
                 TextInput::make('logo_header'),
                 TextInput::make('logo_header_dark')->helperText('logo for dark css'),
                 TextInput::make('logo_height'),
@@ -68,6 +128,25 @@ class MetatagPage extends Page implements HasForms
                             ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
                             ->reactive(),
                         ColorPicker::make('hex')
+                            ->label('Chiave')
+                            ->required()
+                            ->options($metatag->getFilamentColors()),
+                        Select::make('color')
+                            ->label('Colore')
+                            ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
+                            ->reactive(),
+                        ColorPicker::make('hex')
+                            ->label('Colore personalizzato')
+                            ->visible(fn(Get $get) => $get('color') === 'custom')
+                            ->visible(fn ($get) => $get('color') === 'custom')
+                            ->visible(fn ($get) => $get('color') === 'custom')
+                            ->visible(fn (callable $get) => $get('color') === 'custom')
+                            ->visible(fn ($get) => $get('color') === 'custom')
+                            ->visible(fn(Get $get) => $get('color') === 'custom')
+                            ->visible(fn ($get) => $get('color') === 'custom')
+                            ->visible(fn ($get) => $get('color') === 'custom')
+                            ->visible(fn (callable $get) => $get('color') === 'custom')
+                            ->visible(fn ($get) => $get('color') === 'custom')
                             ->required(),
                     ])
                     ->columns(3),

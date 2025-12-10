@@ -4,11 +4,25 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests;
 
+use Mockery;
+use Modules\SaluteOra\Models\User;
+use Mockery;
+use Modules\SaluteOra\Models\User;
+use Mockery;
+use Modules\SaluteOra\Models\User;
+use Mockery;
+use Modules\SaluteOra\Models\User;
+use Mockery;
+use Modules\SaluteOra\Models\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
 use Mockery;
+use Mockery;
+use Modules\SaluteOra\Models\User;
+use Mockery;
+use Modules\SaluteOra\Models\User;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 
@@ -24,6 +38,28 @@ abstract class TestCase extends BaseTestCase
 
     /**
      * Generate a unique email for testing to prevent database conflicts.
+
+
+
+
+
+
+
+
+
+    //use DatabaseMigrations;
+
+    // =============================================================================
+    // SHARED TEST HELPER FUNCTIONS (DRY Pattern)
+    // =============================================================================
+    // Queste funzioni erano duplicate in molti file di test
+    // Centralizzate qui per manutenibilità e coerenza
+    // =============================================================================
+
+    /**
+     * Generate a unique email for testing to prevent database conflicts.
+     *
+     * @return string
      */
     protected static function generateUniqueEmail(): string
     {
@@ -34,6 +70,14 @@ abstract class TestCase extends BaseTestCase
 
     /**
      * Get the configured User class via XotData (correct architecture pattern).
+     *
+     * @return string
+     *
+     * @return string
+     *
+     * @return string
+     *
+     * @return string
      */
     protected static function getUserClass(): string
     {
@@ -43,6 +87,16 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create a test user via XotData pattern with proper architecture.
      *
+     * @param  array<string, mixed>  $attributes
+     * @param array<string, mixed> $attributes
+     * @return UserContract
+     * @param array<string, mixed> $attributes
+     * @return UserContract
+     * @param array<string, mixed> $attributes
+     * @return UserContract
+     * @param  array<string, mixed>  $attributes
+     * @param array<string, mixed> $attributes
+     * @return UserContract
      * @param  array<string, mixed>  $attributes
      */
     protected static function createTestUser(array $attributes = []): UserContract
@@ -67,9 +121,26 @@ abstract class TestCase extends BaseTestCase
      *
      * Prevents "Class not found" errors and provides consistent behavior
      * across all widget tests.
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
      */
     protected static function mockXotData(): void
     {
+        $mockXotData = Mockery::mock(XotData::class)->makePartial();
+        $mockXotData = \Mockery::mock(XotData::class)->makePartial();
+        $mockXotData = Mockery::mock(XotData::class)->makePartial();
+        $mockXotData = Mockery::mock(XotData::class)->makePartial();
+     *
+     * @return void
+     */
+    protected static function mockXotData(): void
+    {
+        $mockXotData = Mockery::mock(XotData::class)->makePartial();
+        $mockXotData = Mockery::mock(XotData::class)->makePartial();
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
 
         // Mock dei metodi critici con fallback sicuri
@@ -90,6 +161,37 @@ abstract class TestCase extends BaseTestCase
             ->with(Mockery::any())
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
 
+        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
+        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
+
+            ->with(Mockery::any())
+            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
+            ->with(\Mockery::any())
+            /* @phpstan-ignore-next-line method.nonObject */
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
+
+        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
+        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
+
+            ->with(Mockery::any())
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
+
+        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
+
+            ->with(Mockery::any())
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
+            
+        $mockXotData->shouldReceive('make')
+            ->andReturn($mockXotData);
+        
+            ->with(Mockery::any())
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
+
+        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
+
+            ->with(Mockery::any())
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
+
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
         // ✅ CRITICO: Bind nel container per risoluzione automatica
@@ -99,6 +201,20 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create test user with specific type for multi-type testing.
      *
+     * @param  array<string, mixed>  $attributes
+     * @param string $type
+     * @param array<string, mixed> $attributes
+     * @return UserContract
+     * @param string $type
+     * @param array<string, mixed> $attributes
+     * @return UserContract
+     * @param string $type
+     * @param array<string, mixed> $attributes
+     * @return UserContract
+     * @param  array<string, mixed>  $attributes
+     * @param string $type
+     * @param array<string, mixed> $attributes
+     * @return UserContract
      * @param  array<string, mixed>  $attributes
      */
     protected static function createTestUserWithType(string $type, array $attributes = []): UserContract
@@ -111,6 +227,12 @@ abstract class TestCase extends BaseTestCase
     /**
      * Generate test data array with common fields.
      *
+     * @param  array<string, mixed>  $overrides
+     * @param array<string, mixed> $overrides
+     * @param array<string, mixed> $overrides
+     * @param array<string, mixed> $overrides
+     * @param  array<string, mixed>  $overrides
+     * @param array<string, mixed> $overrides
      * @param  array<string, mixed>  $overrides
      * @return array<string, mixed>
      */
@@ -130,6 +252,11 @@ abstract class TestCase extends BaseTestCase
      * Assert that user is authenticated with correct type.
      */
     protected function assertUserAuthenticated(?string $expectedType = null): void
+     *
+     * @param string|null $expectedType
+     * @return void
+     */
+    protected function assertUserAuthenticated(null|string $expectedType = null): void
     {
         $this->assertAuthenticated();
 
@@ -140,6 +267,10 @@ abstract class TestCase extends BaseTestCase
 
             if ($user && method_exists($user, 'type')) {
                 self::assertSame($expectedType, $user->type ?? null);
+            $this->assertNotNull($user);
+
+            if ($user && method_exists($user, 'type')) {
+                $this->assertEquals($expectedType, $user->type ?? null);
             }
         }
     }

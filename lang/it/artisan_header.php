@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 return [
+ return [
+ return [
+ return [
+ return [
     'actions' => [
         'route:list' => [
             'label' => 'route:list',

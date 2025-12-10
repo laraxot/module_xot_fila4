@@ -9,6 +9,11 @@ use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
+use Exception;
+use Illuminate\Support\Facades\Auth;
+use RuntimeException;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Livewire\Wireable;
 use Modules\Tenant\Services\TenantService;
@@ -17,6 +22,10 @@ use Modules\User\Contracts\TenantContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\UserContract;
 use RuntimeException;
+use Modules\User\Models\Membership;
+use Modules\User\Models\Team;
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -38,6 +47,63 @@ class XotData extends Data implements Wireable
     public string $adm_home = '01';
 
     public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
 
     // public bool $enable_ads;//' => '1',
     public string $primary_lang = 'it';
@@ -77,6 +143,64 @@ class XotData extends Data implements Wireable
 
     public string $tenant_pivot_class = 'Modules\User\Models\TenantUser'; // = Membership::class;
 
+    public ?string $super_admin = null;
+    public null|string $super_admin = null;
+
+    public string $video_player = 'html5';
+
+    private static null|self $instance = null;
+
+    private null|ProfileContract $profile = null;
+
+    public static function make(): self
+    {
+        if (!self::$instance) {
+    public null|string $super_admin = null;
+
+    public string $video_player = 'html5';
+
+    private static ?self $instance = null;
+
+    private ?ProfileContract $profile = null;
+
+    public static function make(): self
+    {
+        if (! self::$instance) {
+    public ?string $super_admin = null;
+
+    public string $video_player = 'html5';
+
+    private static ?self $instance = null;
+
+    private ?ProfileContract $profile = null;
+
+    public static function make(): self
+    {
+        if (! self::$instance) {
+    public null|string $super_admin = null;
+
+    public string $video_player = 'html5';
+
+    private static null|self $instance = null;
+
+    private null|ProfileContract $profile = null;
+
+    public static function make(): self
+    {
+        if (!self::$instance) {
+    public ?string $super_admin = null;
+    public null|string $super_admin = null;
+
+    public string $video_player = 'html5';
+
+    private static null|self $instance = null;
+
+    private null|ProfileContract $profile = null;
+
+    public static function make(): self
+    {
+        if (! self::$instance) {
+        if (!self::$instance) {
     public ?string $super_admin = null;
 
     public string $video_player = 'html5';
@@ -120,6 +244,22 @@ class XotData extends Data implements Wireable
             'class '.$class.' not implements UserContract['.__LINE__.']['.class_basename($this).']',
         );
         Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::classExists($class, '[' . $class . '] check config auth');
+        Assert::implementsInterface(
+            $class,
+            UserContract::class,
+            'class ' . $class . ' not implements UserContract[' . __LINE__ . '][' . class_basename($this) . ']',
+        );
+        Assert::isAOf($class, Model::class, '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']');
+        Assert::isAOf($class, Model::class, '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']');
+        Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::isAOf($class, Model::class, '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']');
+        Assert::classExists($class, '['.$class.'] check config auth');
+        Assert::implementsInterface($class, UserContract::class, 'class '.$class.' not implements UserContract['.__LINE__.']['.class_basename($this).']');
+        Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::classExists($class, '['.$class.'] check config auth');
+        Assert::implementsInterface($class, UserContract::class, 'class '.$class.' not implements UserContract['.__LINE__.']['.class_basename($this).']');
+        Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
 
         return $class;
     }
@@ -130,6 +270,24 @@ class XotData extends Data implements Wireable
         $userInstance = new $user_class;
         if (! in_array('email', $userInstance->getFillable(), true)) {
             throw new Exception("Attribute 'email' not found in model ".$userInstance::class);
+        $userInstance = new $user_class();
+        if (!in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model " . get_class($userInstance));
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        $userInstance = new $user_class();
+        if (!in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model " . get_class($userInstance));
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        $userInstance = new $user_class();
+        if (!in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model " . get_class($userInstance));
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
         }
         $user = $user_class::firstOrCreate(['email' => $email]);
         /*
@@ -137,6 +295,112 @@ class XotData extends Data implements Wireable
          * throw new \Exception('user not found for email '.$email);
          * }
          */
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::implementsInterface($user, UserContract::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::implementsInterface($user, UserContract::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::implementsInterface($user, UserContract::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new \Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        }
+        $user = $user_class::firstOrCreate(['email' => $email]);
+        /*
+        if (! $user) {
+            throw new \Exception('user not found for email '.$email);
+        }
+            */
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        }
+        $user = $user_class::firstWhere(['email' => $email]);
+
+        if (! $user) {
+            throw new \Exception('user not found for email '.$email);
+        }
+
+        $user = $user_class::firstOrCreate(['email' => $email]);
+        /*
+         * if (! $user) {
+         * throw new \Exception('user not found for email '.$email);
+         * }
+         */
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+        $userInstance = new $user_class();
+        if (!in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model " . get_class($userInstance));
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        }
+        $user = $user_class::firstOrCreate(['email' => $email]);
+        /*
+         * if (! $user) {
+         * throw new \Exception('user not found for email '.$email);
+         * }
+         */
+        Assert::implementsInterface($user, UserContract::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new \Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        }
+        $user = $user_class::firstOrCreate(['email' => $email]);
+        /*
+        if (! $user) {
+            throw new \Exception('user not found for email '.$email);
+        }
+            */
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+        $userInstance = new $user_class();
+        if (!in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model " . get_class($userInstance));
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        }
+        $user = $user_class::firstOrCreate(['email' => $email]);
+        /*
+         * if (! $user) {
+         * throw new \Exception('user not found for email '.$email);
+         * }
+         */
+        Assert::implementsInterface($user, UserContract::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        $userInstance = new $user_class;
+        if (! in_array('email', $userInstance->getFillable(), true)) {
+            throw new \Exception("Attribute 'email' not found in model ".get_class($userInstance));
+        }
+        $user = $user_class::firstOrCreate(['email' => $email]);
+        /*
+        if (! $user) {
+            throw new \Exception('user not found for email '.$email);
+        }
+            */
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+        $userInstance = new $user_class();
+        if (!in_array('email', $userInstance->getFillable(), true)) {
+            throw new Exception("Attribute 'email' not found in model " . get_class($userInstance));
+        }
+        $user = $user_class::firstOrCreate(['email' => $email]);
+        /*
+         * if (! $user) {
+         * throw new \Exception('user not found for email '.$email);
+         * }
+         */
+        Assert::implementsInterface($user, UserContract::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
         Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
 
         return $user;
@@ -148,16 +412,40 @@ class XotData extends Data implements Wireable
     public function getTeamClass(): string
     {
         Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->team_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->team_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->team_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->team_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->team_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->team_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->team_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
         // Assert::isInstanceOf($team_class, Model::class, '['.__LINE__.']['.class_basename($this).']');
         Assert::isAOf(
             $this->team_class,
             Model::class,
             '['.__LINE__.']['.class_basename($this).']['.$this->team_class.']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->team_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->team_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->team_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->team_class . ']',
         );
         Assert::implementsInterface(
             $this->team_class,
             TeamContract::class,
             '['.$this->team_class.']['.__LINE__.']['.class_basename($this).']',
+            '[' . $this->team_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->team_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->team_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->team_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->team_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
         );
 
         return $this->team_class;
@@ -173,6 +461,10 @@ class XotData extends Data implements Wireable
         Assert::classExists(
             $this->tenant_class,
             '['.$this->tenant_class.']['.__LINE__.']['.class_basename($this).']',
+            '[' . $this->tenant_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->tenant_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->tenant_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->tenant_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
         );
         // Assert::isInstanceOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']');
         // Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
@@ -180,11 +472,20 @@ class XotData extends Data implements Wireable
             $this->tenant_class,
             TenantContract::class,
             '['.$this->tenant_class.']['.__LINE__.']['.class_basename($this).']',
+            '[' . $this->tenant_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->tenant_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->tenant_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
+            '[' . $this->tenant_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
         );
         Assert::isAOf(
             $this->tenant_class,
             Model::class,
             '['.__LINE__.']['.class_basename($this).']['.$this->tenant_class.']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->tenant_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->tenant_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->tenant_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->tenant_class . ']',
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->tenant_class . ']',
         );
 
         return $this->tenant_class;
@@ -200,6 +501,70 @@ class XotData extends Data implements Wireable
             ->append('Resource')
             ->toString();
         Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
 
         return $class;
     }
@@ -207,12 +572,140 @@ class XotData extends Data implements Wireable
     public function getTenantPivotClass(): string
     {
         Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
 
         return $this->tenant_pivot_class;
     }
 
     public function getMembershipClass(): string
     {
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
         Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
 
         return $this->membership_class;
@@ -223,6 +716,60 @@ class XotData extends Data implements Wireable
      */
     public function getProfileClass(): string
     {
+        $class = 'Modules\\' . $this->main_module . '\Models\Profile';
+
+        // Verifica che la classe esista
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+
+        // Verifica che sia un Model e implementi ProfileContract
+        Assert::isAOf($class, Model::class, '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']');
+        Assert::implementsInterface(
+            $class,
+            ProfileContract::class,
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']',
+        );
+        $class = 'Modules\\'.$this->main_module.'\Models\Profile';
+        $class = 'Modules\\' . $this->main_module . '\Models\Profile';
+
+        // Verifica che la classe esista
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+
+        // Verifica che sia un Model e implementi ProfileContract
+        Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::implementsInterface($class, ProfileContract::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::isAOf($class, Model::class, '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']');
+        Assert::implementsInterface(
+            $class,
+            ProfileContract::class,
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']',
+        );
+        $class = 'Modules\\'.$this->main_module.'\Models\Profile';
+
+        // Verifica che la classe esista
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+
+        // Verifica che sia un Model e implementi ProfileContract
+        Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::implementsInterface(
+            $class,
+            ProfileContract::class,
+            '['.__LINE__.']['.class_basename($this).']['.$class.']',
+        $class = 'Modules\\' . $this->main_module . '\Models\Profile';
+
+        // Verifica che la classe esista
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+
+        // Verifica che sia un Model e implementi ProfileContract
+        Assert::isAOf($class, Model::class, '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']');
+        Assert::implementsInterface(
+            $class,
+            ProfileContract::class,
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']',
+        );
+        Assert::implementsInterface($class, ProfileContract::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::implementsInterface($class, ProfileContract::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::implementsInterface($class, ProfileContract::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::implementsInterface($class, ProfileContract::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
         $class = 'Modules\\'.$this->main_module.'\Models\Profile';
 
         // Verifica che la classe esista
@@ -235,6 +782,7 @@ class XotData extends Data implements Wireable
             ProfileContract::class,
             '['.__LINE__.']['.class_basename($this).']['.$class.']',
         );
+        Assert::implementsInterface($class, ProfileContract::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
 
         /** @var class-string<Model&ProfileContract> */
         return $class;
@@ -242,6 +790,70 @@ class XotData extends Data implements Wireable
 
     public function getHomeController(): string
     {
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
         return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
     }
 
@@ -254,6 +866,108 @@ class XotData extends Data implements Wireable
         Assert::isInstanceOf($profile, Model::class);
         Assert::isArray($profile->getFillable(), 'getFillable() must return array');
 
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new \Exception('add user_id to fillable on class '.$profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+        if (! in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class '.$profileClass);
         if (! in_array('user_id', $profile->getFillable(), true)) {
             throw new Exception('add user_id to fillable on class '.$profileClass);
         }
@@ -270,6 +984,18 @@ class XotData extends Data implements Wireable
         $user = $this->getUserByEmail($email);
 
         return $this->getProfileModelByUserId((string) $user->id);
+        $profile = $this->getProfileModelByUserId($user->id);
+
+        return $profile;
+        $profile = $this->getProfileModelByUserId($user->id);
+
+        return $profile;
+        $profile = $this->getProfileModelByUserId($user->id);
+
+        return $profile;
+        $profile = $this->getProfileModelByUserId($user->id);
+
+        return $profile;
     }
 
     /**
@@ -282,6 +1008,70 @@ class XotData extends Data implements Wireable
             return false;
         }
 
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (!method_exists($user, 'hasRole')) {
+        if (! method_exists($user, 'hasRole')) {
         if (! method_exists($user, 'hasRole')) {
             return false;
         }
@@ -304,6 +1094,11 @@ class XotData extends Data implements Wireable
             $this->profile,
             ProfileContract::class,
             '['.__LINE__.']['.class_basename($this).']',
+        $this->profile = $this->getProfileModelByUserId($user_id);
+        Assert::implementsInterface(
+            $this->profile,
+            ProfileContract::class,
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
 
         return $this->profile;
@@ -326,7 +1121,7 @@ class XotData extends Data implements Wireable
 
     public function save(): void
     {
-        dddx('wip');
+        // dddx('wip'); // Removed debug call
     }
 
     public function getPubThemeViewPath(string $key = ''): string
@@ -337,17 +1132,161 @@ class XotData extends Data implements Wireable
             return realpath($path0);
         } catch (Exception $e) {
             throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        // Return empty string if pub_theme is empty to prevent invalid paths
+        if (empty($this->pub_theme)) {
+            return '';
+        }
+
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+
+        // Check if path exists and is a directory before using realpath
+        if (! is_dir($path0)) {
+            // Return empty string if directory doesn't exist to prevent Folio errors
+            return '';
+        }
+
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+        try {
+            $path = realpath($path0);
+
+            return $path;
+        } catch (Exception $e) {
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+        } catch (Exception $e) {
+            // Return empty string if realpath fails to prevent Folio errors
+            return '';
+        } catch (Exception $e) {
+        } catch (Exception $e) {
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            // Return empty string if realpath fails to prevent Folio errors
+            return '';
+            // Return empty string if realpath fails to prevent Folio errors
+            return '';
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
         }
     }
 
     public function getPubThemePublicPath(string $key = ''): string
     {
         return base_path('themes/'.$this->pub_theme.'/'.$key);
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
+
+        return $path;
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        return $path;
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        return $path;
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        return $path;
+        $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+        return $path;
     }
 
     public function getPubThemePublicAsset(string $key = ''): string
     {
         return asset('themes/'.$this->pub_theme.'/'.$key);
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        $path = asset('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = asset('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        $path = asset('themes/'.$this->pub_theme.'/'.$key);
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        $path = asset('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        $path = asset('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        $path = asset('themes/'.$this->pub_theme.'/'.$key);
+
+        $path = asset('themes/'.$this->pub_theme.'/'.$key);
+
+        return $path;
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        return $path;
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        return $path;
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        return $path;
+        $path = asset('themes/' . $this->pub_theme . '/' . $key);
+        return $path;
     }
 
     /**
@@ -360,12 +1299,42 @@ class XotData extends Data implements Wireable
 
         if (! is_object($userInstance) || ! method_exists($userInstance, 'getChildTypes')) {
             throw new Exception('getChildTypes method not found in class '.$user_class);
+        if (is_object($userInstance) && method_exists($userInstance, 'getChildTypes')) {
+            $types = $userInstance->getChildTypes();
+            if (is_array($types)) {
+                $class = Arr::get($types, $type);
+            } else {
+                throw new Exception('getChildTypes() did not return an array in class '.$user_class);
+            }
+        } else {
+            throw new Exception('getChildTypes() method not found in class '.$user_class);
         }
 
         $types = $userInstance->getChildTypes();
         if (! is_array($types) && ! ($types instanceof ArrayAccess)) {
             throw new Exception('getChildTypes must return array or ArrayAccess');
         }
+        $class = Arr::get($types, $type);
+
+        if (! is_object($userInstance) || ! method_exists($userInstance, 'getChildTypes')) {
+            throw new Exception('getChildTypes method not found in class '.$user_class);
+        }
+
+        $typesResult = $userInstance->getChildTypes();
+        if (! is_array($typesResult) && ! ($typesResult instanceof \ArrayAccess)) {
+            throw new Exception('getChildTypes must return array or ArrayAccess');
+        }
+
+        $class = Arr::get($typesResult, $type);
+        if (is_null($class)) {
+        }
+        if (is_null($class)) {
+        $types = $userInstance->getChildTypes();
+        $class = Arr::get($types, $type);
+        if (is_null($class)) {
+        }
+        if (is_null($class)) {
+        $types = $userInstance->getChildTypes();
         $class = Arr::get($types, $type);
         if (is_null($class)) {
             throw new Exception('type '.$type.' not found in class '.$user_class);
@@ -377,6 +1346,17 @@ class XotData extends Data implements Wireable
             $class,
             UserContract::class,
             '['.__LINE__.']['.class_basename($this).']['.$class.']',
+        $types = $userInstance->getChildTypes();
+        $class = Arr::get($types, $type);
+        if (is_null($class)) {
+            throw new Exception('type ' . $type . ' not found in class ' . $user_class);
+        }
+        Assert::classExists($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::isAOf($class, Model::class, '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']');
+        Assert::implementsInterface(
+            $class,
+            UserContract::class,
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']',
         );
 
         return $class;
@@ -397,8 +1377,27 @@ class XotData extends Data implements Wireable
 
         // If the class doesn't exist, try the alternative path (app/Filament/Resources)
         if (! class_exists($resourceClass)) {
+        if (! class_exists($resourceClass)) {
             $resourceClass =
                 'Modules\\'.$moduleName.'\\app\\Filament\\Resources\\'.class_basename($class).'Resource';
+        }
+
+        if (! class_exists($resourceClass)) {
+        if (!class_exists($resourceClass)) {
+            $resourceClass =
+                'Modules\\' . $moduleName . '\\app\\Filament\\Resources\\' . class_basename($class) . 'Resource';
+        }
+
+        if (!class_exists($resourceClass)) {
+        if (!class_exists($resourceClass)) {
+            $resourceClass =
+                'Modules\\'.$moduleName.'\\app\\Filament\\Resources\\'.class_basename($class).'Resource';
+        }
+
+        if (! class_exists($resourceClass)) {
+        if (! class_exists($resourceClass)) {
+            $resourceClass = 'Modules\\'.$moduleName.'\\app\\Filament\\Resources\\'.
+                          class_basename($class).'Resource';
         }
 
         if (! class_exists($resourceClass)) {
@@ -422,6 +1421,44 @@ class XotData extends Data implements Wireable
         }
 
         return $enum_class::cases();
+        /** @var array<int, mixed> $cases */
+        $cases = $enum_class::cases();
+
+        return $cases;
+
+        return $enum_class::cases();
+
+
+
+
+        return $enum_class::cases();
+
+
+
+        return $enum_class::cases();
+
+
+        return $enum_class::cases();
+
+
+
+        return $enum_class::cases();
+
+        return $enum_class::cases();
+
+
+        return $enum_class::cases();
+
+        return $enum_class::cases();
+
+        return $enum_class::cases();
+
+
+
+        return $enum_class::cases();
+
+        return $enum_class::cases();
+
         // $userInstance = app($user_class);
         // return $userInstance->getChildTypes();
     }
@@ -442,6 +1479,18 @@ class XotData extends Data implements Wireable
 
         // $enum_class = Arr::get($user_class::casts(),'type',null);
         $enum_class = Arr::get($castsResult, 'type', null);
+        // $enum_class = Arr::get($user_class::casts(),'type',null);
+        $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
+        // $enum_class = Arr::get($user_class::casts(),'type',null);
+        $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
+        // $enum_class = Arr::get($user_class::casts(),'type',null);
+        $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
+        // $enum_class = Arr::get($user_class::casts(),'type',null);
+        $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
+        // $enum_class = Arr::get($user_class::casts(),'type',null);
+        $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
+        // $enum_class = Arr::get($user_class::casts(),'type',null);
+        $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
         if ($enum_class === null) {
             $enum_class = Str::of($user_class)
                 ->replace('\\Models\\', '\\Enums\\')
@@ -462,10 +1511,29 @@ class XotData extends Data implements Wireable
     public function getProjectNamespace(): string
     {
         return 'Modules\\'.$this->main_module;
+        return 'Modules\\' . $this->main_module;
+        return 'Modules\\' . $this->main_module;
+        return 'Modules\\' . $this->main_module;
+        return 'Modules\\' . $this->main_module;
     }
 
     public function forceSSL(): bool
     {
+        if (! $this->force_ssl) {
+        if (!$this->force_ssl) {
+        if (!$this->force_ssl) {
+        if (!$this->force_ssl) {
+        if (!$this->force_ssl) {
+        if (! $this->force_ssl) {
+        if (! $this->force_ssl) {
+        if (! $this->force_ssl) {
+        if (! $this->force_ssl) {
+        if (!$this->force_ssl) {
+        if (! $this->force_ssl) {
+        if (! $this->force_ssl) {
+        if (!$this->force_ssl) {
+        if (!$this->force_ssl) {
+        if (! $this->force_ssl) {
         if (! $this->force_ssl) {
             return false;
         }

@@ -5,10 +5,30 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Modules\Xot\Database\Factories\LogFactory;
+use Sushi\Sushi;
+use Override;
+use Modules\Xot\Database\Factories\FeedFactory;
+use Sushi\Sushi;
+use Override;
+use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
 use Override;
 use Sushi\Sushi;
+use Sushi\Sushi;
+use Sushi\Sushi;
+use Sushi\Sushi;
+use Override;
+use Modules\Xot\Database\Factories\FeedFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Facades\File;
+use Sushi\Sushi;
+use Override;
+use Modules\Xot\Database\Factories\FeedFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Facades\File;
 
 // --- services
 // --- TRAITS ---
@@ -27,6 +47,51 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+ * @method static FeedFactory factory($count = null, $state = [])
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @property string|null $id
+ * @property string|null $name
+ * @property int|null    $size
+ * @property string|null $file_content
+ * @method static Builder|Log whereId($value)
+ * @method static Builder|Log whereName($value)
+ * @method static Builder|Log whereSize($value)
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @method static \Illuminate\Database\Eloquent\Builder|Log whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Log whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Log whereSize($value)
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @mixin IdeHelperLog
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property string|null $id
+ * @property string|null $name
+ * @property int|null $size
+ * @property-read string|null $file_content
+ *
+ * @method static \Modules\Xot\Database\Factories\LogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Log newModelQuery()
+ * @method static Builder<static>|Log newQuery()
+ * @method static Builder<static>|Log query()
+ * @method static Builder<static>|Log whereId($value)
+ * @method static Builder<static>|Log whereName($value)
+ * @method static Builder<static>|Log whereSize($value)
+ *
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @mixin IdeHelperLog
+ * @mixin IdeHelperLog
+ * @mixin IdeHelperLog
  * @mixin \Eloquent
  */
 class Log extends BaseModel
@@ -45,6 +110,10 @@ class Log extends BaseModel
 
         foreach ($files as $file) {
             if ($file->getExtension() === 'log') {
+            if ('log' === $file->getExtension()) {
+            if ('log' === $file->getExtension()) {
+            if ('log' === $file->getExtension()) {
+            if ('log' === $file->getExtension()) {
                 $rows[] = [
                     'id' => $file->getFilenameWithoutExtension(),
                     'name' => $file->getFilenameWithoutExtension(),
@@ -56,12 +125,57 @@ class Log extends BaseModel
         return $rows;
     }
 
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+    }
+
+    /** @return array<string, string> */
+    #[Override]
+    public function getFileContentAttribute(?string $value): ?string
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/'.$this->id.'.log'));
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+    }
+
+    /** @return array<string, string> */
+    #[Override]
+    public function getFileContentAttribute(?string $value): ?string
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/'.$this->id.'.log'));
+    }
+
+    /** @return array<string, string> */
+    #[Override]
+    public function getFileContentAttribute(?string $value): ?string
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+    }
+
+    /** @return array<string, string> */
+    #[Override]
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
     }
 
     /** @return array<string, string> */
+    #[Override]
+    #[Override]
     #[Override]
     protected function casts(): array
     {

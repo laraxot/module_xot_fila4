@@ -13,3 +13,15 @@ use Illuminate\Database\Eloquent\Model;
  * @method ?Model getRecord()
  */
 abstract class XotBaseBulkAction extends BulkAction {}
+abstract class XotBaseBulkAction extends BulkAction
+{
+}
+abstract class XotBaseBulkAction extends BulkAction
+{
+}
+abstract class XotBaseBulkAction extends BulkAction
+{
+}
+abstract class XotBaseBulkAction extends BulkAction
+{
+}

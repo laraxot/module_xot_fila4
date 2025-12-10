@@ -6,6 +6,10 @@ namespace Modules\Xot\Filament\Traits;
 
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
+use Illuminate\Support\Str;
+use Modules\Lang\Actions\SaveTransAction;
+use Modules\Xot\Actions\File\SvgExistsAction;
+use Webmozart\Assert\Assert;
 
 trait NavigationLabelTrait
 {
@@ -50,11 +54,140 @@ trait NavigationLabelTrait
     }
 
     public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
+    public static function getNavigationSort(): ?int
     {
         $res = static::transFunc(__FUNCTION__);
 
         $value = intval($res);
 
+        if ($value === 0) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if ($value === 0) {
+        if ($value === 0) {
+        if ($value === 0) {
+        if ($value === 0) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if ($value === 0) {
+        if (0 === $value) {
+        if ($value === 0) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if ($value === 0) {
         if ($value === 0) {
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);

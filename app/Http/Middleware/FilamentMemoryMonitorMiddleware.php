@@ -19,6 +19,10 @@ class FilamentMemoryMonitorMiddleware
      * Handle an incoming request.
      *
      * @param  Closure(Request):Response  $next
+     * @param Closure(Request):Response $next
+     * @param Closure(Request):Response $next
+     * @param Closure(Request):Response $next
+     * @param Closure(Request):Response $next
      */
     public function handle(Request $request, Closure $next): Response
     {
@@ -67,6 +71,18 @@ class FilamentMemoryMonitorMiddleware
             $response->headers->set('X-Memory-Used', $memoryUsedMB.'MB');
             $response->headers->set('X-Memory-Peak', $memoryPeakMB.'MB');
             $response->headers->set('X-Execution-Time', round($executionTime, 2).'ms');
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
         }
 
         return $response;
@@ -79,11 +95,25 @@ class FilamentMemoryMonitorMiddleware
     {
         $path = $request->path();
 
+        
+        
+        
+        
         // Pattern per riconoscere richieste admin Filament
         $adminPatterns = [
             '/admin',
             '/user/admin',
             '/<nome progetto>/admin',
+            '/techplanner/admin',
+            '/techplanner/admin',
+            '/techplanner/admin',
+            '/techplanner/admin',
+            '/<nome progetto>/admin',
+            '/techplanner/admin',
+            '/techplanner/admin',
+            '/techplanner/admin',
+            '/<nome progetto>/admin',
+            '/techplanner/admin',
             '/cms/admin',
             '/geo/admin',
             '/notify/admin',
@@ -115,11 +145,19 @@ class FilamentMemoryMonitorMiddleware
      * Logga l'uso della memoria.
      *
      * @param  array<string, mixed>  $metrics
+     * @param array<string, mixed> $metrics
+     * @param array<string, mixed> $metrics
+     * @param array<string, mixed> $metrics
+     * @param array<string, mixed> $metrics
      */
     private function logMemoryUsage(Request $request, array $metrics): void
     {
         $logLevel = $this->determineLogLevel($metrics);
 
+        
+        
+        
+        
         $message = sprintf(
             'Filament Memory Usage: %sMB used, %sMB peak, %sms execution time - %s %s',
             (string) $metrics['memory_used_mb'],
@@ -149,6 +187,10 @@ class FilamentMemoryMonitorMiddleware
      * Determina il livello di log basato sulle metriche.
      *
      * @param  array<string, mixed>  $metrics
+     * @param array<string, mixed> $metrics
+     * @param array<string, mixed> $metrics
+     * @param array<string, mixed> $metrics
+     * @param array<string, mixed> $metrics
      */
     private function determineLogLevel(array $metrics): string
     {

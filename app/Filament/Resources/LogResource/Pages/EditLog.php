@@ -6,6 +6,13 @@ namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 
 use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+use Filament\Actions;
+use Modules\Xot\Filament\Resources\LogResource;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 class EditLog extends XotBaseEditRecord
 {

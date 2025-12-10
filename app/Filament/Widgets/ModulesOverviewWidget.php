@@ -10,6 +10,13 @@ use Illuminate\Support\Facades\Log;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use ReflectionMethod;
 use Throwable;
+use ReflectionMethod;
+use Throwable;
+use Filament\Widgets\Widget;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
+use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 
 /**
  * Widget per mostrare una panoramica dei moduli disponibili.
@@ -20,6 +27,14 @@ class ModulesOverviewWidget extends Widget
     protected string $view = 'xot::filament.widgets.modules-overview';
 
     protected int|string|array $columnSpan = 'full';
+    protected int | string | array $columnSpan = 'full';
+
+    protected int | string | array $columnSpan = 'full';
+
+    protected int | string | array $columnSpan = 'full';
+
+    protected int | string | array $columnSpan = 'full';
+
 
     /**
      * Ottiene i moduli disponibili per l'utente corrente.
@@ -44,6 +59,10 @@ class ModulesOverviewWidget extends Widget
                     return false;
                 }
                 if (! method_exists($user, 'hasRole')) {
+                if (!$user) {
+                    return false;
+                }
+                if (!method_exists($user, 'hasRole')) {
                     return true; // fallback: mostra se non abbiamo sistema ruoli
                 }
                 try {
@@ -58,6 +77,10 @@ class ModulesOverviewWidget extends Widget
 
             foreach ($configs as $cfg) {
                 $role = $cfg['module_low'].'::admin';
+                $role = $cfg['module_low'] . '::admin';
+                $role = $cfg['module_low'] . '::admin';
+                $role = $cfg['module_low'] . '::admin';
+                $role = $cfg['module_low'] . '::admin';
                 if (! $hasRoleFn($role)) {
                     continue;
                 }
@@ -66,6 +89,10 @@ class ModulesOverviewWidget extends Widget
                     'name' => $cfg['module'],
                     'name_lower' => $cfg['module_low'],
                     'url' => '/'.$cfg['module_low'].'/admin',
+                    'url' => '/' . $cfg['module_low'] . '/admin',
+                    'url' => '/' . $cfg['module_low'] . '/admin',
+                    'url' => '/' . $cfg['module_low'] . '/admin',
+                    'url' => '/' . $cfg['module_low'] . '/admin',
                     'icon' => $cfg['icon'] ?: 'heroicon-o-cube',
                     'description' => $this->getModuleDescription($cfg['module']),
                 ];
@@ -75,6 +102,10 @@ class ModulesOverviewWidget extends Widget
         } catch (Throwable $e) {
             Log::error('Errore nel caricamento moduli per widget: '.$e->getMessage());
 
+            
+            return $modules;
+        } catch (Throwable $e) {
+            Log::error('Errore nel caricamento moduli per widget: ' . $e->getMessage());
             return $this->getDefaultModules();
         }
     }
@@ -108,6 +139,41 @@ class ModulesOverviewWidget extends Widget
                 'url' => '/<nome progetto>/admin',
                 'icon' => 'heroicon-o-clipboard-document-list',
                 'description' => $this->getModuleDescription('<main module>'),
+                'name' => 'TechPlanner',
+                'name_lower' => 'techplanner',
+                'url' => '/techplanner/admin',
+                'icon' => 'heroicon-o-clipboard-document-list',
+                'description' => $this->getModuleDescription('TechPlanner'),
+                'name' => 'TechPlanner',
+                'name_lower' => 'techplanner',
+                'url' => '/techplanner/admin',
+                'icon' => 'heroicon-o-clipboard-document-list',
+                'description' => $this->getModuleDescription('TechPlanner'),
+                'name' => '<main module>',
+                'name_lower' => '<nome progetto>',
+                'url' => '/<nome progetto>/admin',
+                'icon' => 'heroicon-o-clipboard-document-list',
+                'description' => $this->getModuleDescription('<main module>'),
+                'name' => 'TechPlanner',
+                'name_lower' => 'techplanner',
+                'url' => '/techplanner/admin',
+                'icon' => 'heroicon-o-clipboard-document-list',
+                'description' => $this->getModuleDescription('TechPlanner'),
+                'name' => 'TechPlanner',
+                'name_lower' => 'techplanner',
+                'url' => '/techplanner/admin',
+                'icon' => 'heroicon-o-clipboard-document-list',
+                'description' => $this->getModuleDescription('TechPlanner'),
+                'name' => '<main module>',
+                'name_lower' => '<nome progetto>',
+                'url' => '/<nome progetto>/admin',
+                'icon' => 'heroicon-o-clipboard-document-list',
+                'description' => $this->getModuleDescription('<main module>'),
+                'name' => 'TechPlanner',
+                'name_lower' => 'techplanner',
+                'url' => '/techplanner/admin',
+                'icon' => 'heroicon-o-clipboard-document-list',
+                'description' => $this->getModuleDescription('TechPlanner'),
             ],
         ];
     }
@@ -116,6 +182,11 @@ class ModulesOverviewWidget extends Widget
      * Ottiene la descrizione per un modulo.
      *
      * @param  string  $module  Nome del modulo
+
+    /**
+     * Ottiene la descrizione per un modulo.
+     *
+     * @param string $module Nome del modulo
      * @return string Descrizione del modulo
      */
     private function getModuleDescription(string $module): string
@@ -123,6 +194,16 @@ class ModulesOverviewWidget extends Widget
         $descriptions = [
             'User' => 'Gestione utenti e autenticazione',
             '<main module>' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+            '<main module>' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+            '<main module>' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
             'Geo' => 'Gestione dati geografici e mappe',
             'Cms' => 'Sistema di gestione contenuti',
             'Notify' => 'Sistema di notifiche',
@@ -135,4 +216,15 @@ class ModulesOverviewWidget extends Widget
 
         return $descriptions[$module] ?? 'Modulo '.$module;
     }
+        return $descriptions[$module] ?? 'Modulo ' . $module;
+    }
+
+    /**
+     * Determina se il widget deve essere visibile.
+     */
+    public static function canView(): bool
+    {
+        return true;
+    }
+
 }

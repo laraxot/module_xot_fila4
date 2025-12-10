@@ -10,6 +10,20 @@ use Modules\Xot\Tests\Unit\Support\DummyTestModel;
 use Modules\Xot\Tests\Unit\Support\HasTableWithoutOptionalMethodsTestClass;
 use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
 use Tests\TestCase;
+use Tests\TestCase;
+use Mockery;
+use Filament\Tables\Table;
+use Modules\Xot\Tests\Unit\Support\DummyTestModel;
+use Modules\Xot\Tests\Unit\Support\HasTableWithoutOptionalMethodsTestClass;
+use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
+use Tests\TestCase;
+use Tests\TestCase;
+use Illuminate\Database\Eloquent\Model;
+use Mockery;
+use Filament\Tables\Table;
+use Filament\Tables\Contracts\HasTable;
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Illuminate\Support\Collection;
 
 uses(TestCase::class);
 

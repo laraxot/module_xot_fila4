@@ -8,6 +8,10 @@ use Closure;
 use ReflectionClass;
 use ReflectionFunction;
 use Throwable;
+use Throwable;
+use Closure;
+use ReflectionFunction;
+use ReflectionClass;
 
 /**
  * The handlers repository.
@@ -61,6 +65,11 @@ class HandlersRepository
         return array_filter(
             $this->reporters,
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
     }
 
@@ -72,6 +81,11 @@ class HandlersRepository
         return array_filter(
             $this->renderers,
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
     }
 
@@ -83,6 +97,11 @@ class HandlersRepository
         return array_filter(
             $this->consoleRenderers,
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
     }
 
@@ -101,6 +120,38 @@ class HandlersRepository
             return false;
         }
 
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        if (!($params = $reflection->getParameters())) {
+            return false;
+        }
+
+        return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
+    protected function handlesException(callable $handler, \Throwable $e): bool
+    {
+        if ($handler instanceof \Closure) {
+            $reflection = new \ReflectionFunction($handler);
+        } else {
+            $reflection = new \ReflectionFunction(\Closure::fromCallable($handler));
+        }
+
+        if (! $params = $reflection->getParameters()) {
+            return false;
+        }
+
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        if (!($params = $reflection->getParameters())) {
+            return false;
+        }
+
+        return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof \ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
         return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
     }
 }

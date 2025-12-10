@@ -104,4 +104,3 @@ class Foo extends bar
 
 ---
 
-=======

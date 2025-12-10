@@ -25,11 +25,31 @@ class EnvData extends Data implements Wireable
 
     public string $telegram_bot_token = '';
 
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!self::$instance) {
     private static ?self $instance = null;
 
     public static function make(): self
     {
         if (! self::$instance) {
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!self::$instance) {
+    private static ?self $instance = null;
+
+    public static function make(): self
+    {
+        if (! self::$instance) {
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!self::$instance) {
             $data = [];
 
             foreach ($_ENV as $k => $v) {
@@ -38,6 +58,10 @@ class EnvData extends Data implements Wireable
                     $v = false;
                 }
                 if ($v === 'true') {
+                if ('false' === $v) {
+                    $v = false;
+                }
+                if ('true' === $v) {
                     $v = true;
                 }
                 $data[$k] = $v;
@@ -56,6 +80,10 @@ class EnvData extends Data implements Wireable
 
         foreach ($data as $k => $v) {
             if ($v !== $this->$k && (is_bool($v) || is_int($v) || is_string($v))) {
+            if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
+            if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
+            if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
+            if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
                 $env_content = $this->updateVar($k, $v, $env_content);
             }
         }
@@ -69,10 +97,70 @@ class EnvData extends Data implements Wireable
         $replace = $this->getLine($key, $value);
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
+        $pos_start = mb_strpos($env_content, $key . '=');
+        if (false === $pos_start) {
+            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            return $env_content . "\n" . $replace;
+        }
+        $pos_end = mb_strpos($env_content, "\n", $pos_start);
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
             return $env_content."\n".$replace;
         }
         $pos_end = mb_strpos($env_content, "\n", $pos_start);
+        if ($pos_end === false) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (false === $pos_end) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (false === $pos_end) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        $pos_start = mb_strpos($env_content, $key.'=');
+        if ($pos_start === false) {
+            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            return $env_content."\n".$replace;
+        }
+        $pos_end = mb_strpos($env_content, "\n", $pos_start);
+        if ($pos_end === false) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        $pos_start = mb_strpos($env_content, $key . '=');
+        if (false === $pos_start) {
+            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            return $env_content . "\n" . $replace;
+        }
+        $pos_end = mb_strpos($env_content, "\n", $pos_start);
+        if (false === $pos_end) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        $pos_start = mb_strpos($env_content, $key.'=');
+        $pos_start = mb_strpos($env_content, $key . '=');
+        if (false === $pos_start) {
+            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            return $env_content . "\n" . $replace;
+        }
+        $pos_end = mb_strpos($env_content, "\n", $pos_start);
+        if (false === $pos_end) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        $pos_start = mb_strpos($env_content, $key.'=');
+        if (false === $pos_start) {
+            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            return $env_content."\n".$replace;
+        }
+        $pos_end = mb_strpos($env_content, "\n", $pos_start);
+        if (false === $pos_end) {
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
         if ($pos_end === false) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
@@ -81,15 +169,155 @@ class EnvData extends Data implements Wireable
         $find = mb_substr($env_content, $pos_start, $length + 1);
 
         return str($env_content)->replace($find, $replace)->toString();
+        $env_content = str($env_content)->replace($find, $replace)->toString();
+
+        return $env_content;
+        $env_content = str($env_content)->replace($find, $replace)->toString();
+
+        return $env_content;
+        $env_content = str($env_content)->replace($find, $replace)->toString();
+
+        return $env_content;
+        $env_content = str($env_content)->replace($find, $replace)->toString();
+
+        return $env_content;
     }
 
     public function getLine(string $key, int|bool|string $value): string
     {
         $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key.'=';
+        $replace = $key.'=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key . '=';
+        $replace = $key.'=';
+        $replace = $key.'=';
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
         if (is_string($value)) {
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"' . $value . '"';
+            $replace .= '"'.$value.'"';
             $replace .= '"'.$value.'"';
         }
         if (is_int($value)) {

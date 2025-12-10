@@ -11,6 +11,10 @@ class HasManyUpdateData extends Data
 {
     /**
      * @param  array<int|string>  $ids
+     * @param array<int|string> $ids
+     * @param array<int|string> $ids
+     * @param array<int|string> $ids
+     * @param array<int|string> $ids
      */
     public function __construct(
         public string $foreignKey,

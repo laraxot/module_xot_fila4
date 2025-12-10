@@ -10,4 +10,9 @@ use Modules\Xot\Models\Traits\TypedHasRecursiveRelationships;
 abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationshipsContract
 {
     use TypedHasRecursiveRelationships;
+use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
+
+abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationshipsContract
+{
+    use HasRecursiveRelationships;
 }

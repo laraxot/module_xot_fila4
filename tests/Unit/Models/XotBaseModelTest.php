@@ -6,6 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 use Tests\TestCase;
+use Tests\TestCase;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Models\XotBaseModel;
+use Modules\Xot\Traits\Updater;
+
+use function Safe\file_get_contents;
 
 uses(TestCase::class);
 
@@ -75,13 +81,23 @@ test('xot base model has correct property types', function (): void {
     $perPageType = $perPageProperty->getType();
 
     // Some properties may not have explicit type declarations; in that case just ensure defaults are as expected
+    if ($snakeType instanceof \ReflectionNamedType) {
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
     if ($snakeType !== null) {
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
         expect($snakeType->getName())->toBe('bool');
     } else {
         expect(XotBaseModel::$snakeAttributes)->toBeTrue();
     }
 
+    if ($perPageType instanceof \ReflectionNamedType) {
+
     if ($perPageType !== null) {
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
+    if ($perPageType !== null) {
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
         expect($perPageType->getName())->toBe('int');
     } else {
         expect($perPageProperty->getDefaultValue())->toBe(30);

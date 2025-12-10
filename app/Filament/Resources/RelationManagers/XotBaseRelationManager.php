@@ -18,6 +18,21 @@ use Illuminate\Support\Arr;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
+use Filament\Schemas\Schema;
+use Override;
+use Filament\Actions\EditAction;
+use Filament\Actions\DetachAction;
+use Filament\Actions\DetachBulkAction;
+use Filament\Actions\AttachAction;
+use Filament\Actions\CreateAction;
+use Filament\Resources\RelationManagers\RelationManager as FilamentRelationManager;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Modules\Xot\Filament\Traits\HasXotTable;
 use Webmozart\Assert\Assert;
 
 /**
@@ -70,14 +85,61 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         $arr = explode('\\', $class);
 
         return $arr[1];
+        $module_name = $arr[1];
+
+        return $module_name;
     }
 
+    final public function form(Schema $schema): Schema
+    {
+        return $schema->components($this->getFormSchema());
+    final public function form(Schema $schema): Schema
+    {
+        return $schema->components($this->getFormSchema());
+        return $schema->components(
+            $this->getFormSchema()
+        );
+        return $schema->components(
+            $this->getFormSchema()
+        );
+        return $schema->components(
+            $this->getFormSchema()
+        );
+        return $schema->components($this->getFormSchema());
+    final public function form(Form $form): Form
+    {
+        return $form->schema(
+            $this->getFormSchema()
+        );
+        return $schema->components($this->getFormSchema());
+        return $schema->components($this->getFormSchema());
+        return $schema->components($this->getFormSchema());
+    public function getFormSchema(): array
+    {
+        return $this->getResource()::getFormSchema();
+    }
+
+    /**
+     * @return list<\Illuminate\Contracts\Support\Htmlable|string>
+     */
+    final public function form(Schema $schema): Schema
+    {
+        return $schema->components($this->getFormSchema());
+    }
+
+    /**
+     * @return list<\Illuminate\Contracts\Support\Htmlable|string>
+     */
     public function getFormSchema(): array
     {
         return $this->getResource()::getFormSchema();
     }
 
     // *
+    //*
+    //*
+    //*
+    //*
     #[Override]
     public function getTableColumns(): array
     {
@@ -97,6 +159,21 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             return [];
         }
 
+        /** @var class-string<\Filament\Resources\Pages\Page> $index_page */
+        $index_page = $index->getPage();
+
+        /** @phpstan-ignore method.nonObject */
+        $index_page = $index->getPage();
+
+        /** @phpstan-ignore method.nonObject */
+        $index_page = $index->getPage();
+
+        /** @var class-string<\Filament\Resources\Pages\Page> $index_page */
+        $index_page = $index->getPage();
+
+        /** @phpstan-ignore method.nonObject */
+        $index_page = $index->getPage();
+
         if (! method_exists($index_page, 'getTableColumns')) {
             // throw new \Exception('method  getTableColumns on '.print_r($index_page,true).' not found');
             return [];
@@ -115,6 +192,26 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
         // Ensure string keys always
         /** @var array<string, Column|Component> $assoc */
+        // @phpstan-ignore-next-line
+        $res = app($index_page)->getTableColumns();
+
+        // Ensure string keys always
+        /** @phpstan-ignore argument.type */
+        $res = app($index_page)->getTableColumns();
+
+        // Ensure string keys always
+        /** @phpstan-ignore argument.type */
+        $res = app($index_page)->getTableColumns();
+
+        // Ensure string keys always
+        // @phpstan-ignore-next-line
+        $res = app($index_page)->getTableColumns();
+
+        // Ensure string keys always
+        /** @phpstan-ignore argument.type */
+        $res = app($index_page)->getTableColumns();
+
+        // Ensure string keys always
         $assoc = [];
         foreach ($res as $key => $column) {
             if (is_string($key)) {
@@ -128,6 +225,8 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 $nameStr = is_string($name) ? $name : (string) $name;
                 $assoc[$nameStr] = $column;
             }
+            $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
+            $assoc[$name] = $column;
         }
 
         /** @var array<string, Column|Component> $assoc */
@@ -161,8 +260,49 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
                 return is_bool($result) ? $result : (bool) $result;
             });
+        if (method_exists($resource, 'canEdit')) {
+            $actions['edit'] = EditAction::make()
+                ->iconButton()
+                ->visible(fn (?Model $record): bool => $resource::canEdit($record));
+        }
+        if (method_exists($resource, 'canDetach')) {
+            $actions['detach'] = DetachAction::make()
+                ->iconButton()
+                ->visible(fn (?Model $record): bool => $resource::canDetach($record));
+        }
+        $actions['edit'] = EditAction::make()
+            ->iconButton()
+            ->visible(fn (?Model $record): bool => $record !== null && $resource::canEdit($record));
+        $actions['detach'] = DetachAction::make()
+            ->iconButton()
+            ->visible(fn (?Model $record): bool => $record !== null && $resource::canDetach($record));
 
         return $actions;
+        if (!$index) {
+            //throw new \Exception('Index page not found');
+            return [];
+        }
+        /** @phpstan-ignore method.nonObject */
+        $index_page = $index->getPage();
+
+        if (!method_exists($index_page, 'getTableColumns')) {
+            //throw new \Exception('method  getTableColumns on '.print_r($index_page,true).' not found');
+            return [];
+        }
+        /** @phpstan-ignore argument.type */
+        $res = app($index_page)->getTableColumns();
+
+        return $res;
+    }
+
+    //*/
+    public function getTableActions(): array
+    {
+        return [
+            EditAction::make(),
+            //Tables\Actions\DeleteAction::make(),
+            DetachAction::make(),
+        ];
     }
 
     public function getTableBulkActions(): array
@@ -181,6 +321,13 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
                     return is_bool($result) ? $result : (bool) $result;
                 });
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDeleteBulk($record));
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDeleteBulk($record));
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
         }
 
         if (method_exists($resource, 'canDetachBulk')) {
@@ -194,9 +341,20 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
                     return is_bool($result) ? $result : (bool) $result;
                 });
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDetachBulk($record));
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDetachBulk($record));
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
         }
 
         return $actions;
+        return [
+            //Tables\Actions\DeleteBulkAction::make(),
+            DetachBulkAction::make(),
+        ];
     }
 
     public function getTableHeaderActions(): array
@@ -210,6 +368,10 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->iconButton()
                 ->tooltip(__('user::actions.attach.label'))
                 ->visible(fn (?Model $_record): bool => $resource::canAttach());
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
         }
         // @phpstan-ignore function.alreadyNarrowedType
         if (method_exists($resource, 'canCreate')) {
@@ -220,6 +382,16 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->visible(fn (?Model $_record): bool => $resource::canCreate());
         }
 
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
         return $actions;
     }
 
@@ -232,4 +404,26 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     // {
     //    return parent::getRelationship();
     // }
+    public function getResource(): string
+    {
+        // @phpstan-ignore property.staticAccess
+        $resource = static::$resource;
+        Assert::classExists($resource);
+        Assert::isAOf($resource, XotBaseResource::class);
+
+        return $resource;
+    }
+
+    //public function getRelationship(): \Illuminate\Database\Eloquent\Relations\Relation|\Illuminate\Database\Eloquent\Builder
+    //{
+    //    return parent::getRelationship();
+    //}
+    public function getRelationship(): Relation|Builder
+    {
+        return parent::getRelationship();
+    }
+    public function getRelationship(): \Illuminate\Database\Eloquent\Relations\Relation|\Illuminate\Database\Eloquent\Builder
+    {
+        return parent::getRelationship();
+    }
 }

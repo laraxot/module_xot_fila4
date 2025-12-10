@@ -6,6 +6,128 @@ uses(TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {});
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Module;
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Module;
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Module;
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+
+uses(TestCase::class);
+
+describe('ModuleService', function () {
+    beforeEach(function () {
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+
+uses(TestCase::class);
+
+describe('ModuleService', function () {
+    beforeEach(function () {
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+
+uses(TestCase::class);
+
+describe('ModuleService', function () {
+    beforeEach(function () {
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Module;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+
+uses(Tests\TestCase::class);
+
+describe('ModuleService', function () {
+    beforeEach(function () {
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+
+    it('can be instantiated', function () {
+    it('can be instantiated', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
+    it('can be instantiated', function () {
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+        $this->service = (new ModuleService())->setName('TestModule');
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+
+    it('can be instantiated', function () {
+    it('can be instantiated', function () {
+    });
+
+    it('can be instantiated', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
+        $this->service = new ModuleService()->setName('TestModule');
+    });
 
     it('can be instantiated', function () {
         expect($this->service)->toBeInstanceOf(ModuleService::class);
@@ -20,6 +142,121 @@ describe('ModuleService', function () {
     });
 
     it('can be instantiated with different module names', function () {
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+        $service1 = new ModuleService();
+    it('can be instantiated with different module names', function (): void {
+        $service1 = new ModuleService;
+        /** @phpstan-ignore-next-line method.nonObject */
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = new ModuleService();
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = new ModuleService();
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = new ModuleService();
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = new ModuleService();
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+        $service1 = new ModuleService();
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+    it('can be instantiated with different module names', function () {
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+    it('can be instantiated with different module names', function (): void {
+        $service1 = new ModuleService;
+        /** @phpstan-ignore-next-line method.nonObject */
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService;
+        /** @phpstan-ignore-next-line method.nonObject */
+        $service2 = $service2->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+    it('can be instantiated with different module names', function () {
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+    it('can be instantiated with different module names', function () {
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+    it('can be instantiated with different module names', function () {
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
     });
@@ -81,10 +318,217 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         $method = $reflection->getMethod('getModels');
 
+
+        expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function (): void {
+        $emptyService = new ModuleService;
+        /** @phpstan-ignore-next-line method.nonObject */
+        $emptyService = $emptyService->setName('NonExistentModule');
+        /** @phpstan-ignore-next-line method.nonObject */
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
     it('handles empty module gracefully', function () {
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function (): void {
+        $emptyService = new ModuleService;
+        /** @phpstan-ignore-next-line method.nonObject */
+        $emptyService = $emptyService->setName('NonExistentModule');
+        /** @phpstan-ignore-next-line method.nonObject */
+        expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+    });
+
+    it('uses correct namespace patterns', function () {
+    it('uses correct namespace patterns', function (): void {
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+    });
+
+    it('uses correct namespace patterns', function () {
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
@@ -122,6 +566,33 @@ describe('ModuleService', function () {
     it('has proper method visibility', function () {
         $reflection = new ReflectionClass($this->service);
         $methods = $reflection->getMethods();
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+        /** @phpstan-ignore-next-line method.nonObject */
+        $publicMethods = array_filter($methods, fn ($method) => $method->isPublic());
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+        
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+        
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
 
         expect(count($publicMethods))->toBeGreaterThan(0);
     });

@@ -7,6 +7,22 @@ namespace Modules\Xot\Models;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Modules\Xot\Models\Traits\RelationX;
+// ---- Traits ----
+use Illuminate\Database\Eloquent\Model;
+// use Laravel\Scout\Searchable;
+// ---- Traits ----
+use Illuminate\Database\Eloquent\Model;
+// use Laravel\Scout\Searchable;
+// ---- Traits ----
+use Illuminate\Database\Eloquent\Model;
+// use Laravel\Scout\Searchable;
+// ---- Traits ----
+// ---- Traits ----
+use Illuminate\Database\Eloquent\Model;
+// use Laravel\Scout\Searchable;
+// ---- Traits ----
+// ---- Traits ----
+// ---- Traits ----
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -16,6 +32,23 @@ abstract class XotBaseModel extends EloquentModel
 {
     use HasXotFactory;
     use RelationX;
+    // use Searchable;
+abstract class XotBaseModel extends Model
+{
+    // use Searchable;
+abstract class XotBaseModel extends Model
+{
+    // use Searchable;
+abstract class XotBaseModel extends Model
+{
+    // use Searchable;
+    // use Searchable;
+    // //use Cachable;
+abstract class XotBaseModel extends Model
+{
+    // use Searchable;
+    // use Searchable;
+    // //use Cachable;
     use Updater;
 
     /**
@@ -46,6 +79,26 @@ abstract class XotBaseModel extends EloquentModel
     protected $primaryKey = 'id';
 
     /** @var string */
+    protected $keyType = 'int';
+    public $incrementing = true;
+
+    public $timestamps = true;
+
+    protected $perPage = 30;
+
+    public $incrementing = true;
+
+    public $timestamps = true;
+
+    protected $perPage = 30;
+
+    // protected $connection = 'xot';
+
+    /** @var list<string> */
+    protected $fillable = ['id'];
+
+    protected $primaryKey = 'id';
+
     protected $keyType = 'string';
 
     /** @var list<string> */
@@ -54,6 +107,14 @@ abstract class XotBaseModel extends EloquentModel
     ];
 
     /** @return array<string, string> */
+    /**
+     * The accessors to append to the model's array form.
+     *
+     * @var list<string>
+     */
+    protected $appends = [];
+
+    /** @return array<string, class-string|string> */
     protected function casts(): array
     {
         return [
@@ -69,4 +130,20 @@ abstract class XotBaseModel extends EloquentModel
             'deleted_by' => 'string',
         ];
     }
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
 }

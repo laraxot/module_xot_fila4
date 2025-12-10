@@ -4,6 +4,48 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Query;
 
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
@@ -25,6 +67,14 @@ class CreateTableIndexByModelClassColumnsAction
      *
      * @param  class-string<Model>  $modelClass  fully qualified model class name
      * @param  array<string>  $columns  array of column names to include in the index
+     * @param class-string<Model> $modelClass fully qualified model class name
+     * @param string[]            $columns    array of column names to include in the index
+     * @param class-string<Model> $modelClass fully qualified model class name
+     * @param string[]            $columns    array of column names to include in the index
+     * @param class-string<Model> $modelClass fully qualified model class name
+     * @param string[]            $columns    array of column names to include in the index
+     * @param class-string<Model> $modelClass fully qualified model class name
+     * @param string[]            $columns    array of column names to include in the index
      *
      * @throws InvalidArgumentException|RuntimeException
      */
@@ -36,11 +86,59 @@ class CreateTableIndexByModelClassColumnsAction
         }
 
         /** @var Model $modelInstance */
-        $modelInstance = new $modelClass;
+        $modelInstance = new $modelClass();
 
         $tableName = $modelInstance->getTable();
         $connectionName = $modelInstance->getConnectionName() ?? config('database.default');
         Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+        if (!is_subclass_of($modelClass, Model::class)) {
+            throw new InvalidArgumentException("{$modelClass} must be a subclass of " . Model::class . '.');
+        }
+
+        /** @var Model $modelInstance */
+        $modelInstance = new $modelClass();
+
+        $tableName = $modelInstance->getTable();
+        $connectionName = $modelInstance->getConnectionName() ?? config('database.default');
+        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        // Validate the table exists
+        if (!Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        // Validate the table exists
+        if (!Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        // Validate the table exists
+        if (!Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        // Validate the table exists
+        if (!Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName);
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        // Validate the table exists
+        if (!Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        // Validate the table exists
+        if (!Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         // Validate the table exists
         if (! Schema::connection($connectionName)->hasTable($tableName)) {
             throw new RuntimeException("Table '{$tableName}' does not exist on connection '{$connectionName}'.");
@@ -59,6 +157,18 @@ class CreateTableIndexByModelClassColumnsAction
 
         // Add the index to the table
         Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns): void {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns): void {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns): void {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
             $table->index($columns, $indexName);
         });
 
@@ -71,12 +181,70 @@ class CreateTableIndexByModelClassColumnsAction
      * @param  string  $connectionName  database connection name
      * @param  string  $tableName  name of the table
      * @param  array<string>  $columns  columns to validate
+     * @param string $connectionName database connection name
+     * @param string $tableName      name of the table
+     * @param string[] $columns        columns to validate
+     * @param string $connectionName database connection name
+     * @param string $tableName      name of the table
+     * @param string[] $columns        columns to validate
+     * @param string $connectionName database connection name
+     * @param string $tableName      name of the table
+     * @param string[] $columns        columns to validate
+     * @param string $connectionName database connection name
+     * @param string $tableName      name of the table
+     * @param string[] $columns        columns to validate
      *
      * @throws RuntimeException
      */
     private function validateColumnsExist(string $connectionName, string $tableName, array $columns): void
     {
         foreach ($columns as $column) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
             if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
                 throw new RuntimeException("Column '{$column}' does not exist in table '{$tableName}'.");
             }
@@ -89,6 +257,10 @@ class CreateTableIndexByModelClassColumnsAction
      * @param  string  $connectionName  database connection name
      * @param  string  $tableName  name of the table
      * @param  string  $indexName  name of the index
+     * @param string $connectionName database connection name
+     * @param string $tableName      name of the table
+     * @param string $indexName      name of the index
+     *
      * @return bool true if the index exists, false otherwise
      */
     private function indexExists(string $connectionName, string $tableName, string $indexName): bool
@@ -106,6 +278,14 @@ class CreateTableIndexByModelClassColumnsAction
 
         $formName = $connection->getDatabaseName();
         $result = $connection->selectOne($query, [$formName, $tableName, $indexName]);
+        $schemaName = $connection->getDatabaseName();
+        $result = $connection->selectOne($query, [$schemaName, $tableName, $indexName]);
+        $schemaName = $connection->getDatabaseName();
+        $result = $connection->selectOne($query, [$schemaName, $tableName, $indexName]);
+        $schemaName = $connection->getDatabaseName();
+        $result = $connection->selectOne($query, [$schemaName, $tableName, $indexName]);
+        $schemaName = $connection->getDatabaseName();
+        $result = $connection->selectOne($query, [$schemaName, $tableName, $indexName]);
 
         // @phpstan-ignore property.nonObject
         return $result && $result->{'COUNT(*)'} > 0;
@@ -117,6 +297,14 @@ class CreateTableIndexByModelClassColumnsAction
      * $connection = DB::connection($connectionName);
      * $formManager = $connection->getDoctrineSchemaManager();
      * $indexes = $formManager->listTableIndexes($tableName);
+     * $schemaManager = $connection->getDoctrineSchemaManager();
+     * $indexes = $schemaManager->listTableIndexes($tableName);
+     * $schemaManager = $connection->getDoctrineSchemaManager();
+     * $indexes = $schemaManager->listTableIndexes($tableName);
+     * $schemaManager = $connection->getDoctrineSchemaManager();
+     * $indexes = $schemaManager->listTableIndexes($tableName);
+     * $schemaManager = $connection->getDoctrineSchemaManager();
+     * $indexes = $schemaManager->listTableIndexes($tableName);
      *
      * return array_key_exists($indexName, $indexes);
      * }
@@ -130,5 +318,33 @@ class CreateTableIndexByModelClassColumnsAction
     private function generateIndexName(string $tableName, array $columns): string
     {
         return $tableName.'_'.implode('_', $columns).'_index';
+     * @param string $tableName name of the table
+     * @param string[] $columns   columns to include in the index
+     */
+    private function generateIndexName(string $tableName, array $columns): string
+    {
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName.'_'.implode('_', $columns).'_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
+        return $tableName . '_' . implode('_', $columns) . '_index';
     }
 }

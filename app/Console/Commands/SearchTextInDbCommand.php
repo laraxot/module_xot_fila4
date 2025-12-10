@@ -35,6 +35,15 @@ class SearchTextInDbCommand extends Command
         } else {
             $tables = collect($specificTables);
         }
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
 
         foreach ($tables as $table) {
             // Get table name with proper type checking
@@ -42,6 +51,9 @@ class SearchTextInDbCommand extends Command
             if (is_object($table)) {
                 // Usa isset() invece di property_exists per oggetti stdClass
                 if (isset($table->$tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
                     $tableName = $table->$tableProp;
                 }
             } elseif (is_string($table)) {
@@ -91,6 +103,9 @@ class SearchTextInDbCommand extends Command
 
                 if ($results->isNotEmpty()) {
                     $this->info("Found in column: {$column}");
+                    $this->info("Found in column: $column");
+                    $this->info("Found in column: $column");
+                    $this->info("Found in column: $column");
                     foreach ($results as $result) {
                         $this->table(
                             ['Column', 'Value'],

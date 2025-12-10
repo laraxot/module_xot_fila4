@@ -5,6 +5,16 @@ declare(strict_types=1);
 namespace Modules\Xot\States\Transitions;
 
 use BackedEnum;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
 use Filament\Notifications\Notification as FilamentNotification;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
@@ -15,12 +25,33 @@ use Modules\Xot\Contracts\UserContract;
 use Spatie\ModelStates\Transition;
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
 
 abstract class XotBaseTransition extends Transition
 {
     public function __construct(
         public Model $record,
         public ?string $message = '',
+        public null|string $message = '',
+        public null|string $message = '',
+        public null|string $message = '',
+        public null|string $message = '',
+        public null|string $message = '',
     ) {}
 
     public function handle(): Model
@@ -30,6 +61,70 @@ abstract class XotBaseTransition extends Transition
 
         $stateNamespace = Str::of($class)->beforeLast('\Transitions\\')->toString();
         $stateClassName = Str::of($class)->afterLast('To')->toString();
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 
         /* @phpstan-ignore-next-line */
@@ -50,6 +145,10 @@ abstract class XotBaseTransition extends Transition
 
     /**
      * @return array<string, RecordNotificationData>
+     * @return  array<string, RecordNotificationData>
+     * @return  array<string, RecordNotificationData>
+     * @return  array<string, RecordNotificationData>
+     * @return  array<string, RecordNotificationData>
      */
     public function getNotificationRecipients(): array
     {
@@ -67,6 +166,10 @@ abstract class XotBaseTransition extends Transition
      * Get notification attachments.
      *
      * @return array<int, array<string, string>>
+     * @return array<int, mixed>
+     * @return array<int, mixed>
+     * @return array<int, mixed>
+     * @return array<int, mixed>
      */
     public function getNotificationAttachments(): array
     {
@@ -83,6 +186,12 @@ abstract class XotBaseTransition extends Transition
             '-'.
             $type.
             '-'.
+        $type = $recipient->type->value;
+        $slug =
+            class_basename($this->record) .
+            '-' .
+            $type .
+            '-' .
             Str::of(class_basename(static::class))->kebab()->toString();
         $slug = Str::slug($slug);
 
@@ -109,10 +218,73 @@ abstract class XotBaseTransition extends Transition
         $attachments = $this->getNotificationAttachments();
 
         $notify->addAttachments($attachments);
+        $notify = new RecordNotification($this->record, $slug);
+
+        //$data = $this->getNotificationData();
+        $notify = $notify->mergeData($data);
+        $notify = $notify->addAttachments($this->getNotificationAttachments());
+
+        //$data = $this->getNotificationData();
+
+        //$data = $this->getNotificationData();
+
+        // $data = $this->getNotificationData();
+        $notify = $notify->mergeData($data);
+        $notify = $notify->addAttachments($this->getNotificationAttachments());
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
         } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+        
+
+        try {
+            Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+        
+        try {
+            Notification::route($recipient->getChannel(), $recipient->getRoute())
+                ->notify($notify);
+        } catch (\TypeError|\Webmozart\Assert\InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
             $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
             FilamentNotification::make()
                 ->title('Error')

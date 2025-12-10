@@ -24,6 +24,114 @@ class ListFilamentPanels extends Command
         foreach ($modules as $moduleName => $module) {
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+                continue;
+            }
+
+            /** @var Collection<int, string> $providerFiles */
+            $providerFiles = collect(scandir($providersPath));
+            $providers = $providerFiles
+                ->filter(fn (mixed $file): bool => str_ends_with((string) $file, 'ServiceProvider.php'));
+
+            foreach ($providers as $provider) {
+                if (! is_string($provider)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+                continue;
+            }
+
+            $providers = collect(scandir($providersPath))
+                ->filter(function ($file): bool {
+                    return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
+                });
+
+            foreach ($providers as $provider) {
+                if (! is_string($provider)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+                continue;
+            }
+
+            $providers = collect(scandir($providersPath))
+                ->filter(function ($file): bool {
+                    return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
+                });
+
+            foreach ($providers as $provider) {
+                if (! is_string($provider)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
                 continue;
             }
 
@@ -42,6 +150,51 @@ class ListFilamentPanels extends Command
                     continue;
                 }
 
+                $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+                if (! class_exists($providerClass)) {
+                    continue;
+                }
+
+                $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+                if (! class_exists($providerClass)) {
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+                continue;
+            }
+
+            $providers = collect(scandir($providersPath))
+                ->filter(fn(string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
+
+            foreach ($providers as $provider) {
+                $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+                if (!class_exists($providerClass)) {
+                ->filter(fn (string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
+
+            foreach ($providers as $provider) {
+                $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+                if (! class_exists($providerClass)) {
+                ->filter(fn(string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
+
+            foreach ($providers as $provider) {
+                $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+                if (!class_exists($providerClass)) {
+                    continue;
+                }
+
+                $this->info("Found panel in {$moduleName}: {$provider}");
+                $this->info('Found panel in '.$moduleName.': '.$provider);
+                $this->info("Found panel in {$moduleName}: {$provider}");
+                $this->info("Found panel in {$moduleName}: {$provider}");
+                    continue;
+                }
+
+                $this->info("Found panel in {$moduleName}: {$provider}");
+                    continue;
+                }
+
+                $this->info("Found panel in {$moduleName}: {$provider}");
+                $this->info('Found panel in '.$moduleName.': '.$provider);
+                $this->info("Found panel in {$moduleName}: {$provider}");
                 $this->info("Found panel in {$moduleName}: {$provider}");
             }
         }

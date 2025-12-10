@@ -45,6 +45,34 @@ class SafeArrayCastAction
      * @return array Il valore convertito
      */
     public function execute(mixed $value, ?array $default = []): array
+     * @param mixed $value Il valore da convertire
+     * @param array|null $default Valore di default se la conversione fallisce (default: [])
+     *
+     * @return array Il valore convertito
+     */
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, ?array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
+    public function execute(mixed $value, null|array $default = []): array
     {
         // Se è già un array, restituiscilo direttamente
         if (is_array($value)) {
@@ -65,6 +93,66 @@ class SafeArrayCastAction
 
         // Se è un oggetto stdClass, convertilo in array
         if (is_object($value) && $value::class === 'stdClass') {
+        if (is_object($value) && get_class($value) === 'stdClass') {
+            return (array) $value;
+        }
+
+
+
+        
+        
+        // Se è un oggetto stdClass, convertilo in array
+        if (is_object($value) && get_class($value) === 'stdClass') {
+            return (array) $value;
+        }
+
+
+            return is_array($result) ? $result : ($default ?? []);
+        }
+
+        
+        // Se è un oggetto stdClass, convertilo in array
+        if (is_object($value) && get_class($value) === 'stdClass') {
+            return (array) $value;
+        }
+
+
+            return is_array($result) ? $result : ($default ?? []);
+        }
+
+        
+        // Se è un oggetto stdClass, convertilo in array
+        if (is_object($value) && get_class($value) === 'stdClass') {
+            return (array) $value;
+        }
+
+
+        
+        // Se è un oggetto stdClass, convertilo in array
+        if (is_object($value) && get_class($value) === 'stdClass') {
+            return (array) $value;
+        }
+
+
+            return is_array($result) ? $result : ($default ?? []);
+        }
+
+        
+        // Se è un oggetto stdClass, convertilo in array
+        if (is_object($value) && get_class($value) === 'stdClass') {
+            return (array) $value;
+        }
+
+
+        
+        // Se è un oggetto stdClass, convertilo in array
+        if (is_object($value) && get_class($value) === 'stdClass') {
+            return (array) $value;
+        }
+
+
+        // Se è un oggetto stdClass, convertilo in array
+        if (is_object($value) && get_class($value) === 'stdClass') {
             return (array) $value;
         }
 
@@ -98,6 +186,13 @@ class SafeArrayCastAction
      * @return array Il valore convertito con chiavi validate
      */
     public function executeWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+     * @param mixed $value Il valore da convertire
+     * @param array $requiredKeys Chiavi che devono essere presenti
+     * @param array|null $default Valore di default se la conversione fallisce
+     *
+     * @return array Il valore convertito con chiavi validate
+     */
+    public function executeWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
     {
         $array = $this->execute($value, $default);
 
@@ -107,6 +202,10 @@ class SafeArrayCastAction
                 continue;
             }
             if (! array_key_exists($key, $array)) {
+            if (!is_string($key) && !is_int($key)) {
+                continue;
+            }
+            if (!array_key_exists($key, $array)) {
                 return $default ?? [];
             }
         }
@@ -123,12 +222,23 @@ class SafeArrayCastAction
      * @return array Il valore convertito con solo le chiavi permesse
      */
     public function executeWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+     * @param mixed $value Il valore da convertire
+     * @param array $allowedKeys Solo queste chiavi saranno mantenute
+     * @param array|null $default Valore di default se la conversione fallisce
+     *
+     * @return array Il valore convertito con solo le chiavi permesse
+     */
+    public function executeWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
     {
         $array = $this->execute($value, $default);
 
         // Filtra solo le chiavi permesse
         $flippedKeys = array_flip(array_filter($allowedKeys, fn ($key) => is_string($key) || is_int($key)));
 
+        $flippedKeys = array_flip(array_filter($allowedKeys, fn($key) => is_string($key) || is_int($key)));
+        $flippedKeys = array_flip(array_filter($allowedKeys, fn($key) => is_string($key) || is_int($key)));
+        $flippedKeys = array_flip(array_filter($allowedKeys, fn($key) => is_string($key) || is_int($key)));
+        $flippedKeys = array_flip(array_filter($allowedKeys, fn($key) => is_string($key) || is_int($key)));
         return array_intersect_key($array, $flippedKeys);
     }
 
@@ -141,6 +251,16 @@ class SafeArrayCastAction
      * @return array Il valore convertito con valori del tipo richiesto
      */
     public function executeWithValueType(mixed $value, string $valueType, ?array $default = []): array
+     * @param mixed $value Il valore da convertire
+     * @param string $valueType Tipo richiesto per i valori ('string', 'int', 'float', 'bool')
+     * @param array|null $default Valore di default se la conversione fallisce
+     *
+     * @return array Il valore convertito con valori del tipo richiesto
+     */
+    public function executeWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public function executeWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public function executeWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public function executeWithValueType(mixed $value, string $valueType, null|array $default = []): array
     {
         $array = $this->execute($value, $default);
 
@@ -163,6 +283,14 @@ class SafeArrayCastAction
      * Verifica se un valore può essere convertito in array.
      *
      * @param  mixed  $value  Il valore da verificare
+     * @param mixed $value Il valore da verificare
+     *
+     * @param mixed $value Il valore da verificare
+     *
+     * @param mixed $value Il valore da verificare
+     *
+     * @param mixed $value Il valore da verificare
+     *
      * @return bool True se il valore può essere convertito in array
      */
     public function canCast(mixed $value): bool
@@ -178,6 +306,34 @@ class SafeArrayCastAction
      * @return array Il valore convertito in array
      */
     public static function cast(mixed $value, ?array $default = []): array
+     * @param mixed $value Il valore da convertire
+     * @param array|null $default Valore di default se la conversione fallisce (default: [])
+     *
+     * @return array Il valore convertito in array
+     */
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, ?array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
+    public static function cast(mixed $value, null|array $default = []): array
     {
         return app(self::class)->execute($value, $default);
     }
@@ -191,6 +347,35 @@ class SafeArrayCastAction
      * @return array Il valore convertito con chiavi validate
      */
     public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+     * @param mixed $value Il valore da convertire
+     * @param array $requiredKeys Chiavi che devono essere presenti
+     * @param array|null $default Valore di default se la conversione fallisce
+     *
+     * @return array Il valore convertito con chiavi validate
+     */
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, ?array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+    public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
     {
         return app(self::class)->executeWithKeys($value, $requiredKeys, $default);
     }
@@ -204,6 +389,35 @@ class SafeArrayCastAction
      * @return array Il valore convertito con solo le chiavi permesse
      */
     public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+     * @param mixed $value Il valore da convertire
+     * @param array $allowedKeys Solo queste chiavi saranno mantenute
+     * @param array|null $default Valore di default se la conversione fallisce
+     *
+     * @return array Il valore convertito con solo le chiavi permesse
+     */
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, ?array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+    public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
     {
         return app(self::class)->executeWithFilter($value, $allowedKeys, $default);
     }
@@ -217,6 +431,35 @@ class SafeArrayCastAction
      * @return array Il valore convertito con valori del tipo richiesto
      */
     public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+     * @param mixed $value Il valore da convertire
+     * @param string $valueType Tipo richiesto per i valori
+     * @param array|null $default Valore di default se la conversione fallisce
+     *
+     * @return array Il valore convertito con valori del tipo richiesto
+     */
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, ?array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+    public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
     {
         return app(self::class)->executeWithValueType($value, $valueType, $default);
     }

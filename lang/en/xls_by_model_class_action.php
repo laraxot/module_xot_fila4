@@ -2,6 +2,26 @@
 
 declare(strict_types=1);
 
+
+declare(strict_types=1);
+
+
+
+
+declare(strict_types=1);
+
+
+
+
+declare(strict_types=1);
+
+
+
+
+declare(strict_types=1);
+
+
+
 return [
     'id' => 'id',
     'level' => 'level',

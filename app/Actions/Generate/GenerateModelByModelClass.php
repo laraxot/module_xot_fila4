@@ -21,6 +21,138 @@ class GenerateModelByModelClass
      * Execute the function with the given model class.
      *
      * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param  string  $model_class  the class name of the model
+     * @param  string  $model_class  the class name of the model
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+     * @param  string  $model_class  the class name of the model
+     * @param  string  $model_class  the class name of the model
      */
     public function execute(string $model_class): string
     {
@@ -37,12 +169,105 @@ class GenerateModelByModelClass
         foreach ($this->replaces as $k => $v) {
             if (method_exists($this, 'replace'.$k)) {
                 $content = $this->{'replace'.$k}($v, $content);
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+            Assert::string($k, 'Replace key must be string');
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+                Assert::string($content, 'Content must remain string after replace');
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
             }
 
             // $content=$this->replace($content,$k,$v);
         }
         $content = is_string($content) ? str_replace(' extends Model', ' extends BaseModel', $content) : $content;
         $content = is_string($content) ? str_replace('use \Modules\Xot\Models\Traits\HasXotFactory;', '', $content) : $content;
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        Assert::string($content, 'Content must be string before final replacements');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use \Modules\Xot\Models\Traits\HasXotFactory;', '', $content);
+        $content = is_string($content) ? str_replace(' extends Model', ' extends BaseModel', $content) : $content;
+        $content = is_string($content) ? str_replace('use HasFactory;', '', $content) : $content;
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+                Assert::string($content, 'Content must be string after replace method');
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+            }
+
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+            }
+            // $content=$this->replace($content,$k,$v);
+        }
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+            }
+            // $content=$this->replace($content,$k,$v);
+        }
+        Assert::string($content, 'Content must be string before str_replace');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
         Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
 
         if ($content !== $content_old) {
@@ -60,6 +285,41 @@ class GenerateModelByModelClass
             '['.__LINE__.']['.class_basename($this).']',
         );
         $fillable_end = mb_strpos($content, '];', $fillable_start);
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+        if ($table_start === false) {
+            $before = mb_substr($content, 0, $fillable_end + 2);
+            $after = mb_substr($content, $fillable_end + 2);
+            $content = $before.PHP_EOL.'    protected $table = "'.$value.'";'.PHP_EOL.$after;
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+        );
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+        );
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+        if (false === $table_start) {
+            $before = mb_substr($content, 0, $fillable_end + 2);
+            $after = mb_substr($content, $fillable_end + 2);
+            $content = $before . PHP_EOL . '    protected $table = "' . $value . '";' . PHP_EOL . $after;
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+        if (false === $table_start) {
+            $before = mb_substr($content, 0, $fillable_end + 2);
+            $after = mb_substr($content, $fillable_end + 2);
+            $content = $before.PHP_EOL.'    protected $table = "'.$value.'";'.PHP_EOL.$after;
+            $content = $before . PHP_EOL . '    protected $table = "' . $value . '";' . PHP_EOL . $after;
+            $content = $before.PHP_EOL.'    protected $table = "'.$value.'";'.PHP_EOL.$after;
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
+        Assert::integer($fillable_start = mb_strpos($content, 'protected $fillable'), '['.__LINE__.']['.class_basename($this).']');
+        $fillable_end = mb_strpos($content, '];', $fillable_start);
         if ($table_start === false) {
             $before = mb_substr($content, 0, $fillable_end + 2);
             $after = mb_substr($content, $fillable_end + 2);
@@ -72,6 +332,138 @@ class GenerateModelByModelClass
     /**
      * Create a factory for the given model class.
      *
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+     * @param  string  $model_class  The class name of the model to create the factory for
      * @param  string  $model_class  The class name of the model to create the factory for
      */
     public function generate(string $model_class): void

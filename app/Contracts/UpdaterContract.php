@@ -6,6 +6,16 @@ namespace Modules\Xot\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
 
 /**
  * Modules\Xot\Contracts\UpdaterContract.
@@ -14,9 +24,33 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $created_by
  * @property string|null $updated_by
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null                     $created_by
+ * @property string|null                     $updated_by
+ * @property string|null                     $created_by
+ * @property string|null                     $updated_by
+ * @property string|null                     $created_by
+ * @property string|null                     $updated_by
+ * @property string|null                     $created_by
+ * @property string|null                     $updated_by
+ * @property string|null                     $created_by
+ * @property string|null                     $updated_by
  *
  * @phpstan-require-extends Model
  *
  * @mixin \Eloquent
  */
 interface UpdaterContract {}
+interface UpdaterContract
+{
+}
+interface UpdaterContract
+{
+}
+interface UpdaterContract
+{
+}
+interface UpdaterContract
+{
+}

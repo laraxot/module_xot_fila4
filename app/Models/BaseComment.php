@@ -12,6 +12,18 @@ use Illuminate\Database\Eloquent\Model;
  * Base class for comments extending Eloquent Model.
  */
 abstract class BaseComment extends BaseModel
+abstract class BaseComment extends Model
+abstract class BaseComment extends Model
+abstract class BaseComment extends Model
+abstract class BaseComment extends Model
+abstract class BaseComment extends XotBaseModel
+abstract class BaseComment extends Model
+abstract class BaseComment extends Model
+abstract class BaseComment extends Model
+abstract class BaseComment extends Model
+abstract class BaseComment extends XotBaseModel
+abstract class BaseComment extends Model
+abstract class BaseComment extends Model
 {
     // Common properties and methods for comments can be added here.
 }

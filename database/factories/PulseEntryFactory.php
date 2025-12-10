@@ -10,6 +10,21 @@ use Modules\Xot\Models\PulseEntry;
 /**
  * @extends Factory<PulseEntry>
  */
+use Modules\Xot\Models\PulseEntry;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseEntry;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseEntry;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseEntry;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseEntry;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
 class PulseEntryFactory extends Factory
 {
     /**

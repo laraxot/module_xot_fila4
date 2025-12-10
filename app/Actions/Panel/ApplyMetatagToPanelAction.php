@@ -7,6 +7,14 @@ namespace Modules\Xot\Actions\Panel;
 use Exception;
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Log;
+use Filament\Panel;
+use Illuminate\Support\Facades\Log;
+use Filament\Panel;
+use Illuminate\Support\Facades\Log;
+use Filament\Panel;
+use Illuminate\Support\Facades\Log;
+use Filament\Panel;
 use Modules\Xot\Datas\MetatagData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -18,6 +26,29 @@ class ApplyMetatagToPanelAction
     {
         try {
             $metatag = MetatagData::make();
+
+            
+            
+
+
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+            
+            
+            
+            
+
 
             return $panel
                 // @phpstan-ignore argument.type
@@ -31,6 +62,13 @@ class ApplyMetatagToPanelAction
             // Log l'errore ma non bloccare l'applicazione
             Log::error('Error applying metatag to panel: '.$e->getMessage());
 
+        } catch (Exception $e) {
+            // Log l'errore ma non bloccare l'applicazione
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
             return $panel;
         }
     }

@@ -10,6 +10,21 @@ use Modules\Xot\Models\PulseValue;
 /**
  * @extends Factory<PulseValue>
  */
+use Modules\Xot\Models\PulseValue;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseValue;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseValue;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseValue;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+use Modules\Xot\Models\PulseValue;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
 class PulseValueFactory extends Factory
 {
     /**

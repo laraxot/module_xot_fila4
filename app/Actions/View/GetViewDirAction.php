@@ -22,5 +22,10 @@ class GetViewDirAction
         $view_dir = $pack_dir.'/'.$relative_path;
 
         return str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
+        $view_dir = $pack_dir . '/' . $relative_path;
+
+        $res = str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
+
+        return $res;
     }
 }

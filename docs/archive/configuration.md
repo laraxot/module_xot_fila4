@@ -68,4 +68,9 @@ return [
 - [Documentazione Principale](../README.md) 
 ## Collegamenti tra versioni di configuration.md
 * [configuration.md](docs/configuration.md)
+<<<<<<< HEAD
+=======
+* [configuration.md](../../../Xot/docs/configuration.md)
+* [configuration.md](../../../Cms/docs/configuration.md)
+>>>>>>> 85cdef688 (.)
 

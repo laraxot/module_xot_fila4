@@ -48,4 +48,10 @@
 - [Linee Guida Documentazione](../../DOCUMENTATION-GUIDELINES.md)
 - [Best Practices](../../BEST-PRACTICES.md) 
 ## Collegamenti tra versioni di status.md
+<<<<<<< HEAD
+=======
+* [status.md](../../../Xot/docs/roadmap/docs/status.md)
+* [status.md](../../../Xot/docs/roadmap/testing/status.md)
+* [status.md](../../../Xot/docs/roadmap/security/status.md)
+>>>>>>> 85cdef688 (.)
 

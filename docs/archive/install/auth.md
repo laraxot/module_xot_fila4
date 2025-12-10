@@ -115,6 +115,12 @@ return [
 
 
 ## Collegamenti tra versioni di auth.md
+<<<<<<< HEAD
+=======
+* [auth.md](../../../Xot/docs/install/auth.md)
+* [auth.md](../../../User/docs/lang/en/auth.md)
+* [auth.md](../../../Tenant/docs/it/config/auth.md)
+>>>>>>> 85cdef688 (.)
 
 
 ### Versione Incoming

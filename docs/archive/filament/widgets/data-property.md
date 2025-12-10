@@ -101,3 +101,8 @@ class RegistrationWidget extends XotBaseWidget
 ## Riferimenti
 
 - [XotBaseWidget](../../app/Filament/Widgets/XotBaseWidget.php)
+<<<<<<< HEAD
+=======
+- [Filament Forms](https://filamentphp.com/docs/3.x/forms/installation)
+- [Livewire Data Binding](https://livewire.laravel.com/docs/properties)
+>>>>>>> 85cdef688 (.)

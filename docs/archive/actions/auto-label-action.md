@@ -16,6 +16,10 @@ Il file `AutoLabelAction.php` presentava marker di conflitto (``) e duplicazioni
 - Verificata la compatibilità del codice con PHPStan livello 9.
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+- [Doc root Xot](/docs/index.md)
+>>>>>>> 85cdef688 (.)
 
 ---
 

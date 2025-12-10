@@ -29,6 +29,7 @@ ModuleName/
 ├── routes/
 ├── tests/
 └── composer.json
+<<<<<<< HEAD
 ---
 
 ## Gestione dati geografici statici: GeoJsonModel readonly (ispirato a Squire)
@@ -64,6 +65,8 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 class NomeModuloServiceProvider extends XotBaseServiceProvider {
     // Implementazione
 }
+=======
+>>>>>>> 85cdef688 (.)
 ```
 
 ## Collegamenti
@@ -189,6 +192,10 @@ Utilizzare il comando di analisi per verificare la conformità:
 php artisan xot:analyze-naming
 ```
 
+<<<<<<< HEAD
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
+>>>>>>> 85cdef688 (.)
 
 ## Esempi
 
@@ -442,4 +449,8 @@ Se trovi una directory con case errato:
 6. Committa le modifiche
 
 ## Collegamenti tra versioni di module_structure.md
+<<<<<<< HEAD
+=======
+* [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+>>>>>>> 85cdef688 (.)
 

@@ -542,3 +542,7 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 ## Collegamenti Correlati
 - [XotBaseChartWidget](./xotbase-chart-widget.md)
 - [XotBaseWidget](./xotbase-widget.md)
+<<<<<<< HEAD
+=======
+- [Filament Widgets Documentation](https://filamentphp.com/docs/2.x/admin/widgets) 
+>>>>>>> 85cdef688 (.)

@@ -169,6 +169,11 @@ return [
 
 
 ## Collegamenti tra versioni di permission.md
+<<<<<<< HEAD
+=======
+* [permission.md](../../../Xot/docs/install/permission.md)
+* [permission.md](../../../Tenant/docs/it/config/permission.md)
+>>>>>>> 85cdef688 (.)
 
 
 ### Versione Incoming

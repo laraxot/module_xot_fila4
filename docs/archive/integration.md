@@ -68,6 +68,12 @@
 
 
 ## Collegamenti tra versioni di integration.md
+<<<<<<< HEAD
+=======
+* [integration.md](../../../Gdpr/docs/integration.md)
+* [integration.md](../../../Xot/docs/integration.md)
+* [integration.md](../../../Job/docs/integration.md)
+>>>>>>> 85cdef688 (.)
 
 
 ### Versione Incoming

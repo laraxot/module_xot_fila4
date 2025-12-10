@@ -48,4 +48,10 @@
 - [Best Practices Testing](../../BEST-PRACTICES.md#testing)
 - [PHPStan Progress](../../phpstan_progress.md) 
 ## Collegamenti tra versioni di status.md
+<<<<<<< HEAD
+=======
+* [status.md](../../../Xot/docs/roadmap/docs/status.md)
+* [status.md](../../../Xot/docs/roadmap/testing/status.md)
+* [status.md](../../../Xot/docs/roadmap/security/status.md)
+>>>>>>> 85cdef688 (.)
 

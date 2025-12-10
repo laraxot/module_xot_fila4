@@ -50,3 +50,9 @@ Per supporto e domande, contattare il team di sviluppo.
 3. Utilizzare URL e indirizzi email generici o segnaposto nei documenti di esempio
 
 ## Collegamenti Bidirezionali
+<<<<<<< HEAD
+=======
+- [Standard di Documentazione Generale](../../Xot/docs/standards/documentation.md)
+- [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
+- [Struttura dei Moduli](../../Xot/docs/architecture/modules.md)
+>>>>>>> 85cdef688 (.)

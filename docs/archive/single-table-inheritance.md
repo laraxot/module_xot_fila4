@@ -76,5 +76,9 @@
 
 ## Collegamenti
 
+<<<<<<< HEAD
+=======
+- [Modelli Patient](../Patient/docs/models.md)
+>>>>>>> 85cdef688 (.)
 - [Best Practices Modelli](./models.md)
 - [Convenzioni di Codice](./coding-standards.md) 

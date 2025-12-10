@@ -132,6 +132,10 @@ TextInput::make('name')->required(),
 **NON CI SONO ECCEZIONI. Questa regola si applica a TUTTI i componenti Filament senza distinzione.**
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+- [Modules/UI/docs/filament/no-label-rule.md](../laravel/Modules/UI/docs/filament/no-label-rule.md)
+>>>>>>> 85cdef688 (.)
 - [docs/translation-expanded-rules.md](translation-expanded-rules.md)
 
 *Ultimo aggiornamento: 2025-08-04*

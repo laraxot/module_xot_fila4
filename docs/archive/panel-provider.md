@@ -87,5 +87,13 @@ public function panel(Panel $panel): Panel
 
 ### Collegamenti
 
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
+- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
+- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
+
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 85cdef688 (.)

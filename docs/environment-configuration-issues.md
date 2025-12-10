@@ -137,5 +137,11 @@ php artisan config:cache
 - [XotData.php](/laravel/Modules/Xot/app/Datas/XotData.php)
 - [TenantService.php](/laravel/Modules/Tenant/app/Services/TenantService.php)
 - [xra.php](/laravel/config/localhost/xra.php)
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+- [Documentazione Root](/project_docs/env-config-loading-issue.md)
+
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 85cdef688 (.)

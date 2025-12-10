@@ -12,6 +12,11 @@ Questa cartella contiene le convenzioni di nomenclatura e le regole di stile uti
 
 Queste convenzioni devono essere seguite per mantenere la coerenza del codice in tutto il progetto. 
 ## Collegamenti tra versioni di README.md
+<<<<<<< HEAD
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 85cdef688 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)

@@ -58,3 +58,9 @@ use Modules\Xot\Filament\Pages\MainDashboard;
 
 ## Link Correlati
 
+<<<<<<< HEAD
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Sistema di Autorizzazioni](../../../docs/auth/index.md)
+- [Gestione Ruoli](../../../docs/auth/roles.md) 
+>>>>>>> 85cdef688 (.)

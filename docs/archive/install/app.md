@@ -14,6 +14,11 @@ return [
 
 
 ## Collegamenti tra versioni di app.md
+<<<<<<< HEAD
+=======
+* [app.md](../../../Xot/docs/install/app.md)
+* [app.md](../../../Tenant/docs/it/config/app.md)
+>>>>>>> 85cdef688 (.)
 
 
 ### Versione Incoming

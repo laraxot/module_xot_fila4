@@ -819,6 +819,13 @@ class XotPerformanceMonitor
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
+=======
+- [Laravel Architecture Patterns](https://laravel.com/docs/architecture-concepts)
+- [PHPStan Level 10 Guidelines](../../../docs/phpstan-level-10.md)
+- [SOLID Principles in PHP](../../../docs/solid-principles.md)
+- [Performance Best Practices](../../../docs/performance-best-practices.md)
+>>>>>>> 85cdef688 (.)
 
 ---
 

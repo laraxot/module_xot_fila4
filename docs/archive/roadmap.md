@@ -41,6 +41,10 @@
 - [x] Collegamenti bidirezionali
 - [ ] Completamento esempi
 - [ ] Testi in italiano
+<<<<<<< HEAD
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 85cdef688 (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -235,6 +239,12 @@
 ## Collegamenti Bidirezionali
 
 ### Collegamenti ad Altri Moduli
+<<<<<<< HEAD
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 85cdef688 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -409,6 +419,10 @@
 ## Riferimenti
 
 ### Documentazione
+<<<<<<< HEAD
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 85cdef688 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 

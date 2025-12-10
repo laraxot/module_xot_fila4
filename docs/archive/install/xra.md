@@ -22,6 +22,12 @@ return [
 
 
 ## Collegamenti tra versioni di xra.md
+<<<<<<< HEAD
+=======
+* [xra.md](../../../Xot/docs/install/xra.md)
+* [xra.md](../../../Tenant/docs/it/xra.md)
+* [xra.md](../../../Tenant/docs/it/config/xra.md)
+>>>>>>> 85cdef688 (.)
 
 
 ### Versione Incoming

@@ -15,6 +15,11 @@ Modulo test serve per mettere azioni da testare.
 
 
 ## Collegamenti tra versioni di test.md
+<<<<<<< HEAD
+=======
+* [test.md](../../../Xot/docs/modules/test.md)
+* [test.md](../../../Lang/docs/test.md)
+>>>>>>> 85cdef688 (.)
 
 
 ### Versione Incoming

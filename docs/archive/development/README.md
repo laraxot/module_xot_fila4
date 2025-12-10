@@ -13,6 +13,11 @@ Questa cartella contiene la documentazione relativa agli strumenti e alle pratic
 
 Questa documentazione è essenziale per tutti gli sviluppatori che lavorano al progetto. 
 ## Collegamenti tra versioni di README.md
+<<<<<<< HEAD
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 85cdef688 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)

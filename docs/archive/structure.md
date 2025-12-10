@@ -1023,6 +1023,11 @@ tests_old
 
 ## Collegamenti alla documentazione generale
 
+<<<<<<< HEAD
+=======
+- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/docs/phpstan/)
+>>>>>>> 85cdef688 (.)
 
 
 ### Versione Incoming

@@ -45,6 +45,11 @@ php analyze_modules_phpstan.php
 
 Per ogni modulo, gli script generano:
 
+<<<<<<< HEAD
+=======
+- File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
+- File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
+>>>>>>> 85cdef688 (.)
 
 ## Livelli di analisi
 
@@ -102,6 +107,11 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 ``` 
 
 ## Collegamenti tra versioni di README.md
+<<<<<<< HEAD
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 85cdef688 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)

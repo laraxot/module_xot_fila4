@@ -81,6 +81,12 @@ Elenco di pratiche da evitare nello sviluppo.
 - Tight Coupling
 
 ## Collegamenti tra versioni di patterns.md
+<<<<<<< HEAD
+=======
+* [patterns.md](../../../Xot/docs/en/patterns.md)
+* [patterns.md](../../../Xot/docs/it/patterns.md)
+* [patterns.md](../../../Xot/docs/architecture/patterns.md)
+>>>>>>> 85cdef688 (.)
 
 
 ### Versione Incoming

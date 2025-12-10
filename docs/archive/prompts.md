@@ -97,11 +97,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ## Collegamenti tra versioni di prompts.md
 * [prompts.md](docs/prompts.md)
-<<<<<<< HEAD
 * [prompts.md](../../../Xot/docs/prompts.md)
-=======
-* [prompts.md](../../../Xot/project_docs/prompts.md)
->>>>>>> 6cba4fe (.)
 
 
 ## Modifiche al Prompt docs.txt
@@ -127,6 +123,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +498,9 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 0123915b (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -643,6 +643,7 @@ Il prompt `docs.txt` serve come:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    ```
 >>>>>>> 5a14301c (.)
@@ -825,3 +826,5 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 0123915b (.)

@@ -10,20 +10,6 @@ namespace Modules\Xot\Actions\Pdf;
 enum PdfEngineEnum: string
 {
     case SPIPU = 'spipu';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     // TODO: Aggiungere altri engine se necessario
 }

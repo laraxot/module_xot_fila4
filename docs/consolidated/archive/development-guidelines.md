@@ -34,7 +34,10 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 # Development Guidelines - Xot Module
 
 ## Panoramica
@@ -164,10 +167,13 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> ecd5ec32 (.)
 =======
 =======
+=======
+>>>>>>> cc52d333 (.)
 # Development Guidelines - Xot Module
 
 ## Panoramica
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88e35986 (.)
@@ -205,7 +211,12 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 
 ## PHPStan Best Practices
 
@@ -270,6 +281,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
@@ -289,6 +301,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+=======
+>>>>>>> f8f76a284 (.)
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 =======
 >>>>>>> 358ba79a7 (.)
@@ -328,4 +342,10 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)

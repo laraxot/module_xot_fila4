@@ -3,16 +3,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,7 +174,13 @@
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 
 ## Analisi Completa
 
@@ -237,6 +247,7 @@ Accesso a proprietà non definite nei modelli.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
 =======
 >>>>>>> ce6fc085 (.)
@@ -278,7 +289,13 @@ Accesso a proprietà non definite nei modelli.
 =======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -309,6 +326,7 @@ Accesso a proprietà non definite nei modelli.
 ### Priorità 3 (Applicazione)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,7 +402,14 @@ Accesso a proprietà non definite nei modelli.
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -397,6 +422,7 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,7 +474,13 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 =======
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale
@@ -543,6 +575,7 @@ class MyModel extends BaseModel
 **Approccio**: DRY + KISS + Type Safety
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -553,3 +586,5 @@ class MyModel extends BaseModel
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)

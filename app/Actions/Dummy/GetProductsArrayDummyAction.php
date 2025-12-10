@@ -8,10 +8,13 @@ namespace Modules\Xot\Actions\Dummy;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 use Exception;
 =======
 <<<<<<< HEAD
@@ -19,6 +22,7 @@ use Exception;
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -29,6 +33,8 @@ use Exception;
 =======
 use Exception;
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
 use Spatie\QueueableAction\QueueableAction;
@@ -45,10 +51,13 @@ class GetProductsArrayDummyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
 =======
 <<<<<<< HEAD
@@ -57,6 +66,7 @@ class GetProductsArrayDummyAction
      * @throws \Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -67,6 +77,8 @@ class GetProductsArrayDummyAction
 =======
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
      */
     public function execute(): array
     {
@@ -84,6 +96,7 @@ class GetProductsArrayDummyAction
             if (!is_array($item)) {
                 return []; // Restituiamo un array vuoto se $item non è un array
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +141,15 @@ class GetProductsArrayDummyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
 
             return Arr::only($item, [
                 'id',
@@ -151,6 +173,7 @@ class GetProductsArrayDummyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 =======
@@ -162,10 +185,13 @@ class GetProductsArrayDummyAction
 =======
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> f8f76a284 (.)
+=======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -186,6 +212,8 @@ class GetProductsArrayDummyAction
 =======
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> f8f76a284 (.)
             
             return Arr::only(
                 $item,
@@ -200,6 +228,7 @@ class GetProductsArrayDummyAction
                     'thumbnail',
                 ]
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,12 +251,15 @@ class GetProductsArrayDummyAction
 =======
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -263,6 +295,8 @@ class GetProductsArrayDummyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
         });
 
         return $products;

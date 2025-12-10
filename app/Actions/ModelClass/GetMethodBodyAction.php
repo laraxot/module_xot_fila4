@@ -10,6 +10,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ReflectionClass;
 <<<<<<< HEAD
@@ -36,11 +37,15 @@ use ReflectionClass;
 =======
 use ReflectionClass;
 =======
+use ReflectionClass;
+>>>>>>> f8f76a284 (.)
+=======
 <<<<<<< HEAD
 use ReflectionClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> 5400be3e2 (.)
@@ -48,6 +53,8 @@ use ReflectionClass;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -59,17 +66,24 @@ use function Safe\file;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f8f76a284 (.)
 =======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 use function Safe\file;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use ReflectionClass;
@@ -156,6 +170,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f8f76a284 (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Spatie\QueueableAction\QueueableAction;
@@ -167,6 +183,7 @@ use function Safe\file;
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
@@ -176,6 +193,8 @@ use function Safe\file;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
 class GetMethodBodyAction
 {
     use QueueableAction;
@@ -187,10 +206,13 @@ class GetMethodBodyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
         $reflection_class = new ReflectionClass($class_name);
 =======
 <<<<<<< HEAD
@@ -199,6 +221,7 @@ class GetMethodBodyAction
         $reflection_class = new \ReflectionClass($class_name);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -209,6 +232,8 @@ class GetMethodBodyAction
 =======
         $reflection_class = new ReflectionClass($class_name);
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
         $table_method = $reflection_class->getMethod($method_name);
         $start_line = $table_method->getStartLine() - 1; // it's actually - 1, otherwise you wont get the function() block
         $end_line = $table_method->getEndLine();

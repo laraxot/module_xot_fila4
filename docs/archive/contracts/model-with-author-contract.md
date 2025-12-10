@@ -48,16 +48,20 @@ interface ModelWithAuthorContract extends ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 =======
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -74,6 +78,8 @@ interface ModelWithAuthorContract extends ModelContract
 =======
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 ## Collegamenti
 - [ModelContract](model-contract.md)
@@ -150,16 +156,20 @@ interface ModelWithAuthorContract extends ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 - [Documentazione root](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 =======
 - [Documentazione root](../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -176,6 +186,8 @@ interface ModelWithAuthorContract extends ModelContract
 =======
 - [Documentazione root](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
     $table->foreign('deleter_id')->references('id')->on('users');
 });

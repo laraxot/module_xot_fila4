@@ -239,6 +239,7 @@ public function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Standard di Codice nel Progetto](../../../../docs/standard-codice.md) 
 >>>>>>> 85cdef688 (.)
@@ -281,3 +282,9 @@ public function getTableActions(): array
 =======
 - [Standard di Codice nel Progetto](../../../../docs/standard-codice.md) 
 >>>>>>> 92cca5ade (.)
+=======
+- [Standard di Codice nel Progetto](../../../../docs/standard-codice.md) 
+=======
+- [Standard di Codice nel Progetto](../../../../project_docs/standard-codice.md) 
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)

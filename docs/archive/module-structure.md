@@ -131,8 +131,10 @@ Per dettagli implementativi e best practice vedi:
 - Aggiornare la documentazione di Geo/docs, SaluteOra/docs e questa stessa doc con collegamenti bidirezionali.
 
 Per dettagli implementativi e best practice vedi:
+<<<<<<< HEAD
 - [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
 - [SaluteOra/docs/geo-integration.md](../../SaluteOra/docs/geo-integration.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,9 +194,12 @@ Per dettagli implementativi e best practice vedi:
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
+>>>>>>> cc52d333 (.)
+=======
 - [Geo/project_docs/geo-json-model.md](../../Geo/project_docs/geo-json-model.md)
 - [SaluteOra/project_docs/geo-integration.md](../../SaluteOra/project_docs/geo-integration.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,7 +361,12 @@ Per dettagli implementativi e best practice vedi:
 =======
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 - [Questa stessa doc (Xot/module-structure.md)](module-structure.md)
 
 ---

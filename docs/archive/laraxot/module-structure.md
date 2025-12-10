@@ -115,6 +115,7 @@ Route::middleware('api')->prefix('api')->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [module-structure.md](../../../Xot/docs/laraxot/module-structure.md)
 * [module-structure.md](../../../Xot/docs/architecture/module-structure.md)
@@ -135,9 +136,14 @@ Route::middleware('api')->prefix('api')->group(function () {
 * [module-structure.md](../../../Xot/docs/architecture/module-structure.md)
 >>>>>>> 358ba79a7 (.)
 =======
+* [module-structure.md](../../../Xot/docs/laraxot/module-structure.md)
+* [module-structure.md](../../../Xot/docs/architecture/module-structure.md)
+>>>>>>> f8f76a284 (.)
+=======
 * [module-structure.md](../../../Xot/project_docs/laraxot/module-structure.md)
 * [module-structure.md](../../../Xot/project_docs/architecture/module-structure.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -169,6 +175,8 @@ Route::middleware('api')->prefix('api')->group(function () {
 * [module-structure.md](../../../Xot/docs/laraxot/module-structure.md)
 * [module-structure.md](../../../Xot/docs/architecture/module-structure.md)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 
 ### Versione Incoming

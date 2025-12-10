@@ -5,6 +5,12 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Clusters;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> f8f76a284 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +75,7 @@ use Filament\Clusters\Cluster as FilamentCluster;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 use Illuminate\Support\Facades\Lang;
@@ -94,12 +101,17 @@ use Illuminate\Support\Facades\Lang;
 =======
 <<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> cc52d333 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Facades\Lang;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +158,11 @@ use Illuminate\Support\Facades\Lang;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Clusters\Cluster as FilamentCluster;
 >>>>>>> e0b8ebe3 (.)
+=======
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+>>>>>>> cc52d333 (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Filament\Clusters\Cluster as FilamentCluster;
@@ -163,6 +180,7 @@ use Illuminate\Support\Facades\Lang;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Clusters\Cluster as FilamentCluster;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,7 +502,14 @@ use Illuminate\Support\Facades\Lang;
 =======
 =======
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster
@@ -492,6 +517,7 @@ class XotBaseCluster extends FilamentCluster
     use NavigationLabelTrait;
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,12 +562,22 @@ class XotBaseCluster extends FilamentCluster
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
      * public static function getNavigationGroup(): ?string
      * {
      *
      * return 'ZZZZZZZZZZZZZZZZZZ';
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,10 +601,13 @@ class XotBaseCluster extends FilamentCluster
 =======
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> f8f76a284 (.)
+=======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -589,12 +628,15 @@ class XotBaseCluster extends FilamentCluster
 =======
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> f8f76a284 (.)
     public static function getNavigationGroup(): ?string
     {
 
         return 'ZZZZZZZZZZZZZZZZZZ';
     }
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -617,12 +659,15 @@ class XotBaseCluster extends FilamentCluster
 =======
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -658,6 +703,8 @@ class XotBaseCluster extends FilamentCluster
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
     public function getTitle(): Htmlable|string
     {
@@ -693,6 +740,7 @@ class XotBaseCluster extends FilamentCluster
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -700,6 +748,9 @@ class XotBaseCluster extends FilamentCluster
 >>>>>>> 358ba79a7 (.)
 <<<<<<< HEAD
 =======
+>>>>>>> f8f76a284 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -729,6 +780,9 @@ class XotBaseCluster extends FilamentCluster
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
     /*
      * protected static ?string $navigationIcon = 'heroicon-o-users';
      *
@@ -771,6 +825,7 @@ class XotBaseCluster extends FilamentCluster
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 =======
@@ -782,9 +837,12 @@ class XotBaseCluster extends FilamentCluster
 =======
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> f8f76a284 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -805,6 +863,8 @@ class XotBaseCluster extends FilamentCluster
 =======
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
     /*
     protected static ?string $navigationIcon = 'heroicon-o-users';
@@ -843,6 +903,7 @@ class XotBaseCluster extends FilamentCluster
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -851,6 +912,10 @@ class XotBaseCluster extends FilamentCluster
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> f8f76a284 (.)
     /*
      * protected static ?string $navigationIcon = 'heroicon-o-users';
      *
@@ -883,6 +948,7 @@ class XotBaseCluster extends FilamentCluster
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -898,10 +964,13 @@ class XotBaseCluster extends FilamentCluster
 =======
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -937,4 +1006,6 @@ class XotBaseCluster extends FilamentCluster
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
 }

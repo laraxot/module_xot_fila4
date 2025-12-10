@@ -31,6 +31,7 @@ This starter template includes a custom __404 Not Found__ error page, located at
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <p class="text-xl">Need to update this page? See the <a title="404 Page Documentation" href="/docs/404"> documentation here</a>.</p>
 >>>>>>> 85cdef688 (.)
@@ -73,6 +74,12 @@ This starter template includes a custom __404 Not Found__ error page, located at
 =======
     <p class="text-xl">Need to update this page? See the <a title="404 Page Documentation" href="/docs/404"> documentation here</a>.</p>
 >>>>>>> 92cca5ade (.)
+=======
+    <p class="text-xl">Need to update this page? See the <a title="404 Page Documentation" href="/docs/404"> documentation here</a>.</p>
+=======
+    <p class="text-xl">Need to update this page? See the <a title="404 Page Documentation" href="/project_docs/404"> documentation here</a>.</p>
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
 </div>
 @endsection
 ```
@@ -90,6 +97,7 @@ This starter template includes a custom __404 Not Found__ error page, located at
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/docs/custom-404-page/)
 >>>>>>> 85cdef688 (.)
@@ -132,15 +140,29 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/docs/custom-404-page/)
 >>>>>>> 92cca5ade (.)
+=======
+Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/docs/custom-404-page/)
+=======
+Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/project_docs/custom-404-page/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
 ### Versione HEAD
 
 
 ## Collegamenti tra versioni di custom-404-page.md
+<<<<<<< HEAD
 * [custom-404-page.md](../../../Gdpr/docs/custom-404-page.md)
 * [custom-404-page.md](../../../Xot/docs/custom-404-page.md)
 * [custom-404-page.md](../../../UI/docs/custom-404-page.md)
 * [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
+=======
+* [custom-404-page.md](../../../Gdpr/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../Xot/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../UI/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../Tenant/project_docs/it/custom-404-page.md)
+* [custom-404-page.md](../../../Cms/project_docs/custom-404-page.md)
+>>>>>>> 6cba4fe (.)
 
 
 ### Versione Incoming

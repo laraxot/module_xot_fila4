@@ -27,6 +27,7 @@ In tutto il progetto, **usare SEMPRE** i campi `first_name` e `last_name` per ra
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Errore e regola nel modulo Patient](../../Patient/docs/naming-user-fields.md)
 >>>>>>> 85cdef688 (.)
@@ -69,6 +70,12 @@ In tutto il progetto, **usare SEMPRE** i campi `first_name` e `last_name` per ra
 =======
 - [Errore e regola nel modulo Patient](../../Patient/docs/naming-user-fields.md)
 >>>>>>> 92cca5ade (.)
+=======
+- [Errore e regola nel modulo Patient](../../Patient/docs/naming-user-fields.md)
+=======
+- [Errore e regola nel modulo Patient](../../Patient/project_docs/naming-user-fields.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
 
 **Questa regola è trasversale e vincolante per tutti i moduli del progetto.**
 
@@ -84,6 +91,7 @@ In tutto il progetto, **usare SEMPRE** i campi `first_name` e `last_name` per ra
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [naming-user-fields.md](../../Patient/docs/naming-user-fields.md)
 >>>>>>> 85cdef688 (.)
@@ -126,4 +134,10 @@ In tutto il progetto, **usare SEMPRE** i campi `first_name` e `last_name` per ra
 =======
 * [naming-user-fields.md](../../Patient/docs/naming-user-fields.md)
 >>>>>>> 92cca5ade (.)
+=======
+* [naming-user-fields.md](../../Patient/docs/naming-user-fields.md)
+=======
+* [naming-user-fields.md](../../Patient/project_docs/naming-user-fields.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
 

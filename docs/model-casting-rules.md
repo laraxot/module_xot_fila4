@@ -155,6 +155,7 @@ protected function casts(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 18. `/Modules/Chart/project_docs/Chart.php`
 19. `/Modules/Chart/project_docs/Chart_conflict.php`
@@ -175,9 +176,14 @@ protected function casts(): array
 19. `/Modules/Chart/docs/Chart_conflict.php`
 >>>>>>> 358ba79a7 (.)
 =======
+18. `/Modules/Chart/docs/Chart.php`
+19. `/Modules/Chart/docs/Chart_conflict.php`
+>>>>>>> f8f76a284 (.)
+=======
 18. `/Modules/Chart/project_docs/Chart.php`
 19. `/Modules/Chart/project_docs/Chart_conflict.php`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -239,6 +245,8 @@ protected function casts(): array
 18. `/Modules/Chart/docs/Chart.php`
 19. `/Modules/Chart/docs/Chart_conflict.php`
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
 20. `/Modules/Chart/app/Models/Chart.php`
 
 ### Priorità di Refactoring
@@ -346,6 +354,7 @@ class User extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [../../project_docs/phpstan-cast-fixes-guide.md](../../project_docs/phpstan-cast-fixes-guide.md)
 - [Laravel 11 Model Casts Documentation](https://laravel.com/project_docs/11.x/eloquent-mutators#attribute-casting)
@@ -366,9 +375,14 @@ class User extends BaseModel
 - [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
 >>>>>>> 358ba79a7 (.)
 =======
+- [../../docs/phpstan-cast-fixes-guide.md](../../docs/phpstan-cast-fixes-guide.md)
+- [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
+>>>>>>> f8f76a284 (.)
+=======
 - [../../project_docs/phpstan-cast-fixes-guide.md](../../project_docs/phpstan-cast-fixes-guide.md)
 - [Laravel 11 Model Casts Documentation](https://laravel.com/project_docs/11.x/eloquent-mutators#attribute-casting)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -430,5 +444,7 @@ class User extends BaseModel
 - [../../docs/phpstan-cast-fixes-guide.md](../../docs/phpstan-cast-fixes-guide.md)
 - [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 *Ultimo aggiornamento: agosto 2025*

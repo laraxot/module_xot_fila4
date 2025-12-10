@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature;
 
+<<<<<<< HEAD
 use Illuminate\Database\QueryException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,6 +15,7 @@ use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,11 +45,17 @@ use Tests\TestCase;
 <<<<<<< HEAD
 use Illuminate\Database\QueryException;
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\QueryException;
+>>>>>>> f8f76a284 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,9 +83,12 @@ use Modules\Xot\Models\Module;
 use Tests\TestCase;
 >>>>>>> 5400be3e2 (.)
 =======
+>>>>>>> f8f76a284 (.)
+=======
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,9 +118,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> 5ca118c34 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f8f76a284 (.)
+=======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +138,8 @@ use Tests\TestCase;
 =======
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Modules\Xot\Models\Module;
@@ -130,6 +147,7 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -163,6 +181,8 @@ use Tests\TestCase;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -263,10 +283,13 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
         $this->expectException(QueryException::class);
 =======
 <<<<<<< HEAD
@@ -275,6 +298,7 @@ class ModuleBusinessLogicTest extends TestCase
         $this->expectException(\Illuminate\Database\QueryException::class);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -285,6 +309,8 @@ class ModuleBusinessLogicTest extends TestCase
 =======
         $this->expectException(QueryException::class);
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -562,10 +588,13 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
             $this->expectException(QueryException::class);
 =======
 <<<<<<< HEAD
@@ -574,6 +603,7 @@ class ModuleBusinessLogicTest extends TestCase
             $this->expectException(\Illuminate\Database\QueryException::class);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -584,6 +614,8 @@ class ModuleBusinessLogicTest extends TestCase
 =======
             $this->expectException(QueryException::class);
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
             Module::create($moduleData);
         }
@@ -684,6 +716,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -714,6 +747,8 @@ class ModuleBusinessLogicTest extends TestCase
 =======
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> f8f76a284 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,6 +761,7 @@ class ModuleBusinessLogicTest extends TestCase
 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -770,3 +806,5 @@ class ModuleBusinessLogicTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)

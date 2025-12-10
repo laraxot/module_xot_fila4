@@ -225,16 +225,20 @@ FileUpload::make('certifications')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 È fondamentale che i campi utilizzati nei componenti `FileUpload` corrispondano ai campi disponibili nel database. Per una documentazione dettagliata sulla mappatura dei campi, consulta la [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/docs/DATABASE_FIELD_MAPPING.md).
 =======
 È fondamentale che i campi utilizzati nei componenti `FileUpload` corrispondano ai campi disponibili nel database. Per una documentazione dettagliata sulla mappatura dei campi, consulta la [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/project_docs/DATABASE_FIELD_MAPPING.md).
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -251,6 +255,8 @@ FileUpload::make('certifications')
 =======
 È fondamentale che i campi utilizzati nei componenti `FileUpload` corrispondano ai campi disponibili nel database. Per una documentazione dettagliata sulla mappatura dei campi, consulta la [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/docs/DATABASE_FIELD_MAPPING.md).
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 ### Campi per File Singoli
 
@@ -336,11 +342,13 @@ Forms\Components\FileUpload::make('certifications')
 
 ## Documentazione Correlata
 
+<<<<<<< HEAD
 - [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/docs/DATABASE_FIELD_MAPPING.md)
 - [Migrazioni del Database](/docs/database-migrations.md)
 - [Gestione degli Utenti](/docs/user-management.md)
 - [Pattern di Ereditarietà dei Modelli](/docs/model-inheritance-patterns.md)
 - [Documentazione Ufficiale di Filament](https://filamentphp.com/docs/3.x/forms/fields/file-upload)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,6 +386,8 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> 92cca5ade (.)
 =======
+>>>>>>> f8f76a284 (.)
+=======
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 33af3e61 (.)
@@ -388,12 +398,15 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
+>>>>>>> cc52d333 (.)
+=======
 - [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/project_docs/DATABASE_FIELD_MAPPING.md)
 - [Migrazioni del Database](/project_docs/database-migrations.md)
 - [Gestione degli Utenti](/project_docs/user-management.md)
 - [Pattern di Ereditarietà dei Modelli](/project_docs/model-inheritance-patterns.md)
 - [Documentazione Ufficiale di Filament](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD
@@ -425,4 +438,9 @@ Forms\Components\FileUpload::make('certifications')
 =======
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)

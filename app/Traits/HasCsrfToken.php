@@ -12,6 +12,7 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -31,10 +32,17 @@ use Illuminate\Support\Facades\Session;
 =======
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+=======
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Facades\App;
@@ -103,6 +111,8 @@ use Illuminate\Support\Facades\Session;
 =======
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> f8f76a284 (.)
+=======
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 >>>>>>> a12f125f4a (.)
@@ -115,6 +125,7 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -143,6 +154,8 @@ use Illuminate\Support\Facades\Session;
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 trait HasCsrfToken
 {
@@ -254,6 +267,7 @@ trait HasCsrfToken
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +296,9 @@ trait HasCsrfToken
 }
 >>>>>>> 358ba79a7 (.)
 =======
+}
+>>>>>>> f8f76a284 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +313,7 @@ trait HasCsrfToken
 } 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -350,3 +368,5 @@ trait HasCsrfToken
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)

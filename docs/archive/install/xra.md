@@ -33,6 +33,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [xra.md](../../../Xot/docs/install/xra.md)
 * [xra.md](../../../Tenant/docs/it/xra.md)
@@ -58,10 +59,16 @@ return [
 * [xra.md](../../../Tenant/docs/it/config/xra.md)
 >>>>>>> 358ba79a7 (.)
 =======
+* [xra.md](../../../Xot/docs/install/xra.md)
+* [xra.md](../../../Tenant/docs/it/xra.md)
+* [xra.md](../../../Tenant/docs/it/config/xra.md)
+>>>>>>> f8f76a284 (.)
+=======
 * [xra.md](../../../Xot/project_docs/install/xra.md)
 * [xra.md](../../../Tenant/project_docs/it/xra.md)
 * [xra.md](../../../Tenant/project_docs/it/config/xra.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -99,6 +106,8 @@ return [
 * [xra.md](../../../Tenant/docs/it/xra.md)
 * [xra.md](../../../Tenant/docs/it/config/xra.md)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 
 ### Versione Incoming

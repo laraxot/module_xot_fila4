@@ -52,6 +52,7 @@ class UserResource extends \Modules\Xot\Filament\Resources\XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
@@ -72,9 +73,14 @@ class UserResource extends \Modules\Xot\Filament\Resources\XotBaseResource
 * [resource.md](../../../Xot/docs/resource.md)
 >>>>>>> 358ba79a7 (.)
 =======
+* [resource.md](../../../Xot/docs/filament/resource.md)
+* [resource.md](../../../Xot/docs/resource.md)
+>>>>>>> f8f76a284 (.)
+=======
 * [resource.md](../../../Xot/project_docs/filament/resource.md)
 * [resource.md](../../../Xot/project_docs/resource.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -106,6 +112,8 @@ class UserResource extends \Modules\Xot\Filament\Resources\XotBaseResource
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 
 ### Versione Incoming

@@ -558,6 +558,7 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Filament Widgets Documentation](https://filamentphp.com/docs/2.x/admin/widgets) 
 >>>>>>> 85cdef688 (.)
@@ -569,10 +570,13 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 - [Filament Widgets Documentation](https://filamentphp.com/docs/2.x/admin/widgets) 
 =======
 - [Filament Widgets Documentation](https://filamentphp.com/project_docs/2.x/admin/widgets) 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -622,3 +626,5 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 =======
 - [Filament Widgets Documentation](https://filamentphp.com/docs/2.x/admin/widgets) 
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)

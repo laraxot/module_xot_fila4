@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD
@@ -10,7 +11,12 @@
 =======
 =======
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 # convenzioni per namespace e percorsi dei moduli
 
 ## struttura corretta del percorso
@@ -24,6 +30,7 @@ i file dei moduli devono sempre seguire questa struttura:
 ```
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +69,8 @@ i file dei moduli devono sempre seguire questa struttura:
 >>>>>>> 88e745db5 (.)
 =======
 >>>>>>> 5e6aa70fe (.)
+=======
+>>>>>>> f8f76a284 (.)
 /var/www/html/base_<nome progetto>/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -145,7 +154,12 @@ per esempio:
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -155,6 +169,7 @@ per esempio:
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Http/Controllers/...`
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,7 +377,12 @@ per esempio:
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 
 ### namespace corretto
 
@@ -375,6 +395,7 @@ namespace Modules\{NomeModulo}\{Tipo}\...;
 per esempio:
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,7 +656,15 @@ per esempio:
 - `namespace Modules\SaluteOra\Models;`
 - `namespace Modules\SaluteOra\Http\Controllers;`
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+- `namespace Modules\SaluteOra\Filament\Resources;`
+- `namespace Modules\SaluteOra\Models;`
+- `namespace Modules\SaluteOra\Http\Controllers;`
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 
 ## errore comune
 
@@ -644,6 +673,7 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 ```
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -801,7 +831,13 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 =======
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+/var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 ```
 
 questo è **errato** perché omette la directory `app/` nel percorso fisico.
@@ -817,6 +853,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 |-----------|----------------|
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1027,7 +1064,14 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 | `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
 | `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+| `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
+| `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 
 ## come evitare l'errore
 
@@ -1039,6 +1083,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1277,4 +1322,11 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 - [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
 - [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)

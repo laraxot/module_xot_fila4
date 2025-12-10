@@ -35,16 +35,20 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 - **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
 =======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/troubleshooting-consolidated.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -61,6 +65,8 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 - **Implementazione**: Fix nei singoli moduli (solo fix, non docs)
 
 ## Problemi Comuni e Soluzioni
@@ -699,6 +705,7 @@ public function test_b(): void
 >>>>>>> 6ca989d8 (.)
 ### Errore: Conflitti Git
 
+<<<<<<< HEAD
 **Sintomo**
 ### Errore: Conflitti Git
 
@@ -762,6 +769,7 @@ public function test_b(): void
 ```
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -975,7 +983,15 @@ public function test_b(): void
 =======
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

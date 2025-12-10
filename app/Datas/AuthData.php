@@ -53,6 +53,7 @@ class AuthData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -111,6 +112,12 @@ class AuthData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+    ) {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
 <<<<<<< HEAD
     ) {}
 =======
@@ -118,8 +125,11 @@ class AuthData extends Data
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 >>>>>>> a12f125f4a (.)
 =======
     ) {}
@@ -129,6 +139,7 @@ class AuthData extends Data
     }
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -167,6 +178,8 @@ class AuthData extends Data
     ) {}
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
 
     /**
      * Create a new instance of AuthData with default values.

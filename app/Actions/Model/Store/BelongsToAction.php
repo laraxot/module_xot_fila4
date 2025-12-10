@@ -22,6 +22,7 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +48,9 @@ class BelongsToAction
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> 358ba79a7 (.)
 =======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> f8f76a284 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +65,7 @@ class BelongsToAction
     public function execute(Model $model, RelationDTO $relationDTO): void
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -115,6 +120,8 @@ class BelongsToAction
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
@@ -125,6 +132,7 @@ class BelongsToAction
         // $rows = $relation->rows;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,10 +182,13 @@ class BelongsToAction
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
+>>>>>>> cc52d333 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,7 +327,14 @@ class BelongsToAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
         // dd([$relation->name]);
         // dd([$relation->name]);
         // dd([$relation->name]);
@@ -337,6 +355,7 @@ class BelongsToAction
          * 't1'=>$rows,
          * ]);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,14 +377,19 @@ class BelongsToAction
 =======
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> f8f76a284 (.)
+=======
 =======
 
 =======
 >>>>>>> b93ef594b4 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
         // dd([$relation->name]);
         /*
          * if (null == $row->{$relation->name}) {
@@ -374,6 +398,7 @@ class BelongsToAction
          * return;
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -405,6 +430,11 @@ class BelongsToAction
 =======
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+        /*
+<<<<<<< HEAD
+=======
+>>>>>>> f8f76a284 (.)
 
         // dd([$relation->name]);
         /*
@@ -414,6 +444,7 @@ class BelongsToAction
             return;
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,6 +473,10 @@ class BelongsToAction
 =======
         /*
 >>>>>>> 5400be3e2 (.)
+=======
+        /*
+>>>>>>> origin/develop
+>>>>>>> f8f76a284 (.)
         dddx([
             'message' => 'wip',
             'row' => $row,
@@ -458,6 +493,7 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -466,6 +502,10 @@ class BelongsToAction
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> f8f76a284 (.)
          * dddx([
          * 'message' => 'wip',
          * 'row' => $row,
@@ -475,6 +515,7 @@ class BelongsToAction
          * 't1'=>$rows,
          * ]);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -492,10 +533,13 @@ class BelongsToAction
 =======
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -531,5 +575,7 @@ class BelongsToAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
     }
 }

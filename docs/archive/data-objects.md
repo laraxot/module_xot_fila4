@@ -314,16 +314,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 - [Data Objects Patient](../Patient/docs/data-objects.md)
 =======
 - [Data Objects Patient](../Patient/project_docs/data-objects.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -340,6 +344,8 @@
 =======
 - [Data Objects Patient](../Patient/docs/data-objects.md)
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 
 <<<<<<< HEAD

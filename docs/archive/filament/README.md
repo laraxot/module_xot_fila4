@@ -32,18 +32,22 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 =======
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -63,6 +67,8 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -93,6 +99,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](docs/implementazione/reporting/README.md)
 * [README.md](docs/implementazione/isee/README.md)
 * [README.md](docs/it/README.md)
+<<<<<<< HEAD
 * [README.md](laravel/vendor/mockery/mockery/docs/README.md)
 * [README.md](../../../Chart/docs/README.md)
 * [README.md](../../../Reporting/docs/README.md)
@@ -137,6 +144,52 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](../../../Cms/docs/components/README.md)
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
+=======
+* [README.md](laravel/vendor/mockery/mockery/project_docs/README.md)
+* [README.md](../../../Chart/project_docs/README.md)
+* [README.md](../../../Reporting/project_docs/README.md)
+* [README.md](../../../Gdpr/project_docs/phpstan/README.md)
+* [README.md](../../../Gdpr/project_docs/README.md)
+* [README.md](../../../Notify/project_docs/phpstan/README.md)
+* [README.md](../../../Notify/project_docs/README.md)
+* [README.md](../../../Xot/project_docs/filament/README.md)
+* [README.md](../../../Xot/project_docs/phpstan/README.md)
+* [README.md](../../../Xot/project_docs/exceptions/README.md)
+* [README.md](../../../Xot/project_docs/README.md)
+* [README.md](../../../Xot/project_docs/standards/README.md)
+* [README.md](../../../Xot/project_docs/conventions/README.md)
+* [README.md](../../../Xot/project_docs/development/README.md)
+* [README.md](../../../Dental/project_docs/README.md)
+* [README.md](../../../User/project_docs/phpstan/README.md)
+* [README.md](../../../User/project_docs/README.md)
+* [README.md](../../../User/project_docs/README.md)
+* [README.md](../../../UI/project_docs/phpstan/README.md)
+* [README.md](../../../UI/project_docs/README.md)
+* [README.md](../../../UI/project_docs/standards/README.md)
+* [README.md](../../../UI/project_docs/themes/README.md)
+* [README.md](../../../UI/project_docs/components/README.md)
+* [README.md](../../../Lang/project_docs/phpstan/README.md)
+* [README.md](../../../Lang/project_docs/README.md)
+* [README.md](../../../Job/project_docs/phpstan/README.md)
+* [README.md](../../../Job/project_docs/README.md)
+* [README.md](../../../Media/project_docs/phpstan/README.md)
+* [README.md](../../../Media/project_docs/README.md)
+* [README.md](../../../Tenant/project_docs/phpstan/README.md)
+* [README.md](../../../Tenant/project_docs/README.md)
+* [README.md](../../../Activity/project_docs/phpstan/README.md)
+* [README.md](../../../Activity/project_docs/README.md)
+* [README.md](../../../Patient/project_docs/README.md)
+* [README.md](../../../Patient/project_docs/standards/README.md)
+* [README.md](../../../Patient/project_docs/value-objects/README.md)
+* [README.md](../../../Cms/project_docs/blocks/README.md)
+* [README.md](../../../Cms/project_docs/README.md)
+* [README.md](../../../Cms/project_docs/standards/README.md)
+* [README.md](../../../Cms/project_docs/content/README.md)
+* [README.md](../../../Cms/project_docs/frontoffice/README.md)
+* [README.md](../../../Cms/project_docs/components/README.md)
+* [README.md](../../../../Themes/Two/project_docs/README.md)
+* [README.md](../../../../Themes/One/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
 
 ## Regola sulle closure void nelle azioni custom Filament
 
@@ -166,6 +219,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 ### Collegamento
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,7 +480,16 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 =======
 - Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore
@@ -466,16 +529,20 @@ $prefix = static::$translationPrefix;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
 - [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
 =======
 - [Patient: DoctorResource](../../../Patient/project_docs/filament/resources/doctor-resource.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -492,6 +559,8 @@ $prefix = static::$translationPrefix;
 =======
 - [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
 // Aggiungere qui altri moduli se necessario
 
 <<<<<<< HEAD

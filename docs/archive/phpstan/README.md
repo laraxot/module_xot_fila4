@@ -56,6 +56,7 @@ Per ogni modulo, gli script generano:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
 - File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
@@ -76,9 +77,14 @@ Per ogni modulo, gli script generano:
 - File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
 >>>>>>> 358ba79a7 (.)
 =======
+- File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
+- File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
+>>>>>>> f8f76a284 (.)
+=======
 - File JSON con i risultati dell'analisi: `Modules/[ModuleName]/project_docs/phpstan/level_[1-9].json`
 - File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/project_docs/phpstan/correction.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -110,6 +116,8 @@ Per ogni modulo, gli script generano:
 - File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
 - File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
 
 ## Livelli di analisi
 
@@ -178,6 +186,7 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
@@ -198,9 +207,14 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> 358ba79a7 (.)
 =======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> f8f76a284 (.)
+=======
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -232,6 +246,8 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -262,6 +278,7 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 * [README.md](docs/implementazione/reporting/README.md)
 * [README.md](docs/implementazione/isee/README.md)
 * [README.md](docs/it/README.md)
+<<<<<<< HEAD
 * [README.md](laravel/vendor/mockery/mockery/docs/README.md)
 * [README.md](../../../Chart/docs/README.md)
 * [README.md](../../../Reporting/docs/README.md)
@@ -306,4 +323,50 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 * [README.md](../../../Cms/docs/components/README.md)
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
+=======
+* [README.md](laravel/vendor/mockery/mockery/project_docs/README.md)
+* [README.md](../../../Chart/project_docs/README.md)
+* [README.md](../../../Reporting/project_docs/README.md)
+* [README.md](../../../Gdpr/project_docs/phpstan/README.md)
+* [README.md](../../../Gdpr/project_docs/README.md)
+* [README.md](../../../Notify/project_docs/phpstan/README.md)
+* [README.md](../../../Notify/project_docs/README.md)
+* [README.md](../../../Xot/project_docs/filament/README.md)
+* [README.md](../../../Xot/project_docs/phpstan/README.md)
+* [README.md](../../../Xot/project_docs/exceptions/README.md)
+* [README.md](../../../Xot/project_docs/README.md)
+* [README.md](../../../Xot/project_docs/standards/README.md)
+* [README.md](../../../Xot/project_docs/conventions/README.md)
+* [README.md](../../../Xot/project_docs/development/README.md)
+* [README.md](../../../Dental/project_docs/README.md)
+* [README.md](../../../User/project_docs/phpstan/README.md)
+* [README.md](../../../User/project_docs/README.md)
+* [README.md](../../../User/project_docs/README.md)
+* [README.md](../../../UI/project_docs/phpstan/README.md)
+* [README.md](../../../UI/project_docs/README.md)
+* [README.md](../../../UI/project_docs/standards/README.md)
+* [README.md](../../../UI/project_docs/themes/README.md)
+* [README.md](../../../UI/project_docs/components/README.md)
+* [README.md](../../../Lang/project_docs/phpstan/README.md)
+* [README.md](../../../Lang/project_docs/README.md)
+* [README.md](../../../Job/project_docs/phpstan/README.md)
+* [README.md](../../../Job/project_docs/README.md)
+* [README.md](../../../Media/project_docs/phpstan/README.md)
+* [README.md](../../../Media/project_docs/README.md)
+* [README.md](../../../Tenant/project_docs/phpstan/README.md)
+* [README.md](../../../Tenant/project_docs/README.md)
+* [README.md](../../../Activity/project_docs/phpstan/README.md)
+* [README.md](../../../Activity/project_docs/README.md)
+* [README.md](../../../Patient/project_docs/README.md)
+* [README.md](../../../Patient/project_docs/standards/README.md)
+* [README.md](../../../Patient/project_docs/value-objects/README.md)
+* [README.md](../../../Cms/project_docs/blocks/README.md)
+* [README.md](../../../Cms/project_docs/README.md)
+* [README.md](../../../Cms/project_docs/standards/README.md)
+* [README.md](../../../Cms/project_docs/content/README.md)
+* [README.md](../../../Cms/project_docs/frontoffice/README.md)
+* [README.md](../../../Cms/project_docs/components/README.md)
+* [README.md](../../../../Themes/Two/project_docs/README.md)
+* [README.md](../../../../Themes/One/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
 

@@ -94,6 +94,7 @@ Recupera tutti i modelli definiti nel modulo specificato.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Moduli](../../../docs/modules/index.md)
 - [Gestione Modelli](../../../docs/models/index.md)
@@ -125,10 +126,16 @@ Recupera tutti i modelli definiti nel modulo specificato.
 - [Pattern Singleton](../../../docs/patterns/singleton.md) 
 >>>>>>> 358ba79a7 (.)
 =======
+- [Documentazione Moduli](../../../docs/modules/index.md)
+- [Gestione Modelli](../../../docs/models/index.md)
+- [Pattern Singleton](../../../docs/patterns/singleton.md) 
+>>>>>>> f8f76a284 (.)
+=======
 - [Documentazione Moduli](../../../project_docs/modules/index.md)
 - [Gestione Modelli](../../../project_docs/models/index.md)
 - [Pattern Singleton](../../../project_docs/patterns/singleton.md) 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -185,3 +192,5 @@ Recupera tutti i modelli definiti nel modulo specificato.
 - [Gestione Modelli](../../../docs/models/index.md)
 - [Pattern Singleton](../../../docs/patterns/singleton.md) 
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)

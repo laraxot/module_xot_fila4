@@ -39,6 +39,7 @@ class PdfByHtmlAction_Portrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +65,9 @@ class PdfByHtmlAction_Portrait
             'content' => $html2pdf->output($path, 'S'), // D
 >>>>>>> 358ba79a7 (.)
 =======
+            'content' => $html2pdf->output($path, 'S'), // D
+>>>>>>> f8f76a284 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +82,7 @@ class PdfByHtmlAction_Portrait
             'content' => $html2pdf->output($path, 'S'),  // D
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
@@ -132,6 +137,8 @@ class PdfByHtmlAction_Portrait
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
             default => $path,
         };
     }

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
@@ -10,7 +11,12 @@
 =======
 =======
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> 358ba79a7 (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.):docs/git_conflicts_resolution_2025_01_06.md
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
@@ -63,7 +69,11 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 >>>>>>> 88e745db5 (.):docs/git_conflicts_resolution_2025_01_06.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> 5e6aa70fe (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.):docs/git_conflicts_resolution_2025_01_06.md
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
@@ -182,7 +192,13 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto <no
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> 5e6aa70fe (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.):docs/git_conflicts_resolution_2025_01_06.md
 
 ## File Corretti
 
@@ -381,6 +397,21 @@ php artisan lang:check
 <<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 <<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 <<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Stato**: ✅ Completato
+>>>>>>> f8f76a284 (.):docs/git_conflicts_resolution_2025_01_06.md
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,4 +503,10 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> 358ba79a7 (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+=======
+**Stato**: ✅ Completato
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.):docs/git_conflicts_resolution_2025_01_06.md

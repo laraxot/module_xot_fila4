@@ -32,13 +32,17 @@ namespace Modules\Xot\Tests\Feature;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 <<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+>>>>>>> cc52d333 (.)
 use Illuminate\Database\ConnectionInterface;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +58,14 @@ use Illuminate\Database\ConnectionInterface;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\ConnectionInterface;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
@@ -115,6 +127,7 @@ use Modules\Xot\Models\XotBaseModel;
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -126,12 +139,19 @@ use Tests\TestCase;
 =======
 >>>>>>> 5ca118c34 (.)
 =======
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> f8f76a284 (.)
 use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
@@ -139,6 +159,21 @@ use Illuminate\Support\Facades\DB;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\Module;
+use Modules\Xot\Models\XotBaseModel;
+use Tests\TestCase;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -1475,8 +1510,12 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         $this->assertNotNull($connection);
+<<<<<<< HEAD
         $this->assertInstanceOf(ConnectionInterface::class, $connection);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f8f76a284 (.)
 =======
 <<<<<<< HEAD
         $this->assertInstanceOf(ConnectionInterface::class, $connection);
@@ -1484,9 +1523,12 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertInstanceOf(\Illuminate\Database\ConnectionInterface::class, $connection);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
     }
 
     /** @test */
@@ -2382,6 +2424,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
 >>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
@@ -2482,6 +2525,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> cafe8bed (.)
 =======
 =======
+>>>>>>> cc52d333 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2494,6 +2539,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 <<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
@@ -2513,4 +2559,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
 =======
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> cc52d333 (.)
+>>>>>>> f8f76a284 (.)

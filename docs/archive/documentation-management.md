@@ -26,6 +26,30 @@ base_predict_fila3_mono/
 ### 1. Livelli di Documentazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Documentazione Globale** (`/docs/`)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 - **Documentazione Globale** (`/project_docs/`)
 
 - **Documentazione Globale** (`/project_docs/`)
@@ -93,13 +117,45 @@ base_predict_fila3_mono/
 =======
 - **Documentazione Globale** (`/project_docs/`)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
   - Stabilisce le convenzioni di base
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
@@ -167,7 +223,15 @@ base_predict_fila3_mono/
 =======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -212,22 +276,58 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 62cc8443 (.)
      1. Aggiornare `Modules/[ModuleName]/docs/`
      1. Aggiornare `Modules/[ModuleName]/docs/`
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 1. Aggiornare `Modules/[ModuleName]/docs/`
      1. Aggiornare `Modules/[ModuleName]/docs/`
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
+     1. Aggiornare `Modules/[ModuleName]/docs/`
+     1. Aggiornare `Modules/[ModuleName]/docs/`
+<<<<<<< HEAD
      1. Aggiornare `Modules/[ModuleName]/docs/`
      1. Aggiornare `Modules/[ModuleName]/docs/`
      1. Aggiornare `Modules/[ModuleName]/docs/`
-     1. Aggiornare `Modules/[ModuleName]/docs/`
-     1. Aggiornare `Modules/[ModuleName]/docs/`
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
      2. Se rilevante, aggiungere riferimento in `/docs/`
 
    - Se regola globale:
      1. Aggiornare `/docs/`
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,7 +441,15 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**

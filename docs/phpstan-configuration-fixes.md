@@ -33,6 +33,7 @@ ignoreErrors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -78,7 +79,12 @@ ignoreErrors:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 **Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
@@ -100,6 +106,7 @@ ignoreErrors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -111,7 +118,12 @@ ignoreErrors:
 =======
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
 **Moduli Interessati**: <nome progetto>, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
@@ -123,6 +135,7 @@ ignoreErrors:
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,7 +166,12 @@ ignoreErrors:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ### 2. Cast da Mixed
 

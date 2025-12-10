@@ -296,6 +296,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -315,6 +316,15 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 ## Collegamenti tra versioni di PHPSTAN_PATTERN_SOLUZIONI.md
 * [PHPSTAN_PATTERN_SOLUZIONI.md](../../../Xot/project_docs/phpstan/PHPSTAN_PATTERN_SOLUZIONI.md)
@@ -344,6 +354,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
@@ -370,10 +381,27 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 62cc8443 (.)
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 =======
 >>>>>>> 43d67f21 (.)
 =======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

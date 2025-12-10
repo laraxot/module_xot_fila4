@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ultimo aggiornamento: maggio 2025.
 =======
 =======
@@ -223,4 +224,13 @@ Ultimo aggiornamento: maggio 2025.
 <<<<<<< HEAD
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+Ultimo aggiornamento: maggio 2025.
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

@@ -19,6 +19,7 @@ namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 
 
@@ -41,6 +42,8 @@ namespace Modules\Xot\Console\Commands;
 
 
 
+=======
+>>>>>>> 62cc8443 (.)
 
 
 =======
@@ -61,13 +64,23 @@ namespace Modules\Xot\Console\Commands;
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
@@ -80,6 +93,43 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 
 use function Safe\file_get_contents;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 class ExecuteSqlFileCommand extends Command
 {
@@ -128,6 +178,80 @@ class ExecuteSqlFileCommand extends Command
      *
      * @return int
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+    public function handle()
+    public function handle(): int
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    public function handle()
+>>>>>>> 0e51323 (.)
+=======
+    public function handle()
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
+    public function handle(): int
+    public function handle()
+     *
+     * @return int
+     */
+    public function handle()
+    public function handle(): int
+    public function handle(): int
+    public function handle()
+<<<<<<< HEAD
+    public function handle(): int
+    public function handle()
+     *
+     * @return int
+     */
+    public function handle()
+    public function handle(): int
+    public function handle(): int
+    public function handle()
+    public function handle(): int
+    public function handle(): int
+    public function handle()
+    public function handle(): int
+     *
+     * @return int
+     */
+    public function handle()
+    public function handle(): int
+    public function handle(): int
+    public function handle()
+    public function handle()
+    public function handle(): int
+    public function handle()
+    public function handle(): int
+    public function handle()
+     *
+     * @return int
+     */
     public function handle()
     public function handle(): int
     public function handle(): int
@@ -152,45 +276,14 @@ class ExecuteSqlFileCommand extends Command
     public function handle(): int
     public function handle()
     public function handle(): int
-     *
-     * @return int
-     */
-    public function handle()
-    public function handle(): int
-    public function handle(): int
-    public function handle()
-    public function handle()
-    public function handle(): int
-    public function handle()
-    public function handle(): int
-    public function handle()
-     *
-     * @return int
-     */
-    public function handle()
-    public function handle(): int
-    public function handle(): int
-    public function handle()
-     *
-     * @return int
-     */
-    public function handle()
-    public function handle(): int
-    public function handle(): int
-    public function handle()
-    public function handle(): int
-    public function handle()
-     *
-     * @return int
-     */
-    public function handle()
-    public function handle(): int
-    public function handle(): int
-    public function handle()
-    public function handle(): int
-    public function handle(): int
-    public function handle()
-    public function handle(): int
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');

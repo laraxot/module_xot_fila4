@@ -256,6 +256,7 @@ cd /percorso/al/progetto/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 ``` 
 ``` 
@@ -264,6 +265,8 @@ cd /percorso/al/progetto/laravel
 ``` 
 ``` 
 ``` 
+=======
+>>>>>>> 62cc8443 (.)
 ``` 
 <<<<<<< HEAD
 ``` 
@@ -285,4 +288,12 @@ cd /percorso/al/progetto/laravel
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+``` 
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

@@ -228,7 +228,11 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
   - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
   - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
@@ -340,4 +344,12 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

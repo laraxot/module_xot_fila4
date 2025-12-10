@@ -160,6 +160,7 @@ Generated PDF data can be attached to emails through the notification system.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules\<nome progetto>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 =======
 - `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
@@ -179,8 +180,25 @@ Generated PDF data can be attached to emails through the notification system.
 - `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 - `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 - `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+<<<<<<< HEAD
 - `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 - `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+=======
+>>>>>>> d86d643a (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 472bd9dc (.)
+=======
+- `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+- `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 - `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 - `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 - `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
@@ -223,7 +241,12 @@ Generated PDF data can be attached to emails through the notification system.
 =======
 - `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ## Notes
 - The action uses QueueableAction trait, making it suitable for background processing

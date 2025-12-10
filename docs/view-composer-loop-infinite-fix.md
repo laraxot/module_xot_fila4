@@ -392,10 +392,21 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
+<<<<<<< HEAD
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> c35986f4 (.)
+=======
+=======
+- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
@@ -416,7 +427,10 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
@@ -454,6 +468,51 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> ce6fc085 (.)
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 =======
+<<<<<<< HEAD
+=======
+- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> a5dccfe (.)
+- [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+=======
+- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> a5dccfe (.)
+- [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+<<<<<<< HEAD
+>>>>>>> c35986f4 (.)
+=======
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+=======
+- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> a5dccfe (.)
+- [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+- [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 71f31700 (.)
+=======
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 62cc8443 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
 =======

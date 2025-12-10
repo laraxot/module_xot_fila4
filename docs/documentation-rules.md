@@ -30,6 +30,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -106,7 +107,14 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ### Formato Corretto
 ```markdown
@@ -116,6 +124,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento in Sottodirectory](./sottodirectory/documento.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +175,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 <<<<<<< HEAD
@@ -195,11 +206,47 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
@@ -256,7 +303,12 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ### Formato Non Corretto
@@ -265,6 +317,28 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Non Corretti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,10 +428,29 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 62cc8443 (.)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
@@ -485,7 +578,12 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 6cba4fe (.)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ### Checklist di Validazione
@@ -516,6 +614,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -592,7 +691,14 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ### Formato Corretto
 ```markdown
@@ -602,6 +708,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento in Sottodirectory](./sottodirectory/documento.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -652,6 +759,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 <<<<<<< HEAD
@@ -681,11 +790,47 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
@@ -742,7 +887,12 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ### Formato Non Corretto
@@ -751,6 +901,28 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Non Corretti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -840,10 +1012,29 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 62cc8443 (.)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
@@ -971,7 +1162,12 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 6cba4fe (.)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ### Checklist di Validazione
@@ -1003,6 +1199,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -1079,7 +1276,14 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ### Formato Corretto
 ```markdown
@@ -1089,6 +1293,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento in Sottodirectory](./sottodirectory/documento.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1139,6 +1344,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 <<<<<<< HEAD
@@ -1168,11 +1375,47 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
@@ -1229,7 +1472,12 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ### Formato Non Corretto
@@ -1238,6 +1486,28 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Non Corretti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1327,10 +1597,29 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 62cc8443 (.)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
@@ -1458,7 +1747,12 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 6cba4fe (.)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ### Checklist di Validazione

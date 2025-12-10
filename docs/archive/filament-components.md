@@ -116,6 +116,19 @@ DatePicker::make('field_name')
 * [FILAMENT_COMPONENTS.md](../../../Xot/docs/FILAMENT_COMPONENTS.md)
 * [FILAMENT_COMPONENTS.md](../../../../Themes/One/docs/FILAMENT_COMPONENTS.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 * [FILAMENT_COMPONENTS.md](../../../Xot/project_docs/FILAMENT_COMPONENTS.md)
 * [FILAMENT_COMPONENTS.md](../../../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 
@@ -230,7 +243,15 @@ DatePicker::make('field_name')
 * [FILAMENT_COMPONENTS.md](../../../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ## Correzione e regole per XotBaseManageRelatedRecords
 
 - Tutti i metodi pubblici devono avere tipizzazione forte e PHPDoc dettagliato.

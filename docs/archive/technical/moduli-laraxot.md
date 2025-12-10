@@ -18,6 +18,7 @@ I moduli Laraxot sono componenti fondamentali del progetto il progetto, fornendo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 6. **theme_one_fila3** - Tema per Filament 3 (da installare in `/laravel/Themes/One/`)
 >>>>>>> 85cdef688 (.)
@@ -33,6 +34,12 @@ I moduli Laraxot sono componenti fondamentali del progetto il progetto, fornendo
 =======
 6. **theme_one_fila3** - Tema per Filament 4 (da installare in `/laravel/Themes/One/`)
 >>>>>>> 091f883c (.)
+=======
+6. **theme_one_fila3** - Tema per Filament 4 (da installare in `/laravel/Themes/One/`)
+=======
+6. **theme_one_fila3** - Tema per Filament 3 (da installare in `/laravel/Themes/One/`)
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 
 ### Moduli Funzionali
 7. **module_media_fila3** - Gestione media e file

@@ -92,6 +92,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
@@ -111,3 +112,12 @@ return [
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)

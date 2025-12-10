@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -7,12 +20,39 @@ This document defines the standards and best practices for working with Enums in
 # Enum Standards in SaluteOra
 
 This document defines the standards and best practices for working with Enums in the SaluteOra project.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ## Naming Conventions
 
@@ -84,7 +124,20 @@ This document defines the standards and best practices for working with Enums in
 declare(strict_types=1);
 
 namespace Modules\<nome progetto>\Enums;
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Enums;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\Enums;
+=======
+>>>>>>> 62cc8443 (.)
 namespace Modules\SaluteOra\Enums;
 namespace Modules\<nome modulo>\Enums;
 namespace Modules\<nome modulo>\Enums;
@@ -92,6 +145,7 @@ namespace Modules\SaluteOra\Enums;
 namespace Modules\<nome modulo>\Enums;
 namespace Modules\SaluteOra\Enums;
 namespace Modules\<nome modulo>\Enums;
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Enums;
 namespace Modules\<nome modulo>\Enums;
 namespace Modules\<nome modulo>\Enums;
@@ -103,6 +157,12 @@ namespace Modules\<nome modulo>\Enums;
 namespace Modules\<nome modulo>\Enums;
 namespace Modules\<nome modulo>\Enums;
 namespace Modules\SaluteOra\Enums;
+=======
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\<nome modulo>\Enums;
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -123,6 +183,17 @@ enum AppointmentTypeEnum: string implements HasLabel
         return match ($this) {
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
             self::CONSULTATION => __('saluteora::app.consultation'),
@@ -139,6 +210,7 @@ enum AppointmentTypeEnum: string implements HasLabel
             self::CLEANING => __('saluteora::app.cleaning'),
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
+<<<<<<< HEAD
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
@@ -161,6 +233,13 @@ enum AppointmentTypeEnum: string implements HasLabel
             self::CLEANING => __('<nome progetto>::app.cleaning'),
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
+=======
+>>>>>>> d86d643a (.)
+=======
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
             // ... other cases
         };
     }
@@ -168,6 +247,17 @@ enum AppointmentTypeEnum: string implements HasLabel
 
 // Alias for backward compatibility
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
@@ -176,6 +266,7 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+<<<<<<< HEAD
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
@@ -187,6 +278,12 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+=======
+>>>>>>> d86d643a (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ## Updating Existing Enums
@@ -202,3 +299,32 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

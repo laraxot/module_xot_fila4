@@ -26,6 +26,26 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
   ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,12 +138,69 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 
 
 =======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+
+
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+
+
 >>>>>>> 43d67f21 (.)
 =======
 
 
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+
+
+>>>>>>> b7ea1cd1 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+
+
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+
+
+>>>>>>> 62cc8443 (.)
+>>>>>>> 43d67f21 (.)
+=======
+
+
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ## Approccio alla Risoluzione
 
 La risoluzione seguirà questi principi:
@@ -232,6 +309,7 @@ Questa risoluzione garantisce:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 =======
 =======
@@ -243,11 +321,34 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 >>>>>>> ce6fc085 (.)
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../project_docs/logs/conflict_resolution_progress.md). 
+<<<<<<< HEAD
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../project_docs/logs/conflict_resolution_progress.md). 
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../project_docs/logs/conflict_resolution_progress.md). 
@@ -287,4 +388,9 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../project_docs/logs/conflict_resolution_progress.md). 
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

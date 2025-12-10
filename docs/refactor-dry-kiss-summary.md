@@ -151,9 +151,44 @@
 =======
 >>>>>>> 6ca989d8 (.)
 | SaluteMo | 13+ | Business logic semplificata |
+<<<<<<< HEAD
 | SaluteOra | 45+ | Core business centralizzato |
+<<<<<<< HEAD
 |  | 45+ | Core business centralizzato |
 | <nome progetto> | 45+ | Core business centralizzato |
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+|  | 45+ | Core business centralizzato |
+| <nome progetto> | 45+ | Core business centralizzato |
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 62cc8443 (.)
 | SaluteMo | 13+ | Business logic semplificata |
 |  | 45+ | Core business centralizzato |
 | SaluteOra | 45+ | Core business centralizzato |
@@ -208,7 +243,12 @@
 | SaluteMo | 13+ | Business logic semplificata |
 | SaluteOra | 45+ | Core business centralizzato |
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |

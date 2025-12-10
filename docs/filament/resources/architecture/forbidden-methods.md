@@ -194,6 +194,7 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -203,6 +204,8 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 62cc8443 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
@@ -315,7 +318,12 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
@@ -334,6 +342,7 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -345,7 +354,12 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 =======
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
@@ -357,6 +371,7 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -376,7 +391,12 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ## Processo di refactoring

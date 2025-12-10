@@ -1,4 +1,29 @@
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 <<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.):docs/DOCS_CONSOLIDATION_REPORT.md
 # Report Consolidamento Documentazione - 27 Gennaio 2025
 
 ## Panoramica
@@ -58,6 +83,27 @@ Questo report documenta il progresso del consolidamento della documentazione sec
    - Validazione coerenza dei link
 
 3. **Validazione PHPStan**
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan level 10
+=======
+>>>>>>> 62cc8443 (.):docs/DOCS_CONSOLIDATION_REPORT.md
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
@@ -74,13 +120,12 @@ Questo report documenta il progresso del consolidamento della documentazione sec
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+=======
+>>>>>>> d86d643a (.)
+=======
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
-   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
-   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
-   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
-   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
-   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
-   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.):docs/DOCS_CONSOLIDATION_REPORT.md
    - Aggiornamento esempi non conformi
    - Test di funzionamento degli esempi
 
@@ -149,6 +194,27 @@ laravel/
 - Struttura coerente tra tutti i moduli
 
 ### 4. Qualità del Codice
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Tutti gli esempi conformi PHPStan level 10
+=======
+>>>>>>> 62cc8443 (.):docs/DOCS_CONSOLIDATION_REPORT.md
+- Tutti gli esempi conformi PHPStan Level 9
+- Tutti gli esempi conformi PHPStan Level 9
+- Tutti gli esempi conformi PHPStan Level 9
+- Tutti gli esempi conformi PHPStan Level 9
+- Tutti gli esempi conformi PHPStan Level 9
+- Tutti gli esempi conformi PHPStan Level 9
+- Tutti gli esempi conformi PHPStan Level 9
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 - Tutti gli esempi conformi PHPStan Level 9
 - Tutti gli esempi conformi PHPStan Level 9
 - Tutti gli esempi conformi PHPStan Level 9
@@ -165,13 +231,12 @@ laravel/
 - Tutti gli esempi conformi PHPStan Level 9
 - Tutti gli esempi conformi PHPStan Level 9
 - Tutti gli esempi conformi PHPStan Level 9
+=======
+>>>>>>> d86d643a (.)
+=======
 - Tutti gli esempi conformi PHPStan Level 9
-- Tutti gli esempi conformi PHPStan Level 9
-- Tutti gli esempi conformi PHPStan Level 9
-- Tutti gli esempi conformi PHPStan Level 9
-- Tutti gli esempi conformi PHPStan Level 9
-- Tutti gli esempi conformi PHPStan Level 9
-- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.):docs/DOCS_CONSOLIDATION_REPORT.md
 - Type hints espliciti e documentazione PHPDoc
 - Namespace corretti senza segmento `app`
 
@@ -230,5 +295,34 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 **Data Report**: 27 Gennaio 2025  
 **Stato**: Consolidamento in corso  
 **Prossimo Update**: Completamento consolidamento root docs
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 ========
 >>>>>>>> 7ee87c138 (.):docs/DOCS_CONSOLIDATION_REPORT.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.):docs/DOCS_CONSOLIDATION_REPORT.md

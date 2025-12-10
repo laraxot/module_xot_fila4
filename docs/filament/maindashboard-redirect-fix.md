@@ -79,6 +79,7 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
@@ -93,6 +94,12 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+# Accedere direttamente al panel PDND
+curl -I http://personale2022.prov.tv.local/pdnd/admin
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
@@ -106,6 +113,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
@@ -120,6 +128,12 @@ curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+# Accedere al dashboard principale
+curl -I http://personale2022.prov.tv.local/admin
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
@@ -133,6 +147,7 @@ curl -I http://personale2022.prov.tv.local/admin
 
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 
+<<<<<<< HEAD
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 >>>>>>> 85cdef688 (.)
 =======
@@ -153,6 +168,12 @@ curl -I http://personale2022.prov.tv.local/admin
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 
 >>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+=======
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 # senza redirect automatico
 ```
 
@@ -239,13 +260,18 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 62cc8443 (.)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6ca989d8 (.)
@@ -254,6 +280,9 @@ performance::admin
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 
 ## Aggiornamenti
 
@@ -273,6 +302,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 2025-01-27* 
 >>>>>>> 85cdef688 (.)
@@ -285,3 +315,8 @@ performance::admin
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-27* 
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)

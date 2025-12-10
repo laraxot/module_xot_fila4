@@ -16,7 +16,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 # Regole per le Risorse Filament in <nome progetto>
 
 ## Panoramica
@@ -69,7 +73,12 @@ Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resourc
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -96,6 +105,7 @@ Tutte le risorse Filament in SaluteOra **DEVONO** estendere `Modules\Xot\Filamen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -107,7 +117,12 @@ Tutte le risorse Filament in SaluteOra **DEVONO** estendere `Modules\Xot\Filamen
 =======
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
 # Regole per le Risorse Filament in 
 
 ## Panoramica
@@ -129,6 +144,7 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,7 +175,12 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ```php
 // ✅ CORRETTO

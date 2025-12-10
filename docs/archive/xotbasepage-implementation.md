@@ -24,6 +24,7 @@ la classe `XotBasePage` estende `Filament\Pages\Page` e si trova in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 =======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
@@ -43,9 +44,27 @@ la classe `XotBasePage` estende `Filament\Pages\Page` e si trova in:
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+<<<<<<< HEAD
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 /var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+=======
+>>>>>>> d86d643a (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 472bd9dc (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
@@ -93,7 +112,12 @@ la classe `XotBasePage` estende `Filament\Pages\Page` e si trova in:
 =======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ## namespace
@@ -174,6 +198,7 @@ class SettingsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Pages;
 =======
 namespace Modules\<nome modulo>\Filament\Pages;
@@ -193,8 +218,25 @@ namespace Modules\SaluteOra\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\<nome modulo>\Filament\Pages;
+=======
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\<nome modulo>\Filament\Pages;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 namespace Modules\SaluteOra\Filament\Pages;
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
@@ -237,7 +279,12 @@ namespace Modules\SaluteOra\Filament\Pages;
 =======
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Filament\Forms\Components\TextInput;
@@ -264,6 +311,7 @@ class DashboardSettings extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
 <<<<<<< HEAD
 =======
@@ -283,8 +331,25 @@ class DashboardSettings extends XotBasePage
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+<<<<<<< HEAD
     protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
     protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+=======
+>>>>>>> d86d643a (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 472bd9dc (.)
+=======
+    protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+    protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
     protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
@@ -327,7 +392,12 @@ class DashboardSettings extends XotBasePage
 =======
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
     
     protected function getFormFields(): array
     {
@@ -438,6 +508,7 @@ class DashboardSettingsPolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [pattern di estensione filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/project_docs/filament-best-practices.md)
 =======
@@ -454,6 +525,19 @@ class DashboardSettingsPolicy
 - [best practices filament](../SaluteOra/docs/filament-best-practices.md)
 - [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-best-practices.md)
 
@@ -463,6 +547,16 @@ class DashboardSettingsPolicy
 - [best practices filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-best-practices.md)
 - [pattern di estensione filament](../Xot/docs/filament_extension_pattern.md)
 - [best practices filament](../<nome progetto>/docs/filament-best-practices.md)
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
 - [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
@@ -522,7 +616,12 @@ class DashboardSettingsPolicy
 - [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ## ATTENZIONE: errori critici da evitare
 - NON dichiarare mai abstract getFormSchema() in XotBasePage: la classe base Filament lo implementa già. Fornire sempre una implementazione di default (array vuoto).

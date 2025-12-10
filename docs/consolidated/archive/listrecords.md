@@ -45,16 +45,71 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Questa policy è stata aggiornata e propagata anche in [<nome progetto>/project_docs/resources/studio-resource.md](../../<nome progetto>/project_docs/resources/studio-resource.md) e [<nome progetto>/project_docs/README.md](../../<nome progetto>/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
 =======
 > Questa policy è stata aggiornata e propagata anche in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md) e [<nome modulo>/docs/README.md](../../<nome modulo>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
 >>>>>>> ce6fc085 (.)
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+<<<<<<< HEAD
 > Questa policy è stata aggiornata e propagata anche in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md) e [<nome modulo>/docs/README.md](../../<nome modulo>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
 > Questa policy è stata aggiornata e propagata anche in [<nome progetto>/project_docs/resources/studio-resource.md](../../<nome progetto>/project_docs/resources/studio-resource.md) e [<nome progetto>/project_docs/README.md](../../<nome progetto>/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
 # List Records in Filament
 
 > **AGGIORNAMENTO 2025-05-28:**
+=======
+>>>>>>> 5a14301c (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 399f46d3 (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> d86d643a (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 472bd9dc (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> d86d643a (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 472bd9dc (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md) e [<nome modulo>/docs/README.md](../../<nome modulo>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
+> Questa policy è stata aggiornata e propagata anche in [<nome progetto>/project_docs/resources/studio-resource.md](../../<nome progetto>/project_docs/resources/studio-resource.md) e [<nome progetto>/project_docs/README.md](../../<nome progetto>/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 43d67f21 (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md) e [<nome modulo>/docs/README.md](../../<nome modulo>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 5a14301c (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 43d67f21 (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 62cc8443 (.)
 > Questa policy è stata aggiornata e propagata anche in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md) e [<nome modulo>/docs/README.md](../../<nome modulo>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
 > Questa policy è stata aggiornata e propagata anche in [<nome progetto>/project_docs/resources/studio-resource.md](../../<nome progetto>/project_docs/resources/studio-resource.md) e [<nome progetto>/project_docs/README.md](../../<nome progetto>/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
 # List Records in Filament
@@ -82,7 +137,12 @@
 =======
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md) e [SaluteOra/project_docs/README.md](../../SaluteOra/project_docs/README.md). Vedi esempi di implementazione e note di propagazione.
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ## Estensione Corretta
 
@@ -300,6 +360,7 @@ public function getTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La pagina ListStudios del modulo <nome progetto> implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome progetto>/project_docs/resources/studio-resource.md](../../<nome progetto>/project_docs/resources/studio-resource.md).
 =======
 La pagina ListStudios del modulo generico implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md).
@@ -319,8 +380,25 @@ La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metod
 La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md).
 La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md).
 La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md).
+<<<<<<< HEAD
 La pagina ListStudios del modulo generico implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md).
 La pagina ListStudios del modulo <nome progetto> implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome progetto>/project_docs/resources/studio-resource.md](../../<nome progetto>/project_docs/resources/studio-resource.md).
+=======
+>>>>>>> d86d643a (.)
+=======
+La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md).
+>>>>>>> 472bd9dc (.)
+=======
+La pagina ListStudios del modulo generico implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md).
+La pagina ListStudios del modulo <nome progetto> implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome progetto>/project_docs/resources/studio-resource.md](../../<nome progetto>/project_docs/resources/studio-resource.md).
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md).
 La pagina ListStudios del modulo generico implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md).
 La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md).
@@ -363,4 +441,9 @@ La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metod
 =======
 La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/project_docs/resources/studio-resource.md](../../SaluteOra/project_docs/resources/studio-resource.md).
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

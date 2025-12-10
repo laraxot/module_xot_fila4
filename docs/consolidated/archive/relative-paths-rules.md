@@ -54,6 +54,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
 =======
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
@@ -73,9 +74,27 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+<<<<<<< HEAD
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+=======
+>>>>>>> d86d643a (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 472bd9dc (.)
+=======
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+   [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
@@ -123,7 +142,12 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:

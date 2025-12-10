@@ -132,7 +132,10 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -178,10 +181,13 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +220,23 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 >>>>>>> 6ca989d8 (.)
 - [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -222,6 +245,51 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+- [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+- [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 62cc8443 (.)
 - [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
 - [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
 - [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
@@ -261,7 +329,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -303,12 +376,43 @@ Questo fix dimostra l'importanza di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
 >>>>>>> 6ca989d8 (.)
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+<<<<<<< HEAD
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+=======
+>>>>>>> 5a14301c (.)
+=======
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+*Il sistema  ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 62cc8443 (.)
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
@@ -350,4 +454,9 @@ Questo fix dimostra l'importanza di:
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

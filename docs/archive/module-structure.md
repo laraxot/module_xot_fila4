@@ -28,7 +28,10 @@ Per tutti i dati geografici statici (regioni, province, comuni, cap) di dimensio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 62cc8443 (.)
 - Aggiornare la documentazione di Geo/docs, <nome progetto>/docs e questa stessa doc con collegamenti bidirezionali.
 
 Per dettagli implementativi e best practice vedi:
@@ -76,11 +79,14 @@ Per dettagli implementativi e best practice vedi:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 - Aggiornare la documentazione di Geo/docs, SaluteOra/docs e questa stessa doc con collegamenti bidirezionali.
 
 Per dettagli implementativi e best practice vedi:
 - [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
 - [SaluteOra/docs/geo-integration.md](../../SaluteOra/docs/geo-integration.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,7 +148,12 @@ Per dettagli implementativi e best practice vedi:
 =======
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
 - Aggiornare la documentazione di Geo/docs, <nome modulo>/docs e questa stessa doc con collegamenti bidirezionali.
 
 Per dettagli implementativi e best practice vedi:
@@ -156,6 +167,7 @@ Per dettagli implementativi e best practice vedi:
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,7 +220,12 @@ Per dettagli implementativi e best practice vedi:
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - [Questa stessa doc (Xot/module-structure.md)](module-structure.md)
 
 ---

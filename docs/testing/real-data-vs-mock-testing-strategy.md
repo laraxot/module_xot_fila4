@@ -226,6 +226,7 @@ test('complete tax filing process', function () {
 =======
 >>>>>>> ce6fc085 (.)
 ### Healthcare Domain () - **Real Data Preferred**
+<<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain () - **Real Data Preferred**
@@ -268,6 +269,15 @@ test('complete tax filing process', function () {
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 ### Healthcare Domain () - **Real Data Preferred**
 <<<<<<< HEAD
@@ -370,7 +380,16 @@ test('complete tax filing process', function () {
 >>>>>>> 6cba4fe (.)
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+=======
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -586,6 +605,7 @@ test('legacy feature with mocks', function () {
 =======
 >>>>>>> ce6fc085 (.)
 **For  Healthcare Domain**: 
+<<<<<<< HEAD
 **For  Healthcare Domain**: 
 **For  Healthcare Domain**: 
 **For  Healthcare Domain**: 
@@ -628,6 +648,15 @@ test('legacy feature with mocks', function () {
 **For SaluteOra Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 **For <nome progetto> Healthcare Domain**: 
 **For  Healthcare Domain**: 
 <<<<<<< HEAD
@@ -730,7 +759,16 @@ test('legacy feature with mocks', function () {
 >>>>>>> 6cba4fe (.)
 **For SaluteOra Healthcare Domain**: 
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+**For SaluteOra Healthcare Domain**: 
+=======
+**For <nome progetto> Healthcare Domain**: 
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 

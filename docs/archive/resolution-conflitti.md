@@ -27,11 +27,18 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 =======
 - [Componenti Filament](../../Themes/One/docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/docs/AUTH.md)
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 - [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
 >>>>>>> ce6fc085 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
   - Implementazione completa sistema registrazione
   - Gestione tipi utente dinamica
   - UI moderna con Filament
@@ -111,7 +118,14 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
    - Miglioramento della gestione degli errori
    - Documentazione dei metodi aggiornata
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 ## Collegamenti Esterni
 
 <<<<<<< HEAD
@@ -119,11 +133,18 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 =======
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../docs/logs/conflict_resolution_report.md)
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
 >>>>>>> ce6fc085 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 - [Dettagli risoluzione ModelWithPosContract](./conflicts/model_with_pos_contract_resolution.md)
 
 ## XotBaseMainPanelProvider.php
@@ -156,7 +177,14 @@ aurmich/dev
 - È stato rimosso il codice commentato non necessario per `registerBladeComponents()`
 b6f667c (.)
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 La soluzione adottata privilegia la chiarezza del codice e l'organizzazione logica dei metodi, eliminando commenti non necessari e duplicazioni.
 
 ## XotBaseRouteServiceProvider.php
@@ -184,7 +212,14 @@ Mantenere il codice più semplice è preferibile, soprattutto quando le funziona
 
 b6f667c (.)
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 ## Conflitti risolti (14/06/2024)
 
 I seguenti conflitti sono stati risolti come parte dell'ultima manutenzione del modulo:
@@ -211,7 +246,14 @@ I seguenti conflitti sono stati risolti come parte dell'ultima manutenzione del 
    - Coerenza con le convenzioni del framework
 fc83074 (.)
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 Le modifiche sono state applicate seguendo le best practice documentate in `CONFLITTI_MERGE_RISOLTI.md`, privilegiando la chiarezza del codice e la coerenza con gli standard di progetto.
 
 ## Conflitti ancora da risolvere
@@ -223,10 +265,17 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 <<<<<<< HEAD
 =======
 - Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 - Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
 >>>>>>> ce6fc085 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 - File README.md del modulo Activity
 
 ### Modulo Xot
@@ -255,12 +304,19 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 =======
 * [risoluzione_conflitti.md](../../../Xot/docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/docs/risoluzione_conflitti.md)
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 * [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
 >>>>>>> ce6fc085 (.)
+=======
 
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+
+=======
+>>>>>>> a5dccfe (.)
 aurmich/dev
 5693302 (.)
 b6f667c (.)
@@ -270,11 +326,18 @@ b6f667c (.)
 * [Risoluzione Conflitti Xot](../../../Xot/docs/risoluzione_conflitti.md)
 * [Risoluzione Conflitti Tenant](../../../Tenant/docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 * [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [Risoluzione Conflitti Tenant](../../../Tenant/project_docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
 >>>>>>> ce6fc085 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 fc83074 (.)
 

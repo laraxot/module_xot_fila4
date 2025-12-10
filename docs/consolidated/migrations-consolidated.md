@@ -441,6 +441,7 @@ $table->foreign('user_id')->references('id')->on('users')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> Module (CRITICO)
 =======
 ###  Module (CRITICO)
@@ -460,8 +461,25 @@ $table->foreign('user_id')->references('id')->on('users')
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
+<<<<<<< HEAD
 ###  Module (CRITICO)
 ### <nome progetto> Module (CRITICO)
+=======
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 472bd9dc (.)
+=======
+###  Module (CRITICO)
+### <nome progetto> Module (CRITICO)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 ### SaluteOra Module (CRITICO)
 ###  Module (CRITICO)
 ### SaluteOra Module (CRITICO)
@@ -504,7 +522,12 @@ $table->foreign('user_id')->references('id')->on('users')
 =======
 ### SaluteOra Module (CRITICO)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`

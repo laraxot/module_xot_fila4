@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
 <<<<<<< HEAD
 =======
@@ -28,11 +29,34 @@
 =======
 >>>>>>> ce6fc085 (.)
   [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+<<<<<<< HEAD
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
 
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
   [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
   [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
@@ -72,7 +96,12 @@
 =======
   [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ## Caso pratico: Performance
 - Per l’errore su `valutatore_id` in `performance_organizzativa`, vedere la documentazione dettagliata nel modulo Performance.

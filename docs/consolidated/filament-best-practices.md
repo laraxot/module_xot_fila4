@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -32,7 +33,13 @@
 =======
 =======
 >>>>>>> d86d643a (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -209,6 +216,7 @@ public function getTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -244,7 +252,13 @@ public function getTableColumns(): array
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -318,6 +332,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -334,7 +349,13 @@ public static function getFormSchema(): array
 =======
 =======
 >>>>>>> d86d643a (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ## Regole per XotBaseEditRecord
 
 ### Implementazione Corretta
@@ -412,6 +433,7 @@ class CreateAppointment extends XotBaseCreateRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -447,7 +469,13 @@ class CreateAppointment extends XotBaseCreateRecord
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
@@ -557,6 +585,7 @@ TextInput::make('nome')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -573,7 +602,13 @@ TextInput::make('nome')
 =======
 =======
 >>>>>>> d86d643a (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 declare(strict_types=1);
 
 namespace Modules\SaluteMo\Filament\Resources;
@@ -632,6 +667,7 @@ class ReportResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -667,7 +703,13 @@ class ReportResource extends XotBaseResource
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -775,6 +817,7 @@ class SocioResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -791,7 +834,13 @@ class SocioResource extends XotBaseResource
 =======
 =======
 >>>>>>> d86d643a (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ## Checklist di Conformità
 
 Prima di considerare completa una risorsa Filament, verificare:
@@ -855,6 +904,7 @@ Prima di considerare completa una risorsa Filament, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -890,7 +940,13 @@ Prima di considerare completa una risorsa Filament, verificare:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo
@@ -1319,7 +1375,10 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 62cc8443 (.)
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
@@ -1384,7 +1443,16 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+=======
+protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 TextInput::make('location')->required()
 ```
 
@@ -1410,7 +1478,10 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 62cc8443 (.)
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
@@ -1475,7 +1546,16 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+=======
+protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

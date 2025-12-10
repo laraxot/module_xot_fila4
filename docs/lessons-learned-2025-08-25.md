@@ -47,6 +47,16 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/docs/` (module).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
@@ -95,7 +105,15 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - All docs filenames lowercase except `README.md`.
 
 ## 7. PHPStan
@@ -165,6 +183,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 <<<<<<< HEAD
@@ -213,7 +232,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - Content from `config/local/saluteora/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets (SaluteOra)
@@ -235,6 +259,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -246,7 +271,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets ()
@@ -258,6 +288,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,7 +319,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.
@@ -327,6 +363,16 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 >>>>>>> ce6fc085 (.)
 - Backlinks: see `Modules/SaluteMo/docs/translation-rules-consolidated.md`, `Modules/Xot/docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 - Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
 
 - Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
@@ -375,4 +421,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

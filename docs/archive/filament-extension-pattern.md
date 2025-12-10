@@ -59,6 +59,7 @@ namespace Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Resources\Pages;
 =======
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
@@ -78,8 +79,25 @@ namespace Modules\SaluteOra\Filament\Resources\Pages;
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 namespace Modules\SaluteOra\Filament\Resources\Pages;
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
+=======
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\Pages;
+namespace Modules\<nome modulo>\Filament\Resources\Pages;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
 namespace Modules\SaluteOra\Filament\Resources\Pages;
@@ -122,7 +140,12 @@ namespace Modules\SaluteOra\Filament\Resources\Pages;
 =======
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ## metodi delle classi base
@@ -174,6 +197,7 @@ protected function getInfolistSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [errore override metodo final](/var/www/html/base_<nome progetto>/laravel/project_docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/project_docs/filament-resources.md)
 =======
@@ -190,6 +214,19 @@ protected function getInfolistSchema(): array
 - [linee guida filament](../SaluteOra/docs/filament-resources.md)
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
 
@@ -199,6 +236,16 @@ protected function getInfolistSchema(): array
 - [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-resources.md)
 - [errore override metodo final](/var/www/html/base_techplanner_fila3_mono/laravel/docs/errors/filament_final_method_override.md)
 - [linee guida filament](../<nome progetto>/docs/filament-resources.md)
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
@@ -258,4 +305,9 @@ protected function getInfolistSchema(): array
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

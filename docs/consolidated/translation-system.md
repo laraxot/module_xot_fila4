@@ -241,6 +241,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
@@ -249,6 +250,8 @@ php artisan view:clear
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
+=======
+>>>>>>> 62cc8443 (.)
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 <<<<<<< HEAD
 - [Schema Conventions](../project_docs/schema-conventions.md) 
@@ -270,4 +273,12 @@ php artisan view:clear
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

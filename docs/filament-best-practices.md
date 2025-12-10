@@ -2299,7 +2299,10 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 62cc8443 (.)
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
@@ -2353,7 +2356,16 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+=======
+protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 TextInput::make('location')->required()
 ```
 
@@ -2375,7 +2387,10 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 62cc8443 (.)
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
@@ -2429,7 +2444,16 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+=======
+protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

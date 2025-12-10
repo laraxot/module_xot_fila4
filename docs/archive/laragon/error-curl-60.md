@@ -98,6 +98,13 @@ https://curl.se/project_docs/caextract.html
 Download the latest cacert.pem file from
 https://curl.se/docs/caextract.html
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 Download the latest cacert.pem file from
 https://curl.se/project_docs/caextract.html
 
@@ -108,7 +115,15 @@ Download the latest cacert.pem file from
 https://curl.se/project_docs/caextract.html
 
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 Update your php.ini file:  
 Locate your php.ini file and find the line ;curl.cainfo =.  
 Change it to: curl.cainfo = "C:\path\to\cacert.pem" (replace with the actual path where you saved the cacert.pem file).  
@@ -144,6 +159,7 @@ curl.cainfo = "PATH/TO/cacert.pem"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
  
  
@@ -159,6 +175,8 @@ curl.cainfo = "PATH/TO/cacert.pem"
  
  
  
+=======
+>>>>>>> 62cc8443 (.)
  
 <<<<<<< HEAD
  
@@ -199,7 +217,15 @@ curl.cainfo = "PATH/TO/cacert.pem"
 =======
  
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+ 
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 [openssl]
 openssl.capath = "PATH/TO/cacert.pem"  
@@ -214,6 +240,26 @@ $client = new Google_Client();
 $client->setHttpClient($http);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,12 +352,69 @@ $client->setHttpClient($http);
 
 
 =======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+
+
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+
+
 >>>>>>> 43d67f21 (.)
 =======
 
 
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+
+
+>>>>>>> b7ea1cd1 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+
+
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+
+
+>>>>>>> 62cc8443 (.)
+>>>>>>> 43d67f21 (.)
+=======
+
+
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 --------------------
 composer config -g -- disable-tls true  
 composer config -g secure-http false   
@@ -321,6 +424,29 @@ composer config --global cafile PATH/TO/cacert.pem
 composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -447,10 +573,92 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 
 
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+
+
+
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+
+
+
+>>>>>>> 43d67f21 (.)
+=======
+
+
+
+>>>>>>> 5a14301c (.)
+=======
+
+
+
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+
+
+
 >>>>>>> 43d67f21 (.)
 =======
 
 
 
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+
+
+
+>>>>>>> b7ea1cd1 (.)
+=======
+
+
+
+>>>>>>> 5a14301c (.)
+=======
+
+
+
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+
+
+
+>>>>>>> 62cc8443 (.)
+>>>>>>> 43d67f21 (.)
+=======
+
+
+
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

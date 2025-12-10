@@ -1,3 +1,28 @@
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -40,7 +65,20 @@ function mockXotData(): void
     
     $mockXotData->shouldReceive('getUserClass')
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+>>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
@@ -48,6 +86,7 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
@@ -59,6 +98,12 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -232,6 +277,22 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -244,9 +305,11 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
 **Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md

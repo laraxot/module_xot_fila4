@@ -265,6 +265,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Usa il percorso `/var/www/html/base_<nome progetto>/laravel/Modules/NomeModulo/app/Models/` per i modelli
 =======
    - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
@@ -276,6 +277,14 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
    - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_<nome progetto>/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
@@ -293,6 +302,17 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 62cc8443 (.)
    - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
@@ -300,6 +320,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+<<<<<<< HEAD
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
@@ -329,9 +350,29 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
 =======
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+   - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
+   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+   - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
+>>>>>>> 5a14301c (.)
+=======
+   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+>>>>>>> 62cc8443 (.)
 >>>>>>> 43d67f21 (.)
 =======
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")

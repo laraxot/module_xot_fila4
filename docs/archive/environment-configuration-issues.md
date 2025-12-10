@@ -151,6 +151,7 @@ php artisan config:cache
 - [Documentazione Root](/docs/env-config-loading-issue.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 85cdef688 (.)
 =======
@@ -160,3 +161,8 @@ php artisan config:cache
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)

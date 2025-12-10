@@ -70,6 +70,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 =======
@@ -89,8 +90,25 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+=======
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
@@ -133,7 +151,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ### Formato Corretto
 ```markdown
@@ -151,6 +174,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 091f883c (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,9 +240,49 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
+[Documento in Root](../../../project_docs/documento.md)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
@@ -252,7 +316,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ### Formato Non Corretto
@@ -261,6 +330,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 # Collegamenti Non Corretti
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +450,16 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
@@ -387,6 +467,16 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
@@ -473,7 +563,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ```
 
 ### Checklist di Validazione

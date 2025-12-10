@@ -31,6 +31,7 @@ Il modulo bashscripts include un sistema di prompt che fornisce istruzioni stand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 =======
 Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
@@ -50,9 +51,27 @@ Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, ch
 Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+<<<<<<< HEAD
 Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+=======
+>>>>>>> d86d643a (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 472bd9dc (.)
+=======
+Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
@@ -100,7 +119,12 @@ Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, ch
 =======
 Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 1. Struttura gerarchica della documentazione
 2. Sistema di collegamenti bidirezionali

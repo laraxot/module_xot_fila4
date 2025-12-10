@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -131,7 +132,15 @@
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ## Introduzione
 
 Il file `/bashscripts/prompts/docs.txt` contiene un prompt utilizzato per guidare la documentazione nei progetti modulari Laravel. Questo documento descrive i miglioramenti apportati al prompt per renderlo completamente indipendente dal progetto e riutilizzabile.

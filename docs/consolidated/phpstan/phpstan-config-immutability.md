@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 =======
 - File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
@@ -74,10 +75,26 @@
 - File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 - File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
 - File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 - File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 472bd9dc (.)
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 - File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 # PHPStan Config Immutability (Global Project Rule)
 
@@ -128,7 +145,12 @@
 =======
 - File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - Status: IMMUTABLE — never modify this file via automation or PRs. Only the user may edit it manually.
 
 ## Rationale

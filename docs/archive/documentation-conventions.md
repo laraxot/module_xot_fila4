@@ -76,6 +76,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
@@ -85,11 +86,34 @@
 =======
 >>>>>>> ce6fc085 (.)
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+<<<<<<< HEAD
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
@@ -129,7 +153,12 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
@@ -151,6 +180,7 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
@@ -160,11 +190,34 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
 >>>>>>> ce6fc085 (.)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+<<<<<<< HEAD
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
@@ -204,7 +257,12 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -260,6 +318,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -283,6 +342,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Documentazione generale](../../../project_docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
+<<<<<<< HEAD
 
 - [Documentazione generale](../../../project_docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
@@ -317,6 +377,14 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Documentazione generale](../../../project_docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 <<<<<<< HEAD

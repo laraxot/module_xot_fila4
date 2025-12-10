@@ -146,6 +146,7 @@ class NotificationLogResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Module README](../../../<nome progetto>/docs/README.md)
 =======
 - [ Module README](../../../<nome modulo>/docs/README.md)
@@ -207,8 +208,25 @@ class NotificationLogResource extends XotBaseResource
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+<<<<<<< HEAD
 - [ Module README](../../../<nome modulo>/docs/README.md)
 - [<nome progetto> Module README](../../../../docs/README.md)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 472bd9dc (.)
+=======
+- [ Module README](../../../<nome modulo>/docs/README.md)
+- [<nome progetto> Module README](../../../../docs/README.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [ Module README](../../../<nome modulo>/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
@@ -261,7 +279,12 @@ class NotificationLogResource extends XotBaseResource
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ### Standard di Riferimento
 - [NavigationLabelTrait](../traits/navigation-label-trait.md)

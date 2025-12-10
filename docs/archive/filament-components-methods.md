@@ -104,6 +104,7 @@ Tabs\Tab::make('tab_name')
 =======
 - [Filament Forms Documentation](https://filamentphp.com/docs/forms)
 - [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+<<<<<<< HEAD
 - [Best Practices](filament-best-practices.md) 
 >>>>>>> 85cdef688 (.)
 =======
@@ -124,3 +125,9 @@ Tabs\Tab::make('tab_name')
 - [Filament Forms Documentation](https://filamentphp.com/docs/forms)
 - [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
 >>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)

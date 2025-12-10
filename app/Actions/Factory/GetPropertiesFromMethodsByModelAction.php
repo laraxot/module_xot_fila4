@@ -12,10 +12,73 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Factory;
 
+<<<<<<< HEAD
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+use ReflectionMethod;
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+use Spatie\QueueableAction\QueueableAction;
+use SplFileObject;
+
+=======
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 use SplFileObject;
 use ReflectionMethod;
 use SplFileObject;
@@ -40,6 +103,25 @@ use Illuminate\Support\Str;
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
@@ -67,6 +149,7 @@ use SplFileObject;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace;
+<<<<<<< HEAD
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
@@ -137,6 +220,14 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace;
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -165,11 +256,54 @@ use Webmozart\Assert\Assert;
  */
 class GetPropertiesFromMethodsByModelAction
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    use QueueableAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
     use QueueableAction;
     use QueueableAction;
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+    use QueueableAction;
+<<<<<<< HEAD
     use QueueableAction;
     use QueueableAction;
     use QueueableAction;
@@ -179,16 +313,45 @@ use SplFileObject;
     use QueueableAction;
     use QueueableAction;
     use QueueableAction;
-    use QueueableAction;
-    use QueueableAction;
-    use QueueableAction;
-    use QueueableAction;
-    use QueueableAction;
-    use QueueableAction;
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Model  $model  Il modello da analizzare
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
      * @param Model $model Il modello da analizzare
      *
      * 
@@ -219,6 +382,86 @@ use SplFileObject;
      * 
      *
      * @param  Model  $model  Il modello da analizzare
+<<<<<<< HEAD
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+=======
+     * @param Model $model Il modello da analizzare
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+>>>>>>> b7ea1cd1 (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+=======
+     * @param Model $model Il modello da analizzare
+     *
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+>>>>>>> 16dc7ab0 (.)
+=======
+     * @param Model $model Il modello da analizzare
+     *
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 62cc8443 (.)
+     * 
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+<<<<<<< HEAD
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param  Model  $model  Il modello da analizzare
+     * @param Model $model Il modello da analizzare
+     *
+     * @param  Model  $model  Il modello da analizzare
      * @param  Model  $model  Il modello da analizzare
      * @param  Model  $model  Il modello da analizzare
      * @param Model $model Il modello da analizzare
@@ -229,31 +472,6 @@ use SplFileObject;
      * 
      *
      * @param  Model  $model  Il modello da analizzare
-     * @param  Model  $model  Il modello da analizzare
-     * @param  Model  $model  Il modello da analizzare
-     * @param Model $model Il modello da analizzare
-     *
-     * @param  Model  $model  Il modello da analizzare
-     * @param  Model  $model  Il modello da analizzare
-     * @param  Model  $model  Il modello da analizzare
-     * @param Model $model Il modello da analizzare
-     *
-     * @param  Model  $model  Il modello da analizzare
-     * @param  Model  $model  Il modello da analizzare
-     * @param  Model  $model  Il modello da analizzare
-     * @param Model $model Il modello da analizzare
-     *
-     * @param  Model  $model  Il modello da analizzare
-     * @param  Model  $model  Il modello da analizzare
-     * @param  Model  $model  Il modello da analizzare
-     * @param Model $model Il modello da analizzare
-     *
-     * @param  Model  $model  Il modello da analizzare
-     * @param Model $model Il modello da analizzare
-     *
-     * 
-     *
-     * @param  Model  $model  Il modello da analizzare
      * @param Model $model Il modello da analizzare
      *
      * @param Model $model Il modello da analizzare
@@ -282,6 +500,11 @@ use SplFileObject;
      *
      * 
      *
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -413,44 +636,76 @@ use SplFileObject;
 
                 // Normalizziamo e analizziamo il codice
                 Assert::stringNotEmpty($code, 'Il codice del metodo non può essere vuoto');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e59778ae (.)
+>>>>>>> 62cc8443 (.)
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-                $replaced = preg_replace('/\s\s+/', '', $code);
-                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $replaced = preg_replace('/\s\s+/', '', $code);
@@ -468,6 +723,14 @@ use SplFileObject;
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+<<<<<<< HEAD
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $replaced = preg_replace('/\s\s+/', '', $code);
@@ -481,6 +744,30 @@ use SplFileObject;
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -570,16 +857,164 @@ use SplFileObject;
     /**
      * Estrae le relazioni belongsTo dal codice.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+>>>>>>> 62cc8443 (.)
      * @param  string  $codeStr  Il codice da analizzare
      * @param  Model  $model  Il modello
      * @param  string  $method  Il nome del metodo
      * @param  array<string, string>  &$data  L'array in cui salvare i dati estratti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
      * @param string $codeStr Il codice da analizzare
      * @param Model $model Il modello
      * @param string $method Il nome del metodo
      * @param array<string, string> &$data L'array in cui salvare i dati estratti
      *
      * @return void
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 62cc8443 (.)
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+     *
+     * @return void
+<<<<<<< HEAD
      *
      * @return void
      *
@@ -602,18 +1037,17 @@ use SplFileObject;
      * @return void
      *
      * @return void
-     *
-     * @return void
-     *
-     * @return void
-     *
-     * @return void
-     *
-     * @return void
-     *
-     * @return void
-     *
-     * @return void
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -664,58 +1098,75 @@ use SplFileObject;
             $relationObj = $model->$method();
             
             // Verifichiamo che sia effettivamente una relazione
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
             if (! ($relationObj instanceof Relation)) {
             if (!($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
             if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (!($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
-            if (! ($relationObj instanceof Relation)) {
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
             if (!($relationObj instanceof Relation)) {
             if (! ($relationObj instanceof Relation)) {
             if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
             if (! ($relationObj instanceof Relation)) {
             if (!($relationObj instanceof Relation)) {
             if (! ($relationObj instanceof Relation)) {
@@ -724,62 +1175,121 @@ use SplFileObject;
             if (!($relationObj instanceof Relation)) {
             if (! ($relationObj instanceof Relation)) {
             if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+<<<<<<< HEAD
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+            if (! ($relationObj instanceof Relation)) {
+            if (!($relationObj instanceof Relation)) {
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
                 return;
             }
 
             // Verifichiamo che il metodo getForeignKeyName esista
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
             if (! method_exists($relationObj, 'getForeignKeyName')) {
             if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
             if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
-            if (! method_exists($relationObj, 'getForeignKeyName')) {
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
             if (!method_exists($relationObj, 'getForeignKeyName')) {
             if (! method_exists($relationObj, 'getForeignKeyName')) {
             if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
             if (! method_exists($relationObj, 'getForeignKeyName')) {
             if (!method_exists($relationObj, 'getForeignKeyName')) {
             if (! method_exists($relationObj, 'getForeignKeyName')) {
@@ -788,6 +1298,48 @@ use SplFileObject;
             if (!method_exists($relationObj, 'getForeignKeyName')) {
             if (! method_exists($relationObj, 'getForeignKeyName')) {
             if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+<<<<<<< HEAD
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -824,7 +1376,165 @@ use SplFileObject;
             $fakerAction = app(GetFakerAction::class);
             Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
 
+<<<<<<< HEAD
         } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+        } catch (Exception $e) {
+=======
+            
+            // Verifichiamo che il metodo getForeignKeyName esista
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+                throw new \Exception('Il metodo getForeignKeyName non esiste nella relazione');
+            }
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+            
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+            
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+            Assert::classExists($relatedClass, "La classe relazionata $relatedClass non esiste");
+            
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+            
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+            $type = 'factory('.$relatedClass.'::class)';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+            $type = 'factory(' . $relatedClass . '::class)';
+>>>>>>> 0e51323 (.)
+=======
+            $type = 'factory(' . $relatedClass . '::class)';
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+            $type = 'factory('.$relatedClass.'::class)';
+>>>>>>> 43d67f21 (.)
+=======
+            $type = 'factory('.$relatedClass.'::class)';
+=======
+            $type = 'factory(' . $relatedClass . '::class)';
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+            $type = 'factory('.$relatedClass.'::class)';
+>>>>>>> 5842a556 (.)
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+=======
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+            $type = 'factory('.$relatedClass.'::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        } catch (Exception $e) {
+=======
+=======
+            
+=======
+
+>>>>>>> b93ef594b4 (.)
+            // Otteniamo il nome della chiave esterna
+            $foreignKeyName = $relationObj->getForeignKeyName();
+            Assert::string($foreignKeyName, 'Il nome della chiave esterna deve essere una stringa');
+
+            // Otteniamo la classe relazionata
+            $relatedClass = get_class($relationObj->getRelated());
+=======
+>>>>>>> 5a14301c (.)
+            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
+
+            // Chiamiamo GetFakerAction con parametri corretti
+            $fakerAction = app(GetFakerAction::class);
+            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+
+<<<<<<< HEAD
+            $type = 'factory(' . $relatedClass . '::class)';
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+<<<<<<< HEAD
+<<<<<<< HEAD
+            
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+        } catch (Exception $e) {
+=======
+>>>>>>> 62cc8443 (.)
             
             // Verifichiamo che il metodo getForeignKeyName esista
             if (!method_exists($relationObj, 'getForeignKeyName')) {
@@ -895,10 +1605,16 @@ use SplFileObject;
             $type = 'factory('.$relatedClass.'::class)';
             $type = 'factory(' . $relatedClass . '::class)';
             $type = 'factory('.$relatedClass.'::class)';
+<<<<<<< HEAD
             $type = 'factory('.$relatedClass.'::class)';
             $type = 'factory('.$relatedClass.'::class)';
             $type = 'factory(' . $relatedClass . '::class)';
             $type = 'factory('.$relatedClass.'::class)';
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             

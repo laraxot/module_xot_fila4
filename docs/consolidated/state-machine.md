@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../../<nome progetto>/project_docs/state-machine.md](../../<nome progetto>/project_docs/state-machine.md)
 <<<<<<< HEAD
 =======
@@ -37,6 +38,14 @@
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+- [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [../../<nome progetto>/project_docs/state-machine.md](../../<nome progetto>/project_docs/state-machine.md)
 - [../../<nome progetto>/project_docs/state-machine.md](../../<nome progetto>/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
@@ -51,12 +60,24 @@
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [../../<nome progetto>/project_docs/state-machine.md](../../<nome progetto>/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+<<<<<<< HEAD
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
@@ -93,10 +114,29 @@
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 =======
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+- [../../<nome progetto>/project_docs/state-machine.md](../../<nome progetto>/project_docs/state-machine.md)
+- [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+>>>>>>> 5a14301c (.)
+=======
+- [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+>>>>>>> 62cc8443 (.)
 >>>>>>> 43d67f21 (.)
 =======
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)

@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
    - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
 =======
@@ -106,6 +107,7 @@
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+<<<<<<< HEAD
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
@@ -126,12 +128,30 @@
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+=======
+>>>>>>> d86d643a (.)
+=======
+   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
+   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 62cc8443 (.)
    - ❌ `/var/www/html/_bases/base_techplanner_fila3_mono/Modules/Module/Datas/`
    - ✅ `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
    - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/_bases/base_techplanner_fila3_mono/Modules/Module/Datas/`
    - ✅ `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Module/Datas/`
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
@@ -191,7 +211,12 @@
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`

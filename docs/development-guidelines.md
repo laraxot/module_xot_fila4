@@ -36,6 +36,7 @@
 =======
 >>>>>>> ce6fc085 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
@@ -65,6 +66,15 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 <<<<<<< HEAD
@@ -173,7 +183,16 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> 6cba4fe (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ## PHPStan Best Practices
 

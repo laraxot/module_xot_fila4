@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -118,7 +119,15 @@
 =======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
@@ -144,6 +153,19 @@
 >>>>>>> ce6fc085 (.)
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
 
@@ -226,7 +248,15 @@
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ## Analisi della Struttura Attuale
 
 Il prompt `docs.txt` attuale presenta diverse problematiche strutturali che possono essere migliorate:

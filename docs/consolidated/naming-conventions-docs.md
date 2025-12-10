@@ -90,6 +90,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 - [Best Practices Documentazione](documentation-guidelines.md) 
 - [Best Practices Documentazione](documentation-guidelines.md) 
@@ -98,6 +99,8 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 - [Best Practices Documentazione](documentation-guidelines.md) 
 - [Best Practices Documentazione](documentation-guidelines.md) 
 - [Best Practices Documentazione](documentation-guidelines.md) 
+=======
+>>>>>>> 62cc8443 (.)
 - [Best Practices Documentazione](documentation-guidelines.md) 
 <<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
@@ -119,4 +122,12 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)

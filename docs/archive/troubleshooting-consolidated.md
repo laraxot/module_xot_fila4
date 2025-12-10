@@ -235,6 +235,7 @@ Codice non conforme agli standard di tipizzazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -254,9 +255,27 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -304,7 +323,12 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -575,6 +599,7 @@ public function test_b(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 >>>>>>> 6ca989d8 (.)
@@ -738,7 +763,17 @@ public function test_b(): void
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

@@ -278,6 +278,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -297,9 +298,27 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -347,7 +366,12 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -463,6 +487,7 @@ unset($translations['existing_key']); // MAI!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 =======
 **Compatibilità**: Laraxot , PHP 8.2+, Laravel 11+
@@ -482,8 +507,25 @@ unset($translations['existing_key']); // MAI!
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+<<<<<<< HEAD
 **Compatibilità**: Laraxot , PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
+=======
+>>>>>>> d86d643a (.)
+=======
+**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+>>>>>>> 472bd9dc (.)
+=======
+**Compatibilità**: Laraxot , PHP 8.2+, Laravel 11+
+**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot , PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
@@ -526,7 +568,12 @@ unset($translations['existing_key']); // MAI!
 =======
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ---
 

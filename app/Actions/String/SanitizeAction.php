@@ -4,10 +4,65 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\String;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 
 class SanitizeAction
 {
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -63,6 +118,54 @@ use function Safe\preg_replace;
 class SanitizeAction
 {
     use QueueableAction;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 
 
@@ -73,6 +176,64 @@ class SanitizeAction
     {
         $str = strip_tags($str);
         $str = html_entity_decode($str);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        return trim($str);
+=======
+        $str = trim($str);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+>>>>>>> 62cc8443 (.)
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
@@ -83,13 +244,52 @@ class SanitizeAction
             $str = $this->execute($afterStr);
         $str = trim($str);
         $str = trim($str);
+<<<<<<< HEAD
         $str = trim($str);
         $str = trim($str);
         $str = trim($str);
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
             $str = $this->execute($str);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 0218cd5 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
         if (Str::startsWith($str, '-')) {
             $afterStr = Str::after($str, '-');
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
@@ -114,6 +314,7 @@ class SanitizeAction
             $afterStr = Str::after($str, '-');
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
             $str = $this->execute($afterStr);
+<<<<<<< HEAD
         if (Str::startsWith($str, '-')) {
             $afterStr = Str::after($str, '-');
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
@@ -155,6 +356,19 @@ class SanitizeAction
         }
 
         return $str;
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
         }
 
         return $str;

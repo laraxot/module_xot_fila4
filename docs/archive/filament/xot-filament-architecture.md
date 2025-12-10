@@ -34,6 +34,19 @@ Il sistema è costruito attorno a classi base che forniscono funzionalità comun
 - [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
 - [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
 
@@ -148,7 +161,15 @@ Il sistema è costruito attorno a classi base che forniscono funzionalità comun
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
 
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 ### Principi Architetturali
 
 1. **Composizione over Inheritance**: Preferire la composizione all'ereditarietà diretta

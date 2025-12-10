@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in <nome progetto>. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 =======
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
@@ -39,8 +40,25 @@
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+<<<<<<< HEAD
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in <nome progetto>. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+=======
+>>>>>>> d86d643a (.)
+=======
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+>>>>>>> 472bd9dc (.)
+=======
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in <nome progetto>. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 62cc8443 (.)
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
@@ -83,7 +101,12 @@
 =======
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> 62cc8443 (.)
 
 ## Caratteristiche Principali
 

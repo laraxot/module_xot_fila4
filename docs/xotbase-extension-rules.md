@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 62cc8443 (.)
 =======
 # XotBase Extension Rules - Comprehensive Guide
 
@@ -200,9 +203,13 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 
 *Last Updated: 2025-08-27*  
 *Architecture Version: XotBase 2.0*
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE
@@ -264,6 +271,7 @@ Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -275,6 +283,11 @@ Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e 
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 # Cerca estensioni dirette di Filament (dovrebbe restituire 0 risultati)
 grep -r "extends Filament\\" Modules/ --include="*.php"
 
@@ -287,6 +300,7 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -298,6 +312,11 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 # Dashboard
 grep -r "XotBaseDashboard" Modules/ --include="*.php"
 
@@ -382,6 +401,7 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -393,6 +413,11 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 # .git/hooks/pre-commit
 
 if grep -r "extends Filament\\" Modules/ --include="*.php" > /dev/null; then
@@ -409,6 +434,7 @@ echo "✅ Controllo XotBase: PASSED"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -420,6 +446,11 @@ echo "✅ Controllo XotBase: PASSED"
 =======
 
 >>>>>>> 091f883c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
 # .github/workflows/xotbase-check.yml
 name: XotBase Extension Check
 on: [push, pull_request]

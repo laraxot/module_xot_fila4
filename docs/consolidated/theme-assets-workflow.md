@@ -108,6 +108,7 @@ npm run copy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
@@ -150,10 +151,14 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 >>>>>>> 472bd9dc (.)
 =======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 3bf39332 (.)
+=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +273,8 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -313,6 +320,7 @@ npm run copy         # Copia in /public/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
@@ -355,10 +363,14 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
 >>>>>>> 472bd9dc (.)
 =======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 3bf39332 (.)
+=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,6 +485,8 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
 npm install
 npm run build
 npm run copy

@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -92,6 +93,9 @@
 =======
 =======
 >>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -312,6 +316,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a5dccfe (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -331,6 +336,9 @@ php artisan view:clear
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica

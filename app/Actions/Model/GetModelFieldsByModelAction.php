@@ -21,11 +21,15 @@ class GetModelFieldsByModelAction
     public function execute(Model $model): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
 =======
         return $model->getConnection()
             ->getSchemaBuilder()
             ->getColumnListing($model->getTable());
 >>>>>>> f1d4085 (.)
+=======
+        return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+>>>>>>> 73eab74 (.)
     }
 }

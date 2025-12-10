@@ -740,6 +740,7 @@ public function getTableBulkActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
 =======
@@ -767,6 +768,8 @@ public function getTableBulkActions(): array
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
 =======
@@ -777,6 +780,7 @@ public function getTableBulkActions(): array
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -975,6 +979,8 @@ public function getTableBulkActions(): array
 * [resource.md](../../../Xot/project_docs/resource.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
 
 
 ### Versione Incoming

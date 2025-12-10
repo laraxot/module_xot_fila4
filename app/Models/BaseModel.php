@@ -318,6 +318,7 @@ abstract class BaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,10 +345,13 @@ abstract class BaseModel extends Model
 =======
 >>>>>>> d79d36e0 (.)
 =======
+>>>>>>> 96276392 (.)
+=======
 
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +537,8 @@ abstract class BaseModel extends Model
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

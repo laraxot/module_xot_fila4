@@ -562,6 +562,7 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Filament Widgets Documentation](https://filamentphp.com/project_docs/2.x/admin/widgets) 
 >>>>>>> 85cdef688 (.)
@@ -643,3 +644,6 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 =======
 - [Filament Widgets Documentation](https://filamentphp.com/docs/2.x/admin/widgets) 
 >>>>>>> e39b54ba7 (.)
+=======
+- [Filament Widgets Documentation](https://filamentphp.com/docs/2.x/admin/widgets) 
+>>>>>>> 6a52563d6 (.)

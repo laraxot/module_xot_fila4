@@ -14,6 +14,7 @@ Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 final public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 final public static function form(Form $form): Form
@@ -24,6 +25,9 @@ final public static function form(Form $form): Form
 =======
 final public static function form(Form $form): Form
 >>>>>>> 92cca5ade (.)
+=======
+final public static function form(Form $form): Form
+>>>>>>> 6a52563d6 (.)
 {
     return $form->schema(static::getFormSchema());
 }
@@ -118,6 +122,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. Seguire le convenzioni di Filament 
 =======
 5. Seguire le convenzioni di Filament 
@@ -168,3 +173,6 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> e39b54ba7 (.)
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> 6a52563d6 (.)

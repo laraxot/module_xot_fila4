@@ -31,6 +31,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### Filament 3.x
 >>>>>>> 85cdef688 (.)
@@ -115,6 +116,9 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 =======
 ### Filament 4.x
 >>>>>>> e39b54ba7 (.)
+=======
+### Filament 4.x
+>>>>>>> 6a52563d6 (.)
 - Pannello amministrativo
 - Form builder
 - Table builder
@@ -138,6 +142,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 >>>>>>> 85cdef688 (.)
@@ -189,6 +194,9 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 =======
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 >>>>>>> 5cb992cc6 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 6a52563d6 (.)
 
 ### Laravel Folio
 - Routing basato su file
@@ -207,6 +215,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Folio](https://laravel.com/docs/folio)
 >>>>>>> 85cdef688 (.)
@@ -258,6 +267,9 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 =======
 - [Documentazione Folio](https://laravel.com/docs/folio)
 >>>>>>> 5cb992cc6 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 6a52563d6 (.)
 
 ## Database e Cache
 
@@ -279,6 +291,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [PostgreSQL Docs](https://www.postgresql.org/docs/)
 >>>>>>> 85cdef688 (.)
@@ -330,6 +343,9 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 =======
 - [PostgreSQL Docs](https://www.postgresql.org/docs/)
 >>>>>>> 5cb992cc6 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 6a52563d6 (.)
 
 ### Redis
 - Cache distribuita
@@ -410,6 +426,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Telescope Docs](https://laravel.com/docs/telescope)
 >>>>>>> 85cdef688 (.)
@@ -461,6 +478,9 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 =======
 - [Telescope Docs](https://laravel.com/docs/telescope)
 >>>>>>> 5cb992cc6 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 6a52563d6 (.)
 
 ## Versioni Minime Richieste
 

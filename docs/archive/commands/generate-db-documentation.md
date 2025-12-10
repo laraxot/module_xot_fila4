@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 <<<<<<< HEAD
@@ -16,7 +17,12 @@
 =======
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 6e7c1905 (.)
+>>>>>>> 6a52563d6 (.)
 # GenerateDbDocumentationCommand
 
 ## Descrizione
@@ -59,6 +65,7 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 - [Documentation Guidelines](../DOCUMENTATION-GUIDELINES.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,4 +143,10 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 6e7c1905 (.)
+>>>>>>> 6a52563d6 (.)

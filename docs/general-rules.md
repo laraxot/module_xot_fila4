@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Regole Generali del Progetto 
 
@@ -52,6 +53,11 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
 
 Questo documento contiene le regole generali che devono essere seguite in tutto il progetto  per garantire coerenza e qualità del codice.
 >>>>>>> 7e4835b8e (.)
+=======
+# Regole Generali del Progetto SaluteOra
+
+Questo documento contiene le regole generali che devono essere seguite in tutto il progetto SaluteOra per garantire coerenza e qualità del codice.
+>>>>>>> 6a52563d6 (.)
 
 ## Struttura dei Namespace
 - **Modelli**: Utilizzare il namespace `Modules\<nome modulo>\Models` per tutti i modelli.

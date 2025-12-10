@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 <<<<<<< HEAD
@@ -16,7 +17,12 @@
 =======
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 6e7c1905 (.)
+>>>>>>> 6a52563d6 (.)
 # TransTrait
 
 ## Descrizione
@@ -67,6 +73,7 @@ class MyResource
 - [Translation Guidelines](../TRANSLATIONS-BEST-PRACTICES.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,4 +151,10 @@ class MyResource
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 6e7c1905 (.)
+>>>>>>> 6a52563d6 (.)

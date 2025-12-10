@@ -280,6 +280,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
@@ -345,6 +346,10 @@ return new class extends XotBaseMigration {
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
 >>>>>>> 5cb992cc6 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 6a52563d6 (.)
 
     /**
      * Ottiene la sezione associata al socio.

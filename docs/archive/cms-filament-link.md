@@ -29,6 +29,7 @@ Le convenzioni specifiche per Filament e frontend sono dettagliate in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Per anteprima custom in Filament usare sempre `ViewEntry`, **mai** `CustomEntry` (che non esiste in Filament 3.x).
 - La documentazione aggiornata è in [Cms/docs/convenzioni-namespace-filament.md](../laravel/Modules/Cms/docs/convenzioni-namespace-filament.md)
@@ -126,6 +127,11 @@ Le convenzioni specifiche per Filament e frontend sono dettagliate in:
 - La documentazione aggiornata è in [Cms/docs/convenzioni-namespace-filament.md](../laravel/Modules/Cms/docs/convenzioni-namespace-filament.md)
 - [Doc ufficiale Filament ViewEntry](https://filamentphp.com/docs/3.x/infolists/entries/custom)
 >>>>>>> 5cb992cc6 (.)
+=======
+- Per anteprima custom in Filament usare sempre `ViewEntry`, **mai** `CustomEntry` (che non esiste in Filament 4.x).
+- La documentazione aggiornata è in [Cms/docs/convenzioni-namespace-filament.md](../laravel/Modules/Cms/docs/convenzioni-namespace-filament.md)
+- [Doc ufficiale Filament ViewEntry](https://filamentphp.com/docs/3.x/infolists/entries/custom)
+>>>>>>> 6a52563d6 (.)
 
 ## Bidirezionalità
 - Questa pagina funge da ponte tra la documentazione generale (Xot) e le regole implementative/di frontend (Cms).

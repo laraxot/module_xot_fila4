@@ -55,6 +55,7 @@ abstract public function getFormSchema(): array;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 final public function form(Form $form): Form
@@ -65,6 +66,9 @@ final public function form(Form $form): Form
 =======
 final public function form(Form $form): Form
 >>>>>>> 92cca5ade (.)
+=======
+final public function form(Form $form): Form
+>>>>>>> 6a52563d6 (.)
 {
     return $form
         ->schema($this->getFormSchema())
@@ -203,6 +207,7 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> 85cdef688 (.)
@@ -284,3 +289,6 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 =======
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> e39b54ba7 (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
+>>>>>>> 6a52563d6 (.)

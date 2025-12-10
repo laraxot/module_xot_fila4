@@ -39,6 +39,7 @@ protected static function getPersonalStep(): Forms\Components\Wizard\Step
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Applicazione e nota nel modulo Patient](../../Patient/docs/clean-code-wizard-steps.md)
 >>>>>>> 85cdef688 (.)
@@ -90,6 +91,9 @@ protected static function getPersonalStep(): Forms\Components\Wizard\Step
 =======
 - [Applicazione e nota nel modulo Patient](../../Patient/docs/clean-code-wizard-steps.md)
 >>>>>>> 5cb992cc6 (.)
+=======
+- [Applicazione e nota nel modulo Patient](../../Patient/docs/clean-code-wizard-steps.md)
+>>>>>>> 6a52563d6 (.)
 
 **Questa regola è trasversale e vincolante per tutti i moduli.**
 
@@ -107,6 +111,7 @@ protected static function getPersonalStep(): Forms\Components\Wizard\Step
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [clean-code-wizard-steps.md](../../Patient/docs/clean-code-wizard-steps.md)
 >>>>>>> 85cdef688 (.)
@@ -158,4 +163,7 @@ protected static function getPersonalStep(): Forms\Components\Wizard\Step
 =======
 * [clean-code-wizard-steps.md](../../Patient/docs/clean-code-wizard-steps.md)
 >>>>>>> 5cb992cc6 (.)
+=======
+* [clean-code-wizard-steps.md](../../Patient/docs/clean-code-wizard-steps.md)
+>>>>>>> 6a52563d6 (.)
 

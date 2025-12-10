@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 <<<<<<< HEAD
@@ -16,7 +17,12 @@
 =======
 =======
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 6e7c1905 (.)
+>>>>>>> 6a52563d6 (.)
 ## Convenzioni di naming per le azioni (Actions)
 
 Per tutte le azioni che operano su chiavi di aggregazione specifiche (es. stabi, valutatore_id, ecc.), si raccomanda l'uso esplicito del suffisso `By<Chiave>` nel nome della classe. Esempio:
@@ -30,6 +36,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 - [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
 - [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +161,8 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 6a52563d6 (.)
 - [Motivazione e applicazione nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md)
 =======
 >>>>>>> ca9324a4 (.)
@@ -238,7 +247,13 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 =======
 - [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
 >>>>>>> 0123915b (.)
+<<<<<<< HEAD
 >>>>>>> 5cb992cc6 (.)
+=======
+=======
+- [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
+>>>>>>> 6e7c1905 (.)
+>>>>>>> 6a52563d6 (.)
 
 ## Memo e regole operative permanenti (per tutti i moduli che seguono Xot)
 
@@ -257,6 +272,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
   - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
   - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,6 +323,8 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 6a52563d6 (.)
   - [Documentazione generale e convenzioni di progetto](../../../../project_docs/coding-standards.md)
   - [Esempio e memo nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
 
@@ -680,4 +698,13 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 =======
 =======
 >>>>>>> 55fe1822 (.)
+<<<<<<< HEAD
 >>>>>>> e39b54ba7 (.)
+=======
+=======
+  - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
+  - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
+
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> 6e7c1905 (.)
+>>>>>>> 6a52563d6 (.)

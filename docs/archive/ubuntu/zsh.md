@@ -35,6 +35,7 @@ usefull links:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [zsh.md](../../../Xot/docs/install/zsh.md)
 * [zsh.md](../../../Xot/docs/ubuntu/zsh.md)
@@ -100,4 +101,8 @@ usefull links:
 * [zsh.md](../../../Xot/docs/install/zsh.md)
 * [zsh.md](../../../Xot/docs/ubuntu/zsh.md)
 >>>>>>> 5cb992cc6 (.)
+=======
+* [zsh.md](../../../Xot/docs/install/zsh.md)
+* [zsh.md](../../../Xot/docs/ubuntu/zsh.md)
+>>>>>>> 6a52563d6 (.)
 

@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 62cc8443 (.)
 =======
@@ -249,6 +250,8 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 6a52563d6 (.)
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE
@@ -326,6 +329,7 @@ Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -399,6 +403,9 @@ Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e 
 =======
 
 >>>>>>> e39b54ba7 (.)
+=======
+
+>>>>>>> 6a52563d6 (.)
 # Cerca estensioni dirette di Filament (dovrebbe restituire 0 risultati)
 grep -r "extends Filament\\" Modules/ --include="*.php"
 
@@ -427,6 +434,7 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -500,6 +508,9 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 =======
 
 >>>>>>> e39b54ba7 (.)
+=======
+
+>>>>>>> 6a52563d6 (.)
 # Dashboard
 grep -r "XotBaseDashboard" Modules/ --include="*.php"
 
@@ -600,6 +611,7 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -673,6 +685,9 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 =======
 
 >>>>>>> e39b54ba7 (.)
+=======
+
+>>>>>>> 6a52563d6 (.)
 # .git/hooks/pre-commit
 
 if grep -r "extends Filament\\" Modules/ --include="*.php" > /dev/null; then
@@ -705,6 +720,7 @@ echo "✅ Controllo XotBase: PASSED"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -778,6 +794,9 @@ echo "✅ Controllo XotBase: PASSED"
 =======
 
 >>>>>>> e39b54ba7 (.)
+=======
+
+>>>>>>> 6a52563d6 (.)
 # .github/workflows/xotbase-check.yml
 name: XotBase Extension Check
 on: [push, pull_request]

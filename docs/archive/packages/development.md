@@ -94,6 +94,7 @@ Ignition::editor('vscode');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [development.md](../../../Gdpr/docs/development.md)
 * [development.md](../../../Xot/docs/packages/development.md)
@@ -159,6 +160,10 @@ Ignition::editor('vscode');
 * [development.md](../../../Gdpr/docs/development.md)
 * [development.md](../../../Xot/docs/packages/development.md)
 >>>>>>> 5cb992cc6 (.)
+=======
+* [development.md](../../../Gdpr/docs/development.md)
+* [development.md](../../../Xot/docs/packages/development.md)
+>>>>>>> 6a52563d6 (.)
 
 
 ### Versione Incoming

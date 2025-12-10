@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 =======
@@ -304,7 +305,12 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+>>>>>>> 8c17e20b (.)
+>>>>>>> b39688e19 (.)
 <?php
 
 declare(strict_types=1);
@@ -312,6 +318,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1375,7 +1382,13 @@ pace Database\Factories;
 ?>
 namespace Database\Factories;
 >>>>>>> cf933af8 (.)
+<<<<<<< HEAD
 >>>>>>> a9d11f773 (.)
+=======
+=======
+pace Database\Factories;
+>>>>>>> 8c17e20b (.)
+>>>>>>> b39688e19 (.)
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 @isset($properties['remember_token'])

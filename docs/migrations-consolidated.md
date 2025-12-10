@@ -48,11 +48,7 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 - Qualsiasi documentazione migrazioni specifica di modulo
 
 ### ✅ Unica Fonte di Verità
-<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
-=======
-- **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
->>>>>>> 6cba4fe (.)
 - **File migrazione**: Solo nei singoli moduli (codice, non docs)
 
 ## Principi Fondamentali Universali
@@ -724,7 +720,6 @@ Tutti questi file sono DUPLICATI e vanno eliminati:
 
 ```bash
 # Activity
-<<<<<<< HEAD
 rm Modules/Activity/docs/database/migrations.md
 
 # Cms
@@ -773,6 +768,7 @@ rm Modules/<nome modulo>/docs/database/migrations.md
 =======
 # SaluteMo
 rm Modules/SaluteMo/docs/database/migrations.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1000,16 +996,14 @@ rm Modules/SaluteMo/docs/database/migrations.md
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
 
 # E tutti gli altri file duplicati...
 ```
 
 ### Mantenere Solo
-<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
-=======
-- **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
->>>>>>> 6cba4fe (.)
 - **File migrazione**: Solo codice nei singoli moduli
 
 ## Troubleshooting Universale

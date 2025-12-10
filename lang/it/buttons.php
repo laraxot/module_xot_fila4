@@ -3,14 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Pulsanti',
@@ -91,16 +83,6 @@ return [
         'success_operation' => 'Operazione dell\'interfaccia completata',
     ],
     // LEGACY SUPPORT - Compatibilità con codice esistente
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     'backend' => [
         'access' => [
             'users' => [

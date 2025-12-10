@@ -69,6 +69,7 @@ Per supporto e domande, contattare il team di sviluppo.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Standard di Documentazione Generale](../../Xot/docs/standards/documentation.md)
 - [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
@@ -184,3 +185,8 @@ Per supporto e domande, contattare il team di sviluppo.
 - [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
 - [Struttura dei Moduli](../../Xot/docs/architecture/modules.md)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Standard di Documentazione Generale](../../Xot/docs/standards/documentation.md)
+- [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
+- [Struttura dei Moduli](../../Xot/docs/architecture/modules.md)
+>>>>>>> 80bc07e81 (.)

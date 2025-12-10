@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD
@@ -28,7 +29,12 @@
 =======
 =======
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 # InformationSchemaTable
 
 ## Descrizione
@@ -76,6 +82,7 @@ class InformationSchemaTable extends Model
 - [Schema Documentation](../DIRECTORY-STRUCTURE-GUIDE.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,4 +187,11 @@ class InformationSchemaTable extends Model
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Model Best Practices](../models/README.md) 
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Model Best Practices](../models/README.md) 
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)

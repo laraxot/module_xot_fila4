@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD
@@ -28,7 +29,12 @@
 =======
 =======
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 # ModelWithUserContract
 
 ## Descrizione
@@ -102,6 +108,7 @@ class Article extends Model implements ModelWithUserContract
 - [User Management](../features/USER-MANAGEMENT.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,4 +213,11 @@ class Article extends Model implements ModelWithUserContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)

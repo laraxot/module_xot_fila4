@@ -57,6 +57,7 @@ abstract public function getFormSchema(): array;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 final public function form(Form $form): Form
@@ -73,6 +74,9 @@ final public function form(Form $form): Form
 =======
 final public function form(Form $form): Form
 >>>>>>> 317b552da (.)
+=======
+final public function form(Form $form): Form
+>>>>>>> 80bc07e81 (.)
 {
     return $form
         ->schema($this->getFormSchema())
@@ -191,6 +195,7 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 - [NAMESPACE-RULES.md](../../NAMESPACE-RULES.md) - Regole per i namespace nei moduli
 - [FOLIO_VOLT_FILAMENT_INTEGRATION.md](../../FOLIO_VOLT_FILAMENT_INTEGRATION.md) - Integrazione Folio, Volt e Filament
 - [MODULE_STRUCTURE.md](../../MODULE_STRUCTURE.md) - Struttura standard dei moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,3 +347,6 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 =======
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> 5df5c7505 (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
+>>>>>>> 80bc07e81 (.)

@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 9e42a036 (.)
 # PSR-4 Compliance per Test - Modulo Xot
 
 ## Problema Identificato
@@ -145,6 +148,7 @@ composer dump-autoload
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -197,7 +201,12 @@ composer dump-autoload
 =======
 =======
 >>>>>>> 39bb163e (.)
+<<<<<<< HEAD
 >>>>>>> d9f43fce9 (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 ### File: `tests/Unit/HasXotTableTest.php` (2025-01-06)
 
 - **Problema**: Classi `HasTableWithXot`, `HasTableWithoutOptionalMethods`, `DummyModel` senza namespace appropriato
@@ -210,6 +219,7 @@ composer dump-autoload
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,7 +352,12 @@ composer dump-autoload
 =======
 =======
 >>>>>>> b396242e (.)
+<<<<<<< HEAD
 >>>>>>> 5df5c7505 (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 ### File: `tests/Unit/HasExtraTraitTest.php`
 
 - **Problema**: Classe `TestExtra` senza namespace appropriato
@@ -358,6 +373,7 @@ composer dump-autoload
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,7 +583,13 @@ composer dump-autoload
 =======
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 >>>>>>> b396242e (.)
+<<<<<<< HEAD
 >>>>>>> 5df5c7505 (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/docs/testing.md)
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 - [PHPStan Configuration](./phpstan-configuration-fixes.md)
 - [Best Practices](./best-practices-consolidated.md)
 
@@ -576,6 +598,7 @@ composer dump-autoload
 *Ultimo aggiornamento: 2025-01-06*
 *Conformità: PSR-4, PHPStan livello 9+, Laraxot standards*
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,3 +620,5 @@ composer dump-autoload
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 9e42a036 (.)

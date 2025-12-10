@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 <<<<<<< HEAD
@@ -28,7 +29,12 @@
 =======
 =======
 >>>>>>> 334816e8 (.)
+<<<<<<< HEAD
 >>>>>>> 317b552da (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 # WebhookErrorFormatter
 
 ## Descrizione
@@ -79,6 +85,7 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 - [Webhook Integration](../../integrations/WEBHOOK-GUIDE.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,4 +190,11 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 - [Error Formatters Overview](../README.md) 
 >>>>>>> 334816e8 (.)
+<<<<<<< HEAD
 >>>>>>> 317b552da (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters Overview](../README.md) 
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)

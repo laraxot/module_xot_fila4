@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 334816e8 (.)
+=======
+>>>>>>> 9e42a036 (.)
 # Troubleshooting Guide
 
 ## Common Issues
@@ -25,6 +28,7 @@
 - **Solution**: Check namespace imports and method signatures
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,7 +105,13 @@
 =======
 - **Prevention**: Always run PHPStan level 9+ before commits
 >>>>>>> 334816e8 (.)
+<<<<<<< HEAD
 >>>>>>> 317b552da (.)
+=======
+=======
+- **Prevention**: Always run PHPStan level 9+ before commits
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings
@@ -136,6 +146,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -152,3 +163,5 @@
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 334816e8 (.)
+=======
+>>>>>>> 9e42a036 (.)

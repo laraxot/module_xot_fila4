@@ -170,13 +170,17 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
+=======
+>>>>>>> 80bc07e81 (.)
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
 - [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 85cdef688 (.)
 =======
@@ -335,3 +339,6 @@ return [
 >>>>>>> d9f43fce9 (.)
 =======
 >>>>>>> 5df5c7505 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 80bc07e81 (.)

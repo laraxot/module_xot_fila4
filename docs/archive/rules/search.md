@@ -139,6 +139,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
 >>>>>>> 85cdef688 (.)
@@ -214,6 +215,9 @@
 =======
    - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
 >>>>>>> 60f0a1820 (.)
+=======
+   - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
+>>>>>>> 80bc07e81 (.)
    - `/laravel/Modules/Lang/resources/lang/`: File di traduzione
    - Struttura per lingua: `it/`, `en/`, etc.
 
@@ -263,6 +267,7 @@
 
 ## Collegamenti tra versioni di search.md
 * [search.md](docs/rules/search.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,4 +382,8 @@
 * [search.md](../../../Xot/docs/features/search.md)
 * [search.md](../../../Xot/docs/rules/search.md)
 >>>>>>> 60f0a1820 (.)
+=======
+* [search.md](../../../Xot/docs/features/search.md)
+* [search.md](../../../Xot/docs/rules/search.md)
+>>>>>>> 80bc07e81 (.)
 

@@ -50,6 +50,7 @@ class MyCustomWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament Widgets](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/index.md)
 >>>>>>> 85cdef688 (.)
@@ -125,4 +126,7 @@ class MyCustomWidget extends XotBaseWidget
 =======
 - [Documentazione Filament Widgets](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/index.md)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Documentazione Filament Widgets](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/index.md)
+>>>>>>> 80bc07e81 (.)
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/app/Filament/Widgets/XotBaseWidget.php) 

@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 <<<<<<< HEAD
@@ -28,7 +29,12 @@
 =======
 =======
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 # HandlersRepository
 
 ## Descrizione
@@ -118,6 +124,7 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [Error Formatters](../formatters/README.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,4 +229,11 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 - [Handlers Overview](./README.md) 
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Handlers Overview](./README.md) 
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)

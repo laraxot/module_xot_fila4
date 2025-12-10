@@ -9,6 +9,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -119,20 +120,29 @@ use Illuminate\Support\Facades\Artisan;
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+use Modules\Xot\Tests\TestCase;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+>>>>>>> 80bc07e81 (.)
 use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 
 uses(TestCase::class);
 
 beforeEach(function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 4dafbb257 (.)
+=======
+>>>>>>> 80bc07e81 (.)
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');
 
     // Create test directory if it doesn't exist
     if (!File::exists(dirname($this->testSchemaPath))) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,6 +236,9 @@ beforeEach(function () {
 =======
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
 >>>>>>> aba62c408 (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> 80bc07e81 (.)
     }
 
     // Create a test schema file
@@ -273,6 +286,7 @@ beforeEach(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 afterEach(function (): void {
 =======
 afterEach(function () {
@@ -280,6 +294,9 @@ afterEach(function () {
 =======
 afterEach(function () {
 >>>>>>> 4dafbb257 (.)
+=======
+afterEach(function () {
+>>>>>>> 80bc07e81 (.)
     // Clean up test files
     if (File::exists($this->testSchemaPath)) {
         File::delete($this->testSchemaPath);
@@ -291,6 +308,7 @@ afterEach(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('it generates database documentation', function (): void {
 =======
 test('it generates database documentation', function () {
@@ -298,6 +316,9 @@ test('it generates database documentation', function () {
 =======
 test('it generates database documentation', function () {
 >>>>>>> 4dafbb257 (.)
+=======
+test('it generates database documentation', function () {
+>>>>>>> 80bc07e81 (.)
     // Run the command
     $exitCode = Artisan::call('xot:generate-db-documentation', [
         '--schema' => $this->testSchemaPath,
@@ -308,6 +329,7 @@ test('it generates database documentation', function () {
     expect($exitCode)->toBe(0);
 
     // Check if output files were created
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,10 +370,13 @@ test('it generates database documentation', function () {
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 80bc07e81 (.)
     expect(File::exists($this->testOutputDir . '/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir . '/tables/users.md'))
         ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,6 +475,11 @@ test('it handles missing schema file', function () {
 
 test('it handles missing schema file', function () {
 >>>>>>> 4dafbb257 (.)
+=======
+});
+
+test('it handles missing schema file', function () {
+>>>>>>> 80bc07e81 (.)
     // Delete the schema file
     File::delete($this->testSchemaPath);
 
@@ -465,6 +495,7 @@ test('it handles missing schema file', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('it handles invalid schema file', function (): void {
 =======
 test('it handles invalid schema file', function () {
@@ -472,6 +503,9 @@ test('it handles invalid schema file', function () {
 =======
 test('it handles invalid schema file', function () {
 >>>>>>> 4dafbb257 (.)
+=======
+test('it handles invalid schema file', function () {
+>>>>>>> 80bc07e81 (.)
     // Write invalid JSON to the schema file
     file_put_contents($this->testSchemaPath, 'invalid json');
 
@@ -487,6 +521,7 @@ test('it handles invalid schema file', function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('it handles missing output directory', function (): void {
 =======
 test('it handles missing output directory', function () {
@@ -494,6 +529,9 @@ test('it handles missing output directory', function () {
 =======
 test('it handles missing output directory', function () {
 >>>>>>> 4dafbb257 (.)
+=======
+test('it handles missing output directory', function () {
+>>>>>>> 80bc07e81 (.)
     // Delete the output directory if it exists
     if (File::exists($this->testOutputDir)) {
         File::deleteDirectory($this->testOutputDir);
@@ -506,6 +544,7 @@ test('it handles missing output directory', function () {
     ]);
 
     // Assert command was successful and created the output directory
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -611,4 +650,7 @@ test('it handles missing output directory', function () {
 =======
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 >>>>>>> aba62c408 (.)
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> 80bc07e81 (.)
 });

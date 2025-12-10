@@ -123,6 +123,7 @@ return view('user::components.profile-card');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Blade Components](https://laravel.com/docs/blade#components)
 >>>>>>> 85cdef688 (.)
@@ -198,3 +199,6 @@ return view('user::components.profile-card');
 =======
 - [Laravel Blade Components](https://laravel.com/docs/blade#components)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Laravel Blade Components](https://laravel.com/docs/blade#components)
+>>>>>>> 80bc07e81 (.)

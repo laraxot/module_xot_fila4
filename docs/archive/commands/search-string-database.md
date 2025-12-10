@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 <<<<<<< HEAD
@@ -28,7 +29,12 @@
 =======
 =======
 >>>>>>> 334816e8 (.)
+<<<<<<< HEAD
 >>>>>>> 317b552da (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 # SearchStringInDatabaseCommand
 
 ## Descrizione
@@ -63,6 +69,7 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 - [Performance Guidelines](../performance/database-queries.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,4 +161,10 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 334816e8 (.)
+<<<<<<< HEAD
 >>>>>>> 317b552da (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)

@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 85cdef688 (.)
@@ -135,6 +136,9 @@
 =======
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 60f0a1820 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 80bc07e81 (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -348,6 +352,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
@@ -463,6 +468,11 @@
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 80bc07e81 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -656,6 +666,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Framework](https://laravel.com/docs/12.x)
 >>>>>>> 85cdef688 (.)
@@ -731,6 +742,9 @@
 =======
 - [Laravel Framework](https://laravel.com/docs/12.x)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 80bc07e81 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 

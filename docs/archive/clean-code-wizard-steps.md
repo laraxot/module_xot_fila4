@@ -45,6 +45,7 @@ protected static function getPersonalStep(): Forms\Components\Wizard\Step
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Applicazione e nota nel modulo Patient](../../Patient/docs/clean-code-wizard-steps.md)
 >>>>>>> 85cdef688 (.)
@@ -120,6 +121,9 @@ protected static function getPersonalStep(): Forms\Components\Wizard\Step
 =======
 - [Applicazione e nota nel modulo Patient](../../Patient/docs/clean-code-wizard-steps.md)
 >>>>>>> 60f0a1820 (.)
+=======
+- [Applicazione e nota nel modulo Patient](../../Patient/docs/clean-code-wizard-steps.md)
+>>>>>>> 80bc07e81 (.)
 
 **Questa regola è trasversale e vincolante per tutti i moduli.**
 
@@ -143,6 +147,7 @@ protected static function getPersonalStep(): Forms\Components\Wizard\Step
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [clean-code-wizard-steps.md](../../Patient/docs/clean-code-wizard-steps.md)
 >>>>>>> 85cdef688 (.)
@@ -218,4 +223,7 @@ protected static function getPersonalStep(): Forms\Components\Wizard\Step
 =======
 * [clean-code-wizard-steps.md](../../Patient/docs/clean-code-wizard-steps.md)
 >>>>>>> 60f0a1820 (.)
+=======
+* [clean-code-wizard-steps.md](../../Patient/docs/clean-code-wizard-steps.md)
+>>>>>>> 80bc07e81 (.)
 

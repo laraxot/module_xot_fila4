@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 334816e8 (.)
+=======
+>>>>>>> 9e42a036 (.)
 # DatabaseSchemaExporterCommand
 
 ## Descrizione
@@ -70,6 +73,7 @@ Il file JSON generato contiene:
 - [Schema Documentation](../DIRECTORY-STRUCTURE-GUIDE.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,7 +150,13 @@ Il file JSON generato contiene:
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 334816e8 (.)
+<<<<<<< HEAD
 >>>>>>> 317b552da (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 ## Collegamenti tra versioni di database-schema-exporter.md
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,6 +234,7 @@ Il file JSON generato contiene:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -240,3 +251,5 @@ Il file JSON generato contiene:
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 334816e8 (.)
+=======
+>>>>>>> 9e42a036 (.)

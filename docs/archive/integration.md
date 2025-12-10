@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [integration.md](../../../Gdpr/docs/integration.md)
 * [integration.md](../../../Xot/docs/integration.md)
@@ -202,6 +203,11 @@
 * [integration.md](../../../Xot/docs/integration.md)
 * [integration.md](../../../Job/docs/integration.md)
 >>>>>>> 60f0a1820 (.)
+=======
+* [integration.md](../../../Gdpr/docs/integration.md)
+* [integration.md](../../../Xot/docs/integration.md)
+* [integration.md](../../../Job/docs/integration.md)
+>>>>>>> 80bc07e81 (.)
 
 
 ### Versione Incoming

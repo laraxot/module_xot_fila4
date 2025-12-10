@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 <<<<<<< HEAD
@@ -28,7 +29,12 @@
 =======
 =======
 >>>>>>> 334816e8 (.)
+<<<<<<< HEAD
 >>>>>>> 317b552da (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 # ModelWithAuthorContract
 
 Il `ModelWithAuthorContract` è un'interfaccia che estende `ModelContract` e definisce il contratto per i modelli che necessitano di tracciare l'autore e l'editor delle modifiche.
@@ -135,6 +141,7 @@ interface ModelWithAuthorContract extends ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>> 6ca989d8 (.)
@@ -198,7 +205,13 @@ interface ModelWithAuthorContract extends ModelContract
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 334816e8 (.)
+<<<<<<< HEAD
 >>>>>>> 317b552da (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
 - [Contracts Overview](./README.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,6 +327,7 @@ class Article extends Model implements ModelWithAuthorContract
 - Mantenere la consistenza dei dati nelle relazioni
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,4 +581,10 @@ class Article extends Model implements ModelWithAuthorContract
 =======
 =======
 >>>>>>> b396242e (.)
+<<<<<<< HEAD
 >>>>>>> 5df5c7505 (.)
+=======
+=======
+- Documentare eventuali personalizzazioni 
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)

@@ -58,6 +58,7 @@ This document outlines the best practices for maintaining high code quality with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6ca989d8 (.)
@@ -95,6 +96,8 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 80bc07e81 (.)
 ## Code Quality Tools
 
 ### Automation Scripts
@@ -109,6 +112,7 @@ This document outlines the best practices for maintaining high code quality with
 - [fix_docs_case](../../../../../bashscripts/docs/docs/fix_docs_case.md) - Standardizzazione automatica dei nomi file nella documentazione
 - Eseguire gli script di automazione regolarmente per mantenere la coerenza del codice
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,6 +180,8 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 80bc07e81 (.)
 ## Common Issues and Fixes
 - **Type Errors**: Ensure all methods and functions have explicit return types and parameter types to avoid type-related bugs.
 - **Static Analysis Failures**: Address PHPStan errors by refining code or updating the baseline for existing code.
@@ -190,6 +196,7 @@ This document outlines the best practices for maintaining high code quality with
 - Update this document if new tools or standards for code quality are introduced.
 
 ## Links to Related Documentation
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,11 +253,14 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 80bc07e81 (.)
 - [Xot Base Classes](../Xot/docs/XOT_BASE_CLASSES.md)
 - [Filament Extension Pattern](../../Notify/docs/FILAMENT_EXTENSION_PATTERN.md)
 - [Filament Extension Pattern Analysis](../../Notify/docs/FILAMENT_EXTENSION_PATTERN_ANALYSIS.md)
 - [Patient Module - Namespace Conventions](../../Patient/docs/NAMESPACE_CONVENTIONS.md)
 - [Patient Module - Validation Errors](../../Patient/docs/VALIDATION_ERRORS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +338,8 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 80bc07e81 (.)
 - [PHP Strict Types](./PHP-STRICT-TYPES.md)
 - [PHPStan Implementation Guide](./PHPSTAN-IMPLEMENTATION-GUIDE.md)
 - [Naming Conventions](./NAMING-CONVENTIONS.md)

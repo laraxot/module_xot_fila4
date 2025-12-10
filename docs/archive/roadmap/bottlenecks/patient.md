@@ -247,6 +247,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
 >>>>>>> 85cdef688 (.)
@@ -322,4 +323,7 @@
 =======
 * [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
 >>>>>>> 60f0a1820 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 80bc07e81 (.)
 

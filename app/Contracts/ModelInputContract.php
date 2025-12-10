@@ -82,6 +82,7 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 interface ModelInputContract
 {
 }
@@ -112,6 +113,30 @@ interface ModelInputContract
 interface ModelInputContract
 {
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
 interface ModelInputContract {}
 interface ModelInputContract
 {
@@ -133,6 +158,7 @@ interface ModelInputContract
 interface ModelInputContract
 {
 }
+<<<<<<< HEAD
 interface ModelInputContract
 {
 }
@@ -222,3 +248,14 @@ interface ModelInputContract {}
 interface ModelInputContract
 {
 }
+=======
+>>>>>>> ca9324a4 (.)
+=======
+interface ModelInputContract
+{
+}
+=======
+interface ModelInputContract {}
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)

@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -9,9 +14,10 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 
-declare(strict_types=1);
-
-
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

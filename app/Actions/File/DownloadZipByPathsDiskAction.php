@@ -37,6 +37,7 @@ class DownloadZipByPathsDiskAction
      * @param string $disk Nome del disco di storage
      * @return BinaryFileResponse|null Risposta di download o null se fallisce
      */
+<<<<<<< HEAD
     public function execute(array $attachments, string $disk): null|BinaryFileResponse
     {
         $zipFileName = 'temp_zip_' . uniqid() . '.zip';
@@ -62,6 +63,21 @@ class DownloadZipByPathsDiskAction
         Storage::disk('local')->makeDirectory('temp');
 
         if ($zip->open($tempFilePath, ZipArchive::CREATE) === true) {
+=======
+    public function execute(array $attachments, string $disk): ?BinaryFileResponse
+    {
+        $zipFileName = 'temp_zip_' .uniqid() . '.zip';
+        $zipPath = 'temp/' . $zipFileName;
+        
+        // Crea un file temporaneo per lo ZIP usando Storage
+        $zip = new ZipArchive();
+        $tempFilePath = storage_path('app/' . $zipPath);
+        
+        // Assicurati che la directory temp esista
+        Storage::disk('local')->makeDirectory('temp');
+        
+        if ($zip->open($tempFilePath, ZipArchive::CREATE) === TRUE) {
+>>>>>>> f1d4085 (.)
             foreach ($attachments as $attachment) {
                 $filePath = $attachment;
 
@@ -104,6 +120,7 @@ class DownloadZipByPathsDiskAction
 
             // Usa response()->download() per il download
             return response()->download($tempFilePath, $downloadFileName, [
+<<<<<<< HEAD
                 'Content-Type' => 'application/zip',
             ]); //->deleteFileAfterSend(true);
             ]); //->deleteFileAfterSend(true);
@@ -120,6 +137,12 @@ class DownloadZipByPathsDiskAction
             ]); //->deleteFileAfterSend(true);
         }
 
+=======
+                'Content-Type' => 'application/zip'
+            ]);//->deleteFileAfterSend(true);
+        }
+        
+>>>>>>> f1d4085 (.)
         return null;
     }
 }

@@ -13,16 +13,24 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Services\ModuleService;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Services\ModuleService;
 use Modules\Xot\Services\ModuleService;
 use Illuminate\Support\Facades\File;
+=======
+=======
+use Modules\Xot\Services\ModuleService;
+use Illuminate\Support\Facades\File;
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
 describe('ModuleService Integration', function () {
     beforeEach(function () {
@@ -30,12 +38,20 @@ describe('ModuleService Integration', function () {
     });
 
     it('integrates with Nwidart Modules system', function () {
+<<<<<<< HEAD
         expect(class_exists('Nwidart\Modules\Facades\Module'))
             ->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))
             ->toBeTrue();
+<<<<<<< HEAD
         expect(class_exists('Nwidart\Modules\Facades\Module'))->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))->toBeTrue();
+=======
+=======
+        expect(class_exists('Nwidart\Modules\Facades\Module'))->toBeTrue()
+            ->and(class_exists('Nwidart\Modules\Module'))->toBeTrue();
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     });
 
     it('can find existing modules', function () {
@@ -44,15 +60,24 @@ describe('ModuleService Integration', function () {
         $userService = new ModuleService('User');
         $xotService = new ModuleService('Xot');
 
+<<<<<<< HEAD
         expect($chartService)
             ->toBeInstanceOf(ModuleService::class)
             ->and($userService)
             ->toBeInstanceOf(ModuleService::class)
             ->and($xotService)
             ->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
         expect($chartService)->toBeInstanceOf(ModuleService::class)
             ->and($userService)->toBeInstanceOf(ModuleService::class)
             ->and($xotService)->toBeInstanceOf(ModuleService::class);
+=======
+=======
+        expect($chartService)->toBeInstanceOf(ModuleService::class)
+            ->and($userService)->toBeInstanceOf(ModuleService::class)
+            ->and($xotService)->toBeInstanceOf(ModuleService::class);
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     });
 
     it('returns models from existing modules', function () {
@@ -100,17 +125,31 @@ describe('ModuleService Integration', function () {
 
     it('returns class strings as values', function () {
         $models = $this->service->getModels();
+<<<<<<< HEAD
+=======
+
+        foreach ($models as $key => $modelClass) {
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
             expect($key)
                 ->toBeString()
                 ->and($modelClass)
                 ->toBeString()
                 ->and(str_contains($modelClass, 'Modules\\'))
                 ->toBeTrue();
+<<<<<<< HEAD
         
         foreach ($models as $key => $modelClass) {
             expect($key)->toBeString()
                 ->and($modelClass)->toBeString()
                 ->and(str_contains($modelClass, 'Modules\\'))->toBeTrue();
+=======
+=======
+            expect($key)->toBeString()
+                ->and($modelClass)->toBeString()
+                ->and(str_contains($modelClass, 'Modules\\'))->toBeTrue();
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         }
     });
 
@@ -159,10 +198,20 @@ describe('ModuleService Integration', function () {
         // Test with non-existent module
         $nonExistentService = new ModuleService('NonExistentModule');
         $models = $nonExistentService->getModels();
+<<<<<<< HEAD
         expect($models)->toBeArray()->and($models)->toBeEmpty();
         
         expect($models)->toBeArray()
             ->and($models)->toBeEmpty();
+=======
+
+<<<<<<< HEAD
+        expect($models)->toBeArray()->and($models)->toBeEmpty();
+=======
+        expect($models)->toBeArray()
+            ->and($models)->toBeEmpty();
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     });
 
     it('handles namespace construction correctly', function () {
@@ -180,13 +229,21 @@ describe('ModuleService Integration', function () {
 
         // All returned classes should be valid PHP classes
         foreach ($models as $modelClass) {
+<<<<<<< HEAD
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
+<<<<<<< HEAD
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
         
         // All returned classes should be valid PHP classes
         foreach ($models as $modelClass) {
             expect(is_string($modelClass))->toBeTrue()
                 ->and(strlen($modelClass))->toBeGreaterThan(0);
+=======
+=======
+            expect(is_string($modelClass))->toBeTrue()
+                ->and(strlen($modelClass))->toBeGreaterThan(0);
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         }
     });
 
@@ -199,8 +256,15 @@ describe('ModuleService Integration', function () {
         ];
 
         foreach ($edgeCaseServices as $service) {
+<<<<<<< HEAD
             expect($service->getModels(...))->not->toThrow(Exception::class);
+<<<<<<< HEAD
             expect(fn () => $service->getModels())->not->toThrow(Exception::class);
+=======
+=======
+            expect(fn () => $service->getModels())->not->toThrow(Exception::class);
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         }
     });
 
@@ -211,6 +275,7 @@ describe('ModuleService Integration', function () {
 
         // Validate that all keys are strings and all values are class strings
         foreach ($models as $key => $value) {
+<<<<<<< HEAD
             expect($key)
                 ->toBeString()
                 ->and($value)
@@ -219,10 +284,18 @@ describe('ModuleService Integration', function () {
                 ->toBeGreaterThan(0)
                 ->and(strlen($value))
                 ->toBeGreaterThan(0);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
             expect($key)->toBeString()
                 ->and($value)->toBeString()
                 ->and(strlen($key))->toBeGreaterThan(0)
                 ->and(strlen($value))->toBeGreaterThan(0);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         }
     });
 
@@ -241,9 +314,17 @@ describe('ModuleService Integration', function () {
         }
 
         // All results should be consistent
+<<<<<<< HEAD
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
+<<<<<<< HEAD
         expect($results[0])->toBe($results[1])
             ->and($results[1])->toBe($results[2]);
+=======
+=======
+        expect($results[0])->toBe($results[1])
+            ->and($results[1])->toBe($results[2]);
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     });
 
     it('validates module path resolution', function () {
@@ -272,10 +353,20 @@ describe('ModuleService Integration', function () {
         // Test that the service follows proper instantiation patterns
         $reflection = new ReflectionClass($this->service);
         $constructor = $reflection->getConstructor();
+<<<<<<< HEAD
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
         
         expect($constructor)->not->toBeNull()
             ->and($constructor->isPublic())->toBeTrue();
+=======
+
+<<<<<<< HEAD
+        expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
+=======
+        expect($constructor)->not->toBeNull()
+            ->and($constructor->isPublic())->toBeTrue();
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     });
 
     it('can handle model discovery efficiently', function () {
@@ -287,7 +378,9 @@ describe('ModuleService Integration', function () {
         $endTime = microtime(true);
         $executionTime = $endTime - $startTime;
 
+<<<<<<< HEAD
         expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+<<<<<<< HEAD
         
         $models = $this->service->getModels();
         
@@ -296,5 +389,11 @@ describe('ModuleService Integration', function () {
         
         expect($models)->toBeArray()
             ->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+=======
+=======
+        expect($models)->toBeArray()
+            ->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     });
 });

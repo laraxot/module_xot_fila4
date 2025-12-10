@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Cast;
 
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_match;
@@ -14,6 +15,7 @@ use function Safe\preg_match;
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  *
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_match;
@@ -24,6 +26,9 @@ use function Safe\preg_match;
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  *
+=======
+=======
+>>>>>>> 2f3197ab (.)
 use function Safe\preg_match;
 
 use Spatie\QueueableAction\QueueableAction;
@@ -34,10 +39,15 @@ use Spatie\QueueableAction\QueueableAction;
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  * 
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di cast int in tutto il progetto
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
  * - Robustezza: Gestisce tutti i casi edge e mantiene la type safety
+<<<<<<< HEAD
  *
  *
  * 
@@ -50,7 +60,73 @@ use Spatie\QueueableAction\QueueableAction;
  * @package Modules\Xot\Actions\Cast
  *
  * @package Modules\Xot\Actions\Cast
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
  *
+=======
+ * 
+>>>>>>> f1d4085 (.)
  * @package Modules\Xot\Actions\Cast
  *
  * @package Modules\Xot\Actions\Cast
@@ -74,7 +150,45 @@ class SafeIntCastAction
      *
      * @return int Il valore convertito in int
      */
+<<<<<<< HEAD
     public function execute(mixed $value, null|int $default = 0): int
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(mixed $value, null|int $default = 0): int
+=======
+>>>>>>> 2f3197ab (.)
     public function execute(mixed $value, ?int $default = 0): int
     public function execute(mixed $value, ?int $default = 0): int
     public function execute(mixed $value, null|int $default = 0): int
@@ -82,6 +196,7 @@ class SafeIntCastAction
     public function execute(mixed $value, null|int $default = 0): int
     public function execute(mixed $value, ?int $default = 0): int
     public function execute(mixed $value, null|int $default = 0): int
+<<<<<<< HEAD
     public function execute(mixed $value, ?int $default = 0): int
     public function execute(mixed $value, null|int $default = 0): int
     public function execute(mixed $value, ?int $default = 0): int
@@ -96,58 +211,117 @@ class SafeIntCastAction
     public function execute(mixed $value, null|int $default = 0): int
     public function execute(mixed $value, ?int $default = 0): int
     public function execute(mixed $value, null|int $default = 0): int
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function execute(mixed $value, ?int $default = 0): int
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     {
         // Se è già un int, restituiscilo direttamente
         if (is_int($value)) {
             return $value;
         }
+<<<<<<< HEAD
 
         // Se è un float, convertilo in int (troncamento)
         if (is_float($value)) {
             return is_finite($value) ? ((int) $value) : ($default ?? 0);
         }
 
+<<<<<<< HEAD
         // Se è un float, convertilo in int (troncamento)
         if (is_float($value)) {
             return is_finite($value) ? ((int) $value) : ($default ?? 0);
         }
 
+=======
+=======
+>>>>>>> 2f3197ab (.)
         
         // Se è un float, convertilo in int (troncamento)
         if (is_float($value)) {
             return is_finite($value) ? (int) $value : ($default ?? 0);
         }
         
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         // Se è null, restituisci il default
         if (is_null($value)) {
             return $default ?? 0;
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         
+=======
+=======
+        
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         // Se è una stringa, prova a convertirla
         if (is_string($value)) {
             return $this->parseStringToInt($value, $default);
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         
+=======
+=======
+        
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         // Se è un booleano, convertilo (true = 1, false = 0)
         if (is_bool($value)) {
             return $value ? 1 : 0;
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         
+=======
+=======
+        
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         // Se è un array e ha un solo elemento numerico
         if (is_array($value) && count($value) === 1) {
             return $this->execute(reset($value), $default);
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         
+=======
+=======
+        
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         // Se è un oggetto con metodo __toString, prova a convertirlo
         if (is_object($value) && method_exists($value, '__toString')) {
             return $this->parseStringToInt((string) $value, $default);
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         
+=======
+=======
+        
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         // Per tutti gli altri tipi, restituisci il default
         return $default ?? 0;
     }
@@ -292,18 +466,32 @@ class SafeIntCastAction
      *
      * @return int Il valore convertito
      */
+<<<<<<< HEAD
     private function parseStringToInt(string $value, null|int $default = 0): int
     {
         $trimmed = trim($value);
 
+=======
+    private function parseStringToInt(string $value, ?int $default = 0): int
+    {
+        $trimmed = trim($value);
+        
+>>>>>>> f1d4085 (.)
         // Stringa vuota o solo spazi
         if (empty($trimmed)) {
             return $default ?? 0;
         }
+<<<<<<< HEAD
 
         // Rimuovi separatori di migliaia comuni
         $normalized = str_replace([',', ' ', '.'], '', $trimmed);
 
+=======
+        
+        // Rimuovi separatori di migliaia comuni
+        $normalized = str_replace([',', ' ', '.'], '', $trimmed);
+        
+>>>>>>> f1d4085 (.)
         // Verifica se è un numero valido
         if (is_numeric($normalized)) {
             $int = (int) $normalized;
@@ -317,7 +505,11 @@ class SafeIntCastAction
             $int = (int) $normalized;
             return $int;
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> f1d4085 (.)
         // Prova a estrarre solo i numeri
         $matches = [];
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
@@ -327,10 +519,17 @@ class SafeIntCastAction
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
             return (int) $matches[0];
         }
+<<<<<<< HEAD
 
         return $default ?? 0;
     }
 
+=======
+        
+        return $default ?? 0;
+    }
+    
+>>>>>>> f1d4085 (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *
@@ -339,21 +538,30 @@ class SafeIntCastAction
      *
      * @return int Il valore convertito in int
      */
+<<<<<<< HEAD
     public static function cast(mixed $value, null|int $default = 0): int
     {
         return app(self::class)->execute($value, $default);
     }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     public static function cast(mixed $value, ?int $default = 0): int
     {
         return app(self::class)->execute($value, $default);
     }
     
+<<<<<<< HEAD
     public static function cast(mixed $value, null|int $default = 0): int
     {
         return app(self::class)->execute($value, $default);
     }
 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     /**
      * Converte un valore in int con validazione di range.
      *
@@ -364,6 +572,7 @@ class SafeIntCastAction
      *
      * @return int Il valore convertito e validato
      */
+<<<<<<< HEAD
     public function executeWithRange(mixed $value, int $min, int $max, null|int $default = null): int
     {
         $int = $this->execute($value, $default);
@@ -372,6 +581,7 @@ class SafeIntCastAction
         return max($min, min($max, $int));
     }
 
+<<<<<<< HEAD
     {
         $int = $this->execute($value, $default);
 
@@ -379,6 +589,9 @@ class SafeIntCastAction
         return max($min, min($max, $int));
     }
 
+=======
+=======
+>>>>>>> 2f3197ab (.)
     public function executeWithRange(mixed $value, int $min, int $max, ?int $default = null): int
     {
         $int = $this->execute($value, $default);
@@ -387,6 +600,10 @@ class SafeIntCastAction
         return max($min, min($max, $int));
     }
     
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     /**
      * Metodo statico di convenienza per cast con range.
      *
@@ -397,8 +614,15 @@ class SafeIntCastAction
      *
      * @return int Il valore convertito e validato
      */
+<<<<<<< HEAD
     public static function castWithRange(mixed $value, int $min, int $max, null|int $default = null): int
+<<<<<<< HEAD
     public static function castWithRange(mixed $value, int $min, int $max, ?int $default = null): int
+=======
+=======
+    public static function castWithRange(mixed $value, int $min, int $max, ?int $default = null): int
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     {
         return app(self::class)->executeWithRange($value, $min, $max, $default);
     }
@@ -411,8 +635,15 @@ class SafeIntCastAction
      *
      * @return int Il valore convertito come ID positivo
      */
+<<<<<<< HEAD
     public function executeAsId(mixed $value, null|int $default = 1): int
+<<<<<<< HEAD
     public function executeAsId(mixed $value, ?int $default = 1): int
+=======
+=======
+    public function executeAsId(mixed $value, ?int $default = 1): int
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     {
         $int = $this->execute($value, $default);
         return max(1, $int);
@@ -426,8 +657,15 @@ class SafeIntCastAction
      *
      * @return int Il valore convertito come ID positivo
      */
+<<<<<<< HEAD
     public static function castAsId(mixed $value, null|int $default = 1): int
+<<<<<<< HEAD
     public static function castAsId(mixed $value, ?int $default = 1): int
+=======
+=======
+    public static function castAsId(mixed $value, ?int $default = 1): int
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     {
         return app(self::class)->executeAsId($value, $default);
     }

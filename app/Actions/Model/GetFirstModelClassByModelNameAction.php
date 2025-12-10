@@ -33,11 +33,18 @@ class GetFirstModelClassByModelNameAction
             $modelClass,
             '['.__LINE__.']['.class_basename($this).']',
         $models = app(GetAllModelsAction::class)->execute();
+<<<<<<< HEAD
         Assert::string(
             $modelClass = collect($models)->get($modelName),
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
+<<<<<<< HEAD
         Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
+=======
+=======
+        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
         return $modelClass;
     }

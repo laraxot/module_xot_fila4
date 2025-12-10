@@ -4,6 +4,144 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Clusters;
 
+<<<<<<< HEAD
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\Facades\Lang;
+<<<<<<< HEAD
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Support\Facades\Lang;
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\Facades\Lang;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f3197ab (.)
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+<<<<<<< HEAD
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Lang;
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Facades\Lang;
@@ -55,86 +193,6 @@ use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Clusters\Cluster as FilamentCluster;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Facades\Lang;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Clusters\Cluster as FilamentCluster;
@@ -168,6 +226,23 @@ use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\Lang;
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster
@@ -175,18 +250,27 @@ class XotBaseCluster extends FilamentCluster
     use NavigationLabelTrait;
 
     /*
+<<<<<<< HEAD
      * public static function getNavigationGroup(): ?string
      * {
      *
      * return 'ZZZZZZZZZZZZZZZZZZ';
      * }
      */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     public static function getNavigationGroup(): ?string
     {
 
         return 'ZZZZZZZZZZZZZZZZZZ';
     }
     */
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
     public function getTitle(): Htmlable|string
     {
@@ -215,6 +299,7 @@ class XotBaseCluster extends FilamentCluster
         return 'AAAAAAAAA';
     }
 
+<<<<<<< HEAD
     /*
      * protected static ?string $navigationIcon = 'heroicon-o-users';
      *
@@ -245,6 +330,10 @@ class XotBaseCluster extends FilamentCluster
      * ];
      * }
      */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
 
     /*
     protected static ?string $navigationIcon = 'heroicon-o-users';
@@ -276,6 +365,7 @@ class XotBaseCluster extends FilamentCluster
         ];
     }
     */
+<<<<<<< HEAD
     /*
      * protected static ?string $navigationIcon = 'heroicon-o-users';
      *
@@ -306,4 +396,7 @@ class XotBaseCluster extends FilamentCluster
      * ];
      * }
      */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 }

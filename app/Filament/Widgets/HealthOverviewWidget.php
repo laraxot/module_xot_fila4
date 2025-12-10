@@ -81,6 +81,31 @@ class HealthOverviewWidget extends BaseWidget
             $label = $result->label;
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
                 ->description($result->notificationMessage.' '.$result->status)
                 ->description($result->notificationMessage . ' ' . $result->status)
                 ->description($result->notificationMessage . ' ' . $result->status)
@@ -217,23 +242,42 @@ class HealthOverviewWidget extends BaseWidget
                 ->description($result->notificationMessage.' '.$result->status)
                 ->description($result->notificationMessage . ' ' . $result->status)
                 ->description($result->notificationMessage . ' ' . $result->status)
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }
 
         /*
+<<<<<<< HEAD
          * return [
          * Stat::make('Unique views', '192.1k'),
          * Stat::make('Bounce rate', '21%'),
          * Stat::make('Average time on page', '3:12'),
          * ];
          */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
         return [
             Stat::make('Unique views', '192.1k'),
             Stat::make('Bounce rate', '21%'),
             Stat::make('Average time on page', '3:12'),
         ];
         */
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         return $stats;
     }
 }

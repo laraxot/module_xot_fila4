@@ -53,7 +53,9 @@ class ThemeService
         return resource_path('themes/' . self::$currentTheme);
         return resource_path('themes/' . self::$currentTheme);
     }
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
         return resource_path('themes/'.self::$currentTheme);
         return resource_path('themes/' . self::$currentTheme);
         return resource_path('themes/' . self::$currentTheme);
@@ -65,3 +67,8 @@ class ThemeService
 }
 }
 } 
+=======
+=======
+} 
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

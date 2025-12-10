@@ -11,7 +11,15 @@ class ColumnData extends Data
     public function __construct(
         public string $name,
         public string $type,
+<<<<<<< HEAD
     ) {}
+<<<<<<< HEAD
     ) {
     }
+=======
+=======
+    ) {
+    }
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 }

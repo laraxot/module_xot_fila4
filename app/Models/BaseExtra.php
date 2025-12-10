@@ -4,12 +4,37 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Override;
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 use Override;
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
@@ -31,6 +56,7 @@ use Override;
 use Override;
 use Override;
 use Override;
+<<<<<<< HEAD
 use Override;
 use Override;
 use Override;
@@ -49,6 +75,14 @@ use Override;
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 use Override;
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -126,6 +160,7 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 
     public function scopeWithExtraAttributes(): Builder
     {
+<<<<<<< HEAD
         Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
         Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
         Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
@@ -145,6 +180,13 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
     {
         Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
         Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
+=======
+<<<<<<< HEAD
+        Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
+=======
+        Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
         return $this->extra_attributes->modelScope();
     }
@@ -154,19 +196,33 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> f1d4085 (.)
     protected function casts(): array
     {
         return [
             'extra_attributes' => SchemalessAttributes::class,
+<<<<<<< HEAD
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 
+=======
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+=======
+
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+
+>>>>>>> f1d4085 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

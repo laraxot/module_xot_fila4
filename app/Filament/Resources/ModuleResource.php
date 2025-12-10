@@ -4,8 +4,33 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -26,6 +51,75 @@ use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Schemas\Components\Component;
 use Override;
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 3fbbf1f5 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 3310e9c6 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 3fbbf1f5 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
@@ -67,6 +161,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -78,6 +173,10 @@ class ModuleResource extends XotBaseResource
      * @return array<string, Component>
      */
     #[Override]
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
 use Modules\Xot\Models\Module;
 
 
@@ -93,6 +192,7 @@ class ModuleResource extends XotBaseResource
 {
     protected static ?string $model = Module::class;
 
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Schemas\Components\Component;
@@ -211,6 +311,12 @@ class ModuleResource extends XotBaseResource
     /**
      * @return array<string, Forms\Components\Component>
      */
+=======
+    /**
+     * @return array<string, \Filament\Schemas\Components\Component>
+     */
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     public static function getFormSchema(): array
     {
         return [
@@ -232,6 +338,7 @@ class ModuleResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
     public static function getRelations(): array
     {
@@ -239,6 +346,14 @@ class ModuleResource extends XotBaseResource
     }
 
     #[Override]
+=======
+    public static function getRelations(): array
+    {
+        return [
+        ];
+    }
+
+>>>>>>> f1d4085 (.)
     public static function getPages(): array
     {
     public static function getRelations(): array

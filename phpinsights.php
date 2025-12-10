@@ -18,6 +18,7 @@ use SlevomatCodingStandard\Sniffs\TypeHints\ReturnTypeHintSniff;
 
 return [
     /*
+<<<<<<< HEAD
      * |--------------------------------------------------------------------------
      * | Default Preset
      * |--------------------------------------------------------------------------
@@ -60,6 +61,10 @@ return [
      * | mind, that all added `Insights` must belong to a specific `Metric`.
      * |
      */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     |--------------------------------------------------------------------------
     | Default Preset
     |--------------------------------------------------------------------------
@@ -73,6 +78,7 @@ return [
     */
 
     'preset' => 'laravel',
+<<<<<<< HEAD
     /*
      * |--------------------------------------------------------------------------
      * | IDE
@@ -92,6 +98,29 @@ return [
      */
 
     'ide' => null,
+=======
+
+    /*
+    |--------------------------------------------------------------------------
+    | IDE
+    |--------------------------------------------------------------------------
+    |
+    | This options allow to add hyperlinks in your terminal to quickly open
+    | files in your favorite IDE while browsing your PhpInsights report.
+    |
+    | Supported: "textmate", "macvim", "emacs", "sublime", "phpstorm",
+    | "atom", "vscode".
+    |
+    | If you have another IDE that is not in this list but which provide an
+    | url-handler, you could fill this config with a pattern like this:
+    |
+    | myide://open?url=file://%f&line=%l
+    |
+    */
+
+    'ide' => null,
+
+>>>>>>> 2f3197ab (.)
     /*
     |--------------------------------------------------------------------------
     | Configuration
@@ -102,6 +131,7 @@ return [
     | mind, that all added `Insights` must belong to a specific `Metric`.
     |
     */
+<<<<<<< HEAD
      * |--------------------------------------------------------------------------
      * | Configuration
      * |--------------------------------------------------------------------------
@@ -111,17 +141,34 @@ return [
      * | mind, that all added `Insights` must belong to a specific `Metric`.
      * |
      */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
     'exclude' => [
         //  'path/to/directory-or-file'
     ],
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     'add' => [
         Classes::class => [
             ForbiddenFinalClasses::class,
         ],
     ],
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     'remove' => [
         AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
@@ -134,12 +181,20 @@ return [
         ReturnTypeHintSniff::class,
         UselessFunctionDocCommentSniff::class,
     ],
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
         ],
     ],
+<<<<<<< HEAD
     /*
      * |--------------------------------------------------------------------------
      * | Requirements
@@ -150,6 +205,19 @@ return [
      * | code will be returned. This is optional and individually defined.
      * |
      */
+=======
+
+    /*
+    |--------------------------------------------------------------------------
+    | Requirements
+    |--------------------------------------------------------------------------
+    |
+    | Here you may define a level you want to reach per `Insights` category.
+    | When a score is lower than the minimum level defined, then an error
+    | code will be returned. This is optional and individually defined.
+    |
+    */
+>>>>>>> f1d4085 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -179,6 +247,7 @@ return [
         //        'min-style' => 0,
         //        'disable-security-check' => false,
     ],
+<<<<<<< HEAD
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -201,6 +270,7 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
+<<<<<<< HEAD
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -213,6 +283,23 @@ return [
      */
 
     'threads' => null,
+=======
+=======
+
+    /*
+    |--------------------------------------------------------------------------
+    | Threads
+    |--------------------------------------------------------------------------
+    |
+    | Here you may adjust how many threads (core) PHPInsights can use to perform
+    | the analysis. This is optional, don't provide it and the tool will guess
+    | the max core number available. It accepts null value or integer > 0.
+    |
+    */
+
+    'threads' => null,
+
+>>>>>>> 2f3197ab (.)
     /*
     |--------------------------------------------------------------------------
     | Timeout
@@ -223,6 +310,7 @@ return [
     | of Symfony's setTimeout function.
     |
     */
+<<<<<<< HEAD
      * |--------------------------------------------------------------------------
      * | Timeout
      * |--------------------------------------------------------------------------
@@ -232,6 +320,9 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
     'timeout' => 60,
 ];

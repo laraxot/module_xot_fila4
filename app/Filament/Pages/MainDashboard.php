@@ -6,7 +6,10 @@ namespace Modules\Xot\Filament\Pages;
 
 use Filament\Panel;
 use Filament\Facades\Filament;
+<<<<<<< HEAD
 use Filament\Panel;
+=======
+>>>>>>> f1d4085 (.)
 use Filament\Pages\Dashboard;
 use Filament\Facades\Filament;
 use Filament\Panel;
@@ -57,9 +60,95 @@ class MainDashboard extends XotBaseDashboard
 
     // protected static string $routePath = 'main';
 
+<<<<<<< HEAD
     protected static ?string $title = 'Main Dashboard';
 
     protected static ?int $navigationSort = 1;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static ?string $title = 'Main Dashboard';
+
+    protected static ?int $navigationSort = 1;
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     protected static null|string $title = 'Main Dashboard';
 
     protected static null|int $navigationSort = 1;
@@ -186,6 +275,7 @@ class MainDashboard extends XotBaseDashboard
     public function getColumns(): int|array
     {
         return 1;
+<<<<<<< HEAD
 
     protected static null|int $navigationSort = 1;
 
@@ -247,6 +337,9 @@ class MainDashboard extends XotBaseDashboard
 
     // protected static string $routePath = 'main';
 
+=======
+=======
+>>>>>>> 2f3197ab (.)
     protected static ?string $title = 'Main Dashboard';
 
     protected static ?int $navigationSort = 1;
@@ -273,5 +366,9 @@ class MainDashboard extends XotBaseDashboard
             $url = '/'.app()->getLocale();
             redirect($url);
         }
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

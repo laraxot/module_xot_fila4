@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 return [
     /*
+<<<<<<< HEAD
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     |--------------------------------------------------------------------------
     | Exception Language Lines
     |--------------------------------------------------------------------------
@@ -22,6 +27,10 @@ return [
     | found in a intuitive way.
     |
     */
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
     'backend' => [
         'access' => [
@@ -35,7 +44,14 @@ return [
                 'not_found' => 'Questo ruolo non esiste.',
                 'update_error' => "C'è stato un problema durante l'aggiornamento di questo ruolo. Si prega di riprovare più tardi.",
             ],
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
             'users' => [
                 'cant_deactivate_self' => 'Non puoi eseguire questa operazione su te stesso.',
                 'cant_delete_self' => 'Non puoi cancellare te stesso.',
@@ -54,7 +70,14 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -67,18 +90,27 @@ return [
                 'success' => 'Il tuo account è stato confermato con successo!',
                 'resent' => "Una nuova e-mail di conferma è stata inviata all'indirizzo registrato.",
             ],
+<<<<<<< HEAD
+            'deactivated' => 'Il tuo account è stato disattivato.',
+            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
+<<<<<<< HEAD
             'deactivated' => 'Il tuo account è stato disattivato.',
             'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
             'deactivated' => 'Il tuo account è stato disattivato.',
             'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
-            'deactivated' => 'Il tuo account è stato disattivato.',
-            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
+=======
+=======
+>>>>>>> 2f3197ab (.)
 
             'deactivated' => 'Il tuo account è stato disattivato.',
             'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
 
+<<<<<<< HEAD
             'deactivated' => 'Il tuo account è stato disattivato.',
             'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
             'password' => [
                 'change_mismatch' => 'Questa non è la tua vecchia password.',
             ],

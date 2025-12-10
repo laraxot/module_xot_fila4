@@ -12,6 +12,7 @@ class PivotAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
@@ -28,10 +29,18 @@ class PivotAction
          *
          *
          */
+<<<<<<< HEAD
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
         dddx('wip');
 
+=======
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
+        dddx('wip');
+>>>>>>> 2f3197ab (.)
         /*
 
             $parent_panel = $this->panel->getParent();
@@ -43,6 +52,7 @@ class PivotAction
 
 
         */
+<<<<<<< HEAD
          *
          * $parent_panel = $this->panel->getParent();
          * if (null !== $parent_panel) {
@@ -53,5 +63,8 @@ class PivotAction
          *
          *
          */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

@@ -28,7 +28,45 @@ class GetViewNameSpacePathAction
      *
      * @return string|null Il percorso del namespace o null se non trovato
      */
+<<<<<<< HEAD
     public function execute(string $ns): null|string
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string $ns): null|string
+=======
+>>>>>>> 2f3197ab (.)
     public function execute(string $ns): ?string
     public function execute(string $ns): ?string
     public function execute(string $ns): null|string
@@ -36,6 +74,7 @@ class GetViewNameSpacePathAction
     public function execute(string $ns): null|string
     public function execute(string $ns): ?string
     public function execute(string $ns): null|string
+<<<<<<< HEAD
     public function execute(string $ns): ?string
     public function execute(string $ns): null|string
     public function execute(string $ns): ?string
@@ -50,6 +89,21 @@ class GetViewNameSpacePathAction
     public function execute(string $ns): null|string
     public function execute(string $ns): ?string
     public function execute(string $ns): null|string
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function execute(string $ns): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     {
         $xot = XotData::make();
 
@@ -88,7 +142,45 @@ class GetViewNameSpacePathAction
             return null; // Restituiamo null se il tema non è una stringa
         }
 
+<<<<<<< HEAD
         return base_path('Themes/' . $theme_name);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return base_path('Themes/' . $theme_name);
+=======
+>>>>>>> 2f3197ab (.)
         return base_path('Themes/'.$theme_name);
         return base_path('Themes/'.$theme_name);
         return base_path('Themes/' . $theme_name);
@@ -96,6 +188,7 @@ class GetViewNameSpacePathAction
         return base_path('Themes/' . $theme_name);
         return base_path('Themes/'.$theme_name);
         return base_path('Themes/' . $theme_name);
+<<<<<<< HEAD
         return base_path('Themes/'.$theme_name);
         return base_path('Themes/' . $theme_name);
         return base_path('Themes/'.$theme_name);
@@ -110,5 +203,20 @@ class GetViewNameSpacePathAction
         return base_path('Themes/' . $theme_name);
         return base_path('Themes/'.$theme_name);
         return base_path('Themes/' . $theme_name);
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+        return base_path('Themes/'.$theme_name);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

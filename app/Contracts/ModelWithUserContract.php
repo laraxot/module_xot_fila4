@@ -73,6 +73,7 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 interface ModelWithUserContract
 {
 }
@@ -103,6 +104,30 @@ interface ModelWithUserContract
 interface ModelWithUserContract
 {
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
 interface ModelWithUserContract {}
 interface ModelWithUserContract
 {
@@ -124,6 +149,7 @@ interface ModelWithUserContract
 interface ModelWithUserContract
 {
 }
+<<<<<<< HEAD
 interface ModelWithUserContract
 {
 }
@@ -213,3 +239,14 @@ interface ModelWithUserContract {}
 interface ModelWithUserContract
 {
 }
+=======
+>>>>>>> ca9324a4 (.)
+=======
+interface ModelWithUserContract
+{
+}
+=======
+interface ModelWithUserContract {}
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)

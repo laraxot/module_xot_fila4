@@ -26,8 +26,16 @@ class GetYearFilter
             $opts[$currStr] = $currStr;
         }
 
+<<<<<<< HEAD
         return SelectFilter::make($fieldName)->options($opts);
+<<<<<<< HEAD
         return SelectFilter::make($fieldName)
             ->options($opts);
+=======
+=======
+        return SelectFilter::make($fieldName)
+            ->options($opts);
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

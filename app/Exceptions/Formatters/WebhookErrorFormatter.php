@@ -28,8 +28,15 @@ use Illuminate\Support\Facades\Auth;
 class WebhookErrorFormatter
 {
     public function __construct(
+<<<<<<< HEAD
         private Throwable $exception,
+<<<<<<< HEAD
         private \Throwable $exception
+=======
+=======
+        private Throwable $exception
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     ) {}
 
     /**
@@ -45,6 +52,7 @@ class WebhookErrorFormatter
             'file' => $this->exception->getFile(),
             'line' => $this->exception->getLine(),
             'trace' => $this->exception->getTraceAsString(),
+<<<<<<< HEAD
             'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
             'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -58,6 +66,10 @@ class WebhookErrorFormatter
              * $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
              * ),
              */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
             'exception' => sprintf(
                 '`%s` (Code `%s`)',
                 get_class($this->exception),
@@ -70,7 +82,15 @@ class WebhookErrorFormatter
             ),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
             'ip' => request()->ip(),
+<<<<<<< HEAD
             'thrown_while_calling' => sprintf('[%s] %s', request()->getMethod(), request()->fullUrl()),
+=======
+            'thrown_while_calling' => sprintf(
+                '[%s] %s',
+                request()->getMethod(),
+                request()->fullUrl()
+            ),
+>>>>>>> 2f3197ab (.)
             'url_previous' => url()->previous(),
             /*
             'exception_details' => sprintf(
@@ -79,12 +99,16 @@ class WebhookErrorFormatter
                 $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
             ),
             */
+<<<<<<< HEAD
              * 'exception_details' => sprintf(
              * "Trace:\n```json \n %s \n ```\n\n Previous: \n `%s`",
              * json_encode($this->exception->getTrace(), JSON_PRETTY_PRINT),
              * $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
              * ),
              */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         ];
     }
 }

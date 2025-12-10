@@ -17,23 +17,38 @@ trait NavigationLabelTrait
 {
     use TransTrait;
 
+<<<<<<< HEAD
     // public function getModelLabel(): string
     // {
     //     return static::transFunc(__FUNCTION__);
     // }
     // Rimosso per compatibilità Filament v4 - il metodo è già definito nella classe Resource
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     public static function getModelLabel(): string
     {
         return static::transFunc(__FUNCTION__);
     }
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
     public static function getPluralModelLabel(): string
     {
         return static::getNavigationLabel();
+<<<<<<< HEAD
+
+<<<<<<< HEAD
 
 
 
-
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         // return static::transFunc(__FUNCTION__);
     }
 
@@ -62,6 +77,31 @@ trait NavigationLabelTrait
         return static::transFunc(__FUNCTION__);
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
     public static function getNavigationSort(): ?int
     public static function getNavigationSort(): null|int
     public static function getNavigationSort(): null|int
@@ -198,12 +238,115 @@ trait NavigationLabelTrait
     public static function getNavigationSort(): ?int
     public static function getNavigationSort(): null|int
     public static function getNavigationSort(): null|int
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getNavigationSort(): null|int
+=======
+    public static function getNavigationSort(): ?int
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
         $value = intval($res);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         if ($value === 0) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if ($value === 0) {
+        if ($value === 0) {
+        if ($value === 0) {
+        if ($value === 0) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+<<<<<<< HEAD
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if ($value === 0) {
+        if (0 === $value) {
+        if ($value === 0) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 == $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if (0 === $value) {
+        if ($value === 0) {
+        if ($value === 0) {
+        if ($value === 0) {
+        if (0 === $value) {
         if (0 === $value) {
         if (0 === $value) {
         if (0 === $value) {
@@ -269,78 +412,20 @@ trait NavigationLabelTrait
         if (0 === $value) {
         if ($value === 0) {
         if ($value === 0) {
-        if ($value === 0) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
         if (0 === $value) {
         if (0 === $value) {
         if (0 == $value) {
         if (0 === $value) {
         if (0 === $value) {
-        if ($value === 0) {
-        if ($value === 0) {
-        if ($value === 0) {
-        if ($value === 0) {
+=======
+>>>>>>> ca9324a4 (.)
+=======
         if (0 === $value) {
+=======
         if (0 == $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 == $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 == $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 == $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 == $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if ($value === 0) {
-        if (0 === $value) {
-        if ($value === 0) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 == $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 == $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if ($value === 0) {
-        if ($value === 0) {
-        if (0 === $value) {
-        if (0 === $value) {
-        if (0 == $value) {
-        if (0 === $value) {
-        if (0 === $value) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);
@@ -361,6 +446,7 @@ trait NavigationLabelTrait
 
         return $default;
     }
+<<<<<<< HEAD
 
     /*
      *
@@ -408,6 +494,7 @@ trait NavigationLabelTrait
  * return $res;
  * }
  */
+<<<<<<< HEAD
     /*
      *
      * public function getHeading(): string|Htmlable
@@ -430,6 +517,31 @@ trait NavigationLabelTrait
      * }
      *
      */
+=======
+=======
+    /*
+
+    public function getHeading(): string|Htmlable
+    {
+        return 'AAAAAAAAAA';
+    }
+
+
+
+    public static function getBreadcrumb(): string {
+        return JobsWaitingPlugin::make()->getBreadcrumb();
+    }
+
+    public static function shouldRegisterNavigation(): bool {
+        return JobsWaitingPlugin::make()->shouldRegisterNavigation();
+    }
+
+    public static function getNavigationIcon(): string {
+        return JobsWaitingPlugin::make()->getNavigationIcon();
+    }
+
+    */
+>>>>>>> 2f3197ab (.)
 }
 
 /*
@@ -454,6 +566,7 @@ public static function transPath(string $key): string
         return $res;
     }
 */
+<<<<<<< HEAD
  * public static function transPath(string $key): string
  * {
  * $moduleNameLow = Str::lower(static::getModuleName());
@@ -475,3 +588,6 @@ public static function transPath(string $key): string
  * return $res;
  * }
  */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

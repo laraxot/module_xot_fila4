@@ -38,6 +38,31 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
@@ -68,6 +93,113 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+<<<<<<< HEAD
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+=======
+>>>>>>> ed734516 (.)
+=======
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+>>>>>>> 7131bd09 (.)
+=======
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> 2f3197ab (.)
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+<<<<<<< HEAD
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
         $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
@@ -86,69 +218,6 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
-        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
-        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
         $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
@@ -176,32 +245,151 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
-        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
-        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
-        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
-        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
         $this->registerBladeComponents();
     }
 
     public function register(): void
     {
+<<<<<<< HEAD
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+<<<<<<< HEAD
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 7131bd09 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ed734516 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 7131bd09 (.)
+=======
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 2f3197ab (.)
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+<<<<<<< HEAD
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
@@ -228,58 +416,6 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
@@ -296,24 +432,108 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
-        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     }
 
     protected function registerBladeComponents(): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $componentNamespace = $this->module_ns.'\View\Components';
+        Blade::componentNamespace($componentNamespace, $this->nameLower);
+
+        app(RegisterBladeComponentsAction::class)
+            ->execute($this->module_dir.'/../View/Components', $this->module_ns);
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
         $componentNamespace = $this->module_ns . '\View\Components';
         Blade::componentNamespace($componentNamespace, $this->nameLower);
 
@@ -321,6 +541,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
             ->execute($this->module_dir . '/../View/Components', $this->module_ns);
     }
 }
+<<<<<<< HEAD
         $componentNamespace = $this->module_ns.'\View\Components';
         $componentNamespace = $this->module_ns . '\View\Components';
         Blade::componentNamespace($componentNamespace, $this->nameLower);
@@ -336,23 +557,33 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
             ->execute($this->module_dir . '/../View/Components', $this->module_ns);
     }
 }
+=======
+=======
+>>>>>>> 2f3197ab (.)
         $componentNamespace = $this->module_ns.'\View\Components';
         Blade::componentNamespace($componentNamespace, $this->nameLower);
 
         app(RegisterBladeComponentsAction::class)
+<<<<<<< HEAD
     }
 }
         $componentNamespace = $this->module_ns.'\View\Components';
         \Illuminate\Support\Facades\Blade::componentNamespace($componentNamespace, $this->nameLower);
 
         app(\Modules\Xot\Actions\Blade\RegisterBladeComponentsAction::class)
+=======
+>>>>>>> 2f3197ab (.)
             ->execute(
                 $this->module_dir.'/../View/Components',
                 $this->module_ns
             );
     }
 } 
+<<<<<<< HEAD
             ->execute($this->module_dir.'/../View/Components', $this->module_ns);
     }
 }
 } 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

@@ -20,6 +20,7 @@ class MorphedByManyAction
     /**
      * Undocumented function.
      */
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
@@ -38,10 +39,18 @@ class MorphedByManyAction
          * $model->$name()->touch();
          * }
          */
+<<<<<<< HEAD
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
         dddx('wip');
 
+=======
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
+        dddx('wip');
+>>>>>>> 2f3197ab (.)
         /*
         foreach ($data as $k => $v) {
             if (! \is_array($v)) {
@@ -55,6 +64,7 @@ class MorphedByManyAction
             $model->$name()->touch();
         }
         */
+<<<<<<< HEAD
          * foreach ($data as $k => $v) {
          * if (! \is_array($v)) {
          * $v = [];
@@ -67,5 +77,8 @@ class MorphedByManyAction
          * $model->$name()->touch();
          * }
          */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

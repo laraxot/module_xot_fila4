@@ -31,6 +31,31 @@ class GetAllModelsByModuleNameAction
     public function execute(string $moduleName): array
     {
         $mod = Module::find($moduleName);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -42,9 +67,59 @@ class GetAllModelsByModuleNameAction
         /** @var array<string, class-string> $data */
         $data = [];
         $ns = 'Modules\\'.$mod->getName().'\\Models';
+<<<<<<< HEAD
         if (!($mod instanceof \Nwidart\Modules\Module)) {
         if (!($mod instanceof \Nwidart\Modules\Module)) {
         if (! $mod instanceof \Nwidart\Modules\Module) {
+=======
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+=======
+        if (! $mod instanceof \Nwidart\Modules\Module) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
             return [];
         }
 
@@ -105,12 +180,36 @@ class GetAllModelsByModuleNameAction
                 //}
                 // 434    Parameter #1 $argument of class ReflectionClass constructor expects class-string<T of object>|T of object, string given.
                 try {
+<<<<<<< HEAD
+=======
+                    $reflection_class = new ReflectionClass($tmp->class);
+<<<<<<< HEAD
+                    if (!$reflection_class->isAbstract()) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 2f3197ab (.)
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
+<<<<<<< HEAD
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
                     if (! $reflection_class->isAbstract()) {
@@ -125,6 +224,17 @@ class GetAllModelsByModuleNameAction
                     if (!$reflection_class->isAbstract()) {
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

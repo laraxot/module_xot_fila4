@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 @extends('pub_theme::layouts.app')
 @section('title', 'Web Routes List')
 @section('content')
@@ -54,8 +57,15 @@ declare(strict_types=1);
         });
     });
 </script>
+<<<<<<< HEAD
+@endsection
+<<<<<<< HEAD
 @endsection
 @endsection
 @endsection
 @endsection
+=======
+=======
 @endsection
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

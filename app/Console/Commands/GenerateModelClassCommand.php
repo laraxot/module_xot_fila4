@@ -26,6 +26,31 @@ class GenerateModelClassCommand extends GeneratorCommand
 
     protected function getStub()
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         return realpath(__DIR__.'/../stubs/model.stub');
         return realpath(__DIR__ . '/../stubs/model.stub');
         return realpath(__DIR__ . '/../stubs/model.stub');
@@ -162,10 +187,45 @@ class GenerateModelClassCommand extends GeneratorCommand
         return realpath(__DIR__.'/../stubs/model.stub');
         return realpath(__DIR__ . '/../stubs/model.stub');
         return realpath(__DIR__ . '/../stubs/model.stub');
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return realpath(__DIR__ . '/../stubs/model.stub');
+=======
+        return realpath(__DIR__.'/../stubs/model.stub');
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     }
 
     protected function getDefaultNamespace($rootNamespace)
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         return $rootNamespace.'\Models';
         return $rootNamespace . '\Models';
         return $rootNamespace . '\Models';
@@ -302,10 +362,45 @@ class GenerateModelClassCommand extends GeneratorCommand
         return $rootNamespace.'\Models';
         return $rootNamespace . '\Models';
         return $rootNamespace . '\Models';
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return $rootNamespace . '\Models';
+=======
+        return $rootNamespace.'\Models';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     }
 
     protected function replaceClass($stub, $name)
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
@@ -442,6 +537,16 @@ class GenerateModelClassCommand extends GeneratorCommand
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        $class = str_replace($this->getNamespace($name) . '\\', '', $name);
+=======
+        $class = str_replace($this->getNamespace($name).'\\', '', $name);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 
         // Do string replacement
         return str_replace('{{service_name}}', $class, $stub);

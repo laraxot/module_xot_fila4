@@ -46,6 +46,7 @@ class ArticleData extends Data
      */
     public static function make(): static
     {
+<<<<<<< HEAD
         return new static();
         return new static();
         return new static();
@@ -57,6 +58,30 @@ class ArticleData extends Data
         return new static();
         return new static();
         return new static();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         return new static;
         return new static();
         return new static();
@@ -69,6 +94,7 @@ class ArticleData extends Data
         return new static();
         return new static();
         return new static();
+<<<<<<< HEAD
         return new static();
         return new static;
         return new static();
@@ -115,5 +141,14 @@ class ArticleData extends Data
         return new static;
         return new static();
         return new static();
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return new static();
+=======
+        return new static;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

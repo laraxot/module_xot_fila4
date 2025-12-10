@@ -63,30 +63,11 @@
 - [x] Collegamenti bidirezionali
 - [ ] Completamento esempi
 - [ ] Testi in italiano
+<<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/project_docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/project_docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/project_docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/project_docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
-  - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
@@ -104,6 +85,32 @@
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -304,9 +311,11 @@
 ## Collegamenti Bidirezionali
 
 ### Collegamenti ad Altri Moduli
+<<<<<<< HEAD
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
+<<<<<<< HEAD
 - [Roadmap Modulo User](../User/project_docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/project_docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/project_docs/roadmap.md)
@@ -367,6 +376,13 @@
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
+=======
+=======
+- [Roadmap Modulo User](../User/project_docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/project_docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/project_docs/roadmap.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -541,7 +557,11 @@
 ## Riferimenti
 
 ### Documentazione
+<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/docs/12.x)
+=======
+- [Laravel Framework](https://laravel.com/project_docs/12.x)
+>>>>>>> f1d4085 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -556,6 +576,7 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
 ## Risorse e Documentazione
 - [Architecture Guide](./architecture.md)
 - [API Documentation](./api-docs.md)
@@ -741,6 +762,9 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+=======
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -757,6 +781,10 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
@@ -773,6 +801,7 @@
 * [roadmap.md](../../../Patient/project_docs/roadmap.md)
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
+<<<<<<< HEAD
 
 
 ### Versione Incoming
@@ -810,6 +839,9 @@
 * [roadmap.md](../../../Patient/project_docs/roadmap.md)
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
 
 ---

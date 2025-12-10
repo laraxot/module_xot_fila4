@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -5,8 +6,15 @@ declare(strict_types=1);
 ?>
 @php
 '<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
+<<<<<<< HEAD
 @php
 '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
+=======
+=======
+@php
+'<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 @endphp
 <rss version="2.0">
     <channel>

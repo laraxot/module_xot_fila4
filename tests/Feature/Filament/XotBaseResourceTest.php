@@ -2,11 +2,15 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
     $this->resource = new class extends XotBaseResource {
+=======
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -48,18 +52,60 @@ namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
     expect($resource)->toBeInstanceOf(XotBaseResource::class);
 });
         protected static null|int $navigationSort = 1;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 2f3197ab (.)
         protected static null|int $navigationSort = 1;
         protected static ?string $model = null;
         protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
         protected static ?string $navigationGroup = 'Test Group';
         protected static ?int $navigationSort = 1;
         protected static null|int $navigationSort = 1;
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 2f3197ab (.)
 namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 
 namespace Modules\Xot\Tests\Feature\Filament;
 
 
         protected static ?int $navigationSort = 1;
+<<<<<<< HEAD
         protected static null|int $navigationSort = 1;
         protected static null|int $navigationSort = 1;
 test('xot base resource extends filament resource', function (): void {
@@ -154,6 +200,55 @@ beforeEach(function () {
 
         protected static ?int $navigationSort = 1;
         protected static null|int $navigationSort = 1;
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+        protected static null|int $navigationSort = 1;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     };
 });
 

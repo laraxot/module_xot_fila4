@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 @extends('adm_theme::layouts.app')
 @section('content')
 PASSO 1
@@ -27,8 +30,15 @@ PASSO 1
 </form>
 
 
+<<<<<<< HEAD
+@endsection
+<<<<<<< HEAD
 @endsection
 @endsection
 @endsection
 @endsection
+=======
+=======
 @endsection
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

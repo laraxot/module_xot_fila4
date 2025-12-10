@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 <x-filament::page>
     <div class="space-y-6">
         <div class="p-6 bg-white rounded-xl shadow dark:bg-gray-800">
@@ -41,8 +44,15 @@ declare(strict_types=1);
     </script>
     @endscript
     --}}
+<<<<<<< HEAD
 </x-filament::page>
+<<<<<<< HEAD
 </x-filament::page>
 </x-filament::page>
 </x-filament::page>
 </x-filament::page> 
+=======
+=======
+</x-filament::page> 
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

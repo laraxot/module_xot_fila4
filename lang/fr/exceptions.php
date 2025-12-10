@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 return [
     /*
+<<<<<<< HEAD
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     |--------------------------------------------------------------------------
     | Exception Language Lines
     |--------------------------------------------------------------------------
@@ -22,6 +27,10 @@ return [
     | found in a intuitive way.
     |
     */
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
     'backend' => [
         'access' => [
@@ -35,7 +44,14 @@ return [
                 'not_found' => "Ce rôle n'existe pas.",
                 'update_error' => 'Un problème est survenu lors de la mise à jour du rôle. Veuillez réessayer.',
             ],
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
             'users' => [
                 'cant_deactivate_self' => 'Vous ne pouvez pas vous désactiver vous-même.',
                 'cant_delete_self' => 'Vous ne pouvez pas vous supprimer vous-même.',
@@ -54,7 +70,14 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -67,18 +90,27 @@ return [
                 'success' => 'Votre compte est dorénavant confirmé !',
                 'resent' => "Un nouvel email a été envoyé à l'adresse enregistrée.",
             ],
+<<<<<<< HEAD
+            'deactivated' => 'Votre compte a été désactivé.',
+            'email_taken' => 'Cet email est déjà utilisé.',
+<<<<<<< HEAD
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
-            'deactivated' => 'Votre compte a été désactivé.',
-            'email_taken' => 'Cet email est déjà utilisé.',
+=======
+=======
+>>>>>>> 2f3197ab (.)
 
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
 
+<<<<<<< HEAD
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
             'password' => [
                 'change_mismatch' => "L'ancien mot de passe est invalide.",
             ],

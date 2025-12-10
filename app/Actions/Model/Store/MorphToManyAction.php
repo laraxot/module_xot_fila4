@@ -21,6 +21,7 @@ class MorphToManyAction
 
         $data = $relationDTO->data;
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
+<<<<<<< HEAD
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
@@ -32,6 +33,30 @@ class MorphToManyAction
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
             if (! isset($data['to'])) {
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
@@ -44,6 +69,7 @@ class MorphToManyAction
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
+<<<<<<< HEAD
             if (!isset($data['to'])) {
             if (! isset($data['to'])) {
             if (!isset($data['to'])) {
@@ -90,6 +116,15 @@ class MorphToManyAction
             if (! isset($data['to'])) {
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
                 $data['to'] = [];
             }
 
@@ -98,6 +133,7 @@ class MorphToManyAction
         Assert::isArray($data);
         // dddx(['row' => $row, 'relation' => $relation, 't1' => Arr::isAssoc($data)]);
 
+<<<<<<< HEAD
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
@@ -109,6 +145,30 @@ class MorphToManyAction
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         if (! Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
@@ -121,6 +181,7 @@ class MorphToManyAction
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
+<<<<<<< HEAD
         if (!Arr::isAssoc($data)) {
         if (! Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
@@ -167,11 +228,21 @@ class MorphToManyAction
         if (! Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
         if (!Arr::isAssoc($data)) {
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        if (!Arr::isAssoc($data)) {
+=======
+        if (! Arr::isAssoc($data)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
             $relationDTO->rows->sync($data);
 
             return;
         }
 
+<<<<<<< HEAD
         dddx([
             'message' => 'wip',
             'row' => $model,
@@ -200,6 +271,10 @@ class MorphToManyAction
          * }
          * }
          */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
         dddx(
             [
                 'message' => 'wip',
@@ -211,7 +286,10 @@ class MorphToManyAction
         );
 
         dddx('wip');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2f3197ab (.)
         /*
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
@@ -230,6 +308,7 @@ class MorphToManyAction
             }
         }
         */
+<<<<<<< HEAD
          * foreach ($data as $k => $v) {
          * if (\is_array($v)) {
          * if (! isset($v['pivot'])) {
@@ -247,5 +326,8 @@ class MorphToManyAction
          * }
          * }
          */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

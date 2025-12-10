@@ -9,11 +9,18 @@ use Modules\Xot\Models\Module;
 
 /**
  * Module Factory
+<<<<<<< HEAD
  *
+<<<<<<< HEAD
  *
  *
  *
  * 
+=======
+=======
+ * 
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
  * @extends Factory<Module>
  */
 class ModuleFactory extends Factory
@@ -34,7 +41,102 @@ class ModuleFactory extends Factory
 
     public function active(): static
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+<<<<<<< HEAD
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -102,87 +204,122 @@ class ModuleFactory extends Factory
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn (array $attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
+=======
+>>>>>>> ca9324a4 (.)
+=======
         return $this->state(fn(array $_attributes): array => [
+=======
         return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
             'is_active' => true,
         ]);
     }
 
     public function inactive(): static
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+<<<<<<< HEAD
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -250,87 +387,120 @@ class ModuleFactory extends Factory
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn (array $attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
+=======
+>>>>>>> ca9324a4 (.)
+=======
         return $this->state(fn(array $_attributes): array => [
+=======
         return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
             'is_active' => false,
         ]);
     }
 
     public function highPriority(): static
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+<<<<<<< HEAD
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn (array $_attributes): array => [
+        return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
@@ -396,78 +566,20 @@ class ModuleFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
         return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn (array $attributes): array => [
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
+=======
+>>>>>>> ca9324a4 (.)
+=======
         return $this->state(fn(array $_attributes): array => [
+=======
         return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn (array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn (array $attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
-        return $this->state(fn(array $_attributes): array => [
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
             'priority' => $this->faker->numberBetween(80, 100),
         ]);
     }

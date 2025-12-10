@@ -12,6 +12,31 @@ class CopyFromLastYearAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
     public function execute(string $modelClass, string $fieldName, ?string $year): void
     {
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
@@ -42,6 +67,113 @@ class CopyFromLastYearAction
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+<<<<<<< HEAD
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+=======
+>>>>>>> ed734516 (.)
+=======
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+>>>>>>> 7131bd09 (.)
+=======
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> 2f3197ab (.)
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+<<<<<<< HEAD
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
@@ -60,69 +192,6 @@ class CopyFromLastYearAction
     public function execute(string $modelClass, string $fieldName, ?string $year): void
     {
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
@@ -150,27 +219,12 @@ class CopyFromLastYearAction
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
             return;
         }
 

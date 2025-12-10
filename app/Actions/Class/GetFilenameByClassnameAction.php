@@ -65,6 +65,31 @@ class GetFilenameByClassnameAction
             }
         } catch (Exception $e) {
             $filename = str_replace('\\', '/', $class_name);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
             $filename = base_path($filename).'.php';
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
@@ -106,6 +131,7 @@ class GetFilenameByClassnameAction
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
+<<<<<<< HEAD
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename).'.php';
@@ -141,11 +167,47 @@ class GetFilenameByClassnameAction
             $filename = base_path($filename).'.php';
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            $filename = base_path($filename) . '.php';
+=======
+            $filename = base_path($filename).'.php';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
         }
 
         if (is_string($filename)) {
             return $filename;
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+=======
+>>>>>>> 2f3197ab (.)
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
@@ -215,5 +277,15 @@ class GetFilenameByClassnameAction
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+=======
+        throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

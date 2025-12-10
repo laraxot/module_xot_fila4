@@ -6,8 +6,15 @@ namespace Modules\Xot\Actions\Cast;
 
 /**
  * Action per convertire in modo sicuro un valore mixed in string.
+<<<<<<< HEAD
  *
+<<<<<<< HEAD
  * 
+=======
+=======
+ * 
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -35,6 +42,7 @@ class SafeStringCastAction
             return $value;
         }
         /*
+<<<<<<< HEAD
          * if ($value instanceof \BackedEnum) {
          * return $value->value;
          * }
@@ -56,6 +64,10 @@ class SafeStringCastAction
         return '';
     }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
         if ($value instanceof \BackedEnum) {
             return $value->value;
         }
@@ -64,6 +76,7 @@ class SafeStringCastAction
         if (is_null($value)) {
             return '';
         }
+<<<<<<< HEAD
 
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -80,6 +93,8 @@ class SafeStringCastAction
         if (is_null($value)) {
             return '';
         }
+=======
+>>>>>>> 2f3197ab (.)
         
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -93,6 +108,10 @@ class SafeStringCastAction
         return '';
     }
     
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *

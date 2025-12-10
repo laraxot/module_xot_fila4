@@ -83,6 +83,7 @@ use Spatie\ModelStatus\Status;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 interface ModelWithPosContract
 {
 }
@@ -113,6 +114,30 @@ interface ModelWithPosContract
 interface ModelWithPosContract
 {
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
 interface ModelWithPosContract {}
 interface ModelWithPosContract
 {
@@ -134,6 +159,7 @@ interface ModelWithPosContract
 interface ModelWithPosContract
 {
 }
+<<<<<<< HEAD
 interface ModelWithPosContract
 {
 }
@@ -223,3 +249,14 @@ interface ModelWithPosContract {}
 interface ModelWithPosContract
 {
 }
+=======
+>>>>>>> ca9324a4 (.)
+=======
+interface ModelWithPosContract
+{
+}
+=======
+interface ModelWithPosContract {}
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)

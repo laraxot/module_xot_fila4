@@ -9,19 +9,28 @@ namespace Modules\Xot\Actions\String;
 class SanitizeAction
 {
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
 
 use function Safe\preg_replace;
 
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 class SanitizeAction
 {
     use QueueableAction;
@@ -130,6 +139,7 @@ class SanitizeAction
 }
 
 /*
+<<<<<<< HEAD
  * $string = trim($item);
  *
  *
@@ -142,6 +152,10 @@ class SanitizeAction
  * // Additional removal of non-printable characters
  * $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
  */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
 $string = trim($item);
 
 
@@ -154,3 +168,7 @@ $string = strip_tags($string);
 // Additional removal of non-printable characters
 $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 */
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

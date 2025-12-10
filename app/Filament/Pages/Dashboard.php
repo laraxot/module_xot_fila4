@@ -65,6 +65,7 @@ use Filament\Widgets\WidgetConfiguration;
 
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 class Dashboard extends XotBaseDashboard
@@ -91,10 +92,48 @@ class Dashboard extends XotBaseDashboard
 {
 class Dashboard extends XotBaseDashboard
 {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Dashboard extends XotBaseDashboard
+{
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 
 class Dashboard extends XotBaseDashboard
 {
     
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 2f3197ab (.)
+class Dashboard extends XotBaseDashboard
+{
+class Dashboard extends XotBaseDashboard
+{
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 class Dashboard extends XotBaseDashboard
@@ -131,10 +170,18 @@ class Dashboard extends XotBaseDashboard
 {
 class Dashboard extends XotBaseDashboard
 {
-class Dashboard extends XotBaseDashboard
-{
-class Dashboard extends XotBaseDashboard
-{
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -142,12 +189,62 @@ class Dashboard extends XotBaseDashboard
     {
         return [];
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f3197ab (.)
 
     
 
     
+<<<<<<< HEAD
 
     
 
     
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+
+    
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 }

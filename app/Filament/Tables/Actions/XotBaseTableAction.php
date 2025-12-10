@@ -19,6 +19,116 @@ use Closure;
 use Filament\Actions\Action;
 use Closure;
 use Filament\Actions\Action;
+<<<<<<< HEAD
+use Closure;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+use Closure;
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+use Filament\Actions\Action;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Closure;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Actions\Action;
+<<<<<<< HEAD
+use Closure;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Closure;
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 2f3197ab (.)
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Tables\Actions\Action;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+<<<<<<< HEAD
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
+use Closure;
+use Filament\Actions\Action;
 use Closure;
 use Filament\Actions\Action;
 use Closure;
@@ -78,85 +188,16 @@ use Closure;
 use Filament\Actions\Action;
 use Closure;
 use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
 use Filament\Actions\Action;
 use Closure;
 use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Tables\Actions\Action;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
-use Filament\Actions\Action;
-use Closure;
-use Filament\Actions\Action;
-use Filament\Actions\Action;
-use Closure;
-use Closure;
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -181,6 +222,7 @@ abstract class XotBaseTableAction extends Action
     /**
      * @return Model|null
      */
+<<<<<<< HEAD
     public function getRecord(bool $withDefault = true): null|Model
     public function getRecord(bool $withDefault = true): ?Model
     public function getRecord(bool $withDefault = true): ?Model
@@ -208,6 +250,7 @@ abstract class XotBaseTableAction extends Action
             return null;
         }
 
+<<<<<<< HEAD
     public function getRecord(bool $withDefault = true): null|Model
     {
         if ($this->record instanceof Closure) {
@@ -218,6 +261,12 @@ abstract class XotBaseTableAction extends Action
      */
     public function getRecord(): ?Model
     {
+=======
+=======
+    public function getRecord(): ?Model
+    {
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         return $this->record;
     }
 }

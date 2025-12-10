@@ -16,6 +16,7 @@ class JsonResponseData extends Data
 
     public string $message;
 
+<<<<<<< HEAD
     public null|int $code = null;
     public null|int $code = null;
     public null|int $code = null;
@@ -27,6 +28,30 @@ class JsonResponseData extends Data
     public null|int $code = null;
     public null|int $code = null;
     public null|int $code = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
     public ?int $code = null;
     public null|int $code = null;
     public null|int $code = null;
@@ -39,6 +64,7 @@ class JsonResponseData extends Data
     public null|int $code = null;
     public null|int $code = null;
     public null|int $code = null;
+<<<<<<< HEAD
     public null|int $code = null;
     public ?int $code = null;
     public null|int $code = null;
@@ -85,22 +111,40 @@ class JsonResponseData extends Data
     public ?int $code = null;
     public null|int $code = null;
     public null|int $code = null;
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public null|int $code = null;
+=======
+    public ?int $code = null;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 
     public array $data = [];
 
     public int $status = 200;
 
     /*
+<<<<<<< HEAD
      * public function toResponse($request)
      * {
      *
      * }
      */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     public function toResponse($request)
     {
 
     }
     */
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     public function response(): JsonResponse
     {
         $data = [

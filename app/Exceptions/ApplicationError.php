@@ -24,13 +24,20 @@ readonly class ApplicationError implements Arrayable, Jsonable, JsonSerializable
         private string $help = '',
         private string $error = '',
 use JsonSerializable;
+<<<<<<< HEAD
 use Override;
+<<<<<<< HEAD
 use Override;
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 {
     public function __construct(
@@ -47,6 +54,13 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
         private  string $help = '',
         private  string $error = '',
     ) {}
+=======
+class ApplicationError implements JsonSerializable, Arrayable, Jsonable
+{
+    public function __construct(private readonly string $help = '', private readonly string $error = '')
+    {
+    }
+>>>>>>> f1d4085 (.)
 
     public function toArray(): array
     {
@@ -56,7 +70,10 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> f1d4085 (.)
     public function jsonSerialize(): array
     {
         return $this->toArray();

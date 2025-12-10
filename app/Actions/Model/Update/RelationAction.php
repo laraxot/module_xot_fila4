@@ -14,6 +14,7 @@ class RelationAction
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
      * Undocumented function.
      *
      * @param  array<string, mixed>  $data
@@ -37,10 +38,28 @@ class RelationAction
          * ]);
          * }
          * // */
+<<<<<<< HEAD
      */
     public function execute(Model $model, array $data): void
     {
         $relations = app(FilterRelationsAction::class)->execute($model, $data);
+=======
+=======
+     * Execute relation updates with type-safe data.
+     *
+     * @param  array<mixed, mixed>  $data
+     */
+    public function execute(Model $model, array $data): void
+    {
+        // Assicura che $data sia type-safe per FilterRelationsAction
+        /** @var array<string, mixed> $typedData */
+        $typedData = [];
+        foreach ($data as $key => $value) {
+            $typedData[(string) $key] = $value;
+        }
+
+        $relations = app(FilterRelationsAction::class)->execute($model, $typedData);
+>>>>>>> 2f3197ab (.)
         /*
         if ('Operation' === class_basename($model)) {
             dddx([
@@ -51,6 +70,7 @@ class RelationAction
             ]);
         }
         // */
+<<<<<<< HEAD
          * if ('Operation' === class_basename($model)) {
          * dddx([
          * 'basename' => class_basename($model),
@@ -60,6 +80,9 @@ class RelationAction
          * ]);
          * }
          * // */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
             $relationClass = $relation::class;
@@ -68,7 +91,54 @@ class RelationAction
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
+<<<<<<< HEAD
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+=======
+
+<<<<<<< HEAD
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+=======
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+>>>>>>> a12f125f4a (.)
+=======
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 2f3197ab (.)
             
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
@@ -77,6 +147,7 @@ class RelationAction
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+<<<<<<< HEAD
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
@@ -91,6 +162,21 @@ class RelationAction
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+            $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

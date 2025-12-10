@@ -63,11 +63,19 @@ class PulseEntryFactory extends Factory
      */
     public function definition(): array
     {
+<<<<<<< HEAD
         return [];
+<<<<<<< HEAD
         return [];
         return [];
         return [];
         return [
         ];
+=======
+=======
+        return [
+        ];
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

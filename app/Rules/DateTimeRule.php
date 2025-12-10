@@ -8,6 +8,43 @@ use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f3197ab (.)
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
@@ -38,24 +75,18 @@ use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
 use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
-use Webmozart\Assert\Assert;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 
 /**
  * Class DateTimeRule.
@@ -63,6 +94,7 @@ use Webmozart\Assert\Assert;
 class DateTimeRule implements Rule
 {
     /**
+<<<<<<< HEAD
      * Determine if the validation rule passes.
      *
      * @param  string  $attribute  The attribute name being validated
@@ -82,22 +114,31 @@ class DateTimeRule implements Rule
      * @param mixed $value The value being validated
      */
     public function passes($_attribute, $value): bool
+<<<<<<< HEAD
      *
      * @param string $_attribute The attribute name being validated
      * @param mixed $value The value being validated
      */
     public function passes($_attribute, $value): bool
+=======
+=======
+>>>>>>> 2f3197ab (.)
      * Undocumented function.
      *
      * @param string $attribute
      * @param string $value
      */
     public function passes($attribute, $value): bool
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     {
         // dddx($attribute); //published_at
         // dddx($value);//10/10/2019 13:43
         // return 5 === strlen($value);
 
+<<<<<<< HEAD
         if (!is_string($value)) {
         if (! is_string($value)) {
         if (! is_string($value)) {
@@ -117,6 +158,109 @@ class DateTimeRule implements Rule
             __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__) . ' - Value must be a string for datetime validation'
         );
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);
@@ -125,10 +269,18 @@ class DateTimeRule implements Rule
         }
 
         /* -- non fa il suo dovere --
+<<<<<<< HEAD
          * request()->replace([$attribute=>$value_new]);
          */
+<<<<<<< HEAD
         request()->replace([$attribute=>$value_new]);
         */
+=======
+=======
+        request()->replace([$attribute=>$value_new]);
+        */
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
         return true;
     }
@@ -136,12 +288,16 @@ class DateTimeRule implements Rule
     public function message(): string
     {
         return 'The :attribute is not a valid datetime';
+<<<<<<< HEAD
 
+=======
+>>>>>>> f1d4085 (.)
         //    return trans('validation.only_uppercase');
     }
 }
 
 /*
+<<<<<<< HEAD
  * class MyClassRequest extends FormRequest
  * {
  * ...
@@ -206,6 +362,10 @@ class DateTimeRule implements Rule
  *
  *
  */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
 class MyClassRequest extends FormRequest
 {
     ...
@@ -270,6 +430,7 @@ class StorePostRequest extends FormRequest
 
 
 */
+<<<<<<< HEAD
 
 /*
  *
@@ -301,3 +462,6 @@ class StorePostRequest extends FormRequest
  *
  *
  */
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

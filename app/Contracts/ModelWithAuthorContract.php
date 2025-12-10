@@ -77,6 +77,7 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 interface ModelWithAuthorContract
 {
 }
@@ -107,6 +108,30 @@ interface ModelWithAuthorContract
 interface ModelWithAuthorContract
 {
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
 interface ModelWithAuthorContract {}
 interface ModelWithAuthorContract
 {
@@ -128,6 +153,7 @@ interface ModelWithAuthorContract
 interface ModelWithAuthorContract
 {
 }
+<<<<<<< HEAD
 interface ModelWithAuthorContract
 {
 }
@@ -217,3 +243,14 @@ interface ModelWithAuthorContract {}
 interface ModelWithAuthorContract
 {
 }
+=======
+>>>>>>> ca9324a4 (.)
+=======
+interface ModelWithAuthorContract
+{
+}
+=======
+interface ModelWithAuthorContract {}
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)

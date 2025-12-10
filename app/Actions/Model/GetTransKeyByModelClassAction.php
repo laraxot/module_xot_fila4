@@ -16,6 +16,7 @@ class GetTransKeyByModelClassAction
         $moduleName = Str::between($modelClass, 'Modules\\', '\Models');
         $modelName = Str::after($modelClass, '\Models\\');
 
+<<<<<<< HEAD
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
@@ -27,6 +28,30 @@ class GetTransKeyByModelClassAction
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
@@ -39,6 +64,7 @@ class GetTransKeyByModelClassAction
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+<<<<<<< HEAD
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
@@ -85,5 +111,14 @@ class GetTransKeyByModelClassAction
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     }
 }

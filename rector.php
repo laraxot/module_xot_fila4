@@ -56,6 +56,7 @@ use Rector\Set\ValueObject\SetList;
 use RectorLaravel\Set\LaravelSetList;
 
 return static function (RectorConfig $rectorConfig): void {
+<<<<<<< HEAD
     $rectorConfig->paths([
         __DIR__.'/Modules',
         __DIR__.'/app',
@@ -87,6 +88,10 @@ return static function (RectorConfig $rectorConfig): void {
         '*/vendor',
         './vendor/',
     ]);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     $rectorConfig->paths(
         [
             __DIR__.'/Modules',
@@ -109,6 +114,7 @@ return static function (RectorConfig $rectorConfig): void {
             './vendor/',
         ]
     );
+<<<<<<< HEAD
 
     $rectorConfig->skip([
         __DIR__ . '/Modules/*/docs',
@@ -117,12 +123,16 @@ return static function (RectorConfig $rectorConfig): void {
         '*/vendor',
         './vendor/',
     ]);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
     // $rectorConfig->rule(RedirectRouteToToRouteHelperRector::class);
 
     // define sets of rules
+<<<<<<< HEAD
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         // SetList::DEAD_CODE,
@@ -136,6 +146,10 @@ return static function (RectorConfig $rectorConfig): void {
         // SetList::EARLY_RETURN,
         // SetList::INSTANCEOF,
     ]);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
     $rectorConfig->sets(
         [
             PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
@@ -152,6 +166,10 @@ return static function (RectorConfig $rectorConfig): void {
             // SetList::INSTANCEOF,
         ]
     );
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 
     $rectorConfig->importNames();
 };

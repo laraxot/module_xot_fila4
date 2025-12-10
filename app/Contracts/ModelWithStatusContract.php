@@ -86,6 +86,31 @@ interface ModelWithStatusContract
 {
     public function statuses(): MorphMany;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
@@ -116,6 +141,113 @@ interface ModelWithStatusContract
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
+<<<<<<< HEAD
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+=======
+>>>>>>> ed734516 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 7131bd09 (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> 2f3197ab (.)
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+<<<<<<< HEAD
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
@@ -134,69 +266,6 @@ interface ModelWithStatusContract
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
-    public function status(): ?Status;
-
-    public function setStatus(string $name, ?string $reason = null): self;
-    public function status(): ?Status;
-
-    public function setStatus(string $name, ?string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): ?Status;
-
-    public function setStatus(string $name, ?string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): ?Status;
-
-    public function setStatus(string $name, ?string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): ?Status;
-
-    public function setStatus(string $name, ?string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
@@ -224,25 +293,10 @@ interface ModelWithStatusContract
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): ?Status;
-
-    public function setStatus(string $name, ?string $reason = null): self;
-    public function status(): ?Status;
-
-    public function setStatus(string $name, ?string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
-    public function status(): null|Status;
-
-    public function setStatus(string $name, null|string $reason = null): self;
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 }

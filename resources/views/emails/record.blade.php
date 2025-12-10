@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 @extends('xot::layouts.email')
 
 @section('content')
@@ -18,8 +21,15 @@ declare(strict_types=1);
         @endforeach
     </table>
 </div>
+<<<<<<< HEAD
 @endsection
+<<<<<<< HEAD
 @endsection
 @endsection
 @endsection
 @endsection 
+=======
+=======
+@endsection 
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

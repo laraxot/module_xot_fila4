@@ -128,6 +128,7 @@ php artisan serve
 - [Regole di Documentazione](documentation-rules.md)
 
 ## Collegamenti tra versioni di installation.md
+<<<<<<< HEAD
 * [installation.md](../../../Xot/docs/filament/installation.md)
 * [installation.md](../../../Xot/docs/installation.md)
 * [installation.md](../../../Xot/docs/base/installation.md)
@@ -135,6 +136,19 @@ php artisan serve
 * [installation.md](../../../Lang/docs/installation.md)
 * [installation.md](../../../Cms/docs/installation.md)
 * [installation.md](../../../../Themes/One/docs/installation.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
+* [installation.md](../../../Xot/project_docs/filament/installation.md)
+* [installation.md](../../../Xot/project_docs/installation.md)
+* [installation.md](../../../Xot/project_docs/base/installation.md)
+* [installation.md](../../../User/project_docs/installation.md)
+* [installation.md](../../../Lang/project_docs/installation.md)
+* [installation.md](../../../Cms/project_docs/installation.md)
+* [installation.md](../../../../Themes/One/project_docs/installation.md)
+<<<<<<< HEAD
+
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
 * [installation.md](../../../Xot/project_docs/base/installation.md)
@@ -175,13 +189,6 @@ php artisan serve
 * [installation.md](../../../Cms/project_docs/installation.md)
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
 
-* [installation.md](../../../Xot/project_docs/filament/installation.md)
-* [installation.md](../../../Xot/project_docs/installation.md)
-* [installation.md](../../../Xot/project_docs/base/installation.md)
-* [installation.md](../../../User/project_docs/installation.md)
-* [installation.md](../../../Lang/project_docs/installation.md)
-* [installation.md](../../../Cms/project_docs/installation.md)
-* [installation.md](../../../../Themes/One/project_docs/installation.md)
 
 
 
@@ -191,5 +198,7 @@ php artisan serve
 
 
 
-
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 

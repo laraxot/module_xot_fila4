@@ -68,8 +68,39 @@ trait Updater
         $profileClass = XotData::make()->getProfileClass();
 
         // @phpstan-ignore return.type
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 2f3197ab (.)
         // @phpstan-ignore return.type
         // @phpstan-ignore return.type
+<<<<<<< HEAD
         // @phpstan-ignore return.type
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
         // @phpstan-ignore return.type
@@ -84,7 +115,29 @@ trait Updater
             'created_by',
             'user_id'
         );
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
+=======
+        return $this->belongsTo(
+            $profileClass,
+            'created_by',
+            'user_id'
+        );
+>>>>>>> f1d4085 (.)
     }
 
     /**
@@ -114,8 +167,39 @@ trait Updater
         $profileClass = XotData::make()->getProfileClass();
 
         // @phpstan-ignore return.type
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 2f3197ab (.)
         // @phpstan-ignore return.type
         // @phpstan-ignore return.type
+<<<<<<< HEAD
         // @phpstan-ignore return.type
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
     }
@@ -133,7 +217,29 @@ trait Updater
             'updated_by',
             'user_id'
         );
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+=======
+        return $this->belongsTo(
+            $profileClass,
+            'updated_by',
+            'user_id'
+        );
+>>>>>>> f1d4085 (.)
     }
 
     /**
@@ -152,6 +258,7 @@ trait Updater
      */
     protected static function bootUpdater(): void
     {
+<<<<<<< HEAD
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -171,6 +278,7 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
 
             if (array_key_exists('created_by', $attributes)) {
                 $model->setAttribute('created_by', authId());
@@ -189,6 +297,9 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+=======
+=======
+>>>>>>> 2f3197ab (.)
         static::creating(
             static function (Model $model): void {
                 Assert::isArray($attributes = $model->getAttributes());
@@ -212,10 +323,15 @@ trait Updater
                 }
             }
         );
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
+<<<<<<< HEAD
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
             Assert::isArray($attributes = $model->attributes);
@@ -238,6 +354,7 @@ trait Updater
 }
 
 // end trait Updater
+<<<<<<< HEAD
 
             if (\in_array('deleted_by', array_keys($attributes), false)) {
                 $model->setAttribute('deleted_by', authId());
@@ -248,6 +365,9 @@ trait Updater
 }
 
 // end trait Updater
+=======
+=======
+>>>>>>> 2f3197ab (.)
         static::deleting(
             static function (Model $model): void {
                 Assert::isArray($attributes = $model->attributes);
@@ -259,3 +379,7 @@ trait Updater
         );
     }
 }// end trait Updater
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

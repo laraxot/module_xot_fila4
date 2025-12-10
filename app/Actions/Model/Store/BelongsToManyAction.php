@@ -15,6 +15,7 @@ class BelongsToManyAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -32,6 +33,16 @@ class BelongsToManyAction
             $rows->sync($to);
             $status = 'collegati ['.implode(', ', $to).'] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 2f3197ab (.)
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
@@ -54,8 +65,35 @@ class BelongsToManyAction
             Assert::isArray($to = $relationDTO->data['to'] ?? []);
             $rows->sync($to);
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
             $status = 'collegati ['.implode(', ', $to).'] ';
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -69,8 +107,25 @@ class BelongsToManyAction
             Assert::isArray($to = $relationDTO->data['to'] ?? []);
             $rows->sync($to);
             $status = 'collegati ['.implode(', ', $to).'] ';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 2f3197ab (.)
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati ['.implode(', ', $to).'] ';
             $status = 'collegati ['.implode(', ', $to).'] ';
@@ -83,6 +138,27 @@ class BelongsToManyAction
             $status = 'collegati ['.implode(', ', $to).'] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
             Session::flash('status', $status);
 
             return;

@@ -9,6 +9,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\ExtraResource;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
@@ -28,13 +29,28 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 class EditExtra extends XotBaseEditRecord
 {
     protected static string $resource = ExtraResource::class;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
+=======
+=======
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+
+
+
+>>>>>>> 2f3197ab (.)
 class EditExtra extends XotBaseEditRecord
 {
     protected static string $resource = ExtraResource::class;
 
 
+<<<<<<< HEAD
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\ExtraResource;
 
@@ -52,4 +68,7 @@ class EditExtra extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
     protected static string $resource = ExtraResource::class;
 
 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
 }

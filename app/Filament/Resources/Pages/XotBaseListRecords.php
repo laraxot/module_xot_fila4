@@ -23,6 +23,65 @@ use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Modules\UI\Enums\TableLayoutEnum;
+<<<<<<< HEAD
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Traits\TransTrait;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+<<<<<<< HEAD
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
+use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\TransTrait;
@@ -48,41 +107,6 @@ use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
-use Modules\Xot\Filament\Traits\HasXotTable;
-use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
-use Modules\Xot\Filament\Traits\HasXotTable;
-use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
-use Modules\Xot\Filament\Traits\HasXotTable;
-use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
-use Modules\Xot\Filament\Traits\HasXotTable;
-use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
-use Modules\Xot\Filament\Traits\HasXotTable;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Filament\Traits\HasXotTable;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
-use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
@@ -90,6 +114,20 @@ use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
@@ -138,19 +176,28 @@ abstract class XotBaseListRecords extends FilamentListRecords
      * Get the table columns.
      *
      * @return array<string, Tables\Columns\Column>
+<<<<<<< HEAD
      *
      * abstract public function getTableColumns(): array;
      */
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2f3197ab (.)
      
     abstract public function getTableColumns(): array;
     */
 
     
+<<<<<<< HEAD
      *
      * abstract public function getTableColumns(): array;
      */
 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     /**
      * Get the default sort column and direction.
      *
@@ -172,11 +219,18 @@ abstract class XotBaseListRecords extends FilamentListRecords
     {
         return [
             // \Filament\Actions\CreateAction::make(),
+<<<<<<< HEAD
             // ExportXlsAction::make('export_xls'),
+<<<<<<< HEAD
             // ExportXlsAction::make('export_xls'),
             // ExportXlsAction::make('export_xls'),
             // ExportXlsAction::make('export_xls'),
            // ExportXlsAction::make('export_xls'),
+=======
+=======
+           // ExportXlsAction::make('export_xls'),
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         ];
     }
 
@@ -193,6 +247,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $resource;
     }
 
+<<<<<<< HEAD
     /**
     /**
      * Paginate the table query.
@@ -250,6 +305,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $paginator;
     }
 }
+<<<<<<< HEAD
      * Paginate the table query.
      */
     protected function paginateTableQuery(Builder $query): Paginator
@@ -265,6 +321,9 @@ abstract class XotBaseListRecords extends FilamentListRecords
     }
 }
 
+=======
+=======
+>>>>>>> 2f3197ab (.)
     /** 
      * Paginate the table query.
     */
@@ -278,3 +337,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
     }
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)

@@ -30,7 +30,41 @@ class GetViewBlocksOptionsByTypeAction
      * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
      * @param string $type Il tipo di blocco da cercare
      * @param bool $img Se includere i percorsi delle immagini invece dei nomi
+<<<<<<< HEAD
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
      *
      * 
      *
@@ -67,6 +101,7 @@ class GetViewBlocksOptionsByTypeAction
      *
      * 
      *
+<<<<<<< HEAD
      * 
      *
      * @param  string  $type  Il tipo di blocco da cercare
@@ -80,11 +115,27 @@ class GetViewBlocksOptionsByTypeAction
      *
      *
      * 
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+     * 
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
     {
         Assert::stringNotEmpty($type, 'Il tipo di blocco non può essere vuoto');
+<<<<<<< HEAD
 
         $basePath = base_path('Modules');
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
@@ -100,6 +151,7 @@ class GetViewBlocksOptionsByTypeAction
             return []; // Ritorna un array vuoto se non ci sono file
         }
 
+<<<<<<< HEAD
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
         $files = File::glob($globPattern);
 
@@ -141,6 +193,9 @@ class GetViewBlocksOptionsByTypeAction
             return []; // Ritorna un array vuoto se non ci sono file
         }
 
+=======
+=======
+>>>>>>> 2f3197ab (.)
         
         $basePath = base_path('Modules');
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
@@ -152,10 +207,15 @@ class GetViewBlocksOptionsByTypeAction
             return []; // Ritorna un array vuoto se non ci sono file
         }
         
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         Assert::isArray($files, 'Il risultato di File::glob() deve essere un array');
 
         $fixPathAction = app(FixPathAction::class);
         Assert::isCallable([$fixPathAction, 'execute'], 'FixPathAction::execute deve essere chiamabile');
+<<<<<<< HEAD
 
         $opts = Arr::mapWithKeys($files, function ($path) use ($img, $type, $fixPathAction): array {
             // Verifichiamo che il percorso sia una stringa
@@ -312,6 +372,55 @@ class GetViewBlocksOptionsByTypeAction
 
             return [$view => $name];
         });
+=======
+        
+        $opts = Arr::mapWithKeys(
+            $files,
+            function ($path) use ($img, $type, $fixPathAction): array {
+                // Verifichiamo che il percorso sia una stringa
+                Assert::string($path, 'Il percorso del file deve essere una stringa');
+                
+                // Normalizziamo il percorso
+                $pathStr = $fixPathAction->execute($path);
+                Assert::stringNotEmpty($pathStr, 'Il percorso normalizzato non può essere vuoto');
+                
+                // Estraiamo il nome del modulo dal percorso
+                $modulePath = Str::of($pathStr)
+                    ->between(DIRECTORY_SEPARATOR.'Modules'.DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR.'resources'.DIRECTORY_SEPARATOR);
+                    
+                Assert::notEmpty($modulePath, 'Impossibile estrarre il nome del modulo dal percorso');
+                
+                $module_low = is_string($modulePath) ? $modulePath : (string) $modulePath->lower();
+                Assert::stringNotEmpty($module_low, 'Il nome del modulo in minuscolo non può essere vuoto');
+                
+                // Estraiamo il nome del file
+                $info = pathinfo($pathStr);
+                Assert::isArray($info, 'Il risultato di pathinfo() deve essere un array');
+                Assert::keyExists($info, 'basename', 'L\'array info deve contenere la chiave basename');
+                
+                $name = Str::of($info['basename'])->before('.blade.php')->toString();
+                Assert::stringNotEmpty($name, 'Il nome del componente non può essere vuoto');
+                
+                // Costruiamo il nome della vista
+                $view = $module_low.'::components.blocks.'.$type.'.'.$name;
+                Assert::stringNotEmpty($view, 'Il nome della vista non può essere vuoto');
+                
+                if ($img) {
+                    // Se è richiesto il percorso dell'immagine, lo costruiamo
+                    $assetAction = app(AssetAction::class);
+                    Assert::isCallable([$assetAction, 'execute'], 'AssetAction::execute deve essere chiamabile');
+                    
+                    $imgPath = $module_low.'::img/screenshots/'.$name.'.png';
+                    $img_path = $assetAction->execute($imgPath);
+                    Assert::stringNotEmpty($img_path, 'Il percorso dell\'immagine non può essere vuoto');
+
+                    return [$view => $img_path];
+                }
+
+                return [$view => $name];
+            }
+        );
+>>>>>>> f1d4085 (.)
 
                     return [$view => $img_path];
                 }
@@ -323,15 +432,29 @@ class GetViewBlocksOptionsByTypeAction
         // Assicuriamo che il risultato sia un array di stringhe
         /** @var array<string, string> $result */
         $result = $opts;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         
+=======
+=======
+        
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         Assert::isArray($result, 'Il risultato deve essere un array');
         foreach ($result as $key => $value) {
             Assert::string($key, 'La chiave dell\'array deve essere una stringa');
             Assert::string($value, 'Il valore dell\'array deve essere una stringa');
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         
+=======
+=======
+        
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
         return $result;
     }
 }

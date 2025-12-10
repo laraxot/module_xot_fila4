@@ -29,6 +29,7 @@ class GetViewsSiblingsAndSelfAction
         $files = File::files($dir);
         $views = [];
         foreach ($files as $file) {
+<<<<<<< HEAD
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -40,6 +41,30 @@ class GetViewsSiblingsAndSelfAction
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -52,6 +77,7 @@ class GetViewsSiblingsAndSelfAction
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+<<<<<<< HEAD
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -98,6 +124,15 @@ class GetViewsSiblingsAndSelfAction
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+>>>>>>> 2f3197ab (.)
                 continue;
             }
 

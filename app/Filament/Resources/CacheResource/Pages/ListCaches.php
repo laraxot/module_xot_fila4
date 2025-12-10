@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
@@ -32,6 +33,10 @@ use Filament\Actions\CreateAction;
 use Filament\Actions;
 use Override;
 use Filament\Actions\CreateAction;
+=======
+use Filament\Actions\CreateAction;
+use Filament\Actions\Action;
+>>>>>>> f1d4085 (.)
 use Filament\Actions;
 use Override;
 use Filament\Actions\CreateAction;
@@ -59,6 +64,10 @@ use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
 /**
  * @see CacheResource
  */
@@ -75,10 +84,16 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
+    #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
     #[Override]
-    #[Override]
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     public function getTableColumns(): array
     {
         return [
@@ -87,12 +102,26 @@ class ListCaches extends XotBaseListRecords
                 ->sortable()
                 ->wrap()
                 ->label('Key'),
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
             'value' => TextColumn::make('value')
                 ->searchable()
                 ->wrap()
                 ->label('Value'),
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
             'expiration' => TextColumn::make('expiration')
                 ->dateTime()
                 ->sortable()
@@ -100,10 +129,16 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
+    #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
     #[Override]
-    #[Override]
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -114,7 +149,9 @@ class ListCaches extends XotBaseListRecords
     /**
      * @return array<string, Action>
      */
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
      * @return array<string, Action>
      */
     #[Override]
@@ -122,6 +159,10 @@ class ListCaches extends XotBaseListRecords
      */
     #[Override]
     #[Override]
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 2f3197ab (.)
     protected function getHeaderActions(): array
     {
         return [

@@ -601,6 +601,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
  * @mixin IdeHelperUserContract
 =======
@@ -613,6 +614,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  * @mixin \Eloquent
 >>>>>>> c84488b (.)
 >>>>>>> 92cca5ade (.)
+=======
+ * @mixin \Eloquent
+>>>>>>> 6d0e19ff7 (.)
  */
 interface UserContract extends
     Authenticatable,

@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -37,6 +38,8 @@
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6e7c1905 (.)
 # Troubleshooting Guide
 
 ## Common Issues
@@ -44,6 +47,7 @@
 ### PHPStan Errors
 - **Issue**: Method not found errors
 - **Solution**: Check namespace imports and method signatures
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +133,9 @@
 =======
 - **Prevention**: Always run PHPStan level 9+ before commits
 >>>>>>> 03ceeac3 (.)
+=======
+- **Prevention**: Always run PHPStan level 9+ before commits
+>>>>>>> 6e7c1905 (.)
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings
@@ -158,6 +165,7 @@
 - Review Laraxot framework guidelines
 - Consult best practices documentation
 - Use project memory system for context
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,3 +211,5 @@
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6e7c1905 (.)

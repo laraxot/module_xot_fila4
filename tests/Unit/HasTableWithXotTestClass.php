@@ -25,7 +25,9 @@ class HasTableWithXotTestClass
     public function getLayoutView(): mixed
     {
         $mock = Mockery::mock();
+        /* @phpstan-ignore-next-line method.notFound */
         $mock->shouldReceive('getTableColumns')->andReturn([]);
+        /* @phpstan-ignore-next-line method.notFound */
         $mock->shouldReceive('getTableContentGrid')->andReturn([]);
 
         return $mock;
@@ -39,6 +41,7 @@ class HasTableWithXotTestClass
 
     public function getTable(): Table
     {
+        /* @phpstan-ignore-next-line return.type */
         return Mockery::mock(Table::class);
     }
 

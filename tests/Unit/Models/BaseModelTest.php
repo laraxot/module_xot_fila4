@@ -140,6 +140,7 @@ namespace Modules\Xot\Tests\Unit\Models;
 uses(TestCase::class);
 
 beforeEach(function (): void {
+    /* @phpstan-ignore-next-line property.notFound */
     $this->baseModel = new class extends BaseModel
     {
 =======

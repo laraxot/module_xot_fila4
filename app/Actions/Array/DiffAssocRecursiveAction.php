@@ -166,7 +166,7 @@ class DiffAssocRecursiveAction
 >>>>>>> 60f0a1820 (.)
         $collection = collect($data)->map(static function ($item) {
             if (! is_array($item)) {
-                throw new Exception('['.__LINE__.']['.__CLASS__.']');
+                throw new Exception('['.__LINE__.']['.self::class.']');
             }
 
             return collect($item)->map(static function ($item0) {

@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ca989d8 (.)
 # PHPStan Fixes - Xot Module
@@ -48,7 +49,13 @@
 =======
 # PHPStan Fixes - Xot Module
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+# PHPStan Fixes - Xot Module
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.)
 
 ## Errori Risolti
 
@@ -454,6 +461,7 @@ protected $model = Cache::class;
 - [Best Practices](../docs/best-practices.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2062,4 +2070,11 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.)

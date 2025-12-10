@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -36,13 +37,19 @@
 =======
 =======
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.)
 # Approccio Sistematico PHPStan - Framework Laraxot
 
 **Creato**: 2025-09-10
 **Scopo**: Guida operativa per correggere sistematicamente TUTTI gli errori PHPStan
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,7 +104,13 @@
 =======
 **Principi**: DRY + KISS + Type Safety Level 9/10
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.)
 
 ## 🏗️ Architettura Fondamentale
 
@@ -241,6 +254,7 @@ $collection->get('key', 'default');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Zero errori PHPStan level 10+ su tutti i moduli
 =======
 >>>>>>> 62cc8443 (.)
@@ -285,7 +299,13 @@ $collection->get('key', 'default');
 =======
 - [ ] Zero errori PHPStan Level 9+ su tutti i moduli
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.)
 - [ ] Documentazione aggiornata per ogni modulo
 - [ ] Pattern comuni documentati e riutilizzabili
 - [ ] Framework robusto per sviluppi futuri
@@ -299,6 +319,7 @@ $collection->get('key', 'default');
 ---
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,6 +352,8 @@ $collection->get('key', 'default');
 *Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
 *Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
 *Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+>>>>>>> 7e4835b8e (.)
 *Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
 =======
 >>>>>>> 88e745db5 (.)
@@ -383,4 +406,10 @@ $collection->get('key', 'default');
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.)

@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -36,7 +37,12 @@
 =======
 =======
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> 88e745db5 (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.):docs/TESTING_BEST_PRACTICES.md
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -92,6 +98,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 =======
 >>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
@@ -131,7 +138,13 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> 88e745db5 (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.):docs/TESTING_BEST_PRACTICES.md
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -315,6 +328,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD:docs/testing-best-practices-conflict.md
 <<<<<<< HEAD:docs/testing-best-practices-conflict.md
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -332,6 +346,11 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7e4835b8e (.):docs/TESTING_BEST_PRACTICES.md
 **Last Update**: Dicembre 2024 
 =======
 <<<<<<< HEAD
@@ -390,4 +409,10 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> 5e6aa70fe (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.):docs/TESTING_BEST_PRACTICES.md

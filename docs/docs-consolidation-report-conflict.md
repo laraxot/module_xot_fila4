@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -37,7 +38,12 @@
 =======
 =======
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 >>>>>>> 88e745db5 (.):docs/DOCS_CONSOLIDATION_REPORT.md
+=======
+=======
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.):docs/DOCS_CONSOLIDATION_REPORT.md
 # Report Consolidamento Documentazione - 27 Gennaio 2025
 
 ## Panoramica
@@ -109,6 +115,7 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Verifica che tutti gli esempi di codice siano conformi PHPStan level 10
 =======
 >>>>>>> 62cc8443 (.):docs/DOCS_CONSOLIDATION_REPORT.md
@@ -153,7 +160,13 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 =======
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 >>>>>>> 88e745db5 (.):docs/DOCS_CONSOLIDATION_REPORT.md
+=======
+=======
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.):docs/DOCS_CONSOLIDATION_REPORT.md
    - Aggiornamento esempi non conformi
    - Test di funzionamento degli esempi
 
@@ -234,6 +247,7 @@ laravel/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Tutti gli esempi conformi PHPStan level 10
 =======
 >>>>>>> 62cc8443 (.):docs/DOCS_CONSOLIDATION_REPORT.md
@@ -278,7 +292,13 @@ laravel/
 =======
 - Tutti gli esempi conformi PHPStan Level 9
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 >>>>>>> 88e745db5 (.):docs/DOCS_CONSOLIDATION_REPORT.md
+=======
+=======
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.):docs/DOCS_CONSOLIDATION_REPORT.md
 - Type hints espliciti e documentazione PHPDoc
 - Namespace corretti senza segmento `app`
 
@@ -349,6 +369,7 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -395,4 +416,9 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 >>>>>>> 5e6aa70fe (.):docs/DOCS_CONSOLIDATION_REPORT.md
+=======
+=======
+>>>>>>> e7da37af (.)
+>>>>>>> 7e4835b8e (.):docs/DOCS_CONSOLIDATION_REPORT.md

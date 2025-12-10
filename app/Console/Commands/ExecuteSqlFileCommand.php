@@ -29,21 +29,9 @@ namespace Modules\Xot\Console\Commands;
 
 
 use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
-=======
-use Webmozart\Assert\Assert;
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\DB;
->>>>>>> f1d4085 (.)
-=======
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\DB;
-use Webmozart\Assert\Assert;
->>>>>>> 73eab74 (.)
 
 use function Safe\file_get_contents;
 use Exception;
@@ -172,8 +160,6 @@ class ExecuteSqlFileCommand extends Command
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
-<<<<<<< HEAD
-<<<<<<< HEAD
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
 <<<<<<< HEAD
@@ -278,6 +264,7 @@ class ExecuteSqlFileCommand extends Command
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,7 +389,12 @@ class ExecuteSqlFileCommand extends Command
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -442,11 +434,10 @@ class ExecuteSqlFileCommand extends Command
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,7 +598,12 @@ class ExecuteSqlFileCommand extends Command
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
             return Command::FAILURE;
         } finally {

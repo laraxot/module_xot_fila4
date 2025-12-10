@@ -29,9 +29,12 @@ namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
@@ -117,28 +120,20 @@ use Override;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 use Filament\Actions\BulkAction;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Override;
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Actions\ViewAction;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Filament\Actions\Action;
-use Filament\Actions\ActionGroup;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\LogResource;
@@ -160,15 +155,12 @@ class ListLogs extends XotBaseListRecords
 {
     protected static string $resource = LogResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     #[Override]
     public function getTableColumns(): array
     {
         return [
             'id' => TextColumn::make('id')->sortable()->label('ID'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -194,12 +186,15 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'message' => TextColumn::make('message')
                 ->searchable()
                 ->wrap()
                 ->label('Message'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -214,12 +209,15 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'level' => TextColumn::make('level')
                 ->searchable()
                 ->sortable()
                 ->label('Level'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -234,12 +232,15 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'level_name' => TextColumn::make('level_name')
                 ->searchable()
                 ->sortable()
                 ->label('Level Name'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -254,12 +255,15 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'context' => TextColumn::make('context')
                 ->searchable()
                 ->wrap()
                 ->label('Context'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -274,6 +278,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
@@ -281,10 +287,6 @@ class ListLogs extends XotBaseListRecords
         ];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     #[Override]
     public function getTableFilters(): array
     {
@@ -299,6 +301,7 @@ class ListLogs extends XotBaseListRecords
                 'info' => 'Info',
                 'debug' => 'Debug',
             ]),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -343,15 +346,16 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         ];
     }
 
     /**
      * @return array<string, Action|ActionGroup>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, Action|ActionGroup>
      */
@@ -372,6 +376,8 @@ class ListLogs extends XotBaseListRecords
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     public function getTableActions(): array
     {
         return [
@@ -381,11 +387,10 @@ class ListLogs extends XotBaseListRecords
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, BulkAction>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, BulkAction>
      */
@@ -412,6 +417,8 @@ class ListLogs extends XotBaseListRecords
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     public function getTableBulkActions(): array
     {
         return [

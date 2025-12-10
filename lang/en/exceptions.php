@@ -1,12 +1,11 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,14 +161,18 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 return [
     'backend' => [
         'takeaway' => [
             'newsletterSubscribe' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'messages' => [],
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'messages' => [],
                 'messages' => [],
@@ -188,6 +191,8 @@ return [
                 'messages' => [],
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             ],
             'category' => [
                 'create_error' => 'Create Error',

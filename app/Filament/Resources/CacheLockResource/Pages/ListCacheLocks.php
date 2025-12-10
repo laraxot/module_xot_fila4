@@ -31,7 +31,10 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -138,60 +141,46 @@ use Override;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
->>>>>>> 218dfed3 (.)
-use Override;
-use Filament\Tables\Columns\TextColumn;
-use Modules\Xot\Filament\Resources\CacheLockResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-use Filament\Tables\Columns\TextColumn;
-use Modules\Xot\Filament\Resources\CacheLockResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Override;
-use Filament\Tables\Columns\TextColumn;
-use Modules\Xot\Filament\Resources\CacheLockResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Override;
-
-use Filament\Tables\Columns\TextColumn;
-use Modules\Xot\Filament\Resources\CacheLockResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Override;
-
-use Filament\Tables\Columns\TextColumn;
-use Modules\Xot\Filament\Resources\CacheLockResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
-
-
-
-
 <<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
 =======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
+use Override;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Filament\Tables\Columns\TextColumn;
+use Modules\Xot\Filament\Resources\CacheLockResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Override;
+use Filament\Tables\Columns\TextColumn;
+use Modules\Xot\Filament\Resources\CacheLockResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Override;
 
+use Filament\Tables\Columns\TextColumn;
+use Modules\Xot\Filament\Resources\CacheLockResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Override;
 
-
-
+use Filament\Tables\Columns\TextColumn;
+use Modules\Xot\Filament\Resources\CacheLockResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
 
 
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 class ListCacheLocks extends XotBaseListRecords
 {
     protected static string $resource = CacheLockResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
     #[Override]
@@ -206,6 +195,8 @@ class ListCacheLocks extends XotBaseListRecords
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     public function getTableColumns(): array
     {
         return [
@@ -217,9 +208,8 @@ class ListCacheLocks extends XotBaseListRecords
                 ->searchable()
                 ->sortable()
                 ->wrap(),
-<<<<<<< HEAD
-<<<<<<< HEAD
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
@@ -240,6 +230,8 @@ class ListCacheLocks extends XotBaseListRecords
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         ];
     }
 }

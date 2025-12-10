@@ -63,9 +63,8 @@ class PulseValueFactory extends Factory
      */
     public function definition(): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return [];
+<<<<<<< HEAD
 <<<<<<< HEAD
         return [];
         return [];
@@ -84,5 +83,7 @@ class PulseValueFactory extends Factory
         return [];
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     }
 }

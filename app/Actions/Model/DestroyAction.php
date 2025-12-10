@@ -12,9 +12,8 @@ class DestroyAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(Model $model, array $_data, array $_rules): Model
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(Model $model, array $data, array $rules): Model
 =======
@@ -28,6 +27,8 @@ class DestroyAction
     public function execute(Model $model, array $_data, array $_rules): Model
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     {
         // prende la chiave del modello
 

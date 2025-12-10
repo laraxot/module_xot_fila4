@@ -15,10 +15,6 @@ use Spipu\Html2Pdf\Exception\Html2PdfException;
 use Spipu\Html2Pdf\Html2Pdf;
 
 /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
  * ExceptionFormatter
  * HtmlParsingException
  * ImageException
@@ -26,6 +22,7 @@ use Spipu\Html2Pdf\Html2Pdf;
  * LongSentenceException
  * TableException
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -46,22 +43,21 @@ TableException
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 /**
  * Class HtmlService.
  */
 class HtmlService
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public static function toPdf(
         string $html,
         string $out = 'show',
         string $pdforientation = 'L',
         string $filename = '',
     ): string {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public static function toPdf(string $html, string $out = 'show', string $pdforientation = 'L', string $filename = ''): string
@@ -79,6 +75,8 @@ class HtmlService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         // dddx($params);
 
         // include_once __DIR__.'/vendor/autoload.php';
@@ -101,15 +99,12 @@ class HtmlService
             $filename = Storage::disk('local')->path('test.pdf');
         }
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
          * extract($params);
          * if (! isset($html)) {
          * throw new \Exception('err html is missing');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -128,6 +123,8 @@ class HtmlService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         if (request('debug', false)) {
             return $html;
         }
@@ -142,15 +139,7 @@ class HtmlService
 
             if ($out === 'file') {
             if ('content_PDF' === $out) {
-<<<<<<< HEAD
-<<<<<<< HEAD
                 return $html2pdf->Output($filename . '.pdf', 'S');
-=======
-                return $html2pdf->Output($filename.'.pdf', 'S');
->>>>>>> f1d4085 (.)
-=======
-                return $html2pdf->Output($filename . '.pdf', 'S');
->>>>>>> 73eab74 (.)
             }
 
             if ('file' === $out) {
@@ -186,10 +175,6 @@ class HtmlService
     }
 
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      * public static function toMpdf($html): string {
      * require_once __DIR__.'/vendor/autoload.php';
      *
@@ -199,6 +184,7 @@ class HtmlService
      * return $mpdf->Output();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -221,4 +207,6 @@ class HtmlService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 }

@@ -15,13 +15,6 @@ class GenerateModelByModelClass
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    /** @var array<string, mixed> */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     public array $replaces = [];
 
     /**
@@ -91,7 +84,10 @@ class GenerateModelByModelClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> a67e542f (.)
      * @param  string  $model_class  the class name of the model
 =======
 >>>>>>> 218dfed3 (.)
@@ -301,7 +297,15 @@ class GenerateModelByModelClass
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
      */
     public function execute(string $model_class): string
     {
@@ -334,6 +338,7 @@ class GenerateModelByModelClass
                 $content = $this->{'replace'.$k}($v, $content);
                 Assert::string($content, 'Content must remain string after replace');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,7 +430,12 @@ class GenerateModelByModelClass
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             if (method_exists($this, 'replace' . $k)) {
                 $content = $this->{'replace' . $k}($v, $content);
             if (method_exists($this, 'replace'.$k)) {
@@ -464,6 +474,7 @@ class GenerateModelByModelClass
                 $content = $this->{'replace'.$k}($v, $content);
                 Assert::string($content, 'Content must be string after replace method');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -650,7 +661,12 @@ class GenerateModelByModelClass
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
         if ($content !== $content_old) {
             File::put($filename, $content);
@@ -662,10 +678,6 @@ class GenerateModelByModelClass
     public function replaceDummyTable(string $value, string $content): string
     {
         $table_start = mb_strpos($content, 'protected $table');
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         Assert::integer(
             $fillable_start = mb_strpos($content, 'protected $fillable'),
         $fillable_end = mb_strpos($content, '];', $fillable_start);
@@ -700,6 +712,7 @@ class GenerateModelByModelClass
             $content = $before . PHP_EOL . '    protected $table = "' . $value . '";' . PHP_EOL . $after;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,7 +854,12 @@ class GenerateModelByModelClass
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         }
 
         return $content;
@@ -914,7 +932,10 @@ class GenerateModelByModelClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> a67e542f (.)
      * @param  string  $model_class  The class name of the model to create the factory for
 =======
 >>>>>>> 218dfed3 (.)
@@ -1124,7 +1145,15 @@ class GenerateModelByModelClass
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
      */
     public function generate(string $model_class): void
     {
@@ -1133,10 +1162,6 @@ class GenerateModelByModelClass
         $artisan_cmd = 'module:make-model';
         $artisan_params = ['model' => $model_name, 'module' => $module_name];
         $res = Artisan::call($artisan_cmd, $artisan_params);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
         /*
          * $output=Artisan::output();
@@ -1154,6 +1179,7 @@ class GenerateModelByModelClass
          */
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -1206,6 +1232,8 @@ class GenerateModelByModelClass
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     public function setCustomReplaces(array $replaces): self
     {
         $this->replaces = array_merge($this->replaces, $replaces);

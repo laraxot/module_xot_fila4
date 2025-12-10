@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 
@@ -48,29 +44,10 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
-<<<<<<< HEAD
-=======
-return [
-    /*
-    |--------------------------------------------------------------------------
-    | MCP Servers Configuration
-    |--------------------------------------------------------------------------
-    |
-    | Configurazione dei server MCP disponibili nel sistema.
-    | Ogni server ha un comando e argomenti specifici.
-    |
-    */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -99,6 +76,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         ],
@@ -170,6 +148,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
     'contexts' => [
         'User' => [
@@ -177,10 +157,6 @@ return [
             'traits' => [
                 'HasFactory',
                 'Notifiable',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -189,6 +165,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             ],
@@ -221,14 +198,15 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         ],
         'Doctor' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'HasParent',
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'HasParent',
                 'HasParent',
@@ -245,14 +223,15 @@ return [
                 'HasParent',
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'medical_license',
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'specialization',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'specialization',
             ],
@@ -275,14 +254,15 @@ return [
             ],
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         ],
         'Patient' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'HasParent',
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'HasParent',
                 'HasParent',
@@ -299,14 +279,12 @@ return [
                 'HasParent',
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
                 'medical_history',
             ],
         ],
@@ -319,6 +297,7 @@ return [
      * | Regole di validazione per i contesti dei modelli.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     ],
@@ -356,14 +335,15 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
-<<<<<<< HEAD
-<<<<<<< HEAD
         'throw_exceptions' => false,
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
         'throw_exceptions' => false,
     ],
@@ -386,4 +366,6 @@ return [
     ],
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 ];

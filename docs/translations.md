@@ -69,10 +69,9 @@ Modules/<NomeModulo>/
 
 ## Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
@@ -191,6 +190,8 @@ Modules/<NomeModulo>/
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 ## Struttura
 
@@ -489,10 +490,6 @@ Action::make('delete')
 - Test di performance 
 
 ## Collegamenti tra versioni di translations.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -510,6 +507,7 @@ Action::make('delete')
 * [translations.md](../../../Activity/docs/translations.md)
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -540,6 +538,8 @@ Action::make('delete')
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 
 ### Versione Incoming

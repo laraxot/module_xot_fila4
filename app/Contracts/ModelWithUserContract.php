@@ -128,6 +128,7 @@ interface ModelWithUserContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -141,6 +142,8 @@ interface ModelWithUserContract
 interface ModelWithUserContract {}
 interface ModelWithUserContract {}
 <<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
 interface ModelWithUserContract {}
 interface ModelWithUserContract {}
 interface ModelWithUserContract
@@ -313,4 +316,12 @@ interface ModelWithUserContract {}
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+interface ModelWithUserContract
+{
+}
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)

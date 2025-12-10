@@ -48,6 +48,7 @@ class TableExistsByModelClassActions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -57,6 +58,8 @@ class TableExistsByModelClassActions
         if (! class_exists($modelClass)) {
         if (! class_exists($modelClass)) {
 <<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
         if (! class_exists($modelClass)) {
         if (! class_exists($modelClass)) {
 =======
@@ -161,21 +164,24 @@ class TableExistsByModelClassActions
         if (!class_exists($modelClass)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             return false;
         }
 
         Assert::isInstanceOf($model = app($modelClass), EloquentModel::class);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         // Controlla se il modello utilizza Sushi
         if (in_array('Sushi\Sushi', class_uses_recursive($modelClass), strict: true) || method_exists($model, 'sushiRows')) {
             return true; // I modelli Sushi sono considerati come se avessero sempre una tabella
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -199,6 +205,8 @@ class TableExistsByModelClassActions
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         $tableName = $model->getTable();
 
         return Schema::connection($model->getConnectionName())->hasTable($tableName);

@@ -20,6 +20,7 @@ use Webmozart\Assert\InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -68,13 +69,16 @@ use Webmozart\Assert\InvalidArgumentException;
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> f1d4085 (.)
 =======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> 3310e9c6 (.)
 use Filament\Notifications\Notification as FilamentNotification;
->>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Str;
@@ -100,6 +104,7 @@ use Webmozart\Assert\InvalidArgumentException;
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,35 +201,24 @@ use Webmozart\Assert\InvalidArgumentException;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
->>>>>>> 218dfed3 (.)
-
-abstract class XotBaseTransition extends Transition
-{
-    public function __construct(
-        public Model $record,
-        public null|string $message = '',
-        public null|string $message = '',
-        public null|string $message = '',
-        public null|string $message = '',
-        public null|string $message = '',
-        public null|string $message = '',
-    ) {}
-use Filament\Notifications\Notification as FilamentNotification;
-
-abstract class XotBaseTransition extends Transition
-{
-    public function __construct(public Model $record, public ?string $message = '')
-    {
-    }
-
-abstract class XotBaseTransition extends Transition
-{
-    public function __construct(
-        public Model $record,
-        public null|string $message = '',
-    ) {}
 <<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
 =======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
+
+abstract class XotBaseTransition extends Transition
+{
+    public function __construct(
+        public Model $record,
+        public null|string $message = '',
+        public null|string $message = '',
+        public null|string $message = '',
+        public null|string $message = '',
+        public null|string $message = '',
+        public null|string $message = '',
+    ) {}
 use Filament\Notifications\Notification as FilamentNotification;
 
 abstract class XotBaseTransition extends Transition
@@ -232,9 +226,13 @@ abstract class XotBaseTransition extends Transition
     public function __construct(public Model $record, public ?string $message = '')
     {
     }
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
+
+abstract class XotBaseTransition extends Transition
+{
+    public function __construct(
+        public Model $record,
+        public null|string $message = '',
+    ) {}
 
     public function handle(): Model
     {
@@ -279,6 +277,7 @@ abstract class XotBaseTransition extends Transition
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -288,6 +287,8 @@ abstract class XotBaseTransition extends Transition
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 <<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 =======
@@ -392,7 +393,13 @@ abstract class XotBaseTransition extends Transition
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
         /* @phpstan-ignore-next-line */
         $this->record->state = new $newStateClass($this->record);
@@ -406,9 +413,8 @@ abstract class XotBaseTransition extends Transition
         $data = $this->getNotificationData();
         $recipients = $this->getNotificationRecipients();
         foreach ($recipients as $recipient) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $this->sendRecipientNotification($recipient, $data);
+<<<<<<< HEAD
 <<<<<<< HEAD
             
             $this->sendRecipientNotification($recipient,$data);
@@ -426,6 +432,8 @@ abstract class XotBaseTransition extends Transition
             $this->sendRecipientNotification($recipient, $data);
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         }
     }
 
@@ -468,16 +476,13 @@ abstract class XotBaseTransition extends Transition
             $type.
             '-'.
         $type = $recipient->type->value;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         $slug =
             class_basename($this->record) .
             '-' .
             $type .
             '-' .
             Str::of(class_basename(static::class))->kebab()->toString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $slug = class_basename($this->record).'-'.$type.'-'.Str::of(class_basename(static::class))->kebab()->toString();
@@ -493,6 +498,8 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         $slug = Str::slug($slug);
 
         return $slug;
@@ -500,6 +507,7 @@ abstract class XotBaseTransition extends Transition
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,7 +605,12 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     public function sendRecipientNotification(RecordNotificationData $recipient, array $data): void
     {
         $slug = $this->getNotificationSlug($recipient->record);
@@ -624,21 +637,6 @@ abstract class XotBaseTransition extends Transition
             $slug
         );
         $notify = new RecordNotification($this->record, $slug);
-<<<<<<< HEAD
-=======
-    public function sendRecipientNotification(RecordNotificationData $recipient,array $data): void
-    {
-       
-
-        $slug = $this->getNotificationSlug($recipient->record);
-
-        $notify = new RecordNotification(
-            $this->record,
-            $slug
-        );
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
         //$data = $this->getNotificationData();
         $notify = $notify->mergeData($data);
@@ -652,6 +650,7 @@ abstract class XotBaseTransition extends Transition
         $notify = $notify->mergeData($data);
         $notify = $notify->addAttachments($this->getNotificationAttachments());
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -744,7 +743,12 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
@@ -780,6 +784,7 @@ abstract class XotBaseTransition extends Transition
 <<<<<<< HEAD
 =======
             $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 =======
@@ -960,12 +965,18 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             FilamentNotification::make()
                 ->title('Error')
                 ->danger()
                 ->body($message)
                 ->send();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             
@@ -982,6 +993,8 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         }
     }
 

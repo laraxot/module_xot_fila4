@@ -20,9 +20,8 @@ class GetModelFieldsByModelAction
      */
     public function execute(Model $model): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $model->getConnection()
             ->getSchemaBuilder()
@@ -40,5 +39,7 @@ class GetModelFieldsByModelAction
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     }
 }

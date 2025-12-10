@@ -40,6 +40,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -90,16 +91,14 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 use Spatie\QueueableAction\QueueableAction;
 =======
-use Nwidart\Modules\Module as ModuleInstance;
-use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
->>>>>>> f1d4085 (.)
+>>>>>>> a67e542f (.)
 =======
+>>>>>>> 3310e9c6 (.)
 use Spatie\QueueableAction\QueueableAction;
->>>>>>> 73eab74 (.)
 
 class GetAllModelsAction
 {
@@ -140,9 +139,12 @@ class GetAllModelsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      *
      * @return array<int, class-string>
      */
@@ -238,7 +240,12 @@ class GetAllModelsAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
      */
     public function execute(): array
     {
@@ -298,33 +305,6 @@ class GetAllModelsAction
             $res = array_merge($res, $tmp);
             $res = array_merge($res, $tmp);
             $res = array_merge($res, $tmp);
-<<<<<<< HEAD
-=======
-     *
-     * @return array<string, string> Array associativo con snake_case come chiave e FQCN come valore
-     */
-    public function execute(): array
-    {
-        /** @var array<string, string> $res */
-        $res = [];
-        $modules = Module::all();
-        foreach ($modules as $module) {
-            Assert::isInstanceOf($module, ModuleInstance::class, 'Module must be instance of ModuleInstance');
-            $moduleName = $module->getName();
-            Assert::string($moduleName, 'Module name must be a string');
-
-            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
-            Assert::isArray($tmp, 'GetAllModelsByModuleNameAction must return array');
-
-            // Type-safe merge per mantenere array<string, string>
-            foreach ($tmp as $key => $value) {
-                Assert::string($key, 'Key must be string');
-                Assert::string($value, 'Value must be string');
-                $res[$key] = $value;
-            }
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         }
 
         return $res;

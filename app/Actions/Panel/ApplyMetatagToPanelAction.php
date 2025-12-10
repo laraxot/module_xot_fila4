@@ -28,9 +28,34 @@ class ApplyMetatagToPanelAction
             $metatag = MetatagData::make();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             
             
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a67e542f (.)
 
 =======
 <<<<<<< HEAD
@@ -128,7 +153,12 @@ class ApplyMetatagToPanelAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             return $panel
                 // @phpstan-ignore argument.type
                 ->colors($metatag->getColors())

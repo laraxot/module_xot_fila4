@@ -1023,10 +1023,9 @@ tests_old
 
 ## Collegamenti alla documentazione generale
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/project_docs/phpstan/)
@@ -1145,6 +1144,8 @@ tests_old
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 
 ### Versione Incoming
@@ -1152,10 +1153,6 @@ tests_old
    - Utilizzare i namespace appropriati che riflettono la struttura delle directory 
 
 ## Collegamenti tra versioni di structure.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1172,6 +1169,7 @@ tests_old
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1201,6 +1199,8 @@ tests_old
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 
 ---

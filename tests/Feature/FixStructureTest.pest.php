@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 use Illuminate\Support\Facades\File;
@@ -24,7 +20,6 @@ declare(strict_types=1);
 use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
-
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 use Illuminate\Support\Facades\File;
@@ -35,16 +30,6 @@ use Modules\Xot\Tests\TestCase;
 
 
 
-<<<<<<< HEAD
-=======
-use Modules\Xot\Tests\TestCase;
-use function Pest\Laravel\{artisan, assertDatabaseHas};
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Storage;
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 uses(TestCase::class);
 
     $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
@@ -154,6 +139,7 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -201,8 +187,11 @@ beforeEach(function () {
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
     mkdir($this->testDir, 0o755, true);
 
+<<<<<<< HEAD
 =======
     mkdir($this->testDir, 0755, true);
     
@@ -215,6 +204,8 @@ beforeEach(function () {
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     // Set the working directory
     chdir($this->testDir);
 });
@@ -230,10 +221,6 @@ afterEach(function () {
 });
 
 // Recursive function to remove a directory and its contents
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
@@ -249,6 +236,7 @@ function rrmdir($dir)
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,7 +446,12 @@ function rrmdir($dir) {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
                 }
             }
         }
@@ -469,9 +462,8 @@ function rrmdir($dir) {
     // Run the command
 test('creates necessary directories and files', function () {
     // Run the command
-<<<<<<< HEAD
-<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
     $this->artisan('xot:fix-structure')
@@ -520,6 +512,8 @@ test('creates necessary directories and files', function () {
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
     // Check if directories were created
     $directories = [
@@ -591,9 +585,8 @@ test('does not overwrite existing files', function () {
     file_put_contents($testFile, $testContent);
 
     // Run the command
-<<<<<<< HEAD
-<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+<<<<<<< HEAD
 <<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
     $this->artisan('xot:fix-structure')
@@ -651,6 +644,8 @@ test('does not overwrite existing files', function () {
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
@@ -664,6 +659,7 @@ test('handles errors gracefully', function () {
     $nonWritableDir = $this->testDir . '/app';
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -727,7 +723,12 @@ test('handles errors gracefully', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -737,6 +738,7 @@ test('handles errors gracefully', function () {
     chmod($nonWritableDir, 0o755);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -962,3 +964,10 @@ test('handles errors gracefully', function () {
 });
 });
 });
+<<<<<<< HEAD
+=======
+>>>>>>> 5842a556 (.)
+=======
+});
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)

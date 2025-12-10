@@ -37,11 +37,10 @@ final class GetFieldnamesByTablenameAction
      *
      * @return list
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(string $table, null|string $connectionName = null): array
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,7 +163,12 @@ final class GetFieldnamesByTablenameAction
     public function execute(string $table, null|string $connectionName = null): array
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -172,10 +176,6 @@ final class GetFieldnamesByTablenameAction
         }
 
         // Use default connection if none is provided
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         Assert::string($connectionName ??= config('database.default'));
 
         // Validate database connection
@@ -198,6 +198,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $connectionName,
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -254,6 +255,8 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         }
 
         // Get and return column listing
@@ -263,10 +266,6 @@ final class GetFieldnamesByTablenameAction
             // $columns = array_map('strval', $columns);
 
             return $columns;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (Throwable $e) {
@@ -275,6 +274,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $e->getMessage(),
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -302,6 +302,8 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         }
     }
 

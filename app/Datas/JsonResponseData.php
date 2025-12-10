@@ -52,6 +52,7 @@ class JsonResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -61,6 +62,8 @@ class JsonResponseData extends Data
     public ?int $code = null;
     public ?int $code = null;
 <<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
     public ?int $code = null;
     public ?int $code = null;
 =======
@@ -165,22 +168,25 @@ class JsonResponseData extends Data
     public null|int $code = null;
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+    public null|int $code = null;
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
     public array $data = [];
 
     public int $status = 200;
 
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      * public function toResponse($request)
      * {
      *
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -199,6 +205,8 @@ class JsonResponseData extends Data
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     public function response(): JsonResponse
     {
         $data = [

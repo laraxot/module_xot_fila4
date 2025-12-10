@@ -8,9 +8,8 @@ return [
             'buttons' => [
                 'refresh' => 'Làm mới',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
             'heading' => 'Tình trạng ứng dụng',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'heading' => 'Tình trạng ứng dụng',
             'heading' => 'Tình trạng ứng dụng',
@@ -31,12 +30,15 @@ return [
             'heading' => 'Tình trạng ứng dụng',
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'navigation' => [
                 'group' => 'Cài đặt',
                 'label' => 'Tình trạng ứng dụng',
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -51,6 +53,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'notifications' => [
                 'check_results' => 'Kết quả được kiểm tra từ',
             ],

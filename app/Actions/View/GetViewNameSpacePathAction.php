@@ -20,11 +20,10 @@ use Spatie\QueueableAction\QueueableAction;
 use Illuminate\Support\Arr;
 use Illuminate\View\FileViewFinder;
 use Modules\Xot\Datas\XotData;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,7 +243,12 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
 class GetViewNameSpacePathAction
 {
@@ -270,10 +274,14 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a67e542f (.)
     public function execute(?string $module_name = null): string
     {
         if ($module_name !== null && $module_name !== '') {
@@ -316,6 +324,7 @@ class GetViewNameSpacePathAction
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
     public function execute(null|string $module_name = null): string
 =======
     public function execute(?string $module_name = null): string
@@ -324,18 +333,23 @@ class GetViewNameSpacePathAction
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> 3310e9c6 (.)
     public function execute(null|string $module_name = null): string
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     {
         if (null !== $module_name && '' !== $module_name) {
             $module_path = Module::getModulePath($module_name);
             /** @var non-falsy-string $namespace_path */
-<<<<<<< HEAD
-<<<<<<< HEAD
             $namespace_path = $module_path . 'resources/views';
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,7 +487,12 @@ class GetViewNameSpacePathAction
             $namespace_path = $module_path . 'resources/views';
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         } else {
             /** @var non-falsy-string $namespace_path */
             $namespace_path = resource_path('views');

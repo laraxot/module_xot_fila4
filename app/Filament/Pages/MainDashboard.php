@@ -6,14 +6,7 @@ namespace Modules\Xot\Filament\Pages;
 
 use Filament\Panel;
 use Filament\Facades\Filament;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Panel;
-=======
->>>>>>> f1d4085 (.)
-=======
-use Filament\Panel;
->>>>>>> 73eab74 (.)
 use Filament\Pages\Dashboard;
 use Filament\Facades\Filament;
 use Filament\Panel;
@@ -69,6 +62,7 @@ class MainDashboard extends XotBaseDashboard
 
     protected static ?int $navigationSort = 1;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,7 +181,12 @@ class MainDashboard extends XotBaseDashboard
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     protected static null|string $title = 'Main Dashboard';
 
     protected static null|int $navigationSort = 1;
@@ -287,6 +286,7 @@ class MainDashboard extends XotBaseDashboard
     public function getColumns(): int|array
     {
         return 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -390,5 +390,7 @@ class MainDashboard extends XotBaseDashboard
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     }
 }

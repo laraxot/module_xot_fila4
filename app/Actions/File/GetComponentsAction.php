@@ -41,6 +41,7 @@ use function Safe\json_decode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -177,11 +178,17 @@ use function Safe\json_decode;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -191,14 +198,10 @@ use Webmozart\Assert\Assert;
 =======
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 use function Safe\json_decode;
 
-=======
->>>>>>> f1d4085 (.)
-=======
-use function Safe\json_decode;
-
->>>>>>> 73eab74 (.)
 class GetComponentsAction
 {
     use QueueableAction;
@@ -208,10 +211,6 @@ class GetComponentsAction
      *
      * @return DataCollection<ComponentFileData>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function execute(
         string $path,
         string $namespace,
@@ -224,6 +223,7 @@ class GetComponentsAction
 <<<<<<< HEAD
         $components_json = $path . '/_components.json';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,7 +399,12 @@ class GetComponentsAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         $components_json = app(FixPathAction::class)->execute($components_json);
 
         $path = app(FixPathAction::class)->execute($path);
@@ -412,6 +417,7 @@ class GetComponentsAction
         if (!File::exists($path)) {
         if (!File::exists($path)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -478,13 +484,19 @@ class GetComponentsAction
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         if (!File::exists($path)) {
         if (!File::exists($path)) {
         if (!File::exists($path)) {
         if (!File::exists($path)) {
             if (Str::startsWith($path, base_path('Modules'))) {
                 File::makeDirectory($path, 0o755, true, true);
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!File::exists($path)) {
             if (Str::startsWith($path, base_path('Modules'))) {
@@ -507,14 +519,12 @@ class GetComponentsAction
                 File::makeDirectory($path, 0o755, true, true);
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             }
         }
 
         $exists = File::exists($components_json);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
         if ($exists && ! $force_recreate) {
             Assert::string(
@@ -538,28 +548,15 @@ class GetComponentsAction
             if (! is_array($comps)) {
             $comps = json_decode($content, false);
             if (!is_array($comps)) {
-<<<<<<< HEAD
-=======
-        
-        if ($exists && ! $force_recreate) {
-            Assert::string($content = File::get($components_json), '['.__LINE__.']['.class_basename(static::class).']');
-            $comps = json_decode($content, false);
-            if (! is_array($comps)) {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
                 $comps = [];
             }
             return ComponentFileData::collection($comps);
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
         $files = File::allFiles($path);
         $comps = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -582,6 +579,8 @@ class GetComponentsAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         foreach ($files as $file) {
             if ('php' !== $file->getExtension()) {
             if ('php' !== $file->getExtension()) {
@@ -593,10 +592,6 @@ class GetComponentsAction
 
             $class_name = $file->getFilenameWithoutExtension();
             $relative_path = $file->getRelativePath();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
             Assert::string(
                 $relative_path = Str::replace('/', '\\', $relative_path),
                 '['.__LINE__.']['.class_basename(static::class).']',
@@ -623,6 +618,7 @@ class GetComponentsAction
             );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::string($relative_path = Str::replace('/', '\\', $relative_path), '['.__LINE__.']['.class_basename(static::class).']');
 =======
 =======
@@ -636,6 +632,8 @@ class GetComponentsAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
             $comp_name = Str::slug(Str::snake(Str::replace('\\', ' ', $class_name)));
             $comp_name = $prefix . $comp_name;
@@ -644,11 +642,10 @@ class GetComponentsAction
             if ('' !== $relative_path) {
                 $comp_name = '';
                 $piece = collect(explode('\\', $relative_path))
-<<<<<<< HEAD
-<<<<<<< HEAD
                     ->map(fn($item) => Str::slug(Str::snake($item)))
                     ->implode('.');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                     ->map(fn ($item) => Str::slug(Str::snake($item)))
                     ->implode('.');
@@ -668,6 +665,8 @@ class GetComponentsAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
                 $comp_name = $prefix . $piece . '.' . Str::slug(Str::snake(Str::replace('\\', ' ', $class_name)));
                 $comp_ns = $namespace . '\\' . $relative_path . '\\' . $class_name;
                 $class_name = $relative_path . '\\' . $class_name;
@@ -677,9 +676,8 @@ class GetComponentsAction
                 if (!class_exists($comp_ns)) {
                     throw new Exception("La classe {$comp_ns} non esiste");
                 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -693,14 +691,15 @@ class GetComponentsAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
                 /** @var class-string<object> $comp_ns */
                 $reflection = new ReflectionClass($comp_ns);
                 if ($reflection->isAbstract()) {
                     continue;
                 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                     throw new \Exception("La classe {$comp_ns} non esiste");
                 }
@@ -722,15 +721,13 @@ class GetComponentsAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
                 $comps[] = ComponentFileData::from([
                     'name' => $comp_name,
                     'class' => $class_name,
                     'ns' => $comp_ns,
                 ])->toArray();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
             } catch (Exception $e) {
                 /*
                  * dddx([
@@ -743,6 +740,7 @@ class GetComponentsAction
                  * 'message' => $e->getMessage(),
                  * ]);
                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -784,6 +782,8 @@ class GetComponentsAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
                 throw $e;
             }
         }

@@ -47,15 +47,7 @@ use Illuminate\Support\Str;
  * Helper per la gestione dei percorsi nel progetto SaluteOra.
  */
 /**
-<<<<<<< HEAD
-<<<<<<< HEAD
  * Helper per la gestione dei percorsi nel progetto SaluteOra.
-=======
- * Helper per la gestione dei percorsi nel progetto TechPlanner.
->>>>>>> f1d4085 (.)
-=======
- * Helper per la gestione dei percorsi nel progetto SaluteOra.
->>>>>>> 73eab74 (.)
  */
 /**
  * Helper per la gestione dei percorsi nel progetto SaluteOra.
@@ -67,10 +59,6 @@ class PathHelper
 {
     /**
      * Percorso base del progetto.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      */
      */
     public static string $projectBasePath = '/var/www/html/<nome progetto>';
@@ -155,6 +143,7 @@ class PathHelper
     public static string $modulesBasePath = '/var/www/html/<directory progetto>/laravel/Modules';
     public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,14 +410,18 @@ class PathHelper
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
     /**
      * Ottiene il percorso completo di un modulo.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -445,6 +438,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso completo del modulo
      */
     public static function modulePath(string $moduleName): string
@@ -466,9 +461,8 @@ class PathHelper
     /**
      * Ottiene il percorso dei modelli di un modulo.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -485,6 +479,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso dei modelli
      */
     public static function modelsPath(string $moduleName): string
@@ -506,9 +502,8 @@ class PathHelper
     /**
      * Ottiene il percorso delle migrazioni di un modulo.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -525,6 +520,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso delle migrazioni
      */
     public static function migrationsPath(string $moduleName): string
@@ -546,9 +543,8 @@ class PathHelper
     /**
      * Ottiene il percorso dei seeder di un modulo.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -565,6 +561,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso dei seeder
      */
     public static function seedersPath(string $moduleName): string
@@ -586,9 +584,8 @@ class PathHelper
     /**
      * Ottiene il percorso dei controller di un modulo.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -605,6 +602,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso dei controller
      */
     public static function controllersPath(string $moduleName): string
@@ -626,9 +625,8 @@ class PathHelper
     /**
      * Ottiene il percorso delle risorse Filament di un modulo.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -645,6 +643,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso delle risorse Filament
      */
     public static function filamentResourcesPath(string $moduleName): string
@@ -666,9 +666,8 @@ class PathHelper
     /**
      * Ottiene il percorso dei provider di un modulo.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -685,6 +684,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso dei provider
      */
     public static function providersPath(string $moduleName): string
@@ -706,9 +707,8 @@ class PathHelper
     /**
      * Ottiene il percorso delle viste di un modulo.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -725,6 +725,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso delle viste
      */
     public static function viewsPath(string $moduleName): string
@@ -746,9 +748,8 @@ class PathHelper
     /**
      * Verifica se un percorso è corretto secondo le convenzioni del progetto.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $path  Percorso da verificare
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $path  Percorso da verificare
      * @param  string  $path  Percorso da verificare
@@ -765,6 +766,8 @@ class PathHelper
      * @param  string  $path  Percorso da verificare
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return bool True se il percorso è corretto, false altrimenti
      */
     public static function isValidPath(string $path): bool
@@ -780,6 +783,7 @@ class PathHelper
         // Verifica che il percorso contenga /laravel/ dopo /<directory progetto>/
         if (Str::contains($path, '/<directory progetto>/') && ! Str::contains($path, '/<directory progetto>/laravel/')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -876,7 +880,12 @@ class PathHelper
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         if (Str::contains($path, '/saluteora/Modules/')) {
             return false;
         }
@@ -939,6 +948,7 @@ class PathHelper
         if (Str::contains($path, '/saluteora/') && ! Str::contains($path, '/saluteora/laravel/')) {
         if (Str::contains($path, '/saluteora/') && ! Str::contains($path, '/saluteora/laravel/')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1099,7 +1109,12 @@ class PathHelper
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             return false;
         }
 
@@ -1109,9 +1124,8 @@ class PathHelper
     /**
      * Corregge un percorso errato secondo le convenzioni del progetto.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $path  Percorso da correggere
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $path  Percorso da correggere
      * @param  string  $path  Percorso da correggere
@@ -1128,6 +1142,8 @@ class PathHelper
      * @param  string  $path  Percorso da correggere
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return string Percorso corretto
      */
     public static function correctPath(string $path): string
@@ -1235,6 +1251,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Corregge /var/www/html/Modules/ in /var/www/html/<nome progetto>/laravel/Modules/
         if (Str::contains($path, '/var/www/html/Modules/')) {
             $path = Str::replace('/var/www/html/Modules/', self::$modulesBasePath.'/', $path);
@@ -1310,7 +1327,12 @@ class PathHelper
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         // Corregge /var/www/html/saluteora/Modules/ in /var/www/html/saluteora/laravel/Modules/
         if (Str::contains($path, '/saluteora/Modules/')) {
             return str_replace('/saluteora/Modules/', '/saluteora/laravel/Modules/', $path);
@@ -1349,6 +1371,7 @@ class PathHelper
         if (Str::contains($path, '/base_techplanner_fila3_mono/Modules/')) {
             return str_replace('/base_techplanner_fila3_mono/Modules/', '/base_techplanner_fila3_mono/laravel/Modules/', $path);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1530,7 +1553,12 @@ class PathHelper
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         }
 
         return $path;
@@ -1544,10 +1572,6 @@ class PathHelper
     public static function getModules(): array
     {
         $modulesPath = self::$modulesBasePath;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
 
         if (! File::exists($modulesPath)) {
@@ -1566,6 +1590,7 @@ class PathHelper
         return array_map(basename(...), $directories);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!File::exists($modulesPath)) {
             return [];
         }
@@ -1599,14 +1624,15 @@ class PathHelper
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     }
 
     /**
      * Verifica se un modulo esiste.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
      * @param  string  $moduleName  Nome del modulo
@@ -1623,6 +1649,8 @@ class PathHelper
      * @param  string  $moduleName  Nome del modulo
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      * @return bool True se il modulo esiste, false altrimenti
      */
     public static function moduleExists(string $moduleName): bool

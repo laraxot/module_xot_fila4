@@ -38,9 +38,12 @@ class CopyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         if (! File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -121,7 +124,12 @@ class CopyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         if (!File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -131,6 +139,7 @@ class CopyAction
                     $e->getMessage(),
                     '\n[' . __LINE__ . '][' . class_basename(static::class) . ']',
                 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             try {
@@ -162,6 +171,8 @@ class CopyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             }
         }
 
@@ -181,12 +192,15 @@ class CopyAction
         } catch (Exception $exception) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             throw new Exception(
                 'Unable to copy
                     from ['.
@@ -211,6 +225,7 @@ class CopyAction
             );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (\Exception $exception) {
             throw new \Exception('Unable to copy
                     from ['.$from.']
@@ -231,6 +246,8 @@ class CopyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         }
     }
 }

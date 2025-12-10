@@ -18,10 +18,6 @@ use SlevomatCodingStandard\Sniffs\TypeHints\ReturnTypeHintSniff;
 
 return [
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      * |--------------------------------------------------------------------------
      * | Default Preset
      * |--------------------------------------------------------------------------
@@ -64,6 +60,7 @@ return [
      * | mind, that all added `Insights` must belong to a specific `Metric`.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -152,10 +149,13 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
     'exclude' => [
         //  'path/to/directory-or-file'
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -172,6 +172,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     'add' => [
         Classes::class => [
             ForbiddenFinalClasses::class,
@@ -179,6 +181,7 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -193,6 +196,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     'remove' => [
         AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
@@ -207,6 +212,7 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -221,15 +227,13 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
         ],
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Requirements
@@ -240,22 +244,6 @@ return [
      * | code will be returned. This is optional and individually defined.
      * |
      */
-<<<<<<< HEAD
-=======
-
-    /*
-    |--------------------------------------------------------------------------
-    | Requirements
-    |--------------------------------------------------------------------------
-    |
-    | Here you may define a level you want to reach per `Insights` category.
-    | When a score is lower than the minimum level defined, then an error
-    | code will be returned. This is optional and individually defined.
-    |
-    */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -285,10 +273,6 @@ return [
         //        'min-style' => 0,
         //        'disable-security-check' => false,
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -311,6 +295,7 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /*
@@ -372,6 +357,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
     'timeout' => 60,
 ];

@@ -5,15 +5,12 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions;
 
 use Illuminate\Support\Arr;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -38,6 +35,8 @@ use function Safe\preg_match_all;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -95,6 +94,7 @@ class ParsePrintPageStringAction
             } else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = array_merge(
                     $res,
                     self::fromTo((int) $firstNumber, (int) $secondNumber)
@@ -105,16 +105,9 @@ class ParsePrintPageStringAction
 =======
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
-                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 =======
-                $res = array_merge(
-                    $res,
-                    self::fromTo((int) $firstNumber, (int) $secondNumber)
-                );
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> a67e542f (.)
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
->>>>>>> 73eab74 (.)
             }
         }
 

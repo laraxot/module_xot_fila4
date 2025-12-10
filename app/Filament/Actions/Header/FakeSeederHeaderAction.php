@@ -34,13 +34,6 @@ class FakeSeederHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
@@ -97,10 +90,18 @@ class FakeSeederHeaderAction extends Action
                 $qty = max(1, (int) $qtyRaw);
                 Assert::greaterThanEq($qty, 1, 'Quantity must be greater than 0');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a67e542f (.)
                 $title = 'On Queue '.$qty.' '.$modelClass;
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
 <<<<<<< HEAD
@@ -317,7 +318,13 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -328,6 +335,7 @@ class FakeSeederHeaderAction extends Action
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +381,8 @@ class FakeSeederHeaderAction extends Action
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
 <<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
     public static function getDefaultName(): ?string
 =======
 >>>>>>> origin/develop
@@ -542,7 +552,13 @@ class FakeSeederHeaderAction extends Action
     public static function getDefaultName(): null|string
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     {
         return 'fake_seeder';
     }

@@ -36,8 +36,6 @@ class ParsePrintPageStringCommand extends Command
      *
      * @return void
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     
 <<<<<<< HEAD
     
@@ -48,6 +46,7 @@ class ParsePrintPageStringCommand extends Command
     
     
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,7 +228,12 @@ class ParsePrintPageStringCommand extends Command
     
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
     /**
      * Execute the console command.
@@ -239,6 +243,7 @@ class ParsePrintPageStringCommand extends Command
         $str = $this->argument('str');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +318,8 @@ class ParsePrintPageStringCommand extends Command
         if (! is_string($str)) {
 =======
 =======
+=======
+>>>>>>> a67e542f (.)
         if (! is_string($str)) {
 =======
 =======
@@ -411,7 +418,13 @@ class ParsePrintPageStringCommand extends Command
         if (!is_string($str)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+        if (!is_string($str)) {
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             throw new Exception('argument str must be a string');
         if (! is_string($str)) {
         if (!is_string($str)) {

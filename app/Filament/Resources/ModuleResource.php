@@ -31,9 +31,12 @@ use Filament\Forms\Components\Select;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -133,7 +136,14 @@ use Override;
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
@@ -175,10 +185,6 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -190,6 +196,7 @@ class ModuleResource extends XotBaseResource
      * @return array<string, Component>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -339,6 +346,8 @@ class ModuleResource extends XotBaseResource
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     public static function getFormSchema(): array
     {
         return [
@@ -360,10 +369,6 @@ class ModuleResource extends XotBaseResource
         ];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -371,17 +376,6 @@ class ModuleResource extends XotBaseResource
     }
 
     #[Override]
-<<<<<<< HEAD
-=======
-    public static function getRelations(): array
-    {
-        return [
-        ];
-    }
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     public static function getPages(): array
     {
     public static function getRelations(): array

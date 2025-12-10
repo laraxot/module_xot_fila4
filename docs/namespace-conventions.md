@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -81,7 +82,12 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -320,6 +326,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -393,7 +400,12 @@ php artisan view:clear
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9643,9 +9655,8 @@ php scripts/check-namespaces.php
 ## Riferimenti
 
 - [PSR-4: Autoloader Standard](https://www.php-fig.org/psr/psr-4/)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
@@ -9692,6 +9703,8 @@ php scripts/check-namespaces.php
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 

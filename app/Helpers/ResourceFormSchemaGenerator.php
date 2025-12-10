@@ -14,16 +14,13 @@ use Exception;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use function Safe\error_log;
 use function Safe\file_get_contents;
 use function Safe\file_put_contents;
 use function Safe\glob;
 use function Safe\preg_match;
 use function Safe\preg_replace;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use function Safe\error_log;
@@ -55,6 +52,8 @@ use function Safe\file_put_contents;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 class ResourceFormSchemaGenerator
 {
@@ -87,9 +86,8 @@ class ResourceFormSchemaGenerator
             $fileContents = file_get_contents($filename);
 
             // Check if getFormSchema method already exists
-<<<<<<< HEAD
-<<<<<<< HEAD
             if (str_contains($fileContents, 'public function getFormSchema')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (strpos($fileContents, 'public function getFormSchema') !== false) {
 =======
@@ -103,6 +101,8 @@ class ResourceFormSchemaGenerator
             if (str_contains($fileContents, 'public function getFormSchema')) {
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
                 return false;
             }
 
@@ -141,9 +141,12 @@ class ResourceFormSchemaGenerator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod.'}$1', $fileContents);
             $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod . '}$1', $fileContents);
             $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod . '}$1', $fileContents);
@@ -275,7 +278,13 @@ class ResourceFormSchemaGenerator
             $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod . '}$1', $fileContents);
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+            $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod . '}$1', $fileContents);
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
             // Write back to the file
             file_put_contents($filename, $modifiedContents);
@@ -284,6 +293,7 @@ class ResourceFormSchemaGenerator
 <<<<<<< HEAD
 =======
         } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,7 +419,13 @@ class ResourceFormSchemaGenerator
             error_log("Error generating form schema for {$resourceClass}: " . $e->getMessage());
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+            error_log("Error generating form schema for {$resourceClass}: " . $e->getMessage());
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             return false;
         }
     }
@@ -419,11 +435,10 @@ class ResourceFormSchemaGenerator
      */
     public static function generateForAllResources(): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         $resourceFiles = glob(
             '/var/www/html/base_orisbroker_fila3/laravel/Modules/*/app/Filament/Resources/*Resource.php',
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
         $resourceFiles = glob('/var/www/html/base_orisbroker_fila3/laravel/Modules/*/app/Filament/Resources/*Resource.php');
 =======
@@ -439,6 +454,8 @@ class ResourceFormSchemaGenerator
         );
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
         $results = ['updated' => [], 'skipped' => []];
 
@@ -452,6 +469,7 @@ class ResourceFormSchemaGenerator
                 Assert::string($file, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                 Assert::string($file, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,15 +602,17 @@ class ResourceFormSchemaGenerator
                 Assert::string($file, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+                Assert::string($file, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
                 $content = file_get_contents($file);
                 $namespaceMatch = [];
                 $classMatch = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
                 if (
                     preg_match('/namespace\s+([\w\\\\\\\\]+);/', $content, $namespaceMatch) &&
                         preg_match('/class\s+(\w+)\s+extends\s+XotBaseResource/', $content, $classMatch) &&
@@ -608,6 +628,7 @@ class ResourceFormSchemaGenerator
                     $fullClassName = $namespaceMatch[1] . '\\' . $classMatch[1];
                     $fullClassName = $namespaceMatch[1] . '\\' . $classMatch[1];
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -764,7 +785,12 @@ class ResourceFormSchemaGenerator
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 
                     if (class_exists($fullClassName)) {
                         /** @var class-string $fullClassName */
@@ -791,10 +817,14 @@ class ResourceFormSchemaGenerator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a67e542f (.)
                 $results['skipped'][] = is_string($file) ? $file : (((string) $file).': '.$e->getMessage());
                 $results['skipped'][] = is_string($file) ? $file : (((string) $file) . ': ' . $e->getMessage());
                 $results['skipped'][] = is_string($file) ? $file : (((string) $file) . ': ' . $e->getMessage());
@@ -895,7 +925,13 @@ class ResourceFormSchemaGenerator
                 $results['skipped'][] = is_string($file) ? $file : (((string) $file) . ': ' . $e->getMessage());
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+                $results['skipped'][] = is_string($file) ? $file : (((string) $file) . ': ' . $e->getMessage());
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             }
         }
 

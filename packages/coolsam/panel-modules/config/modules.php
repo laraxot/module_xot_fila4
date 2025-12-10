@@ -3,9 +3,8 @@
 declare(strict_types=1);
 
 // config for Coolsam/Modules
-<<<<<<< HEAD
-<<<<<<< HEAD
 return [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 return [];
 return [];
@@ -24,3 +23,5 @@ return [
 return [];
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)

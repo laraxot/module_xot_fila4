@@ -175,15 +175,12 @@ Per personalizzare un tema:
 8. **Documentazione**: Documenta tutto accuratamente 
 ## Collegamenti tra versioni di themes.md
 * [themes.md](docs/rules/themes.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 * [themes.md](../../../Xot/docs/themes.md)
 * [themes.md](../../../Cms/docs/frontoffice/themes.md)
 
 * [README.md Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/README.md)
 * [Convenzioni Namespace Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/namespace-conventions.md)b6f667c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -229,5 +226,7 @@ Per personalizzare un tema:
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 

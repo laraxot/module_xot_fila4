@@ -22,6 +22,7 @@ class PdfAction extends Action
         $this->translateLabel()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -36,6 +37,8 @@ class PdfAction extends Action
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             ->tooltip('pdf')
             ->openUrlInNewTab()
             // ->icon('heroicon-o-cloud-arrow-down')
@@ -66,9 +69,12 @@ class PdfAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
@@ -254,6 +260,12 @@ class PdfAction extends Action
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+            ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     }
 }

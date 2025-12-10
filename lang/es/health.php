@@ -8,9 +8,8 @@ return [
             'buttons' => [
                 'refresh' => 'Refrescar',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
             'heading' => 'Salud de la aplicación',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'heading' => 'Salud de la aplicación',
             'heading' => 'Salud de la aplicación',
@@ -31,12 +30,15 @@ return [
             'heading' => 'Salud de la aplicación',
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'navigation' => [
                 'group' => 'Configuración',
                 'label' => 'Salud de la aplicación',
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -51,6 +53,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'notifications' => [
                 'check_results' => 'Revisar resultados desde',
             ],

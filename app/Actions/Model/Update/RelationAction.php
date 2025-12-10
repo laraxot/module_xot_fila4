@@ -14,10 +14,6 @@ class RelationAction
     use QueueableAction;
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      * Undocumented function.
      *
      * @param  array<string, mixed>  $data
@@ -41,6 +37,7 @@ class RelationAction
          * ]);
          * }
          * // */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
@@ -94,6 +91,8 @@ class RelationAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
             $relationClass = $relation::class;
@@ -106,9 +105,8 @@ class RelationAction
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
 =======
 
-<<<<<<< HEAD
-<<<<<<< HEAD
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,7 +239,12 @@ class RelationAction
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

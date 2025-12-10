@@ -55,6 +55,7 @@ use Filament\Actions\Action;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 =======
 =======
@@ -126,28 +127,20 @@ use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
->>>>>>> 218dfed3 (.)
-use Filament\Actions\Action;
-use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
-use Filament\Widgets\StatsOverviewWidget\Stat;
-use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\Cache;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
-use Modules\Xot\Filament\Traits\TransTrait;
 <<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
 =======
-use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Cache;
-use Illuminate\Support\Facades\Log;
-use Modules\Xot\Filament\Traits\TransTrait;
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
+use Filament\Actions\Action;
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
-use Filament\Actions\Action;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use Modules\Xot\Filament\Traits\TransTrait;
 
 /**
  * Classe base per i widget StatsOverview del sistema Xot.
@@ -176,9 +169,8 @@ use Filament\Actions\Action;
 abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 {
     use TransTrait;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 }
@@ -199,3 +191,5 @@ abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)

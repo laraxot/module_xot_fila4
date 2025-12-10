@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 artisan
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 artisan
@@ -23,3 +20,5 @@ artisan
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)

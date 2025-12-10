@@ -29,7 +29,10 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> a67e542f (.)
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
@@ -481,7 +484,15 @@ use Filament\Actions\BulkAction;
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -498,10 +509,9 @@ trait HasTableFunctionsTrait
         return [
             'id' => TextColumn::make('id'),
             'name' => TextColumn::make('name'),
-<<<<<<< HEAD
-<<<<<<< HEAD
             'created_at' => TextColumn::make('created_at')->dateTime(),
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'created_at' => TextColumn::make('created_at')->dateTime(),
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
@@ -527,6 +537,8 @@ trait HasTableFunctionsTrait
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         ];
     }
 
@@ -567,9 +579,12 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
                 ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
                 ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
                 ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
@@ -662,7 +677,12 @@ trait HasTableFunctionsTrait
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
                 ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
                     'record' => $record,
                 ])),
@@ -671,6 +691,7 @@ trait HasTableFunctionsTrait
                 ->action(fn($record) => $record->delete())
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,7 +849,12 @@ trait HasTableFunctionsTrait
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -836,9 +862,8 @@ trait HasTableFunctionsTrait
     /**
      * Get the table bulk actions.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, BulkAction>
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, BulkAction>
      * @return array<string, BulkAction>
@@ -855,6 +880,8 @@ trait HasTableFunctionsTrait
      * @return array<string, BulkAction>
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      */
     public function getTableBulkActions(): array
     {
@@ -886,6 +913,7 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -908,6 +936,8 @@ trait HasTableFunctionsTrait
                 ->action(fn ($records) => $records->each->delete())
                 ->action(fn ($records) => $records->each->delete())
 <<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
                 ->action(fn ($records) => $records->each->delete())
 =======
 >>>>>>> origin/develop
@@ -1077,7 +1107,13 @@ trait HasTableFunctionsTrait
                 ->action(fn($records) => $records->each->delete())
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+                ->action(fn($records) => $records->each->delete())
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
                 ->requiresConfirmation(),
         ];
     }

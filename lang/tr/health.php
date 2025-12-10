@@ -8,9 +8,8 @@ return [
             'buttons' => [
                 'refresh' => 'Yenile',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
             'heading' => 'Uygulama Sağlığı',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'heading' => 'Uygulama Sağlığı',
             'heading' => 'Uygulama Sağlığı',
@@ -31,12 +30,15 @@ return [
             'heading' => 'Uygulama Sağlığı',
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'navigation' => [
                 'group' => 'Ayarlar',
                 'label' => 'Uygulama Sağlığı',
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -51,6 +53,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             'notifications' => [
                 'check_results' => 'Sonuçları kontrol et.',
             ],

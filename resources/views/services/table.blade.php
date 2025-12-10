@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 <table border="1" class="table table-bordered">
 @foreach ($rows as $row)
     <tr>
@@ -20,9 +11,8 @@ declare(strict_types=1);
         @endforeach
     </td>
 @endforeach
-<<<<<<< HEAD
-<<<<<<< HEAD
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 </table>
 </table>
@@ -39,3 +29,5 @@ declare(strict_types=1);
 </table>
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)

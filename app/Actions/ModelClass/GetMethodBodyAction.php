@@ -19,27 +19,20 @@ use Webmozart\Assert\Assert;
 use ReflectionClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\file;
 
-<<<<<<< HEAD
-=======
-use function Safe\file;
-
-use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 class GetMethodBodyAction
 {
     use QueueableAction;

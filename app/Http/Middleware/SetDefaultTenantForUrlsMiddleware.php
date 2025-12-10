@@ -21,10 +21,6 @@ class SetDefaultTenantForUrlsMiddleware
     /**
      * Handle the incoming request.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -33,6 +29,7 @@ class SetDefaultTenantForUrlsMiddleware
             'tenant' => Filament::getTenant(),
             // 'referrer' => url()->previous(),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -57,6 +54,8 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
         // @phpstan-ignore return.type
         return $next($request);

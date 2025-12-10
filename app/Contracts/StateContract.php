@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
-=======
->>>>>>> f1d4085 (.)
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -36,9 +29,8 @@ interface StateContract
     /**
      * Get the modal form schema.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, Component>
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, \Filament\Forms\Components\Component>
 =======
@@ -52,6 +44,8 @@ interface StateContract
      * @return array<string, Component>
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      */
     public function modalFormSchema(): array;
 

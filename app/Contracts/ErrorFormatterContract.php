@@ -20,9 +20,8 @@ interface ErrorFormatterContract
      * @return array<string, mixed>
      */
     public function format(): array;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 } 
 =======
@@ -36,3 +35,5 @@ interface ErrorFormatterContract
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)

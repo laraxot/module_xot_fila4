@@ -38,9 +38,12 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 use Exception;
 use Filament\Actions;
 use Filament\Actions\Action;
@@ -353,7 +356,15 @@ use Filament\Actions\ActionGroup;
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 use Filament\Actions\CreateAction;
 use Filament\Actions\AssociateAction;
 use Filament\Actions\AttachAction;
@@ -365,10 +376,6 @@ use Filament\Actions\DeleteAction;
 use Filament\Actions\ReplicateAction;
 use Filament\Actions\DetachAction;
 use Filament\Actions\DeleteBulkAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Filament\Actions;
 use Filament\Actions;
 use Filament\Actions;
@@ -390,6 +397,7 @@ use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Actions\Model\TableExistsByModelClassActions;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Tables\Filters\BaseFilter;
@@ -499,6 +507,8 @@ use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 /**
  * Trait HasXotTable.
@@ -542,9 +552,8 @@ trait HasXotTable
     {
         $actions = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         $actions['create'] = CreateAction::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
         $actions[] = CreateAction::make();
         $actions['create'] = CreateAction::make();
@@ -599,6 +608,8 @@ trait HasXotTable
         $actions['create'] = CreateAction::make();
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
         if ($this->shouldShowAssociateAction()) {
             $actions['associate'] = AssociateAction::make()
@@ -713,16 +724,7 @@ trait HasXotTable
     protected function getHeaderActions(): array
     {
         return [
-<<<<<<< HEAD
-<<<<<<< HEAD
             'create' => CreateAction::make()->icon('heroicon-o-plus'),
-=======
-            'create' => CreateAction::make()
-                ->icon('heroicon-o-plus'),
->>>>>>> f1d4085 (.)
-=======
-            'create' => CreateAction::make()->icon('heroicon-o-plus'),
->>>>>>> 73eab74 (.)
         ];
     }
 
@@ -754,6 +756,7 @@ trait HasXotTable
     abstract public function getTableColumns(): array;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 =======
@@ -768,6 +771,8 @@ trait HasXotTable
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
     /**
      * Get table filters form columns.
@@ -815,9 +820,12 @@ trait HasXotTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     public function getTableHeading(): ?string
     {
         $key = static::getKeyTrans('table.heading');
@@ -875,6 +883,7 @@ trait HasXotTable
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
     public function getTableHeading(): null|string
 =======
     public function getTableHeading(): ?string
@@ -883,18 +892,23 @@ trait HasXotTable
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> 3310e9c6 (.)
     public function getTableHeading(): null|string
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     {
         $key = static::getKeyTrans('table.heading');
         /** @var string|array<int|string,mixed>|null $trans */
         //@phpstan-ignore-next-line
         $trans = trans($key);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         return is_string($trans) && $trans !== $key ? $trans : null;
+<<<<<<< HEAD
 <<<<<<< HEAD
         $trans = trans($key);
 
@@ -913,6 +927,8 @@ trait HasXotTable
         return is_string($trans) && $trans !== $key ? $trans : null;
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     }
 
     /**
@@ -973,6 +989,7 @@ trait HasXotTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
             $this->notifyTableMissing();
 
@@ -1020,14 +1037,17 @@ trait HasXotTable
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
         if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
 =======
         if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
 >>>>>>> f1d4085 (.)
 =======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> 3310e9c6 (.)
         if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
->>>>>>> 73eab74 (.)
             $this->notifyTableMissing();
         if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
             $this->notifyTableMissing();
@@ -1070,18 +1090,7 @@ trait HasXotTable
         $table = $table
             ->recordTitleAttribute($this->getTableRecordTitleAttribute())
             ->heading($this->getTableHeading())
-<<<<<<< HEAD
-<<<<<<< HEAD
             ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
-=======
-            ->columns($this->layoutView->getTableColumns(
-                $this->getTableColumns(),
-                $this->getGridTableColumns()
-            ))
->>>>>>> f1d4085 (.)
-=======
-            ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
->>>>>>> 73eab74 (.)
             ->contentGrid($this->layoutView->getTableContentGrid())
         return $table
         $table = $table
@@ -1130,10 +1139,6 @@ trait HasXotTable
             ->paginated($this->getTablePaginated());
 
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
          * ->defaultSort(
          * column: $this->getDefaultTableSortColumn(),
          * direction: $this->getDefaultTableSortDirection(),
@@ -1141,6 +1146,7 @@ trait HasXotTable
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1299,7 +1305,12 @@ trait HasXotTable
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         return $table;
     }
 
@@ -1311,9 +1322,8 @@ trait HasXotTable
     /**
      * Get default table sort column.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected function getDefaultTableSortColumn(): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function getDefaultTableSortColumn(): null|string
     protected function getDefaultTableSortColumn(): null|string
@@ -1330,6 +1340,8 @@ trait HasXotTable
     protected function getDefaultTableSortColumn(): null|string
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     {
         try {
             $modelClass = $this->getModelClass();
@@ -1337,15 +1349,7 @@ trait HasXotTable
             $model = app($modelClass);
             Assert::isInstanceOf($model, Model::class);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
             return $model->getTable() . '.id';
-=======
-            return $model->getTable().'.id';
->>>>>>> f1d4085 (.)
-=======
-            return $model->getTable() . '.id';
->>>>>>> 73eab74 (.)
         } catch (Exception $e) {
             return $model->getTable() . '.id';
         } catch (Exception $e) {
@@ -1361,15 +1365,7 @@ trait HasXotTable
     /**
      * Get default table sort direction.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected function getDefaultTableSortDirection(): null|string
-=======
-    protected function getDefaultTableSortDirection(): ?string
->>>>>>> f1d4085 (.)
-=======
-    protected function getDefaultTableSortDirection(): null|string
->>>>>>> 73eab74 (.)
     {
         return 'desc';
     protected function getDefaultTableSortDirection(): null|string
@@ -1399,9 +1395,8 @@ trait HasXotTable
     {
         $actions = [];
         $resource = $this->getResource();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -1417,13 +1412,14 @@ trait HasXotTable
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         if (method_exists($resource, 'canView')) {
             $actions['view'] = ViewAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.view'))
-<<<<<<< HEAD
-<<<<<<< HEAD
                 ->visible($resource::canView(...));
+<<<<<<< HEAD
 <<<<<<< HEAD
                 ->visible($resource::canView(...));
                 ->visible($resource::canView(...));
@@ -1439,17 +1435,18 @@ trait HasXotTable
                 ->visible($resource::canView(...));
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         }
 
         if (method_exists($resource, 'canEdit')) {
             $actions['edit'] = EditAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.edit'))
-<<<<<<< HEAD
-<<<<<<< HEAD
                 ->visible($resource::canEdit(...));
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 ->visible($resource::canEdit(...));
         }
@@ -1475,25 +1472,15 @@ trait HasXotTable
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         if (method_exists($resource, 'canDelete')) {
             $actions['delete'] = DeleteAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.delete'))
-<<<<<<< HEAD
-<<<<<<< HEAD
                 ->visible($resource::canDelete(...));
         }
 
-=======
-                ->visible(fn (Model $record): bool => $resource::canDelete($record));
-        }
-        
->>>>>>> f1d4085 (.)
-=======
-                ->visible($resource::canDelete(...));
-        }
-
->>>>>>> 73eab74 (.)
         if ($this->shouldShowReplicateAction()) {
             $actions['replicate'] = ReplicateAction::make()
                 ->visible($resource::canDelete(...));
@@ -1583,9 +1570,8 @@ trait HasXotTable
     /**
      * Get table bulk actions.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, BulkAction>
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, BulkAction>
      * @return array<string, BulkAction>
@@ -1602,6 +1588,8 @@ trait HasXotTable
      * @return array<string, BulkAction>
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
      */
     public function getTableBulkActions(): array
     {
@@ -1964,11 +1952,10 @@ trait HasXotTable
             }
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2214,7 +2201,12 @@ trait HasXotTable
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     }
 
     /**
@@ -2283,6 +2275,7 @@ trait HasXotTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
 =======
 =======
@@ -2326,25 +2319,18 @@ trait HasXotTable
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
             ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
             ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
             ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
             ->columns([
                 TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
-=======
-            ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
-            ->columns([
-                TextColumn::make('message')
-                    ->default(__('user::fields.message.default'))
-                    ->html(),
->>>>>>> f1d4085 (.)
-=======
-            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
-            ->columns([
-                TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
->>>>>>> 73eab74 (.)
             ])
             ->headerActions([])
             ->recordActions([]);

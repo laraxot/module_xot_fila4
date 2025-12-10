@@ -8,14 +8,11 @@ use Spatie\QueueableAction\QueueableAction;
 
 /**
  * Action per convertire in modo sicuro un valore mixed in boolean.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
  *
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -37,13 +34,14 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di cast boolean in tutto il progetto
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
  * - Sicurezza: Gestisce tutti i casi edge e previene errori di cast
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * 
 =======
@@ -57,15 +55,13 @@ use Spatie\QueueableAction\QueueableAction;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
  * Casi d'uso tipici:
  * - Conversione di valori da API esterne
  * - Parsing di dati da file CSV/JSON
  * - Gestione di input utente
  * - Risoluzione errori PHPStan "Cannot cast mixed to bool"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
  *
  * @example
  * // Uso base
@@ -74,6 +70,7 @@ use Spatie\QueueableAction\QueueableAction;
  * // Con default personalizzato
  * $bool = SafeBooleanCastAction::cast($mixedValue, true);
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @example
@@ -105,6 +102,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
  * // Con validazione di valori specifici
  * $bool = SafeBooleanCastAction::castFromString($mixedValue, ['yes', 'on', '1']);
  */
@@ -125,11 +124,10 @@ class SafeBooleanCastAction
      *
      * @return bool Il valore convertito
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(mixed $value, null|bool $default = false): bool
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,15 +265,19 @@ class SafeBooleanCastAction
     public function execute(mixed $value, null|bool $default = false): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     {
         // Se è già un boolean, restituiscilo direttamente
         if (is_bool($value)) {
             return $value;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -289,13 +291,14 @@ class SafeBooleanCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         // Se è null, restituisci il default
         if (is_null($value)) {
             return $default ?? false;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -309,13 +312,14 @@ class SafeBooleanCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         // Se è un intero, convertilo (0 = false, altri = true)
         if (is_int($value)) {
             return $value !== 0;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -329,13 +333,14 @@ class SafeBooleanCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         // Se è un float, convertilo (0.0 = false, altri = true)
         if (is_float($value)) {
             return $value !== 0.0 && is_finite($value);
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -363,13 +368,14 @@ class SafeBooleanCastAction
 =======
 
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> a67e542f (.)
         // Se è una stringa, convertila
         if (is_string($value)) {
             return $this->parseStringToBool($value, $default);
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
@@ -377,6 +383,8 @@ class SafeBooleanCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         // Se è un array, convertilo (array vuoto = false, altri = true)
         if (is_array($value)) {
             return !empty($value);
@@ -412,6 +420,7 @@ class SafeBooleanCastAction
 =======
             return !empty($value);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +465,7 @@ class SafeBooleanCastAction
 =======
 >>>>>>> 88ea7103 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
             return !empty($value);
@@ -518,15 +528,16 @@ class SafeBooleanCastAction
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> 3310e9c6 (.)
 
->>>>>>> 73eab74 (.)
         // Se è un oggetto, convertilo (oggetto vuoto = false, altri = true)
         if (is_object($value)) {
             return !empty(get_object_vars($value));
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
@@ -534,6 +545,8 @@ class SafeBooleanCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         // Per tutti gli altri tipi, restituisci il default
         return $default ?? false;
     }
@@ -738,76 +751,32 @@ class SafeBooleanCastAction
      *
      * @return bool Il valore convertito
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     private function parseStringToBool(string $value, null|bool $default = false): bool
     {
         $trimmed = strtolower(trim($value));
 
-<<<<<<< HEAD
-=======
-    private function parseStringToBool(string $value, ?bool $default = false): bool
-    {
-        $trimmed = strtolower(trim($value));
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         // Stringa vuota o solo spazi
         if (empty($trimmed)) {
             return $default ?? false;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
         // Valori che rappresentano true
         $trueValues = ['true', '1', 'yes', 'on', 'enabled', 'active', 'si', 'sì'];
         if (in_array($trimmed, $trueValues, true)) {
             return true;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
         // Valori che rappresentano false
         $falseValues = ['false', '0', 'no', 'off', 'disabled', 'inactive'];
         if (in_array($trimmed, $falseValues, true)) {
             return false;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
         // Se la stringa contiene solo numeri, convertila
         if (is_numeric($trimmed)) {
             return ((float) $trimmed) !== 0.0;
         }
 
-<<<<<<< HEAD
-=======
-        
-        // Se la stringa contiene solo numeri, convertila
-        if (is_numeric($trimmed)) {
-            return (float) $trimmed !== 0.0;
-        }
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         // Per tutte le altre stringhe, restituisci il default
         return $default ?? false;
     }
@@ -822,10 +791,6 @@ class SafeBooleanCastAction
      *
      * @return bool Il valore convertito
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function executeWithCustomValues(
         mixed $value,
         array $trueValues,
@@ -856,6 +821,7 @@ class SafeBooleanCastAction
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (is_string($value)) {
@@ -910,6 +876,8 @@ class SafeBooleanCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         // Fallback al comportamento standard
         return $this->execute($value, $default);
     }
@@ -924,10 +892,6 @@ class SafeBooleanCastAction
      *
      * @return bool Il valore convertito
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function executeWithThreshold(
         mixed $value,
         float $threshold,
@@ -942,25 +906,14 @@ class SafeBooleanCastAction
         if (is_numeric($value)) {
             $numeric = (float) $value;
 
-<<<<<<< HEAD
-=======
-    public function executeWithThreshold(mixed $value, float $threshold, bool $greaterThanTrue = true, ?bool $default = false): bool
-    {
-        if (is_numeric($value)) {
-            $numeric = (float) $value;
-            
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
             if ($greaterThanTrue) {
                 return $numeric > $threshold;
             } else {
                 return $numeric < $threshold;
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -974,6 +927,8 @@ class SafeBooleanCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         // Fallback al comportamento standard
         return $this->execute($value, $default);
     }
@@ -989,6 +944,7 @@ class SafeBooleanCastAction
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return is_bool($value) || 
                is_null($value) || 
                is_scalar($value) || 
@@ -1000,17 +956,9 @@ class SafeBooleanCastAction
 =======
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
-        return is_bool($value) || is_null($value) || is_scalar($value) || is_array($value) || is_object($value);
 =======
-        return is_bool($value) || 
-               is_null($value) || 
-               is_scalar($value) || 
-               is_array($value) || 
-               is_object($value);
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> a67e542f (.)
         return is_bool($value) || is_null($value) || is_scalar($value) || is_array($value) || is_object($value);
->>>>>>> 73eab74 (.)
     }
 
     /**
@@ -1021,9 +969,8 @@ class SafeBooleanCastAction
      *
      * @return bool Il valore convertito in boolean
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static function cast(mixed $value, null|bool $default = false): bool
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function cast(mixed $value, ?bool $default = false): bool
 =======
@@ -1037,6 +984,8 @@ class SafeBooleanCastAction
     public static function cast(mixed $value, null|bool $default = false): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     {
         return app(self::class)->execute($value, $default);
     }
@@ -1051,16 +1000,13 @@ class SafeBooleanCastAction
      *
      * @return bool Il valore convertito
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public static function castWithCustomValues(
         mixed $value,
         array $trueValues,
         array $falseValues,
         null|bool $default = false,
     ): bool {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public static function castWithCustomValues(mixed $value, array $trueValues, array $falseValues, ?bool $default = false): bool
@@ -1078,6 +1024,8 @@ class SafeBooleanCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         return app(self::class)->executeWithCustomValues($value, $trueValues, $falseValues, $default);
     }
 
@@ -1091,16 +1039,13 @@ class SafeBooleanCastAction
      *
      * @return bool Il valore convertito
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public static function castWithThreshold(
         mixed $value,
         float $threshold,
         bool $greaterThanTrue = true,
         null|bool $default = false,
     ): bool {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public static function castWithThreshold(mixed $value, float $threshold, bool $greaterThanTrue = true, ?bool $default = false): bool
@@ -1118,6 +1063,8 @@ class SafeBooleanCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         return app(self::class)->executeWithThreshold($value, $threshold, $greaterThanTrue, $default);
     }
 }

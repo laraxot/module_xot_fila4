@@ -7,6 +7,7 @@ namespace Modules\Xot\Services;
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Exception;
 use function count;
@@ -25,12 +26,15 @@ use function count;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,7 +356,14 @@ use function count;
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+use function count;
+
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -402,10 +413,6 @@ class RouteService
 
         // Verifichiamo un caso speciale per le richieste Livewire
         $segments = Request::segments();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
         return (is_countable($segments) ? \count($segments) : 0) > 0 &&
@@ -435,16 +442,6 @@ class RouteService
             'livewire' === $segments[0] &&
             session('in_admin', false) === true
         );
-<<<<<<< HEAD
-=======
-        
-        // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
-        return (is_countable($segments) ? \count($segments) : 0) > 0 && 
-               'livewire' === $segments[0] && 
-               session('in_admin', false) === true;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     }
 
     /**
@@ -457,10 +454,6 @@ class RouteService
         $row = (object) [];
         extract($params);
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
          * $mutator = $act.'_url';
          * try {
          * $route = $row->$mutator;
@@ -468,6 +461,7 @@ class RouteService
          * $route = '#';
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -488,6 +482,8 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         $route_action = (string) Route::currentRouteAction();
         Str::snake(Str::after($route_action, '@'));
         // Cannot call method getName() on mixed.
@@ -495,6 +491,7 @@ class RouteService
         $old_act_route = last(explode('.', $routename));
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,7 +590,12 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         if (!\is_string($old_act_route)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename(self::class) . ']');
         }
@@ -601,6 +603,7 @@ class RouteService
         $routename_act = Str::before($routename, $old_act_route) . '' . $act;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -768,7 +771,12 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -777,16 +785,13 @@ class RouteService
         }
 
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
          * try {
          * $route_params = optional(\Route::current())->parameters();
          * } catch (\Exception $e) {
          * $route_params = [];
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -806,6 +811,8 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         if (Route::has($routename_act)) {
             $parz = array_merge($route_params, [$row]);
             $parz = array_merge($parz, $query);
@@ -838,6 +845,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -860,6 +868,8 @@ class RouteService
         return '#'.$routename_act;
         return '#'.$routename_act;
 <<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
         return '#'.$routename_act;
 =======
 >>>>>>> origin/develop
@@ -1029,7 +1039,13 @@ class RouteService
         return '#' . $routename_act;
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+        return '#' . $routename_act;
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
     }
 
     // se n=0 => 'container0'
@@ -1062,11 +1078,10 @@ class RouteService
         for ($i = 0; $i <= $n; $i++) {
             $tmp[] = 'container'.$i;
         for ($i = 0; $i <= $n; ++$i) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $tmp[] = 'container' . $i;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1252,7 +1267,12 @@ class RouteService
             $tmp[] = 'container' . $i;
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         }
 
         $tmp[] = $act;
@@ -1261,10 +1281,6 @@ class RouteService
     }
 
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      * public static function urlRelatedPanel(array $params){
      * $act = 'show';
      * extract($params);
@@ -1352,88 +1368,6 @@ class RouteService
      * return $url;
      * }
      */
-<<<<<<< HEAD
-=======
-    public static function urlRelatedPanel(array $params){
-        $act = 'show';
-        extract($params);
-        if (! isset($panel)) {
-            dddx(['err' => 'panel is missing']);
-
-            return;
-        }
-        if (! isset($related_name)) {
-            dddx(['err' => 'related_name is missing']);
-
-            return;
-        }
-        $parents = collect([]);
-        $panel_curr = $panel;
-
-        while (null != $panel_curr->getParent()) {
-            $parents->prepend($panel_curr->getParent());
-            $panel_curr = $panel_curr->getParent();
-        }
-        $container_root = $panel->getRow();
-        if ($parents->count() > 0) {
-
-            //$tmp='['.$parents->count().']';
-            //foreach($parents as $parent){
-            //    $tmp.=$parent->getRow()->post_type.'-';
-            //}
-            //return $tmp;
-
-            $container_root = $parents->first()?->row;
-        }
-
-        //$containers_class = self::getContainersClass();
-        //$n = collect($containers_class)->search(get_class($container_root));
-        //if (null === $n) {
-        //    $n = 0;
-        //}
-
-        $n = 0;
-
-        $route_name = self::getRoutenameN(['n' => $n + 1 + $parents->count(), 'act' => $act]);
-        $route_current = \Route::current();
-        $route_params = is_object($route_current) ? $route_current->parameters() : [];
-
-        $i = 0;
-        foreach ($parents as $parent) {
-            $route_params['container'.($n + $i)] = $parent->postType();
-            $route_params['item'.($n + $i)] = $parent->guid();
-            ++$i;
-        }
-        $route_params['container'.($n + $i)] = $panel->postType();
-        $route_params['item'.($n + $i)] = $panel->guid();
-        ++$i;
-        $route_params['container'.($n + $i)] = $related_name;
-
-        $route_params['page'] = 1;
-        $route_params['_act'] = '';
-        unset($route_params['_act']);
-        try {
-            $url = str_replace(url(''), '', route($route_name, $route_params));
-        } catch (\Exception $e) {
-            if (request()->input('debug', false)) {
-                dd([
-                    'route_name' => $route_name,
-                    'route_params' => $route_params,
-                    'line' => __LINE__,
-                    'file' => __FILE__,
-                    'e' => $e->getMessage(),
-                ]);
-            }
-
-            return '#['.__LINE__.']['.class_basename($this).']';
-        }
-
-        return $url;
-    }
-    */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     /**
      * @param  array<string,string>  $params
      * @param array<string,string> $params
@@ -1530,10 +1464,6 @@ class RouteService
         extract($params);
 
         return '?';
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
         /*
          * return '?'.$lang; //da fixare dopo
@@ -1594,6 +1524,7 @@ class RouteService
          * return url($lang);
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1726,6 +1657,8 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     }
 
     /**
@@ -1863,6 +1796,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
 =======
 =======
@@ -1930,64 +1864,50 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
->>>>>>> 218dfed3 (.)
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->map(static function ($item) use ($params) {
-                $item = Str::snake($item);
-
-                return $params[$item] ?? $item;
-            })
-            ->implode('.');
-            ->filter(
-                static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false)
-            )
-            ->map(
-                static function ($item) use ($params) {
-                    $item = Str::snake($item);
-
-                    return $params[$item] ?? $item;
-                }
-            )->implode('.');
-            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
-            ->map(static function ($item) use ($params) {
-                $item = Str::snake($item);
-
-                return $params[$item] ?? $item;
-            })
-            ->implode('.');
 <<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
 =======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->map(static function ($item) use ($params) {
+                $item = Str::snake($item);
+
+                return $params[$item] ?? $item;
+            })
+            ->implode('.');
             ->filter(
                 static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false)
             )
@@ -1998,8 +1918,12 @@ class RouteService
                     return $params[$item] ?? $item;
                 }
             )->implode('.');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->map(static function ($item) use ($params) {
+                $item = Str::snake($item);
+
+                return $params[$item] ?? $item;
+            })
+            ->implode('.');
     }
 }

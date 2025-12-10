@@ -111,7 +111,10 @@ interface ModelWithStatusContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> a67e542f (.)
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
@@ -392,5 +395,13 @@ interface ModelWithStatusContract
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 }

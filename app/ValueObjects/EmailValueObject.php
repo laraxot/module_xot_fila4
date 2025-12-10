@@ -3,16 +3,13 @@
 declare(strict_types=1);
 
 /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
  * Value Objects
  * The part of the model are Value Objects.
  * VO's are classes that are immutable. They are wrappers for given types that needs validation.
  * If we have Value Object like Email in system, then we can pass it around and be sure, it's always valid one.
  * This decrease amount of guard logic within the system.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -32,6 +29,8 @@ This decrease amount of guard logic within the system.
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
 
 namespace Modules\Xot\ValueObjects;
 
@@ -39,10 +38,6 @@ use InvalidArgumentException;
 
 class EmailValueObject
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function __construct(
         // public readonly string $email;
         public string $email,
@@ -51,6 +46,7 @@ class EmailValueObject
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,7 +165,12 @@ class EmailValueObject
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
             throw new InvalidArgumentException(sprintf('Email address %s is considered valid.', $email));
 
 namespace Modules\Xot\ValueObjects;

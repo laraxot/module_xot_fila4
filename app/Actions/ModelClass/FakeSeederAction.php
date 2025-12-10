@@ -82,10 +82,6 @@ class FakeSeederAction
      */
     public function execute(string $modelClass, int $qty): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         if (
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
@@ -103,12 +99,6 @@ class FakeSeederAction
                 !is_subclass_of($modelClass, Model::class) ||
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
         ) {
-<<<<<<< HEAD
-=======
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
      * @throws \InvalidArgumentException When model class is invalid
      */
@@ -179,14 +169,11 @@ class FakeSeederAction
     private function sendNotification(string $modelClass, int $count): void
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         Notification::make()->title($title)->success()->send();
@@ -202,6 +189,8 @@ class FakeSeederAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     }
 
     /**
@@ -223,9 +212,8 @@ class FakeSeederAction
         if ($qty <= self::MAX_RECORDS) {
             return;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+<<<<<<< HEAD
 <<<<<<< HEAD
         app(self::class)
             ->onQueue()
@@ -243,19 +231,18 @@ class FakeSeederAction
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
         /** @var Model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -281,6 +268,8 @@ class FakeSeederAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
         return $model->getTable();
     }
 }

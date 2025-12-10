@@ -6,13 +6,12 @@ namespace Modules\Xot\Actions\Model;
 
 use RuntimeException;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,7 +120,12 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 =======
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -171,6 +175,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
      * @param  string  $modelClass  La classe del modello
 =======
@@ -178,6 +183,8 @@ class GetSchemaManagerByModelClassAction
      * @param  string  $modelClass  La classe del modello
      * @param  string  $modelClass  La classe del modello
 <<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
      * @param  string  $modelClass  La classe del modello
 =======
 >>>>>>> a12f125f4a (.)
@@ -287,7 +294,13 @@ class GetSchemaManagerByModelClassAction
      * @param string $modelClass La classe del modello
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -330,9 +343,12 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
             $schemaManager = $connection->getDoctrineSchemaManager();
 
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
@@ -462,7 +478,13 @@ class GetSchemaManagerByModelClassAction
             return $connection->getDoctrineSchemaManager();
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 3310e9c6 (.)
+>>>>>>> a67e542f (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

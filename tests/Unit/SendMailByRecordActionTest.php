@@ -49,6 +49,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -185,49 +186,11 @@ it('throws if record has no email', function (): void {
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 use Illuminate\Mail\Mailable;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Mail\Mailable;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-=======
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> origin/develop
-
-it('throws if record has no email', function (): void {
-    $record = new class extends Model {
-        // no email attribute
-<<<<<<< HEAD
-        public function option(string $key): null|string
-        {
-            return null;
-        }
-
-        public function myLogs()
-        {
-            return new class {
-                public function create(array $data): void
-                {
-                }
-            };
-        }
-    };
-
-    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
-=======
-namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
-=======
-use Illuminate\Mail\Mailable;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 
 it('throws if record has no email', function (): void {
     $record = new class extends Model {
@@ -317,6 +280,7 @@ it('throws if record has no email', function (): void {
         }
     };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -612,5 +576,8 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 9db27d12 (.)
         ->toThrow(InvalidArgumentException::class);
 });

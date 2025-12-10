@@ -24,6 +24,7 @@ namespace Modules\Xot\Actions\Cast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Error;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
@@ -68,17 +69,11 @@ use ValueError;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 use ValueError;
 use Error;
 use Exception;
-=======
-<<<<<<< HEAD
-use ValueError;
-use Error;
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
@@ -105,6 +100,7 @@ class SafeArrayByModelCastAction
      */
     public function execute(Model $model): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,36 +170,16 @@ class SafeArrayByModelCastAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        try {
-            return $model->attributesToArray();
-        } catch (ValueError|Error|Exception $e) {
-=======
-        try{
-            return $model->attributesToArray(); 
-        }catch(ValueError|Error|Exception $e){
->>>>>>> a12f125f4a (.)
-=======
-        try {
-            return $model->attributesToArray();
-        } catch (ValueError|Error|Exception $e) {
->>>>>>> b93ef594b4 (.)
-=======
-        try{
-            return $model->attributesToArray(); 
-        }catch(\ValueError|\Error|\Exception $e){
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             return $this->safeExecute($model);
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,6 +385,8 @@ class SafeArrayByModelCastAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -440,6 +418,7 @@ class SafeArrayByModelCastAction
 =======
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 <<<<<<< HEAD
@@ -887,5 +866,7 @@ class SafeArrayByModelCastAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
     }
 }

@@ -11,19 +11,7 @@ class EnvPage extends Page
 {
     use NavigationLabelTrait;
 
-<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
-=======
-<<<<<<< HEAD
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
-
-    protected string $view = 'xot::filament.pages.dashboard';
-=======
-    protected static ?string $navigationIcon = 'heroicon-o-home';
-
-    protected static string $view = 'xot::filament.pages.dashboard';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 }

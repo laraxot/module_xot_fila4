@@ -8,23 +8,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions;
 
-<<<<<<< HEAD
 use Exception;
 use Illuminate\Foundation\Configuration\Exceptions;
-=======
-<<<<<<< HEAD
-use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Foundation\Configuration\Exceptions;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Foundation\Configuration\Exceptions;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Http\Request;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,34 +37,9 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\View\GetViewPathAction;
-<<<<<<< HEAD
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Symfony\Component\HttpKernel\Exception\HttpException;
-
-class ExceptionHandler
-=======
-=======
->>>>>>> origin/develop
-use Illuminate\Foundation\Configuration\Exceptions;
-use Symfony\Component\HttpKernel\Exception\HttpException;
-
-class ExceptionHandler 
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Symfony\Component\HttpKernel\Exception\HttpException;
-
-class ExceptionHandler
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 {
     /**
      * Configura la gestione delle eccezioni.
@@ -113,41 +73,13 @@ class ExceptionHandler
      */
     public static function handles(Exceptions $exceptions): void
     {
-<<<<<<< HEAD
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $exceptions->render(function (HttpException $e, Request $request) {
-            $status_code = $e->getStatusCode();
-=======
-        
-        $exceptions->render(function (HttpException $e,Request $request) {
-            $status_code=$e->getStatusCode();
->>>>>>> a12f125f4a (.)
-=======
-        $exceptions->render(function (HttpException $e, Request $request) {
-            $status_code = $e->getStatusCode();
->>>>>>> b93ef594b4 (.)
-=======
-        
-        $exceptions->render(function (HttpException $e,Request $request) {
-            $status_code=$e->getStatusCode();
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             if ($request->wantsJson()) {
                 return response()->json([
                     'message' => $e->getMessage(),
                 ], $status_code);
             }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +114,7 @@ class ExceptionHandler
                 );
             }
             $view_params = ['exception' => $e];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +459,8 @@ class ExceptionHandler
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

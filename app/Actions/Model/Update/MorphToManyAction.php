@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
-<<<<<<< HEAD
 use Exception;
-=======
-<<<<<<< HEAD
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Arr;
@@ -62,15 +55,7 @@ class MorphToManyAction
      * @param RelationDTO $relationDTO Data transfer object containing relation information
 >>>>>>> 5a14301c (.)
      *
-<<<<<<< HEAD
      * @throws Exception When data is not in correct format or relation is invalid
-=======
-<<<<<<< HEAD
-     * @throws Exception When data is not in correct format or relation is invalid
-=======
-     * @throws \Exception When data is not in correct format or relation is invalid
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     public function execute(Model $row, RelationDTO $relationDTO): void
     {
@@ -80,6 +65,7 @@ class MorphToManyAction
         $model = $row;
 
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,11 +378,15 @@ class MorphToManyAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 9db27d12 (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,11 +476,14 @@ class MorphToManyAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         if (!Arr::isAssoc($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +908,8 @@ class MorphToManyAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
             $relation->sync($data);
 
             return;
@@ -922,6 +917,7 @@ class MorphToManyAction
 
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1234,6 +1230,9 @@ class MorphToManyAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 9db27d12 (.)
                     $v['pivot'] = [];
                 }
 

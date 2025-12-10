@@ -8,6 +8,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseEntryFactory;
@@ -60,6 +61,8 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseEntryFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -72,6 +75,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseEntry newModelQuery()
  * @method static Builder|PulseEntry newQuery()
  * @method static Builder|PulseEntry query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,12 +109,15 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
  * @property int         $id
  * @property int         $timestamp
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property int|null    $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,12 +135,15 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
  * @method static Builder|PulseEntry whereId($value)
  * @method static Builder|PulseEntry whereKey($value)
  * @method static Builder|PulseEntry whereKeyHash($value)
  * @method static Builder|PulseEntry whereTimestamp($value)
  * @method static Builder|PulseEntry whereType($value)
  * @method static Builder|PulseEntry whereValue($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +172,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
  * @mixin IdeHelperPulseEntry
 <<<<<<< HEAD
 <<<<<<< HEAD

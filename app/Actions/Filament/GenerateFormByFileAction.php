@@ -88,6 +88,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -124,6 +125,8 @@ use Illuminate\Support\Str;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 
 use function Safe\file;
@@ -166,6 +169,7 @@ use function Safe\file;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -212,15 +216,24 @@ use function Safe\file;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Finder\SplFileInfo as File;
 use Webmozart\Assert\Assert;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\file;
 
 =======
 >>>>>>> f1d4085 (.)
+=======
+use function Safe\file;
+
+>>>>>>> 73eab74 (.)
 class GenerateFormByFileAction
 {
     use QueueableAction;
@@ -236,6 +249,7 @@ class GenerateFormByFileAction
      * @param  File  $file  Il file della risorsa Filament
 =======
      * @param File $file Il file della risorsa Filament
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
 <<<<<<< HEAD
@@ -296,6 +310,7 @@ class GenerateFormByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -357,6 +372,11 @@ class GenerateFormByFileAction
      * 
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
      * @return int Numero di input aggiunti
      */
     public function execute(File $file): int
@@ -385,6 +405,7 @@ class GenerateFormByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -437,6 +458,10 @@ class GenerateFormByFileAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         if (!$file->isFile()) {
             return 0;
         }
@@ -459,6 +484,9 @@ class GenerateFormByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -570,6 +598,7 @@ class GenerateFormByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -616,11 +645,18 @@ class GenerateFormByFileAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             return 0;
         }
 
         $class_name = Str::replace(base_path('Modules/'), 'Modules/', $file->getPathname());
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
 <<<<<<< HEAD
@@ -672,6 +708,7 @@ class GenerateFormByFileAction
         /** @var Resource $resourceInstance */
         $resourceInstance = app($class_name);
 
+<<<<<<< HEAD
 =======
         Assert::string($class_name = Str::replace('/', '\\', $class_name), '['.__LINE__.']['.class_basename($this).']');
         $class_name = Str::substr($class_name, 0, -4);
@@ -683,6 +720,8 @@ class GenerateFormByFileAction
         $resourceInstance = app($class_name);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         // Verifichiamo che il metodo getModel esista
         if (!method_exists($resourceInstance, 'getModel')) {
 <<<<<<< HEAD
@@ -701,6 +740,9 @@ class GenerateFormByFileAction
             return 0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         /** @var string $modelClass */
         $modelClass = $resourceInstance->getModel();
@@ -711,6 +753,7 @@ class GenerateFormByFileAction
         /** @var Model $modelInstance */
         $modelInstance = app($modelClass);
 
+<<<<<<< HEAD
 =======
         
         /** @var string $modelClass */
@@ -723,6 +766,8 @@ class GenerateFormByFileAction
         $modelInstance = app($modelClass);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         // Verifichiamo che il metodo getFillable esista
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -748,11 +793,15 @@ class GenerateFormByFileAction
             return 0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         $fillable = $modelInstance->getFillable();
 
         $reflection_class = new ReflectionClass($class_name);
 
+<<<<<<< HEAD
 =======
         
         $fillable = $modelInstance->getFillable();
@@ -760,6 +809,8 @@ class GenerateFormByFileAction
         $reflection_class = new ReflectionClass($class_name);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         // Verifichiamo che il metodo form esista
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -785,15 +836,20 @@ class GenerateFormByFileAction
             return 0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         $form_method = $reflection_class->getMethod('form');
         $start_line = $form_method->getStartLine() - 1;
         // it's actually - 1, otherwise you wont get the function() block
         $end_line = $form_method->getEndLine();
         $length = $end_line - $start_line;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -876,6 +932,10 @@ class GenerateFormByFileAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         Assert::string($file_name = $form_method->getFileName(), '[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
 =======
@@ -924,6 +984,7 @@ class GenerateFormByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         \Illuminate\Support\Facades\Log::debug('GenerateFormByFileAction', [
             'line' => __LINE__,
             'method' => __METHOD__,
@@ -939,6 +1000,8 @@ class GenerateFormByFileAction
         }
 
         return $inputCount;
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -1021,6 +1084,7 @@ class GenerateFormByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -1073,6 +1137,10 @@ class GenerateFormByFileAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         dd([
             'class_name' => $class_name,
             'model_name' => $modelClass,
@@ -1123,10 +1191,14 @@ class GenerateFormByFileAction
 >>>>>>> 5a14301c (.)
      * @param File $file Il file da analizzare
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
      * 
 >>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
      * @return void
      */
     public function ddFile(File $file): void

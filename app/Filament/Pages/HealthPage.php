@@ -47,6 +47,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 =======
 =======
@@ -65,9 +66,14 @@ use Filament\Widgets\WidgetConfiguration;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 use Spatie\Health\Checks\Check;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -92,11 +98,15 @@ use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
 =======
 use Spatie\Health\Checks\Check;
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,6 +352,8 @@ use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\Health\Checks\Check;
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -633,9 +645,12 @@ class HealthPage extends Page
         return [
             Action::make('refresh')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

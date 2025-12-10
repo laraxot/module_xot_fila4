@@ -9,6 +9,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Filament;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 // use Filament\Forms\Commands\Concerns\CanGenerateForms; // Non disponibile in Filament v4
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35,12 +38,15 @@ use Filament\Resources\Resource;
 >>>>>>> 5a14301c (.)
 use Filament\Support\Commands\Concerns\CanReadModelSchemas;
 // use Filament\Tables\Commands\Concerns\CanGenerateTables; // Non disponibile in Filament v4
+<<<<<<< HEAD
 =======
 use Filament\Forms\Commands\Concerns\CanGenerateForms;
 use Filament\Resources\Resource;
 use Filament\Support\Commands\Concerns\CanReadModelSchemas;
 use Filament\Tables\Commands\Concerns\CanGenerateTables;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File as LaravelFile;
 use Illuminate\Support\Str;
@@ -53,16 +59,22 @@ use Webmozart\Assert\Assert;
 class GenerateTableColumnsByFileAction
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     // use CanGenerateForms; // Non disponibile in Filament v4
 
     // use CanGenerateImporterColumns;
     // use CanGenerateTables; // Non disponibile in Filament v4
+<<<<<<< HEAD
 =======
     use CanGenerateForms;
 
     // use CanGenerateImporterColumns;
     use CanGenerateTables;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     use CanReadModelSchemas;
     use QueueableAction;
 
@@ -94,14 +106,19 @@ class GenerateTableColumnsByFileAction
 >>>>>>> 5a14301c (.)
      * @param File $file Il file della risorsa Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
      * 
 >>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
      * @return void
      */
     public function execute(File $file): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +214,10 @@ class GenerateTableColumnsByFileAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         if (!$file->isFile()) {
             return;
         }
@@ -224,7 +245,10 @@ class GenerateTableColumnsByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -306,6 +330,7 @@ class GenerateTableColumnsByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -352,11 +377,18 @@ class GenerateTableColumnsByFileAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             return;
         }
         $filename = $file->getPathname();
         $class_name = Str::replace(base_path('Modules/'), 'Modules/', $filename);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
 <<<<<<< HEAD
@@ -385,9 +417,12 @@ class GenerateTableColumnsByFileAction
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
         );
+<<<<<<< HEAD
 =======
         Assert::string($class_name = Str::replace('/', '\\', $class_name), '['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $class_name = Str::substr($class_name, 0, -4);
 
         // Verifichiamo che la classe esista
@@ -470,6 +505,7 @@ class GenerateTableColumnsByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $body_new = '->columns(['.chr(13).'// TODO: Generate table columns'.chr(13).'])';
 =======
 =======
@@ -508,6 +544,8 @@ class GenerateTableColumnsByFileAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
         $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
 >>>>>>> 5a14301c (.)
 =======
@@ -532,11 +570,16 @@ class GenerateTableColumnsByFileAction
             ->replace($body1, $body_new)
             ->toString();
 >>>>>>> f1d4085 (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+>>>>>>> 73eab74 (.)
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
         // -------------------- FORM ------------------------------
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'form');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->schema(', '(', ')');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -599,6 +642,8 @@ class GenerateTableColumnsByFileAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
         $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
 >>>>>>> 5a14301c (.)
 =======
@@ -623,6 +668,10 @@ class GenerateTableColumnsByFileAction
             ->replace($body1, $body_new)
             ->toString();
 >>>>>>> f1d4085 (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+>>>>>>> 73eab74 (.)
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
         // -----------------------------------------------------
@@ -633,10 +682,14 @@ class GenerateTableColumnsByFileAction
 
             // Verifichiamo che $fillable sia un array e contenga 'anno'
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (is_array($fillable) && in_array('anno', $fillable, strict: true)) {
 =======
             if (is_array($fillable) && in_array('anno', $fillable)) {
 >>>>>>> f1d4085 (.)
+=======
+            if (is_array($fillable) && in_array('anno', $fillable, strict: true)) {
+>>>>>>> 73eab74 (.)
                 $body = app(GetMethodBodyAction::class)->execute($class_name, 'table');
                 $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->filters(', '(', ')');
                 $body_new = "->filters([
@@ -644,20 +697,28 @@ class GenerateTableColumnsByFileAction
                     ],layout: \Filament\Tables\Enums\FiltersLayout::AboveContent)
                     ->persistFiltersInSession()";
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $body_up = Str::of($body)->replace($body1, $body_new)->toString();
 =======
                 $body_up = Str::of($body)
                     ->replace($body1, $body_new)
                     ->toString();
 >>>>>>> f1d4085 (.)
+=======
+                $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+>>>>>>> 73eab74 (.)
                 $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
                 LaravelFile::put($filename, $content_new);
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         // */
     }
 
@@ -686,10 +747,14 @@ class GenerateTableColumnsByFileAction
 >>>>>>> 5a14301c (.)
      * @param File $file Il file da analizzare
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
      * 
 >>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
      * @return void
      */
     public function ddFile(File $file): void

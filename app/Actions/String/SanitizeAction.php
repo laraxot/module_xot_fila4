@@ -87,10 +87,14 @@ class SanitizeAction
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
 =======
 
 use function Safe\preg_replace;
@@ -98,6 +102,8 @@ use function Safe\preg_replace;
 use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 class SanitizeAction
 {
     use QueueableAction;
@@ -582,6 +588,9 @@ class SanitizeAction
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * $string = trim($item);
  *
  *
@@ -594,6 +603,7 @@ class SanitizeAction
  * // Additional removal of non-printable characters
  * $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
  */
+<<<<<<< HEAD
 =======
 $string = trim($item);
 
@@ -608,3 +618,5 @@ $string = strip_tags($string);
 $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

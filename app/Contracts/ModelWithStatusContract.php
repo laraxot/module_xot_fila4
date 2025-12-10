@@ -152,6 +152,7 @@ interface ModelWithStatusContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -164,6 +165,8 @@ interface ModelWithStatusContract
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
@@ -372,14 +375,18 @@ interface ModelWithStatusContract
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
 =======
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,4 +519,6 @@ interface ModelWithStatusContract
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 }

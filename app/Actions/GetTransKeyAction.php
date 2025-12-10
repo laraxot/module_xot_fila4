@@ -51,6 +51,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +173,8 @@ class GetTransKeyAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
             Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 =======
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
@@ -179,6 +182,7 @@ class GetTransKeyAction
 =======
             Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,6 +213,8 @@ class GetTransKeyAction
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
         }
 
         $arr = explode('\\', $class);
@@ -266,6 +272,9 @@ class GetTransKeyAction
             $res = Arr::first(
                 $backtrace,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 fn(array $item): bool => (
                     isset($item['object']) && 'Modules' === explode('\\', get_class($item['object']))[0]
                 ),
@@ -297,7 +306,10 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -402,6 +414,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -479,12 +492,17 @@ class GetTransKeyAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
                 $main_module = XotData::make()->main_module;
                 $main_module_low = mb_strtolower($main_module);
                 $page_arr = explode('\\', $page);
                 $page_arr_count = count($page_arr);
                 $page_arr_last = $page_arr[$page_arr_count - 1];
                 $page_arr_last_snake = Str::of($page_arr_last)->snake()->toString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -604,10 +622,15 @@ class GetTransKeyAction
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
                 $tmp = $main_module_low . '::' . $page_arr_last_snake;
 =======
                 $tmp = $main_module_low.'::'.$page_arr_last_snake;
 >>>>>>> f1d4085 (.)
+=======
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+>>>>>>> 73eab74 (.)
 
                 return $tmp;
 >>>>>>> 5a14301c (.)
@@ -643,10 +666,14 @@ class GetTransKeyAction
         if (Str::endsWith($class, $type)) {
             $class = Str::beforeLast($class, $type);
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (in_array($type, ['RelationManager'], strict: true)) {
 =======
             if (in_array($type, ['RelationManager'])) {
 >>>>>>> f1d4085 (.)
+=======
+            if (in_array($type, ['RelationManager'], strict: true)) {
+>>>>>>> 73eab74 (.)
                 $class = Str::of($class)->singular()->toString();
             }
         }
@@ -655,6 +682,7 @@ class GetTransKeyAction
         $arr = explode('_', $class_snake);
         $first = $arr[0];
         $last = $arr[count($arr) - 1];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,6 +824,10 @@ class GetTransKeyAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         if (in_array($first, ['dashboard', 'list', 'get', 'manage'], strict: true)) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
@@ -827,7 +859,10 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -921,6 +956,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -990,6 +1026,10 @@ class GetTransKeyAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         }
 
         if (Str::endsWith($class_snake, 'form_schema')) {
@@ -998,16 +1038,21 @@ class GetTransKeyAction
 
         // Handle cases where the class starts with "list_"
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (in_array($first, ['list'], strict: true)) {
 =======
         if (in_array($first, ['list'])) {
 >>>>>>> f1d4085 (.)
+=======
+        if (in_array($first, ['list'], strict: true)) {
+>>>>>>> 73eab74 (.)
             $class_snake = Str::of($class_snake)
                 // ->after('list_')
                 ->singular()
                 ->toString();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1126,10 +1171,15 @@ class GetTransKeyAction
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
         $tmp = $module_low . '::' . $class_snake;
 =======
         $tmp = $module_low.'::'.$class_snake;
 >>>>>>> f1d4085 (.)
+=======
+        $tmp = $module_low . '::' . $class_snake;
+>>>>>>> 73eab74 (.)
 
         return $tmp;
 >>>>>>> 5a14301c (.)

@@ -43,6 +43,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -118,9 +119,14 @@ use Override;
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\HealthCheckResultHistoryItem;
 >>>>>>> 5a14301c (.)
@@ -243,9 +249,13 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
      * Determine whether the user can view any models.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     public function viewAny(UserContract $user): bool
     {
         return $user->hasPermissionTo('health_check_result_history_item.viewAny');
@@ -255,10 +265,14 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
      * Determine whether the user can view the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
 =======
     public function view(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
 >>>>>>> f1d4085 (.)
+=======
+    public function view(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
+>>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('health_check_result_history_item.view');
     }
@@ -275,10 +289,14 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
      * Determine whether the user can update the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
 =======
     public function update(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
 >>>>>>> f1d4085 (.)
+=======
+    public function update(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
+>>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('health_check_result_history_item.update');
     }
@@ -287,10 +305,14 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
      * Determine whether the user can delete the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
 =======
     public function delete(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
 >>>>>>> f1d4085 (.)
+=======
+    public function delete(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
+>>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('health_check_result_history_item.delete');
     }
@@ -299,10 +321,14 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
      * Determine whether the user can restore the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
 =======
     public function restore(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
 >>>>>>> f1d4085 (.)
+=======
+    public function restore(UserContract $user, HealthCheckResultHistoryItem $_health_check_result_history_item): bool
+>>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('health_check_result_history_item.restore');
     }
@@ -311,14 +337,20 @@ class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
      * Determine whether the user can permanently delete the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function forceDelete(
         UserContract $user,
         HealthCheckResultHistoryItem $health_check_result_history_item,
     ): bool {
+<<<<<<< HEAD
 =======
     public function forceDelete(UserContract $user, HealthCheckResultHistoryItem $health_check_result_history_item): bool
     {
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return $user->hasPermissionTo('health_check_result_history_item.forceDelete');
     }
 }

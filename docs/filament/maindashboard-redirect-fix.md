@@ -94,6 +94,7 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
@@ -160,6 +161,8 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
@@ -188,6 +191,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
@@ -254,6 +258,8 @@ curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
@@ -282,6 +288,7 @@ curl -I http://personale2022.prov.tv.local/admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 >>>>>>> 85cdef688 (.)
 =======
@@ -381,6 +388,8 @@ curl -I http://personale2022.prov.tv.local/admin
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 >>>>>>> a5dccfe (.)
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
 # senza redirect automatico
 ```
 
@@ -524,6 +533,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -604,6 +614,8 @@ performance::admin
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
 
 ## Aggiornamenti
 
@@ -619,6 +631,7 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -701,3 +714,5 @@ performance::admin
 *Ultimo aggiornamento: 2025-01-27* 
 >>>>>>> a5dccfe (.)
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)

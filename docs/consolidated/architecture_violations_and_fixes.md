@@ -54,6 +54,7 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
 =======
 use Modules\<nome modulo>\Models\User;
@@ -196,7 +197,13 @@ use Modules\SaluteOra\Models\User;
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+use Modules\SaluteOra\Models\User;
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -206,6 +213,7 @@ $user = User::factory()->create([...]);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,7 +381,13 @@ $user = User::factory()->create([...]);
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -407,6 +421,7 @@ $user = $userClass::factory()->create($attributes);
         'driver' => 'eloquent',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -574,7 +589,13 @@ $user = $userClass::factory()->create($attributes);
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
     ],
 ],
 ```
@@ -634,6 +655,7 @@ public function processUser(UserContract $user): void
 // ❌ MAI implementazione specifica
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -801,7 +823,13 @@ public function processUser(\Modules\SaluteOra\Models\User $user): void
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -935,6 +963,7 @@ class ChangeTypeCommand extends Command
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1219,7 +1248,15 @@ use Modules\SaluteOra\Models\Doctor;
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -1231,6 +1268,7 @@ use Modules\Xot\Datas\XotData;
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1398,7 +1436,13 @@ $user = \Modules\SaluteOra\Models\User::find($id);
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+$user = \Modules\SaluteOra\Models\User::find($id);
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -1410,6 +1454,7 @@ $user = $userClass::find($id);
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1577,7 +1622,13 @@ function updateUser(\Modules\SaluteOra\Models\User $user): void
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -1714,6 +1765,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 ### **Documentazione Moduli**
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1998,7 +2050,15 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+- [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
+- [User Module Traits](../../User/project_docs/traits_complete_guide.md)
+- [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 ---
 

@@ -86,6 +86,7 @@ Imposta un nuovo stato per il modello con un motivo opzionale.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione PHPStan](https://phpstan.org/) 
 >>>>>>> 85cdef688 (.)
 =======
@@ -169,3 +170,5 @@ Imposta un nuovo stato per il modello con un motivo opzionale.
 - [Documentazione PHPStan](https://phpstan.org/) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)

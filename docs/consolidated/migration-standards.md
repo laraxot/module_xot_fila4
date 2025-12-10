@@ -46,6 +46,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
 =======
 <<<<<<< HEAD
@@ -53,6 +54,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> e39b54ba7 (.)
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
@@ -142,7 +146,12 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 # Standard per le Migrazioni in SaluteOra
 
 ## Introduzione
@@ -150,6 +159,7 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di SaluteOra. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,7 +308,12 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 ## Principi Fondamentali
 
@@ -397,6 +412,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
 =======
  utilizza diverse connessioni al database per diversi tipi di dati:
@@ -539,7 +555,13 @@ SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 1. **mysql**: Connessione principale per la maggior parte delle tabelle
 2. **user**: Connessione per i dati degli utenti
@@ -674,6 +696,7 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -867,4 +890,10 @@ Seguire questi standard per le migrazioni è fondamentale per garantire la coere
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)

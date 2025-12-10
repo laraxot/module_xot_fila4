@@ -245,6 +245,7 @@ Codice non conforme agli standard di tipizzazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -394,7 +395,13 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 

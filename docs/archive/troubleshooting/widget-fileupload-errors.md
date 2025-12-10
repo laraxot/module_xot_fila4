@@ -352,6 +352,7 @@ Questo pattern si applica anche a:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Aggiornato**: 2025-01-07 
 =======
 **Aggiornato**: 2025-01-07 
@@ -400,3 +401,5 @@ Questo pattern si applica anche a:
 **Aggiornato**: 2025-01-07 
 >>>>>>> a5dccfe (.)
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)

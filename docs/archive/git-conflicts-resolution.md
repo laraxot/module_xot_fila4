@@ -66,6 +66,7 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -81,6 +82,8 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
@@ -190,7 +193,13 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 ## File Corretti
 
@@ -302,6 +311,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 
 
@@ -339,6 +349,8 @@ $res=Locality::query()
 
 
 
+=======
+>>>>>>> e39b54ba7 (.)
 
 =======
 >>>>>>> 7e4835b8e (.)
@@ -411,7 +423,13 @@ $res=Locality::query()
 
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -462,6 +480,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 >>>>>>> ce6fc085 (.)
 - [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
@@ -486,12 +505,19 @@ php artisan lang:check
 =======
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 ### Modulo User
 - [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
 ### Modulo Xot
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
@@ -508,6 +534,15 @@ php artisan lang:check
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
+=======
+>>>>>>> e39b54ba7 (.)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 
 ### Modulo User
@@ -739,7 +774,14 @@ php artisan lang:check
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -795,6 +837,7 @@ php artisan lang:check
 ### Documentazione Moduli
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1051,7 +1094,20 @@ php artisan lang:check
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06

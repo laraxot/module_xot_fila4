@@ -183,6 +183,7 @@ class MyModel extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -341,7 +342,12 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 2. **Approccio Efficiente**
    - Identificare pattern comuni di errori
    - Correggere tutti gli errori dello stesso tipo in una volta
@@ -372,6 +378,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
      - .windsurfrules per Windsurf
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,4 +642,10 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)

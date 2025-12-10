@@ -399,6 +399,7 @@ test('all models extend base model', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [**Best Practices**](../docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../docs/troubleshooting.md) - Risoluzione problemi
@@ -456,6 +457,10 @@ test('all models extend base model', function () {
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+- [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
+- [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
+>>>>>>> e39b54ba7 (.)
 
 ---
 

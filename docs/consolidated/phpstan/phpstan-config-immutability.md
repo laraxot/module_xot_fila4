@@ -70,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 =======
 - File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
@@ -238,7 +239,13 @@
 - File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 - Status: IMMUTABLE — never modify this file via automation or PRs. Only the user may edit it manually.
 
 ## Rationale

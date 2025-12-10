@@ -181,6 +181,7 @@ Generated PDF data can be attached to emails through the notification system.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules\<nome progetto>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
 =======
 - `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
@@ -323,7 +324,13 @@ Generated PDF data can be attached to emails through the notification system.
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 ## Notes
 - The action uses QueueableAction trait, making it suitable for background processing

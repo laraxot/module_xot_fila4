@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`**
 =======
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
@@ -190,7 +191,13 @@
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 ## Motivazione
 

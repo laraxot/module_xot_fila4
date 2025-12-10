@@ -30,6 +30,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### Filament 3.x
 >>>>>>> 85cdef688 (.)
@@ -111,6 +112,9 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 ### Filament 3.x
 >>>>>>> a5dccfe (.)
 >>>>>>> 7e4835b8e (.)
+=======
+### Filament 4.x
+>>>>>>> e39b54ba7 (.)
 - Pannello amministrativo
 - Form builder
 - Table builder

@@ -62,6 +62,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione Globale** (`/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,7 +207,13 @@ base_predict_fila3_mono/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -230,6 +237,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,7 +382,13 @@ base_predict_fila3_mono/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -428,6 +442,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -448,6 +463,8 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
      1. Aggiornare `Modules/[ModuleName]/docs/`
 <<<<<<< HEAD
 =======
@@ -736,7 +753,17 @@ Quando si identifica una nuova regola o pattern importante:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**

@@ -30,7 +30,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+>>>>>>> e39b54ba7 (.)
 # PHPStan Config Immutability (Global Project Rule)
 
 - File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
@@ -192,4 +195,9 @@ find Modules -maxdepth 2 -type d -name app ! -path 'Modules/Activity/*' -print0 
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)

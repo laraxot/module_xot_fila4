@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -415,4 +416,9 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 **Last Update**: Dicembre 2024 
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> 7e4835b8e (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.):docs/TESTING_BEST_PRACTICES.md

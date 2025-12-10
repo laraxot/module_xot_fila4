@@ -46,6 +46,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
 =======
 <<<<<<< HEAD
@@ -53,6 +54,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> e39b54ba7 (.)
 # Regole per le Risorse Filament in <nome progetto>
 
 ## Panoramica
@@ -150,7 +154,12 @@ Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resourc
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -162,6 +171,7 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 Tutte le risorse Filament in SaluteOra **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,7 +328,12 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 ```php
 // ✅ CORRETTO

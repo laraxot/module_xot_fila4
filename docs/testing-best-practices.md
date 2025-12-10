@@ -82,6 +82,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -343,7 +344,12 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 beforeEach(function (): void {
     mockXotData();
 });
@@ -430,6 +436,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -449,6 +456,8 @@ function mockXotData(): void
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
@@ -579,7 +588,13 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -888,6 +903,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 =======
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e0b8ebe3 (.)
@@ -1266,4 +1282,9 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)

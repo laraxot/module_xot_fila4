@@ -53,6 +53,7 @@ Trovati 4 errori al livello max.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -72,6 +73,8 @@ Trovati 4 errori al livello max.
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -218,7 +221,13 @@ Trovati 4 errori al livello max.
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -262,6 +271,7 @@ Trovati 4 errori al livello max.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -281,6 +291,8 @@ Trovati 4 errori al livello max.
 >>>>>>> f8f76a284 (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -427,7 +439,13 @@ Trovati 4 errori al livello max.
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -454,6 +472,7 @@ Trovati 4 errori al livello max.
 ## Collegamenti tra versioni di level_max.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,7 +556,12 @@ Trovati 4 errori al livello max.
 =======
 =======
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 * [level_max.md](laravel/Modules/Chart/project_docs/phpstan/level_max.md)
 * [level_max.md](laravel/Modules/Reporting/project_docs/phpstan/level_max.md)
 * [level_max.md](laravel/Modules/Gdpr/project_docs/phpstan/level_max.md)
@@ -555,6 +579,7 @@ Trovati 4 errori al livello max.
 * [level_max.md](laravel/Modules/Cms/project_docs/phpstan/level_max.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -727,4 +752,10 @@ Trovati 4 errori al livello max.
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)

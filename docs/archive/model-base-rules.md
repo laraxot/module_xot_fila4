@@ -95,6 +95,7 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -106,6 +107,8 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 >>>>>>> 5e6aa70fe (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> e39b54ba7 (.)
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
 <<<<<<< HEAD
@@ -273,7 +276,14 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)
 ## Eccezioni
 
 Non esistono eccezioni a questa regola. Tutti i modelli concreti devono seguirla.
@@ -308,6 +318,7 @@ abstract class BaseModel extends XotBaseModel
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,4 +638,14 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+- [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
+- [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
+- [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
+
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 55fe1822 (.)
+>>>>>>> e39b54ba7 (.)

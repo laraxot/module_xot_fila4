@@ -97,6 +97,7 @@ namespace Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Resources\Pages;
 =======
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
@@ -135,9 +136,13 @@ namespace Modules\SaluteOra\Filament\Resources\Pages;
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 >>>>>>> d86d643a (.)
 =======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 472bd9dc (.)
+=======
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,6 +244,8 @@ namespace Modules\SaluteOra\Filament\Resources\Pages;
 =======
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
 ```
 
 ## metodi delle classi base
@@ -272,6 +279,7 @@ protected function getInfolistSchema(): array
 
 ## linkback
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +360,8 @@ protected function getInfolistSchema(): array
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
 
@@ -363,6 +373,7 @@ protected function getInfolistSchema(): array
 - [errore override metodo final](/var/www/html/base_techplanner_fila3_mono/laravel/docs/errors/filament_final_method_override.md)
 - [linee guida filament](../<nome progetto>/docs/filament-resources.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,3 +492,5 @@ protected function getInfolistSchema(): array
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)

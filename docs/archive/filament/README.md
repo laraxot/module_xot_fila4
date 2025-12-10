@@ -195,6 +195,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
 =======
 - Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
@@ -242,9 +243,13 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
 >>>>>>> d86d643a (.)
 =======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 472bd9dc (.)
+=======
 - Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
 - Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../../docs/filament-best-practices.mdc)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -436,6 +441,8 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 =======
 - Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore

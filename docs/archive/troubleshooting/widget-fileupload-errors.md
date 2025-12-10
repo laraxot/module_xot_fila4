@@ -248,3 +248,7 @@ Questo pattern si applica anche a:
 **Tipo**: Troubleshooting Guide  
 **Modulo**: Xot (Base)  
 **Applicabilità**: Tutti i widget con FileUpload che caricano dati esistenti  
+<<<<<<< HEAD
+=======
+**Aggiornato**: 2025-01-07 
+>>>>>>> a5dccfe (.)

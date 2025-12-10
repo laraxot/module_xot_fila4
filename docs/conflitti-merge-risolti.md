@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -136,6 +137,8 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 # Risoluzione Conflitti di Merge 
 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 # Risoluzione Conflitti di Merge in SaluteOra
 
 ## Problema
@@ -175,6 +178,7 @@ Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -198,6 +202,8 @@ Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file
 =======
 >>>>>>> d86d643a (.)
 =======
+>>>>>>> 472bd9dc (.)
+=======
 # Risoluzione Conflitti di Merge in <nome progetto>
 
 ## Problema
@@ -209,6 +215,7 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 
 Durante lo sviluppo del progetto <nome progetto>, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +290,8 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`

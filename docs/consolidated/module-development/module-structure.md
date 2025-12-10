@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -85,6 +86,9 @@
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
 # Struttura dei Moduli in il progetto
 
 ## Panoramica
@@ -394,6 +398,7 @@ laravel/Modules/Patient/
 ├── app/
 │   ├── Filament/
 │   ├── Http/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)
@@ -799,6 +804,9 @@ laravel/Modules/Patient/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 # Module Structure in Laraxot
 
 ## Directory Structure
@@ -817,6 +825,7 @@ Module/
 │   └── Providers/
 ├── config/
 ├── database/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -899,6 +908,9 @@ Module/
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
 │   ├── migrations/
 │   └── seeders/
 ├── resources/           ✓ CORRETTO
@@ -997,6 +1009,7 @@ Se trovi una directory con case errato:
 
 ## Collegamenti tra versioni di module_structure.md
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)
@@ -1197,6 +1210,9 @@ Se trovi una directory con case errato:
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/

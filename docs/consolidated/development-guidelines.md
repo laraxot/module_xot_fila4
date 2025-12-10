@@ -132,7 +132,9 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 # Development Guidelines - Xot Module
 
 ## Panoramica
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,9 +151,12 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 >>>>>>> d86d643a (.)
 =======
+>>>>>>> 472bd9dc (.)
+=======
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3bf39332 (.)
@@ -192,6 +197,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
 
 ## PHPStan Best Practices
 

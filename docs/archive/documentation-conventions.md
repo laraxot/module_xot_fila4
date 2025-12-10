@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -84,6 +87,7 @@
 ### Collegamenti bidirezionali
 1. **Da modulo a root**: Ogni documento in un modulo deve linkare alla documentazione root correlata:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,10 +276,14 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> 88e35986 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464,6 +472,9 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> 88e35986 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -499,6 +510,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 ## Collegamenti a documentazione correlata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -681,11 +693,14 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 - [Documentazione generale](../../../project_docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -775,3 +790,6 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> 88e35986 (.)

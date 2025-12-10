@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,11 +21,14 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
 
 ## Contesto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +207,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto <no
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> b7ea1cd1 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 88e35986 (.)
 
 ## File Corretti
 
@@ -414,6 +421,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Stato**: ✅ Completato
 =======
 **Stato**: ✅ Completato
@@ -471,3 +479,6 @@ php artisan lang:check
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 88e35986 (.)

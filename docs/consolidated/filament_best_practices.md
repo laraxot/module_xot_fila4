@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -100,6 +103,7 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +203,11 @@ namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource;
 >>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 88e35986 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Filament\Actions;
 use Filament\Tables;
@@ -313,6 +322,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
@@ -396,6 +406,11 @@ namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\AppointmentResource;
 >>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 88e35986 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 
@@ -446,6 +461,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
@@ -529,6 +545,11 @@ namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\AppointmentResource;
 >>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 88e35986 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 /**
@@ -555,6 +576,7 @@ class CreateAppointment extends XotBaseCreateRecord
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -613,10 +635,13 @@ use Modules\SaluteOra\Models\Report;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 namespace Modules\SaluteMo\Filament\Resources;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 use Modules\SaluteOra\Models\Report;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -758,6 +783,8 @@ use Modules\<nome modulo>\Models\Report;
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
 
@@ -867,6 +894,7 @@ Prima di considerare completa una risorsa Filament, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -887,3 +915,5 @@ Prima di considerare completa una risorsa Filament, verificare:
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Lessons Learned – Consolidated Rules (2025-08-25)
 
 This document consolidates recurring fixes and rules applied across modules. Keep files lowercase (README.md excepted).
@@ -88,6 +91,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 =======
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/docs/` (module).
@@ -233,10 +237,14 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 >>>>>>> b7ea1cd1 (.)
+=======
+- No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
+>>>>>>> 88e35986 (.)
 - All docs filenames lowercase except `README.md`.
 
 ## 7. PHPStan
 - Do not modify `laravel/phpstan.neon`.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +310,9 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Use CLI flags for scope/limits; target level 9+. Keep array key/value types explicit.
 >>>>>>> 17684f52 (.)
+=======
+- Use CLI flags for scope/limits; target level 9+. Keep array key/value types explicit.
+>>>>>>> 88e35986 (.)
 
 ## 8. Testing
 - No `RefreshDatabase`.
@@ -310,6 +321,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 ## 9. URL Localization & Frontoffice
 - URLs prefixed by locale: `/{locale}/...`; get locale via `app()->getLocale()`.
 - Homepage blade: `Themes/One/resources/views/pages/index.blade.php` (`pub_theme::pages.index`).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,10 +451,13 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 - Content from `config/local/saluteora/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets (SaluteOra)
 - SVG in `laravel/Modules/SaluteOra/resources/svg/`, kebab-case; reference as `saluteora-{name}`.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -592,6 +607,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.
@@ -610,6 +627,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - Add JS callbacks: `eventDidMount`, `eventClassNames`, `selectAllow`, `eventAllow`.
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,3 +818,6 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+- Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+>>>>>>> 88e35986 (.)

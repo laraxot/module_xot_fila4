@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 ---
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
@@ -63,6 +66,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <div markdown="1" class="example pt-6">
 
 # h1 Heading
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +266,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 
 ## h2 Heading
 
@@ -336,6 +342,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -380,3 +387,5 @@ class Foo extends bar
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

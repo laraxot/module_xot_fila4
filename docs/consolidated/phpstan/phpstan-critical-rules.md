@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,10 +21,13 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # PHPStan Critical Rules - INTOCCABILE
 
 ## 🚨 REGOLA ASSOLUTA 🚨
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +222,9 @@
 =======
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
 >>>>>>> b7ea1cd1 (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 88e35986 (.)
 
 ## Motivazione
 
@@ -399,6 +406,7 @@ La configurazione PHPStan è **SACRA** e **INTOCCABILE**. Tutti gli errori PHPSt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -419,3 +427,5 @@ La configurazione PHPStan è **SACRA** e **INTOCCABILE**. Tutti gli errori PHPSt
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

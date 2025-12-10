@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,10 +24,13 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Regole generali per aggiornamento colonne e gestione errori schema
 
 ## Collegamento bidirezionale
 - Questo file è collegato a casi specifici documentati nei moduli, ad esempio:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +219,9 @@
 =======
   [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+  [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+>>>>>>> 88e35986 (.)
 
 ## Caso pratico: Performance
 - Per l’errore su `valutatore_id` in `performance_organizzativa`, vedere la documentazione dettagliata nel modulo Performance.
@@ -233,6 +240,7 @@
 
 ## Note
 - Per casi specifici e casistiche di errore consultare la documentazione dei singoli moduli (es. Performance).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,3 +302,5 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

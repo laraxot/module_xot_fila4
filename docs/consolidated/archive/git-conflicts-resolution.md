@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,11 +21,14 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
 
 ## Contesto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +211,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto , c
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> b7ea1cd1 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 88e35986 (.)
 
 ## File Corretti
 
@@ -366,6 +373,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -430,6 +438,8 @@ php artisan lang:check
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 
 ### Modulo User
@@ -437,6 +447,7 @@ php artisan lang:check
 
 ### Modulo Xot
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +627,8 @@ php artisan lang:check
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 
 ## Best Practices Applicate
 
@@ -670,6 +683,7 @@ php artisan lang:check
 ## Collegamenti Correlati
 
 ### Documentazione Moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,6 +785,8 @@ php artisan lang:check
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 - [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
@@ -778,6 +794,7 @@ php artisan lang:check
 - [Translation Standards](../../project_docs/translation-standards.md)
 - [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
 - [Git Best Practices](../../project_docs/git-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -957,11 +974,14 @@ php artisan lang:check
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1035,3 +1055,6 @@ php artisan lang:check
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 88e35986 (.)

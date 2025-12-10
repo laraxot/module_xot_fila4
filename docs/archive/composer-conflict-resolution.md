@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,12 +24,15 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Risoluzione conflitto composer.json (Xot)
 
 ## Intent
 - Garantire coerenza delle dipendenze e corretta configurazione dell’autoload per il modulo Xot.
 
 ## Cosa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +168,8 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 - Rimozione dei marker di conflitto in `composer.json`.
 - Rimozione dei marker di conflitto  in `composer.json`.
 
@@ -180,6 +186,7 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 - Conservazione della versione di `filament/filament`: `"^3.3"`.
 
 ## Collegamento alla doc root
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,3 +342,6 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+>>>>>>> 88e35986 (.)

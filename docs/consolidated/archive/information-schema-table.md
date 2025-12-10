@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # InformationSchemaTable
 
 ## Descrizione
@@ -71,6 +74,7 @@ class InformationSchemaTable extends Model
 ## Collegamenti
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 - [Schema Documentation](../DIRECTORY-STRUCTURE-GUIDE.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,3 +165,7 @@ class InformationSchemaTable extends Model
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Model Best Practices](../models/README.md) 
+>>>>>>> 88e35986 (.)

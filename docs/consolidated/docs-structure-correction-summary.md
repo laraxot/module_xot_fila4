@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,10 +21,13 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Correzione Struttura Cartelle Docs - Riepilogo Completo
 
 ## Contesto e Problema Identificato
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +216,9 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 >>>>>>> b7ea1cd1 (.)
+=======
+Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
+>>>>>>> 88e35986 (.)
 
 ## Violazioni Identificate e Corrette
 
@@ -231,6 +238,7 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 **Stato**: ✅ CORRETTA - Cartella eliminata, documentazione spostata nei moduli
 
 **File migrati**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +304,9 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 >>>>>>> 17684f52 (.)
+=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
+>>>>>>> 88e35986 (.)
 - Altri documenti analizzati e spostati nei moduli appropriati
 
 ## Regola Critica Implementata
@@ -357,6 +368,7 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 ```
 laravel/
 ├── Modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -548,6 +560,8 @@ laravel/
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 │   ├── Notify/project_docs/           # ✅ Documentazione modulo Notify
 │   ├── User/project_docs/             # ✅ Documentazione modulo User
 │   ├── UI/project_docs/               # ✅ Documentazione modulo UI
@@ -560,6 +574,7 @@ laravel/
 │   ├── Lang/project_docs/             # ✅ Documentazione modulo Lang
 │   ├── Activity/project_docs/         # ✅ Documentazione modulo Activity
 │   ├── Job/project_docs/              # ✅ Documentazione modulo Job
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -739,6 +754,10 @@ laravel/
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+│   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
+│   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
+>>>>>>> 88e35986 (.)
 ├── Themes/
 │   ├── One/project_docs/              # ✅ Documentazione tema One
 │   └── Two/project_docs/              # ✅ Documentazione tema Two
@@ -833,6 +852,7 @@ find laravel/Themes -name "docs" -type d
 - [Memoria Cursor](../../../.cursor/memories/docs-structure-violation.mdc)
 
 ### **Documentazione Moduli**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1019,10 +1039,13 @@ find laravel/Themes -name "docs" -type d
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
 - [Modulo SaluteMo](../SaluteMo/project_docs/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1180,6 +1203,9 @@ find laravel/Themes -name "docs" -type d
 =======
 - [Modulo SaluteOra](../SaluteOra/project_docs/)
 >>>>>>> b7ea1cd1 (.)
+=======
+- [Modulo SaluteOra](../SaluteOra/project_docs/)
+>>>>>>> 88e35986 (.)
 
 ### **Documentazione Correlata**:
 - [Regole Modularità](modularity-hardcoded-names.md)
@@ -1195,6 +1221,7 @@ find laravel/Themes -name "docs" -type d
 **Responsabile**: Team di sviluppo Laraxot
 **Verificato**: ✅ Conformità completa raggiunta
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1221,3 +1248,5 @@ find laravel/Themes -name "docs" -type d
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

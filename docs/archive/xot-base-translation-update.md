@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Aggiornamento File di Traduzione xot_base.php
 
 ## Data Aggiornamento
@@ -113,6 +116,7 @@ return [
 
 - [Regole Traduzioni Xot](translation_rules.md)
 - [Best Practices Traduzioni](translations-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -375,3 +379,8 @@ return [
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 88e35986 (.)

@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Gestione delle Eccezioni
 
 Questo documento fornisce una panoramica del sistema di gestione delle eccezioni nel modulo Xot.
@@ -60,6 +63,7 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 ## Collegamenti
 - [Exception Handling Guidelines](../EXCEPTION-HANDLING-GUIDE.md)
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,6 +137,9 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 17684f52 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 88e35986 (.)
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)
@@ -219,6 +226,7 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -243,3 +251,5 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

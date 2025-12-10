@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Troubleshooting - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTI i problemi comuni e le soluzioni del progetto
@@ -265,6 +268,7 @@ Codice non conforme agli standard di tipizzazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -422,6 +426,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 88e35986 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -821,6 +828,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -841,3 +849,5 @@ php artisan view:clear
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

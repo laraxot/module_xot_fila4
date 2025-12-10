@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 Gold Standard per i Test
@@ -68,6 +71,7 @@ it('extends pivot class', function () {
 function mockXotData(): void
 {
     $mock = \\Mockery::mock(\\Modules\\Xot\\Datas\\XotData::class)->makePartial();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +260,9 @@ function mockXotData(): void
 =======
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
 >>>>>>> b7ea1cd1 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 88e35986 (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }
@@ -299,6 +306,7 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -319,3 +327,5 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # pattern di estensione filament
 
 ## regola fondamentale
@@ -63,6 +66,7 @@ mantenere sempre lo stesso pattern di namespace rispetto a filament, ma usando i
 namespace Filament\Resources\Pages;
 
 // namespace corretto nel modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +255,9 @@ namespace Modules\SaluteOra\Filament\Resources\Pages;
 =======
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 >>>>>>> b7ea1cd1 (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 88e35986 (.)
 ```
 
 ## metodi delle classi base
@@ -284,6 +291,7 @@ protected function getInfolistSchema(): array
 
 ## linkback
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,3 +514,7 @@ protected function getInfolistSchema(): array
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
+>>>>>>> 88e35986 (.)

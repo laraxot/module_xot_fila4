@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # TransTrait
 
 ## Descrizione
@@ -74,6 +77,7 @@ class MyResource
 ## Collegamenti
 - [Filament Best Practices](../filament-best-practices.md)
 - [Translation Guidelines](../TRANSLATIONS-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,3 +159,6 @@ class MyResource
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 88e35986 (.)

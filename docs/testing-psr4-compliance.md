@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # PSR-4 Compliance per Test - Modulo Xot
 
 ## Problema Identificato
@@ -122,6 +125,7 @@ composer dump-autoload
 
 ## Correzioni Applicate
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,6 +339,8 @@ composer dump-autoload
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
 ### File: `tests/Unit/HasExtraTraitTest.php`
 
 - **Problema**: Classe `TestExtra` senza namespace appropriato
@@ -346,6 +352,7 @@ composer dump-autoload
 
 ## Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -546,6 +553,9 @@ composer dump-autoload
 =======
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 88e35986 (.)
 - [PHPStan Configuration](./phpstan-configuration-fixes.md)
 - [Best Practices](./best-practices-consolidated.md)
 
@@ -554,6 +564,7 @@ composer dump-autoload
 *Ultimo aggiornamento: 2025-01-06*
 *Conformità: PSR-4, PHPStan livello 9+, Laraxot standards*
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,3 +597,5 @@ composer dump-autoload
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

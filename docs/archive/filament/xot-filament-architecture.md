@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Architettura Filament-Xot
 
 ## Panoramica
@@ -35,6 +38,7 @@ L'architettura Filament-Xot definisce come il modulo Xot estende e personalizza 
 
 Il sistema è costruito attorno a classi base che forniscono funzionalità comuni:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +277,11 @@ Il sistema è costruito attorno a classi base che forniscono funzionalità comun
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
 
 >>>>>>> b7ea1cd1 (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> 88e35986 (.)
 ### Principi Architetturali
 
 1. **Composizione over Inheritance**: Preferire la composizione all'ereditarietà diretta
@@ -306,6 +315,7 @@ class MyPage extends XotBasePage
 - **Consistenza**: Comportamento uniforme tra moduli
 - **Manutenibilità**: Modifiche centralizzate nelle classi base
 - **Estensibilità**: Facile aggiunta di nuove funzionalità 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,3 +377,5 @@ class MyPage extends XotBasePage
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

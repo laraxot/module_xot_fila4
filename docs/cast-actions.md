@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Azioni di Cast Sicure - Sostituzione di property_exists
 
 ## Panoramica
@@ -31,6 +34,7 @@ Questo documento descrive le azioni di cast sicure che sostituiscono completamen
 
 ## Problema con property_exists
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,12 +57,17 @@ L'uso di `property_exists()` con modelli Laravel è problematico perché:
 L'uso di `property_exists()` con modelli Laravel è problematico perché:
 
 >>>>>>> 17684f52 (.)
+=======
+L'uso di `property_exists()` con modelli Laravel è problematico perché:
+
+>>>>>>> 88e35986 (.)
 - È una funzione PHP generica che non conosce l'architettura Laravel
 - Può dare falsi positivi con proprietà dinamiche di Eloquent
 - È meno performante e meno leggibile
 - Non segue i principi DRY e KISS
 - Può causare errori di tipo e comportamenti imprevedibili
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,6 +99,8 @@ if ($email !== null) {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 ## Soluzioni Implementate
 
 ### 1. SafeEloquentCastAction
@@ -316,6 +327,7 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -360,3 +372,5 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

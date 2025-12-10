@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -250,6 +253,7 @@ test('complete tax filing process', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 =======
 ### Healthcare Domain () - **Real Data Preferred**
@@ -401,6 +405,9 @@ test('complete tax filing process', function () {
 =======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 >>>>>>> b7ea1cd1 (.)
+=======
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+>>>>>>> 88e35986 (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -618,6 +625,7 @@ test('legacy feature with mocks', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **For <nome progetto> Healthcare Domain**: 
 =======
 **For  Healthcare Domain**: 
@@ -769,6 +777,9 @@ test('legacy feature with mocks', function () {
 =======
 **For SaluteOra Healthcare Domain**: 
 >>>>>>> b7ea1cd1 (.)
+=======
+**For SaluteOra Healthcare Domain**: 
+>>>>>>> 88e35986 (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -784,6 +795,7 @@ test('legacy feature with mocks', function () {
 **Decision Authority**: Technical Architecture Committee  
 **Implementation Timeline**: 4-week migration  
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -810,3 +822,5 @@ test('legacy feature with mocks', function () {
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

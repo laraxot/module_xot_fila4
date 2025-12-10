@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Guida al Riavvio del Sistema Dopo Validazione PHPStan
 
 ## Introduzione
@@ -59,6 +62,7 @@ composer dump-autoload
 ### 2. Riavvio dei Servizi Web
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +281,11 @@ sudo systemctl restart apache2
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 >>>>>>> 17684f52 (.)
+=======
+
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 88e35986 (.)
 
 # oppure
 sudo systemctl restart nginx
@@ -390,6 +399,7 @@ Un riavvio corretto del sistema dopo la validazione PHPStan è essenziale per ga
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -434,3 +444,5 @@ Un riavvio corretto del sistema dopo la validazione PHPStan è essenziale per ga
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

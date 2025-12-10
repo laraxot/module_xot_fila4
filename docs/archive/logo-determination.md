@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
 # Determinazione del Logo Basata sul Dominio
 
 ## Introduzione
@@ -52,6 +55,7 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 - **Riutilizzabilità**: L'uso di namespace per i percorsi degli asset consente ai moduli di essere riutilizzabili in più progetti.
 
 ## Collegamenti Bidirezionali
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,3 +304,8 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+- Per ulteriori dettagli sul progetto specifico, consultare la documentazione nella root del progetto: [INDEX.md](../../../project_docs/INDEX.md).
+- Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md).
+- Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/project_docs/convenzioni-namespace-filament.md).
+>>>>>>> 88e35986 (.)

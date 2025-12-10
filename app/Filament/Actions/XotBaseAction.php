@@ -28,6 +28,48 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @method static static make(?string $name = null) Create a new instance of the action
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+abstract class XotBaseAction extends FilamentAction {}
+abstract class XotBaseAction extends Action
+{
+}
+abstract class XotBaseAction extends Action
+{
+}
+abstract class XotBaseAction extends Action
+{
+}
+abstract class XotBaseAction extends FilamentAction {
+    
+}
+<<<<<<< HEAD
+abstract class XotBaseAction extends FilamentAction {
+    
+}
+abstract class XotBaseAction extends Action {}
+abstract class XotBaseAction extends FilamentAction {
+    
+}
+abstract class XotBaseAction extends Action
+{
+}
+abstract class XotBaseAction extends FilamentAction {
+    
+}
+abstract class XotBaseAction extends FilamentAction {
+    
+}
+abstract class XotBaseAction extends Action {}
+abstract class XotBaseAction extends FilamentAction {
+    
+}
 abstract class XotBaseAction extends FilamentAction {}
 abstract class XotBaseAction extends Action
 {
@@ -61,39 +103,17 @@ abstract class XotBaseAction extends Action {}
 abstract class XotBaseAction extends FilamentAction {
     
 }
-abstract class XotBaseAction extends FilamentAction {}
 abstract class XotBaseAction extends Action
 {
 }
-abstract class XotBaseAction extends Action
-{
-}
-abstract class XotBaseAction extends Action
-{
-}
+=======
+>>>>>>> 53d6a6ba (.)
+=======
 abstract class XotBaseAction extends FilamentAction {
     
 }
-abstract class XotBaseAction extends FilamentAction {
-    
-}
+=======
 abstract class XotBaseAction extends Action {}
-abstract class XotBaseAction extends FilamentAction {
-    
-}
-abstract class XotBaseAction extends Action
-{
-}
-abstract class XotBaseAction extends FilamentAction {
-    
-}
-abstract class XotBaseAction extends FilamentAction {
-    
-}
-abstract class XotBaseAction extends Action {}
-abstract class XotBaseAction extends FilamentAction {
-    
-}
-abstract class XotBaseAction extends Action
-{
-}
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)

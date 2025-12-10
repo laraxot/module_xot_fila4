@@ -76,6 +76,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
@@ -88,6 +89,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +128,18 @@ abstract class TestCase extends BaseTestCase
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+
+<<<<<<< HEAD
+    // use DatabaseMigrations;
+=======
+    //use DatabaseMigrations;
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
 
 =======
 >>>>>>> f1d4085 (.)
@@ -329,18 +344,29 @@ abstract class TestCase extends BaseTestCase
             'name' => fake()->name(),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
         $userData = array_merge($defaultData, $attributes);
 
         /** @var UserContract&Model $user */
+        /* @phpstan-ignore-next-line method.nonObject */
         $user = $userClass::factory()->create($userData);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,6 +411,10 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
         
         $userData = array_merge($defaultData, $attributes);
         
@@ -392,6 +422,7 @@ abstract class TestCase extends BaseTestCase
         $user = $userClass::factory()->create($userData);
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -412,11 +443,19 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         return $user;
     }
 
     /**
      * Mock XotData for widget testing (Gold Standard Pattern).
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
 <<<<<<< HEAD
@@ -460,6 +499,10 @@ abstract class TestCase extends BaseTestCase
 =======
 =======
 <<<<<<< HEAD
+     *
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
 =======
@@ -469,7 +512,13 @@ abstract class TestCase extends BaseTestCase
      *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+     *
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
      * Prevents "Class not found" errors and provides consistent behavior
      * across all widget tests.
      *
@@ -491,34 +540,70 @@ abstract class TestCase extends BaseTestCase
     protected static function mockXotData(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
 =======
 <<<<<<< HEAD
         $mockXotData = \Mockery::mock(XotData::class)->makePartial();
 =======
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
+=======
+        $mockXotData = \Mockery::mock(XotData::class)->makePartial();
+=======
+        $mockXotData = Mockery::mock(XotData::class)->makePartial();
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $mockXotData = Mockery::mock(XotData::class)->makePartial();
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')->andReturn(User::class);
+        $userClass = XotData::make()->getUserClass();
+        /* @phpstan-ignore-next-line method.notFound */
+        $mockXotData->shouldReceive('getUserClass')->andReturn($userClass);
 
+        /* @phpstan-ignore-next-line method.notFound */
         $mockXotData
+            /* @phpstan-ignore-next-line method.notFound */
             ->shouldReceive('getUserResourceClassByType')
+            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with('patient')
+            /* @phpstan-ignore-next-line method.nonObject */
             ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
 
+        /* @phpstan-ignore-next-line method.notFound */
         $mockXotData
+            /* @phpstan-ignore-next-line method.notFound */
             ->shouldReceive('getUserResourceClassByType')
+            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with('doctor')
+            /* @phpstan-ignore-next-line method.nonObject */
             ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
 
+        /* @phpstan-ignore-next-line method.notFound */
         $mockXotData
+            /* @phpstan-ignore-next-line method.notFound */
             ->shouldReceive('getUserResourceClassByType')
+<<<<<<< HEAD
             /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with(\Mockery::any())
             /* @phpstan-ignore-next-line method.nonObject */
@@ -594,6 +679,10 @@ abstract class TestCase extends BaseTestCase
 
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
             ->with(Mockery::any())
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
 
@@ -618,6 +707,11 @@ abstract class TestCase extends BaseTestCase
             
         $mockXotData->shouldReceive('getUserResourceClassByType')
             ->with(Mockery::any())
+=======
+            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
+            ->with(\Mockery::any())
+            /* @phpstan-ignore-next-line method.nonObject */
+>>>>>>> b7afadf9 (.)
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
             
         $mockXotData->shouldReceive('make')
@@ -687,8 +781,40 @@ abstract class TestCase extends BaseTestCase
         
 <<<<<<< HEAD
 
+        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        
+        // Mock dei metodi critici con fallback sicuri
+        $mockXotData->shouldReceive('getUserClass')
+            ->andReturn(User::class);
+            
+        $mockXotData->shouldReceive('getUserResourceClassByType')
+            ->with('patient')
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
+            
+        $mockXotData->shouldReceive('getUserResourceClassByType')
+            ->with('doctor')  
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
+            
+        $mockXotData->shouldReceive('getUserResourceClassByType')
+            ->with(Mockery::any())
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
+            
+        $mockXotData->shouldReceive('make')
+            ->andReturn($mockXotData);
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // ✅ CRITICO: Bind nel container per risoluzione automatica
         app()->instance(XotData::class, $mockXotData);
         // ✅ CRITICO: Bind nel container per risoluzione automatica
@@ -764,6 +890,7 @@ abstract class TestCase extends BaseTestCase
             'password_confirmation' => 'password123',
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,6 +933,10 @@ abstract class TestCase extends BaseTestCase
 =======
 =======
 <<<<<<< HEAD
+
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -815,7 +946,13 @@ abstract class TestCase extends BaseTestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         return array_merge($defaultData, $overrides);
     }
 
@@ -828,6 +965,13 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    protected function assertUserAuthenticated(?string $expectedType = null): void
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     protected function assertUserAuthenticated(?string $expectedType = null): void
 =======
 =======
@@ -843,6 +987,7 @@ abstract class TestCase extends BaseTestCase
     {
         $this->assertAuthenticated();
 
+<<<<<<< HEAD
     protected function assertUserAuthenticated(?string $expectedType = null): void
     {
         $this->assertAuthenticated();
@@ -852,15 +997,28 @@ abstract class TestCase extends BaseTestCase
         $this->assertAuthenticated();
 
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
     protected function assertUserAuthenticated(null|string $expectedType = null): void
+=======
+=======
+>>>>>>> 300ef70 (.)
+    protected function assertUserAuthenticated(null|string $expectedType = null): void
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         $this->assertAuthenticated();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
     protected function assertUserAuthenticated(?string $expectedType = null): void
     {
@@ -870,6 +1028,11 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         if ($expectedType !== null) {
             /** @var UserContract|null $user */
             $user = auth()->user();
@@ -878,6 +1041,7 @@ abstract class TestCase extends BaseTestCase
             if ($user && method_exists($user, 'type')) {
                 self::assertSame($expectedType, $user->type ?? null);
             $this->assertNotNull($user);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -921,6 +1085,10 @@ abstract class TestCase extends BaseTestCase
 =======
 =======
 <<<<<<< HEAD
+
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -930,7 +1098,13 @@ abstract class TestCase extends BaseTestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             if ($user && method_exists($user, 'type')) {
                 $this->assertEquals($expectedType, $user->type ?? null);
             }

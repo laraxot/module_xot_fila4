@@ -81,6 +81,7 @@ final class GetFieldnamesByTablenameAction
 <<<<<<< HEAD
     public function execute(string $table, ?string $connectionName = null): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -135,6 +136,13 @@ final class GetFieldnamesByTablenameAction
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string $table, ?string $connectionName = null): array
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(string $table, null|string $connectionName = null): array
@@ -142,7 +150,10 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 2f3197ab (.)
     public function execute(string $table, ?string $connectionName = null): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -269,13 +280,34 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
     public function execute(string $table, null|string $connectionName = null): array
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function execute(string $table, null|string $connectionName = null): array
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    public function execute(string $table, null|string $connectionName = null): array
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -284,12 +316,21 @@ final class GetFieldnamesByTablenameAction
 
         // Use default connection if none is provided
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         Assert::string($connectionName ??= config('database.default'));
 
         // Validate database connection
@@ -312,6 +353,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $connectionName,
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,10 +419,16 @@ final class GetFieldnamesByTablenameAction
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         Assert::string($connectionName = $connectionName ?? config('database.default'));
 
         // Validate database connection
         if (! $this->isValidConnection($connectionName)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,10 +442,14 @@ final class GetFieldnamesByTablenameAction
 =======
             throw new InvalidArgumentException(sprintf('Invalid database connection: %s',  $connectionName));
 >>>>>>> 7468a7d2 (.)
+=======
+            throw new InvalidArgumentException(sprintf('Invalid database connection: %s',  $connectionName));
+>>>>>>> 5cf46378 (.)
         }
 
         // Check if table exists in the database
         if (! Schema::connection($connectionName)->hasTable($table)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,12 +473,19 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
             throw new InvalidArgumentException(sprintf('Table "%s" does not exist in connection "%s".', $table,  $connectionName));
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         // Get and return column listing
@@ -437,12 +496,21 @@ final class GetFieldnamesByTablenameAction
 
             return $columns;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (Throwable $e) {
@@ -451,6 +519,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $e->getMessage(),
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,10 +555,15 @@ final class GetFieldnamesByTablenameAction
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (Throwable $e) {
             throw new InvalidArgumentException(sprintf('Error fetching columns from table "%s": %s', $table, $e->getMessage()));
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -515,6 +589,13 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
     }
 

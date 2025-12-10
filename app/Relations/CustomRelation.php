@@ -134,6 +134,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -149,12 +150,24 @@ class CustomRelation extends Relation
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         protected ?Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
          */
         protected ?Closure $eagerMatcher,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -242,7 +255,22 @@ class CustomRelation extends Relation
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         protected null|Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
@@ -250,6 +278,7 @@ class CustomRelation extends Relation
         protected null|Closure $eagerMatcher,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,7 +344,14 @@ class CustomRelation extends Relation
 =======
 >>>>>>> 17684f52 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         protected ?Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
@@ -323,6 +359,7 @@ class CustomRelation extends Relation
         protected ?Closure $eagerMatcher,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,12 +492,31 @@ class CustomRelation extends Relation
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     ) {
         parent::__construct($query, $model);
     }
@@ -511,6 +567,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         if (! \is_callable($this->eagerConstraints)) {
         if (! \is_callable($this->eagerConstraints)) {
@@ -525,6 +582,10 @@ class CustomRelation extends Relation
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if (! \is_callable($this->eagerConstraints)) {
 =======
 =======
@@ -565,15 +626,30 @@ class CustomRelation extends Relation
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         if (! \is_callable($this->eagerConstraints)) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! \is_callable($this->eagerConstraints)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         if (!\is_callable($this->eagerConstraints)) {
 =======
         if (! \is_callable($this->eagerConstraints)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,9 +731,16 @@ class CustomRelation extends Relation
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         if (!\is_callable($this->eagerConstraints)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
             throw new Exception('eagerConstraints is not callable');
@@ -675,10 +758,20 @@ class CustomRelation extends Relation
         if (!\is_callable($this->eagerConstraints)) {
 =======
         if (! \is_callable($this->eagerConstraints)) {
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         if (!\is_callable($this->eagerConstraints)) {
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        if (!\is_callable($this->eagerConstraints)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             throw new Exception('eagerConstraints is not callable');
 =======
         if (! \is_callable($this->eagerConstraints)) {
@@ -760,6 +853,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         if (! \is_callable($this->eagerMatcher)) {
         if (! \is_callable($this->eagerMatcher)) {
@@ -774,6 +868,10 @@ class CustomRelation extends Relation
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if (! \is_callable($this->eagerMatcher)) {
 =======
 =======
@@ -814,15 +912,30 @@ class CustomRelation extends Relation
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         if (! \is_callable($this->eagerMatcher)) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! \is_callable($this->eagerMatcher)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         if (!\is_callable($this->eagerMatcher)) {
 =======
         if (! \is_callable($this->eagerMatcher)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -904,9 +1017,16 @@ class CustomRelation extends Relation
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         if (!\is_callable($this->eagerMatcher)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
             throw new Exception('eagerMatcher is not callable');
@@ -924,10 +1044,20 @@ class CustomRelation extends Relation
         if (!\is_callable($this->eagerMatcher)) {
 =======
         if (! \is_callable($this->eagerMatcher)) {
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         if (!\is_callable($this->eagerMatcher)) {
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        if (!\is_callable($this->eagerMatcher)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             throw new Exception('eagerMatcher is not callable');
 =======
         if (! \is_callable($this->eagerMatcher)) {
@@ -1024,6 +1154,7 @@ class CustomRelation extends Relation
             $columns = [$this->related->getTable().'.*'];
             $columns = [$this->related->getTable().'.*'];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
             $columns = [$this->related->getTable().'.*'];
@@ -1034,6 +1165,9 @@ class CustomRelation extends Relation
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
             $columns = [$this->related->getTable().'.*'];
 =======
             $columns = [$this->related->getTable() . '.*'];
@@ -1092,15 +1226,30 @@ class CustomRelation extends Relation
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
             $columns = [$this->related->getTable().'.*'];
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            $columns = [$this->related->getTable().'.*'];
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
             $columns = [$this->related->getTable() . '.*'];
 =======
             $columns = [$this->related->getTable().'.*'];
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1200,11 +1349,33 @@ class CustomRelation extends Relation
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
             $columns = [$this->related->getTable() . '.*'];
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            $columns = [$this->related->getTable() . '.*'];
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            $columns = [$this->related->getTable().'.*'];
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+            $columns = [$this->related->getTable() . '.*'];
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         $query = $this->query->applyScopes();

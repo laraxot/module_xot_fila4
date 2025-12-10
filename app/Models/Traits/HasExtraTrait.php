@@ -111,12 +111,21 @@ trait HasExtraTrait
             ->toString();
         Assert::classExists($extra_class);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         Assert::isAOf(
             $extra_class,
             Model::class,
@@ -127,6 +136,7 @@ trait HasExtraTrait
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,10 +155,15 @@ trait HasExtraTrait
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
         Assert::isAOf($extra_class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -171,6 +186,11 @@ trait HasExtraTrait
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Assert::isInstanceOf($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
         // Assert::implementsInterface($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
 
@@ -206,6 +226,7 @@ trait HasExtraTrait
     public function getExtra(string $name): array|bool|int|string|null
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($this->extra === null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,12 +259,18 @@ trait HasExtraTrait
 =======
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        if ($this->extra === null) {
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         if ($this->extra === null) {
 =======
 
         if ($this->extra == null) {
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         if ($this->extra === null) {
@@ -258,21 +285,39 @@ trait HasExtraTrait
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
         if ($this->extra === null) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        if ($this->extra === null) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             return null;
         }
         $value = $this->extra->extra_attributes->get($name);
         if (
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             is_array($value) ||
                 is_int($value) ||
                 // || is_float($value)
@@ -284,6 +329,7 @@ trait HasExtraTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -299,10 +345,16 @@ trait HasExtraTrait
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
             is_array($value) || is_int($value)
             // || is_float($value)
             || is_null($value) || is_bool($value)
             || is_string($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,11 +379,18 @@ trait HasExtraTrait
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         ) {
             /** @var array<string, mixed>|bool|int|string|null */
 
@@ -343,6 +402,12 @@ trait HasExtraTrait
             return $value;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
 <<<<<<< HEAD
 =======
@@ -532,6 +597,12 @@ trait HasExtraTrait
 =======
 =======
 <<<<<<< HEAD
+=======
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         throw new Exception('['.__LINE__.']['.__CLASS__.']');
 =======
 <<<<<<< HEAD
@@ -544,8 +615,28 @@ trait HasExtraTrait
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     /**
@@ -575,12 +666,21 @@ trait HasExtraTrait
         if ($this->extra === null) {
             // $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => []]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => json_encode([])]);
             Assert::implementsInterface(
                 $extra,
@@ -603,6 +703,10 @@ trait HasExtraTrait
         Assert::notNull($extra);
         // $extra is asserted to be non-null above
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -615,6 +719,11 @@ trait HasExtraTrait
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         $extra->extra_attributes->set($name, $value);
         $extra->save();
     }

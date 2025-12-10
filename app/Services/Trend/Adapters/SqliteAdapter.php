@@ -33,6 +33,7 @@ namespace Modules\Xot\Services\Trend\Adapters;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use Override;
@@ -47,6 +48,16 @@ use Override;
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
 =======
@@ -55,8 +66,27 @@ use Override;
 use Override;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+use Override;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+use Override;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Error;
 use Override;
 use Override;
@@ -159,7 +189,10 @@ use Error;
 
 class SqliteAdapter extends AbstractAdapter
 {
+<<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
     #[Override]
     #[Override]
 class SqliteAdapter extends AbstractAdapter
@@ -196,6 +229,8 @@ class SqliteAdapter extends AbstractAdapter
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
@@ -205,7 +240,13 @@ class SqliteAdapter extends AbstractAdapter
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function format(string $column, string $interval): string
     {
         $format = match ($interval) {

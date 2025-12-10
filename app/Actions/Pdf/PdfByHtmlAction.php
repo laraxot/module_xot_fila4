@@ -33,6 +33,7 @@ namespace Modules\Xot\Actions\Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -251,6 +252,11 @@ use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 =======
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -258,11 +264,22 @@ use Spatie\QueueableAction\QueueableAction;
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 use Spipu\Html2Pdf\Html2Pdf;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Spipu\Html2Pdf\Html2Pdf;
 use Modules\Xot\Datas\PdfData;
 use Illuminate\Support\Facades\Storage;
@@ -281,6 +298,7 @@ use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,12 +397,34 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction
@@ -427,16 +467,26 @@ class PdfByHtmlAction
             'engine' => $engine,
         ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
         // Genera il PDF utilizzando PdfData
         $data->fromHtml($html);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,10 +506,16 @@ class PdfByHtmlAction
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         
         // Genera il PDF utilizzando PdfData
         $data->fromHtml($html);
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,11 +547,18 @@ class PdfByHtmlAction
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Restituisce il risultato in base al tipo di output richiesto
         return match ($out) {
             'download' => $data->download(),

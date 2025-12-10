@@ -134,12 +134,21 @@ class FakeSeederAction
     public function execute(string $modelClass, int $qty): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         if (
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
@@ -158,6 +167,10 @@ class FakeSeederAction
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
         ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -166,6 +179,11 @@ class FakeSeederAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,16 +307,26 @@ class FakeSeederAction
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -317,10 +345,15 @@ class FakeSeederAction
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
         Notification::make()->title($title)->success()->send();
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -343,6 +376,11 @@ class FakeSeederAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     /**
@@ -365,6 +403,7 @@ class FakeSeederAction
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,13 +424,21 @@ class FakeSeederAction
 =======
 =======
 <<<<<<< HEAD
+        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
         app(self::class)
             ->onQueue()
             ->execute($modelClass, $qty - self::MAX_RECORDS);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -419,28 +466,46 @@ class FakeSeederAction
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
         /** @var Model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -480,11 +545,17 @@ class FakeSeederAction
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         
         /** @var Model */
         $model = app($modelClass);
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -505,6 +576,13 @@ class FakeSeederAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         return $model->getTable();
     }
 }

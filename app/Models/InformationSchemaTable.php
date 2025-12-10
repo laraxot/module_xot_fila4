@@ -119,10 +119,18 @@ use Webmozart\Assert\Assert;
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @property string|null $model_class
  *
  * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
  *
+<<<<<<< HEAD
  * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable query()
@@ -154,6 +162,14 @@ class InformationSchemaTable extends Model
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model
+=======
+<<<<<<< HEAD
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model

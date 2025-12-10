@@ -100,6 +100,7 @@ class GetAllModelsByModuleNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -113,10 +114,29 @@ class GetAllModelsByModuleNameAction
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (! ($mod instanceof \Nwidart\Modules\Module)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
 =======
         if (! $mod instanceof \Nwidart\Modules\Module) {
@@ -125,6 +145,13 @@ class GetAllModelsByModuleNameAction
         if (!($mod instanceof \Nwidart\Modules\Module)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
             return [];
         }
 
@@ -332,6 +359,7 @@ class GetAllModelsByModuleNameAction
 <<<<<<< HEAD
                     if (! $reflection_class->isAbstract()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -462,6 +490,12 @@ class GetAllModelsByModuleNameAction
 >>>>>>> a67e542f (.)
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
                     if (!$reflection_class->isAbstract()) {
@@ -472,8 +506,27 @@ class GetAllModelsByModuleNameAction
                     if (!$reflection_class->isAbstract()) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

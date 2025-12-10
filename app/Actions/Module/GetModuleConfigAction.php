@@ -5,6 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Module;
 
 <<<<<<< HEAD
+=======
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\File;
+>>>>>>> 5cf46378 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -15,6 +22,7 @@ namespace Modules\Xot\Actions\Module;
 use Exception;
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,9 +112,19 @@ use Illuminate\Support\Facades\File;
 =======
 >>>>>>> 7131bd09 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Str;
+>>>>>>> b7afadf9 (.)
+=======
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,9 +149,12 @@ use Illuminate\Support\Str;
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> b7afadf9 (.)
+=======
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,7 +225,25 @@ use Illuminate\Support\Str;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetModuleConfigAction
@@ -212,6 +251,10 @@ class GetModuleConfigAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     /**
      * @return array<string, mixed>
      */
@@ -221,6 +264,46 @@ class GetModuleConfigAction
         $configFile = $configPath.'/'.$config.'.php';
         if (! file_exists($configFile)) {
             throw new Exception('Config file not found: '.$configFile);
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+    public function execute(string $moduleName, string $config): array
+    {
+        $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');
+<<<<<<< HEAD
+        $configFile = $configPath.'/'.$config.'.php';
+        if (! file_exists($configFile)) {
+            throw new Exception('Config file not found: '.$configFile);
+=======
+        $configFile = $configPath . '/' . $config . '.php';
+        if (!file_exists($configFile)) {
+            throw new Exception('Config file not found: ' . $configFile);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function execute(string $moduleName,string $config): array
+    {
+        $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');
+        $configFile=$configPath.'/'.$config.'.php';
+        if(!file_exists($configFile)){
+            throw new Exception('Config file not found: '.$configFile);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+        }
+        dddx(File::getRequire($configFile));
+
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD

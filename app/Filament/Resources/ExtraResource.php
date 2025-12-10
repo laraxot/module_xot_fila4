@@ -33,6 +33,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -46,6 +47,40 @@ namespace Modules\Xot\Filament\Resources;
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Component;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\CreateExtra;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\EditExtra;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
+use Modules\Xot\Models\Extra;
+use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+use Filament\Schemas\Components\Component;
+use Override;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\CreateExtra;
+use Modules\Xot\Filament\Resources\ExtraResource\Pages\EditExtra;
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
@@ -141,9 +176,15 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 class ExtraResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static ?string $model = Extra::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 use Filament\Schemas\Components\Component;
 use Override;
@@ -569,7 +610,17 @@ use Modules\Xot\Filament\Resources\ExtraResource\Pages;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+    protected static null|string $model = Extra::class;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Modules\Xot\Models\Extra;
 
 
@@ -580,6 +631,10 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
 
 class ExtraResource extends XotBaseResource
 {
@@ -601,6 +656,7 @@ class ExtraResource extends XotBaseResource
     protected static null|string $model = Extra::class;
     protected static null|string $model = Extra::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,23 +756,51 @@ class ExtraResource extends XotBaseResource
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
     /**
      * Get the form schema for the resource.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
      * @return array<string, Component>
      */
     #[Override]
@@ -726,6 +810,7 @@ class ExtraResource extends XotBaseResource
             'id' => TextInput::make('id')->required()->maxLength(36),
             'post_type' => TextInput::make('post_type')->required()->maxLength(255),
             'post_id' => TextInput::make('post_id')->required()->numeric(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -767,6 +852,8 @@ class ExtraResource extends XotBaseResource
 >>>>>>> ce6fc085 (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 =======
      * @return array<string, \Filament\Schemas\Components\Component>
@@ -774,7 +861,10 @@ class ExtraResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
             'id' => TextInput::make('id')
                 ->required()
                 ->maxLength(36),
@@ -787,6 +877,7 @@ class ExtraResource extends XotBaseResource
                 ->required()
                 ->numeric(),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -817,11 +908,18 @@ class ExtraResource extends XotBaseResource
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             'value' => KeyValue::make('value')
                 ->keyLabel('Chiave')
                 ->valueLabel('Valore')
@@ -831,12 +929,21 @@ class ExtraResource extends XotBaseResource
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -844,6 +951,7 @@ class ExtraResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -872,6 +980,10 @@ class ExtraResource extends XotBaseResource
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
     public static function getRelations(): array
     {
         return [
@@ -879,6 +991,7 @@ class ExtraResource extends XotBaseResource
     }
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -903,6 +1016,13 @@ class ExtraResource extends XotBaseResource
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public static function getPages(): array
     {
         return [

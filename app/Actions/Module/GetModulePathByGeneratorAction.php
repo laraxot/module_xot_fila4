@@ -90,13 +90,52 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
         $relativePath = Config::string('modules.paths.generator.' . $generatorPath . '.path');
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+        try {
+            $res = module_path($moduleName, $relativePath);
+        } catch (Exception|Error $e) {
+            throw new Exception('Module path not found: 
+            name:['.
+            $moduleName.
+            '] 
+            generatorPath:['.
+            $generatorPath.
+            ']
+            error_message:['.
+            $e->getMessage().
+                ']');
+        }
+<<<<<<< HEAD
+        Assert::string($res, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+        Assert::string($res, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+        $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
+>>>>>>> b7afadf9 (.)
         try {
             $res = module_path($moduleName, $relativePath);
         } catch (Exception|Error $e) {
@@ -246,6 +285,7 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
         Assert::string($res, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             name:[' .
@@ -545,6 +585,8 @@ class GetModulePathByGeneratorAction
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
         Assert::string($res, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
         Assert::string($res);
@@ -552,8 +594,26 @@ class GetModulePathByGeneratorAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        Assert::string($res, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         return $res;
     }

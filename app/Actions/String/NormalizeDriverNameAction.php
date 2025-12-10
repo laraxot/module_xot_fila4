@@ -78,7 +78,22 @@ use Spatie\QueueableAction\QueueableAction;
 use function Safe\preg_replace;
 <<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
 use function Safe\preg_replace;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -152,6 +167,7 @@ use function Safe\preg_replace;
 /**
  * Action per normalizzare i nomi dei driver.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +210,10 @@ use function Safe\preg_replace;
 =======
 =======
 <<<<<<< HEAD
+ *
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -203,7 +223,13 @@ use function Safe\preg_replace;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+ *
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * Questa action centralizza la logica di normalizzazione dei nomi dei driver
  * per evitare duplicazione di codice e garantire consistenza in tutta l'applicazione.
  */
@@ -310,6 +336,7 @@ class NormalizeDriverNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -416,7 +443,53 @@ class NormalizeDriverNameAction
 =======
      * @param  string  $driver  Nome del driver da normalizzare
 >>>>>>> 16dc7ab0 (.)
+<<<<<<< HEAD
 >>>>>>> 01502290 (.)
+=======
+=======
+     * @param string $driver Nome del driver da normalizzare
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+=======
+     * @param string $driver Nome del driver da normalizzare
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> b7ea1cd1 (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+=======
+     * @param string $driver Nome del driver da normalizzare
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> 16dc7ab0 (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> 53d6a6ba (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+=======
+     * @param string $driver Nome del driver da normalizzare
+>>>>>>> 0218cd5 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
@@ -424,6 +497,7 @@ class NormalizeDriverNameAction
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -500,13 +574,21 @@ class NormalizeDriverNameAction
 =======
 =======
 >>>>>>> 16dc7ab0 (.)
+<<<<<<< HEAD
 >>>>>>> 01502290 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $result = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 
         // Assicuriamo che il risultato sia sempre una stringa
         return is_string($result) ? $result : '';
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -594,6 +676,7 @@ class NormalizeDriverNameAction
 =======
 =======
 >>>>>>> 16dc7ab0 (.)
+<<<<<<< HEAD
 >>>>>>> 01502290 (.)
     }
 <<<<<<< HEAD
@@ -638,6 +721,46 @@ class NormalizeDriverNameAction
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+        return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+        return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+=======
+        return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
+>>>>>>> 0218cd5 (.)
+>>>>>>> b7afadf9 (.)
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 }
@@ -648,4 +771,10 @@ class NormalizeDriverNameAction
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+}
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

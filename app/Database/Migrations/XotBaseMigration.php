@@ -125,6 +125,7 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected ?string $model_class = null;
 =======
 =======
@@ -304,8 +305,27 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     protected ?string $model_class = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+    protected null|string $model_class = null;
+>>>>>>> a6ef6dc7 (.)
 
     public function __construct()
     {
@@ -317,6 +337,7 @@ abstract class XotBaseMigration extends Migration
     public function __construct()
     {
         $this->model_class ??= $this->getModelClass();
+<<<<<<< HEAD
         
         
         $this->model_class = $this->model_class ?? $this->getModelClass();
@@ -324,10 +345,23 @@ abstract class XotBaseMigration extends Migration
         $this->model_class ??= $this->getModelClass();
 >>>>>>> 7468a7d2 (.)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+    protected ?string $model_class = null;
+
+    public function __construct()
+    {
+<<<<<<< HEAD
+        $this->model_class ??= $this->getModelClass();
+>>>>>>> 5cf46378 (.)
+=======
 
 
         $this->model_class = $this->model_class ?? $this->getModelClass();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -363,6 +397,13 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         Assert::isInstanceOf($model = app($this->model_class), Model::class);
         $this->model = $model;
     }
@@ -441,6 +482,7 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -456,12 +498,26 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
 
         $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
 
         $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
@@ -508,12 +564,20 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+        $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
 
         $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> origin/develop
@@ -591,7 +655,12 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $mod_name = false !== $filename
             ? Str::of($filename)
                 ->after($mod_path)
@@ -601,6 +670,7 @@ abstract class XotBaseMigration extends Migration
         $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -721,10 +791,14 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
         $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
 
         $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -741,6 +815,7 @@ abstract class XotBaseMigration extends Migration
         $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
 
         $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+<<<<<<< HEAD
         $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
 
         $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
@@ -812,6 +887,78 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+>>>>>>> 9db27d12 (.)
+=======
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+        $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
+
+        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             ->replace('/', \DIRECTORY_SEPARATOR)
             ->toString();
 
@@ -820,6 +967,7 @@ abstract class XotBaseMigration extends Migration
 
     public function getTable(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -843,10 +991,15 @@ abstract class XotBaseMigration extends Migration
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -878,11 +1031,19 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         return $this->model->getTable();
     }
 
     public function getConn(): Builder
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -897,10 +1058,15 @@ abstract class XotBaseMigration extends Migration
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -932,6 +1098,13 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         return Schema::connection($this->model->getConnectionName());
     }
 
@@ -1045,6 +1218,7 @@ abstract class XotBaseMigration extends Migration
     public function tableExists(?string $table = null): bool
     public function tableExists(?string $table = null): bool
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
     public function tableExists(?string $table = null): bool
@@ -1055,6 +1229,9 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     public function tableExists(?string $table = null): bool
 =======
     public function tableExists(null|string $table = null): bool
@@ -1113,15 +1290,30 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
     public function tableExists(?string $table = null): bool
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public function tableExists(?string $table = null): bool
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     public function tableExists(null|string $table = null): bool
 =======
     public function tableExists(?string $table = null): bool
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1221,11 +1413,33 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
     public function tableExists(null|string $table = null): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function tableExists(null|string $table = null): bool
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public function tableExists(?string $table = null): bool
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    public function tableExists(null|string $table = null): bool
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         return $this->getConn()->hasTable($table ?? $this->getTable());
     }
@@ -1301,6 +1515,7 @@ abstract class XotBaseMigration extends Migration
         // Check if result is an array or object and handle accordingly
         if (is_array($result)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             return isset($result['count']) && ((int) $result['count']) > 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1343,6 +1558,10 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 <<<<<<< HEAD
+            return isset($result['count']) && ((int) $result['count']) > 0;
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             return isset($result['count']) && ((int) $result['count']) > 0;
 =======
@@ -1352,7 +1571,13 @@ abstract class XotBaseMigration extends Migration
             return isset($result['count']) && ((int) $result['count']) > 0;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+            return isset($result['count']) && ((int) $result['count']) > 0;
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         // If it's an object, cast to array to avoid undefined property issues
@@ -1391,8 +1616,22 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 =======
 >>>>>>> 5a14301c (.)
@@ -1461,6 +1700,7 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
 =======
@@ -1486,6 +1726,8 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
             return isset($resArray['count']) && ((int) $resArray['count']) > 0;
@@ -1496,7 +1738,13 @@ abstract class XotBaseMigration extends Migration
             return isset($resArray['count']) && ((int) $resArray['count']) > 0;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+            return isset($resArray['count']) && ((int) $resArray['count']) > 0;
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         // If neither, handle the error or unexpected case
@@ -1557,6 +1805,7 @@ abstract class XotBaseMigration extends Migration
         $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
         $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
@@ -1567,6 +1816,9 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
 =======
         $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
@@ -1625,15 +1877,30 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
 =======
         $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1733,11 +2000,33 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $this->query($sql);
     }
 
@@ -1770,13 +2059,20 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to): void {
         $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1919,13 +2215,32 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $table->renameColumn($from, $to);
         });
     }
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1953,7 +2268,14 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function tableCreate(Closure $next, ?string $table = null): void
     {
         $tableName = $table ?? $this->getTable();
@@ -1961,16 +2283,39 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 5a14301c (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function tableCreate(Closure $next, null|string $table = null): void
     {
         $tableName = $table ?? $this->getTable();
         if (!$this->tableExists($tableName)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+=======
+>>>>>>> 5cf46378 (.)
 
                 $table->renameColumn($from, $to);
 
@@ -2062,7 +2407,12 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 17684f52 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
 
                 $table->renameColumn($from, $to);
 
@@ -2071,6 +2421,7 @@ abstract class XotBaseMigration extends Migration
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2122,13 +2473,22 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function tableCreate(Closure $next, ?string $table = null): void
     {
         $tableName = $table ?? $this->getTable();
         if (! $this->tableExists($tableName)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2202,20 +2562,40 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $this->getConn()->create($tableName, $next);
         }
     }
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2299,15 +2679,30 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
     public function tableUpdate(Closure $next, ?string $table = null): void
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public function tableUpdate(Closure $next, ?string $table = null): void
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     public function tableUpdate(Closure $next, null|string $table = null): void
 =======
     public function tableUpdate(Closure $next, ?string $table = null): void
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2407,11 +2802,33 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
     public function tableUpdate(Closure $next, null|string $table = null): void
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function tableUpdate(Closure $next, null|string $table = null): void
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public function tableUpdate(Closure $next, ?string $table = null): void
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    public function tableUpdate(Closure $next, null|string $table = null): void
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         $tableName = $table ?? $this->getTable();
         $this->getConn()->table($tableName, $next);
@@ -2423,12 +2840,21 @@ abstract class XotBaseMigration extends Migration
         $userClass = $xot->getUserClass();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         $table->timestamps();
         $table->foreignIdFor($userClass, 'user_id')->nullable();
         $table->foreignIdFor($userClass, 'updated_by')->nullable();
@@ -2444,6 +2870,10 @@ abstract class XotBaseMigration extends Migration
 
         if ($hasSoftDeletes) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -2459,6 +2889,11 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             $table->softDeletes();
         }
     }
@@ -2471,6 +2906,7 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
         if (! $this->hasColumn('updated_at') && ! $this->hasColumn('created_at')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2561,10 +2997,21 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 =======
+        if (! $this->hasColumn('updated_at') && ! $this->hasColumn('created_at')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
         if (!$this->hasColumn('updated_at') && !$this->hasColumn('created_at')) {
@@ -2633,7 +3080,39 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+        if (!$this->hasColumn('updated_at') && !$this->hasColumn('created_at')) {
+>>>>>>> a6ef6dc7 (.)
+            $table->timestamps();
+        }
+
+        if (! $this->hasColumn('updated_by')) {
+            $table->foreignIdFor($userClass, 'updated_by')->nullable();
+        }
+
+        if (! $this->hasColumn('created_by')) {
+            $table->foreignIdFor($userClass, 'created_by')->nullable();
+        }
+
+        if ($hasSoftDeletes && ! $this->hasColumn('deleted_at')) {
+            $table->softDeletes();
+<<<<<<< HEAD
+            if (! $this->hasColumn('deleted_by')) {
+=======
+            if (!$this->hasColumn('deleted_by')) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         if (! $this->hasColumn('updated_at') && ! $this->hasColumn('created_at')) {
             $table->timestamps();
         }
@@ -2651,6 +3130,7 @@ abstract class XotBaseMigration extends Migration
             if (! $this->hasColumn('deleted_by')) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2881,12 +3361,31 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                 $table->foreignIdFor($userClass, 'deleted_by')->nullable();
             }
         }
@@ -2940,6 +3439,7 @@ abstract class XotBaseMigration extends Migration
         if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
         if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
@@ -2950,6 +3450,9 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
 =======
         if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
@@ -3008,15 +3511,30 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
 =======
         if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3116,11 +3634,33 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $table->foreignIdFor($userClass, 'deleted_by')->nullable();
         }
     }
@@ -3129,6 +3669,7 @@ abstract class XotBaseMigration extends Migration
     {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3175,7 +3716,26 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $methodName = 'updateUserKey'.Str::studly($this->model->getKeyType());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+        $methodName = 'updateUserKey' . Str::studly($this->model->getKeyType());
+>>>>>>> a6ef6dc7 (.)
         $this->{$methodName}($table);
 
         if ($this->hasColumn('model_id') && $this->getColumnType('model_id') === 'bigint') {
@@ -3286,6 +3846,11 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> 5cf46378 (.)
         $methodName = 'updateUserKey'.Str::studly($this->model->getKeyType());
         $this->{$methodName}($table);
 
@@ -3293,6 +3858,7 @@ abstract class XotBaseMigration extends Migration
             $table->string('model_id', 36)->index()->change();
         }
 
+<<<<<<< HEAD
         if ($this->hasColumn('team_id') && $this->getColumnType('team_id') === 'bigint') {
         $methodName = 'updateUserKey' . Str::studly($this->model->getKeyType());
         $methodName = 'updateUserKey'.Str::studly($this->model->getKeyType());
@@ -3359,10 +3925,17 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+        if ($this->hasColumn('team_id') && $this->getColumnType('team_id') === 'bigint') {
+            $table->uuid('team_id')->nullable()->change();
+=======
+>>>>>>> 5cf46378 (.)
         if ($this->hasColumn('team_id') && 'bigint' === $this->getColumnType('team_id')) {
 
                 $table->uuid('team_id')->nullable()->change();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3383,11 +3956,18 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
     }
 
@@ -3395,6 +3975,7 @@ abstract class XotBaseMigration extends Migration
     {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3435,10 +4016,29 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         if (! $this->hasColumn('id')) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (! $this->hasColumn('id')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if (!$this->hasColumn('id')) {
 =======
         if (! $this->hasColumn('id')) {
@@ -3447,6 +4047,13 @@ abstract class XotBaseMigration extends Migration
         if (!$this->hasColumn('id')) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+        if (!$this->hasColumn('id')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
             $table->uuid('id')->primary()->first();
         }
 
@@ -3611,6 +4218,7 @@ abstract class XotBaseMigration extends Migration
         if (! $this->hasColumn('id')) {
         if (! $this->hasColumn('id')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         if (! $this->hasColumn('id')) {
@@ -3621,6 +4229,9 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if (! $this->hasColumn('id')) {
 =======
         if (!$this->hasColumn('id')) {
@@ -3679,15 +4290,30 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         if (! $this->hasColumn('id')) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! $this->hasColumn('id')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         if (!$this->hasColumn('id')) {
 =======
         if (! $this->hasColumn('id')) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3787,11 +4413,33 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         if (!$this->hasColumn('id')) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        if (!$this->hasColumn('id')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! $this->hasColumn('id')) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        if (!$this->hasColumn('id')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $table->id('id')->first();
         }
 
@@ -3832,6 +4480,7 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -3845,10 +4494,29 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function getConnection(): ?string
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function getConnection(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     public function getConnection(): null|string
 =======
     public function getConnection(): ?string
@@ -3857,6 +4525,13 @@ abstract class XotBaseMigration extends Migration
     public function getConnection(): null|string
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+    public function getConnection(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         /** @var string */
         return Config::get('pulse.storage.database.connection');
@@ -3966,12 +4641,21 @@ abstract class XotBaseMigration extends Migration
     public function shouldRun(): bool
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         if (in_array($this->driver(), ['mariadb', 'mysql', 'pgsql', 'sqlite'], strict: true)) {
             return true;
         }
@@ -4000,6 +4684,7 @@ abstract class XotBaseMigration extends Migration
         if (! App::environment('testing')) {
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4095,7 +4780,21 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        if (! App::environment('testing')) {
+=======
+<<<<<<< HEAD
+        if (! App::environment('testing')) {
+=======
+        if (!App::environment('testing')) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         if (in_array($this->driver(), ['mariadb', 'mysql', 'pgsql', 'sqlite'])) {
             return true;
         }
@@ -4103,6 +4802,7 @@ abstract class XotBaseMigration extends Migration
         if (! App::environment('testing')) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4234,16 +4934,37 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! App::environment('testing')) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             throw new RuntimeException("Pulse does not support the [{$this->driver()}] database driver.");
         }
 
         if (Config::get('pulse.enabled')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             throw new RuntimeException(
                 "Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.",
@@ -4256,6 +4977,12 @@ abstract class XotBaseMigration extends Migration
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+            throw new RuntimeException(
+                "Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.",
+            );
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4264,6 +4991,7 @@ abstract class XotBaseMigration extends Migration
             );
 =======
             throw new RuntimeException("Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.");
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -4290,10 +5018,14 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> f1d4085 (.)
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
             throw new RuntimeException(
                 "Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.",
             );
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -4307,6 +5039,14 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+            throw new RuntimeException(
+                "Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.",
+            );
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         return false;
@@ -4357,6 +5097,7 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -4420,6 +5161,15 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 =======
 <<<<<<< HEAD
@@ -4431,6 +5181,12 @@ abstract class XotBaseMigration extends Migration
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     /**
      * Add a foreign ID column to the table based on a related model.
      *
@@ -4439,6 +5195,7 @@ abstract class XotBaseMigration extends Migration
      * @param  string|null  $column
      * @return ColumnDefinition
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4476,24 +5233,46 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
     public function foreignIdFor($table, string $class, null|string $column = null)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
     public function foreignIdFor($table, string $class, ?string $column = null)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function foreignIdFor($table, string $class, ?string $column = null)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 73eab74 (.)
     public function foreignIdFor($table, string $class, null|string $column = null)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+    public function foreignIdFor($table, string $class, ?string $column = null)
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         return $table->foreignIdFor($class, $column);
     }
 }
 
 // end XotBaseMigration
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4548,6 +5327,10 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
     public function foreignIdFor($table, string $class, ?string $column = null) {
         return $table->foreignIdFor($class, $column);
     } 
@@ -4555,6 +5338,7 @@ abstract class XotBaseMigration extends Migration
 
 }// end XotBaseMigration
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -4575,3 +5359,10 @@ abstract class XotBaseMigration extends Migration
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

@@ -48,6 +48,7 @@ use Filament\Support\Colors\Color;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -110,6 +111,13 @@ use Filament\Support\Colors\Color;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 =======
@@ -127,22 +135,41 @@ use Modules\Xot\Datas\MetatagData;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5cf46378 (.)
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
  * Questo test verifica che la classe possa essere istanziata senza errori.
  */
+<<<<<<< HEAD
 test('MetatagData può essere istanziata', function () {
     $metatagData = new MetatagData();
 test('MetatagData può essere istanziata', function () {
     $metatagData = new MetatagData();
 test('MetatagData può essere istanziata', function () {
     $metatagData = new MetatagData();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 test('MetatagData può essere istanziata', function (): void {
     $metatagData = new MetatagData;
 test('MetatagData può essere istanziata', function () {
@@ -155,6 +182,14 @@ test('MetatagData può essere istanziata', function (): void {
     $metatagData = new MetatagData;
 test('MetatagData può essere istanziata', function () {
     $metatagData = new MetatagData();
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+test('MetatagData può essere istanziata', function (): void {
+    $metatagData = new MetatagData;
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     expect($metatagData)->toBeInstanceOf(MetatagData::class);
 });
 
@@ -163,11 +198,35 @@ test('MetatagData può essere istanziata', function () {
  * Questo test verifica che il metodo getFilamentColors() restituisca un array
  * con i colori Filament corretti.
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 test('getFilamentColors restituisce i colori Filament corretti', function (): void {
     $metatagData = new MetatagData;
     /** @phpstan-ignore-next-line method.nonObject */
 test('getFilamentColors restituisce i colori Filament corretti', function () {
     $metatagData = new MetatagData();
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+test('getFilamentColors restituisce i colori Filament corretti', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
+=======
+test('getFilamentColors restituisce i colori Filament corretti', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
+=======
+test('getFilamentColors restituisce i colori Filament corretti', function (): void {
+    $metatagData = new MetatagData;
+    /** @phpstan-ignore-next-line method.nonObject */
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     $colors = $metatagData->getFilamentColors();
 
 test('getFilamentColors restituisce i colori Filament corretti', function () {
@@ -199,16 +258,31 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
         ->toBeArray()
         ->and($colors)
         ->toHaveKeys(['danger', 'gray', 'info', 'primary', 'success', 'warning'])
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         ->and($colors['danger'])
         ->toBe(Color::Red)
         /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         ->and($colors['danger'])
         ->toBe(Color::Red)
         ->and($colors['danger'])
         ->toBe(Color::Red)
         ->and($colors['danger'])
         ->toBe(Color::Red)
+<<<<<<< HEAD
         ->and($colors['danger'])
         ->toBe(Color::Red)
         ->and($colors['primary'])
@@ -227,6 +301,11 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
         ->toBe(Color::Red)
         ->and($colors['danger'])
         ->toBe(Color::Red)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         ->and($colors['primary'])
         ->toBe(Color::Amber);
 <<<<<<< HEAD
@@ -286,12 +365,19 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
  * Questo test verifica che il metodo getColors() gestisca correttamente i colori
  * personalizzati quando l'array colors contiene valori personalizzati.
  */
+<<<<<<< HEAD
 test('getColors gestisce correttamente i colori personalizzati', function () {
     $metatagData = new MetatagData();
 test('getColors gestisce correttamente i colori personalizzati', function () {
     $metatagData = new MetatagData();
 test('getColors gestisce correttamente i colori personalizzati', function () {
     $metatagData = new MetatagData();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 test('getColors gestisce correttamente i colori personalizzati', function (): void {
     $metatagData = new MetatagData;
 test('getColors gestisce correttamente i colori personalizzati', function () {
@@ -304,6 +390,14 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
     $metatagData = new MetatagData;
 test('getColors gestisce correttamente i colori personalizzati', function () {
     $metatagData = new MetatagData();
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+test('getColors gestisce correttamente i colori personalizzati', function (): void {
+    $metatagData = new MetatagData;
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     $metatagData->colors = [
         'custom_color' => [
             'key' => 'custom_color',
@@ -386,6 +480,15 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 >>>>>>> 7468a7d2 (.)
     ];
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     /** @phpstan-ignore-next-line method.nonObject */
     $colors = $metatagData->getColors();
 
@@ -412,13 +515,18 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
     $colors = $metatagData->getColors();
 
@@ -659,6 +767,8 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
     expect($colors)->toBeArray()
         ->and($colors)->toHaveKey('custom_color')
         ->and($colors)->toHaveKey('primary');
@@ -667,8 +777,24 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 });
 
 /**
@@ -676,12 +802,19 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
  * Questo test verifica che il metodo getLogoHeight() restituisca il valore
  * della proprietà logo_height.
  */
+<<<<<<< HEAD
 test('getLogoHeight restituisce il valore corretto', function () {
     $metatagData = new MetatagData();
 test('getLogoHeight restituisce il valore corretto', function () {
     $metatagData = new MetatagData();
 test('getLogoHeight restituisce il valore corretto', function () {
     $metatagData = new MetatagData();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 test('getLogoHeight restituisce il valore corretto', function (): void {
     $metatagData = new MetatagData;
 test('getLogoHeight restituisce il valore corretto', function () {
@@ -694,6 +827,14 @@ test('getLogoHeight restituisce il valore corretto', function (): void {
     $metatagData = new MetatagData;
 test('getLogoHeight restituisce il valore corretto', function () {
     $metatagData = new MetatagData();
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+test('getLogoHeight restituisce il valore corretto', function (): void {
+    $metatagData = new MetatagData;
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     $metatagData->logo_height = '3em';
 
     expect($metatagData->getLogoHeight())->toBe('3em');
@@ -704,10 +845,33 @@ test('getLogoHeight restituisce il valore corretto', function () {
  * Questo test verifica che le proprietà della classe abbiano i valori di default
  * corretti quando viene istanziata la classe.
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 test('Le proprietà hanno i valori di default corretti', function (): void {
     $metatagData = new MetatagData;
 test('Le proprietà hanno i valori di default corretti', function () {
     $metatagData = new MetatagData();
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+test('Le proprietà hanno i valori di default corretti', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
+=======
+test('Le proprietà hanno i valori di default corretti', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 5a14301c (.)
+=======
+test('Le proprietà hanno i valori di default corretti', function (): void {
+    $metatagData = new MetatagData;
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 test('Le proprietà hanno i valori di default corretti', function () {
     $metatagData = new MetatagData();

@@ -16,6 +16,7 @@ class MorphToOneAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +59,10 @@ class MorphToOneAction
 =======
 =======
 <<<<<<< HEAD
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 =======
@@ -67,7 +72,13 @@ class MorphToOneAction
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     {
         // if ($relationDTO === null) {
         //    return;
@@ -80,6 +91,13 @@ class MorphToOneAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (! isset($relationDTO->data['lang'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if (!isset($relationDTO->data['lang'])) {
 =======
         if (! isset($relationDTO->data['lang'])) {
@@ -88,12 +106,23 @@ class MorphToOneAction
         if (!isset($relationDTO->data['lang'])) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+        if (!isset($relationDTO->data['lang'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
             $relationDTO->data['lang'] = App::getLocale();
         }
 
         // if ($rows !== null) {
         $rows->create($relationDTO->data);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 
         // }
         //if ($relationDTO === null) {
@@ -153,6 +182,7 @@ class MorphToOneAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> f1d4085 (.)
@@ -160,14 +190,29 @@ class MorphToOneAction
 
 >>>>>>> 73eab74 (.)
         //}
+=======
+=======
+>>>>>>> 300ef70 (.)
+
+        // }
+>>>>>>> 5cf46378 (.)
         // } else {
         //    $rows->sync($relation->data);
         // }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         /*
          * dddx([
          * 'message' => 'wip',
@@ -179,6 +224,7 @@ class MorphToOneAction
          *
          * dddx('wip');
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +244,11 @@ class MorphToOneAction
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 
         /*
         dddx([
@@ -210,6 +261,7 @@ class MorphToOneAction
 
         dddx('wip');
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,10 +300,17 @@ class MorphToOneAction
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 }

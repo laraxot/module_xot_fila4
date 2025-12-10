@@ -35,6 +35,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
@@ -43,6 +44,10 @@ use Override;
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
@@ -81,7 +86,13 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -89,6 +100,7 @@ use Override;
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -182,6 +194,7 @@ use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+<<<<<<< HEAD
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -205,6 +218,34 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 300ef70 (.)
+use Filament\Tables\Columns\TextColumn;
+use Modules\Xot\Filament\Resources\CacheLockResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+use Override;
+>>>>>>> b7afadf9 (.)
+
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -217,6 +258,10 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
 
 
 
@@ -226,10 +271,16 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 class ListCacheLocks extends XotBaseListRecords
 {
     protected static string $resource = CacheLockResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -270,6 +321,10 @@ class ListCacheLocks extends XotBaseListRecords
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+<<<<<<< HEAD
+    #[Override]
+>>>>>>> 5cf46378 (.)
     /**
      * @return array<string, mixed>
      */
@@ -283,7 +338,13 @@ class ListCacheLocks extends XotBaseListRecords
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function getTableColumns(): array
     {
         return [
@@ -295,6 +356,7 @@ class ListCacheLocks extends XotBaseListRecords
                 ->searchable()
                 ->sortable()
                 ->wrap(),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
 <<<<<<< HEAD
@@ -319,13 +381,21 @@ class ListCacheLocks extends XotBaseListRecords
 =======
 =======
 <<<<<<< HEAD
+            'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
             'expiration' => TextColumn::make('expiration')
                 ->numeric()
                 ->sortable(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -353,12 +423,20 @@ class ListCacheLocks extends XotBaseListRecords
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+            'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         ];
     }
 }

@@ -1,16 +1,29 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -18,6 +31,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 <table border="1" class="table table-bordered">
 @foreach ($rows as $row)
     <tr>
@@ -26,6 +44,7 @@ declare(strict_types=1);
         @endforeach
     </td>
 @endforeach
+<<<<<<< HEAD
 <<<<<<< HEAD
 </table>
 <<<<<<< HEAD
@@ -72,6 +91,10 @@ declare(strict_types=1);
 =======
 =======
 <<<<<<< HEAD
+</table>
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 </table>
 =======
@@ -81,4 +104,10 @@ declare(strict_types=1);
 </table>
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+</table>
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

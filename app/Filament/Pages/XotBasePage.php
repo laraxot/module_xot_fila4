@@ -266,6 +266,26 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Ottiene il nome del modulo dalla classe.
      * Estrae il nome del modulo dal namespace della classe.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+<<<<<<< HEAD
+     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
      * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
      * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
      * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
@@ -277,18 +297,13 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
      * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
      * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
      * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
-     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
-     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      */
     public static function getModuleName(): string
     {

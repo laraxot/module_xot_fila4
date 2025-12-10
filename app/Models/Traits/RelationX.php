@@ -120,6 +120,34 @@ trait RelationX
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+>>>>>>> 5cf46378 (.)
         // Handle cross-database relationships
         // if ($pivotDbName !== $dbName) {
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
@@ -134,6 +162,7 @@ trait RelationX
         // if ($pivotDbName !== $dbName) {
         
         // Handle cross-database relationships
+<<<<<<< HEAD
 
         // Handle cross-database relationships
         // if ($pivotDbName !== $dbName) {
@@ -177,6 +206,13 @@ trait RelationX
         // if ($pivotDbName !== $dbName) {
         
         // Handle cross-database relationships
+=======
+>>>>>>> 492d6d3c (.)
+=======
+
+        // Handle cross-database relationships
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -185,6 +221,12 @@ trait RelationX
                 $table = $pivotDbName . '.' . $table;
             }
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         // }
         // }
 
@@ -216,6 +258,12 @@ trait RelationX
             $table = $pivotDbName . '.' . $table;
         }
         // }
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         return $this->belongsToMany(
             related: $related,

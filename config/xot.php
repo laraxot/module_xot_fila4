@@ -1,16 +1,25 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
 
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 declare(strict_types=1);
 
 
@@ -28,6 +37,7 @@ return [
      * | Using these constants instead of hardcoded paths helps prevent path-related errors.
      * |
      */
+<<<<<<< HEAD
 return [
     /*
     |--------------------------------------------------------------------------
@@ -51,6 +61,9 @@ return [
      * | Using these constants instead of hardcoded paths helps prevent path-related errors.
      * |
      */
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -69,6 +82,11 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     'paths' => [
         'base' => '/var/www/html/exa/base_orisbroker_fila3',
         'laravel' => '/var/www/html/exa/base_orisbroker_fila3/laravel',
@@ -76,12 +94,21 @@ return [
         'docs' => '/var/www/html/exa/base_orisbroker_fila3/docs',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Module Paths
@@ -91,6 +118,7 @@ return [
      * | and should be used when referencing module-specific directories.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +138,11 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -120,6 +153,7 @@ return [
     | and should be used when referencing module-specific directories.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,11 +190,18 @@ return [
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     'module_paths' => [
         'xot' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot',
         'broker' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Broker',

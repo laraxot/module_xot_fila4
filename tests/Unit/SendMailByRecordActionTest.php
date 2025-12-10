@@ -33,6 +33,7 @@ use Illuminate\Mail\Mailable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -43,7 +44,16 @@ use Illuminate\Mail\Mailable;
 =======
 >>>>>>> 091f883c (.)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,8 +61,17 @@ use Illuminate\Mail\Mailable;
 >>>>>>> 73eab74 (.)
 use Illuminate\Mail\Mailable;
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
@@ -61,12 +80,17 @@ it('throws if record has no email', function (): void {
     $record = new class extends Model
     {
         // no email attribute
+<<<<<<< HEAD
         public function option(string $key): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Mail\Mailable;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -146,12 +170,58 @@ use Modules\Xot\Actions\Mail\SendMailByRecordAction;
 it('throws if record has no email', function (): void {
     $record = new class extends Model {
         // no email attribute
+<<<<<<< HEAD
+=======
+        public function option(string $key): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        public function option(string $key): null
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         {
             return null;
         }
 
+<<<<<<< HEAD
         public function myLogs(): object
         {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        public function myLogs(): object
+=======
+=======
+        /** @return object */
+>>>>>>> b7afadf9 (.)
+        public function myLogs()
+>>>>>>> 53d6a6ba (.)
+        {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return new class
+            {
+<<<<<<< HEAD
+=======
+                /** @param array<string, mixed> $data */
+>>>>>>> a6ef6dc7 (.)
+                public function create(array $data): void {}
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 5cf46378 (.)
             return new class {
                 public function create(array $data): void
                 {
@@ -188,6 +258,7 @@ it('throws if record has no email', function (): void {
     };
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,7 +385,22 @@ it('throws if record has no email', function (): void {
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+<<<<<<< HEAD
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
 namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 
 
@@ -324,6 +410,7 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,6 +510,24 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         ->toThrow(InvalidArgumentException::class);
 });

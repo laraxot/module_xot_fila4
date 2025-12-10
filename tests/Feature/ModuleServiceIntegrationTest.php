@@ -27,6 +27,19 @@ use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Services\ModuleService;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -77,6 +90,7 @@ use Illuminate\Support\Str;
 >>>>>>> ab8cc3f3 (.)
 use Modules\Xot\Services\ModuleService;
 =======
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,9 +114,15 @@ use Illuminate\Support\Facades\File;
 =======
 >>>>>>> 7468a7d2 (.)
 =======
+use Modules\Xot\Services\ModuleService;
+use Illuminate\Support\Facades\File;
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Services\ModuleService;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -130,6 +150,17 @@ use Illuminate\Support\Facades\File;
 
 describe('ModuleService Integration', function (): void {
     beforeEach(function (): void {
+=======
+>>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Services\ModuleService;
+>>>>>>> 300ef70 (.)
+
+describe('ModuleService Integration', function (): void {
+    beforeEach(function (): void {
+        /* @phpstan-ignore-next-line property.notFound, new.noConstructor */
+>>>>>>> 5cf46378 (.)
         $this->service = new ModuleService('Xot');
     });
 
@@ -139,13 +170,23 @@ describe('ModuleService Integration', function (): void {
     it('integrates with Nwidart Modules system', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         expect(class_exists('Nwidart\Modules\Facades\Module'))
             ->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))
             ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,9 +203,14 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
         expect(class_exists('Nwidart\Modules\Facades\Module'))->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))->toBeTrue();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -196,21 +242,40 @@ describe('ModuleService Integration', function (): void {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     });
 
     it('can find existing modules', function (): void {
         // Test with known existing modules
+        /* @phpstan-ignore-next-line new.noConstructor */
         $chartService = new ModuleService('Chart');
+        /* @phpstan-ignore-next-line new.noConstructor */
         $userService = new ModuleService('User');
+        /* @phpstan-ignore-next-line new.noConstructor */
         $xotService = new ModuleService('Xot');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         expect($chartService)
             ->toBeInstanceOf(ModuleService::class)
             ->and($userService)
@@ -223,6 +288,7 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($chartService)->toBeInstanceOf(ModuleService::class)
             ->and($userService)->toBeInstanceOf(ModuleService::class)
             ->and($xotService)->toBeInstanceOf(ModuleService::class);
@@ -238,9 +304,14 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
         expect($chartService)->toBeInstanceOf(ModuleService::class)
             ->and($userService)->toBeInstanceOf(ModuleService::class)
             ->and($xotService)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -266,15 +337,23 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     });
 
     it('returns models from existing modules', function (): void {
         // Test with Chart module (we know it exists)
+        /* @phpstan-ignore-next-line new.noConstructor */
         $chartService = new ModuleService('Chart');
         /** @phpstan-ignore-next-line method.nonObject */
         $models = $chartService->getModels();
@@ -298,6 +377,10 @@ describe('ModuleService Integration', function (): void {
 >>>>>>> 091f883c (.)
         // Should contain Chart model
         $hasChartModel = false;
+<<<<<<< HEAD
+=======
+        /* @phpstan-ignore-next-line foreach.nonIterable */
+>>>>>>> 5cf46378 (.)
         foreach ($models as $modelClass) {
             if (str_contains($modelClass, 'Chart\\Models\\Chart')) {
                 $hasChartModel = true;
@@ -324,6 +407,10 @@ describe('ModuleService Integration', function (): void {
     });
 
     it('handles User module models correctly', function (): void {
+<<<<<<< HEAD
+=======
+        /* @phpstan-ignore-next-line new.noConstructor */
+>>>>>>> 5cf46378 (.)
         $userService = new ModuleService('User');
         /** @phpstan-ignore-next-line method.nonObject */
         $models = $userService->getModels();
@@ -334,7 +421,9 @@ describe('ModuleService Integration', function (): void {
         $modelClasses = array_values($models);
         $hasUserModels = false;
 
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($modelClasses as $modelClass) {
+            /* @phpstan-ignore-next-line argument.type */
             if (str_contains($modelClass, 'User\\Models\\')) {
                 $hasUserModels = true;
                 break;
@@ -379,6 +468,7 @@ describe('ModuleService Integration', function (): void {
 
 >>>>>>> 091f883c (.)
         // BaseModel should not be included (it's abstract)
+        /* @phpstan-ignore-next-line argument.type */
         $modelNames = array_keys($models);
         expect($modelNames)->not->toContain('base_model');
     });
@@ -391,7 +481,9 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 =======
 
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $key => $modelClass) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,16 +515,24 @@ describe('ModuleService Integration', function (): void {
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             expect($key)
                 ->toBeString()
                 ->and($modelClass)
                 ->toBeString()
+                /* @phpstan-ignore-next-line argument.type */
                 ->and(str_contains($modelClass, 'Modules\\'))
                 ->toBeTrue();
 <<<<<<< HEAD
@@ -441,15 +541,19 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
             expect($key)->toBeString()
                 ->and($modelClass)->toBeString()
                 ->and(str_contains($modelClass, 'Modules\\'))->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -485,11 +589,18 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
     });
 
@@ -514,7 +625,9 @@ describe('ModuleService Integration', function (): void {
 
 >>>>>>> 091f883c (.)
         // Test each returned model class
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
+            /* @phpstan-ignore-next-line argument.type */
             expect(class_exists($modelClass) || interface_exists($modelClass))->toBeTrue();
         }
     });
@@ -575,9 +688,13 @@ describe('ModuleService Integration', function (): void {
 
     it('can handle multiple module instances', function (): void {
         $services = [
+            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('Chart'),
+            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('User'),
+            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('Xot'),
+            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('Job'),
         ];
 
@@ -591,6 +708,7 @@ describe('ModuleService Integration', function (): void {
 
     it('validates module existence checking', function (): void {
         // Test with non-existent module
+        /* @phpstan-ignore-next-line new.noConstructor */
         $nonExistentService = new ModuleService('NonExistentModule');
         /** @phpstan-ignore-next-line method.nonObject */
         $models = $nonExistentService->getModels();
@@ -629,16 +747,22 @@ describe('ModuleService Integration', function (): void {
 >>>>>>> a67e542f (.)
 =======
 
+<<<<<<< HEAD
+<<<<<<< HEAD
         expect($models)->toBeArray()->and($models)->toBeEmpty();
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
         expect($models)->toBeArray()->and($models)->toBeEmpty();
 =======
         expect($models)->toBeArray()
             ->and($models)->toBeEmpty();
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         expect($models)->toBeArray()->and($models)->toBeEmpty();
@@ -656,14 +780,24 @@ describe('ModuleService Integration', function (): void {
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
         expect($models)->toBeArray()->and($models)->toBeEmpty();
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        expect($models)->toBeArray()->and($models)->toBeEmpty();
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     });
 
     it('handles namespace construction correctly', function (): void {
         // Test namespace building logic
+        /* @phpstan-ignore-next-line new.noConstructor */
         $chartService = new ModuleService('Chart');
         /** @phpstan-ignore-next-line method.nonObject */
         $models = $chartService->getModels();
@@ -672,6 +806,7 @@ describe('ModuleService Integration', function (): void {
 =======
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -683,6 +818,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+        /* @phpstan-ignore-next-line foreach.nonIterable */
+>>>>>>> 5cf46378 (.)
         foreach ($models as $modelClass) {
             expect($modelClass)->toContain('Modules\\Chart\\');
         }
@@ -694,7 +832,9 @@ describe('ModuleService Integration', function (): void {
         $models = $this->service->getModels();
 
         // All returned classes should be valid PHP classes
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
 <<<<<<< HEAD
@@ -754,6 +894,16 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+<<<<<<< HEAD
+            /* @phpstan-ignore-next-line argument.type */
+            expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
+=======
+>>>>>>> 5cf46378 (.)
             expect(is_string($modelClass))->toBeTrue()
                 ->and(strlen($modelClass))->toBeGreaterThan(0);
 >>>>>>> f1d4085 (.)
@@ -761,19 +911,29 @@ describe('ModuleService Integration', function (): void {
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+            expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
     });
 
     it('handles exception scenarios gracefully', function (): void {
         // Test various edge cases that might cause exceptions
         $edgeCaseServices = [
+            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService(''),
+            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('InvalidModule'),
+            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('Test123'),
         ];
 
         foreach ($edgeCaseServices as $service) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             expect($service->getModels(...))->not->toThrow(Exception::class);
 <<<<<<< HEAD
@@ -817,6 +977,10 @@ describe('ModuleService Integration', function (): void {
 =======
 =======
 <<<<<<< HEAD
+            expect($service->getModels(...))->not->toThrow(Exception::class);
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             expect($service->getModels(...))->not->toThrow(Exception::class);
 =======
@@ -826,7 +990,13 @@ describe('ModuleService Integration', function (): void {
             expect($service->getModels(...))->not->toThrow(Exception::class);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+            expect($service->getModels(...))->not->toThrow(Exception::class);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
     });
 
@@ -837,22 +1007,35 @@ describe('ModuleService Integration', function (): void {
         expect($models)->toBeArray();
 
         // Validate that all keys are strings and all values are class strings
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $key => $value) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             expect($key)
                 ->toBeString()
                 ->and($value)
                 ->toBeString()
+                /* @phpstan-ignore-next-line argument.type */
                 ->and(strlen($key))
                 ->toBeGreaterThan(0)
+                /* @phpstan-ignore-next-line argument.type */
                 ->and(strlen($value))
                 ->toBeGreaterThan(0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -878,10 +1061,16 @@ describe('ModuleService Integration', function (): void {
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
             expect($key)->toBeString()
                 ->and($value)->toBeString()
                 ->and(strlen($key))->toBeGreaterThan(0)
                 ->and(strlen($value))->toBeGreaterThan(0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -906,11 +1095,18 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
     });
 
@@ -940,12 +1136,14 @@ describe('ModuleService Integration', function (): void {
         // Test multiple simultaneous calls
         $results = [];
         for ($i = 0; $i < 3; $i++) {
+            /* @phpstan-ignore-next-line new.noConstructor */
             $service = new ModuleService('Xot');
             /** @phpstan-ignore-next-line method.nonObject, offsetAccess.nonOffsetAccessible */
             $results[] = $service->getModels();
         }
 
         // All results should be consistent
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
@@ -980,12 +1178,19 @@ describe('ModuleService Integration', function (): void {
 =======
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+        expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
 =======
         expect($results[0])->toBe($results[1])
             ->and($results[1])->toBe($results[2]);
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
@@ -1000,10 +1205,19 @@ describe('ModuleService Integration', function (): void {
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     });
 
     it('validates module path resolution', function (): void {
@@ -1015,6 +1229,7 @@ describe('ModuleService Integration', function (): void {
 =======
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -1026,6 +1241,9 @@ describe('ModuleService Integration', function (): void {
 =======
 
 >>>>>>> 091f883c (.)
+=======
+        /* @phpstan-ignore-next-line foreach.nonIterable */
+>>>>>>> 5cf46378 (.)
         foreach ($models as $modelClass) {
             // Each model class should follow the correct namespace pattern
             expect($modelClass)->toMatch('/^Modules\\\\[A-Za-z]+\\\\Models\\\\[A-Za-z]+$/');
@@ -1098,7 +1316,11 @@ describe('ModuleService Integration', function (): void {
             ->and($constructor->isPublic())->toBeTrue();
 =======
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /* @phpstan-ignore-next-line method.nonObject */
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -1130,12 +1352,16 @@ describe('ModuleService Integration', function (): void {
 =======
 <<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
 =======
         expect($constructor)->not->toBeNull()
             ->and($constructor->isPublic())->toBeTrue();
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
@@ -1153,10 +1379,19 @@ describe('ModuleService Integration', function (): void {
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     });
 
     it('can handle model discovery efficiently', function (): void {
@@ -1170,6 +1405,7 @@ describe('ModuleService Integration', function (): void {
         $executionTime = $endTime - $startTime;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1181,11 +1417,16 @@ describe('ModuleService Integration', function (): void {
 >>>>>>> 7468a7d2 (.)
 =======
 <<<<<<< HEAD
+        expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
 =======
         expect($models)->toBeArray()
             ->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -1223,11 +1464,19 @@ describe('ModuleService Integration', function (): void {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
         expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     });
 });

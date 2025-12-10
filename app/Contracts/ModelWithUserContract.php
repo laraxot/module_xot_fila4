@@ -145,6 +145,7 @@ interface ModelWithUserContract
 interface ModelWithUserContract {}
 interface ModelWithUserContract {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
 interface ModelWithUserContract {}
@@ -159,6 +160,9 @@ interface ModelWithUserContract {}
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 interface ModelWithUserContract {}
 =======
 interface ModelWithUserContract
@@ -262,17 +266,32 @@ interface ModelWithUserContract
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
 interface ModelWithUserContract {}
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+interface ModelWithUserContract {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
 interface ModelWithUserContract
 {
 }
 =======
 interface ModelWithUserContract {}
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,10 +308,13 @@ interface ModelWithUserContract {}
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> b7afadf9 (.)
+=======
 interface ModelWithUserContract
 {
 }
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,4 +460,24 @@ interface ModelWithUserContract
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+interface ModelWithUserContract
+{
+}
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+interface ModelWithUserContract {}
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)

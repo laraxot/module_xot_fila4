@@ -5,17 +5,27 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\File;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35,11 +45,17 @@ use function Safe\preg_match;
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,11 +88,18 @@ use function Safe\preg_match;
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 class GetClassNameByPathAction
 {
     use QueueableAction;
@@ -116,6 +139,7 @@ class GetClassNameByPathAction
 
         return $fullClassName;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,10 +228,24 @@ class GetClassNameByPathAction
 >>>>>>> 9db27d12 (.)
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
 =======
         $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
@@ -216,7 +254,27 @@ class GetClassNameByPathAction
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         return $fullClassName;
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
@@ -230,12 +288,21 @@ class GetClassNameByPathAction
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * $class = Str::of($path)
  * ->after(base_path('Modules'))
  * ->prepend('\Modules')
@@ -243,6 +310,7 @@ class GetClassNameByPathAction
  * ->replace('/', '\\')
  * ->toString();
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +331,11 @@ class GetClassNameByPathAction
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 $class = Str::of($path)
                     ->after(base_path('Modules'))
                     ->prepend('\Modules')
@@ -270,6 +343,7 @@ $class = Str::of($path)
                     ->replace('/', '\\')
                     ->toString();
                     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,8 +368,15 @@ $class = Str::of($path)
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

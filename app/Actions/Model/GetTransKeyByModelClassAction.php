@@ -65,6 +65,7 @@ class GetTransKeyByModelClassAction
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
@@ -75,6 +76,9 @@ class GetTransKeyByModelClassAction
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
 =======
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
@@ -133,15 +137,30 @@ class GetTransKeyByModelClassAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
 =======
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,10 +260,32 @@ class GetTransKeyByModelClassAction
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     }
 }

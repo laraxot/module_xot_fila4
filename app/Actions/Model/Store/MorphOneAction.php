@@ -17,6 +17,7 @@ class MorphOneAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +60,10 @@ class MorphOneAction
 =======
 =======
 <<<<<<< HEAD
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 =======
@@ -68,7 +73,13 @@ class MorphOneAction
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, MorphOne::class);
         // if (is_string($relation->data) && isJson($relation->data)) {

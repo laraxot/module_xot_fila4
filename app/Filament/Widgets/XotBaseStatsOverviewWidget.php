@@ -59,15 +59,35 @@ use Filament\Actions\Action;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 use Filament\Actions\Action;
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 =======
 =======
@@ -167,6 +187,10 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Modules\Xot\Filament\Traits\TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -174,6 +198,10 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
 use Modules\Xot\Filament\Traits\TransTrait;
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
@@ -182,6 +210,11 @@ use Filament\Actions\Action;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 /**
  * Classe base per i widget StatsOverview del sistema Xot.
@@ -211,6 +244,7 @@ abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 {
     use TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,13 +268,21 @@ abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 =======
 =======
 <<<<<<< HEAD
+}
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
 
    
 } 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -268,9 +310,17 @@ abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+}
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

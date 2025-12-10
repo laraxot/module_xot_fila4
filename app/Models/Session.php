@@ -218,7 +218,15 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @mixin IdeHelperSession
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 /**
@@ -254,6 +262,11 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
  *
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 class Session extends BaseModel

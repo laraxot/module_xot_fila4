@@ -35,6 +35,10 @@ class FakeSeederHeaderAction extends Action
         parent::setUp();
         $this->translateLabel()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +48,11 @@ class FakeSeederHeaderAction extends Action
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
@@ -87,6 +96,28 @@ class FakeSeederHeaderAction extends Action
                     ->minValue(1)
                     ->integer(),
             ])
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+            ->action(function (array $data, ListRecords $livewire): void {
+            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire) {
+<<<<<<< HEAD
+            ->action(function (array $data, ListRecords $livewire): void {
+            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire): void {
+            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire) {
             ->action(function (array $data, ListRecords $livewire): void {
             ->action(function (array $data, ListRecords $livewire) {
             ->action(function (array $data, ListRecords $livewire) {
@@ -100,20 +131,13 @@ class FakeSeederHeaderAction extends Action
             ->action(function (array $data, ListRecords $livewire): void {
             ->action(function (array $data, ListRecords $livewire) {
             ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire) {
+=======
+>>>>>>> 53d6a6ba (.)
+=======
             ->action(function (array $data, ListRecords $livewire): void {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire): void {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire): void {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire) {
-            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();
@@ -125,6 +149,10 @@ class FakeSeederHeaderAction extends Action
                 Assert::greaterThanEq($qty, 1, 'Quantity must be greater than 0');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,7 +170,12 @@ class FakeSeederHeaderAction extends Action
 <<<<<<< HEAD
                 $title = 'On Queue '.$qty.' '.$modelClass;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,7 +463,36 @@ class FakeSeederHeaderAction extends Action
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+<<<<<<< HEAD
+                $title = 'On Queue '.$qty.' '.$modelClass;
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -490,6 +552,7 @@ class FakeSeederHeaderAction extends Action
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
     public static function getDefaultName(): ?string
@@ -499,6 +562,9 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -557,15 +623,30 @@ class FakeSeederHeaderAction extends Action
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
     public static function getDefaultName(): ?string
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     public static function getDefaultName(): null|string
 =======
     public static function getDefaultName(): ?string
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -731,11 +812,33 @@ class FakeSeederHeaderAction extends Action
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
     public static function getDefaultName(): null|string
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         return 'fake_seeder';
     }

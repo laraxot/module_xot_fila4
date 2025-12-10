@@ -78,6 +78,7 @@ class GetViewsSiblingsAndSelfAction
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -88,6 +89,9 @@ class GetViewsSiblingsAndSelfAction
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
 =======
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -146,15 +150,30 @@ class GetViewsSiblingsAndSelfAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
 =======
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,11 +273,33 @@ class GetViewsSiblingsAndSelfAction
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                 continue;
             }
 

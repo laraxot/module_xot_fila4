@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
 use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
+<<<<<<< HEAD
 // ---- Traits ----
 use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
@@ -21,6 +22,14 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
 // ---- Traits ----
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -33,7 +42,16 @@ abstract class XotBaseModel extends EloquentModel
     // use Searchable;
 abstract class XotBaseModel extends Model
 {
+    use Traits\HasXotFactory;
+    use Traits\RelationX;
+
     // use Searchable;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5cf46378 (.)
 abstract class XotBaseModel extends Model
 {
     // use Searchable;
@@ -50,6 +68,13 @@ abstract class XotBaseModel extends Model
 abstract class XotBaseModel extends Model
 {
     // use Searchable;
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+    // //use Cachable;
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     use Updater;
 
     /**
@@ -61,6 +86,14 @@ abstract class XotBaseModel extends Model
      */
     public static $snakeAttributes = true;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     /** @var bool */
     public $incrementing = true;
 
@@ -79,12 +112,16 @@ abstract class XotBaseModel extends Model
 
     /** @var string */
     protected $keyType = 'int';
+<<<<<<< HEAD
     public $incrementing = true;
 
     public $timestamps = true;
 
     protected $perPage = 30;
 
+=======
+=======
+>>>>>>> 5cf46378 (.)
     public $incrementing = true;
 
     public $timestamps = true;
@@ -99,12 +136,22 @@ abstract class XotBaseModel extends Model
     protected $primaryKey = 'id';
 
     protected $keyType = 'string';
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
     /** @var list<string> */
     protected $hidden = [
         // 'password'
     ];
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    /** @return array<string, string> */
+=======
+>>>>>>> 5cf46378 (.)
     /**
      * The accessors to append to the model's array form.
      *
@@ -113,12 +160,23 @@ abstract class XotBaseModel extends Model
     protected $appends = [];
 
     /** @return array<string, class-string|string> */
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'uuid' => 'string',
             'published_at' => 'datetime',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            'verified_at' => 'datetime',
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -127,6 +185,20 @@ abstract class XotBaseModel extends Model
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+    /** @var int */
+    protected $perPage = 30;
+<<<<<<< HEAD
     /** @var int */
     protected $perPage = 30;
     /** @var int */
@@ -137,12 +209,9 @@ abstract class XotBaseModel extends Model
     protected $perPage = 30;
     /** @var int */
     protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 }

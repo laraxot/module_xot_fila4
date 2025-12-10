@@ -42,6 +42,7 @@ use Filament\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
@@ -49,6 +50,31 @@ use Filament\Actions;
 =======
 =======
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+=======
+<<<<<<< HEAD
+=======
+=======
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+=======
+=======
+<<<<<<< HEAD
+=======
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+use Filament\Actions;
+>>>>>>> b7afadf9 (.)
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
@@ -154,6 +180,7 @@ use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Models\Module;
 
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
@@ -167,6 +194,9 @@ use Modules\Xot\Actions\Array\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Models\Module;
 
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -177,6 +207,11 @@ use Modules\Xot\Models\Module;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 /**
  * @property Module $record
  */
@@ -230,6 +265,7 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -243,6 +279,22 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        if (! ($module instanceof Model) || ! isset($module->path)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         if (! ($module instanceof Model) || ! isset($module->path)) {
             return;
         }
@@ -250,6 +302,7 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path.'/config/config.php';
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -347,10 +400,17 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
         if (!($module instanceof Model) || !isset($module->path)) {
@@ -492,9 +552,32 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+        if (!($module instanceof Model) || !isset($module->path)) {
+>>>>>>> a6ef6dc7 (.)
+            return;
+        }
+
+        $config_path = $module->path.'/config/config.php';
+        $data = File::getRequire($config_path);
+<<<<<<< HEAD
+        if (! is_array($data)) {
+=======
+        if (!is_array($data)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
         $config_path = $module->path.'/config/config.php';
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -615,12 +698,31 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());
@@ -629,12 +731,21 @@ class EditModule extends XotBaseEditRecord
 
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
          * $configPath = config_path('modules/colors.php');
          *
          * // Prepara l'array di colori
@@ -662,6 +773,7 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -677,6 +789,11 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         $configPath = config_path('modules/colors.php');
 
         // Prepara l'array di colori
@@ -702,6 +819,7 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -723,10 +841,17 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 }

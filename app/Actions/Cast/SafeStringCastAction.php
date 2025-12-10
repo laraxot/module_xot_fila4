@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Cast;
 /**
  * Action per convertire in modo sicuro un valore mixed in string.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,6 +50,10 @@ namespace Modules\Xot\Actions\Cast;
 =======
 =======
 <<<<<<< HEAD
+ *
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -58,7 +63,13 @@ namespace Modules\Xot\Actions\Cast;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+ *
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -87,12 +98,21 @@ class SafeStringCastAction
         }
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
          * if ($value instanceof \BackedEnum) {
          * return $value->value;
          * }
@@ -119,6 +139,7 @@ class SafeStringCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -133,11 +154,17 @@ class SafeStringCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         if ($value instanceof \BackedEnum) {
             return $value->value;
         }
             */
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (is_null($value)) {
@@ -188,6 +215,11 @@ class SafeStringCastAction
             return '';
         }
 >>>>>>> 7468a7d2 (.)
+=======
+        if (is_null($value)) {
+            return '';
+        }
+>>>>>>> 5cf46378 (.)
         
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -201,6 +233,7 @@ class SafeStringCastAction
         return '';
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,11 +254,18 @@ class SafeStringCastAction
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *

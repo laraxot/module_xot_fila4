@@ -33,6 +33,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use Override;
@@ -46,6 +47,16 @@ use Override;
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
 =======
@@ -54,8 +65,27 @@ use Override;
 use Override;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+use Override;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+use Override;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Extra;
 use Override;
@@ -222,6 +252,10 @@ class ExtraPolicy extends XotBasePolicy
      * Determine whether the user can view any models.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     #[Override]
 =======
 <<<<<<< HEAD
@@ -233,6 +267,12 @@ class ExtraPolicy extends XotBasePolicy
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function viewAny(UserContract $user): bool
     {
         return $user->hasPermissionTo('extra.viewAny');
@@ -241,6 +281,7 @@ class ExtraPolicy extends XotBasePolicy
     /**
      * Determine whether the user can view the model.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function view(UserContract $user, Extra $_extra): bool
 <<<<<<< HEAD
@@ -284,6 +325,10 @@ class ExtraPolicy extends XotBasePolicy
 =======
 =======
 <<<<<<< HEAD
+    public function view(UserContract $user, Extra $_extra): bool
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function view(UserContract $user, Extra $_extra): bool
 =======
@@ -293,7 +338,13 @@ class ExtraPolicy extends XotBasePolicy
     public function view(UserContract $user, Extra $_extra): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    public function view(UserContract $user, Extra $_extra): bool
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     {
         return $user->hasPermissionTo('extra.view');
     }
@@ -310,6 +361,7 @@ class ExtraPolicy extends XotBasePolicy
      * Determine whether the user can update the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, Extra $_extra): bool
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +404,10 @@ class ExtraPolicy extends XotBasePolicy
 =======
 =======
 <<<<<<< HEAD
+    public function update(UserContract $user, Extra $_extra): bool
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function update(UserContract $user, Extra $_extra): bool
 =======
@@ -361,7 +417,13 @@ class ExtraPolicy extends XotBasePolicy
     public function update(UserContract $user, Extra $_extra): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    public function update(UserContract $user, Extra $_extra): bool
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     {
         return $user->hasPermissionTo('extra.update');
     }
@@ -370,6 +432,7 @@ class ExtraPolicy extends XotBasePolicy
      * Determine whether the user can delete the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, Extra $_extra): bool
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +475,10 @@ class ExtraPolicy extends XotBasePolicy
 =======
 =======
 <<<<<<< HEAD
+    public function delete(UserContract $user, Extra $_extra): bool
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function delete(UserContract $user, Extra $_extra): bool
 =======
@@ -421,7 +488,13 @@ class ExtraPolicy extends XotBasePolicy
     public function delete(UserContract $user, Extra $_extra): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    public function delete(UserContract $user, Extra $_extra): bool
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     {
         return $user->hasPermissionTo('extra.delete');
     }
@@ -430,6 +503,7 @@ class ExtraPolicy extends XotBasePolicy
      * Determine whether the user can restore the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, Extra $_extra): bool
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,6 +546,10 @@ class ExtraPolicy extends XotBasePolicy
 =======
 =======
 <<<<<<< HEAD
+    public function restore(UserContract $user, Extra $_extra): bool
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function restore(UserContract $user, Extra $_extra): bool
 =======
@@ -481,7 +559,13 @@ class ExtraPolicy extends XotBasePolicy
     public function restore(UserContract $user, Extra $_extra): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    public function restore(UserContract $user, Extra $_extra): bool
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     {
         return $user->hasPermissionTo('extra.restore');
     }
@@ -495,6 +579,10 @@ class ExtraPolicy extends XotBasePolicy
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504,3 +592,8 @@ class ExtraPolicy extends XotBasePolicy
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

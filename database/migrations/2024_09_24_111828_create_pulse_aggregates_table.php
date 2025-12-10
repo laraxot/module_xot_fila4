@@ -61,6 +61,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -183,6 +184,23 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 5a14301c (.)
 =======
+<<<<<<< HEAD
+=======
+        if (!$this->shouldRun()) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!$this->shouldRun()) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! $this->shouldRun()) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         if (! $this->shouldRun()) {
 =======
 <<<<<<< HEAD
@@ -191,8 +209,18 @@ return new class extends XotBaseMigration {
 >>>>>>> 73eab74 (.)
         if (!$this->shouldRun()) {
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        if (! $this->shouldRun()) {
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             return;
         }
         // -- CREATE --
@@ -227,6 +255,7 @@ return new class extends XotBaseMigration {
             $table->index('type'); // For purging...
             $table->index(['period', 'type', 'aggregate', 'bucket']); // For aggregate queries...
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +302,11 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         if (! $this->shouldRun()) {
             return;
         }
@@ -295,6 +329,7 @@ return new class extends XotBaseMigration {
                 $table->unsignedInteger('count')->nullable();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 
 =======
@@ -304,12 +339,16 @@ return new class extends XotBaseMigration {
 =======
 
 >>>>>>> 7468a7d2 (.)
+=======
+
+>>>>>>> 5cf46378 (.)
                 $table->unique(['bucket', 'period', 'type', 'aggregate', 'key_hash']); // Force "on duplicate update"...
                 $table->index(['period', 'bucket']); // For trimming...
                 $table->index('type'); // For purging...
                 $table->index(['period', 'type', 'aggregate', 'bucket']); // For aggregate queries...
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,10 +381,17 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 };

@@ -34,6 +34,7 @@ use Filament\Pages\Page as FilamentPage;
 use Filament\Pages\Page as FilamentPage;
 use Filament\Pages\Page as FilamentPage;
 use Illuminate\Contracts\View\View;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
@@ -348,6 +349,34 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return [];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /**
+     * Get the associated model class for this page.
+     * 
+     * This method must be non-static to properly override the parent method.
+     * Returns the model class string or throws an exception if not set.
+<<<<<<< HEAD
+     */
+=======
+     *
+     * @return class-string<\Illuminate\Database\Eloquent\Model>
+     */
+    /**
+     * @return class-string<Model>
+     */
+>>>>>>> a6ef6dc7 (.)
+    public function getModel(): string
+    {
+        if (static::$model === null) {
+            throw new \LogicException('Model class not set for page: ' . static::class);
+        }
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         
     /**
      * Get the associated model class for this page.
@@ -356,6 +385,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     {
         /** @phpstan-ignore property.staticAccess */
 
+<<<<<<< HEAD
         
     /**
      * Get the associated model class for this page.
@@ -367,18 +397,23 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     {
         /** @phpstan-ignore property.staticAccess */
 
+=======
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         return static::$model;
+=======
+        /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
+        $model = static::$model;
+
+        return $model;
+>>>>>>> a6ef6dc7 (.)
     }
 
-    /**
-     * Get the resources associated with this page.
-     *
-     * @return Collection<string>
-     */
-    public static function getResources(): Collection
-    {
-        return collect();
-    }
+   
 
     /*
      * Hook chiamato all'inizializzazione del componente.

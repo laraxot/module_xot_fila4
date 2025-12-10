@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 <<<<<<< HEAD
@@ -29,14 +30,23 @@ use Illuminate\Support\Facades\App;
 =======
 =======
 <<<<<<< HEAD
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -44,9 +54,12 @@ use Illuminate\Support\Facades\App;
 =======
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> 5cf46378 (.)
+=======
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -71,6 +84,13 @@ use Illuminate\Support\Facades\App;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 trait HasCsrfToken
 {
@@ -175,6 +195,7 @@ trait HasCsrfToken
         return Session::token() === $this->_token;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +241,10 @@ trait HasCsrfToken
 =======
 =======
 <<<<<<< HEAD
+}
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 =======
@@ -229,4 +254,10 @@ trait HasCsrfToken
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+}
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

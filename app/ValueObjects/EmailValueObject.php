@@ -4,18 +4,28 @@ declare(strict_types=1);
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * Value Objects
  * The part of the model are Value Objects.
  * VO's are classes that are immutable. They are wrappers for given types that needs validation.
  * If we have Value Object like Email in system, then we can pass it around and be sure, it's always valid one.
  * This decrease amount of guard logic within the system.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,12 +46,18 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 Value Objects
 The part of the model are Value Objects.
 VO's are classes that are immutable. They are wrappers for given types that needs validation.
 If we have Value Object like Email in system, then we can pass it around and be sure, it's always valid one.
 This decrease amount of guard logic within the system.
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,11 +80,18 @@ This decrease amount of guard logic within the system.
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 namespace Modules\Xot\ValueObjects;
 
@@ -77,18 +100,28 @@ use InvalidArgumentException;
 class EmailValueObject
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function __construct(
         // public readonly string $email;
         public string $email,
     ) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,7 +191,22 @@ class EmailValueObject
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+=======
+<<<<<<< HEAD
+        if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+=======
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
     public function __construct(// public readonly string $email;
         public string $email,
     ) {
@@ -174,6 +222,7 @@ class EmailValueObject
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,6 +296,24 @@ class EmailValueObject
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             throw new InvalidArgumentException(sprintf('Email address %s is considered valid.', $email));
 <<<<<<< HEAD
 =======

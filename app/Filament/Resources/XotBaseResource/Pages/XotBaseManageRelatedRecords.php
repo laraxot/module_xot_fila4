@@ -5,6 +5,60 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 
 use Filament\Schemas\Components\Component;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Actions\Action;
+use Filament\Actions\CreateAction;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
+use Filament\Schemas\Schema;
+use Filament\Tables\Columns\TextColumn;
+use Illuminate\Contracts\Support\Htmlable;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+use Override;
+use Filament\Actions\CreateAction;
+use Filament\Actions\Action;
+use Filament\Schemas\Schema;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Table;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Filament\Actions\AttachAction;
+=======
+>>>>>>> 5cf46378 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
@@ -86,8 +140,45 @@ use Modules\Xot\Filament\Traits\HasXotTable;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -139,7 +230,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 5cf46378 (.)
     /**
      * Restituisce lo schema del form per i record correlati.
      *
@@ -344,7 +438,21 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * @return array<\Filament\Schemas\Components\Component>
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> 53d6a6ba (.)
+=======
+    /*
+<<<<<<< HEAD
+     * @return array<\Filament\Forms\Components\Component>
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> a5dccfe (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      */
     // abstract public static function getFormSchema(): array;
 
@@ -375,7 +483,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      *
      * @return array<string, TextColumn>
      */
-    #[Override]
+    #[\Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [
@@ -443,6 +554,27 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             'edit' => Action::make('edit')
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
                 ->url(function (Model $record): string {
                     $url = static::getResource()::getUrl('edit', ['record' => $record]);
 
@@ -494,6 +626,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+<<<<<<< HEAD
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
@@ -513,12 +646,19 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+                ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+=======
+>>>>>>> 5cf46378 (.)
                 ->url(function (Model $record): string {
                     $url = static::getResource()::getUrl('edit', ['record' => $record]);
                     Assert::string($url);
 
                     return $url;
                 }),
+<<<<<<< HEAD
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
@@ -536,6 +676,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')

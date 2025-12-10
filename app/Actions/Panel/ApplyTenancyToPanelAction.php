@@ -34,6 +34,7 @@ use Filament\Panel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
@@ -129,13 +130,31 @@ use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
@@ -143,6 +162,7 @@ use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +204,11 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Datas\MetatagData;
 use Spatie\QueueableAction\QueueableAction;
@@ -191,6 +216,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,11 +237,18 @@ use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 class ApplyTenancyToPanelAction
 {
@@ -239,7 +272,14 @@ class ApplyTenancyToPanelAction
         // $user = Auth::user();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // if (Gate::allows('superadmin', $user)) {
+=======
+<<<<<<< HEAD
+        // if (Gate::allows('superadmin', $user)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
@@ -306,6 +346,41 @@ class ApplyTenancyToPanelAction
 
         //if (Gate::allows('superadmin', $user)) {
 <<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+<<<<<<< HEAD
+        // if (Gate::allows('superadmin', $user)) {
+>>>>>>> b7afadf9 (.)
+=======
+        //if (Gate::allows('superadmin', $user)) {
+>>>>>>> 5cf46378 (.)
+<<<<<<< HEAD
         //if (Gate::allows('superadmin', $user)) {
         //$user = Auth::user();
 
@@ -390,8 +465,25 @@ class ApplyTenancyToPanelAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')
@@ -421,6 +513,7 @@ class ApplyTenancyToPanelAction
         // $panel->tenant($tenant_class, slugAttribute: 'slug');
         // }
 <<<<<<< HEAD
+<<<<<<< HEAD
         //} else {
         // Configurazione limitata per non-superadmin
         //$panel->tenant($tenant_class, slugAttribute: 'slug');
@@ -433,6 +526,9 @@ class ApplyTenancyToPanelAction
             // Configurazione limitata per non-superadmin
             //$panel->tenant($tenant_class, slugAttribute: 'slug');
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -481,6 +577,12 @@ class ApplyTenancyToPanelAction
 =======
 >>>>>>> 5a14301c (.)
 =======
+=======
+<<<<<<< HEAD
+        // $panel->tenant($tenant_class, slugAttribute: 'slug');
+        // }
+>>>>>>> b7afadf9 (.)
+=======
         //$panel->tenant($tenant_class, slugAttribute: 'slug');
 <<<<<<< HEAD
 =======
@@ -497,8 +599,17 @@ class ApplyTenancyToPanelAction
 >>>>>>> 73eab74 (.)
         //}
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         return $panel;
     }

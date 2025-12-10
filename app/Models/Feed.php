@@ -113,6 +113,11 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+ * @mixin IdeHelperFeed
+>>>>>>> 5cf46378 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -129,8 +134,17 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperFeed
  *
+=======
+=======
+ *
+<<<<<<< HEAD
+ * @mixin IdeHelperFeed
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 /**
@@ -142,6 +156,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Feed newQuery()
  * @method static Builder<static>|Feed query()
  *
+<<<<<<< HEAD
  * @mixin IdeHelperFeed
  * @mixin IdeHelperFeed
  * @mixin IdeHelperFeed
@@ -152,6 +167,16 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 091f883c (.)
  * @mixin IdeHelperFeed
+=======
+<<<<<<< HEAD
+>>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperFeed
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

@@ -36,15 +36,24 @@ use Webmozart\Assert\Assert;
 trait HasCustomRelations
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
     public function customRelation(
         string $related,
         Closure $baseConstraints,
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function customRelation(
         string $related,
         Closure $baseConstraints,
@@ -52,12 +61,15 @@ trait HasCustomRelations
         ?Closure $eagerMatcher = null,
     ): CustomRelation {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $instance = new $related();
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
         null|Closure $eagerConstraints = null,
         null|Closure $eagerMatcher = null,
     ): CustomRelation {
+=======
+>>>>>>> 5cf46378 (.)
         $instance = new $related;
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
@@ -110,9 +122,13 @@ trait HasCustomRelations
         Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         $instance = new $related;
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -125,12 +141,21 @@ trait HasCustomRelations
     ): CustomRelation {
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+        $instance = new $related;
+        // Call to an undefined method object::newQuery()
+        Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
+=======
+>>>>>>> b7afadf9 (.)
         $instance = new $related();
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
     public function customRelation(string $related, Closure $baseConstraints, ?Closure $eagerConstraints = null, ?Closure $eagerMatcher = null): CustomRelation
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,7 +285,14 @@ trait HasCustomRelations
 =======
     public function customRelation(string $related, Closure $baseConstraints, ?Closure $eagerConstraints = null, ?Closure $eagerMatcher = null): CustomRelation
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+    public function customRelation(string $related, Closure $baseConstraints, ?Closure $eagerConstraints = null, ?Closure $eagerMatcher = null): CustomRelation
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         $instance = new $related();
         // Call to an undefined method object::newQuery()
@@ -273,6 +305,7 @@ trait HasCustomRelations
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,12 +416,31 @@ trait HasCustomRelations
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $query = $instance->newQuery();
 
         return new CustomRelation($query, $this, $baseConstraints, $eagerConstraints, $eagerMatcher);

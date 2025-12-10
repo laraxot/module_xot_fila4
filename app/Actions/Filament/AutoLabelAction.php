@@ -298,6 +298,13 @@ class AutoLabelAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @param  Field|Component  $component  Il componente di cui ottenere il nome
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
      * @param Field|Component $component Il componente di cui ottenere il nome
 =======
      * @param Field|\Filament\Schemas\Components\Component $component Il componente di cui ottenere il nome
@@ -306,6 +313,13 @@ class AutoLabelAction
      * @param Field|Component $component Il componente di cui ottenere il nome
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+     * @param Field|Component $component Il componente di cui ottenere il nome
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
      * @return string Il nome del componente
      */
     private function getComponentName(Field|Component $component): string
@@ -314,6 +328,13 @@ class AutoLabelAction
         if (method_exists($component, 'getName')) {
             $name = $component->getName();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
 
             return is_string($name) ? $name : ((string) $name);
 =======
@@ -327,6 +348,12 @@ class AutoLabelAction
             return is_string($name) ? $name : ((string) $name);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+            return is_string($name) ? $name : ((string) $name);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         // Per i componenti generali di Filament
@@ -336,6 +363,13 @@ class AutoLabelAction
         if (method_exists($component, 'getStatePath')) {
             $statePath = $component->getStatePath();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
 
             return $statePath ?? class_basename($component);
 =======
@@ -349,6 +383,12 @@ class AutoLabelAction
             return $statePath ?? class_basename($component);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+            return $statePath ?? class_basename($component);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         // Fallback a reflection per altri casi
@@ -379,6 +419,7 @@ class AutoLabelAction
      * Applica automaticamente le etichette ai componenti Filament.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
      * @return Field|Component Il componente con l'etichetta applicata
      * @param Field|Component $component Il componente a cui applicare l'etichetta
@@ -392,10 +433,22 @@ class AutoLabelAction
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
      * @return Field|Component Il componente con l'etichetta applicata
 =======
+     * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
+     * @return Field|Component Il componente con l'etichetta applicata
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param Field|Component $component Il componente a cui applicare l'etichetta
      *
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
      * @return Field|Component Il componente con l'etichetta applicata
 =======
      * @param Field|\Filament\Schemas\Components\Component $component Il componente a cui applicare l'etichetta
@@ -408,7 +461,15 @@ class AutoLabelAction
      * @return Field|Component Il componente con l'etichetta applicata
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+     * @param Field|Component $component Il componente a cui applicare l'etichetta
+     *
+     * @return Field|Component Il componente con l'etichetta applicata
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
      */
     public function execute(Field|Component $component): Field|Component
     {

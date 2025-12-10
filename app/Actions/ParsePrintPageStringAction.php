@@ -6,17 +6,27 @@ namespace Modules\Xot\Actions;
 
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,12 +46,18 @@ use function Safe\preg_match_all;
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 
 use function Safe\preg_match_all;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,11 +90,18 @@ use function Safe\preg_match_all;
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -140,6 +163,7 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = array_merge(
                     $res,
                     self::fromTo((int) $firstNumber, (int) $secondNumber)
@@ -158,6 +182,8 @@ class ParsePrintPageStringAction
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 =======
 <<<<<<< HEAD
@@ -173,6 +199,12 @@ class ParsePrintPageStringAction
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             }
         }
 

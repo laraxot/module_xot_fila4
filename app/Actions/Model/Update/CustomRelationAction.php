@@ -23,11 +23,14 @@ class CustomRelationAction
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
         $models = [];
         $ids = [];
-        $related = $relationDTO->related;
-        $keyName = $relationDTO->related->getKeyName();
+        $rows = $relationDTO->rows;
+        $related = $rows->getRelated();
+        Assert::notNull($related, 'Related model cannot be null');
+        $keyName = $related->getKeyName();
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
             if (\in_array($keyName, array_keys($data), false)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 <<<<<<< HEAD
@@ -87,12 +90,32 @@ class CustomRelationAction
 >>>>>>> 091f883c (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+=======
+                // Assicura che $data sia type-safe per UpdateAction
+>>>>>>> d2b0a27 (.)
+                /** @var array<string, mixed> $typedData */
+                $typedData = $data;
+                $res = app(UpdateAction::class)->execute($related, $typedData, []);
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

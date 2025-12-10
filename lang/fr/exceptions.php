@@ -5,12 +5,21 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -20,6 +29,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40,6 +50,11 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
     |--------------------------------------------------------------------------
     | Exception Language Lines
     |--------------------------------------------------------------------------
@@ -49,6 +64,7 @@ return [
     | found in a intuitive way.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,11 +89,18 @@ return [
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
     'backend' => [
         'access' => [
@@ -97,6 +120,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -105,10 +129,15 @@ return [
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -140,6 +169,13 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             'users' => [
                 'cant_deactivate_self' => 'Vous ne pouvez pas vous désactiver vous-même.',
                 'cant_delete_self' => 'Vous ne pouvez pas vous supprimer vous-même.',
@@ -164,6 +200,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -172,10 +209,15 @@ return [
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -207,6 +249,13 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -220,6 +269,7 @@ return [
                 'resent' => "Un nouvel email a été envoyé à l'adresse enregistrée.",
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
 <<<<<<< HEAD
@@ -236,11 +286,18 @@ return [
 <<<<<<< HEAD
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
+=======
+<<<<<<< HEAD
+            'deactivated' => 'Votre compte a été désactivé.',
+            'email_taken' => 'Cet email est déjà utilisé.',
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 =======
@@ -251,10 +308,13 @@ return [
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,9 +329,13 @@ return [
 >>>>>>> f1d4085 (.)
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -291,6 +355,13 @@ return [
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+            'deactivated' => 'Votre compte a été désactivé.',
+            'email_taken' => 'Cet email est déjà utilisé.',
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             'password' => [
                 'change_mismatch' => "L'ancien mot de passe est invalide.",
             ],

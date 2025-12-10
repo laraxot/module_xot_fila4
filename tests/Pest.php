@@ -3,12 +3,21 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -22,6 +31,7 @@ use Modules\Xot\Tests\TestCase;
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +467,9 @@ use Modules\Xot\Tests\TestCase;
  */
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
+=======
+uses(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> b7afadf9 (.)
 
 /*
 <<<<<<< HEAD
@@ -512,10 +525,11 @@ pest()->extend(TestCase::class)
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
- * | Quando definisci here expectation globali, saranno disponibili
+ * | Quando definisci aspettative globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 >>>>>>> 17684f52 (.)
 >>>>>>> ce6fc085 (.)
 >>>>>>> b93ef594b4 (.)
@@ -539,6 +553,14 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+namespace Modules\Xot\Tests\Pest;
+>>>>>>> b7afadf9 (.)
 
 
 
@@ -566,6 +588,7 @@ namespace Modules\Xot\Tests\Pest;
 |
 */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7131bd09 (.)
 <<<<<<< HEAD
@@ -1334,19 +1357,50 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 >>>>>>> 16dc7ab0 (.)
+<<<<<<< HEAD
 >>>>>>> 01502290 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+ * | Quando definisci here expectation globali, saranno disponibili
+ * | in tutti i test del modulo.
+ * |
+ */
+
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1442,9 +1496,40 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+// function something() {
+//     // ...
+<<<<<<< HEAD
+// }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 492d6d3c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5cf46378 (.)
 // function something() {
 //     // ...
 // }
@@ -1489,16 +1574,38 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 >>>>>>> 14edd1a1 (.)
+<<<<<<< HEAD
 >>>>>>> e9ee2ea9 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+|--------------------------------------------------------------------------
+| Functions
+|--------------------------------------------------------------------------
+|
+| Qui puoi definire funzioni helper globali per i test del modulo.
+| Queste funzioni saranno disponibili in tutti i test.
+|
+*/
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 // function something() {
 //     // ...
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
 // }
 <<<<<<< HEAD
 // function something() {
 //     // ...
 // }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2010,4 +2117,21 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+// }
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+
+// function something() {
+//     // ...
+// }
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)

@@ -5,12 +5,21 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Cast;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_match;
@@ -21,6 +30,7 @@ use function Safe\preg_match;
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,6 +75,11 @@ use function Safe\preg_match;
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 use function Safe\preg_match;
 
 use Spatie\QueueableAction\QueueableAction;
@@ -75,6 +90,7 @@ use Spatie\QueueableAction\QueueableAction;
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  * 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,11 +111,18 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di cast int in tutto il progetto
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
@@ -118,6 +141,7 @@ use Spatie\QueueableAction\QueueableAction;
  *
  * @package Modules\Xot\Actions\Cast
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +239,16 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -225,8 +259,17 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 73eab74 (.)
  * @package Modules\Xot\Actions\Cast
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  */
 class SafeIntCastAction
 {
@@ -241,6 +284,7 @@ class SafeIntCastAction
      */
 <<<<<<< HEAD
     public function execute(mixed $value, ?int $default = 0): int
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -295,6 +339,13 @@ class SafeIntCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(mixed $value, ?int $default = 0): int
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(mixed $value, null|int $default = 0): int
@@ -304,6 +355,7 @@ class SafeIntCastAction
     public function execute(mixed $value, ?int $default = 0): int
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -428,31 +480,62 @@ class SafeIntCastAction
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
     public function execute(mixed $value, null|int $default = 0): int
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function execute(mixed $value, null|int $default = 0): int
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    public function execute(mixed $value, null|int $default = 0): int
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         // Se è già un int, restituiscilo direttamente
         if (is_int($value)) {
             return $value;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
         // Se è un float, convertilo in int (troncamento)
         if (is_float($value)) {
             return is_finite($value) ? ((int) $value) : ($default ?? 0);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -492,6 +575,11 @@ class SafeIntCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         
         // Se è un float, convertilo in int (troncamento)
         if (is_float($value)) {
@@ -501,6 +589,7 @@ class SafeIntCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -518,16 +607,24 @@ class SafeIntCastAction
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Se è null, restituisci il default
         if (is_null($value)) {
             return $default ?? 0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -570,6 +667,10 @@ class SafeIntCastAction
 =======
 =======
 <<<<<<< HEAD
+
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -579,12 +680,19 @@ class SafeIntCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Se è una stringa, prova a convertirla
         if (is_string($value)) {
             return $this->parseStringToInt($value, $default);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,6 +735,10 @@ class SafeIntCastAction
 =======
 =======
 <<<<<<< HEAD
+
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -636,12 +748,19 @@ class SafeIntCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Se è un booleano, convertilo (true = 1, false = 0)
         if (is_bool($value)) {
             return $value ? 1 : 0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,6 +803,10 @@ class SafeIntCastAction
 =======
 =======
 <<<<<<< HEAD
+
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -693,12 +816,22 @@ class SafeIntCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Se è un array e ha un solo elemento numerico
         if (is_array($value) && count($value) === 1) {
             return $this->execute(reset($value), $default);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,6 +893,7 @@ class SafeIntCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -780,10 +914,19 @@ class SafeIntCastAction
 =======
 <<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+
+>>>>>>> 5cf46378 (.)
         // Se è un oggetto con metodo __toString, prova a convertirlo
         if (is_object($value) && method_exists($value, '__toString')) {
             return $this->parseStringToInt((string) $value, $default);
         }
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -803,12 +946,23 @@ class SafeIntCastAction
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Per tutti gli altri tipi, restituisci il default
         return $default ?? 0;
     }
@@ -830,6 +984,13 @@ class SafeIntCastAction
      * @return int Il valore convertito
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    private function parseStringToInt(string $value, ?int $default = 0): int
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     private function parseStringToInt(string $value, ?int $default = 0): int
     {
         $trimmed = trim($value);
@@ -839,37 +1000,60 @@ class SafeIntCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
     private function parseStringToInt(string $value, null|int $default = 0): int
+=======
+=======
+>>>>>>> 300ef70 (.)
+    private function parseStringToInt(string $value, null|int $default = 0): int
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         $trimmed = trim($value);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
     private function parseStringToInt(string $value, ?int $default = 0): int
     {
         $trimmed = trim($value);
         
 <<<<<<< HEAD
+<<<<<<< HEAD
     private function parseStringToInt(string $value, null|int $default = 0): int
     {
         $trimmed = trim($value);
 
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Stringa vuota o solo spazi
         if (empty($trimmed)) {
             return $default ?? 0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -877,33 +1061,53 @@ class SafeIntCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
         // Rimuovi separatori di migliaia comuni
         $normalized = str_replace([',', ' ', '.'], '', $trimmed);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         
         // Rimuovi separatori di migliaia comuni
         $normalized = str_replace([',', ' ', '.'], '', $trimmed);
         
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // Rimuovi separatori di migliaia comuni
         $normalized = str_replace([',', ' ', '.'], '', $trimmed);
 
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Verifica se è un numero valido
         if (is_numeric($normalized)) {
             $int = (int) $normalized;
@@ -911,11 +1115,16 @@ class SafeIntCastAction
             return $int;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         
 =======
 <<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -927,14 +1136,23 @@ class SafeIntCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // Prova a estrarre solo i numeri
         $matches = [];
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && ! empty($matches[0])) {
             return (int) $matches[0];
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -942,6 +1160,7 @@ class SafeIntCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 
         return $default ?? 0;
@@ -959,10 +1178,29 @@ class SafeIntCastAction
     }
     
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
         return $default ?? 0;
     }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        
+        return $default ?? 0;
+    }
+    
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     /**
 =======
 >>>>>>> f1d4085 (.)
@@ -979,17 +1217,35 @@ class SafeIntCastAction
      * @return int Il valore convertito in int
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function cast(mixed $value, ?int $default = 0): int
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
     public static function cast(mixed $value, null|int $default = 0): int
+=======
+=======
+>>>>>>> 300ef70 (.)
+    public static function cast(mixed $value, null|int $default = 0): int
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         return app(self::class)->execute($value, $default);
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 >>>>>>> d2b0a27 (.)
     public static function cast(mixed $value, ?int $default = 0): int
@@ -1004,6 +1260,11 @@ class SafeIntCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     /**
      * Converte un valore in int con validazione di range.
      *
@@ -1014,12 +1275,26 @@ class SafeIntCastAction
      * @return int Il valore convertito e validato
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function executeWithRange(mixed $value, int $min, int $max, ?int $default = null): int
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
     public function executeWithRange(mixed $value, int $min, int $max, null|int $default = null): int
+=======
+=======
+>>>>>>> 300ef70 (.)
+    public function executeWithRange(mixed $value, int $min, int $max, null|int $default = null): int
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         $int = $this->execute($value, $default);
 
@@ -1028,6 +1303,10 @@ class SafeIntCastAction
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 >>>>>>> d2b0a27 (.)
     public function executeWithRange(mixed $value, int $min, int $max, ?int $default = null): int
@@ -1045,6 +1324,11 @@ class SafeIntCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     /**
      * Metodo statico di convenienza per cast con range.
      *
@@ -1059,6 +1343,13 @@ class SafeIntCastAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function castWithRange(mixed $value, int $min, int $max, ?int $default = null): int
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     public static function castWithRange(mixed $value, int $min, int $max, null|int $default = null): int
 =======
     public static function castWithRange(mixed $value, int $min, int $max, ?int $default = null): int
@@ -1067,6 +1358,13 @@ class SafeIntCastAction
     public static function castWithRange(mixed $value, int $min, int $max, null|int $default = null): int
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+    public static function castWithRange(mixed $value, int $min, int $max, null|int $default = null): int
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         return app(self::class)->executeWithRange($value, $min, $max, $default);
     }
@@ -1083,6 +1381,13 @@ class SafeIntCastAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function executeAsId(mixed $value, ?int $default = 1): int
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     public function executeAsId(mixed $value, null|int $default = 1): int
 =======
     public function executeAsId(mixed $value, ?int $default = 1): int
@@ -1091,6 +1396,13 @@ class SafeIntCastAction
     public function executeAsId(mixed $value, null|int $default = 1): int
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+    public function executeAsId(mixed $value, null|int $default = 1): int
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         $int = $this->execute($value, $default);
 
@@ -1109,6 +1421,13 @@ class SafeIntCastAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public static function castAsId(mixed $value, ?int $default = 1): int
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     public static function castAsId(mixed $value, null|int $default = 1): int
 =======
     public static function castAsId(mixed $value, ?int $default = 1): int
@@ -1117,6 +1436,13 @@ class SafeIntCastAction
     public static function castAsId(mixed $value, null|int $default = 1): int
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+    public static function castAsId(mixed $value, null|int $default = 1): int
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         return app(self::class)->executeAsId($value, $default);
     }

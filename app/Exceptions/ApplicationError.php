@@ -27,11 +27,19 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
 =======
 =======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 =======
 use JsonSerializable;
 <<<<<<< HEAD
@@ -43,8 +51,25 @@ use Override;
 use Override;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use JsonSerializable;
@@ -53,6 +78,13 @@ use Override;
 use function Safe\json_encode;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+readonly class ApplicationError implements Arrayable, Jsonable, JsonSerializable
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 /**
  * @implements Arrayable<string, mixed>
  */
@@ -62,8 +94,16 @@ class ApplicationError implements Arrayable, Jsonable, JsonSerializable
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
 {
     public function __construct(
         private string $help = '',
@@ -142,6 +182,7 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
         private  string $help = '',
         private  string $error = '',
     ) {}
+<<<<<<< HEAD
 {
     public function __construct(private readonly string $help = '', private readonly string $error = '')
     {
@@ -152,6 +193,9 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
         private  string $help = '',
         private  string $error = '',
     ) {}
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -165,6 +209,11 @@ class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
     /**
      * @return array<string, mixed>
@@ -178,6 +227,10 @@ class ApplicationError implements JsonSerializable, Arrayable, Jsonable
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     #[Override]
     /**
      * @return array<string, mixed>
@@ -192,6 +245,12 @@ class ApplicationError implements JsonSerializable, Arrayable, Jsonable
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function jsonSerialize(): array
     {
         return $this->toArray();

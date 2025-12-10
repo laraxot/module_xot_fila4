@@ -30,6 +30,11 @@ class FieldRefreshAction extends Action
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
             ->action(function ($record, Set $set): void {
             ->action(function ($record, Set $set): void {
         $this->translateLabel();
@@ -37,6 +42,7 @@ class FieldRefreshAction extends Action
             ->tooltip('Ricalcola valore')
             ->action(function ($state, Set $set, $record) {
             ->action(function ($state, $set, $record) {
+<<<<<<< HEAD
             ->action(function ($state, $set, $record): void {
             ->action(function ($state, $set, $record) {
             ->action(function ($state, $set, $record) {
@@ -48,6 +54,12 @@ class FieldRefreshAction extends Action
             ->action(function ($state, $set, $record) {
             ->action(function ($state, $set, $record): void {
             ->action(function ($state, $set, $record) {
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+            ->action(function ($state, $set, $record): void {
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
@@ -77,17 +89,25 @@ class FieldRefreshAction extends Action
                     ->title('Ricalcolato ' . $name)
                     ->body('vecchio valore: ' . $state . ' nuovo valore: ' . $value)
                 $method = 'get'.Str::studly($name).'';
+<<<<<<< HEAD
                 $value = $record->$method();
                 $set($name, $value);
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+<<<<<<< HEAD
                 $method = 'get'.Str::studly($name).'';
                 $value = $record->$method();
                 $set($name, $value);
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+=======
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 5cf46378 (.)
 
                 if (! is_object($record) || ! method_exists($record, $method)) {
                     return;
@@ -109,12 +129,17 @@ class FieldRefreshAction extends Action
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$oldValue.' nuovo valore: '.$newValue)
+<<<<<<< HEAD
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                     ->success()
                     ->send();
             });

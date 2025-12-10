@@ -77,6 +77,7 @@ class GenerateModelClassCommand extends GeneratorCommand
         return realpath(__DIR__.'/../stubs/model.stub');
         return realpath(__DIR__.'/../stubs/model.stub');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         return realpath(__DIR__.'/../stubs/model.stub');
@@ -86,6 +87,9 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         return realpath(__DIR__.'/../stubs/model.stub');
 =======
         return realpath(__DIR__ . '/../stubs/model.stub');
@@ -144,15 +148,30 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         return realpath(__DIR__.'/../stubs/model.stub');
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        return realpath(__DIR__.'/../stubs/model.stub');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         return realpath(__DIR__ . '/../stubs/model.stub');
 =======
         return realpath(__DIR__.'/../stubs/model.stub');
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,11 +337,33 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         return realpath(__DIR__ . '/../stubs/model.stub');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return realpath(__DIR__ . '/../stubs/model.stub');
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return realpath(__DIR__.'/../stubs/model.stub');
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        return realpath(__DIR__ . '/../stubs/model.stub');
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     protected function getDefaultNamespace($rootNamespace)
@@ -378,6 +419,7 @@ class GenerateModelClassCommand extends GeneratorCommand
         return $rootNamespace.'\Models';
         return $rootNamespace.'\Models';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         return $rootNamespace.'\Models';
@@ -387,6 +429,9 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         return $rootNamespace.'\Models';
 =======
         return $rootNamespace . '\Models';
@@ -445,15 +490,30 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         return $rootNamespace.'\Models';
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        return $rootNamespace.'\Models';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         return $rootNamespace . '\Models';
 =======
         return $rootNamespace.'\Models';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,11 +679,33 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         return $rootNamespace . '\Models';
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return $rootNamespace . '\Models';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return $rootNamespace.'\Models';
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        return $rootNamespace . '\Models';
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     protected function replaceClass($stub, $name)
@@ -679,6 +761,7 @@ class GenerateModelClassCommand extends GeneratorCommand
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
@@ -688,6 +771,9 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
 =======
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
@@ -746,15 +832,30 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        $class = str_replace($this->getNamespace($name).'\\', '', $name);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
 =======
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -920,11 +1021,33 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $class = str_replace($this->getNamespace($name) . '\\', '', $name);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $class = str_replace($this->getNamespace($name).'\\', '', $name);
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        $class = str_replace($this->getNamespace($name) . '\\', '', $name);
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         // Do string replacement
         return str_replace('{{service_name}}', $class, $stub);

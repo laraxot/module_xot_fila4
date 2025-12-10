@@ -5,18 +5,34 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 use Filament\Actions\Action;
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Actions\Action;
 use Override;
 use Filament\Actions\CreateAction;
 use Filament\Actions\Action;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 use Override;
 use Filament\Actions\CreateAction;
 use Filament\Actions;
@@ -55,19 +71,36 @@ use Filament\Actions;
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> b7afadf9 (.)
+=======
 =======
 use Filament\Actions\CreateAction;
 use Filament\Actions\Action;
 >>>>>>> f1d4085 (.)
 =======
 use Filament\Actions\Action;
+<<<<<<< HEAD
 use Override;
 use Filament\Actions\CreateAction;
+=======
+use Filament\Actions\CreateAction;
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> 73eab74 (.)
 use Filament\Actions;
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Enums\TableLayoutEnum;
@@ -80,6 +113,7 @@ use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
 
+<<<<<<< HEAD
 use Override;
 use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
@@ -88,6 +122,9 @@ use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
 
 
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -98,6 +135,11 @@ use Modules\Xot\Filament\Widgets\Clock;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 /**
  * @see CacheResource
  */
@@ -107,6 +149,9 @@ class ListCaches extends XotBaseListRecords
 
     protected static string $resource = CacheResource::class;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getHeaderWidgets(): array
     {
         return [
@@ -114,6 +159,7 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -154,6 +200,10 @@ class ListCaches extends XotBaseListRecords
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+<<<<<<< HEAD
+    #[Override]
+>>>>>>> 5cf46378 (.)
     /**
      * @return array<string, mixed>
      */
@@ -167,7 +217,13 @@ class ListCaches extends XotBaseListRecords
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function getTableColumns(): array
     {
         return [
@@ -182,6 +238,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -190,10 +247,15 @@ class ListCaches extends XotBaseListRecords
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -225,6 +287,13 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             'value' => TextColumn::make('value')
                 ->searchable()
                 ->wrap()
@@ -235,6 +304,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -243,10 +313,15 @@ class ListCaches extends XotBaseListRecords
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -278,6 +353,13 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             'expiration' => TextColumn::make('expiration')
                 ->dateTime()
                 ->sortable()
@@ -285,6 +367,7 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -325,6 +408,10 @@ class ListCaches extends XotBaseListRecords
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+<<<<<<< HEAD
+    #[Override]
+>>>>>>> 5cf46378 (.)
     /**
      * @return array<string, mixed>
      */
@@ -338,7 +425,13 @@ class ListCaches extends XotBaseListRecords
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -349,6 +442,7 @@ class ListCaches extends XotBaseListRecords
     /**
      * @return array<string, Action>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -395,6 +489,10 @@ class ListCaches extends XotBaseListRecords
 =======
 =======
 <<<<<<< HEAD
+    #[Override]
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 =======
@@ -403,7 +501,13 @@ class ListCaches extends XotBaseListRecords
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     protected function getHeaderActions(): array
     {
         return [

@@ -78,11 +78,14 @@ class RegisterLivewireComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
         $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\Http\Livewire', $prefix);
 =======
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
@@ -159,17 +162,36 @@ class RegisterLivewireComponentsAction
 >>>>>>> ce6fc085 (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\Http\Livewire', $prefix);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\Http\Livewire', $prefix);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
         $comps = app(GetComponentsAction::class)
             ->execute($path, $namespace.'\Http\Livewire', $prefix);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -287,13 +309,35 @@ class RegisterLivewireComponentsAction
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\Http\Livewire', $prefix);
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         foreach ($comps as $comp) {
             Livewire::component($comp->name, $comp->ns);

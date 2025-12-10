@@ -17,7 +17,10 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Class XotBaseUuidModel.
  *
- * Base class for models using UUIDs.
+ * Base class for models using UUIDs as primary keys.
+ *
+ * Inherits from Model and configures UUID-specific properties.
+ * Used as parent for module-specific BaseUuidModel classes.
  */
 abstract class XotBaseUuidModel extends XotBaseModel
 {
@@ -25,6 +28,19 @@ abstract class XotBaseUuidModel extends XotBaseModel
 
 abstract class XotBaseUuidModel extends Model
 {
+    use \Modules\Xot\Traits\Updater;
+    use Traits\HasXotFactory;
+    use Traits\RelationX;
+
+    /**
+     * Indicates whether attributes are snake cased on arrays.
+     *
+     * @see https://laravel-news.com/6-eloquent-secrets
+     *
+     * @var bool
+     */
+    public static $snakeAttributes = true;
+
     /** @var bool */
     public $incrementing = false;
 
@@ -39,6 +55,14 @@ abstract class XotBaseUuidModel extends Model
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 
     protected $keyType = 'string';
 
@@ -50,6 +74,10 @@ abstract class XotBaseUuidModel extends Model
     /**
      * @return array<string, string>
      */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5cf46378 (.)
 
     /** @var list<string> */
     protected $fillable = ['id'];
@@ -61,12 +89,24 @@ abstract class XotBaseUuidModel extends Model
     protected $hidden = [];
 
     /** @return array<string, string> */
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
+<<<<<<< HEAD
             'uuid' => 'string',
             'published_at' => 'datetime',
+=======
+<<<<<<< HEAD
+=======
+            'uuid' => 'string',
+            'published_at' => 'datetime',
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -75,4 +115,18 @@ abstract class XotBaseUuidModel extends Model
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 }

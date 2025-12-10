@@ -89,6 +89,7 @@ class ListFilamentPanels extends Command
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
             $providersPath = $module->getPath() . '/Providers';
@@ -104,6 +105,9 @@ class ListFilamentPanels extends Command
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
@@ -271,6 +275,7 @@ class ListFilamentPanels extends Command
             if (!is_dir($providersPath)) {
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
+<<<<<<< HEAD
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
             $providersPath = $module->getPath() . '/Providers';
@@ -333,6 +338,36 @@ class ListFilamentPanels extends Command
             if (! is_dir($providersPath)) {
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
+=======
+>>>>>>> 9db27d12 (.)
+=======
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+                continue;
+            }
+
+            /** @var Collection<int, string> $providerFiles */
+            $providerFiles = collect(scandir($providersPath));
+            $providers = $providerFiles
+                ->filter(fn (mixed $file): bool => str_ends_with((string) $file, 'ServiceProvider.php'));
+
+            foreach ($providers as $provider) {
+                if (! is_string($provider)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                 continue;
             }
 
@@ -498,6 +533,29 @@ class ListFilamentPanels extends Command
 
             foreach ($providers as $provider) {
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+<<<<<<< HEAD
+                if (! class_exists($providerClass)) {
+=======
+                if (!class_exists($providerClass)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ->filter(fn (string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
+
+            foreach ($providers as $provider) {
+                $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+                if (! class_exists($providerClass)) {
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+                    continue;
+                }
+
+                $providerClass = "Modules\\{$moduleName}\\Providers\\".$provider;
                 if (! class_exists($providerClass)) {
 >>>>>>> f1d4085 (.)
 =======
@@ -506,6 +564,11 @@ class ListFilamentPanels extends Command
                     continue;
                 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
 <<<<<<< HEAD
@@ -864,6 +927,9 @@ class ListFilamentPanels extends Command
                 $this->info('Found panel in '.$moduleName.': '.$provider);
                 $this->info("Found panel in {$moduleName}: {$provider}");
                 $this->info("Found panel in {$moduleName}: {$provider}");
+=======
+                $this->info('Found panel in '.$moduleName.': '.$provider);
+>>>>>>> b7afadf9 (.)
             }
         }
 

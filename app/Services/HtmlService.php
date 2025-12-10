@@ -16,12 +16,21 @@ use Spipu\Html2Pdf\Html2Pdf;
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * ExceptionFormatter
  * HtmlParsingException
  * ImageException
@@ -34,6 +43,7 @@ use Spipu\Html2Pdf\Html2Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -49,6 +59,11 @@ use Spipu\Html2Pdf\Html2Pdf;
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 ExceptionFormatter
 HtmlParsingException
 ImageException
@@ -56,6 +71,7 @@ LocaleException
 LongSentenceException
 TableException
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,11 +96,18 @@ TableException
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 /**
  * Class HtmlService.
@@ -92,12 +115,21 @@ TableException
 class HtmlService
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public static function toPdf(
         string $html,
         string $out = 'show',
@@ -110,6 +142,7 @@ class HtmlService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function toPdf(string $html, string $out = 'show', string $pdforientation = 'L', string $filename = ''): string
     {
 =======
@@ -120,9 +153,14 @@ class HtmlService
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
     public static function toPdf(string $html, string $out = 'show', string $pdforientation = 'L', string $filename = ''): string
     {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -154,6 +192,13 @@ class HtmlService
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // dddx($params);
 
         // include_once __DIR__.'/vendor/autoload.php';
@@ -167,6 +212,7 @@ class HtmlService
             $filename = Storage::disk('local')->path('test.pdf');
         }
         /*
+<<<<<<< HEAD
         if ($filename === '') {
         if ('' === $filename) {
         if ('' === $filename) {
@@ -176,6 +222,9 @@ class HtmlService
             $filename = Storage::disk('local')->path('test.pdf');
         }
         /*
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -183,11 +232,17 @@ class HtmlService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
          * extract($params);
          * if (! isset($html)) {
          * throw new \Exception('err html is missing');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,11 +263,17 @@ class HtmlService
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         extract($params);
         if (! isset($html)) {
             throw new \Exception('err html is missing');
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,11 +298,18 @@ class HtmlService
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         if (request('debug', false)) {
             return $html;
         }
@@ -256,8 +324,10 @@ class HtmlService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
             if ($out === 'content_PDF') {
                 return $html2pdf->Output($filename.'.pdf', 'S');
@@ -267,12 +337,34 @@ class HtmlService
 <<<<<<< HEAD
                 return $html2pdf->Output($filename . '.pdf', 'S');
 =======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+            if ($out === 'content_PDF') {
+                return $html2pdf->Output($filename.'.pdf', 'S');
+=======
+<<<<<<< HEAD
+            if ($out === 'content_PDF') {
+                return $html2pdf->Output($filename.'.pdf', 'S');
+=======
+            if ('content_PDF' === $out) {
+                return $html2pdf->Output($filename . '.pdf', 'S');
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
                 return $html2pdf->Output($filename.'.pdf', 'S');
 >>>>>>> f1d4085 (.)
 =======
                 return $html2pdf->Output($filename . '.pdf', 'S');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
             }
 
             if ($out === 'file') {
@@ -314,12 +406,21 @@ class HtmlService
 
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
      * public static function toMpdf($html): string {
      * require_once __DIR__.'/vendor/autoload.php';
      *
@@ -329,6 +430,7 @@ class HtmlService
      * return $mpdf->Output();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,6 +451,11 @@ class HtmlService
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
     public static function toMpdf($html): string {
         require_once __DIR__.'/vendor/autoload.php';
 
@@ -358,6 +465,7 @@ class HtmlService
         return $mpdf->Output();
     }
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,9 +490,16 @@ class HtmlService
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 }

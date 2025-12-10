@@ -21,6 +21,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
@@ -29,6 +30,8 @@ use Exception;
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 use Illuminate\Foundation\Configuration\Exceptions;
 =======
 <<<<<<< HEAD
@@ -40,6 +43,12 @@ use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Exceptions;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+use Illuminate\Foundation\Configuration\Exceptions;
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
@@ -52,6 +61,7 @@ use Illuminate\Support\Facades\View;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
 use Modules\Xot\Actions\View\GetViewPathAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +86,8 @@ class ExceptionHandler
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler
@@ -97,6 +109,14 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 class ExceptionHandler
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class ExceptionHandler
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 {
     /**
      * Configura la gestione delle eccezioni.
@@ -115,6 +135,7 @@ class ExceptionHandler
     public static function handles(Exceptions $exceptions): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
 <<<<<<< HEAD
@@ -132,18 +153,28 @@ class ExceptionHandler
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+        $exceptions->render(function (HttpException $e, Request $request) {
+            $status_code = $e->getStatusCode();
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> 5cf46378 (.)
+=======
         
         $exceptions->render(function (HttpException $e,Request $request) {
             $status_code=$e->getStatusCode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -154,9 +185,13 @@ class ExceptionHandler
 >>>>>>> f1d4085 (.)
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -179,18 +214,34 @@ class ExceptionHandler
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+        $exceptions->render(function (HttpException $e, Request $request) {
+            $status_code = $e->getStatusCode();
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             if ($request->wantsJson()) {
                 return response()->json([
                     'message' => $e->getMessage(),
                 ], $status_code);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
             $view = 'pub_theme::errors.'.$status_code;
             if (! view()->exists($view)) {
@@ -201,6 +252,7 @@ class ExceptionHandler
             $view_params = ['exception' => $e];
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -313,13 +365,26 @@ class ExceptionHandler
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             
 
             $view='pub_theme::errors.'.$status_code;
             if(!view()->exists($view)){
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,7 +435,12 @@ class ExceptionHandler
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                 throw new Exception('view not found: ['.$view.'] view path:'.app(GetViewPathAction::class)->execute($view));    
                 
             }
@@ -378,6 +448,7 @@ class ExceptionHandler
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,7 +526,24 @@ class ExceptionHandler
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

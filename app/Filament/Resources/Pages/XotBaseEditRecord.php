@@ -216,6 +216,10 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
     protected function getHeaderActions(): array
     {
+<<<<<<< HEAD
+=======
+
+>>>>>>> a6ef6dc7 (.)
         return [
             'delete' => DeleteAction::make()
                 ->icon('heroicon-o-trash')
@@ -241,7 +245,9 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     public static function canDelete(Model $record): bool
     {
         $resource = static::$resource;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         $result = $resource::canDelete($record);
 
 
@@ -259,12 +265,22 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
         $result = $resource::canDelete($record);
 
         return is_bool($result) ? $result : false;
+=======
+        return $resource::canDelete($record);
+=======
+        $result = $resource::canDelete($record);
+
+        return is_bool($result) ? $result : false;
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     public static function canForceDelete(Model $record): bool
     {
         $resource = static::$resource;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         $result = $resource::canForceDelete($record);
 
         $result = $resource::canForceDelete($record);
@@ -272,12 +288,22 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
         $result = $resource::canForceDelete($record);
 
         return is_bool($result) ? $result : false;
+=======
+        return $resource::canForceDelete($record);
+=======
+        $result = $resource::canForceDelete($record);
+
+        return is_bool($result) ? $result : false;
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     public static function canRestore(Model $record): bool
     {
         $resource = static::$resource;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         $result = $resource::canRestore($record);
 
         $result = $resource::canRestore($record);
@@ -285,6 +311,14 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
         $result = $resource::canRestore($record);
 
         return is_bool($result) ? $result : false;
+=======
+        return $resource::canRestore($record);
+=======
+        $result = $resource::canRestore($record);
+
+        return is_bool($result) ? $result : false;
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     }
 
 

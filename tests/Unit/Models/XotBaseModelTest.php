@@ -25,7 +25,10 @@ use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 use Tests\TestCase;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5cf46378 (.)
 =======
 =======
 =======
@@ -74,10 +77,27 @@ use Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
 
 use function Safe\file_get_contents;
 
 use function Safe\file_get_contents;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+
+use function Safe\file_get_contents;
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 uses(TestCase::class);
 
@@ -217,12 +237,24 @@ test('xot base model has correct property types', function (): void {
 
     // Some properties may not have explicit type declarations; in that case just ensure defaults are as expected
     if ($snakeType !== null) {
+<<<<<<< HEAD
     if ($snakeType !== null) {
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
     if ($snakeType !== null) {
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
     if ($snakeType !== null) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         expect($snakeType->getName())->toBe('bool');
     } else {
         expect(XotBaseModel::$snakeAttributes)->toBeTrue();
@@ -234,8 +266,14 @@ test('xot base model has correct property types', function (): void {
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
     if ($perPageType !== null) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -250,6 +288,12 @@ test('xot base model has correct property types', function (): void {
 
 >>>>>>> 091f883c (.)
     if ($perPageType !== null) {
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        /* @phpstan-ignore-next-line method.notFound, argument.templateType */
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         expect($perPageType->getName())->toBe('int');
     } else {
         expect($perPageProperty->getDefaultValue())->toBe(30);

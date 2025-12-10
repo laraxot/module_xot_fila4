@@ -19,9 +19,29 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+=======
+=======
+use Illuminate\Database\Eloquent\Model;
+use InvalidArgumentException;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 <<<<<<< HEAD
@@ -49,7 +69,12 @@ use InvalidArgumentException;
 >>>>>>> 7468a7d2 (.)
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 use InvalidArgumentException;
 use InvalidArgumentException;
 use InvalidArgumentException;
@@ -243,7 +268,18 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Model;
@@ -255,6 +291,7 @@ use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353,12 +390,33 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 /**
  * Counts records for a given model class using optimized table information.

@@ -96,6 +96,7 @@ abstract class XotBaseFormComponent extends Field
         parent::setUp();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->dehydrated(true)->required(false);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,13 +110,21 @@ abstract class XotBaseFormComponent extends Field
 =======
 =======
 <<<<<<< HEAD
+        $this->dehydrated(true)->required(false);
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->dehydrated(true)->required(false);
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
         $this->dehydrated(true)
             ->required(false);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -128,10 +137,18 @@ abstract class XotBaseFormComponent extends Field
 >>>>>>> a67e542f (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
         $this->dehydrated(true)->required(false);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        $this->dehydrated(true)->required(false);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     /**

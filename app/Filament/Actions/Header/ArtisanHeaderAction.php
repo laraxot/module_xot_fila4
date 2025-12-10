@@ -60,6 +60,7 @@ class ArtisanHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -71,6 +72,10 @@ class ArtisanHeaderAction extends Action
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 
             
             
@@ -117,17 +122,36 @@ class ArtisanHeaderAction extends Action
 >>>>>>> ce6fc085 (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             
 
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -309,18 +333,62 @@ class ArtisanHeaderAction extends Action
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
             
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+            
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
             // ->icon('heroicon-o-arrow-down-tray')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+            ->action(function (): void {
+            ->action(function () {
+            ->action(function () {
+            ->action(function () {
+            ->action(function () {
+<<<<<<< HEAD
+            ->action(function (): void {
+            ->action(function () {
+            ->action(function () {
+            ->action(function () {
+            ->action(function () {
+            ->action(function (): void {
+            ->action(function () {
+            ->action(function () {
             ->action(function (): void {
             ->action(function () {
             ->action(function () {
@@ -334,20 +402,13 @@ class ArtisanHeaderAction extends Action
             ->action(function (): void {
             ->action(function () {
             ->action(function () {
+            ->action(function () {
+=======
+>>>>>>> 53d6a6ba (.)
+=======
             ->action(function (): void {
-            ->action(function () {
-            ->action(function () {
-            ->action(function () {
-            ->action(function () {
-            ->action(function (): void {
-            ->action(function () {
-            ->action(function () {
-            ->action(function () {
-            ->action(function () {
-            ->action(function (): void {
-            ->action(function () {
-            ->action(function () {
-            ->action(function () {
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
                 Assert::string($cmd = $this->getName());
                 Artisan::call($cmd);
                 $output = Artisan::output();
@@ -410,6 +471,7 @@ class ArtisanHeaderAction extends Action
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
     public static function getDefaultName(): ?string
@@ -419,6 +481,9 @@ class ArtisanHeaderAction extends Action
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -477,15 +542,30 @@ class ArtisanHeaderAction extends Action
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
     public static function getDefaultName(): ?string
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     public static function getDefaultName(): null|string
 =======
     public static function getDefaultName(): ?string
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,11 +731,33 @@ class ArtisanHeaderAction extends Action
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
     public static function getDefaultName(): null|string
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         return 'artisan_action';
     }

@@ -96,6 +96,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseEntry whereValue($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -111,6 +112,21 @@ use Illuminate\Database\Eloquent\Builder;
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
+=======
+<<<<<<< HEAD
+ * @mixin IdeHelperPulseEntry
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+ * @mixin IdeHelperPulseEntry
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 /**
@@ -134,6 +150,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseEntry whereType($value)
  * @method static Builder<static>|PulseEntry whereValue($value)
  *
+<<<<<<< HEAD
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
  * @mixin IdeHelperPulseEntry
@@ -146,6 +163,16 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 >>>>>>> 091f883c (.)
  * @mixin IdeHelperPulseEntry
+=======
+<<<<<<< HEAD
+>>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperPulseEntry
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

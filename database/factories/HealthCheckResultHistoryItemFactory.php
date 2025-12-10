@@ -10,6 +10,7 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 /**
  * HealthCheckResultHistoryItem Factory
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +56,10 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 =======
 =======
 <<<<<<< HEAD
+ *
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -64,7 +69,13 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+ *
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -77,6 +88,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
             'check_name' => $this->faker->randomElement([
                 'DatabaseCheck',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'CacheCheck',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +134,10 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
 =======
 <<<<<<< HEAD
+                'CacheCheck',
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'CacheCheck',
 =======
@@ -131,7 +147,13 @@ class HealthCheckResultHistoryItemFactory extends Factory
                 'CacheCheck',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+                'CacheCheck',
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -151,6 +173,38 @@ class HealthCheckResultHistoryItemFactory extends Factory
     public function ok(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,17 +307,30 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
 =======
 =======
+=======
         return $this->state(fn (array $_attributes): array => [
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        return $this->state(fn (array $_attributes): array => [
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn (array $attributes): array => [
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,11 +494,33 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -440,6 +529,38 @@ class HealthCheckResultHistoryItemFactory extends Factory
     public function failed(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -542,17 +663,30 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
 =======
 =======
+=======
         return $this->state(fn (array $_attributes): array => [
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        return $this->state(fn (array $_attributes): array => [
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         return $this->state(fn(array $_attributes): array => [
         return $this->state(fn (array $attributes): array => [
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -712,11 +846,33 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

@@ -11,6 +11,7 @@ use Illuminate\Queue\SerializesModels;
 /**
  * Class RecordMail
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +54,10 @@ use Illuminate\Queue\SerializesModels;
 =======
 =======
 <<<<<<< HEAD
+ *
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -62,7 +67,13 @@ use Illuminate\Queue\SerializesModels;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+ *
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * Mailable per l'invio di dati di record via email.
  */
 class RecordMail extends Mailable
@@ -96,6 +107,7 @@ class RecordMail extends Mailable
     public function build(): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->view('xot::emails.record')->with(['data' => $this->recordData]);
     }
 }
@@ -113,6 +125,13 @@ class RecordMail extends Mailable
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+        return $this->view('xot::emails.record')->with(['data' => $this->recordData]);
+    }
+}
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         return $this->view('xot::emails.record')->with(['data' => $this->recordData]);
@@ -120,13 +139,17 @@ class RecordMail extends Mailable
 }
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
         return $this->view('xot::emails.record')
                     ->with(['data' => $this->recordData]);
     }
 } 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,9 +165,13 @@ class RecordMail extends Mailable
 >>>>>>> f1d4085 (.)
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
         return $this->view('xot::emails.record')->with(['data' => $this->recordData]);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
@@ -167,3 +194,12 @@ class RecordMail extends Mailable
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        return $this->view('xot::emails.record')->with(['data' => $this->recordData]);
+    }
+}
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

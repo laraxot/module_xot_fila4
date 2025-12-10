@@ -31,6 +31,12 @@ class GetModelClassByModelNameAction
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
 =======
@@ -102,6 +108,14 @@ class GetModelClassByModelNameAction
         Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+        Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -111,6 +125,7 @@ class GetModelClassByModelNameAction
         Assert::string($modelClass);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -239,13 +254,35 @@ class GetModelClassByModelNameAction
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         return $modelClass;
     }

@@ -150,13 +150,31 @@ final class Extra extends BaseExtra {}
  *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @mixin IdeHelperExtra
+=======
+>>>>>>> 5cf46378 (.)
  *
  * @mixin IdeHelperExtra
+<<<<<<< HEAD
  * @mixin IdeHelperExtra
  * @mixin IdeHelperExtra
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @mixin IdeHelperExtra
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+ *
+<<<<<<< HEAD
+ * @mixin IdeHelperExtra
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 class Extra extends BaseExtra

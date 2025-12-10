@@ -37,6 +37,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -64,6 +65,20 @@ use Spatie\Health\Checks\Check;
 use Filament\Widgets\WidgetConfiguration;
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Widgets\WidgetConfiguration;
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Spatie\Health\Checks\Check;
@@ -104,8 +119,25 @@ use Spatie\Health\Checks\Check;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -114,8 +146,15 @@ use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
@@ -127,6 +166,14 @@ use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Spatie\Health\Checks\Checks;
 use Spatie\Health\Checks\Checks\CacheCheck;
 use Spatie\Health\Checks\Checks\DatabaseCheck;
@@ -439,6 +486,7 @@ class HealthPage extends Page
             $check = SmtpCheck::new();
             $checks[] = $check;
         }
+<<<<<<< HEAD
         /** @var array<Check> $checks */
 <<<<<<< HEAD
         /** @var array<Check> $checks */
@@ -550,7 +598,15 @@ class HealthPage extends Page
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        /** @var array<int, \Spatie\Health\Checks\Check> $checks */
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -576,6 +632,7 @@ class HealthPage extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
 =======
 =======
@@ -584,10 +641,15 @@ class HealthPage extends Page
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
                 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -619,6 +681,13 @@ class HealthPage extends Page
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

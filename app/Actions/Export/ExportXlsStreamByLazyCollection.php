@@ -8,6 +8,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\LazyCollection;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Webmozart\Assert\Assert;
@@ -17,11 +18,19 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+use Webmozart\Assert\Assert;
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\LazyCollection;
 use Illuminate\Support\Str;
@@ -50,9 +59,14 @@ use Webmozart\Assert\Assert;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
@@ -73,11 +87,21 @@ use Illuminate\Support\Str;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+use Webmozart\Assert\Assert;
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 use function Safe\fclose;
 use function Safe\fopen;
 use function Safe\fputcsv;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,10 +127,17 @@ use function Safe\fputcsv;
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,11 +162,18 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 class ExportXlsStreamByLazyCollection
 {
     use QueueableAction;
@@ -149,9 +187,20 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      * @param  LazyCollection  $data  I dati da esportare
      * @param  string  $filename  Nome del file CSV
      * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
@@ -168,6 +217,7 @@ class ExportXlsStreamByLazyCollection
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -191,6 +241,8 @@ class ExportXlsStreamByLazyCollection
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> b7afadf9 (.)
 =======
      * @param LazyCollection $data I dati da esportare
      * @param string $filename Nome del file CSV
@@ -209,8 +261,17 @@ class ExportXlsStreamByLazyCollection
 >>>>>>> 73eab74 (.)
      * @return StreamedResponse
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      */
     public function execute(
         LazyCollection $data,
@@ -244,6 +305,7 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -257,11 +319,31 @@ class ExportXlsStreamByLazyCollection
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         ?string $transKey = null,
         ?array $_fields = null,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ?string $transKey = null,
+        ?array $_fields = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         null|string $transKey = null,
         null|array $_fields = null,
 =======
@@ -273,6 +355,14 @@ class ExportXlsStreamByLazyCollection
         null|array $_fields = null,
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+        null|string $transKey = null,
+        null|array $_fields = null,
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     ): StreamedResponse {
         $headers = [
             'Content-Disposition' => 'attachment; filename='.$filename,
@@ -394,6 +484,7 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $headStrings = array_map(function ($item) {
                     //return is_string($item) ? $item : (string) $item;
                     return strval($item);
@@ -412,6 +503,8 @@ class ExportXlsStreamByLazyCollection
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
                 $headStrings = array_map(strval(...), $head);
 =======
 <<<<<<< HEAD
@@ -427,6 +520,12 @@ class ExportXlsStreamByLazyCollection
                 $headStrings = array_map(strval(...), $head);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+                $headStrings = array_map(strval(...), $head);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
                 fputcsv($file, $headStrings);
 
@@ -445,6 +544,7 @@ class ExportXlsStreamByLazyCollection
                     // Convertiamo tutti i valori in stringhe o null
                     $safeRowData = array_map(function ($item) {
                         if ($item === null) {
+<<<<<<< HEAD
                             return;
                             return null;
                             return null;
@@ -452,6 +552,26 @@ class ExportXlsStreamByLazyCollection
                             return null;
                         }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            return '';
+=======
+                            return null;
+>>>>>>> 53d6a6ba (.)
+=======
+                            return;
+>>>>>>> b7afadf9 (.)
+                        }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
 
                             return null;
                         }
@@ -540,6 +660,7 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
 =======
@@ -565,6 +686,8 @@ class ExportXlsStreamByLazyCollection
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
                         return is_string($item) ? $item : ((string) $item);
@@ -575,7 +698,13 @@ class ExportXlsStreamByLazyCollection
                         return is_string($item) ? $item : ((string) $item);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+                        return is_string($item) ? $item : ((string) $item);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
                     }, $rowData);
 
                     fputcsv($file, $safeRowData);
@@ -590,6 +719,7 @@ class ExportXlsStreamByLazyCollection
                 fclose($file);
             },
             200,
+<<<<<<< HEAD
 <<<<<<< HEAD
             $headers,
 <<<<<<< HEAD
@@ -633,6 +763,10 @@ class ExportXlsStreamByLazyCollection
 =======
 =======
 <<<<<<< HEAD
+            $headers,
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             $headers,
 =======
@@ -642,7 +776,13 @@ class ExportXlsStreamByLazyCollection
             $headers,
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+            $headers,
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         );
     }
 
@@ -655,9 +795,32 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
+     * @param  LazyCollection  $data  I dati da cui estrarre le intestazioni
+     * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
+     * @return array<string>
+     */
+    public function headings(LazyCollection $data, ?string $transKey = null): array
+=======
+<<<<<<< HEAD
+     * @param LazyCollection $data I dati da cui estrarre le intestazioni
+     * @param string|null $transKey Chiave di traduzione per le intestazioni
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+<<<<<<< HEAD
      * @param  LazyCollection  $data  I dati da cui estrarre le intestazioni
      * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
      * @return array<string>
@@ -666,15 +829,16 @@ class ExportXlsStreamByLazyCollection
 =======
      * @param LazyCollection $data I dati da cui estrarre le intestazioni
      * @param string|null $transKey Chiave di traduzione per le intestazioni
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
+>>>>>>> 5cf46378 (.)
      *
      * @return array<string>
      */
     public function headings(LazyCollection $data, null|string $transKey = null): array
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
      * 
      * @return array<string>
@@ -684,6 +848,12 @@ class ExportXlsStreamByLazyCollection
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     {
         $first = $data->first();
         if (! is_array($first) && (! is_object($first) || ! method_exists($first, 'toArray'))) {
@@ -781,8 +951,10 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
         if ($transKey !== null) {
 =======
@@ -792,6 +964,27 @@ class ExportXlsStreamByLazyCollection
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+        if ($transKey !== null) {
+=======
+<<<<<<< HEAD
+        if ($transKey !== null) {
+=======
+        if (null !== $transKey) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
             $headings = $headings->map(static function (string $item) use ($transKey) {
                 $key = $transKey.'.fields.'.$item;
         if (null !== $transKey) {
@@ -878,6 +1071,7 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -890,6 +1084,11 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
             $headings = $headings->map(
                 static function (string $item) use ($transKey) {
                     $key = $transKey . '.fields.' . $item;
@@ -906,6 +1105,7 @@ class ExportXlsStreamByLazyCollection
                     }
 
                     return $item;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -937,12 +1137,15 @@ class ExportXlsStreamByLazyCollection
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
                 }
             );
         }
 
         /** @var array<string> */
         return $headings->map(fn($item) => strval($item))->toArray();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -963,10 +1166,17 @@ class ExportXlsStreamByLazyCollection
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 }

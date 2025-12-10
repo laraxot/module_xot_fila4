@@ -3,12 +3,21 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 namespace Modules\Xot\Tests\Unit;
 
 use Filament\Tables\Table;
@@ -18,6 +27,7 @@ use Modules\Xot\Tests\Unit\Support\HasTableWithoutOptionalMethodsTestClass;
 use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
 <<<<<<< HEAD
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -94,7 +104,18 @@ use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Tests\TestCase;
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
 use Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Mockery;
@@ -105,6 +126,7 @@ use Illuminate\Support\Collection;
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +210,23 @@ uses(TestCase::class);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 uses(TestCase::class);
 <<<<<<< HEAD
@@ -229,10 +268,11 @@ uses(Tests\TestCase::class);
 =======
 >>>>>>> 091f883c (.)
 
-afterEach(function () {
+afterEach(function (): void {
     Mockery::close();
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 it('tests table method with all methods implemented', function () {
 =======
@@ -240,12 +280,23 @@ it('tests table method with all methods implemented', function () {
 it('tests table method with all methods implemented', function (): void {
 =======
 it('tests table method with all methods implemented', function () {
+=======
+it('tests table method with all methods implemented', function (): void {
+=======
+it('tests table method with all methods implemented', function () {
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     // Avoid DB/Schema access inside TableExistsByModelClassActions
     /** @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
@@ -256,19 +307,27 @@ it('tests table method with all methods implemented', function () {
     $mock = Mockery::mock(HasTableWithXotTestClass::class)->makePartial()->shouldDeferMissing();
 
     // Expect getTableHeaderActions to be called
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->once()->andReturn([]);
 
     // Expect getTableActions to be called
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableActions')->once()->andReturn([]);
 
     // Expect getTableBulkActions to be called
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->once()->andReturn([]);
 
     // Other required method stubs
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getModelClass')->andReturn(DummyTestModel::class);
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableRecordTitleAttribute')->andReturn('name');
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeading')->andReturn('Test Table');
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFilters')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,10 +347,16 @@ it('tests table method with all methods implemented', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         // Avoid DB/Schema access inside TableExistsByModelClassActions
         Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
             ->shouldReceive('execute')
             ->andReturn(true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -325,6 +390,9 @@ it('tests table method with all methods implemented', function () {
 =======
 
 >>>>>>> 7468a7d2 (.)
+=======
+
+>>>>>>> 5cf46378 (.)
         // Create partial mock and defer missing to real methods so trait's table() runs
         $mock = Mockery::mock(HasTableWithXot::class)
             ->makePartial()
@@ -346,6 +414,7 @@ it('tests table method with all methods implemented', function () {
         ->andReturn([]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 
     // Other required method stubs
@@ -358,6 +427,10 @@ it('tests table method with all methods implemented', function () {
 
     // Other required method stubs
 >>>>>>> 7468a7d2 (.)
+=======
+
+    // Other required method stubs
+>>>>>>> 5cf46378 (.)
     $mock->shouldReceive('getModelClass')
         ->andReturn(DummyModel::class);
     $mock->shouldReceive('getTableRecordTitleAttribute')
@@ -366,6 +439,7 @@ it('tests table method with all methods implemented', function () {
         ->andReturn('Test Table');
     $mock->shouldReceive('getTableFilters')
         ->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,15 +471,26 @@ it('tests table method with all methods implemented', function () {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     // Stub optional methods to avoid resolving translator / actions
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableActions')->andReturn([]);
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,11 +514,14 @@ it('tests table method with all methods implemented', function () {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
     /** @phpstan-ignore-next-line method.nonObject */
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
@@ -450,26 +538,65 @@ it('tests table method with all methods implemented', function () {
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+    $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
+    /** @phpstan-ignore-next-line method.nonObject */
+    $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    $mock->shouldReceive('getTableFiltersFormColumns')
+        ->andReturn(1);
+    $mock->shouldReceive('getTableEmptyStateActions')
+        ->andReturn([]);
+>>>>>>> f1d4085 (.)
+=======
+    $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
+    $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
     // Create a mock for Table
     $tableMock = Mockery::mock(Table::class);
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('recordTitleAttribute')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('heading')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('columns')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('contentGrid')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filters')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filtersLayout')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filtersFormColumns')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('persistFiltersInSession')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('headerActions')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('actions')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('bulkActions')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('actionsPosition')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('emptyStateActions')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('striped')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('paginated')->andReturnSelf();
 
     // Call the table method
+    /** @phpstan-ignore-next-line method.nonObject */
     $result = $mock->table($tableMock);
 
     // Assert the result is a Table instance
@@ -478,18 +605,30 @@ it('tests table method with all methods implemented', function () {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 it('tests table method with no optional methods implemented', function () {
 =======
 <<<<<<< HEAD
 it('tests table method with no optional methods implemented', function (): void {
 =======
 it('tests table method with no optional methods implemented', function () {
+=======
+it('tests table method with no optional methods implemented', function (): void {
+=======
+it('tests table method with no optional methods implemented', function () {
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     // Avoid DB/Schema access inside TableExistsByModelClassActions
     /* @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
@@ -500,10 +639,15 @@ it('tests table method with no optional methods implemented', function () {
     $mock = Mockery::mock(HasTableWithoutOptionalMethodsTestClass::class)->makePartial()->shouldDeferMissing();
 
     // Other required method stubs
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getModelClass')->andReturn(DummyTestModel::class);
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableRecordTitleAttribute')->andReturn('name');
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeading')->andReturn('Test Table');
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFilters')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -523,10 +667,16 @@ it('tests table method with no optional methods implemented', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         // Avoid DB/Schema access inside TableExistsByModelClassActions
         Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
             ->shouldReceive('execute')
             ->andReturn(true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -550,10 +700,14 @@ it('tests table method with no optional methods implemented', function () {
 =======
 
 >>>>>>> 7468a7d2 (.)
+=======
+
+>>>>>>> 5cf46378 (.)
         // Create partial mock and defer missing to real methods so trait's table() runs
         $mock = Mockery::mock(HasTableWithoutOptionalMethods::class)
             ->makePartial()
             ->shouldDeferMissing();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -568,6 +722,10 @@ it('tests table method with no optional methods implemented', function () {
 
     // Other required method stubs
 >>>>>>> 7468a7d2 (.)
+=======
+
+    // Other required method stubs
+>>>>>>> 5cf46378 (.)
     $mock->shouldReceive('getModelClass')
         ->andReturn(DummyModel::class);
     $mock->shouldReceive('getTableRecordTitleAttribute')
@@ -576,6 +734,7 @@ it('tests table method with no optional methods implemented', function () {
         ->andReturn('Test Table');
     $mock->shouldReceive('getTableFilters')
         ->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,15 +766,26 @@ it('tests table method with no optional methods implemented', function () {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     // Avoid constructing Filament Actions which require translator binding
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableActions')->andReturn([]);
+    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,11 +809,14 @@ it('tests table method with no optional methods implemented', function () {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
     /** @phpstan-ignore-next-line method.nonObject */
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
@@ -660,33 +833,73 @@ it('tests table method with no optional methods implemented', function () {
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+    $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
+    /** @phpstan-ignore-next-line method.nonObject */
+    $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    $mock->shouldReceive('getTableFiltersFormColumns')
+        ->andReturn(1);
+    $mock->shouldReceive('getTableEmptyStateActions')
+        ->andReturn([]);
+>>>>>>> f1d4085 (.)
+=======
+    $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
+    $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
     // Create a mock for Table
     $tableMock = Mockery::mock(Table::class);
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('recordTitleAttribute')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('heading')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('columns')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('contentGrid')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filters')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filtersLayout')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filtersFormColumns')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('persistFiltersInSession')->andReturnSelf();
     // headerActions, actions, and bulkActions are called with empty arrays
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('headerActions')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('actions')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('bulkActions')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('actionsPosition')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('emptyStateActions')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('striped')->andReturnSelf();
+    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('paginated')->andReturnSelf();
 
     // Call the table method
+    /** @phpstan-ignore-next-line method.nonObject */
     $result = $mock->table($tableMock);
 
     // Assert the result is a Table instance
     /* @phpstan-ignore-next-line argument.templateType */
     expect($result)->toBe($tableMock);
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -712,6 +925,12 @@ it('tests table method with no optional methods implemented', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 
 /**
  * Dummy class that uses HasTable and HasXotTable traits for testing.
@@ -1225,6 +1444,7 @@ class HasTableWithoutOptionalMethods
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class DummyModel extends \Illuminate\Database\Eloquent\Model
 {
     // Empty dummy model just to satisfy instanceof checks
@@ -1234,10 +1454,13 @@ class DummyModel extends \Illuminate\Database\Eloquent\Model
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 class DummyModel extends Model
 {
     // Empty dummy model just to satisfy instanceof checks
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -1264,8 +1487,15 @@ class DummyModel extends \Illuminate\Database\Eloquent\Model
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

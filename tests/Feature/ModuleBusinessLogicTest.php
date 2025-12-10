@@ -6,6 +6,7 @@ namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Database\QueryException;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
@@ -20,11 +21,19 @@ use Illuminate\Database\QueryException;
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Models\Module;
@@ -36,9 +45,12 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> 5cf46378 (.)
+=======
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -52,9 +64,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
@@ -76,6 +92,15 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -570,6 +595,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -578,10 +604,15 @@ class ModuleBusinessLogicTest extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -613,3 +644,10 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

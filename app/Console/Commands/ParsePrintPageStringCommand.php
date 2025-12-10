@@ -48,6 +48,7 @@ class ParsePrintPageStringCommand extends Command
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -106,10 +107,17 @@ class ParsePrintPageStringCommand extends Command
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> origin/develop
@@ -145,13 +153,19 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function __construct()
     {
         parent::__construct();
     }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,13 +307,34 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
     
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
     /**
      * Execute the console command.
@@ -349,6 +384,7 @@ class ParsePrintPageStringCommand extends Command
         if (! is_string($str)) {
         if (!is_string($str)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($str)) {
         if (!is_string($str)) {
         if (! is_string($str)) {
@@ -395,6 +431,9 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if (! is_string($str)) {
 =======
 =======
@@ -435,15 +474,30 @@ class ParsePrintPageStringCommand extends Command
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         if (! is_string($str)) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! is_string($str)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         if (!is_string($str)) {
 =======
         if (! is_string($str)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,9 +569,16 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         if (!is_string($str)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
             throw new Exception('argument str must be a string');
@@ -589,10 +650,20 @@ class ParsePrintPageStringCommand extends Command
         if (!is_string($str)) {
 =======
         if (! is_string($str)) {
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         if (!is_string($str)) {
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        if (!is_string($str)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             throw new Exception('argument str must be a string');
 =======
         if (! is_string($str)) {

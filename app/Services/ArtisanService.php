@@ -10,10 +10,10 @@ use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
+use Modules\Xot\Services\Artisan\CommandRegistry;
 
 use function Safe\define;
 use function Safe\fopen;
@@ -130,10 +130,13 @@ if (!defined('STDIN')) {
 class ArtisanService
 {
     /**
+     * Execute an artisan command using the command registry pattern.
+     *
      * @throws FileNotFoundException
      */
     public static function act(string $act): string
     {
+<<<<<<< HEAD
         // da fare anche in noconsole, e magari mettere un policy
         $module_name = Request::input('module', '');
         if (! is_string($module_name)) {
@@ -1363,9 +1366,32 @@ class ArtisanService
 
             default:
                 return '';
+=======
+        $moduleName = self::getModuleName();
+        $registry = new CommandRegistry;
+
+        $handler = $registry->findHandler($act);
+
+        if ($handler === null) {
+            return '';
+>>>>>>> b7afadf9 (.)
         }
 
-        return '';
+        return $handler->handle($moduleName);
+    }
+
+    /**
+     * Get the module name from the request.
+     */
+    private static function getModuleName(): string
+    {
+        $moduleName = Request::input('module', '');
+
+        if (! is_string($moduleName)) {
+            return '';
+        }
+
+        return $moduleName;
     }
 
     public static function errorShow(): Renderable

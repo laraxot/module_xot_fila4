@@ -15,19 +15,34 @@ class StartQueryLogAction
 
     public function execute(): void
     {
+<<<<<<< HEAD
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+<<<<<<< HEAD
         Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $sql = $query->sql;
             $time = $query->time;
             $connection = $query->connection->getName();
@@ -38,6 +53,7 @@ class StartQueryLogAction
             ]);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,18 +162,38 @@ class StartQueryLogAction
 =======
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $log->debug('query : ' . $sql);
             $log->debug('time ' . $time);
             $log->debug('connection ' . $connection);
             $log->debug('bindings ' . print_r($query->bindings, true));
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,13 +238,24 @@ class StartQueryLogAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);
             $log->debug('bindings '.print_r($query->bindings, true));
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,12 +436,33 @@ class StartQueryLogAction
 =======
 =======
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         });
     }
 }

@@ -3,17 +3,27 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 namespace Modules\Xot\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,12 +134,36 @@ namespace Modules\Xot\Tests\Unit\Models;
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+
+uses(TestCase::class);
+
+beforeEach(function (): void {
+    $this->baseModel = new class extends BaseModel
+    {
+=======
+<<<<<<< HEAD
+=======
+namespace Modules\Xot\Tests\Unit\Models\BaseModelTest;
+
+namespace Modules\Xot\Tests\Unit\Models;
+
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 uses(TestCase::class);
 
 beforeEach(function () {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +197,8 @@ beforeEach(function () {
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 5cf46378 (.)
     $this->baseModel = new class extends BaseModel
     {
 =======
@@ -244,10 +280,21 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+    $this->baseModel = new class extends BaseModel
+    {
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     $this->baseModel = new class extends BaseModel {
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,31 +388,57 @@ beforeEach(function () {
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
     $this->baseModel = new class extends BaseModel {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    $this->baseModel = new class extends BaseModel
+    {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         protected $table = 'test_table';
     };
 });
 
-test('base model extends eloquent model', function () {
+test('base model extends eloquent model', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel)->toBeInstanceOf(Model::class);
 });
 
-test('base model has correct table name', function () {
+test('base model has correct table name', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel->getTable())->toBe('test_table');
 });
 
-test('base model has timestamps enabled', function () {
+test('base model has timestamps enabled', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel->usesTimestamps())->toBeTrue();
 });
 
-test('base model has soft deletes disabled by default', function () {
+test('base model has soft deletes disabled by default', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel->usesSoftDeletes())->toBeFalse();
 });
 
-test('base model can be instantiated', function () {
+test('base model can be instantiated', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel)->toBeInstanceOf(BaseModel::class);
 });

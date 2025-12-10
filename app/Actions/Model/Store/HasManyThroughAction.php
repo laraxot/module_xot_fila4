@@ -13,6 +13,7 @@ class HasManyThroughAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +56,10 @@ class HasManyThroughAction
 =======
 =======
 <<<<<<< HEAD
+    public function execute(Model $_model, RelationDTO $_relationDTO): void
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 =======
@@ -64,7 +69,13 @@ class HasManyThroughAction
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+    public function execute(Model $_model, RelationDTO $_relationDTO): void
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
         dddx('wip');

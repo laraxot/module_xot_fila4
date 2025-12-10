@@ -7,11 +7,26 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\file;
 
+<<<<<<< HEAD
 use function Safe\file;
 
 use Spatie\QueueableAction\QueueableAction;
@@ -59,6 +74,10 @@ use function Safe\file;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 =======
 use function Safe\file;
 
@@ -69,6 +88,11 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 class GetMethodBodyAction
 {
     use QueueableAction;

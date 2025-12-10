@@ -38,12 +38,21 @@ class SetDefaultTenantForUrlsMiddleware
      * Handle the incoming request.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -52,6 +61,7 @@ class SetDefaultTenantForUrlsMiddleware
             'tenant' => Filament::getTenant(),
             // 'referrer' => url()->previous(),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,9 +78,12 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 =======
     public function handle(Request $request, Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public function handle(Request $request, \Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
@@ -78,6 +91,8 @@ class SetDefaultTenantForUrlsMiddleware
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
     {
         URL::defaults(
             [
@@ -85,6 +100,7 @@ class SetDefaultTenantForUrlsMiddleware
                 // 'referrer' => url()->previous(),
             ]
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,11 +125,18 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
         // @phpstan-ignore return.type
         return $next($request);

@@ -84,6 +84,10 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         $package->name('cool-modules');
 =======
 <<<<<<< HEAD
@@ -97,6 +101,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $package->name('cool-modules');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
     }
 
         $package->name('cool-modules');
@@ -104,6 +109,11 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $package->name('cool-modules');
         $package
             ->name('cool-modules');
+=======
+=======
+        $package->name('cool-modules');
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     public function register(): void
@@ -121,17 +131,27 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $this->app->afterResolving('filament', function () {
             $panels = Filament::getPanels();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,11 +171,17 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
            
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
                 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,22 +214,38 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -235,6 +277,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -270,6 +313,11 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
                 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -287,6 +335,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
                                           <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
                                         </svg>
@@ -302,10 +351,16 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                                         </svg>
                                         Main Panel
 >>>>>>> 7468a7d2 (.)
+=======
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                                        </svg>
+                                        Main Panel
+>>>>>>> 5cf46378 (.)
                                       </a>'
                             ),
                         );
                     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,11 +392,18 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

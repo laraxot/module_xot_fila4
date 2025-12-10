@@ -48,8 +48,22 @@ class CreateDirectoryForFilenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        if (! File::exists(\dirname($filename))) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         if (! File::exists(\dirname($filename))) {
 =======
 =======
@@ -117,6 +131,7 @@ class CreateDirectoryForFilenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -136,9 +151,18 @@ class CreateDirectoryForFilenameAction
 =======
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!File::exists(\dirname($filename))) {
+>>>>>>> a6ef6dc7 (.)
+            File::makeDirectory(\dirname($filename), 0o755, true, true);
+>>>>>>> 5cf46378 (.)
+=======
         if (! File::exists(\dirname($filename))) {
             File::makeDirectory(\dirname($filename), 0755, true, true);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -146,9 +170,12 @@ class CreateDirectoryForFilenameAction
 =======
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> 5cf46378 (.)
+=======
         if (!File::exists(\dirname($filename))) {
             File::makeDirectory(\dirname($filename), 0o755, true, true);
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -173,6 +200,13 @@ class CreateDirectoryForFilenameAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+        if (!File::exists(\dirname($filename))) {
+            File::makeDirectory(\dirname($filename), 0o755, true, true);
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         }
     }
 }

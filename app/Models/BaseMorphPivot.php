@@ -88,6 +88,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
     protected $fillable = [
         'id',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'post_id',
         'post_type',
 <<<<<<< HEAD
@@ -106,17 +107,26 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 =======
 =======
 <<<<<<< HEAD
+        'post_id',
+        'post_type',
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         'post_id',
         'post_type',
 =======
         'post_id', 'post_type',
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
         'post_id',
         'post_type',
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -145,6 +155,13 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+        'post_id',
+        'post_type',
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         'related_type',
         'user_id',
         'note',
@@ -156,6 +173,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +203,11 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
             'created_at' => 'datetime',
@@ -203,6 +226,14 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
             'deleted_at' => 'datetime',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

@@ -12,17 +12,36 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
+return new class extends XotBaseMigration
+{
+    protected ?string $model_class = HealthCheckResultHistoryItem::class;
+=======
+<<<<<<< HEAD
+return new class extends XotBaseMigration {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected null|string $model_class = HealthCheckResultHistoryItem::class;
+=======
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = HealthCheckResultHistoryItem::class;
 =======
 return new class extends XotBaseMigration {
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $model_class = HealthCheckResultHistoryItem::class;
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
     protected ?string $model_class = HealthCheckResultHistoryItem::class;
 >>>>>>> f1d4085 (.)
@@ -30,6 +49,12 @@ return new class extends XotBaseMigration {
     protected null|string $model_class = HealthCheckResultHistoryItem::class;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
 
     /**
      * Run the migrations.
@@ -86,12 +111,21 @@ return new class extends XotBaseMigration {
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->id();
 
@@ -109,6 +143,7 @@ return new class extends XotBaseMigration {
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, false);
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,6 +186,11 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->id();
@@ -167,6 +207,7 @@ return new class extends XotBaseMigration {
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 
         // -- UPDATE --
@@ -179,11 +220,16 @@ return new class extends XotBaseMigration {
 
         // -- UPDATE --
 >>>>>>> 7468a7d2 (.)
+=======
+
+        // -- UPDATE --
+>>>>>>> 5cf46378 (.)
         $this->tableUpdate(
             function (Blueprint $table): void {
                 $this->updateTimestamps($table, false);
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,10 +260,17 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 };

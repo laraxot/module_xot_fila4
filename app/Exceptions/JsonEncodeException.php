@@ -37,6 +37,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use Override;
@@ -50,6 +51,16 @@ use Override;
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
 =======
@@ -58,8 +69,27 @@ use Override;
 use Override;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+use Override;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+use Override;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Exception;
 use Illuminate\Http\Response;
 use Override;
@@ -143,6 +173,10 @@ use Illuminate\Http\Response;
 class JsonEncodeException extends ApplicationException
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     #[Override]
 =======
 <<<<<<< HEAD
@@ -154,24 +188,40 @@ class JsonEncodeException extends ApplicationException
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     #[Override]
     public function help(): string
     {
         $res = trans('exception.json_not_encoded.help');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,30 +479,78 @@ class JsonEncodeException extends ApplicationException
         $res = trans('exception.json_not_encoded.help');
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+<<<<<<< HEAD
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        if (!\is_string($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function help(): string
+    {
+        $res = trans('exception.json_not_encoded.help');
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         return $res;
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     #[Override]
     public function error(): string
     {
         $res = trans('exception.json_not_encoded.error');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,12 +808,50 @@ class JsonEncodeException extends ApplicationException
         $res = trans('exception.json_not_encoded.error');
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+<<<<<<< HEAD
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        if (!\is_string($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function error(): string
+    {
+        $res = trans('exception.json_not_encoded.error');
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         return $res;

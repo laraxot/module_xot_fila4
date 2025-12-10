@@ -4,6 +4,39 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -14,6 +47,7 @@ use Laravel\Passport\PersonalAccessTokenResult;
 use BackedEnum;
 use BackedEnum;
 use DateTime;
+<<<<<<< HEAD
 use BackedEnum;
 use DateTime;
 use BackedEnum;
@@ -24,6 +58,15 @@ use BackedEnum;
 use DateTime;
 use BackedEnum;
 use DateTime;
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+use BackedEnum;
+use DateTime;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
 use Laravel\Passport\Token;
@@ -138,7 +181,6 @@ use Illuminate\Support\Collection;
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
 use Modules\User\Models\Tenant;
-use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
 use Spatie\Permission\Contracts\Permission;
@@ -367,8 +409,64 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  * @property ProfileContract|null $profile
  * @property ProfileContract|null                                                       $profile
  * @property ProfileContract|null $profile
+<<<<<<< HEAD
  * @property ProfileContract|null $profile
  * @property ProfileContract|null $profile
+=======
+>>>>>>> 5842a556 (.)
+ * @property string $id
+ * @property string $handle
+ * @property string|null $first_name
+ * @property string|null $last_name
+ * @property string|null $full_name
+ * @property \BackedEnum&HasLabel $type
+ * @property string|null $password
+ * @property string|int|null $current_team_id
+ * @property string|null $phone
+ * @property string|null $email
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @property \DateTime|null $email_verified_at
+>>>>>>> b7afadf9 (.)
+ * @property \DateTime|null $email_verified_at
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 43d67f21 (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5cf46378 (.)
  * @property ProfileContract|null                                                       $profile
  * @property ProfileContract|null $profile
  * @property ProfileContract|null $profile
@@ -496,8 +594,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
- *
- * @mixin \Eloquent
  */
  * @mixin IdeHelperUserContract
  */
@@ -567,6 +663,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * public function areas();
      * public function avatar();
      */
+    /**
+     * Get the user's profile.
+     */
     public function profile(): HasOne;
 
     /**
@@ -615,14 +714,23 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * Update the model in the database.
      *
-     * @return bool
-     */
     /**
-     * Get a relationship.
      *
      *
      * @param  string  $key
      * @param  string  $key
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param string $key
      *
      * @param  string  $key
@@ -640,6 +748,78 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @param string $key
      *
+<<<<<<< HEAD
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $key
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string  $key
+=======
+     * @param string $key
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
+=======
+     * @param string $key
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string  $key
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $key
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string  $key
+=======
+     * @param string $key
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
+=======
+     * @param string $key
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string  $key
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $key
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string  $key
+=======
+     * @param string $key
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
+=======
+     * @param  string  $key
+>>>>>>> 53d6a6ba (.)
+=======
+     * @return bool
+    /**
+     * Get a relationship.
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -718,7 +898,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @return mixed|int|string
      */
-    #[Override]
+    #[\Override]
     public function getKey();
 
     /**
@@ -806,6 +986,66 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Revoke the given role from the model.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  string|int|Role|BackedEnum  $role
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+     * @param string|int|Role|BackedEnum $role
+=======
+<<<<<<< HEAD
+     * @param string|int|Role|BackedEnum $role
+=======
+     * @param string|int|Role|\BackedEnum $role
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     *
+>>>>>>> 0e51323 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+     * @param string|int|Role|BackedEnum $role
+=======
+<<<<<<< HEAD
+     * @param string|int|Role|BackedEnum $role
+=======
+     * @param string|int|Role|\BackedEnum $role
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     *
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+=======
+>>>>>>> 5cf46378 (.)
      * @param string|int|Role|BackedEnum $role
      *
      * @param string|int|Role|BackedEnum $role
@@ -830,6 +1070,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * @param string|int|Role|BackedEnum $role
      *
      * @param  string|int|Role|BackedEnum  $role
+<<<<<<< HEAD
      * @param  string|int|Role|BackedEnum  $role
      * @param  string|int|Role|BackedEnum  $role
      * @param string|int|Role|BackedEnum $role
@@ -859,6 +1100,12 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * @param  string|int|Role|BackedEnum  $role
      * @param string|int|Role|BackedEnum $role
      *
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+     * @param  string|int|Role|\BackedEnum  $role
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      * @return self
      */
     public function removeRole($role);
@@ -872,10 +1119,28 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 
     /**
      * A model may have multiple roles.
+<<<<<<< HEAD
      *
      * @return BelongsToMany
      *
      * @return BelongsToMany
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+     *
+     * @return BelongsToMany
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      */
     public function roles(): BelongsToMany;
 
@@ -914,6 +1179,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      */
     public function switchTeam(TeamContract $team): bool;
      * Get all of the tenants the user belongs to.
+     *
+     * @return BelongsToMany
      */
     public function tenants(): BelongsToMany;
 
@@ -932,10 +1199,37 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Determine if the role may perform the given permission.
      *
-     * @param  string|int|Permission|BackedEnum  $permission
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
     
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
@@ -997,6 +1291,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
+<<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
      *
@@ -1034,4 +1329,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     
     
     
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+    public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 }

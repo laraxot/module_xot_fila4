@@ -19,12 +19,18 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 091f883c (.)
 use Modules\Xot\Models\XotBaseModel;
 
+<<<<<<< HEAD
 describe('XotBaseModel Business Logic', function () {
     test('xot base model extends eloquent model', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+describe('XotBaseModel Business Logic', function (): void {
+    test('xot base model extends eloquent model', function (): void {
+        /* @phpstan-ignore-next-line method.notFound */
+>>>>>>> 5cf46378 (.)
         expect(XotBaseModel::class)->toBeSubclassOf(Model::class);
 =======
 <<<<<<< HEAD
@@ -39,9 +45,26 @@ describe('XotBaseModel Business Logic', function () {
 >>>>>>> 091f883c (.)
     });
 
+<<<<<<< HEAD
     test('xot base model can be instantiated', function () {
+<<<<<<< HEAD
     test('xot base model can be instantiated', function (): void {
         /* @phpstan-ignore-next-line new.abstract */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    test('xot base model can be instantiated', function (): void {
+        /* @phpstan-ignore-next-line new.abstract */
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $model = new XotBaseModel;
         $model = new XotBaseModel();
 <<<<<<< HEAD
@@ -100,7 +123,7 @@ describe('XotBaseModel Business Logic', function () {
         expect($model)->toBeInstanceOf(Model::class);
     });
 
-    test('xot base model provides foundation for other models', function () {
+    test('xot base model provides foundation for other models', function (): void {
         expect(class_exists(XotBaseModel::class))->toBeTrue();
     });
 <<<<<<< HEAD

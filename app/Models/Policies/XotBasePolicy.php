@@ -18,6 +18,38 @@ abstract class XotBasePolicy
     use HandlesAuthorization;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,17 +152,30 @@ abstract class XotBasePolicy
     public function before(UserContract $user, string $_ability): null|bool
 =======
 =======
+=======
     public function before(UserContract $user, string $_ability): ?bool
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public function before(UserContract $user, string $_ability): ?bool
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function before(UserContract $user, string $_ability): null|bool
     public function before(UserContract $user, string $ability): ?bool
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,11 +268,33 @@ abstract class XotBasePolicy
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
     public function before(UserContract $user, string $_ability): null|bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function before(UserContract $user, string $_ability): null|bool
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public function before(UserContract $user, string $_ability): ?bool
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    public function before(UserContract $user, string $_ability): null|bool
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     {
         return once(function () use ($user) {
             if ($user->hasRole('super-admin')) {
@@ -235,6 +302,7 @@ abstract class XotBasePolicy
             }
 
 
+<<<<<<< HEAD
             return null;
 
             return null;
@@ -245,6 +313,14 @@ abstract class XotBasePolicy
             return null;
 
             return null;
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         });
     }
 

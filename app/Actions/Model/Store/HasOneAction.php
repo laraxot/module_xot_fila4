@@ -31,12 +31,21 @@ class HasOneAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
@@ -46,6 +55,7 @@ class HasOneAction
 <<<<<<< HEAD
 =======
             $related = $relationDTO->related->find($related_id);
+<<<<<<< HEAD
             if (!($related instanceof Model)) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
@@ -61,10 +71,14 @@ class HasOneAction
             }
 
             $related = $relationDTO->related::find($related_id);
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
             if (! ($related instanceof Model)) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -338,14 +352,52 @@ class HasOneAction
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+=======
+            if (!($related instanceof Model)) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+>>>>>>> d2b0a27 (.)
+
+            // Verifica che related sia un Model prima di chiamare find()
+            if (! ($relationDTO->related instanceof Model)) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).'] Related must be a Model instance');
+            }
+
+            $related = $relationDTO->related::find($related_id);
+            if (! ($related instanceof Model)) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             }
 
             $rows->save($related);
@@ -355,12 +407,21 @@ class HasOneAction
 
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
          * $rows = $relation->rows;
          * try {
          * $related = $rows->create($relation->data);
@@ -381,6 +442,7 @@ class HasOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -396,6 +458,11 @@ class HasOneAction
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         $rows = $relation->rows;
         try {
             $related = $rows->create($relation->data);
@@ -411,6 +478,7 @@ class HasOneAction
             $model->update($data1);
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,10 +503,17 @@ class HasOneAction
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 }

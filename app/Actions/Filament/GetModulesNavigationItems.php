@@ -61,6 +61,14 @@ class GetModulesNavigationItems
         $navs = [];
 
         $modules = TenantService::allModules();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
@@ -82,6 +90,9 @@ class GetModulesNavigationItems
         Assert::isArray($modules);
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
+=======
+        Assert::isArray($modules);
+>>>>>>> b7afadf9 (.)
 
         // Pre-load user roles to avoid N+1 queries
         $user = auth()->user();

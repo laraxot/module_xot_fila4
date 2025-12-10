@@ -72,6 +72,7 @@ abstract class XotBaseComponent extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -208,7 +209,14 @@ abstract class XotBaseComponent extends Component
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $view = $module_name_low.'::livewire.'.$comp_name;
         $view = str_replace('._', '.', $view);
         // fare distinzione fra inAdmin o no ?
@@ -216,6 +224,7 @@ abstract class XotBaseComponent extends Component
             throw new Exception('View not Exists['.$view.']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,7 +245,22 @@ abstract class XotBaseComponent extends Component
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $view = $module_name_low . '::livewire.' . $comp_name;
         $view = str_replace('._', '.', $view);
         // fare distinzione fra inAdmin o no ?
@@ -244,6 +268,7 @@ abstract class XotBaseComponent extends Component
             throw new Exception('View not Exists[' . $view . ']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,13 +305,21 @@ abstract class XotBaseComponent extends Component
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $view = $module_name_low.'::livewire.'.$comp_name;
         $view = str_replace('._', '.', $view);
         // fare distinzione fra inAdmin o no ?
         if (! view()->exists($view)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,12 +436,33 @@ abstract class XotBaseComponent extends Component
 =======
 =======
 =======
+            throw new Exception('View not Exists['.$view.']');
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         return $view;

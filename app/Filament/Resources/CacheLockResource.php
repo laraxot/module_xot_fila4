@@ -33,6 +33,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 use Filament\Forms\Components\TextInput;
@@ -60,11 +61,20 @@ use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TextInput;
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+use Filament\Forms\Components\TextInput;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
@@ -72,8 +82,18 @@ use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Models\CacheLock;
 use Override;
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TextInput;
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
@@ -136,9 +156,15 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 class CacheLockResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static ?string $model = CacheLock::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -543,7 +569,17 @@ use Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+    protected static null|string $model = CacheLock::class;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Modules\Xot\Models\CacheLock;
 
 
@@ -554,6 +590,10 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
 
 class CacheLockResource extends XotBaseResource
 {
@@ -575,6 +615,7 @@ class CacheLockResource extends XotBaseResource
     protected static null|string $model = CacheLock::class;
     protected static null|string $model = CacheLock::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -674,23 +715,51 @@ class CacheLockResource extends XotBaseResource
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
     /**
      * Get the form schema for the resource.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
      * @return array<string, Component>
      */
     #[Override]
@@ -710,6 +779,7 @@ class CacheLockResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -750,6 +820,10 @@ class CacheLockResource extends XotBaseResource
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
      * @return array<string, \Filament\Schemas\Components\Component>
      */
@@ -779,6 +853,7 @@ class CacheLockResource extends XotBaseResource
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -801,6 +876,13 @@ class CacheLockResource extends XotBaseResource
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     public static function getPages(): array
     {
         return [

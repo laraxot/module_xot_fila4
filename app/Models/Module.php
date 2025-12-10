@@ -75,16 +75,26 @@ use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,11 +114,17 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 
 use function Safe\json_encode;
 
 use Sushi\Sushi;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,11 +153,18 @@ use function Safe\json_encode;
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -217,9 +240,15 @@ use function Safe\json_encode;
  *
  * @method static Builder|Module whereColors($value)
  * @method static Builder|Module whereIcon($value)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
  * @mixin IdeHelperModule
  *
  * @mixin IdeHelperModule
+<<<<<<< HEAD
  *
  * @mixin IdeHelperModule
  * @mixin \Eloquent
@@ -239,6 +268,16 @@ class Module extends Model
  * @method static Builder|Module whereColors($value)
  * @method static Builder|Module whereIcon($value)
  * @mixin IdeHelperModule
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+ *
+<<<<<<< HEAD
+ * @mixin IdeHelperModule
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 class Module extends Model
@@ -263,12 +302,21 @@ class Module extends Model
     {
         $modules = ModuleFacade::all();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
             if (!is_array($config)) {
@@ -298,6 +346,7 @@ class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -312,6 +361,11 @@ class Module extends Model
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
         $modules = Arr::map(
             $modules,
             function (NModule $module): array {
@@ -331,6 +385,7 @@ class Module extends Model
                     'icon' => Arr::get($config, 'icon', 'heroicon-o-question-mark-circle'),
                     'colors' => json_encode($colors),
                 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             }
@@ -389,6 +444,8 @@ class Module extends Model
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
             }
         );
 
@@ -396,7 +453,12 @@ class Module extends Model
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         return array_values($modules);
     }
 

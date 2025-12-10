@@ -60,10 +60,34 @@ use Filament\Forms\Components\Textarea;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+use Filament\Forms\Components\Textarea;
+>>>>>>> b7afadf9 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 =======
@@ -192,12 +216,16 @@ use Spatie\ModelStates\State;
  * @property string $name Il nome dello stato
  * @property string $name Il nome dello stato
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @extends State<\Illuminate\Database\Eloquent\Model>
  *
 =======
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
  * @property string $name Il nome dello stato
 =======
 >>>>>>> a12f125f4a (.)
@@ -227,17 +255,32 @@ use Spatie\ModelStates\State;
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+ * @property string $name Il nome dello stato
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @extends State<\Illuminate\Database\Eloquent\Model>
  *
  * @property string $name Il nome dello stato
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
  * @property string $name  Il nome dello stato
 =======
  * @property string $name Il nome dello stato
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,11 +366,33 @@ use Spatie\ModelStates\State;
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
  * @property string $name  Il nome dello stato
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+ * @property string $name  Il nome dello stato
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+ * @property string $name Il nome dello stato
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+ * @property string $name  Il nome dello stato
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @property string $value Il valore dello stato nel database
  */
 abstract class XotBaseState extends State implements StateContract
@@ -343,9 +408,17 @@ abstract class XotBaseState extends State implements StateContract
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     #[Override]
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,14 +466,34 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
     public function label(): string
     {
         return static::transClass(static::class, 'states.' . static::getName() . '.label');
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.label');
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.label');
+>>>>>>> 5a14301c (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.label');
+>>>>>>> 5a14301c (.)
+=======
+    public function label(): string
+    {
+        return static::transClass(static::class, 'states.'.static::getName().'.label');
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         // return 'Annullato';
     }
 
+<<<<<<< HEAD
     #[Override]
     public function color(): string
     {
@@ -411,27 +504,93 @@ abstract class XotBaseState extends State implements StateContract
     public function bgColor(): string
     {
         return static::transClass(static::class, 'states.' . static::getName() . '.bg_color');
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.bg_color');
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.bg_color');
+>>>>>>> 5a14301c (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.bg_color');
+>>>>>>> 5a14301c (.)
+=======
+    public function color(): string
+    {
+        return static::transClass(static::class, 'states.'.static::getName().'.color');
+    }
+
+    public function bgColor(): string
+    {
+        return static::transClass(static::class, 'states.'.static::getName().'.bg_color');
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         // return 'info';
     }
 
+<<<<<<< HEAD
     #[Override]
     public function icon(): string
     {
         return static::transClass(static::class, 'states.' . static::getName() . '.icon');
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.icon');
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.icon');
+>>>>>>> 5a14301c (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.icon');
+>>>>>>> 5a14301c (.)
+=======
+    public function icon(): string
+    {
+        return static::transClass(static::class, 'states.'.static::getName().'.icon');
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         // return 'heroicon-o-x-circle';
     }
 
+<<<<<<< HEAD
     #[Override]
     public function modalHeading(): string
     {
         return static::transClass(static::class, 'states.' . static::getName() . '.modal_heading');
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.modal_heading');
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.modal_heading');
+>>>>>>> 5a14301c (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.modal_heading');
+>>>>>>> 5a14301c (.)
+=======
+    public function modalHeading(): string
+    {
+        return static::transClass(static::class, 'states.'.static::getName().'.modal_heading');
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         // return 'Annulla Appuntamento';
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -624,12 +783,31 @@ abstract class XotBaseState extends State implements StateContract
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    #[Override]
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function modalDescription(): string
     {
         $appointment = $this->getModel();
@@ -665,8 +843,22 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        return static::transClass(static::class, 'states.'.static::getName().'.modal_description');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         return static::transClass(static::class, 'states.'.static::getName().'.modal_description');
 =======
 =======
@@ -718,6 +910,7 @@ abstract class XotBaseState extends State implements StateContract
         return static::transClass(static::class, 'states.' . static::getName() . '.modal_description');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7468a7d2 (.)
@@ -740,9 +933,21 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> f1d4085 (.)
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return static::transClass(static::class, 'states.' . static::getName() . '.modal_description');
+>>>>>>> a6ef6dc7 (.)
+
+=======
+        return static::transClass(static::class, 'states.'.static::getName().'.modal_description');
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
         return static::transClass(static::class, 'states.' . static::getName() . '.modal_description');
 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -750,6 +955,13 @@ abstract class XotBaseState extends State implements StateContract
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+        return static::transClass(static::class, 'states.' . static::getName() . '.modal_description');
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         // return 'Sei sicuro di voler annullare questo appuntamento?';
     }
 
@@ -764,8 +976,25 @@ abstract class XotBaseState extends State implements StateContract
      * @return array<string, Component>
      */
     /**
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
      * @return array<string, Component>
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5cf46378 (.)
     /**
      * @return array<string, Component>
      */
@@ -783,10 +1012,13 @@ abstract class XotBaseState extends State implements StateContract
      * @return array<string, Component>
      */
     #[Override]
+=======
+>>>>>>> b7afadf9 (.)
     public function modalFormSchema(): array
     {
         return [
             'message' => Textarea::make('message')->required()->maxLength(255),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,14 +1038,20 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 =======
      * @return array<string, \Filament\Schemas\Components\Component>
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
      */
     public function modalFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'message' => Components\Textarea::make('message')
@@ -822,10 +1060,13 @@ abstract class XotBaseState extends State implements StateContract
 =======
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
             'message' => Textarea::make('message')
                 ->required()
                 ->maxLength(255),
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -840,6 +1081,13 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         ];
     }
 
@@ -898,6 +1146,7 @@ abstract class XotBaseState extends State implements StateContract
      * @param array<string, mixed> $data
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 =======
@@ -941,18 +1190,34 @@ abstract class XotBaseState extends State implements StateContract
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+     * @param  array<string, mixed>  $arguments
+     * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
      *
 =======
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 <<<<<<< HEAD
@@ -1066,13 +1331,20 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1091,6 +1363,7 @@ abstract class XotBaseState extends State implements StateContract
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $arguments
@@ -1186,6 +1459,56 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+     * @param array<string, mixed> $arguments
+     * @param array<string, mixed> $data
+     *
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+     * @param array<string, mixed> $arguments
+     * @param array<string, mixed> $data
+     *
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+     * @param array<string, mixed> $arguments
+     * @param array<string, mixed> $data
+     *
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+     * @param array<string, mixed> $arguments
+     * @param array<string, mixed> $data
+     *
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  array<string, mixed>  $arguments
+     * @param  array<string, mixed>  $data
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      * @return array<string, mixed>
      */
     public function modalFillForm(array $arguments, array $data): array
@@ -1200,6 +1523,7 @@ abstract class XotBaseState extends State implements StateContract
      */
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1247,13 +1571,39 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
     #[Override]
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    #[Override]
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function modalFillFormByRecord(Model $record): array
     {
         return [];
@@ -1309,6 +1659,7 @@ abstract class XotBaseState extends State implements StateContract
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 =======
@@ -1352,22 +1703,41 @@ abstract class XotBaseState extends State implements StateContract
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+     * @param  array<string, mixed>  $arguments
+     * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
 =======
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 >>>>>>> a12f125f4a (.)
 =======
      * @param array<string, mixed> $arguments
@@ -1451,12 +1821,19 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1475,6 +1852,7 @@ abstract class XotBaseState extends State implements StateContract
      * @param array<string, mixed> $data
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
+<<<<<<< HEAD
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
      * @param array<string, mixed> $arguments
@@ -1544,6 +1922,38 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+     * @param array<string, mixed> $arguments
+     * @param array<string, mixed> $data
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+     * @param array<string, mixed> $arguments
+     * @param array<string, mixed> $data
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  array<string, mixed>  $arguments
+     * @param  array<string, mixed>  $data
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      */
     public function modalAction(array $arguments, array $data): void
     {
@@ -1600,6 +2010,7 @@ abstract class XotBaseState extends State implements StateContract
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 =======
@@ -1643,22 +2054,41 @@ abstract class XotBaseState extends State implements StateContract
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+     * @param  array<string, mixed>  $arguments
+     * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
 =======
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 >>>>>>> a12f125f4a (.)
 =======
      * @param array<string, mixed> $arguments
@@ -1742,12 +2172,19 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1766,6 +2203,7 @@ abstract class XotBaseState extends State implements StateContract
      * @param array<string, mixed> $data
      * @param array<string, mixed> $arguments
      * @param array<string, mixed> $data
+<<<<<<< HEAD
      * @param  array<string, mixed>  $arguments
      * @param  array<string, mixed>  $data
      * @param array<string, mixed> $arguments
@@ -1835,6 +2273,38 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+     * @param array<string, mixed> $arguments
+     * @param array<string, mixed> $data
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+     * @param array<string, mixed> $arguments
+     * @param array<string, mixed> $data
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  array<string, mixed>  $arguments
+     * @param  array<string, mixed>  $data
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      */
     public function processStateAction(array $arguments, array $data): void
     {
@@ -1842,18 +2312,28 @@ abstract class XotBaseState extends State implements StateContract
         $stateClass = static::class;
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
          *
          * $appointmentId = $arguments['appointment'];
          * $appointment = Appointment::firstWhere('id',$appointmentId);
          *
          * $appointment?->state->transitionTo($stateClass,$message);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1865,12 +2345,18 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 
         $appointmentId = $arguments['appointment'];
         $appointment = Appointment::firstWhere('id',$appointmentId);
 
         $appointment?->state->transitionTo($stateClass,$message);
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1884,11 +2370,18 @@ abstract class XotBaseState extends State implements StateContract
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         $record = $this->getModel();
         /* @phpstan-ignore-next-line */
         $record->state->transitionTo($stateClass, $message);
@@ -1924,8 +2417,22 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+     * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      * @param  array<string, mixed>  $data
 =======
 =======
@@ -2049,6 +2556,12 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
      * @param array<string, mixed> $data
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param array<string, mixed> $data
+>>>>>>> a6ef6dc7 (.)
+     */
     #[Override]
 =======
      * @param  array<string, mixed>  $data
@@ -2060,7 +2573,28 @@ abstract class XotBaseState extends State implements StateContract
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+     * @param array<string, mixed> $data
+     */
+    #[Override]
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+    #[Override]
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function modalActionByRecord(Model $record, array $data): void
     {
         $this->processStateActionByRecord($record, $data);
@@ -2105,9 +2639,14 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
      * @param  array<string, mixed>  $data
 =======
 >>>>>>> 218dfed3 (.)
@@ -2145,15 +2684,30 @@ abstract class XotBaseState extends State implements StateContract
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param  array<string, mixed>  $data
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+     * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
      * @param array<string, mixed> $data
 =======
      * @param  array<string, mixed>  $data
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2239,11 +2793,33 @@ abstract class XotBaseState extends State implements StateContract
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
      * @param array<string, mixed> $data
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+     * @param array<string, mixed> $data
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  array<string, mixed>  $data
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+     * @param array<string, mixed> $data
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      */
     public function processStateActionByRecord(Model $record, array $data): void
     {
@@ -2251,18 +2827,28 @@ abstract class XotBaseState extends State implements StateContract
         $stateClass = static::class;
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
          *
          * $appointmentId = $arguments['appointment'];
          * $appointment = Appointment::firstWhere('id',$appointmentId);
          *
          * $appointment?->state->transitionTo($stateClass,$message);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2274,12 +2860,18 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 
         $appointmentId = $arguments['appointment'];
         $appointment = Appointment::firstWhere('id',$appointmentId);
 
         $appointment?->state->transitionTo($stateClass,$message);
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2293,11 +2885,18 @@ abstract class XotBaseState extends State implements StateContract
 =======
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         /* @phpstan-ignore-next-line */
         $record->state->transitionTo($stateClass, $message);
     }
@@ -2352,6 +2951,7 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -2361,6 +2961,18 @@ abstract class XotBaseState extends State implements StateContract
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $states = Arr::map($states, fn ($_stateClass, $state) => static::transClass(
 =======
 <<<<<<< HEAD
@@ -2449,6 +3061,7 @@ abstract class XotBaseState extends State implements StateContract
         $states = Arr::map($states, fn($_stateClass, $state) => static::transClass(
             static::class,
             'states.' . $state . '.label',
+<<<<<<< HEAD
         ));
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2465,12 +3078,53 @@ abstract class XotBaseState extends State implements StateContract
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> 5a14301c (.)
+=======
+        $states = Arr::map($states, fn($_stateClass, $state) => static::transClass(
+            static::class,
+            'states.' . $state . '.label',
+>>>>>>> 5a14301c (.)
+=======
+        $states = Arr::map($states, fn($_stateClass, $state) => static::transClass(
+            static::class,
+            'states.' . $state . '.label',
+>>>>>>> 5a14301c (.)
+=======
+            'states.'.$state.'.label',
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $states = Arr::map($states, fn ($_stateClass, $state) => static::transClass(
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+        $states = Arr::map($states, fn($_stateClass, $state) => static::transClass(
+>>>>>>> d2b0a27 (.)
+            static::class,
+            'states.'.(is_string($state) ? $state : (string) $state).'.label',
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+        ));
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
         $states = Arr::map($states, function ($stateClass, $state) {
             $stateStr = is_string($state) ? $state : (string) $state;
 
             return static::transClass(static::class, 'states.'.$stateStr.'.label');
         });
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -2485,6 +3139,13 @@ abstract class XotBaseState extends State implements StateContract
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
         return $states;
     }

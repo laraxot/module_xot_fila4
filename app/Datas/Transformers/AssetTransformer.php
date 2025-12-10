@@ -3,16 +3,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,10 +80,14 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,10 +150,18 @@ declare(strict_types=1);
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,12 +234,32 @@ declare(strict_types=1);
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 namespace Modules\Xot\Datas\Transformers;
 
 use Modules\Xot\Actions\File\AssetAction;
 use Spatie\LaravelData\Support\DataProperty;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
 <<<<<<< HEAD
@@ -237,14 +273,23 @@ use Spatie\LaravelData\Support\Transformation\TransformationContext;
 =======
 =======
 <<<<<<< HEAD
+use Spatie\LaravelData\Support\Transformation\TransformationContext;
+use Spatie\LaravelData\Transformers\Transformer;
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
 use Spatie\LaravelData\Transformers\Transformer;
 use Spatie\LaravelData\Support\Transformation\TransformationContext;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -252,9 +297,12 @@ use Spatie\LaravelData\Support\Transformation\TransformationContext;
 =======
 >>>>>>> 7468a7d2 (.)
 =======
+>>>>>>> 5cf46378 (.)
+=======
 use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
@@ -285,6 +333,13 @@ use Spatie\LaravelData\Support\Transformation\TransformationContext;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+use Spatie\LaravelData\Support\Transformation\TransformationContext;
+use Spatie\LaravelData\Transformers\Transformer;
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 /**
  * AssetTransformer - Trasforma riferimenti di file in percorsi completi per le risorse
@@ -326,6 +381,7 @@ class AssetTransformer implements Transformer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -339,6 +395,28 @@ class AssetTransformer implements Transformer
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
+     * @param  DataProperty  $_property  La proprietà di dati (non utilizzata)
+     * @param  mixed  $value  Il valore da trasformare (es. "user::image.png")
+     * @param  TransformationContext  $_context  Il contesto di trasformazione (non utilizzato)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
      * @param  DataProperty  $_property  La proprietà di dati (non utilizzata)
      * @param  mixed  $value  Il valore da trasformare (es. "user::image.png")
      * @param  TransformationContext  $_context  Il contesto di trasformazione (non utilizzato)
@@ -347,10 +425,17 @@ class AssetTransformer implements Transformer
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
      * @param DataProperty $_property La proprietà di dati (non utilizzata)
      * @param mixed $value Il valore da trasformare (es. "user::image.png")
      * @param TransformationContext $_context Il contesto di trasformazione (non utilizzato)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
      * @return string Il percorso completo (es. "/modules/user/resources/image.png")
      */
     public function transform(DataProperty $_property, mixed $value, TransformationContext $_context): string
@@ -359,6 +444,13 @@ class AssetTransformer implements Transformer
         if (! is_string($value) || empty($value)) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        if (! is_string($value) || empty($value)) {
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
      * @param DataProperty $property La proprietà di dati
      * @param mixed $value Il valore da trasformare (es. "user::image.png")
@@ -373,8 +465,16 @@ class AssetTransformer implements Transformer
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
         if (!is_string($value) || empty($value)) {
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+        if (!is_string($value) || empty($value)) {
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
             return '';
         }
 
@@ -555,6 +655,7 @@ class AssetTransformer implements Transformer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -593,6 +694,8 @@ class AssetTransformer implements Transformer
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -602,5 +705,10 @@ class AssetTransformer implements Transformer
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 }

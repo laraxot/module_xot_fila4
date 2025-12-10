@@ -26,6 +26,7 @@ use Throwable;
 >>>>>>> cc7fb225 (.)
 use Illuminate\Support\Facades\Auth;
 use Throwable;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -58,6 +59,7 @@ use Throwable;
 use Illuminate\Support\Facades\Auth;
 use Throwable;
 use Illuminate\Support\Facades\Auth;
+<<<<<<< HEAD
 use Throwable;
 use Illuminate\Support\Facades\Auth;
 
@@ -72,10 +74,21 @@ use Throwable;
 use Illuminate\Support\Facades\Auth;
 
 use function Safe\json_encode;
+=======
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+
+use function Safe\json_encode;
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
 class WebhookErrorFormatter
 {
     public function __construct(
+<<<<<<< HEAD
 <<<<<<< HEAD
         private Throwable $exception,
 <<<<<<< HEAD
@@ -119,6 +132,10 @@ class WebhookErrorFormatter
 =======
 =======
 <<<<<<< HEAD
+        private Throwable $exception,
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         private Throwable $exception,
 =======
@@ -128,7 +145,13 @@ class WebhookErrorFormatter
         private Throwable $exception,
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        private Throwable $exception,
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     ) {}
 
     /**
@@ -145,12 +168,21 @@ class WebhookErrorFormatter
             'line' => $this->exception->getLine(),
             'trace' => $this->exception->getTraceAsString(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
             'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -164,6 +196,7 @@ class WebhookErrorFormatter
              * $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
              * ),
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +216,11 @@ class WebhookErrorFormatter
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
             'exception' => sprintf(
                 '`%s` (Code `%s`)',
                 get_class($this->exception),
@@ -193,6 +231,7 @@ class WebhookErrorFormatter
                 $this->exception->getFile(),
                 $this->exception->getLine()
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -220,11 +259,16 @@ class WebhookErrorFormatter
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
             'ip' => request()->ip(),
 >>>>>>> 7468a7d2 (.)
+=======
+            'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
+            'ip' => request()->ip(),
+>>>>>>> 5cf46378 (.)
             'thrown_while_calling' => sprintf(
                 '[%s] %s',
                 request()->getMethod(),
                 request()->fullUrl()
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -239,12 +283,17 @@ class WebhookErrorFormatter
             'url_previous' => url()->previous(),
             /*
 >>>>>>> 7468a7d2 (.)
+=======
+            'url_previous' => url()->previous(),
+            /*
+>>>>>>> 5cf46378 (.)
             'exception_details' => sprintf(
                 "Trace:\n```json \n %s \n ```\n\n Previous: \n `%s`",
                 json_encode($this->exception->getTrace(), JSON_PRETTY_PRINT),
                 $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
             ),
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,11 +327,18 @@ class WebhookErrorFormatter
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         ];
     }
 }

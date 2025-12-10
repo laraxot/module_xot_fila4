@@ -9,16 +9,26 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\scandir;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,11 +51,17 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 
 use function Safe\scandir;
 
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,11 +93,18 @@ use function Safe\scandir;
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 class GetModulePathAction
 {
     use QueueableAction;
@@ -89,6 +112,15 @@ class GetModulePathAction
     /**
      * Ottiene il percorso di un modulo.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
      * @param  string  $moduleName  Il nome del modulo
      * @param  string  $moduleName  Il nome del modulo
      *
@@ -200,9 +232,23 @@ class GetModulePathAction
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  string  $moduleName  Il nome del modulo
+=======
+<<<<<<< HEAD
+     * @param  string  $moduleName  Il nome del modulo
+=======
+     * @param string $moduleName Il nome del modulo
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      *
 =======
      * 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -321,13 +367,33 @@ class GetModulePathAction
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
      *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  string  $moduleName  Il nome del modulo
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      * @return string Il percorso completo del modulo
      */
     public function execute(string $moduleName): string
@@ -371,10 +437,14 @@ class GetModulePathAction
 >>>>>>> 218dfed3 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
             if (! File::exists($modulesPath)) {
                 return __DIR__.'/../';
             if (!File::exists($modulesPath)) {
@@ -480,6 +550,18 @@ class GetModulePathAction
                 return __DIR__ . '/../';
 >>>>>>> 7131bd09 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! File::exists($modulesPath)) {
+                return __DIR__.'/../';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             if (! File::exists($modulesPath)) {
                 return __DIR__.'/../';
 =======
@@ -487,11 +569,15 @@ class GetModulePathAction
 <<<<<<< HEAD
             if (!File::exists($modulesPath)) {
                 return __DIR__ . '/../';
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
 =======
             if (! File::exists($modulesPath)) {
                 return __DIR__.'/../';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -509,7 +595,26 @@ class GetModulePathAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            if (!File::exists($modulesPath)) {
+                return __DIR__ . '/../';
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 5cf46378 (.)
             if (!File::exists($modulesPath)) {
                 return __DIR__ . '/../';
             if (!File::exists($modulesPath)) {
@@ -518,6 +623,7 @@ class GetModulePathAction
                 return __DIR__ . '/../';
             if (!File::exists($modulesPath)) {
                 return __DIR__ . '/../';
+<<<<<<< HEAD
             if (! File::exists($modulesPath)) {
                 return __DIR__.'/../';
             if (!File::exists($modulesPath)) {
@@ -611,17 +717,66 @@ class GetModulePathAction
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+            if (!File::exists($modulesPath)) {
+                return __DIR__ . '/../';
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            if (!File::exists($modulesPath)) {
+                return __DIR__ . '/../';
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! File::exists($modulesPath)) {
+                return __DIR__.'/../';
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             }
 
             $files = scandir($modulesPath);
             $moduleNameLower = Str::lower($moduleName);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
             $foundModule = collect($files)->filter(static function ($item) use ($moduleNameLower): bool {
                 if (! is_string($item)) {
@@ -653,11 +808,38 @@ class GetModulePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
             if ($foundModule === null || ! is_string($foundModule)) {
 =======
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+            if ($foundModule === null || ! is_string($foundModule)) {
+                return base_path('Modules/'.$moduleName);
+            }
+
+            $module_path = base_path('Modules/'.$foundModule);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+            if ($foundModule === null || ! is_string($foundModule)) {
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             if ($foundModule === null || !is_string($foundModule)) {
                 return base_path('Modules/' . $moduleName);
             }
@@ -699,6 +881,7 @@ class GetModulePathAction
             $module_path = base_path('Modules/' . $foundModule);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -775,7 +958,13 @@ class GetModulePathAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             
             $foundModule = collect($files)
                 ->filter(
@@ -789,6 +978,7 @@ class GetModulePathAction
             
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -956,12 +1146,39 @@ class GetModulePathAction
 =======
 <<<<<<< HEAD
 =======
+            // Se non troviamo il modulo, restituiamo un percorso di fallback
+            if ($foundModule === null || !is_string($foundModule)) {
+>>>>>>> d2b0a27 (.)
+                return base_path('Modules/'.$moduleName);
+            }
+
+            $module_path = base_path('Modules/'.$foundModule);
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         return $module_path;

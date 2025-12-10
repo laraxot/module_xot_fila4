@@ -7,6 +7,7 @@ namespace Modules\Xot\Providers;
 use Filament\Facades\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +77,7 @@ use Illuminate\Routing\Router;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
@@ -114,9 +116,31 @@ use Illuminate\Routing\Router;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7468a7d2 (.)
 =======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
+=======
+use Filament\Facades\Filament;
+>>>>>>> a6ef6dc7 (.)
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
+=======
+use Illuminate\Routing\Router;
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
@@ -136,6 +160,12 @@ use Illuminate\Routing\Router;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
 use Modules\Xot\Http\Middleware\SetDefaultLocaleForUrls;
@@ -144,6 +174,7 @@ use Modules\Xot\Http\Middleware\SetDefaultLocaleForUrls;
 use Modules\Xot\Http\Middleware\SetDefaultLocaleForUrls;
 use Modules\Xot\Http\Middleware\SetDefaultLocaleForUrls;
 use Modules\Xot\Http\Middleware\SetDefaultTenantForUrlsMiddleware;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +219,8 @@ use Illuminate\Support\Facades\Route;
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -197,7 +230,12 @@ use Illuminate\Support\Facades\Route;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
 
 // public function boot(\Illuminate\Routing\Router $router)
 
@@ -259,6 +297,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,13 +318,21 @@ class RouteServiceProvider extends ServiceProvider
 =======
 =======
 <<<<<<< HEAD
+        Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
 =======
         Route::middleware('web')
             ->namespace($this->moduleNamespace)
             ->group(base_path('Modules/Xot/routes/web.php'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -313,12 +360,20 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
         Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     /**
@@ -350,6 +405,7 @@ class RouteServiceProvider extends ServiceProvider
 
         // ✅ Controllo sicuro della configurazione laravellocalization
 <<<<<<< HEAD
+<<<<<<< HEAD
         $locales = config()->has('laravellocalization.supportedLocales')
             ? config('laravellocalization.supportedLocales')
 =======
@@ -369,9 +425,29 @@ class RouteServiceProvider extends ServiceProvider
             : null;
 
 <<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
         $locales = config()->has('laravellocalization.supportedLocales')
             ? config('laravellocalization.supportedLocales')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $locales = config()->has('laravellocalization.supportedLocales')
+            ? config('laravellocalization.supportedLocales')
+=======
+        $locales = config()->has('laravellocalization.supportedLocales') 
+            ? config('laravellocalization.supportedLocales') 
+>>>>>>> f1d4085 (.)
+=======
+        $locales = config()->has('laravellocalization.supportedLocales')
+            ? config('laravellocalization.supportedLocales')
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        $locales = config()->has('laravellocalization.supportedLocales')
+            ? config('laravellocalization.supportedLocales')
+>>>>>>> 300ef70 (.)
             : null;
 
 =======
@@ -428,12 +504,21 @@ class RouteServiceProvider extends ServiceProvider
     {
         // ✅ Controllo sicuro della configurazione laravellocalization
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
         $langs = config()->has('laravellocalization.supportedLocales')
             ? config('laravellocalization.supportedLocales')
             : ['it' => 'it', 'en' => 'en'];
@@ -441,6 +526,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,7 +629,21 @@ class RouteServiceProvider extends ServiceProvider
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+        if (! is_array($langs)) {
+=======
+<<<<<<< HEAD
+        if (! is_array($langs)) {
+=======
+        if (!is_array($langs)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $langs = config()->has('laravellocalization.supportedLocales') 
             ? config('laravellocalization.supportedLocales') 
             : ['it' => 'it', 'en' => 'en'];
@@ -551,6 +651,7 @@ class RouteServiceProvider extends ServiceProvider
         if (! is_array($langs)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,12 +787,32 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 091f883c (.)
 =======
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! is_array($langs)) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $langs = ['it' => 'it', 'en' => 'en'];
         }
 
@@ -745,6 +866,7 @@ class RouteServiceProvider extends ServiceProvider
         $lang_pattern = '/|'.$lang_pattern.'|/i';
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         $lang_pattern = '/|'.$lang_pattern.'|/i';
@@ -755,6 +877,9 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 =======
         $lang_pattern = '/|' . $lang_pattern . '|/i';
@@ -813,15 +938,30 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        $lang_pattern = '/|'.$lang_pattern.'|/i';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         $lang_pattern = '/|' . $lang_pattern . '|/i';
 =======
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -921,11 +1061,33 @@ class RouteServiceProvider extends ServiceProvider
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         $lang_pattern = '/|' . $lang_pattern . '|/i';
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $lang_pattern = '/|' . $lang_pattern . '|/i';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $lang_pattern = '/|'.$lang_pattern.'|/i';
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        $lang_pattern = '/|' . $lang_pattern . '|/i';
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         $router->pattern('lang', $lang_pattern);
 
@@ -979,6 +1141,7 @@ class RouteServiceProvider extends ServiceProvider
         if (! is_array($models)) {
         if (! is_array($models)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a67e542f (.)
         if (! is_array($models)) {
@@ -989,6 +1152,9 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         if (! is_array($models)) {
 =======
         if (!is_array($models)) {
@@ -1047,15 +1213,30 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
         if (! is_array($models)) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! is_array($models)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         if (!is_array($models)) {
 =======
         if (! is_array($models)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1155,11 +1336,33 @@ class RouteServiceProvider extends ServiceProvider
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         if (!is_array($models)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        if (!is_array($models)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! is_array($models)) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        if (!is_array($models)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
             $models = [];
         }
 
@@ -1167,6 +1370,7 @@ class RouteServiceProvider extends ServiceProvider
         $models_collect->implode('|');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1207,10 +1411,29 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         $models_collect->map(fn ($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $models_collect->map(fn ($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
         $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
 =======
         $models_collect->map(
@@ -1221,6 +1444,13 @@ class RouteServiceProvider extends ServiceProvider
         $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+        $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
     }
 
     /**

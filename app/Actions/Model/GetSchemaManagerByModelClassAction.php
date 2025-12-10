@@ -23,6 +23,11 @@ use Doctrine\DBAL\Schema\AbstractSchemaManager;
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use RuntimeException;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -91,6 +96,14 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use RuntimeException;
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
@@ -99,6 +112,7 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,10 +203,16 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+=======
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,7 +280,26 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -314,6 +353,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
      * @param  string  $modelClass  La classe del modello
 =======
@@ -323,6 +363,10 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
      * @param  string  $modelClass  La classe del modello
 =======
      * @param string $modelClass La classe del modello
@@ -387,15 +431,30 @@ class GetSchemaManagerByModelClassAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
      * @param  string  $modelClass  La classe del modello
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+     * @param  string  $modelClass  La classe del modello
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
      * @param string $modelClass La classe del modello
 =======
      * @param  string  $modelClass  La classe del modello
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,11 +554,33 @@ class GetSchemaManagerByModelClassAction
 =======
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
      * @param string $modelClass La classe del modello
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  string  $modelClass  La classe del modello
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -562,6 +643,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -572,24 +654,37 @@ class GetSchemaManagerByModelClassAction
 =======
 >>>>>>> 091f883c (.)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
+=======
+=======
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
             return $connection->getDoctrineSchemaManager();
 =======
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
             $schemaManager = $connection->getDoctrineSchemaManager();
 
+=======
+            $schemaManager = $connection->getDoctrineSchemaManager();
+>>>>>>> b7afadf9 (.)
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
 
             return $schemaManager;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 21348520 (.)
 >>>>>>> 7468a7d2 (.)
@@ -776,13 +871,34 @@ class GetSchemaManagerByModelClassAction
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
             return $connection->getDoctrineSchemaManager();
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

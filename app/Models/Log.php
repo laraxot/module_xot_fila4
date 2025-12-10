@@ -29,8 +29,13 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Database\Factories\LogFactory;
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 =======
 use Sushi\Sushi;
 <<<<<<< HEAD
@@ -43,7 +48,16 @@ use Override;
 >>>>>>> 73eab74 (.)
 use Modules\Xot\Database\Factories\FeedFactory;
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
 use Override;
@@ -232,6 +246,7 @@ use Illuminate\Support\Facades\File;
  * @property ProfileContract|null $updater
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -243,8 +258,20 @@ use Illuminate\Support\Facades\File;
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
 <<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
  * @mixin IdeHelperLog
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+ *
+<<<<<<< HEAD
+ * @mixin IdeHelperLog
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 /**
@@ -264,6 +291,7 @@ use Illuminate\Support\Facades\File;
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @mixin IdeHelperLog
  * @mixin IdeHelperLog
  * @mixin IdeHelperLog
@@ -274,6 +302,16 @@ use Illuminate\Support\Facades\File;
 =======
 >>>>>>> 091f883c (.)
  * @mixin IdeHelperLog
+=======
+<<<<<<< HEAD
+>>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperLog
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel
@@ -351,6 +389,7 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -368,7 +407,26 @@ class Log extends BaseModel
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     public function getFileContentAttribute(?string $value): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+    public function getFileContentAttribute(null|string $value): null|string
+>>>>>>> a6ef6dc7 (.)
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
 =======
@@ -488,6 +546,7 @@ class Log extends BaseModel
 
     /** @return array<string, string> */
     #[Override]
+<<<<<<< HEAD
     public function getFileContentAttribute(?string $value): ?string
     public function getFileContentAttribute(null|string $value): null|string
     {
@@ -527,12 +586,19 @@ class Log extends BaseModel
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> 5cf46378 (.)
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
@@ -556,17 +622,26 @@ class Log extends BaseModel
 >>>>>>> 091f883c (.)
 =======
 =======
+    #[Override]
+>>>>>>> 5cf46378 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'name' => 'string',
             'size' => 'integer',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +671,11 @@ class Log extends BaseModel
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 5cf46378 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
             'created_at' => 'datetime',
@@ -614,6 +694,14 @@ class Log extends BaseModel
             'deleted_at' => 'datetime',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -623,12 +711,21 @@ class Log extends BaseModel
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
  * dddx([
  * 'getRelativePath' => $file->getRelativePath(), // ""
  * 'getRelativePathname' => $file->getRelativePathname(),
@@ -692,6 +789,7 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -707,6 +805,11 @@ class Log extends BaseModel
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
            dddx([
                'getRelativePath' => $file->getRelativePath(), // ""
                'getRelativePathname' => $file->getRelativePathname(),
@@ -768,6 +871,7 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -789,8 +893,15 @@ class Log extends BaseModel
 =======
 >>>>>>> 091f883c (.)
 =======
+=======
+>>>>>>> 5cf46378 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)

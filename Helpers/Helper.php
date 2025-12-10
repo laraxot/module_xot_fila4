@@ -14593,7 +14593,17 @@ if (! function_exists('removeQueryParams')) {
         $url = url()->current(); // get the base URL - everything to the left of the "?"
         $query = request()->query(); // get the query parameters (what follows the "?")
         Assert::isArray($query);
+        /** @var array<string, mixed> $cleanQuery */
+        $cleanQuery = $query;
         foreach ($params as $param) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
             $key = is_string($param) ? $param : (string) $param;
             unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
         }
@@ -14792,7 +14802,64 @@ if (! function_exists('removeQueryParams')) {
 =======
 =======
 >>>>>>> 16dc7ab0 (.)
+<<<<<<< HEAD
 >>>>>>> 01502290 (.)
+=======
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 5a14301c (.)
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+=======
+        return $query ? $url.'?'.http_build_query($query) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 43d67f21 (.)
+=======
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> b7ea1cd1 (.)
+=======
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+            if (is_string($param) || is_int($param)) {
+                unset($cleanQuery[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+            }
+        }
+
+        return $cleanQuery ? ($url.'?'.http_build_query($cleanQuery)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
     }
 }
 
@@ -17176,6 +17243,7 @@ if (! function_exists('debugStack')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 >>>>>>> 62cc8443 (.)
@@ -17469,9 +17537,16 @@ if (! function_exists('debugStack')) {
         if (function_exists('xdebug_print_function_stack')) {
             xdebug_print_function_stack();
         } else {
+=======
+        // Prefer using xdebug when available, otherwise fallback to PHP backtrace
+        if (extension_loaded('xdebug')) {
+            // Avoid direct calls to xdebug_* to keep static analysis satisfied
+            // and rely on generic backtrace instead.
+>>>>>>> b7afadf9 (.)
             debug_print_backtrace();
 
             return;
+<<<<<<< HEAD
         if (! extension_loaded('xdebug')) {
             throw new RuntimeException('XDebug must be installed to use this function');
         }
@@ -17543,7 +17618,11 @@ if (! function_exists('is_active')) {
             if (Request::is($route)) {
                 return true;
             }
+=======
+>>>>>>> 5cf46378 (.)
         }
+
+        debug_print_backtrace();
     }
 }
 
@@ -20802,12 +20881,13 @@ function safe_object_call($object, string $method, ...$args)
 >>>>>>> 16dc7ab0 (.)
 >>>>>>> 01502290 (.)
     if (! is_object($object)) {
-        return null;
+        return;
     }
 
     if (! method_exists($object, $method)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21119,6 +21199,9 @@ function safe_object_call($object, string $method, ...$args)
 >>>>>>> 16dc7ab0 (.)
 >>>>>>> 01502290 (.)
         return null;
+=======
+        return;
+>>>>>>> b7afadf9 (.)
     }
 
     return $object->$method(...$args);

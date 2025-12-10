@@ -209,6 +209,7 @@ class XotServiceProvider extends XotBaseServiceProvider
 
     public function registerTimezone(): void
     {
+<<<<<<< HEAD
         Assert::string(
             $timezone = config('app.timezone') ?? 'Europe/Berlin',
             '['.__LINE__.']['.class_basename($this).']',
@@ -218,6 +219,16 @@ class XotServiceProvider extends XotBaseServiceProvider
             '['.__LINE__.']['.class_basename($this).']',
         );
         Assert::string($locale = config('app.locale') ?? 'it', '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 5cf46378 (.)
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
         Assert::string(
@@ -231,6 +242,52 @@ class XotServiceProvider extends XotBaseServiceProvider
         Assert::string($timezone = config('app.timezone') ?? 'Europe/Berlin', '['.__LINE__.']['.class_basename($this).']');
         Assert::string($date_format = config('app.date_format') ?? 'd/m/Y', '['.__LINE__.']['.class_basename($this).']');
         Assert::string($locale = config('app.locale') ?? 'it', '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 5cf46378 (.)
         $timezone = config('app.timezone') ?? 'Europe/Berlin';
         $date_format = config('app.date_format') ?? 'd/m/Y';
         $locale = config('app.locale') ?? 'it';
@@ -238,6 +295,11 @@ class XotServiceProvider extends XotBaseServiceProvider
         Assert::string($timezone, '['.__LINE__.']['.class_basename($this).']');
         Assert::string($date_format, '['.__LINE__.']['.class_basename($this).']');
         Assert::string($locale, '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
 
         app()->setLocale($locale);
         Carbon::setLocale($locale);
@@ -601,5 +663,9 @@ class XotServiceProvider extends XotBaseServiceProvider
         //     }
         // }
     }
+<<<<<<< HEAD
 
 } // end class
+=======
+} // end class
+>>>>>>> 5cf46378 (.)

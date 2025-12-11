@@ -2,40 +2,12 @@
 
 ## Descrizione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
-=======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di <main module>, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 551c768c4 (.)
-=======
-La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di <main module>, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
->>>>>>> 414a4ffcb (.)
 
 ## Percorso del File
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
-=======
 /var/www/html/<directory progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 551c768c4 (.)
-=======
-/var/www/html/<directory progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
->>>>>>> 414a4ffcb (.)
 ```
 
 ## Gerarchia di Ereditarietà
@@ -74,19 +46,7 @@ public function getTitle(): string
 ### Form Standardizzato
 
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-public function form(Form $form): Form
-public function form(Form $form): Form
-public function form(Form $form): Form
-public function form(Form $form): Form
-public function form(Form $form): Form
-=======
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
->>>>>>> 551c768c4 (.)
-=======
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
->>>>>>> 414a4ffcb (.)
 {
     return $form
         ->schema($this->getFormSchema())
@@ -107,21 +67,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 ### Estensione Corretta
 
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-=======
 namespace Modules\<main module>\Filament\Pages;
->>>>>>> 551c768c4 (.)
-=======
-namespace Modules\<main module>\Filament\Pages;
->>>>>>> 414a4ffcb (.)
 
 use Modules\Xot\Filament\Resources\Pages\XotBasePage;
 
@@ -142,21 +88,7 @@ class MyCustomPage extends XotBasePage
 
 ```php
 // ❌ ERRORE: Non estendere mai direttamente Page
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-namespace Modules\SaluteOra\Filament\Pages;
-=======
 namespace Modules\<main module>\Filament\Pages;
->>>>>>> 551c768c4 (.)
-=======
-namespace Modules\<main module>\Filament\Pages;
->>>>>>> 414a4ffcb (.)
 
 use Filament\Pages\Page;
 
@@ -238,36 +170,6 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 ## Collegamenti
 
 - [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-- [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-- [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-- [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-- [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-- [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-- [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
-=======
 - [Pattern di Estensione](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 551c768c4 (.)
-=======
-- [Pattern di Estensione](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
-- [Principi di Ereditarietà](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
-- [Architettura Filament-Xot](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/filament_xot_architecture.md)
->>>>>>> 414a4ffcb (.)

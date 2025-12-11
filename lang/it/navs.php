@@ -21,23 +21,6 @@ return [
         'login' => [
             'label' => 'Login',
             'icon' => 'ui-login',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'icon' => 'heroicon-o-login',
-            'icon' => 'heroicon-o-login',
-            'icon' => 'heroicon-o-login',
-            'icon' => 'heroicon-o-login',
-            'icon' => 'ui-login',
-            'icon' => 'heroicon-o-login',
-            'icon' => 'heroicon-o-login',
-            'icon' => 'heroicon-o-login',
-            'icon' => 'heroicon-o-login',
-            'icon' => 'heroicon-o-login',
-            'icon' => 'heroicon-o-login',
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
         ],
         'macros' => [
             'label' => 'Macro',

@@ -11,38 +11,12 @@ use Modules\Xot\Models\Feed;
 /**
  * @extends Factory<Feed>
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/**
- * @extends Factory<Feed>
- */
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 class FeedFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var class-string<Feed>
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Feed>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
      */
     protected $model = Feed::class;
 

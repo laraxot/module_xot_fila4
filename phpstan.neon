@@ -1,45 +1,10 @@
 parameters:
     level: 10
-<<<<<<< HEAD
-<<<<<<< HEAD
-    level: 7
-    level: 7
-    level: 7
-    level: 7
-    level: 7
-    level: 7
-    level: 10
-    level: 7
-    level: 7
-    level: 7
-    level: 7
-    level: 7
-    level: 7
-    level: 7
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
     paths:
         - app
         - config
         - database
         - routes
-<<<<<<< HEAD
-<<<<<<< HEAD
-        - tests
-        - tests
-        - tests
-        - tests
-        - tests
-        - tests
-        - tests
-        - tests
-        - tests
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
     excludePaths:
         - app_old/*
         - vendor/*
@@ -51,39 +16,6 @@ parameters:
     checkFunctionNameCase: true
     inferPrivatePropertyTypeFromConstructor: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    checkMissingIterableValueType: true
-    checkGenericClassInNonGenericObjectType: true
-    checkMissingCallableSignature: true
-    treatPhpDocTypesAsCertain: true
-    reportUnmatchedIgnoredErrors: true
-
-    ignoreErrors:
-        # Ignoriamo temporaneamente alcuni errori specifici mentre li correggiamo
-        - '#Method [a-zA-Z0-9\\_]+::[a-zA-Z0-9_]+\(\) has no return type specified#'
-        - '#Property [a-zA-Z0-9\\_]+::\$[a-zA-Z0-9_]+ has no type specified#'
-
-    # Regole per i tipi di parametri
-    checkArgumentsPassedByReference: true
-    checkNullables: true
-
-    # Regole per i servizi
-    checkFunctionNameCase: true
-
-    # Regole per i modelli
-    checkModelProperties: true
-
-    # Regole per i test
-    inferPrivatePropertyTypeFromConstructor: true
-
-    # Regole per la documentazione
-    checkPhpDocMissingReturn: true
-
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 services:
     -
         class: PHPStan\Rules\Methods\ReturnTypeRule

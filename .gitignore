@@ -3,72 +3,17 @@
 # ==============================================
 # Modulo base Laraxot - Template standardizzato
 # Ultimo aggiornamento: 2025-01-06
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Ultimo aggiornamento: 2025-01-31
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-31
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-# Ultimo aggiornamento: 2025-01-06
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
-<<<<<<< HEAD
-<<<<<<< HEAD
-/vendor/
-/vendor
-/node_modules/
-/node_modules
-/docs/vendor/
-package-lock.json
-yarn.lock
-composer.lock
-yarn-error.log
-npm-debug.log
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 vendor/
 node_modules/
 package-lock.json
 yarn.lock
 composer.lock
 docs/vendor/
-<<<<<<< HEAD
-<<<<<<< HEAD
-docs/vendor/
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -92,29 +37,6 @@ storage/*.key
 !.env.example
 
 # ==============================================
-<<<<<<< HEAD
-<<<<<<< HEAD
-/build/
-/build
-/build
-/build
-/build
-/build/
-/build
-/build
-/build
-/build
-/build
-build/
-dist/
-docs/cache/
-cache/
-
-# ==============================================
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # CACHE & TEMPORARY FILES
 # ==============================================
 *.cache
@@ -140,76 +62,6 @@ yarn-error.log*
 lerna-debug.log*
 
 # ==============================================
-<<<<<<< HEAD
-<<<<<<< HEAD
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# Dependencies and packages
-/vendor/
-/node_modules/
-/docs/vendor/
-
-# Lock files and cache
-*.lock
-*.cache
-*.phar
-*.jar
-package-lock.json
-yarn-error.log
-npm-debug.log
-composer.lock
-composer.lock
-composer.lock
-composer.lock
-.phpunit.result.cache
-.php-cs-fixer.cache
-
-# Log files
-*.log
-error_log
-
-# Build directories
-/build/
-/build
-build/
-
-# Laravel specific
-bootstrap/compiled.php
-app/storage/
-public/storage
-public/hot
-public_html/storage
-public_html/hot
-storage/*.key
-.env
-.env.*
-!.env.example
-
-# ==============================================
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # ENVIRONMENT & CONFIGURATION
 # ==============================================
 Homestead.yaml
@@ -218,26 +70,11 @@ Homestead.json
 /.idea
 .phpintel
 .phpstorm.meta.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-.phpstorm.meta.php
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
 # ==============================================
 # GIT SPECIFIC
 # ==============================================
 .git-rewrite/
-<<<<<<< HEAD
-<<<<<<< HEAD
-.git-rewrite
-.git-rewrite
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 .git-blame-ignore-revs
 
 # ==============================================
@@ -251,13 +88,6 @@ Homestead.json
 ehthumbs.db
 Thumbs.db
 *.exe
-<<<<<<< HEAD
-<<<<<<< HEAD
-*.exe
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
 # ==============================================
 # BACKUP FILES
@@ -276,21 +106,6 @@ Thumbs.db
 # ==============================================
 .windsurf/
 .cursor/
-<<<<<<< HEAD
-<<<<<<< HEAD
-.phpstorm.meta.php
-.phpstorm.meta.php
-.phpstorm.meta.php
-.phpstorm.meta.php
-.phpstorm.meta.php
-.phpstorm.meta.php
-.phpstorm.meta.php
-.phpstorm.meta.php
-.phpstorm.meta.php
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
 # ==============================================
 # DOCUMENTATION CACHE
@@ -299,18 +114,6 @@ docs/phpstan/
 docs/cache/
 
 # ==============================================
-<<<<<<< HEAD
-<<<<<<< HEAD
-# LANGUAGE FILES
-# ==============================================
-lang/lang/
-resources/lang/
-
-# ==============================================
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -319,25 +122,6 @@ database/Seeders_old/
 database/Factories_old/
 database_old/
 database/Factories_
-<<<<<<< HEAD
-<<<<<<< HEAD
-database_old/
-database_old/
-database_old/
-database_old/
-database_old/
-database_old/
-database/Factories_
-database_old/
-database_old/
-database_old/
-database_old/
-database_old/
-database_old/
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
 # ==============================================
 # MODULE SPECIFIC - XOT
@@ -350,32 +134,11 @@ testbench.yaml
 config/local.php
 config/development.php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# File temporanei
-packages/cache/
-packages/temp/
-
-# File di test temporanei
-test.txt
-testbench.yaml
-
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # Cache specifiche del modulo
 packages/cache/
 packages/temp/
 
 # ==============================================
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ==============================================
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # PROJECT SPECIFIC
 # ==============================================
 *.fila2
@@ -383,111 +146,3 @@ packages/temp/
 # ==============================================
 # END OF XOT .GITIGNORE
 # ==============================================
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ==============================================
-# END OF XOT .GITIGNORE
-# ==============================================
-
-# File specifici del progetto
-# File specifici del progetto
-# Database directories
-database/Factories_
-database/Factories_old
-database/Migrations_old
-
-# Local configurations
-Homestead.yaml
-Homestead.json
-/.vagrant
-
-# IDE specific
-/.idea
-.phpintel
-
-# Git specific
-.git-blame-ignore-revs
-.git-rewrite/
-.git-rewrite
-
-# Temporary and system files
-*.tmp
-*.swp
-*.swo
-*.stackdump
-*.exe
-*:Zone.Identifier
-.DS_Store
-*.old
-*.old1
-*.backup
-*.backup.*
-*.bak
-*.old
-*.old1
-*.backup
-*.bak
-*.new
-
-# Documentation and cache
-docs/phpstan/
-docs/cache/
-cache/
-
-
-
-# Development tools
-.windsurf/
-.cursor/
-# Old directories
-resources/views/Components_old
-database/Migrations_old
-database/Seeders_old
-database/Factories_old
-database_old
-
-# Old directories to ignore
-resources/views/Components_old
-database/Migrations_old
-database/Seeders_old
-database/Factories_old
-database_old
-
-# 🚫 File specifici del progetto
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-*.fila2
-laravel
-public_html
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)

@@ -15,24 +15,7 @@ class SelectAction
     /**
      * Execute a select query.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param class-string<Model> $modelClass
-     *
-     * @param class-string<Model> $modelClass
-     *
-     * @param class-string<Model> $modelClass
-     *
-     * @param class-string<Model> $modelClass
-     *
-     * @param class-string<Model> $modelClass
-     *
-=======
      * @param  class-string<Model>  $modelClass
->>>>>>> 551c768c4 (.)
-=======
-     * @param  class-string<Model>  $modelClass
->>>>>>> 414a4ffcb (.)
      * @return array<mixed>
      */
     public function execute(string $modelClass, string $sql): array

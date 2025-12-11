@@ -4,44 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Model;
-// use Laravel\Scout\Searchable;
-use Illuminate\Database\Eloquent\Model;
-// use Laravel\Scout\Searchable;
-<<<<<<< HEAD
-// ---- Traits ----
-use Illuminate\Database\Eloquent\Model;
-// use Laravel\Scout\Searchable;
-// ---- Traits ----
-// ---- Traits ----
-use Illuminate\Database\Eloquent\Model;
-// use Laravel\Scout\Searchable;
-// ---- Traits ----
-// ---- Traits ----
-// ---- Traits ----
-use Illuminate\Database\Eloquent\Model;
-// use Laravel\Scout\Searchable;
-// ---- Traits ----
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-=======
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Modules\Xot\Models\Traits\RelationX;
->>>>>>> 551c768c4 (.)
-=======
-use Illuminate\Database\Eloquent\Model as EloquentModel;
-use Modules\Xot\Models\Traits\HasXotFactory;
-use Modules\Xot\Models\Traits\RelationX;
->>>>>>> 414a4ffcb (.)
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -51,48 +16,6 @@ abstract class XotBaseModel extends EloquentModel
 {
     use HasXotFactory;
     use RelationX;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    // use Searchable;
-abstract class XotBaseModel extends Model
-{
-    use Traits\HasXotFactory;
-    use Traits\RelationX;
-
-    // use Searchable;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5cf46378 (.)
-abstract class XotBaseModel extends Model
-{
-    // use Searchable;
-abstract class XotBaseModel extends Model
-{
-    // use Searchable;
-    // use Searchable;
-    // //use Cachable;
-abstract class XotBaseModel extends Model
-{
-    // use Searchable;
-    // use Searchable;
-    // //use Cachable;
-abstract class XotBaseModel extends Model
-{
-    // use Searchable;
-<<<<<<< HEAD
-=======
->>>>>>> 53d6a6ba (.)
-=======
-    // //use Cachable;
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
     use Updater;
 
     /**
@@ -104,17 +27,6 @@ abstract class XotBaseModel extends Model
      */
     public static $snakeAttributes = true;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> 551c768c4 (.)
     /** @var bool */
     public $incrementing = true;
 
@@ -124,16 +36,8 @@ abstract class XotBaseModel extends Model
     /** @var int */
     protected $perPage = 30;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     /** @var string */
     protected $connection = 'xot';
->>>>>>> 551c768c4 (.)
-=======
-    /** @var string */
-    protected $connection = 'xot';
->>>>>>> 414a4ffcb (.)
 
     /** @var list<string> */
     protected $appends = [];
@@ -143,93 +47,20 @@ abstract class XotBaseModel extends Model
 
     /** @var string */
     protected $keyType = 'int';
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public $incrementing = true;
-
-    public $timestamps = true;
-
-    protected $perPage = 30;
-
-=======
-=======
->>>>>>> 5cf46378 (.)
-    public $incrementing = true;
-
-    public $timestamps = true;
-
-    protected $perPage = 30;
-
-    // protected $connection = 'xot';
-
-    /** @var list<string> */
-    protected $fillable = ['id'];
-
-    protected $primaryKey = 'id';
-
-    protected $keyType = 'string';
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
     /** @var list<string> */
     protected $hidden = [
         // 'password'
     ];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     /** @return array<string, string> */
-=======
->>>>>>> 5cf46378 (.)
-    /**
-     * The accessors to append to the model's array form.
-     *
-     * @var list<string>
-     */
-    protected $appends = [];
-
-    /** @return array<string, class-string|string> */
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-=======
-    /** @return array<string, string> */
->>>>>>> 551c768c4 (.)
-=======
-    /** @return array<string, string> */
->>>>>>> 414a4ffcb (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'uuid' => 'string',
             'published_at' => 'datetime',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
             'verified_at' => 'datetime',
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-=======
-            'verified_at' => 'datetime',
->>>>>>> 551c768c4 (.)
-=======
-            'verified_at' => 'datetime',
->>>>>>> 414a4ffcb (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -238,39 +69,4 @@ abstract class XotBaseModel extends Model
             'deleted_by' => 'string',
         ];
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 5cf46378 (.)
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-<<<<<<< HEAD
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-    /** @var int */
-    protected $perPage = 30;
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 }

@@ -39,38 +39,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
-=======
->>>>>>> 851793957 (.)
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-<<<<<<< HEAD
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-=======
->>>>>>> 53d6a6ba (.)
-=======
-        ->andReturn(\Modules\<nome progetto>\Models\User::class);
->>>>>>> 28fc70fe (.)
->>>>>>> 851793957 (.)
-=======
-        ->andReturn(\Modules\<nome progetto>\Models\User::class);
->>>>>>> 551c768c4 (.)
-=======
-        ->andReturn(\Modules\<nome progetto>\Models\User::class);
->>>>>>> 414a4ffcb (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);

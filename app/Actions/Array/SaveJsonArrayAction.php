@@ -4,34 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Array;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 use function Safe\json_encode;
 use function Safe\file_put_contents;
-=======
-<<<<<<< HEAD
-use function Safe\json_encode;
-use function Safe\file_put_contents;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
-use function Safe\json_encode;
-use function Safe\file_put_contents;
->>>>>>> 091f883c (.)
-=======
-use function Safe\json_encode;
-use function Safe\file_put_contents;
->>>>>>> 80bc07e81 (.)
-=======
-use function Safe\json_encode;
-use function Safe\file_put_contents;
->>>>>>> 414a4ffcb (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;

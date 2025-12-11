@@ -1,13 +1,5 @@
 # Code Quality Analysis - Xot Module
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 ## 📊 Overview
 
 Il modulo Xot è il modulo foundation del progetto, contenente classi base, servizi condivisi e utilities per tutti gli altri moduli.
@@ -220,13 +212,6 @@ Il modulo Xot è il modulo foundation del progetto, contenente classi base, serv
 3. **`PERFORMANCE_ANALYSIS.md`** - Performance metrics and optimization
 4. **`API_REFERENCE.md`** - Complete API documentation
 5. **`BEST_PRACTICES.md`** - Usage guidelines and patterns
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 92bc33604 (.)
-=======
-=======
-=======
->>>>>>> 414a4ffcb (.)
 **Last Updated**: 2025-12-05
 **Status**: Analysis Complete
 
@@ -290,24 +275,11 @@ An analysis of the `Xot` module was performed using PHPStan, PHPMD, and PHPInsig
 - **Issue**: The PHPMD warning regarding a trait collision.
 - **Impact**: Could lead to unpredictable behavior or fatal errors if not addressed.
 - **Action**: Requires manual investigation and resolution.
-<<<<<<< HEAD
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
 ---
 
 ## 🚀 Next Steps
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 1. **Immediate (This Week)**
    - Run PHPMD analysis
    - Document all findings
@@ -328,19 +300,7 @@ An analysis of the `Xot` module was performed using PHPStan, PHPMD, and PHPInsig
 *Last Updated: 2025-11-12*
 *Status: Ready for PHPMD Analysis*
 *Priority: HIGH (Foundation Module)*
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 92bc33604 (.)
-=======
-=======
-=======
->>>>>>> 414a4ffcb (.)
 1.  **Immediate**: Address the security vulnerability.
 2.  **Short-term**: Run automated code styling tools to clean up the codebase.
 3.  **Mid-term**: Manually investigate and resolve the remaining issues (trait collision, method name, lang file line lengths).
 4.  **Continuous Improvement**: This analysis should be re-run after changes are made to ensure continued compliance. A CI/CD pipeline step for these checks is recommended.
-<<<<<<< HEAD
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)

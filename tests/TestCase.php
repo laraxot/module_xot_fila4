@@ -4,352 +4,36 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-use Mockery;
-use Modules\SaluteOra\Models\User;
-use Mockery;
-use Modules\SaluteOra\Models\User;
-use Mockery;
-use Modules\SaluteOra\Models\User;
-=======
-=======
->>>>>>> 9db27d12 (.)
->>>>>>> 091f883c (.)
-use Mockery;
-use Modules\SaluteOra\Models\User;
-use Mockery;
-use Modules\SaluteOra\Models\User;
-use Mockery;
-use Modules\SaluteOra\Models\User;
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
 use Mockery;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\SaluteOra\Models\User;
-use Mockery;
-use Modules\SaluteOra\Models\User;
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 218dfed3 (.)
-<<<<<<< HEAD
-=======
->>>>>>> a67e542f (.)
-=======
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
->>>>>>> 7468a7d2 (.)
-=======
->>>>>>> 5cf46378 (.)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2f3197ab (.)
-=======
-<<<<<<< HEAD
->>>>>>> a67e542f (.)
-=======
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 091f883c (.)
-=======
-
->>>>>>> 414a4ffcb (.)
     // use DatabaseMigrations;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 300ef70 (.)
 
-<<<<<<< HEAD
-=======
->>>>>>> 551c768c4 (.)
-    // use DatabaseMigrations;
-=======
-    //use DatabaseMigrations;
->>>>>>> d2b0a27 (.)
->>>>>>> a6ef6dc7 (.)
->>>>>>> 5cf46378 (.)
-
-=======
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
-    //use DatabaseMigrations;
->>>>>>> d2b0a27 (.)
-
-
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-
-
-
-
-=======
-    /**
-     * Generate a unique email for testing to prevent database conflicts.
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-<<<<<<< HEAD
-
-
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 218dfed3 (.)
-
-
-
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-<<<<<<< HEAD
->>>>>>> 2f3197ab (.)
-=======
-=======
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-<<<<<<< HEAD
->>>>>>> 218dfed3 (.)
-=======
-=======
->>>>>>> 3310e9c6 (.)
-<<<<<<< HEAD
->>>>>>> a67e542f (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-=======
-=======
->>>>>>> 9db27d12 (.)
->>>>>>> 091f883c (.)
-    //use DatabaseMigrations;
-
-    // =============================================================================
-=======
->>>>>>> 414a4ffcb (.)
     // SHARED TEST HELPER FUNCTIONS (DRY Pattern)
     // Queste funzioni erano duplicate in molti file di test
     // Centralizzate qui per manutenibilità e coerenza
 
     /**
      * Generate a unique email for testing to prevent database conflicts.
-<<<<<<< HEAD
-     *
-     * @return string
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
      */
     protected static function generateUniqueEmail(): string
     {
         $faker = fake();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 551c768c4 (.)
-=======
-
->>>>>>> 414a4ffcb (.)
         return $faker->unique()->safeEmail();
     }
 
     /**
      * Get the configured User class via XotData (correct architecture pattern).
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-     * @return string
-     *
-     * @return string
-     *
-     * @return string
-     *
-     * @return string
-     *
-     * @return string
-     *
-     * @return string
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
      */
     protected static function getUserClass(): string
     {
@@ -359,29 +43,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create a test user via XotData pattern with proper architecture.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-     * @param array<string, mixed> $attributes
-     * @return UserContract
      * @param  array<string, mixed>  $attributes
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-     * @param  array<string, mixed>  $attributes
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-     * @param  array<string, mixed>  $attributes
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-=======
-     * @param  array<string, mixed>  $attributes
->>>>>>> 551c768c4 (.)
-=======
-     * @param  array<string, mixed>  $attributes
->>>>>>> 414a4ffcb (.)
      */
     protected static function createTestUser(array $attributes = []): UserContract
     {
@@ -391,418 +53,25 @@ abstract class TestCase extends BaseTestCase
             'password' => Hash::make('password123'),
             'name' => fake()->name(),
         ];
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
 
         $userData = array_merge($defaultData, $attributes);
 
         /** @var UserContract&Model $user */
-        /* @phpstan-ignore-next-line method.nonObject */
         $user = $userClass::factory()->create($userData);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-        
-=======
-
->>>>>>> b93ef594b4 (.)
->>>>>>> ce6fc085 (.)
-        $userData = array_merge($defaultData, $attributes);
-
-        /** @var UserContract&Model $user */
-        $user = $userClass::factory()->create($userData);
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> ce6fc085 (.)
-        
-        $userData = array_merge($defaultData, $attributes);
-        
-        /** @var UserContract&\Illuminate\Database\Eloquent\Model $user */
-        $user = $userClass::factory()->create($userData);
-        
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 218dfed3 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 7468a7d2 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-=======
-        
-        $userData = array_merge($defaultData, $attributes);
-        
-        /** @var UserContract&Model $user */
-        $user = $userClass::factory()->create($userData);
-        
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2f3197ab (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 218dfed3 (.)
-=======
->>>>>>> a67e542f (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
->>>>>>> 7468a7d2 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> 414a4ffcb (.)
         return $user;
     }
 
     /**
      * Mock XotData for widget testing (Gold Standard Pattern).
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * 
-=======
-=======
-     * 
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> 2f3197ab (.)
-=======
-=======
-     *
->>>>>>> 73eab74 (.)
->>>>>>> 218dfed3 (.)
-=======
->>>>>>> a67e542f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-=======
-     * 
->>>>>>> a12f125f4a (.)
-=======
-     *
->>>>>>> b93ef594b4 (.)
-=======
-     * 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
-=======
-<<<<<<< HEAD
-     *
->>>>>>> 5cf46378 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-=======
-     * 
->>>>>>> f1d4085 (.)
-=======
-     *
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 7468a7d2 (.)
-=======
-=======
-     *
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
      * Prevents "Class not found" errors and provides consistent behavior
      * across all widget tests.
-<<<<<<< HEAD
-     *
-     * @return void
-     *
-     * @return void
-     *
-     * @return void
-     *
-     * @return void
      */
     protected static function mockXotData(): void
     {
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
-        $mockXotData = Mockery::mock(XotData::class)->makePartial();
-     *
-     * @return void
-=======
-     * Prevents "Class not found" errors and provides consistent behavior
-     * across all widget tests.
->>>>>>> 414a4ffcb (.)
-     */
-    protected static function mockXotData(): void
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $mockXotData = Mockery::mock(XotData::class)->makePartial();
-=======
-<<<<<<< HEAD
-        $mockXotData = \Mockery::mock(XotData::class)->makePartial();
-=======
-        $mockXotData = Mockery::mock(XotData::class)->makePartial();
-=======
-        $mockXotData = \Mockery::mock(XotData::class)->makePartial();
-=======
-        $mockXotData = Mockery::mock(XotData::class)->makePartial();
->>>>>>> b7afadf9 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
-        $mockXotData = Mockery::mock(XotData::class)->makePartial();
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-=======
-     */
-    protected static function mockXotData(): void
-    {
-        $mockXotData = Mockery::mock(XotData::class)->makePartial();
->>>>>>> 551c768c4 (.)
 
-        // Mock dei metodi critici con fallback sicuri
-        $userClass = XotData::make()->getUserClass();
-        /* @phpstan-ignore-next-line method.notFound */
-        $mockXotData->shouldReceive('getUserClass')->andReturn($userClass);
-
-        /* @phpstan-ignore-next-line method.notFound */
-        $mockXotData
-            /* @phpstan-ignore-next-line method.notFound */
-            ->shouldReceive('getUserResourceClassByType')
-            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
-            ->with('patient')
-            /* @phpstan-ignore-next-line method.nonObject */
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-
-        /* @phpstan-ignore-next-line method.notFound */
-        $mockXotData
-            /* @phpstan-ignore-next-line method.notFound */
-            ->shouldReceive('getUserResourceClassByType')
-            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
-            ->with('doctor')
-            /* @phpstan-ignore-next-line method.nonObject */
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-
-        /* @phpstan-ignore-next-line method.notFound */
-        $mockXotData
-            /* @phpstan-ignore-next-line method.notFound */
-            ->shouldReceive('getUserResourceClassByType')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
-            ->with(\Mockery::any())
-            /* @phpstan-ignore-next-line method.nonObject */
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-
-        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
-        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
-
-        
-        // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')
-            ->andReturn(User::class);
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('patient')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('doctor')  
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with(Mockery::any())
-            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
-            ->with(\Mockery::any())
-            /* @phpstan-ignore-next-line method.nonObject */
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-
-        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
-        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
-
-        
-        // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')
-            ->andReturn(User::class);
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('patient')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('doctor')  
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with(Mockery::any())
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-
-        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
-
-        
-        // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')
-            ->andReturn(User::class);
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('patient')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('doctor')  
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with(Mockery::any())
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-            
-        $mockXotData->shouldReceive('make')
-            ->andReturn($mockXotData);
-        
-            ->with(Mockery::any())
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-
-        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> 414a4ffcb (.)
-            ->with(Mockery::any())
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-
-        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        
-        // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')
-            ->andReturn(User::class);
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('patient')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('doctor')  
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with(Mockery::any())
-=======
-            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
-            ->with(\Mockery::any())
-            /* @phpstan-ignore-next-line method.nonObject */
->>>>>>> b7afadf9 (.)
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-            
-        $mockXotData->shouldReceive('make')
-            ->andReturn($mockXotData);
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-        // ✅ CRITICO: Bind nel container per risoluzione automatica
-        app()->instance(XotData::class, $mockXotData);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-
-=======
-=======
-=======
-        
-=======
-
->>>>>>> b93ef594b4 (.)
->>>>>>> ce6fc085 (.)
         // Mock dei metodi critici con fallback sicuri
         $mockXotData->shouldReceive('getUserClass')->andReturn(User::class);
 
@@ -820,141 +89,22 @@ abstract class TestCase extends BaseTestCase
             ->shouldReceive('getUserResourceClassByType')
             ->with(Mockery::any())
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
-        
-        // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')
-            ->andReturn(\Modules\SaluteOra\Models\User::class);
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('patient')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('doctor')  
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with(\Mockery::any())
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
->>>>>>> origin/develop
->>>>>>> ce6fc085 (.)
-            
-        $mockXotData->shouldReceive('make')
-            ->andReturn($mockXotData);
-        
-<<<<<<< HEAD
-
-        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
-        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        
-        // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')
-            ->andReturn(User::class);
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('patient')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('doctor')  
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-=======
->>>>>>> 551c768c4 (.)
-            ->with(Mockery::any())
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-            
-        $mockXotData->shouldReceive('make')
-            ->andReturn($mockXotData);
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-        // ✅ CRITICO: Bind nel container per risoluzione automatica
-        app()->instance(XotData::class, $mockXotData);
-        // ✅ CRITICO: Bind nel container per risoluzione automatica
-        app()->instance(\Modules\Xot\Datas\XotData::class, $mockXotData);
-=======
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
 
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
->>>>>>> b93ef594b4 (.)
         // ✅ CRITICO: Bind nel container per risoluzione automatica
         app()->instance(XotData::class, $mockXotData);
-=======
-        // ✅ CRITICO: Bind nel container per risoluzione automatica
-        app()->instance(\Modules\Xot\Datas\XotData::class, $mockXotData);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
->>>>>>> 414a4ffcb (.)
     }
 
     /**
      * Create test user with specific type for multi-type testing.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param string $type
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-     * @param string $type
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-     * @param string $type
-     * @param array<string, mixed> $attributes
-     * @return UserContract
      * @param  array<string, mixed>  $attributes
-     * @param string $type
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-     * @param  array<string, mixed>  $attributes
-     * @param string $type
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-     * @param  array<string, mixed>  $attributes
-     * @param string $type
-     * @param array<string, mixed> $attributes
-     * @return UserContract
-=======
-     * @param  array<string, mixed>  $attributes
->>>>>>> 551c768c4 (.)
-=======
-     * @param  array<string, mixed>  $attributes
->>>>>>> 414a4ffcb (.)
      */
     protected static function createTestUserWithType(string $type, array $attributes = []): UserContract
     {
         $attributes['type'] = $type;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 551c768c4 (.)
-=======
-
->>>>>>> 414a4ffcb (.)
         return static::createTestUser($attributes);
     }
 
@@ -962,17 +112,6 @@ abstract class TestCase extends BaseTestCase
      * Generate test data array with common fields.
      *
      * @param  array<string, mixed>  $overrides
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param array<string, mixed> $overrides
-     * @param  array<string, mixed>  $overrides
-     * @param array<string, mixed> $overrides
-     * @param  array<string, mixed>  $overrides
-     * @param array<string, mixed> $overrides
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
      * @return array<string, mixed>
      */
     protected static function generateTestData(array $overrides = []): array
@@ -983,159 +122,17 @@ abstract class TestCase extends BaseTestCase
             'password' => 'password123',
             'password_confirmation' => 'password123',
         ];
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-=======
-=======
-        
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> 2f3197ab (.)
-=======
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> 218dfed3 (.)
-=======
->>>>>>> a67e542f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-        
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
-=======
-<<<<<<< HEAD
-
->>>>>>> 5cf46378 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 7468a7d2 (.)
-=======
-=======
-
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> 414a4ffcb (.)
         return array_merge($defaultData, $overrides);
     }
 
     /**
      * Assert that user is authenticated with correct type.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 551c768c4 (.)
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    protected function assertUserAuthenticated(?string $expectedType = null): void
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-    protected function assertUserAuthenticated(?string $expectedType = null): void
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> 7468a7d2 (.)
-     *
-     * @param string|null $expectedType
-     * @return void
-     */
-    protected function assertUserAuthenticated(null|string $expectedType = null): void
-=======
->>>>>>> 551c768c4 (.)
-    {
-        $this->assertAuthenticated();
-
-<<<<<<< HEAD
-=======
-     */
->>>>>>> 414a4ffcb (.)
     protected function assertUserAuthenticated(?string $expectedType = null): void
     {
         $this->assertAuthenticated();
 
-=======
->>>>>>> 5cf46378 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-    protected function assertUserAuthenticated(null|string $expectedType = null): void
-=======
-=======
->>>>>>> 300ef70 (.)
-    protected function assertUserAuthenticated(null|string $expectedType = null): void
->>>>>>> a6ef6dc7 (.)
->>>>>>> 5cf46378 (.)
-    {
-        $this->assertAuthenticated();
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-=======
-    protected function assertUserAuthenticated(?string $expectedType = null): void
-    {
-        $this->assertAuthenticated();
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
         if ($expectedType !== null) {
             /** @var UserContract|null $user */
             $user = auth()->user();
@@ -1143,79 +140,6 @@ abstract class TestCase extends BaseTestCase
 
             if ($user && method_exists($user, 'type')) {
                 self::assertSame($expectedType, $user->type ?? null);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $this->assertNotNull($user);
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            
-=======
-=======
-            
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> 2f3197ab (.)
-=======
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> 218dfed3 (.)
-=======
->>>>>>> a67e542f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-            
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
-=======
-<<<<<<< HEAD
-
->>>>>>> 5cf46378 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 7468a7d2 (.)
-=======
-=======
-
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
-            if ($user && method_exists($user, 'type')) {
-                $this->assertEquals($expectedType, $user->type ?? null);
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
             }
         }
     }

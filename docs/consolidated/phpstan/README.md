@@ -174,18 +174,7 @@ When contributing to PHPStan documentation:
 
 - **2025-01-22**: Initial comprehensive documentation
 - **2025-01-15**: Module-specific analysis began
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **2025-01-10**: PHPStan level 9 configuration implemented
-- **2025-01-10**: PHPStan level 9 configuration implemented
-- **2025-01-10**: PHPStan level 9 configuration implemented
-- **2025-01-10**: PHPStan level 9 configuration implemented
-=======
 - **2025-01-10**: PHPStan level 10 configuration implemented
->>>>>>> 551c768c4 (.)
-=======
-- **2025-01-10**: PHPStan level 10 configuration implemented
->>>>>>> 414a4ffcb (.)
 
 ## Support
 

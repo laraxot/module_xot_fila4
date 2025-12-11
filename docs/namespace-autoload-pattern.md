@@ -82,27 +82,5 @@ namespace Modules\ModuleName\App\Console\Commands;
 
 ## Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/namespace_conventions.md)
-- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/module_structure.md)
-- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/namespace_conventions.md)
-- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/module_structure.md)
-- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/namespace_conventions.md)
-- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/module_structure.md)
-- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/namespace_conventions.md)
-- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/module_structure.md)
-- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/namespace_conventions.md)
-- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/module_structure.md)
-- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/namespace_conventions.md)
-- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/module_structure.md)
-- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/namespace_conventions.md)
-- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/module_structure.md)
-=======
 - [Convenzioni di Namespace](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/namespace_conventions.md)
 - [Struttura Moduli](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/module_structure.md)
->>>>>>> 551c768c4 (.)
-=======
-- [Convenzioni di Namespace](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/namespace_conventions.md)
-- [Struttura Moduli](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/module_structure.md)
->>>>>>> 414a4ffcb (.)

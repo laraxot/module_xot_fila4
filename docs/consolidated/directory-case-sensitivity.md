@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> 2bad128c (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
-<<<<<<< HEAD
->>>>>>> 358ba79a7 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-<<<<<<< HEAD
->>>>>>> f8f76a284 (.)
-=======
-=======
->>>>>>> 90d386aa (.)
->>>>>>> 5e6e0d054 (.)
-=======
->>>>>>> 551c768c4 (.)
 # Case Sensitivity e Struttura Corretta delle Directory nei Moduli Laravel
 
 ## Problemi Identificati
@@ -108,24 +80,7 @@ L'utilizzo di strutture di directory errate può causare:
 Per verificare la corretta struttura delle directory nei moduli:
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-=======
->>>>>>> 1a525d0ea (.)
-=======
-
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # Verifica case sensitivity errata
 find /var/www/html/base_<nome progetto>/laravel/Modules -type d -name "Resources" -o -name "Config" -o -name "Views" -o -name "Lang" -o -name "Images"
 
@@ -138,24 +93,7 @@ find /var/www/html/base_<nome progetto>/laravel/Modules -type d -name "Filament"
 ### Per problemi di case sensitivity:
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-=======
->>>>>>> 1a525d0ea (.)
-=======
-
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # Rinomina la directory (su sistemi Linux/Unix)
 mv /var/www/html/base_<nome progetto>/laravel/Modules/User/Resources /var/www/html/base_<nome progetto>/laravel/Modules/User/resources_temp
 mv /var/www/html/base_<nome progetto>/laravel/Modules/User/resources_temp /var/www/html/base_<nome progetto>/laravel/Modules/User/resources
@@ -167,24 +105,7 @@ mv /var/www/html/base_<nome progetto>/laravel/Modules/User/config_temp /var/www/
 ### Per problemi di posizione del codice PHP:
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-=======
->>>>>>> 1a525d0ea (.)
-=======
-
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 # Crea la directory app se non esiste
 mkdir -p /var/www/html/base_<nome progetto>/laravel/Modules/User/app/Filament
 
@@ -217,72 +138,5 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 - [NAMESPACE-RULES.md](./NAMESPACE-RULES.md) - Regole per i namespace nei moduli
 - [FOLIO_VOLT_FILAMENT_INTEGRATION.md](./FOLIO_VOLT_FILAMENT_INTEGRATION.md) - Integrazione Folio, Volt e Filament
 - [filament/widgets/xot-base-widget.md](./filament/widgets/xot-base-widget.md) - Documentazione su XotBaseWidget
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 =======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-=======
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> 2bad128c (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-<<<<<<< HEAD
->>>>>>> 358ba79a7 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-<<<<<<< HEAD
->>>>>>> f8f76a284 (.)
-=======
-=======
->>>>>>> 90d386aa (.)
->>>>>>> 5e6e0d054 (.)
-=======
-=======
-=======
->>>>>>> 551c768c4 (.)
-=======
-=======
-=======
->>>>>>> 414a4ffcb (.)

@@ -126,19 +126,7 @@ trait HandlesFileUploadFields
     protected function getFileUploadFields(): array
     {
         $model = $this->getFormModel();
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return property_exists($model, 'attachments') ? $model::$attachments : [];
-        return property_exists($model, 'attachments') ? $model::$attachments : [];
-        return property_exists($model, 'attachments') ? $model::$attachments : [];
-        return property_exists($model, 'attachments') ? $model::$attachments : [];
-        return property_exists($model, 'attachments') ? $model::$attachments : [];
-=======
         return isset($model::$attachments) ? $model::$attachments : [];
->>>>>>> 551c768c4 (.)
-=======
-        return isset($model::$attachments) ? $model::$attachments : [];
->>>>>>> 414a4ffcb (.)
     }
 }
 ```

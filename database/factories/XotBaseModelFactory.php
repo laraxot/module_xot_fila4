@@ -9,69 +9,6 @@ use Modules\Xot\Models\XotBaseModel;
 
 /**
  * @extends Factory<XotBaseModel>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @extends Factory<XotBaseModel>
- * @extends Factory<XotBaseModel>
-=======
-=======
->>>>>>> 2bad128c (.)
-=======
->>>>>>> 358ba79a7 (.)
-=======
->>>>>>> f8f76a284 (.)
-=======
->>>>>>> 5e6e0d054 (.)
-=======
->>>>>>> 0117b849c (.)
-=======
-<<<<<<< HEAD
- * @extends Factory<XotBaseModel>
-=======
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Modules\Xot\Models\XotBaseModel>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
->>>>>>> 2bad128c (.)
-=======
->>>>>>> 59259b43 (.)
-=======
->>>>>>> 358ba79a7 (.)
-=======
->>>>>>> aba62c408 (.)
-=======
->>>>>>> f8f76a284 (.)
-=======
->>>>>>> 5cb992cc6 (.)
-=======
->>>>>>> 5e6e0d054 (.)
-=======
->>>>>>> 3c8d62b79 (.)
-=======
->>>>>>> 0117b849c (.)
-=======
->>>>>>> 60f0a1820 (.)
-=======
->>>>>>> 414a4ffcb (.)
  */
 class XotBaseModelFactory extends Factory
 {
@@ -79,69 +16,6 @@ class XotBaseModelFactory extends Factory
      * The name of the factory's corresponding model.
      *
      * @var class-string<XotBaseModel>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @var class-string<XotBaseModel>
-     * @var class-string<XotBaseModel>
-=======
-=======
->>>>>>> 2bad128c (.)
-=======
->>>>>>> 358ba79a7 (.)
-=======
->>>>>>> f8f76a284 (.)
-=======
->>>>>>> 5e6e0d054 (.)
-=======
->>>>>>> 0117b849c (.)
-=======
-<<<<<<< HEAD
-     * @var class-string<XotBaseModel>
-=======
-     * @var class-string<\Modules\Xot\Models\XotBaseModel>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
->>>>>>> 2bad128c (.)
-=======
->>>>>>> 59259b43 (.)
-=======
->>>>>>> 358ba79a7 (.)
-=======
->>>>>>> aba62c408 (.)
-=======
->>>>>>> f8f76a284 (.)
-=======
->>>>>>> 5cb992cc6 (.)
-=======
->>>>>>> 5e6e0d054 (.)
-=======
->>>>>>> 3c8d62b79 (.)
-=======
->>>>>>> 0117b849c (.)
-=======
->>>>>>> 60f0a1820 (.)
-=======
->>>>>>> 414a4ffcb (.)
      */
     protected $model = XotBaseModel::class;
 

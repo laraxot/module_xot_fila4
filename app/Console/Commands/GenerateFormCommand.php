@@ -12,21 +12,6 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Filament\GenerateFormByFileAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\Actions\Filament\GenerateFormByFileAction;
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Str;
-use Modules\Xot\Actions\Filament\GenerateFormByFileAction;
-use Modules\Xot\Actions\Filament\GenerateFormByFileAction;
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Str;
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 use Nwidart\Modules\Facades\Module;
 use Webmozart\Assert\Assert;
 
@@ -49,38 +34,6 @@ class GenerateFormCommand extends Command
     /**
      * Create a new command instance.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-     * @return void
-     */
-    
-    
-     */
-     *
-     * @return void
-     */
-    
-    
-    public function __construct()
-    {
-        parent::__construct();
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
     /**
      * Execute the console command.
@@ -96,36 +49,6 @@ class GenerateFormCommand extends Command
 
         $this->info($module_name);
         $this->info($module_path);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::string($module_name = $this->argument('module'), '[' . __LINE__ . '][' . class_basename($this) . ']');
-        $module_path = Module::getModulePath($module_name);
-        if (!Str::endsWith($module_path, '/')) {
-            $module_path .= '/';
-        }
-        $filament_resources_path = $module_path . 'Filament/Resources';
-
-        $this->info($module_name); // = Progressioni
-        $this->info($module_path); // = /var/www/html/ptvx/laravel/Modules/Progressioni/
-        $module_path = Module::getModulePath($module_name);
-        if (!Str::endsWith($module_path, '/')) {
-            $module_path .= '/';
-        }
-        $filament_resources_path = $module_path.'Filament/Resources';
-        $filament_resources_path = $module_path . 'Filament/Resources';
-        Assert::string($module_name = $this->argument('module'), '['.__LINE__.']['.class_basename($this).']');
-        $module_path = Module::getModulePath($module_name);
-        if (! Str::endsWith($module_path, '/')) {
-            $module_path .= '/';
-        }
-        $filament_resources_path = $module_path.'Filament/Resources';
-
-        $this->info($module_name); // = Progressioni
-        $this->info($module_path); // = /var/www/html/ptvx/laravel/Modules/Progressioni/
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
         $this->info($filament_resources_path);
 
         $files = File::files($filament_resources_path);

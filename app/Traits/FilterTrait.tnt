@@ -173,7 +173,6 @@ function ($item, $key) use ($lang) {
                 $value = $params[$key];
                 //self::indexIfNotExistsStatic($el, $tbl, $conn);
                 //dd(new self);
-<<<<<<< HEAD
                 //dd(new self);
                 //dd(new self);
                 //dd(new self);
@@ -182,8 +181,6 @@ function ($item, $key) use ($lang) {
                 //dd(new self);
                 //dd(new self);
                 //dd(new self);
-=======
->>>>>>> 551c768c4 (.)
                 (new self())->indexIfNotExists($el);
                 //$rows=$rows->where($el, $value);
                 $where[$el] = $value;
@@ -241,7 +238,6 @@ function ($item, $key) use ($lang) {
         //$dbSchemaManager = $conn->getDoctrineSchemaManager();
         //$doctrineTable = $dbSchemaManager->listTableDetails($tbl);
         //dd($doctrineTable);
-<<<<<<< HEAD
         //dd($doctrineTable);
         //dd($doctrineTable);
         //dd($doctrineTable);
@@ -250,19 +246,14 @@ function ($item, $key) use ($lang) {
         //dd($doctrineTable);
         //dd($doctrineTable);
         //dd($doctrineTable);
-=======
->>>>>>> 551c768c4 (.)
         //------------------------
         $schema = $conn->getSchemaBuilder();
         $fields = collect($schema->getColumnListing($tbl));
 
         $trad = \explode('\\', __CLASS__);
         $trad = \mb_strtolower($trad[1]);
-<<<<<<< HEAD
         $lang = trans($trad.'::'.$tbl);
         $lang = trans($trad.'::'.$tbl);
-=======
->>>>>>> 551c768c4 (.)
         //dd($params);
         //dd($trad.'::'.$tbl);
         $lang = trans($trad.'::'.$tbl);
@@ -273,7 +264,6 @@ function ($item, $key) use ($lang) {
         } //anche se non esiste
 
         $trans_file = $trad.'::link_'.$tbl;
-<<<<<<< HEAD
         $lang_link = trans($trans_file);
         //dd($trans_file);
         $lang_link = trans($trans_file);
@@ -303,26 +293,18 @@ function ($item, $key) use ($lang) {
         //dd($trans_file);
         $lang_link = trans($trans_file);
         //dd($lang_link);
-=======
-        //dd($trans_file);
-        $lang_link = trans($trans_file);
-        //dd($lang_link);
->>>>>>> 551c768c4 (.)
         if (\is_array($lang_link)) {
             $lang = $lang_link;
         }
 
         $lang = \array_flip($lang);
         //echo '<pre>';print_r($lang);echo '</pre>';
-<<<<<<< HEAD
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
-=======
->>>>>>> 551c768c4 (.)
         //dd(get_class());
 
         //echo '<pre>';print_r($lang);echo '</pre>';
@@ -338,7 +320,6 @@ function ($item, $key) use ($lang) {
         });
         $intersect = $fields->intersect($parz);
         //dd($intersect);
-<<<<<<< HEAD
         //dd($intersect);
         //dd($intersect);
         //dd($intersect);
@@ -347,8 +328,6 @@ function ($item, $key) use ($lang) {
         //dd($intersect);
         //dd($intersect);
         //dd($intersect);
-=======
->>>>>>> 551c768c4 (.)
         foreach ($intersect->all() as $el) {
             $key = trans($trad.'::'.$tbl.'.'.$el);
             $key_link = trans($trad.'::link_'.$tbl.'.'.$el);
@@ -364,7 +343,6 @@ function ($item, $key) use ($lang) {
                 $value = $params[$key];
                 //self::indexIfNotExistsStatic($el, $tbl, $conn);
                 //dd(new self);
-<<<<<<< HEAD
                 //dd(new self);
                 //dd(new self);
                 //dd(new self);
@@ -373,8 +351,6 @@ function ($item, $key) use ($lang) {
                 //dd(new self);
                 //dd(new self);
                 //dd(new self);
-=======
->>>>>>> 551c768c4 (.)
                 (new self())->indexIfNotExists($el);
                 $rows = $rows->where($el, $value);
             }
@@ -388,7 +364,6 @@ function ($item, $key) use ($lang) {
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
-<<<<<<< HEAD
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
@@ -413,8 +388,6 @@ function ($item, $key) use ($lang) {
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
         //dd(trans($trad.'::'.$tbl.'.single_date'));
-=======
->>>>>>> 551c768c4 (.)
 
         //echo '<pre>';print_r($params);echo '</pre>';
         if (isset($params['date_between'])) {

@@ -2,7 +2,7 @@
 
 > **Documentazione Modulo Xot** - Core framework per Laraxot  
 > **Versione**: 3.0  
-> **Ultimo aggiornamento**: 2024-12-10  
+> **Ultimo aggiornamento**: 2025-12-10  
 > **PHPStan Level**: 10 ✅ (0 errori)
 
 ---

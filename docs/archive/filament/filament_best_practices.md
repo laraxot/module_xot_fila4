@@ -65,19 +65,7 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
    }
    
    // ERRATO ❌
-<<<<<<< HEAD
-<<<<<<< HEAD
-   public static function form(Form $form): Form
-   public static function form(Form $form): Form
-   public static function form(Form $form): Form
-   public static function form(Form $form): Form
-   public static function form(Form $form): Form
-=======
    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
->>>>>>> 551c768c4 (.)
-=======
-   public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
->>>>>>> 414a4ffcb (.)
    {
        return $form->schema([...]);
    }

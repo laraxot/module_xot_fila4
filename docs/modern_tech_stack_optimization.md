@@ -848,12 +848,6 @@ class ContactDashboard extends Dashboard
         return [
             'overview' => [
                 'label' => 'Overview',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 414a4ffcb (.)
                 'url' => route('filament.quaeris.dashboard'),
                 'isActive' => request()->routeIs('filament.quaeris.dashboard'),
             ],
@@ -866,24 +860,6 @@ class ContactDashboard extends Dashboard
                 'label' => 'Reports',
                 'url' => route('filament.quaeris.reports'),
                 'isActive' => request()->routeIs('filament.quaeris.reports'),
-<<<<<<< HEAD
-=======
-                'url' => route('filament.<nome progetto>.dashboard'),
-                'isActive' => request()->routeIs('filament.<nome progetto>.dashboard'),
-            ],
-            'analytics' => [
-                'label' => 'Analytics',
-                'url' => route('filament.<nome progetto>.analytics'),
-                'isActive' => request()->routeIs('filament.<nome progetto>.analytics'),
-            ],
-            'reports' => [
-                'label' => 'Reports',
-                'url' => route('filament.<nome progetto>.reports'),
-                'isActive' => request()->routeIs('filament.<nome progetto>.reports'),
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
             ],
         ];
     }
@@ -975,18 +951,7 @@ class PerformanceMonitoringMiddleware
 - [ ] Type safety at 95%+
 
 ### Code Quality
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 - [ ] PHPStan Level 9+ compliance
-=======
-- [ ] PHPStan level 10+ compliance
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
-=======
-- [ ] PHPStan Level 9+ compliance
->>>>>>> 414a4ffcb (.)
 - [ ] Zero deprecated code usage
 - [ ] Modern patterns consistently applied
 - [ ] Documentation updated

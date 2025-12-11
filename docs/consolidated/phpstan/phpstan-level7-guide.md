@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> 2bad128c (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
-<<<<<<< HEAD
->>>>>>> 358ba79a7 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-<<<<<<< HEAD
->>>>>>> f8f76a284 (.)
-=======
-=======
->>>>>>> 90d386aa (.)
->>>>>>> 5e6e0d054 (.)
-=======
->>>>>>> 551c768c4 (.)
 # Guida alla Validazione con PHPStan Livello 7
 
 ## Introduzione
@@ -264,66 +236,7 @@ Questo errore si verifica quando si accede a una proprietà che non è dichiarat
 ## Conclusione
 
 Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualità e robustezza del software. Seguendo le best practices e risolvendo gli errori in modo sistematico, è possibile migliorare significativamente la manutenibilità e l'affidabilità del codice.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> 2bad128c (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
-<<<<<<< HEAD
->>>>>>> 358ba79a7 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-<<<<<<< HEAD
->>>>>>> f8f76a284 (.)
-=======
-=======
->>>>>>> 90d386aa (.)
->>>>>>> 5e6e0d054 (.)
-=======
-=======
->>>>>>> 551c768c4 (.)
-=======
-=======
->>>>>>> 414a4ffcb (.)
 
 ## Collegamenti tra versioni di PHPSTAN-LEVEL7-GUIDE.md
 * [PHPSTAN-LEVEL7-GUIDE.md](../../../Xot/project_docs/phpstan/PHPSTAN-LEVEL7-GUIDE.md)
@@ -333,69 +246,4 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit�
 ## Collegamenti tra versioni di phpstan-level7-guide.md
 * [phpstan-level7-guide.md](../phpstan-level7-guide.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-=======
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> 2bad128c (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-<<<<<<< HEAD
->>>>>>> 358ba79a7 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-<<<<<<< HEAD
->>>>>>> f8f76a284 (.)
-=======
-=======
->>>>>>> 90d386aa (.)
->>>>>>> 5e6e0d054 (.)
-=======
-=======
->>>>>>> 551c768c4 (.)
-=======
-=======
->>>>>>> 414a4ffcb (.)

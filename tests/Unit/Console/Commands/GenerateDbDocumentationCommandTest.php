@@ -5,116 +5,25 @@ declare(strict_types=1);
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
-<<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
 
 use function Safe\file_put_contents;
 use function Safe\json_encode;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
-use Modules\Xot\Tests\TestCase;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
-use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
->>>>>>>> a6ef6dc7 (.):tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.pest.php
-=======
->>>>>>> 7ee87c138 (.)
-=======
-========
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
-=======
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Artisan;
->>>>>>> f1d4085 (.)
-=======
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
->>>>>>> 73eab74 (.)
-use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
->>>>>>> d2b0a27 (.)
->>>>>>>> a6ef6dc7 (.):tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.pest.php
->>>>>>> 5cf46378 (.)
-=======
-=======
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
-use Modules\Xot\Tests\TestCase;
->>>>>>> 249a0067 (.)
-=======
->>>>>>> 28fc70fe (.)
->>>>>>> 851793957 (.)
-=======
->>>>>>> 551c768c4 (.)
-=======
->>>>>>> 414a4ffcb (.)
 
 uses(TestCase::class);
 
-<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
 /**
  * @property string $testSchemaPath
  * @property string $testOutputDir
  */
-=======
->>>>>>> eeaa032 (.):tests/Unit/Console/Commands/generatedbdocumentationcommandtest.pest.php
 beforeEach(function (): void {
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');
 
     // Create test directory if it doesn't exist
-<<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
     $schemaDir = dirname($this->testSchemaPath);
     if (! File::exists($schemaDir)) {
         File::makeDirectory($schemaDir, 0o755, true);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    if (!File::exists(dirname($this->testSchemaPath))) {
-        File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
->>>>>>>> a6ef6dc7 (.):tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.pest.php
-=======
->>>>>>> 7ee87c138 (.)
-=======
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
-=======
-========
-<<<<<<< HEAD
-    if (! File::exists(dirname($this->testSchemaPath))) {
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
-=======
-    if (!File::exists(dirname($this->testSchemaPath))) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
-=======
-        File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
->>>>>>> f1d4085 (.)
-=======
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
->>>>>>>> a6ef6dc7 (.):tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.pest.php
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-=======
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
->>>>>>> 551c768c4 (.)
-=======
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
->>>>>>> 414a4ffcb (.)
     }
 
     // Create a test schema file
@@ -181,32 +90,10 @@ test('it generates database documentation', function (): void {
     expect($exitCode)->toBe(0);
 
     // Check if output files were created
-<<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
     expect(File::exists($this->testOutputDir.'/database-documentation.md'))
-========
-<<<<<<< HEAD
-    expect(File::exists($this->testOutputDir.'/database-documentation.md'))
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-    expect(File::exists($this->testOutputDir . '/database-documentation.md'))
->>>>>>> d2b0a27 (.)
->>>>>>>> a6ef6dc7 (.):tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.pest.php
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir.'/tables/users.md'))
         ->toBeTrue();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
-        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
 });
 
 test('it handles missing schema file', function (): void {
@@ -250,18 +137,5 @@ test('it handles missing output directory', function (): void {
     ]);
 
     // Assert command was successful and created the output directory
-<<<<<<< HEAD
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
-=======
-    expect($exitCode)->toBe(0)
-        ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
->>>>>>> f1d4085 (.)
-=======
-    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
 });

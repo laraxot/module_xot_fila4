@@ -1,4 +1,3 @@
-=======
 # Documentazione
 
 Questo documento serve come indice centrale per tutta la documentazione del progetto.
@@ -36,4 +35,3 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Changelog](../../../Xot/docs/changelog/README.md)
 - [Contributing](../../../Xot/docs/contributing.md)
 - [Security](../../../Xot/docs/security.md) 
-=======

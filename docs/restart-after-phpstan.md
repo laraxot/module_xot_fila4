@@ -12,7 +12,7 @@ Prima di riavviare il sistema, è importante pulire tutte le cache per assicurar
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -41,7 +41,7 @@ sudo systemctl restart apache2
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 
->>>>>>> 6cba4fe (.)
+
 # oppure
 sudo systemctl restart nginx
 
@@ -53,7 +53,7 @@ sudo systemctl restart php8.1-fpm
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -68,7 +68,7 @@ php artisan queue:work --daemon
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -97,7 +97,7 @@ Se si verificano errori di autoloading dopo il riavvio:
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Rigenerare l'autoloader di Composer
 composer dump-autoload -o
 
@@ -112,7 +112,7 @@ Se si verificano errori di permessi dopo il riavvio:
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Correggere i permessi delle directory di storage e bootstrap/cache
 sudo chown -R www-data:www-data storage bootstrap/cache
 sudo chmod -R 775 storage bootstrap/cache
@@ -124,7 +124,7 @@ Se si verificano errori di configurazione dopo il riavvio:
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Rigenerare la cache delle configurazioni
 php artisan config:cache
 

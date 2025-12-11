@@ -1,4 +1,3 @@
-=======
 # Struttura dei percorsi nel progetto 
 
 > **Ambiente di riferimento**: `/var/www/_bases/base_ptvx_fila4_mono/`
@@ -118,6 +117,3 @@ find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -ex
 - [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
-=======
-=======
-=======

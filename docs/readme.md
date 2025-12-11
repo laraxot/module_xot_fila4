@@ -1,4 +1,3 @@
-=======
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -158,8 +157,6 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
-=======
-=======
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
@@ -172,11 +169,8 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
-=======
 ## Quick Links Legacy
-=======
 ## Quick Links Legacy
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
-=======

@@ -91,4 +91,3 @@ class NotificationResource extends XotBaseResource
 3. Utilizzare i file di traduzione per le label
 4. Evitare override non necessari di metodi
 5. Seguire le convenzioni di Filament 
-=======

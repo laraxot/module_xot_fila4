@@ -92,4 +92,3 @@ public function panel(Panel $panel): Panel
 - [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
 
 *Ultimo aggiornamento: 2025-01-06* 
-=======

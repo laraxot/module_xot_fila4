@@ -237,7 +237,4 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Impatto**: Sistema completamente non funzionale  
 **Tempo di risoluzione**: 15 minuti  
 **Pattern**: View Composer Loop Prevention 
-=======
 **Pattern**: View Composer Loop Prevention 
-=======
-=======

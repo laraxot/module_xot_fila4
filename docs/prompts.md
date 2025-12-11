@@ -180,4 +180,3 @@ Il prompt `docs.txt` serve come:
    ```markdown
    [Documento](./path/relativo) #tag-correlati
    ```
-=======

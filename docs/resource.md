@@ -616,4 +616,3 @@ public function getTableBulkActions(): array
 
 ---
 
-=======

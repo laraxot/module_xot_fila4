@@ -23,7 +23,4 @@
 - [docs Lang](../../Lang/docs/filament-label.md)
 
 Ultimo aggiornamento: maggio 2025.
-=======
-=======
 Ultimo aggiornamento: maggio 2025.
-=======

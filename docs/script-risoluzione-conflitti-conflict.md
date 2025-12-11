@@ -1,4 +1,4 @@
->>>>>>> 6dcebf8a (.)
+
 # Script di Risoluzione Conflitti Git - FixCity Project
 
 ## Panoramica
@@ -17,9 +17,9 @@ git status --porcelain | grep "^UU\|^AA\|^DD"
 git diff --name-only --diff-filter=U
 
 # Conta i conflitti per categoria
-grep -r "<<< HEAD" --include="*.php" . | wc -l
-grep -r "<<< HEAD" --include="*.md" . | wc -l
-grep -r "<<< HEAD" --include="*.svg" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.php" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.md" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.svg" . | wc -l
 ```
 
 ### 2. Categorizzazione per Priorità
@@ -123,226 +123,18 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
->>>>>>> 50d6b63f (.)
-# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
-# Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3fbbf1f5 (.)
-# Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3310e9c6 (.)
-# Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3310e9c6 (.)
-# Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> cafe8bed (.)
-# Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 5cd593a5 (.)
-
-## Panoramica
-
-Questo documento fornisce una guida sistematica per la risoluzione dei conflitti Git nel progetto FixCity, basata sull'esperienza acquisita durante la risoluzione di 161 file con conflitti.
-
-## Workflow Sistematico
-
-### 1. Identificazione Conflitti
-
-```bash
-# Trova tutti i file con conflitti Git
-git status --porcelain | grep "^UU\|^AA\|^DD"
-
-# Lista dettagliata dei conflitti
-git diff --name-only --diff-filter=U
-
-# Conta i conflitti per categoria
-grep -r "<<< HEAD" --include="*.php" . | wc -l
-grep -r "<<< HEAD" --include="*.md" . | wc -l
-grep -r "<<< HEAD" --include="*.svg" . | wc -l
-```
-
-### 2. Categorizzazione per Priorità
-
-**Priorità 1 - File Critici**
-- `composer.json`
-- File di configurazione (`config/`)
-- File `.env`
-- Service Provider
-
-**Priorità 2 - Logica Business**
-- Models
-- Services
-- Controllers
-- Migrations
-
-**Priorità 3 - Interfaccia**
-- Views Blade
-- Componenti Filament
-- Assets (CSS, JS)
-
-**Priorità 4 - Documentazione**
-- File `.md`
-- README
-- Changelog
-
-**Priorità 5 - Assets**
-- File SVG
-- Immagini
-- File statici
-
-### 3. Strategie di Risoluzione
-
-#### File PHP
-```php
-<?php
-
-declare(strict_types=1);
-
-// 1. Mantenere sempre declare(strict_types=1)
-// 2. Usare type hints espliciti
-// 3. Seguire PSR-12
-// 4. Aggiungere PHPDoc per metodi pubblici
-```
-
->>>>>>> 6dcebf8a (.)
->>>>>>> 6dcebf8a (.)
-# Script di Risoluzione Conflitti Git - FixCity Project
-
-## Panoramica
-
-Questo documento fornisce una guida sistematica per la risoluzione dei conflitti Git nel progetto FixCity, basata sull'esperienza acquisita durante la risoluzione di 161 file con conflitti.
-
-## Workflow Sistematico
-
-### 1. Identificazione Conflitti
-
-```bash
-# Trova tutti i file con conflitti Git
-git status --porcelain | grep "^UU\|^AA\|^DD"
-
-# Lista dettagliata dei conflitti
-git diff --name-only --diff-filter=U
-
-# Conta i conflitti per categoria
-grep -r "<<< HEAD" --include="*.php" . | wc -l
-grep -r "<<< HEAD" --include="*.md" . | wc -l
-grep -r "<<< HEAD" --include="*.svg" . | wc -l
-```
-
-### 2. Categorizzazione per Priorità
-
-**Priorità 1 - File Critici**
-- `composer.json`
-- File di configurazione (`config/`)
-- File `.env`
-- Service Provider
-
-**Priorità 2 - Logica Business**
-- Models
-- Services
-- Controllers
-- Migrations
-
-**Priorità 3 - Interfaccia**
-- Views Blade
-- Componenti Filament
-- Assets (CSS, JS)
-
-**Priorità 4 - Documentazione**
-- File `.md`
-- README
-- Changelog
-
-**Priorità 5 - Assets**
-- File SVG
-- Immagini
-- File statici
-
-### 3. Strategie di Risoluzione
-
-#### File PHP
-```php
-<?php
-
-declare(strict_types=1);
-
-// 1. Mantenere sempre declare(strict_types=1)
-// 2. Usare type hints espliciti
-// 3. Seguire PSR-12
-// 4. Aggiungere PHPDoc per metodi pubblici
-```
-
-#### File di Configurazione
-```php
-<?php
-
-declare(strict_types=1);
-
-return [
-    /*
-     * |--------------------------------------------------------------------------
-     * | Section Name
-     * |--------------------------------------------------------------------------
-     * |
-     * | Description
-     * |
-     */
-    'key' => 'value',
-];
-```
-
-#### File di Documentazione
-```markdown
-# Titolo Documento - FixCity Project
-
-## Sezione
-
-Contenuto aggiornato con riferimenti corretti al progetto.
-
-## Collegamenti
-- [Documento Correlato](./related-document.md)
-- [Architettura](../architecture.md)
-```
-
-#### File SVG
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" 
-     fill="none" 
-     viewBox="0 0 24 24" 
-     stroke="currentColor"
-     stroke-width="1.5"
-     aria-hidden="true" 
-     role="img"
-     aria-label="Description">
-    <!-- Contenuto SVG -->
-</svg>
-```
-
-## Comandi Utili
-
-### Verifica Sintassi PHP
-```bash
-# Verifica singolo file
-php -l path/to/file.php
-
-# Verifica tutti i file PHP modificati
-find . -name "*.php" -exec php -l {} \;
-```
 
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3fbbf1f5 (.)
+
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3310e9c6 (.)
+
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3310e9c6 (.)
+
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> cafe8bed (.)
+
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 5cd593a5 (.)
-# Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3310e9c6 (.)
-# Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> cafe8bed (.)
-# Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 5cd593a5 (.)
+
 
 ## Panoramica
 
@@ -360,9 +152,9 @@ git status --porcelain | grep "^UU\|^AA\|^DD"
 git diff --name-only --diff-filter=U
 
 # Conta i conflitti per categoria
-grep -r "<<< HEAD" --include="*.php" . | wc -l
-grep -r "<<< HEAD" --include="*.md" . | wc -l
-grep -r "<<< HEAD" --include="*.svg" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.php" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.md" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.svg" . | wc -l
 ```
 
 ### 2. Categorizzazione per Priorità
@@ -408,7 +200,74 @@ declare(strict_types=1);
 // 4. Aggiungere PHPDoc per metodi pubblici
 ```
 
->>>>>>> 50d6b63f (.)
+
+
+# Script di Risoluzione Conflitti Git - FixCity Project
+
+## Panoramica
+
+Questo documento fornisce una guida sistematica per la risoluzione dei conflitti Git nel progetto FixCity, basata sull'esperienza acquisita durante la risoluzione di 161 file con conflitti.
+
+## Workflow Sistematico
+
+### 1. Identificazione Conflitti
+
+```bash
+# Trova tutti i file con conflitti Git
+git status --porcelain | grep "^UU\|^AA\|^DD"
+
+# Lista dettagliata dei conflitti
+git diff --name-only --diff-filter=U
+
+# Conta i conflitti per categoria
+grep -r "&lt;&lt;&lt; HEAD" --include="*.php" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.md" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.svg" . | wc -l
+```
+
+### 2. Categorizzazione per Priorità
+
+**Priorità 1 - File Critici**
+- `composer.json`
+- File di configurazione (`config/`)
+- File `.env`
+- Service Provider
+
+**Priorità 2 - Logica Business**
+- Models
+- Services
+- Controllers
+- Migrations
+
+**Priorità 3 - Interfaccia**
+- Views Blade
+- Componenti Filament
+- Assets (CSS, JS)
+
+**Priorità 4 - Documentazione**
+- File `.md`
+- README
+- Changelog
+
+**Priorità 5 - Assets**
+- File SVG
+- Immagini
+- File statici
+
+### 3. Strategie di Risoluzione
+
+#### File PHP
+```php
+<?php
+
+declare(strict_types=1);
+
+// 1. Mantenere sempre declare(strict_types=1)
+// 2. Usare type hints espliciti
+// 3. Seguire PSR-12
+// 4. Aggiungere PHPDoc per metodi pubblici
+```
+
 #### File di Configurazione
 ```php
 <?php
@@ -467,10 +326,23 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
->>>>>>> 5a14301c (.)
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3fbbf1f5 (.)
+
+# Script di Risoluzione Conflitti Git - FixCity Project
+
+# Script di Risoluzione Conflitti Git - FixCity Project
+
+# Script di Risoluzione Conflitti Git - FixCity Project
+
+# Script di Risoluzione Conflitti Git - FixCity Project
+
+# Script di Risoluzione Conflitti Git - FixCity Project
+
+# Script di Risoluzione Conflitti Git - FixCity Project
+
+# Script di Risoluzione Conflitti Git - FixCity Project
+
 
 ## Panoramica
 
@@ -488,9 +360,9 @@ git status --porcelain | grep "^UU\|^AA\|^DD"
 git diff --name-only --diff-filter=U
 
 # Conta i conflitti per categoria
-grep -r "<<< HEAD" --include="*.php" . | wc -l
-grep -r "<<< HEAD" --include="*.md" . | wc -l
-grep -r "<<< HEAD" --include="*.svg" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.php" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.md" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.svg" . | wc -l
 ```
 
 ### 2. Categorizzazione per Priorità
@@ -535,6 +407,7 @@ declare(strict_types=1);
 // 3. Seguire PSR-12
 // 4. Aggiungere PHPDoc per metodi pubblici
 ```
+
 
 #### File di Configurazione
 ```php
@@ -594,10 +467,10 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
->>>>>>> 5a14301c (.)
+
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3fbbf1f5 (.)
+
 
 ## Panoramica
 
@@ -615,9 +488,9 @@ git status --porcelain | grep "^UU\|^AA\|^DD"
 git diff --name-only --diff-filter=U
 
 # Conta i conflitti per categoria
-grep -r "<<< HEAD" --include="*.php" . | wc -l
-grep -r "<<< HEAD" --include="*.md" . | wc -l
-grep -r "<<< HEAD" --include="*.svg" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.php" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.md" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.svg" . | wc -l
 ```
 
 ### 2. Categorizzazione per Priorità
@@ -721,10 +594,10 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
->>>>>>> 5a14301c (.)
+
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3fbbf1f5 (.)
+
 
 ## Panoramica
 
@@ -742,9 +615,9 @@ git status --porcelain | grep "^UU\|^AA\|^DD"
 git diff --name-only --diff-filter=U
 
 # Conta i conflitti per categoria
-grep -r "<<< HEAD" --include="*.php" . | wc -l
-grep -r "<<< HEAD" --include="*.md" . | wc -l
-grep -r "<<< HEAD" --include="*.svg" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.php" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.md" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.svg" . | wc -l
 ```
 
 ### 2. Categorizzazione per Priorità
@@ -848,10 +721,10 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
->>>>>>> 5a14301c (.)
+
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
->>>>>>> 3fbbf1f5 (.)
+
 
 ## Panoramica
 
@@ -869,9 +742,9 @@ git status --porcelain | grep "^UU\|^AA\|^DD"
 git diff --name-only --diff-filter=U
 
 # Conta i conflitti per categoria
-grep -r "<<< HEAD" --include="*.php" . | wc -l
-grep -r "<<< HEAD" --include="*.md" . | wc -l
-grep -r "<<< HEAD" --include="*.svg" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.php" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.md" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.svg" . | wc -l
 ```
 
 ### 2. Categorizzazione per Priorità
@@ -975,8 +848,135 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
->>>>>>> 5a14301c (.)
->>>>>>> 50d6b63f (.)
+
+# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+# Script di Risoluzione Conflitti Git - FixCity Project
+
+
+## Panoramica
+
+Questo documento fornisce una guida sistematica per la risoluzione dei conflitti Git nel progetto FixCity, basata sull'esperienza acquisita durante la risoluzione di 161 file con conflitti.
+
+## Workflow Sistematico
+
+### 1. Identificazione Conflitti
+
+```bash
+# Trova tutti i file con conflitti Git
+git status --porcelain | grep "^UU\|^AA\|^DD"
+
+# Lista dettagliata dei conflitti
+git diff --name-only --diff-filter=U
+
+# Conta i conflitti per categoria
+grep -r "&lt;&lt;&lt; HEAD" --include="*.php" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.md" . | wc -l
+grep -r "&lt;&lt;&lt; HEAD" --include="*.svg" . | wc -l
+```
+
+### 2. Categorizzazione per Priorità
+
+**Priorità 1 - File Critici**
+- `composer.json`
+- File di configurazione (`config/`)
+- File `.env`
+- Service Provider
+
+**Priorità 2 - Logica Business**
+- Models
+- Services
+- Controllers
+- Migrations
+
+**Priorità 3 - Interfaccia**
+- Views Blade
+- Componenti Filament
+- Assets (CSS, JS)
+
+**Priorità 4 - Documentazione**
+- File `.md`
+- README
+- Changelog
+
+**Priorità 5 - Assets**
+- File SVG
+- Immagini
+- File statici
+
+### 3. Strategie di Risoluzione
+
+#### File PHP
+```php
+<?php
+
+declare(strict_types=1);
+
+// 1. Mantenere sempre declare(strict_types=1)
+// 2. Usare type hints espliciti
+// 3. Seguire PSR-12
+// 4. Aggiungere PHPDoc per metodi pubblici
+```
+
+#### File di Configurazione
+```php
+<?php
+
+declare(strict_types=1);
+
+return [
+    /*
+     * |--------------------------------------------------------------------------
+     * | Section Name
+     * |--------------------------------------------------------------------------
+     * |
+     * | Description
+     * |
+     */
+    'key' => 'value',
+];
+```
+
+#### File di Documentazione
+```markdown
+# Titolo Documento - FixCity Project
+
+## Sezione
+
+Contenuto aggiornato con riferimenti corretti al progetto.
+
+## Collegamenti
+- [Documento Correlato](./related-document.md)
+- [Architettura](../architecture.md)
+```
+
+#### File SVG
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto SVG -->
+</svg>
+```
+
+## Comandi Utili
+
+### Verifica Sintassi PHP
+```bash
+# Verifica singolo file
+php -l path/to/file.php
+
+# Verifica tutti i file PHP modificati
+find . -name "*.php" -exec php -l {} \;
+```
+
+
+
 ## COME FUNZIONANO
 
 ### Logica di Risoluzione
@@ -985,12 +985,12 @@ Gli script risolvono i conflitti Git prendendo sempre la **"incoming change"** (
 
 
 
->>>>>>> 5a14301c (.)
->>>>>>> 5a14301c (.)
->>>>>>> 5a14301c (.)
->>>>>>> 50d6b63f (.)
->>>>>>> 5a14301c (.)
->>>>>>> 5a14301c (.)
+
+
+
+
+
+
 ```
 codice locale (viene RIMOSSO)
 codice incoming (viene MANTENUTO)
@@ -1002,14 +1002,14 @@ BEGIN { skip = 0 }
 /^>>>>>>> / { next }                  # Rimuove marker finale
 !skip { print }                       # Stampa solo se non sta saltando
 ```
->>>>>>> 50d6b63f (.)
->>>>>>> 5a14301c (.)
->>>>>>> 5a14301c (.)
->>>>>>> 5a14301c (.)
->>>>>>> 5a14301c (.)
->>>>>>> 5a14301c (.)
->>>>>>> 5a14301c (.)
->>>>>>> 50d6b63f (.)
+
+
+
+
+
+
+
+
 
 ## RISULTATI OTTENUTI
 
@@ -1047,14 +1047,14 @@ file.php → file.php.backup
 ### 🔄 **Ripristino**
 Per ripristinare un file:
 ### Verifica PHPStan
->>>>>>> 3fbbf1f5 (.)
+
 ```bash
 # Ripristina singolo file
 mv file.php.backup file.php
 
 # Ripristina tutti i file
 find . -name "*.backup" -exec sh -c 'mv "$1" "${1%.backup}"' _ {} \;
->>>>>>> 50d6b63f (.)
+
 ```
 
 #### File di Configurazione
@@ -1116,7 +1116,7 @@ find . -name "*.php" -exec php -l {} \;
 ```
 
 ### Verifica PHPStan
->>>>>>> 3310e9c6 (.)
+
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
@@ -1138,11 +1138,11 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ### ✅ **Controlli Eseguiti**
 1. **Nessun marker rimasto**
->>>>>>> 5a14301c (.)
+
 ### Verifica PHPStan
->>>>>>> 3fbbf1f5 (.)
+
 ### Verifica PHPStan
->>>>>>> 6dcebf8a (.)
+
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
@@ -1198,9 +1198,9 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 ### ❌ Automazione Cieca
 ```bash
 # Verifica conflitti rimanenti
->>>>>>> 5a14301c (.)
+
 ### Verifica PHPStan
->>>>>>> 3fbbf1f5 (.)
+
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
@@ -1256,9 +1256,9 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 ### ❌ Automazione Cieca
 ```bash
 # Verifica conflitti rimanenti
->>>>>>> 5a14301c (.)
+
 ### Verifica PHPStan
->>>>>>> 3fbbf1f5 (.)
+
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php

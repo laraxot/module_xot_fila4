@@ -1,4 +1,3 @@
-=======
 # Links
 
 ## Documentazione Generale
@@ -218,4 +217,3 @@
 * [links.md](../../Cms/docs/links.md)
 * [links.md](../../../Themes/One/docs/links.md)
 
-=======

@@ -163,4 +163,3 @@ Aggiungere a `.gitignore`:
 
 **Data ultima verifica**: Novembre 2025  
 **Status**: ✅ 0 duplicati rilevati su 3151 directory verificate
-=======

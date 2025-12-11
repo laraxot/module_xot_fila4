@@ -1,4 +1,3 @@
-=======
 # Struttura dei Moduli in il progetto
 
 ## Panoramica
@@ -326,7 +325,6 @@ Module/
 │   └── Providers/
 ├── config/
 ├── database/
-=======
 │   ├── migrations/
 │   └── seeders/
 ├── resources/           ✓ CORRETTO
@@ -425,7 +423,6 @@ Se trovi una directory con case errato:
 
 ## Collegamenti tra versioni di module_structure.md
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
-=======
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/
@@ -523,4 +520,3 @@ Route::middleware('api')->prefix('api')->group(function () {
 
 ---
 
-=======

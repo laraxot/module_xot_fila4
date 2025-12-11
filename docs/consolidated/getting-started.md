@@ -80,7 +80,6 @@ npm run dev
 # options: dev, prod
 npm run dev
 ```
-=======
 # options: dev, prod
 npm run dev
 ```
@@ -105,5 +104,3 @@ npm run dev
 
 ---
 
-=======
-=======

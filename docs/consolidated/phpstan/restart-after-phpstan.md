@@ -39,7 +39,6 @@ sudo systemctl restart apache2
 
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
-=======
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 
@@ -141,5 +140,3 @@ php artisan route:cache
 ## Conclusione
 
 Un riavvio corretto del sistema dopo la validazione PHPStan è essenziale per garantire che tutte le modifiche vengano applicate correttamente e che il sistema funzioni in modo ottimale. Seguendo questa procedura, è possibile minimizzare i rischi e garantire una transizione fluida.
-=======
-=======

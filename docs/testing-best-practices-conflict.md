@@ -1,24 +1,3 @@
->>>>>>> 50d6b63f (.)
->>>>>>> 5a14301c (.)
->>>>>>> d86d643a (.)
->>>>>>> 472bd9dc (.)
->>>>>>> 5a14301c (.)
->>>>>>> d86d643a (.)
->>>>>>> 5a14301c (.)
->>>>>>> d86d643a (.)
->>>>>>> 50d6b63f (.)
->>>>>>> 472bd9dc (.)
->>>>>>> 3bf39332 (.)
->>>>>>> cf971011 (.)
->>>>>>> e7da37af (.)
->>>>>>> 5a14301c (.)
->>>>>>> d86d643a (.)
->>>>>>> 472bd9dc (.)
->>>>>>> 3bf39332 (.)
->>>>>>> cf971011 (.)
->>>>>>> e7da37af (.)
->>>>>>> 5a14301c (.)
->>>>>>> 50d6b63f (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -64,49 +43,26 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
->>>>>>> 50d6b63f (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> 5a14301c (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> d86d643a (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> 5a14301c (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> d86d643a (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> 472bd9dc (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> 5a14301c (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> d86d643a (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> 5a14301c (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> d86d643a (.)
->>>>>>> 50d6b63f (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> 472bd9dc (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> 3bf39332 (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> cf971011 (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> e7da37af (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> 5a14301c (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> d86d643a (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> 472bd9dc (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> 3bf39332 (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> cf971011 (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> e7da37af (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> 5a14301c (.)
->>>>>>> 50d6b63f (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -281,61 +237,22 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
 **Last Update**: Dicembre 2024 
->>>>>>> 50d6b63f (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 43d67f21 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 5a14301c (.)
 **Last Update**: Dicembre 2024 
->>>>>>> d86d643a (.)
->>>>>>> 43d67f21 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 472bd9dc (.)
->>>>>>> b7ea1cd1 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 5a14301c (.)
 **Last Update**: Dicembre 2024 
->>>>>>> d86d643a (.)
->>>>>>> 43d67f21 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 5a14301c (.)
 **Last Update**: Dicembre 2024 
->>>>>>> d86d643a (.)
->>>>>>> 43d67f21 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 50d6b63f (.)
->>>>>>> 472bd9dc (.)
->>>>>>> b7ea1cd1 (.)
->>>>>>> cc7fb225 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 3bf39332 (.)
->>>>>>> 53d6a6ba (.)
->>>>>>> 71586de2 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> cf971011 (.)
->>>>>>> 76bec91a (.)
 **Last Update**: Dicembre 2024 
->>>>>>> e7da37af (.)
->>>>>>> 55fe1822 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 5a14301c (.)
 **Last Update**: Dicembre 2024 
->>>>>>> d86d643a (.)
->>>>>>> 43d67f21 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 472bd9dc (.)
->>>>>>> b7ea1cd1 (.)
->>>>>>> cc7fb225 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 3bf39332 (.)
->>>>>>> 53d6a6ba (.)
->>>>>>> 71586de2 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> cf971011 (.)
->>>>>>> 76bec91a (.)
 **Last Update**: Dicembre 2024 
->>>>>>> e7da37af (.)
->>>>>>> 55fe1822 (.)
 **Last Update**: Dicembre 2024 
->>>>>>> 5a14301c (.)
->>>>>>> 50d6b63f (.)

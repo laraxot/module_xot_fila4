@@ -1,4 +1,3 @@
-=======
 # Best Practices
 
 ## Laravel
@@ -45,8 +44,6 @@
 - Verificare la performance
 - Controllare la manutenibilità
 - Verificare la testabilità
-=======
-=======
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -768,4 +765,3 @@ public function createModel(array $data): MioModello
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
-=======

@@ -204,4 +204,4 @@ php artisan lang:check
 **Stato**: ✅ Completato
 ### 1. Controllo Conflitti
 ```bash
->>>>>>> 6cba4fe (.)
+

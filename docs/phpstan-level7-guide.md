@@ -12,7 +12,7 @@ Per validare tutti i moduli con PHPStan a livello 7:
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 vendor/bin/phpstan analyse Modules --configuration=phpstan.neon
@@ -24,7 +24,7 @@ Per validare un singolo modulo:
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 vendor/bin/phpstan analyse Modules/NomeModulo --configuration=phpstan.neon
@@ -36,7 +36,7 @@ Se ci sono troppi errori da risolvere immediatamente, è possibile generare un b
 
 ```bash
 
->>>>>>> 6cba4fe (.)
+
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 vendor/bin/phpstan analyse Modules/NomeModulo --configuration=phpstan.neon --generate-baseline

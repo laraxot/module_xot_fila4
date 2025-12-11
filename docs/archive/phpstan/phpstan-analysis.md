@@ -4,9 +4,9 @@
 
 
 
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 
 
 
@@ -17,36 +17,36 @@
 
 
 **NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 
 
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-
-
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 
 
-**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
-
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-
-
-
-**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 
 
 **NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
 
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+
+
+
+**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+
+
+**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
+
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 
 
 
@@ -117,23 +117,23 @@ Accesso a proprietà non definite nei modelli.
 
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
 
-### 3. **SaluteMo** (Applicazione) - 15% errori
+### 3. **<nome progetto>** (Applicazione) - 15% errori
 
-### 3. **SaluteMo** (Applicazione) - 15% errori
+### 3. **<nome progetto>** (Applicazione) - 15% errori
 
-### 3. **SaluteMo** (Applicazione) - 15% errori
+### 3. **<nome progetto>** (Applicazione) - 15% errori
 
-### 3. **SaluteMo** (Applicazione) - 15% errori
-
-
-
-
-### 3. **SaluteMo** (Applicazione) - 15% errori
+### 3. **<nome progetto>** (Applicazione) - 15% errori
 
 
 
 
-### 3. **SaluteMo** (Applicazione) - 15% errori
+### 3. **<nome progetto>** (Applicazione) - 15% errori
+
+
+
+
+### 3. **<nome progetto>** (Applicazione) - 15% errori
 
 
 
@@ -181,25 +181,25 @@ Accesso a proprietà non definite nei modelli.
 1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
 2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
 
-1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
-2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+1. `<nome progetto>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome progetto>/app/Models/*` - Proprietà e relazioni
 
-1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
-2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+1. `<nome progetto>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome progetto>/app/Models/*` - Proprietà e relazioni
 
-1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
-2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+1. `<nome progetto>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome progetto>/app/Models/*` - Proprietà e relazioni
 
-1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
-2. `SaluteMo/app/Models/*` - Proprietà e relazioni
-
-
+1. `<nome progetto>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome progetto>/app/Models/*` - Proprietà e relazioni
 
 
 
 
-1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
-2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+
+
+1. `<nome progetto>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome progetto>/app/Models/*` - Proprietà e relazioni
 
 
 
@@ -229,23 +229,23 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 
 ### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
 
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+### Fase 3: Applicazione (<nome progetto>, Geo, Cms)
 
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+### Fase 3: Applicazione (<nome progetto>, Geo, Cms)
 
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+### Fase 3: Applicazione (<nome progetto>, Geo, Cms)
 
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
-
-
-
-
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+### Fase 3: Applicazione (<nome progetto>, Geo, Cms)
 
 
 
 
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+### Fase 3: Applicazione (<nome progetto>, Geo, Cms)
+
+
+
+
+### Fase 3: Applicazione (<nome progetto>, Geo, Cms)
 
 
 

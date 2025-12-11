@@ -43,26 +43,26 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);

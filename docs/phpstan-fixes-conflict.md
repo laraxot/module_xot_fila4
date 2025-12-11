@@ -32,7 +32,7 @@
 
 ### 4. <main module>/app/States/Appointment/ReportPending.php
 ### 4. <main module>/app/States/Appointment/ReportPending.php
-### 4. SaluteOra/app/States/Appointment/ReportPending.php
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 
 
 **Problema**: Linea 27 - Tipo di ritorno errato

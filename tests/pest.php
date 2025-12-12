@@ -5,87 +5,26 @@ declare(strict_types=1);
 use Modules\Xot\Tests\TestCase;
 
 /*
- * |--------------------------------------------------------------------------
- * | Test Case
- * |--------------------------------------------------------------------------
- * |
- * | Il TestCase di default per tutti i test del modulo Xot.
- * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
- * |
- */
 |--------------------------------------------------------------------------
 | Test Case
 |--------------------------------------------------------------------------
 |
-| Il TestCase di default per tutti i test del modulo Xot.
-| Estende il TestCase specifico del modulo che fornisce il setup necessario.
+| The default test case for all Xot module tests.
+| It extends the module-specific TestCase which provides the necessary setup.
 |
 */
- * |--------------------------------------------------------------------------
- * | Test Case
- * |--------------------------------------------------------------------------
- * |
- * | Il TestCase di default per tutti i test del modulo Xot.
- * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
- * |
- */
-|--------------------------------------------------------------------------
-| Test Case
-|--------------------------------------------------------------------------
-|
-| Il TestCase di default per tutti i test del modulo Xot.
-| Estende il TestCase specifico del modulo che fornisce il setup necessario.
-|
-*/
-
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 /*
- * |--------------------------------------------------------------------------
- * | Expectations
- * |--------------------------------------------------------------------------
- * |
- * | Qui puoi definire aspettative globali per il modulo Xot.
- * | Quando definisci here expectation globali, saranno disponibili
- * | in tutti i test del modulo.
- * |
- */
 |--------------------------------------------------------------------------
 | Expectations
 |--------------------------------------------------------------------------
 |
-| Qui puoi definire aspettative globali per il modulo Xot.
-| Quando definisci here expectation globali, saranno disponibili 
-| in tutti i test del modulo.
+| Here you can define global expectations for the Xot module.
+| When defined here, global expectations will be available in all module tests.
 |
 */
-
-uses(TestCase::class)->in('Feature', 'Unit');
-
-/*
- * |--------------------------------------------------------------------------
- * | Expectations
- * |--------------------------------------------------------------------------
- * |
- * | Qui puoi definire aspettative globali per il modulo Xot.
- * | Quando definisci here expectation globali, saranno disponibili
- * | in tutti i test del modulo.
- * |
- */
-|--------------------------------------------------------------------------
-| Expectations
-|--------------------------------------------------------------------------
-|
-| Qui puoi definire aspettative globali per il modulo Xot.
-| Quando definisci expectation globali, saranno disponibili
-| in tutti i test del modulo.
-|
-*/
-| Quando definisci here expectation globali, saranno disponibili 
-| in tutti i test del modulo.
-|
-*/
-
+// Example:
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -95,121 +34,11 @@ uses(TestCase::class)->in('Feature', 'Unit');
 | Functions
 |--------------------------------------------------------------------------
 |
-| Qui puoi definire funzioni helper globali per i test del modulo.
-| Queste funzioni saranno disponibili in tutti i test.
+| Here you can define global helper functions for the module tests.
+| These functions will be available in all tests.
 |
 */
-
-// function something() {
-//     // ...
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
- * |--------------------------------------------------------------------------
- * | Functions
- * |--------------------------------------------------------------------------
- * |
- * | Qui puoi definire funzioni helper globali per i test del modulo.
- * | Queste funzioni saranno disponibili in tutti i test.
- * |
- */
-
+// Example:
 // function something() {
 //     // ...
 // }
-// } 
-|--------------------------------------------------------------------------
-| Functions
-|--------------------------------------------------------------------------
-|
-| Qui puoi definire funzioni helper globali per i test del modulo.
-| Queste funzioni saranno disponibili in tutti i test.
-|
-*/
-
-// function something() {
-//     // ...
-// } 
-
-// function something() {
-//     // ...
-// }
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-
-// function something() {
-//     // ...
-// }
-|--------------------------------------------------------------------------
-| Functions
-|--------------------------------------------------------------------------
-|
-| Qui puoi definire funzioni helper globali per i test del modulo.
-| Queste funzioni saranno disponibili in tutti i test.
-|
-*/
-
-// function something() {
-//     // ...
-// } 
-// } 
-
-// function something() {
-//     // ...
-// }
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-// } 
-
-// function something() {
-//     // ...
-// }
-|--------------------------------------------------------------------------
-| Functions
-|--------------------------------------------------------------------------
-|
-| Qui puoi definire funzioni helper globali per i test del modulo.
-| Queste funzioni saranno disponibili in tutti i test.
-|
-*/
-
-// function something() {
-//     // ...
-// } 
-// } 

@@ -11,7 +11,7 @@ use Filament\Schemas\Schema;
 
 abstract class XotBaseDashboard extends FilamentDashboard
 {
-    protected static ?int $navigationSort = 1;
+
 
     public function getWidgets(): array
     {

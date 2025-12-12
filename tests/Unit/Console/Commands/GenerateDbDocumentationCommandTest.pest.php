@@ -2,44 +2,20 @@
 
 declare(strict_types=1);
 
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 use Modules\Xot\Tests\TestCase;
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
-use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 
 uses(TestCase::class);
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
-use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
-
-uses(TestCase::class);
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
-use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
-
-uses(TestCase::class);
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Artisan;
-use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
-
-uses(\Modules\Xot\Tests\TestCase::class);
 
 beforeEach(function () {
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');
 
     // Create test directory if it doesn't exist
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
-        File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
     if (!File::exists(dirname($this->testSchemaPath))) {
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
-        File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
     }
 
     // Create a test schema file
@@ -110,16 +86,6 @@ test('it generates database documentation', function () {
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir . '/tables/users.md'))
         ->toBeTrue();
-    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
-        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
-    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
-        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
-    expect(File::exists($this->testOutputDir . '/database-documentation.md'))
-        ->toBeTrue()
-        ->and(File::exists($this->testOutputDir . '/tables/users.md'))
-        ->toBeTrue();
-    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
-        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
 });
 
 test('it handles missing schema file', function () {
@@ -163,15 +129,6 @@ test('it handles missing output directory', function () {
     ]);
 
     // Assert command was successful and created the output directory
-    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
-    expect($exitCode)->toBe(0)
-        ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
-    expect($exitCode)->toBe(0)
-        ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
-    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
-    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
-    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
-    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
     expect($exitCode)->toBe(0)
         ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 });

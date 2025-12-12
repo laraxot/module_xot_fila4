@@ -124,7 +124,7 @@ $model->hasChildren();          // Check if has children
 
 ## Database Requirements
 
-### Required Columns
+### Required Columns (Adjacency List)
 ```sql
 -- Primary key (can be customized)
 id BIGINT PRIMARY KEY
@@ -137,13 +137,74 @@ depth INT NULL
 path VARCHAR(255) NULL
 ```
 
-### Indexes for Performance
+### Indexes for Performance (Adjacency List)
 ```sql
 -- Performance indexes
 INDEX idx_parent_id (parent_id);
 INDEX idx_depth (depth);
 INDEX idx_path (path);
 ```
+
+### Nota storica: migrazioni `kalnoy/laravel-nestedset`
+
+Storicamente il progetto ha utilizzato `kalnoy/laravel-nestedset` (`NodeTrait`) per gestire gli alberi.
+Nel modello Nested Set classico, le migrazioni seguono lo schema raccomandato nel README del pacchetto:
+
+```php
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+use Kalnoy\Nestedset\NestedSet;
+
+Schema::create('categories', function (Blueprint $table) {
+    $table->bigIncrements('id');
+
+    // Colonne nested set (_lft, _rgt, parent_id) + indici
+    NestedSet::columns($table);
+
+    $table->string('name');
+    $table->timestamps();
+});
+
+Schema::table('categories', function (Blueprint $table): void {
+    // Rimozione colonne nested set, se necessario in migrazioni future
+    NestedSet::dropColumns($table);
+});
+```
+
+In pratica:
+
+- `NestedSet::columns($table)` aggiunge le colonne standard `_lft`, `_rgt` e `parent_id`
+  insieme agli indici necessari per interrogare l'albero in modo efficiente.
+- Nel README ufficiale del pacchetto esiste anche la macro di schema `$table->nestedSet();`
+  che è solo uno **shortcut** per chiamare internamente `NestedSet::columns($table)`.
+
+#### Regole di utilizzo (legacy)
+
+1. **Mai** creare a mano le colonne `_lft`, `_rgt`, `parent_id`: usare sempre
+   `NestedSet::columns($table)` oppure `$table->nestedSet();`.
+2. In migrazioni di refactor o rollback, usare `NestedSet::dropColumns($table)` per rimuovere
+   in blocco la struttura Nested Set.
+3. Quando si incontra una migrazione con `$table->nestedSet();` in un modulo legacy (es. Cms),
+   va letta come equivalente al blocco mostrato sopra con `NestedSet::columns($table)`.
+4. Nelle **nuove** migrazioni Laraxot, la regola è di preferire `BaseTreeModel` (adjacency list)
+   e considerare l'uso di Nested Set solo per compatibilità storica.
+
+#### Differenza filosofica con BaseTreeModel
+
+- **Nested Set (kalnoy)**: ottimizzato per query di alberi molto grandi con letture veloci,
+  ma con migrazioni e update più complessi (serve gestire `_lft`/`_rgt`).
+- **BaseTreeModel (adjacency list tipizzata)**: usa `parent_id`/`depth`/`path` con trait
+  `TypedHasRecursiveRelationships`, privilegiando:
+  - type safety (PHPStan livello 10),
+  - semplicità nelle migrazioni (nessun `_lft`/`_rgt` da mantenere a mano),
+  - integrazione diretta con il pacchetto `staudenmeir/laravel-adjacency-list`.
+
+Per i nuovi modelli ad albero in Laraxot:
+
+- **Regola attuale**: estendere `BaseTreeModel` e usare il pattern adjacency list documentato qui.
+- **Regola storica/di compatibilità**: quando si incontra codice legacy basato su `NodeTrait`,
+  le migrazioni vanno lette alla luce dello schema Nested Set (_lft, _rgt, parent_id) mostrato sopra
+  e, se si fa refactoring, documentate le conversioni in questa pagina.
 
 ## Configuration Options
 

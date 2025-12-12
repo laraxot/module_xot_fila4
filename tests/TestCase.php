@@ -12,6 +12,19 @@ use Mockery;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 
+/**
+ * @property mixed $testDir
+ * @property \Modules\Activity\Models\BaseModel $baseModel
+ * @property \Modules\Employee\Models\Employee $employee
+ * @property \Carbon\Carbon $today
+ * @property mixed $activityData
+ * @property mixed $storedEventData
+ * @property mixed $snapshotData
+ * @property mixed $super_admin_user
+ * @property mixed $no_super_admin_user
+ * @property string $lang
+ * @property \Modules\Notify\Models\Notification $notification
+ */
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;

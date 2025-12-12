@@ -49,6 +49,27 @@ interface UserContract extends Authenticatable
      * public function avatar();
      */
     public function profile(): HasOne;
+    
+    /**
+     * Get the access token currently associated with the user.
+     *
+     * @return Token|TransientToken|null
+     */
+    public function token();
+    
+    /**
+     * Create a new personal access token for the user.
+     *
+     * @param string $name
+     * @param array $scopes
+     * @return PersonalAccessTokenResult
+     */
+    public function createToken($name, array $scopes = []);
+
+    /**
+     * Passport API tokens support.
+     */
+    // @phpstan-ignore-next-line interface should extend this contract
 
     /**
      * Determine if the model has (one of) the given role(s).
@@ -104,7 +125,7 @@ interface UserContract extends Authenticatable
     /**
      * Revoke the given role from the model.
      *
-     * @param  string|int|array|\Spatie\Permission\Contracts\Role|Collection|\BackedEnum  ...$role
+     * @param  string|int|array|UserRole|Collection|\BackedEnum  ...$role
      * @return $this
      */
     public function removeRole(...$role);

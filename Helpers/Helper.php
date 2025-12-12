@@ -1202,7 +1202,7 @@ if (! function_exists('trans_string')) {
      * - Returning null if the result is null
      *
      * @param string $key Translation key
-     * @param array<string, mixed> $replace Replacement values
+     * @param array<string, bool|float|int|string|null> $replace Replacement values
      * @param string|null $locale Specific locale to use
      * @return string|null The translated string or null
      *
@@ -1211,7 +1211,21 @@ if (! function_exists('trans_string')) {
      */
     function trans_string(string $key, array $replace = [], ?string $locale = null): ?string
     {
-        $result = __($key, $replace, $locale);
+        /** @var array<string, bool|float|int|string|null> $safeReplace */
+        $safeReplace = [];
+        foreach ($replace as $k => $v) {
+            if (! is_string($k)) {
+                continue;
+            }
+            if ($v === null || is_scalar($v)) {
+                /** @var bool|float|int|string|null $v */
+                $safeReplace[$k] = $v;
+            } else {
+                $safeReplace[$k] = (string) $v;
+            }
+        }
+
+        $result = __($key, $safeReplace, $locale);
 
         // If it's already a string, return it
         if (is_string($result)) {

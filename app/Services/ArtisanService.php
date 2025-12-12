@@ -159,7 +159,7 @@ class ArtisanService
             'urls' => $urls,
         ];
 
-        return view($view, $view_params);
+        return view((string) $view, $view_params);
     }
 
     public static function showRouteList(): string
@@ -194,7 +194,7 @@ class ArtisanService
             'lang' => app()->getLocale(),
         ];
 
-        $out = view($view, $view_params);
+        $out = view((string) $view, $view_params);
 
         Assert::isInstanceOf($out, \Illuminate\Contracts\View\View::class);
 

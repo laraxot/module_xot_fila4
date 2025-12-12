@@ -17,11 +17,11 @@ trait HasDynamicFillable
      *
      * Example: protected array $dynamicFillableEnums = [AddressItemEnum::class, ContactTypeEnum::class];
      *
-     * @return array<int, string>
+     * @return list<string>
      */
     public function getFillable(): array
     {
-        $fillable = parent::getFillable();
+        $fillable = array_values(parent::getFillable());
 
         $dynamicFillableEnums = $this->dynamicFillableEnums ?? null;
 

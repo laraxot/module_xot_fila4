@@ -16,7 +16,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string|null $updated_by
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
- *
  * @method static FeedFactory factory($count = null, $state = [])
  * @method static Builder<static>|Feed newModelQuery()
  * @method static Builder<static>|Feed newQuery()
@@ -26,7 +25,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|Feed whereId($value)
  * @method static Builder<static>|Feed whereUpdatedAt($value)
  * @method static Builder<static>|Feed whereUpdatedBy($value)
- *
+ * @property-read \Modules\TechPlanner\Models\Profile|null $creator
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\TechPlanner\Models\Profile|null $updater
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

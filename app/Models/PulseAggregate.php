@@ -17,7 +17,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $aggregate
  * @property string $value
  * @property int|null $count
- *
  * @method static PulseAggregateFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
@@ -31,7 +30,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate wherePeriod($value)
  * @method static Builder<static>|PulseAggregate whereType($value)
  * @method static Builder<static>|PulseAggregate whereValue($value)
- *
+ * @property-read \Modules\TechPlanner\Models\Profile|null $creator
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\TechPlanner\Models\Profile|null $updater
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

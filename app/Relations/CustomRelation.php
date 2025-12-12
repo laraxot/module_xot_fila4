@@ -96,9 +96,11 @@ class CustomRelation extends Relation
             throw new Exception('eagerMatcher is not callable');
         }
 
-        Assert::isArray($res = ($this->eagerMatcher)($models, $collection, $relation, $this));
+        $res = ($this->eagerMatcher)($models, $collection, $relation, $this);
+        Assert::isArray($res);
+        Assert::allIsInstanceOf($res, Model::class);
 
-        // @phpstan-ignore return.type
+        /** @var array<int, Model> $res */
         return $res;
     }
 
@@ -136,6 +138,10 @@ class CustomRelation extends Relation
             $models = $query->eagerLoadRelations($models);
         }
 
+        Assert::isArray($models);
+        Assert::allIsInstanceOf($models, Model::class);
+
+        /** @var array<int, Model> $models */
         return $this->related->newCollection($models);
     }
 

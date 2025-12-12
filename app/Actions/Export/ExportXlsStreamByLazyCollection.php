@@ -111,14 +111,14 @@ class ExportXlsStreamByLazyCollection
                 $key = $transKey.'.fields.'.$item;
                 $trans = trans($key);
                 if ($trans !== $key) {
-                    return $trans;
+                    return is_string($trans) ? $trans : $item;
                 }
 
                 Assert::string($item1 = Str::replace('.', '_', $item), '['.__LINE__.']['.self::class.']');
                 $key = $transKey.'.fields.'.$item1;
                 $trans = trans($key);
                 if ($trans !== $key) {
-                    return $trans;
+                    return is_string($trans) ? $trans : $item;
                 }
 
                 return $item;

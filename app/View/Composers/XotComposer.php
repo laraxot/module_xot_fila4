@@ -81,7 +81,7 @@ class XotComposer
             $profile = XotData::make()->getProfileModel();
             $view->with('profile', $profile);
             /** @var Authenticatable|null $user */
-            $user = auth()->user();
+            $user = Auth::user();
             $view->with('user', $user);
         }
     }

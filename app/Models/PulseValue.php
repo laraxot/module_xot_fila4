@@ -17,7 +17,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $value
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
- *
  * @method static PulseValueFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseValue newModelQuery()
  * @method static Builder<static>|PulseValue newQuery()
@@ -28,7 +27,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseValue whereTimestamp($value)
  * @method static Builder<static>|PulseValue whereType($value)
  * @method static Builder<static>|PulseValue whereValue($value)
- *
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

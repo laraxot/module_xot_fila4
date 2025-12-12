@@ -13,7 +13,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string $owner
  * @property int $expiration
- *
  * @method static CacheLockFactory factory($count = null, $state = [])
  * @method static Builder<static>|CacheLock newModelQuery()
  * @method static Builder<static>|CacheLock newQuery()
@@ -21,7 +20,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|CacheLock whereExpiration($value)
  * @method static Builder<static>|CacheLock whereKey($value)
  * @method static Builder<static>|CacheLock whereOwner($value)
- *
+ * @property-read \Modules\TechPlanner\Models\Profile|null $creator
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\TechPlanner\Models\Profile|null $updater
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

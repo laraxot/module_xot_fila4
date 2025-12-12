@@ -79,7 +79,7 @@ abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationsh
 ```php
 abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationshipsContract
 {
-    use TypedHasRecursiveRelationships;
+    use \Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
 }
 ```
 

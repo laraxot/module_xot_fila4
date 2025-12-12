@@ -118,6 +118,38 @@ function process(mixed $data): string {
 }
 ```
 
+### Integrazione con PHPStan (Type Narrowing)
+
+Per avere un narrowing dei tipi “perfetto” in analisi statica dopo le chiamate a `Assert::...`, è necessario installare l’estensione:
+
+```bash
+composer require --dev phpstan/phpstan-webmozart-assert
+```
+
+Se il progetto usa `phpstan/extension-installer` non serve configurazione aggiuntiva.
+Altrimenti, includere l’estensione nella config di PHPStan (es. `phpstan.neon`):
+
+```neon
+includes:
+  - vendor/phpstan/phpstan-webmozart-assert/extension.neon
+```
+
+**Motivazione:** senza l’estensione, PHPStan spesso non riesce a “capire” che dopo una assert il tipo è stato ristretto.
+
+### Regole d’uso (DRY + KISS)
+
+- **[Preferire assert mirate]** Usa `Assert::stringNotEmpty()` invece di `Assert::string()` + check manuale.
+- **[Usare i prefissi `nullOr*`]** Se il valore può essere `null`, usare `Assert::nullOrString()` (o equivalente) invece di gestire `if ($x !== null)` sparsi.
+- **[Usare i prefissi `all*`]** Per collezioni/list, usare `Assert::allString()` / `Assert::allIsInstanceOf()` per evitare loop manuali.
+- **[Messaggi coerenti]** Quando serve un messaggio custom, usare placeholder coerenti:
+  - `%s` = valore testato
+  - `%2$s`, `%3$s`, ... = parametri addizionali dell’assert
+
+### Anti-pattern
+
+- **[Assert in Blade]** Non usare `Assert` direttamente nelle view dei temi: la validazione va fatta nel widget/controller che prepara i dati.
+- **[Assert generiche]** Evitare `Assert::notNull($x)` “a caso” se poi serve un tipo più specifico (es. `Assert::stringNotEmpty($x)`).
+
 ### Le 7 Categorie di Assertions
 
 #### 1. **Type Assertions**

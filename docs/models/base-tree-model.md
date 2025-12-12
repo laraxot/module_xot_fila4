@@ -16,7 +16,7 @@ This class serves as the foundation for all models that need hierarchical relati
 ```php
 abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationshipsContract
 {
-    use TypedHasRecursiveRelationships;
+    use \Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
 }
 ```
 

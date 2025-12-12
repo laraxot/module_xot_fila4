@@ -72,7 +72,7 @@ use Modules\Xot\Models\Traits\TypedHasRecursiveRelationships;
 
 class LimeQuestion extends BaseModel implements HasRecursiveRelationshipsContract
 {
-    use TypedHasRecursiveRelationships;
+    use \Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
     
     public function getParentKeyName(): string
     {
@@ -362,7 +362,7 @@ use Modules\Xot\Models\Traits\TypedHasRecursiveRelationships;
 
 class MyModel extends BaseModel implements HasRecursiveRelationshipsContract
 {
-    use TypedHasRecursiveRelationships;  // Type safe
+    use \Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;  // Type safe
 }
 ```
 

@@ -205,6 +205,49 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 - ✅ Repository binding
 - ✅ Command registration
 
+### XotBaseSection - Filament Schemas Section Base
+
+```php
+<?php
+declare(strict_types=1);
+
+namespace Modules\Xot\Filament\Schemas\Components;
+
+use Filament\Schemas\Components\Section;
+
+/**
+ * Base class for custom Section components following Laraxot philosophy.
+ *
+ * In the Laraxot framework, all custom Section components MUST extend
+ * `XotBaseSection` instead of directly extending `Filament\Schemas\Components\Section`.
+ * This ensures consistency with the framework's architecture and allows us
+ * to centralize common behaviour.
+ */
+abstract class XotBaseSection extends Section
+{
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        // Common setup for all XotBaseSection components can be added here.
+        // IMPORTANT: do NOT call non-existent macros / methods on Section
+        // (e.g. disableLiveUpdates()) because they will trigger
+        // BadMethodCallException at runtime.
+    }
+}
+```
+
+**Regole pratiche:**
+
+- ✅ Tutte le Section custom dei moduli (es. `AddressSection`, `ContactSection`, `CompanySection`)
+  devono estendere `XotBaseSection`.
+- ✅ La logica comune va centralizzata in `XotBaseSection::setUp()` usando SOLO API Filament
+  documentate e metodi realmente esistenti.
+- ❌ Vietato introdurre chiamate a macro/metodi non garantiti (es. `disableLiveUpdates()`),
+  che causano `BadMethodCallException` in produzione.
+- ✅ Se serve disabilitare comportamenti live, usare i metodi previsti da Filament
+  sui singoli componenti di form (es. `->live(false)` dove supportato), non sulla Section.
+
 ## 🎯 Extension Patterns
 
 ### Extending XotBaseModel

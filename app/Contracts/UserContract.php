@@ -84,17 +84,7 @@ interface UserContract extends Authenticatable
      */
     public function canAccessSocialite(): bool;
 
-    /**
-     * Get the current access token being used by the user.
-     */
-    public function token(): Token|TransientToken|null;
-
-    /**
-     * Create a new personal access token for the user.
-     *
-     * @param  array<int, string>  $scopes
-     */
-    public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
+   
 
     /**
      * Get the user's roles.
@@ -112,9 +102,12 @@ interface UserContract extends Authenticatable
     public function tenants(): BelongsToMany;
 
     /**
-     * Remove a role from the user.
+     * Revoke the given role from the model.
+     *
+     * @param  string|int|array|\Spatie\Permission\Contracts\Role|Collection|\BackedEnum  ...$role
+     * @return $this
      */
-    public function removeRole(string|int|\Spatie\Permission\Contracts\Role $role): static;
+    public function removeRole(...$role);
 
     /**
      * Determine if the user owns the given team.

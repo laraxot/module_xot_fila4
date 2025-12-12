@@ -118,7 +118,11 @@ abstract class XotBasePage extends FilamentPage implements HasForms
             return $useFallback ? $key : $translationKey;
         }
 
-        return (string) $translation;
+        if (! is_string($translation)) {
+            return $useFallback ? $key : $translationKey;
+        }
+
+        return $translation;
     }
 
     /**

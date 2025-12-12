@@ -175,16 +175,15 @@ if (! function_exists('dddx')) {
         $dir_copy = implode(DIRECTORY_SEPARATOR, $dir_piece);
         $file = str_replace($dir_copy, $doc_root, $file);
 
+        $start = defined('LARAVEL_START') ? LARAVEL_START : microtime(true);
         if (! defined('LARAVEL_START')) {
-            define('LARAVEL_START', microtime(true));
+            define('LARAVEL_START', $start);
         }
-
-        $start = LARAVEL_START;
         $data = [
             '_' => $params,
             'line' => $tmp[0]['line'] ?? 'line-unknows',
             'file' => app(FixPathAction::class)->execute($tmp[0]['file'] ?? 'file-unknown'),
-            'time' => microtime(true) - $start,
+            'time' => microtime(true) - (float) $start,
             'memory_taken' => round(memory_get_peak_usage() / (1024 * 1024), 2).' MB',
             // 'file_1' => $file, //da sistemare
         ];
@@ -653,7 +652,8 @@ if (! function_exists('xotModel')) {
 if (! function_exists('deltaTime')) {
     function deltaTime(): void
     {
-        echo '<h3>Time : '.(microtime(true) - LARAVEL_START).'</h3>';
+        $start = defined('LARAVEL_START') ? LARAVEL_START : microtime(true);
+        echo '<h3>Time : '.(microtime(true) - (float) $start).'</h3>';
     }
 }
 
@@ -926,7 +926,12 @@ if (! function_exists('is_active')) {
      */
     function is_active(array $routes): bool
     {
-        return (bool) call_user_func_array([app('router'), 'is'], $routes);
+        $router = app('router');
+        if (! is_object($router) || ! method_exists($router, 'is')) {
+            return false;
+        }
+        
+        return (bool) call_user_func_array([$router, 'is'], $routes);
     }
 }
 
@@ -1152,8 +1157,8 @@ if (! function_exists('authId')) {
                 $id = $filamentAuth->id();
             }
 
-            if ($id === null && auth()->check()) {
-                $id = auth()->id();
+            if ($id === null && auth()->guard()->check()) {
+                $id = auth()->guard()->id();
             }
 
             return $id === null ? null : (is_string($id) ? $id : ((string) $id));
@@ -1182,4 +1187,44 @@ function safe_object_call($object, string $method, mixed ...$args): mixed
     }
 
     return $object->$method(...$args);
+}
+
+if (! function_exists('trans_string')) {
+    /**
+     * Translation helper that guarantees string return type for PHPStan compliance.
+     *
+     * Laravel's __() function can return array|string|null which causes PHPStan errors
+     * when passing to methods that expect string|null (like label(), title(), etc.)
+     *
+     * This helper ensures a string return type by:
+     * - Returning the translation if it's a string
+     * - Returning the key itself if translation is array (missing translation case)
+     * - Returning null if the result is null
+     *
+     * @param string $key Translation key
+     * @param array<string, mixed> $replace Replacement values
+     * @param string|null $locale Specific locale to use
+     * @return string|null The translated string or null
+     *
+     * @example trans_string('notify::contact.label') -> "Contact" (string)
+     * @example trans_string('missing.key') -> "missing.key" (fallback to key)
+     */
+    function trans_string(string $key, array $replace = [], ?string $locale = null): ?string
+    {
+        $result = __($key, $replace, $locale);
+
+        // If it's already a string, return it
+        if (is_string($result)) {
+            return $result;
+        }
+
+        // If it's null, return null
+        if ($result === null) {
+            return null;
+        }
+
+        // If it's an array (translation not found), return the key as fallback
+        // This matches Laravel's behavior when translation doesn't exist
+        return $key;
+    }
 }

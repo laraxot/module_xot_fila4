@@ -13,7 +13,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string $value
  * @property int $expiration
- *
  * @method static CacheFactory factory($count = null, $state = [])
  * @method static Builder<static>|Cache newModelQuery()
  * @method static Builder<static>|Cache newQuery()
@@ -21,7 +20,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|Cache whereExpiration($value)
  * @method static Builder<static>|Cache whereKey($value)
  * @method static Builder<static>|Cache whereValue($value)
- *
+ * @property-read \Modules\TechPlanner\Models\Profile|null $creator
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\TechPlanner\Models\Profile|null $updater
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

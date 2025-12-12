@@ -7,7 +7,7 @@ namespace Modules\Xot\Actions\Filament;
 use Exception;
 use Throwable;
 use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Auth;
 use Filament\Facades\Filament;
 use Filament\Navigation\NavigationItem;
 use Illuminate\Support\Facades\Cache;
@@ -42,19 +42,11 @@ class GetModulesNavigationItems
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
-        $user = auth()->user();
+        $user = Auth::user();
 
         /** @var array<int, string> $userRoles */
         $userRoles = [];
-        if (null !== $user && method_exists($user, 'roles') && method_exists($user, 'pluck')) {
-            try {
-                /** @var Collection<int, string> $rolesCollection */
-                $rolesCollection = $user->roles()->pluck('name');
-                $userRoles = $rolesCollection->toArray();
-            } catch (Exception $e) {
-                $userRoles = [];
-            }
-        }
+        // Se serve re-introdurre un preload ruoli, farlo solo se il metodo è disponibile e tipizzato nel modello.
 
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
@@ -123,7 +115,7 @@ class GetModulesNavigationItems
                     /**
                      * @var Authenticatable|null $user
                      */
-                    $user = Filament::auth()->user();
+                    $user = Auth::user();
                     if (null === $user) {
                         return false;
                     }
@@ -133,7 +125,8 @@ class GetModulesNavigationItems
                         return false;
                     }
 
-                    return $user->hasRole($role);
+                    /** @phpstan-ignore-next-line */
+                    return (bool) $user->hasRole($role);
                 });
 
             $navs[] = $nav;

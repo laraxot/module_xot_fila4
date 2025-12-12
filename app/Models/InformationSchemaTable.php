@@ -13,6 +13,28 @@ use Modules\Tenant\Models\Traits\SushiToJson;
  * @property string $table_schema
  * @property string $table_name
  * @property string|null $model_class
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property string|null $created_by
+ * @property int $id
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property-read \Modules\TechPlanner\Models\Profile|null $creator
+ * @property-read \Modules\TechPlanner\Models\Profile|null $deleter
+ * @property-read \Modules\TechPlanner\Models\Profile|null $updater
+ * @method static \Modules\Xot\Database\Factories\InformationSchemaTableFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereModelClass($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableRows($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableSchema($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+ * @mixin \Eloquent
  */
 class InformationSchemaTable extends BaseModel
 {

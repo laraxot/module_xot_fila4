@@ -18,7 +18,7 @@ This contract ensures type safety and consistency across all tree-structured mod
 ```php
 abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationshipsContract
 {
-    use TypedHasRecursiveRelationships;
+    use \Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships;
 }
 ```
 

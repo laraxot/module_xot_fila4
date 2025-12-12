@@ -27,6 +27,7 @@ class SvgExistsAction
             return false;
         }
 
+        /** @var IconFactory $iconsFactory */
         $iconsFactory = App::make(IconFactory::class);
         try {
             $iconsFactory->svg($svgName);

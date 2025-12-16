@@ -8,14 +8,14 @@ use Illuminate\Contracts\Support\Htmlable;
 
 trait NavigationPageLabelTrait
 {
-    use TransTrait;
+
 
     public function getModelLabel(): string
     {
         return static::trans('navigation.name');
     }
 
-    public function getPluralModelLabel(): string
+    public static function getPluralModelLabel(): string
     {
         return static::trans('navigation.plural');
     }

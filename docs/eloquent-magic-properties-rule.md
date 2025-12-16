@@ -1,325 +1,144 @@
-# Eloquent Magic Properties - Regola Assoluta
+# Eloquent Magic Properties Rule - property_exists vs isset
 
-## 🔥 REGOLA FONDAMENTALE
+**Ultimo aggiornamento**: 2025-12-01  
+**Principio**: property_exists() NON funziona con magic attributes Eloquent
 
-**MAI usare `property_exists()` con modelli Eloquent**
+---
 
-**SEMPRE usare `isset()` per magic properties**
+## ⚠️ REGOLA CRITICA - Property Access su Modelli Eloquent
 
-## Perché property_exists() NON Funziona
+**`property_exists()` NON può essere usato con i modelli Eloquent perché gli attributi sono magici.**
 
-### Eloquent usa Magic Methods
+**REGOLA ASSOLUTA**: USA SEMPRE `isset()` per verificare proprietà dinamiche dei modelli.
+
+**❌ VIETATO**: Usare `property_exists()` con modelli Eloquent - NON funziona con magic attributes.
+
+---
+
+## ❌ ERRATO
 
 ```php
-// Modello Eloquent
-class User extends Model
-{
-    // Nessuna proprietà $name dichiarata!
+// ❌ SBAGLIATO - property_exists() NON funziona con magic attributes
+if (property_exists($model, 'attribute')) {
+    $value = $model->attribute;
 }
 
-$user = User::find(1);
-$user->name; // "Mario" - funziona tramite __get()
-
-property_exists($user, 'name'); // FALSE ❌
-isset($user->name);              // TRUE ✅
-```
-
-### Come Funziona Eloquent
-
-```php
-class Model
-{
-    protected array $attributes = [];
-    
-    // Magic method per accesso attributi
-    public function __get(string $key)
-    {
-        return $this->getAttribute($key);
-    }
-    
-    // Magic method per isset()
-    public function __isset(string $key): bool
-    {
-        return $this->offsetExists($key);
-    }
+// ❌ SBAGLIATO - property_exists() su mixed
+if (property_exists($data, 'key')) {
+    $value = $data->key;
 }
 ```
 
-**Gli attributi del database NON sono proprietà PHP**, sono array `$attributes` accessibili tramite magic methods.
-
-## ❌ SBAGLIATO
-
-```php
-// NON FUNZIONA con Eloquent
-if (property_exists($record, 'state')) {
-    $state = $record->state; // Mai eseguito!
-}
-
-// NON FUNZIONA con attributi DB
-if (property_exists($model, 'name')) {
-    $name = $model->name; // Mai eseguito!
-}
-
-// NON FUNZIONA con relazioni
-if (property_exists($user, 'posts')) {
-    $posts = $user->posts; // Mai eseguito!
-}
-```
+---
 
 ## ✅ CORRETTO
 
-### 1. isset() - Metodo Raccomandato
-
 ```php
-// Rispetta __isset() magic method
-if (isset($record->state)) {
-    $state = $record->state; // ✅ Funziona!
+// ✅ CORRETTO - usa isset() per magic attributes
+if (isset($model->attribute)) {
+    $value = $model->attribute;
 }
 
-// Per oggetti complessi
-if (isset($record->state) && is_object($record->state)) {
-    if (method_exists($record->state, 'transitionTo')) {
-        $record->state->transitionTo($newState);
+// ✅ CORRETTO - validazione multipla con type narrowing
+if (is_object($model) && isset($model->attribute)) {
+    $value = $model->attribute;
+}
+
+// ✅ CORRETTO - con Assert per type safety
+use Webmozart\Assert\Assert;
+
+if (is_object($model)) {
+    Assert::isObject($model);
+    if (isset($model->attribute)) {
+        $value = $model->attribute;
     }
 }
 ```
 
-### 2. hasAttribute() - Metodo Eloquent
+---
 
-```php
-// Metodo nativo Eloquent
-if ($model->hasAttribute('name')) {
-    $name = $model->name;
-}
+## Perché property_exists() Non Funziona
 
-// Per attributi specifici
-if ($user->hasAttribute('email')) {
-    $email = $user->email;
-}
-```
+Gli attributi Eloquent sono **magic attributes** gestiti tramite:
+- `__get()` - Accesso dinamico
+- `__set()` - Assegnazione dinamica
+- `getAttribute()` - Metodo interno
 
-### 3. getAttributes() - Check Diretto
+`property_exists()` controlla solo le proprietà **reali** della classe, non quelle gestite magicamente.
 
-```php
-// Accesso diretto all'array
-if (array_key_exists('state', $record->getAttributes())) {
-    $state = $record->state;
-}
-
-// Per iterazione
-foreach ($model->getAttributes() as $key => $value) {
-    // ...
-}
-```
-
-### 4. relationLoaded() - Per Relazioni
-
-```php
-// Check se relazione è caricata
-if ($user->relationLoaded('posts')) {
-    $posts = $user->posts;
-}
-
-// Con null check
-if ($user->relationLoaded('posts') && $user->posts !== null) {
-    foreach ($user->posts as $post) {
-        // ...
-    }
-}
-```
+---
 
 ## Pattern Completi
 
-### Attributo Semplice
+### Accesso Sicuro a Proprietà Dinamiche
 
 ```php
-// ✅ Pattern corretto
-if (isset($model->attribute)) {
-    $value = $model->attribute;
-} else {
-    $value = 'default';
-}
-```
-
-### Attributo Oggetto (es. State)
-
-```php
-// ✅ Pattern completo per state machine
-if (isset($record->state) 
-    && is_object($record->state) 
-    && method_exists($record->state, 'transitionTo')) {
-    $record->state->transitionTo($newState, $message);
-}
-```
-
-### Relazione
-
-```php
-// ✅ Pattern per relazioni
-if ($model->relationLoaded('relation') && $model->relation) {
-    $related = $model->relation;
-} else {
-    // Carica relazione se necessario
-    $model->load('relation');
-    $related = $model->relation;
-}
-```
-
-### Null-Safe Access
-
-```php
-// ✅ Null-safe con PHP 8
-$value = $model->attribute ?? 'default';
-$name = $user->profile?->name ?? 'N/A';
-```
-
-## PHPStan Level 10
-
-`isset()` è perfetto per PHPStan:
-
-```php
-/** @var Model $record */
-if (isset($record->state)) {
-    // PHPStan sa che $record->state esiste qui
-    $record->state->doSomething(); // ✅ Type-safe
-}
-
-// PHPStan con type narrowing
-if (isset($record->state) && $record->state instanceof StateClass) {
-    $record->state->specificMethod(); // ✅ Completamente type-safe
-}
-```
-
-## Quando Usare property_exists()
-
-**SOLO per classi PHP normali (NON Eloquent)**:
-
-```php
-// ✅ OK - Classe normale con proprietà dichiarate
-class RegularClass
+// ✅ CORRETTO - Pattern completo con type narrowing
+/**
+ * @param  mixed  $model
+ */
+private function getModelAttribute($model, string $attribute): mixed
 {
-    public string $name;
-    private int $age;
-}
+    if (! is_object($model)) {
+        return null;
+    }
 
-$obj = new RegularClass();
-if (property_exists($obj, 'name')) { // ✅ Corretto
-    echo $obj->name;
-}
+    // PHPStan L10: Type narrowing required for magic attributes
+    if (isset($model->{$attribute})) {
+        return $model->{$attribute};
+    }
 
-// ✅ OK - DTO/Value Object
-class UserData
-{
-    public function __construct(
-        public string $name,
-        public string $email
-    ) {}
-}
-
-$data = new UserData('Mario', 'mario@example.com');
-if (property_exists($data, 'email')) { // ✅ Corretto
-    echo $data->email;
+    return null;
 }
 ```
 
-## Errori Comuni
-
-### Errore 1: Copia da StackOverflow
+### Verifica Multipla Proprietà
 
 ```php
-// ❌ Codice trovato online - NON funziona con Eloquent
-if (property_exists($model, 'attribute')) {
-    // Mai eseguito!
+// ✅ CORRETTO - Verifica multipla proprietà
+if (isset($model->field_name, $model->surveyId)) {
+    $fieldName = (string) $model->field_name;
+    $surveyId = (string) $model->surveyId;
+    // ... usa le proprietà
 }
 ```
 
-**Fix**: 
-```php
-// ✅ Corretto
-if (isset($model->attribute)) {
-    // Funziona!
-}
-```
-
-### Errore 2: Confusione con Reflection
+### Con Cast Sicuro
 
 ```php
-// ❌ Reflection API non vede magic properties
-$reflection = new ReflectionClass($model);
-if ($reflection->hasProperty('name')) {
-    // FALSE per attributi Eloquent!
+// ✅ CORRETTO - Con cast sicuro
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+
+if (isset($model->title)) {
+    $title = SafeStringCastAction::cast($model->title);
+    // ... usa $title
 }
 ```
-
-**Fix**:
-```php
-// ✅ Usa metodi Eloquent
-if ($model->hasAttribute('name')) {
-    // Funziona!
-}
-```
-
-### Errore 3: isset() vs empty()
-
-```php
-// ⚠️ empty() considera 0, '', false come "empty"
-if (!empty($model->count)) {
-    // Non eseguito se count = 0!
-}
-
-// ✅ Usa isset() per check esistenza
-if (isset($model->count)) {
-    // Eseguito anche se count = 0
-    $count = $model->count;
-}
-```
-
-## Checklist Verifica
-
-Quando scrivi codice con Eloquent:
-
-- [ ] ✅ Uso `isset()` invece di `property_exists()`
-- [ ] ✅ Uso `hasAttribute()` per check espliciti
-- [ ] ✅ Uso `relationLoaded()` per relazioni
-- [ ] ✅ Type narrowing con `is_object()` e `method_exists()`
-- [ ] ✅ PHPStan Level 10 senza errori
-- [ ] ✅ Nessun `property_exists()` su Model
-
-## Quick Reference
-
-| Scenario | ❌ Sbagliato | ✅ Corretto |
-|----------|-------------|------------|
-| Attributo DB | `property_exists($model, 'name')` | `isset($model->name)` |
-| Relazione | `property_exists($user, 'posts')` | `$user->relationLoaded('posts')` |
-| State object | `property_exists($record, 'state')` | `isset($record->state)` |
-| Check attributo | `property_exists($model, 'attr')` | `$model->hasAttribute('attr')` |
-| Classe normale | - | `property_exists($obj, 'prop')` ✅ |
-
-## Risorse
-
-- [Laravel Eloquent Docs](https://laravel.com/docs/eloquent)
-- [PHP Magic Methods](https://www.php.net/manual/en/language.oop5.magic.php)
-- [PHPStan Rules](https://phpstan.org/user-guide/rule-levels)
-- `Modules/Xot/docs/eloquent-properties-best-practices.md`
-- `Modules/Xot/docs/property-exists-replacement-guide.md`
 
 ---
 
-## Summary
+## Verifica PHPStan
 
-**3 Regole d'Oro**:
+Dopo aver corretto, verifica con:
+```bash
+./vendor/bin/phpstan analyse --level=10 path/to/File.php
+```
 
-1. ❌ **MAI** `property_exists()` su Eloquent Model
-2. ✅ **SEMPRE** `isset()` per magic properties
-3. ✅ **SEMPRE** `hasAttribute()` / `relationLoaded()` per check espliciti
+**Errore tipico se usi property_exists():**
+```
+Call to function property_exists() with object and string will always evaluate to false for Eloquent models with magic attributes
+```
 
-**Mantra**:
-> "Gli attributi Eloquent sono magic, non PHP properties.
-> isset() rispetta __isset(), property_exists() no.
-> Always isset(). Never property_exists()."
+**Soluzione**: Sostituisci con `isset()`.
 
 ---
 
-**Ultimo aggiornamento**: 2025-01-06  
-**PHPStan Level**: 10  
-**Status**: ✅ 0 Errors
+## Riferimenti
+
+- [Eloquent Magic Attributes](https://laravel.com/docs/eloquent#accessors-and-mutators)
+- [PHP isset() Documentation](https://www.php.net/manual/en/function.isset.php)
+- [PHP property_exists() Limitations](https://www.php.net/manual/en/function.property-exists.php)
+
+---
+
+**Filosofia**: "Gli attributi Eloquent sono magia, isset() è la chiave" - portabilità, type safety, zero compromessi.

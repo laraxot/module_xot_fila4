@@ -127,15 +127,18 @@ Before committing any Filament-related code, verify:
 5. [ ] No final methods are being overridden
 6. [ ] Form schemas return proper Filament components, not empty arrays
 7. [ ] Translation keys use module prefix (module::key.path)
-8. [ ] **Array methods return `array<string, mixed>`** - Never use numeric keys for:
-   - `getTableColumns()` → `array<string, Column>`
-   - `getFormSchema()` → `array<string, Component>`
-   - `getTableActions()` → `array<string, Action>`
-   - `getTableBulkActions()` → `array<string, BulkAction>`
-   - `getTableFilters()` → `array<string, Filter>`
-   - `getHeaderActions()` → `array<string, Action>`
+8. [ ] **Array methods return `array<string, ...>`** - Chiavi SEMPRE stringhe, MAI numeriche o mixed:
+   - `getTableColumns()` → `array<string, Column>` ✅
+   - `getFormSchema()` → `array<string, Component>` ✅
+   - `getTableActions()` → `array<string, Action>` ✅
+   - `getTableBulkActions()` → `array<string, BulkAction>` ✅
+   - `getTableFilters()` → `array<string, Filter>` ✅
+   - `getHeaderActions()` → `array<string, Action>` ✅
+   - ❌ MAI `array<int, ...>` o `array<mixed, ...>`
 9. [ ] **Never use `property_exists()` with Eloquent models** - Use `isset()` for magic attributes
-10. [ ] **Avoid `mixed` types** - Use specific types or `array<string, mixed>` when necessary
+   - ❌ `property_exists($model, 'attribute')` - NON funziona con magic attributes
+   - ✅ `isset($model->attribute)` - Funziona con magic attributes Eloquent
+10. [ ] **Avoid `mixed` types** - Use specific types, `mixed` solo come ultima spiaggia
 
 ## 🔍 Common Pitfalls
 

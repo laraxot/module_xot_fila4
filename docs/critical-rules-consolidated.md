@@ -133,9 +133,16 @@ Request → Folio (routing) → Blade Page → Volt Component → Action → Ser
 
 ---
 
-### 6. Controlli Qualità Codice
+### 6. Controlli Qualità Codice OBBLIGATORI
 
-**REGOLA**: Ogni modifica a file PHP richiede controlli qualità.
+**REGOLA CRITICA**: Ogni modifica a un file PHP deve essere controllata con PHPStan livello 10, PHPMD e PHPInsights.
+
+**Workflow obbligatorio**:
+1. Modifica il file
+2. Esegui PHPStan livello 10 - Corregge TUTTI gli errori (NON procedere se ci sono errori)
+3. Esegui PHPMD - Risolve code smells (se disponibile)
+4. Esegui PHPInsights - Verifica qualità complessiva (se disponibile)
+5. Commit solo se tutti i controlli passano
 
 **Comandi**:
 ```bash
@@ -143,21 +150,95 @@ Request → Folio (routing) → Blade Page → Volt Component → Action → Ser
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
 
 # PHPMD (se disponibile)
-./vendor/bin/phpmd path/to/file.php text path/to/phpmd.ruleset.xml
+./vendor/bin/phpmd path/to/file.php text cleancode,codesize,design,naming
 
 # PHPInsights (se disponibile)
 ./vendor/bin/phpinsights analyse path/to/file.php
 ```
 
-**Workflow**:
-1. Modifica file
-2. Esegui PHPStan livello 10
-3. Corregge TUTTI gli errori
-4. Esegui PHPMD e PHPInsights
-5. Commit solo se tutti i controlli passano
+**Riferimenti**:
+- `Modules/Xot/docs/code-quality-mandatory-checks.md`
+
+---
+
+### 7. Filament Methods Return Types
+
+**REGOLA CRITICA**: I metodi Filament restituiscono sempre array con chiavi STRING (NON mixed, NON int).
+
+**Metodi interessati**:
+- `getTableColumns()` → `array<string, Column>` (chiavi string obbligatorie)
+- `getFormSchema()` → `array<string, Component>` (chiavi string obbligatorie)
+- `getTableBulkActions()` → `array<string, BulkAction>` (chiavi string obbligatorie)
+- `getTableActions()` → `array<string, Action>` (chiavi string obbligatorie)
+- `getTableFilters()` → `array<string, Filter>` (chiavi string obbligatorie)
+- `getHeaderActions()` → `array<string, Action>` (chiavi string obbligatorie)
+
+**REGOLA ASSOLUTA**: Le chiavi degli array DEVONO essere sempre string esplicite.
+
+**MIXED come tipo valore è consentito SOLO come ultima spiaggia e deve essere documentato con PHPDoc.**
+
+**❌ VIETATO**: Array con chiavi numeriche (`array<int, ...>`) o chiavi mixed (`array<mixed, ...>`).
+
+**❌ ERRATO**:
+```php
+// Array numerico (chiavi int)
+public function getTableActions(): array
+{
+    return [EditAction::make(), DeleteAction::make()];
+}
+```
+
+**✅ CORRETTO**:
+```php
+// Array associativo (chiavi string)
+/**
+ * @return array<string, Action>
+ */
+public function getTableActions(): array
+{
+    return [
+        'edit' => EditAction::make(),
+        'delete' => DeleteAction::make(),
+    ];
+}
+```
 
 **Riferimenti**:
-- Regole repository specifiche
+- `Modules/Xot/docs/filament-methods-return-types.md`
+
+---
+
+### 8. Eloquent Magic Properties
+
+**REGOLA CRITICA**: `property_exists()` NON può essere usato con i modelli Eloquent perché gli attributi sono magici.
+
+**USA SEMPRE `isset()` per verificare proprietà dinamiche dei modelli.**
+
+**Perché**: Gli attributi Eloquent sono magic attributes gestiti tramite `__get()`, `__set()`, `getAttribute()`. `property_exists()` controlla solo le proprietà reali della classe, non quelle gestite magicamente.
+
+**❌ ERRATO**:
+```php
+// property_exists() NON funziona con magic attributes
+if (property_exists($model, 'attribute')) {
+    $value = $model->attribute;
+}
+```
+
+**✅ CORRETTO**:
+```php
+// usa isset() per magic attributes
+if (isset($model->attribute)) {
+    $value = $model->attribute;
+}
+
+// Con type narrowing per PHPStan L10
+if (is_object($model) && isset($model->attribute)) {
+    $value = $model->attribute;
+}
+```
+
+**Riferimenti**:
+- `Modules/Xot/docs/eloquent-magic-properties-rule.md`
 
 ---
 
@@ -168,10 +249,15 @@ Request → Folio (routing) → Blade Page → Volt Component → Action → Ser
 - [x] Filosofia Migrazioni Laraxot (una tabella = una migrazione)
 - [x] Architettura Frontoffice (Folio + Volt)
 - [x] Documentazione Markdown (solo in docs esistenti)
-- [x] Controlli Qualità Codice (PHPStan livello 10)
+- [x] Controlli Qualità Codice OBBLIGATORI (PHPStan livello 10, PHPMD, PHPInsights)
+- [x] Filament Methods Return Types (array<string, mixed>)
+- [x] Eloquent Magic Properties (isset() invece di property_exists())
 
 ## Aggiornamenti Recenti
 
+- **2025-12-01**: Aggiunta regola Filament Methods Return Types
+- **2025-12-01**: Aggiunta regola Eloquent Magic Properties
+- **2025-12-01**: Consolidata regola Controlli Qualità Codice OBBLIGATORI
 - **2025-11-30**: Aggiunta regola Frontend Asset Management
 - **2025-11-30**: Aggiunta regola Componenti Blade Anonimi
 - **2025-11-30**: Consolidata Filosofia Migrazioni Laraxot

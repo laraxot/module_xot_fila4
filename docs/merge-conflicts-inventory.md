@@ -194,3 +194,9 @@ This document catalogs all files containing merge conflict markers found through
 
 ---
 *This inventory will be updated as conflicts are resolved.*
+
+## Worklog 2025-12-16
+
+- 🔒 `app/Helpers/Helper.php` e `docs/merge-conflicts-inventory.md` messi in lock per bonifica Super Mucca.
+- Analisi PHPStan interrotta per parse error sui marker `<<<<<<<` presenti in `Helper.php`.
+- Prossimo passo: ripulire i marker multipli e ripristinare gli import originali per permettere l’esecuzione di PHPStan/PHPMD/PHPInsights.

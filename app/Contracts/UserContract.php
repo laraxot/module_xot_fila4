@@ -4,10 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
-use Modules\User\Models\Team;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Laravel\Passport\PersonalAccessTokenResult;
@@ -15,6 +14,7 @@ use Laravel\Passport\Token;
 use Laravel\Passport\TransientToken;
 use Modules\User\Contracts\TeamContract;
 use Modules\User\Models\Role as UserRole;
+use Modules\User\Models\Team;
 use Modules\User\Models\Tenant;
 use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
@@ -22,16 +22,16 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 /**
  * Modules\Xot\Contracts\UserContract.
  *
- * @property string|null                                                 $id
- * @property string|null                                                 $email
- * @property string|null                                                 $first_name
- * @property string|null                                                 $last_name
- * @property string|null                                                 $full_name
- * @property string|null                                                 $name
- * @property string|null                                                 $phone
- * @property string|null                                                 $type
- * @property string|null                                                 $current_team_id
- * @property TeamContract|null                                           $currentTeam
+ * @property string|null $id
+ * @property string|null $email
+ * @property string|null $first_name
+ * @property string|null $last_name
+ * @property string|null $full_name
+ * @property string|null $name
+ * @property string|null $phone
+ * @property string|null $type
+ * @property string|null $current_team_id
+ * @property TeamContract|null $currentTeam
  * @property Collection<int, UserRole> $roles
  * @property Collection<int, Team> $teams
  * @property Collection<int, Tenant> $tenants
@@ -49,19 +49,18 @@ interface UserContract extends Authenticatable
      * public function avatar();
      */
     public function profile(): HasOne;
-    
+
     /**
      * Get the access token currently associated with the user.
      *
      * @return Token|TransientToken|null
      */
     public function token();
-    
+
     /**
      * Create a new personal access token for the user.
      *
-     * @param string $name
-     * @param array $scopes
+     * @param  string  $name
      * @return PersonalAccessTokenResult
      */
     public function createToken($name, array $scopes = []);
@@ -104,8 +103,6 @@ interface UserContract extends Authenticatable
      * Check if the user can access Socialite.
      */
     public function canAccessSocialite(): bool;
-
-   
 
     /**
      * Get the user's roles.

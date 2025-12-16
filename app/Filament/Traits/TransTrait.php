@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Traits;
 
-use Illuminate\Contracts\Translation\Translator;
 use Exception;
+use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
+use LogicException;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\GetTransKeyAction;
 use TypeError;
@@ -202,8 +205,7 @@ trait TransTrait
         return is_string($result) ? $result : $key;
     }
 
-
-     /**
+    /**
      * Ottiene la chiave di traduzione per un dato key.
      * Genera un percorso di traduzione standardizzato basato sul modulo e sul nome della classe.
      *
@@ -219,7 +221,8 @@ trait TransTrait
         ?string $locale = null,
         bool $useFallback = true,
     ): string {
-        $moduleNameLow = Str::lower(static::getModuleName());
+        $moduleName = static::getModuleName();
+        $moduleNameLow = Str::lower($moduleName);
         $p = Str::after(static::class, 'Filament\\Pages\\');
         $p_arr = explode('\\', $p);
         $slug = collect($p_arr)->map(Str::kebab(...))->implode('.');
@@ -257,5 +260,23 @@ trait TransTrait
         bool $useFallback = true,
     ): string {
         return static::getTranslatedString($key, $replace, $locale, $useFallback);
+    }
+
+    /**
+     * Ottiene il nome del modulo dalla classe.
+     * Estrae il nome del modulo dal namespace della classe.
+     *
+     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+     */
+    public static function getModuleName(): string
+    {
+        $namespace = static::class;
+        $moduleName = Str::between($namespace, 'Modules\\', '\\Filament');
+
+        if ($moduleName === '') {
+            throw new LogicException(sprintf('Cannot extract module name from class %s', static::class));
+        }
+
+        return $moduleName;
     }
 }

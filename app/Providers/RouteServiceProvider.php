@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
-use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Http\Middleware\SetDefaultTenantForUrlsMiddleware;
 
 // public function boot(\Illuminate\Routing\Router $router)

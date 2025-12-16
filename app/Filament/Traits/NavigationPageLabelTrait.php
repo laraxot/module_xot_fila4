@@ -8,7 +8,7 @@ use Illuminate\Contracts\Support\Htmlable;
 
 trait NavigationPageLabelTrait
 {
-    use TransTrait;
+
 
     public function getModelLabel(): string
     {

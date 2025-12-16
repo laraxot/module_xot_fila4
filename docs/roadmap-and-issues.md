@@ -3,10 +3,7 @@
 **Modulo**: Xot (Core Framework Base)  
 **Data Analisi**: 1 Ottobre 2025  
 **Maintainer**: Laraxot Core Team  
-<<<<<<< HEAD
 **Status PHPStan**: ⚠️ 9 errori (level 10)
-=======
->>>>>>> 38b70c7ba (.)
 
 ---
 
@@ -237,10 +234,7 @@ function xot_config(string $key): mixed
 - [ ] Rimuovere dead catch block (5 min)
 
 **Totale**: ~2 ore  
-<<<<<<< HEAD
 **Risultato**: ✅ 0 errori PHPStan level 10
-=======
->>>>>>> 38b70c7ba (.)
 
 ---
 
@@ -285,10 +279,7 @@ function xot_config(string $key): mixed
 ## 📋 CHECKLIST QUALITÀ
 
 ### Code Quality ✅
-<<<<<<< HEAD
 - [x] PHPStan level 10 (83% - domani 100%)
-=======
->>>>>>> 38b70c7ba (.)
 - [ ] PHPDoc 100% coverage
 - [ ] No dead code
 - [ ] No deprecated methods

@@ -205,7 +205,3 @@ public function getModels(): array
 **✨ Test Coverage**: 90% ✅
 
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 38b70c7ba (.)

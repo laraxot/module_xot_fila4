@@ -260,19 +260,8 @@ cd /var/www/_bases/base_fixcity_fila4_mono/laravel
 ## 🔗 Collegamenti
 
 - [Report Dettagliato](phpstan-fixes-report.md) - Tutte le correzioni implementate
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 38b70c7ba (.)
 - [PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - Achievement precedente
 - [PHPStan level 10 Achievement](phpstan-level9-achievement.md) - Achievement precedente
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 - [PHPStan Complete Guide](consolidated/phpstan-complete-guide.md) - Guida completa
 
 ---

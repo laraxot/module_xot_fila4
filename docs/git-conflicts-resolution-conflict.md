@@ -16,16 +16,6 @@
 ## Data: 2025-01-06
 
 ## Contesto
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 92bc33604 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
-Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
-=======
-<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
@@ -152,12 +142,6 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto <no
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 
 
->>>>>>> b018eb3b5 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 
 ## File Corretti
 
@@ -355,11 +339,6 @@ php artisan lang:check
 **Autore**: Sistema di correzione automatica
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 1. Controllo Conflitti
-```bash
-=======
 **Stato**: ✅ Completato
 
 **Stato**: ✅ Completato
@@ -411,21 +390,4 @@ php artisan lang:check
 
 **Stato**: ✅ Completato
 
->>>>>>> b018eb3b5 (.)
 
-=======
-<<<<<<< HEAD
-=======
-**Stato**: ✅ Completato
->>>>>>> 92bc33604 (.)
-=======
-**Stato**: ✅ Completato
-=======
-**Stato**: ✅ Completato
-=======
-### 1. Controllo Conflitti
-```bash
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)

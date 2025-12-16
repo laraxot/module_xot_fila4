@@ -365,10 +365,7 @@ fi
 
 ### 📈 **Metriche Chiave**
 
-<<<<<<< HEAD
 - **PHP Quality**: PHPStan level 10, PHPMD 0 violations
-=======
->>>>>>> 38b70c7ba (.)
 - **Frontend Quality**: ESLint 0 errors, HTMLHint 0 issues
 - **Security**: Gitleaks 0 secrets, OSV 0 vulnerabilities
 - **Documentation**: Markdownlint 0 issues

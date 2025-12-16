@@ -1,5 +1,8 @@
 # List Records in Filament
 
+> **AGGIORNAMENTO 2025-05-28:**
+> Questa policy è stata aggiornata e propagata anche in [<nome progetto>/docs/resources/studio-resource.md](../../<nome progetto>/docs/resources/studio-resource.md) e [<nome progetto>/docs/README.md](../../<nome progetto>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
+
 ## Estensione Corretta
 
 ```php
@@ -18,7 +21,7 @@ class ListMyRecords extends XotBaseListRecords
 {
     protected static string $resource = MyResource::class;
 
-    public function getListTableColumns(): array
+    public function getTableColumns(): array
     {
         return [
             // definizione colonne
@@ -31,7 +34,7 @@ class ListMyRecords extends XotBaseListRecords
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 
-1. `getListTableColumns()`: Definisce le colonne della tabella
+1. `getTableColumns()`: Definisce le colonne della tabella
 2. `getListTableActions()`: Definisce le azioni per singola riga
 3. `getListTableBulkActions()`: Definisce le azioni di massa
 4. `getListTableFilters()`: Definisce i filtri della tabella
@@ -40,7 +43,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 1. **Prefisso List**:
    - Tutti i metodi relativi alla tabella DEVONO avere il prefisso "List"
-   - Es: `getListTableColumns()` invece di `getTableColumns()`
+   - Es: `getTableColumns()` invece di `getListTableColumns()`
 
 2. **Visibilità dei Metodi**:
    - Tutti i metodi devono essere `public`
@@ -70,7 +73,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 3. **❌ Visibilità Errata**:
    ```php
    // NON cambiare la visibilità dei metodi
-   protected function getListTableColumns(): array
+   protected function getTableColumns(): array
    ```
 
 ## Best Practices
@@ -81,7 +84,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
    {
        protected static string $resource = MyResource::class;
 
-       public function getListTableColumns(): array
+       public function getTableColumns(): array
        {
            return [
                TextColumn::make('id')->sortable(),
@@ -125,102 +128,30 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 3. Mantenere la coerenza in tutto il progetto usando sempre XotBaseListRecords
 
+> **AVVISO IMPORTANTE (2025-05-13):**
+> Il metodo standard per la definizione delle colonne della tabella è ora `getTableColumns`. Il vecchio `getListTableColumns` è deprecato: aggiorna tutte le implementazioni e la documentazione. Questa scelta garantisce allineamento con Filament e coerenza tra tutti i moduli Laraxot.
+
+## Esempio di Refactoring
+
+**Prima:**
 ```php
-declare(strict_types=1);
-
-namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
-
-use Exception;
-use Filament\Actions;
-use Filament\Actions\CreateAction;
-use Filament\Resources\Pages\ListRecords;
-use Filament\Tables\Actions\Action;
-use Filament\Tables\Actions\ActionGroup;
-use Filament\Tables\Actions\DeleteAction;
-use Filament\Tables\Actions\DeleteBulkAction;
-use Filament\Tables\Actions\ViewAction;
-use Filament\Tables\Actions\EditAction;
-use Filament\Tables\Columns\ImageColumn;
-use Filament\Tables\Columns\Layout\Stack;
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Enums\ActionsPosition;
-use Filament\Tables\Enums\FiltersLayout;
-use Filament\Tables\Table;
-use Modules\UI\Enums\TableLayoutEnum;
-use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Webmozart\Assert\Assert;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-
-
-class ListXXX extends XotBaseListRecords
+public function getListTableColumns(): array
 {
-    
-    protected static string $resource = XXXResource::class;
-
-    
-
-    
-
-  
-
-    public function getGridTableColumns(): array
-    {
-        return [
-        ];
-    }
-
-    public function getListTableColumns(): array
-    {
-        return [
-        ];
-    }
-
-    public function getTableFilters(): array
-    {
-        return [
-        ];
-    }
-
-    public function getTableActions(): array
-    {
-        return [
-            
-            ViewAction::make()
-                ->label(''),
-            EditAction::make()
-                ->label(''),
-            DeleteAction::make()
-                ->label('')
-                ->requiresConfirmation(),
-        ];
-    }
-
-    public function getTableBulkActions(): array
-    {
-        return [
-            DeleteBulkAction::make(),
-        ];
-    }
-
-    public function table(Table $table): Table
-    {
-        return $table
-            // ->columns($this->getTableColumns())
-            ->columns($this->layoutView->getTableColumns())
-            ->contentGrid($this->layoutView->getTableContentGrid())
-            ->headerActions($this->getTableHeaderActions())
-
-            ->filters($this->getTableFilters())
-            ->filtersLayout(FiltersLayout::AboveContent)
-            ->persistFiltersInSession()
-            ->actions($this->getTableActions())
-            ->bulkActions($this->getTableBulkActions())
-            ->actionsPosition(ActionsPosition::BeforeColumns)
-            ->defaultSort(
-                column: 'created_at',
-                direction: 'DESC',
-            );
-    }
+    return [
+        // ...
+    ];
 }
 ```
+
+**Dopo:**
+```php
+public function getTableColumns(): array
+{
+    return [
+        // ...
+    ];
+}
+```
+
+## PROPAGAZIONE (2025-05-28):
+La pagina ListStudios del modulo <nome progetto> implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome progetto>/docs/resources/studio-resource.md](../../<nome progetto>/docs/resources/studio-resource.md).

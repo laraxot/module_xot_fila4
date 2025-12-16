@@ -12,73 +12,10 @@ use Filament\Pages\Concerns\InteractsWithFormActions;
 use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
-<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
-=======
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-<<<<<<< HEAD
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Closure;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Pages\Concerns\InteractsWithFormActions;
-use Filament\Resources\Pages\Page as FilamentPage;
-use Filament\Pages\Page as FilamentPage;
-use Filament\Pages\Page as FilamentPage;
-use Filament\Pages\Page as FilamentPage;
-use Filament\Resources\Pages\Page as FilamentPage;
-use Filament\Pages\Page as FilamentPage;
-use Filament\Pages\Page as FilamentPage;
-use Filament\Pages\Page as FilamentPage;
-use Filament\Pages\Page as FilamentPage;
-use Illuminate\Contracts\View\View;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Webmozart\Assert\Assert;
-
-
-use Filament\Schemas\Schema;
-use Closure;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Pages\Concerns\InteractsWithFormActions;
-use Filament\Pages\Page as FilamentPage;
-use Illuminate\Contracts\View\View;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Webmozart\Assert\Assert;
-=======
->>>>>>> 551c768c4 (.)
-
-use Closure;
-use Filament\Forms\Form;
-use Illuminate\Support\Str;
-use Webmozart\Assert\Assert;
-use Illuminate\Support\Collection;
-use Illuminate\Contracts\View\View;
-use Filament\Forms\ComponentContainer;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Forms\Components\Component;
-use Filament\Pages\Page as FilamentPage;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Pages\Concerns\InteractsWithFormActions;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
->>>>>>> 38b70c7ba (.)
 /**
  * Base class for all custom pages in the application.
  *
@@ -94,158 +31,19 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
- * @property ?array $data
- * @property Schema $form
- */
- * @property ?array $data
- * @property Schema $form
- */
- * @property Schema $form
- */
- * @property Schema $form
- */
- * @property ComponentContainer $form
-*/
-abstract class XotBasePage extends FilamentPage implements HasForms
-{
-    use InteractsWithForms;
-    use NavigationLabelTrait;
-    use TransTrait;
-    use InteractsWithFormActions;
-    use TransTrait;
-    use TransTrait;
-    use TransTrait;
-    use TransTrait;
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 
     /**
      * The model class associated with this page, if any.
      */
     public static ?string $model = null;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-    public static ?string $model = null;
-    public static null|string $model = null;
-    public static null|string $model = null;
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 
     /**
      * The form data.
      *
      * @var array<string, mixed>
      */
-<<<<<<< HEAD
     public ?array $data = [];
 
-=======
-    public ?array $data = [];
-<<<<<<< HEAD
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-=======
->>>>>>> 551c768c4 (.)
-
-    public ?array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-    public null|array $data = [];
-
-    public null|array $data = [];
-
-    public null|array $data = [];
-
-    public ?array $data = [];
-
-    
->>>>>>> 38b70c7ba (.)
     /**
      * Get the view that should be used for the page.
      */
@@ -253,17 +51,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     {
         if (isset($this->view)) {
             return $this->view;
-<<<<<<< HEAD
-=======
-        if (isset($this->view)) {
-            return $this->view;
-        if (isset($this->view)) {
-            return $this->view;
-        if (isset($this->view)) {
-            return $this->view;
-        if (isset(static::$view)) {
-            return static::$view;
->>>>>>> 38b70c7ba (.)
         }
 
         $view = Str::of(static::class)
@@ -276,13 +63,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
                     ->afterLast('\\')
                     ->kebab()
                     ->toString(),
-<<<<<<< HEAD
-=======
-            ->append(Str::of(static::class)
-                ->afterLast('\\')
-                ->kebab()
-                ->toString()
->>>>>>> 38b70c7ba (.)
             );
 
         return $view->toString();
@@ -321,27 +101,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
     /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    public function form(Schema $schema): Schema
-    {
-        return $schema->components($this->getFormSchema())->statePath('data');
-    public function form(Schema $schema): Schema
-    {
-        return $schema->components($this->getFormSchema())->statePath('data');
-        return $schema->components($this->getFormSchema())->statePath('data');
-    public function form(Form $form): Form
-    {
-        return $form
-            ->schema($this->getFormSchema())
-            ->statePath('data');
-    }
-
-    /**
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
      * Get the associated model class for this page.
      *
      * This method must be non-static to properly override the parent method.
@@ -379,99 +138,14 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Get the form schema for the page.
      *
      * @return array<string, Component>
-<<<<<<< HEAD
-=======
-     * Get the form schema for the page.
-     *
-     * @return array<string, Component>
-     * @return array<string, Component>
-     * @return array<string, Component>
-     * @return array<string, Component>
->>>>>>> 38b70c7ba (.)
      */
     protected function getFormSchema(): array
     {
         return [];
     }
 
-<<<<<<< HEAD
     /*
      * Hook chiamato all'inizializzazione del componente.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    /**
-     * Get the associated model class for this page.
-     * 
-     * This method must be non-static to properly override the parent method.
-     * Returns the model class string or throws an exception if not set.
-<<<<<<< HEAD
-     */
-=======
-     *
-     * @return class-string<\Illuminate\Database\Eloquent\Model>
-     */
-    /**
-     * @return class-string<Model>
-     */
->>>>>>> a6ef6dc7 (.)
-    public function getModel(): string
-    {
-        if (static::$model === null) {
-            throw new \LogicException('Model class not set for page: ' . static::class);
-        }
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-        
-    /**
-     * Get the associated model class for this page.
-     */
-    public static function getModel(): null|string
-    {
-        /** @phpstan-ignore property.staticAccess */
-
-<<<<<<< HEAD
-        
-    /**
-     * Get the associated model class for this page.
-     */
-    public static function getModel(): null|string
-    public static function getModel(): null|string
-    public static function getModel(): null|string
-    public static function getModel(): ?string
-    {
-        /** @phpstan-ignore property.staticAccess */
-
-=======
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
->>>>>>> 5cf46378 (.)
-        return static::$model;
-=======
-        /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
-        $model = static::$model;
-
-        return $model;
->>>>>>> a6ef6dc7 (.)
-    }
-
-   
-
-    /*
-     * Hook chiamato all'inizializzazione del componente.
-=======
->>>>>>> 551c768c4 (.)
-    /*
-     * Hook chiamato all'inizializzazione del componente.
->>>>>>> 38b70c7ba (.)
      *
      * public function mount(int|string $record): void
      * {
@@ -479,16 +153,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * $this->form->fill($this->data ?? []);
      * }
      */
-<<<<<<< HEAD
-=======
-     
-    public function mount(int|string $record): void
-    {
-        parent::mount($record);
-        $this->form->fill($this->data ?? []);
-    }
-    */
->>>>>>> 38b70c7ba (.)
     /**
      * Get the view data for the page.
      *

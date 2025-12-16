@@ -6,31 +6,6 @@ namespace Modules\Xot\Filament\Forms\Components;
 
 use Filament\Forms\Components\Field;
 use Illuminate\Contracts\Support\Htmlable;
-<<<<<<< HEAD
-=======
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Forms\Components\Field;
-=======
->>>>>>> 551c768c4 (.)
-namespace Modules\Xot\Filament\Forms\Components;
-
-use Filament\Forms\Components\Field;
-<<<<<<< HEAD
-namespace Modules\Xot\Filament\Forms\Components;
-
-use Filament\Forms\Components\Field;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Forms\Components\Field;
-namespace Modules\Xot\Filament\Forms\Components;
-
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Forms\Components\Field;
-=======
-use Illuminate\Contracts\Support\Htmlable;
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -48,21 +23,6 @@ abstract class XotBaseFormComponent extends Field
         $this->dehydrated(true)->required(false);
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
- * Base class for form components.
- *
- * @method static static make(string $name) Create a new instance of the component
- */
-abstract class XotBaseFormComponent extends Field
-{
-    /**
-     * Get the component name.
-     */
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
     public function getName(): string
     {
         $name = parent::getName();
@@ -83,187 +43,15 @@ abstract class XotBaseFormComponent extends Field
             return $label->toHtml();
         }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    /**
-     * Get the component label.
-     */
-    public function getLabel(): string
-    {
-        $label = parent::getLabel();
-        if ($label === null) {
-            return Str::title($this->getName());
-        }
-        if ($label instanceof Htmlable) {
-            return $label->toHtml();
-        }
-        if ($label instanceof Htmlable) {
-        if ($label instanceof Htmlable) {
-            return $label->toHtml();
-        }
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
         return (string) $label;
     }
 
     /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-     * Configure the component.
-     */
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6be8834c2 (.)
-=======
->>>>>>> 5ca118c34 (.)
-=======
->>>>>>> f7e6113c6 (.)
-=======
->>>>>>> 9f27fc9a6 (.)
-        $this->dehydrated(true)->required(false);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->dehydrated(true)->required(false);
-        $this->dehydrated(true)->required(false);
-        $this->dehydrated(true)->required(false);
-        $this->dehydrated(true)
-            ->required(false);
-=======
-=======
-=======
-<<<<<<< HEAD
-        $this->dehydrated(true)->required(false);
->>>>>>> 5cf46378 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->dehydrated(true)->required(false);
-<<<<<<< HEAD
->>>>>>> 7468a7d2 (.)
-=======
->>>>>>> 5cf46378 (.)
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> dbce41cec (.)
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> 5400be3e2 (.)
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> aa96bb619 (.)
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> efbf15eba (.)
-=======
-        $this->dehydrated(true)
-            ->required(false);
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2f3197ab (.)
-=======
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> 73eab74 (.)
->>>>>>> 218dfed3 (.)
-=======
->>>>>>> a67e542f (.)
-=======
-=======
->>>>>>> 5cf46378 (.)
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 7468a7d2 (.)
-=======
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> dbce41cec (.)
-=======
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> 73eab74 (.)
->>>>>>> 6be8834c2 (.)
-=======
->>>>>>> 5400be3e2 (.)
-=======
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> 73eab74 (.)
->>>>>>> 5ca118c34 (.)
-=======
->>>>>>> aa96bb619 (.)
-=======
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> 73eab74 (.)
->>>>>>> f7e6113c6 (.)
-=======
->>>>>>> efbf15eba (.)
-=======
-=======
-        $this->dehydrated(true)->required(false);
->>>>>>> 73eab74 (.)
->>>>>>> 9f27fc9a6 (.)
-    }
-
-    /**
-     * Get the validation rules.
-     *
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
      * @return array<string, mixed>
      */
     public function getValidationRules(): array
     {
-<<<<<<< HEAD
         /** @var array<string, mixed> */
         return parent::getValidationRules();
-=======
-        /** @var array<string, mixed> */
-        return parent::getValidationRules();
-<<<<<<< HEAD
-        /** @var array<string, mixed> */
-        return parent::getValidationRules();
-        /** @var array<string, mixed> $rules */
-        $rules = parent::getValidationRules();
-        Assert::isArray($rules);
-
-        return $rules;
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
     }
 }

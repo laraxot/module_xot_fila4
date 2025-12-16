@@ -10,83 +10,19 @@ use Filament\Schemas\Components\Section;
 use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Override;
-<<<<<<< HEAD
 
 use function Safe\json_encode;
 
-=======
-<<<<<<< HEAD
-use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-use Override;
-use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-use Override;
-use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-use Override;
-use Override;
-use Filament\Schemas\Components\Section;
-use Filament\Schemas\Components\Grid;
-use Filament\Actions;
-use Filament\Infolists\Components\TextEntry;
-use Modules\Xot\Filament\Resources\LogResource;
-
-use function Safe\json_encode;
-
-use Modules\Xot\Filament\Resources\LogResource;
-=======
->>>>>>> 551c768c4 (.)
-
-use function Safe\json_encode;
-
->>>>>>> 38b70c7ba (.)
 class ViewLog extends XotBaseViewRecord
 {
     protected static string $resource = LogResource::class;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    /**
-     * @return array<int, \Filament\Support\Components\Component>
-     */
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
     #[Override]
     protected function getInfolistSchema(): array
     {
         $log = $this->getRecord()->getModel();
 
         return [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        return [
-        return [
-        return [
-        return [
-    /**
-     * @return array<int, \Filament\Support\Components\Component>
-     */
-    #[Override]
-    #[Override]
-    #[Override]
-class ViewLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord
-{
-    protected static string $resource = LogResource::class;
-
-    protected function getInfolistSchema(): array
-    {
-        $log = $this->getRecord()->getModel();
-
-        return [
-        return [
-        return [
-        return [
-        return [
-        return [
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
             'log_info' => Section::make('Informazioni Log')->schema([
                 'log_grid' => Grid::make(['default' => 3])->schema([
                     'id' => TextEntry::make('id'),
@@ -100,74 +36,9 @@ class ViewLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord
                     ),
                     'extra' => TextEntry::make('extra')->formatStateUsing(
                         fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
-<<<<<<< HEAD
                     ),
                 ]),
             ]),
-=======
-<<<<<<< HEAD
-            Section::make('Informazioni Log')->schema([
-                Grid::make(['default' => 3])->schema([
-                    TextEntry::make('id'),
-                    TextEntry::make('message'),
-                    TextEntry::make('level'),
-                    TextEntry::make('level_name'),
-                    TextEntry::make('channel'),
-                    TextEntry::make('datetime')->dateTime(),
-                    TextEntry::make('context')->formatStateUsing(
-                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
-                    ),
-                    TextEntry::make('extra')->formatStateUsing(
-                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
-                    ),
-            Section::make('Informazioni Log')->schema([
-                Grid::make(['default' => 3])->schema([
-                    TextEntry::make('id'),
-                    TextEntry::make('message'),
-                    TextEntry::make('level'),
-                    TextEntry::make('level_name'),
-                    TextEntry::make('channel'),
-                    TextEntry::make('datetime')->dateTime(),
-                    TextEntry::make('context')->formatStateUsing(
-                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
-                    ),
-                    TextEntry::make('extra')->formatStateUsing(
-                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
-                    ),
-                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
-                    ),
-                    'extra' => TextEntry::make('extra')->formatStateUsing(
-                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
-                    ),
-                ]),
-            ]),
-                ]),
-            ]),
-                ]),
-            ]),
-            'log_info' => Section::make('Informazioni Log')
-                ->schema([
-                    'log_grid' => Grid::make(['default' => 3])
-                        ->schema([
-                            'id' => TextEntry::make('id'),
-                            'message' => TextEntry::make('message'),
-                            'level' => TextEntry::make('level'),
-                            'level_name' => TextEntry::make('level_name'),
-                            'channel' => TextEntry::make('channel'),
-                            'datetime' => TextEntry::make('datetime')
-                                ->dateTime(),
-                            'context' => TextEntry::make('context')
-                                ->formatStateUsing(fn ($state) => json_encode($state, JSON_PRETTY_PRINT)),
-                            'extra' => TextEntry::make('extra')
-                                ->formatStateUsing(fn ($state) => json_encode($state, JSON_PRETTY_PRINT)),
-                        ]),
-                ]),
-=======
-                    ),
->>>>>>> 551c768c4 (.)
-                ]),
-            ]),
->>>>>>> 38b70c7ba (.)
         ];
     }
 }

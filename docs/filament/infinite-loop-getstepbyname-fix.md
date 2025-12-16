@@ -1,22 +1,81 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 67be6ac0 (.)
-=======
-=======
-=======
-=======
-=======
-=======
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 
 ## 🚨 **PROBLEMA CRITICO RISOLTO**
@@ -133,251 +192,167 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 
 ### **File Modificati**
 - [XotBaseResource.php](../../../Modules/Xot/app/Filament/Resources/XotBaseResource.php) - Fix principale
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6ca989d8 (.)
-=======
->>>>>>> 62cc8443 (.)
-=======
->>>>>>> ecd5ec32 (.)
-=======
->>>>>>> 67be6ac0 (.)
-=======
->>>>>>> ab5b3a4f (.)
->>>>>>> 38b70c7ba (.)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-=======
->>>>>>> 551c768c4 (.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-- [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
-### **Documentazione Correlata**
-- [Wizard Step Implementation](../../../Modules/<nome modulo>/docs/wizard-step-implementation.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> c35986f4 (.)
-<<<<<<< HEAD
->>>>>>> 6ca989d8 (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-<<<<<<< HEAD
->>>>>>> 62cc8443 (.)
-=======
-=======
->>>>>>> b7ea1cd1 (.)
-<<<<<<< HEAD
->>>>>>> ecd5ec32 (.)
-=======
-=======
->>>>>>> 33af3e61 (.)
-<<<<<<< HEAD
->>>>>>> 67be6ac0 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
->>>>>>> ab5b3a4f (.)
-- [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
-### **Documentazione Correlata**
-- [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
-<<<<<<< HEAD
->>>>>>> 6ca989d8 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-<<<<<<< HEAD
->>>>>>> 62cc8443 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> ab5b3a4f (.)
-- [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
-### **Documentazione Correlata**
-- [Wizard Step Implementation](../../../Modules/<nome modulo>/docs/wizard-step-implementation.md)
-<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
+
+
+
+
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-=======
-=======
-=======
-=======
->>>>>>> 551c768c4 (.)
+
+
+
+
+
+
+
+
+
+
+
+
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-=======
-<<<<<<< HEAD
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> c35986f4 (.)
-<<<<<<< HEAD
->>>>>>> 6ca989d8 (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-<<<<<<< HEAD
->>>>>>> 62cc8443 (.)
-=======
-=======
->>>>>>> b7ea1cd1 (.)
-<<<<<<< HEAD
->>>>>>> ecd5ec32 (.)
-=======
-=======
->>>>>>> 33af3e61 (.)
-<<<<<<< HEAD
->>>>>>> 67be6ac0 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
->>>>>>> ab5b3a4f (.)
-=======
-=======
-=======
->>>>>>> 38b70c7ba (.)
-- [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
-### **Documentazione Correlata**
-- [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-<<<<<<< HEAD
-=======
-=======
-=======
-=======
-=======
-=======
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -396,196 +371,50 @@ Questo fix dimostra l'importanza di:
 3. **Property existence checking** per codice robusto
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
-<<<<<<< HEAD
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ecd5ec32 (.)
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6ca989d8 (.)
-=======
->>>>>>> 62cc8443 (.)
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-<<<<<<< HEAD
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-<<<<<<< HEAD
->>>>>>> 62cc8443 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
->>>>>>> ab5b3a4f (.)
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
-<<<<<<< HEAD
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 62cc8443 (.)
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
-<<<<<<< HEAD
-=======
->>>>>>> 43d67f21 (.)
-=======
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 5a14301c (.)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 43d67f21 (.)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> b7ea1cd1 (.)
-=======
-*Il sistema  ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 5a14301c (.)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 43d67f21 (.)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> c35986f4 (.)
-<<<<<<< HEAD
->>>>>>> 6ca989d8 (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-<<<<<<< HEAD
->>>>>>> 62cc8443 (.)
-=======
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> b7ea1cd1 (.)
-<<<<<<< HEAD
->>>>>>> ecd5ec32 (.)
-=======
-=======
->>>>>>> cc7fb225 (.)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 33af3e61 (.)
-<<<<<<< HEAD
->>>>>>> 67be6ac0 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
->>>>>>> ab5b3a4f (.)
-=======
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-=======
->>>>>>> 38b70c7ba (.)
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-=======
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-<<<<<<< HEAD
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
@@ -599,22 +428,82 @@ Questo fix dimostra l'importanza di:
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-=======
-=======
+
+
+
+
+
+
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-=======
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-=======
+
+
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-=======
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-=======
-=======
+
+
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+
+
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+
+
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+
+
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+
+
+
+
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+
+
+

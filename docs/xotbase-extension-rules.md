@@ -1,40 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 62cc8443 (.)
-=======
->>>>>>> ab5b3a4f (.)
-=======
->>>>>>> 88e745db5 (.)
-=======
->>>>>>> 7e4835b8e (.)
-=======
->>>>>>> 9f193021d (.)
-=======
->>>>>>> d9f43fce9 (.)
-=======
-=======
->>>>>>> 80bc07e81 (.)
->>>>>>> 38b70c7ba (.)
 # XotBase Extension Rules - Comprehensive Guide
 
 ## 🚨 Critical Architectural Rule
@@ -51,9 +14,11 @@
 | `Filament\Resources\Pages\CreateRecord` | `Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord` |
 | `Filament\Resources\Pages\EditRecord` | `Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord` |
 | `Filament\Resources\Pages\ViewRecord` | `Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord` |
+| `Filament\Pages\Dashboard` | `Modules\Xot\Filament\Pages\XotBaseDashboard` |
 | `Filament\Auth\Pages\Login` | `Modules\Xot\Filament\Pages\Auth\XotBaseLogin` |
 | `Filament\Auth\Pages\Register` | `Modules\Xot\Filament\Pages\Auth\XotBaseRegister` |
 | `Filament\Auth\Pages\EditProfile` | `Modules\Xot\Filament\Pages\Auth\XotBaseEditProfile` |
+| `Filament\Schemas\Components\Section` | `Modules\Xot\Filament\Schemas\Components\XotBaseSection` |
 | `Filament\Widgets\Widget` | `Modules\Xot\Filament\Widgets\XotBaseWidget` |
 | `Filament\Actions\ActionGroup` | `Modules\Xot\Filament\Actions\XotBaseActionGroup` |
 | `Filament\Resources\RelationManagers\RelationManager` | `Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager` |
@@ -61,6 +26,7 @@
 ## ✅ Correct Implementation Examples
 
 ### Resource Example
+
 ```php
 // CORRECT: Extend XotBaseResource
 namespace Modules\MyModule\Filament\Resources;
@@ -80,6 +46,7 @@ class MyResource extends \Filament\Resources\Resource
 ```
 
 ### Widget Example
+
 ```php
 // CORRECT: Extend XotBaseWidget
 namespace Modules\MyModule\Filament\Widgets;
@@ -120,6 +87,7 @@ class MyWidget extends \Filament\Widgets\Widget
 ## 🔧 Required Method Implementations
 
 ### For XotBaseWidget
+
 ```php
 public function getFormSchema(): array
 {
@@ -127,13 +95,13 @@ public function getFormSchema(): array
         // Must return array of Filament form components
         // NEVER return empty array []
         \Filament\Forms\Components\TextInput::make('field_name')
-            ->label(__('module::translation.key'))
             ->required(),
     ];
 }
 ```
 
 ### For XotBaseResource
+
 ```php
 // XotBaseResource provides default implementations
 // Override only when necessary using the correct patterns
@@ -146,12 +114,14 @@ public function getFormSchema(): array
 3. **Use correct translation patterns** with module prefix
 
 **Correct:**
+
 ```php
 namespace Modules\MyModule\Filament\Resources;
 namespace Modules\MyModule\Filament\Widgets;
 ```
 
 **Wrong:**
+
 ```php
 namespace Modules\MyModule\App\Filament\Resources; // Contains 'App'
 namespace Modules\MyModule\Filament\App\Widgets;   // Wrong structure
@@ -173,6 +143,7 @@ Before committing any Filament-related code, verify:
 
 ### Empty Form Schemas
 **Wrong:**
+
 ```php
 public function getFormSchema(): array
 {
@@ -181,18 +152,19 @@ public function getFormSchema(): array
 ```
 
 **Correct:**
+
 ```php
 public function getFormSchema(): array
 {
     return [
-        \Filament\Forms\Components\TextInput::make('name')
-            ->label(__('module::fields.name')),
+        \Filament\Forms\Components\TextInput::make('name'),
     ];
 }
 ```
 
 ### Wrong Access Levels
 **Wrong:**
+
 ```php
 protected function getFormSchema(): array // Should be public
 {
@@ -201,6 +173,7 @@ protected function getFormSchema(): array // Should be public
 ```
 
 **Correct:**
+
 ```php
 public function getFormSchema(): array // Must be public
 {
@@ -228,6 +201,7 @@ If you encounter architecture violations:
 ## 🔗 Integration with Development Workflow
 
 This rule is enforced by:
+
 - PHPStan architecture rules
 - Code review processes
 - Automated quality checks
@@ -236,265 +210,11 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 
 ---
 
-*Last Updated: 2025-08-27*  
-*Architecture Version: XotBase 2.0*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 85cdef688 (.)
-=======
->>>>>>> 6ca989d8 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 62cc8443 (.)
-=======
->>>>>>> ecd5ec32 (.)
-=======
->>>>>>> 67be6ac0 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> ab5b3a4f (.)
-=======
->>>>>>> 88ee35c4e (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 88e745db5 (.)
-=======
->>>>>>> 5e6aa70fe (.)
-=======
->>>>>>> 92cca5ade (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 7e4835b8e (.)
-=======
->>>>>>> e39b54ba7 (.)
-=======
->>>>>>> 6a52563d6 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 9f193021d (.)
-=======
->>>>>>> ba7efc23f (.)
-=======
->>>>>>> 317b552da (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d9f43fce9 (.)
-=======
->>>>>>> 5df5c7505 (.)
-=======
->>>>>>> 80bc07e81 (.)
->>>>>>> 38b70c7ba (.)
-# Regole di Estensione XotBase - Guida di Riferimento
+## Notes
 
-## 🚨 REGOLA CRITICA FONDAMENTALE
+This document is the canonical reference for Filament→XotBase extension rules.
 
-**MAI ESTENDERE CLASSI FILAMENT DIRETTAMENTE - SEMPRE USARE XOTBASE**
-
-Questa è la regola più importante dell'architettura Laraxot/PTVX e ha **PRIORITÀ ASSOLUTA** su qualsiasi altra considerazione.
-
-## ❌ Cosa NON Fare
-
-```php
-// VIETATO - Estensione diretta di classi Filament
-class Dashboard extends Filament\Pages\Dashboard
-class EmployeeResource extends Filament\Resources\Resource
-class StatsWidget extends Filament\Widgets\Widget
-class CustomPage extends Filament\Pages\Page
-class PanelProvider extends Filament\Panel
-```
-
-## ✅ Cosa Fare SEMPRE
-
-```php
-// OBBLIGATORIO - Estensione di classi XotBase
-class Dashboard extends Modules\Xot\Filament\Pages\XotBaseDashboard
-class EmployeeResource extends Modules\Xot\Filament\Resources\XotBaseResource
-class StatsWidget extends Modules\Xot\Filament\Widgets\XotBaseWidget
-class CustomPage extends Modules\Xot\Filament\Pages\XotBasePage
-class AdminPanelProvider extends Modules\Xot\Providers\Filament\XotBasePanelProvider
-```
-
-## 📋 Mapping Completo delle Classi
-
-| Filament Originale | XotBase Corrispondente | Utilizzo |
-|-------------------|------------------------|----------|
-| `Filament\Pages\Dashboard` | `Modules\Xot\Filament\Pages\XotBaseDashboard` | Dashboard moduli |
-| `Filament\Resources\Resource` | `Modules\Xot\Filament\Resources\XotBaseResource` | Risorse CRUD |
-| `Filament\Widgets\Widget` | `Modules\Xot\Filament\Widgets\XotBaseWidget` | Widget dashboard |
-| `Filament\Pages\Page` | `Modules\Xot\Filament\Pages\XotBasePage` | Pagine custom |
-| `Filament\Panel` | `Modules\Xot\Providers\Filament\XotBasePanelProvider` | Panel provider |
-
-## 🎯 Motivazioni della Regola
-
-### 1. **Funzionalità Aggiuntive**
-Le classi XotBase forniscono funzionalità specifiche del progetto Laraxot/PTVX che non sono disponibili nelle classi Filament standard.
-
-### 2. **Consistenza Architetturale**
-Garantisce che tutti i moduli seguano lo stesso pattern architetturale, facilitando manutenzione e sviluppo.
-
-### 3. **Modifiche Centralizzate**
-Permette di applicare modifiche a tutti i moduli modificando solo le classi XotBase, senza toccare ogni singolo modulo.
-
-### 4. **Integrazione Sistema**
-Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e funzionalità specifiche del progetto.
-
-## 🔍 Come Verificare la Conformità
-
-### Ricerca Violazioni
 ```bash
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 6ca989d8 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
-
->>>>>>> 091f883c (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 62cc8443 (.)
-=======
-
->>>>>>> ecd5ec32 (.)
-=======
-
->>>>>>> 67be6ac0 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 2bad128c (.)
-=======
-
->>>>>>> 59259b43 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> ab5b3a4f (.)
-=======
-
->>>>>>> 88ee35c4e (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 358ba79a7 (.)
-=======
-
->>>>>>> aba62c408 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 88e745db5 (.)
-=======
-
->>>>>>> 5e6aa70fe (.)
-=======
-
->>>>>>> 92cca5ade (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> f8f76a284 (.)
-=======
-
->>>>>>> 5cb992cc6 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 7e4835b8e (.)
-=======
-
->>>>>>> e39b54ba7 (.)
-=======
-
->>>>>>> 6a52563d6 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 5e6e0d054 (.)
-=======
-
->>>>>>> 3c8d62b79 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 9f193021d (.)
-=======
-
->>>>>>> ba7efc23f (.)
-=======
-
->>>>>>> 317b552da (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 0117b849c (.)
-=======
-
->>>>>>> 60f0a1820 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d9f43fce9 (.)
-=======
-
->>>>>>> 5df5c7505 (.)
-=======
->>>>>>> 80bc07e81 (.)
->>>>>>> 38b70c7ba (.)
 # Cerca estensioni dirette di Filament (dovrebbe restituire 0 risultati)
 grep -r "extends Filament\\" Modules/ --include="*.php"
 
@@ -503,153 +223,8 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 ```
 
 ### Verifica Specifica per Tipo
+
 ```bash
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 6ca989d8 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
-
->>>>>>> 091f883c (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 62cc8443 (.)
-=======
-
->>>>>>> ecd5ec32 (.)
-=======
-
->>>>>>> 67be6ac0 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 2bad128c (.)
-=======
-
->>>>>>> 59259b43 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> ab5b3a4f (.)
-=======
-
->>>>>>> 88ee35c4e (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 358ba79a7 (.)
-=======
-
->>>>>>> aba62c408 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 88e745db5 (.)
-=======
-
->>>>>>> 5e6aa70fe (.)
-=======
-
->>>>>>> 92cca5ade (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> f8f76a284 (.)
-=======
-
->>>>>>> 5cb992cc6 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 7e4835b8e (.)
-=======
-
->>>>>>> e39b54ba7 (.)
-=======
-
->>>>>>> 6a52563d6 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 5e6e0d054 (.)
-=======
-
->>>>>>> 3c8d62b79 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 9f193021d (.)
-=======
-
->>>>>>> ba7efc23f (.)
-=======
-
->>>>>>> 317b552da (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 0117b849c (.)
-=======
-
->>>>>>> 60f0a1820 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d9f43fce9 (.)
-=======
-
->>>>>>> 5df5c7505 (.)
-=======
->>>>>>> 80bc07e81 (.)
->>>>>>> 38b70c7ba (.)
 # Dashboard
 grep -r "XotBaseDashboard" Modules/ --include="*.php"
 
@@ -731,152 +306,6 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 
 ```bash
 #!/bin/bash
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 6ca989d8 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
-
->>>>>>> 091f883c (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 62cc8443 (.)
-=======
-
->>>>>>> ecd5ec32 (.)
-=======
-
->>>>>>> 67be6ac0 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 2bad128c (.)
-=======
-
->>>>>>> 59259b43 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> ab5b3a4f (.)
-=======
-
->>>>>>> 88ee35c4e (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 358ba79a7 (.)
-=======
-
->>>>>>> aba62c408 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 88e745db5 (.)
-=======
-
->>>>>>> 5e6aa70fe (.)
-=======
-
->>>>>>> 92cca5ade (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> f8f76a284 (.)
-=======
-
->>>>>>> 5cb992cc6 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 7e4835b8e (.)
-=======
-
->>>>>>> e39b54ba7 (.)
-=======
-
->>>>>>> 6a52563d6 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 5e6e0d054 (.)
-=======
-
->>>>>>> 3c8d62b79 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 9f193021d (.)
-=======
-
->>>>>>> ba7efc23f (.)
-=======
-
->>>>>>> 317b552da (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 0117b849c (.)
-=======
-
->>>>>>> 60f0a1820 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d9f43fce9 (.)
-=======
-
->>>>>>> 5df5c7505 (.)
-=======
->>>>>>> 80bc07e81 (.)
->>>>>>> 38b70c7ba (.)
 # .git/hooks/pre-commit
 
 if grep -r "extends Filament\\" Modules/ --include="*.php" > /dev/null; then
@@ -890,152 +319,6 @@ echo "✅ Controllo XotBase: PASSED"
 
 ### CI/CD Check
 ```yaml
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 6ca989d8 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
-
->>>>>>> 091f883c (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 62cc8443 (.)
-=======
-
->>>>>>> ecd5ec32 (.)
-=======
-
->>>>>>> 67be6ac0 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 2bad128c (.)
-=======
-
->>>>>>> 59259b43 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> ab5b3a4f (.)
-=======
-
->>>>>>> 88ee35c4e (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 358ba79a7 (.)
-=======
-
->>>>>>> aba62c408 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 88e745db5 (.)
-=======
-
->>>>>>> 5e6aa70fe (.)
-=======
-
->>>>>>> 92cca5ade (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> f8f76a284 (.)
-=======
-
->>>>>>> 5cb992cc6 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 7e4835b8e (.)
-=======
-
->>>>>>> e39b54ba7 (.)
-=======
-
->>>>>>> 6a52563d6 (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 5e6e0d054 (.)
-=======
-
->>>>>>> 3c8d62b79 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 9f193021d (.)
-=======
-
->>>>>>> ba7efc23f (.)
-=======
-
->>>>>>> 317b552da (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 0117b849c (.)
-=======
-
->>>>>>> 60f0a1820 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d9f43fce9 (.)
-=======
-
->>>>>>> 5df5c7505 (.)
-=======
->>>>>>> 80bc07e81 (.)
->>>>>>> 38b70c7ba (.)
 # .github/workflows/xotbase-check.yml
 name: XotBase Extension Check
 on: [push, pull_request]

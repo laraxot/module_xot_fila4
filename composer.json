@@ -25,273 +25,9 @@
         "coolsam/panel-modules": "*",
         "doctrine/dbal": "*",
         "fidum/laravel-eloquent-morph-to-one": "*",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6be8834c2 (.)
-=======
->>>>>>> 88ee35c4e (.)
->>>>>>> 38b70c7ba (.)
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-=======
-=======
->>>>>>> 309cf3180 (.)
-        "filament/filament": "^4.0",
-        "filament/spatie-laravel-media-library-plugin": "^4.0",
-<<<<<<< HEAD
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
->>>>>>> 1a525d0ea (.)
-        
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-<<<<<<< HEAD
-=======
-=======
-=======
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 5ca118c34 (.)
-=======
->>>>>>> 92cca5ade (.)
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-=======
-=======
->>>>>>> 6d0e19ff7 (.)
-        "filament/filament": "^4.0",
-        "filament/spatie-laravel-media-library-plugin": "^4.0",
-<<<<<<< HEAD
-        
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f7e6113c6 (.)
-=======
->>>>>>> 6a52563d6 (.)
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-=======
-=======
->>>>>>> 6e42a2f13 (.)
-        "filament/filament": "^4.0",
-        "filament/spatie-laravel-media-library-plugin": "^4.0",
-<<<<<<< HEAD
-        
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7468a7d2 (.)
-=======
->>>>>>> 5cf46378 (.)
-=======
-=======
->>>>>>> 9f27fc9a6 (.)
-=======
->>>>>>> 317b552da (.)
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-=======
-=======
->>>>>>> 6c0d407c0 (.)
-        "filament/filament": "^4.0",
-        "filament/spatie-laravel-media-library-plugin": "^4.0",
-<<<<<<< HEAD
-        
-<<<<<<< HEAD
->>>>>>> dbce41cec (.)
-=======
-=======
->>>>>>> 8fd88dd43 (.)
         "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "*",
         
->>>>>>> 5400be3e2 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> aa96bb619 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> efbf15eba (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> f2dd5676b (.)
-=======
-        "filament/filament": "^3.4",
-        "filament/spatie-laravel-media-library-plugin": "^3.2",
-        "filament/spatie-laravel-translatable-plugin": "^3.2",
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2f3197ab (.)
-=======
-=======
->>>>>>> 7468a7d2 (.)
-=======
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> 6be8834c2 (.)
-=======
->>>>>>> 5ca118c34 (.)
-=======
->>>>>>> f7e6113c6 (.)
-=======
->>>>>>> 9f27fc9a6 (.)
-=======
->>>>>>> 8fd88dd43 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
-<<<<<<< HEAD
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 218dfed3 (.)
-=======
->>>>>>> a67e542f (.)
-=======
-=======
-        "filament/spatie-laravel-translatable-plugin": "^4.0",
->>>>>>> 6cba4fe (.)
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> 7468a7d2 (.)
-=======
->>>>>>> d2b0a27 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> dbce41cec (.)
-=======
->>>>>>> 6be8834c2 (.)
-=======
-=======
-        "filament/spatie-laravel-translatable-plugin": "^4.0",
->>>>>>> 6cba4fe (.)
->>>>>>> 358ba79a7 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> aba62c408 (.)
-=======
->>>>>>> 5400be3e2 (.)
-=======
->>>>>>> 5ca118c34 (.)
-=======
-=======
-        "filament/spatie-laravel-translatable-plugin": "^4.0",
->>>>>>> 6cba4fe (.)
->>>>>>> f8f76a284 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> 5cb992cc6 (.)
-=======
->>>>>>> aa96bb619 (.)
-=======
->>>>>>> f7e6113c6 (.)
-=======
-=======
-        "filament/spatie-laravel-translatable-plugin": "^4.0",
->>>>>>> 6cba4fe (.)
->>>>>>> 5e6e0d054 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> 3c8d62b79 (.)
-=======
->>>>>>> efbf15eba (.)
-=======
->>>>>>> 9f27fc9a6 (.)
-=======
-=======
-        "filament/spatie-laravel-translatable-plugin": "^4.0",
->>>>>>> 6cba4fe (.)
->>>>>>> 0117b849c (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> 60f0a1820 (.)
-=======
->>>>>>> f2dd5676b (.)
-=======
->>>>>>> 8cf76e7 (.)
->>>>>>> 8fd88dd43 (.)
-=======
-        "filament/filament": "*",
-        "filament/spatie-laravel-media-library-plugin": "*",
-        
->>>>>>> 851793957 (.)
->>>>>>> 38b70c7ba (.)
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",
@@ -302,26 +38,8 @@
         "livewire/flux": "^2.1.1",
         "livewire/volt": "^1.0",
         "maatwebsite/excel": "^3.1",
-<<<<<<< HEAD
-        "nwidart/laravel-modules": "*"
-        "predis/predis": "*",
-        "predis/predis": "^2.2",
-        "predis/predis": "^2.2",
-        "predis/predis": "^2.2",
-        "predis/predis": "^2.2",
-        "predis/predis": "*",
-        "predis/predis": "^2.2",
-        "predis/predis": "^2.2",
-        "predis/predis": "^2.2",
-        "predis/predis": "^2.2",
-        "predis/predis": "^2.2",
-=======
         "nwidart/laravel-modules": "*",
         "predis/predis": "*",
-<<<<<<< HEAD
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
         "spatie/cpu-load-health-check": "^1.0",
         "spatie/laravel-data": "^4.7",
         "spatie/laravel-health": "^1.29",
@@ -341,118 +59,9 @@
         "thecodingmachine/safe": "^3.0",
         "tightenco/parental": "*"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 218dfed3 (.)
-<<<<<<< HEAD
-=======
->>>>>>> a67e542f (.)
-=======
->>>>>>> 7468a7d2 (.)
-=======
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> dbce41cec (.)
-=======
->>>>>>> 5400be3e2 (.)
-=======
->>>>>>> aa96bb619 (.)
-=======
->>>>>>> efbf15eba (.)
-=======
->>>>>>> f2dd5676b (.)
     "require_comment": {
        "filament/spatie-laravel-translatable-plugin": "*"
     },
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6be8834c2 (.)
-=======
->>>>>>> 5ca118c34 (.)
-=======
->>>>>>> f7e6113c6 (.)
-=======
->>>>>>> 9f27fc9a6 (.)
-=======
->>>>>>> 8fd88dd43 (.)
-    "require_comment": {
-       "filament/spatie-laravel-translatable-plugin": "*"
-    },
-=======
->>>>>>> f1d4085 (.)
-=======
-    "require_comment": {
-       "filament/spatie-laravel-translatable-plugin": "*"
-    },
-<<<<<<< HEAD
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-=======
-=======
-    "require_comment": {
-       "filament/spatie-laravel-translatable-plugin": "*"
-    },
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> dbce41cec (.)
-=======
->>>>>>> 6be8834c2 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5400be3e2 (.)
-=======
->>>>>>> 5ca118c34 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> aa96bb619 (.)
-=======
->>>>>>> f7e6113c6 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> efbf15eba (.)
-=======
->>>>>>> 9f27fc9a6 (.)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> f2dd5676b (.)
-=======
->>>>>>> 8cf76e7 (.)
->>>>>>> 8fd88dd43 (.)
-=======
-    "require_comment": {
-       "filament/spatie-laravel-translatable-plugin": "*"
-    },
->>>>>>> 851793957 (.)
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.14",
         "barryvdh/laravel-ide-helper": "^3.2",
@@ -465,11 +74,8 @@
         "nunomaduro/collision": "^8.6",
         "orchestra/testbench": "*",
         "pestphp/pest": "*",
-<<<<<<< HEAD
-=======
         "pestphp/pest-plugin-laravel": "*",
         "pestphp/pest-plugin-livewire": "*",
->>>>>>> b018eb3b5 (.)
         "pestphp/pest-plugin-type-coverage": "^3.6",
         "thecodingmachine/phpstan-safe-rule": "*"
     },
@@ -490,13 +96,21 @@
             "url": "https://packagist.org"
         }
     ],
->>>>>>> 2f3197ab (.)
     "autoload": {
         "psr-4": {
             "Modules\\Xot\\": "app/",
             "Modules\\Xot\\Database\\Factories\\": "database/factories/",
-            "Modules\\Xot\\Database\\Seeders\\": "database/seeders/"
-        }
+            "Modules\\Xot\\Database\\Seeders\\": "database/seeders/",
+            "Modules\\Xot\\Tests\\": "tests/",
+            "Coolsam\\FilamentModules\\": "packages/coolsam/panel-modules/src/"
+            
+        },
+        "psr-4_comment": {
+            "Modules\\Xot\\Database\\Migrations\\": "database/migrations/"
+        },
+        "files": [
+            "Helpers/Helper.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

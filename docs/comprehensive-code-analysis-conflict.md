@@ -8,56 +8,24 @@ Analisi sistematica di tutti i moduli del progetto per identificare violazioni d
 ### 1. Violazioni DRY - Duplicazioni di Codice
 
 #### Singleton Pattern Duplicato
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Services/LimeJsonService.php`, `Modules/Quaeris/app/Services/QuaerisService.php`
-=======
-**File**: `Modules/<nome progetto>/app/Services/LimeJsonService.php`, `Modules/<nome progetto>/app/Services/<nome progetto>Service.php`
->>>>>>> 92bc33604 (.)
-=======
-**File**: `Modules/Quaeris/app/Services/LimeJsonService.php`, `Modules/Quaeris/app/Services/QuaerisService.php`
->>>>>>> 551c768c4 (.)
 
 ```php
 // DUPLICATO in LimeJsonService.php
 private static ?self $instance = null;
 public static function getInstance(): self
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     if (! self::$instance instanceof \Modules\Quaeris\Services\LimeJsonService) {
-=======
-    if (! self::$instance instanceof \Modules\<nome progetto>\Services\LimeJsonService) {
->>>>>>> 92bc33604 (.)
-=======
-    if (! self::$instance instanceof \Modules\Quaeris\Services\LimeJsonService) {
->>>>>>> 551c768c4 (.)
         self::$instance = new self();
     }
     return self::$instance;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 // DUPLICATO in QuaerisService.php
 private static ?self $instance = null;
 public static function getInstance(): self
 {
     if (! self::$instance instanceof \Modules\Quaeris\Services\QuaerisService) {
-=======
-// DUPLICATO in <nome progetto>Service.php
-private static ?self $instance = null;
-public static function getInstance(): self
-{
-    if (! self::$instance instanceof \Modules\<nome progetto>\Services\<nome progetto>Service) {
->>>>>>> 92bc33604 (.)
-=======
-// DUPLICATO in QuaerisService.php
-private static ?self $instance = null;
-public static function getInstance(): self
-{
-    if (! self::$instance instanceof \Modules\Quaeris\Services\QuaerisService) {
->>>>>>> 551c768c4 (.)
         self::$instance = new self();
     }
     return self::$instance;
@@ -67,39 +35,19 @@ public static function getInstance(): self
 **Soluzione**: Creare trait `SingletonTrait` in `Modules/Xot/app/Traits/SingletonTrait.php`
 
 #### Connection Hardcoded Duplicata
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Problema**: `protected $connection = 'quaeris';` ripetuto in tutti i modelli Quaeris
-=======
-**Problema**: `protected $connection = '<nome progetto>';` ripetuto in tutti i modelli <nome progetto>
->>>>>>> 92bc33604 (.)
-=======
-**Problema**: `protected $connection = 'quaeris';` ripetuto in tutti i modelli Quaeris
->>>>>>> 551c768c4 (.)
 **Soluzione**: Centralizzare in BaseModel o configurazione
 
 ### 2. Violazioni SOLID
 
 #### Single Responsibility Principle Violato
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Models/BaseModel.php`
-=======
-**File**: `Modules/<nome progetto>/app/Models/BaseModel.php`
->>>>>>> 92bc33604 (.)
-=======
-**File**: `Modules/Quaeris/app/Models/BaseModel.php`
->>>>>>> 551c768c4 (.)
 
 ```php
 abstract class BaseModel extends Model implements ModelContract, HasMedia
 {
     use Cachable;
-<<<<<<< HEAD
-    use \Modules\Xot\Models\Traits\HasXotFactory;
-=======
     use HasFactory;
->>>>>>> 92bc33604 (.)
     use Updater;
     use HasExtraTrait;
     use InteractsWithMedia;
@@ -122,11 +70,7 @@ abstract class BaseUser extends Authenticatable implements
     use HasApiTokens;
     use HasAuthenticationLogTrait;
     use HasChildren;
-<<<<<<< HEAD
-    use \Modules\Xot\Models\Traits\HasXotFactory;
-=======
     use HasFactory;
->>>>>>> 92bc33604 (.)
     use HasPermissions;
     use HasRoles;
     use HasTeams;
@@ -145,15 +89,7 @@ abstract class BaseUser extends Authenticatable implements
 ### 3. N+1 Query Problems
 
 #### Customer Model - Lazy Loading
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Models/Customer.php`
-=======
-**File**: `Modules/<nome progetto>/app/Models/Customer.php`
->>>>>>> 92bc33604 (.)
-=======
-**File**: `Modules/Quaeris/app/Models/Customer.php`
->>>>>>> 551c768c4 (.)
 
 ```php
 public function surveyPdfsActive()
@@ -166,15 +102,7 @@ public function surveyPdfsActive()
 **Soluzione**: Usare query builder o eager loading
 
 #### AlertWidget - Query Complessa
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Filament/Widgets/AlertWidget.php`
-=======
-**File**: `Modules/<nome progetto>/app/Filament/Widgets/AlertWidget.php`
->>>>>>> 92bc33604 (.)
-=======
-**File**: `Modules/Quaeris/app/Filament/Widgets/AlertWidget.php`
->>>>>>> 551c768c4 (.)
 
 ```php
 return SurveyFlipResponse::where('survey_id', $this->getSurveyId())
@@ -197,15 +125,7 @@ return SurveyFlipResponse::where('survey_id', $this->getSurveyId())
 ### 4. Violazioni KISS - Complessità Eccessiva
 
 #### QuestionChart Model - Metodi Complessi
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Models/QuestionChart.php`
-=======
-**File**: `Modules/<nome progetto>/app/Models/QuestionChart.php`
->>>>>>> 92bc33604 (.)
-=======
-**File**: `Modules/Quaeris/app/Models/QuestionChart.php`
->>>>>>> 551c768c4 (.)
 
 ```php
 public function participants(): CustomRelation
@@ -232,15 +152,7 @@ public function participants(): CustomRelation
 ### 5. Gestione Errori Inadeguata
 
 #### SendInviteAction - Catch Vuoti
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Actions/SendInviteAction.php`
-=======
-**File**: `Modules/<nome progetto>/app/Actions/SendInviteAction.php`
->>>>>>> 92bc33604 (.)
-=======
-**File**: `Modules/Quaeris/app/Actions/SendInviteAction.php`
->>>>>>> 551c768c4 (.)
 
 ```php
 try {
@@ -260,15 +172,7 @@ try {
 ### 1. Filament Resources - Pattern Duplicati
 
 #### Schema Duplicato
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Filament/Resources/ContactResource.php`, `CustomerResource.php`
-=======
-**File**: `Modules/<nome progetto>/app/Filament/Resources/ContactResource.php`, `CustomerResource.php`
->>>>>>> 92bc33604 (.)
-=======
-**File**: `Modules/Quaeris/app/Filament/Resources/ContactResource.php`, `CustomerResource.php`
->>>>>>> 551c768c4 (.)
 
 ```php
 // ContactResource.php
@@ -317,21 +221,9 @@ public function customer(): HasOneThrough
 **File**: Tutti i ServiceProvider dei moduli
 
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
 class QuaerisServiceProvider extends XotBaseServiceProvider
 {
     public string $name = 'Quaeris';
-=======
-class <nome progetto>ServiceProvider extends XotBaseServiceProvider
-{
-    public string $name = '<nome progetto>';
->>>>>>> 92bc33604 (.)
-=======
-class QuaerisServiceProvider extends XotBaseServiceProvider
-{
-    public string $name = 'Quaeris';
->>>>>>> 551c768c4 (.)
     
     protected string $module_dir = __DIR__;
     protected string $module_ns = __NAMESPACE__;
@@ -431,23 +323,11 @@ trait SingletonTrait
 ```
 
 #### B. Separare BaseModel Responsibilities
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Models/BaseModel.php`
-```php
-abstract class BaseModel extends Model implements ModelContract
-{
-    use \Modules\Xot\Models\Traits\HasXotFactory;
-=======
-**File**: `Modules/<nome progetto>/app/Models/BaseModel.php`
-=======
-**File**: `Modules/Quaeris/app/Models/BaseModel.php`
->>>>>>> 551c768c4 (.)
 ```php
 abstract class BaseModel extends Model implements ModelContract
 {
     use HasFactory;
->>>>>>> 92bc33604 (.)
     use Updater;
     
     // Rimuovere: Cachable, HasExtraTrait, InteractsWithMedia
@@ -456,15 +336,7 @@ abstract class BaseModel extends Model implements ModelContract
 ```
 
 #### C. Implementare Repository Pattern
-<<<<<<< HEAD
-<<<<<<< HEAD
 **File**: `Modules/Quaeris/app/Repositories/SurveyFlipResponseRepository.php`
-=======
-**File**: `Modules/<nome progetto>/app/Repositories/SurveyFlipResponseRepository.php`
->>>>>>> 92bc33604 (.)
-=======
-**File**: `Modules/Quaeris/app/Repositories/SurveyFlipResponseRepository.php`
->>>>>>> 551c768c4 (.)
 ```php
 class SurveyFlipResponseRepository
 {
@@ -525,24 +397,10 @@ try {
 
 #### B. Configuration Centralization
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
 // config/quaeris.php
 return [
     'database' => [
         'connection' => env('QUAERIS_DB_CONNECTION', 'quaeris'),
-=======
-// config/<nome progetto>.php
-return [
-    'database' => [
-        'connection' => env('<nome progetto>_DB_CONNECTION', '<nome progetto>'),
->>>>>>> 92bc33604 (.)
-=======
-// config/quaeris.php
-return [
-    'database' => [
-        'connection' => env('QUAERIS_DB_CONNECTION', 'quaeris'),
->>>>>>> 551c768c4 (.)
     ],
     'limesurvey' => [
         'api' => [

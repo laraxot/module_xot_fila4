@@ -283,96 +283,9 @@ trait HasXotOptimizations
 
 ``` 
 ## Collegamenti tra versioni di bottlenecks_detailed.md
-<<<<<<< HEAD
 * [bottlenecks_detailed.md](../../../Xot/docs/bottlenecks_detailed.md)
 * [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
 * [bottlenecks_detailed.md](../../../Media/docs/bottlenecks_detailed.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-* [bottlenecks_detailed.md](../../../Xot/docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/docs/bottlenecks_detailed.md)
->>>>>>> 85cdef688 (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> ce6fc085 (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> ecd5ec32 (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> 2bad128c (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> 358ba79a7 (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> 5e6aa70fe (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> f8f76a284 (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> e39b54ba7 (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> 5e6e0d054 (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/docs/bottlenecks_detailed.md)
->>>>>>> 1a525d0ea (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> ba7efc23f (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> 0117b849c (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
->>>>>>> 5df5c7505 (.)
-=======
-* [bottlenecks_detailed.md](../../../Xot/docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
-* [bottlenecks_detailed.md](../../../Media/docs/bottlenecks_detailed.md)
->>>>>>> 80bc07e81 (.)
->>>>>>> 38b70c7ba (.)
 
 
 ### Versione Incoming

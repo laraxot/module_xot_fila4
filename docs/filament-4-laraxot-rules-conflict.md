@@ -20,18 +20,6 @@ class MyPage extends XotBaseViewRecord
 ### 2. **Struttura Namespace Corretta**
 ```php
 // ✅ CORRETTO
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
-
-// ❌ SBAGLIATO
-namespace Modules\Quaeris\App\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
->>>>>>> 92bc33604 (.)
-=======
->>>>>>> 38b70c7ba (.)
 namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
 
 // ❌ SBAGLIATO
@@ -40,11 +28,6 @@ namespace Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources
 
 // ❌ SBAGLIATO
 namespace Modules\<nome progetto>\App\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 ```
 
 ### 3. **Uso di Schema invece di Form**
@@ -90,22 +73,8 @@ class MyWidget extends Widget implements HasForms
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
->>>>>>> 92bc33604 (.)
-=======
->>>>>>> 38b70c7ba (.)
 namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
 namespace Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 
@@ -128,22 +97,8 @@ class ViewQuestionChart extends XotBaseViewRecord
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-namespace Modules\Quaeris\Filament\Widgets;
->>>>>>> 92bc33604 (.)
-=======
->>>>>>> 38b70c7ba (.)
 namespace Modules\Quaeris\Filament\Widgets;
 namespace Modules\<nome progetto>\Filament\Widgets;
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
@@ -208,18 +163,6 @@ public function getFormSchema(): array
 ### 3. **Namespace Errati**
 ```php
 // ❌ SBAGLIATO
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-namespace Modules\Quaeris\App\Filament\Widgets;
-
-// ✅ CORRETTO
-namespace Modules\Quaeris\Filament\Widgets;
->>>>>>> 92bc33604 (.)
-=======
->>>>>>> 38b70c7ba (.)
 namespace Modules\Quaeris\App\Filament\Widgets;
 
 // ✅ CORRETTO
@@ -228,11 +171,6 @@ namespace Modules\<nome progetto>\App\Filament\Widgets;
 
 // ✅ CORRETTO
 namespace Modules\<nome progetto>\Filament\Widgets;
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 ```
 
 ## 🔧 Implementazione Corretta
@@ -243,42 +181,14 @@ namespace Modules\<nome progetto>\Filament\Widgets;
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
->>>>>>> 92bc33604 (.)
-=======
->>>>>>> 38b70c7ba (.)
 namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
 namespace Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 
 use Filament\Actions\Action;
 use Filament\Actions\DeleteAction;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
->>>>>>> 92bc33604 (.)
-=======
->>>>>>> 38b70c7ba (.)
 use Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
 use Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 
 class ViewQuestionChart extends XotBaseViewRecord
 {
@@ -322,22 +232,8 @@ class ViewQuestionChart extends XotBaseViewRecord
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-namespace Modules\Quaeris\Filament\Widgets;
->>>>>>> 92bc33604 (.)
-=======
->>>>>>> 38b70c7ba (.)
 namespace Modules\Quaeris\Filament\Widgets;
 namespace Modules\<nome progetto>\Filament\Widgets;
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/develop
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;

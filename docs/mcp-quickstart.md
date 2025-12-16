@@ -78,10 +78,7 @@ npm install -g @iflow-ai/iflow-cli
 **Primo Utilizzo**:
 
 ```bash
-<<<<<<< HEAD
 cd /var/www/_bases/base_<nome progetto>_fila4_mono
-=======
->>>>>>> 38b70c7ba (.)
 
 # Inizializza progetto
 iflow
@@ -99,12 +96,9 @@ iflow
 
 **Accesso a**:
 
-<<<<<<< HEAD
 - `/var/www/_bases/base_<nome progetto>_fila4_mono/laravel`
 - `/var/www/_bases/base_<nome progetto>_fila4_mono/Modules`
 - `/var/www/_bases/base_<nome progetto>_fila4_mono/Themes`
-=======
->>>>>>> 38b70c7ba (.)
 
 **Cosa fa**: Legge/scrive file, esplora struttura progetto
 
@@ -148,10 +142,7 @@ iflow
 
 ```
 # In Cursor/Windsurf/Cline
-<<<<<<< HEAD
 Analizza gli errori PHPStan in Modules/<nome progetto> e suggerisci correzioni seguendo le regole in .windsurf/rules/
-=======
->>>>>>> 38b70c7ba (.)
 ```
 
 ### 2. Refactoring Modulo
@@ -187,10 +178,7 @@ iflow
 
 ```
 # Con memory + sequential-thinking
-<<<<<<< HEAD
 Analizza l'architettura del modulo <nome progetto>:
-=======
->>>>>>> 38b70c7ba (.)
 1. Identifica pattern utilizzati
 2. Documenta dipendenze
 3. Suggerisci miglioramenti
@@ -224,13 +212,10 @@ cat ~/.cursor/mcp.json | jq '.mcpServers.github.env'
 
 ```bash
 # Verifica permessi
-<<<<<<< HEAD
 ls -la /var/www/_bases/base_<nome progetto>_fila4_mono/
 
 # Fix permessi se necessario
 sudo chown -R $USER:$USER /var/www/_bases/base_<nome progetto>_fila4_mono/
-=======
->>>>>>> 38b70c7ba (.)
 ```
 
 ---

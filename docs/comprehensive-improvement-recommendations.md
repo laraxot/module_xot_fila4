@@ -578,10 +578,7 @@ public function processContacts(): Collection
 
 ### 1. Static Analysis
 ```bash
-<<<<<<< HEAD
 # PHPStan level 10+ compliance
-=======
->>>>>>> 38b70c7ba (.)
 vendor/bin/phpstan analyse --level=9
 
 # Laravel Pint formatting
@@ -630,10 +627,7 @@ jobs:
 ## 🎯 Success Criteria
 
 ### Technical
-<<<<<<< HEAD
 - [ ] PHPStan level 10+ compliance
-=======
->>>>>>> 38b70c7ba (.)
 - [ ] 85%+ test coverage
 - [ ] <5% code duplication
 - [ ] All SOLID principles followed

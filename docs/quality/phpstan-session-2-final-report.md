@@ -30,10 +30,7 @@
 
 | Module | Errors | Files | % of Total |
 |--------|--------|-------|------------|
-<<<<<<< HEAD
 | **<nome progetto>** | 441 | 68 | 100% of remaining |
-=======
->>>>>>> 38b70c7ba (.)
 
 ## Detailed Fixes - Xot Module (12 errors → 0)
 
@@ -108,10 +105,7 @@ The User module errors were automatically resolved by:
 
 The module already had proper structure but needed formatting alignment.
 
-<<<<<<< HEAD
 ## <nome progetto> Module Analysis (441 errors remaining)
-=======
->>>>>>> 38b70c7ba (.)
 
 ### Error Distribution by Type
 
@@ -148,12 +142,9 @@ The module already had proper structure but needed formatting alignment.
 | 10 | app/Filament/Widgets/QuestionChartAnswersWidget.php |
 | 9 | app/Filament/Pages/DashboardV2.php |
 
-<<<<<<< HEAD
 **Total**: 267 errors in top 15 files (60.5% of all <nome progetto> errors)
 
 ### Common <nome progetto> Patterns
-=======
->>>>>>> 38b70c7ba (.)
 
 #### 1. Dynamic Property Access
 ```php
@@ -232,10 +223,7 @@ public function getTenants(): Collection {
 }
 ```
 
-<<<<<<< HEAD
 ## Recommended <nome progetto> Fix Strategy
-=======
->>>>>>> 38b70c7ba (.)
 
 ### Phase 1: Fix Base Classes (High Impact)
 Focus on base classes that many widgets/pages extend:
@@ -278,10 +266,7 @@ Fix page-level issues:
 - **Phase 3**: 1 hour (actions)
 - **Phase 4**: 1 hour (pages)
 
-<<<<<<< HEAD
 **Total**: 5-7 hours for complete <nome progetto> cleanup
-=======
->>>>>>> 38b70c7ba (.)
 
 ## Key Learnings
 
@@ -310,13 +295,10 @@ Fix page-level issues:
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 # Analyze specific module
-<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/<nome progetto> --level=10
 
 # Analyze specific file
 ./vendor/bin/phpstan analyse Modules/<nome progetto>/app/Filament/Widgets/BaseTableWidget.php --level=10
-=======
->>>>>>> 38b70c7ba (.)
 
 # Format code
 ./vendor/bin/pint --dirty
@@ -341,10 +323,7 @@ for m in sorted(by_module.keys(), key=lambda x: by_module[x], reverse=True):
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1 2>&1 | tail -5
 
 # Detailed JSON analysis
-<<<<<<< HEAD
 ./vendor/bin/phpstan analyse Modules/<nome progetto> --error-format=json > <nome progetto>_errors.json
-=======
->>>>>>> 38b70c7ba (.)
 ```
 
 ## Success Metrics
@@ -364,10 +343,7 @@ for m in sorted(by_module.keys(), key=lambda x: by_module[x], reverse=True):
 - [ ] Add PHPDoc to LimeQuestion model for dynamic properties
 - [ ] Fix Contact.php model (24 errors)
 - [ ] Apply widget pattern fixes across similar files
-<<<<<<< HEAD
 - [ ] Document <nome progetto>-specific patterns discovered
-=======
->>>>>>> 38b70c7ba (.)
 - [ ] Final verification: 0 errors across all modules
 - [ ] Run Pint formatting on all changed files
 - [ ] Update progress report
@@ -381,10 +357,7 @@ All session work documented in:
 
 ## Conclusion
 
-<<<<<<< HEAD
 **Significant Progress**: 4 of 5 modules (80%) are now PHPStan Level 10 compliant with zero errors. The remaining 441 errors are concentrated in a single module (<nome progetto>) across 68 files, with 60% of errors in just 15 files.
-=======
->>>>>>> 38b70c7ba (.)
 
 **High Confidence**: The remaining work is systematic and follows repeatable patterns. BaseTableWidget fix will likely cascade to reduce many widget-related errors.
 
@@ -393,7 +366,4 @@ All session work documented in:
 ---
 
 **Session Completed**: 2025-10-22
-<<<<<<< HEAD
 **Ready for Session 3**: Fix <nome progetto> module (estimated 5-7 hours)
-=======
->>>>>>> 38b70c7ba (.)

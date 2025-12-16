@@ -22,8 +22,6 @@ class GetFirstModelClassByModelNameAction
     {
         /** @var array<string, class-string> $models */
         $models = app(GetAllModelsAction::class)->execute();
-<<<<<<< HEAD
-<<<<<<< HEAD
         Assert::keyExists(
             $models,
             $modelName,
@@ -31,157 +29,10 @@ class GetFirstModelClassByModelNameAction
         );
 
         $modelClass = $models[$modelName];
-=======
-<<<<<<< HEAD
->>>>>>> 7d72abc (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 15def8d (.)
         Assert::string(
             $modelClass,
             '['.__LINE__.']['.class_basename($this).']',
-<<<<<<< HEAD
         );
-=======
-<<<<<<< HEAD
-        $models = app(GetAllModelsAction::class)->execute();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 358ba79a7 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
-=======
->>>>>>> dbce41cec (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 6be8834c2 (.)
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
->>>>>>> 358ba79a7 (.)
-=======
->>>>>>> aba62c408 (.)
-        Assert::string(
-            $modelClass = collect($models)->get($modelName),
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
-=======
->>>>>>> 551c768c4 (.)
-        );
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
-=======
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> f1d4085 (.)
->>>>>>> 2f3197ab (.)
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 7468a7d2 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 5cf46378 (.)
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 218dfed3 (.)
-=======
->>>>>>> a67e542f (.)
-=======
-=======
->>>>>>> 358ba79a7 (.)
-=======
-<<<<<<< HEAD
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
->>>>>>> ce6fc085 (.)
-=======
->>>>>>> 091f883c (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> 7468a7d2 (.)
-=======
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 5cf46378 (.)
-=======
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> f1d4085 (.)
->>>>>>> dbce41cec (.)
-=======
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 6be8834c2 (.)
-=======
->>>>>>> 358ba79a7 (.)
-=======
->>>>>>> aba62c408 (.)
-=======
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> f1d4085 (.)
->>>>>>> efbf15eba (.)
-=======
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 9f27fc9a6 (.)
->>>>>>> 38b70c7ba (.)
 
         return $modelClass;
     }

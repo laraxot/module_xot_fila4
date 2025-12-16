@@ -69,10 +69,7 @@ interface UserContract extends
 > - `@property \Illuminate\Database\Eloquent\Collection<int, UserRole> $roles`
 > - `@property \Illuminate\Database\Eloquent\Collection<int, TeamContract> $teams`
 >
-<<<<<<< HEAD
 > Questo consente a PHPStan level 10 di riconoscere correttamente i magic attribute Eloquent quando i moduli (es. User, <nome progetto>) lavorano solo contro il contratto Xot.
-=======
->>>>>>> 38b70c7ba (.)
 
 ### 2. ProfileContract
 **File**: `app/Contracts/ProfileContract.php`
@@ -226,7 +223,6 @@ interface WithStateStatusContract
 
 ### 6. HasRecursiveRelationshipsContract
 **File**: `app/Contracts/HasRecursiveRelationshipsContract.php`
-<<<<<<< HEAD
 **Purpose**: Hierarchical and tree-like model structures
 
 ```php
@@ -266,8 +262,6 @@ interface HasRecursiveRelationshipsContract
     public function getDescendantsTree(): Collection;
 }
 ```
-=======
->>>>>>> 38b70c7ba (.)
 
 ## 🔧 Contract Implementation Guidelines
 

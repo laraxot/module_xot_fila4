@@ -8,45 +8,15 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\Cache;
 
-<<<<<<< HEAD
 /**
  * @extends Factory<Cache>
  */
-=======
-/**
- * @extends Factory<Cache>
- */
-<<<<<<< HEAD
-/**
- * @extends Factory<Cache>
- */
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
 class CacheFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
-<<<<<<< HEAD
      * @var class-string<Cache>
-=======
-     * @var class-string<Cache>
-<<<<<<< HEAD
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Cache>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-     * @var class-string<Model>
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
      */
     protected $model = Cache::class;
 

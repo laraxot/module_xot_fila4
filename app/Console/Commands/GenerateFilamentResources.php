@@ -5,11 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Console\Commands;
 
 use Exception;
-<<<<<<< HEAD
-=======
-use Exception;
-use Exception;
->>>>>>> 38b70c7ba (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
@@ -24,16 +19,8 @@ class GenerateFilamentResources extends Command
     public function handle(): int
     {
         $moduleName = $this->argument('module');
-<<<<<<< HEAD
-=======
 
         // Assicuriamoci che $moduleName sia una stringa
-<<<<<<< HEAD
->>>>>>> 38b70c7ba (.)
-
-        // Assicuriamoci che $moduleName sia una stringa
-=======
->>>>>>> 551c768c4 (.)
         if (! is_string($moduleName)) {
             $this->error('Il nome del modulo deve essere una stringa.');
 
@@ -43,60 +30,6 @@ class GenerateFilamentResources extends Command
         $module = Module::find($moduleName);
 
         if (! $module) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        if (!$module) {
-        
-
-        if (! $module) {
-        if (!$module) {
-        // Assicuriamoci che $moduleName sia una stringa
-        if (!is_string($moduleName)) {
-            $this->error('Il nome del modulo deve essere una stringa.');
-            return Command::FAILURE;
-        }
-
-        $module = Module::find($moduleName);
-
-        if (! $module) {
-        if (!$module) {
-        
-
-        // Assicuriamoci che $moduleName sia una stringa
-        if (!is_string($moduleName)) {
-            $this->error('Il nome del modulo deve essere una stringa.');
-            return Command::FAILURE;
-        }
-
-        $module = Module::find($moduleName);
-
-        if (! $module) {
-        if (!$module) {
-        if (! $module) {
-        if (!$module) {
-        
-        // Assicuriamoci che $moduleName sia una stringa
-        if (!is_string($moduleName)) {
-            $this->error("Il nome del modulo deve essere una stringa.");
-            return Command::FAILURE;
-        }
-        
-        $module = Module::find($moduleName);
-
-        if (! $module) {
-        if (!$module) {
-        if (!$module) {
-        if (!$module) {
-        if (!$module) {
-        if (!$module) {
-        if (!$module) {
-        if (!$module) {
-        if (!$module) {
-        if (!$module) {
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -106,138 +39,6 @@ class GenerateFilamentResources extends Command
 
         $modelsPath = $module->getPath().'/app/Models';
         if (! File::isDirectory($modelsPath)) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath().'/app/Models';
-        if (! File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath().'/app/Models';
-        if (! File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath().'/app/Models';
-        if (! File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath().'/app/Models';
-        if (! File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath().'/app/Models';
-        if (! File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath().'/app/Models';
-        if (! File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath().'/app/Models';
-        if (! File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-        $modelsPath = $module->getPath() . '/app/Models';
-        if (!File::isDirectory($modelsPath)) {
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -249,57 +50,9 @@ class GenerateFilamentResources extends Command
 
             // Assicuriamoci che $moduleName sia una stringa per strtolower
             $panelName = strtolower($moduleName);
-<<<<<<< HEAD
             $panel = $panelName.'::admin';
             $params = [
                 $modelName, // Resource name as positional argument
-=======
-            $panel = $panelName.'::admin';
-            $params = [
-                $modelName, // Resource name as positional argument
-<<<<<<< HEAD
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName.'::admin';
-            $params = [
-                $modelName, // Resource name as positional argument
-            $panel = $panelName . '::admin';
-            $panel = $panelName . '::admin';
-            $panel = $panelName . '::admin';
-            $panel = $panelName.'::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-            $panel = $panelName . '::admin';
-            $params = [
-                'name' => $modelName,
-=======
->>>>>>> 551c768c4 (.)
->>>>>>> 38b70c7ba (.)
                 '--panel' => $panel,
                 '--model-namespace' => "Modules\\{$moduleName}\\Models",
                 '--generate' => true,
@@ -309,11 +62,6 @@ class GenerateFilamentResources extends Command
             try {
                 Artisan::call('make:filament-resource', $params);
             } catch (Exception $e) {
-<<<<<<< HEAD
-=======
-            } catch (Exception $e) {
-            } catch (Exception $e) {
->>>>>>> 38b70c7ba (.)
                 $this->error($e->getMessage());
             }
             $this->info("Resource generata per il modello: {$modelName}");

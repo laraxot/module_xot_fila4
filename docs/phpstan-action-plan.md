@@ -3,7 +3,10 @@
 ## Executive Summary
 
 **Total Issues Identified:** 744 PHPStan errors
+<<<<<<< HEAD
 **Critical Modules:** Chart, Quaeris
+=======
+>>>>>>> b018eb3b5 (.)
 **Critical Modules:** Chart, <nome progetto>
 **Status:** 🔴 **Requires Immediate Action**
 
@@ -11,7 +14,10 @@
 
 ### Immediate Actions (Today)
 1. **Add Safe function imports** to all problematic files
+<<<<<<< HEAD
 2. **Comment out quantum code** in Quaeris module
+=======
+>>>>>>> b018eb3b5 (.)
 2. **Comment out quantum code** in <nome progetto> module
 3. **Run PHPStan again** to verify progress
 
@@ -34,7 +40,10 @@
 Modules/Chart/app/Actions/ChartJs/ExportToSvgAction.php
 Modules/Chart/app/Actions/ExportChartToPngAction.php
 Modules/Chart/app/Actions/ExportChartToSvgAction.php
+<<<<<<< HEAD
 Modules/Quaeris/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
+=======
+>>>>>>> b018eb3b5 (.)
 Modules/<nome progetto>/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
 # ... and others identified in analysis
 ```
@@ -53,7 +62,10 @@ use function Safe\htmlspecialchars;
 #### Task 1.2: Quantum Code Stabilization
 **Priority:** 🔴 CRITICAL
 **Estimated Time:** 1-2 hours
+<<<<<<< HEAD
 **Files:** Quaeris quantum actions
+=======
+>>>>>>> b018eb3b5 (.)
 **Files:** <nome progetto> quantum actions
 
 **Options:**
@@ -229,7 +241,10 @@ class ChartDataValidator
 - [Safe Library Documentation](https://github.com/thecodingmachine/safe)
 - [PHPStan Configuration](../phpstan.neon)
 - [Chart Module Documentation](../Chart/docs/)
+<<<<<<< HEAD
 - [Quaeris Module Documentation](../Quaeris/docs/)
+=======
+>>>>>>> b018eb3b5 (.)
 - [<nome progetto> Module Documentation](../<nome progetto>/docs/)
 
 ## Emergency Procedures

@@ -74,6 +74,11 @@
         "nunomaduro/collision": "^8.6",
         "orchestra/testbench": "*",
         "pestphp/pest": "*",
+<<<<<<< HEAD
+=======
+        "pestphp/pest-plugin-laravel": "*",
+        "pestphp/pest-plugin-livewire": "*",
+>>>>>>> b018eb3b5 (.)
         "pestphp/pest-plugin-type-coverage": "^3.6",
         "thecodingmachine/phpstan-safe-rule": "*"
     },

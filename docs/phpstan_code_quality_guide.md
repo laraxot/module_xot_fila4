@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 # PHPStan Code Quality Guide - Laraxot
 
 **Ultimo aggiornamento**: 2025-01-10  
 **Principi**: DRY + KISS + SOLID + Robust  
 **Stack**: Laravel 12 + Filament 4 + PHP 8.3 + Laraxot  
 **Obiettivo**: 0 errori PHPStan Level 10 + Complexity < 10 + Quality > 80%
+=======
+# PHPStan Code Quality Guide - base_ptvx_fila4_mono
+
+**Principi**: DRY + KISS + SOLID + Robust  
+**Stack**: Laravel 12 + Filament 4 + PHP 8.3 + Laraxot  
+**Obiettivo**: 0 errori PHPStan Level 10 + Complexity < 10 + Quality > 90%
+>>>>>>> 533c4fc00 (.)
 
 ---
 
@@ -46,7 +54,11 @@
 
 ```bash
 # Analisi PHPStan completa
+<<<<<<< HEAD
 cd /var/www/_bases/base_laravelpizza/laravel
+=======
+cd /var/www/_bases/base_ptvx_fila4_mono/laravel
+>>>>>>> 533c4fc00 (.)
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 # Analisi singolo modulo
@@ -69,6 +81,7 @@ composer dump-autoload && php artisan config:clear && php artisan cache:clear
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 Workflow Operativo - Metodologia "Super Mucca"
 
 ### Fase 0: SCELTA PRIORITÀ 🎯
@@ -234,6 +247,40 @@ php artisan test --filter={TestName}
 
 **Output**: Documentazione completa e aggiornata
 
+=======
+## 🎯 Workflow Operativo
+
+### Fase 1: Preparazione
+1. **Aumenta confidenza**: Studia architettura e business logic
+2. **Studia docs**: Leggi `Modules/{Modulo}/docs/` e `Themes/{Tema}/docs/`
+3. **Aggiorna docs**: Mantieni documentazione sempre aggiornata
+
+### Fase 2: Analisi
+```bash
+cd laravel
+./vendor/bin/phpstan analyse Modules --memory-limit=-1 > /tmp/phpstan-report.txt
+./vendor/bin/phpinsights analyse Modules/{Module} > /tmp/insights-report.txt
+```
+
+### Fase 3: Correzione Sistematica
+1. **Scegli modulo**: Inizia da moduli con meno errori (quick wins)
+2. **Categorizza errori**: Raggruppa per tipo (argument.type, return.type, ecc.)
+3. **Correggi batch**: Pattern simili insieme
+4. **Verifica incrementale**: Riesegui PHPStan dopo ogni batch
+5. **Aggiorna docs**: Documenta modifiche e pattern applicati
+6. **Quality check**: Verifica complexity e PHP Insights
+
+### Fase 4: Verifica Finale
+```bash
+./vendor/bin/phpstan analyse Modules --memory-limit=-1
+./vendor/bin/pint --dirty
+./vendor/bin/phpinsights analyse Modules/{Module}
+composer dump-autoload
+php artisan config:clear
+php artisan cache:clear
+```
+
+>>>>>>> 533c4fc00 (.)
 ---
 
 ## 🏗️ Regole Architetturali
@@ -258,7 +305,11 @@ php artisan test --filter={TestName}
 
 ### Metodi Resource Filament
 - Chi estende `XotBaseResource` **NON deve avere** `getTableColumns()`
+<<<<<<< HEAD
 - `getTableActions()` e `getTableBulkActions()` devono restituire `array<string, Action>` e `array<string, BulkAction>` rispettivamente
+=======
+- `getTableActions()` e `getTableBulkActions()` devono restituire `array<string, mixed>`
+>>>>>>> 533c4fc00 (.)
 - Se solo azioni standard → **rimuovile completamente**
 - Se azioni personalizzate → includi `...parent::getTableActions()`
 
@@ -319,17 +370,24 @@ $data = SafeArrayCastAction::cast($input);
 $title = SafeStringCastAction::cast($mod->title);
 ```
 
+<<<<<<< HEAD
 ### 4. Array Associativi Filament - Chiavi Sempre Stringhe
 
 **REGOLA CRITICA**: I metodi Filament restituiscono sempre `array<string, ...>` - le chiavi DEVONO essere stringhe esplicite, NON mixed, NON int.
 
 ```php
 // ❌ ERRORE - array<int, Action> (chiavi numeriche) - VIETATO
+=======
+### 4. Array Associativi Filament
+```php
+// ❌ ERRORE - array<int, Action>
+>>>>>>> 533c4fc00 (.)
 public function getTableActions(): array
 {
     return [EditAction::make(), DeleteAction::make()];
 }
 
+<<<<<<< HEAD
 // ❌ ERRORE - array<mixed, Action> (chiavi mixed) - VIETATO
 /**
  * @return array<mixed, Action>
@@ -340,6 +398,9 @@ public function getTableActions(): array
 }
 
 // ✅ CORRETTO - array<string, Action> (chiavi stringhe esplicite) - OBBLIGATORIO
+=======
+// ✅ CORRETTO - array<string, mixed>
+>>>>>>> 533c4fc00 (.)
 /**
  * @return array<string, Action>
  */
@@ -352,6 +413,7 @@ public function getTableActions(): array
 }
 ```
 
+<<<<<<< HEAD
 **Metodi che DEVONO restituire `array<string, ...>` con chiavi stringhe esplicite**:
 - `getTableColumns()` → `array<string, Column>` (chiavi string obbligatorie)
 - `getFormSchema()` → `array<string, Component>` (chiavi string obbligatorie)
@@ -374,6 +436,13 @@ public function getTableActions(): array
 // ❌ ERRORE - property_exists() NON funziona con magic attributes Eloquent
 if (property_exists($model, 'attribute')) {
     $value = $model->attribute; // PHPStan: Cannot access property on mixed
+=======
+### 5. Property Access su Mixed (Eloquent)
+```php
+// ❌ ERRORE - property_exists() NON funziona con magic attributes
+if (property_exists($model, 'attribute')) {
+    $value = $model->attribute;
+>>>>>>> 533c4fc00 (.)
 }
 
 // ✅ CORRETTO - usa isset() per magic attributes
@@ -381,6 +450,7 @@ if (isset($model->attribute)) {
     $value = $model->attribute;
 }
 
+<<<<<<< HEAD
 // ✅ ANCHE CORRETTO - validazione multipla con type narrowing
 if (is_object($model) && isset($model->attribute)) {
     $value = $model->attribute;
@@ -411,6 +481,12 @@ if (is_object($model) && isset($model->attribute)) {
     // Usa SafeCastActions per convertire se necessario
     $stringValue = SafeStringCastAction::cast($value);
 }
+=======
+// ✅ ANCHE CORRETTO - validazione multipla
+if (is_object($model) && isset($model->attribute)) {
+    $value = $model->attribute;
+}
+>>>>>>> 533c4fc00 (.)
 ```
 
 ### 6. Casts Completi per Properties
@@ -1102,6 +1178,7 @@ use Filament\Widgets\Widget;
 
 ---
 
+<<<<<<< HEAD
 ## 📚 Filament Class Extension Rules
 
 **Principio Fondamentale**: Mai estendere classi Filament direttamente - sempre usare classi XotBase
@@ -1530,6 +1607,8 @@ Prima di creare una nuova classe Filament:
 
 ---
 
+=======
+>>>>>>> 533c4fc00 (.)
 ## 📚 Risorse Filament v4
 
 Studia costantemente:
@@ -1738,4 +1817,7 @@ Dopo ogni modifica file:
 - [Autonomous Priority Rule](./autonomous-priority-rule.md)
 - [Super Mucca Methodology](./super-mucca-methodology.md)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 533c4fc00 (.)

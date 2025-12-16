@@ -35,7 +35,10 @@ use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
+=======
+>>>>>>> 533c4fc00 (.)
 
 class HealthPage extends XotBasePage
 {

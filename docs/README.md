@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 533c4fc00 (.)
 # Xot Module - Framework Base Laraxot
 
 **Status**: Core Module - Cuore del Framework  
@@ -101,6 +104,7 @@ Tutti gli Altri Moduli
 ---
 
 ## 📊 Stato Qualità
+<<<<<<< HEAD
 =======
 # 🏗️ **Xot Module** - Il Cuore del Framework Laraxot
 
@@ -110,6 +114,8 @@ Tutti gli Altri Moduli
 [![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
 [![Modular Architecture](https://img.shields.io/badge/Architecture-Modular%20Monolith-yellow.svg)](https://martinfowler.com/articles/modular-monolith.html)
 >>>>>>> 384ae3cdd (.)
+=======
+>>>>>>> 533c4fc00 (.)
 
 - **PHPStan Level**: 10 ✅
 - **File analizzati**: 799
@@ -117,6 +123,7 @@ Tutti gli Altri Moduli
 - **Complexity**: < 10 ✅
 - **Quality Score**: > 90% ✅
 
+<<<<<<< HEAD
 **Data ultima verifica**: 2 Dicembre 2025
 
 <<<<<<< HEAD
@@ -130,6 +137,24 @@ Il modulo **Xot** è il **framework base** di Laraxot, un ecosistema modulare ba
 ### Regole e Best Practices
 
 - [Super Mucca Workflow](./super-mucca-workflow.md) - Metodologia completa sviluppo
+=======
+**Data ultima verifica**: 16 Dicembre 2025
+
+---
+
+## 🔗 Documentazione Principale
+
+### Filosofia e Business Logic
+
+- [Business Logic e Filosofia](./business-logic-philosophy.md) - **MASTER DOC**: Filosofia, religione, politica, zen del progetto
+- [Livello Confidenza Massimo](./confidence-level-maximum.md) - **CONSOLIDAMENTO**: Analisi completa e comprensione profonda raggiunta
+- [Super Mucca Workflow](./super-mucca-workflow.md) - Metodologia completa sviluppo
+- [Priority Decision Rules](./priority-decision-rules.md) - Regole decisione priorità autonoma
+
+### Regole e Best Practices
+
+- [PHPStan Code Quality Guide](./phpstan_code_quality_guide.md) - **⭐ PRINCIPALE** - Guida completa PHPStan Level 10, patterns, workflow, best practices
+>>>>>>> 533c4fc00 (.)
 - [Filament Class Extension Rules](./filament-class-extension-rules.md) - Mapping Filament→XotBase
 - [Regole Critiche Progetto](./regole-critiche-progetto.md) - Tutte le regole assolute
 
@@ -157,6 +182,10 @@ Il modulo **Xot** è il **framework base** di Laraxot, un ecosistema modulare ba
 1. **Leggi**: [Super Mucca Workflow](./super-mucca-workflow.md)
 2. **Studia**: [Regole Critiche](./regole-critiche-progetto.md)
 3. **Applica**: [Filament Extension Rules](./filament-class-extension-rules.md)
+<<<<<<< HEAD
+=======
+4. **PHPStan**: [PHPStan Code Quality Guide](./phpstan_code_quality_guide.md)
+>>>>>>> 533c4fc00 (.)
 
 ### Per Creare Nuova Resource
 
@@ -209,12 +238,21 @@ class MyAction
 ## 📚 Collegamenti Esterni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 533c4fc00 (.)
 - [nwidart/laravel-modules](https://github.com/nWidart/laravel-modules)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
 - [Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
 - [Filament v4 Documentation](https://filamentphp.com/docs/4.x)
+<<<<<<< HEAD
 =======
 ### Strumenti di Qualità
+=======
+
+### Strumenti di Qualità
+
+>>>>>>> 533c4fc00 (.)
 - **PHPStan**: Livello 10. La configurazione è in `phpstan.neon`.
 - **Pest**: Utilizzato per i test della business logic nei moduli core.
 - **Laravel Pint**: Formattazione del codice secondo lo standard PSR-12 e le convenzioni Laraxot.
@@ -227,6 +265,7 @@ Esegui i controlli di qualità dalla root del progetto Laravel:
 ```
 
 ### 🏆 PHPStan Level 10 Compliance
+<<<<<<< HEAD
 
 Il modulo Xot ha raggiunto la piena conformità PHPStan Level 10 senza compromessi:
 - Zero baseline entries
@@ -329,6 +368,27 @@ Configurazione automatica tramite service providers.
 
 <<<<<<< HEAD
 ## 🔄 Ultimi Aggiornamenti
+=======
+
+Il modulo Xot ha raggiunto la piena conformità PHPStan Level 10 senza compromessi:
+- Zero baseline entries
+- Nessuna modifica a phpstan.neon
+- Solo correzioni reali del codice
+- Type safety al 100%
+
+---
+
+## 🔄 Ultimi Aggiornamenti
+
+**16 Dicembre 2025**:
+- ✅ Creato documento master [Business Logic e Filosofia](./business-logic-philosophy.md)
+- ✅ Consolidata comprensione profonda architettura Laraxot
+- ✅ Documentati pattern business logic per tutti i moduli principali
+- ✅ Creati script analisi naming file .md e categorizzazione script
+- ✅ Identificati 125 file .md con date da rinominare
+- ✅ Identificati 103 script nella root bashscripts da categorizzare
+- ✅ Aggiornato [PHPStan Code Quality Guide](./phpstan_code_quality_guide.md) con contenuto completo
+>>>>>>> 533c4fc00 (.)
 
 **2 Dicembre 2025**:
 - ✅ Aggiunte 4 helper functions (inAdmin, getModuleModels, getRouteParameters, params2ContainerItem)
@@ -340,6 +400,7 @@ Configurazione automatica tramite service providers.
 
 ---
 
+<<<<<<< HEAD
 **Maintainer**: Team Laraxot  
 **License**: MIT  
 **Repository**: [laraxot/module_xot_fila3](https://github.com/laraxot/module_xot_fila3)
@@ -358,6 +419,9 @@ Configurazione automatica tramite service providers.
 
 =======
 ## 🏆 **Achievements**
+=======
+## 🏆 Achievements
+>>>>>>> 533c4fc00 (.)
 
 - **🏅 Framework Base**: Cuore architetturale Laraxot ✅
 - **🏅 PHPStan Level 10**: Classi base certificate ✅
@@ -366,20 +430,25 @@ Configurazione automatica tramite service providers.
 - **🏅 Traits Ecosystem**: 20+ traits per funzionalità comuni ✅
 - **🏅 Service Providers**: Pattern standardizzato per moduli ✅
 
+<<<<<<< HEAD
 ## 📈 **Statistics**
+=======
+---
+>>>>>>> 533c4fc00 (.)
 
-- **🏗️ Classi Base**: 15+ classi fondamentali
-- **🔧 Traits Disponibili**: 20+ traits per funzionalità comuni
-- **📦 Service Providers**: Pattern standardizzato per tutti i moduli
-- **🎨 Componenti Filament**: Widget, Resources, Forms base
-- **🧪 Test Coverage**: 95%
-- **⚡ Performance Score**: 98/100
+**Maintainer**: Team Laraxot  
+**License**: MIT  
+**Repository**: [laraxot/module_xot_fila3](https://github.com/laraxot/module_xot_fila3)
 
 ---
 
+<<<<<<< HEAD
 **🔄 Ultimo aggiornamento**: Gennaio 2025  
 **📦 Versione**: 3.0.0  
 **🐛 PHPStan Level 10**: Classi base certificate ✅  
 **🌐 Translation Standards**: Template traduzioni certificate ✅  
 **🚀 Performance**: 98/100 score
 >>>>>>> 384ae3cdd (.)
+=======
+*"Xot è il fondamento su cui tutto il framework Laraxot si costruisce."*
+>>>>>>> 533c4fc00 (.)

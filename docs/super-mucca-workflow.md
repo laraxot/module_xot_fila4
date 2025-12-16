@@ -38,6 +38,22 @@
 
 ## 📋 Workflow Operativo Completo
 
+### Fase 0: SCELTA PRIORITÀ 🎯
+
+**REGOLA FONDAMENTALE**: L'AI Assistant DEVE SEMPRE scegliere autonomamente la priorità dei task.
+
+**Criteri di Priorità**:
+1. **CRITICO**: Conflitti Git, errori PHPStan L10, bug sicurezza, errori sintassi
+2. **ALTO**: Refactoring architetturale, documentazione critica, performance issues
+3. **MEDIO**: Miglioramenti codice, documentazione generale, test coverage
+4. **BASSO**: Code style, commenti, ottimizzazioni minori
+
+**Vedi**: [Priority Decision Rules](./priority-decision-rules.md)
+
+**Output**: Priorità chiara e motivata
+
+---
+
 ### Fase 1: ANALISI PROFONDA 🔍
 
 **Obiettivo**: Capire il PERCHÉ, non solo il COSA

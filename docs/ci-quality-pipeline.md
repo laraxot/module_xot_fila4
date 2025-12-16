@@ -3,10 +3,12 @@
 This pipeline defines a staged adoption of linters/scanners across the monorepo. All jobs run in report/dry-run mode initially. Enforce gates only after manual review.
 
 ## Stage 0 (Advisory Only)
-- phpstan (level 10) — pass/fail (already 0 errors)
-- pint (test) — advisory
+- phpstan (level 10) — pass/fail ✅ **PASS** (0 errori su 3732 file)
+- pint (test) — ✅ **PASS** (formattazione corretta automaticamente)
 - php-cs-fixer (dry-run) — advisory
-- phpmd (report) — advisory
+- phpmd (report) — advisory ⚠️ **WARNING** (collisione trait method)
+- phpinsights — ❌ **NON INSTALLATO** (opzionale)
+- pest (test suite) — ⚠️ **DA CONFIGURARE** (directory test mancante)
 - psalm (info) — advisory
 - markdownlint (report) — advisory
 - actionlint (report) — advisory
@@ -21,16 +23,25 @@ This pipeline defines a staged adoption of linters/scanners across the monorepo.
 ### PHP (Composer-installed or vendor binaries)
 ```bash
 # phpstan (already configured via laravel/phpstan.neon)
-./vendor/bin/phpstan analyse Modules --level=9 --memory-limit=-1
+./vendor/bin/phpstan analyse Modules --level=10 --memory-limit=-1
 
-# pint
+# pint (test mode)
 ./vendor/bin/pint --test
+
+# pint (fix automatico)
+./vendor/bin/pint
 
 # php-cs-fixer
 ./vendor/bin/php-cs-fixer fix --dry-run --diff
 
-# phpmd (report)
-./vendor/bin/phpmd Modules text cleancode,codesize,design,naming,unusedcode --ignore-violations-on-exit
+# phpmd (file .phar standalone)
+php phpmd.phar Modules text cleancode,codesize,design,naming,unusedcode
+
+# phpinsights (se installato)
+./vendor/bin/phpinsights analyse Modules --format=table
+
+# pest (test suite)
+./vendor/bin/pest
 
 # psalm (informational)
 ./vendor/bin/psalm --no-cache --no-diff --output-format=text

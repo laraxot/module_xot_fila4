@@ -38,6 +38,17 @@
    - Actions invece di Services
    - Anti-patterns da evitare
 
+6. **[Code Quality Tools Setup](./code-quality-tools-setup.md)**
+   - PHPStan (Composer)
+   - PHPMD (file .phar standalone)
+   - PHP Insights (Composer)
+   - Workflow completo
+
+7. **[CI/CD Tools Execution Report](./ci-cd-tools-execution-report.md)**
+   - Report esecuzione tool CI/CD
+   - Risultati PHPStan, PHPMD, Pint, Pest
+   - Azioni richieste e metriche qualità
+
 ### Regole per Moduli
 
 6. **[Regole Modulo Meetup](../../Meetup/docs/critical-rules-consolidated.md)**
@@ -75,6 +86,7 @@
 - [x] Architettura Frontoffice
 - [x] Documentazione Markdown
 - [x] Controlli Qualità Codice
+- [x] Code Quality Tools Setup
 - [x] Estensioni Filament
 - [x] Sistema Traduzioni
 - [x] Actions Pattern

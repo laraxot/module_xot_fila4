@@ -8,9 +8,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-use Filament\Widgets\WidgetConfiguration;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
+use Filament\Widgets\WidgetConfiguration;
 use Illuminate\Support\Facades\Artisan;
 use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
@@ -35,10 +35,6 @@ use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
-<<<<<<< HEAD
-use Modules\Xot\Filament\Pages\XotBasePage;
-=======
->>>>>>> 533c4fc00 (.)
 
 class HealthPage extends XotBasePage
 {

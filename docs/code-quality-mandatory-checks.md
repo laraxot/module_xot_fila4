@@ -12,8 +12,8 @@
 **OGNI VOLTA CHE MODIFICHI UN FILE PHP, DEVI CONTROLLARLO CON:**
 
 1. **PHPStan livello 10**: `./vendor/bin/phpstan analyse --level=10 path/to/file.php`
-2. **PHPMD** (se disponibile): `./vendor/bin/phpmd path/to/file.php text path/to/phpmd.ruleset.xml`
-3. **PHPInsights** (se disponibile): `./vendor/bin/phpinsights analyse path/to/file.php`
+2. **PHPMD** (file .phar standalone): `php phpmd.phar path/to/file.php text cleancode,codesize,design,naming`
+3. **PHPInsights** (via Composer): `./vendor/bin/phpinsights analyse path/to/file.php` oppure `php artisan insights` (se installato)
 
 **NON COMMITARE MAI codice che non passa questi controlli!**
 
@@ -23,8 +23,19 @@
 
 1. **Modifica il file**
 2. **Esegui PHPStan livello 10** - Corregge TUTTI gli errori (NON procedere se ci sono errori)
-3. **Esegui PHPMD** - Risolve code smells (se disponibile)
-4. **Esegui PHPInsights** - Verifica qualità complessiva (se disponibile)
+   ```bash
+   ./vendor/bin/phpstan analyse --level=10 path/to/file.php
+   ```
+3. **Esegui PHPMD** - Risolve code smells (file .phar standalone)
+   ```bash
+   php phpmd.phar path/to/file.php text cleancode,codesize,design,naming
+   ```
+4. **Esegui PHPInsights** - Verifica qualità complessiva (se installato via Composer)
+   ```bash
+   ./vendor/bin/phpinsights analyse path/to/file.php
+   # oppure
+   php artisan insights
+   ```
 5. **Commit solo se tutti i controlli passano**
 
 ## Verifica Finale

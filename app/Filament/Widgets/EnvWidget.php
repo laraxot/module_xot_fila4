@@ -4,29 +4,208 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
+=======
+use Filament\Schemas\Schema;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Component;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Schemas\Schema;
+use Filament\Forms;
+use Filament\Forms;
+use Filament\Forms\ComponentContainer;
+use Filament\Forms;
+use Filament\Forms\ComponentContainer;
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
+=======
+use Filament\Schemas\Components\Component;
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 use Filament\Widgets\Widget;
 use Illuminate\Support\Arr;
 use Modules\Xot\Datas\EnvData;
 
 /**
+<<<<<<< HEAD
  * @property Schema $form
  */
 class EnvWidget extends Widget implements HasActions, HasForms
+=======
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasActions, HasForms
+<<<<<<< HEAD
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasActions, HasForms
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property \Filament\Schemas\Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+class EnvWidget extends Widget implements HasForms, HasActions
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 {
     use InteractsWithActions;
     use InteractsWithForms;
 
     /** @var array<string, mixed>|null */
     public ?array $data = [];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+    public ?array $data = [];
+    public null|array $data = [];
+    public null|array $data = [];
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
     public array $only = [];
 
@@ -44,11 +223,108 @@ class EnvWidget extends Widget implements HasActions, HasForms
     public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
+<<<<<<< HEAD
+=======
+    public function form(Schema $schema): Schema
+    {
+        return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
+    public function form(Schema $schema): Schema
+    {
+        return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
+        return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
+    public function form(Forms\Form $form): Forms\Form
+    {
+        return $form
+            ->schema($this->getFormSchema())
+            ->columns(1)
+            ->statePath('data');
+>>>>>>> 38b70c7ba (.)
     }
 
     public function submit(): void
     {
         if (! is_array($this->data)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (! is_array($this->data)) {
+        if (!is_array($this->data)) {
+        if (!is_array($this->data)) {
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
             return;
         }
         EnvData::make()->update($this->data);
@@ -67,6 +343,30 @@ class EnvWidget extends Widget implements HasActions, HasForms
 
     /**
      * @return array<Component>
+<<<<<<< HEAD
+=======
+        /*
+         * dddx([
+         * 'data' => $this->data,
+         * // 'data1' => $this->form->getState(),
+         * ]);
+         */
+    }
+
+    /**
+     * @return array<\Filament\Schemas\Components\Component>
+     * @return array<Component>
+        /*
+        dddx([
+            'data' => $this->data,
+            // 'data1' => $this->form->getState(),
+        ]);
+        */
+    }
+
+    /**
+     * @return array<Forms\Components\Component>
+>>>>>>> 38b70c7ba (.)
      */
     public function getFormSchema(): array
     {
@@ -78,6 +378,22 @@ class EnvWidget extends Widget implements HasActions, HasForms
             'debugbar_enabled' => Toggle::make('debugbar_enabled')->helperText(
                 'Enable/Disable debug mode to help debug errors',
             ),
+<<<<<<< HEAD
+=======
+
+                ->placeholder('http://localhost')
+                ->helperText('Required for file uploads and other internal configs')
+                ->required(),
+            'debugbar_enabled' => Toggle::make('debugbar_enabled')
+
+                ->helperText('Enable/Disable debug mode to help debug errors'),
+                ->placeholder('http://localhost')
+                ->helperText('Required for file uploads and other internal configs')
+                ->required(),
+            'debugbar_enabled' => Toggle::make('debugbar_enabled')->helperText(
+                'Enable/Disable debug mode to help debug errors',
+            ),
+>>>>>>> 38b70c7ba (.)
             'google_maps_api_key' => TextInput::make('google_maps_api_key')
                 ->placeholder('AIzaSyAuB_...')
                 ->helperText('google maps api key'),
@@ -90,5 +406,44 @@ class EnvWidget extends Widget implements HasActions, HasForms
          * @var array<Component>
          */
         return Arr::only($all, $this->only);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+         * @var array<Component>
+         * @var array<Component>
+         * @var array<Component>
+         * @var array<Forms\Components\Component>
+         */
+        return Arr::only($all, $this->only);
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     }
 }

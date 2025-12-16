@@ -1,8 +1,172 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+>>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 6d05deed (.)
+<<<<<<< HEAD
+>>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 39bb163e (.)
+<<<<<<< HEAD
+>>>>>>> d9f43fce9 (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Approccio Sistematico PHPStan - Framework Laraxot
 
 **Creato**: 2025-09-10
 **Scopo**: Guida operativa per correggere sistematicamente TUTTI gli errori PHPStan
+<<<<<<< HEAD
 **Principi**: DRY + KISS + Type Safety level 10/10
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Principi**: DRY + KISS + Type Safety level 10/10
+=======
+>>>>>>> 62cc8443 (.)
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+<<<<<<< HEAD
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+**Principi**: DRY + KISS + Type Safety Level 9/10
+=======
+>>>>>>> d86d643a (.)
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
+=======
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> cf971011 (.)
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
+=======
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+>>>>>>> 7e4835b8e (.)
+=======
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> 6d05deed (.)
+<<<<<<< HEAD
+>>>>>>> 9f193021d (.)
+=======
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> 39bb163e (.)
+<<<<<<< HEAD
+>>>>>>> d9f43fce9 (.)
+=======
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
+=======
+**Principi**: DRY + KISS + Type Safety level 10/10
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 ## 🏗️ Architettura Fondamentale
 
@@ -134,7 +298,99 @@ $collection->get('key', 'default');
 
 ## 🎯 Obiettivi Finali
 
+<<<<<<< HEAD
 - [ ] Zero errori PHPStan level 10+ su tutti i moduli
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [ ] Zero errori PHPStan level 10+ su tutti i moduli
+=======
+>>>>>>> 62cc8443 (.)
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+<<<<<<< HEAD
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+=======
+>>>>>>> d86d643a (.)
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
+=======
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> cf971011 (.)
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
+=======
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+>>>>>>> 7e4835b8e (.)
+=======
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> 6d05deed (.)
+<<<<<<< HEAD
+>>>>>>> 9f193021d (.)
+=======
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> 39bb163e (.)
+<<<<<<< HEAD
+>>>>>>> d9f43fce9 (.)
+=======
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
+=======
+- [ ] Zero errori PHPStan level 10+ su tutti i moduli
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 - [ ] Documentazione aggiornata per ogni modulo
 - [ ] Pattern comuni documentati e riutilizzabili
 - [ ] Framework robusto per sviluppi futuri
@@ -146,4 +402,149 @@ $collection->get('key', 'default');
 - [PHPStan Consolidated Guide](consolidated/phpstan/phpstan-consolidated.md)
 
 ---
+<<<<<<< HEAD
 *Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+<<<<<<< HEAD
+=======
+>>>>>>> ab5b3a4f (.)
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+>>>>>>> 80bc07e81 (.)
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+>>>>>>> d9f43fce9 (.)
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+>>>>>>> 9f193021d (.)
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+>>>>>>> 7e4835b8e (.)
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+>>>>>>> 88e745db5 (.)
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
+>>>>>>> ecd5ec32 (.)
+=======
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 5a14301c (.)
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> cf971011 (.)
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+<<<<<<< HEAD
+>>>>>>> 5e6aa70fe (.)
+=======
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+>>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+<<<<<<< HEAD
+>>>>>>> e39b54ba7 (.)
+=======
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 6d05deed (.)
+<<<<<<< HEAD
+>>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 0d20089f (.)
+<<<<<<< HEAD
+>>>>>>> ba7efc23f (.)
+=======
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 39bb163e (.)
+<<<<<<< HEAD
+>>>>>>> d9f43fce9 (.)
+=======
+=======
+>>>>>>> b396242e (.)
+<<<<<<< HEAD
+>>>>>>> 5df5c7505 (.)
+=======
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)

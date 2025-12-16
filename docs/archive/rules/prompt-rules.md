@@ -35,8 +35,81 @@ Non è necessario applicare questa regola a:
 - Documentazione dei prompt 
 
 ## Collegamenti tra versioni di PROMPT_RULES.md
+<<<<<<< HEAD
 * [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
+>>>>>>> 85cdef688 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> ce6fc085 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> ecd5ec32 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> 2bad128c (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> 358ba79a7 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> 5e6aa70fe (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> f8f76a284 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> e39b54ba7 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> 5e6e0d054 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
+>>>>>>> 1a525d0ea (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> ba7efc23f (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> 0117b849c (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> 5df5c7505 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 
 
 ## Collegamenti tra versioni di prompt_rules.md

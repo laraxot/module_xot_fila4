@@ -127,4 +127,7 @@ Analisi sistematica di tutti i moduli con PHPStan livello 10, PHPMD e PHPInsight
 **Data**: 2025-01-22  
 **Analista**: AI Assistant
 
+<<<<<<< HEAD:docs/quality-analysis/final-status.md
 
+=======
+>>>>>>> 38b70c7ba (.):docs/quality-analysis/final-status-2025-01-22.md

@@ -1,7 +1,108 @@
 # Regole Generali di Sviluppo del Progetto
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Documentazione generale progetto](/docs/README.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 85cdef688 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 6ca989d8 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+=======
+- [Documentazione generale progetto](/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 091f883c (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 67be6ac0 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+=======
+- [Documentazione generale progetto](/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 59259b43 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 88ee35c4e (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+=======
+- [Documentazione generale progetto](/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> aba62c408 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 92cca5ade (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+=======
+- [Documentazione generale progetto](/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 5cb992cc6 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 6a52563d6 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+=======
+- [Documentazione generale progetto](/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 3c8d62b79 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 317b552da (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+=======
+- [Documentazione generale progetto](/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 60f0a1820 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 - [Regole Filament](filament-best-practices.md)
 - [Convenzioni Namespace](namespace-conventions.md)
 - [Standard di Codice](code-standards.md)
@@ -249,7 +350,108 @@ protected function casts(): array
 
 ### Regola Fondamentale
 - **docs/ (root)**: Solo informazioni generali del progetto + collegamenti ai moduli
+<<<<<<< HEAD
 - **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 85cdef688 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6ca989d8 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+=======
+- **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 091f883c (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 67be6ac0 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+=======
+- **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 59259b43 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 88ee35c4e (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+=======
+- **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> aba62c408 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 92cca5ade (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+=======
+- **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 5cb992cc6 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6a52563d6 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+=======
+- **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 3c8d62b79 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 317b552da (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+=======
+- **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 60f0a1820 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 - **Collegamenti bidirezionali**: Root ↔ Moduli per navigazione fluida
 
 ### Naming Convention Docs
@@ -265,7 +467,108 @@ docs/                           # Generale + collegamenti
 ├── modules.md                  # Link ai moduli
 └── development/                # Guide sviluppo generali
 
+<<<<<<< HEAD
 Modules/{Module}/docs/          # Specifica modulo
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 85cdef688 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 6ca989d8 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+=======
+Modules/{Module}/project_docs/          # Specifica modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 091f883c (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 67be6ac0 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+=======
+Modules/{Module}/project_docs/          # Specifica modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 59259b43 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 88ee35c4e (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+=======
+Modules/{Module}/project_docs/          # Specifica modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> aba62c408 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 92cca5ade (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+=======
+Modules/{Module}/project_docs/          # Specifica modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 5cb992cc6 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 6a52563d6 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+=======
+Modules/{Module}/project_docs/          # Specifica modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 3c8d62b79 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 317b552da (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+=======
+Modules/{Module}/project_docs/          # Specifica modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 60f0a1820 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 ├── index.md                    # Indice del modulo
 ├── feature-name.md            # Documentazione feature specifica
 ├── api/                       # Documentazione API
@@ -337,7 +640,108 @@ Progettare sempre pensando che il codice dovrà superare:
 ### File da Aggiornare Sempre
 - `.cursor/rules/`
 - `.windsurf/rules/`
+<<<<<<< HEAD
 - `Modules/Xot/docs/`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 85cdef688 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 6ca989d8 (.)
+=======
+- `Modules/Xot/docs/`
+=======
+- `Modules/Xot/project_docs/`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 091f883c (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 67be6ac0 (.)
+=======
+- `Modules/Xot/docs/`
+=======
+- `Modules/Xot/project_docs/`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 59259b43 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 88ee35c4e (.)
+=======
+- `Modules/Xot/docs/`
+=======
+- `Modules/Xot/project_docs/`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> aba62c408 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 92cca5ade (.)
+=======
+- `Modules/Xot/docs/`
+=======
+- `Modules/Xot/project_docs/`
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 5cb992cc6 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 6a52563d6 (.)
+=======
+- `Modules/Xot/docs/`
+=======
+- `Modules/Xot/project_docs/`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 3c8d62b79 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 317b552da (.)
+=======
+- `Modules/Xot/docs/`
+=======
+- `Modules/Xot/project_docs/`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 60f0a1820 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 - Memoria personale
 - Collegamenti bidirezionali
 

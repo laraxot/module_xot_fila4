@@ -2,7 +2,10 @@
 
 ## Panoramica
 
+<<<<<<< HEAD
 iFlow supporta server MCP tramite pacchetti Python. Questa guida descrive come configurare i server MCP per il progetto <nome progetto> Fila4 Mono con iFlow.
+=======
+>>>>>>> 38b70c7ba (.)
 
 ## Prerequisiti
 
@@ -141,7 +144,10 @@ def analyze_php_file(file_path: str) -> dict:
             ["vendor/bin/phpstan", "analyse", file_path, "--level", "10", "--no-progress", "--error-format", "json"],
             capture_output=True,
             text=True,
+<<<<<<< HEAD
             cwd="/var/www/_bases/base_<nome progetto>_fila4_mono/laravel"
+=======
+>>>>>>> 38b70c7ba (.)
         )
         
         if result.returncode == 0:
@@ -181,7 +187,10 @@ def run_artisan_command(command: str, args: list = None) -> dict:
             cmd,
             capture_output=True,
             text=True,
+<<<<<<< HEAD
             cwd="/var/www/_bases/base_<nome progetto>_fila4_mono/laravel"
+=======
+>>>>>>> 38b70c7ba (.)
         )
         
         return {
@@ -240,10 +249,13 @@ Aggiungere al file `~/.cursor/mcp.json`:
         "MINIMAX_API_KEY": "${MINIMAX_API_KEY}"
       }
     },
+<<<<<<< HEAD
     "phpstan-<nome progetto>": {
       "url": "http://localhost:8003/sse"
     },
     "artisan-<nome progetto>": {
+=======
+>>>>>>> 38b70c7ba (.)
       "url": "http://localhost:8004/sse"
     }
   }

@@ -178,6 +178,11 @@ if (!$condition) {
 }
 
 // ❌ LASCIARE MARKER GIT
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> commit-hash
+>>>>>>> 38b70c7ba (.)
 ```
 
 ### ❌ Import Duplicati

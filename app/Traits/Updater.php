@@ -17,6 +17,51 @@ use Webmozart\Assert\Assert;
  * @property int|null $created_by ID dell'utente che ha creato il record
  * @property int|null $updated_by ID dell'utente che ha aggiornato il record
  * @property int|null $deleted_by ID dell'utente che ha eliminato il record
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 551c768c4 (.)
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $updater
+ * @property-read ProfileContract|null $deleter
+ *
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $updater
+ * @property-read ProfileContract|null $deleter
+=======
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+>>>>>>> 38b70c7ba (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @property-read ProfileContract|null $deleter
@@ -24,14 +69,359 @@ use Webmozart\Assert\Assert;
 trait Updater
 {
     /**
+<<<<<<< HEAD
      * Get the user who created the model.
+=======
+     * Get the user who created the model.
+<<<<<<< HEAD
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Get the user who created the model.
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
      */
     public function creator(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+<<<<<<< HEAD
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
+=======
+<<<<<<< HEAD
+        // @phpstan-ignore return.type
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 2f3197ab (.)
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+<<<<<<< HEAD
+        // @phpstan-ignore return.type
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+        return $this->belongsTo(
+            $profileClass,
+            'created_by',
+            'user_id'
+        );
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
+>>>>>>> 6be8834c2 (.)
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+=======
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 4fb9bc4b (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> c2f6854c (.)
+=======
+>>>>>>> 551c768c4 (.)
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+<<<<<<< HEAD
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
+        return $this->belongsTo(
+            $profileClass,
+            'created_by',
+            'user_id'
+        );
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
+=======
+=======
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 73eab74 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> a12f125f4a (.)
+=======
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+=======
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+=======
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+>>>>>>> 38b70c7ba (.)
     }
 
     /**
@@ -42,10 +432,566 @@ trait Updater
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+<<<<<<< HEAD
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
     }
 
     /**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // @phpstan-ignore return.type
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cb992cc6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> aa96bb619 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f7e6113c6 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5e6e0d054 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3c8d62b79 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 60f0a1820 (.)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+=======
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+=======
+>>>>>>> dbce41cec (.)
+        return $this->belongsTo(
+            $profileClass,
+            'created_by',
+            'user_id'
+        );
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
+    }
+
+    /**
+     * Get the last user who updated the model.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+     */
+    public function updater(): BelongsTo
+    {
+        /** @var class-string<ProfileContract&Model> $profileClass */
+        $profileClass = XotData::make()->getProfileClass();
+
+        // @phpstan-ignore return.type
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 2f3197ab (.)
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+<<<<<<< HEAD
+        // @phpstan-ignore return.type
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> b956ebe0 (.)
+<<<<<<< HEAD
+>>>>>>> aba62c408 (.)
+=======
+=======
+>>>>>>> a62d7646 (.)
+<<<<<<< HEAD
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+=======
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 4fb9bc4b (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> c2f6854c (.)
+=======
+>>>>>>> 551c768c4 (.)
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+<<<<<<< HEAD
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
+        return $this->belongsTo(
+            $profileClass,
+            'updated_by',
+            'user_id'
+        );
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1d4085 (.)
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 73eab74 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> a12f125f4a (.)
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+    }
+
+    /**
+<<<<<<< HEAD
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        // @phpstan-ignore return.type
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+        return $this->belongsTo(
+            $profileClass,
+            'updated_by',
+            'user_id'
+        );
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 1c4bb8cf (.)
+>>>>>>> 6be8834c2 (.)
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+=======
+        return $this->belongsTo(
+            $profileClass,
+            'updated_by',
+            'user_id'
+        );
+>>>>>>> f1d4085 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+=======
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+=======
+>>>>>>> dbce41cec (.)
+        return $this->belongsTo(
+            $profileClass,
+            'updated_by',
+            'user_id'
+        );
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+    }
+
+    /**
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
      * Get the user who deleted the model.
      */
     public function deleter(): BelongsTo
@@ -61,6 +1007,95 @@ trait Updater
      */
     protected static function bootUpdater(): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+>>>>>>> 38b70c7ba (.)
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -80,12 +1115,399 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+=======
+        static::creating(
+            static function (Model $model): void {
+                Assert::isArray($attributes = $model->getAttributes());
+=======
+        static::creating(static function (Model $model): void {
+            Assert::isArray($attributes = $model->getAttributes());
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+
+            if (array_key_exists('created_by', $attributes)) {
+                $model->setAttribute('created_by', authId());
+            }
+
+            if (array_key_exists('updated_by', $attributes)) {
+                $model->setAttribute('updated_by', authId());
+            }
+<<<<<<< HEAD
+        );
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        );
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 0117b849c (.)
+        });
+
+        static::updating(static function (Model $model): void {
+            Assert::isArray($attributes = $model->getAttributes());
+
+            if (array_key_exists('updated_by', $attributes)) {
+                $model->setAttribute('updated_by', authId());
+            }
+        });
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 2f3197ab (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 0117b849c (.)
+        static::creating(
+            static function (Model $model): void {
+                Assert::isArray($attributes = $model->getAttributes());
+
+                if (array_key_exists('created_by', $attributes)) {
+                    $model->setAttribute('created_by', authId());
+                }
+
+                if (array_key_exists('updated_by', $attributes)) {
+                    $model->setAttribute('updated_by', authId());
+                }
+            }
+        );
+
+        static::updating(
+            static function (Model $model): void {
+                Assert::isArray($attributes = $model->getAttributes());
+
+                if (array_key_exists('updated_by', $attributes)) {
+                    $model->setAttribute('updated_by', authId());
+                }
+            }
+        );
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 5cf46378 (.)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+>>>>>>> 38b70c7ba (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
+<<<<<<< HEAD
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+        static::deleting(static function (Model $model): void {
+            Assert::isArray($attributes = $model->getAttributes());
+<<<<<<< HEAD
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+        static::deleting(static function (Model $model): void {
+            Assert::isArray($attributes = $model->getAttributes());
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->attributes);
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
             if (\in_array('deleted_by', array_keys($attributes), false)) {
                 $model->setAttribute('deleted_by', authId());
@@ -95,3 +1517,249 @@ trait Updater
 }
 
 // end trait Updater
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+=======
+        static::deleting(
+            static function (Model $model): void {
+                Assert::isArray($attributes = $model->attributes);
+=======
+        static::deleting(static function (Model $model): void {
+            Assert::isArray($attributes = $model->attributes);
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+
+            if (\in_array('deleted_by', array_keys($attributes), false)) {
+                $model->setAttribute('deleted_by', authId());
+            }
+        });
+    }
+<<<<<<< HEAD
+}// end trait Updater
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+
+// end trait Updater
+=======
+>>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+}// end trait Updater
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> a12f125f4a (.)
+=======
+}
+
+// end trait Updater
+>>>>>>> b93ef594b4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
+        static::deleting(
+            static function (Model $model): void {
+                Assert::isArray($attributes = $model->attributes);
+
+                if (\in_array('deleted_by', array_keys($attributes), false)) {
+                    $model->setAttribute('deleted_by', authId());
+                }
+            }
+        );
+    }
+}// end trait Updater
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 5cf46378 (.)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+>>>>>>> 38b70c7ba (.)

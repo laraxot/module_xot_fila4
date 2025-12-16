@@ -16,6 +16,284 @@ class GetTransKeyByModelClassAction
         $moduleName = Str::between($modelClass, 'Modules\\', '\Models');
         $modelName = Str::after($modelClass, '\Models\\');
 
+<<<<<<< HEAD
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+=======
+=======
+=======
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 5a14301c (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 399f46d3 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 17684f52 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 399f46d3 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+>>>>>>> a12f125f4a (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> b93ef594b4 (.)
+=======
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+>>>>>>> ce6fc085 (.)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> ca9324a4 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+<<<<<<< HEAD
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+=======
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
+=======
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
+>>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
+>>>>>>> 091f883c (.)
+=======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
+=======
+        return Str::lower($moduleName).'::'.Str::kebab($modelName);
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     }
 }

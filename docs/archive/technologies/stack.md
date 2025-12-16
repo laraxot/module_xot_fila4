@@ -11,7 +11,170 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Blade templating
 - [Documentazione Laravel](https://laravel.com/docs)
 
+<<<<<<< HEAD
 ### Filament 3.x
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### Filament 3.x
+>>>>>>> 85cdef688 (.)
+=======
+### Filament 4.x
+>>>>>>> 6ca989d8 (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+### Filament 4.x
+>>>>>>> 091f883c (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
+=======
+### Filament 4.x
+>>>>>>> ecd5ec32 (.)
+=======
+### Filament 4.x
+>>>>>>> 67be6ac0 (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+### Filament 4.x
+>>>>>>> 59259b43 (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
+=======
+### Filament 4.x
+>>>>>>> 88ee35c4e (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+### Filament 4.x
+>>>>>>> aba62c408 (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)
+=======
+### Filament 4.x
+>>>>>>> 5e6aa70fe (.)
+=======
+### Filament 4.x
+>>>>>>> 92cca5ade (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+### Filament 4.x
+>>>>>>> 5cb992cc6 (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> 7e4835b8e (.)
+=======
+### Filament 4.x
+>>>>>>> e39b54ba7 (.)
+=======
+### Filament 4.x
+>>>>>>> 6a52563d6 (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+### Filament 4.x
+>>>>>>> 3c8d62b79 (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
+=======
+### Filament 4.x
+>>>>>>> ba7efc23f (.)
+=======
+### Filament 4.x
+>>>>>>> 317b552da (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+### Filament 4.x
+>>>>>>> 60f0a1820 (.)
+=======
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)
+=======
+### Filament 4.x
+>>>>>>> 5df5c7505 (.)
+=======
+### Filament 3.x
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 - Pannello amministrativo
 - Form builder
 - Table builder
@@ -22,13 +185,215 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Componenti reattivi
 - Stato locale
 - Azioni e eventi
+<<<<<<< HEAD
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 6ca989d8 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 091f883c (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 67be6ac0 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 59259b43 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 88ee35c4e (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> aba62c408 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 92cca5ade (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 5cb992cc6 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 6a52563d6 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 3c8d62b79 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 317b552da (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 60f0a1820 (.)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 
 ### Laravel Folio
 - Routing basato su file
 - Pagine dinamiche
 - Middleware per pagine
+<<<<<<< HEAD
 - [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 6ca989d8 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+- [Documentazione Folio](https://laravel.com/project_docs/folio)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 091f883c (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 67be6ac0 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+- [Documentazione Folio](https://laravel.com/project_docs/folio)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 59259b43 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 88ee35c4e (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+- [Documentazione Folio](https://laravel.com/project_docs/folio)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> aba62c408 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 92cca5ade (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+- [Documentazione Folio](https://laravel.com/project_docs/folio)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 5cb992cc6 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 6a52563d6 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+- [Documentazione Folio](https://laravel.com/project_docs/folio)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 3c8d62b79 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 317b552da (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+- [Documentazione Folio](https://laravel.com/project_docs/folio)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 60f0a1820 (.)
+=======
+- [Documentazione Folio](https://laravel.com/docs/folio)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 
 ## Database e Cache
 
@@ -37,7 +402,108 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Supporto transazioni
 - Indici e ottimizzazioni
 - [MySQL Docs](https://dev.mysql.com/doc/)
+<<<<<<< HEAD
 - [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 85cdef688 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 6ca989d8 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/project_docs/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 091f883c (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 67be6ac0 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/project_docs/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 59259b43 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 88ee35c4e (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/project_docs/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> aba62c408 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 92cca5ade (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/project_docs/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 5cb992cc6 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 6a52563d6 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/project_docs/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 3c8d62b79 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 317b552da (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/project_docs/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 60f0a1820 (.)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 
 ### Redis
 - Cache distribuita
@@ -105,7 +571,108 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Debug e profiling
 - Query monitoring
 - Cache inspection
+<<<<<<< HEAD
 - [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 85cdef688 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 6ca989d8 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+- [Telescope Docs](https://laravel.com/project_docs/telescope)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 091f883c (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 67be6ac0 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+- [Telescope Docs](https://laravel.com/project_docs/telescope)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 59259b43 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 88ee35c4e (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+- [Telescope Docs](https://laravel.com/project_docs/telescope)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> aba62c408 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 92cca5ade (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+- [Telescope Docs](https://laravel.com/project_docs/telescope)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 5cb992cc6 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 6a52563d6 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+- [Telescope Docs](https://laravel.com/project_docs/telescope)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 3c8d62b79 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 317b552da (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+- [Telescope Docs](https://laravel.com/project_docs/telescope)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 60f0a1820 (.)
+=======
+- [Telescope Docs](https://laravel.com/docs/telescope)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 
 ## Versioni Minime Richieste
 

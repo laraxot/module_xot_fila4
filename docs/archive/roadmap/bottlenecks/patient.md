@@ -228,5 +228,106 @@
 ## Collegamenti tra versioni di patient.md
 * [patient.md](docs/moduli/patient.md)
 * [patient.md](docs/roadmap/moduli/patient.md)
+<<<<<<< HEAD
 * [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 85cdef688 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 6ca989d8 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+=======
+* [patient.md](../../../Xot/project_docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 091f883c (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 67be6ac0 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+=======
+* [patient.md](../../../Xot/project_docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 59259b43 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 88ee35c4e (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+=======
+* [patient.md](../../../Xot/project_docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> aba62c408 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 92cca5ade (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+=======
+* [patient.md](../../../Xot/project_docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 5cb992cc6 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 6a52563d6 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+=======
+* [patient.md](../../../Xot/project_docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 3c8d62b79 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 317b552da (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+=======
+* [patient.md](../../../Xot/project_docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 60f0a1820 (.)
+=======
+* [patient.md](../../../Xot/docs/roadmap/bottlenecks/patient.md)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 

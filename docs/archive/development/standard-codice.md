@@ -157,5 +157,106 @@ class MyResource extends XotBaseResource
 
 ## Collegamenti tra versioni di standard-codice.md
 * [standard-codice.md](docs/standard-codice.md)
+<<<<<<< HEAD
 * [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 85cdef688 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 6ca989d8 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+=======
+* [standard-codice.md](../../../Xot/project_docs/development/standard-codice.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 091f883c (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 67be6ac0 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+=======
+* [standard-codice.md](../../../Xot/project_docs/development/standard-codice.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 59259b43 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 88ee35c4e (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+=======
+* [standard-codice.md](../../../Xot/project_docs/development/standard-codice.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> aba62c408 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 92cca5ade (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+=======
+* [standard-codice.md](../../../Xot/project_docs/development/standard-codice.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 5cb992cc6 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 6a52563d6 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+=======
+* [standard-codice.md](../../../Xot/project_docs/development/standard-codice.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 3c8d62b79 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 317b552da (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+=======
+* [standard-codice.md](../../../Xot/project_docs/development/standard-codice.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 60f0a1820 (.)
+=======
+* [standard-codice.md](../../../Xot/docs/development/standard-codice.md)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 

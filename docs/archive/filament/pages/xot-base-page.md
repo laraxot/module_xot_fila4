@@ -96,11 +96,369 @@ Verifica se l'utente ha l'accesso alla pagina.
    - Laravel Authorization
 
 3. **Compatibilità**
+<<<<<<< HEAD
    - Compatibile con Filament 3.x
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 85cdef688 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 6ca989d8 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 091f883c (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> ecd5ec32 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 67be6ac0 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 59259b43 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 88ee35c4e (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> aba62c408 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 5e6aa70fe (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 92cca5ade (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 5cb992cc6 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> 7e4835b8e (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> e39b54ba7 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 6a52563d6 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 3c8d62b79 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> ba7efc23f (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 317b552da (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 60f0a1820 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 5df5c7505 (.)
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
    - Richiede PHP 8.1+
 
 ## Link Correlati
 
+<<<<<<< HEAD
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Best Practices](../../../docs/best-practices.md)
 - [Guida Traduzioni](../../../docs/translations.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+<<<<<<< HEAD
+- [Guida Traduzioni](../../../docs/translations.md) 
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 2bad128c (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 358ba79a7 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> f8f76a284 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 0117b849c (.)
+=======
+- [Documentazione Filament](../../../project_docs/filament/index.md)
+- [Best Practices](../../../project_docs/best-practices.md)
+- [Guida Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 091f883c (.)
+=======
+=======
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 59259b43 (.)
+=======
+=======
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> aba62c408 (.)
+=======
+=======
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 5cb992cc6 (.)
+=======
+=======
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 3c8d62b79 (.)
+=======
+=======
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 60f0a1820 (.)
+=======
+=======
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)

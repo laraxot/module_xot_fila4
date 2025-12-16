@@ -5,9 +5,299 @@ declare(strict_types=1);
 namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Database\QueryException;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\QueryException;
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+=======
+>>>>>>> 5cf46378 (.)
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\QueryException;
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\QueryException;
+>>>>>>> f8f76a284 (.)
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\QueryException;
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\QueryException;
+>>>>>>> 0117b849c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+=======
+=======
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5cf46378 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> f2dd5676b (.)
+=======
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 8fd88dd43 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -104,7 +394,66 @@ class ModuleBusinessLogicTest extends TestCase
         Module::factory()->create(['slug' => 'unique-module']);
 
         // Act & Assert - Try to create module with same slug
+<<<<<<< HEAD
         $this->expectException(QueryException::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+        $this->expectException(QueryException::class);
+=======
+<<<<<<< HEAD
+        $this->expectException(QueryException::class);
+=======
+        $this->expectException(\Illuminate\Database\QueryException::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> 60f0a1820 (.)
+>>>>>>> 38b70c7ba (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -378,7 +727,66 @@ class ModuleBusinessLogicTest extends TestCase
             unset($moduleData[$field]);
 
             // Act & Assert
+<<<<<<< HEAD
             $this->expectException(QueryException::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+            $this->expectException(QueryException::class);
+=======
+<<<<<<< HEAD
+            $this->expectException(QueryException::class);
+=======
+            $this->expectException(\Illuminate\Database\QueryException::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> 60f0a1820 (.)
+>>>>>>> 38b70c7ba (.)
 
             Module::create($moduleData);
         }
@@ -466,3 +874,177 @@ class ModuleBusinessLogicTest extends TestCase
         $this->assertEquals(42, $moduleErrorLog[0]['context']['line']);
     }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)

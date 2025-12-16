@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -218,8 +244,171 @@ Prima di committare la documentazione:
 Quando si fa riferimento a concetti o classi in altri moduli, utilizzare collegamenti relativi:
 
 ```markdown
+<<<<<<< HEAD
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 2f3197ab (.)
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+<<<<<<< HEAD
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+>>>>>>> c35986f4 (.)
+=======
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+>>>>>>> 551c768c4 (.)
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+>>>>>>> 38b70c7ba (.)
 ```
 
 ### 2. Documentazione Centralizzata
@@ -227,8 +416,171 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/d
 Alcuni argomenti comuni a più moduli dovrebbero essere documentati nel modulo Xot e poi referenziati dagli altri moduli:
 
 ```markdown
+<<<<<<< HEAD
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 2f3197ab (.)
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+<<<<<<< HEAD
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+>>>>>>> c35986f4 (.)
+=======
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+>>>>>>> 551c768c4 (.)
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+>>>>>>> 38b70c7ba (.)
 ```
 
 ## Esempi di Eccellenza
@@ -287,3 +639,63 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)

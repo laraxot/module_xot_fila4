@@ -183,6 +183,11 @@ public null|string $var = null;
 ### Pattern 5: Git Markers Non Risolti
 ```php
 // ❌ Conflict markers left in code
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> commit-hash
+>>>>>>> 38b70c7ba (.)
 ```
 
 ## 🚀 Risultati

@@ -96,6 +96,195 @@ Tabs\Tab::make('tab_name')
    - Testare i componenti prima del deploy
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Filament Forms Documentation](https://filamentphp.com/docs/forms)
 - [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
 - [Best Practices](filament-best-practices.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Best Practices](filament-best-practices.md) 
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 85cdef688 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 6ca989d8 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 2bad128c (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 358ba79a7 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> f8f76a284 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 0117b849c (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/project_docs/forms)
+- [Tabs Component](https://filamentphp.com/project_docs/forms/layout#tabs)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> ce6fc085 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 67be6ac0 (.)
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 2bad128c (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 59259b43 (.)
+=======
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 88ee35c4e (.)
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 358ba79a7 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> aba62c408 (.)
+=======
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 92cca5ade (.)
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> f8f76a284 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 5cb992cc6 (.)
+=======
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 6a52563d6 (.)
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 3c8d62b79 (.)
+=======
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 317b552da (.)
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 0117b849c (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+>>>>>>> 60f0a1820 (.)
+=======
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)
+=======
+- [Filament Forms Documentation](https://filamentphp.com/docs/forms)
+- [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)

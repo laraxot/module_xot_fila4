@@ -35,13 +35,57 @@ class SearchTextInDbCommand extends Command
         } else {
             $tables = collect($specificTables);
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
         foreach ($tables as $table) {
             // Get table name with proper type checking
             $tableName = null;
             if (is_object($table)) {
+<<<<<<< HEAD
                 // Usa isset() invece di property_exists per oggetti stdClass
                 if (isset($table->$tableProp) && is_string($table->$tableProp)) {
+=======
+                // Usa isset() invece di property_exists per oggetti stdClass
+                if (isset($table->$tableProp) && is_string($table->$tableProp)) {
+<<<<<<< HEAD
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+                // Usa isset() invece di property_exists per oggetti stdClass
+                if (isset($table->$tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
                     $tableName = $table->$tableProp;
                 }
             } elseif (is_string($table)) {
@@ -90,7 +134,22 @@ class SearchTextInDbCommand extends Command
                     ->get();
 
                 if ($results->isNotEmpty()) {
+<<<<<<< HEAD
                     $this->info("Found in column: {$column}");
+=======
+                    $this->info("Found in column: {$column}");
+<<<<<<< HEAD
+                    $this->info("Found in column: $column");
+                    $this->info("Found in column: $column");
+                    $this->info("Found in column: $column");
+                    $this->info("Found in column: {$column}");
+                    $this->info("Found in column: $column");
+                    $this->info("Found in column: $column");
+                    $this->info("Found in column: $column");
+                    $this->info("Found in column: $column");
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
                     foreach ($results as $result) {
                         $this->table(
                             ['Column', 'Value'],

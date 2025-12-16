@@ -39,7 +39,108 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/scope.txt}
 
 
 ## Collegamenti tra versioni di models.md
+<<<<<<< HEAD
 * [models.md](../../../Notify/docs/models.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 85cdef688 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 6ca989d8 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+=======
+* [models.md](../../../Notify/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 091f883c (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 67be6ac0 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+=======
+* [models.md](../../../Notify/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 59259b43 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 88ee35c4e (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+=======
+* [models.md](../../../Notify/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> aba62c408 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 92cca5ade (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+=======
+* [models.md](../../../Notify/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 5cb992cc6 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 6a52563d6 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+=======
+* [models.md](../../../Notify/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 3c8d62b79 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 317b552da (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+=======
+* [models.md](../../../Notify/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 60f0a1820 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 
 
 ### Versione Incoming

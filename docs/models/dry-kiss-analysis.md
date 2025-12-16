@@ -40,10 +40,17 @@ abstract class BaseModel extends XotBaseModel {
 **Moduli analizzati**:
 - Activity, Chart, CloudStorage, Cms, Gdpr, Geo, Job, Lang, Limesurvey, Media, Notify, Tenant, User, Xot (14 moduli identici)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 - Quaeris: ❌ **ECCEZIONE** - Non estende XotBaseModel (da correggere)
 =======
 - <nome progetto>: ❌ **ECCEZIONE** - Non estende XotBaseModel (da correggere)
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 - UI: Vuoto (minimal)
 
 **Violazione DRY**: 📊 **93% di duplicazione** (14/15 BaseModel identici)
@@ -88,6 +95,8 @@ protected function casts(): array {
 **Violazione DRY**: Cms e altri moduli ridichiarano casts già presenti nel parent
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 ### 4. **Quaeris BaseModel - Pattern Anomalo**
 
 **Problema Critico**: `Modules\Quaeris\Models\BaseModel` NON estende `XotBaseModel`:
@@ -95,7 +104,12 @@ protected function casts(): array {
 ### 4. **<nome progetto> BaseModel - Pattern Anomalo**
 
 **Problema Critico**: `Modules\<nome progetto>\Models\BaseModel` NON estende `XotBaseModel`:
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 ```php
 // ❌ ERRATO - Non segue l'architettura standard
@@ -107,10 +121,17 @@ abstract class BaseModel extends Model implements ModelContract, HasMedia {
     use InteractsWithMedia;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
     protected $connection = 'quaeris';
 =======
     protected $connection = '<nome progetto>';
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     protected $casts = ['published_at' => 'datetime', ...]; // Array invece di metodo
     // ... Ridefinisce tutto manualmente
 }
@@ -133,10 +154,17 @@ use RelationX;
 use Updater;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 // Quaeris/BaseModel duplica Updater:
 =======
 // <nome progetto>/BaseModel duplica Updater:
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 use Updater;  // ❌ Duplicato se estendesse XotBaseModel
 use HasExtraTrait;
 use InteractsWithMedia;
@@ -183,6 +211,8 @@ abstract class XotBaseModel extends Model {
 - Serve override di casts specifici (es: User → verified_at)
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 ### Soluzione 2: Correggere Quaeris/BaseModel
 
 **Obiettivo**: Allineare Quaeris all'architettura standard
@@ -198,7 +228,12 @@ abstract class XotBaseModel extends Model {
 **Implementazione**:
 ```php
 // Modules/<nome progetto>/app/Models/BaseModel.php
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 use Modules\Xot\Models\XotBaseModel;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -208,6 +243,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia {
     use InteractsWithMedia;
     use HasExtraTrait;
 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     protected $connection = 'quaeris'; // Auto-discovery se Soluzione 1 applicata
 
@@ -224,7 +261,12 @@ abstract class BaseModel extends XotBaseModel implements HasMedia {
     protected function casts(): array {
         return array_merge(parent::casts(), [
             // Solo casts SPECIFICI <nome progetto>, se necessari
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
         ]);
     }
 }
@@ -318,10 +360,17 @@ Manutenibilità: +40%
 
 ### 🔴 Priorità ALTA
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 1. **Correggere Quaeris/BaseModel** (non segue standard)
 =======
 1. **Correggere <nome progetto>/BaseModel** (non segue standard)
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 2. **Implementare auto-discovery in XotBaseModel** (elimina 90% duplicazioni)
 
 ### 🟡 Priorità MEDIA
@@ -338,12 +387,19 @@ Manutenibilità: +40%
 - `Modules/Xot/app/Models/XotBaseModel.php` (+15 righe)
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 ### Fase 2: Correzione Quaeris
 - `Modules/Quaeris/app/Models/BaseModel.php` (refactor completo)
 =======
 ### Fase 2: Correzione <nome progetto>
 - `Modules/<nome progetto>/app/Models/BaseModel.php` (refactor completo)
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 ### Fase 3: Cleanup BaseModel
 - `Modules/Cms/app/Models/BaseModel.php` (rimuovi casts ridondanti)
@@ -357,22 +413,36 @@ Manutenibilità: +40%
 - `Modules/Xot/docs/models/MODEL_ARCHITECTURE.md` (questa guida)
 - `Modules/User/docs/models/README.md`
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 - `Modules/Quaeris/docs/models/README.md`
 =======
 - `Modules/<nome progetto>/docs/models/README.md`
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 ## ✅ Checklist Implementazione
 
 - [ ] Implementare `getConnectionName()` in XotBaseModel
 - [ ] Testare auto-discovery con modello test
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 - [ ] Correggere `Modules/Quaeris/app/Models/BaseModel.php`
 - [ ] Testare modelli Quaeris con nuova struttura
 =======
 - [ ] Correggere `Modules/<nome progetto>/app/Models/BaseModel.php`
 - [ ] Testare modelli <nome progetto> con nuova struttura
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 - [ ] Rimuovere casts ridondanti in Cms
 - [ ] Eliminare BaseModel non necessari (opzionale)
 - [ ] Aggiornare CLAUDE.md con nuove convenzioni
@@ -390,10 +460,17 @@ Manutenibilità: +40%
 
 1. **Auto-discovery funziona**: Già implementato con successo in XotBasePivot e XotBaseMorphPivot
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 2. **Consistenza è chiave**: Quaeris devia dallo standard → maggiore complessità
 =======
 2. **Consistenza è chiave**: <nome progetto> devia dallo standard → maggiore complessità
+<<<<<<< HEAD
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 3. **Less is more**: BaseModel vuoti sono OK se tutto viene ereditato correttamente
 4. **Namespace è informazione**: Usarlo per auto-discovery elimina configurazioni manuali
 

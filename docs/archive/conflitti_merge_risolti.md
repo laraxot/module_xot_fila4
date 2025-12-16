@@ -5,6 +5,27 @@
 ## Problema
 
 Durante lo sviluppo del progetto <main module>, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Risoluzione Conflitti di Merge in SaluteOra
+
+## Problema
+
+Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+# Risoluzione Conflitti di Merge in SaluteOra
+
+## Problema
+
+Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+# Risoluzione Conflitti di Merge in SaluteOra
+
+## Problema
+
+Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`
@@ -102,7 +123,7 @@ Per prevenire problemi simili in futuro, si raccomanda di:
 
 ### Caso concreto: XotBaseManageRelatedRecords.php
 
-Durante la risoluzione dei conflitti, nel file `Modules/Xot/app/Filament/Resources/XotBaseResource/Pages/XotBaseManageRelatedRecords.php` sono emerse chiamate sia a `getListTableColumns` che a `getTableColumns`. In linea con le regole di standardizzazione adottate nel progetto (vedi [FILAMENT_TABLE_COLUMNS.md](./FILAMENT_TABLE_COLUMNS.md)), è stato scelto di mantenere **solo** `getTableColumns` come metodo per la definizione delle colonne delle tabelle Filament.
+Durante la risoluzione dei conflitti, nel file `Modules/Xot/app/Filament/Resources/XotBaseResource/Pages/XotBaseManageRelatedRecords.php` sono emerse chiamate sia a `getTableColumns` che a `getTableColumns`. In linea con le regole di standardizzazione adottate nel progetto (vedi [FILAMENT_TABLE_COLUMNS.md](./FILAMENT_TABLE_COLUMNS.md)), è stato scelto di mantenere **solo** `getTableColumns` come metodo per la definizione delle colonne delle tabelle Filament.
 
 **Motivazione:**
 - Coerenza con lo standard Filament e con le regole di progetto

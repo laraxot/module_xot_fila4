@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:docs/testing-phpstan-verification.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9e42a036 (.)
+<<<<<<< HEAD
+>>>>>>> 80bc07e81 (.):docs/testing-phpstan-verification-2025.md
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+>>>>>>> 50d6b63f (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Verifica Testing e PHPStan - Gennaio 2025
 
 **Data verifica**: 18 Gennaio 2025
@@ -113,14 +139,58 @@ Modules/{ModuleName}/
 - ✅ **Namespace Conventions**: Rispettate le regole moduli
 
 ### PHPStan Compliance
+<<<<<<< HEAD
 - ✅ **Level 9/10**: Target raggiunto
+=======
+<<<<<<< HEAD:docs/testing-phpstan-verification.md
+<<<<<<<< HEAD:docs/testing-phpstan-verification.md
+- ✅ **Level 9/10**: Target raggiunto
+- ✅ **Level 9/10**: Target raggiunto
+- ✅ **Level 9/10**: Target raggiunto
+- ✅ **Level 9/10**: Target raggiunto
+- ✅ **Level 9/10**: Target raggiunto
+========
+- ✅ **level 10/10**: Target raggiunto
+>>>>>>>> 7ee87c138 (.):docs/testing-phpstan-verification-2025.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ✅ **Level 9/10**: Target raggiunto
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 38b70c7ba (.)
 - ✅ **level 10/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9e42a036 (.)
+<<<<<<< HEAD
+>>>>>>> 80bc07e81 (.):docs/testing-phpstan-verification-2025.md
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 38b70c7ba (.)
 - ✅ **Level 9/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+>>>>>>> 50d6b63f (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 - ✅ **Strict Types**: `declare(strict_types=1);` presente
 - ✅ **Type Hints**: Rigorous typing mantenuto
 - ✅ **No Mixed Types**: Evitati dove possibile
@@ -168,8 +238,40 @@ vendor/bin/phpstan analyse Modules/Activity/ --configuration=Modules/Activity/ph
 
 **Verifica completata con successo**: Tutti i conflitti Git risolti, errori PHPStan critici fixati, e test suite verificata per funzionalità corretta.
 
+<<<<<<< HEAD
+*Documento di verifica - Framework Laraxot PTVX*
+=======
+<<<<<<< HEAD:docs/testing-phpstan-verification.md
+<<<<<<<< HEAD:docs/testing-phpstan-verification.md
+*Documento di verifica - Framework Laraxot PTVX*
+*Documento di verifica - Framework Laraxot PTVX*
+========
+*Documento di verifica - Framework Laraxot PTVX*
+>>>>>>>> 7ee87c138 (.):docs/testing-phpstan-verification-2025.md
+=======
+<<<<<<< HEAD
+*Documento di verifica - Framework Laraxot PTVX*
+=======
+<<<<<<< HEAD
+>>>>>>> cc7fb225 (.)
+=======
+*Documento di verifica - Framework Laraxot PTVX*
+>>>>>>> 9e42a036 (.)
+<<<<<<< HEAD
+>>>>>>> 80bc07e81 (.):docs/testing-phpstan-verification-2025.md
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 38b70c7ba (.)
 *Documento di verifica - Framework Laraxot PTVX*
 *Documento di verifica - Framework Laraxot PTVX*
 *Documento di verifica - Framework Laraxot PTVX*
+<<<<<<< HEAD
 *Documento di verifica - Framework Laraxot PTVX*
-*Documento di verifica - Framework Laraxot PTVX*
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+>>>>>>> 50d6b63f (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)

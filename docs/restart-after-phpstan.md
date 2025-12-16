@@ -11,8 +11,66 @@ Questo documento fornisce istruzioni dettagliate su come riavviare correttamente
 Prima di riavviare il sistema, è importante pulire tutte le cache per assicurarsi che le modifiche vengano applicate correttamente:
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -35,13 +93,104 @@ composer dump-autoload
 ### 2. Riavvio dei Servizi Web
 
 ```bash
+<<<<<<< HEAD
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 6ca989d8 (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 2bad128c (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 358ba79a7 (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> f8f76a284 (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 5e6e0d054 (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 0117b849c (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 551c768c4 (.)
+=======
+>>>>>>> 38b70c7ba (.)
+
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
-
-
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # oppure
 sudo systemctl restart nginx
 
@@ -52,8 +201,66 @@ sudo systemctl restart php8.1-fpm
 ### 3. Riavvio dei Worker di Queue (se utilizzati)
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -67,8 +274,66 @@ php artisan queue:work --daemon
 ### 4. Riavvio di Horizon (se utilizzato)
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -96,8 +361,66 @@ Dopo il riavvio, è importante verificare che il sistema funzioni correttamente:
 Se si verificano errori di autoloading dopo il riavvio:
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Rigenerare l'autoloader di Composer
 composer dump-autoload -o
 
@@ -111,8 +434,66 @@ composer install
 Se si verificano errori di permessi dopo il riavvio:
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Correggere i permessi delle directory di storage e bootstrap/cache
 sudo chown -R www-data:www-data storage bootstrap/cache
 sudo chmod -R 775 storage bootstrap/cache
@@ -123,8 +504,66 @@ sudo chmod -R 775 storage bootstrap/cache
 Se si verificano errori di configurazione dopo il riavvio:
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Rigenerare la cache delle configurazioni
 php artisan config:cache
 

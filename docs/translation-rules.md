@@ -140,8 +140,211 @@ return [
 
 ## Link alla documentazione correlata
 
+<<<<<<< HEAD
+- [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
+- [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
+- [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+>>>>>>> 80bc07e81 (.)
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
 - [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 85cdef688 (.)
+=======
+=======
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 59259b43 (.)
+=======
+>>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)
+- [Errori comuni nei file di traduzione](/laravel/Modules/Lang/docs/errori_comuni_traduzione.md)
+- [Convenzioni di documentazione](/laravel/Modules/Xot/docs/documentation_conventions.md)
+- [Documentazione principale sulle traduzioni](/docs/translation_rules.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> 9f193021d (.)
+=======
+>>>>>>> d9f43fce9 (.)
+=======
+- [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
+- [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
+- [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
+>>>>>>> 38b70c7ba (.)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 59259b43 (.)
+=======
+>>>>>>> ab5b3a4f (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 80bc07e81 (.)

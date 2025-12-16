@@ -1,8 +1,294 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+<<<<<<< HEAD
+>>>>>>> 5e6e0d054 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+<<<<<<< HEAD
+>>>>>>> 0117b849c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
+declare(strict_types=1);
+
+
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+declare(strict_types=1);
+
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
+declare(strict_types=1);
+
+
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 8fd88dd43 (.)
+=======
+declare(strict_types=1);
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> aba62c408 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 5cb992cc6 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 3c8d62b79 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 60f0a1820 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -11,7 +297,25 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< HEAD
     ->ignoreVCS(true);
+=======
+    ->ignoreVCS(true);
+<<<<<<< HEAD
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true);
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -39,5 +343,28 @@ $config
         'elseif' => true,
     ])
     ->setFinder($finder);
+<<<<<<< HEAD
 
 return $config;
+=======
+<<<<<<< HEAD
+    ->setFinder($finder)
+    ->setFinder($finder)
+    ->setFinder($finder)
+    ->setFinder($finder)
+=======
+>>>>>>> 551c768c4 (.)
+
+return $config;
+    ->setFinder($finder);
+    ->setFinder($finder)
+    ->setFinder($finder)
+    ->setFinder($finder)
+    ->setFinder($finder)
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+>>>>>>> 38b70c7ba (.)

@@ -8,7 +8,10 @@
 
 | Module | Errors | Priority |
 |--------|--------|----------|
+<<<<<<< HEAD
 | <nome progetto> | 527 | HIGH (86% of total) |
+=======
+>>>>>>> 38b70c7ba (.)
 | User | 30 | MEDIUM |
 | Xot | 24 | MEDIUM |
 | Media | 20 | LOW |
@@ -44,7 +47,10 @@
 4. **User** (30 errors) - Authentication and authorization
 
 ### Phase 2: Large Module
+<<<<<<< HEAD
 5. **<nome progetto>** (527 errors) - Survey management core - requires systematic approach
+=======
+>>>>>>> 38b70c7ba (.)
 
 ## Common Patterns & Solutions
 
@@ -198,7 +204,10 @@ Check if Notification API changed in Filament v4:
   - Should extend `Filament\Widgets\Widget` or module-specific base widget
   - Fix namespace imports
 
+<<<<<<< HEAD
 ### <nome progetto> Module
+=======
+>>>>>>> 38b70c7ba (.)
 - **Largest Error Source**: 527 errors require systematic approach
   - Many errors in Actions classes
   - Query builder type issues
@@ -220,7 +229,10 @@ Check if Notification API changed in Filament v4:
 - [x] Phase 1.2: Notify module (0 errors - already compliant!)
 - [x] Phase 1.3: Xot module (12 → 0 errors - COMPLETED!)
 - [🔄] Phase 1.4: User module (21 errors remaining)
+<<<<<<< HEAD
 - [ ] Phase 2: <nome progetto> module (~444 errors remaining)
+=======
+>>>>>>> 38b70c7ba (.)
 - [ ] Phase 3: Media recheck (7 new errors detected)
 - [ ] Final: Run Pint formatting
 - [ ] Final: Verify zero errors

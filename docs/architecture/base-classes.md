@@ -205,6 +205,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 - ✅ Repository binding
 - ✅ Command registration
 
+<<<<<<< HEAD
 ### XotBaseSection - Filament Schemas Section Base
 
 ```php
@@ -248,6 +249,8 @@ abstract class XotBaseSection extends Section
 - ✅ Se serve disabilitare comportamenti live, usare i metodi previsti da Filament
   sui singoli componenti di form (es. `->live(false)` dove supportato), non sulla Section.
 
+=======
+>>>>>>> 38b70c7ba (.)
 ## 🎯 Extension Patterns
 
 ### Extending XotBaseModel

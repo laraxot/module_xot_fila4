@@ -8,13 +8,53 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
 use Laravel\Passport\PersonalAccessTokenResult;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Model;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+=======
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 use Laravel\Passport\Token;
 use Laravel\Passport\TransientToken;
 
 /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
  * @phpstan-require-extends Model
  */
 interface PassportHasApiTokensContract 
@@ -38,24 +78,60 @@ interface PassportHasApiTokensContract
      *
      * @return Token|TransientToken|null
      */
+<<<<<<< HEAD
     public function token();
+=======
+<<<<<<< HEAD
+    public function token();
+    public function token();
+    public function token();
+    public function token();
+    public function token();
+=======
+    public function token(): Token|TransientToken|null;
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
     /**
      * Determine if the current API token has a given scope.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 38b70c7ba (.)
      * @param string $scope
      * @return bool
      */
     public function tokenCan($scope);
+<<<<<<< HEAD
+=======
+=======
+     * @return bool
+     */
+    public function tokenCan(string $scope);
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
     /**
      * Create a new personal access token for the user.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 38b70c7ba (.)
      * @param string $name
      * @param array<int, string> $scopes
      * @return PersonalAccessTokenResult
      */
     public function createToken($name, array $scopes = []);
+<<<<<<< HEAD
+=======
+=======
+     * @param  array<int, string>  $scopes
+     */
+    public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
     /**
      * Set the current access token for the user.

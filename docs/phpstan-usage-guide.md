@@ -63,8 +63,66 @@ PHPStan offre più livelli di rigore nell'analisi (da 0 a 10). Il framework Lara
 - **Livello 10:** Obiettivo futuro (massima rigidità)
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Analisi a livello 9 (standard corrente)
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9
 
@@ -196,8 +254,66 @@ public function post(): \Illuminate\Database\Eloquent\Relations\BelongsTo
 È consigliabile integrare PHPStan nel flusso CI/CD per garantire che tutti i commit rispettino gli standard:
 
 ```yaml
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Esempio per GitHub Actions
 name: PHPStan
 
@@ -229,8 +345,66 @@ Seguendo questa guida, sarai in grado di utilizzare efficacemente PHPStan all'in
 ## Promemoria Rapido
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 # Dalla directory laravel del progetto
 cd /percorso/al/progetto/laravel
 
@@ -242,5 +416,74 @@ cd /percorso/al/progetto/laravel
 
 # Analisi con output dettagliato
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9 --verbose
+<<<<<<< HEAD
 ``` 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+``` 
+>>>>>>> 6ca989d8 (.)
+=======
+``` 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+``` 
+>>>>>>> 67be6ac0 (.)
+=======
+``` 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+``` 
+>>>>>>> 88ee35c4e (.)
+=======
+``` 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+``` 
+>>>>>>> 92cca5ade (.)
+=======
+``` 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+``` 
+>>>>>>> 6a52563d6 (.)
+=======
+``` 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+``` 
+>>>>>>> 317b552da (.)
+=======
+``` 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+``` 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)

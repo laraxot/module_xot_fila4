@@ -20,7 +20,25 @@ return [
         ],
         'login' => [
             'label' => 'Login',
+<<<<<<< HEAD
             'icon' => 'ui-login',
+=======
+            'icon' => 'ui-login',
+<<<<<<< HEAD
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'ui-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
         ],
         'macros' => [
             'label' => 'Macro',

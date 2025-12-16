@@ -8,15 +8,45 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\Feed;
 
+<<<<<<< HEAD
 /**
  * @extends Factory<Feed>
  */
+=======
+/**
+ * @extends Factory<Feed>
+ */
+<<<<<<< HEAD
+/**
+ * @extends Factory<Feed>
+ */
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 class FeedFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
+<<<<<<< HEAD
      * @var class-string<Feed>
+=======
+     * @var class-string<Feed>
+<<<<<<< HEAD
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Feed>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+     * @var class-string<Model>
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
      */
     protected $model = Feed::class;
 

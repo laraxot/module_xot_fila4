@@ -4,7 +4,86 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
 use Filament\Panel;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Filament\Facades\Filament;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+use Filament\Panel;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Filament\Panel;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+use Filament\Panel;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
+use Filament\Pages\Dashboard;
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
+use Filament\Panel;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Panel;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Panel;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+=======
+use Filament\Panel;
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -13,15 +92,227 @@ use Webmozart\Assert\Assert;
  */
 class MainDashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+>>>>>>> 38b70c7ba (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
 
     // protected static string $routePath = 'main';
 
+<<<<<<< HEAD
     protected static ?string $title = 'Main Dashboard';
 
     protected static ?int $navigationSort = 1;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static ?string $title = 'Main Dashboard';
+
+    protected static ?int $navigationSort = 1;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
+    protected static ?string $title = 'Main Dashboard';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+    protected static null|string $title = 'Main Dashboard';
+>>>>>>> d2b0a27 (.)
+=======
+    protected static ?string $title = 'Main Dashboard';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+    protected static null|string $title = 'Main Dashboard';
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
+
+    protected static ?int $navigationSort = 1;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static ?string $title = 'Main Dashboard';
+
+    protected static ?int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
+>>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
     /**
      * Use the canonical slug so Filament resolves the home link to this page
@@ -35,19 +326,90 @@ class MainDashboard extends XotBaseDashboard
     public function mount(): void
     {
         Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        /** @var \Modules\Xot\Contracts\UserContract $user */
+        $user = $user;
+        /** @var \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles */
+        $roles = $user->roles;
+        $modules = $roles->filter(static fn (\Modules\User\Models\Role $item) => Str::endsWith($item->name, '::admin'));
+
+        if ($modules->count() === 1) {
+            Assert::notNull($module_first = $modules->first(), '['.__LINE__.']['.class_basename($this).']');
+            /** @var \Modules\User\Models\Role $module_first */
+            $module_first = $module_first;
+=======
+<<<<<<< HEAD
+>>>>>>> 38b70c7ba (.)
         $modules = $user->roles->filter(static fn ($item) => Str::endsWith($item->name, '::admin'));
 
         if ($modules->count() === 1) {
             Assert::notNull($module_first = $modules->first(), '['.__LINE__.']['.class_basename($this).']');
+=======
+        /** @var \Modules\Xot\Contracts\UserContract $user */
+        $user = $user;
+        /** @var \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles */
+        $roles = $user->roles;
+        $modules = $roles->filter(static fn (\Modules\User\Models\Role $item) => Str::endsWith($item->name, '::admin'));
+
+        if ($modules->count() === 1) {
+            Assert::notNull($module_first = $modules->first(), '['.__LINE__.']['.class_basename($this).']');
+            /** @var \Modules\User\Models\Role $module_first */
+            $module_first = $module_first;
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 5cf46378 (.)
             $panel_name = $module_first->name;
             $module_name = Str::before($panel_name, '::admin');
             $url = '/'.$module_name.'/admin';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        Assert::notNull($user = auth()->user(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $modules = $user->roles->filter(static fn($item) => Str::endsWith($item->name, '::admin'));
+
+        if (1 === $modules->count()) {
+            Assert::notNull($module_first = $modules->first(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+            $panel_name = $module_first->name;
+            $module_name = Str::before($panel_name, '::admin');
+            $url = '/' . $module_name . '/admin';
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
             redirect($url);
         }
 
         // Solo se non ha accesso a nessun modulo, redirect alla home locale
+<<<<<<< HEAD
         if ($modules->count() === 0) {
             $url = '/'.app()->getLocale();
+=======
+        if ($modules->count() === 0) {
+            $url = '/'.app()->getLocale();
+<<<<<<< HEAD
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+        if ($modules->count() === 0) {
+            $url = '/'.app()->getLocale();
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
             redirect($url);
         }
 
@@ -63,7 +425,23 @@ class MainDashboard extends XotBaseDashboard
     {
         return [
             // Widget per mostrare i moduli disponibili
+<<<<<<< HEAD
             // Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+=======
+            // Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+<<<<<<< HEAD
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+            // Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
         ];
     }
 
@@ -75,5 +453,172 @@ class MainDashboard extends XotBaseDashboard
     public function getColumns(): int|array
     {
         return 1;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+    protected static ?string $title = 'Main Dashboard';
+=======
+    protected static null|string $title = 'Main Dashboard';
+>>>>>>> b93ef594b4 (.)
+>>>>>>> ce6fc085 (.)
+
+    protected static null|int $navigationSort = 1;
+
+    /**
+     * Use the canonical slug so Filament resolves the home link to this page
+     * at route name `filament.{panel}.pages.dashboard`.
+     */
+    public static function getSlug(?Panel $panel = null): string
+    {
+        return 'dashboard';
+    }
+
+    public function mount(): void
+    {
+        Assert::notNull($user = auth()->user(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $modules = $user->roles->filter(static fn($item) => Str::endsWith($item->name, '::admin'));
+
+        if (1 === $modules->count()) {
+            Assert::notNull($module_first = $modules->first(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+            $panel_name = $module_first->name;
+            $module_name = Str::before($panel_name, '::admin');
+            $url = '/' . $module_name . '/admin';
+            redirect($url);
+        }
+
+        // Solo se non ha accesso a nessun modulo, redirect alla home locale
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+            redirect($url);
+        }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
+
+        // In tutti gli altri casi, mostra il dashboard con i link ai moduli
+    }
+
+    /**
+     * Ottiene i widget da visualizzare nella dashboard.
+     *
+     * @return array<int, string>
+     */
+    public function getWidgets(): array
+    {
+        return [
+            // Widget per mostrare i moduli disponibili
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+        ];
+    }
+
+    /**
+     * Ottiene il numero di colonne per i widget.
+     *
+     * @return int|array<string, int|string|null>
+     */
+    public function getColumns(): int|array
+    {
+        return 1;
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
+    protected static ?string $navigationIcon = 'heroicon-o-home';
+
+    protected static string $view = 'xot::filament.pages.dashboard';
+
+    // protected static string $routePath = 'main';
+
+<<<<<<< HEAD
+=======
+>>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 2f3197ab (.)
+=======
+>>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
+    protected static ?string $title = 'Main Dashboard';
+
+    protected static ?int $navigationSort = 1;
+
+    public function mount(): void
+    {
+        
+        Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
+        $modules = $user->roles->filter(
+            static function ($item) {
+                return Str::endsWith($item->name, '::admin');
+            }
+        );
+        
+        if (1 === $modules->count()) {
+            Assert::notNull($module_first = $modules->first(), '['.__LINE__.']['.class_basename($this).']');
+            $panel_name = $module_first->name;
+            $module_name = Str::before($panel_name, '::admin');
+            $url = '/'.$module_name.'/admin';
+            redirect($url);
+        }
+
+        if (0 === $modules->count()) {
+            $url = '/'.app()->getLocale();
+            redirect($url);
+        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 5cf46378 (.)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+>>>>>>> 38b70c7ba (.)
     }
 }

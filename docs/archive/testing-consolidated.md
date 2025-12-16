@@ -17,7 +17,108 @@ Questo documento sostituisce e consolida **25+ file di testing duplicati** trova
 - Qualsiasi documentazione testing specifica di modulo
 
 ### ✅ Unica Fonte di Verità
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 85cdef688 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 6ca989d8 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 091f883c (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 67be6ac0 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 59259b43 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 88ee35c4e (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> aba62c408 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 92cca5ade (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 5cb992cc6 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 6a52563d6 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 3c8d62b79 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 317b552da (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 60f0a1820 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 - **Implementazione**: Test nei singoli moduli (solo test, non docs)
 
 ## Principi Fondamentali

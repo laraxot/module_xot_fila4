@@ -2,7 +2,10 @@
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento descrive la configurazione dei server MCP (Model Context Protocol) per gli editor AI utilizzati nello sviluppo del progetto <nome progetto> Fila4 Mono.
+=======
+>>>>>>> 38b70c7ba (.)
 
 ## Cos'è MCP?
 
@@ -89,7 +92,10 @@ claude mcp remove <nome-server>
   "mcpServers": {
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>_fila4_mono"]
+=======
+>>>>>>> 38b70c7ba (.)
     }
   }
 }
@@ -101,7 +107,10 @@ claude mcp remove <nome-server>
   "mcpServers": {
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>_fila4_mono"]
+=======
+>>>>>>> 38b70c7ba (.)
     }
   }
 }
@@ -233,7 +242,10 @@ File: `~/.cursor/mcp.json`
   "mcpServers": {
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>_fila4_mono"]
+=======
+>>>>>>> 38b70c7ba (.)
     },
     "fetch": {
       "command": "npx",
@@ -271,7 +283,10 @@ File: `~/.codeium/windsurf/mcp_config.json`
   "mcpServers": {
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>_fila4_mono"]
+=======
+>>>>>>> 38b70c7ba (.)
     },
     "fetch": {
       "command": "npx",

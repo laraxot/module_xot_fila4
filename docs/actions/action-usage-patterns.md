@@ -37,7 +37,102 @@ Prima di usare un'Action:
 
 ### Pattern da cercare e correggere:
 ```bash
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 85cdef688 (.)
+=======
+
+>>>>>>> 6ca989d8 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+
+>>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 67be6ac0 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+
+>>>>>>> 59259b43 (.)
+=======
+
+>>>>>>> 88ee35c4e (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+
+>>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 92cca5ade (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+
+>>>>>>> 5cb992cc6 (.)
+=======
+
+>>>>>>> 6a52563d6 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+
+>>>>>>> 3c8d62b79 (.)
+=======
+
+>>>>>>> 317b552da (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+
+>>>>>>> 60f0a1820 (.)
+=======
+
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 # Cerca pattern errati
 grep -r "::cast(" Modules/
 grep -r "::execute(" Modules/
@@ -46,7 +141,102 @@ grep -r "ActionClass::" Modules/
 
 ### Pattern corretti da mantenere:
 ```bash
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 85cdef688 (.)
+=======
+
+>>>>>>> 6ca989d8 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+
+>>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 67be6ac0 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+
+>>>>>>> 59259b43 (.)
+=======
+
+>>>>>>> 88ee35c4e (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+
+>>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 92cca5ade (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+
+>>>>>>> 5cb992cc6 (.)
+=======
+
+>>>>>>> 6a52563d6 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+
+>>>>>>> 3c8d62b79 (.)
+=======
+
+>>>>>>> 317b552da (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+
+>>>>>>> 60f0a1820 (.)
+=======
+
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 # Verifica pattern corretti
 grep -r "app.*Action.*->execute" Modules/
 ```
@@ -76,7 +266,102 @@ $expression = \Modules\Xot\Actions\Geo\GetDistanceExpressionAction::getExpressio
 ### Script di Validazione
 ```bash
 #!/bin/bash
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 85cdef688 (.)
+=======
+
+>>>>>>> 6ca989d8 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+
+>>>>>>> 091f883c (.)
+=======
+
+>>>>>>> 67be6ac0 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+
+>>>>>>> 59259b43 (.)
+=======
+
+>>>>>>> 88ee35c4e (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+
+>>>>>>> aba62c408 (.)
+=======
+
+>>>>>>> 92cca5ade (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+
+>>>>>>> 5cb992cc6 (.)
+=======
+
+>>>>>>> 6a52563d6 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+
+>>>>>>> 3c8d62b79 (.)
+=======
+
+>>>>>>> 317b552da (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+
+>>>>>>> 60f0a1820 (.)
+=======
+
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 # Cerca pattern errati nelle Action
 echo "Cercando pattern errati..."
 find Modules/ -name "*.php" -exec grep -l "Actions.*::" {} \;
@@ -95,10 +380,188 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 ## 📖 **RIFERIMENTI**
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 38b70c7ba (.)
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+<<<<<<< HEAD
+=======
+>>>>>>> 85cdef688 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 6ca989d8 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 2bad128c (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 358ba79a7 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> f8f76a284 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 0117b849c (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> 9f193021d (.)
+=======
+>>>>>>> d9f43fce9 (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 59259b43 (.)
+=======
+>>>>>>> ab5b3a4f (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)
+=======
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---

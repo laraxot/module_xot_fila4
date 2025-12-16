@@ -23,7 +23,108 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 
 ### Dove Usare il Nome del Progetto
 ✅ CORRETTO:
+<<<<<<< HEAD
 - `/docs/` (cartella root del progetto)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 85cdef688 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 6ca989d8 (.)
+=======
+- `/docs/` (cartella root del progetto)
+=======
+- `/project_docs/` (cartella root del progetto)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 091f883c (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 67be6ac0 (.)
+=======
+- `/docs/` (cartella root del progetto)
+=======
+- `/project_docs/` (cartella root del progetto)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 59259b43 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 88ee35c4e (.)
+=======
+- `/docs/` (cartella root del progetto)
+=======
+- `/project_docs/` (cartella root del progetto)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> aba62c408 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 92cca5ade (.)
+=======
+- `/docs/` (cartella root del progetto)
+=======
+- `/project_docs/` (cartella root del progetto)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 5cb992cc6 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 6a52563d6 (.)
+=======
+- `/docs/` (cartella root del progetto)
+=======
+- `/project_docs/` (cartella root del progetto)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 3c8d62b79 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 317b552da (.)
+=======
+- `/docs/` (cartella root del progetto)
+=======
+- `/project_docs/` (cartella root del progetto)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 60f0a1820 (.)
+=======
+- `/docs/` (cartella root del progetto)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 - `README.md` principale
 - File di configurazione specifici del progetto
 - Documentazione di deployment

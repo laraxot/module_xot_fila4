@@ -1,3 +1,108 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
 <?php
 
 declare(strict_types=1);
@@ -12,6 +117,261 @@ declare(strict_types=1);
             <input wire:model="animal" name="animal" type="radio" value="dogs" /> Dogs
         </label>
         <label class="btn btn-danger">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+<div>
+    <div class="btn-group group-toggle">
+        <label class="btn btn-danger">
+            <input wire:model="animal" name="animal" type="radio" value="cats" /> Cats
+        </label>
+        <label class="btn btn-danger">
+            <input wire:model="animal" name="animal" type="radio" value="dogs" /> Dogs
+        </label>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <label class="btn btn-danger">
+=======
+>>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+        <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> a12f125f4a (.)
+=======
+        <label class="btn btn-danger">
+>>>>>>> b93ef594b4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> f2dd5676b (.)
+<div>
+    <div class="btn-group group-toggle">
+        <x-filament-forms::field-wrapper.label class="btn btn-danger">
+            <input wire:model="animal" name="animal" type="radio" value="cats" /> Cats
+        </label>
+        <x-filament-forms::field-wrapper.label class="btn btn-danger">
+            <input wire:model="animal" name="animal" type="radio" value="dogs" /> Dogs
+        </label>
+        <x-filament-forms::field-wrapper.label class="btn btn-danger">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 5cf46378 (.)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
             <input wire:model="animal" name="animal" type="radio" value="both" /> Both
         </label>
     </div>
@@ -24,7 +384,188 @@ declare(strict_types=1);
     <div class="mb-4">
         @foreach ($options as $key => $option)
             <div>
+<<<<<<< HEAD
                 <label class="inline-flex items-center">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <label class="inline-flex items-center">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+=======
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 358ba79a7 (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> f8f76a284 (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 5e6e0d054 (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <label class="inline-flex items-center">
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> a12f125f4a (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> b93ef594b4 (.)
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+                <label class="inline-flex items-center">
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
+                <label class="inline-flex items-center">
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> f1d4085 (.)
+=======
+                <label class="inline-flex items-center">
+<<<<<<< HEAD
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+                <label class="inline-flex items-center">
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> aba62c408 (.)
+=======
+                <label class="inline-flex items-center">
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 5cb992cc6 (.)
+=======
+                <label class="inline-flex items-center">
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 3c8d62b79 (.)
+=======
+                <label class="inline-flex items-center">
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 60f0a1820 (.)
+=======
+                <label class="inline-flex items-center">
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
                     <input wire:model="options.{{ $key }}" name="options[{{ $key }}]" value="1" type="checkbox">
                     <span class="ml-2">{{ $key }}</span>
                 </label>
@@ -39,6 +580,106 @@ declare(strict_types=1);
     @for ($i = 0; $i < 3; $i++)
         <h3>{{ $i }}</h3>
         <div class="btn-group btn-group-toggle">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
             <label class="btn btn-danger">
                 <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="-1" />
                 <span>-</span>
@@ -48,6 +689,262 @@ declare(strict_types=1);
                 <span>&nbsp;</span>
             </label>
             <label class="btn btn-primary">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+=======
+            <x-filament-forms::field-wrapper.label class="btn btn-danger">
+=======
+            <label class="btn btn-danger">
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+                <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="-1" />
+                <span>-</span>
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="0" />
+                <span>&nbsp;</span>
+            </label>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <label class="btn btn-primary">
+=======
+>>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+            <x-filament-forms::field-wrapper.label class="btn btn-primary">
+>>>>>>> a12f125f4a (.)
+=======
+            <label class="btn btn-primary">
+>>>>>>> b93ef594b4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> f2dd5676b (.)
+            <x-filament-forms::field-wrapper.label class="btn btn-danger">
+                <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="-1" />
+                <span>-</span>
+            </label>
+            <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+                <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="0" />
+                <span>&nbsp;</span>
+            </label>
+            <x-filament-forms::field-wrapper.label class="btn btn-primary">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 5cf46378 (.)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
                 <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="1" />
                 <span>+</span>
             </label>
@@ -67,7 +964,188 @@ declare(strict_types=1);
 
 
                 <div class="btn-group btn-group-toggle">
+<<<<<<< HEAD
                     <label class="btn btn-danger">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-danger">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+=======
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 358ba79a7 (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 5e6e0d054 (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-danger">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> a12f125f4a (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> b93ef594b4 (.)
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+                    <label class="btn btn-danger">
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
+                    <label class="btn btn-danger">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> f1d4085 (.)
+=======
+                    <label class="btn btn-danger">
+<<<<<<< HEAD
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+                    <label class="btn btn-danger">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> aba62c408 (.)
+=======
+                    <label class="btn btn-danger">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 5cb992cc6 (.)
+=======
+                    <label class="btn btn-danger">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 3c8d62b79 (.)
+=======
+                    <label class="btn btn-danger">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 60f0a1820 (.)
+=======
+                    <label class="btn btn-danger">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="-1">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == -1)
@@ -76,7 +1154,188 @@ declare(strict_types=1);
                             -
                         @endif
                     </label>
+<<<<<<< HEAD
                     <label class="btn btn-secondary">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-secondary">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+=======
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 358ba79a7 (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 5e6e0d054 (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-secondary">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> a12f125f4a (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> b93ef594b4 (.)
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+                    <label class="btn btn-secondary">
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
+                    <label class="btn btn-secondary">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> f1d4085 (.)
+=======
+                    <label class="btn btn-secondary">
+<<<<<<< HEAD
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+                    <label class="btn btn-secondary">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> aba62c408 (.)
+=======
+                    <label class="btn btn-secondary">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 5cb992cc6 (.)
+=======
+                    <label class="btn btn-secondary">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 3c8d62b79 (.)
+=======
+                    <label class="btn btn-secondary">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 60f0a1820 (.)
+=======
+                    <label class="btn btn-secondary">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="0">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == 0)
@@ -85,7 +1344,188 @@ declare(strict_types=1);
                             &nbsp;
                         @endif
                     </label>
+<<<<<<< HEAD
                     <label class="btn btn-primary active">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-primary active">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+=======
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
+=======
+>>>>>>> a67e542f (.)
+=======
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 358ba79a7 (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 5e6e0d054 (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 0117b849c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-primary active">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> a12f125f4a (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> b93ef594b4 (.)
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+=======
+=======
+<<<<<<< HEAD
+                    <label class="btn btn-primary active">
+>>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 8fd88dd43 (.)
+                    <label class="btn btn-primary active">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> f1d4085 (.)
+=======
+                    <label class="btn btn-primary active">
+<<<<<<< HEAD
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> 7468a7d2 (.)
+=======
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 300ef70 (.)
+>>>>>>> 5cf46378 (.)
+=======
+                    <label class="btn btn-primary active">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> aba62c408 (.)
+=======
+                    <label class="btn btn-primary active">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 5cb992cc6 (.)
+=======
+                    <label class="btn btn-primary active">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> f1d4085 (.)
+>>>>>>> aa96bb619 (.)
+=======
+>>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 3c8d62b79 (.)
+=======
+                    <label class="btn btn-primary active">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
+=======
+>>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 60f0a1820 (.)
+=======
+                    <label class="btn btn-primary active">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
+=======
+>>>>>>> 8cf76e7 (.)
+>>>>>>> 8fd88dd43 (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 851793957 (.)
+>>>>>>> 38b70c7ba (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="1">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == 1)

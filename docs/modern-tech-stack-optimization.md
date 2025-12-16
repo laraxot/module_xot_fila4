@@ -951,7 +951,10 @@ class PerformanceMonitoringMiddleware
 - [ ] Type safety at 95%+
 
 ### Code Quality
+<<<<<<< HEAD
 - [ ] PHPStan level 10+ compliance
+=======
+>>>>>>> 38b70c7ba (.)
 - [ ] Zero deprecated code usage
 - [ ] Modern patterns consistently applied
 - [ ] Documentation updated

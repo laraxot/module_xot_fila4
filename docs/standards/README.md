@@ -13,6 +13,98 @@ Questa cartella contiene gli standard di codice e le convenzioni utilizzate nel 
 Questi standard si applicano a tutti i moduli del progetto e devono essere seguiti per mantenere la coerenza del codice. 
 
 ## Collegamenti tra versioni di README.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 85cdef688 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 6ca989d8 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 2bad128c (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 358ba79a7 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> f8f76a284 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 5e6e0d054 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 0117b849c (.)
+=======
+* [README.md](bashscripts/project_docs/README.md)
+* [README.md](bashscripts/project_docs/it/README.md)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 1a525d0ea (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> 38b70c7ba (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -43,6 +135,43 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](docs/implementazione/reporting/README.md)
 * [README.md](docs/implementazione/isee/README.md)
 * [README.md](docs/it/README.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 1a525d0ea (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> 38b70c7ba (.)
 * [README.md](laravel/vendor/mockery/mockery/docs/README.md)
 * [README.md](../../../Chart/docs/README.md)
 * [README.md](../../../Reporting/docs/README.md)
@@ -87,6 +216,103 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](../../../Cms/docs/components/README.md)
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+* [README.md](laravel/vendor/mockery/mockery/project_docs/README.md)
+* [README.md](../../../Chart/project_docs/README.md)
+* [README.md](../../../Reporting/project_docs/README.md)
+* [README.md](../../../Gdpr/project_docs/phpstan/README.md)
+* [README.md](../../../Gdpr/project_docs/README.md)
+* [README.md](../../../Notify/project_docs/phpstan/README.md)
+* [README.md](../../../Notify/project_docs/README.md)
+* [README.md](../../../Xot/project_docs/filament/README.md)
+* [README.md](../../../Xot/project_docs/phpstan/README.md)
+* [README.md](../../../Xot/project_docs/exceptions/README.md)
+* [README.md](../../../Xot/project_docs/README.md)
+* [README.md](../../../Xot/project_docs/standards/README.md)
+* [README.md](../../../Xot/project_docs/conventions/README.md)
+* [README.md](../../../Xot/project_docs/development/README.md)
+* [README.md](../../../Dental/project_docs/README.md)
+* [README.md](../../../User/project_docs/phpstan/README.md)
+* [README.md](../../../User/project_docs/README.md)
+* [README.md](../../../User/project_docs/README.md)
+* [README.md](../../../UI/project_docs/phpstan/README.md)
+* [README.md](../../../UI/project_docs/README.md)
+* [README.md](../../../UI/project_docs/standards/README.md)
+* [README.md](../../../UI/project_docs/themes/README.md)
+* [README.md](../../../UI/project_docs/components/README.md)
+* [README.md](../../../Lang/project_docs/phpstan/README.md)
+* [README.md](../../../Lang/project_docs/README.md)
+* [README.md](../../../Job/project_docs/phpstan/README.md)
+* [README.md](../../../Job/project_docs/README.md)
+* [README.md](../../../Media/project_docs/phpstan/README.md)
+* [README.md](../../../Media/project_docs/README.md)
+* [README.md](../../../Tenant/project_docs/phpstan/README.md)
+* [README.md](../../../Tenant/project_docs/README.md)
+* [README.md](../../../Activity/project_docs/phpstan/README.md)
+* [README.md](../../../Activity/project_docs/README.md)
+* [README.md](../../../Patient/project_docs/README.md)
+* [README.md](../../../Patient/project_docs/standards/README.md)
+* [README.md](../../../Patient/project_docs/value-objects/README.md)
+* [README.md](../../../Cms/project_docs/blocks/README.md)
+* [README.md](../../../Cms/project_docs/README.md)
+* [README.md](../../../Cms/project_docs/standards/README.md)
+* [README.md](../../../Cms/project_docs/content/README.md)
+* [README.md](../../../Cms/project_docs/frontoffice/README.md)
+* [README.md](../../../Cms/project_docs/components/README.md)
+* [README.md](../../../../Themes/Two/project_docs/README.md)
+* [README.md](../../../../Themes/One/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 1a525d0ea (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> 38b70c7ba (.)
 
 # Standard Xot: Ereditarietà dei Modelli
 
@@ -98,11 +324,106 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 > Esempio di errore tipico: `Unknown column 'certifications' in 'field list'`.
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 1a525d0ea (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> 38b70c7ba (.)
 - [Modello Doctor (Patient)](../../../Patient/docs/Models/Doctor.md)
 - [Gestione campi e migrazioni con STI (README Patient)](../../../Patient/docs/README.md)
 - [DoctorResource: Step Informazioni Personali (Patient)](../../../Patient/docs/filament/resources/doctor-resource.md)
 - [Struttura progetto e STI (Patient)](../../../Patient/docs/architecture/struttura-progetto.md)
 - [Migrazioni e database (Patient)](../../../Patient/docs/database/migrations.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+- [Modello Doctor (Patient)](../../../Patient/project_docs/Models/Doctor.md)
+- [Gestione campi e migrazioni con STI (README Patient)](../../../Patient/project_docs/README.md)
+- [DoctorResource: Step Informazioni Personali (Patient)](../../../Patient/project_docs/filament/resources/doctor-resource.md)
+- [Struttura progetto e STI (Patient)](../../../Patient/project_docs/architecture/struttura-progetto.md)
+- [Migrazioni e database (Patient)](../../../Patient/project_docs/database/migrations.md)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 1a525d0ea (.)
+=======
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+>>>>>>> 38b70c7ba (.)
 
 ## Regola generale
 
@@ -124,5 +445,82 @@ class Doctor extends User
 ```
 
 ## Moduli che applicano questa regola
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 85cdef688 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 6ca989d8 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+=======
+- [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 67be6ac0 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+=======
+- [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 88ee35c4e (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+=======
+- [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 92cca5ade (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+=======
+- [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 6a52563d6 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+=======
+- [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 1a525d0ea (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 317b552da (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+=======
+- [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+>>>>>>> 38b70c7ba (.)
 // Aggiungere qui altri moduli se necessario
 

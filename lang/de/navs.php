@@ -2,6 +2,55 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
+
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
+
+
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
+
+
+
+
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 return [
     'general' => [
         'home' => [
@@ -20,7 +69,25 @@ return [
         ],
         'login' => [
             'label' => 'Login',
+<<<<<<< HEAD
             'icon' => 'ui-login',
+=======
+            'icon' => 'ui-login',
+<<<<<<< HEAD
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'ui-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+            'icon' => 'heroicon-o-login',
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
         ],
         'macros' => [
             'label' => 'Macro',

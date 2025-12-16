@@ -14,14 +14,58 @@
 **Data Analisi**: 18 Agosto 2025
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 #### Quaeris Module (Complex Issues)
 #### <nome progetto> Module (Complex Issues)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 - **Errors:** ~500+ across chart export and quantum actions
 - **Main Issues:**
   - Missing class definitions (quantum-related classes)
   - Type mismatches in DTOs
   - Invalid array operations
   - Unreachable code
+<<<<<<< HEAD
+=======
+
+#### UI Module (Minor Issues)
+- **Errors:** 1
+- **Main Issues:** Unused return type in RadioBadge component
+
+### 2. Common Pattern Issues
+
+#### Type Safety Violations
+```php
+// ❌ Common issue: Accessing offset on mixed type
+Cannot access offset 'datasets' on mixed.
+Cannot access offset 'labels' on mixed.
+
+// ❌ Common issue: Invalid binary operations
+Binary operation "." between non-falsy-string and mixed results in an error.
+```
+
+#### Unsafe Function Usage
+```php
+// ❌ Missing Safe functions
+Function base64_decode is unsafe to use. Please add 'use function Safe\base64_decode;'
+Function json_encode is unsafe to use. Please add 'use function Safe\json_encode;'
+Function preg_replace is unsafe to use. Please add 'use function Safe\preg_replace;'
+```
+
+#### Missing Class Definitions
+```php
+// ❌ Quantum-related classes not found
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Class Modules\Quaeris\Actions\Charts\Quantum\GenerateConsciousChartAction
+implements unknown interface Spatie\Queable\Contracts\Queable.
+Class Modules\Quaeris\Actions\Charts\Quantum\GenerateConsciousChartAction
+>>>>>>> 38b70c7ba (.)
 =======
 ## Categorizzazione Errori
 >>>>>>> b018eb3b5 (.)
@@ -134,6 +178,11 @@ Class Modules\Quaeris\Actions\Charts\Quantum\GenerateConsciousChartAction
 Class Modules\<nome progetto>\Actions\Charts\Quantum\GenerateConsciousChartAction
 implements unknown interface Spatie\Queable\Contracts\Queable.
 Class Modules\<nome progetto>\Actions\Charts\Quantum\GenerateConsciousChartAction
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 uses unknown trait Spatie\Queable\QueableAction.
 =======
 // Stringhe
@@ -166,6 +215,8 @@ string|int|array<int, string|int> $mixed
 ```
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 #### Quaeris Module Issues
 **Primary Files:**
 - `Quaeris/app/Actions/Charts/Export/ExportFilamentWidgetToPngAction.php` (100+ errors)
@@ -176,6 +227,7 @@ string|int|array<int, string|int> $mixed
 - `<nome progetto>/app/Actions/Charts/Export/ExportFilamentWidgetToPngAction.php` (100+ errors)
 - `<nome progetto>/app/Actions/Charts/Export/ExportFilamentWidgetToSvgAction.php` (150+ errors)
 - `<nome progetto>/app/Actions/Charts/Quantum/GenerateConsciousChartAction.php` (200+ errors)
+<<<<<<< HEAD
 =======
 ### PHPDoc Properties
 ```php
@@ -187,6 +239,10 @@ string|int|array<int, string|int> $mixed
 class MyModel extends BaseModel
 ```
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 ## Benefici Attesi
 
@@ -234,8 +290,11 @@ class MyModel extends BaseModel
 **Analysis Generated**: 2025-11-18
 **Next Review Date**: 2025-11-25
 **Target Completion**: 2025-12-02
+<<<<<<< HEAD
 =======
 **Stato**: 🔄 Analisi Completata - Correzioni in Corso  
 **phpstan.neon**: ✅ INTOCCATO  
 **Approccio**: DRY + KISS + Type Safety
 >>>>>>> b018eb3b5 (.)
+=======
+>>>>>>> 38b70c7ba (.)

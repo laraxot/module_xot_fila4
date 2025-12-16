@@ -41,7 +41,21 @@ mantenere sempre lo stesso pattern di namespace rispetto a filament, ma usando i
 namespace Filament\Resources\Pages;
 
 // namespace corretto nel modulo
+<<<<<<< HEAD
 namespace Modules\<main module>\Filament\Resources\Pages;
+=======
+<<<<<<< HEAD
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+=======
+namespace Modules\<main module>\Filament\Resources\Pages;
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 ```
 
 ## metodi delle classi base
@@ -75,5 +89,27 @@ protected function getInfolistSchema(): array
 
 ## linkback
 
+<<<<<<< HEAD
 - [errore override metodo final](/var/www/html/<directory progetto>/laravel/docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/<directory progetto>/laravel/Modules/<main module>/docs/filament-resources.md)
+=======
+<<<<<<< HEAD
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+=======
+- [errore override metodo final](/var/www/html/<directory progetto>/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/<directory progetto>/laravel/Modules/<main module>/docs/filament-resources.md)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)

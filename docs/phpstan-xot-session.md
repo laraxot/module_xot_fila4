@@ -21,6 +21,15 @@
 - mantenere l'uso delle Assert solo dove realmente necessario (niente assert ridondanti su variabili già tipizzate)
 
 
+<<<<<<< HEAD
 
 
 
+=======
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)

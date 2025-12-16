@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Datas;
 
+<<<<<<< HEAD
 /**
  * Legacy stub file for XotData.
  *
@@ -14,3 +15,14 @@ namespace Modules\Xot\Datas;
  * duplicate class definitions and to let tools like PHPStan pick up
  * the actual Data-based implementation with make()/getUserClass().
  */
+=======
+class XotData
+{
+    /**
+     * Xot data container.
+     */
+    public function __construct(
+        public readonly array $config = []
+    ) {}
+}
+>>>>>>> 38b70c7ba (.)

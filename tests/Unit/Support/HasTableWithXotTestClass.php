@@ -14,6 +14,18 @@ use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Contracts\Pagination\CursorPaginator;
 use Filament\Actions\Action;
 use Filament\Support\Contracts\TranslatableContentDriver;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 use Filament\Tables\Contracts\HasTable;
 use Filament\Tables\Table;
 use Illuminate\Support\Collection;
@@ -37,6 +49,18 @@ class HasTableWithXotTestClass implements HasTable
         return $mock;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        $mock->shouldReceive('getTableColumns')->andReturn([]);
+        $mock->shouldReceive('getTableContentGrid')->andReturn([]);
+        return $mock;
+    }
+
+    #[Override]
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     public function getTableColumns(): array
     {
         return [];
@@ -49,6 +73,16 @@ class HasTableWithXotTestClass implements HasTable
     }
 
     public function getTablePage(): int|string
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        return Mockery::mock(Table::class);
+    }
+
+    public function getTablePage(): null|int
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return 1;
     }
@@ -69,11 +103,36 @@ class HasTableWithXotTestClass implements HasTable
     }
 
     public function getTableSortColumn(): ?string
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function getTableSortColumn(): null|string
+    public function getTableSortColumn(): null|string
+    public function getTableSortColumn(): null|string
+    public function getTableSortColumn(): null|string
+    public function getTableSortColumn(): null|string
+    public function getTableSortColumn(): null|string
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getTableSortDirection(): ?string
+=======
+<<<<<<< HEAD
+    public function getTableSortDirection(): null|string
+    public function getTableSortDirection(): null|string
+    public function getTableSortDirection(): null|string
+    public function getTableSortDirection(): null|string
+    public function getTableSortDirection(): null|string
+    public function getTableSortDirection(): null|string
+=======
+    public function getTableSortDirection(): ?string
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
@@ -95,6 +154,18 @@ class HasTableWithXotTestClass implements HasTable
     }
 
     public function getTableGrouping(): ?Group
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function getTableFiltersForm(): mixed
+    public function getTableFiltersForm(): mixed
+    public function getTableFiltersForm(): mixed
+    public function getTableFiltersForm(): mixed
+    public function getTableFiltersForm(): mixed
+    public function getTableFiltersForm(): mixed
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
@@ -103,6 +174,25 @@ class HasTableWithXotTestClass implements HasTable
     {
         /** @var Indicator */
         return Mockery::mock(Indicator::class);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function getTableFilterState(string $name): null|array
+    {
+        return [];
+    }
+
+    public function getTableGrouping(): null|string
+    {
+        return null;
+    }
+
+    public function getTableSearchIndicator(): null|string
+    {
+        return null;
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     }
 
     public function getTableColumnSearchIndicators(): array
@@ -121,6 +211,18 @@ class HasTableWithXotTestClass implements HasTable
     }
 
     public function getTableRecord(mixed $key): array|Model|null
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function getTableRecords(): array
+    {
+        return [];
+    }
+
+    public function getTableRecord(): mixed
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
@@ -133,6 +235,20 @@ class HasTableWithXotTestClass implements HasTable
     public function getSelectedTableRecords(bool $shouldFetchSelectedRecords = true, ?int $chunkSize = null): Collection
     {
         return new Collection;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function getTableRecordKey(): mixed
+    {
+        return null;
+    }
+
+    public function getSelectedTableRecords(bool $shouldFetchSelectedRecords = true): Collection
+    {
+        return new Collection();
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     }
 
     public function getAllTableRecordsCount(): int
@@ -156,36 +272,126 @@ class HasTableWithXotTestClass implements HasTable
     }
 
     public function getFilteredTableQuery(): ?Builder
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function getTableQueryForExport(): mixed
+    public function getTableQueryForExport(): mixed
+    public function getTableQueryForExport(): mixed
+    public function getTableQueryForExport(): mixed
+    public function getTableQueryForExport(): mixed
+    public function getTableQueryForExport(): mixed
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getFilteredSortedTableQuery(): ?Builder
+=======
+<<<<<<< HEAD
+    public function getFilteredTableQuery(): mixed
+    public function getFilteredTableQuery(): mixed
+    public function getFilteredTableQuery(): mixed
+    public function getFilteredTableQuery(): mixed
+    public function getFilteredTableQuery(): mixed
+    public function getFilteredTableQuery(): mixed
+=======
+    public function getFilteredSortedTableQuery(): ?Builder
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getAllTableSummaryQuery(): ?Builder
+=======
+<<<<<<< HEAD
+    public function getFilteredSortedTableQuery(): mixed
+    public function getFilteredSortedTableQuery(): mixed
+    public function getFilteredSortedTableQuery(): mixed
+    public function getFilteredSortedTableQuery(): mixed
+    public function getFilteredSortedTableQuery(): mixed
+    public function getFilteredSortedTableQuery(): mixed
+=======
+    public function getAllTableSummaryQuery(): ?Builder
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getPageTableSummaryQuery(): ?Builder
+=======
+<<<<<<< HEAD
+    public function getAllTableSummaryQuery(): mixed
+    public function getAllTableSummaryQuery(): mixed
+    public function getAllTableSummaryQuery(): mixed
+    public function getAllTableSummaryQuery(): mixed
+    public function getAllTableSummaryQuery(): mixed
+    public function getAllTableSummaryQuery(): mixed
+=======
+    public function getPageTableSummaryQuery(): ?Builder
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getMountedTableAction(): ?Action
+=======
+<<<<<<< HEAD
+    public function getPageTableSummaryQuery(): mixed
+    public function getPageTableSummaryQuery(): mixed
+    public function getPageTableSummaryQuery(): mixed
+    public function getPageTableSummaryQuery(): mixed
+    public function getPageTableSummaryQuery(): mixed
+    public function getPageTableSummaryQuery(): mixed
+=======
+    public function getMountedTableAction(): ?Action
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getMountedTableActionForm(): ?Schema
+=======
+<<<<<<< HEAD
+    public function getMountedTableAction(): null|string
+    public function getMountedTableAction(): null|string
+    public function getMountedTableAction(): null|string
+    public function getMountedTableAction(): null|string
+    public function getMountedTableAction(): null|string
+    public function getMountedTableAction(): null|string
+=======
+    public function getMountedTableActionForm(): ?Schema
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getMountedTableActionRecord(): ?Model
+=======
+<<<<<<< HEAD
+    public function getMountedTableActionForm(): mixed
+    {
+        return null;
+    }
+
+    public function getMountedTableActionRecord(): mixed
+=======
+    public function getMountedTableActionRecord(): ?Model
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
@@ -195,17 +401,56 @@ class HasTableWithXotTestClass implements HasTable
         return null;
     }
 
+<<<<<<< HEAD
     public function getMountedTableBulkAction(): ?Action
+=======
+<<<<<<< HEAD
+    public function getMountedTableBulkAction(): null|string
+    public function getMountedTableBulkAction(): null|string
+    public function getMountedTableBulkAction(): null|string
+    public function getMountedTableBulkAction(): null|string
+    public function getMountedTableBulkAction(): null|string
+    public function getMountedTableBulkAction(): null|string
+=======
+    public function getMountedTableBulkAction(): ?Action
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getMountedTableBulkActionForm(): ?Schema
+=======
+<<<<<<< HEAD
+    public function getMountedTableBulkActionForm(): mixed
+    public function getMountedTableBulkActionForm(): mixed
+    public function getMountedTableBulkActionForm(): mixed
+    public function getMountedTableBulkActionForm(): mixed
+    public function getMountedTableBulkActionForm(): mixed
+    public function getMountedTableBulkActionForm(): mixed
+=======
+    public function getMountedTableBulkActionForm(): ?Schema
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getActiveTableLocale(): ?string
+=======
+<<<<<<< HEAD
+    public function getActiveTableLocale(): null|string
+    public function getActiveTableLocale(): null|string
+    public function getActiveTableLocale(): null|string
+    public function getActiveTableLocale(): null|string
+    public function getActiveTableLocale(): null|string
+    public function getActiveTableLocale(): null|string
+=======
+    public function getActiveTableLocale(): ?string
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
@@ -225,12 +470,38 @@ class HasTableWithXotTestClass implements HasTable
         return false;
     }
 
+<<<<<<< HEAD
     public function isTableColumnToggledHidden(string $name): bool
+=======
+<<<<<<< HEAD
+    public function isTableColumnToggledHidden(): bool
+    public function isTableColumnToggledHidden(): bool
+    public function isTableColumnToggledHidden(): bool
+    public function isTableColumnToggledHidden(): bool
+    public function isTableColumnToggledHidden(): bool
+    public function isTableColumnToggledHidden(): bool
+=======
+    public function isTableColumnToggledHidden(string $name): bool
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return false;
     }
 
+<<<<<<< HEAD
     public function callMountedTableAction(mixed $arguments = []): mixed
+=======
+<<<<<<< HEAD
+    public function callMountedTableAction(): mixed
+    public function callMountedTableAction(): mixed
+    public function callMountedTableAction(): mixed
+    public function callMountedTableAction(): mixed
+    public function callMountedTableAction(): mixed
+    public function callMountedTableAction(): mixed
+=======
+    public function callMountedTableAction(mixed $arguments = []): mixed
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }
@@ -245,6 +516,23 @@ class HasTableWithXotTestClass implements HasTable
     public function mountTableAction(string $name, mixed $record = null, mixed $arguments = []): void {}
 
     public function mountTableBulkAction(string $name, mixed $selectedRecords = []): void {}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function deselectAllTableRecords(): void
+    {
+    }
+
+    public function mountTableAction(): void
+    {
+    }
+
+    public function mountTableBulkAction(): void
+    {
+    }
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
     public function mountedTableActionRecord(): mixed
     {
@@ -267,6 +555,38 @@ class HasTableWithXotTestClass implements HasTable
     }
 
     public function makeFilamentTranslatableContentDriver(): ?TranslatableContentDriver
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function replaceMountedTableAction(): void
+    {
+    }
+
+    public function replaceMountedTableBulkAction(): void
+    {
+    }
+
+    public function resetTableSearch(): void
+    {
+    }
+
+    public function resetTableColumnSearch(): void
+    {
+    }
+
+    public function toggleTableReordering(): void
+    {
+    }
+
+    public function parseTableFilterName(): string
+    {
+        return '';
+    }
+
+    public function makeFilamentTranslatableContentDriver(): mixed
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     {
         return null;
     }

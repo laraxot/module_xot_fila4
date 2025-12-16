@@ -13,7 +13,170 @@ il progetto è basato su un'architettura modulare che utilizza Laravel come fram
 
 ### 1. Core Framework
 - **Laravel 12**: Framework PHP per lo sviluppo web
+<<<<<<< HEAD
 - **Filament 3**: Framework di amministrazione per il backend
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 85cdef688 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 6ca989d8 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 091f883c (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> ecd5ec32 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 67be6ac0 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 59259b43 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 88ee35c4e (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 6cba4fe (.)
+>>>>>>> 358ba79a7 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> aba62c408 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 5e6aa70fe (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 92cca5ade (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 6cba4fe (.)
+>>>>>>> f8f76a284 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 5cb992cc6 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> a5dccfe (.)
+>>>>>>> 7e4835b8e (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> e39b54ba7 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 6a52563d6 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 6cba4fe (.)
+>>>>>>> 5e6e0d054 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 3c8d62b79 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> ba7efc23f (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 317b552da (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 6cba4fe (.)
+>>>>>>> 0117b849c (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 60f0a1820 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 5df5c7505 (.)
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 
 ### 2. Sistema Modulare
 - **Laraxot**: Sistema di moduli personalizzato

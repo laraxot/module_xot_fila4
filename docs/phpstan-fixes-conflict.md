@@ -30,10 +30,27 @@
 **Soluzione**:
 - Aggiunto cast esplicito `@var array<string, mixed>` al risultato
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### 4. <main module>/app/States/Appointment/ReportPending.php
+>>>>>>> 92bc33604 (.)
+=======
+>>>>>>> 38b70c7ba (.)
 ### 4. <main module>/app/States/Appointment/ReportPending.php
 ### 4. <main module>/app/States/Appointment/ReportPending.php
+<<<<<<< HEAD
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 
+=======
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`

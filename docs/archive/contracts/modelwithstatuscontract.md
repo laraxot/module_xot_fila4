@@ -64,5 +64,173 @@ Imposta un nuovo stato per il modello con un motivo opzionale.
 
 ## Collegamenti correlati
 - [Documentazione Spatie Model Status](https://github.com/spatie/laravel-model-status)
+<<<<<<< HEAD
 - [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
 - [Documentazione PHPStan](https://phpstan.org/) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione PHPStan](https://phpstan.org/) 
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 6ca989d8 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/project_docs/eloquent)
+>>>>>>> 6cba4fe (.)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> ce6fc085 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+>>>>>>> 091f883c (.)
+=======
+<<<<<<< HEAD
+=======
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 67be6ac0 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/project_docs/eloquent)
+>>>>>>> 6cba4fe (.)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 2bad128c (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+>>>>>>> 59259b43 (.)
+=======
+=======
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 88ee35c4e (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/project_docs/eloquent)
+>>>>>>> 6cba4fe (.)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 358ba79a7 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+>>>>>>> aba62c408 (.)
+=======
+=======
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 92cca5ade (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/project_docs/eloquent)
+>>>>>>> 6cba4fe (.)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> f8f76a284 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+>>>>>>> 5cb992cc6 (.)
+=======
+=======
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> e39b54ba7 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 6a52563d6 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/project_docs/eloquent)
+>>>>>>> 6cba4fe (.)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 5e6e0d054 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+>>>>>>> 3c8d62b79 (.)
+=======
+=======
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
+=======
+>>>>>>> ba7efc23f (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 317b552da (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/project_docs/eloquent)
+>>>>>>> 6cba4fe (.)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 0117b849c (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+>>>>>>> 60f0a1820 (.)
+=======
+=======
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> a5dccfe (.)
+>>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)
+=======
+- [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
+- [Documentazione PHPStan](https://phpstan.org/) 
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)

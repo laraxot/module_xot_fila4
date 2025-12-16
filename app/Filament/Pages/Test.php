@@ -8,7 +8,27 @@ use Filament\Pages\Page;
 
 class Test extends Page
 {
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'modules.xot.filament.pages.test';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+
+    protected string $view = 'modules.xot.filament.pages.test';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+
+    protected string $view = 'modules.xot.filament.pages.test';
+=======
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+
+    protected string $view = 'modules.xot.filament.pages.test';
+>>>>>>> 38b70c7ba (.)
 }

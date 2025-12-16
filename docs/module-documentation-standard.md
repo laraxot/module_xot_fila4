@@ -116,7 +116,10 @@ public function createUser(array $data): User
 - Document permission and role systems
 - Include social login integration guides
 
+<<<<<<< HEAD
 ### <nome progetto> Module
+=======
+>>>>>>> 38b70c7ba (.)
 
 - Document survey management workflows
 - Document reporting and analytics features

@@ -33,6 +33,284 @@ class RouteData extends Data
      */
     public static function make(): static
     {
+<<<<<<< HEAD
         return new static;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
+        return new static;
+        return new static();
+        return new static();
+        return new static;
+        return new static;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a67e542f (.)
+        return new static;
+        return new static;
+=======
+=======
+=======
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5cf46378 (.)
+        return new static;
+=======
+        return new static();
+>>>>>>> 5a14301c (.)
+=======
+        return new static();
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return new static();
+=======
+        return new static();
+>>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> 17684f52 (.)
+=======
+        return new static();
+>>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return new static();
+=======
+        return new static;
+>>>>>>> a12f125f4a (.)
+=======
+        return new static();
+>>>>>>> b93ef594b4 (.)
+=======
+        return new static;
+>>>>>>> ce6fc085 (.)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> ca9324a4 (.)
+=======
+        return new static();
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5cf46378 (.)
+        return new static;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        return new static;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+        return new static();
+=======
+        return new static;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+        return new static();
+<<<<<<< HEAD
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static;
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+        return new static();
+        return new static();
+        return new static;
+        return new static;
+        return new static();
+        return new static();
+        return new static;
+        return new static();
+        return new static();
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return new static();
+=======
+        return new static;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
+>>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        return new static();
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
+=======
+=======
+        return new static();
+>>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
+>>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+        return new static();
+>>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
+>>>>>>> 091f883c (.)
+=======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        return new static();
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return new static();
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return new static;
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        return new static();
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 5cf46378 (.)
+=======
+        return new static;
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
     }
 }

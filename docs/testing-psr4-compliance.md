@@ -94,6 +94,104 @@ composer dump-autoload
 
 ## Correzioni Applicate
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+=======
+>>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
+=======
+=======
+=======
+>>>>>>> cf971011 (.)
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
+=======
+=======
+=======
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+>>>>>>> 7e4835b8e (.)
+=======
+=======
+=======
+>>>>>>> 6d05deed (.)
+<<<<<<< HEAD
+>>>>>>> 9f193021d (.)
+=======
+=======
+=======
+>>>>>>> 39bb163e (.)
+<<<<<<< HEAD
+>>>>>>> d9f43fce9 (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 ### File: `tests/Unit/HasXotTableTest.php` (2025-01-06)
 
 - **Problema**: Classi `HasTableWithXot`, `HasTableWithoutOptionalMethods`, `DummyModel` senza namespace appropriato
@@ -104,6 +202,153 @@ composer dump-autoload
   - Rimossi implements non necessari per semplificare i mock
   - Organizzazione corretta degli import
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
+>>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+<<<<<<< HEAD
+>>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+<<<<<<< HEAD
+>>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+>>>>>>> 7e4835b8e (.)
+=======
+=======
+>>>>>>> 55fe1822 (.)
+<<<<<<< HEAD
+>>>>>>> e39b54ba7 (.)
+=======
+=======
+>>>>>>> 90d386aa (.)
+<<<<<<< HEAD
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6d05deed (.)
+<<<<<<< HEAD
+>>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 0d20089f (.)
+<<<<<<< HEAD
+>>>>>>> ba7efc23f (.)
+=======
+=======
+>>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
+>>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 39bb163e (.)
+<<<<<<< HEAD
+>>>>>>> d9f43fce9 (.)
+=======
+=======
+>>>>>>> b396242e (.)
+<<<<<<< HEAD
+>>>>>>> 5df5c7505 (.)
+=======
+=======
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 ### File: `tests/Unit/HasExtraTraitTest.php`
 
 - **Problema**: Classe `TestExtra` senza namespace appropriato
@@ -115,7 +360,235 @@ composer dump-autoload
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Testing Guide - Modulo <nome modulo>](../../<nome modulo>/docs/testing.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Testing Guide - Modulo <nome modulo>](../../<nome modulo>/docs/testing.md)
+=======
+>>>>>>> ce6fc085 (.)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/docs/testing.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 62cc8443 (.)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+<<<<<<< HEAD
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/docs/testing.md)
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
+>>>>>>> 62cc8443 (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
+>>>>>>> ecd5ec32 (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 88e35986 (.)
+<<<<<<< HEAD
+>>>>>>> 2bad128c (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
+>>>>>>> 358ba79a7 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+<<<<<<< HEAD
+>>>>>>> 88e745db5 (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 76bec91a (.)
+<<<<<<< HEAD
+>>>>>>> 5e6aa70fe (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> cc52d333 (.)
+<<<<<<< HEAD
+>>>>>>> f8f76a284 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+>>>>>>> 7e4835b8e (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 55fe1822 (.)
+<<<<<<< HEAD
+>>>>>>> e39b54ba7 (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 90d386aa (.)
+<<<<<<< HEAD
+>>>>>>> 5e6e0d054 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6d05deed (.)
+<<<<<<< HEAD
+>>>>>>> 9f193021d (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 0d20089f (.)
+<<<<<<< HEAD
+>>>>>>> ba7efc23f (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
+>>>>>>> 0117b849c (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 39bb163e (.)
+<<<<<<< HEAD
+>>>>>>> d9f43fce9 (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> b396242e (.)
+<<<<<<< HEAD
+>>>>>>> 5df5c7505 (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/docs/testing.md)
+>>>>>>> 9e42a036 (.)
+>>>>>>> 80bc07e81 (.)
+=======
+- [Testing Guide - Modulo <nome modulo>](../../<nome modulo>/docs/testing.md)
+>>>>>>> 551c768c4 (.)
+>>>>>>> 38b70c7ba (.)
 - [PHPStan Configuration](./phpstan-configuration-fixes.md)
 - [Best Practices](./best-practices-consolidated.md)
 

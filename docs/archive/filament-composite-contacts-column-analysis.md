@@ -229,9 +229,152 @@ Questa implementazione stabilisce un precedente per:
 ## Collegamenti e Riferimenti
 
 - [Filament Table Columns Documentation](filament_table_columns.md)
+<<<<<<< HEAD
 - [UI Icons System](../../UI/docs/icons.md)
 - [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
 - [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 85cdef688 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 6ca989d8 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 2bad128c (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 358ba79a7 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> f8f76a284 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 5e6e0d054 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 0117b849c (.)
+=======
+- [UI Icons System](../../UI/project_docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/project_docs/3.x/tables/columns)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 091f883c (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 59259b43 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 358ba79a7 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> aba62c408 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 92cca5ade (.)
+=======
+>>>>>>> f8f76a284 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 5cb992cc6 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 5e6e0d054 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 3c8d62b79 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 317b552da (.)
+=======
+>>>>>>> 0117b849c (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 60f0a1820 (.)
+=======
+- [UI Icons System](../../UI/docs/icons.md)
+- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
+- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+>>>>>>> 80bc07e81 (.)
+>>>>>>> 38b70c7ba (.)
 
 ---
 

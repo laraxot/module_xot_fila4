@@ -2,14 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Str;
-use Modules\Xot\Actions\File\AssetPathAction;
-use Modules\Xot\Actions\File\FixPathAction;
-use function Safe\preg_match;
-use function Safe\realpath;
-=======
 use Filament\Facades\Filament;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
@@ -35,38 +27,52 @@ use function Safe\glob;
 use function Safe\json_decode;
 use function Safe\json_encode;
 use function Safe\preg_match;
->>>>>>> 384ae3cdd (.)
 
-/**
- * Verifica se l'applicazione è in esecuzione in un ambiente di test (TestBench).
+// ------------------------------------------------
+
+/* --- MAH
+ * if (! function_exists('get_current_theme_name')) {
+ * function current_theme_name(): string {
+ * $theme_name = config('xra.pub_theme');
  *
- * @return bool True se siamo in ambiente di test, false altrimenti
+ * if (inAdmin()) {
+ * $theme_name = config('xra.adm_theme');
+ * }
+ *
+ * return '_'.Str::lower($theme_name);
+ * }
+ * }
  */
 if (! function_exists('isRunningTestBench')) {
     function isRunningTestBench(): bool
     {
+        /*
+         * try {
+         * $testbench = realpath(__DIR__.'/../vendor/orchestra');
+         * } catch (Exception $e) {
+         * return false;
+         * }
+         * $res = Str::startsWith(base_path(), $testbench);
+         * if (false == $res) {
+         * dd([
+         * 'msg' => 'preso',
+         * 'res' => $res,
+         * 'base_path' => base_path(),
+         * 'testbench' => $testbench,
+         * ]);
+         * }
+         *
+         * return $res;
+         */
         $path = app(FixPathAction::class)->execute('\vendor\orchestra\testbench-core\laravel');
+        $base = app(FixPathAction::class)->execute(base_path());
 
-<<<<<<< HEAD
-        return file_exists($path);
-    }
-}
-
-/**
- * Converte una stringa in formato snake_case.
- * Compatibilità con Laravel < 6.0.
- *
- * @param string $str La stringa da convertire
- * @return string La stringa in formato snake_case
- */
-=======
         return Str::endsWith($base, $path);
 
         // return false;
     }
 }
 
->>>>>>> 384ae3cdd (.)
 if (! function_exists('snake_case')) {
     function snake_case(string $str): string
     {
@@ -74,16 +80,6 @@ if (! function_exists('snake_case')) {
     }
 }
 
-<<<<<<< HEAD
-/**
- * Genera uno slug da una stringa.
- * Compatibilità con Laravel < 6.0.
- *
- * @param string $str La stringa da convertire in slug
- * @return string Lo slug generato
- */
-=======
->>>>>>> 384ae3cdd (.)
 if (! function_exists('str_slug')) {
     function str_slug(string $str): string
     {
@@ -91,10 +87,6 @@ if (! function_exists('str_slug')) {
     }
 }
 
-<<<<<<< HEAD
-/**
- * Debug esteso: logga i dati e ritorna JSON formattato.
-=======
 if (! function_exists('str_singular')) {
     function str_singular(string $str): string
     {
@@ -226,70 +218,22 @@ if (! function_exists('dddx')) {
  * } catch (Exception|ArgumentCountError $e) {
  * $value = $e->getMessage();
  * }
->>>>>>> 384ae3cdd (.)
  *
- * @param mixed $params I dati da debuggare
- * @return string JSON formattato dei dati
+ * return [
+ * 'name' => $item,
+ * 'value' => $value,
+ * ];
+ * }
+ * )->all();
+ *
+ * return ArrayService::make()
+ * ->setArray($methods_get)
+ * ->toHtml()
+ * ->render();
+ * }
+ * }
  */
-if (! function_exists('dddx')) {
-    function dddx(mixed $params): string
-    {
-        $data = is_array($params) ? $params : ['value' => $params];
 
-<<<<<<< HEAD
-        \Illuminate\Support\Facades\Log::debug('Xot Helper dddx', ['data' => $data]);
-
-        return \Safe\json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-    }
-}
-
-/**
- * Estrae il nome del file da un path o da un array di parametri.
- *
- * @param string|array<string, mixed> $params Path del file o array con 'name' o 'path'
- * @return string Il nome del file estratto
- */
-if (! function_exists('getFilename')) {
-    function getFilename(string|array $params): string
-    {
-        if (is_string($params)) {
-            return basename($params);
-        }
-
-        $name = $params['name'] ?? $params['path'] ?? '';
-
-        return is_string($name) ? basename($name) : '';
-    }
-}
-
-/**
- * Ritorna l'ID dell'utente autenticato o null se non autenticato.
- *
- * @return string|int|null L'ID dell'utente autenticato o null
- */
-if (! function_exists('authId')) {
-    function authId(): string|int|null
-    {
-        $user = Auth::user();
-
-        return $user?->id;
-    }
-}
-
-/**
- * Verifica se l'utente è in modalità amministrazione (admin panel).
- *
- * Wrapper per RouteService::inAdmin() che verifica il contesto admin
- * basandosi su URL segments e sessione Livewire.
- *
- * @param  array<string,string|int|bool|null>  $params  Parametri opzionali
- * @return bool True se in contesto admin, false altrimenti
- */
-if (! function_exists('inAdmin')) {
-    function inAdmin(array $params = []): bool
-    {
-        return \Modules\Xot\Services\RouteService::inAdmin($params);
-=======
 if (! function_exists('getFilename')) {
     function getFilename(array $params): string
     {
@@ -347,17 +291,12 @@ if (! function_exists('inAdmin')) {
         return (is_countable($segments) ? count($segments) : 0) > 0 &&
             $segments[0] === 'livewire' &&
             session('in_admin') === true;
->>>>>>> 384ae3cdd (.)
     }
 }
 
-/**
- * Ottiene tutti i modelli Eloquent di un modulo specifico.
+/*
+ * Return true if current page is home.
  *
-<<<<<<< HEAD
- * Wrapper per GetAllModelsByModuleNameAction che scansiona
- * la directory Models/ del modulo e ritorna array di class-string.
-=======
  * @return bool
  */
 if (! function_exists('isHome')) {
@@ -373,33 +312,22 @@ if (! function_exists('isHome')) {
 
 /*
  * Return true if current page is an admin home page.
->>>>>>> 384ae3cdd (.)
  *
- * @param  string  $moduleName  Nome del modulo (es. 'User', 'Rating')
- * @return array<string, class-string> Array associativo [nome => class-string]
+ * @return bool
  */
-<<<<<<< HEAD
-if (! function_exists('getModuleModels')) {
-    function getModuleModels(string $moduleName): array
-=======
 if (! function_exists('isAdminHome')) {
     function isAdminHome(): bool
->>>>>>> 384ae3cdd (.)
     {
-        /** @var \Modules\Xot\Actions\Model\GetAllModelsByModuleNameAction $action */
-        $action = app(\Modules\Xot\Actions\Model\GetAllModelsByModuleNameAction::class);
-
-        return $action->execute($moduleName);
+        return URL::current() === route('admin.index');
     }
 }
 
-/**
- * Ottiene i parametri della route corrente.
+/*
+ * https://gist.github.com/atorscho/5bcf63d077c11ed0e8ce
+ * Return true if current page is an admin page.
  *
- * @return array<string, mixed> Array associativo dei parametri della route
+ * @return bool
  */
-<<<<<<< HEAD
-=======
 if (! function_exists('isAdmin')) {
     function isAdmin(): bool
     {
@@ -929,16 +857,11 @@ if (! function_exists('isJson')) {
  * }
  * }
  */
->>>>>>> 384ae3cdd (.)
 if (! function_exists('getRouteParameters')) {
     function getRouteParameters(): array
     {
         $route = request()->route();
-<<<<<<< HEAD
-        if (! ($route instanceof \Illuminate\Routing\Route)) {
-=======
         if (! ($route instanceof Illuminate\Routing\Route)) {
->>>>>>> 384ae3cdd (.)
             return [];
         }
 
@@ -946,23 +869,6 @@ if (! function_exists('getRouteParameters')) {
     }
 }
 
-<<<<<<< HEAD
-/**
- * Ottiene i parametri della route corrente.
- *
- * Ritorna array associativo dei parametri di route binding della richiesta corrente.
- * Usato per mantenere contesto durante navigazione (es. anno, stabi, repar).
- *
- * @return array<string, mixed> Array parametri route ['anno' => 2025, 'stabi' => 1, ...]
- */
-if (! function_exists('getRouteParameters')) {
-    function getRouteParameters(): array
-    {
-        $route = \Illuminate\Support\Facades\Route::current();
-        
-        if ($route === null) {
-            return [];
-=======
 if (! function_exists('getRouteName')) {
     function getRouteName(): ?string
     {
@@ -973,38 +879,18 @@ if (! function_exists('getRouteName')) {
         $route = request()->route();
         if (! ($route instanceof Illuminate\Routing\Route)) {
             return null;
->>>>>>> 384ae3cdd (.)
         }
 
-        /** @var array<string, mixed> $parameters */
-        $parameters = $route->parameters();
-
-        return $parameters;
+        return $route->getName();
     }
 }
 
-/**
- * Converte parametri route in array di containers e items.
- *
- * Pattern utilizzato per nested resources routing.
- * Separa parametri tipo 'container0', 'item0' in array distinti.
- *
- * @param  array<string, mixed>  $params  Parametri route
- * @return array{0: array<int, string>, 1: array<int, mixed>} [containers, items]
+/*
+ * if (! function_exists('getRouteAction')) {
+ * function getRouteAction(): string {
+ * }
+ * }
  */
-<<<<<<< HEAD
-if (! function_exists('params2ContainerItem')) {
-    function params2ContainerItem(array $params): array
-    {
-        $containers = [];
-        $items = [];
-        
-        $i = 0;
-        while (isset($params['container'.$i])) {
-            $containers[$i] = $params['container'.$i];
-            $items[$i] = $params['item'.$i] ?? null;
-            $i++;
-=======
 
 if (! function_exists('getModTradFilepath')) {
     function getModTradFilepath(string $file_path): string
@@ -1043,29 +929,12 @@ if (! function_exists('is_active')) {
         $router = app('router');
         if (! is_object($router) || ! method_exists($router, 'is')) {
             return false;
->>>>>>> 384ae3cdd (.)
         }
         
-        return [$containers, $items];
+        return (bool) call_user_func_array([$router, 'is'], $routes);
     }
 }
 
-<<<<<<< HEAD
-/**
- * Converte un query builder Eloquent in SQL con bindings sostituiti.
- *
- * Utile per debugging query SQL.
- *
- * @param  \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Query\Builder  $query
- * @return string SQL query con bindings sostituiti
- */
-if (! function_exists('rowsToSql')) {
-    function rowsToSql(\Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Query\Builder $query): string
-    {
-        /** @var array<int|string, string> $bindings */
-        $bindings = $query->getBindings();
-        $sql = $query->toSql();
-=======
 if (! function_exists('md_to_html')) {
     /**
      * Convert Markdown to HTML.
@@ -1149,14 +1018,41 @@ if (! function_exists('rowsToSql')) {
          */
         $bindings = $rows->getBindings();
         $sql = $rows->toSql();
->>>>>>> 384ae3cdd (.)
 
         return Str::replaceArray('?', $bindings, $sql);
     }
 }
+/*
+ * if (! function_exists('getServerName')) {
+ * function getServerName(): string
+ * {
+ * $default = config('app.url', 'localhost');
+ * if (! is_string($default)) {
+ * $default = 'localhost';
+ * }
+ * $default = Str::after($default, '//');
+ *
+ * $server_name = $default;
+ * if (isset($_SERVER['SERVER_NAME']) && '127.0.0.1' !== $_SERVER['SERVER_NAME']) {
+ * $server_name = $_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME'];
+ * }
+ * if (! is_string($server_name)) {
+ * $server_name = $default;
+ * }
+ * $server_name = Str::of($server_name)->replace('www.', '')->toString();
+ *
+ * return $server_name;
+ * }
+ * }
+ */
+/*
+ * if (! function_exists('getLang')) {
+ * function getLang(): string {
+ * return '/en/'; //per xstream
+ * }
+ * }
+ */
 
-<<<<<<< HEAD
-=======
 if (! function_exists('str_limit')) {
     function str_limit(string $str, int $limit): string
     {
@@ -1346,4 +1242,3 @@ if (! function_exists('trans_string')) {
         return $key;
     }
 }
->>>>>>> 384ae3cdd (.)

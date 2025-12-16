@@ -88,61 +88,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return $moduleName;
     }
 
-    /**
-     * Ottiene la chiave di traduzione per un dato key.
-     * Genera un percorso di traduzione standardizzato basato sul modulo e sul nome della classe.
-     *
-     * @param  string  $key  La chiave di traduzione specifica
-     * @param  array<string, bool|float|int|string>  $replace  Parametri di sostituzione per la traduzione
-     * @param  string|null  $locale  Locale da utilizzare (null = locale corrente)
-     * @param  bool  $useFallback  Se true, utilizza la chiave come fallback se la traduzione non esiste
-     * @return string La stringa tradotta o la chiave originale se non trovata
-     */
-    public static function getTranslatedString(
-        string $key,
-        array $replace = [],
-        ?string $locale = null,
-        bool $useFallback = true,
-    ): string {
-        $moduleNameLow = Str::lower(static::getModuleName());
-        $p = Str::after(static::class, 'Filament\\Pages\\');
-        $p_arr = explode('\\', $p);
-        $slug = collect($p_arr)->map(Str::kebab(...))->implode('.');
-
-        $translationKey = $moduleNameLow.'::'.$slug.'.'.$key;
-        $translation = __($translationKey, $replace, $locale);
-
-        if ($translation === $translationKey && App::environment('local', 'development', 'testing')) {
-            Log::warning("Traduzione mancante: {$translationKey}");
-
-            return $useFallback ? $key : $translationKey;
-        }
-
-        if (! is_string($translation)) {
-            return $useFallback ? $key : $translationKey;
-        }
-
-        return $translation;
-    }
-
-    /**
-     * Ottiene la chiave di traduzione per un dato key (alias per getTranslatedString).
-     * Genera un percorso di traduzione standardizzato basato sul modulo e sul nome della classe.
-     *
-     * @param  string  $key  La chiave di traduzione specifica
-     * @param  array<string, bool|float|int|string>  $replace  Parametri di sostituzione per la traduzione
-     * @param  string|null  $locale  Locale da utilizzare (null = locale corrente)
-     * @param  bool  $useFallback  Se true, utilizza la chiave come fallback se la traduzione non esiste
-     * @return string La stringa tradotta o la chiave originale se non trovata
-     */
-    public static function trans(
-        string $key,
-        array $replace = [],
-        ?string $locale = null,
-        bool $useFallback = true,
-    ): string {
-        return static::getTranslatedString($key, $replace, $locale, $useFallback);
-    }
+   
 
     /**
      * Ottiene l'etichetta plurale del modello.

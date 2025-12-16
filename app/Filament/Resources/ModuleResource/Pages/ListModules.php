@@ -48,22 +48,18 @@ class ListModules extends XotBaseListRecords
     }
 
     /**
-     * Ottiene i filtri della tabella.
+     * Undocumented function.
      *
-<<<<<<< HEAD
      * @return array<BaseFilter>
-=======
-     * @return array<string, BaseFilter>
->>>>>>> 384ae3cdd (.)
      */
     #[Override]
     public function getTableFilters(): array
     {
         return [
-            // 'name' => Tables\Filters\SelectFilter::make('name')->options(
+            // Tables\Filters\SelectFilter::make('name')->options(
             //    Module::pluck('name', 'name')->toArray()
             // ),
-            // 'status' => Tables\Filters\SelectFilter::make('status')->options([
+            // Tables\Filters\SelectFilter::make('status')->options([
             //    'enabled' => 'Enabled',
             //    'disabled' => 'Disabled',
             // ])->default('enabled'),
@@ -71,23 +67,17 @@ class ListModules extends XotBaseListRecords
     }
 
     /**
-     * Ottiene le azioni della tabella.
+     * Undocumented function.
      *
-     * @return array<string, Action|ActionGroup>
+     * @return array<Action|ActionGroup>
      */
     #[Override]
     public function getTableActions(): array
     {
         return [
-<<<<<<< HEAD
             ViewAction::make(),
             EditAction::make(),
             DeleteAction::make()->requiresConfirmation(),
-=======
-            'view' => ViewAction::make(),
-            'edit' => EditAction::make(),
-            'delete' => DeleteAction::make()->requiresConfirmation(),
->>>>>>> 384ae3cdd (.)
         ];
     }
 

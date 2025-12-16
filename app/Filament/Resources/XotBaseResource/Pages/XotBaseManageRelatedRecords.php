@@ -29,15 +29,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 {
     use HasXotTable;
     use InteractsWithForms;
-    use NavigationLabelTrait {
-        NavigationLabelTrait::trans insteadof HasXotTable;
-        NavigationLabelTrait::getKeyTrans insteadof HasXotTable;
-        NavigationLabelTrait::getKeyTransFunc insteadof HasXotTable;
-        NavigationLabelTrait::getKeyTransClass insteadof HasXotTable;
-        NavigationLabelTrait::transClass insteadof HasXotTable;
-        NavigationLabelTrait::transFunc insteadof HasXotTable;
-        NavigationLabelTrait::transChoice insteadof HasXotTable;
-    }
+    use NavigationLabelTrait;
 
     // protected static string $resource;
 

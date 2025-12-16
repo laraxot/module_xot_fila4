@@ -210,7 +210,13 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 
 ---
 
+<<<<<<< HEAD
 ## Notes
+=======
+*Last Updated: 2025-08-27*  
+*Architecture Version: XotBase 2.0*
+# Regole di Estensione XotBase - Guida di Riferimento
+>>>>>>> 384ae3cdd (.)
 
 This document is the canonical reference for Filament→XotBase extension rules.
 

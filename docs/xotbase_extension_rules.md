@@ -127,6 +127,15 @@ Before committing any Filament-related code, verify:
 5. [ ] No final methods are being overridden
 6. [ ] Form schemas return proper Filament components, not empty arrays
 7. [ ] Translation keys use module prefix (module::key.path)
+8. [ ] **Array methods return `array<string, mixed>`** - Never use numeric keys for:
+   - `getTableColumns()` → `array<string, Column>`
+   - `getFormSchema()` → `array<string, Component>`
+   - `getTableActions()` → `array<string, Action>`
+   - `getTableBulkActions()` → `array<string, BulkAction>`
+   - `getTableFilters()` → `array<string, Filter>`
+   - `getHeaderActions()` → `array<string, Action>`
+9. [ ] **Never use `property_exists()` with Eloquent models** - Use `isset()` for magic attributes
+10. [ ] **Avoid `mixed` types** - Use specific types or `array<string, mixed>` when necessary
 
 ## 🔍 Common Pitfalls
 
@@ -144,9 +153,50 @@ public function getFormSchema(): array
 public function getFormSchema(): array
 {
     return [
-        \Filament\Forms\Components\TextInput::make('name')
+        'name' => \Filament\Forms\Components\TextInput::make('name')
             ->label(__('module::fields.name')),
     ];
+}
+```
+
+### Array with Numeric Keys
+**Wrong:**
+```php
+public function getTableActions(): array
+{
+    return [
+        EditAction::make(),
+        DeleteAction::make(),
+    ]; // ❌ Numeric keys (0, 1)
+}
+```
+
+**Correct:**
+```php
+/**
+ * @return array<string, Action>
+ */
+public function getTableActions(): array
+{
+    return [
+        'edit' => EditAction::make(),
+        'delete' => DeleteAction::make(),
+    ]; // ✅ String keys
+}
+```
+
+### Property Exists with Models
+**Wrong:**
+```php
+if (property_exists($model, 'attribute')) {
+    $value = $model->attribute; // ❌ Doesn't work with magic attributes
+}
+```
+
+**Correct:**
+```php
+if (isset($model->attribute)) {
+    $value = $model->attribute; // ✅ Works with magic attributes
 }
 ```
 
@@ -195,5 +245,5 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 
 ---
 
-*Last Updated: 2025-08-27*  
-*Architecture Version: XotBase 2.0*
+*Last Updated: 2025-01-10*  
+*Architecture Version: XotBase 2.1*

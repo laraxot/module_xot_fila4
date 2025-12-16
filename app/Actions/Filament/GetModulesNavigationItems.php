@@ -13,6 +13,10 @@ use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use function Safe\json_encode;
 
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 384ae3cdd (.)
 
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
@@ -31,6 +35,7 @@ class GetModulesNavigationItems
     {
         $navs = [];
 
+<<<<<<< HEAD
         $modules = app(GetTenantModulesAction::class)->execute();
         // GetTenantModulesAction::execute() restituisce sempre array
         foreach ($modules as $module) {
@@ -42,6 +47,44 @@ class GetModulesNavigationItems
 
             $config = $this->getModuleConfig($module);
             if ($config === null) {
+=======
+        $modules = TenantService::allModules();
+        // TenantService::allModules() restituisce sempre array
+        // Pre-load user roles to avoid N+1 queries
+        /** @var Authenticatable|null $user */
+        $user = Auth::user();
+
+        /** @var array<int, string> $userRoles */
+        $userRoles = [];
+        // Se serve re-introdurre un preload ruoli, farlo solo se il metodo è disponibile e tipizzato nel modello.
+
+        foreach ($modules as $module) {
+            Assert::string($module, 'Il nome del modulo deve essere una stringa');
+
+            $module_low = Str::lower($module);
+            Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
+
+            // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
+            try {
+                $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
+            } catch (Throwable $e) {
+                // Skip modulo non pronto/senza generator path config
+                continue;
+            }
+            $configFilePath = $configPath.'/config.php';
+
+            // Verifichiamo che il file esista
+            if (! File::exists($configFilePath)) {
+                continue;
+            }
+
+            // Carichiamo la configurazione
+            try {
+                /** @var array<string, mixed> $config */
+                $config = File::getRequire($configFilePath);
+                Assert::isArray($config, 'Il file di configurazione deve restituire un array');
+            } catch (Exception $e) {
+>>>>>>> 384ae3cdd (.)
                 continue;
             }
 
@@ -52,7 +95,11 @@ class GetModulesNavigationItems
             }
 
             // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
+<<<<<<< HEAD
             $role = $moduleLow.'::admin';
+=======
+            $role = $module_low.'::admin';
+>>>>>>> 384ae3cdd (.)
 
             $navigationSort = (int) ($config['navigation_sort'] ?? 1);
 
@@ -74,6 +121,7 @@ class GetModulesNavigationItems
              */
 
             // Creiamo l'elemento di navigazione
+<<<<<<< HEAD
             $nav = $this->makeNavigationItem(
                 module: $module,
                 moduleLow: $moduleLow,
@@ -81,6 +129,30 @@ class GetModulesNavigationItems
                 role: $role,
                 navigationSort: $navigationSort,
             );
+=======
+            $nav = NavigationItem::make($module)
+                ->url('/'.$module_low.'/admin')
+                ->icon($icon)
+                ->group('Modules')
+                ->sort($navigation_sort)
+                ->visible(static function () use ($role): bool {
+                    /**
+                     * @var Authenticatable|null $user
+                     */
+                    $user = Auth::user();
+                    if (null === $user) {
+                        return false;
+                    }
+
+                    // Verifichiamo che il metodo hasRole esista
+                    if (! method_exists($user, 'hasRole')) {
+                        return false;
+                    }
+
+                    /** @phpstan-ignore-next-line */
+                    return (bool) $user->hasRole($role);
+                });
+>>>>>>> 384ae3cdd (.)
 
             $navs[] = $nav;
         }
@@ -109,7 +181,11 @@ class GetModulesNavigationItems
 
         // Se non presente in cache, rigenera usando la stessa logica di execute()
         /** @var array<int, array{module: string, module_low: string, icon: string, sort: int}> $result */
+<<<<<<< HEAD
         $result = cache()->remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
+=======
+        $result = Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
+>>>>>>> 384ae3cdd (.)
             $out = [];
             foreach ($modules as $module) {
                 if (! is_string($module) || $module === '') {
@@ -118,7 +194,11 @@ class GetModulesNavigationItems
                 $moduleLow = strtolower($module);
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
                 $configFilePath = $configPath.'/config.php';
+<<<<<<< HEAD
                 if (! is_file($configFilePath)) {
+=======
+                if (! File::exists($configFilePath)) {
+>>>>>>> 384ae3cdd (.)
                     continue;
                 }
                 try {
@@ -144,6 +224,7 @@ class GetModulesNavigationItems
         });
 
         return $result;
+<<<<<<< HEAD
     }
 
     private function makeNavigationItem(
@@ -200,5 +281,7 @@ class GetModulesNavigationItems
         $typed = $config;
 
         return $typed;
+=======
+>>>>>>> 384ae3cdd (.)
     }
 }

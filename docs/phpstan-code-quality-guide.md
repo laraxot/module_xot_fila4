@@ -61,7 +61,7 @@ composer dump-autoload && php artisan config:clear && php artisan cache:clear
 # Code Quality Tools
 ./vendor/bin/pint --dirty                    # Format changed files
 php phpmd.phar path/to/file text cleancode,codesize,design,naming
-php phpinsights.phar analyse Modules/{Module} --format=table
+./vendor/bin/phpinsights analyse Modules/{Module} --format=table
 
 # Complexity Analysis
 php phpmd.phar Modules/{Module} text codesize --reportfile /tmp/complexity.txt

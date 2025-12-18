@@ -1,8 +1,9 @@
-# PHPStan Analysis - 2025-12-18
+# PHPStan Analysis Report - 2025-12-18
 
 ## Summary
 Analysis ran on all Modules (Level 10).
-**Status**: ✅ ALL CLEAN (Exit code 0)
+**Status**: 395 Errors (All in Tests)
+**Focus**: All functional code (`app/`) is **CLEAN**. Remaining errors are in `Modules/Tenant/Tests` due to missing `phpstan-mockery`.
 
 ## Details
 

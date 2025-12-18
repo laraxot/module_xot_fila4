@@ -139,7 +139,8 @@ Tutti gli Altri Moduli
 
 ### Configuration
 
-- [MCP Servers Configuration](./mcp-servers-configuration.md) - Model Context Protocol setup
+- [MCP Configuration Optimized](./mcp-configuration-optimized.md) - **⭐ NUOVO** - Configurazione MCP ottimizzata per base_techplanner_fila4_mono
+- [MCP Servers Configuration](./mcp-servers-configuration.md) - Model Context Protocol setup generale
 
 ---
 

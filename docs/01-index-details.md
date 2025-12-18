@@ -16,8 +16,7 @@
 - [PHP Quality Guide](./php-quality-guide.md)
 - [GitHub Workflows Standard](./github-workflows-standard.md)
 
-## Quality Analysis
-- [Module Quality Analysis Summary](./module-quality-analysis-summary.md) - Cross-module quality metrics
+## PHPStan Analysis Reports
 - [PHPStan Analysis 2025-01-27](./phpstan-analysis-2025-01-27.md)
 - [PHPStan Analysis 2025-12-17](./phpstan-analysis-2025-12-17.md)
 - [PHPStan Analysis 2025-12-18](./phpstan-analysis-2025-12-18.md)

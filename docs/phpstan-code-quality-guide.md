@@ -584,7 +584,7 @@ Dopo ogni modifica file:
 
 - [Code Quality Tools Setup](./code-quality-tools-setup.md) - Setup PHPMD e PHP Insights
 - [Code Quality Mandatory Checks](./code-quality-mandatory-checks.md) - Workflow obbligatorio
-- [XotBase Extension Rules](./xotbase_extension_rules.md)
+- [XotBase Extension Rules](./filament-class-extension-rules.md)
 - [Filament Best Practices](./filament-best-practices.md)
 - [Code Quality Standards](./code_quality_standards.md)
 - [Autonomous Priority Rule](./autonomous-priority-rule.md)

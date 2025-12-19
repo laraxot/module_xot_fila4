@@ -1,8 +1,12 @@
 # Configurazione MCP Ottimizzata per base_techplanner_fila4_mono
 
 **Data Creazione**: 2025-01-27  
+**Ultimo Aggiornamento**: 2025-01-27  
 **Status**: ✅ Configurazione Completa e Ottimizzata  
 **Metodologia**: Super Mucca 🐮⚡
+
+### ⚠️ Cambiamenti Recenti
+- **2025-01-27**: Rimosso `mcp-package-docs` (deprecato e non supportato) - Usare Laravel Boost per documentazione
 
 ---
 
@@ -81,13 +85,6 @@ File: `.windsurf/mcp.json` (o `.cursor/mcp.json` per Cursor)
         "/var/www/_bases/base_techplanner_fila4_mono/bashscripts/mcp/mysql-db-connector.js"
       ]
     },
-    "mcp-package-docs": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "mcp-package-docs"
-      ]
-    }
   }
 }
 ```
@@ -264,7 +261,7 @@ php artisan boost:install
 - ✅ memory
 - ✅ sequential-thinking
 - ✅ puppeteer
-- ✅ mcp-package-docs
+- ❌ mcp-package-docs (RIMOSSO - deprecato e non supportato)
 
 ### Server Aggiunti (Richiedono Verifica)
 

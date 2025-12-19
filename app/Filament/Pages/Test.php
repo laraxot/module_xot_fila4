@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-use Filament\Pages\Page;
+use Modules\Xot\Filament\Pages\XotBasePage;
 
-class Test extends Page
+class Test extends XotBasePage
 {
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 

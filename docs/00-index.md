@@ -4,7 +4,12 @@
 - [Architecture Complete Guide](./architecture-complete-2025.md)
 - [PHPStan Code Quality Guide](./phpstan-code-quality-guide.md)
 - [Filament Class Extension Rules](./filament-class-extension-rules.md)
+- [Filament Extension Rules Implementation Report](./filament-extension-rules-implementation-report.md) - Report implementazione regole
+- [Array Keys Filament Methods](./array-keys-filament-methods.md) - Regole obbligatorie chiavi array
+- [Implementation Summary: Filament & PHPStan Fixes](./implementation_summary_filament_phpstan_fixes.md)
+- [Filament Extension Violations Report](./filament_extension_violations.md)
 - [Project Philosophy, Religion, Politics, Zen](./project-philosophy-religion-politics-zen.md)
+- [Autonomous Priority Rule](./autonomous-priority-rule.md)
 
 ## Configuration & Services
 - [MCP Configuration Optimized](./mcp-configuration-optimized.md)
@@ -35,6 +40,11 @@
 
 ## Helper Documentation
 - [Helpers Directory](./helpers/)
+
+## Filament v4 Migration
+- [Filament V4 Upgrade Notes](./filament-v4-upgrade-notes.md)
+- [Widget Initialization Guide](./widgets-initialization.md)
+- [Panel Provider Patterns](./panel-provider-patterns.md) - Pattern e best practices per Panel Providers
 
 ## Architectural Rules
 - [Architectural Rules Directory](./architectural_rules/)

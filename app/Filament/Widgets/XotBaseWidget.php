@@ -73,9 +73,25 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public function __construct()
     {
         //parent::__construct();//Cannot call constructor
-        $view = app(GetViewByClassAction::class)->execute(static::class);
-        if (view()->exists($view)) {
-            $this->view = $view;
+        // Se la view è già definita manualmente e diversa dal default, non cercarla automaticamente
+        $defaultView = 'xot::filament.widgets.base';
+        if ($this->view !== $defaultView && view()->exists($this->view)) {
+            // View già definita manualmente, usala
+            return;
+        }
+        
+        // Cerca automaticamente la view basandosi sul nome della classe
+        try {
+            $view = app(GetViewByClassAction::class)->execute(static::class);
+            if (view()->exists($view)) {
+                $this->view = $view;
+            }
+        } catch (\Exception $e) {
+            // Se la view automatica non esiste, mantieni quella definita manualmente o il default
+            // Non lanciare eccezione se la view è già definita manualmente
+            if ($this->view === $defaultView) {
+                throw $e;
+            }
         }
     }
 

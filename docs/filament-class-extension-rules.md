@@ -1,4 +1,4 @@
-# Filament Class Extension Rules
+# Filament Class Extension Rules 
 
 **Principio Fondamentale**: Mai estendere classi Filament direttamente - sempre usare classi XotBase
 
@@ -23,6 +23,24 @@ Sempre estendere classi astratte con prefisso `XotBase` che rispettano il vecchi
 | `Filament\Resources\Pages\ListRecords` | `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords` |
 | `Filament\Resources\Pages\Page` | `Modules\Xot\Filament\Resources\Pages\XotBasePage` |
 | `Filament\Actions\BulkAction` | `Modules\Xot\Filament\Actions\XotBaseBulkAction` |
+| `Filament\Pages\Dashboard` | `Modules\Xot\Filament\Pages\XotBaseDashboard` |
+| `Filament\Schemas\Components\Section` | `Modules\Xot\Filament\Schemas\Components\XotBaseSection` |
+| `Filament\Forms\Components\Select` | `Modules\Xot\Filament\Forms\Components\XotBaseSelect` |
+| `Filament\Forms\Components\CheckboxList` | `Modules\Xot\Filament\Forms\Components\XotBaseCheckboxList` |
+
+### Auth Pages
+
+| ❌ SBAGLIATO | ✅ CORRETTO |
+|-------------|------------|
+| `Filament\Auth\Pages\Login` | `Modules\Xot\Filament\Pages\Auth\XotBaseLogin` |
+| `Filament\Auth\Pages\Register` | `Modules\Xot\Filament\Pages\Auth\XotBaseRegister` |
+| `Filament\Auth\Pages\EditProfile` | `Modules\Xot\Filament\Pages\Auth\XotBaseEditProfile` |
+
+### Actions
+
+| ❌ SBAGLIATO | ✅ CORRETTO |
+|-------------|------------|
+| `Filament\Actions\ActionGroup` | `Modules\Xot\Filament\Actions\XotBaseActionGroup` |
 
 ### Resources
 
@@ -77,95 +95,6 @@ Non implementare questi metodi se restituiscono solo valori standard:
 - `getTableBulkActions()` - se contiene solo azioni standard
 
 ---
-
-## ⚠️ Regole Specifiche per XotBaseWidget
-
-### Metodo mount() Richiesto - Chiamare initXotBaseWidget()
-
-`XotBaseWidget` fornisce il metodo protetto `initXotBaseWidget()` che inizializza correttamente il form. Le classi figlie **devono** sovrascrivere `mount()` e chiamare questo metodo:
-
-```php
-// In XotBaseWidget (metodo protetto disponibile alle classi figlie)
-protected function initXotBaseWidget(): void
-{
-    $this->data = $this->getFormFill();
-    $this->form->fill($this->data);
-}
-```
-
-I widget che estendono `XotBaseWidget` **devono** sovrascrivere `mount()` e chiamare `$this->initXotBaseWidget()`:
-
-```php
-// ✅ CORRETTO: Pattern base obbligatorio
-class LoginWidget extends XotBaseWidget
-{
-    public function mount(): void
-    {
-        $this->initXotBaseWidget();
-    }
-}
-
-// ✅ CORRETTO: Con logica aggiuntiva
-class RegisterWidget extends XotBaseWidget
-{
-    public function mount(): void
-    {
-        $this->initXotBaseWidget();
-        Log::debug('Registration form initialized', [
-            'ip' => request()->ip(),
-        ]);
-    }
-}
-
-// ❌ SBAGLIATO: Non chiamare initXotBaseWidget()
-class LoginWidget extends XotBaseWidget
-{
-    // mount() mancante - il form non viene inizializzato!
-}
-```
-
-### Proprietà $data NON Richiesta
-
-Chi estende `XotBaseWidget` **NON deve** ridichiarare la proprietà `$data`:
-
-```php
-// ❌ SBAGLIATO
-class MyWidget extends XotBaseWidget
-{
-    public ?array $data = []; // ERRORE: già definito in XotBaseWidget
-}
-
-// ✅ CORRETTO
-class MyWidget extends XotBaseWidget
-{
-    // $data è già definito in XotBaseWidget come public ?array $data = [];
-}
-```
-
-### Schema con Chiavi Stringa Obbligatorio
-
-Il metodo `getFormSchema()` deve restituire un array associativo con chiavi stringa:
-
-```php
-// ✅ CORRETTO
-#[\Override]
-public function getFormSchema(): array
-{
-    return [
-        'email' => TextInput::make('email')->email()->required(),
-        'password' => TextInput::make('password')->password()->required(),
-    ];
-}
-
-// ❌ SBAGLIATO: Array numerico
-public function getFormSchema(): array
-{
-    return [
-        TextInput::make('email')->email()->required(),
-        TextInput::make('password')->password()->required(),
-    ];
-}
-```
 
 ## ⚠️ Regole Specifiche per XotBasePage
 
@@ -266,7 +195,7 @@ class User extends Model
     ];
 }
 
-// ✅ CORRETTO - Laravel 11+ (metodo casts())
+// ✅ CORRETTO
 class User extends Model
 {
     /**
@@ -353,67 +282,6 @@ class CreateUserAction
 app(CreateUserAction::class)->execute($data);
 ```
 
-**Risorsa**: https://github.com/spatie/laravel-queueable-action
-
----
-
-## 📚 Esempi Completi
-
-### Resource Completa
-
-```php
-<?php
-
-declare(strict_types=1);
-
-namespace Modules\User\Filament\Resources;
-
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\EmailInput;
-use Modules\Xot\Filament\Resources\XotBaseResource;
-use Modules\User\Models\User;
-
-class UserResource extends XotBaseResource
-{
-    protected static ?string $model = User::class;
-
-    /**
-     * @return array<int|string, \Filament\Forms\Components\Component>
-     */
-    public static function getFormSchema(): array
-    {
-        return [
-            TextInput::make('name')->required(),
-            EmailInput::make('email')->required(),
-        ];
-    }
-
-    // getTableColumns() NON necessario - gestito da XotBaseResource
-    // getPages() NON necessario se standard
-    // getTableActions() NON necessario se standard
-}
-```
-
-### Page Completa
-
-```php
-<?php
-
-declare(strict_types=1);
-
-namespace Modules\User\Filament\Pages;
-
-use Modules\Xot\Filament\Pages\XotBasePage;
-
-class DashboardPage extends XotBasePage
-{
-    // $navigationIcon NON necessario
-    // $title NON necessario
-    // $navigationLabel NON necessario
-    // Gestiti automaticamente da XotBasePage
-}
-```
-
 ---
 
 ## ✅ Checklist Pre-Implementazione
@@ -427,58 +295,12 @@ Prima di creare una nuova classe Filament:
 - [ ] Sto usando Actions invece di Services?
 - [ ] Ho rimosso BadgeColumn deprecato?
 - [ ] Ho migrato da `protected $casts` a `casts()`?
-- [ ] I metodi Filament restituiscono `array<string, T>` con chiavi string esplicite?
-- [ ] Ho evitato `array<int, T>`, `array<int|string, T>`, `array<mixed, T>`?
-- [ ] NON uso `property_exists()` con modelli Eloquent (uso `offsetExists()` o `hasAttribute()`)?
 
 ---
 
 ## 🔗 Collegamenti Utili
 
-- [XotBaseResource Documentation](./xot-base-resource.md)
-- [Base Classes Documentation](./base-classes.md)
+- [XotBaseResource Documentation](architectural_rules/filament_extension_rules.md)
+- [Base Classes Documentation](../consolidated/base-classes.md)
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
 - [Filament v4 Documentation](https://filamentphp.com/docs/4.x)
-
----
-
-## 💡 Ricorda Sempre
-
-1. **Mai estendere Filament direttamente** - sempre XotBase
-2. **Non replicare metodi** se identici alla classe base
-3. **Usa traduzioni** invece di ->label() diretto
-4. **Usa Actions** invece di Services
-5. **Rispetta deprecazioni** (BadgeColumn, $casts)
-6. **Aggiorna docs** dopo ogni implementazione
-
----
-
-## 📝 Array Keys Rules
-
-**REGOLA CRITICA**: Tutti i metodi Filament (`getFormSchema`, `getTableColumns`, `getTableActions`, `getTableBulkActions`, `getTableFilters`, `getHeaderActions`, `getInfolistSchema`) devono restituire `array<string, T>` con chiavi string esplicite, NON `array<int, T>` o `array<mixed, T>`.
-
-Vedi: [Array Keys Filament Methods](./array-keys-filament-methods.md)
-
-## 🔗 Collegamenti Utili
-
-- [Array Keys Filament Methods](./array-keys-filament-methods.md) - Regole chiavi array
-- [XotBaseResource Documentation](./consolidated/filament/resources/xot-base-resource.md)
-- [Base Classes Documentation](./consolidated/base-classes.md)
-- [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
-- [Filament v4 Documentation](https://filamentphp.com/docs/4.x)
-
----
-
-**Filosofia**: DRY + KISS - Non duplicare, non complicare, usa sempre le classi base.
-
----
-
-## Array Return Types
-
-I metodi come `getTableColumns`, `getFormSchema`, `getTableBulkActions`, `getTableActions`, `getTableFilters`, `getHeaderActions` restituiscono sempre array le cui chiavi sono `array<string, mixed>`.
-Usare `mixed` solo come ultima spiaggia.
-
-## Eloquent Model Attributes
-
-Non usare `property_exists()` coi modelli perché gli attributi dei modelli sono magici.
-Usare invece `hasAttribute()`, `isFillable()` o `Schema::hasColumn()`.

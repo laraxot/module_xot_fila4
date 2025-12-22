@@ -4,32 +4,33 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Filament\Actions\Action;
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Schema;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Database\Eloquent\Model;
+use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Modules\Xot\Actions\View\GetViewByClassAction;
-use Modules\Xot\Filament\Traits\TransTrait;
+use Filament\Actions\Action;
+use Filament\Schemas\Schema;
 use Webmozart\Assert\Assert;
+use Filament\Forms\Contracts\HasForms;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\Support\Htmlable;
+use Modules\Xot\Filament\Traits\TransTrait;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Widgets\Widget as FilamentWidget;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Modules\Xot\Actions\View\GetViewByClassAction;
+use Filament\Actions\Concerns\InteractsWithActions;
 
 /**
  * Classe base astratta per tutti i widget Filament.
  * Fornisce funzionalità comuni e standardizzate per la gestione dei widget.
  *
- * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
- * @property string                    $title        Titolo del widget
- * @property string                    $icon         Icona del widget
- * @property array<string, mixed>|null $data         Dati del form
- * @property Schema                    $form
+ * @property bool $shouldRender Indica se il widget deve essere renderizzato
+ * @property string $title Titolo del widget
+ * @property string $icon Icona del widget
+ * @property array<string, mixed>|null $data Dati del form
+ * @property Schema $form
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
 {
@@ -68,33 +69,22 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     protected int|string|array $columnSpan = 'full';
 
-    /*
+
     public function __construct()
     {
-        // parent::__construct();//Cannot call constructor
+        //parent::__construct();//Cannot call constructor
         $view = app(GetViewByClassAction::class)->execute(static::class);
         if (view()->exists($view)) {
             $this->view = $view;
         }
     }
 
-    public function mount(...$args): void
-    {
-        $this->data = $this->getFormFill();
-        $this->form->fill($this->data);
-    }
-    */
-
-    /**
-     * Inizializza i dati del form.
-     * Da chiamare nel mount() delle classi figlie.
+    /*
+     * public function mount(): void
+     * {
+     * $this->form->fill();
+     * }
      */
-    protected function initXotBaseWidget(): void
-    {
-        $this->data = $this->getFormFill();
-        $this->form->fill($this->data);
-    }
-
     /**
      * Ottiene lo schema del form.
      * Deve essere implementato nelle classi figlie.
@@ -104,85 +94,93 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     abstract public function getFormSchema(): array;
 
     /**
-     * Configura lo schema del widget.
+     * Configura il form del widget.
      *
-     * @param Schema $schema Lo schema da configurare
-     *
-     * @return Schema Lo schema configurato
+     * @param  Schema  $schema  Il form da configurare
+     * @return Schema Il form configurato
      */
-    public function schema(Schema $schema): Schema
+    public function form(Schema $schema): Schema
     {
         $schema = $schema->components($this->getFormSchema());
         $schema->statePath('data');
+        $data = $this->getFormFill();
 
         $model = $this->getFormModel();
-        if (is_string($model) && class_exists($model) && is_subclass_of($model, Model::class)) {
-            $schema->model($model);
+        if ($model !== null) {
+            // Ensure model is compatible with Schema::model()
+            if (is_string($model)) {
+                if (class_exists($model) && is_subclass_of($model, Model::class)) {
+                    /** @var class-string<Model> $model */
+                    $schema->model($model);
+                }
+            } else {
+                // $model is an instance of Model
+                $schema->model($model);
+            }
         }
-
-        if ($model instanceof Model) {
-            $schema->model($model);
+        if (! empty($data)) {
+            // $form->fill($data);
+            // $this->data=$data;
         }
 
         return $schema;
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
-        if (null === $model) {
+        if ($model === null) {
             return [];
         }
-
         if (is_string($model)) {
-            $model = app($model);
-        }
-        Assert::isInstanceOf($model, Model::class);
-
-        /** @var array<string, mixed> $res */
-        $res = [];
-
-        if (! $model->exists) {
-            $fillable = $model->getFillable();
-            $appends = $model->getAppends();
-            $attributes = $model->attributesToArray();
-            $fieldKeys = array_merge($fillable, $appends);
-            $res = array_fill_keys($fieldKeys, null);
-            $res = array_merge($res, $attributes);
-
-            if (method_exists($model, 'getDataDefaults')) {
-                /** @var array<string, mixed> $defaults */
-                $defaults = $model->getDataDefaults();
-                $res = array_merge($res, $defaults);
-            }
+            Assert::isInstanceOf($model = app($model), Model::class);
         }
 
+        // Se il modello ha un ID, significa che è stato trovato nel database
         if ($model->exists) {
             try {
+                // dddx($model->getArrayableRelations());
                 $res = $model->toArray();
+
                 if (method_exists($model, 'getDataDefaults')) {
                     /** @var array<string, mixed> $defaults */
                     $defaults = $model->getDataDefaults();
-                    $res = array_merge($defaults, $res);
-                    $res = Arr::map($res, function ($value, string|int $key) use ($defaults) {
-                        return $value ?? Arr::get($defaults, $key, null);
+                    $merge1 = array_merge($defaults, $res);
+                    $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
+                        if ($value === null) {
+                            $value = Arr::get($defaults, $key, null);
+                        }
+
+                        return $value;
                     });
+                    $res = $merge1;
                 }
-            } catch (\Exception) {
-                $res = $model->getAttributes();
+
+                return $res;
+
+                // dddx($model->with('studio')->relationsToArray());
+            } catch (Exception $e) {
+                // Se toArray() fallisce (problemi con enum), usa getAttributes()
+                // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
+                return $model->getAttributes();
             }
         }
 
-        /** @var array<string, mixed> $data */
-        $data = [];
-        foreach ($res as $key => $value) {
-            $data[(string) $key] = $value;
+        // Se è un nuovo modello, restituisci solo i campi fillable con valori null
+        $fillable = $model->getFillable();
+        $appends = $model->getAppends();
+        $attributes = $model->attributesToArray();
+
+        $fields = array_merge($fillable, $appends);
+        $fields = array_fill_keys($fields, null);
+        $fields = array_merge($fields, $attributes);
+        if (method_exists($model, 'getDataDefaults')) {
+            /** @var array<string, mixed> $defaults */
+            $defaults = $model->getDataDefaults();
+            $fields = array_merge($fields, $defaults);
         }
 
-        return $data;
+        return $fields;
     }
 
     /**
@@ -214,17 +212,17 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     public function getWizardSubmitAction(): Action
     {
-        /** @var view-string $submitView */
-        $submitView = 'pub_theme::filament.wizard.submit-button';
+        /** @var view-string $submit_view */
+        $submit_view = 'pub_theme::filament.wizard.submit-button';
 
-        if (! view()->exists($submitView)) {
-            throw new \Exception("View {$submitView} does not exist");
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
         }
 
         return Action::make('submit')
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')
-            ->view((string) $submitView);
+            ->view((string) $submit_view);
     }
 
     /**

@@ -10,65 +10,148 @@ In Filament v4 (Livewire 3), i widget che estendono `XotBaseWidget` (che a sua v
 
 Se `XotBaseWidget` definisce un metodo `mount()`, tutti i figli devono avere una firma compatibile. Dato che il progetto ha oltre 120 widget, è impossibile e rischioso uniformarli tutti o usare firme variadiche che potrebbero nascondere errori.
 
-## 🚀 Soluzione: Pattern `initXotBaseWidget()`
+## 🚀 Soluzione: Inizializzazione nel Metodo `form()`
 
-Per mantenere il principio **DRY** (Don't Repeat Yourself) e garantire che il form sia correttamente inizializzato (soprattutto con `statePath('data')`), è stato introdotto il metodo `initXotBaseWidget()`.
+Per mantenere il principio **DRY** (Don't Repeat Yourself) e garantire che il form sia correttamente inizializzato (soprattutto con `statePath('data')`), l'inizializzazione di `$this->data` avviene direttamente nel metodo `form()` invece che in `mount()`.
 
-### 1. Definizione in `XotBaseWidget`
+### 1. Definizione in `XotBaseWidget::form()`
+
+L'inizializzazione di `$this->data` avviene automaticamente nel metodo `form()`:
 
 ```php
-    /**
-     * Inizializza i dati del form.
-     * Da chiamare nel mount() delle classi figlie.
-     */
-    protected function initXotBaseWidget(): void
-    {
-        $this->data = $this->getFormFill();
-        $this->form->fill($this->data);
+public function form(Schema $schema): Schema
+{
+    $schema = $schema->components($this->getFormSchema());
+    $schema->statePath('data');
+    $data = $this->getFormFill();
+
+    // Per widget senza modello, inizializza $this->data con le chiavi dello schema
+    // per garantire che Livewire possa correttamente bindare i campi con statePath('data')
+    if (empty($data)) {
+        $schemaKeys = array_keys($this->getFormSchema());
+        $data = array_fill_keys($schemaKeys, null);
     }
+
+    $this->data = $data;
+
+    $model = $this->getFormModel();
+    if ($model !== null) {
+        // Configurazione modello...
+    }
+
+    return $schema;
+}
 ```
 
-### 2. Implementazione nei figli
+### 2. Pattern per Widget senza Modello
 
-Ogni widget figlio **DEVE** chiamare questo metodo all'interno del proprio `mount()`:
+I widget senza modello (come `LoginWidget`) **NON devono** implementare `mount()`:
 
 ```php
+// ✅ CORRETTO: Nessun mount() necessario
+class LoginWidget extends XotBaseWidget
+{
+    #[\Override]
+    public function getFormSchema(): array
+    {
+        return [
+            'email' => TextInput::make('email')->email()->required(),
+            'password' => TextInput::make('password')->password()->required(),
+            'remember' => Checkbox::make('remember'),
+        ];
+    }
+    
+    // mount() NON necessario - l'inizializzazione avviene in form()
+}
+```
+
+### 3. Pattern per Widget con Modello o Logica Aggiuntiva
+
+I widget che hanno bisogno di logica aggiuntiva nel `mount()` (es. caricare dati dal database) possono implementare `mount()`:
+
+```php
+// ✅ CORRETTO: mount() con logica aggiuntiva
+class EditUserWidget extends XotBaseWidget
+{
     public function mount(string $type, ?string $userId = null): void
     {
-        // Altra logica specifica...
+        // Logica specifica (carica record, setta proprietà, ecc.)
+        $this->type = $type;
+        $this->record = $this->getFormModel($userId);
         
-        $this->initXotBaseWidget();
-        
-        // Altra logica specifica...
+        // NON serve chiamare initXotBaseWidget() - form() gestisce tutto
     }
+}
 ```
 
 ## 🔒 Perché è importante?
 
-Senza la chiamata a `fill()`, il form Livewire/Filament:
-1.  **Non carica i valori iniziali** (es. da database o default).
-2.  **Ritorna un errore "field not populated"** anche se i campi sono pieni, perché lo stato interno di Livewire (`$this->data`) non è stato sincronizzato con i componenti del form.
+Senza l'inizializzazione di `$this->data` con le chiavi dello schema:
+1.  **Livewire non trova le proprietà**: Quando si usa `statePath('data')`, Livewire cerca le chiavi in `$this->data`
+2.  **Errore "property does not exist"**: Se `$this->data = []`, Livewire non può bindare `wire:model="data.email"` perché la chiave `email` non esiste
+3.  **Form non funziona**: I campi non vengono popolati o validati correttamente
 
-Questo problema è stato diagnosticato e risolto durante il debug del `LoginWidget` del tema Sixteen.
+Questo problema è stato diagnosticato e risolto durante il debug del `LoginWidget`, che mostrava errori:
+```
+Livewire: [wire:model="email"] property does not exist on component
+```
 
 ## 🧪 Casi Particolari
 
-### LoginWidget
-Il widget di login, essendo critico, deve sempre implementare `mount()`:
+### LoginWidget (Widget senza Modello)
+
+**NON** implementa `mount()` - l'inizializzazione avviene automaticamente in `form()`:
+
 ```php
-    public function mount(): void
+class LoginWidget extends XotBaseWidget
+{
+    #[\Override]
+    public function getFormSchema(): array
     {
-        $this->initXotBaseWidget();
+        return [
+            'email' => TextInput::make('email')->email()->required(),
+            'password' => TextInput::make('password')->password()->required(),
+            'remember' => Checkbox::make('remember'),
+        ];
     }
+    
+    // mount() NON necessario
+}
 ```
 
-### EditUserWidget
-Inizializza il record e poi il form:
+### EditUserWidget (Widget con Modello e Parametri)
+
+Implementa `mount()` per gestire parametri, ma **NON** deve inizializzare il form manualmente:
+
 ```php
+class EditUserWidget extends XotBaseWidget
+{
     public function mount(string $type, ?string $userId = null): void
     {
+        // Solo logica specifica - NON inizializzare $this->data qui
         $this->type = $type;
         $this->record = $this->getFormModel($userId);
-        $this->initXotBaseWidget();
+        
+        // form() gestirà automaticamente l'inizializzazione di $this->data
     }
+}
 ```
+
+### EnvWidget (Widget con Dati Custom)
+
+Widget che necessita di caricare dati da fonti esterne nel `mount()`:
+
+```php
+class EnvWidget extends XotBaseWidget
+{
+    public function mount(): void
+    {
+        // Carica dati da EnvData
+        $data = EnvData::make()->toArray();
+        $this->data = $data;
+        $this->form->fill($this->data);
+    }
+}
+```
+
+**NOTA**: Questo pattern è valido solo se il widget NON estende `XotBaseWidget` o se ha esigenze speciali. Per la maggior parte dei widget, l'inizializzazione automatica in `form()` è sufficiente.

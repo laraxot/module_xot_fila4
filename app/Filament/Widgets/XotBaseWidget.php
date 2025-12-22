@@ -74,7 +74,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     {
         //parent::__construct();//Cannot call constructor
         // Se la view è già definita manualmente e diversa dal default, non cercarla automaticamente
-        $defaultView = 'xot::filament.widgets.base';
+        $defaultView = (new \ReflectionClass($this))->getDefaultProperties()['view'] ?? 'xot::filament.widgets.base';
         if ($this->view !== $defaultView && view()->exists($this->view)) {
             // View già definita manualmente, usala
             return;

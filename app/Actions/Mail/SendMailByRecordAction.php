@@ -5,10 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Mail;
 
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
 use InvalidArgumentException;
-=======
->>>>>>> laraxot/develop
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Modules\Xot\Actions\Export\PdfByModelAction;
@@ -22,13 +19,8 @@ class SendMailByRecordAction
     /**
      * Invia una mail utilizzando un record come dati.
      *
-<<<<<<< HEAD
      * @param  Model  $record  Il record da utilizzare come dati per la mail
      * @param  string  $mailClass  La classe Mailable da utilizzare
-=======
-     * @param Model  $record    Il record da utilizzare come dati per la mail
-     * @param string $mailClass La classe Mailable da utilizzare
->>>>>>> laraxot/develop
      */
     public function execute(Model $record, string $mailClass): void
     {
@@ -46,19 +38,15 @@ class SendMailByRecordAction
 
         // Verifica che il model abbia le proprietà/metodi necessari
         if (($record->email ?? null) === null || empty($record->email)) {
-            throw new \InvalidArgumentException('Model must have email property');
+            throw new InvalidArgumentException('Model must have email property');
         }
 
         if (! method_exists($record, 'option')) {
-            throw new \InvalidArgumentException('Model must implement option method');
+            throw new InvalidArgumentException('Model must implement option method');
         }
 
         if (! method_exists($record, 'myLogs')) {
-<<<<<<< HEAD
             throw new InvalidArgumentException('Model must implement myLogs method');
-=======
-            throw new \InvalidArgumentException('Model must implement myLogs method');
->>>>>>> laraxot/develop
         }
 
         $to = $record->email;
@@ -66,11 +54,7 @@ class SendMailByRecordAction
         $bodyHtml = $record->option('mail_testo');
 
         if (! is_string($to)) {
-<<<<<<< HEAD
             throw new InvalidArgumentException('Email must be a string');
-=======
-            throw new \InvalidArgumentException('Email must be a string');
->>>>>>> laraxot/develop
         }
         if (! is_string($subject)) {
             $subject = '';
@@ -80,11 +64,7 @@ class SendMailByRecordAction
         }
 
         $emailData = new EmailData(
-<<<<<<< HEAD
             to: $to,
-=======
-            recipient: $to,
->>>>>>> laraxot/develop
             subject: $subject,
             body_html: $bodyHtml,
             attachments: [
@@ -97,11 +77,7 @@ class SendMailByRecordAction
         SmtpData::make()->send($emailData);
 
         // myLogs è sempre disponibile su BaseModel
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line - Dynamic relationship method */
-=======
-        /* @phpstan-ignore-next-line - Dynamic relationship method */
->>>>>>> laraxot/develop
         $record->myLogs()->create([
             'act' => 'sendMail',
             'handle' => authId(),

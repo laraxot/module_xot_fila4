@@ -1,11 +1,3 @@
-<<<<<<< HEAD:docs/migration-standards_1.md
-=======
-# Standard per le Migrazioni in 
-
-## Introduzione
-
-Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di . Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
->>>>>>> laraxot/develop:docs/migration-standards.md
 # Standard per le Migrazioni in SaluteOra
 
 ## Introduzione

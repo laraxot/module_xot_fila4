@@ -236,10 +236,5 @@ class ProcessDoctorModerationAction
 
 ## Vedi Anche
 
-<<<<<<<< HEAD:docs/queueable-actions.md
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Spatie Documentation](https://spatie.be/docs/laravel-queueable-action) 
-========
-- [Laravel Queues](https://laravel.com/project_docs/queues)
-- [Spatie Documentation](https://spatie.be/project_docs/laravel-queueable-action) 
->>>>>>>> laraxot/develop:docs/archive/queueable-actions.md

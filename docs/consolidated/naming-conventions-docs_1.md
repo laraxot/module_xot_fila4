@@ -23,11 +23,7 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 
 ### Dove Usare il Nome del Progetto
 ✅ CORRETTO:
-<<<<<<< HEAD:docs/consolidated/naming-conventions-docs_1.md
 - `/project_docs/` (cartella root del progetto)
-=======
-- `/docs/` (cartella root del progetto)
->>>>>>> laraxot/develop:docs/naming-conventions-docs.md
 - `README.md` principale
 - File di configurazione specifici del progetto
 - Documentazione di deployment
@@ -75,8 +71,4 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 ## Collegamenti
 - [Struttura Moduli](module-structure.md)
 - [Convenzioni Generali](conventions.md)
-<<<<<<< HEAD:docs/consolidated/naming-conventions-docs_1.md
 - [Best Practices Documentazione](documentation-guidelines.md) 
-=======
-- [Best Practices Documentazione](documentation-guidelines.md) 
->>>>>>> laraxot/develop:docs/naming-conventions-docs.md

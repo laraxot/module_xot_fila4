@@ -18,7 +18,7 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\Support\Str;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
-use Modules\Xot\Datas\MetatagData; // Remove if not used elsewhere implicitly
+use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Webmozart\Assert\Assert;
 
@@ -36,23 +36,24 @@ abstract class XotBasePanelProvider extends PanelProvider
     {
         $moduleNamespace = $this->getModuleNamespace();
         $moduleLow = Str::lower($this->module);
-        // Removed: $metatag = MetatagData::make(); // Unused local variable
+        $metatag = MetatagData::make();
 
-        $mainModule = Str::lower(XotData::make()->main_module); // Renamed to camelCase
-        $default = $mainModule === $moduleLow;
+        $main_module = Str::lower(XotData::make()->main_module);
+        $default = $main_module === $moduleLow;
 
         $panel = $panel
             ->default($default)
-            ->login() // UNCOMMENTED
+            // ->login()
             // ->registration()
             ->passwordReset()
             // ->emailVerification()
             // ->profile()
             ->sidebarFullyCollapsibleOnDesktop();
 
-        $panel = app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
+        app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
         // ---------------------
-        $panel->maxContentWidth('full')
+        $panel
+            ->maxContentWidth('full')
             ->topNavigation($this->topNavigation)
             ->globalSearch($this->globalSearch)
             ->readOnlyRelationManagersOnResourceViewPagesByDefault(false)

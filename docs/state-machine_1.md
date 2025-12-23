@@ -9,10 +9,6 @@
 - Ogni errore e soluzione va documentato sia nella docs del modulo sia qui, con link bidirezionali.
 
 ## Collegamenti
-<<<<<<< HEAD:docs/state-machine_1.md
 - [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
-=======
-- [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
->>>>>>> laraxot/develop:docs/archive/state-machine.md
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)

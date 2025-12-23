@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Filament Class Extension Rules - Laraxot Framework
 
 **Principio Fondamentale**: Mai estendere classi Filament direttamente - sempre usare classi XotBase
@@ -6,17 +5,10 @@
 **Data**: 2 Dicembre 2025  
 **Status**: Regola Assoluta e Inviolabile
 
-=======
-# Filament Class Extension Rules 
-
-**Principio Fondamentale**: Mai estendere classi Filament direttamente - sempre usare classi XotBase
-
->>>>>>> laraxot/develop
 ---
 
 ## 🚨 Regola Assoluta
 
-<<<<<<< HEAD
 ### NON estendere MAI classi Filament direttamente
 
 Sempre estendere classi astratte con prefisso `XotBase` fornite dal modulo Xot.
@@ -31,15 +23,6 @@ Sempre estendere classi astratte con prefisso `XotBase` fornite dal modulo Xot.
 ---
 
 ## 📋 Mapping Completo Classi Filament → XotBase
-=======
-**NON estendere MAI classi Filament direttamente**
-
-Sempre estendere classi astratte con prefisso `XotBase` che rispettano il vecchio percorso.
-
----
-
-## 📋 Mapping Classi Filament → XotBase
->>>>>>> laraxot/develop
 
 ### Resources Pages
 
@@ -49,36 +32,16 @@ Sempre estendere classi astratte con prefisso `XotBase` che rispettano il vecchi
 | `Filament\Resources\Pages\EditRecord` | `Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord` |
 | `Filament\Resources\Pages\ListRecords` | `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords` |
 | `Filament\Resources\Pages\Page` | `Modules\Xot\Filament\Resources\Pages\XotBasePage` |
-<<<<<<< HEAD
 | `Filament\Resources\Pages\ViewRecord` | `Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord` |
-=======
-| `Filament\Actions\BulkAction` | `Modules\Xot\Filament\Actions\XotBaseBulkAction` |
-| `Filament\Pages\Dashboard` | `Modules\Xot\Filament\Pages\XotBaseDashboard` |
-| `Filament\Schemas\Components\Section` | `Modules\Xot\Filament\Schemas\Components\XotBaseSection` |
-| `Filament\Forms\Components\Select` | `Modules\Xot\Filament\Forms\Components\XotBaseSelect` |
-| `Filament\Forms\Components\CheckboxList` | `Modules\Xot\Filament\Forms\Components\XotBaseCheckboxList` |
->>>>>>> laraxot/develop
 
 ### Auth Pages
 
 | ❌ SBAGLIATO | ✅ CORRETTO |
 |-------------|------------|
-<<<<<<< HEAD
 | `Filament\Pages\Auth\Login` | `Modules\Xot\Filament\Pages\Auth\XotBaseLogin` |
 | `Filament\Pages\Auth\Register` | `Modules\Xot\Filament\Pages\Auth\XotBaseRegister` |
 | `Filament\Pages\Auth\EditProfile` | `Modules\Xot\Filament\Pages\Auth\XotBaseEditProfile` |
 | `Filament\Pages\Auth\PasswordReset\RequestPasswordReset` | `Modules\Xot\Filament\Pages\Auth\XotBaseRequestPasswordReset` |
-=======
-| `Filament\Auth\Pages\Login` | `Modules\Xot\Filament\Pages\Auth\XotBaseLogin` |
-| `Filament\Auth\Pages\Register` | `Modules\Xot\Filament\Pages\Auth\XotBaseRegister` |
-| `Filament\Auth\Pages\EditProfile` | `Modules\Xot\Filament\Pages\Auth\XotBaseEditProfile` |
-
-### Actions
-
-| ❌ SBAGLIATO | ✅ CORRETTO |
-|-------------|------------|
-| `Filament\Actions\ActionGroup` | `Modules\Xot\Filament\Actions\XotBaseActionGroup` |
->>>>>>> laraxot/develop
 
 ### Resources
 
@@ -91,7 +54,6 @@ Sempre estendere classi astratte con prefisso `XotBase` che rispettano il vecchi
 | ❌ SBAGLIATO | ✅ CORRETTO |
 |-------------|------------|
 | `Filament\Pages\Page` | `Modules\Xot\Filament\Pages\XotBasePage` |
-<<<<<<< HEAD
 | `Filament\Pages\Dashboard` | `Modules\Xot\Filament\Pages\XotBaseDashboard` |
 
 ### Widgets
@@ -121,30 +83,19 @@ Sempre estendere classi astratte con prefisso `XotBase` che rispettano il vecchi
 | ❌ SBAGLIATO | ✅ CORRETTO |
 |-------------|------------|
 | `Filament\Resources\RelationManagers\RelationManager` | `Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager` |
-=======
->>>>>>> laraxot/develop
 
 ### Service Providers
 
 | ❌ SBAGLIATO | ✅ CORRETTO |
 |-------------|------------|
 | `Illuminate\Support\ServiceProvider` | `Modules\Xot\Providers\XotBaseServiceProvider` |
-<<<<<<< HEAD
 | `Filament\Panel` | Usa `XotBaseServiceProvider` con metodi helper |
-=======
->>>>>>> laraxot/develop
 
 ---
 
 ## ⚠️ Regole Specifiche per XotBaseResource
 
-<<<<<<< HEAD
 ### 1. getTableColumns() NON Necessario
-=======
-### Metodo getTableColumns NON Richiesto
-
-Chi estende `XotBaseResource` **NON deve avere** il metodo `getTableColumns()`.
->>>>>>> laraxot/develop
 
 ```php
 // ❌ SBAGLIATO
@@ -152,21 +103,16 @@ class UserResource extends XotBaseResource
 {
     public static function getTableColumns(): array
     {
-<<<<<<< HEAD
         return [
             TextColumn::make('name'),
             TextColumn::make('email'),
         ];
-=======
-        return [/* ... */];
->>>>>>> laraxot/develop
     }
 }
 
 // ✅ CORRETTO
 class UserResource extends XotBaseResource
 {
-<<<<<<< HEAD
     // XotBaseResource genera automaticamente colonne da model fillable/casts
 }
 ```
@@ -288,26 +234,11 @@ public function getTableActions(): array
     ];
 }
 ```
-=======
-    // getTableColumns() gestito automaticamente da XotBaseResource
-}
-```
-
-### Metodi Standard NON Richiesti
-
-Non implementare questi metodi se restituiscono solo valori standard:
-
-- `getPages()` - se contiene solo route standard
-- `getRelations()` - se restituisce array vuoto
-- `getTableActions()` - se contiene solo azioni standard
-- `getTableBulkActions()` - se contiene solo azioni standard
->>>>>>> laraxot/develop
 
 ---
 
 ## ⚠️ Regole Specifiche per XotBasePage
 
-<<<<<<< HEAD
 ### Proprietà Auto-Gestite
 
 Chi estende `XotBasePage` eredita automaticamente:
@@ -390,25 +321,6 @@ class FilteredWidget extends XotBaseTableWidget
         
         return $query;
     }
-=======
-### Proprietà NON Consentite
-
-Chi estende `Modules\Xot\Filament\Pages\XotBasePage` **NON deve avere**:
-
-```php
-// ❌ SBAGLIATO
-class MyPage extends XotBasePage
-{
-    protected static ?string $navigationIcon;
-    protected static ?string $title;
-    protected static ?string $navigationLabel;
-}
-
-// ✅ CORRETTO
-class MyPage extends XotBasePage
-{
-    // Queste proprietà sono gestite automaticamente dalla classe base
->>>>>>> laraxot/develop
 }
 ```
 
@@ -416,7 +328,6 @@ class MyPage extends XotBasePage
 
 ## 🔧 Pattern per Modelli
 
-<<<<<<< HEAD
 ### Estensione Corretta
 
 ```php
@@ -458,54 +369,11 @@ class User extends BaseModel
 class User extends BaseModel
 {
     // Trait ereditati da BaseModel
-=======
-### Estensione BaseModel
-
-```php
-// ❌ SBAGLIATO
-class Team extends Model implements TeamContract
-
-// ✅ CORRETTO
-class Team extends BaseTeam
-```
-
-### Estensione Modelli di Terze Parti
-
-```php
-// ❌ SBAGLIATO - laravel/Modules/User/app/Models/Permission.php
-class Permission extends Model
-
-// ✅ CORRETTO
-use Spatie\Permission\Models\Permission as SpatiePermission;
-
-class Permission extends SpatiePermission
-```
-
-### Non Replicare Metodi
-
-**Regola**: Non replicare metodi della classe estesa se non ci sono differenze.
-
-```php
-// ❌ SBAGLIATO - Metodo identico alla classe base
-class MyModel extends BaseModel
-{
-    public function getName(): string
-    {
-        return $this->name; // Identico alla classe base
-    }
-}
-
-// ✅ CORRETTO - Rimuovi il metodo, usa quello della classe base
-class MyModel extends BaseModel
-{
-    // Metodo getName() ereditato da BaseModel
->>>>>>> laraxot/develop
 }
 ```
 
 ---
 
-<<<<<<< HEAD
 ## 🚫 Deprecazioni Filament v4
 
 ### BadgeColumn → TextColumn::badge()
@@ -622,85 +490,10 @@ return [
             'name' => 'Gestione',
         ],
     ],
-=======
-## 🚫 Deprecazioni
-
-### BadgeColumn Deprecato
-
-```php
-// ❌ DEPRECATO
-use Filament\Tables\Columns\BadgeColumn;
-
-BadgeColumn::make('status')
-
-// ✅ CORRETTO - Usa TextColumn con badge()
-use Filament\Tables\Columns\TextColumn;
-
-TextColumn::make('status')->badge()
-```
-
-### protected $casts Deprecato (Laravel 11+)
-
-```php
-// ❌ DEPRECATO - Laravel 10 e precedenti
-class User extends Model
-{
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-        'is_admin' => 'boolean',
-    ];
-}
-
-// ✅ CORRETTO
-class User extends Model
-{
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    protected function casts(): array
-    {
-        return [
-            'email_verified_at' => 'datetime',
-            'is_admin' => 'boolean',
-        ];
-    }
-}
-```
-
-**IMPORTANTE**: Se un modello ha ENTRAMBI `protected $casts` E `casts()`, rimuovi `protected $casts` (è deprecato e ignorato).
-
----
-
-## 🌐 Gestione Traduzioni
-
-### NON Usare Metodi Diretti
-
-```php
-// ❌ SBAGLIATO
-TextInput::make('name')
-    ->label('Nome')
-    ->placeholder('Inserisci nome')
-    ->tooltip('Il nome dell\'utente')
-
-// ✅ CORRETTO - Usa file di traduzione
-TextInput::make('name')
-// Le traduzioni sono gestite automaticamente da LangServiceProvider
-```
-
-**Struttura file traduzione**:
-```
-Modules/{ModuleName}/lang/{locale}/{resource}.php
-
-// Esempio: Modules/User/lang/it/user.php
-return [
->>>>>>> laraxot/develop
     'fields' => [
         'name' => [
             'label' => 'Nome',
             'placeholder' => 'Inserisci nome',
-<<<<<<< HEAD
             'help' => 'Nome completo dell\'utente',
         ],
         'email' => [
@@ -714,15 +507,11 @@ return [
             'label' => 'Crea Utente',
             'success' => 'Utente creato con successo',
             'error' => 'Errore durante la creazione',
-=======
-            'tooltip' => 'Il nome dell\'utente',
->>>>>>> laraxot/develop
         ],
     ],
 ];
 ```
 
-<<<<<<< HEAD
 ### NO Hardcoded Labels
 
 ```php
@@ -747,48 +536,22 @@ EditAction::make()
 // ❌ ANTI-PATTERN - Service tradizionale
 namespace Modules\User\Services;
 
-=======
----
-
-## 🔄 Actions invece di Services
-
-### Usa Spatie Queueable Actions
-
-```php
-// ❌ SBAGLIATO - Service tradizionale
->>>>>>> laraxot/develop
 class UserService
 {
     public function createUser(array $data): User
     {
-<<<<<<< HEAD
         $user = User::create($data);
         $this->sendWelcomeEmail($user);
         return $user;
     }
     
     private function sendWelcomeEmail(User $user): void
-=======
-        // ...
-    }
-}
-
-// ✅ CORRETTO - Queueable Action
-use Spatie\QueueableAction\QueueableAction;
-
-class CreateUserAction
-{
-    use QueueableAction;
-
-    public function execute(array $data): User
->>>>>>> laraxot/develop
     {
         // ...
     }
 }
 
 // Uso
-<<<<<<< HEAD
 $service = new UserService();
 $user = $service->createUser($data);
 ```
@@ -919,14 +682,10 @@ class UserStatsWidget extends XotBaseStatsOverviewWidget
         ];
     }
 }
-=======
-app(CreateUserAction::class)->execute($data);
->>>>>>> laraxot/develop
 ```
 
 ---
 
-<<<<<<< HEAD
 ## ⚠️ Cosa NON Fare
 
 ### 1. Non Replicare Metodi Base
@@ -1044,25 +803,3 @@ grep -r "->label(" laravel/Modules --include="*.php"
 **Ultima Verifica**: 2 Dicembre 2025  
 **Compliance**: Obbligatoria per tutti i moduli  
 **Enforcement**: Code review + PHPStan Level 10
-=======
-## ✅ Checklist Pre-Implementazione
-
-Prima di creare una nuova classe Filament:
-
-- [ ] Ho verificato quale classe XotBase estendere?
-- [ ] Non sto estendendo direttamente classi Filament?
-- [ ] Non sto replicando metodi della classe base?
-- [ ] Sto usando file di traduzione invece di ->label()?
-- [ ] Sto usando Actions invece di Services?
-- [ ] Ho rimosso BadgeColumn deprecato?
-- [ ] Ho migrato da `protected $casts` a `casts()`?
-
----
-
-## 🔗 Collegamenti Utili
-
-- [XotBaseResource Documentation](architectural_rules/filament_extension_rules.md)
-- [Base Classes Documentation](../consolidated/base-classes.md)
-- [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
-- [Filament v4 Documentation](https://filamentphp.com/docs/4.x)
->>>>>>> laraxot/develop

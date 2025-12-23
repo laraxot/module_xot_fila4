@@ -41,7 +41,7 @@ class EnvWidget extends Widget implements HasActions, HasForms
         $this->form->fill($this->data);
     }
 
-    public function schema(Schema $schema): Schema
+    public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
     }

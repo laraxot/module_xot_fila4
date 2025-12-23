@@ -6,7 +6,6 @@ namespace Modules\Xot\Filament\Pages;
 
 use Filament\Panel;
 use Illuminate\Support\Str;
-use Modules\User\Models\User;
 use Webmozart\Assert\Assert;
 
 /**
@@ -35,35 +34,13 @@ class MainDashboard extends XotBaseDashboard
 
     public function mount(): void
     {
-<<<<<<< HEAD
         Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
         $modules = $user->roles->filter(static fn ($item) => Str::endsWith($item->name, '::admin'));
 
         if ($modules->count() === 1) {
             Assert::notNull($module_first = $modules->first(), '['.__LINE__.']['.class_basename($this).']');
-=======
-        $user = auth()->user();
-        Assert::notNull($user, '['.__LINE__.']['.class_basename($this).']');
-        
-        // Usa roles() come metodo invece della magic property per type safety
-        /** @var \Illuminate\Database\Eloquent\Collection<int, \Spatie\Permission\Models\Role> $roles */
-        $roles = $user->roles()->get();
-        
-        $modules = $roles->filter(function ($item): bool {
-             // $item è già tipizzato come Role dalla collection
-             $name = $item->name;
-             Assert::string($name);
-             return Str::endsWith($name, '::admin');
-        });
-
-        if ($modules->count() === 1) {
-            $module_first = $modules->first();
-            Assert::notNull($module_first);
->>>>>>> laraxot/develop
             $panel_name = $module_first->name;
-            Assert::string($panel_name);
             $module_name = Str::before($panel_name, '::admin');
-            Assert::string($module_name);
             $url = '/'.$module_name.'/admin';
             redirect($url);
         }

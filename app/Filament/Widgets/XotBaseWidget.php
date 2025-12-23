@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 use Exception;
-<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
@@ -17,24 +16,10 @@ use Filament\Schemas\Schema;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
-=======
->>>>>>> laraxot/develop
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Filament\Actions\Action;
-use Filament\Schemas\Schema;
-use Webmozart\Assert\Assert;
-use Filament\Forms\Contracts\HasForms;
-use Illuminate\Database\Eloquent\Model;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Schemas\Components\Component;
-use Illuminate\Contracts\Support\Htmlable;
 use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Widgets\Widget as FilamentWidget;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Modules\Xot\Actions\View\GetViewByClassAction;
-use Filament\Actions\Concerns\InteractsWithActions;
+use Webmozart\Assert\Assert;
 
 /**
  * Classe base astratta per tutti i widget Filament.
@@ -78,7 +63,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     /**
      * Vista predefinita per widget che estendono XotBaseWidget.
      * Deve essere sovrascritta nelle classi figlie.
-<<<<<<< HEAD
      */
     protected string $view = 'xot::filament.widgets.base';
 
@@ -93,39 +77,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      * $this->view = $view;
      * }
      * }
-=======
->>>>>>> laraxot/develop
      */
-    protected string $view = 'xot::filament.widgets.base';
-
-    protected int|string|array $columnSpan = 'full';
-
-
-    public function __construct()
-    {
-        //parent::__construct();//Cannot call constructor
-        // Se la view è già definita manualmente e diversa dal default, non cercarla automaticamente
-        $defaultView = (new \ReflectionClass($this))->getDefaultProperties()['view'] ?? 'xot::filament.widgets.base';
-        if ($this->view !== $defaultView && view()->exists($this->view)) {
-            // View già definita manualmente, usala
-            return;
-        }
-        
-        // Cerca automaticamente la view basandosi sul nome della classe
-        try {
-            $view = app(GetViewByClassAction::class)->execute(static::class);
-            if (view()->exists($view)) {
-                $this->view = $view;
-            }
-        } catch (\Exception $e) {
-            // Se la view automatica non esiste, mantieni quella definita manualmente o il default
-            // Non lanciare eccezione se la view è già definita manualmente
-            if ($this->view === $defaultView) {
-                throw $e;
-            }
-        }
-    }
-
     /*
      * public function mount(): void
      * {

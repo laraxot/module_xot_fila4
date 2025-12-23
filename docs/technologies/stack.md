@@ -11,11 +11,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Blade templating
 - [Documentazione Laravel](https://laravel.com/docs)
 
-<<<<<<<< HEAD:docs/technologies/stack.md
 ### Filament 4.x
-========
-### Filament 3.x
->>>>>>>> laraxot/develop:docs/archive/technologies/stack.md
 - Pannello amministrativo
 - Form builder
 - Table builder
@@ -26,13 +22,13 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Componenti reattivi
 - Stato locale
 - Azioni e eventi
-- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 
 ### Laravel Folio
 - Routing basato su file
 - Pagine dinamiche
 - Middleware per pagine
-- [Documentazione Folio](https://laravel.com/project_docs/folio)
+- [Documentazione Folio](https://laravel.com/docs/folio)
 
 ## Database e Cache
 
@@ -41,7 +37,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Supporto transazioni
 - Indici e ottimizzazioni
 - [MySQL Docs](https://dev.mysql.com/doc/)
-- [PostgreSQL Docs](https://www.postgresql.org/project_docs/)
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
 
 ### Redis
 - Cache distribuita
@@ -109,7 +105,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Debug e profiling
 - Query monitoring
 - Cache inspection
-- [Telescope Docs](https://laravel.com/project_docs/telescope)
+- [Telescope Docs](https://laravel.com/docs/telescope)
 
 ## Versioni Minime Richieste
 

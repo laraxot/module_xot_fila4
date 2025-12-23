@@ -23,22 +23,6 @@ This document outlines specific considerations and changes for the `Xot` module,
     Section::configureUsing(fn (Section $section) => $section->columnSpanFull());
     ```
 
-<<<<<<< HEAD
-=======
-### **3. Widget Initialization (`initXotBaseWidget`)**
-
-*   **Issue**: I widget che estendono `XotBaseWidget` (usando `InteractsWithForms`) fallivano nel catturare i dati di input se lo stato del form non veniva inizializzato esplicitamente.
-*   **Architettura**: A causa delle firme (signatures) variabili del metodo `mount()` tra i vari widget (parametri diversi), non è possibile definire `mount()` nella classe base.
-*   **Soluzione**: È stato introdotto il metodo `initXotBaseWidget()` in `XotBaseWidget`. Ogni widget figlio DEVE chiamare `$this->initXotBaseWidget()` nel proprio metodo `mount()`.
-*   **Esempio**:
-    ```php
-    public function mount(): void
-    {
-        $this->initXotBaseWidget();
-    }
-    ```
-
->>>>>>> laraxot/develop
 ---
 **DRY (Don't Repeat Yourself) / KISS (Keep It Simple, Stupid) Principles:**
 

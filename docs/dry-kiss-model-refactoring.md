@@ -8,30 +8,18 @@ Analisi completa dell'architettura dei modelli Eloquent nel monorepo Laravel con
 
 - **Violazioni critiche trovate**: 5
 - **Linee di codice eliminate**: ~200+
-<<<<<<< HEAD:docs/dry-kiss-model-refactoring.md
 - **Moduli interessati**: 4 (Geo, Cms, <nome progetto>, User)
-=======
-- **Moduli interessati**: 4 (Geo, Cms, Quaeris, User)
->>>>>>> laraxot/develop:docs/archive/dry-kiss-model-refactoring.md
 - **Impatto**: Riduzione drastica della duplicazione, miglioramento della manutenibilità
 
 ---
 
 ## Problemi Identificati e Risolti
 
-<<<<<<< HEAD:docs/dry-kiss-model-refactoring.md
 ### 1. ❌ <nome progetto>\Models\BaseModel estendeva Model invece di XotBaseModel
 
 **Prima** (VIOLAZIONE CRITICA):
 ```php
 namespace Modules\<nome progetto>\Models;
-=======
-### 1. ❌ Quaeris\Models\BaseModel estendeva Model invece di XotBaseModel
-
-**Prima** (VIOLAZIONE CRITICA):
-```php
-namespace Modules\Quaeris\Models;
->>>>>>> laraxot/develop:docs/archive/dry-kiss-model-refactoring.md
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -45,11 +33,7 @@ abstract class BaseModel extends Model
 
     public $incrementing = true;
     public $timestamps = true;
-<<<<<<< HEAD:docs/dry-kiss-model-refactoring.md
     protected $connection = '<nome progetto>';
-=======
-    protected $connection = 'quaeris';
->>>>>>> laraxot/develop:docs/archive/dry-kiss-model-refactoring.md
     protected $casts = ['published_at' => 'datetime', ...];
     protected $primaryKey = 'id';
     protected $hidden = [];
@@ -63,11 +47,7 @@ abstract class BaseModel extends Model
 
 **Dopo** (✅ DRY & KISS):
 ```php
-<<<<<<< HEAD:docs/dry-kiss-model-refactoring.md
 namespace Modules\<nome progetto>\Models;
-=======
-namespace Modules\Quaeris\Models;
->>>>>>> laraxot/develop:docs/archive/dry-kiss-model-refactoring.md
 
 use Modules\Xot\Models\XotBaseModel;
 
@@ -77,11 +57,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia, ModelContract
     use HasExtraTrait;
     use InteractsWithMedia;
 
-<<<<<<< HEAD:docs/dry-kiss-model-refactoring.md
     protected $connection = '<nome progetto>';
-=======
-    protected $connection = 'quaeris';
->>>>>>> laraxot/develop:docs/archive/dry-kiss-model-refactoring.md
     protected $with = ['extra'];
 }
 ```
@@ -366,11 +342,7 @@ BaseModel → BaseModelLang → Post
 
 | Modulo | Classe | Righe Prima | Righe Dopo | Riduzione |
 |--------|--------|-------------|------------|-----------|
-<<<<<<< HEAD:docs/dry-kiss-model-refactoring.md
 | <nome progetto> | BaseModel | 66 | 20 | -70% |
-=======
-| Quaeris | BaseModel | 66 | 20 | -70% |
->>>>>>> laraxot/develop:docs/archive/dry-kiss-model-refactoring.md
 | Geo | BasePivot | 59 | 8 | -86% |
 | Geo | BaseMorphPivot | 67 | 8 | -88% |
 | Cms | BasePivot | 60 | 8 | -87% |
@@ -532,8 +504,4 @@ Il refactoring ha applicato con successo i principi DRY e KISS alla gerarchia de
 
 *Refactoring completato: 15 ottobre 2025*
 *Analizzato da: Claude Code*
-<<<<<<< HEAD:docs/dry-kiss-model-refactoring.md
 *Validato: ✅ Test passed, PHPStan level 10 passed*
-=======
-*Validato: ✅ Test passed, PHPStan level 9 passed*
->>>>>>> laraxot/develop:docs/archive/dry-kiss-model-refactoring.md

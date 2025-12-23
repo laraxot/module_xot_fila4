@@ -155,15 +155,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Imposta lo schema e il percorso dello stato per il form.
      *
      * @param  \Filament\Schemas\Schema  $schema  Il form da configurare
-<<<<<<< HEAD
      * @return \Filament\Schemas\Schema Il form configurato
      */
     public function form(Schema $schema): Schema
-=======
-     * @return \Filament\Schemas\Schema Lo schema configurato
-     */
-    public function schema(Schema $schema): Schema
->>>>>>> laraxot/develop
     {
         $schema = $schema->components($this->getFormSchema());
 

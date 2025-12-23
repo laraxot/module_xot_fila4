@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # PHPStan Code Quality Guide - base_quaeris_fila4_mono
-=======
-# PHPStan Code Quality Guide - Laraxot
->>>>>>> laraxot/develop
 
 **Ultimo aggiornamento**: 2025-01-10
 **Principi**: DRY + KISS + SOLID + Robust
@@ -50,11 +46,7 @@
 
 ```bash
 # Analisi PHPStan completa
-<<<<<<< HEAD
 cd /var/www/_bases/base_quaeris_fila4_mono/laravel
-=======
-cd /var/www/_bases/base_laravelpizza/laravel
->>>>>>> laraxot/develop
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 # Analisi singolo modulo
@@ -68,19 +60,11 @@ composer dump-autoload && php artisan config:clear && php artisan cache:clear
 
 # Code Quality Tools
 ./vendor/bin/pint --dirty                    # Format changed files
-<<<<<<< HEAD
 ./vendor/bin/phpmd path/to/file text cleancode,codesize,design,naming
 ./vendor/bin/phpinsights analyse Modules/{Module} --format=table
 
 # Complexity Analysis
 ./vendor/bin/phpmd Modules/{Module} text codesize --reportfile /tmp/complexity.txt
-=======
-php phpmd.phar path/to/file text cleancode,codesize,design,naming
-./vendor/bin/phpinsights analyse Modules/{Module} --format=table
-
-# Complexity Analysis
-php phpmd.phar Modules/{Module} text codesize --reportfile /tmp/complexity.txt
->>>>>>> laraxot/develop
 ```
 
 ---

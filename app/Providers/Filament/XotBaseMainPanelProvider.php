@@ -46,7 +46,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);
 
-        $panel = app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
+        app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
 
         // Discovery sicura: verifica che le directory esistano
         $resourcesPath = app_path('Filament/Resources');

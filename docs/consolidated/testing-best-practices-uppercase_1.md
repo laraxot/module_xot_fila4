@@ -39,11 +39,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
-<<<<<<< HEAD:docs/consolidated/testing-best-practices-uppercase_1.md
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
-=======
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> laraxot/develop:docs/archive/testing-best-practices.md
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);

@@ -8,11 +8,7 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 
 ```php
 // ❌ VIOLAZIONE CRITICA
-<<<<<<< HEAD:docs/consolidated/architecture-violations-and-fixes_1.md
 use Modules\<nome progetto>\Models\User;
-=======
-use Modules\SaluteOra\Models\User;
->>>>>>> laraxot/develop:docs/architecture-violations-and-fixes.md
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -20,11 +16,7 @@ $user = User::factory()->create([...]);
 
 ### **Perché è un Errore Grave**
 
-<<<<<<< HEAD:docs/consolidated/architecture-violations-and-fixes_1.md
 1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
-=======
-1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
->>>>>>> laraxot/develop:docs/architecture-violations-and-fixes.md
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -56,11 +48,7 @@ $user = $userClass::factory()->create($attributes);
 'providers' => [
     'users' => [
         'driver' => 'eloquent',
-<<<<<<< HEAD:docs/consolidated/architecture-violations-and-fixes_1.md
         'model' => \Modules\<nome progetto>\Models\User::class, // CONFIGURABILE!
-=======
-        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
->>>>>>> laraxot/develop:docs/architecture-violations-and-fixes.md
     ],
 ],
 ```
@@ -118,11 +106,7 @@ use Modules\SpecificModule\Models\User;
 public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
-<<<<<<< HEAD:docs/consolidated/architecture-violations-and-fixes_1.md
 public function processUser(\Modules\<nome progetto>\Models\User $user): void
-=======
-public function processUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> laraxot/develop:docs/architecture-violations-and-fixes.md
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -254,15 +238,9 @@ class ChangeTypeCommand extends Command
 ### **1. Import Diretti**
 ```php
 // ❌ VIETATO
-<<<<<<< HEAD:docs/consolidated/architecture-violations-and-fixes_1.md
 use Modules\<nome progetto>\Models\User;
 use Modules\<nome progetto>\Models\Patient;
 use Modules\<nome progetto>\Models\Doctor;
-=======
-use Modules\SaluteOra\Models\User;
-use Modules\SaluteOra\Models\Patient;
-use Modules\SaluteOra\Models\Doctor;
->>>>>>> laraxot/develop:docs/architecture-violations-and-fixes.md
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -272,11 +250,7 @@ use Modules\Xot\Datas\XotData;
 ### **2. Hardcoding Classi**
 ```php
 // ❌ VIETATO
-<<<<<<< HEAD:docs/consolidated/architecture-violations-and-fixes_1.md
 $user = \Modules\<nome progetto>\Models\User::find($id);
-=======
-$user = \Modules\SaluteOra\Models\User::find($id);
->>>>>>> laraxot/develop:docs/architecture-violations-and-fixes.md
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -286,11 +260,7 @@ $user = $userClass::find($id);
 ### **3. Type Hints Specifici**
 ```php
 // ❌ VIETATO
-<<<<<<< HEAD:docs/consolidated/architecture-violations-and-fixes_1.md
 function updateUser(\Modules\<nome progetto>\Models\User $user): void
-=======
-function updateUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> laraxot/develop:docs/architecture-violations-and-fixes.md
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -365,15 +335,9 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [IsTenant Trait](../../User/app/Models/Traits/IsTenant.php)
 
 ### **Documentazione Moduli**
-<<<<<<< HEAD:docs/consolidated/architecture-violations-and-fixes_1.md
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome progetto>/project_docs/testing/real-data-testing-strategy.md)
-=======
-- [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
-- [User Module Traits](../../User/docs/traits_complete_guide.md)
-- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
->>>>>>> laraxot/develop:docs/architecture-violations-and-fixes.md
 
 ---
 

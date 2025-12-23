@@ -75,7 +75,7 @@ This document defines the standards and best practices for working with Enums in
 declare(strict_types=1);
 
 namespace Modules\<nome progetto>\Enums;
-namespace Modules\<nome modulo>\Enums;
+namespace Modules\<nome progetto>\Enums;
 
 use Filament\Support\Contracts\HasLabel;
 

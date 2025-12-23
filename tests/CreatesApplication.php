@@ -7,13 +7,22 @@ namespace Modules\Xot\Tests;
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Foundation\Application;
 
+/**
+ * Trait CreatesApplication.
+ *
+ * Provides the createApplication method for test cases.
+ * This trait is used by all module test cases to bootstrap the Laravel application.
+ */
 trait CreatesApplication
 {
     /**
      * Creates the application.
+     *
+     * @return Application
      */
     public function createApplication(): Application
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,7 +178,24 @@ trait CreatesApplication
         $app = require __DIR__.'/../../../bootstrap/app.php';
 >>>>>>> 249a0067 (.)
 
+=======
+        // Get base path (assuming tests are in Modules/{Module}/tests/)
+        $basePath = realpath(__DIR__.'/../../../');
+
+        // Explicitly set the base path before requiring bootstrap/app.php
+        $_ENV['APP_BASE_PATH'] = $basePath;
+
+        $app = require $basePath.'/bootstrap/app.php';
+
+        // Bind essential paths if they are not correctly resolved
+        $app->instance('path.base', $basePath);
+        $app->bind('path.public', fn () => $basePath.'/public_html');
+        $app->bind('path.storage', fn () => $basePath.'/storage');
+
+        // Bootstrap kernel to ensure all service providers and aliases are registered
+>>>>>>> laraxot/develop
         $app->make(Kernel::class)->bootstrap();
+        $app->boot(); // Ensure all service providers are booted
 
         return $app;
     }

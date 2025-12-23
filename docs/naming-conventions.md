@@ -1,85 +1,57 @@
-# Naming Conventions - Modulo Xot
+# Convenzioni di Nomenclatura in Laravel Modules
 
-## Regola Fondamentale per File di Test
+Questo documento definisce le convenzioni ufficiali di nomenclatura da utilizzare in tutto il progetto Laravel Modules.
 
-**CRITICO**: I file di test DEVONO seguire **PascalCase**, mai lowercase.
+## Panoramica
+Questo documento descrive le convenzioni di denominazione da seguire all'interno di un modulo Laravel per garantire coerenza e chiarezza nel codice.
 
-### ✅ CORRETTO
-```
-tests/Feature/FixStructureTest.pest.php
-tests/Feature/ModuleServiceIntegrationTest.php
-tests/Unit/HasExtraTraitTest.php
-```
+## Principi chiave
+1. **Denominazione descrittiva**: Utilizzare nomi descrittivi che indichino chiaramente lo scopo o il comportamento delle variabili, metodi e classi.
+2. **Coerenza**: Mantenere schemi di denominazione coerenti in tutto il codice per ridurre il carico cognitivo.
 
-### ❌ SBAGLIATO (DA ELIMINARE)
-```
-tests/Feature/fixstructuretest.pest.php          # lowercase - ELIMINARE
-tests/Feature/fix_structure_test.pest.php         # snake_case - ELIMINARE
-```
+## Linee guida per l'implementazione
+### 1. Denominazione delle classi
+- Utilizzare PascalCase per i nomi delle classi, assicurandosi che siano sostantivi che descrivono l'entità o la funzionalità.
+  ```php
+  class UserProfile
+  {
+      // Definizione della classe
+  }
+  ```
 
-## Motivazione
+### 2. Denominazione dei metodi
+- Utilizzare camelCase per i nomi dei metodi, iniziando con un verbo che descrive l'azione eseguita.
+  ```php
+  public function calculateTotalPrice()
+  {
+      // Implementazione del metodo
+  }
+  ```
 
-1. **Consistenza**: PascalCase è lo standard PHP
-2. **Case Sensitivity**: Evita problemi cross-platform (Linux case-sensitive, Windows/Mac case-insensitive)
-3. **Duplicazioni**: Previene file duplicati con diverse capitalizzazioni
-4. **Autoload PSR-4**: Richiede nomi file = nomi classi
+### 3. Denominazione delle variabili
+- Utilizzare camelCase per i nomi delle variabili, rendendole descrittive dei dati che contengono.
+  ```php
+  $userFullName = 'John Doe';
+  ```
 
-## Azione Correttiva
+### 4. Denominazione dei file
+- Fare in modo che i nomi dei file corrispondano ai nomi delle classi per le classi, utilizzando PascalCase. Per altri file, utilizzare kebab-case per descrivere il contenuto.
+  ```
+  UserProfile.php
+  user-profile-utils.php
+  ```
 
-Quando trovi duplicati con diverse capitalizzazioni:
+## Problemi comuni e soluzioni
+- **Denominazione incoerente**: Evitare di mescolare stili di denominazione (ad esempio, snake_case con camelCase) per mantenere la leggibilità.
+- **Nomi vaghi**: Rinominare nomi vaghi come `$data` o `$temp` in qualcosa di più descrittivo come `$userData` o `$temporaryResult`.
 
-1. **Mantieni PascalCase**: `FixStructureTest.pest.php` ✅
-2. **Elimina lowercase**: `fixstructuretest.pest.php` ❌
+## Documentazione e aggiornamenti
+- Documentare eventuali deviazioni da queste convenzioni di denominazione nella cartella di documentazione del modulo pertinente.
+- Aggiornare questo documento se vengono introdotti nuovi schemi di denominazione o convenzioni.
 
-```bash
-# Rimuovere duplicato lowercase
-rm tests/Feature/fixstructuretest.pest.php
-
-# Verificare che PascalCase esista
-ls tests/Feature/FixStructureTest.pest.php
-```
-
-## Pattern di Naming Completo
-
-### Test Files
-- Feature tests: `{FeatureName}Test.pest.php`
-- Integration tests: `{ServiceName}IntegrationTest.php`
-- Unit tests: `{TraitName}Test.php`
-
-### Models, Services, Actions
-- Models: `PascalCase` (User.php, Module.php)
-- Services: `PascalCase + Service` (ModuleService.php)
-- Actions: `PascalCase + Action` (SafeStringCastAction.php)
-- Traits: `PascalCase + Trait` (HasExtraTrait.php)
-
-### Variables & Methods
-- Variables: `camelCase` ($moduleName, $isEnabled)
-- Methods: `camelCase` (getModels(), setName())
-- Constants: `UPPER_SNAKE_CASE` (MAX_RETRIES)
-
-### Directories
-- Sempre PascalCase per namespace: `app/Models/`, `app/Services/`
-- Mai lowercase: `app/models/` ❌
-
-## Verifica Duplicati
-
-```bash
-# Trova duplicati case-insensitive
-find tests/ -iname "fixstructuretest*"
-
-# Trova file test non PascalCase
-find tests/ -name "*test.php" -o -name "*Test.php" | grep -v "[A-Z]"
-```
-
-## Checklist Pre-Commit
-
-- [ ] Tutti i file test sono PascalCase?
-- [ ] Nessun duplicato con diverse capitalizzazioni?
-- [ ] Namespace corrispondono ai path?
-- [ ] PHPStan passa senza errori?
-
----
-
-**Regola d'oro**: File duplicati? **Mantieni PascalCase, elimina tutto il resto.**
-
-**Data**: Ottobre 2025
+## Collegamenti alla documentazione correlata
+- [Qualità del codice](./CODE_QUALITY.md)
+- [Tipi rigorosi PHP](./PHP-STRICT-TYPES.md)
+- [Guida all'implementazione di PHPStan](./PHPSTAN-IMPLEMENTATION-GUIDE.md)
+- [Best practice per i provider di servizi](./SERVICE-PROVIDER-BEST-PRACTICES.md)
+- [Best practice per Filament](./FILAMENT-BEST-PRACTICES.md)

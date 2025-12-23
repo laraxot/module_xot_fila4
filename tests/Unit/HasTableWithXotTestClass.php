@@ -6,10 +6,15 @@ namespace Modules\Xot\Tests\Unit;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Mockery;
+use Override;
+>>>>>>> laraxot/develop
 use Filament\Tables\Table;
 use Illuminate\Support\Collection;
-use Mockery;
 use Modules\Xot\Filament\Traits\HasXotTable;
+<<<<<<< HEAD
 use Override;
 =======
 =======
@@ -23,6 +28,8 @@ use Modules\Xot\Filament\Traits\HasXotTable;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
 
 /**
  * Dummy class that uses HasTable and HasXotTable traits for testing.
@@ -53,6 +60,7 @@ class HasTableWithXotTestClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTablePage(): ?int
 =======
     public function getTablePage(): null|int
@@ -60,6 +68,9 @@ class HasTableWithXotTestClass
 =======
     public function getTablePage(): null|int
 >>>>>>> 5a14301c (.)
+=======
+    public function getTablePage(): null|int
+>>>>>>> laraxot/develop
     {
         return 1;
     }
@@ -71,6 +82,7 @@ class HasTableWithXotTestClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableSortColumn(): ?string
 =======
     public function getTableSortColumn(): null|string
@@ -78,10 +90,14 @@ class HasTableWithXotTestClass
 =======
     public function getTableSortColumn(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getTableSortColumn(): null|string
+>>>>>>> laraxot/develop
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableSortDirection(): ?string
@@ -91,6 +107,9 @@ class HasTableWithXotTestClass
 =======
     public function getTableSortDirection(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getTableSortDirection(): null|string
+>>>>>>> laraxot/develop
     {
         return null;
     }
@@ -107,6 +126,7 @@ class HasTableWithXotTestClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableFilterState(string $_name): ?array
 =======
     public function getTableFilterState(string $_name): null|array
@@ -114,10 +134,14 @@ class HasTableWithXotTestClass
 =======
     public function getTableFilterState(string $_name): null|array
 >>>>>>> 5a14301c (.)
+=======
+    public function getTableFilterState(string $_name): null|array
+>>>>>>> laraxot/develop
     {
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableGrouping(): ?string
@@ -127,10 +151,14 @@ class HasTableWithXotTestClass
 =======
     public function getTableGrouping(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getTableGrouping(): null|string
+>>>>>>> laraxot/develop
     {
         return null;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableSearchIndicator(): ?string
@@ -140,6 +168,9 @@ class HasTableWithXotTestClass
 =======
     public function getTableSearchIndicator(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getTableSearchIndicator(): null|string
+>>>>>>> laraxot/develop
     {
         return null;
     }
@@ -173,6 +204,7 @@ class HasTableWithXotTestClass
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new Collection;
 =======
         return new Collection();
@@ -180,6 +212,9 @@ class HasTableWithXotTestClass
 =======
         return new Collection();
 >>>>>>> 5a14301c (.)
+=======
+        return new Collection();
+>>>>>>> laraxot/develop
     }
 
     public function getAllTableRecordsCount(): int
@@ -224,6 +259,7 @@ class HasTableWithXotTestClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getMountedTableAction(): ?string
 =======
     public function getMountedTableAction(): null|string
@@ -231,6 +267,9 @@ class HasTableWithXotTestClass
 =======
     public function getMountedTableAction(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getMountedTableAction(): null|string
+>>>>>>> laraxot/develop
     {
         return null;
     }
@@ -252,6 +291,7 @@ class HasTableWithXotTestClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getMountedTableBulkAction(): ?string
 =======
     public function getMountedTableBulkAction(): null|string
@@ -259,6 +299,9 @@ class HasTableWithXotTestClass
 =======
     public function getMountedTableBulkAction(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getMountedTableBulkAction(): null|string
+>>>>>>> laraxot/develop
     {
         return null;
     }
@@ -270,6 +313,7 @@ class HasTableWithXotTestClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getActiveTableLocale(): ?string
 =======
     public function getActiveTableLocale(): null|string
@@ -277,6 +321,9 @@ class HasTableWithXotTestClass
 =======
     public function getActiveTableLocale(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public function getActiveTableLocale(): null|string
+>>>>>>> laraxot/develop
     {
         return null;
     }
@@ -313,10 +360,19 @@ class HasTableWithXotTestClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function deselectAllTableRecords(): void {}
+=======
+    public function deselectAllTableRecords(): void
+    {
+    }
+>>>>>>> laraxot/develop
 
-    public function mountTableAction(): void {}
+    public function mountTableAction(): void
+    {
+    }
 
+<<<<<<< HEAD
     public function mountTableBulkAction(): void {}
 =======
 =======
@@ -336,6 +392,11 @@ class HasTableWithXotTestClass
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+    public function mountTableBulkAction(): void
+    {
+    }
+>>>>>>> laraxot/develop
 
     public function mountedTableActionRecord(): mixed
     {
@@ -344,14 +405,27 @@ class HasTableWithXotTestClass
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function replaceMountedTableAction(): void {}
+=======
+    public function replaceMountedTableAction(): void
+    {
+    }
+>>>>>>> laraxot/develop
 
-    public function replaceMountedTableBulkAction(): void {}
+    public function replaceMountedTableBulkAction(): void
+    {
+    }
 
-    public function resetTableSearch(): void {}
+    public function resetTableSearch(): void
+    {
+    }
 
-    public function resetTableColumnSearch(): void {}
+    public function resetTableColumnSearch(): void
+    {
+    }
 
+<<<<<<< HEAD
     public function toggleTableReordering(): void {}
 =======
 =======
@@ -379,6 +453,11 @@ class HasTableWithXotTestClass
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+    public function toggleTableReordering(): void
+    {
+    }
+>>>>>>> laraxot/develop
 
     public function parseTableFilterName(): string
     {

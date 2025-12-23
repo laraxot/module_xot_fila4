@@ -170,4 +170,3 @@ Laravel Framework 12.28.1
 
 *Ultimo aggiornamento: 19 Settembre 2025*
 
-

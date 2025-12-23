@@ -18,7 +18,7 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 - Qualsiasi documentazione migrazioni specifica di modulo
 
 ### ✅ Unica Fonte di Verità
-- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+- **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
 - **File migrazione**: Solo nei singoli moduli (codice, non docs)
 
 ## Principi Fondamentali Universali
@@ -384,12 +384,7 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
-<<<<<<< HEAD
 ### SaluteOra Module (CRITICO)
-=======
-###  Module (CRITICO)
-### <nome progetto> Module (CRITICO)
->>>>>>> a5dccfe (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -448,12 +443,39 @@ rm Modules/Notify/docs/migrations_changelog.md
 
 # SaluteMo
 rm Modules/SaluteMo/docs/database/migrations.md
+rm Modules/Activity/project_docs/database/migrations.md
+
+# Cms
+rm Modules/Cms/project_docs/migration.md
+
+# Gdpr
+rm Modules/Gdpr/project_docs/migrations.md
+
+# Geo
+rm Modules/Geo/project_docs/migration-guide.md
+rm Modules/Geo/project_docs/migration-naming-pattern.md
+rm Modules/Geo/project_docs/migration_guide.md
+rm Modules/Geo/project_docs/migration_naming_pattern.md
+
+# Lang
+rm Modules/Lang/project_docs/migration_best_practices.md
+rm Modules/Lang/project_docs/migration_corrections_summary.md
+rm Modules/Lang/project_docs/migration_patterns.md
+
+# Notify
+rm Modules/Notify/project_docs/migration_changes.md
+rm Modules/Notify/project_docs/migration_rules.md
+rm Modules/Notify/project_docs/migrations.md
+rm Modules/Notify/project_docs/migrations_changelog.md
+
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
 
 # E tutti gli altri file duplicati...
 ```
 
 ### Mantenere Solo
-- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+- **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
 - **File migrazione**: Solo codice nei singoli moduli
 
 ## Troubleshooting Universale

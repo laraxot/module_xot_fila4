@@ -65,10 +65,17 @@ Questo è l'errore più comune e grave nelle convenzioni di namespace:
 
 ```php
 // GRAVEMENTE ERRATO
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
 namespace Modules\<nome progetto>\App\Controllers;
 
 // CORRETTO
 namespace Modules\<nome progetto>\Controllers;
+=======
+namespace Modules\SaluteOra\App\Controllers;
+
+// CORRETTO
+namespace Modules\SaluteOra\Controllers;
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 ```
 
 ## esempi corretti vs errati
@@ -76,19 +83,33 @@ namespace Modules\<nome progetto>\Controllers;
 ### corretti ✓
 ```php
 namespace Modules\Xot\Console\Commands;
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
 namespace Modules\<nome progetto>\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\<nome progetto>\Filament\Resources;
+=======
+namespace Modules\SaluteOra\Models;
+namespace Modules\User\Services;
+namespace Modules\Tenant\Repositories;
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 ```
 
 ### errati ✗
 ```php
 namespace Modules\Xot\app\Console\Commands;       // errato: 'app' nel namespace
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
 namespace Modules\<nome progetto>\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura completamente sbagliata
+=======
+namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
+namespace Modules\User\App\Services;              // errato: 'App' nel namespace
+namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
+namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completamente sbagliata
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 ```
 
 ## struttura fisica vs namespace
@@ -98,22 +119,33 @@ namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura com
 Anche se i file sono fisicamente collocati in una directory `app/`, il namespace **non deve mai riflettere** questa struttura.
 
 ```
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
 Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
 Namespace corretto: namespace Modules\<nome progetto>\Models;
+=======
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 ```
 
 ### mappatura corretta percorso-namespace
 
 | percorso fisico | namespace corretto |
 |-----------------|--------------------|
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
 | `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
 | `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
+=======
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 | `/Modules/Xot/app/Providers/XotServiceProvider.php` | `Modules\Xot\Providers` |
 
 ### struttura directory completa
 
 ```
 Modules/
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
   <nome progetto>/
     app/                        // directory fisica
       Console/
@@ -124,6 +156,18 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\<nome progetto>\Filament\Resources;
+=======
+  SaluteOra/
+    app/                        // directory fisica
+      Console/
+        Commands/
+          ImportPatient.php     // namespace Modules\SaluteOra\Console\Commands;
+      Models/
+        Patient.php            // namespace Modules\SaluteOra\Models;
+      Filament/
+        Resources/
+          PatientResource.php  // namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 ```
 
 ## come verificare i namespace
@@ -141,7 +185,11 @@ Prima di committare un file, verifica sempre che:
 Utilizza phpstan per verificare automaticamente i namespace:
 
 ```bash
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+=======
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 ```
 
 ## motivazione di questa convenzione
@@ -164,10 +212,17 @@ Un errore comune è includere `App` nel namespace:
 
 ```php
 // ERRATO ❌
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
 namespace Modules\<nome progetto>\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\<nome progetto>\Console\Commands;
+=======
+namespace Modules\SaluteOra\App\Console\Commands;
+
+// CORRETTO ✓
+namespace Modules\SaluteOra\Console\Commands;
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 ```
 
 ### Conseguenze dell'Errore
@@ -183,7 +238,11 @@ namespace Modules\<nome progetto>\Console\Commands;
 Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
+<<<<<<< HEAD:docs/consolidated/namespace-conventions_1.md
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+>>>>>>> laraxot/develop:docs/archive/namespace_conventions.md
 ```
 
 ### PHP Stan

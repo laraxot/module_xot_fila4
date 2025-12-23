@@ -33,7 +33,10 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         $panel->id('admin')->path('admin');
 
+<<<<<<< HEAD
         /** @var mixed $modules */
+=======
+>>>>>>> laraxot/develop
         $modules = app('modules');
         $hasCms = is_object($modules) && method_exists($modules, 'has')
             ? (bool) $modules->has('Cms')
@@ -46,7 +49,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);
 
-        app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
+        $panel = app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
 
         // Discovery sicura: verifica che le directory esistano
         $resourcesPath = app_path('Filament/Resources');

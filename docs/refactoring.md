@@ -60,6 +60,12 @@ class YourModel extends Model
 ```
 
 ## Collegamenti
+<<<<<<<< HEAD:docs/refactoring.md
 - [Laravel Relationships](https://laravel.com/docs/relationships)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 - [Best Practices](BEST-PRACTICES.md) 
+========
+- [Laravel Relationships](https://laravel.com/project_docs/relationships)
+- [Spatie Laravel Data](https://spatie.be/project_docs/laravel-data)
+- [Best Practices](BEST-PRACTICES.md) 
+>>>>>>>> laraxot/develop:docs/archive/refactoring.md

@@ -2,12 +2,7 @@
 
 ## 🎯 Overview
 
-<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
-=======
-Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
-Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
->>>>>>> a5dccfe (.)
 
 ## 📚 Principi Fondamentali
 
@@ -269,7 +264,6 @@ $result = $string . (string) $faker->method();
 ## 📝 Esempi Pratici
 
 ### Correzione Completa UserFactory
-<<<<<<< HEAD
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -280,28 +274,6 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/SaluteOra/project_docs/factories/phpstan-factory-compliance.md`
-=======
-Vedere: `Modules//database/factories/UserFactory.php`
-
-### Factory Specializzate Corrette
-Vedere:
-- `Modules//database/factories/AdminFactory.php`
-- `Modules//database/factories/DoctorFactory.php`
-- `Modules//database/factories/PatientFactory.php`
-
-### Documentazione Implementazione
-Vedere: `Modules/<nome modulo>/docs/factories/phpstan-factory-compliance.md`
-Vedere: `Modules/<nome progetto>/database/factories/UserFactory.php`
-
-### Factory Specializzate Corrette
-Vedere:
-- `Modules/<nome progetto>/database/factories/AdminFactory.php`
-- `Modules/<nome progetto>/database/factories/DoctorFactory.php`
-- `Modules/<nome progetto>/database/factories/PatientFactory.php`
-
-### Documentazione Implementazione
-Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-compliance.md`
->>>>>>> a5dccfe (.)
 
 ## 📊 Metriche di Successo
 

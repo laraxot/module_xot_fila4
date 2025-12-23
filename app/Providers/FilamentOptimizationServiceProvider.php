@@ -6,10 +6,16 @@ namespace Modules\Xot\Providers;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use PDO;
+use Illuminate\Support\ServiceProvider;
+>>>>>>> laraxot/develop
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Database\Events\QueryExecuted;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+<<<<<<< HEAD
 use PDO;
 
 =======
@@ -24,6 +30,10 @@ use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+use Nwidart\Modules\Module;
+use Webmozart\Assert\Assert;
+>>>>>>> laraxot/develop
 use function Safe\preg_match;
 
 /**
@@ -76,6 +86,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function applyMemoryOptimizations(): void
     {
         // Ottimizza le query di default
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +166,20 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                     'time' => $query->time,
                     'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
 >>>>>>> 249a0067 (.)
+=======
+        DB::listen(function (QueryExecuted $query): void {
+            // Log query che superano la soglia di tempo
+            $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
+            Assert::numeric($threshold);
+            /** @var int|float $threshold */
+            
+            if ($query->time > $threshold) {
+                Log::warning('Slow query detected', [
+                    'sql' => $query->sql,
+                    'bindings' => $query->bindings,
+                    'time' => $query->time,
+                    'connection' => $query->connection->getName(),
+>>>>>>> laraxot/develop
                 ]);
             }
         });
@@ -175,11 +200,18 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             DB::enableQueryLog();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> laraxot/develop
             // Log delle query alla fine della richiesta
             app()->terminating(function () {
                 $queries = DB::getQueryLog();
+                Assert::isArray($queries);
+                /** @var array<int, array<string, mixed>> $queries */
                 $totalQueries = count($queries);
+<<<<<<< HEAD
                 $totalTime = array_sum(array_column($queries, 'time'));
 
 =======
@@ -196,6 +228,18 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+                
+                $times = [];
+                foreach ($queries as $query) {
+                    Assert::isArray($query);
+                    if (isset($query['time']) && \is_numeric($query['time'])) {
+                        $times[] = (float) $query['time'];
+                    }
+                }
+                $totalTime = array_sum($times);
+                
+>>>>>>> laraxot/develop
                 if ($totalQueries > 50 || $totalTime > 1000) {
                     Log::info('High query count or time detected', [
                         'total_queries' => $totalQueries,
@@ -225,6 +269,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         DB::disableQueryLog();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
@@ -240,6 +285,12 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+        
+        // Ottimizza la configurazione di Eloquent
+        $this->optimizeEloquentConfiguration();
+        
+>>>>>>> laraxot/develop
         // Configura caching aggressivo
         $this->configureAggressiveCaching();
     }
@@ -255,6 +306,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -262,6 +314,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 =======
         
 >>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> laraxot/develop
         // Configura connection pooling se disponibile
         $currentOptions = config('database.connections.mysql.options');
         if ($currentOptions) {
@@ -290,6 +345,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -297,6 +353,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 =======
         
 >>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> laraxot/develop
         // Cache delle navigation items
         if (config('filament_optimization.cache.navigation', true)) {
             // Già implementato in GetModulesNavigationItems
@@ -315,6 +374,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 // Carica tutte le configurazioni dei moduli
                 $configs = [];
                 $modules = app('modules')->all();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -379,6 +439,19 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+                
+                foreach ($modules as $module) {
+                    Assert::isInstanceOf($module, Module::class);
+                    $modulePath = $module->getPath();
+                    $configPath = $modulePath . '/Config/config.php';
+                    if (file_exists($configPath)) {
+                        $moduleName = $module->getName();
+                        $configs[$moduleName] = require $configPath;
+                    }
+                }
+                
+>>>>>>> laraxot/develop
                 return $configs;
             });
         });
@@ -390,6 +463,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function limitQueriesInDevelopment(): void
     {
         $maxQueries = config('filament_optimization.development.max_queries_per_request', 100);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -409,6 +483,13 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+        
+        app()->terminating(function () use ($maxQueries) {
+            $queries = DB::getQueryLog();
+            $totalQueries = count($queries);
+            
+>>>>>>> laraxot/develop
             if ($totalQueries > $maxQueries) {
                 Log::warning("High query count detected: {$totalQueries} queries", [
                     'url' => request()->fullUrl(),
@@ -423,6 +504,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
      */
     private function isFilamentAdminRequest(): bool
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! app()->runningInConsole() && request()) {
@@ -466,6 +548,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+        if (!app()->runningInConsole() && request()) {
+            $path = request()->path();
+            return str_contains($path, '/admin') || 
+                   str_ends_with($path, '/admin') ||
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+        }
+        
+>>>>>>> laraxot/develop
         return false;
     }
 }

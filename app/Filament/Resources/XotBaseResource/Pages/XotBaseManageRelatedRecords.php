@@ -47,9 +47,15 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     // abstract public static function getFormSchema(): array;
 
     /**
+<<<<<<< HEAD
      * Configura lo schema del form per i record correlati.
      */
     public function form(Schema $schema): Schema
+=======
+     * Configura lo schema per i record correlati.
+     */
+    public function schema(Schema $schema): Schema
+>>>>>>> laraxot/develop
     {
         // getFormSchema() sempre ritorna array per definizione
         $formSchema = $this->getFormSchema();

@@ -7,7 +7,7 @@ section: content
 
 ## Reattori
 
-https://spatie.be/docs/laravel-event-sourcing/v7/using-reactors/writing-your-first-reactor
+https://spatie.be/project_docs/laravel-event-sourcing/v7/using-reactors/writing-your-first-reactor
 
 
 Li utilizzi quando vuoi eseguire delle azioni solo quando si verifica l'evento originale. Non vuoi fare questo lavoro quando riproduci gli eventi.  
@@ -51,4 +51,8 @@ class EventSourcingServiceProvider extends ServiceProvider
         ]);
     }
 }
+<<<<<<<< HEAD:docs/activity/reattori.md
 ``` 
+========
+``` 
+>>>>>>>> laraxot/develop:docs/archive/activity/reattori.md

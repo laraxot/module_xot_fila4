@@ -217,8 +217,13 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 ## 🔗 Collegamenti
 
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
+=======
+- [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
+- [Container Resolution Laravel](https://laravel.com/project_docs/container)
+>>>>>>> laraxot/develop:docs/archive/view-composer-loop-infinite-fix.md
 
 ---
 

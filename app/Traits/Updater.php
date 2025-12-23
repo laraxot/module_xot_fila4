@@ -25,6 +25,11 @@ trait Updater
 {
     /**
      * Get the user who created the model.
+<<<<<<< HEAD
+=======
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+>>>>>>> laraxot/develop
      */
     public function creator(): BelongsTo
     {
@@ -47,6 +52,11 @@ trait Updater
 
     /**
      * Get the user who deleted the model.
+<<<<<<< HEAD
+=======
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+>>>>>>> laraxot/develop
      */
     public function deleter(): BelongsTo
     {

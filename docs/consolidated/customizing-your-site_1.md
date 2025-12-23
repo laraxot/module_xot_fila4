@@ -42,6 +42,18 @@ Here’s a quick preview of what some of the basic type styles will look like in
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
+<<<<<<< HEAD:docs/consolidated/customizing-your-site_1.md
+=======
+
+## h2 Heading
+
+### h3 Heading
+
+#### h4 Heading
+
+##### h5 Heading
+
+>>>>>>> laraxot/develop:docs/customizing-your-site.md
 ###### h6 Heading
 
 The quick brown fox jumps over the lazy dog
@@ -82,6 +94,14 @@ class Foo extends bar
 * [customizing-your-site.md](../../../UI/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Tenant/project_docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../Cms/project_docs/customizing-your-site.md)
+<<<<<<< HEAD:docs/consolidated/customizing-your-site_1.md
+=======
+* [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../UI/docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../Tenant/docs/it/customizing-your-site.md)
+* [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
+>>>>>>> laraxot/develop:docs/customizing-your-site.md
 
 
 ### Versione Incoming

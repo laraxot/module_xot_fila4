@@ -100,6 +100,7 @@ abstract class XotBaseTransition extends Transition
             return;
         }
 
+<<<<<<< HEAD
         $notify = new RecordNotification($this->record, $slug);
 
         $mergeData = $data;
@@ -108,6 +109,17 @@ abstract class XotBaseTransition extends Transition
 
         $attachments = $this->getNotificationAttachments();
 
+=======
+        // RecordNotification resolves MailTemplate internally from slug (lazy resolution)
+        // No need to pre-load MailTemplate - pass slug directly
+        $notify = new RecordNotification($this->record, $slug);
+        $mergeData = $data;
+
+        $notify->mergeData($mergeData);
+
+        $attachments = $this->getNotificationAttachments();
+
+>>>>>>> laraxot/develop
         $notify->addAttachments($attachments);
 
         try {

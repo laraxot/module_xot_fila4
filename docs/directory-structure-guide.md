@@ -95,7 +95,7 @@ Alcune directory sono escluse da questa regola:
 Prima di eseguire PHPStan o fare commit, verifica la correttezza della struttura del tuo modulo:
 
 ```bash
-find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
+find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/project_docs/"
 ```
 
 Se questo comando restituisce dei file, significa che sono posizionati in modo errato.
@@ -121,4 +121,8 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 2. **Autoloading Corretto**: Il PSR-4 autoloader è configurato per cercare le classi in `app/`
 3. **Compatibilità con PHPStan**: Evita errori di classi non trovate durante l'analisi statica
 4. **Manutenibilità**: Struttura coerente e prevedibile per tutti i moduli
+<<<<<<<< HEAD:docs/directory-structure-guide.md
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
+========
+5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
+>>>>>>>> laraxot/develop:docs/archive/directory-structure-guide.md

@@ -398,3 +398,7 @@ Aggiungere al pipeline CI:
 **Revisore**: Marco Sottana  
 **Data Chiusura**: 22 Ottobre 2025
 
+
+
+
+

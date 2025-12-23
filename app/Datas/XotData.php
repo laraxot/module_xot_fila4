@@ -127,7 +127,11 @@ class XotData extends Data implements Wireable
     public function getUserByEmail(string $email): UserContract
     {
         $user_class = $this->getUserClass();
+<<<<<<< HEAD
         $userInstance = new $user_class;
+=======
+        $userInstance = new $user_class();
+>>>>>>> laraxot/develop
         if (! in_array('email', $userInstance->getFillable(), true)) {
             throw new Exception("Attribute 'email' not found in model ".$userInstance::class);
         }
@@ -342,12 +346,26 @@ class XotData extends Data implements Wireable
 
     public function getPubThemePublicPath(string $key = ''): string
     {
+<<<<<<< HEAD
         return base_path('themes/'.$this->pub_theme.'/'.$key);
+=======
+        return public_path('themes/'.$this->pub_theme.'/'.$key);
+>>>>>>> laraxot/develop
     }
 
     public function getPubThemePublicAsset(string $key = ''): string
     {
         return asset('themes/'.$this->pub_theme.'/'.$key);
+<<<<<<< HEAD
+=======
+    }
+
+
+    public function getMailHtmlLayoutPath(string $key = ''): string
+    {
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/mail-layouts/'.$key);
+        return  $path0;
+>>>>>>> laraxot/develop
     }
 
     /**

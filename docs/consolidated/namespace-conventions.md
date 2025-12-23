@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -217,7 +215,6 @@ php artisan cache:clear
 php artisan config:clear
 php artisan view:clear
 ```
->>>>>>> a5dccfe (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica

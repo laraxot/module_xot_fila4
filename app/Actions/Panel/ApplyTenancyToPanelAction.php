@@ -28,8 +28,9 @@ class ApplyTenancyToPanelAction
 
         // if (Gate::allows('superadmin', $user)) {
         // Configurazione completa per superadmin
+
         $panel
-            ->tenant($tenant_class, 'slug', 'tenants')
+            ->tenant($tenant_class, slugAttribute: 'slug')
             ->tenantRegistration(RegisterTenant::class)
             ->tenantProfile(EditTenantProfile::class);
         // } else {

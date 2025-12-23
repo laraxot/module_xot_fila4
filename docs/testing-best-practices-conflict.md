@@ -39,6 +39,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
@@ -63,6 +64,9 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> laraxot/develop:docs/testing-best-practices-uppercase.md
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -237,6 +241,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -256,3 +261,5 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
+=======
+>>>>>>> laraxot/develop:docs/testing-best-practices-uppercase.md

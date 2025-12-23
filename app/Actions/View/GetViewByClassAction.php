@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\View;
 
-use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
@@ -18,13 +17,14 @@ class GetViewByClassAction
 
     /**
      * Converte un nome di classe in un nome di vista.
-     * Esempio: "Modules\UI\Filament\Widgets\GroupWidget" => "ui::filament.widgets.group"
+     * Esempio: "Modules\UI\Filament\Widgets\GroupWidget" => "ui::filament.widgets.group".
      *
-     * @param  string  $class  Il nome della classe da convertire
-     * @param  string  $suffix  Suffisso opzionale da aggiungere al nome della vista
+     * @param string $class  Il nome della classe da convertire
+     * @param string $suffix Suffisso opzionale da aggiungere al nome della vista
+     *
+     * @throws \Exception Se la vista non esiste
+     *
      * @return string Il nome della vista
-     *
-     * @throws Exception Se la vista non esiste
      */
     public function execute(string $class, string $suffix = ''): string
     {
@@ -37,37 +37,52 @@ class GetViewByClassAction
 
         $mapped = Arr::map($after, function (string $value, int $key) use ($after) {
             if ($key > 0 && isset($after[$key - 1])) {
-                /** @var mixed $prevValue */
                 $prevValue = $after[$key - 1];
+                $prevValueStr = is_string($prevValue) ? $prevValue : (string) $prevValue;
 
-                // Gestione sicura delle conversioni di tipo per PHPStan level 10
-                $prevValueStr = '';
+                $value = $this->checkPrev($value, $prevValueStr);
+            }
+            if ($key > 0 && isset($after[$key - 2])) {
+                $prevValue = $after[$key - 2];
+                $prevValueStr = is_string($prevValue) ? $prevValue : (string) $prevValue;
 
-                if (is_string($prevValue)) {
-                    $prevValueStr = $prevValue;
-                } elseif ($prevValue === null) {
-                    $prevValueStr = '';
-                } elseif (is_scalar($prevValue)) {
-                    // Cast sicuro per valori scalari (int, float, bool)
-                    $prevValueStr = strval($prevValue);
-                }
-
-                $singular = Str::of($prevValueStr)->singular()->toString();
-                if (Str::endsWith($value, $singular)) {
-                    $value = Str::of($value)->beforeLast($singular)->toString();
-                }
+                $value = $this->checkPrev($value, $prevValueStr);
             }
 
             return Str::of($value)->slug()->toString();
         });
 
         $implode = implode('.', $mapped);
+<<<<<<< HEAD
         $view = $module_low.'::'.$implode.$suffix;
 
         if (! view()->exists($view)) {
             throw new Exception('View not found: '.$view);
+=======
+        $views = [
+            'pub_theme::'.$implode.$suffix,
+            $module_low.'::'.$implode.$suffix,
+        ];
+        $view = Arr::first($views, view()->exists(...));
+        if (null === $view) {
+            throw new \Exception('View not found: '.implode(', ', $views));
+>>>>>>> laraxot/develop
         }
 
-        return $view;
+        if (view()->exists($view)) {
+            return $view;
+        }
+        throw new \Exception('View not found: '.$view);
+    }
+
+    public function checkPrev(string $value, string $prevValue): string
+    {
+        $singular = Str::of($prevValue)->singular()->toString();
+
+        if (Str::endsWith($value, $singular)) {
+            $value = Str::of($value)->beforeLast($singular)->toString();
+        }
+
+        return $value;
     }
 }

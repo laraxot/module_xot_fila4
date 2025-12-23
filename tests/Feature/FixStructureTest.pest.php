@@ -5,10 +5,7 @@ declare(strict_types=1);
 use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
-<<<<<<< HEAD
-=======
 
->>>>>>> c84488b (.)
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 
@@ -109,8 +106,4 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> c84488b (.)

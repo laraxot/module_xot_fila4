@@ -24,35 +24,15 @@ class CreateTableIndexByModelClassColumnsAction
      * Execute the action.
      *
      * @param  class-string<Model>  $modelClass  fully qualified model class name
-     * @param  string[]  $columns  array of column names to include in the index
+     * @param  array<string>  $columns  array of column names to include in the index
      *
      * @throws InvalidArgumentException|RuntimeException
      */
     public function execute(string $modelClass, array $columns): bool
     {
         // Validate the model class
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! is_subclass_of($modelClass, Model::class)) {
             throw new InvalidArgumentException("{$modelClass} must be a subclass of ".Model::class.'.');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!is_subclass_of($modelClass, Model::class)) {
-            throw new InvalidArgumentException("{$modelClass} must be a subclass of " . Model::class . '.');
-=======
-        if (! is_subclass_of($modelClass, Model::class)) {
-            throw new InvalidArgumentException("{$modelClass} must be a subclass of ".Model::class.'.');
->>>>>>> f1d4085 (.)
-=======
-        if (!is_subclass_of($modelClass, Model::class)) {
-            throw new InvalidArgumentException("{$modelClass} must be a subclass of " . Model::class . '.');
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        if (!is_subclass_of($modelClass, Model::class)) {
-            throw new InvalidArgumentException("{$modelClass} must be a subclass of " . Model::class . '.');
->>>>>>> 300ef70 (.)
         }
 
         /** @var Model $modelInstance */
@@ -60,33 +40,9 @@ class CreateTableIndexByModelClassColumnsAction
 
         $tableName = $modelInstance->getTable();
         $connectionName = $modelInstance->getConnectionName() ?? config('database.default');
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         // Validate the table exists
         if (! Schema::connection($connectionName)->hasTable($tableName)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-        // Validate the table exists
-        if (!Schema::connection($connectionName)->hasTable($tableName)) {
-=======
-        Assert::string($connectionName);
-        // Validate the table exists
-        if (! Schema::connection($connectionName)->hasTable($tableName)) {
->>>>>>> f1d4085 (.)
-=======
-        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-        // Validate the table exists
-        if (!Schema::connection($connectionName)->hasTable($tableName)) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-        // Validate the table exists
-        if (!Schema::connection($connectionName)->hasTable($tableName)) {
->>>>>>> 300ef70 (.)
             throw new RuntimeException("Table '{$tableName}' does not exist on connection '{$connectionName}'.");
         }
 
@@ -114,30 +70,14 @@ class CreateTableIndexByModelClassColumnsAction
      *
      * @param  string  $connectionName  database connection name
      * @param  string  $tableName  name of the table
-     * @param  string[]  $columns  columns to validate
+     * @param  array<string>  $columns  columns to validate
      *
      * @throws RuntimeException
      */
     private function validateColumnsExist(string $connectionName, string $tableName, array $columns): void
     {
         foreach ($columns as $column) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
-=======
-            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
->>>>>>> f1d4085 (.)
-=======
-            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
->>>>>>> 300ef70 (.)
                 throw new RuntimeException("Column '{$column}' does not exist in table '{$tableName}'.");
             }
         }
@@ -172,16 +112,6 @@ class CreateTableIndexByModelClassColumnsAction
     }
 
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
      * private function indexExists(string $connectionName, string $tableName, string $indexName): bool
      * {
      * $connection = DB::connection($connectionName);
@@ -191,50 +121,14 @@ class CreateTableIndexByModelClassColumnsAction
      * return array_key_exists($indexName, $indexes);
      * }
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        private function indexExists(string $connectionName, string $tableName, string $indexName): bool
-        {
-            $connection = DB::connection($connectionName);
-            $schemaManager = $connection->getDoctrineSchemaManager();
-            $indexes = $schemaManager->listTableIndexes($tableName);
-
-            return array_key_exists($indexName, $indexes);
-        }
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     /**
      * Generate a unique index name based on the table and columns.
      *
      * @param  string  $tableName  name of the table
-     * @param  string[]  $columns  columns to include in the index
+     * @param  array<string>  $columns  columns to include in the index
      */
     private function generateIndexName(string $tableName, array $columns): string
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $tableName.'_'.implode('_', $columns).'_index';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $tableName . '_' . implode('_', $columns) . '_index';
-=======
-        return $tableName.'_'.implode('_', $columns).'_index';
->>>>>>> f1d4085 (.)
-=======
-        return $tableName . '_' . implode('_', $columns) . '_index';
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return $tableName . '_' . implode('_', $columns) . '_index';
->>>>>>> 300ef70 (.)
     }
 }

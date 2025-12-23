@@ -4,39 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\Model;
-
 /**
  * Class XotBaseUuidModel.
  *
- * Base class for models using UUIDs as primary keys.
- *
- * Inherits from Model and configures UUID-specific properties.
- * Used as parent for module-specific BaseUuidModel classes.
+ * Base class for models using UUIDs.
  */
-abstract class XotBaseUuidModel extends Model
+abstract class XotBaseUuidModel extends XotBaseModel
 {
-    use \Modules\Xot\Traits\Updater;
-    use Traits\HasXotFactory;
-    use Traits\RelationX;
-
-    /**
-     * Indicates whether attributes are snake cased on arrays.
-     *
-     * @see https://laravel-news.com/6-eloquent-secrets
-     *
-     * @var bool
-     */
-    public static $snakeAttributes = true;
-
-    /** @var bool */
     public $incrementing = false;
-
-    /** @var string */
-    protected $keyType = 'string';
-
-    /** @var string */
-    protected $primaryKey = 'id';
 
     /** @var bool */
     public $timestamps = true;
@@ -44,22 +19,20 @@ abstract class XotBaseUuidModel extends Model
     /** @var int */
     protected $perPage = 30;
 
-    /** @var list<string> */
-    protected $fillable = ['id'];
+    protected $keyType = 'string';
 
     /** @var list<string> */
-    protected $appends = [];
+    protected $fillable = [
+        'id',
+    ];
 
-    /** @var list<string> */
-    protected $hidden = [];
-
-    /** @return array<string, string> */
+    /**
+     * @return array<string, string>
+     */
     protected function casts(): array
     {
         return [
             'id' => 'string',
-            'uuid' => 'string',
-            'published_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',

@@ -24,71 +24,36 @@ use Webmozart\Assert\Assert;
 trait Updater
 {
     /**
-     * Summary of creator.
-     *
-     * @return BelongsTo<ProfileContract&Model, static>
+     * Get the user who created the model.
      */
     public function creator(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
-        // @phpstan-ignore return.type
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $this->belongsTo($profileClass, 'created_by', 'user_id');
-=======
-        return $this->belongsTo(
-            $profileClass,
-            'created_by',
-            'user_id'
-        );
->>>>>>> f1d4085 (.)
-=======
-        return $this->belongsTo($profileClass, 'created_by', 'user_id');
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return $this->belongsTo($profileClass, 'created_by', 'user_id');
->>>>>>> 300ef70 (.)
     }
 
     /**
      * Get the last user who updated the model.
-     *
-     * @return BelongsTo<ProfileContract&Model, static>
      */
     public function updater(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
-        // @phpstan-ignore return.type
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
-=======
-        return $this->belongsTo(
-            $profileClass,
-            'updated_by',
-            'user_id'
-        );
->>>>>>> f1d4085 (.)
-=======
-        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
->>>>>>> 300ef70 (.)
+    }
+
+    /**
+     * Get the user who deleted the model.
+     */
+    public function deleter(): BelongsTo
+    {
+        /** @var class-string<ProfileContract&Model> $profileClass */
+        $profileClass = XotData::make()->getProfileClass();
+
+        return $this->belongsTo($profileClass, 'deleted_by', 'user_id');
     }
 
     /**
@@ -96,16 +61,6 @@ trait Updater
      */
     protected static function bootUpdater(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -125,56 +80,12 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        static::creating(
-            static function (Model $model): void {
-                Assert::isArray($attributes = $model->getAttributes());
-
-                if (array_key_exists('created_by', $attributes)) {
-                    $model->setAttribute('created_by', authId());
-                }
-
-                if (array_key_exists('updated_by', $attributes)) {
-                    $model->setAttribute('updated_by', authId());
-                }
-            }
-        );
-
-        static::updating(
-            static function (Model $model): void {
-                Assert::isArray($attributes = $model->getAttributes());
-
-                if (array_key_exists('updated_by', $attributes)) {
-                    $model->setAttribute('updated_by', authId());
-                }
-            }
-        );
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         static::deleting(static function (Model $model): void {
-            Assert::isArray($attributes = $model->attributes);
+            Assert::isArray($attributes = $model->getAttributes());
 
             if (\in_array('deleted_by', array_keys($attributes), false)) {
                 $model->setAttribute('deleted_by', authId());
@@ -184,25 +95,3 @@ trait Updater
 }
 
 // end trait Updater
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        static::deleting(
-            static function (Model $model): void {
-                Assert::isArray($attributes = $model->attributes);
-
-                if (\in_array('deleted_by', array_keys($attributes), false)) {
-                    $model->setAttribute('deleted_by', authId());
-                }
-            }
-        );
-    }
-}// end trait Updater
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)

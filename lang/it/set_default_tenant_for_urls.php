@@ -11,9 +11,13 @@ return [
         ],
         'login' => [
             'label' => 'login',
+            'tooltip' => 'login',
+            'icon' => 'login',
         ],
         'request' => [
             'label' => 'request',
+            'tooltip' => 'request',
+            'icon' => 'request',
         ],
         'activeLocale' => [
             'label' => 'activeLocale',

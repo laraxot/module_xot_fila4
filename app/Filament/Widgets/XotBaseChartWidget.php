@@ -4,37 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Support\RawJs;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 use Filament\Widgets\ChartWidget as FilamentChartWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Modules\Xot\Filament\Traits\TransTrait;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Cache;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\ChartWidget as FilamentChartWidget;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
 /**
  * Widget per visualizzare il trend delle registrazioni pazienti.
@@ -45,21 +17,11 @@ use Filament\Widgets\ChartWidget as FilamentChartWidget;
 abstract class XotBaseChartWidget extends FilamentChartWidget
 {
     use InteractsWithPageFilters;
-<<<<<<< HEAD
-<<<<<<< HEAD
     use TransTrait;
 
     protected ?string $heading = null;
 
     protected static ?int $sort = 1;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
     protected static bool $isLazy = true;
 
@@ -70,37 +32,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
      *
      * CRITICO: Deve essere public per rispettare il contratto ChartWidget
      */
-<<<<<<< HEAD
     public function getHeading(): ?string
     {
         return static::trans('navigation.heading');
-=======
-    public function getHeading(): null|string
-    {
-        return static::trans('navigation.heading');
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    protected ?string $heading = null;
-    protected static ?int $sort = 1;
-    protected static bool $isLazy = true;
-    protected ?string $pollingInterval = null;
-
-    /**
-     * Restituisce il titolo del widget.
-     * 
-     * CRITICO: Deve essere public per rispettare il contratto ChartWidget
-     */
-    public function getHeading(): ?string
-    {
-        return static::trans('navigation.heading');
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     }
 
     /**
@@ -124,9 +58,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     /**
      * Restituisce le opzioni del grafico.
      *
-     * @return array<string, mixed>|RawJs|null
+     * @return array<string, mixed>
      */
-    protected function getOptions(): array|RawJs|null
+    protected function getOptions(): array
     {
         return [
             'responsive' => true,
@@ -139,40 +73,11 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'mode' => 'index',
                     'intersect' => false,
                     'callbacks' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-                        'label' =>
-
-                                'function(context) {
-                            return "' .
-                                __('salutemo::widgets.patient_registration_trend.total_registrations') .
-                                '".replace(":count", context.parsed.y);
-                        }'
-                            ,
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
                         'label' => 'function(context) {
                             return "'.
-                                __('salutemo::widgets.patient_registration_trend.total_registrations').
+                                __('<nome modulo>::widgets.patient_registration_trend.total_registrations').
                                 '".replace(":count", context.parsed.y);
                         }',
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
                     ],
                 ],
             ],
@@ -181,7 +86,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'display' => true,
                     'title' => [
                         'display' => true,
-                        'text' => __('salutemo::widgets.patient_registration_trend.period.label'),
+                        'text' => __('<nome modulo>::widgets.patient_registration_trend.period.label'),
                     ],
                     'grid' => [
                         'display' => false,
@@ -191,7 +96,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'display' => true,
                     'title' => [
                         'display' => true,
-                        'text' => __('salutemo::widgets.patient_registration_trend.total_registrations'),
+                        'text' => __('<nome modulo>::widgets.patient_registration_trend.total_registrations'),
                     ],
                     'beginAtZero' => true,
                     'ticks' => [
@@ -210,37 +115,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     /**
      * Restituisce l'altezza del widget.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-    protected function getHeight(): null|string
-    {
-        return '300px';
-    }
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
     protected function getHeight(): ?string
     {
         return '300px';
     }
-<<<<<<< HEAD
 }
-=======
-
-
-} 
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)

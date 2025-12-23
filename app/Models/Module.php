@@ -5,40 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
-use function Safe\json_encode;
-
-use Sushi\Sushi;
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -46,26 +19,30 @@ use Sushi\Sushi;
  * @property bool|null $status
  * @property int|null $priority
  * @property string|null $path
- *
- * @method static Builder|Module newModelQuery()
- * @method static Builder|Module newQuery()
- * @method static Builder|Module query()
- * @method static Builder|Module whereDescription($value)
- * @method static Builder|Module whereId($value)
- * @method static Builder|Module whereName($value)
- * @method static Builder|Module wherePath($value)
- * @method static Builder|Module wherePriority($value)
- * @method static Builder|Module whereStatus($value)
- *
  * @property string|null $icon
- * @property array<string, string>|null $colors
+ * @property array<array-key, mixed>|null $colors
  *
- * @method static Builder|Module whereColors($value)
- * @method static Builder|Module whereIcon($value)
+ * @method static Builder<static>|Module newModelQuery()
+ * @method static Builder<static>|Module newQuery()
+ * @method static Builder<static>|Module query()
+ * @method static Builder<static>|Module whereColors($value)
+ * @method static Builder<static>|Module whereDescription($value)
+ * @method static Builder<static>|Module whereIcon($value)
+ * @method static Builder<static>|Module whereId($value)
+ * @method static Builder<static>|Module whereName($value)
+ * @method static Builder<static>|Module wherePath($value)
+ * @method static Builder<static>|Module wherePriority($value)
+ * @method static Builder<static>|Module whereStatus($value)
+ *
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\ModuleFactory factory($count = null, $state = [])
  *
  * @mixin \Eloquent
  */
-class Module extends Model
+final class Module extends BaseModel
 {
     use Sushi;
 
@@ -86,16 +63,6 @@ class Module extends Model
     public function getRows(): array
     {
         $modules = ModuleFacade::all();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
             if (! is_array($config)) {
@@ -116,39 +83,6 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $modules = Arr::map(
-            $modules,
-            function (NModule $module): array {
-                $config = config('tenant::config');
-                if (! is_array($config)) {
-                    $config = [];
-                }
-                $colors = Arr::get($config, 'colors', []);
-
-                return [
-                    'name' => $module->getName(),
-                    // 'alias' => $module->getAlias(),
-                    'description' => $module->getDescription(),
-                    'status' => $module->isEnabled(),
-                    'priority' => $module->get('priority'),
-                    'path' => $module->getPath(),
-                    'icon' => Arr::get($config, 'icon', 'heroicon-o-question-mark-circle'),
-                    'colors' => json_encode($colors),
-                ];
-            }
-        );
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return array_values($modules);
     }
 

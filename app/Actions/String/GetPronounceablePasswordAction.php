@@ -46,7 +46,7 @@ class GetPronounceablePasswordAction
         $useConsonant = true;
 
         // Costruisci la parte pronunciabile alternando consonanti e vocali
-        while (strlen($password) < ($length - 4)) {
+        while (strlen($password) < $length - 4) {
             $char = $useConsonant ? $consonants[array_rand($consonants)] : $vowels[array_rand($vowels)];
             $password .= $char;
             $useConsonant = ! $useConsonant;

@@ -1,29 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 {{-- Vista per il widget AppointmentOverviewWidget --}}
 <x-filament-widgets::widget>
         {{-- Grid responsive per gli stati degli appuntamenti (ottimizzato per 17 stati) --}}
@@ -52,26 +31,10 @@ declare(strict_types=1);
                 <div class="col-span-full text-center py-8">
                     <div class="text-gray-400 dark:text-gray-600">
                         <x-heroicon-o-calendar class="w-12 h-12 mx-auto mb-2" />
-                        <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
+                        <p class="text-sm">{{ __('<nome modulo>::widgets.appointment_overview.empty_state') }}</p>
                     </div>
                 </div>
             @endforelse
         </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 </x-filament-widgets::widget>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-</x-filament-widgets::widget>
-=======
-</x-filament-widgets::widget>
->>>>>>> f1d4085 (.)
-=======
-</x-filament-widgets::widget>
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-</x-filament-widgets::widget>
->>>>>>> 300ef70 (.)

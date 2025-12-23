@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Request;
 use Modules\Xot\Services\ArtisanService;
 
@@ -24,10 +26,10 @@ test('artisan service act method handles migrate command', function (): void {
         ->andReturn('');
 
     // Mock DB and Artisan facades
-    \Illuminate\Support\Facades\DB::shouldReceive('purge')->once()->with('mysql');
-    \Illuminate\Support\Facades\DB::shouldReceive('reconnect')->once()->with('mysql');
-    \Illuminate\Support\Facades\Artisan::shouldReceive('call')->once()->andReturn(0);
-    \Illuminate\Support\Facades\Artisan::shouldReceive('output')->once()->andReturn('Migration completed');
+    DB::shouldReceive('purge')->once()->with('mysql');
+    DB::shouldReceive('reconnect')->once()->with('mysql');
+    Artisan::shouldReceive('call')->once()->andReturn(0);
+    Artisan::shouldReceive('output')->once()->andReturn('Migration completed');
 
     $result = ArtisanService::act('migrate');
 
@@ -39,10 +41,10 @@ test('artisan service act method handles module parameter', function (): void {
         ->with('module', '')
         ->andReturn('TestModule');
 
-    \Illuminate\Support\Facades\DB::shouldReceive('purge')->once()->with('mysql');
-    \Illuminate\Support\Facades\DB::shouldReceive('reconnect')->once()->with('mysql');
-    \Illuminate\Support\Facades\Artisan::shouldReceive('call')->once()->andReturn(0);
-    \Illuminate\Support\Facades\Artisan::shouldReceive('output')->once()->andReturn('Module migration');
+    DB::shouldReceive('purge')->once()->with('mysql');
+    DB::shouldReceive('reconnect')->once()->with('mysql');
+    Artisan::shouldReceive('call')->once()->andReturn(0);
+    Artisan::shouldReceive('output')->once()->andReturn('Module migration');
 
     ob_start();
     $result = ArtisanService::act('migrate');
@@ -56,10 +58,10 @@ test('artisan service handles non-string module parameter', function (): void {
         ->with('module', '')
         ->andReturn(['not', 'a', 'string']);
 
-    \Illuminate\Support\Facades\DB::shouldReceive('purge')->once()->with('mysql');
-    \Illuminate\Support\Facades\DB::shouldReceive('reconnect')->once()->with('mysql');
-    \Illuminate\Support\Facades\Artisan::shouldReceive('call')->once()->andReturn(0);
-    \Illuminate\Support\Facades\Artisan::shouldReceive('output')->once()->andReturn('Migration');
+    DB::shouldReceive('purge')->once()->with('mysql');
+    DB::shouldReceive('reconnect')->once()->with('mysql');
+    Artisan::shouldReceive('call')->once()->andReturn(0);
+    Artisan::shouldReceive('output')->once()->andReturn('Migration');
 
     $result = ArtisanService::act('migrate');
 

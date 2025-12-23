@@ -4,16 +4,31 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+use PDO;
 
+=======
+=======
+>>>>>>> 5a14301c (.)
+use PDO;
+use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 use function Safe\preg_match;
 
 /**
  * Service Provider per ottimizzazioni Filament.
- * SuperMucca Optimization Provider 🐄.
+ * SuperMucca Optimization Provider 🐄
  */
 class FilamentOptimizationServiceProvider extends ServiceProvider
 {
@@ -61,26 +76,85 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function applyMemoryOptimizations(): void
     {
         // Ottimizza le query di default
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         DB::listen(function ($query): void {
-            // Log query che superano la soglia di tempo
-            $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
-
-            if (! is_object($query)) {
+=======
+        DB::listen(function ($query) {
+>>>>>>> 249a0067 (.)
+            // PHPStan: $query è \Illuminate\Database\Events\QueryExecuted
+            if (! is_object($query) || ! isset($query->time)) {
                 return;
             }
 
-            $time = property_exists($query, 'time') ? $query->time : 0;
-            $timeValue = is_numeric($time) ? (float) $time : 0.0;
+<<<<<<< HEAD
+=======
+        DB::listen(function ($query) {
+>>>>>>> 53d6a6ba (.)
+=======
+        DB::listen(function ($query): void {
+>>>>>>> b7afadf9 (.)
+=======
+        DB::listen(function ($query) {
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+            // Log query che superano la soglia di tempo
+            $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
 
-            if ($timeValue > $threshold) {
-                $sql = property_exists($query, 'sql') ? (string) $query->sql : 'N/A';
-                $bindings = property_exists($query, 'bindings') && is_array($query->bindings) ? $query->bindings : [];
-                $connection = property_exists($query, 'connectionName') ? (string) $query->connectionName : 'unknown';
+            if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    'sql' => $query->sql ?? '',
+                    'bindings' => $query->bindings ?? [],
+                    'time' => $query->time,
+                    'connection' => $query->connectionName ?? '',
+=======
+=======
+>>>>>>> 5a14301c (.)
+        DB::listen(function ($query) {
+            // Log query che superano la soglia di tempo
+            $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
+            
+            if ($query->time > $threshold) {
+                Log::warning('Slow query detected', [
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+                    'sql' => $query->sql,
+                    'bindings' => $query->bindings,
+                    'time' => $query->time,
+                    'connection' => $query->connectionName,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
                     'sql' => $sql,
                     'bindings' => $bindings,
                     'time' => $timeValue,
                     'connection' => $connection,
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+                    'sql' => property_exists($query, 'sql') ? $query->sql : '',
+                    'bindings' => property_exists($query, 'bindings') ? $query->bindings : [],
+                    'time' => $query->time,
+                    'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
+>>>>>>> 249a0067 (.)
                 ]);
             }
         });
@@ -99,13 +173,29 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         // Abilita query logging solo per richieste Filament admin
         if ($this->isFilamentAdminRequest()) {
             DB::enableQueryLog();
+<<<<<<< HEAD
+<<<<<<< HEAD
 
             // Log delle query alla fine della richiesta
-            app()->terminating(function (): void {
+            app()->terminating(function () {
                 $queries = DB::getQueryLog();
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
 
+=======
+=======
+>>>>>>> 5a14301c (.)
+            
+            // Log delle query alla fine della richiesta
+            app()->terminating(function () {
+                $queries = DB::getQueryLog();
+                $totalQueries = count($queries);
+                $totalTime = array_sum(array_column($queries, 'time'));
+                
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                 if ($totalQueries > 50 || $totalTime > 1000) {
                     Log::info('High query count or time detected', [
                         'total_queries' => $totalQueries,
@@ -133,10 +223,23 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         // Disabilita query logging in produzione per performance
         DB::disableQueryLog();
+<<<<<<< HEAD
+<<<<<<< HEAD
 
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
 
+=======
+=======
+>>>>>>> 5a14301c (.)
+        
+        // Ottimizza la configurazione di Eloquent
+        $this->optimizeEloquentConfiguration();
+        
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         // Configura caching aggressivo
         $this->configureAggressiveCaching();
     }
@@ -150,7 +253,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         if (config('filament_optimization.query.disable_events', false)) {
             // Questo può essere fatto per modelli specifici se necessario
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
         // Configura connection pooling se disponibile
         $currentOptions = config('database.connections.mysql.options');
         if ($currentOptions) {
@@ -159,8 +270,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 'database.connections.mysql.options' => array_merge(
                     $optionsArray,
                     [
-                        \PDO::ATTR_PERSISTENT => true,
-                        \PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
+                        PDO::ATTR_PERSISTENT => true,
+                        PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
                     ]
                 ),
             ]);
@@ -177,7 +288,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             // Implementa caching per configurazioni moduli
             $this->cacheModuleConfigurations();
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
         // Cache delle navigation items
         if (config('filament_optimization.cache.navigation', true)) {
             // Già implementato in GetModulesNavigationItems
@@ -196,29 +315,70 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 // Carica tutte le configurazioni dei moduli
                 $configs = [];
                 $modules = app('modules')->all();
+<<<<<<< HEAD
+<<<<<<< HEAD
 
                 foreach ($modules as $module) {
-                    if (! is_object($module)) {
-                        continue;
-                    }
-
-                    if (! method_exists($module, 'getPath') || ! method_exists($module, 'getName')) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+                    // PHPStan: $module è \Nwidart\Modules\Module
+                    if (! is_object($module) || ! method_exists($module, 'getPath') || ! method_exists($module, 'getName')) {
                         continue;
                     }
 
                     $modulePath = $module->getPath();
-                    $moduleName = $module->getName();
-
-                    if (! is_string($modulePath) || ! is_string($moduleName)) {
+                    if (! is_string($modulePath)) {
                         continue;
                     }
 
                     $configPath = $modulePath.'/Config/config.php';
                     if (file_exists($configPath)) {
-                        $configs[$moduleName] = require $configPath;
+                        $moduleName = $module->getName();
+                        if (is_string($moduleName)) {
+                            $configs[$moduleName] = require $configPath;
+                        }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+                    $configPath = $module->getPath().'/Config/config.php';
+                    if (file_exists($configPath)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        $configs[$module->getName()] = require $configPath;
+>>>>>>> 53d6a6ba (.)
+=======
+                        $configs[$module->getName()] = require $configPath;
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
                     }
                 }
 
+=======
+=======
+>>>>>>> 5a14301c (.)
+                
+                foreach ($modules as $module) {
+                    $configPath = $module->getPath() . '/Config/config.php';
+                    if (file_exists($configPath)) {
+                        $configs[$module->getName()] = require $configPath;
+=======
+                        $configs[$moduleName] = require $configPath;
+>>>>>>> b7afadf9 (.)
+                    }
+                }
+                
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                 return $configs;
             });
         });
@@ -230,11 +390,25 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function limitQueriesInDevelopment(): void
     {
         $maxQueries = config('filament_optimization.development.max_queries_per_request', 100);
+<<<<<<< HEAD
+<<<<<<< HEAD
 
-        app()->terminating(function () use ($maxQueries): void {
+        app()->terminating(function () use ($maxQueries) {
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
 
+=======
+=======
+>>>>>>> 5a14301c (.)
+        
+        app()->terminating(function () use ($maxQueries) {
+            $queries = DB::getQueryLog();
+            $totalQueries = count($queries);
+            
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             if ($totalQueries > $maxQueries) {
                 Log::warning("High query count detected: {$totalQueries} queries", [
                     'url' => request()->fullUrl(),
@@ -249,14 +423,49 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
      */
     private function isFilamentAdminRequest(): bool
     {
+<<<<<<< HEAD
+<<<<<<< HEAD
         if (! app()->runningInConsole() && request()) {
             $path = request()->path();
 
+            return str_contains($path, '/admin') ||
+                   str_ends_with($path, '/admin') ||
+<<<<<<< HEAD
+<<<<<<< HEAD
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+=======
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+=======
             return str_contains($path, '/admin')
                    || str_ends_with($path, '/admin')
                    || preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+>>>>>>> 249a0067 (.)
         }
 
+=======
+=======
+>>>>>>> 5a14301c (.)
+        if (!app()->runningInConsole() && request()) {
+            $path = request()->path();
+            return str_contains($path, '/admin') || 
+                   str_ends_with($path, '/admin') ||
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+        }
+        
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         return false;
     }
 }

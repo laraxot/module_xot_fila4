@@ -80,6 +80,14 @@ class ModulesOverviewWidget extends Widget
     }
 
     /**
+     * Determina se il widget deve essere visibile.
+     */
+    public static function canView(): bool
+    {
+        return true;
+    }
+
+    /**
      * Restituisce una lista di moduli di default in caso di errori.
      *
      * @return array<int, array<string, mixed>>
@@ -126,13 +134,5 @@ class ModulesOverviewWidget extends Widget
         ];
 
         return $descriptions[$module] ?? 'Modulo '.$module;
-    }
-
-    /**
-     * Determina se il widget deve essere visibile.
-     */
-    public static function canView(): bool
-    {
-        return true;
     }
 }

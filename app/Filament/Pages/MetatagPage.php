@@ -56,38 +56,18 @@ class MetatagPage extends Page implements HasForms
                 TextInput::make('author'),
                 TextInput::make('description'),
                 TextInput::make('keywords'),
-                /*
-                 * FileUpload::make('logo_header')
-                 * ->preserveFilenames()
-                 * ->image()
-                 * ->imageEditor()
-                 * ->moveFiles()
-                 * ->disk('public')
-                 * ->visibility('public')
-                 * ->directory('logo')
-                 * ->formatStateUsing(fn ($state): array =>[basename($state)])
-                 * //->formatStateUsing(fn ($state): array =>['/uploads/photos/pexels-giona-mason-19138633.jpg'])
-                 * ->dehydrateStateUsing(fn ($state) => collect($state)->map(function($item){
-                 * return Storage::disk('public')->url($item);
-                 * })->first() )
-                 * ,
-                 */
                 TextInput::make('logo_header'),
                 TextInput::make('logo_header_dark')->helperText('logo for dark css'),
                 TextInput::make('logo_height'),
                 Repeater::make('colors')
                     ->schema([
                         Select::make('key')
-                            ->label('Chiave')
                             ->required()
                             ->options($metatag->getFilamentColors()),
                         Select::make('color')
-                            ->label('Colore')
                             ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
                             ->reactive(),
                         ColorPicker::make('hex')
-                            ->label('Colore personalizzato')
-                            ->visible(fn (callable $get) => $get('color') === 'custom')
                             ->required(),
                     ])
                     ->columns(3),

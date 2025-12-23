@@ -20,33 +20,19 @@ class GetFirstModelClassByModelNameAction
      */
     public function execute(string $modelName): string
     {
+        /** @var array<string, class-string> $models */
         $models = app(GetAllModelsAction::class)->execute();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-        Assert::string(
-            $modelClass = collect($models)->get($modelName),
+        Assert::keyExists(
+            $models,
+            $modelName,
             '['.__LINE__.']['.class_basename($this).']',
         );
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
+
+        $modelClass = $models[$modelName];
+        Assert::string(
+            $modelClass,
+            '['.__LINE__.']['.class_basename($this).']',
+        );
 
         return $modelClass;
     }

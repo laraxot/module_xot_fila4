@@ -8,16 +8,16 @@ use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
+use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Table;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Modules\Xot\Filament\Traits\TransTrait as XotTransTrait;
 use Override;
-use Webmozart\Assert\Assert;
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -28,10 +28,7 @@ use Webmozart\Assert\Assert;
  */
 abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 {
-    use HasXotTable;
-    use InteractsWithForms;
-    use NavigationLabelTrait;
-
+    use HasXotTable, InteractsWithForms;
     // protected static string $resource;
 
     /**
@@ -42,18 +39,32 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
-    /*
-<<<<<<< HEAD
-     * @return array<\Filament\Forms\Components\Component>
-=======
+    /**
+     * Restituisce lo schema del form per i record correlati.
+     *
      * @return array<\Filament\Schemas\Components\Component>
->>>>>>> a5dccfe (.)
      */
     // abstract public static function getFormSchema(): array;
 
+    /**
+     * Configura lo schema del form per i record correlati.
+     */
     public function form(Schema $schema): Schema
     {
-        return $schema->components($this->getFormSchema());
+        // getFormSchema() sempre ritorna array per definizione
+        $formSchema = $this->getFormSchema();
+
+        return $schema->components($formSchema);
+    }
+
+    /**
+     * Restituisce lo schema del form per i record correlati.
+     *
+     * @return array<Component>
+     */
+    public function getFormSchema(): array
+    {
+        return [];
     }
 
     /**
@@ -62,10 +73,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      *
      * @return array<string, TextColumn>
      */
-    #[\Override]
-    /**
-     * @return array<string, mixed>
-     */
+    #[Override]
     public function getTableColumns(): array
     {
         return [
@@ -108,9 +116,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
                 ->icon('heroicon-o-pencil')
                 ->url(function (Model $record): string {
                     $url = static::getResource()::getUrl('edit', ['record' => $record]);
-                    Assert::string($url);
 
-                    return $url;
+                    return is_string($url) ? $url : (string) $url;
                 }),
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
@@ -146,9 +153,6 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * 'create' => CreateAction::make()
      * ->label('Crea Nuovo')
      * ->disableCreateAnother(),
-    /**
-     * Configura il form per la creazione/modifica dei record correlati.
-     */
 
     /**
      * Restituisce il titolo della pagina.

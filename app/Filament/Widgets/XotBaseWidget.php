@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
@@ -12,13 +13,10 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
@@ -42,17 +40,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     use InteractsWithForms;
     use TransTrait;
 
-    /**
-     * Vista predefinita per widget che estendono XotBaseWidget.
-     * Deve essere sovrascritta nelle classi figlie.
-     */
-    protected string $view = 'xot::filament.widgets.base';
-
     public string $title = '';
 
     public string $icon = '';
-
-    protected int|string|array $columnSpan = 'full';
 
     /**
      * Lista degli eventi ascoltati dal widget.
@@ -69,6 +59,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      * @var array<string, mixed>
      */
     public ?array $data = [];
+
+    /**
+     * Vista predefinita per widget che estendono XotBaseWidget.
+     * Deve essere sovrascritta nelle classi figlie.
+     */
+    protected string $view = 'xot::filament.widgets.base';
+
+    protected int|string|array $columnSpan = 'full';
 
     /*
      * public function __construct()
@@ -111,7 +109,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             // Ensure model is compatible with Schema::model()
             if (is_string($model)) {
                 if (class_exists($model) && is_subclass_of($model, Model::class)) {
-                    /* @var class-string<Model> $model */
+                    /** @var class-string<Model> $model */
                     $schema->model($model);
                 }
             } else {
@@ -127,9 +125,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return $schema;
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
@@ -160,22 +155,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
-                /** @var array<string, mixed> */
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
-                $attributes = $model->getAttributes();
-
-                // Gestisci specificamente gli enum se presenti
-                // if (isset($attributes['type']) && $model->type instanceof \BackedEnum) {
-                //    $attributes['type'] = $model->type->value;
-                // }
-
-                /** @var array<string, mixed> */
-                return $attributes;
+                return $model->getAttributes();
             }
         }
 
@@ -185,40 +171,15 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $attributes = $model->attributesToArray();
 
         $fields = array_merge($fillable, $appends);
-        /** @var array<string, mixed> $fieldsWithNull */
-        $fieldsWithNull = array_fill_keys($fields, null);
-        $fieldsWithNull = array_merge($fieldsWithNull, $attributes);
+        $fields = array_fill_keys($fields, null);
+        $fields = array_merge($fields, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
             /** @var array<string, mixed> $defaults */
             $defaults = $model->getDataDefaults();
-            $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
+            $fields = array_merge($fields, $defaults);
         }
 
-        /** @var array<string, mixed> */
-        return $fieldsWithNull;
-    }
-
-    /**
-     * Ottiene le azioni del form.
-     *
-     * @return array<int|string, Action>
-     */
-    protected function getFormActions(): array
-    {
-        return [
-            Action::make('save')
-                ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
-                ->submit('save'),
-        ];
-    }
-
-    /**
-     * Ottiene il modello per il form.
-     * Può essere sovrascritto nelle classi figlie per fornire un modello specifico.
-     */
-    protected function getFormModel(): Model|string|null
-    {
-        return null;
+        return $fields;
     }
 
     /**
@@ -248,33 +209,56 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return static::transFunc(__FUNCTION__);
     }
 
-    protected function getStepByName(string $name): Step
-    {
-        $form = Str::of($name)
-            ->snake()
-            ->studly()
-            ->prepend('get')
-            ->append('Schema')
-            ->toString();
-
-        /** @var array<Htmlable|string> $formComponents */
-        $formComponents = $this->$form();
-
-        return Step::make($name)->schema($formComponents);
-    }
-
     public function getWizardSubmitAction(): Action
     {
         /** @var view-string $submit_view */
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
         if (! view()->exists($submit_view)) {
-            throw new \Exception("View {$submit_view} does not exist");
+            throw new Exception("View {$submit_view} does not exist");
         }
 
         return Action::make('submit')
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')
             ->view((string) $submit_view);
+    }
+
+    /**
+     * Ottiene le azioni del form.
+     *
+     * @return array<int|string, Action>
+     */
+    protected function getFormActions(): array
+    {
+        return [
+            Action::make('save')
+                ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
+                ->submit('save'),
+        ];
+    }
+
+    /**
+     * Ottiene il modello per il form.
+     * Può essere sovrascritto nelle classi figlie per fornire un modello specifico.
+     */
+    protected function getFormModel(): Model|string|null
+    {
+        return null;
+    }
+
+    protected function getStepByName(string $name): Step
+    {
+        $schema = Str::of($name)
+            ->snake()
+            ->studly()
+            ->prepend('get')
+            ->append('Schema')
+            ->toString();
+
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+        return Step::make($name)->schema($schemaComponents);
     }
 }

@@ -6,36 +6,8 @@ namespace Modules\Xot\Actions\ModelClass;
 
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\DB;
-use Modules\Xot\Models\InformationSchemaTable;
-use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Webmozart\Assert\Assert;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Database\Eloquent\Model;
-use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Models\InformationSchemaTable;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -54,7 +26,6 @@ class CountAction
      */
     public function execute(string $modelClass): int
     {
-        /* @phpstan-ignore-next-line staticMethod.notFound, return.type */
         return InformationSchemaTable::getModelCount($modelClass);
     }
 }

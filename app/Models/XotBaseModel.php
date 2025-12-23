@@ -4,20 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\Model;
-// use Laravel\Scout\Searchable;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Modules\Xot\Models\Traits\HasXotFactory;
+use Modules\Xot\Models\Traits\RelationX;
 use Modules\Xot\Traits\Updater;
 
 /**
  * Class XotBaseModel.
  */
-abstract class XotBaseModel extends Model
+abstract class XotBaseModel extends EloquentModel
 {
-    use Traits\HasXotFactory;
-    use Traits\RelationX;
-
-    // use Searchable;
-    // //use Cachable;
+    use HasXotFactory;
+    use RelationX;
     use Updater;
 
     /**
@@ -29,40 +27,40 @@ abstract class XotBaseModel extends Model
      */
     public static $snakeAttributes = true;
 
+    /** @var bool */
     public $incrementing = true;
 
+    /** @var bool */
     public $timestamps = true;
 
+    /** @var int */
     protected $perPage = 30;
 
-    // protected $connection = 'xot';
+    /** @var string */
+    protected $connection = 'xot';
 
     /** @var list<string> */
-    protected $fillable = ['id'];
+    protected $appends = [];
 
+    /** @var string */
     protected $primaryKey = 'id';
 
-    protected $keyType = 'string';
+    /** @var string */
+    protected $keyType = 'int';
 
     /** @var list<string> */
     protected $hidden = [
         // 'password'
     ];
 
-    /**
-     * The accessors to append to the model's array form.
-     *
-     * @var list<string>
-     */
-    protected $appends = [];
-
-    /** @return array<string, class-string|string> */
+    /** @return array<string, string> */
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'uuid' => 'string',
             'published_at' => 'datetime',
+            'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',

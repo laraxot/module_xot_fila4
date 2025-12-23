@@ -89,8 +89,6 @@ class EnvWidget extends Widget implements HasActions, HasForms
         /**
          * @var array<Component>
          */
-        $fields = Arr::only($all, $this->only);
-
-        return $fields;
+        return Arr::only($all, $this->only);
     }
 }

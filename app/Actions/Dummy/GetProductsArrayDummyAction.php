@@ -22,24 +22,23 @@ class GetProductsArrayDummyAction
     public function execute(): array
     {
         // API
-        Assert::isArray($products = Http::get('https://dummyjson.com/products')->json());
+        $response = Http::get('https://dummyjson.com/products');
+
+        // Ensure we have a Response, not Promise
+        if ($response instanceof \GuzzleHttp\Promise\PromiseInterface) {
+            $response = $response->wait();
+        }
+
+        /** @var \Illuminate\Http\Client\Response $response */
+        Assert::isArray($products = $response->json());
         Assert::isArray($products['products']);
+
         // filtering some attributes
-        $products = Arr::map($products['products'], function ($item) {
+        return Arr::map($products['products'], function ($item) {
             // Verifichiamo che $item sia un array prima di usare Arr::only
             if (! is_array($item)) {
                 return []; // Restituiamo un array vuoto se $item non è un array
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
             return Arr::only($item, [
                 'id',
@@ -51,33 +50,6 @@ class GetProductsArrayDummyAction
                 'category',
                 'thumbnail',
             ]);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-            
-            return Arr::only(
-                $item,
-                [
-                    'id',
-                    'title',
-                    'description',
-                    'price',
-                    'rating',
-                    'brand',
-                    'category',
-                    'thumbnail',
-                ]
-            );
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         });
-
-        return $products;
     }
 }

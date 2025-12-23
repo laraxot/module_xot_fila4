@@ -4,16 +4,6 @@ declare(strict_types=1);
 
 return [
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -23,26 +13,6 @@ return [
      * | found in a intuitive way.
      * |
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    |--------------------------------------------------------------------------
-    | Exception Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used in Exceptions thrown throughout the system.
-    | Regardless where it is placed, a button can be listed here so it is easily
-    | found in a intuitive way.
-    |
-    */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
     'backend' => [
         'access' => [
@@ -56,19 +26,6 @@ return [
                 'not_found' => 'El Rol requerido no existe.',
                 'update_error' => 'Hubo un problema al modificar el Rol. Intentelo de nuevo.',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             'users' => [
                 'cant_deactivate_self' => 'No puede desactivarse a sí mismo.',
                 'cant_delete_self' => 'No puede eliminarse usted mismo.',
@@ -87,19 +44,6 @@ return [
             ],
         ],
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -112,30 +56,8 @@ return [
                 'success' => 'Su cuenta ha sido verificada satisfactoriamente!',
                 'resent' => 'Un nuevo correo de verificación le ha sido enviado.',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
             'deactivated' => 'Su cuenta ha sido desactivada.',
             'email_taken' => 'El correo especificado ya está registrado.',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
-=======
-
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
-
->>>>>>> f1d4085 (.)
-=======
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
->>>>>>> 300ef70 (.)
             'password' => [
                 'change_mismatch' => 'La contraseña antigua no coincide.',
             ],

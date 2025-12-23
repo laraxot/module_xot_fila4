@@ -12,38 +12,11 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\ColumnData;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\ini_set;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
-use function Safe\ini_set;
-
-use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 class ImportCsvAction
 {
     use QueueableAction;
@@ -99,24 +72,13 @@ class ImportCsvAction
     /**
      * Get table columns excluding certain fields.
      *
-     * @param  Builder  $conn
-     * @return ColumnData[]
+     * @return array<ColumnData>
      */
-    private function getTableColumns($conn, string $tbl): array
+    private function getTableColumns(Builder $conn, string $tbl): array
     {
         $columns = $conn->getColumnListing($tbl);
         $excludedColumns = ['id'];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return array_map(
             function (string $column) use ($conn, $tbl) {
                 $type = $conn->getColumnType($tbl, $column);
@@ -128,82 +90,29 @@ class ImportCsvAction
             },
             array_diff($columns, $excludedColumns),
         );
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        return array_map(function (string $column) use ($conn, $tbl) {
-            $type = $conn->getColumnType($tbl, $column);
-
-            return new ColumnData(
-                name: $column,
-                type: $type
-            );
-        }, array_diff($columns, $excludedColumns));
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     }
 
     /**
      * Prepare fields for the SQL query.
      *
-     * @param  ColumnData[]  $columns
-     * @return string[]
+     * @param  array<ColumnData>  $columns
+     * @return array<string>
      */
     private function prepareFields(array $columns): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return array_map(
-            fn (ColumnData $column) => $column->type === 'decimal' ? ('@'.$column->name) : $column->name,
+            fn (ColumnData $column) => $column->type === 'decimal' ? '@'.$column->name : $column->name,
             $columns,
         );
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        return array_map(function (ColumnData $column) {
-            return 'decimal' === $column->type ? '@'.$column->name : $column->name;
-        }, $columns);
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     }
 
     /**
      * Build the SQL query for importing data.
      *
-     * @param  ColumnData[]  $columns
+     * @param  array<ColumnData>  $columns
      */
     private function buildSql(string $path, string $db, string $tbl, string $fieldsUpList, array $columns): string
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         $sql =
             "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' ".
             "INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 ".
@@ -214,22 +123,6 @@ class ImportCsvAction
             '"'.
             "' ".
             "LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $sql = "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' "
-            ."INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 "
-            ."FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".'"'."' "
-            ."ESCAPED BY '".'"'."' "
-            ."LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
         $sqlReplace = [];
         foreach ($columns as $column) {
@@ -238,28 +131,8 @@ class ImportCsvAction
             }
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! empty($sqlReplace)) {
             $sql .= ' SET '.implode(', ', $sqlReplace).';';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!empty($sqlReplace)) {
-            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
-=======
-        if (! empty($sqlReplace)) {
-            $sql .= ' SET '.implode(', ', $sqlReplace).';';
->>>>>>> f1d4085 (.)
-=======
-        if (!empty($sqlReplace)) {
-            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        if (!empty($sqlReplace)) {
-            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
->>>>>>> 300ef70 (.)
         }
 
         return $sql;
@@ -268,8 +141,8 @@ class ImportCsvAction
     /**
      * Transform columns into ColumnData objects.
      *
-     * @param  string[]  $columns
-     * @return ColumnData[]
+     * @param  array<string>  $columns
+     * @return array<ColumnData>
      *
      * @deprecated This method is currently unused but kept for future expansion.
      *
@@ -277,20 +150,8 @@ class ImportCsvAction
      */
     private function transformColumnsToColumnData(array $columns): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return array_map(
-            function ($column): ColumnData {
-                Assert::string($column, 'Column must be a string');
-
+            function (string $column): ColumnData {
                 return new ColumnData(
                     name: $column,
                     type: 'string', // Default type, modify if necessary
@@ -298,24 +159,5 @@ class ImportCsvAction
             },
             $columns,
         );
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        return array_map(function ($column): ColumnData {
-            Assert::string($column, 'Column must be a string');
-
-            return new ColumnData(
-                name: $column,
-                type: 'string' // Default type, modify if necessary
-            );
-        }, $columns);
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     }
 }

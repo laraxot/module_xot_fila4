@@ -4,12 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
-use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\ExtraContract;
-use Modules\Xot\Models\Extra;
+use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -37,165 +36,61 @@ trait HasExtraTrait
             ->append('\Models\Extra')
             ->toString();
         Assert::classExists($extra_class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         Assert::isAOf(
             $extra_class,
             Model::class,
             '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
         );
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        Assert::isAOf($extra_class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         // Assert::isInstanceOf($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
         // Assert::implementsInterface($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
 
         return $this->morphOne($extra_class, 'model');
     }
 
-    /**
-     * @return array<string, mixed>|bool|int|string|null
-     */
-    public function getExtra(string $name): array|bool|int|string|null
+    public function getExtra(string $name): array|bool|float|int|string|null
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if ($this->extra === null) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if ($this->extra === null) {
-=======
-
-        if ($this->extra == null) {
->>>>>>> f1d4085 (.)
-=======
-        if ($this->extra === null) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        if ($this->extra === null) {
->>>>>>> 300ef70 (.)
+        $extra = $this->extra;
+        if (! $extra instanceof ExtraContract || ! $extra instanceof Model) {
             return null;
         }
-        $value = $this->extra->extra_attributes->get($name);
-        if (
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-            is_array($value) ||
-                is_int($value) ||
-                // || is_float($value)
-                is_null($value) ||
-                is_bool($value) ||
-                is_string($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-            is_array($value) || is_int($value)
-            // || is_float($value)
-            || is_null($value) || is_bool($value)
-            || is_string($value)
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-        ) {
-            /** @var array<string, mixed>|bool|int|string|null */
+
+        $attributes = $extra->extra_attributes;
+        if (! $attributes instanceof SchemalessAttributes) {
+            return null;
+        }
+
+        $value = $attributes->get($name);
+
+        if (\is_array($value)) {
             return $value;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> f1d4085 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
->>>>>>> 300ef70 (.)
+
+        if (\is_bool($value) || \is_float($value) || \is_int($value) || \is_string($value)) {
+            return $value;
+        }
+
+        return null;
     }
 
     /**
      * @param  int|float|string|array<string, mixed>|bool|null  $value
-     * @return void
      */
-    public function setExtra(string $name, $value)
+    public function setExtra(string $name, int|float|string|array|bool|null $value): void
     {
         $extra = $this->extra;
-        if ($this->extra === null) {
-            // $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => []]);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
+        if (! $extra instanceof ExtraContract || ! $extra instanceof Model) {
             $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => json_encode([])]);
-            Assert::implementsInterface(
-                $extra,
-                ExtraContract::class,
-                '['.__LINE__.']['.class_basename($this).']['.$extra.']',
-            );
+            if (! $extra instanceof ExtraContract || ! $extra instanceof Model) {
+                return;
+            }
         }
-        Assert::notNull($extra);
-        // $extra is asserted to be non-null above
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-            $extra = $this->extra()
-                ->firstOrCreate([], ['extra_attributes' => json_encode([])]);
-            Assert::implementsInterface($extra, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra.']');
+
+        $attributes = $extra->extra_attributes;
+        if (! $attributes instanceof SchemalessAttributes) {
+            $extra->extra_attributes = $attributes = new SchemalessAttributes($extra, 'extra_attributes');
         }
-        Assert::notNull($extra);
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-        $extra->extra_attributes->set($name, $value);
+
+        $attributes->set($name, $value);
         $extra->save();
     }
 }

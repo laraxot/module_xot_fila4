@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Array;
 
 use Spatie\QueueableAction\QueueableAction;
-use Symfony\Component\VarExporter\VarExporter;
 
 use function Safe\file_put_contents;
 
@@ -15,9 +14,7 @@ class SavePhpArrayAction
 
     public function execute(array $data, string $filename): bool
     {
-        $exported = VarExporter::export($data);
-        // $exported = var_export($data, true);
-        $content = "<?php\n\ndeclare(strict_types=1);\n\nreturn ".$exported.";\n";
+        $content = "<?php\n\nreturn ".var_export($data, true).";\n";
 
         return (bool) file_put_contents($filename, $content);
     }

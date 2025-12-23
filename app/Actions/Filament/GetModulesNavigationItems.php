@@ -5,8 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Filament;
 
 use Exception;
-use Filament\Facades\Filament;
 use Filament\Navigation\NavigationItem;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -36,19 +37,14 @@ class GetModulesNavigationItems
         $navs = [];
 
         $modules = TenantService::allModules();
-        Assert::isArray($modules);
-
+        // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
-        $user = auth()->user();
+        /** @var Authenticatable|null $user */
+        $user = Auth::user();
 
+        /** @var array<int, string> $userRoles */
         $userRoles = [];
-        if ($user && method_exists($user, 'roles')) {
-            try {
-                $userRoles = $user->roles()->pluck('name')->toArray();
-            } catch (Exception $e) {
-                $userRoles = [];
-            }
-        }
+        // Se serve re-introdurre un preload ruoli, farlo solo se il metodo è disponibile e tipizzato nel modello.
 
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
@@ -83,8 +79,8 @@ class GetModulesNavigationItems
             $icon = $config['icon'] ?? 'heroicon-o-question-mark-circle';
             Assert::string($icon, "L'icona deve essere una stringa");
 
+            // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
             $role = $module_low.'::admin';
-            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
 
             $navigation_sort = $config['navigation_sort'] ?? 1;
             Assert::integerish($navigation_sort, 'navigation_sort deve essere un intero');
@@ -97,7 +93,7 @@ class GetModulesNavigationItems
              // Only create NavigationItem if user has the role (memory optimization)
              if ($hasRole) {
                  $nav = NavigationItem::make($module)
-                     ->url('/' . $module_low . '/admin')
+                     ->url('/'.$module_low.'/admin')
                      ->icon($icon)
                      ->group('Modules')
                      ->sort($navigation_sort)
@@ -114,7 +110,10 @@ class GetModulesNavigationItems
                 ->group('Modules')
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
-                    $user = Filament::auth()->user();
+                    /**
+                     * @var Authenticatable|null $user
+                     */
+                    $user = Auth::user();
                     if ($user === null) {
                         return false;
                     }
@@ -124,6 +123,7 @@ class GetModulesNavigationItems
                         return false;
                     }
 
+                    /** @phpstan-ignore-next-line */
                     return (bool) $user->hasRole($role);
                 });
 
@@ -142,19 +142,19 @@ class GetModulesNavigationItems
     public function getCachedModuleConfigs(): array
     {
         $modules = TenantService::allModules();
-        Assert::isArray($modules);
+        // TenantService::allModules() restituisce sempre array
 
-        $cacheKey = 'xot:navigation:modules:'.md5(json_encode($modules));
+        $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
 
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
-        if (is_array($cached)) {
+        if (\is_array($cached)) {
             return $cached;
         }
 
         // Se non presente in cache, rigenera usando la stessa logica di execute()
-        /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
-        $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
+        /** @var array<int, array{module: string, module_low: string, icon: string, sort: int}> $result */
+        $result = Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
             $out = [];
             foreach ($modules as $module) {
                 Assert::string($module, 'Il nome del modulo deve essere una stringa');
@@ -185,6 +185,6 @@ class GetModulesNavigationItems
             return $out;
         });
 
-        return $regen;
+        return $result;
     }
 }

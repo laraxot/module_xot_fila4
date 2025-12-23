@@ -6,7 +6,6 @@ namespace Modules\Xot\Database\Migrations;
 
 use Closure;
 use Exception;
-use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -30,40 +29,11 @@ abstract class XotBaseMigration extends Migration
 {
     protected Model $model;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-    protected null|string $model_class = null;
-
-    public function __construct()
-    {
-        $this->model_class ??= $this->getModelClass();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
     protected ?string $model_class = null;
 
     public function __construct()
     {
-<<<<<<< HEAD
         $this->model_class ??= $this->getModelClass();
-=======
-
-
-        $this->model_class = $this->model_class ?? $this->getModelClass();
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         Assert::isInstanceOf($model = app($this->model_class), Model::class);
         $this->model = $model;
     }
@@ -94,37 +64,9 @@ abstract class XotBaseMigration extends Migration
         $mod_path = Module::getPath();
 
         // Controllo che $filename sia valido prima di passarlo a Str::of()
-<<<<<<< HEAD
-<<<<<<< HEAD
         $mod_name = $filename !== false ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
 
         $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
-
-        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
-=======
-        $mod_name = false !== $filename
-            ? Str::of($filename)
-                ->after($mod_path)
-                ->explode(\DIRECTORY_SEPARATOR)[1]
-            : ''; // Fallback nel caso in cui $filename non sia valido.
-
-        $this->model_class = Str::of('\Modules\\'.$mod_name.'\Models\\'.$name)
->>>>>>> f1d4085 (.)
-=======
-        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
-
-        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        $mod_name = false !== $filename ? Str::of($filename)->after($mod_path)->explode(\DIRECTORY_SEPARATOR)[1] : ''; // Fallback nel caso in cui $filename non sia valido.
-
-        $this->model_class = Str::of('\Modules\\' . $mod_name . '\Models\\' . $name)
->>>>>>> 300ef70 (.)
             ->replace('/', \DIRECTORY_SEPARATOR)
             ->toString();
 
@@ -133,37 +75,11 @@ abstract class XotBaseMigration extends Migration
 
     public function getTable(): string
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return $this->model->getTable();
     }
 
     public function getConn(): Builder
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return Schema::connection($this->model->getConnectionName());
     }
 
@@ -189,7 +105,6 @@ abstract class XotBaseMigration extends Migration
     /**
      * Get the table indexes using Doctrine's schema manager.
      *
-     *
      * @return array<\Doctrine\DBAL\Schema\Index>
      *
      * @throws \Doctrine\DBAL\Exception
@@ -213,23 +128,7 @@ abstract class XotBaseMigration extends Migration
     /**
      * Check if a table exists.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function tableExists(?string $table = null): bool
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function tableExists(null|string $table = null): bool
-=======
-    public function tableExists(?string $table = null): bool
->>>>>>> f1d4085 (.)
-=======
-    public function tableExists(null|string $table = null): bool
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function tableExists(null|string $table = null): bool
->>>>>>> 300ef70 (.)
     {
         return $this->getConn()->hasTable($table ?? $this->getTable());
     }
@@ -289,46 +188,14 @@ abstract class XotBaseMigration extends Migration
 
         // Check if result is an array or object and handle accordingly
         if (is_array($result)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             return isset($result['count']) && ((int) $result['count']) > 0;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            return isset($result['count']) && ((int) $result['count']) > 0;
-=======
-            return isset($result['count']) && (int) $result['count'] > 0;
->>>>>>> f1d4085 (.)
-=======
-            return isset($result['count']) && ((int) $result['count']) > 0;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            return isset($result['count']) && ((int) $result['count']) > 0;
->>>>>>> 300ef70 (.)
         }
 
         // If it's an object, cast to array to avoid undefined property issues
         if (is_object($result)) {
             $resArray = (array) $result;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             return isset($resArray['count']) && ((int) $resArray['count']) > 0;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            return isset($resArray['count']) && ((int) $resArray['count']) > 0;
-=======
-            return isset($resArray['count']) && (int) $resArray['count'] > 0;
->>>>>>> f1d4085 (.)
-=======
-            return isset($resArray['count']) && ((int) $resArray['count']) > 0;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            return isset($resArray['count']) && ((int) $resArray['count']) > 0;
->>>>>>> 300ef70 (.)
         }
 
         // If neither, handle the error or unexpected case
@@ -340,23 +207,7 @@ abstract class XotBaseMigration extends Migration
      */
     public function dropPrimaryKey(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
-=======
-        $sql = 'ALTER TABLE '.$this->getTable().' DROP PRIMARY KEY;';
->>>>>>> f1d4085 (.)
-=======
-        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        $sql = 'ALTER TABLE ' . $this->getTable() . ' DROP PRIMARY KEY;';
->>>>>>> 300ef70 (.)
         $this->query($sql);
     }
 
@@ -382,71 +233,20 @@ abstract class XotBaseMigration extends Migration
 
     public function renameColumn(string $from, string $to): void
     {
-<<<<<<< HEAD
         $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to): void {
-=======
-        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             $table->renameColumn($from, $to);
         });
     }
 
-<<<<<<< HEAD
-=======
-    public function tableCreate(Closure $next, null|string $table = null): void
-    {
-        $tableName = $table ?? $this->getTable();
-        if (!$this->tableExists($tableName)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-                $table->renameColumn($from, $to);
-
-        });
-    }
-
->>>>>>> d2b0a27 (.)
     public function tableCreate(Closure $next, ?string $table = null): void
     {
         $tableName = $table ?? $this->getTable();
         if (! $this->tableExists($tableName)) {
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             $this->getConn()->create($tableName, $next);
         }
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function tableUpdate(Closure $next, ?string $table = null): void
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function tableUpdate(Closure $next, null|string $table = null): void
-=======
-    public function tableUpdate(Closure $next, ?string $table = null): void
->>>>>>> f1d4085 (.)
-=======
-    public function tableUpdate(Closure $next, null|string $table = null): void
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function tableUpdate(Closure $next, null|string $table = null): void
->>>>>>> 300ef70 (.)
     {
         $tableName = $table ?? $this->getTable();
         $this->getConn()->table($tableName, $next);
@@ -457,41 +257,12 @@ abstract class XotBaseMigration extends Migration
         $xot = XotData::make();
         $userClass = $xot->getUserClass();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         $table->timestamps();
         $table->foreignIdFor($userClass, 'user_id')->nullable();
         $table->foreignIdFor($userClass, 'updated_by')->nullable();
         $table->foreignIdFor($userClass, 'created_by')->nullable();
 
         if ($hasSoftDeletes) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
-            $table->timestamps();
-            $table->foreignIdFor($userClass, 'user_id')->nullable();
-            $table->foreignIdFor($userClass, 'updated_by')->nullable();
-            $table->foreignIdFor($userClass, 'created_by')->nullable();
-
-
-        if ($hasSoftDeletes ) {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             $table->softDeletes();
         }
     }
@@ -501,34 +272,6 @@ abstract class XotBaseMigration extends Migration
         $xot = XotData::make();
         $userClass = $xot->getUserClass();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-        if (!$this->hasColumn('updated_at') && !$this->hasColumn('created_at')) {
-            $table->timestamps();
-        }
-
-        if (!$this->hasColumn('updated_by')) {
-            $table->foreignIdFor($userClass, 'updated_by')->nullable();
-        }
-
-        if (!$this->hasColumn('created_by')) {
-            $table->foreignIdFor($userClass, 'created_by')->nullable();
-        }
-
-        if ($hasSoftDeletes && !$this->hasColumn('deleted_at')) {
-            $table->softDeletes();
-            if (!$this->hasColumn('deleted_by')) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
         if (! $this->hasColumn('updated_at') && ! $this->hasColumn('created_at')) {
             $table->timestamps();
         }
@@ -544,63 +287,17 @@ abstract class XotBaseMigration extends Migration
         if ($hasSoftDeletes && ! $this->hasColumn('deleted_at')) {
             $table->softDeletes();
             if (! $this->hasColumn('deleted_by')) {
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
                 $table->foreignIdFor($userClass, 'deleted_by')->nullable();
             }
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
-=======
-        if ($this->hasColumn('deleted_at') && ! $this->hasColumn('deleted_by')) {
->>>>>>> f1d4085 (.)
-=======
-        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        if ($this->hasColumn('deleted_at') && !$this->hasColumn('deleted_by')) {
->>>>>>> 300ef70 (.)
             $table->foreignIdFor($userClass, 'deleted_by')->nullable();
         }
     }
 
     public function updateUser(Blueprint $table): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-        $methodName = 'updateUserKey' . Str::studly($this->model->getKeyType());
-        $this->{$methodName}($table);
-
-        if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
-            $table->string('model_id', 36)->index()->change();
-        }
-
-        if ($this->hasColumn('team_id') && 'bigint' === $this->getColumnType('team_id')) {
-            $table->uuid('team_id')->nullable()->change();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
         $methodName = 'updateUserKey'.Str::studly($this->model->getKeyType());
         $this->{$methodName}($table);
 
@@ -608,42 +305,14 @@ abstract class XotBaseMigration extends Migration
             $table->string('model_id', 36)->index()->change();
         }
 
-<<<<<<< HEAD
         if ($this->hasColumn('team_id') && $this->getColumnType('team_id') === 'bigint') {
             $table->uuid('team_id')->nullable()->change();
-=======
-        if ($this->hasColumn('team_id') && 'bigint' === $this->getColumnType('team_id')) {
-
-                $table->uuid('team_id')->nullable()->change();
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         }
     }
 
     public function updateUserKeyString(Blueprint $table): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! $this->hasColumn('id')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!$this->hasColumn('id')) {
-=======
-        if (! $this->hasColumn('id')) {
->>>>>>> f1d4085 (.)
-=======
-        if (!$this->hasColumn('id')) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        if (!$this->hasColumn('id')) {
->>>>>>> 300ef70 (.)
             $table->uuid('id')->primary()->first();
         }
 
@@ -658,23 +327,7 @@ abstract class XotBaseMigration extends Migration
 
     public function updateUserKeyInt(Blueprint $table): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! $this->hasColumn('id')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!$this->hasColumn('id')) {
-=======
-        if (! $this->hasColumn('id')) {
->>>>>>> f1d4085 (.)
-=======
-        if (!$this->hasColumn('id')) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        if (!$this->hasColumn('id')) {
->>>>>>> 300ef70 (.)
             $table->id('id')->first();
         }
 
@@ -686,28 +339,10 @@ abstract class XotBaseMigration extends Migration
     /**
      * Get the migration connection name.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getConnection(): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getConnection(): null|string
-=======
-    public function getConnection(): ?string
->>>>>>> f1d4085 (.)
-=======
-    public function getConnection(): null|string
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function getConnection(): null|string
->>>>>>> 300ef70 (.)
     {
         /** @var string */
-        $pulse_connection = Config::get('pulse.storage.database.connection');
-
-        return $pulse_connection;
+        return Config::get('pulse.storage.database.connection');
     }
 
     /**
@@ -715,70 +350,29 @@ abstract class XotBaseMigration extends Migration
      */
     public function shouldRun(): bool
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         if (in_array($this->driver(), ['mariadb', 'mysql', 'pgsql', 'sqlite'], strict: true)) {
             return true;
         }
 
-<<<<<<< HEAD
         if (! App::environment('testing')) {
-=======
-        if (!App::environment('testing')) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        if (in_array($this->driver(), ['mariadb', 'mysql', 'pgsql', 'sqlite'])) {
-            return true;
-        }
-
-        if (! App::environment('testing')) {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             throw new RuntimeException("Pulse does not support the [{$this->driver()}] database driver.");
         }
 
         if (Config::get('pulse.enabled')) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             throw new RuntimeException(
                 "Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.",
             );
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            throw new RuntimeException(
-                "Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.",
-            );
-=======
-            throw new RuntimeException("Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.");
->>>>>>> f1d4085 (.)
-=======
-            throw new RuntimeException(
-                "Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.",
-            );
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            throw new RuntimeException(
-                "Pulse does not support the [{$this->driver()}] database driver. You can disable Pulse in your testsuite by adding `<env name=\"PULSE_ENABLED\" value=\"false\"/>` to your project's `phpunit.xml` file.",
-            );
->>>>>>> 300ef70 (.)
         }
 
         return false;
+    }
+
+    /**
+     * Add a foreign ID column to the table based on a related model.
+     */
+    public function foreignIdFor(Blueprint $table, string $class, ?string $column = null): ColumnDefinition
+    {
+        return $table->foreignIdFor($class, $column);
     }
 
     /**
@@ -788,60 +382,6 @@ abstract class XotBaseMigration extends Migration
     {
         return DB::connection($this->getConnection())->getDriverName();
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-
->>>>>>> 300ef70 (.)
-    /**
-     * Add a foreign ID column to the table based on a related model.
-     *
-     * @param  Blueprint  $table
-     * @return ColumnDefinition
-     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function foreignIdFor($table, string $class, ?string $column = null)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-    public function foreignIdFor($table, string $class, null|string $column = null)
->>>>>>> d2b0a27 (.)
-    {
-        return $table->foreignIdFor($class, $column);
-    }
 }
 
 // end XotBaseMigration
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    public function foreignIdFor($table, string $class, ?string $column = null) {
-        return $table->foreignIdFor($class, $column);
-    } 
-
-
-}// end XotBaseMigration
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)

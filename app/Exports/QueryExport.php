@@ -4,72 +4,39 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exports;
 
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Contracts\Support\Arrayable;
+use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
+use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromCollection;
+use Maatwebsite\Excel\Concerns\FromQuery;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
+use Modules\Lang\Actions\TransCollectionAction;
+use Traversable;
 
-use function Safe\json_encode;
+// use Staudenmeir\LaravelCte\Query\Builder as CteBuilder;
 
-/**
- * @implements WithMapping<Model>
- */
-class QueryExport implements FromCollection, WithChunkReading, WithHeadings, WithMapping
+class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadings, WithMapping
 {
     use Exportable;
 
-    /** @var Builder<Model>|QueryBuilder */
-    public Builder|QueryBuilder $query;
+    public array $headings = [];
 
-    public array $headings;
+    /** @var array<int, int|string> */
+    public array $fields = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public array $columns;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public null|string $transKey = null;
-=======
     public ?string $transKey = null;
->>>>>>> f1d4085 (.)
-=======
-    public null|string $transKey = null;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public null|string $transKey = null;
->>>>>>> 300ef70 (.)
 
-    public string $filename;
-
-    public string $sheetName;
+    public QueryBuilder|EloquentBuilder $query;
 
     /**
-     * @param  Builder<Model>|QueryBuilder  $query
-     * @param  array<int, string>  $headings
-     * @param  array<int, string>  $columns
+     * @param  array<int, int|string>  $fields
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function __construct(Builder|QueryBuilder $query, array $headings = [], array $columns = [])
-    {
-        $this->query = $query;
-        $this->headings = $headings;
-        $this->columns = $columns;
-        $this->filename = 'export_'.date('Y-m-d_H-i-s').'.xlsx';
-        $this->sheetName = 'Export';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 300ef70 (.)
-    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+    public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
     {
         $this->query = $query;
         $this->transKey = $transKey;
@@ -93,169 +60,114 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
          */
     }
 
+    /**
+     * @return Collection<int, int|string>
+     */
     public function getHead(): Collection
     {
-        if (!empty($this->fields)) {
-            return collect($this->fields);
+        if (! empty($this->fields)) {
+            return collect(array_values($this->fields))
+                ->map(
+                    static fn (mixed $heading): int|string => \is_int($heading) ? $heading : (string) $heading
+                );
         }
         /**
          * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
          */
         $first = $this->query->first();
-        if (null === $first) {
-            return collect([]);
+        if ($first === null) {
+            /** @var Collection<int, int|string> $emptyCollection */
+            $emptyCollection = collect([]);
+
+            return $emptyCollection;
         }
 
-        // Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
-        return collect($first)->keys();
+        /** @var Collection<int, int|string> $result */
+        $result = collect(array_keys($this->normalizeRow($first)))
+            ->map(
+                static fn (mixed $heading): int|string => \is_int($heading) ? $heading : (string) $heading
+            );
+
+        return $result;
     }
 
     public function headings(): array
     {
-        $headings = $this->getHead();
-        $transKey = $this->transKey;
-        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
+        /** @var Collection<int|string, mixed> $headingsWithKeys */
+        $headingsWithKeys = $this->getHead()
+            ->values()
+            ->mapWithKeys(
+                static function (int|string $value, int $key): array {
+                    $stringKey = (string) $value;
 
-        return $headings->toArray();
->>>>>>> d2b0a27 (.)
+                    return [$stringKey => $value];
+                },
+            );
+
+        $translated = app(TransCollectionAction::class)->execute($headingsWithKeys, $this->transKey);
+
+        return $translated->toArray();
     }
 
     /**
-     * @return Collection<int, Model>
+     * se si usa scout aggiungere |ScoutBuilder.
      */
-    public function collection(): Collection
+    public function query(): QueryBuilder|EloquentBuilder|Relation
     {
-<<<<<<< HEAD
-        return $this->query->get();
-    }
-
-    /**
-     * @return list<string>
-     */
-    public function headings(): array
-    {
-        if (! empty($this->headings)) {
-            /** @var list<string> */
-            return array_values($this->headings);
-        }
-
-        $firstItem = $this->query->first();
-        if ($firstItem === null || ! $firstItem instanceof Model) {
-            return [];
-        }
-
-        $attributes = $firstItem->getAttributes();
-        $fillable = $firstItem->getFillable();
-        $guarded = $firstItem->getGuarded();
-
-        $columns = [];
-        foreach ($attributes as $key => $value) {
-            $keyStr = is_string($key) ? $key : (string) $key;
-            if (in_array($keyStr, $fillable) || empty($guarded) || ! in_array($keyStr, $guarded)) {
-                $columns[] = $keyStr;
-            }
-        }
-
-        /** @var list<string> */
-        return $columns;
-    }
-
-    /**
-     * @return list<mixed>
-     */
-    public function map($row): array
-    {
-        if (! $row instanceof Model) {
-            return [];
-        }
-
-        $data = [];
-        $headings = $this->headings();
-
-        foreach ($headings as $heading) {
-            if (! is_string($heading)) {
-                continue;
-            }
-            $value = $row->getAttribute($heading);
-
-            if (is_array($value)) {
-                $value = json_encode($value) ?: '[]';
-            } elseif (is_object($value)) {
-                if (method_exists($value, '__toString')) {
-                    $value = (string) $value;
-                } else {
-                    $value = get_class($value);
-                }
-            }
-
-            $data[] = $value ?? '';
-        }
-
-        return $data;
-=======
         return $this->query;
 
         // ->orderBy('id');
->>>>>>> d2b0a27 (.)
     }
 
     public function chunkSize(): int
     {
-        return 1000;
+        return 200;
     }
 
     /**
-     * @return Collection<int, Model>
+     * @return array<int|string, mixed>
      */
-    public function getHead(): Collection
+    public function map(mixed $row): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $this->query->limit(10)->get();
-    }
+        $rowArray = $this->normalizeRow($row);
 
-    /**
-     * @return Builder<Model>|QueryBuilder
-     */
-    public function query(): Builder|QueryBuilder
-    {
-        return $this->query;
-    }
-
-    public function setFilename(string $filename): self
-    {
-        $this->filename = $filename;
-
-        return $this;
-    }
-
-    public function setSheetName(string $sheetName): self
-    {
-        $this->sheetName = $sheetName;
-
-        return $this;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 300ef70 (.)
-        if (!empty($this->fields)) {
-            return collect($item)->toArray();
+        if (empty($this->fields)) {
+            return $rowArray;
         }
 
-        // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
-        return collect($item)->only($this->fields)->toArray();
-<<<<<<< HEAD
-=======
-        return collect($item)
-            ->only($this->fields)
+        return collect($this->fields)
+            ->mapWithKeys(static function (mixed $field, int|string $_key) use ($rowArray): array {
+                $keyString = \is_string($field) ? $field : (string) $field;
+
+                return [$keyString => $rowArray[$keyString] ?? null];
+            })
             ->toArray();
->>>>>>> f1d4085 (.)
-=======
-        return collect($item)->only($this->fields)->toArray();
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
+    }
+
+    /**
+     * @return array<int|string, mixed>
+     */
+    private function normalizeRow(mixed $row): array
+    {
+        if ($row === null) {
+            return [];
+        }
+
+        if ($row instanceof Arrayable) {
+            /* @var array<int|string, mixed> */
+            return $row->toArray();
+        }
+
+        if (\is_array($row)) {
+            /* @var array<int|string, mixed> */
+            return $row;
+        }
+
+        if ($row instanceof Traversable) {
+            /* @var array<int|string, mixed> */
+            return iterator_to_array($row);
+        }
+
+        return (array) $row;
     }
 }

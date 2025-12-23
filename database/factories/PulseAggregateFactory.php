@@ -7,10 +7,15 @@ namespace Modules\Xot\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\PulseAggregate;
 
+/**
+ * @extends Factory<PulseAggregate>
+ */
 class PulseAggregateFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
+     *
+     * @var class-string<PulseAggregate>
      */
     protected $model = PulseAggregate::class;
 
@@ -19,23 +24,6 @@ class PulseAggregateFactory extends Factory
      */
     public function definition(): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return [];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return [];
-=======
-        return [
-        ];
->>>>>>> f1d4085 (.)
-=======
-        return [];
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return [];
->>>>>>> 300ef70 (.)
     }
 }

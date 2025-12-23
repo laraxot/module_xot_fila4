@@ -9,41 +9,16 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseValueFactory;
 
 /**
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
- *
- * @method static PulseValueFactory factory($count = null, $state = [])
- * @method static Builder|PulseValue newModelQuery()
- * @method static Builder|PulseValue newQuery()
- * @method static Builder|PulseValue query()
- *
- * @property int $id
+ * @property string $id
  * @property int $timestamp
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $updater
  *
- * @method static Builder|PulseValue whereId($value)
- * @method static Builder|PulseValue whereKey($value)
- * @method static Builder|PulseValue whereKeyHash($value)
- * @method static Builder|PulseValue whereTimestamp($value)
- * @method static Builder|PulseValue whereType($value)
- * @method static Builder|PulseValue whereValue($value)
- *
- * @mixin \Eloquent
- */
-/**
- * @property string $id
- * @property int $timestamp
- * @property string $type
- * @property string $key
- * @property string $key_hash
- * @property string $value
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Xot\Database\Factories\PulseValueFactory factory($count = null, $state = [])
+ * @method static PulseValueFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseValue newModelQuery()
  * @method static Builder<static>|PulseValue newQuery()
  * @method static Builder<static>|PulseValue query()
@@ -53,6 +28,8 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @method static Builder<static>|PulseValue whereTimestamp($value)
  * @method static Builder<static>|PulseValue whereType($value)
  * @method static Builder<static>|PulseValue whereValue($value)
+ *
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

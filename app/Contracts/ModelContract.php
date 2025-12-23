@@ -10,6 +10,7 @@ namespace Modules\Xot\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Support\Carbon;
 
 /**
@@ -25,7 +26,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $title
  * @property bool $is_reclamed
  * @property bool $table_enable
- * @property PivotContract|null $pivot
+ * @property Pivot|null $pivot
  * @property string $tennant_name
  *
  * @method mixed getKey()
@@ -53,6 +54,14 @@ use Illuminate\Support\Carbon;
 interface ModelContract
 {
     /**
+     * Save a new model and return the instance. Allow mass-assignment.
+     *
+     * @return Model|$this
+     *
+     * public function forceCreate(array $attributes);
+     */
+
+    /**
      * Duplicate the instance and unset all the loaded relations.
      *
      * @return $this
@@ -72,56 +81,40 @@ interface ModelContract
      * @return bool
      */
     public function save(array $options = []);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-
-    /*
-     * Save a new model and return the instance. Allow mass-assignment.
-     *
-     * @return \Illuminate\Database\Eloquent\Model|$this
-     *
-     * public function forceCreate(array $attributes);
-     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    /*
-         * Save a new model and return the instance. Allow mass-assignment.
-         *
-         * @return \Illuminate\Database\Eloquent\Model|$this
-
-        public function forceCreate(array $attributes);
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
     /**
-     * Convert the model instance to an array.
+     * Convert the model instance to an array representation.
      *
-     * @return array
+     * @return array<mixed>
      */
     public function toArray();
 
     /**
      * Get the value of the model's primary key.
      *
-     * @return mixed|int|string
+     * @return mixed
      */
     public function getKey();
+
+    /**
+     * Get a relationship.
+     *
+     * @param  string  $key
+     *
+     * @phpstan-param string $key
+     *
+     * @return mixed
+     */
+    public function getRelationValue($key);
+
+    /**
+     * Create a new instance of the given model.
+     *
+     * @param  array  $attributes
+     * @param  bool  $exists
+     * @return static
+     */
+    public function newInstance($attributes = [], $exists = false);
 
     /*
      * Add a basic where clause to the query.
@@ -131,34 +124,9 @@ interface ModelContract
      * @param  mixed  $value
      * @param  string $boolean
      * @return $this
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-     * public function where($column, $operator = null, $value = null, $boolean = 'and');
-     */
-=======
-
-    public function where($column, $operator = null, $value = null, $boolean = 'and');
-    */
-
->>>>>>> f1d4085 (.)
-=======
-     *
-     * public function where($column, $operator = null, $value = null, $boolean = 'and');
-     */
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     *
-     * public function where($column, $operator = null, $value = null, $boolean = 'and');
-     */
->>>>>>> 300ef70 (.)
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -166,31 +134,7 @@ interface ModelContract
      * @return \Illuminate\Database\Eloquent\Model|static
      *
      * @throws \Illuminate\Database\Eloquent\ModelNotFoundException<\Illuminate\Database\Eloquent\Model>
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
      * public function firstOrFail($columns = ['*']);
      */
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-     * public function firstOrFail($columns = ['*']);
-     */
-=======
-
-    public function firstOrFail($columns = ['*']);
-    */
->>>>>>> f1d4085 (.)
-=======
-     *
-     * public function firstOrFail($columns = ['*']);
-     */
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     *
-     * public function firstOrFail($columns = ['*']);
-     */
->>>>>>> 300ef70 (.)
 }

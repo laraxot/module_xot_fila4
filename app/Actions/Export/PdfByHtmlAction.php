@@ -18,8 +18,9 @@ class PdfByHtmlAction
         string $filename = 'my_doc.pdf',
         string $disk = 'cache',
         string $out = 'download',
+        string $orientation = 'L',
     ): string|BinaryFileResponse {
-        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+        $html2pdf = new Html2Pdf($orientation, 'A4', 'it');
         $html2pdf->setTestTdInOnePage(false);
         $html2pdf->writeHTML($html);
         $path = Storage::disk($disk)->path($filename);
@@ -31,23 +32,7 @@ class PdfByHtmlAction
 
         return match ($out) {
             'download' => response()->download($path, $filename, $headers),
-<<<<<<< HEAD
-<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'content' => $html2pdf->output($path, 'S'), // D
-=======
-            'content' => $html2pdf->output($path, 'S'),  // D
->>>>>>> f1d4085 (.)
-=======
-            'content' => $html2pdf->output($path, 'S'), // D
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            'content' => $html2pdf->output($path, 'S'), // D
->>>>>>> 300ef70 (.)
             default => $path,
         };
     }

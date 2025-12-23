@@ -8,7 +8,6 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
 
 /**
  * Classe per ottenere una vista basata su una classe.
@@ -24,51 +23,12 @@ class GetViewByClassAction
      * @param  array<string, mixed>  $params  Parametri da passare alla vista
      * @param  string|null  $viewName  Nome personalizzato della vista
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(string $class, array $params = [], ?string $viewName = null): View
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-    public function execute(string $class, array $params = [], null|string $viewName = null): View
-    {
-        $viewName ??= $this->getViewNameFromClass($class);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function execute(string $class, array $params = [], ?string $viewName = null): View
-    {
-        $viewName = $viewName ?? $this->getViewNameFromClass($class);
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
-    }
-
-    /**
-     * Ottiene il nome della vista dal nome della classe.
-     *
-     * @param  string  $class  Nome della classe
-     */
-    protected function getViewNameFromClass(string $class): string
-    {
-        $parts = explode('\\', $class);
-        $className = end($parts);
-
-        return Str::kebab($className);
     }
 
     /**
@@ -79,8 +39,8 @@ class GetViewByClassAction
      */
     public function executeOld(string $class): string
     {
+        /** @var list<string> $arr PHPStan knows explode always returns array */
         $arr = explode('\\', $class);
-        Assert::isArray($arr);
 
         // Verifica che la classe sia nel namespace Modules
         if ($arr[0] !== 'Modules') {
@@ -94,22 +54,19 @@ class GetViewByClassAction
         $class_name = Str::kebab(class_basename($class));
 
         // Costruisci il percorso della view
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $module_low.'::pages.'.$class_name;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $module_low . '::pages.' . $class_name;
-=======
-        return $module_low.'::pages.'.$class_name;
->>>>>>> f1d4085 (.)
-=======
-        return $module_low . '::pages.' . $class_name;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return $module_low . '::pages.' . $class_name;
->>>>>>> 300ef70 (.)
+    }
+
+    /**
+     * Ottiene il nome della vista dal nome della classe.
+     *
+     * @param  string  $class  Nome della classe
+     */
+    protected function getViewNameFromClass(string $class): string
+    {
+        $parts = explode('\\', $class);
+        $className = end($parts);
+
+        return Str::kebab($className);
     }
 }

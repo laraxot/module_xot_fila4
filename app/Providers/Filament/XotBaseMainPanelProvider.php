@@ -17,13 +17,11 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Modules\User\Filament\Pages\Auth\Login;
 use Modules\User\Filament\Pages\MyProfilePage;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Pages\MainDashboard;
-use Nwidart\Modules\Facades\Module;
 
 abstract class XotBaseMainPanelProvider extends PanelProvider
 {
@@ -35,7 +33,13 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         $panel->id('admin')->path('admin');
 
-        if (! Module::has('Cms')) {
+        /** @var mixed $modules */
+        $modules = app('modules');
+        $hasCms = is_object($modules) && method_exists($modules, 'has')
+            ? (bool) $modules->has('Cms')
+            : false;
+
+        if (! $hasCms) {
             // $panel->login(Login::class);
             $panel->login();
         }
@@ -99,9 +103,12 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         // $profile_url = MyProfilePage::getUrl(panel: $panel->getId());
         $profile_url = '#';
 
+        $profileLabelRaw = __('user::default.profile.my_profile');
+        $profileLabel = is_string($profileLabelRaw) ? $profileLabelRaw : null;
+
         $panel->userMenuItems([
             MenuItem::make()
-                ->label(__('user::default.profile.my_profile'))
+                ->label($profileLabel)
                 ->url($profile_url)
                 ->icon('heroicon-o-user'),
         ]);

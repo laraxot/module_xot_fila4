@@ -12,10 +12,8 @@ class Cors
 {
     /**
      * Handle an incoming request.
-     *
-     * @return Response
      */
-    public function handle(Request $request, Closure $next)
+    public function handle(Request $request, Closure $next): Response
     {
         $response = $next($request);
 

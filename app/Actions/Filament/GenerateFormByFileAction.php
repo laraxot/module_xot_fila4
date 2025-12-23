@@ -90,16 +90,21 @@ class GenerateFormByFileAction
         // Otteniamo i metodi della classe risorsa
         $resourceMethods = get_class_methods($resourceInstance);
 
-        dd([
-            'class_name' => $class_name,
-            'model_name' => $modelClass,
+        \Illuminate\Support\Facades\Log::debug('GenerateFormByFileAction', [
+            'line' => __LINE__,
+            'method' => __METHOD__,
             'fillable' => $fillable,
-            // 't1'=>app($class_name)->form(app(\Filament\Schemas\Schema::class)),
-            'methods' => $resourceMethods,
-            'form_method' => $form_method,
-            'form_method_methods' => get_class_methods($form_method),
-            'body' => $body,
         ]);
+
+        // Contiamo gli input aggiunti
+        $inputCount = 0;
+        foreach ($fillable as $field) {
+            if (in_array($field, $resourceMethods)) {
+                $inputCount++;
+            }
+        }
+
+        return $inputCount;
     }
 
     /**
@@ -109,6 +114,8 @@ class GenerateFormByFileAction
      */
     public function ddFile(File $file): void
     {
+        // Debug information - commented out for production
+        /*
         dd([
             'getRelativePath' => $file->getRelativePath(), // =  ""
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
@@ -125,5 +132,6 @@ class GenerateFormByFileAction
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),
         ]);
+        */
     }
 }

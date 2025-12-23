@@ -10,8 +10,10 @@ use Filament\Pages\Concerns\InteractsWithFormActions;
 use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
+use LogicException;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
@@ -21,8 +23,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
  * following the architectural pattern of never extending Filament classes directly.
  *
  * @property ?string $model
- * @property ?array  $data
- * @property Schema  $form
+ * @property ?array $data
+ * @property Schema $form
  */
 abstract class XotBasePage extends FilamentPage implements HasForms
 {
@@ -91,9 +93,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
     /**
-     * Configure the form.
+     * Configure the schema.
      */
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->statePath('data');
     }
@@ -105,15 +107,15 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Returns the model class string or throws an exception if not set.
      */
     /**
-     * @return class-string<\Illuminate\Database\Eloquent\Model>
+     * @return class-string<Model>
      */
     public function getModel(): string
     {
-        if (null === static::$model) {
-            throw new \LogicException('Model class not set for page: '.static::class);
+        if (static::$model === null) {
+            throw new LogicException('Model class not set for page: '.static::class);
         }
 
-        /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
+        /** @var class-string<Model> $model */
         $model = static::$model;
 
         return $model;

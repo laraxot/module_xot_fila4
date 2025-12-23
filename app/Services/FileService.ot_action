@@ -624,7 +624,6 @@ class FileService
                     $filename1 = mb_substr($filename, $pos);
                     $filename = $filename0.''.$filename1;
                     // echo '<h3>'.$filename0.''.$filename1.'</h3>';
-                    // dd($tmp.'/'.$filename);
                     $new_url = $tmp.'/'.$filename;
                 } else {
                     $old_path = $viewNamespace.\DIRECTORY_SEPARATOR.$filename;

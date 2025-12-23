@@ -73,10 +73,12 @@
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
         "orchestra/testbench": "*",
-        "pestphp/pest": "^3.8",
-        "pestphp/pest-plugin-laravel": "^3.2",
+        "pestphp/pest": "*",
+        "pestphp/pest-plugin-laravel": "*",
+        "pestphp/pest-plugin-livewire": "*",
         "pestphp/pest-plugin-type-coverage": "^3.6",
-        "thecodingmachine/phpstan-safe-rule": "*"
+        "thecodingmachine/phpstan-safe-rule": "*",
+        "nunomaduro/phpinsights": "*"
     },
     "require-dev_comment": {
         "spatie/laravel-error-solutions": "*"
@@ -100,7 +102,6 @@
             "Modules\\Xot\\": "app/",
             "Modules\\Xot\\Database\\Factories\\": "database/factories/",
             "Modules\\Xot\\Database\\Seeders\\": "database/seeders/",
-            "Modules\\Xot\\Tests\\": "tests/",
             "Coolsam\\FilamentModules\\": "packages/coolsam/panel-modules/src/"
             
         },

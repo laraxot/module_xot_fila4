@@ -10,10 +10,9 @@ namespace Modules\Xot\Filament\Pages;
 
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
-use Filament\Pages\Page;
+use Filament\Widgets\WidgetConfiguration;
 use Illuminate\Support\Facades\Artisan;
 use Laraxot\SmtpHealthCheck\SmtpCheck;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 use Spatie\Health\Checks\Check;
@@ -37,16 +36,12 @@ use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
 
-class HealthPage extends Page
+class HealthPage extends XotBasePage
 {
-    use NavigationLabelTrait;
-
     /**
      * @var array<string, string>
      */
     protected $listeners = ['refresh-component' => '$refresh'];
-
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-heart';
 
     protected string $view = 'xot::filament.pages.health';
 
@@ -113,7 +108,7 @@ class HealthPage extends Page
     }
 
     /**
-     * @return array<int, \Filament\Widgets\WidgetConfiguration>
+     * @return array<int, WidgetConfiguration>
      */
     protected function getHeaderWidgets(): array
     {

@@ -5,7 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 use Exception;
+use Illuminate\Database\Eloquent\Model;
 use Override;
+use RuntimeException;
 
 class StatesChartWidget extends XotBaseChartWidget
 {
@@ -30,7 +32,7 @@ class StatesChartWidget extends XotBaseChartWidget
     {
         $label = static::transClass($this->model, 'widgets.states_chart.label');
         try {
-            /** @var class-string<\Illuminate\Database\Eloquent\Model> $modelClass */
+            /** @var class-string<Model> $modelClass */
             $modelClass = $this->model;
 
             $queryResult = $modelClass::selectRaw('state, COUNT(*) as count')
@@ -38,7 +40,7 @@ class StatesChartWidget extends XotBaseChartWidget
                 ->get();
 
             if (! is_object($queryResult) || ! method_exists($queryResult, 'keyBy')) {
-                throw new \RuntimeException('Invalid query result');
+                throw new RuntimeException('Invalid query result');
             }
 
             $states = $queryResult->keyBy('state');

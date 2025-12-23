@@ -18,10 +18,10 @@ class CopyAction
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
             } catch (Exception $e) {
-                dd(
-                    'Caught exception: ',
-                    $e->getMessage(),
-                    '\n['.__LINE__.']['.class_basename(static::class).']',
+                \Illuminate\Support\Facades\Log::error(
+                    'Caught exception: '.
+                    $e->getMessage().
+                    ' ['.__LINE__.']['.class_basename(static::class).']',
                 );
             }
         }

@@ -5,8 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\View\Components;
 
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\View as ViewFacade;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
+use RuntimeException;
 
 use function Safe\ob_end_clean;
 use function Safe\ob_start;
@@ -26,14 +28,19 @@ class XDebug extends Component
 
     public function render(): View
     {
-        /** @var view-string $view */
+        /** @var string $view */
         $view = app(GetViewAction::class)->execute($this->tpl);
+
+        if (! ViewFacade::exists($view)) {
+            throw new RuntimeException("View [{$view}] does not exist.");
+        }
+
+        /** @var view-string $view */
+
         /** @var array<string, string> $view_params */
         $view_params = [
             'html' => $this->debugStack(),
         ];
-
-        \dddx($view_params);
 
         return view($view, $view_params);
     }
@@ -41,7 +48,7 @@ class XDebug extends Component
     public function debugStack(): string
     {
         if (! \extension_loaded('xdebug')) {
-            throw new \RuntimeException('XDebug must be installed to use this function');
+            throw new RuntimeException('XDebug must be installed to use this function');
         }
 
         ob_start();

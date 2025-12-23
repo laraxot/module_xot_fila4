@@ -11,6 +11,8 @@ use Filament\Actions\DetachAction;
 use Filament\Actions\DetachBulkAction;
 use Filament\Actions\EditAction;
 use Filament\Resources\RelationManagers\RelationManager as FilamentRelationManager;
+use Filament\Tables\Columns\Column;
+use Filament\Tables\Columns\Layout\Component;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Filament\Resources\XotBaseResource;
@@ -112,7 +114,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         }
 
         // Ensure string keys always
-        /** @var array<string, \Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $assoc */
+        /** @var array<string, Column|Component> $assoc */
         $assoc = [];
         foreach ($res as $key => $column) {
             if (is_string($key)) {
@@ -128,7 +130,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             }
         }
 
-        /** @var array<string, \Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $assoc */
+        /** @var array<string, Column|Component> $assoc */
         return $assoc;
     }
 

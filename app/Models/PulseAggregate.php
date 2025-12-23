@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Database\Factories\PulseAggregateFactory;
 
 /**
  * @property string $id
@@ -17,7 +18,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $value
  * @property int|null $count
  *
- * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
+ * @method static PulseAggregateFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
  * @method static Builder<static>|PulseAggregate query()
@@ -30,6 +31,10 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate wherePeriod($value)
  * @method static Builder<static>|PulseAggregate whereType($value)
  * @method static Builder<static>|PulseAggregate whereValue($value)
+ *
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
  * @mixin \Eloquent
  */

@@ -124,7 +124,7 @@ class ExportXlsByCollection
      * Converte EloquentCollection in Support\Collection mantenendo i dati.
      *
      * @param  EloquentCollection<int, Model>  $eloquentCollection
-     * @return Collection<int|string, mixed>
+     * @return Collection<int, mixed>
      */
     protected function convertToSupportCollection(EloquentCollection $eloquentCollection): Collection
     {

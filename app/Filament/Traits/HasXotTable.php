@@ -68,15 +68,13 @@ trait HasXotTable
         if ($this->shouldShowAssociateAction()) {
             $actions['associate'] = AssociateAction::make()
                 ->label('')
-                ->icon('heroicon-o-paper-clip')
-                ->tooltip(__('user::actions.associate_user'));
+                ->icon('heroicon-o-paper-clip');
         }
 
         if ($this->shouldShowAttachAction()) {
             $actions['attach'] = AttachAction::make()
                 ->label('')
                 ->icon('heroicon-o-link')
-                ->tooltip(__('user::actions.attach_user'))
                 ->preloadRecordSelect();
         }
 
@@ -224,28 +222,24 @@ trait HasXotTable
         if (method_exists($resource, 'canView')) {
             $actions['view'] = ViewAction::make()
                 ->iconButton()
-                ->tooltip(__('user::actions.view'))
                 ->visible($resource::canView(...));
         }
 
         if (method_exists($resource, 'canEdit')) {
             $actions['edit'] = EditAction::make()
                 ->iconButton()
-                ->tooltip(__('user::actions.edit'))
                 ->visible($resource::canEdit(...));
         }
 
         if (method_exists($resource, 'canDelete')) {
             $actions['delete'] = DeleteAction::make()
                 ->iconButton()
-                ->tooltip(__('user::actions.delete'))
                 ->visible($resource::canDelete(...));
         }
 
         if ($this->shouldShowReplicateAction()) {
             $actions['replicate'] = ReplicateAction::make()
-                ->iconButton()
-                ->tooltip(__('user::actions.replicate'));
+                ->iconButton();
         }
 
         // Check if class has the getRelationship method
@@ -270,7 +264,7 @@ trait HasXotTable
                 ) {
                     $actions['detach'] = DetachAction::make()
                         ->iconButton()
-                        ->tooltip(__('user::actions.detach'));
+                        ->tooltip((string) __('user::actions.detach'));
                 }
             }
         }
@@ -428,8 +422,8 @@ trait HasXotTable
         Assert::isInstanceOf($model, Model::class);
 
         Notification::make()
-            ->title(__('user::notifications.table_missing.title'))
-            ->body(__('user::notifications.table_missing.body', [
+            ->title((string) __('user::notifications.table_missing.title'))
+            ->body((string) __('user::notifications.table_missing.body', [
                 'table' => $model->getTable(),
             ]))
             ->persistent()

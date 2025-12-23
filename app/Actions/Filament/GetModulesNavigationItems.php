@@ -4,18 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-use Filament\Facades\Filament;
+use Exception;
 use Filament\Navigation\NavigationItem;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Spatie\QueueableAction\QueueableAction;
+use Throwable;
+use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
-
-use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
 
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
@@ -36,22 +38,13 @@ class GetModulesNavigationItems
 
         $modules = TenantService::allModules();
         // TenantService::allModules() restituisce sempre array
-
         // Pre-load user roles to avoid N+1 queries
-        /** @var \Illuminate\Contracts\Auth\Authenticatable|null $user */
-        $user = auth()->user();
+        /** @var Authenticatable|null $user */
+        $user = Auth::user();
 
         /** @var array<int, string> $userRoles */
         $userRoles = [];
-        if (null !== $user && method_exists($user, 'roles') && method_exists($user, 'pluck')) {
-            try {
-                /** @var \Illuminate\Support\Collection<int, string> $rolesCollection */
-                $rolesCollection = $user->roles()->pluck('name');
-                $userRoles = $rolesCollection->toArray();
-            } catch (\Exception $e) {
-                $userRoles = [];
-            }
-        }
+        // Se serve re-introdurre un preload ruoli, farlo solo se il metodo è disponibile e tipizzato nel modello.
 
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
@@ -62,7 +55,7 @@ class GetModulesNavigationItems
             // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
             try {
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
-            } catch (\Throwable $e) {
+            } catch (Throwable $e) {
                 // Skip modulo non pronto/senza generator path config
                 continue;
             }
@@ -78,7 +71,7 @@ class GetModulesNavigationItems
                 /** @var array<string, mixed> $config */
                 $config = File::getRequire($configFilePath);
                 Assert::isArray($config, 'Il file di configurazione deve restituire un array');
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 continue;
             }
 
@@ -118,10 +111,10 @@ class GetModulesNavigationItems
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
                     /**
-                     * @var \Illuminate\Contracts\Auth\Authenticatable|null $user
+                     * @var Authenticatable|null $user
                      */
-                    $user = Filament::auth()->user();
-                    if (null === $user) {
+                    $user = Auth::user();
+                    if ($user === null) {
                         return false;
                     }
 
@@ -130,7 +123,8 @@ class GetModulesNavigationItems
                         return false;
                     }
 
-                    return $user->hasRole($role);
+                    /** @phpstan-ignore-next-line */
+                    return (bool) $user->hasRole($role);
                 });
 
             $navs[] = $nav;
@@ -150,7 +144,7 @@ class GetModulesNavigationItems
         $modules = TenantService::allModules();
         // TenantService::allModules() restituisce sempre array
 
-        $cacheKey = 'xot:navigation:modules:'.md5(json_encode($modules));
+        $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
 
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
@@ -175,7 +169,7 @@ class GetModulesNavigationItems
                     /** @var array<string, mixed> $config */
                     $config = File::getRequire($configFilePath);
                     Assert::isArray($config);
-                } catch (\Exception $e) {
+                } catch (Exception $e) {
                     continue;
                 }
                 $icon = $config['icon'] ?? 'heroicon-o-cube';

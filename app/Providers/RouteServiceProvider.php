@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
@@ -40,7 +41,7 @@ class RouteServiceProvider extends ServiceProvider
     public function boot(): void
     {
         parent::boot();
-        $router = app('router');
+        $router = app(Router::class);
 
         // $this->registerLang(); // ✅ Temporaneamente disabilitato per debug
         $this->registerRoutePattern($router);
@@ -67,8 +68,11 @@ class RouteServiceProvider extends ServiceProvider
         $langs = ['it', 'en'];
         $user = request()->user();
         $lang = app()->getLocale();
-        if ($user !== null) {
-            $lang = $user->lang ?? $lang;
+        if ($user instanceof Model) {
+            $userLang = $user->getAttribute('lang');
+            if (is_string($userLang) && $userLang !== '') {
+                $lang = $userLang;
+            }
         }
 
         // ✅ Controllo sicuro della configurazione laravellocalization

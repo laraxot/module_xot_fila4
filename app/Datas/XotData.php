@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Datas;
 
+use ArrayAccess;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -126,7 +127,7 @@ class XotData extends Data implements Wireable
     public function getUserByEmail(string $email): UserContract
     {
         $user_class = $this->getUserClass();
-        $userInstance = new $user_class;
+        $userInstance = new $user_class();
         if (! in_array('email', $userInstance->getFillable(), true)) {
             throw new Exception("Attribute 'email' not found in model ".$userInstance::class);
         }
@@ -341,12 +342,19 @@ class XotData extends Data implements Wireable
 
     public function getPubThemePublicPath(string $key = ''): string
     {
-        return base_path('themes/'.$this->pub_theme.'/'.$key);
+        return public_path('themes/'.$this->pub_theme.'/'.$key);
     }
 
     public function getPubThemePublicAsset(string $key = ''): string
     {
         return asset('themes/'.$this->pub_theme.'/'.$key);
+    }
+
+
+    public function getMailHtmlLayoutPath(string $key = ''): string
+    {
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/mail-layouts/'.$key);
+        return  $path0;
     }
 
     /**
@@ -362,7 +370,7 @@ class XotData extends Data implements Wireable
         }
 
         $types = $userInstance->getChildTypes();
-        if (! is_array($types) && ! ($types instanceof \ArrayAccess)) {
+        if (! is_array($types) && ! ($types instanceof ArrayAccess)) {
             throw new Exception('getChildTypes must return array or ArrayAccess');
         }
         $class = Arr::get($types, $type);
@@ -435,7 +443,7 @@ class XotData extends Data implements Wireable
         }
 
         $castsResult = $user_instance->getCasts();
-        if (! is_array($castsResult) && ! ($castsResult instanceof \ArrayAccess)) {
+        if (! is_array($castsResult) && ! ($castsResult instanceof ArrayAccess)) {
             throw new Exception('getCasts must return array or ArrayAccess');
         }
 

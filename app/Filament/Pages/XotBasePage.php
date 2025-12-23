@@ -14,8 +14,6 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use LogicException;
 use Modules\Xot\Actions\View\GetViewByClassAction;
@@ -89,58 +87,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
     /**
-     * Ottiene la chiave di traduzione per un dato key.
-     * Genera un percorso di traduzione standardizzato basato sul modulo e sul nome della classe.
-     *
-     * @param  string  $key  La chiave di traduzione specifica
-     * @param  array<string, bool|float|int|string>  $replace  Parametri di sostituzione per la traduzione
-     * @param  string|null  $locale  Locale da utilizzare (null = locale corrente)
-     * @param  bool  $useFallback  Se true, utilizza la chiave come fallback se la traduzione non esiste
-     * @return string La stringa tradotta o la chiave originale se non trovata
-     */
-    public static function getTranslatedString(
-        string $key,
-        array $replace = [],
-        ?string $locale = null,
-        bool $useFallback = true,
-    ): string {
-        $moduleNameLow = Str::lower(static::getModuleName());
-        $p = Str::after(static::class, 'Filament\\Pages\\');
-        $p_arr = explode('\\', $p);
-        $slug = collect($p_arr)->map(Str::kebab(...))->implode('.');
-
-        $translationKey = $moduleNameLow.'::'.$slug.'.'.$key;
-        $translation = __($translationKey, $replace, $locale);
-
-        if ($translation === $translationKey && App::environment('local', 'development', 'testing')) {
-            Log::warning("Traduzione mancante: {$translationKey}");
-
-            return $useFallback ? $key : $translationKey;
-        }
-
-        return (string) $translation;
-    }
-
-    /**
-     * Ottiene la chiave di traduzione per un dato key (alias per getTranslatedString).
-     * Genera un percorso di traduzione standardizzato basato sul modulo e sul nome della classe.
-     *
-     * @param  string  $key  La chiave di traduzione specifica
-     * @param  array<string, bool|float|int|string>  $replace  Parametri di sostituzione per la traduzione
-     * @param  string|null  $locale  Locale da utilizzare (null = locale corrente)
-     * @param  bool  $useFallback  Se true, utilizza la chiave come fallback se la traduzione non esiste
-     * @return string La stringa tradotta o la chiave originale se non trovata
-     */
-    public static function trans(
-        string $key,
-        array $replace = [],
-        ?string $locale = null,
-        bool $useFallback = true,
-    ): string {
-        return static::getTranslatedString($key, $replace, $locale, $useFallback);
-    }
-
-    /**
      * Ottiene l'etichetta plurale del modello.
      *
      * @return string L'etichetta plurale del modello
@@ -170,9 +116,11 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     {
         /** @phpstan-ignore property.staticAccess */
         if (static::$model !== null) {
-            /** @var class-string<Model> $model */
             /** @phpstan-ignore property.staticAccess */
-            return static::$model;
+            /** @var class-string<Model> $modelValue */
+            $modelValue = static::$model;
+
+            return $modelValue;
         }
 
         $moduleName = static::getModuleName();
@@ -207,9 +155,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Imposta lo schema e il percorso dello stato per il form.
      *
      * @param  \Filament\Schemas\Schema  $schema  Il form da configurare
-     * @return \Filament\Schemas\Schema Il form configurato
+     * @return \Filament\Schemas\Schema Lo schema configurato
      */
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         $schema = $schema->components($this->getFormSchema());
 
@@ -308,7 +256,10 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         }
 
         // Use method_exists to safely call hasPermissionTo
-        return $user->hasPermissionTo($permission);
+        /** @var bool $result */
+        $result = $user->hasPermissionTo($permission);
+
+        return $result;
     }
 
     /**

@@ -8,6 +8,7 @@ use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
+use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Contracts\Support\Htmlable;
@@ -15,6 +16,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Modules\Xot\Filament\Traits\TransTrait as XotTransTrait;
 use Override;
 
 /**
@@ -26,18 +28,7 @@ use Override;
  */
 abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 {
-    use HasXotTable;
-    use InteractsWithForms;
-    use NavigationLabelTrait {
-        NavigationLabelTrait::trans insteadof HasXotTable;
-        NavigationLabelTrait::getKeyTrans insteadof HasXotTable;
-        NavigationLabelTrait::getKeyTransFunc insteadof HasXotTable;
-        NavigationLabelTrait::getKeyTransClass insteadof HasXotTable;
-        NavigationLabelTrait::transClass insteadof HasXotTable;
-        NavigationLabelTrait::transFunc insteadof HasXotTable;
-        NavigationLabelTrait::transChoice insteadof HasXotTable;
-    }
-
+    use HasXotTable, InteractsWithForms;
     // protected static string $resource;
 
     /**
@@ -56,9 +47,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     // abstract public static function getFormSchema(): array;
 
     /**
-     * Configura lo schema del form per i record correlati.
+     * Configura lo schema per i record correlati.
      */
-    public function form(Schema $schema): Schema
+    public function schema(Schema $schema): Schema
     {
         // getFormSchema() sempre ritorna array per definizione
         $formSchema = $this->getFormSchema();
@@ -69,7 +60,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     /**
      * Restituisce lo schema del form per i record correlati.
      *
-     * @return array<\Filament\Schemas\Components\Component>
+     * @return array<Component>
      */
     public function getFormSchema(): array
     {

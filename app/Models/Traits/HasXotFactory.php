@@ -24,3 +24,4 @@ trait HasXotFactory
         return app(GetFactoryAction::class)->execute(static::class);
     }
 }
+

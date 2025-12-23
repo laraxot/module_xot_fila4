@@ -6,6 +6,8 @@ namespace Modules\Xot\Filament\Widgets;
 
 use Error;
 use Filament\Schemas\Components\Component;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\StateContract;
@@ -142,7 +144,7 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getCountForState(string $stateName): int
     {
-        /** @var \Illuminate\Database\Eloquent\Builder<\Illuminate\Database\Eloquent\Model> $query */
+        /** @var Builder<Model> $query */
         $query = $this->model::where('state', $stateName);
         $count = $query->count();
 

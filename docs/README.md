@@ -64,7 +64,8 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 ### Documenti Principali
 
 #### Qualità del Codice
-- **[Lo Zen degli Strumenti di Qualità](quality-tools-zen.md)** ⭐ NUOVO - Filosofia completa PHPStan, Larastan, Safe, Assert, PHPMD, PHP Insights
+- **[PHPStan Code Quality Guide](phpstan-code-quality-guide.md)** ⭐ NUOVO - Guida completa PHPStan Level 10, workflow operativo, patterns di correzione
+- **[Lo Zen degli Strumenti di Qualità](quality-tools-zen.md)** - Filosofia completa PHPStan, Larastan, Safe, Assert, PHPMD, PHP Insights
 - **[Best Practices Eloquent](eloquent-properties-best-practices.md)** - Guida completa per proprietà Eloquent
 - **[Report Rimozione property_exists](property-exists-removal-report-2025-01-05.md)** - Eliminazione completa di property_exists
 - **[Code Quality Rules](code-quality.md)** - Regole PHPStan, PHPMD, PHPInsights
@@ -72,9 +73,15 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 #### Framework e Convenzioni
 - [Convenzioni Laraxot](conventions.md) - Regole e convenzioni per lo sviluppo
 - [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
+- [Filament Extension Pattern](filament-extension-pattern.md) - Pattern di estensione Filament con XotBase
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
 - [Cast Actions](cast-actions.md) - Azioni di cast sicure
 - [Collegamenti](links.md) - Raccolta di link e riferimenti
+
+#### Configurazione IDE e AI
+- **[Configurazione Cartelle AI](../../../../docs/ai-folders-configuration.md)** ⭐ NUOVO - Guida completa alle cartelle AI (.cursor, .claude, .windsurf, etc.)
+- [MCP Servers](mcp-servers.md) - Configurazione Model Context Protocol
+- [MCP Implementation Guide](mcp-implementation-guide.md) - Guida implementazione MCP
 
 ### Moduli del Sistema
 

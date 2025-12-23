@@ -11,7 +11,6 @@ use Modules\Xot\Database\Factories\ExtraFactory;
 use Override;
 use Spatie\SchemalessAttributes\Casts\SchemalessAttributes;
 use Spatie\SchemalessAttributes\SchemalessAttributesTrait;
-use Webmozart\Assert\Assert;
 
 /**
  * Model Extra.
@@ -63,12 +62,8 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
         'extra_attributes',
     ];
 
-    public function scopeWithExtraAttributes(): Builder
-    {
-        Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
-
-        return $this->extra_attributes->modelScope();
-    }
+    // ✅ CORRETTO: NON implementare scopeWithExtraAttributes() manualmente
+    // Il trait SchemalessAttributesTrait lo fornisce automaticamente!
 
     /**
      * Get the attributes that should be cast.

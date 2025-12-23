@@ -5,10 +5,8 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 use Carbon\Carbon;
-use Exception;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
-use Override;
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
@@ -22,13 +20,13 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 
     protected ?string $pollingInterval = '300s'; // 5 minuti
 
-    #[Override]
+    #[\Override]
     public function getHeading(): ?string
     {
         return static::transClass($this->model, 'widgets.model_trend_chart.heading');
     }
 
-    #[Override]
+    #[\Override]
     protected function getData(): array
     {
         try {
@@ -43,7 +41,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
             return [
                 'datasets' => [
                     [
-                        'label' => __('salutemo::widgets.appointment_creation_chart.label'),
+                        'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
                         'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue
                             ? $value->aggregate
                             : 0),
@@ -57,12 +55,12 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
             ];
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             // Fallback appropriato senza logging inutile
             return [
                 'datasets' => [
                     [
-                        'label' => __('salutemo::widgets.appointment_creation_chart.label'),
+                        'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
                         'data' => [],
                         'backgroundColor' => 'rgba(139, 92, 246, 0.5)',
                         'borderColor' => 'rgb(139, 92, 246)',
@@ -75,7 +73,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
         }
     }
 
-    #[Override]
+    #[\Override]
     protected function getType(): string
     {
         return 'line';

@@ -34,6 +34,12 @@ use function Safe\json_encode;
  * @method static Builder<static>|Module wherePriority($value)
  * @method static Builder<static>|Module whereStatus($value)
  *
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\ModuleFactory factory($count = null, $state = [])
+ *
  * @mixin \Eloquent
  */
 final class Module extends BaseModel

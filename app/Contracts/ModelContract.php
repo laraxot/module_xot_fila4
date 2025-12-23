@@ -10,6 +10,7 @@ namespace Modules\Xot\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Support\Carbon;
 
 /**
@@ -25,7 +26,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $title
  * @property bool $is_reclamed
  * @property bool $table_enable
- * @property \Illuminate\Database\Eloquent\Relations\Pivot|null $pivot
+ * @property Pivot|null $pivot
  * @property string $tennant_name
  *
  * @method mixed getKey()

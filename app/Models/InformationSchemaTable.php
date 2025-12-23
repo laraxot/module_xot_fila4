@@ -13,6 +13,30 @@ use Modules\Tenant\Models\Traits\SushiToJson;
  * @property string $table_schema
  * @property string $table_name
  * @property string|null $model_class
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property string|null $created_by
+ * @property int $id
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\InformationSchemaTableFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereModelClass($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableRows($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableSchema($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+ *
+ * @mixin \Eloquent
  */
 class InformationSchemaTable extends BaseModel
 {
@@ -72,7 +96,7 @@ class InformationSchemaTable extends BaseModel
     /**
      * Aggiorna il numero di record memorizzato per un modello.
      *
-     * @param  class-string<\Illuminate\Database\Eloquent\Model>  $modelClass
+     * @param  class-string<Model>  $modelClass
      */
     public static function updateModelCount(string $modelClass, int $total): void
     {
@@ -102,7 +126,7 @@ class InformationSchemaTable extends BaseModel
     /**
      * Restituisce il numero di record per un modello.
      *
-     * @param  class-string<\Illuminate\Database\Eloquent\Model>  $modelClass
+     * @param  class-string<Model>  $modelClass
      */
     public static function getModelCount(string $modelClass): int
     {

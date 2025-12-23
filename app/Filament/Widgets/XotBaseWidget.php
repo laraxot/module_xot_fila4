@@ -4,21 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Filament\Actions\Action;
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Schema;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Database\Eloquent\Model;
+use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Modules\Xot\Filament\Traits\TransTrait;
+use Filament\Actions\Action;
+use Filament\Schemas\Schema;
 use Webmozart\Assert\Assert;
+use Filament\Forms\Contracts\HasForms;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\Support\Htmlable;
+use Modules\Xot\Filament\Traits\TransTrait;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Widgets\Widget as FilamentWidget;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Modules\Xot\Actions\View\GetViewByClassAction;
+use Filament\Actions\Concerns\InteractsWithActions;
 
 /**
  * Classe base astratta per tutti i widget Filament.
@@ -67,16 +69,32 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     protected int|string|array $columnSpan = 'full';
 
-    /*
-     * public function __construct()
-     * {
-     * //parent::__construct();//Cannot call constructor
-     * $view = app(GetViewByClassAction::class)->execute(static::class);
-     * if(view()->exists($view)){
-     * $this->view = $view;
-     * }
-     * }
-     */
+
+    public function __construct()
+    {
+        //parent::__construct();//Cannot call constructor
+        // Se la view è già definita manualmente e diversa dal default, non cercarla automaticamente
+        $defaultView = (new \ReflectionClass($this))->getDefaultProperties()['view'] ?? 'xot::filament.widgets.base';
+        if ($this->view !== $defaultView && view()->exists($this->view)) {
+            // View già definita manualmente, usala
+            return;
+        }
+        
+        // Cerca automaticamente la view basandosi sul nome della classe
+        try {
+            $view = app(GetViewByClassAction::class)->execute(static::class);
+            if (view()->exists($view)) {
+                $this->view = $view;
+            }
+        } catch (\Exception $e) {
+            // Se la view automatica non esiste, mantieni quella definita manualmente o il default
+            // Non lanciare eccezione se la view è già definita manualmente
+            if ($this->view === $defaultView) {
+                throw $e;
+            }
+        }
+    }
+
     /*
      * public function mount(): void
      * {
@@ -157,7 +175,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
                 return $model->getAttributes();
@@ -214,7 +232,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
         if (! view()->exists($submit_view)) {
-            throw new \Exception("View {$submit_view} does not exist");
+            throw new Exception("View {$submit_view} does not exist");
         }
 
         return Action::make('submit')

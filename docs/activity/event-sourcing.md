@@ -44,7 +44,3 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/develop

@@ -28,14 +28,8 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 
 ## Backlink
 - [Torna a README.md del modulo Xot](../README.md)
-<<<<<<< HEAD
-- [Collegamento a docs/links.md della root](../../../../docs/links.md)
-
-=======
-=======
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
->>>>>>> laraxot/develop
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica
@@ -171,8 +165,3 @@ Questa implementazione:
 L'utilizzo di `GetModulePathByGeneratorAction` anziché chiamate dirette a `module_path` rappresenta una best practice importante nel progetto il progetto. Questo approccio migliora la robustezza, la leggibilità e la manutenibilità del codice nei service provider.
 
 Si raccomanda di seguire questo pattern in tutti i service provider personalizzati per garantire coerenza e affidabilità nell'accesso ai percorsi dei moduli. 
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> laraxot/develop

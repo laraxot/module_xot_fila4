@@ -1,11 +1,7 @@
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
-<<<<<<< HEAD
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
-=======
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> laraxot/develop
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".
@@ -163,27 +159,18 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 ## Collegamenti Bidirezionali
 
 ### Documentazione Root
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 - [Struttura Traduzioni Espansa](/docs/translation-structure-expanded.md)
 - [Principi DRY/KISS](/docs/dry-kiss-principles.md)
 
 ### Documentazione Moduli Correlati
 - [Geo Module Translations](/Modules/Geo/docs/translation-structure-expanded.md)
 - [User Module Translations](/Modules/User/docs/translation-guidelines.md)
-<<<<<<< HEAD
-=======
-=======
 - [Struttura Traduzioni Espansa](/project_docs/translation-structure-expanded.md)
 - [Principi DRY/KISS](/project_docs/dry-kiss-principles.md)
 
 ### Documentazione Moduli Correlati
 - [Geo Module Translations](/Modules/Geo/project_docs/translation-structure-expanded.md)
 - [User Module Translations](/Modules/User/project_docs/translation-guidelines.md)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
 ### File di Implementazione
 - `lang/es/labels.php` - Etichette generali spagnole

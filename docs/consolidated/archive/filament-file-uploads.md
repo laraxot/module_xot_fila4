@@ -2,11 +2,7 @@
 
 ## Panoramica
 
-<<<<<<< HEAD
-Questo documento descrive le best practice per la gestione dei file upload nei form Filament di <nome progetto>, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
-=======
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di SaluteOra, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
->>>>>>> laraxot/develop
 
 ## Configurazione del Componente FileUpload
 

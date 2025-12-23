@@ -384,11 +384,7 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
-<<<<<<< HEAD
-### <nome progetto> Module (CRITICO)
-=======
 ### SaluteOra Module (CRITICO)
->>>>>>> laraxot/develop
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`

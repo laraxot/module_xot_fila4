@@ -192,20 +192,9 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 
 ## Collegamenti alla Documentazione Correlata
 
-<<<<<<< HEAD
-- [Filament Resources](/laravel/Modules/Xot/docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/docs/translation_rules.md)
-
 *Ultimo aggiornamento: 3 Giugno 2025*
-=======
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
-=======
-=======
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
 - [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> laraxot/develop

@@ -170,7 +170,3 @@ php artisan api:generate
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/develop

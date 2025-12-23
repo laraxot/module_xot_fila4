@@ -394,7 +394,3 @@ Action::make('delete')
 
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/develop

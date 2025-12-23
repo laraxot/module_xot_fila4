@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-=======
 Download the latest cacert.pem file from
 https://curl.se/docs/caextract.html
-=======
 Download the latest cacert.pem file from
 https://curl.se/project_docs/caextract.html
->>>>>>> laraxot/develop
 
 Update your php.ini file:  
 Locate your php.ini file and find the line ;curl.cainfo =.  
@@ -27,11 +23,7 @@ openssl.cafile = "C:\xampp\php\extras\ssl\cacert.pem"
 [curl]
 curl.cainfo = "PATH/TO/cacert.pem"
  
-<<<<<<< HEAD
-=======
  
-=======
->>>>>>> laraxot/develop
 
 [openssl]
 openssl.capath = "PATH/TO/cacert.pem"  
@@ -47,12 +39,8 @@ $client->setHttpClient($http);
 
 
 
-<<<<<<< HEAD
-=======
 
 
-=======
->>>>>>> laraxot/develop
 --------------------
 composer config -g -- disable-tls true  
 composer config -g secure-http false   
@@ -64,12 +52,6 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 
 
 
-<<<<<<< HEAD
-=======
-=======
 
 
 
-=======
-=======
->>>>>>> laraxot/develop

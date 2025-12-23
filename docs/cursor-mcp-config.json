@@ -3,11 +3,7 @@
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-<<<<<<< HEAD
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_quaeris_fila4_mono/laravel"],
-=======
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
->>>>>>> laraxot/develop
       "env": {}
     },
     "github": {
@@ -19,20 +15,12 @@
     },
     "git": {
       "command": "npx",
-<<<<<<< HEAD
-      "args": ["-y", "@modelcontextprotocol/server-git", "--repository", "/var/www/_bases/base_quaeris_fila4_mono"],
-=======
       "args": ["-y", "@modelcontextprotocol/server-git", "--repository", "."],
->>>>>>> laraxot/develop
       "env": {}
     },
     "sqlite": {
       "command": "npx",
-<<<<<<< HEAD
-      "args": ["-y", "@modelcontextprotocol/server-sqlite", "--db-path", "/var/www/_bases/base_quaeris_fila4_mono/laravel/database/database.sqlite"],
-=======
       "args": ["-y", "@modelcontextprotocol/server-sqlite", "--db-path", "./laravel/database/database.sqlite"],
->>>>>>> laraxot/develop
       "env": {}
     },
     "postgres": {
@@ -41,8 +29,6 @@
       "env": {
         "POSTGRES_CONNECTION_STRING": "${DATABASE_URL}"
       }
-<<<<<<< HEAD
-=======
     },
     "fetch": {
       "command": "npx",
@@ -59,7 +45,6 @@
     "laravel-docs": {
         "command": "npx",
         "args": ["-y", "@assistant-ui/mcp-docs-server"]
->>>>>>> laraxot/develop
     }
   }
 }

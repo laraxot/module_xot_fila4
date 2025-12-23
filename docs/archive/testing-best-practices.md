@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
-=======
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -210,7 +206,6 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 
 - [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
->>>>>>> laraxot/develop
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
@@ -218,9 +213,4 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
-<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
-=======
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> laraxot/develop

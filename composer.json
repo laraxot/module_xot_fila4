@@ -25,19 +25,9 @@
         "coolsam/panel-modules": "*",
         "doctrine/dbal": "*",
         "fidum/laravel-eloquent-morph-to-one": "*",
-<<<<<<< HEAD
         "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "*",
         
-=======
-        "filament/filament": "^4.0",
-        "filament/spatie-laravel-media-library-plugin": "^4.0",
-<<<<<<< HEAD
-        
-=======
-        "filament/spatie-laravel-translatable-plugin": "^4.0",
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",
@@ -112,6 +102,7 @@
             "Modules\\Xot\\": "app/",
             "Modules\\Xot\\Database\\Factories\\": "database/factories/",
             "Modules\\Xot\\Database\\Seeders\\": "database/seeders/",
+            "Modules\\Xot\\Tests\\": "tests/",
             "Coolsam\\FilamentModules\\": "packages/coolsam/panel-modules/src/"
             
         },

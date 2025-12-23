@@ -64,13 +64,8 @@
 ## Errori Comuni
 
 1. **Errore**: Directory errata
-<<<<<<< HEAD
-   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
-   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
-=======
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
->>>>>>> laraxot/develop
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`
@@ -82,14 +77,6 @@
 
 ## Collegamenti
 
-<<<<<<< HEAD
-- [Data Objects Patient](../Patient/docs/data-objects.md)
-=======
-<<<<<<< HEAD
-- [Data Objects Patient](../Patient/docs/data-objects.md)
-=======
 - [Data Objects Patient](../Patient/project_docs/data-objects.md)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 

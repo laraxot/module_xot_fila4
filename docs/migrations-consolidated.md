@@ -18,15 +18,7 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 - Qualsiasi documentazione migrazioni specifica di modulo
 
 ### ✅ Unica Fonte di Verità
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
-=======
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
-=======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 - **File migrazione**: Solo nei singoli moduli (codice, non docs)
 
 ## Principi Fondamentali Universali
@@ -392,11 +384,7 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
-<<<<<<< HEAD
-### <nome progetto> Module (CRITICO)
-=======
 ### SaluteOra Module (CRITICO)
->>>>>>> laraxot/develop
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -428,10 +416,6 @@ Tutti questi file sono DUPLICATI e vanno eliminati:
 
 ```bash
 # Activity
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 rm Modules/Activity/docs/database/migrations.md
 
 # Cms
@@ -459,9 +443,6 @@ rm Modules/Notify/docs/migrations_changelog.md
 
 # SaluteMo
 rm Modules/SaluteMo/docs/database/migrations.md
-<<<<<<< HEAD
-=======
-=======
 rm Modules/Activity/project_docs/database/migrations.md
 
 # Cms
@@ -489,22 +470,12 @@ rm Modules/Notify/project_docs/migrations_changelog.md
 
 # SaluteMo
 rm Modules/SaluteMo/project_docs/database/migrations.md
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
 # E tutti gli altri file duplicati...
 ```
 
 ### Mantenere Solo
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
-=======
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
-=======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 - **File migrazione**: Solo codice nei singoli moduli
 
 ## Troubleshooting Universale

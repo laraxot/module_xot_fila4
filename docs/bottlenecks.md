@@ -692,7 +692,3 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/docs/BOTTLENECKS.md)
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/develop

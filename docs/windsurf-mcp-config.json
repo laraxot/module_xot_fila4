@@ -3,11 +3,7 @@
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-<<<<<<< HEAD
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_quaeris_fila4_mono/laravel"],
-=======
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
->>>>>>> laraxot/develop
       "env": {}
     },
     "github": {
@@ -19,11 +15,7 @@
     },
     "git": {
       "command": "npx",
-<<<<<<< HEAD
-      "args": ["-y", "@modelcontextprotocol/server-git", "--repository", "/var/www/_bases/base_quaeris_fila4_mono"],
-=======
       "args": ["-y", "@modelcontextprotocol/server-git", "--repository", "."],
->>>>>>> laraxot/develop
       "env": {}
     },
     "postgres": {
@@ -35,12 +27,6 @@
     },
     "laravel-artisan": {
       "command": "node",
-<<<<<<< HEAD
-      "args": ["/var/www/_bases/base_quaeris_fila4_mono/laravel/Modules/Xot/docs/mcp-laravel-artisan-server.js"],
-      "env": {
-        "LARAVEL_PATH": "/var/www/_bases/base_quaeris_fila4_mono/laravel"
-      }
-=======
       "args": ["./laravel/Modules/Xot/docs/mcp-laravel-artisan-server.js"],
       "env": {
         "LARAVEL_PATH": "./laravel"
@@ -61,7 +47,6 @@
     "laravel-docs": {
         "command": "npx",
         "args": ["-y", "@assistant-ui/mcp-docs-server"]
->>>>>>> laraxot/develop
     }
   }
 }

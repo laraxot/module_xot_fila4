@@ -8,7 +8,10 @@ use PDO;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Database\Events\QueryExecuted;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+use Nwidart\Modules\Module;
+use Webmozart\Assert\Assert;
 use function Safe\preg_match;
 
 /**
@@ -61,16 +64,18 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function applyMemoryOptimizations(): void
     {
         // Ottimizza le query di default
-        DB::listen(function ($query) {
+        DB::listen(function (QueryExecuted $query): void {
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
+            Assert::numeric($threshold);
+            /** @var int|float $threshold */
             
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
                     'sql' => $query->sql,
                     'bindings' => $query->bindings,
                     'time' => $query->time,
-                    'connection' => $query->connectionName,
+                    'connection' => $query->connection->getName(),
                 ]);
             }
         });
@@ -91,10 +96,20 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             DB::enableQueryLog();
             
             // Log delle query alla fine della richiesta
-            app()->terminating(function () {
+            app()->terminating(function (): void {
                 $queries = DB::getQueryLog();
+                Assert::isArray($queries);
+                /** @var array<int, array<string, mixed>> $queries */
                 $totalQueries = count($queries);
-                $totalTime = array_sum(array_column($queries, 'time'));
+                
+                $times = [];
+                foreach ($queries as $query) {
+                    Assert::isArray($query);
+                    if (isset($query['time']) && \is_numeric($query['time'])) {
+                        $times[] = (float) $query['time'];
+                    }
+                }
+                $totalTime = array_sum($times);
                 
                 if ($totalQueries > 50 || $totalTime > 1000) {
                     Log::info('High query count or time detected', [
@@ -188,9 +203,12 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $modules = app('modules')->all();
                 
                 foreach ($modules as $module) {
-                    $configPath = $module->getPath() . '/Config/config.php';
+                    Assert::isInstanceOf($module, Module::class);
+                    $modulePath = $module->getPath();
+                    $configPath = $modulePath . '/Config/config.php';
                     if (file_exists($configPath)) {
-                        $configs[$module->getName()] = require $configPath;
+                        $moduleName = $module->getName();
+                        $configs[$moduleName] = require $configPath;
                     }
                 }
                 

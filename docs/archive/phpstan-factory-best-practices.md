@@ -2,11 +2,7 @@
 
 ## 🎯 Overview
 
-<<<<<<< HEAD
-Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
-=======
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
->>>>>>> laraxot/develop
 
 ## 📚 Principi Fondamentali
 
@@ -268,18 +264,6 @@ $result = $string . (string) $faker->method();
 ## 📝 Esempi Pratici
 
 ### Correzione Completa UserFactory
-<<<<<<< HEAD
-Vedere: `Modules/<nome progetto>/database/factories/UserFactory.php`
-
-### Factory Specializzate Corrette
-Vedere:
-- `Modules/<nome progetto>/database/factories/AdminFactory.php`
-- `Modules/<nome progetto>/database/factories/DoctorFactory.php`
-- `Modules/<nome progetto>/database/factories/PatientFactory.php`
-
-### Documentazione Implementazione
-Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
-=======
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -290,7 +274,6 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
->>>>>>> laraxot/develop
 
 ## 📊 Metriche di Successo
 
@@ -301,8 +284,4 @@ Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
-<<<<<<< HEAD
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
-=======
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
->>>>>>> laraxot/develop

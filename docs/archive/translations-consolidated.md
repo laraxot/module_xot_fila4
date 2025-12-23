@@ -18,15 +18,7 @@ Questo documento sostituisce e consolida **107+ file traduzioni duplicati** trov
 - Qualsiasi documentazione traduzioni specifica di modulo
 
 ### ✅ Unica Fonte di Verità
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
-=======
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
-=======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/translations-consolidated.md`
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 - **File lang**: Solo nei singoli moduli (contenuto, non docs)
 
 ## Principi Fondamentali Universali
@@ -285,11 +277,7 @@ return [
 - **Campi comuni**: `patient_id`, `doctor_id`, `date`, `notes`
 - **Stati**: `scheduled`, `completed`, `cancelled`
 
-<<<<<<< HEAD
-### <nome progetto> Module (CRITICO)
-=======
 ### SaluteOra Module (CRITICO)
->>>>>>> laraxot/develop
 - **Focus**: Core health platform, Appointments
 - **Campi comuni**: `appointment_id`, `patient_id`, `doctor_id`, `studio_id`
 - **Stati**: `scheduled`, `confirmed`, `in_progress`, `completed`, `cancelled`
@@ -360,20 +348,12 @@ TextInput::make('name') // Label automatica da traduzione
 ### Controlli Automatici (Tutti i Moduli)
 ```bash
 # Controllo chiavi hardcoded (tutti i moduli)
-<<<<<<< HEAD
-for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo <nome progetto> Tenant UI User Xot; do
-=======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
->>>>>>> laraxot/develop
     php artisan translation:check-hardcoded --module=$module
 done
 
 # Validazione sintassi (tutti i moduli)
-<<<<<<< HEAD
-for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo <nome progetto> Tenant UI User Xot; do
-=======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
->>>>>>> laraxot/develop
     php artisan translation:validate-syntax --module=$module
 done
 ```
@@ -385,10 +365,6 @@ Tutti questi file sono DUPLICATI e vanno eliminati:
 
 ```bash
 # Activity
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 rm Modules/Activity/docs/translations.md
 
 # Chart
@@ -413,16 +389,6 @@ rm Modules/Tenant/docs/translations.md
 rm Modules/UI/docs/translations.md
 rm Modules/UI/docs/translation-rules.md
 
-<<<<<<< HEAD
-# <nome progetto>
-rm Modules/<nome progetto>/docs/translation-files-improvement.md
-rm Modules/<nome progetto>/docs/translations.md
-rm Modules/<nome progetto>/docs/translation_quality_standards.md
-rm Modules/<nome progetto>/docs/translations-states-analysis.md
-rm Modules/<nome progetto>/docs/translation-rules.md
-rm Modules/<nome progetto>/docs/translation_standards.md
-rm Modules/<nome progetto>/docs/translations-appointments.md
-=======
 # SaluteOra
 rm Modules/SaluteOra/docs/translation-files-improvement.md
 rm Modules/SaluteOra/docs/translations.md
@@ -431,7 +397,6 @@ rm Modules/SaluteOra/docs/translations-states-analysis.md
 rm Modules/SaluteOra/docs/translation-rules.md
 rm Modules/SaluteOra/docs/translation_standards.md
 rm Modules/SaluteOra/docs/translations-appointments.md
->>>>>>> laraxot/develop
 
 # User
 rm Modules/User/docs/translations.md
@@ -443,9 +408,6 @@ rm Modules/Lang/docs/translation_keys_best_practices.md
 rm Modules/Lang/docs/translation-preservation-rules.md
 rm Modules/Lang/docs/translation_standards_links.md
 rm Modules/Lang/docs/translation_notify_conversion.md
-<<<<<<< HEAD
-=======
-=======
 rm Modules/Activity/project_docs/translations.md
 
 # Chart
@@ -489,22 +451,12 @@ rm Modules/Lang/project_docs/translation_keys_best_practices.md
 rm Modules/Lang/project_docs/translation-preservation-rules.md
 rm Modules/Lang/project_docs/translation_standards_links.md
 rm Modules/Lang/project_docs/translation_notify_conversion.md
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
 # E tutti gli altri 57+ file duplicati...
 ```
 
 ### Mantenere Solo
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
-=======
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
-=======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/translations-consolidated.md`
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 - **File lang**: Solo contenuto traduzioni nei singoli moduli
 
 ## Troubleshooting Universale

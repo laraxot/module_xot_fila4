@@ -1,9 +1,5 @@
 # Testing Best Practices - Laraxot Framework
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 ## 🏆 **Gold Standard Pattern**
 
 Basato sui successi misurabili dei test RegisterTypeWidgetTest.php (9/9 test passati) e RegisterTypeTest.php (10/14 test passati).
@@ -24,9 +20,6 @@ use Modules\{Module}\Filament\Widgets\{WidgetName};
 uses(\Modules\Xot\Tests\TestCase::class);
 
 // ✅ CRITICO: Mock XotData per ogni test
-<<<<<<< HEAD
-=======
-=======
 ## 🏆 Gold Standard per i Test
 
 - Preferire Pest a PHPUnit class-based.
@@ -44,30 +37,16 @@ use Modules\\{Module}\\Filament\\Widgets\\{WidgetName};
 
 uses(\\Modules\\Xot\\Tests\\TestCase::class);
 
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 beforeEach(function (): void {
     mockXotData();
 });
 
-<<<<<<< HEAD
-// ✅ CRITICO: Test diretti senza describe() o dataset()
-=======
-<<<<<<< HEAD
-// ✅ CRITICO: Test diretti senza describe() o dataset()
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 test('widget can be rendered', function () {
     Livewire::test({WidgetName}::class)
         ->assertStatus(200);
 });
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 ### XotData Mock Pattern (Obbligatorio)
 
 ```php
@@ -76,11 +55,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
-<<<<<<< HEAD
-        ->andReturn(\Modules\<nome progetto>\Models\User::class);
-=======
         ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> laraxot/develop
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -255,9 +230,6 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
 **Last Update**: Dicembre 2024 
-<<<<<<< HEAD
-=======
-=======
 ### Esempio unit test semplice
 ```php
 <?php
@@ -315,5 +287,3 @@ function mockXotData(): void
 Status: Best Practices consolidate — Last Update: Dicembre 2024
 
 
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop

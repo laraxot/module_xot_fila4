@@ -1072,7 +1072,3 @@ b6f667c (.)
 - Aggiornare la documentazione del modulo con esempi e riferimenti.
 
 Vedi anche la documentazione specifica del modulo per dettagli e casi particolari.
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/develop

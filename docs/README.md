@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -14,6 +12,26 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 
 ## 🔧 Correzioni Recenti
 
+### Fix Critici (Gennaio 2025)
+
+1. **Merge Conflict Cleanup Massivo**
+   - Risolti **546 file** con conflitti Git nel modulo Xot usando `gcr_resolve_incoming`
+   - Strategia: prendere sempre la versione "incoming" per garantire coerenza
+   - Tutti i conflitti risolti automaticamente senza perdita di dati
+
+2. **PHPStan Level 10 Compliance**
+   - Risolti 2 errori PHPStan in `FilamentOptimizationServiceProvider.php`:
+     - `Cannot access property $time on mixed` → Aggiunto PHPDoc `@param QueryExecuted $query`
+     - `Cannot call method getName() on mixed` → Aggiunto `Assert::isInstanceOf($module, Module::class)`
+   - **PHPStan passa con 0 errori** per tutto il modulo Xot
+   - Rimossi `Assert::string()` ridondanti dopo type narrowing
+
+3. **Code Quality Tools**
+   - PHPMD: Solo warning di qualità (naming, complexity), nessun errore bloccante
+   - PHPInsights: Verifica completata (richiede `composer.lock` per security check)
+
+**Dettagli**: vedi [bugfix-hasxottable-duplicate-if.md](./bugfix-hasxottable-duplicate-if.md) e [syntax-errors-mass-fix.md](./syntax-errors-mass-fix.md)
+
 ### Fix Critici (Novembre 2025)
 
 1. **Merge Conflict Cleanup**
@@ -27,8 +45,6 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 3. **Documentazione**
    - Guide conflitti riscritta (v2.0) con approccio filosofico
    - Documenti di bugfix e analisi inseriti in docs/Xot
-
-**Dettagli**: vedi [bugfix-hasxottable-duplicate-if.md](./bugfix-hasxottable-duplicate-if.md) e [syntax-errors-mass-fix.md](./syntax-errors-mass-fix.md)
 
 ---
 
@@ -160,8 +176,6 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
-=======
-=======
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
@@ -174,15 +188,11 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
-=======
 ## Quick Links Legacy
-=======
 ## Quick Links Legacy
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
-=======
-=======
 # Xot Module - Framework Base Laraxot
 
 **Status**: Core Module - Cuore del Framework  
@@ -469,4 +479,3 @@ Il modulo Xot ha raggiunto la piena conformità PHPStan Level 10 senza compromes
 **🐛 PHPStan Level 10**: Classi base certificate ✅  
 **🌐 Translation Standards**: Template traduzioni certificate ✅  
 **🚀 Performance**: 98/100 score
->>>>>>> laraxot/develop

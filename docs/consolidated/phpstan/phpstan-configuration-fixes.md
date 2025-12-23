@@ -16,17 +16,10 @@ ignoreErrors:
     - '#Method .+::.+ should return .+<.+, (.+)> but returns .+<.+, \$this\(\1\)>#' # Ignora errori di covarianza nei tipi generici delle relazioni Eloquent
 ```
 
-<<<<<<< HEAD
-**Moduli Interessati**: <nome progetto>, Geo, User, e tutti i moduli con relazioni Eloquent
-
-**Documentazione Specifica**: 
-- [<nome progetto> - PHPStan Relationship Covariance Fix](../<nome progetto>/project_docs/phpstan-relationship-covariance-fix.md)
-=======
 **Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
 - [SaluteOra - PHPStan Relationship Covariance Fix](../SaluteOra/project_docs/phpstan-relationship-covariance-fix.md)
->>>>>>> laraxot/develop
 
 ### 2. Cast da Mixed
 

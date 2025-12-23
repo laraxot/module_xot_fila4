@@ -136,7 +136,3 @@ php artisan serve
 * [installation.md](../../../Cms/docs/installation.md)
 * [installation.md](../../../../Themes/One/docs/installation.md)
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/develop

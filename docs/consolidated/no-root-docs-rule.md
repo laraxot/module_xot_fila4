@@ -1,13 +1,8 @@
 # REGOLA CRITICA: Cartelle docs root VIETATE
 
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
-<<<<<<< HEAD
-- `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
-- `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
-=======
 - `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
 - `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
->>>>>>> laraxot/develop
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -34,11 +29,7 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 ## CONTROLLI AUTOMATICI:
 ```bash
 # Comando per verificare che non esistano cartelle docs root
-<<<<<<< HEAD
-find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
-=======
 find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
->>>>>>> laraxot/develop
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```

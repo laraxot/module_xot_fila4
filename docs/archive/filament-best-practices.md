@@ -57,11 +57,7 @@ public static function getFormSchema(): array
 
 ```php
 // NON FARE MAI QUESTO
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
 public static function form(Form $form): Form
->>>>>>> laraxot/develop
 {
     return $form->schema([
         // componenti...
@@ -593,18 +589,8 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ## Riferimenti
 
 - [Documentazione Filament](https://filamentphp.com/docs)
-<<<<<<< HEAD
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
-=======
-<<<<<<< HEAD
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
-=======
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 
 ## Regole per Widget Filament: Path View e Localizzazione
 
@@ -616,21 +602,13 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 
 ### Esempio corretto
 ```php
-<<<<<<< HEAD
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> laraxot/develop
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
-<<<<<<< HEAD
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> laraxot/develop
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

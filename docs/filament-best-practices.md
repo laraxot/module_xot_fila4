@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -55,19 +50,6 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
    TextInput::make('name') // Label gestita da LangServiceProvider
    ```
 
-<<<<<<< HEAD
-5. **SEMPRE** usare il tipo importato per `$subNavigationPosition`:
-   ```php
-   // ❌ ERRATO - Fully qualified name
-   protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
-   
-   // ✅ CORRETTO - Tipo importato
-   use Filament\Pages\Enums\SubNavigationPosition;
-   protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
-   ```
-
-=======
->>>>>>> laraxot/develop
 ### Pagine
 
 1. **SEMPRE** estendere le classi base di Xot:
@@ -184,11 +166,6 @@ public function getTableColumns(): array
         'created_at' => Tables\Columns\TextColumn::make('created_at')
             ->dateTime('d/m/Y H:i')
             ->sortable(),
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -244,10 +221,6 @@ public static function getFormSchema(): array
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 ## Regole per XotBaseEditRecord
 
 ### Implementazione Corretta
@@ -317,20 +290,11 @@ class CreateAppointment extends XotBaseCreateRecord
 ## Esempi di Implementazione Corretta
 
 ### ReportResource.php - IMPLEMENTAZIONE CORRETTA
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
 // NON FARE MAI QUESTO
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
 public static function form(Form $form): Form
->>>>>>> laraxot/develop
 {
     return $form->schema([
         // componenti...
@@ -378,10 +342,6 @@ TextInput::make('nome')
 ```php
 <?php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 declare(strict_types=1);
 
 namespace Modules\SaluteMo\Filament\Resources;
@@ -432,11 +392,6 @@ class ReportResource extends XotBaseResource
             'create' => Pages\CreateReport::route('/create'),
             'edit' => Pages\EditReport::route('/{record}/edit'),
         ];
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -526,10 +481,6 @@ class SocioResource extends XotBaseResource
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/develop
 ## Checklist di Conformità
 
 Prima di considerare completa una risorsa Filament, verificare:
@@ -569,34 +520,6 @@ Prima di considerare completa una risorsa Filament, verificare:
 3. **Inventare campi che non esistono nel modello**
 4. **Definire `navigationIcon` se si estende `XotBaseResource`**
 5. **Non implementare metodi obbligatori come `getFormSchema()`**
-<<<<<<< HEAD
-6. **Usare fully qualified names per tipi già importati (es. `$subNavigationPosition`)**
-
-## Bugfix Documentati
-
-### Errore SubNavigationPosition Type (Gennaio 2025)
-
-**Problema**: Errore di tipo PHP `Type of Modules\Xot\Filament\Resources\XotBaseResource::$subNavigationPosition must be ?Filament\Pages\Enums\SubNavigationPosition`
-
-**Causa**: Uso di fully qualified name `\Filament\Pages\Enums\SubNavigationPosition` invece del tipo importato `SubNavigationPosition`
-
-**Soluzione**: 
-```php
-// PRIMA (errato)
-protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
-
-// DOPO (corretto)
-use Filament\Pages\Enums\SubNavigationPosition;
-protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
-```
-
-**File Corretti**:
-- `Modules/Xot/app/Filament/Resources/XotBaseResource.php`
-- `Modules/Incentivi/app/Filament/Resources/ProjectResource.php`
-
-**Prevenzione**: Sempre usare tipi importati invece di fully qualified names quando l'import è già presente nel file.
-=======
->>>>>>> laraxot/develop
 
 ## File Corretti
 
@@ -620,11 +543,6 @@ protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPo
    - **Indirizzo e contatti**: via, cap, regione_id, provincia_id, etc.
    - **Dati bancari**: iban, intestatario, banca, filiale
    - **Modalità di ricezione**: Lista di modalità selezionabili
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> laraxot/develop
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo
@@ -1033,21 +951,13 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 
 ### Esempio corretto
 ```php
-<<<<<<< HEAD
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
-=======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> laraxot/develop
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
-<<<<<<< HEAD
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
-=======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> laraxot/develop
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -1102,7 +1012,3 @@ Appointment::where('doctor_id', $doctorId)
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/develop

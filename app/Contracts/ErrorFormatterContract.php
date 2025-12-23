@@ -23,4 +23,8 @@ interface ErrorFormatterContract
      * @return array<string, mixed>
      */
     public function format(): array;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> f1d4085 (.)

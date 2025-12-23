@@ -191,7 +191,10 @@ test('complete tax filing process', function () {
 
 ## 🏢 Domain-Specific Recommendations
 
+<<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
+=======
+>>>>>>> f1d4085 (.)
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 
 **Rationale**: 
@@ -373,7 +376,10 @@ test('legacy feature with mocks', function () {
 
 ### Final Recommendation
 
+<<<<<<< HEAD
 **For  Healthcare Domain**: 
+=======
+>>>>>>> f1d4085 (.)
 **For SaluteOra Healthcare Domain**: 
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 

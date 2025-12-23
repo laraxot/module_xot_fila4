@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
@@ -19,6 +22,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 =======
 <?php return array (
   'actions' => 
@@ -42,3 +46,5 @@ return [
   ),
 );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

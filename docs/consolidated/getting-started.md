@@ -73,6 +73,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 ./vendor/bin/jigsaw build
 
 # compile assets with Laravel Mix
+<<<<<<< HEAD
 # options: dev, prod
 npm run dev
 ```
@@ -84,6 +85,8 @@ npm run dev
 # options: dev, prod
 npm run dev
 ```
+=======
+>>>>>>> laraxot/develop
 
 # options: dev, prod
 npm run dev
@@ -105,5 +108,8 @@ npm run dev
 
 ---
 
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> laraxot/develop

@@ -615,4 +615,7 @@ public function getTableBulkActions(): array
 
 ---
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/develop

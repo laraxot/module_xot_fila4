@@ -1,6 +1,10 @@
 # PHPStan Code Quality Guide - Laraxot
 
+<<<<<<< HEAD
 **Ultimo aggiornamento**: 2025-12-22  
+=======
+**Ultimo aggiornamento**: 2025-01-10  
+>>>>>>> laraxot/develop
 **Principi**: DRY + KISS + SOLID + Robust  
 **Stack**: Laravel 12 + Filament 4 + PHP 8.3 + Laraxot  
 **Obiettivo**: 0 errori PHPStan Level 10 + Complexity < 10 + Quality > 80%
@@ -12,7 +16,12 @@
 1. [Regole Assolute](#-regole-assolute)
 2. [Quick Reference - Comandi](#-quick-reference---comandi-essenziali)
 3. [Workflow Operativo](#-workflow-operativo)
+<<<<<<< HEAD
 4. [Regole Architetturali](#-regole-architetturali)
+=======
+4. [Autonomous Priority Rule](./autonomous-priority-rule.md) (NEW!)
+5. [Regole Architetturali](#-regole-architetturali)
+>>>>>>> laraxot/develop
 5. [Patterns di Correzione](#-patterns-di-correzione)
 6. [Complexity Reduction](#-complexity-reduction-patterns)
 7. [Widget Best Practices](#-widget-best-practices)
@@ -21,7 +30,10 @@
 10. [Filament Class Extensions](#-filament-class-extension-rules)
 11. [Anti-Pattern da Evitare](#-anti-pattern-da-evitare)
 12. [Checklist e Mantra](#-checklist-e-mantra-finale)
+<<<<<<< HEAD
 13. [Approccio Fix, Don't Ignore](#-approccio-fix-dont-ignore)
+=======
+>>>>>>> laraxot/develop
 
 ---
 
@@ -40,6 +52,7 @@
 - **Property exists**: NON funziona con magic attributes Eloquent - usa `isset()`
 - **Complexity target**: Ogni metodo < 10 cyclomatic complexity
 - **Function length**: Ogni metodo < 20 righe (target), max 50 righe
+<<<<<<< HEAD
 - **Workflow modulo per modulo**: Lavora un modulo alla volta, completa tutti gli errori, poi passa al successivo
 - **Mixed solo come ultima spiaggia**: Evita `mixed` quando possibile - usa union types, type narrowing, generics
 - **Contracts**: Se errori nei contracts, probabilmente è il contratto da cambiare (soprattutto con trait vendor)
@@ -48,6 +61,8 @@
 - **Test in Pest**: Tutti i test devono essere in Pest
 - **Test business behavior**: Testa il comportamento business, non l'implementazione
 - **DRY + KISS**: Sempre applicare - non duplicare, non complicare
+=======
+>>>>>>> laraxot/develop
 
 ---
 
@@ -55,10 +70,17 @@
 
 ```bash
 # Analisi PHPStan completa
+<<<<<<< HEAD
 cd laravel
 ./vendor/bin/phpstan analyse Modules --memory-limit=-1
 
 # Analisi singolo modulo (workflow consigliato)
+=======
+cd /var/www/_bases/base_laravelpizza/laravel
+./vendor/bin/phpstan analyse Modules --memory-limit=-1
+
+# Analisi singolo modulo
+>>>>>>> laraxot/develop
 ./vendor/bin/phpstan analyse Modules/{ModuleName} --memory-limit=-1
 
 # Analisi file specifico
@@ -69,6 +91,7 @@ composer dump-autoload && php artisan config:clear && php artisan cache:clear
 
 # Code Quality Tools
 ./vendor/bin/pint --dirty                    # Format changed files
+<<<<<<< HEAD
 ./vendor/bin/phpmd path/to/file text cleancode,codesize,design,naming
 ./vendor/bin/phpinsights analyse Modules/{Module} --format=table
 
@@ -80,10 +103,18 @@ composer dump-autoload && php artisan config:clear && php artisan cache:clear
 ./vendor/bin/pint --dirty
 ./vendor/bin/phpmd Modules/{Module} text codesize
 ./vendor/bin/phpinsights analyse Modules/{Module}
+=======
+php phpmd.phar path/to/file text cleancode,codesize,design,naming
+./vendor/bin/phpinsights analyse Modules/{Module} --format=table
+
+# Complexity Analysis
+php phpmd.phar Modules/{Module} text codesize --reportfile /tmp/complexity.txt
+>>>>>>> laraxot/develop
 ```
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 Workflow Operativo
 
 ### Fase 1: Preparazione
@@ -122,6 +153,172 @@ php artisan config:clear
 php artisan cache:clear
 ```
 
+=======
+## 🎯 Workflow Operativo - Metodologia "Super Mucca"
+
+### Fase 0: SCELTA PRIORITÀ 🎯
+
+**REGOLA FONDAMENTALE**: L'AI Assistant DEVE SEMPRE scegliere autonomamente la priorità dei task.
+
+**Criteri di Priorità**:
+1. **CRITICO**: Conflitti Git, errori PHPStan L10, bug sicurezza, errori sintassi
+2. **ALTO**: Refactoring architetturale, documentazione critica, performance issues
+3. **MEDIO**: Miglioramenti codice, documentazione generale, test coverage
+4. **BASSO**: Code style, commenti, ottimizzazioni minori
+
+**Output**: Priorità chiara e motivata
+
+### Fase 1: ANALISI PROFONDA 🔍
+
+**Obiettivo**: Capire il PERCHÉ, non solo il COSA
+
+1. **Aumenta confidenza**: Studia architettura e business logic
+2. **Studia docs**: Leggi `Modules/{Modulo}/docs/` e `Themes/{Tema}/docs/`
+3. **Comprendi filosofia**: Logica, politica, business logic, scopo del progetto
+4. **Identifica problemi**: Elenca tutti i problemi identificati
+
+**Domande da Porsi**:
+- 🤔 Qual è la **business logic** di questo codice?
+- 🎯 Qual è lo **scopo** di questa funzionalità?
+- 🧘 Qual è la **filosofia** architettuale?
+- 📊 Quali sono le **dipendenze** e gli **impatti**?
+- 🔗 Come si **integra** con altri moduli?
+
+**Output**: Comprensione profonda del contesto
+
+### Fase 2: AGGIORNA E STUDIA DOCS 📚
+
+**Obiettivo**: Mantenere la documentazione come "memoria viva" del progetto
+
+1. **Verifica esistenza**: Prima di creare un nuovo file `.md`, controlla che non esista già un documento sullo stesso argomento.
+2. **Naming files**: Nomi dei file `.md` in minuscolo, senza date, eccetto `README.md` e `CHANGELOG.md`.
+3. **Posizione**: Crea file `.md` **solo** dentro le cartelle `docs` esistenti (`Modules/{ModuleName}/docs/` o `Themes/{ThemeName}/docs/`). NON creare nuove cartelle `docs`.
+4. **Contenuto**: Documenta ciò che stai per fare, le decisioni prese, i pattern applicati, i bugfix, le analisi delle pagine.
+5. **Link relativi**: Usa sempre link relativi nei file `.md`.
+
+**Output**: Documentazione aggiornata e conforme alle regole
+
+### Fase 3: LITIGA FURIOSAMENTE CON TE STESSO (Ragionamento) 🧠
+
+**Obiettivo**: Trovare la soluzione più Laraxot-compliant, DRY, KISS, SOLID, Robust
+
+1. **Brainstorming**: Genera diverse soluzioni possibili.
+2. **Valutazione**: Analizza ogni soluzione rispetto ai principi Laraxot e agli obiettivi del progetto.
+3. **Conflitto Interno**: Metti in discussione le tue ipotesi, cerca i punti deboli.
+4. **Decisione**: Scegli la soluzione migliore e giustificala.
+
+**Output**: Decisione chiara sulla soluzione da implementare e motivazioni
+
+### Fase 4: IMPLEMENTA 💻
+
+**Obiettivo**: Scrivere codice pulito, efficiente e conforme agli standard
+
+1. **Scrivi codice**: Implementa la soluzione scelta.
+2. **Type Safety**: Usa `declare(strict_types=1);`, type hints rigorosi, gestisci nullable values, array con strutture definite.
+3. **Webmozart Assert**: Usa `Webmozart\Assert\Assert` per validazioni robuste.
+4. **TheCodingMachine Safe**: Usa `TheCodingMachine\Safe` per funzioni PHP sicure.
+5. **Complexity Reduction**: Applica pattern come "Extract Method", "Guard Clauses", "Template Method", "Strategy Pattern", "Single Responsibility Principle".
+6. **Filament Class Extensions**: Estendi sempre classi `XotBase` (vedi sezione [Filament Class Extensions](#-filament-class-extension-rules)).
+7. **Traduzioni**: NON usare `->label()`, `->placeholder()`, `->tooltip()` direttamente; usa file di traduzione.
+8. **Actions vs Services**: Preferisci `Spatie\QueueableAction\QueueableAction` per la business logic.
+9. **Eloquent Magic Properties**: Usa `isset()` invece di `property_exists()` per gli attributi magici dei modelli Eloquent.
+10. **Filament Methods Return Types**: Assicurati che metodi come `getTableColumns`, `getFormSchema`, `getTableBulkActions`, `getTableActions`, `getTableFilters`, `getHeaderActions` restituiscano `array<string, mixed>` (array associativi).
+
+**Output**: Codice implementato
+
+### Fase 5: CONTROLLA E CORREGGI (Verifica Incrementale) ✅
+
+**Obiettivo**: Garantire 0 errori PHPStan L10, complexity < 10, quality > 80%
+
+1. **PHPStan Level 10**: Esegui `./vendor/bin/phpstan analyse --level=10 path/to/file.php`. Corregge **TUTTI** gli errori. NON procedere se ci sono errori.
+2. **PHPMD**: Esegui `./phpmd.phar path/to/file.php text cleancode,codesize,design`. Risolvi code smells.
+3. **PHPInsights**: Esegui `./vendor/bin/phpinsights analyse path/to/file.php`. Verifica qualità complessiva.
+4. **Pint**: Esegui `./vendor/bin/pint --dirty` per formattare il codice.
+5. **Autoload**: `composer dump-autoload && php artisan config:clear && php artisan cache:clear`.
+6. **Applicazione si avvia**: Verifica che l'applicazione si avvii senza errori.
+
+**Output**: Codice verificato e corretto, pronto per il miglioramento
+
+**Output**: Codice corretto e verificato
+
+### Fase 6: CONTROLLA (Triple Check) ✅
+
+**Obiettivo**: Zero errori, massima qualità
+
+```bash
+# 1. PHPStan Level 10
+./vendor/bin/phpstan analyse path/to/File.php --level=10 --error-format=table
+
+# 2. PHPMD (Complexity)
+./vendor/bin/phpmd path/to/File.php text codesize,cleancode
+
+# 3. PHP Insights (Quality Score)
+./vendor/bin/phpinsights analyse path/to/File.php --format=table
+
+# 4. Pint (Formatting)
+./vendor/bin/pint path/to/File.php
+```
+
+**Thresholds Obbligatori**:
+- ✅ PHPStan: 0 errori Level 10
+- ✅ Complexity: < 10 per metodo
+- ✅ Function Length: < 20 righe (target), max 50
+- ✅ Quality Score: > 80%
+
+**Se NON passa**: Torna a Fase 2 (Litiga) e ripensa l'approccio
+
+### Fase 7: VERIFICA 🧪
+
+**Obiettivo**: Conferma funzionamento completo
+
+```bash
+# 1. Autoload
+composer dump-autoload
+
+# 2. Cache clear
+php artisan config:clear
+php artisan cache:clear
+
+# 3. Test (se esistono)
+php artisan test --filter={TestName}
+
+# 4. PHPStan finale
+./vendor/bin/phpstan analyse Modules/{ModuleName} --level=10
+```
+
+**Checklist Verifica**:
+- [ ] Composer autoload OK?
+- [ ] PHPStan 0 errori?
+- [ ] PHPMD complexity OK?
+- [ ] PHP Insights quality OK?
+- [ ] Test passano (se esistono)?
+- [ ] Runtime funziona?
+
+**Output**: Verifica completa del funzionamento
+
+### Fase 8: MIGLIORA 🚀
+
+**Obiettivo**: Eccellenza oltre la compliance
+
+**Domande per Miglioramento**:
+- 💡 Posso ridurre ulteriormente la complexity?
+- 💡 Posso estrarre metodi per maggiore chiarezza?
+- 💡 Posso migliorare i nomi di variabili/metodi?
+- 💡 Posso aggiungere PHPDoc più descrittivi?
+- 💡 Ci sono pattern riutilizzabili da estrarre?
+
+**Output**: Codice migliorato e ottimizzato
+
+### Fase 9: AGGIORNA DOCS (DOPO) 📝
+
+**Obiettivo**: Conoscenza permanente per il team
+
+1. **Finalizza documentazione**: Dettagli dell'implementazione
+2. **Documenta decisioni**: Motivazioni e scelte architetturali
+3. **Aggiorna collegamenti**: Link bidirezionali con altre docs
+
+**Output**: Documentazione completa e aggiornata
+>>>>>>> laraxot/develop
 ---
 
 ## 🏗️ Regole Architetturali
@@ -146,7 +343,11 @@ php artisan cache:clear
 
 ### Metodi Resource Filament
 - Chi estende `XotBaseResource` **NON deve avere** `getTableColumns()`
+<<<<<<< HEAD
 - `getTableActions()` e `getTableBulkActions()` devono restituire `array<string, mixed>`
+=======
+- `getTableActions()` e `getTableBulkActions()` devono restituire `array<string, Action>` e `array<string, BulkAction>` rispettivamente
+>>>>>>> laraxot/develop
 - Se solo azioni standard → **rimuovile completamente**
 - Se azioni personalizzate → includi `...parent::getTableActions()`
 
@@ -156,6 +357,7 @@ Chi estende `XotBasePage` **NON deve avere**:
 - `protected static ?string $title`
 - `protected static ?string $navigationLabel`
 
+<<<<<<< HEAD
 ### XotBaseWidget - Inizializzazione Automatica
 - **Widget senza modello**: `$this->data` viene inizializzato automaticamente con le chiavi dello schema quando si usa `statePath('data')`
 - **Widget con modello**: `$this->data` viene popolato da `getFormFill()`
@@ -163,13 +365,18 @@ Chi estende `XotBasePage` **NON deve avere**:
 - **mount() solo per logica specifica**: Se serve logica aggiuntiva oltre all'inizializzazione
 - **getFormSchema() con string keys**: Per widget senza model, usa string keys per il corretto binding Livewire
 
+=======
+>>>>>>> laraxot/develop
 ### Gestione Traduzioni
 - **NON usare MAI**: `->label()`, `->placeholder()`, `->tooltip()`
 - Tutte le etichette tramite file di traduzione nei moduli
 - Usa `LangServiceProvider` per gestione automatica
 - Struttura chiavi: `modulo::risorsa.fields.campo.label`
+<<<<<<< HEAD
 - Struttura espansa: `'field' => ['label' => '...', 'placeholder' => '...', 'helper_text' => '...']`
 - `helper_text` deve essere diverso da `placeholder`
+=======
+>>>>>>> laraxot/develop
 
 ### Type Safety
 - **Type hints rigorosi** per tutti i parametri e return types
@@ -216,15 +423,40 @@ $data = SafeArrayCastAction::cast($input);
 $title = SafeStringCastAction::cast($mod->title);
 ```
 
+<<<<<<< HEAD
 ### 4. Array Associativi Filament
 ```php
 // ❌ ERRORE - array<int, Action>
+=======
+### 4. Array Associativi Filament - Chiavi Sempre Stringhe
+
+**REGOLA CRITICA**: I metodi Filament restituiscono sempre `array<string, ...>` - le chiavi DEVONO essere stringhe esplicite, NON mixed, NON int.
+
+```php
+// ❌ ERRORE - array<int, Action> (chiavi numeriche) - VIETATO
+>>>>>>> laraxot/develop
 public function getTableActions(): array
 {
     return [EditAction::make(), DeleteAction::make()];
 }
 
+<<<<<<< HEAD
 // ✅ CORRETTO - array<string, mixed>
+=======
+// ❌ ERRORE - array<mixed, Action> (chiavi mixed) - VIETATO
+/**
+ * @return array<mixed, Action>
+ */
+public function getTableActions(): array
+{
+    return [...];
+}
+
+// ✅ CORRETTO - array<string, Action> (chiavi stringhe esplicite) - OBBLIGATORIO
+/**
+ * @return array<string, Action>
+ */
+>>>>>>> laraxot/develop
 public function getTableActions(): array
 {
     return [
@@ -234,6 +466,7 @@ public function getTableActions(): array
 }
 ```
 
+<<<<<<< HEAD
 ### 5. Property Access su Mixed (Eloquent) - REGOLA CRITICA
 
 **🚨 REGOLA ASSOLUTA**: `property_exists()` NON funziona con magic attributes Eloquent!
@@ -244,6 +477,30 @@ Gli attributi Eloquent sono magic properties accessibili via `__get()`, quindi `
 // ❌ ERRORE GRAVISSIMO - property_exists() NON funziona con magic attributes
 if (property_exists($model, 'attribute')) {
     $value = $model->attribute;
+=======
+**Metodi che DEVONO restituire `array<string, ...>` con chiavi stringhe esplicite**:
+- `getTableColumns()` → `array<string, Column>` (chiavi string obbligatorie)
+- `getFormSchema()` → `array<string, Component>` (chiavi string obbligatorie)
+- `getTableActions()` → `array<string, Action>` (chiavi string obbligatorie)
+- `getTableBulkActions()` → `array<string, BulkAction>` (chiavi string obbligatorie)
+- `getTableFilters()` → `array<string, Filter>` (chiavi string obbligatorie)
+- `getHeaderActions()` → `array<string, Action>` (chiavi string obbligatorie)
+
+**REGOLA ASSOLUTA**: Le chiavi degli array DEVONO essere sempre string esplicite.
+
+**MIXED come tipo valore è consentito SOLO come ultima spiaggia e deve essere documentato con PHPDoc.**
+
+**❌ VIETATO**: Array con chiavi numeriche (`array<int, ...>`) o chiavi mixed (`array<mixed, ...>`).
+
+### 5. Property Access su Mixed (Eloquent) - property_exists() NON Funziona
+
+**REGOLA CRITICA**: `property_exists()` NON funziona con magic attributes Eloquent. Usa SEMPRE `isset()`.
+
+```php
+// ❌ ERRORE - property_exists() NON funziona con magic attributes Eloquent
+if (property_exists($model, 'attribute')) {
+    $value = $model->attribute; // PHPStan: Cannot access property on mixed
+>>>>>>> laraxot/develop
 }
 
 // ✅ CORRETTO - usa isset() per magic attributes
@@ -251,6 +508,7 @@ if (isset($model->attribute)) {
     $value = $model->attribute;
 }
 
+<<<<<<< HEAD
 // ✅ ANCHE CORRETTO - validazione multipla
 if (is_object($model) && isset($model->attribute)) {
     $value = $model->attribute;
@@ -1051,6 +1309,8 @@ use Filament\Widgets\Widget;
 
 ---
 
+=======
+>>>>>>> laraxot/develop
 ## 📚 Risorse Filament v4
 
 Studia costantemente:
@@ -1086,9 +1346,14 @@ Dopo aver corretto un batch:
 - [ ] PHP Insights score è migliorato?
 - [ ] L'autoload funziona correttamente?
 - [ ] L'applicazione si avvia senza errori?
+<<<<<<< HEAD
 - [ ] La documentazione del modulo è aggiornata?
 - [ ] TODO e codice commentato rimossi?
 - [ ] Git commit e push eseguiti?
+=======
+- [ ] La documentazione è aggiornata?
+- [ ] TODO e codice commentato rimossi?
+>>>>>>> laraxot/develop
 
 ---
 
@@ -1098,9 +1363,14 @@ Dopo aver corretto un batch:
 2. **Pattern Recognition**: Identificare errori ricorrenti
 3. **Batch Fixes**: Correggere pattern simili insieme
 4. **Complexity Check**: Verificare e ridurre complexity dopo ogni batch
+<<<<<<< HEAD
 5. **Documentazione Parallela**: Aggiornare docs del modulo durante correzioni
 6. **Verifica Incrementale**: Riesegui tutti i tool dopo ogni batch
 7. **Git commit e push**: Dopo ogni modulo completato
+=======
+5. **Documentazione Parallela**: Aggiornare docs durante correzioni
+6. **Verifica Incrementale**: Riesegui tutti i tool dopo ogni batch
+>>>>>>> laraxot/develop
 
 **Quick Wins**: Inizia da moduli con meno errori per massimizzare impatto.
 
@@ -1152,6 +1422,7 @@ public function getData(): array {
 ## 📖 Documentazione
 
 ### Struttura
+<<<<<<< HEAD
 - **Modulo**: `Modules/{ModuleName}/docs/` - Documentazione tecnica approfondita (QUI la documentazione tecnica)
 - **Root**: `docs/` - Solo indici e collegamenti bidirezionali (NON documentazione tecnica)
 - **Tema**: `Themes/{ThemeName}/docs/` - Documentazione tema
@@ -1162,6 +1433,17 @@ public function getData(): array {
 - **Link relativi**: Mai path assoluti nei file .md
 - **Naming**: Minuscolo, no date, solo README.md maiuscolo
 - **NO duplicazioni**: Verifica che non esista già documentazione sull'argomento
+=======
+- **Modulo**: `Modules/{ModuleName}/docs/` - Documentazione tecnica approfondita
+- **Root**: `docs/` - Indici e collegamenti bidirezionali
+- **Tema**: `Themes/{ThemeName}/docs/` - Documentazione tema
+
+### Aggiornamento
+- **Prima di correggere**: Studia docs del modulo
+- **Dopo correzione**: Aggiorna docs con modifiche e pattern
+- **Link relativi**: Mai path assoluti nei file .md
+- **Naming**: Minuscolo, no date, solo README.md maiuscolo
+>>>>>>> laraxot/develop
 
 ---
 
@@ -1196,6 +1478,7 @@ $array = SafeArrayCastAction::cast($data);
 $string = SafeStringCastAction::cast($value);
 ```
 
+<<<<<<< HEAD
 ### ❌ Usare property_exists() con Modelli
 ```php
 // SBAGLIATO - property_exists() NON funziona con magic attributes
@@ -1224,6 +1507,8 @@ public function process(string|int|null $data): string|int|null
 }
 ```
 
+=======
+>>>>>>> laraxot/develop
 ---
 
 ## 💡 Regole Speciali
@@ -1245,11 +1530,15 @@ Dopo ogni modifica file:
 ### Git
 - **MAI tornare indietro** di versione
 - Solo avanti, mai backward
+<<<<<<< HEAD
 - **Commit e push**: Dopo ogni modulo completato
+=======
+>>>>>>> laraxot/develop
 
 ### Property Exists vs Isset
 - **property_exists()** NON funziona con magic attributes Eloquent
 - Usa sempre **isset()** per proprietà dinamiche modelli
+<<<<<<< HEAD
 - Alternative: `hasAttribute()`, `isFillable()`, `Schema::hasColumn()`, `SafeAttributeCastAction`
 
 ### Contracts
@@ -1869,6 +2158,8 @@ $model->update($filtered);
 6. **Verifica tutto** - PHPStan, Pint, PHPMD, PHP Insights
 7. **Aggiorna documentazione** - Aggiorna le docs del modulo con le modifiche fatte
 8. **Git commit e push** - Dopo ogni modulo completato
+=======
+>>>>>>> laraxot/develop
 
 ---
 
@@ -1884,13 +2175,17 @@ $model->update($filtered);
 
 **Quality Mantra**: Complexity < 10, Functions < 20 lines, Quality > 80%
 
+<<<<<<< HEAD
 **Workflow**: Modulo per modulo - un modulo alla volta, completa tutti gli errori, poi passa al successivo
 
+=======
+>>>>>>> laraxot/develop
 ---
 
 ## 📝 Note Operative
 
 - **Lavora dentro** `laravel/` directory
+<<<<<<< HEAD
 - **Esegui PHPStan** da dentro `laravel/` con `./vendor/bin/phpstan analyse Modules/{ModuleName}`
 - **Workflow modulo per modulo**: Inizia un modulo alla volta, quando tutti i moduli sono a posto controlla tutta la cartella Modules
 - **Non usiamo controller**: Backoffice = Filament, Frontoffice = Folio + Volt
@@ -1899,11 +2194,20 @@ $model->update($filtered);
 - **Complexity**: Ogni correzione PHPStan deve anche ridurre complexity se > 10
 - **Documentazione**: Ogni pattern applicato va documentato in `docs/` del modulo (non root)
 - **Git commit e push**: Dopo ogni modulo completato
+=======
+- **Esegui PHPStan** da dentro `laravel/`
+- **Non usiamo controller**: Backoffice = Filament, Frontoffice = Folio + Volt
+- **Test**: Tutti i test in Pest
+- **Architettura**: Capisci logica, politica, business logic prima di implementare
+- **Complexity**: Ogni correzione PHPStan deve anche ridurre complexity se > 10
+- **Documentazione**: Ogni pattern applicato va documentato in `docs/`
+>>>>>>> laraxot/develop
 
 ---
 
 **Ricorda**: Le cartelle docs sono la tua bibbia. Studiale, rispettale, aggiornale costantemente.
 
+<<<<<<< HEAD
 **Approccio "fix, don't ignore"** - Nessun errore va ignorato o saltato!
 
 **Workflow consigliato**:
@@ -1925,4 +2229,17 @@ $model->update($filtered);
 - [Quality Tools Zen](quality-tools-zen.md) - Filosofia completa strumenti qualità
 - [Eloquent Properties Best Practices](eloquent-properties-best-practices.md) - Best practices per proprietà Eloquent
 - [Cast Actions](cast-actions.md) - Azioni di cast sicure centralizzate
+=======
+---
+
+## 🔗 Collegamenti Utili
+
+- [Code Quality Tools Setup](./code-quality-tools-setup.md) - Setup PHPMD e PHP Insights
+- [Code Quality Mandatory Checks](./code-quality-mandatory-checks.md) - Workflow obbligatorio
+- [XotBase Extension Rules](./filament-class-extension-rules.md)
+- [Filament Best Practices](./filament-best-practices.md)
+- [Code Quality Standards](./code_quality_standards.md)
+- [Autonomous Priority Rule](./autonomous-priority-rule.md)
+- [Super Mucca Methodology](./super-mucca-methodology.md)
+>>>>>>> laraxot/develop
 

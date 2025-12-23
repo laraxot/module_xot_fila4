@@ -154,12 +154,20 @@ performance::admin
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/docs/console_commands/README.md)
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
 
 =======
+=======
+- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
+- [XotBasePanelProvider](xotbasepanelprovider.md)
+- [User Role Management](../../User/project_docs/console_commands/README.md)
+- [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+
+>>>>>>> laraxot/develop
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato
@@ -174,5 +182,8 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> laraxot/develop

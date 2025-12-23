@@ -22,6 +22,13 @@ abstract class BaseModel extends XotBaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

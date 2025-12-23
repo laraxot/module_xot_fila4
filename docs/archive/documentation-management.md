@@ -25,15 +25,23 @@ base_predict_fila3_mono/
 
 ### 1. Livelli di Documentazione
 
+<<<<<<< HEAD
 - **Documentazione Globale** (`/docs/`)
 =======
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> laraxot/develop
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
   - Stabilisce le convenzioni di base
 
+<<<<<<< HEAD
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 =======
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> laraxot/develop
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -61,6 +69,7 @@ Quando si identifica una nuova regola o pattern importante:
 
 2. **Aggiornamento Documentazione**
    - Se regola specifica del modulo:
+<<<<<<< HEAD
      1. Aggiornare `Modules/[ModuleName]/docs/`
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
@@ -69,6 +78,13 @@ Quando si identifica una nuova regola o pattern importante:
    - Se regola globale:
      1. Aggiornare `/docs/`
 =======
+=======
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+>>>>>>> laraxot/develop
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**
@@ -149,5 +165,8 @@ Quando si identifica una nuova regola o pattern importante:
    - [ ] Aggiornare .windsurfrules
    - [ ] Verificare coerenza
    - [ ] Testare applicabilità 
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> laraxot/develop

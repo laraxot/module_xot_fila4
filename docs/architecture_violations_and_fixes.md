@@ -8,7 +8,11 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 
 ```php
 // ❌ VIOLAZIONE CRITICA
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
+=======
+use Modules\SaluteOra\Models\User;
+>>>>>>> laraxot/develop
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -16,7 +20,11 @@ $user = User::factory()->create([...]);
 
 ### **Perché è un Errore Grave**
 
+<<<<<<< HEAD
 1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
+=======
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+>>>>>>> laraxot/develop
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -48,7 +56,11 @@ $user = $userClass::factory()->create($attributes);
 'providers' => [
     'users' => [
         'driver' => 'eloquent',
+<<<<<<< HEAD
         'model' => \Modules\<nome progetto>\Models\User::class, // CONFIGURABILE!
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> laraxot/develop
     ],
 ],
 ```
@@ -106,7 +118,11 @@ use Modules\SpecificModule\Models\User;
 public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
+<<<<<<< HEAD
 public function processUser(\Modules\<nome progetto>\Models\User $user): void
+=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> laraxot/develop
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -238,9 +254,15 @@ class ChangeTypeCommand extends Command
 ### **1. Import Diretti**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
 use Modules\<nome progetto>\Models\Patient;
 use Modules\<nome progetto>\Models\Doctor;
+=======
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+>>>>>>> laraxot/develop
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -250,7 +272,11 @@ use Modules\Xot\Datas\XotData;
 ### **2. Hardcoding Classi**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 $user = \Modules\<nome progetto>\Models\User::find($id);
+=======
+$user = \Modules\SaluteOra\Models\User::find($id);
+>>>>>>> laraxot/develop
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -260,7 +286,11 @@ $user = $userClass::find($id);
 ### **3. Type Hints Specifici**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 function updateUser(\Modules\<nome progetto>\Models\User $user): void
+=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> laraxot/develop
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -337,10 +367,18 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 ### **Documentazione Moduli**
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
+<<<<<<< HEAD
 - [Testing Strategy](../../<nome progetto>/project_docs/testing/real-data-testing-strategy.md)
+=======
+- [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
+>>>>>>> laraxot/develop
 
 ---
 
 **Ultimo Aggiornamento**: Gennaio 2025  
 **Stato**: ✅ Pattern Documentato e Implementato  
+<<<<<<< HEAD
 **Responsabile**: Team Architettura Laraxot 
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> laraxot/develop

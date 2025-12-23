@@ -191,8 +191,16 @@ test('complete tax filing process', function () {
 
 ## 🏢 Domain-Specific Recommendations
 
+<<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+=======
+<<<<<<< HEAD
+### Healthcare Domain () - **Real Data Preferred**
+=======
+>>>>>>> 6cba4fe (.)
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+>>>>>>> laraxot/develop
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -373,8 +381,16 @@ test('legacy feature with mocks', function () {
 
 ### Final Recommendation
 
+<<<<<<< HEAD
 **For  Healthcare Domain**: 
 **For <nome progetto> Healthcare Domain**: 
+=======
+<<<<<<< HEAD
+**For  Healthcare Domain**: 
+=======
+>>>>>>> 6cba4fe (.)
+**For SaluteOra Healthcare Domain**: 
+>>>>>>> laraxot/develop
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -390,4 +406,7 @@ test('legacy feature with mocks', function () {
 **Decision Authority**: Technical Architecture Committee  
 **Implementation Timeline**: 4-week migration  
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/develop

@@ -674,8 +674,16 @@ test('no memory leaks in repeated operations', function (): void {
 
 ### Internal Documentation
 - [Root Testing Organization](../../../docs/testing-organization.md)
+<<<<<<< HEAD
 - [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
 - [<nome progetto> Testing Guidelines](../../../docs/testing.md)
+=======
+<<<<<<< HEAD
+- [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
+>>>>>>> laraxot/develop
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 
 ### Framework Documentation
@@ -693,4 +701,7 @@ test('no memory leaks in repeated operations', function (): void {
 **Ultimo aggiornamento**: Dicembre 2024  
 **Framework**: Pest v2.x  
 **Coverage Target**: 90%+ per core framework  
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/develop

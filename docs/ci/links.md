@@ -293,4 +293,7 @@ return [
 ],
 ```
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/develop

@@ -1,6 +1,7 @@
 # Miglioramenti al Prompt docs.txt
 
 > **Collegamenti correlati**
+<<<<<<< HEAD
 > - [README.md documentazione generale](../../../../docs/README.md)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
@@ -8,6 +9,14 @@
 > - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/docs/prompt_docs_improvements.md)
 
 =======
+=======
+> - [README.md documentazione generale](../../../../project_docs/README.md)
+> - [Struttura dei Prompt](./prompts.md)
+> - [Regole per i Prompt](./PROMPT_RULES.md)
+> - [README.md toolkit bashscripts](../../../../bashscripts/project_docs/README.md)
+> - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/project_docs/prompt_docs_improvements.md)
+
+>>>>>>> laraxot/develop
 ## Introduzione
 
 Il file `/bashscripts/prompts/docs.txt` contiene un prompt utilizzato per guidare la documentazione nei progetti modulari Laravel. Questo documento descrive i miglioramenti apportati al prompt per renderlo completamente indipendente dal progetto e riutilizzabile.
@@ -67,5 +76,8 @@ Il prompt rimane conforme alla [Regola Universale](./prompt_rules.md) per i prom
 ## Utilizzo
 
 Il prompt aggiornato può essere utilizzato in qualsiasi progetto modulare Laravel senza modifiche, rendendo il modulo `bashscripts` completamente riutilizzabile.
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> laraxot/develop

@@ -4,10 +4,52 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\SessionResource\Pages;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\SessionResource;
 
 class CreateSession extends XotBaseCreateRecord
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\SessionResource;
+
+=======
+use Modules\Xot\Filament\Resources\SessionResource;
+=======
+use Modules\Xot\Filament\Resources\SessionResource;
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> origin/develop
+
+
+
+
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Resources\SessionResource;
+
+>>>>>>> a12f125f4a (.)
+class CreateSession extends XotBaseCreateRecord
+=======
+
+class CreateSession extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 {
     protected static string $resource = SessionResource::class;
 }

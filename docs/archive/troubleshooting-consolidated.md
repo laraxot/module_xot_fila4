@@ -17,7 +17,15 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 - Qualsiasi documentazione troubleshooting specifica di modulo
 
 ### ✅ Unica Fonte di Verità
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
+=======
+<<<<<<< HEAD
+- **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/troubleshooting-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - **Implementazione**: Fix nei singoli moduli (solo fix, non docs)
 
 ## Problemi Comuni e Soluzioni
@@ -206,7 +214,11 @@ Codice non conforme agli standard di tipizzazione.
 **Soluzione**
 ```bash
 # Eseguire da directory Laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> laraxot/develop
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -432,7 +444,22 @@ public function test_b(): void
 
 ### Errore: Conflitti Git
 
+<<<<<<< HEAD
 **Sintomo**
+=======
+<<<<<<< HEAD
+**Sintomo**
+```
+<<<<<<< HEAD
+// Codice locale
+=======
+// Codice remoto
+>>>>>>> branch-name
+```
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 **Soluzione**
 1. **Analizzare i conflitti**:

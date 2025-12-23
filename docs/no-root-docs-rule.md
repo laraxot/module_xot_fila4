@@ -1,8 +1,13 @@
 # REGOLA CRITICA: Cartelle docs root VIETATE
 
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
+<<<<<<< HEAD
 - `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
 - `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> laraxot/develop
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -18,10 +23,23 @@
 - ✅ Aggiornare tutti i riferimenti
 
 ## DOVE SPOSTARE LA DOCUMENTAZIONE:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 - **Traduzioni** → `Modules/Xot/docs/` (modulo che gestisce le traduzioni)
 - **Frontend** → `Modules/Cms/docs/` (modulo frontend)  
 - **Audit generali** → `Modules/Xot/docs/` (modulo base)
 - **Modulo specifico** → `Modules/{NomeModulo}/docs/`
+<<<<<<< HEAD
+=======
+=======
+- **Traduzioni** → `Modules/Xot/project_docs/` (modulo che gestisce le traduzioni)
+- **Frontend** → `Modules/Cms/project_docs/` (modulo frontend)  
+- **Audit generali** → `Modules/Xot/project_docs/` (modulo base)
+- **Modulo specifico** → `Modules/{NomeModulo}/project_docs/`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ## PRIORITÀ: MASSIMA
 Questa regola ha priorità assoluta su qualsiasi altra considerazione.
@@ -29,7 +47,11 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 ## CONTROLLI AUTOMATICI:
 ```bash
 # Comando per verificare che non esistano cartelle docs root
+<<<<<<< HEAD
 find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> laraxot/develop
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```

@@ -92,10 +92,16 @@ DatePicker::make('field_name')
 3. Mantieni consistenza nei nomi dei metodi in tutto il progetto
 4. Aggiorna questa documentazione quando trovi nuovi metodi o pattern utili 
 ## Collegamenti tra versioni di FILAMENT_COMPONENTS.md
+<<<<<<< HEAD
 * [FILAMENT_COMPONENTS.md](../../../Xot/docs/FILAMENT_COMPONENTS.md)
 * [FILAMENT_COMPONENTS.md](../../../../Themes/One/docs/FILAMENT_COMPONENTS.md)
 
 =======
+=======
+* [FILAMENT_COMPONENTS.md](../../../Xot/project_docs/FILAMENT_COMPONENTS.md)
+* [FILAMENT_COMPONENTS.md](../../../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
+
+>>>>>>> laraxot/develop
 ## Correzione e regole per XotBaseManageRelatedRecords
 
 - Tutti i metodi pubblici devono avere tipizzazione forte e PHPDoc dettagliato.
@@ -106,5 +112,8 @@ DatePicker::make('field_name')
 
 **Collegamento:** Vedi anche [FILAMENT_TABLE_COLUMNS.md](./FILAMENT_TABLE_COLUMNS.md)
 
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> laraxot/develop

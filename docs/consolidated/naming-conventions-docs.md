@@ -73,8 +73,11 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 ## Collegamenti
 - [Struttura Moduli](module-structure.md)
 - [Convenzioni Generali](conventions.md)
+<<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
 =======
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
 =======
+=======
+>>>>>>> laraxot/develop

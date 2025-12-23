@@ -152,4 +152,7 @@ done
 - [/.cursor/rules/filament-resource-model-alignment.mdc](../../../../.cursor/rules/filament-resource-model-alignment.mdc) - Regole Cursor
 
 *Ultimo aggiornamento: Luglio 2025 - Dopo correzione errori critici modulo Progressioni*
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/develop

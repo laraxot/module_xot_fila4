@@ -20,4 +20,7 @@ section: content
 
 ---
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/develop

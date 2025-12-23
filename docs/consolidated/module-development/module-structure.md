@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 =======
 # Struttura dei Moduli in il progetto
 
@@ -308,6 +309,8 @@ laravel/Modules/Patient/
 ├── app/
 │   ├── Filament/
 │   ├── Http/
+=======
+>>>>>>> laraxot/develop
 # Module Structure in Laraxot
 
 ## Directory Structure
@@ -326,6 +329,7 @@ Module/
 │   └── Providers/
 ├── config/
 ├── database/
+<<<<<<< HEAD
 =======
 │   ├── migrations/
 │   └── seeders/
@@ -426,6 +430,8 @@ Se trovi una directory con case errato:
 ## Collegamenti tra versioni di module_structure.md
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 =======
+=======
+>>>>>>> laraxot/develop
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/
@@ -523,4 +529,7 @@ Route::middleware('api')->prefix('api')->group(function () {
 
 ---
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/develop

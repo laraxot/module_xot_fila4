@@ -5,6 +5,29 @@
 ### **Problema Identificato: Import Diretti tra Moduli**
 
 Durante lo sviluppo è stata identificata una **violazione architetturale critica** nel `LoginTest.php` del modulo Cms:
+<<<<<<< HEAD
+=======
+
+```php
+// ❌ VIOLAZIONE CRITICA
+<<<<<<< HEAD
+use Modules\<nome modulo>\Models\User;
+=======
+>>>>>>> 6cba4fe (.)
+use Modules\SaluteOra\Models\User;
+
+/** @var User $user */
+$user = User::factory()->create([...]);
+```
+
+### **Perché è un Errore Grave**
+
+<<<<<<< HEAD
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+=======
+>>>>>>> 6cba4fe (.)
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+>>>>>>> laraxot/develop
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -36,7 +59,15 @@ $user = $userClass::factory()->create($attributes);
 'providers' => [
     'users' => [
         'driver' => 'eloquent',
+<<<<<<< HEAD
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+=======
+<<<<<<< HEAD
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+=======
+>>>>>>> 6cba4fe (.)
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> laraxot/develop
     ],
 ],
 ```
@@ -94,8 +125,16 @@ use Modules\SpecificModule\Models\User;
 public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
+<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+<<<<<<< HEAD
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> 6cba4fe (.)
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> laraxot/develop
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -227,12 +266,24 @@ class ChangeTypeCommand extends Command
 ### **1. Import Diretti**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
+=======
+<<<<<<< HEAD
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+=======
+>>>>>>> 6cba4fe (.)
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+>>>>>>> laraxot/develop
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -242,8 +293,16 @@ use Modules\Xot\Datas\XotData;
 ### **2. Hardcoding Classi**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
+=======
+<<<<<<< HEAD
+$user = \Modules\<nome modulo>\Models\User::find($id);
+=======
+>>>>>>> 6cba4fe (.)
+$user = \Modules\SaluteOra\Models\User::find($id);
+>>>>>>> laraxot/develop
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -253,8 +312,16 @@ $user = $userClass::find($id);
 ### **3. Type Hints Specifici**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+<<<<<<< HEAD
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> 6cba4fe (.)
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> laraxot/develop
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -332,15 +399,30 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 ### **Documentazione Moduli**
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
+<<<<<<< HEAD
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+=======
+<<<<<<< HEAD
+- [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+>>>>>>> laraxot/develop
 
 ---
 
 **Ultimo Aggiornamento**: Gennaio 2025  
 **Stato**: ✅ Pattern Documentato e Implementato  
+<<<<<<< HEAD
 **Responsabile**: Team Architettura Laraxot 
 =======
 **Responsabile**: Team Architettura Laraxot 
 =======
 =======
+=======
+<<<<<<< HEAD
+**Responsabile**: Team Architettura Laraxot 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop

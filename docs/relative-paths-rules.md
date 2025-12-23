@@ -36,7 +36,11 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 
 1. **MAI utilizzare percorsi assoluti** come:
    ```markdown
+<<<<<<< HEAD
    [ERRATO](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/README.md)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/docs/README.md)
+>>>>>>> laraxot/develop
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:

@@ -126,7 +126,11 @@ trait HandlesFileUploadFields
     protected function getFileUploadFields(): array
     {
         $model = $this->getFormModel();
+<<<<<<< HEAD
         return isset($model::$attachments) ? $model::$attachments : [];
+=======
+        return property_exists($model, 'attachments') ? $model::$attachments : [];
+>>>>>>> laraxot/develop
     }
 }
 ```

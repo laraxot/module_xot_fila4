@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+### Versione HEAD
+>>>>>>> laraxot/develop
 
 # Roadmap Modulo Xot
 

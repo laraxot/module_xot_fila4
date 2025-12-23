@@ -99,7 +99,11 @@
 | Media | 9+ | Asset management unificato |
 | Notify | 19+ | Notifiche standardizzate |
 | SaluteMo | 13+ | Business logic semplificata |
+<<<<<<< HEAD
 | <nome progetto> | 45+ | Core business centralizzato |
+=======
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> laraxot/develop
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 =======
 # XotBase Extension Rules - Comprehensive Guide
 
@@ -199,6 +200,8 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 *Last Updated: 2025-08-27*  
 *Architecture Version: XotBase 2.0*
 =======
+=======
+>>>>>>> laraxot/develop
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE
@@ -392,4 +395,7 @@ jobs:
 *Documento aggiornato: 2025-07-30*  
 *Priorità: CRITICA*  
 *Stato: OBBLIGATORIO per tutti i moduli*
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/develop

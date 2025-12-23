@@ -25,6 +25,7 @@ public function getTableColumns(): array
 - Ogni modulo deve documentare l'adozione nella sua docs/
 - Aggiornare override, chiamate e test
 
+<<<<<<< HEAD
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/docs/filament-resources.md).
 
 ## Collegamenti
@@ -32,6 +33,14 @@ public function getTableColumns(): array
 - [Regola Globale - Root Docs](../../../../docs/filament-table-columns.md)
 
 =======
+=======
+**Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/project_docs/filament-resources.md).
+
+## Collegamenti
+- [Esempio e Applicazione - Modulo User](../../../User/project_docs/filament/FILAMENT_TABLE_COLUMNS.md)
+- [Regola Globale - Root Docs](../../../../project_docs/filament-table-columns.md)
+
+>>>>>>> laraxot/develop
 ## Nota storica: correzione XotBaseManageRelatedRecords
 
 - La classe XotBaseManageRelatedRecords è stata aggiornata per rispettare PHPStan livello 10.
@@ -47,5 +56,8 @@ public function getTableColumns(): array
 **Ultimo aggiornamento:** 2025-05-13
 
 **Link bidirezionale:** Aggiornare anche la root docs e la docs dei moduli coinvolti.
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> laraxot/develop

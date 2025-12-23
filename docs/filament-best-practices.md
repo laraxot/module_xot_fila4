@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -166,6 +167,8 @@ public function getTableColumns(): array
         'created_at' => Tables\Columns\TextColumn::make('created_at')
             ->dateTime('d/m/Y H:i')
             ->sortable(),
+=======
+>>>>>>> 6cba4fe (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -221,6 +224,7 @@ public static function getFormSchema(): array
 }
 ```
 
+<<<<<<< HEAD
 ## Regole per XotBaseEditRecord
 
 ### Implementazione Corretta
@@ -290,6 +294,8 @@ class CreateAppointment extends XotBaseCreateRecord
 ## Esempi di Implementazione Corretta
 
 ### ReportResource.php - IMPLEMENTAZIONE CORRETTA
+=======
+>>>>>>> 6cba4fe (.)
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
@@ -342,6 +348,7 @@ TextInput::make('nome')
 ```php
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Modules\SaluteMo\Filament\Resources;
@@ -392,6 +399,8 @@ class ReportResource extends XotBaseResource
             'create' => Pages\CreateReport::route('/create'),
             'edit' => Pages\EditReport::route('/{record}/edit'),
         ];
+=======
+>>>>>>> 6cba4fe (.)
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -481,6 +490,7 @@ class SocioResource extends XotBaseResource
 }
 ```
 
+<<<<<<< HEAD
 ## Checklist di Conformità
 
 Prima di considerare completa una risorsa Filament, verificare:
@@ -543,6 +553,8 @@ Prima di considerare completa una risorsa Filament, verificare:
    - **Indirizzo e contatti**: via, cap, regione_id, provincia_id, etc.
    - **Dati bancari**: iban, intestatario, banca, filiale
    - **Modalità di ricezione**: Lista di modalità selezionabili
+=======
+>>>>>>> 6cba4fe (.)
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo

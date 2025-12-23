@@ -3,6 +3,12 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Dashboard',
@@ -81,11 +87,136 @@ return [
                 'success' => 'Dati importati con successo',
                 'error' => 'Errore durante l\'importazione',
             ],
+<<<<<<< HEAD
+=======
+=======
+    'resources' => 'Risorse',
+    'pages' => 'Pagine',
+    'widgets' => 'Widgets',
+=======
+    // NAVIGATION & STRUCTURE
+>>>>>>> b93ef594b4 (.)
+    'navigation' => [
+        'label' => 'Dashboard',
+        'plural_label' => 'Dashboard',
+        'group' => 'Sistema Xot',
+        'icon' => 'heroicon-o-squares-2x2',
+        'sort' => 10,
+        'badge' => 'Pannello di controllo principale',
+        // Legacy support
+        'name' => 'dashboard',
+        'plural' => 'dashboard',
+    ],
+    // MODEL INFORMATION
+    'model' => [
+        'label' => 'Dashboard',
+        'plural' => 'Dashboard',
+        'description' => 'Pannello di controllo principale del sistema Xot',
+    ],
+    // FIELDS - STRUTTURA ESPANSA OBBLIGATORIA
+    'fields' => [
+        'name' => [
+            'label' => 'Nome',
+            'placeholder' => 'Inserisci il nome',
+            'tooltip' => 'Nome identificativo',
+            'helper_text' => 'Nome univoco per identificare l\'elemento',
+        ],
+        'guard_name' => [
+            'label' => 'Guard',
+            'placeholder' => 'Seleziona la guardia',
+            'tooltip' => 'Sistema di autenticazione',
+            'helper_text' => 'Guardia utilizzata per l\'autenticazione',
+        ],
+        'permissions' => [
+            'label' => 'Permessi',
+            'placeholder' => 'Seleziona i permessi',
+            'tooltip' => 'Permessi associati',
+            'helper_text' => 'Elenco dei permessi disponibili',
+        ],
+        'updated_at' => [
+            'label' => 'Aggiornato il',
+            'tooltip' => 'Data ultimo aggiornamento',
+            'helper_text' => 'Data e ora dell\'ultimo aggiornamento',
+        ],
+        'first_name' => [
+            'label' => 'Nome',
+            'placeholder' => 'Inserisci il nome',
+            'tooltip' => 'Nome proprio',
+            'helper_text' => 'Nome proprio della persona',
+        ],
+        'last_name' => [
+            'label' => 'Cognome',
+            'placeholder' => 'Inserisci il cognome',
+            'tooltip' => 'Cognome',
+            'helper_text' => 'Cognome della persona',
+        ],
+        'select_all' => [
+            'label' => 'Seleziona Tutti',
+            'tooltip' => 'Seleziona tutti gli elementi',
+            'helper_text' => 'Seleziona tutti gli elementi disponibili nella lista',
+        ],
+    ],
+    // ACTIONS - STRUTTURA ESPANSA OBBLIGATORIA
+    'actions' => [
+        'import' => [
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            'label' => 'Importa Dati',
+            'icon' => 'heroicon-o-arrow-up-tray',
+            'color' => 'info',
+            'tooltip' => 'Importa dati da file esterno',
+            'modal' => [
+                'heading' => 'Importa Dati',
+                'description' => 'Seleziona un file da importare nel sistema',
+                'confirm' => 'Importa',
+                'cancel' => 'Annulla',
+            ],
+            'messages' => [
+                'success' => 'Dati importati con successo',
+                'error' => 'Errore durante l\'importazione',
+            ],
+>>>>>>> b93ef594b4 (.)
+=======
+    'resources' => 'Risorse',
+    'pages' => 'Pagine',
+    'widgets' => 'Widgets',
+    'navigation' => [
+        'name' => 'dashboard',
+        'plural' => 'dashboard',
+        'group' => [
+            'name' => '',
+        ],
+    ],
+    'fields' => [
+        'name' => 'Nome',
+        'guard_name' => 'Guard',
+        'permissions' => 'Permessi',
+        'updated_at' => 'Aggiornato il',
+        'first_name' => 'Nome',
+        'last_name' => 'Cognome',
+        'select_all' => [
+            'name' => 'Seleziona Tutti',
+            'message' => '',
+        ],
+    ],
+    'actions' => [
+        'import' => [
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'fields' => [
                 'import_file' => 'Seleziona un file XLS o CSV da caricare',
             ],
         ],
         'export' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
             'label' => 'Esporta Dati',
             'icon' => 'heroicon-o-arrow-down-tray',
             'color' => 'success',
@@ -100,6 +231,16 @@ return [
                 'success' => 'Dati esportati con successo',
                 'error' => 'Errore durante l\'esportazione',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'filename_prefix' => 'Aree al',
             'columns' => [
                 'name' => 'Nome area',
@@ -107,6 +248,14 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
     // SECTIONS - ORGANIZZAZIONE FORM
     'sections' => [
         'overview' => [
@@ -144,4 +293,14 @@ return [
     'resources' => 'Risorse',
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 ];

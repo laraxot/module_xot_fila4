@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services;
 
+use Illuminate\Contracts\View\View;
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Support\Renderable;
@@ -196,7 +197,7 @@ class ArtisanService
 
         $out = view((string) $view, $view_params);
 
-        Assert::isInstanceOf($out, \Illuminate\Contracts\View\View::class);
+        Assert::isInstanceOf($out, View::class);
 
         return $out->render();
     }

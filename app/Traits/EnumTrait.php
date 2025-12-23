@@ -50,13 +50,13 @@ trait EnumTrait
     }
 
     /**
-     * @return array<string, \Filament\Forms\Components\TextInput>
+     * @return array<string, TextInput>
      */
     public static function getFormSchema(): array
     {
         // ContactTypeEnum::cases() restituisce un array shape specifico, non list<ContactTypeEnum>
         $cases = static::cases();
-        /** @var array<string, \Filament\Forms\Components\TextInput> $result */
+        /** @var array<string, TextInput> $result */
         $result = [];
         foreach ($cases as $item) {
             $result[$item->value] = TextInput::make($item->value)->prefixIcon($item->getIcon());

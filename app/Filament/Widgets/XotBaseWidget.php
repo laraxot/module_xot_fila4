@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
@@ -150,7 +151,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
                 return $model->getAttributes();
@@ -207,7 +208,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
         if (! view()->exists($submit_view)) {
-            throw new \Exception("View {$submit_view} does not exist");
+            throw new Exception("View {$submit_view} does not exist");
         }
 
         return Action::make('submit')
@@ -267,7 +268,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             if (view()->exists($view)) {
                 $this->view = $view;
             }
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             /* @phpstan-ignore identical.alwaysTrue */
             if ($this->view === $defaultView) {
                 throw $e;

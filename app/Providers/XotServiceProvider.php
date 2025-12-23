@@ -246,7 +246,7 @@ class XotServiceProvider extends XotBaseServiceProvider
         View::composer('*', XotComposer::class);
     }
 
-   
+
     /**
      * Register Xot specific Livewire components.
      */

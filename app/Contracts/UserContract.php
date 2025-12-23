@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+use BackedEnum;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -32,9 +33,9 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|null $type
  * @property string|null $current_team_id
  * @property TeamContract $currentTeam
- * @property \Modules\Xot\Contracts\ProfileContract|null $profile
+ * @property ProfileContract|null $profile
  * @property Collection<int, UserRole> $roles
- * @property Collection<int, \Modules\User\Models\Team> $teams
+ * @property Collection<int, Team> $teams
  * @property Collection<int, Tenant> $tenants
  *
  * @phpstan-require-extends Model
@@ -123,7 +124,7 @@ interface UserContract extends Authenticatable
     /**
      * Revoke the given role from the model.
      *
-     * @param  string|int|array|UserRole|Collection|\BackedEnum  ...$role
+     * @param string|int|array|UserRole|Collection|BackedEnum ...$role
      * @return $this
      */
     public function removeRole(...$role);

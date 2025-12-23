@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+use Illuminate\Database\Eloquent\Collection;
+use Spatie\Permission\Models\Role;
 use Filament\Panel;
 use Illuminate\Support\Str;
 use Modules\User\Models\User;
@@ -14,7 +16,7 @@ use Webmozart\Assert\Assert;
  */
 class MainDashboard extends XotBaseDashboard
 {
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
 
@@ -37,11 +39,11 @@ class MainDashboard extends XotBaseDashboard
     {
         $user = auth()->user();
         Assert::notNull($user, '['.__LINE__.']['.class_basename($this).']');
-        
+
         // Usa roles() come metodo invece della magic property per type safety
-        /** @var \Illuminate\Database\Eloquent\Collection<int, \Spatie\Permission\Models\Role> $roles */
+        /** @var Collection<int, Role> $roles */
         $roles = $user->roles()->get();
-        
+
         $modules = $roles->filter(function ($item): bool {
              // $item è già tipizzato come Role dalla collection
              $name = $item->name;

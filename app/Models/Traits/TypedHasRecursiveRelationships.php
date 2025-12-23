@@ -37,7 +37,6 @@ trait TypedHasRecursiveRelationships
         childrenAndSelf as protected vendorChildrenAndSelf;
         descendants as protected vendorDescendants;
         descendantsAndSelf as protected vendorDescendantsAndSelf;
-        parent as protected vendorParent;
         parentAndSelf as protected vendorParentAndSelf;
         rootAncestor as protected vendorRootAncestor;
         rootAncestorOrSelf as protected vendorRootAncestorOrSelf;
@@ -182,7 +181,7 @@ trait TypedHasRecursiveRelationships
     public function parent(): BelongsTo
     {
         /** @var BelongsTo $relation */
-        $relation = $this->vendorParent();
+        $relation = $this->VendorHasRecursiveRelationships::parent();
 
         return $relation;
     }

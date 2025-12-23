@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\View;
 
+use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
@@ -22,7 +23,7 @@ class GetViewByClassAction
      * @param string $class  Il nome della classe da convertire
      * @param string $suffix Suffisso opzionale da aggiungere al nome della vista
      *
-     * @throws \Exception Se la vista non esiste
+     * @throws Exception Se la vista non esiste
      *
      * @return string Il nome della vista
      */
@@ -59,13 +60,13 @@ class GetViewByClassAction
         ];
         $view = Arr::first($views, view()->exists(...));
         if (null === $view) {
-            throw new \Exception('View not found: '.implode(', ', $views));
+            throw new Exception('View not found: '.implode(', ', $views));
         }
 
         if (view()->exists($view)) {
             return $view;
         }
-        throw new \Exception('View not found: '.$view);
+        throw new Exception('View not found: '.$view);
     }
 
     public function checkPrev(string $value, string $prevValue): string

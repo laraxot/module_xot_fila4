@@ -25,6 +25,8 @@ trait Updater
 {
     /**
      * Get the user who created the model.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
      */
     public function creator(): BelongsTo
     {
@@ -36,6 +38,8 @@ trait Updater
 
     /**
      * Get the last user who updated the model.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
      */
     public function updater(): BelongsTo
     {
@@ -47,6 +51,8 @@ trait Updater
 
     /**
      * Get the user who deleted the model.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
      */
     public function deleter(): BelongsTo
     {

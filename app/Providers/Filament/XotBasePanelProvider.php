@@ -38,13 +38,8 @@ abstract class XotBasePanelProvider extends PanelProvider
         $moduleLow = Str::lower($this->module);
         // Removed: $metatag = MetatagData::make(); // Unused local variable
 
-<<<<<<< HEAD
-        $main_module = Str::lower(XotData::make()->main_module);
-        $default = $main_module === $moduleLow;
-=======
         $mainModule = Str::lower(XotData::make()->main_module); // Renamed to camelCase
         $default = $mainModule === $moduleLow;
->>>>>>> laraxot/develop
 
         $panel = $panel
             ->default($default)
@@ -57,12 +52,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 
         $panel = app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
         // ---------------------
-<<<<<<< HEAD
-        $panel
-            ->maxContentWidth('full')
-=======
         $panel->maxContentWidth('full')
->>>>>>> laraxot/develop
             ->topNavigation($this->topNavigation)
             ->globalSearch($this->globalSearch)
             ->readOnlyRelationManagersOnResourceViewPagesByDefault(false)

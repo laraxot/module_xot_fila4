@@ -33,10 +33,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         $panel->id('admin')->path('admin');
 
-<<<<<<< HEAD
         /** @var mixed $modules */
-=======
->>>>>>> laraxot/develop
         $modules = app('modules');
         $hasCms = is_object($modules) && method_exists($modules, 'has')
             ? (bool) $modules->has('Cms')

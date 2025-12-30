@@ -39,7 +39,14 @@ class MainDashboard extends XotBaseDashboard
     {
         $user = auth()->user();
         Assert::notNull($user, '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
+>>>>>>> 4660cec06 (.)
         // Usa roles() come metodo invece della magic property per type safety
         /** @var Collection<int, Role> $roles */
         $roles = $user->roles()->get();

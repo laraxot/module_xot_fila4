@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 
 namespace Modules\Xot\Actions\Array;
 
@@ -23,3 +24,5 @@ class SaveJsonArrayAction
         return (bool) file_put_contents($filename, $content);
     }
 }
+=======
+>>>>>>> 4660cec06 (.)

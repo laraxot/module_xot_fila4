@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+=======
+>>>>>>> 4660cec06 (.)
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\HasRecursiveRelationships as VendorHasRecursiveRelationships;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors;
@@ -178,6 +181,7 @@ trait TypedHasRecursiveRelationships
         return $relation;
     }
 
+<<<<<<< HEAD
     public function parent(): BelongsTo
     {
         /** @var BelongsTo $relation */
@@ -186,6 +190,8 @@ trait TypedHasRecursiveRelationships
         return $relation;
     }
 
+=======
+>>>>>>> 4660cec06 (.)
     public function parentAndSelf(): Ancestors
     {
         /** @var Ancestors $relation */

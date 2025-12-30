@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 
 namespace Modules\Xot\Actions\Array;
 
@@ -55,3 +56,5 @@ class DiffAssocRecursiveAction
         return $ris->all();
     }
 }
+=======
+>>>>>>> 4660cec06 (.)

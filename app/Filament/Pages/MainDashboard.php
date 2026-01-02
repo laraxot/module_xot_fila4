@@ -4,19 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-use Illuminate\Database\Eloquent\Collection;
-use Spatie\Permission\Models\Role;
 use Filament\Panel;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Modules\User\Models\User;
 use Webmozart\Assert\Assert;
+use Spatie\Permission\Models\Role;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Database\Eloquent\Collection;
 
 /**
  * Class Modules\Xot\Filament\Pages\MainDashboard.
  */
 class MainDashboard extends XotBaseDashboard
 {
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
 
@@ -37,42 +38,26 @@ class MainDashboard extends XotBaseDashboard
 
     public function mount(): void
     {
-        $user = auth()->user();
+        $user = Auth::user();
         Assert::notNull($user, '['.__LINE__.']['.class_basename($this).']');
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> master
->>>>>>> 4660cec06 (.)
         // Usa roles() come metodo invece della magic property per type safety
-        /** @var Collection<int, Role> $roles */
-        $roles = $user->roles()->get();
+        $modules = $user->getModules();
 
-        $modules = $roles->filter(function ($item): bool {
-             // $item è già tipizzato come Role dalla collection
-             $name = $item->name;
-             Assert::string($name);
-             return Str::endsWith($name, '::admin');
-        });
-
-        if ($modules->count() === 1) {
-            $module_first = $modules->first();
-            Assert::notNull($module_first);
-            $panel_name = $module_first->name;
-            Assert::string($panel_name);
-            $module_name = Str::before($panel_name, '::admin');
-            Assert::string($module_name);
-            $url = '/'.$module_name.'/admin';
-            redirect($url);
-        }
-
-        // Solo se non ha accesso a nessun modulo, redirect alla home locale
-        if ($modules->count() === 0) {
+        if (count($modules) === 0) {
             $url = '/'.app()->getLocale();
             redirect($url);
+
+            return;
+        }
+
+        if (count($modules) === 1) {
+            $module_first = Arr::first($modules);
+            Assert::isInstanceOf($module_first, \Nwidart\Modules\Laravel\Module::class);
+            $module_name = $module_first->getLowerName();
+            $url = '/'.$module_name.'/admin';
+            redirect($url);
+
+            return;
         }
 
         // In tutti gli altri casi, mostra il dashboard con i link ai moduli

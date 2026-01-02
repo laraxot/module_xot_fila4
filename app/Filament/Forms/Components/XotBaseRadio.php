@@ -7,20 +7,6 @@ namespace Modules\Xot\Filament\Forms\Components;
 use Filament\Forms\Components\Radio;
 
 /**
-<<<<<<< HEAD
- * Base class for radio form components.
- *
- * Extends Filament Radio to provide a standardized base class
- * following Laraxot architecture rules.
- *
- * @method static static make(string $name)
- */
-class XotBaseRadio extends Radio
-{
-    // Logica comune futura per i componenti Radio Xot
-}
-
-=======
  * Base class for custom Radio components following Laraxot philosophy.
  *
  * In the Laraxot framework, all custom Radio components should extend
@@ -38,4 +24,3 @@ abstract class XotBaseRadio extends Radio
         // Common setup for all XotBaseRadio components can be added here.
     }
 }
->>>>>>> 4660cec06 (.)

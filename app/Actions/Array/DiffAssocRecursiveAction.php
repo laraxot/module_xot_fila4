@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
 
 namespace Modules\Xot\Actions\Array;
 
@@ -49,12 +48,10 @@ class DiffAssocRecursiveAction
             try {
                 return ! \in_array($value, $arr_2, false);
             } catch (Exception $exception) {
-                dddx(['err' => $exception->getMessage(), 'value' => $value, 'key' => $key, 'arr_2' => $arr_2]);
+                return false;
             }
         });
 
         return $ris->all();
     }
 }
-=======
->>>>>>> 4660cec06 (.)

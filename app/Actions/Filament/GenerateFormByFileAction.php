@@ -8,8 +8,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-use Illuminate\Support\Facades\Log;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use ReflectionClass;
 use Spatie\QueueableAction\QueueableAction;

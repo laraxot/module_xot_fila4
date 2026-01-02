@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
+use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
 

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Changelog - Modulo Xot
 
 Tutte le modifiche significative al modulo Xot sono documentate in questo file.
@@ -143,7 +142,6 @@ All notable changes to `:package_name` will be documented in this file.
 **Maintained by:** Team Laraxot PTVX  
 **Format:** [Keep a Changelog](https://keepachangelog.com/)  
 **Versioning:** [Semantic Versioning](https://semver.org/)
-=======
 # Changelog
 
 All notable changes to `:package_name` will be documented in this file.
@@ -151,4 +149,3 @@ All notable changes to `:package_name` will be documented in this file.
 ## 1.0.0 - 202X-XX-XX
 
 - initial release
->>>>>>> 941b69f48 (.)

@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
 
 namespace Modules\Xot\Actions\Array;
 
@@ -18,11 +17,6 @@ class SaveJsonArrayAction
     {
         $content = json_encode($data, JSON_PRETTY_PRINT);
 
-        // if ($content === false) {
-        //    return false;
-        // }
         return (bool) file_put_contents($filename, $content);
     }
 }
-=======
->>>>>>> 4660cec06 (.)

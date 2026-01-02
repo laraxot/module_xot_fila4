@@ -24,38 +24,35 @@ Sempre estendere classi astratte con prefisso `XotBase` che rispettano il vecchi
 | `Filament\Resources\Pages\Page` | `Modules\Xot\Filament\Resources\Pages\XotBasePage` |
 | `Filament\Actions\BulkAction` | `Modules\Xot\Filament\Actions\XotBaseBulkAction` |
 | `Filament\Pages\Dashboard` | `Modules\Xot\Filament\Pages\XotBaseDashboard` |
-<<<<<<< HEAD
-
-### Schema Components
-
-| ❌ SBAGLIATO | ✅ CORRETTO |
-|-------------|------------|
-| `Filament\Schemas\Components\Section` | `Modules\Xot\Filament\Schemas\Components\XotBaseSection` |
-=======
-| `Filament\Schemas\Components\Section` | `Modules\Xot\Filament\Schemas\Components\XotBaseSection` |
 
 ### Schemas Components
 
 | ❌ SBAGLIATO | ✅ CORRETTO |
 |-------------|------------|
+| `Filament\Schemas\Components\Section` | `Modules\Xot\Filament\Schemas\Components\XotBaseSection` |
 | `Filament\Schemas\Components\Group` | `Modules\Xot\Filament\Schemas\Components\XotBaseGroup` |
-
->>>>>>> 4660cec06 (.)
 
 ### Forms Components
 
 | ❌ SBAGLIATO | ✅ CORRETTO |
 |-------------|------------|
-<<<<<<< HEAD
 | `Filament\Forms\Components\Select` | `Modules\Xot\Filament\Forms\Components\XotBaseSelect` |
 | `Filament\Forms\Components\CheckboxList` | `Modules\Xot\Filament\Forms\Components\XotBaseCheckboxList` |
 | `Filament\Forms\Components\ViewField` | `Modules\Xot\Filament\Forms\Components\XotBaseViewField` |
 | `Filament\Forms\Components\Radio` | `Modules\Xot\Filament\Forms\Components\XotBaseRadio` |
-=======
-| `Filament\Forms\Components\Radio` | `Modules\Xot\Filament\Forms\Components\XotBaseRadio` |
-| `Filament\Forms\Components\Select` | `Modules\Xot\Filament\Forms\Components\XotBaseSelect` |
 
->>>>>>> 4660cec06 (.)
+**⚠️ NOTA IMPORTANTE**: Nei moduli applicativi **non si estende mai** Filament direttamente.
+
+- I moduli applicativi devono usare **solo** `XotBase*`.
+- Solo il modulo `Xot` contiene (ed eventualmente aggiunge) i wrapper `XotBase*`.
+
+**Classi Base Forms Components Esistenti**:
+- `XotBaseField` (estende `Filament\Forms\Components\Field`) ✅
+- `XotBaseFormComponent` (estende `Filament\Forms\Components\Field`) ✅
+- `XotBasePlaceholder` (estende `Filament\Forms\Components\Placeholder`) ✅
+- `XotBaseRadio` (estende `Filament\Forms\Components\Radio`) ✅
+- `XotBaseSelect` (estende `Filament\Forms\Components\Select`) ✅
+- `XotBaseCheckboxList` (estende `Filament\Forms\Components\CheckboxList`) ✅
 
 ### Auth Pages
 
@@ -153,8 +150,6 @@ class MyPage extends XotBasePage
 class MyPage extends XotBasePage
 {
     // Queste proprietà sono gestite automaticamente dalla classe base
-<<<<<<< HEAD
-=======
 }
 ```
 
@@ -166,7 +161,7 @@ class MyPage extends XotBasePage
 
 `XotBaseWidget` inizializza automaticamente `$this->data` nel metodo `form()` quando si usa `statePath('data')`:
 
-- **Widget senza modello**: `$this->data` viene inizializzato con le chiavi dello schema (`['email' => null, 'password' => null, ...]`)
+- **Widget senza modello**: `$this->data` viene inizializzato con le chiavi dello schema (`['email' => null, 'password' => null, ...]`).
 - **Widget con modello**: `$this->data` viene popolato da `getFormFill()`
 
 **Pattern corretto per widget senza modello**:
@@ -198,7 +193,6 @@ class EditUserWidget extends XotBaseWidget
         $this->record = $this->getFormModel($userId);
         // form() gestirà automaticamente l'inizializzazione
     }
->>>>>>> 4660cec06 (.)
 }
 ```
 
@@ -279,11 +273,7 @@ class User extends Model
     ];
 }
 
-<<<<<<< HEAD
-// ✅ CORRETTO
-=======
 // ✅ CORRETTO - Laravel 11+ (metodo casts())
->>>>>>> 4660cec06 (.)
 class User extends Model
 {
     /**
@@ -370,140 +360,8 @@ class CreateUserAction
 app(CreateUserAction::class)->execute($data);
 ```
 
-<<<<<<< HEAD
----
+**Risorsa**: https://github.com/spatie/laravel-queueable-action
 
-## ⚠️ Regole Specifiche per XotBaseWidget
-
-### Metodo form() - Inizializzazione Automatica
-
-`XotBaseWidget` inizializza automaticamente `$this->data` nel metodo `form()` quando si usa `statePath('data')`:
-
-- **Widget senza modello**: `$this->data` viene inizializzato con le chiavi dello schema (`['email' => null, 'password' => null, ...]`)
-- **Widget con modello**: `$this->data` viene popolato da `getFormFill()`
-
-**Pattern corretto per widget senza modello**:
-```php
-// ✅ CORRETTO: Nessun mount() necessario
-class LoginWidget extends XotBaseWidget
-{
-    #[\Override]
-    public function getFormSchema(): array
-    {
-        return [
-            'email' => TextInput::make('email')->email()->required(),
-            'password' => TextInput::make('password')->password()->required(),
-        ];
-    }
-    // mount() NON necessario - form() gestisce tutto automaticamente
-}
-```
-
-**Pattern per widget con logica aggiuntiva**:
-```php
-// ✅ CORRETTO: mount() solo se serve logica specifica
-class EditUserWidget extends XotBaseWidget
-{
-    public function mount(string $type, ?string $userId = null): void
-    {
-        // Solo logica specifica - NON inizializzare $this->data qui
-        $this->type = $type;
-        $this->record = $this->getFormModel($userId);
-        // form() gestirà automaticamente l'inizializzazione
-    }
-}
-```
-
----
-
-## 📋 Array Return Types Importanti
-
-I seguenti metodi devono restituire array associativi con chiavi stringa:
-
-### Metodi che richiedono array associativi
-```php
-// ✅ CORRETTO - Array associativo con chiavi stringa
-public function getTableActions(): array
-{
-    return [
-        'view' => ViewAction::make(),
-        'edit' => EditAction::make(),
-        'delete' => DeleteAction::make(),
-    ];
-}
-
-public function getTableBulkActions(): array
-{
-    return [
-        'delete' => DeleteBulkAction::make(),
-        'export' => ExportBulkAction::make(),
-    ];
-}
-
-public function getTableFilters(): array
-{
-    return [
-        'status' => SelectFilter::make('status'),
-        'date' => DateRangeFilter::make('created_at'),
-    ];
-}
-
-public function getHeaderActions(): array
-{
-    return [
-        'create' => CreateAction::make(),
-        'import' => ImportAction::make(),
-    ];
-}
-
-public function getFormSchema(): array
-{
-    return [
-        'name' => TextInput::make('name')->required(),
-        'email' => TextInput::make('email')->email()->required(),
-    ];
-}
-```
-
-### NOTA IMPORTANTE sugli array types
-I metodi `getTableColumns`, `getFormSchema`, `getTableBulkActions`, `getTableActions`, `getTableFilters`, `getHeaderActions` restituiscono sempre `array<string, mixed>`. Evitare l'uso di `mixed` come tipo quando possibile, cercando di usarlo solo come ultima spiaggia.
-
----
-
-## 🚫 Eloquent Magic Properties - REGOLA CRITICA
-
-### Regola Assoluta: Mai usare `property_exists()` con modelli Eloquent
-
-**Gli attributi Eloquent sono magic properties accessibili via `__get()`, quindi `property_exists()` non li rileva.**
-
-```php
-// ❌ SBAGLIATO - property_exists() NON funziona con magic attributes
-if (property_exists($model, 'name')) { }
-
-// ✅ CORRETTO - Usa isset() per magic attributes
-if (isset($model->name)) { }
-
-// ✅ ANCHE CORRETTO - Usa hasAttribute() se disponibile
-if ($model->hasAttribute('name')) { }
-
-// ✅ ANCHE CORRETTO - Usa isFillable() per attributi fillable
-if ($model->isFillable('name')) { }
-
-// ✅ ANCHE CORRETTO - Usa Schema::hasColumn() per colonne DB
-use Illuminate\Support\Facades\Schema;
-
-if (Schema::hasColumn($model->getTable(), 'name')) {
-    $value = $model->name;
-}
-
-// ✅ ANCHE CORRETTO - Usa SafeAttributeCastAction per accesso sicuro
-use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
-
-$value = SafeAttributeCastAction::get($model, 'name', 'default');
-```
-
-=======
->>>>>>> 4660cec06 (.)
 ---
 
 ## 📚 Esempi Completi
@@ -608,8 +466,6 @@ class MyTableWidget extends XotBaseTableWidget
 
 ---
 
-<<<<<<< HEAD
-=======
 ## 📋 Array Return Types Importanti
 
 I seguenti metodi devono restituire array associativi con chiavi stringa:
@@ -698,7 +554,6 @@ $value = SafeAttributeCastAction::get($model, 'name', 'default');
 
 ---
 
->>>>>>> 4660cec06 (.)
 ## ✅ Checklist Pre-Implementazione
 
 Prima di creare una nuova classe Filament:
@@ -706,11 +561,7 @@ Prima di creare una nuova classe Filament:
 - [ ] Ho verificato quale classe XotBase estendere?
 - [ ] Non sto estendendo direttamente classi Filament?
 - [ ] Non sto replicando metodi della classe base?
-<<<<<<< HEAD
-- [ ] Sto usando file di traduzione invece di ->label()?
-=======
 - [ ] Sto usando file di traduzione invece di ->label()? 
->>>>>>> 4660cec06 (.)
 - [ ] Sto usando Actions invece di Services?
 - [ ] Ho rimosso BadgeColumn deprecato?
 - [ ] Ho migrato da `protected $casts` a `casts()`?
@@ -719,69 +570,10 @@ Prima di creare una nuova classe Filament:
 
 ---
 
-<<<<<<< HEAD
-## 💡 Approccio di Lavoro
-
-### Workflow Completo
-Come sempre prima di correggere devi:
-1. **Aumenta confidenza**: Studia architettura, business, doc root
-2. **Studia docs**: Leggi `Modules/{Modulo}/docs/` + `Themes/{Tema}/docs/`
-3. **Aggiorna docs**: Documenta ciò che stai per fare
-4. **Ragiona**: Capisci logica, filosofia, scopo, perché
-5. **Implementa**: Scrivi il codice o la correzione
-6. **Controlla**: PHPStan livello 10, PHPMD, PHP Insights
-7. **Correggi**: Risolvi errori trovati
-8. **Verifica**: Riesegui tutti i tool
-9. **Migliora**: Rivedi e ottimizza
-10. **Git commit e push**: Dopo ogni modulo completato
-
-### Verifica Qualità
-Quando finisci una modifica devi sempre controllare con:
-- **PHPStan livello 10**: `./vendor/bin/phpstan analyse Modules/{ModuleName} --level=10`
-- **PHPMD**: `./vendor/bin/phpmd Modules/{ModuleName} text codesize`
-- **PHP Insights**: `./vendor/bin/phpinsights analyse Modules/{ModuleName}`
-
-### Workflow Modulo per Modulo
-- **Lavora un modulo alla volta**: Completa tutti gli errori del modulo, poi passa al successivo
-- **Quando tutti i moduli sono a posto**: Controlla tutta la cartella Modules
-- **Verifica continua**: Dopo ogni batch di correzioni
-
----
-
-## 💡 Ricorda Sempre
-
-1. **Mai estendere Filament direttamente** - sempre XotBase
-2. **Non replicare metodi** se identici alla classe base
-3. **Usa traduzioni** invece di ->label() diretto
-4. **Usa Actions** invece di Services (Spatie Queueable Actions)
-5. **Rispetta deprecazioni** (BadgeColumn, `protected $casts`)
-6. **Aggiorna docs** dopo ogni implementazione (modulo, non root)
-7. **Usa array associativi** quando richiesto (chiavi stringa)
-8. **property_exists() NON funziona** con modelli Eloquent - usa `isset()`, `hasAttribute()`, `isFillable()`, `Schema::hasColumn()`
-9. **Mixed solo come ultima spiaggia** - preferisci union types, type narrowing, generics
-10. **NO Controller**: Backoffice = Filament, Frontoffice = Folio + Volt
-11. **Test in Pest**: Tutti i test devono essere in Pest
-12. **Controlla sempre** con PHPStan livello 10, PHPMD, PHP Insights
-13. **Git commit e push** dopo ogni modulo completato
-14. **DRY + KISS**: Sempre applicare - non duplicare, non complicare
-
----
-
 ## 🔗 Collegamenti Utili
 
-- [XotBaseResource Documentation](filament/xotbaseresource.md)
-- [Base Classes Documentation](consolidated/base-classes.md)
-- [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
-- [Filament v4 Documentation](https://filamentphp.com/docs/4.x)
-
----
-
-**Filosofia**: DRY + KISS - Non duplicare, non complicare, usa sempre le classi base.
-=======
-## 🔗 Collegamenti Utili
-
-- [XotBaseResource Documentation](architectural_rules/filament_extension_rules.md)
-- [Base Classes Documentation](../consolidated/base-classes.md)
+- [XotBaseResource Documentation](../../laravel/Modules/Xot/docs/consolidated/filament/resources/xot-base-resource.md)
+- [Base Classes Documentation](../../laravel/Modules/Xot/docs/consolidated/base-classes.md)
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
 - [Filament v4 Documentation](https://filamentphp.com/docs/4.x)
 
@@ -835,4 +627,3 @@ Quando finisci una modifica devi sempre controllare con:
 ---
 
 **Filosofia**: DRY + KISS - Non duplicare, non complicare, usa sempre le classi base.
->>>>>>> 4660cec06 (.)

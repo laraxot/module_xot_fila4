@@ -5,20 +5,21 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 use BackedEnum;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\HasOne;
-use Laravel\Passport\PersonalAccessTokenResult;
 use Laravel\Passport\Token;
-use Laravel\Passport\TransientToken;
-use Modules\User\Contracts\TeamContract;
-use Modules\User\Models\Role as UserRole;
 use Modules\User\Models\Team;
 use Modules\User\Models\Tenant;
+use Nwidart\Modules\Laravel\Module;
+use Laravel\Passport\TransientToken;
+use Illuminate\Database\Eloquent\Model;
+use Modules\User\Contracts\TeamContract;
+use Modules\User\Models\Role as UserRole;
 use Spatie\Permission\Contracts\Permission;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
  * Modules\Xot\Contracts\UserContract.
@@ -124,7 +125,7 @@ interface UserContract extends Authenticatable
     /**
      * Revoke the given role from the model.
      *
-     * @param string|int|array|UserRole|Collection|BackedEnum ...$role
+     * @param  string|int|array|UserRole|Collection|BackedEnum  ...$role
      * @return $this
      */
     public function removeRole(...$role);
@@ -148,4 +149,10 @@ interface UserContract extends Authenticatable
      * Switch the user's context to the given team.
      */
     public function switchTeam(TeamContract $team): bool;
+
+
+    /**
+    * @return list<Module>
+    */
+    public function getModules(): array;
 }

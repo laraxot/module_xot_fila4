@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-use Modules\Xot\Filament\Pages\XotBasePage;
-
 class Test extends XotBasePage
 {
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'modules.xot.filament.pages.test';
 }

@@ -4,22 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Traits;
 
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Session;
-use Modules\Xot\Filament\Traits\TransTrait;
-
 use Filament\Forms\Components\TextInput;
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-use Filament\Support\Contracts\HasLabel;
 use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
+use Modules\Xot\Filament\Traits\TransTrait;
 
-
-trait EnumTrait 
+trait EnumTrait
 {
-   use TransTrait;
-
+    use TransTrait;
 
     public function getLabel(): string
     {
@@ -112,9 +104,9 @@ trait EnumTrait
      */
     public static function columns(Blueprint $table, ?XotBaseMigration $migration = null): void
     {
-        if (! method_exists(static::class, 'getColumnDefinitions')) {
-            return;
-        }
+        //if (! method_exists(static::class, 'getColumnDefinitions')) {
+        //    return;
+        //}
 
         foreach (static::getColumnDefinitions() as $name => $definition) {
             if ($migration === null || ! $migration->hasColumn($name)) {

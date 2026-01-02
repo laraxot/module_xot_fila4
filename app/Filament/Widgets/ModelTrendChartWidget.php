@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Override;
-use Exception;
 use Carbon\Carbon;
+use Exception;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
+use Override;
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {

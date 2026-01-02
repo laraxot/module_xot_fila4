@@ -23,6 +23,9 @@ class GetModulePathByGeneratorAction
             generatorPath:['.
             $generatorPath.
             ']
+            relativePath:['.
+            $relativePath.
+            ']
             error_message:['.
             $e->getMessage().
                 ']');

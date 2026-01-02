@@ -66,7 +66,7 @@ interface UserContract extends Authenticatable
      * @param  string  $name
      * @return PersonalAccessTokenResult
      */
-    public function createToken($name, array $scopes = []);
+    public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
 
     /**
      * Passport API tokens support.

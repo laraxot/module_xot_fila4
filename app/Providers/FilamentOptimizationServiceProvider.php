@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
+<<<<<<< HEAD
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
@@ -13,6 +14,16 @@ use Nwidart\Modules\Module;
 use PDO;
 use Webmozart\Assert\Assert;
 
+=======
+use PDO;
+use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Database\Events\QueryExecuted;
+use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+use Nwidart\Modules\Module;
+use Webmozart\Assert\Assert;
+>>>>>>> 941b69f48 (.)
 use function Safe\preg_match;
 
 /**
@@ -97,7 +108,11 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             DB::enableQueryLog();
             
             // Log delle query alla fine della richiesta
+<<<<<<< HEAD
             app()->terminating(function () {
+=======
+            app()->terminating(function (): void {
+>>>>>>> 941b69f48 (.)
                 $queries = DB::getQueryLog();
                 Assert::isArray($queries);
                 /** @var array<int, array<string, mixed>> $queries */

@@ -353,8 +353,7 @@ class XotData extends Data implements Wireable
 
     public function getMailHtmlLayoutPath(string $key = ''): string
     {
-        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/mail-layouts/'.$key);
-        return  $path0;
+        return base_path('Themes/'.$this->pub_theme.'/resources/mail-layouts/'.$key);
     }
 
     /**

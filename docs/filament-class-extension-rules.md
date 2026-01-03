@@ -470,6 +470,8 @@ class MyTableWidget extends XotBaseTableWidget
 
 I seguenti metodi devono restituire array associativi con chiavi stringa:
 
+- `getInfolistSchema()` (es. `XotBaseViewRecord`) deve restituire sempre un array con chiavi **stringa**.
+
 ### Metodi che richiedono array associativi
 ```php
 // ✅ CORRETTO - Array associativo con chiavi stringa

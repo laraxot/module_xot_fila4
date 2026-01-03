@@ -16,7 +16,7 @@ class GetModulePathByGeneratorAction
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
         try {
             $res = module_path($moduleName, $relativePath);
-            if (is_string($res) && $res !== '') {
+            if ($res !== '') {
                 return $res;
             }
         } catch (Exception|Error $e) {

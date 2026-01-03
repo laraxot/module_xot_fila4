@@ -6,12 +6,8 @@ This method must return an `array` of Filament infolist components.
 
 ## Example:
 
-```php
-<?php
-
-namespace Modules\User\Filament\Resources\ClientResource\Pages;
-
 use Modules\Xot\Filament\Schemas\Components\XotBaseSection as Section;
+use Filament\Infolists\Components\TextEntry;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Modules\User\Filament\Resources\ClientResource;
 
@@ -22,7 +18,7 @@ class ViewClient extends XotBaseViewRecord
     public function getInfolistSchema(): array
     {
         return [
-            Section::make('Client Credentials')
+            'credentials' => Section::make('Client Credentials')
                 ->schema([
                     //... infolist components
                 ]),
@@ -36,4 +32,5 @@ class ViewClient extends XotBaseViewRecord
 
 The `XotBaseViewRecord` base class provides a standardized structure for view pages. It requires the `getInfolistSchema()` method to build the infolist, which promotes consistency and abstracts away the `Infolist` object creation. This is a departure from the standard Filament `infolist()` method which injects the `Infolist` object.
 
-Also, as a general rule, always use `Modules\Xot\Filament\Schemas\Components\XotBaseSection` instead of the standard `Filament\Infolists\Components\Section`.
+As a general rule, always use `Modules\Xot\Filament\Schemas\Components\XotBaseSection` instead of the standard `Filament\Infolists\Components\Section`.
+Also, the top-level array returned by `getInfolistSchema()` MUST always use string keys for its elements, typically matching the name of the `Section` or a logical identifier. Numeric keys are forbidden.

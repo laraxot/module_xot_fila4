@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+use Nwidart\Modules\Laravel\Module;
 use Filament\Panel;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -17,7 +18,7 @@ use Illuminate\Database\Eloquent\Collection;
  */
 class MainDashboard extends XotBaseDashboard
 {
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
 
@@ -52,7 +53,7 @@ class MainDashboard extends XotBaseDashboard
 
         if (count($modules) === 1) {
             $module_first = Arr::first($modules);
-            Assert::isInstanceOf($module_first, \Nwidart\Modules\Laravel\Module::class);
+            Assert::isInstanceOf($module_first, Module::class);
             $module_name = $module_first->getLowerName();
             $url = '/'.$module_name.'/admin';
             redirect($url);

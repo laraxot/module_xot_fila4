@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions;
 
+use InvalidArgumentException;
 use Illuminate\Support\Arr;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -33,7 +34,7 @@ class ParsePrintPageStringAction
 
         // Verifica che $matches sia un array e che contenga almeno un elemento
         if (!is_array($matches) || !isset($matches[0]) || empty($matches[0])) {
-            throw new \InvalidArgumentException('No valid page numbers found');
+            throw new InvalidArgumentException('No valid page numbers found');
         }
 
         /** @var array<int, string> $matches0 */

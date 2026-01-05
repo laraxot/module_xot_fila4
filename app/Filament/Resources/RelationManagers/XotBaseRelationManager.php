@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\RelationManagers;
 
+use Override;
 use Filament\Actions\AttachAction;
 use Filament\Actions\CreateAction;
 use Filament\Actions\DeleteBulkAction;
@@ -96,7 +97,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /**
      * @return array<int|string, Column|LayoutComponent>
      */
-    #[\Override]
+    #[Override]
     public function getTableColumns(): array
     {
         $index = Arr::get($this->getResource()::getPages(), 'index');
@@ -235,9 +236,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /**
      * Determine if the bulk delete action can be performed on the given record.
      */
-    public function canDeleteBulk(Model|\stdClass|null $record): bool
+    public function canDeleteBulk(Model|stdClass|null $record): bool
     {
-        if ($record instanceof \stdClass) {
+        if ($record instanceof stdClass) {
             // For stdClass records (lightweight bulk operations), allow by default
             return true;
         }
@@ -248,9 +249,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /**
      * Determine if the bulk detach action can be performed on the given record.
      */
-    public function canDetachBulk(Model|\stdClass|null $record): bool
+    public function canDetachBulk(Model|stdClass|null $record): bool
     {
-        if ($record instanceof \stdClass) {
+        if ($record instanceof stdClass) {
             // For stdClass records (lightweight bulk operations), allow by default
             return true;
         }

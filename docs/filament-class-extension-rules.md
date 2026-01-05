@@ -25,12 +25,11 @@ Sempre estendere classi astratte con prefisso `XotBase` che rispettano il vecchi
 | `Filament\Actions\BulkAction` | `Modules\Xot\Filament\Actions\XotBaseBulkAction` |
 | `Filament\Pages\Dashboard` | `Modules\Xot\Filament\Pages\XotBaseDashboard` |
 
-### Schemas Components
+### Schema Components
 
 | ❌ SBAGLIATO | ✅ CORRETTO |
 |-------------|------------|
 | `Filament\Schemas\Components\Section` | `Modules\Xot\Filament\Schemas\Components\XotBaseSection` |
-| `Filament\Schemas\Components\Group` | `Modules\Xot\Filament\Schemas\Components\XotBaseGroup` |
 
 ### Forms Components
 

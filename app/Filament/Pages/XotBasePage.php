@@ -99,9 +99,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
      * Ottiene il gruppo di navigazione.
      *
-     * @return string Il gruppo di navigazione
+     * @return \UnitEnum|string|null Il gruppo di navigazione
      */
-    public static function getNavigationGroup(): string
+    public static function getNavigationGroup(): \UnitEnum|string|null
     {
         return static::transFunc(__FUNCTION__);
     }

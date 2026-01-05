@@ -63,12 +63,7 @@ interface UserContract extends Authenticatable
     /**
      * Create a new personal access token for the user.
      *
-<<<<<<< HEAD
-     * @param  string  $name
-     * @return PersonalAccessTokenResult
-=======
      * @param array<int, string> $scopes
->>>>>>> a0f9375 (.)
      */
     public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
 

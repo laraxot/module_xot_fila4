@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Dummy;
 
-use GuzzleHttp\Promise\PromiseInterface;
-use Illuminate\Http\Client\Response;
 use Exception;
-use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
@@ -27,11 +24,6 @@ class GetProductsArrayDummyAction
     {
         // API
         $response = Http::get('https://dummyjson.com/products');
-
-        // Ensure we have a Response, not Promise
-        if ($response instanceof PromiseInterface) {
-            $response = $response->wait();
-        }
 
         /** @var Response $response */
         Assert::isArray($products = $response->json());

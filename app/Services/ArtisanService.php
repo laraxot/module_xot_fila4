@@ -144,13 +144,13 @@ class ArtisanService
 
         $pattern = '/url":"([^"]*)"/';
 
-        /** @var array<int, array<int, string>>|null $matches */
+        /** @var array<int, array<int, string>> $matches */
         $matches = [];
         preg_match_all($pattern, $content, $matches);
 
         /** @var array<int, string> $urls */
         $urls = [];
-        if (is_array($matches) && isset($matches[1])) {
+        if (is_array($matches)) {
             /** @var array<int, string> $urlsRaw */
             $urlsRaw = $matches[1];
             $urls = array_values(array_unique($urlsRaw));

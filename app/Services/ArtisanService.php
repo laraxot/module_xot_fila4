@@ -144,13 +144,17 @@ class ArtisanService
 
         $pattern = '/url":"([^"]*)"/';
 
-        /** @var array<int, array<int, string>> $matches */
+        /** @var array<int, array<int, string>>|null $matches */
         $matches = [];
         preg_match_all($pattern, $content, $matches);
 
         /** @var array<int, string> $urls */
         $urls = [];
+<<<<<<< HEAD
         if (is_array($matches)) {
+=======
+        if (is_array($matches) && isset($matches[1])) {
+>>>>>>> c85ea7588 (.)
             /** @var array<int, string> $urlsRaw */
             $urlsRaw = $matches[1];
             $urls = array_values(array_unique($urlsRaw));

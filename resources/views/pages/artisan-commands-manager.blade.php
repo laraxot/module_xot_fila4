@@ -1,8 +1,26 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 <x-filament::page>
     <div class="space-y-6">
         <div class="p-6 bg-white rounded-xl shadow dark:bg-gray-800">
@@ -41,4 +59,20 @@ declare(strict_types=1);
     </script>
     @endscript
     --}}
+<<<<<<< HEAD
 </x-filament::page>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+</x-filament::page>
+=======
+</x-filament::page> 
+>>>>>>> a12f125f4a (.)
+=======
+</x-filament::page>
+>>>>>>> b93ef594b4 (.)
+=======
+</x-filament::page> 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)

@@ -38,7 +38,9 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 
 ```php
 // ❌ VIOLAZIONE CRITICA
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +96,10 @@ use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\User;
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
 use Modules\SaluteOra\Models\User;
 =======
 use Modules\<nome modulo>\Models\User;
@@ -196,6 +202,7 @@ $user = User::factory()->create([...]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -332,7 +339,11 @@ $user = User::factory()->create([...]);
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
 =======
+=======
+>>>>>>> cc52d333 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+=======
+>>>>>>> 6cba4fe (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 >>>>>>> 03ceeac3 (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
@@ -389,6 +400,7 @@ $user = $userClass::factory()->create($attributes);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,7 +545,11 @@ $user = $userClass::factory()->create($attributes);
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
 =======
+=======
+>>>>>>> cc52d333 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+=======
+>>>>>>> 6cba4fe (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> 03ceeac3 (.)
     ],
@@ -618,6 +634,7 @@ public function processUser(UserContract $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -762,7 +779,11 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
 =======
+=======
+>>>>>>> cc52d333 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> 6cba4fe (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 03ceeac3 (.)
 ```
@@ -921,6 +942,7 @@ class ChangeTypeCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -1123,9 +1145,13 @@ use Modules\SaluteOra\Models\Doctor;
 =======
 >>>>>>> cf971011 (.)
 =======
+=======
+>>>>>>> cc52d333 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
+=======
+>>>>>>> 6cba4fe (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
@@ -1164,6 +1190,7 @@ use Modules\Xot\Datas\XotData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1308,7 +1335,11 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
 =======
+=======
+>>>>>>> cc52d333 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
+=======
+>>>>>>> 6cba4fe (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> 03ceeac3 (.)
 
@@ -1345,6 +1376,7 @@ $user = $userClass::find($id);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1489,7 +1521,11 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
 =======
+=======
+>>>>>>> cc52d333 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> 6cba4fe (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 03ceeac3 (.)
 
@@ -1809,7 +1845,10 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
+<<<<<<< HEAD
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
+=======
+>>>>>>> 6cba4fe (.)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 >>>>>>> 03ceeac3 (.)
 
@@ -1817,6 +1856,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 
 **Ultimo Aggiornamento**: Gennaio 2025  
 **Stato**: ✅ Pattern Documentato e Implementato  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1973,3 +2013,8 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 **Responsabile**: Team Architettura Laraxot 
 >>>>>>> 03ceeac3 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)

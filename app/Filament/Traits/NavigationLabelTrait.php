@@ -14,7 +14,7 @@ use Modules\Xot\Actions\File\SvgExistsAction;
 
 trait NavigationLabelTrait
 {
-    use TransTrait;
+    use TransFuncTrait;
 
 <<<<<<< HEAD
 <<<<<<< HEAD

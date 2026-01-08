@@ -32,6 +32,7 @@ class CustomRelationAction
             /** @var array<string, mixed> $data PHPStan: ensure correct type */
             if (\in_array($keyName, array_keys($data), false)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,6 +50,9 @@ class CustomRelationAction
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 300ef70 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

@@ -9,6 +9,7 @@ use Spatie\QueueableAction\QueueableAction;
 use Throwable;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /**
  * Action per gestire in modo sicuro l'accesso alle proprietà degli oggetti generici.
@@ -21,32 +22,20 @@ use Webmozart\Assert\Assert;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
 
->>>>>>> 73eab74 (.)
 use function Safe\json_decode;
 
 /**
  * Action per gestire in modo sicuro l'accesso alle proprietà degli oggetti generici.
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
- * 
->>>>>>> f1d4085 (.)
-=======
- *
->>>>>>> 73eab74 (.)
  * Questa action centralizza la logica di accesso sicuro alle proprietà per evitare:
  * - Uso di property_exists() con oggetti che potrebbero avere magic methods
  * - Errori di tipo con accesso diretto alle proprietà
  * - Duplicazione di logica di verifica proprietà
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
  * 
 >>>>>>> f1d4085 (.)
@@ -54,6 +43,8 @@ use function Safe\json_decode;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di accesso proprietà
  * - KISS: Metodi semplici e diretti
@@ -62,6 +53,7 @@ use function Safe\json_decode;
  * - Assert: Utilizza webmozart/assert per validazioni robuste
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,15 +106,13 @@ use function Safe\json_decode;
 >>>>>>> 5a14301c (.)
 =======
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
- *
 =======
- * 
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
  *
->>>>>>> 73eab74 (.)
  * @package Modules\Xot\Actions\Cast
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -143,6 +133,7 @@ class SafeObjectCastAction
     {
         Assert::stringNotEmpty($property);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -155,6 +146,9 @@ class SafeObjectCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         return isset($object->{$property});
     }
 
@@ -169,12 +163,15 @@ class SafeObjectCastAction
     {
         Assert::stringNotEmpty($property);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         $hasProperty = isset($object->{$property});
         $isNotNull = $hasProperty && $object->{$property} !== null;
@@ -186,6 +183,7 @@ class SafeObjectCastAction
 
         return $hasProperty && $isNotNull;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -195,6 +193,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 
     /**
@@ -208,17 +208,21 @@ class SafeObjectCastAction
     {
         Assert::stringNotEmpty($property);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         if (! isset($object->{$property})) {
             return false;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -232,6 +236,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $value = $object->{$property};
 
         return $value !== '';
@@ -246,11 +252,14 @@ class SafeObjectCastAction
      * @return string Il valore della proprietà convertito in string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function getStringProperty(object $object, string $property, null|string $default = ''): string
     {
         Assert::object($object);
@@ -260,6 +269,7 @@ class SafeObjectCastAction
             return $default ?? '';
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -278,6 +288,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $value = $object->{$property};
 
         return (string) $value;
@@ -292,11 +304,14 @@ class SafeObjectCastAction
      * @return int Il valore della proprietà convertito in int
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function getIntProperty(object $object, string $property, null|int $default = 0): int
     {
         Assert::object($object);
@@ -306,6 +321,7 @@ class SafeObjectCastAction
             return $default ?? 0;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -324,6 +340,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $value = $object->{$property};
 
         return app(SafeIntCastAction::class)->execute($value, $default);
@@ -338,11 +356,14 @@ class SafeObjectCastAction
      * @return float Il valore della proprietà convertito in float
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function getFloatProperty(object $object, string $property, null|float $default = 0.0): float
     {
         Assert::object($object);
@@ -352,6 +373,7 @@ class SafeObjectCastAction
             return $default ?? 0.0;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -370,6 +392,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $value = $object->{$property};
 
         return app(SafeFloatCastAction::class)->execute($value, $default);
@@ -384,11 +408,14 @@ class SafeObjectCastAction
      * @return bool Il valore della proprietà convertito in boolean
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function getBooleanProperty(object $object, string $property, null|bool $default = false): bool
     {
         Assert::object($object);
@@ -398,6 +425,7 @@ class SafeObjectCastAction
             return $default ?? false;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -416,6 +444,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $value = $object->{$property};
 
         return app(SafeBooleanCastAction::class)->execute($value, $default);
@@ -430,11 +460,14 @@ class SafeObjectCastAction
      * @return array Il valore della proprietà convertito in array
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function getArrayProperty(object $object, string $property, null|array $default = []): array
     {
         Assert::object($object);
@@ -444,6 +477,7 @@ class SafeObjectCastAction
             return $default ?? [];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -462,6 +496,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $value = $object->{$property};
 
         return app(SafeArrayCastAction::class)->execute($value, $default);
@@ -481,6 +517,7 @@ class SafeObjectCastAction
         Assert::stringNotEmpty($property);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -493,12 +530,16 @@ class SafeObjectCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         return match ($type) {
             'string' => $this->getStringProperty($object, $property, is_string($default) ? $default : null),
             'int' => $this->getIntProperty($object, $property, is_int($default) ? $default : null),
             'float' => $this->getFloatProperty($object, $property, is_float($default) ? $default : null),
             'bool' => $this->getBooleanProperty($object, $property, is_bool($default) ? $default : null),
             'array' => $this->getArrayProperty($object, $property, is_array($default) ? $default : null),
+<<<<<<< HEAD
 <<<<<<< HEAD
             default => throw new InvalidArgumentException("Tipo non supportato: {$type}"),
 =======
@@ -512,6 +553,9 @@ class SafeObjectCastAction
             default => throw new InvalidArgumentException("Tipo non supportato: {$type}"),
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            default => throw new InvalidArgumentException("Tipo non supportato: {$type}"),
+>>>>>>> 300ef70 (.)
         };
     }
 
@@ -527,17 +571,21 @@ class SafeObjectCastAction
     {
         Assert::stringNotEmpty($property);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         if (! isset($object->{$property})) {
             return false;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -551,6 +599,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $actualValue = $object->{$property};
 
         return $actualValue === $expectedValue;
@@ -568,6 +618,7 @@ class SafeObjectCastAction
      */
     public function getValidatedProperty(
 <<<<<<< HEAD
+<<<<<<< HEAD
         object $object,
         string $property,
         string $type,
@@ -578,11 +629,14 @@ class SafeObjectCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         object $object,
         string $property,
         string $type,
         null|callable $validator = null,
         mixed $default = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         object $object, 
@@ -594,9 +648,12 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     ): mixed {
         Assert::stringNotEmpty($property);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -604,6 +661,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         $value = $this->getTypedProperty($object, $property, $type, $default);
 
@@ -611,6 +670,7 @@ class SafeObjectCastAction
             return $default;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -626,6 +686,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         return $value;
     }
 
@@ -640,6 +702,7 @@ class SafeObjectCastAction
     {
         Assert::stringNotEmpty($method);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -652,6 +715,9 @@ class SafeObjectCastAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         return method_exists($object, $method);
     }
 
@@ -665,12 +731,15 @@ class SafeObjectCastAction
      * @return mixed Il risultato del metodo o il valore di default
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function callMethodSafely(
         object $object,
         string $method,
@@ -683,6 +752,7 @@ class SafeObjectCastAction
             return $default;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -700,6 +770,8 @@ class SafeObjectCastAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         try {
             return $object->{$method}(...$parameters);
         } catch (Throwable $e) {

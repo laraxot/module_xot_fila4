@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -36,6 +37,8 @@
 =======
 >>>>>>> 399f46d3 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 # Xot Module - Framework Base Laraxot
 =======
 <<<<<<< HEAD
@@ -43,7 +46,12 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 # Laraxot PTVX - Documentazione Consolidata
 >>>>>>> 48515e368 (.)
 
@@ -727,6 +735,7 @@ ls Modules/*/lang/*/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -743,6 +752,8 @@ ls Modules/*/lang/*/
 =======
 >>>>>>> cc7fb225 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 <<<<<<< HEAD
 =======
@@ -817,7 +828,12 @@ Configurazione automatica tramite service providers.
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
@@ -833,8 +849,11 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -876,7 +895,13 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 ## Quick Links Legacy
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+## Quick Links Legacy
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

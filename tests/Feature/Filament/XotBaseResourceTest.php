@@ -3,12 +3,15 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -51,6 +54,7 @@ beforeEach(function () {
 }
 =======
         protected static null|int $navigationSort = 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
@@ -158,7 +162,12 @@ test('xot base resource extends filament resource', function (): void {
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     };
 });
 

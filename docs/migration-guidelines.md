@@ -41,16 +41,20 @@ return new class extends XotBaseMigration
 
 ## Related Documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 - [User Module Database Errors](../../User/docs/DATABASE_ERRORS.md)
 - [Xot Base Classes](../XOT_BASE_CLASSES.md)
 - [Code Quality](../CODE_QUALITY.md)
 - [Root Documentation](../../../../docs/collegamenti-documentazione.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 <<<<<<< HEAD
@@ -86,6 +90,8 @@ return new class extends XotBaseMigration
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)

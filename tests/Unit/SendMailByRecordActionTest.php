@@ -18,12 +18,17 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Illuminate\Mail\Mailable;
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -129,6 +134,7 @@ it('throws if record has no email', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
@@ -177,6 +183,8 @@ it('throws if record has no email', function (): void {
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 
 
@@ -217,6 +225,11 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         ->toThrow(InvalidArgumentException::class);
 });

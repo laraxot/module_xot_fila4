@@ -62,6 +62,7 @@ it('casts boolean values', function (): void {
     $trueResult = $this->action->execute(true);
     $falseResult = $this->action->execute(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     expect($trueResult)->toBe(1.0)->toBeFloat()->and($falseResult)->toBe(0.0)->toBeFloat();
 =======
@@ -79,6 +80,10 @@ it('casts boolean values', function (): void {
     expect($trueResult)->toBe(1.0)->toBeFloat()->and($falseResult)->toBe(0.0)->toBeFloat();
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+    expect($trueResult)->toBe(1.0)->toBeFloat()->and($falseResult)->toBe(0.0)->toBeFloat();
+>>>>>>> 300ef70 (.)
 });
 
 it('casts arrays', function (): void {
@@ -141,6 +146,7 @@ it('casts with range validation', function (): void {
     $aboveMax = $this->action->executeWithRange(150.0, 0.0, 100.0);
     $belowMin = $this->action->executeWithRange(-10.0, 0.0, 100.0);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     expect($normal)->toBe(50.0)->and($aboveMax)->toBe(100.0)->and($belowMin)->toBe(0.0);
 =======
@@ -159,6 +165,10 @@ it('casts with range validation', function (): void {
     expect($normal)->toBe(50.0)->and($aboveMax)->toBe(100.0)->and($belowMin)->toBe(0.0);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+    expect($normal)->toBe(50.0)->and($aboveMax)->toBe(100.0)->and($belowMin)->toBe(0.0);
+>>>>>>> 300ef70 (.)
 });
 
 it('casts with range and default', function (): void {
@@ -185,6 +195,7 @@ it('handles infinite values', function (): void {
     $infResult = $this->action->execute('INF');
     $nanResult = $this->action->execute('NAN');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     expect($infResult)->toBe(0.0)->and($nanResult)->toBe(0.0);
 =======
@@ -202,11 +213,16 @@ it('handles infinite values', function (): void {
     expect($infResult)->toBe(0.0)->and($nanResult)->toBe(0.0);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+    expect($infResult)->toBe(0.0)->and($nanResult)->toBe(0.0);
+>>>>>>> 300ef70 (.)
 });
 
 it('handles infinite values with default', function (): void {
     $infResult = $this->action->execute('INF', 5.0);
     $nanResult = $this->action->execute('NAN', 5.0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     expect($infResult)->toBe(5.0)->and($nanResult)->toBe(5.0);
@@ -225,11 +241,16 @@ it('handles infinite values with default', function (): void {
     expect($infResult)->toBe(5.0)->and($nanResult)->toBe(5.0);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+    expect($infResult)->toBe(5.0)->and($nanResult)->toBe(5.0);
+>>>>>>> 300ef70 (.)
 });
 
 it('casts scientific notation', function (): void {
     $result1 = $this->action->execute('1.23e2');
     $result2 = $this->action->execute('1.23E-2');
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     expect($result1)->toBe(123.0)->and($result2)->toBe(0.0123);
@@ -248,11 +269,16 @@ it('casts scientific notation', function (): void {
     expect($result1)->toBe(123.0)->and($result2)->toBe(0.0123);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+    expect($result1)->toBe(123.0)->and($result2)->toBe(0.0123);
+>>>>>>> 300ef70 (.)
 });
 
 it('handles decimal comma', function (): void {
     $result = $this->action->execute('123,45');
     expect($result)->toBe(123.45);
+<<<<<<< HEAD
 <<<<<<< HEAD
 });
 =======
@@ -266,3 +292,6 @@ it('handles decimal comma', function (): void {
 });
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+});
+>>>>>>> 300ef70 (.)

@@ -43,6 +43,7 @@ trait CreatesApplication
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $app = require __DIR__.'/../../../bootstrap/app.php';
 =======
         $app = require __DIR__ . '/../../../bootstrap/app.php';
@@ -88,16 +89,31 @@ trait CreatesApplication
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        $app = require __DIR__.'/../../../bootstrap/app.php';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         /** @var Application */
         $app = require __DIR__.'/../../../bootstrap/app.php';
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         $app = require __DIR__ . '/../../../bootstrap/app.php';
 =======
         $app = require __DIR__.'/../../../bootstrap/app.php';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,9 +152,16 @@ trait CreatesApplication
 >>>>>>> 9db27d12 (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         $app = require __DIR__ . '/../../../bootstrap/app.php';
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -151,6 +174,7 @@ trait CreatesApplication
 =======
         $app = require __DIR__.'/../../../bootstrap/app.php';
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
 
         // Explicitly set the base path before requiring bootstrap/app.php
@@ -164,6 +188,17 @@ trait CreatesApplication
         $app->bind('path.storage', fn () => $basePath.'/storage');
 
         // Bootstrap kernel to ensure all service providers and aliases are registered
+=======
+=======
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+
+        assert($app instanceof Application);
+        /* @phpstan-ignore-next-line method.nonObject */
+>>>>>>> 8b18e4bff (.)
         $app->make(Kernel::class)->bootstrap();
         $app->boot(); // Ensure all service providers are booted
 

@@ -54,6 +54,7 @@ class HealthOverviewWidget extends BaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->description($result->notificationMessage.' '.$result->status)
 =======
                 ->description($result->notificationMessage . ' ' . $result->status)
@@ -99,15 +100,30 @@ class HealthOverviewWidget extends BaseWidget
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 8b18e4bff (.)
                 ->description($result->notificationMessage.' '.$result->status)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                ->description($result->notificationMessage.' '.$result->status)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
                 ->description($result->notificationMessage . ' ' . $result->status)
 =======
                 ->description($result->notificationMessage.' '.$result->status)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,9 +162,16 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> 9db27d12 (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
                 ->description($result->notificationMessage . ' ' . $result->status)
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -161,7 +184,16 @@ class HealthOverviewWidget extends BaseWidget
 =======
                 ->description($result->notificationMessage.' '.$result->status)
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }
@@ -176,7 +208,11 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
          * return [
          * Stat::make('Unique views', '192.1k'),
          * Stat::make('Bounce rate', '21%'),
@@ -199,7 +235,11 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         return $stats;
     }
 }

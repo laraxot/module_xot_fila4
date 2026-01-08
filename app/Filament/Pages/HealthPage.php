@@ -27,9 +27,20 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 8b18e4bff (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Spatie\Health\Checks\Check;
@@ -65,6 +76,11 @@ use Spatie\Health\Checks\Check;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -75,7 +91,15 @@ use Spatie\Health\Checks\Check;
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Widgets\WidgetConfiguration;
@@ -85,11 +109,17 @@ use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 =======
 =======
 use Spatie\Health\Checks\Check;
 >>>>>>> 53d6a6ba (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
 use Spatie\Health\Checks\Checks;
 >>>>>>> cc7fb225 (.)
 use Spatie\Health\Checks\Checks\CacheCheck;
@@ -179,6 +209,7 @@ class HealthPage extends XotBasePage
             $check = SmtpCheck::new();
             $checks[] = $check;
         }
+<<<<<<< HEAD
         /** @var array<Check> $checks */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,7 +281,13 @@ class HealthPage extends XotBasePage
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+        /** @var array<int, \Spatie\Health\Checks\Check> $checks */
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -279,7 +316,11 @@ class HealthPage extends XotBasePage
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

@@ -52,6 +52,7 @@ class MailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
@@ -61,15 +62,31 @@ class MailData extends Data
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+        public readonly ?string $reply_to = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         public readonly ?string $reply_to = null,
         public readonly bool $verify_peer = true,
     ) {}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
         public readonly null|string $reply_to = null,
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
         public readonly bool $verify_peer = true,
     ) {}
 =======
@@ -85,7 +102,14 @@ class MailData extends Data
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+        public readonly null|string $reply_to = null,
+        public readonly bool $verify_peer = true,
+    ) {}
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
     /**
      * Create a new instance of MailData with default values.

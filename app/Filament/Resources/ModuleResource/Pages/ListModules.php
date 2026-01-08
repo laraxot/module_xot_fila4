@@ -23,6 +23,7 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
@@ -32,7 +33,15 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
@@ -41,11 +50,15 @@ use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
 use Filament\Actions\ViewAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 use Filament\Actions\BulkAction;
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Actions\Action;
@@ -61,6 +74,24 @@ use Filament\Actions\EditAction;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+use Filament\Actions\BulkAction;
+use Filament\Tables\Filters\BaseFilter;
+>>>>>>> a6ef6dc7 (.)
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+use Filament\Actions\BulkAction;
+use Filament\Actions\DeleteAction;
+use Filament\Actions\DeleteBulkAction;
+<<<<<<< HEAD
+use Filament\Actions\EditAction;
+use Filament\Actions\ViewAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 <<<<<<< HEAD
 =======
 use Filament\Tables\Filters\BaseFilter;
@@ -71,7 +102,12 @@ use Filament\Actions\ActionGroup;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
 use Filament\Tables;
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
@@ -84,16 +120,27 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
 =======
+>>>>>>> 8b18e4bff (.)
+=======
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 use Nwidart\Modules\Facades\Module;
 >>>>>>> ab8cc3f3 (.)
 use Override;
@@ -111,10 +158,32 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Nwidart\Modules\Facades\Module;
 
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+use Nwidart\Modules\Facades\Module;
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> f1d4085 (.)
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> a6ef6dc7 (.)
+use Nwidart\Modules\Facades\Module;
+use Override;
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 class ListModules extends XotBaseListRecords
 {
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
@@ -139,7 +208,11 @@ class ListModules extends XotBaseListRecords
 >>>>>>> d2b0a27 (.)
 =======
     #[Override]
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -159,8 +232,15 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [
@@ -188,7 +268,11 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         ];
     }
 
@@ -215,7 +299,11 @@ class ListModules extends XotBaseListRecords
 >>>>>>> d2b0a27 (.)
 =======
     #[Override]
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
     public function getTableFilters(): array
     {
         return [
@@ -243,8 +331,15 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableActions(): array
     {
         return [
@@ -271,7 +366,11 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         ];
     }
 
@@ -301,7 +400,11 @@ class ListModules extends XotBaseListRecords
      * @return array<string, BulkAction>
      */
     #[Override]
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
     public function getTableBulkActions(): array
     {
         return [

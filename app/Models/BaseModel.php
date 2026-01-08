@@ -12,6 +12,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -34,7 +35,12 @@ use Modules\Xot\Traits\Updater;
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
 /**
  * Class BaseModel.
@@ -44,7 +50,10 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
 abstract class BaseModel extends XotBaseModel
 =======
 abstract class BaseModel extends Model
@@ -82,34 +91,21 @@ abstract class BaseModel extends Model
 =======
 >>>>>>> 5a14301c (.)
 abstract class BaseModel extends Model
+=======
+abstract class BaseModel extends XotBaseModel
+>>>>>>> b7afadf9 (.)
 {
-    use HasFactory;
-
-    // use Searchable;
-    // //use Cachable;
-    use Updater;
-
-    /**
-     * Indicates whether attributes are snake cased on arrays.
-     *
-     * @see https://laravel-news.com/6-eloquent-secrets
-     *
-     * @var bool
-     */
-    public static $snakeAttributes = true;
-
-    public $incrementing = true;
-
-    public $timestamps = true;
-
-    protected $perPage = 30;
-
     protected $connection = 'xot';
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 
     /** @var list<string> */
     protected $fillable = ['id'];
@@ -194,6 +190,7 @@ abstract class BaseModel extends Model
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -201,4 +198,7 @@ abstract class BaseModel extends Model
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
 }

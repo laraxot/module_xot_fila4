@@ -35,12 +35,14 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
 **NB: These docs are for v3, which only supports Filament 4. If you are using Filament
 
@@ -345,6 +347,109 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 **NB: These docs are for v3, which only supports Filament 4. If you are using Filament
 
 =======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> b7afadf9 (.)
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> 492d6d3c (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 0e51323 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 43d67f21 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 5a14301c (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> 492d6d3c (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 43d67f21 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> fb8add77 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> b7ea1cd1 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> c84488b (.)
+>>>>>>> 33af3e61 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> 8b18e4bff (.)
 >>>>>>> 870b81d1 (.)
 =======
 **NB: These docs are for v3, which only supports Filament 4. If you are using Filament
@@ -363,7 +468,12 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 =======
 **NB: These docs are for v3, which only supports Filament 3. If you are using Filament
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 v2, [see the documentation here](https://github.com/savannabits/filament-modules/tree/main#readme) to get started.**
 
 For example, if you have two modules (**Blog** and **Pos**), you should be able to have filament installed in each module with separate resources as below:
@@ -389,6 +499,7 @@ If this is your goal, then you are in the right place.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -404,7 +515,26 @@ If this is your goal, then you are in the right place.
  
  
 <<<<<<< HEAD
+<<<<<<< HEAD
  
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+ 
+>>>>>>> b7afadf9 (.)
+>>>>>>> 0e51323 (.)
+=======
+ 
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 8b18e4bff (.)
  
  
  
@@ -422,7 +552,12 @@ If this is your goal, then you are in the right place.
 =======
  
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
 ## Installation
 Before you proceed, this guide assumes that you have configured your app fully to work with Laravel Modules. If you haven't, follow the [Laravel Modules Docs](https://docs.laravelmodules.com/v9/installation-and-setup) before proceeding.
@@ -458,6 +593,7 @@ If this is your goal, then you are in the right place.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -473,7 +609,26 @@ If this is your goal, then you are in the right place.
  
  
 <<<<<<< HEAD
+<<<<<<< HEAD
  
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+ 
+>>>>>>> b7afadf9 (.)
+>>>>>>> 0e51323 (.)
+=======
+ 
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 8b18e4bff (.)
  
  
  
@@ -491,7 +646,12 @@ If this is your goal, then you are in the right place.
 =======
  
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
 ## Installation
 Before you proceed, this guide assumes that you have configured your app fully to work with Laravel Modules. If you haven't, follow the [Laravel Modules Docs](https://docs.laravelmodules.com/v9/installation-and-setup) before proceeding.

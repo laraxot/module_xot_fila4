@@ -40,7 +40,10 @@ class GetTransKeyAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
             Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +99,16 @@ class GetTransKeyAction
 >>>>>>> ca9324a4 (.)
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+            Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
+<<<<<<< HEAD
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
 =======
 <<<<<<< HEAD
@@ -108,6 +121,11 @@ class GetTransKeyAction
             Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -120,7 +138,16 @@ class GetTransKeyAction
 =======
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+            Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         }
 
         $arr = explode('\\', $class);
@@ -135,31 +162,54 @@ class GetTransKeyAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
                 fn (array $item): bool => (isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'),
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
                 fn (array $item): bool => (
                     isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                fn (array $item): bool => (
+                    isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
                 fn(array $item): bool => (
                     isset($item['object']) && 'Modules' === explode('\\', get_class($item['object']))[0]
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+                fn(array $item): bool => (
+                    isset($item['object']) && 'Modules' === explode('\\', get_class($item['object']))[0]
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
                 ),
 >>>>>>> ab8cc3f3 (.)
             );
 
             if ($res === null || ! isset($res['object'])) {
                 $page = Arr::get(debug_backtrace(), '0.args.0');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -227,10 +277,20 @@ class GetTransKeyAction
 <<<<<<< HEAD
                 Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
+=======
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+<<<<<<< HEAD
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+>>>>>>> b7afadf9 (.)
                 Assert::string($page, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
                 function (array $item): bool {
                     return isset($item['object']) && 'Modules' === explode('\\', get_class($item['object']))[0];
                 }
@@ -239,6 +299,7 @@ class GetTransKeyAction
             if (null === $res || ! isset($res['object'])) {
                 $page = Arr::get(debug_backtrace(), '0.args.0');
                 Assert::string($page);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,10 +327,17 @@ class GetTransKeyAction
 =======
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -281,7 +349,15 @@ class GetTransKeyAction
 =======
                 Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
                 $main_module = XotData::make()->main_module;
                 $main_module_low = mb_strtolower($main_module);
                 $page_arr = explode('\\', $page);
@@ -292,6 +368,7 @@ class GetTransKeyAction
 
                 return $main_module_low.'::'.$page_arr_last_snake;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,10 +402,24 @@ class GetTransKeyAction
 >>>>>>> ca9324a4 (.)
                 $tmp = $main_module_low . '::' . $page_arr_last_snake;
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
                 $tmp = $main_module_low.'::'.$page_arr_last_snake;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                $tmp = $main_module_low.'::'.$page_arr_last_snake;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
                 $tmp = $main_module_low . '::' . $page_arr_last_snake;
 =======
                 $tmp = $main_module_low.'::'.$page_arr_last_snake;
@@ -337,6 +428,11 @@ class GetTransKeyAction
                 $tmp = $main_module_low . '::' . $page_arr_last_snake;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 =======
@@ -348,7 +444,16 @@ class GetTransKeyAction
 =======
                 $tmp = $main_module_low.'::'.$page_arr_last_snake;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
                 return $tmp;
 >>>>>>> 5a14301c (.)
@@ -390,7 +495,11 @@ class GetTransKeyAction
 >>>>>>> d2b0a27 (.)
 =======
             if (in_array($type, ['RelationManager'], strict: true)) {
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
                 $class = Str::of($class)->singular()->toString();
             }
         }
@@ -413,6 +522,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
@@ -422,7 +532,12 @@ class GetTransKeyAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         if (in_array($first, ['dashboard', 'list', 'get', 'manage', 'edit', 'view'], strict: true)) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
@@ -430,9 +545,12 @@ class GetTransKeyAction
             $class_snake = Str::beforeLast($class_snake, '_'.$last);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
 =======
@@ -464,11 +582,35 @@ class GetTransKeyAction
 =======
 >>>>>>> ca9324a4 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (in_array($first, ['dashboard', 'list', 'get', 'manage', 'edit', 'view'], strict: true)) {
+            $class_snake = implode('_', array_slice($arr, 1));
+        }
+        if (in_array($last, ['action'], strict: true)) {
+            $class_snake = Str::beforeLast($class_snake, '_'.$last);
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         if (in_array($first, ['dashboard', 'list', 'get', 'manage'], strict: true)) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
@@ -484,6 +626,11 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 21348520 (.)
@@ -505,11 +652,15 @@ class GetTransKeyAction
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
         if (in_array($first, ['dashboard', 'list', 'get', 'manage'])) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
         if (in_array($last, ['action'])) {
             $class_snake = Str::beforeLast($class_snake, '_'.$last);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -548,10 +699,17 @@ class GetTransKeyAction
 =======
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -562,7 +720,15 @@ class GetTransKeyAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         }
 
         if (Str::endsWith($class_snake, 'form_schema')) {
@@ -586,7 +752,11 @@ class GetTransKeyAction
 >>>>>>> d2b0a27 (.)
 =======
         if (in_array($first, ['list'], strict: true)) {
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
             $class_snake = Str::of($class_snake)
                 // ->after('list_')
                 ->singular()
@@ -596,6 +766,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
         return $module_low.'::'.$class_snake;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,10 +799,24 @@ class GetTransKeyAction
 >>>>>>> ca9324a4 (.)
         $tmp = $module_low . '::' . $class_snake;
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         $tmp = $module_low.'::'.$class_snake;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $tmp = $module_low.'::'.$class_snake;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         $tmp = $module_low . '::' . $class_snake;
 =======
         $tmp = $module_low.'::'.$class_snake;
@@ -640,6 +825,11 @@ class GetTransKeyAction
         $tmp = $module_low . '::' . $class_snake;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 =======
@@ -651,7 +841,16 @@ class GetTransKeyAction
 =======
         $tmp = $module_low.'::'.$class_snake;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+        $tmp = $module_low . '::' . $class_snake;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
         return $tmp;
 >>>>>>> 5a14301c (.)

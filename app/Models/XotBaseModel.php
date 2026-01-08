@@ -12,6 +12,7 @@ use Modules\Xot\Models\Traits\RelationX;
 =======
 use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
+<<<<<<< HEAD
 // ---- Traits ----
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -22,7 +23,12 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -49,7 +55,11 @@ abstract class XotBaseModel extends Model
 =======
 abstract class XotBaseModel extends Model
 {
+    use Traits\HasXotFactory;
+    use Traits\RelationX;
+
     // use Searchable;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 <<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
@@ -57,7 +67,13 @@ abstract class XotBaseModel extends Model
 =======
     // use Searchable;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+    // //use Cachable;
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     use Updater;
 
     /**
@@ -74,7 +90,10 @@ abstract class XotBaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
     /** @var bool */
     public $incrementing = true;
 
@@ -99,20 +118,50 @@ abstract class XotBaseModel extends Model
 
     /** @var string */
     protected $keyType = 'int';
+=======
+    public $incrementing = true;
+
+    public $timestamps = true;
+
+    protected $perPage = 30;
+
+    // protected $connection = 'xot';
+
+    /** @var list<string> */
+    protected $fillable = ['id'];
+
+    protected $primaryKey = 'id';
+
+    protected $keyType = 'string';
+>>>>>>> b7afadf9 (.)
 
     /** @var list<string> */
     protected $hidden = [
         // 'password'
     ];
 
+<<<<<<< HEAD
     /** @return array<string, string> */
+=======
+    /**
+     * The accessors to append to the model's array form.
+     *
+     * @var list<string>
+     */
+    protected $appends = [];
+
+    /** @return array<string, class-string|string> */
+>>>>>>> b7afadf9 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'uuid' => 'string',
             'published_at' => 'datetime',
+<<<<<<< HEAD
             'verified_at' => 'datetime',
+=======
+>>>>>>> b7afadf9 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -122,7 +171,10 @@ abstract class XotBaseModel extends Model
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8b18e4bff (.)
 =======
     /** @var int */
     protected $perPage = 30;
@@ -135,5 +187,10 @@ abstract class XotBaseModel extends Model
     /** @var int */
     protected $perPage = 30;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 }

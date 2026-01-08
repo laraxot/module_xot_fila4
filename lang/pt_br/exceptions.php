@@ -1,24 +1,29 @@
 <?php
 
 declare(strict_types=1);
-
 return [
     /*
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
-     * |--------------------------------------------------------------------------
      * |
      * | The following language lines are used in Exceptions thrown throughout the system.
      * | Regardless where it is placed, a button can be listed here so it is easily
@@ -48,7 +53,10 @@ return [
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,12 +221,37 @@ return [
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
      * |
      * |--------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      |--------------------------------------------------------------------------
+      | Exception Language Lines
+      |--------------------------------------------------------------------------
+      |
+      | The following language lines are used in Exceptions thrown throughout the system.
+      | Regardless where it is placed, a button can be listed here so it is easily
+      | found in a intuitive way.
+      |
+      |--------------------------------------------------------------------------
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,7 +284,12 @@ return [
 =======
 
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     'backend' => [
         'access' => [
             'roles' => [

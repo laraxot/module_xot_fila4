@@ -83,6 +83,7 @@ class MetatagPage extends XotBasePage implements HasForms
                         ColorPicker::make('hex')
                             ->label('Colore personalizzato')
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ->visible(fn(Get $get) => $get('color') === 'custom')
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -91,7 +92,16 @@ class MetatagPage extends XotBasePage implements HasForms
 =======
                             ->visible(fn ($get) => $get('color') === 'custom')
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+                            ->visible(fn ($get) => $get('color') === 'custom')
+=======
+                            ->visible(fn (callable $get) => $get('color') === 'custom')
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
                             ->required(),
                     ])
                     ->columns(3),

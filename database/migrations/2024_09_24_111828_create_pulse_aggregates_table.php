@@ -33,6 +33,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -84,6 +85,12 @@ return new class extends XotBaseMigration
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+        if (! $this->shouldRun()) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         if (! $this->shouldRun()) {
 =======
 <<<<<<< HEAD
@@ -94,6 +101,7 @@ return new class extends XotBaseMigration
 >>>>>>> 300ef70 (.)
         if (!$this->shouldRun()) {
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -101,7 +109,13 @@ return new class extends XotBaseMigration
 =======
         if (! $this->shouldRun()) {
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             return;
         }
         // -- CREATE --
@@ -126,5 +140,43 @@ return new class extends XotBaseMigration
             $table->index('type'); // For purging...
             $table->index(['period', 'type', 'aggregate', 'bucket']); // For aggregate queries...
         });
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        if (! $this->shouldRun()) {
+            return;
+        }
+        // -- CREATE --
+        $this->tableCreate(
+            function (Blueprint $table): void {
+                $table->id();
+                $table->unsignedInteger('bucket');
+                $table->unsignedMediumInteger('period');
+                $table->string('type');
+                $table->mediumText('key');
+                match ($this->driver()) {
+                    'mariadb', 'mysql' => $table->char('key_hash', 16)->charset('binary')->virtualAs('unhex(md5(`key`))'),
+                    'pgsql' => $table->uuid('key_hash')->storedAs('md5("key")::uuid'),
+                    'sqlite' => $table->string('key_hash'),
+                    default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
+                };
+                $table->string('aggregate');
+                $table->decimal('value', 20, 2);
+                $table->unsignedInteger('count')->nullable();
+
+                $table->unique(['bucket', 'period', 'type', 'aggregate', 'key_hash']); // Force "on duplicate update"...
+                $table->index(['period', 'bucket']); // For trimming...
+                $table->index('type'); // For purging...
+                $table->index(['period', 'type', 'aggregate', 'bucket']); // For aggregate queries...
+            }
+        );
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 };

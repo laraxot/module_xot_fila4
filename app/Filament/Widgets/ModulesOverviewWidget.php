@@ -108,7 +108,10 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
                 'name' => '<main module>',
                 'name_lower' => '<nome progetto>',
                 'url' => '/<nome progetto>/admin',
@@ -135,7 +138,17 @@ class ModulesOverviewWidget extends Widget
                 'icon' => 'heroicon-o-clipboard-document-list',
                 'description' => $this->getModuleDescription('TechPlanner'),
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+                'name' => '<main module>',
+                'name_lower' => '<nome progetto>',
+                'url' => '/<nome progetto>/admin',
+                'icon' => 'heroicon-o-clipboard-document-list',
+                'description' => $this->getModuleDescription('<main module>'),
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             ],
         ];
     }
@@ -156,6 +169,7 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '<main module>' => 'Pianificazione tecnica e progetti',
 =======
             'TechPlanner' => 'Pianificazione tecnica e progetti',
@@ -166,7 +180,13 @@ class ModulesOverviewWidget extends Widget
 =======
             'TechPlanner' => 'Pianificazione tecnica e progetti',
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+            '<main module>' => 'Pianificazione tecnica e progetti',
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             'Geo' => 'Gestione dati geografici e mappe',
             'Cms' => 'Sistema di gestione contenuti',
             'Notify' => 'Sistema di notifiche',

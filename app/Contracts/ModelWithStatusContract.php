@@ -77,12 +77,21 @@ interface ModelWithStatusContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function status(): null|Status;
 
@@ -116,11 +125,19 @@ interface ModelWithStatusContract
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
@@ -131,9 +148,12 @@ interface ModelWithStatusContract
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> b7afadf9 (.)
+=======
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,10 +215,14 @@ interface ModelWithStatusContract
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -239,15 +263,25 @@ interface ModelWithStatusContract
 =======
 =======
 =======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
     public function status(): null|Status;
 
     public function setStatus(string $name, null|string $reason = null): self;
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 }

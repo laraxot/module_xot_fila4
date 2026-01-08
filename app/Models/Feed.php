@@ -48,6 +48,7 @@ use Modules\Xot\Database\Factories\FeedFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperFeed
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -56,6 +57,12 @@ use Modules\Xot\Database\Factories\FeedFactory;
 =======
  *
 <<<<<<< HEAD
+=======
+ *
+<<<<<<< HEAD
+ * @mixin IdeHelperFeed
+=======
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 /**
@@ -67,6 +74,7 @@ use Modules\Xot\Database\Factories\FeedFactory;
  * @method static Builder<static>|Feed newQuery()
  * @method static Builder<static>|Feed query()
  *
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 <<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
@@ -74,7 +82,13 @@ use Modules\Xot\Database\Factories\FeedFactory;
 =======
  * @mixin IdeHelperFeed
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

@@ -28,6 +28,60 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use LogicException;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Closure;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Pages\Concerns\InteractsWithFormActions;
+<<<<<<< HEAD
+use Filament\Resources\Pages\Page as FilamentPage;
+=======
+use Filament\Pages\Page as FilamentPage;
+>>>>>>> 5a14301c (.)
+use Illuminate\Contracts\View\View;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Modules\Xot\Filament\Traits\TransTrait;
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 8b18e4bff (.)
 
 /**
  * Base class for all custom pages in the application.
@@ -167,7 +221,16 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * 
      * This method must be non-static to properly override the parent method.
      * Returns the model class string or throws an exception if not set.
+<<<<<<< HEAD
      */
+=======
+     *
+     * @return class-string<\Illuminate\Database\Eloquent\Model>
+     */
+    /**
+     * @return class-string<Model>
+     */
+>>>>>>> a6ef6dc7 (.)
     public function getModel(): string
     {
         if (static::$model === null) {
@@ -185,19 +248,21 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 >>>>>>> 5a14301c (.)
 =======
 
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         return static::$model;
+=======
+        /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
+        $model = static::$model;
+
+        return $model;
+>>>>>>> a6ef6dc7 (.)
     }
 
-    /**
-     * Get the resources associated with this page.
-     *
-     * @return Collection<string>
-     */
-    public static function getResources(): Collection
-    {
-        return collect();
-    }
+   
 
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)

@@ -17,7 +17,10 @@ use Illuminate\Contracts\Support\Arrayable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Traversable;
+=======
+>>>>>>> b7afadf9 (.)
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
 =======
@@ -47,22 +50,33 @@ use Illuminate\Contracts\Support\Arrayable;
 >>>>>>> 285375c74 (.)
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> a6ef6dc7 (.)
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
+use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
+<<<<<<< HEAD
 use Modules\Lang\Actions\TransCollectionAction;
 use Traversable;
+=======
+>>>>>>> 8b18e4bff (.)
 
-// use Staudenmeir\LaravelCte\Query\Builder as CteBuilder;
+use function Safe\json_encode;
 
-class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadings, WithMapping
+/**
+ * @implements WithMapping<Model>
+ */
+class QueryExport implements FromCollection, WithChunkReading, WithHeadings, WithMapping
 {
     use Exportable;
 
+<<<<<<< HEAD
     public array $headings = [];
 <<<<<<< HEAD
 
@@ -197,26 +211,82 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
 >>>>>>> f1d4085 (.)
 =======
     public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
 >>>>>>> 73eab74 (.)
 =======
+=======
+=======
+    /** @var Builder<Model>|QueryBuilder */
+    public Builder|QueryBuilder $query;
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
-    /** @var array<int, string> */
-    public array $fields = [];
+    public array $headings;
 
+<<<<<<< HEAD
     public ?string $transKey = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public array $columns;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|string $transKey = null;
+=======
+    public ?string $transKey = null;
+>>>>>>> f1d4085 (.)
+=======
+    public null|string $transKey = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+    public null|string $transKey = null;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
 
-    public QueryBuilder|EloquentBuilder $query;
+    public string $filename;
+
+    public string $sheetName;
 
     /**
+<<<<<<< HEAD
      * @param  array<int, string>  $fields
      */
     public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+     * @param  Builder<Model>|QueryBuilder  $query
+     * @param  array<int, string>  $headings
+     * @param  array<int, string>  $columns
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function __construct(Builder|QueryBuilder $query, array $headings = [], array $columns = [])
+    {
+        $this->query = $query;
+        $this->headings = $headings;
+        $this->columns = $columns;
+        $this->filename = 'export_'.date('Y-m-d_H-i-s').'.xlsx';
+        $this->sheetName = 'Export';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     {
         $this->query = $query;
 >>>>>>> ab8cc3f3 (.)
@@ -307,6 +377,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
         return $headings->toArray();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -386,17 +457,104 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
         $translated = app(TransCollectionAction::class)->execute($headingsWithKeys, $this->transKey);
 
         return $translated->toArray();
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+        $headings = $this->getHead();
+        $transKey = $this->transKey;
+        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
+
+        return $headings->toArray();
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     }
 
     /**
-     * se si usa scout aggiungere |ScoutBuilder.
+     * @return Collection<int, Model>
      */
-    public function query(): QueryBuilder|EloquentBuilder|Relation
+    public function collection(): Collection
     {
+<<<<<<< HEAD
+        return $this->query->get();
+    }
+
+    /**
+     * @return list<string>
+     */
+    public function headings(): array
+    {
+        if (! empty($this->headings)) {
+            /** @var list<string> */
+            return array_values($this->headings);
+        }
+
+        $firstItem = $this->query->first();
+        if ($firstItem === null || ! $firstItem instanceof Model) {
+            return [];
+        }
+
+        $attributes = $firstItem->getAttributes();
+        $fillable = $firstItem->getFillable();
+        $guarded = $firstItem->getGuarded();
+
+        $columns = [];
+        foreach ($attributes as $key => $value) {
+            $keyStr = is_string($key) ? $key : (string) $key;
+            if (in_array($keyStr, $fillable) || empty($guarded) || ! in_array($keyStr, $guarded)) {
+                $columns[] = $keyStr;
+            }
+        }
+
+        /** @var list<string> */
+        return $columns;
+    }
+
+    /**
+     * @return list<mixed>
+     */
+    public function map($row): array
+    {
+        if (! $row instanceof Model) {
+            return [];
+        }
+
+        $data = [];
+        $headings = $this->headings();
+
+        foreach ($headings as $heading) {
+            if (! is_string($heading)) {
+                continue;
+            }
+            $value = $row->getAttribute($heading);
+
+            if (is_array($value)) {
+                $value = json_encode($value) ?: '[]';
+            } elseif (is_object($value)) {
+                if (method_exists($value, '__toString')) {
+                    $value = (string) $value;
+                } else {
+                    $value = get_class($value);
+                }
+            }
+
+            $data[] = $value ?? '';
+        }
+
+        return $data;
+=======
         return $this->query;
 
 <<<<<<< HEAD
         // ->orderBy('id');
+<<<<<<< HEAD
 =======
         $data = [];
         $headings = $this->headings();
@@ -443,11 +601,14 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
         // ->orderBy('id');
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
     }
 
     public function chunkSize(): int
     {
-        return 200;
+        return 1000;
     }
 
     /**
@@ -462,7 +623,10 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
      * @return array<int|string, mixed>
      */
     public function map(mixed $row): array
@@ -586,19 +750,67 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
         if (!empty($this->fields)) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! empty($this->fields)) {
 >>>>>>> f1d4085 (.)
 =======
         if (!empty($this->fields)) {
 >>>>>>> 73eab74 (.)
 =======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
      * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
+=======
+     * @return Collection<int, Model>
+>>>>>>> a6ef6dc7 (.)
      */
-    public function map($item): array
+    public function getHead(): Collection
     {
+<<<<<<< HEAD
         if (! empty($this->fields)) {
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $this->query->limit(10)->get();
+    }
+
+    /**
+     * @return Builder<Model>|QueryBuilder
+     */
+    public function query(): Builder|QueryBuilder
+    {
+        return $this->query;
+    }
+
+    public function setFilename(string $filename): self
+    {
+        $this->filename = $filename;
+
+        return $this;
+    }
+
+    public function setSheetName(string $sheetName): self
+    {
+        $this->sheetName = $sheetName;
+
+        return $this;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+        if (!empty($this->fields)) {
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             return collect($item)->toArray();
         }
 
@@ -611,7 +823,10 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -683,6 +898,8 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 =======
 >>>>>>> 9db27d12 (.)
 =======
+>>>>>>> b7afadf9 (.)
+=======
         return collect($item)
             ->only($this->fields)
             ->toArray();
@@ -691,6 +908,11 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
         return collect($item)->only($this->fields)->toArray();
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -701,6 +923,13 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     }
 }

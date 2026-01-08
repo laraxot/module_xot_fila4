@@ -17,6 +17,7 @@ use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 =======
@@ -79,8 +80,29 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 use Filament\Notifications\Notification as FilamentNotification;
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+>>>>>>> a6ef6dc7 (.)
+use Filament\Notifications\Notification as FilamentNotification;
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Filament\Notifications\Notification as FilamentNotification;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Str;
@@ -92,6 +114,7 @@ use Spatie\ModelStates\Transition;
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,6 +180,18 @@ use Webmozart\Assert\InvalidArgumentException;
 =======
 >>>>>>> 9db27d12 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
 =======
@@ -165,6 +200,11 @@ use Webmozart\Assert\InvalidArgumentException;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -177,7 +217,15 @@ use Webmozart\Assert\InvalidArgumentException;
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
 abstract class XotBaseTransition extends Transition
 {
@@ -202,7 +250,11 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
     public function handle(): Model
     {
@@ -214,6 +266,7 @@ abstract class XotBaseTransition extends Transition
 <<<<<<< HEAD
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,15 +329,30 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 8b18e4bff (.)
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
 =======
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,9 +391,16 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 9db27d12 (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -338,7 +413,16 @@ abstract class XotBaseTransition extends Transition
 =======
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
         /* @phpstan-ignore-next-line */
         $this->record->state = new $newStateClass($this->record);
@@ -370,7 +454,11 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> d2b0a27 (.)
 =======
             $this->sendRecipientNotification($recipient, $data);
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         }
     }
 
@@ -418,13 +506,23 @@ abstract class XotBaseTransition extends Transition
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 =======
@@ -434,7 +532,14 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         $slug =
             class_basename($this->record).
             '-'.
@@ -452,7 +557,11 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         $slug = Str::slug($slug);
 
         return $slug;
@@ -463,6 +572,7 @@ abstract class XotBaseTransition extends Transition
      * @param  array<string, mixed>  $data
      */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,10 +641,22 @@ abstract class XotBaseTransition extends Transition
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 8b18e4bff (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -545,7 +667,14 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     public function sendRecipientNotification(RecordNotificationData $recipient, array $data): void
     {
         $slug = $this->getNotificationSlug($recipient->record);
@@ -559,10 +688,13 @@ abstract class XotBaseTransition extends Transition
         $notify = new RecordNotification($this->record, $slug);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
 
 >>>>>>> 48515e368 (.)
         $mergeData = $data;
@@ -600,6 +732,7 @@ abstract class XotBaseTransition extends Transition
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -646,6 +779,8 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 9db27d12 (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 =======
     public function sendRecipientNotification(RecordNotificationData $recipient,array $data): void
@@ -662,7 +797,11 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 73eab74 (.)
 
+<<<<<<< HEAD
         //$data = $this->getNotificationData();
+=======
+        // $data = $this->getNotificationData();
+>>>>>>> b7afadf9 (.)
         $notify = $notify->mergeData($data);
         $notify = $notify->addAttachments($this->getNotificationAttachments());
 <<<<<<< HEAD
@@ -670,6 +809,11 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -680,7 +824,14 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
@@ -688,6 +839,7 @@ abstract class XotBaseTransition extends Transition
 <<<<<<< HEAD
             $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,10 +909,22 @@ abstract class XotBaseTransition extends Transition
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+=======
+<<<<<<< HEAD
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+=======
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
         
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())
                 ->notify($notify);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -815,12 +979,19 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
         } catch (TypeError|InvalidArgumentException $e) {
             $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -832,7 +1003,15 @@ abstract class XotBaseTransition extends Transition
 =======
             $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             FilamentNotification::make()
                 ->title('Error')
                 ->danger()
@@ -850,7 +1029,11 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         }
     }
 

@@ -16,7 +16,22 @@ use Webmozart\Assert\Assert;
 >>>>>>> 0e51323 (.)
 =======
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)
@@ -50,7 +65,23 @@ use function Safe\preg_replace;
 
 /**
  * Action per normalizzare i nomi dei driver.
+<<<<<<< HEAD
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+=======
+ * 
+>>>>>>> f1d4085 (.)
+=======
+ *
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+ *
+>>>>>>> 300ef70 (.)
  * Questa action centralizza la logica di normalizzazione dei nomi dei driver
  * per evitare duplicazione di codice e garantire consistenza in tutta l'applicazione.
  */
@@ -62,6 +93,7 @@ class NormalizeDriverNameAction
      *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,7 +178,16 @@ class NormalizeDriverNameAction
 =======
      * @param  string  $driver  Nome del driver da normalizzare
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+=======
+     * @param string $driver Nome del driver da normalizzare
+>>>>>>> 0218cd5 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
@@ -171,7 +212,10 @@ class NormalizeDriverNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
         $driver = preg_replace('/[^a-zA-Z0-9]/', '', $driver);
         Assert::string($driver, 'Driver name must be a string after normalization');
 
@@ -204,10 +248,13 @@ class NormalizeDriverNameAction
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         $result = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 
         // Assicuriamo che il risultato sia sempre una stringa
         return is_string($result) ? $result : '';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,6 +319,30 @@ class NormalizeDriverNameAction
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+        return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
+>>>>>>> 0218cd5 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+=======
+}
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+}
+>>>>>>> 300ef70 (.)

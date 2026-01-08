@@ -27,6 +27,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -89,7 +90,11 @@ use Filament\Schemas\Schema;
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 use Exception;
+=======
+>>>>>>> a6ef6dc7 (.)
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
@@ -290,6 +295,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return $schema;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
@@ -323,9 +331,15 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
+                /** @var array<string, mixed> */
                 return $res;
 
+<<<<<<< HEAD
             } catch (Exception $e) {
+=======
+                // dddx($model->with('studio')->relationsToArray());
+            } catch (\Exception $e) {
+>>>>>>> 8b18e4bff (.)
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 return $model->getAttributes();
 <<<<<<< HEAD
@@ -340,6 +354,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 //    $attributes['type'] = $model->type->value;
                 // }
 
+                /** @var array<string, mixed> */
                 return $attributes;
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -355,19 +370,25 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $attributes = $model->attributesToArray();
 
         $fields = array_merge($fillable, $appends);
-        $fields = array_fill_keys($fields, null);
-        $fields = array_merge($fields, $attributes);
+        /** @var array<string, mixed> $fieldsWithNull */
+        $fieldsWithNull = array_fill_keys($fields, null);
+        $fieldsWithNull = array_merge($fieldsWithNull, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
             /** @var array<string, mixed> $defaults */
             $defaults = $model->getDataDefaults();
-            $fields = array_merge($fields, $defaults);
+            $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $fieldsWithNull;
 =======
         return $fields;
 >>>>>>> 53d6a6ba (.)
+=======
+        /** @var array<string, mixed> */
+        return $fieldsWithNull;
+>>>>>>> b7afadf9 (.)
     }
 
     /**
@@ -434,6 +455,45 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return null;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+    /**
+     * Salva i dati del form.
+     * Override nelle classi figlie se necessario.
+     */
+    public function save(): void
+    {
+        // Implementare nelle classi figlie
+    }
+
+    /**
+     * Eseguito quando i filtri vengono aggiornati.
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario.
+     */
+    // public function filtersUpdated(): void
+    // {
+    //     $this->reset('data');
+    // }
+
+    public static function getNavigationLabel(): string
+    {
+        /*
+         * return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
+         * ->headline());
+         */
+        return static::transFunc(__FUNCTION__);
+    }
+
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 8b18e4bff (.)
     protected function getStepByName(string $name): Step
     {
         $schema = Str::of($name)
@@ -453,8 +513,37 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     {
         $defaultView = 'xot::filament.widgets.base';
 
+<<<<<<< HEAD
         if ($this->view !== $defaultView && view()->exists($this->view)) {
             return;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+        if (! view()->exists($submit_view)) {
+            throw new \Exception("View {$submit_view} does not exist");
+>>>>>>> 8b18e4bff (.)
         }
 
         try {

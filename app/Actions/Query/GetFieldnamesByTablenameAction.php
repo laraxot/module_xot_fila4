@@ -26,7 +26,11 @@ final class GetFieldnamesByTablenameAction
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
     public function execute(string $table, ?string $connectionName = null): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -68,11 +72,19 @@ final class GetFieldnamesByTablenameAction
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string $table, ?string $connectionName = null): array
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(string $table, null|string $connectionName = null): array
 =======
     public function execute(string $table, ?string $connectionName = null): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -121,11 +133,18 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
     public function execute(string $table, null|string $connectionName = null): array
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -137,7 +156,16 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+    public function execute(string $table, null|string $connectionName = null): array
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -154,7 +182,11 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         Assert::string($connectionName ??= config('database.default'));
 
         // Validate database connection
@@ -189,7 +221,11 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         }
 
         // Get and return column listing
@@ -216,7 +252,11 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -243,7 +283,11 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         }
     }
 

@@ -21,6 +21,23 @@ class ExportButton
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 300ef70 (.)
+            ->tooltip('export XLS')
+            ->icon('heroicon-o-inbox-arrow-down')
+            // ->visible(null != $year)
+<<<<<<< HEAD
+            ->action(static fn () => dddx('WIP'));
+=======
+            ->action(static fn() => dddx('WIP'));
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            
+>>>>>>> d2b0a27 (.)
+>>>>>>> 8b18e4bff (.)
             ->tooltip('export XLS')
             ->icon('heroicon-o-inbox-arrow-down')
             // ->visible(null != $year)
@@ -35,6 +52,7 @@ class ExportButton
             ->icon('heroicon-o-inbox-arrow-down')
             // ->visible(null != $year)
             ->action(static fn () => dddx('WIP'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -148,10 +166,17 @@ class ExportButton
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -162,6 +187,14 @@ class ExportButton
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     }
 }

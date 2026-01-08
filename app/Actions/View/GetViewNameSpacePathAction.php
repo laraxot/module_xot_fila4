@@ -13,6 +13,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -103,6 +104,12 @@ use Nwidart\Modules\Facades\Module;
 =======
 >>>>>>> 88ea7103 (.)
 =======
+=======
+use Nwidart\Modules\Facades\Module;
+use Spatie\QueueableAction\QueueableAction;
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -119,12 +126,16 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 use Nwidart\Modules\Facades\Module;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
 =======
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -159,7 +170,16 @@ use Webmozart\Assert\Assert;
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
 class GetViewNameSpacePathAction
 {
@@ -170,6 +190,7 @@ class GetViewNameSpacePathAction
      */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,15 +223,43 @@ class GetViewNameSpacePathAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
     public function execute(?string $module_name = null): string
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(?string $module_name = null): string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(null|string $module_name = null): string
+=======
+    public function execute(?string $module_name = null): string
+>>>>>>> f1d4085 (.)
+=======
+    public function execute(null|string $module_name = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+    public function execute(null|string $module_name = null): string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
     {
         if ($module_name !== null && $module_name !== '') {
             $module_path = Module::getModulePath($module_name);
             /** @var non-falsy-string $namespace_path */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
             $namespace_path = $module_path.'resources/views';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -265,11 +314,19 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $namespace_path = $module_path.'resources/views';
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
             $namespace_path = $module_path . 'resources/views';
 =======
             $namespace_path = $module_path.'resources/views';
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -321,11 +378,18 @@ class GetViewNameSpacePathAction
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
             $namespace_path = $module_path . 'resources/views';
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -337,7 +401,16 @@ class GetViewNameSpacePathAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+            $namespace_path = $module_path . 'resources/views';
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         } else {
             /** @var non-falsy-string $namespace_path */
             $namespace_path = resource_path('views');

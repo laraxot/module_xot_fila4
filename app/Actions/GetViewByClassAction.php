@@ -24,6 +24,25 @@ class GetViewByClassAction
      * @param  string|null  $viewName  Nome personalizzato della vista
      */
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function execute(string $class, array $params = [], ?string $viewName = null): View
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string $class, array $params = [], ?string $viewName = null): View
+=======
+=======
+>>>>>>> 5a14301c (.)
+     * @param string $class Nome della classe
+     * @param array<string, mixed> $params Parametri da passare alla vista
+     * @param string|null $viewName Nome personalizzato della vista
+     *
+     * @return View
+     */
+    public function execute(string $class, array $params = [], null|string $viewName = null): View
+>>>>>>> 8b18e4bff (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 285375c74 (.)
@@ -32,16 +51,30 @@ class GetViewByClassAction
         $viewName ??= $this->getViewNameFromClass($class);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
     public function execute(string $class, array $params = [], null|string $viewName = null): View
+=======
+=======
+>>>>>>> 300ef70 (.)
+    public function execute(string $class, array $params = [], null|string $viewName = null): View
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 =======
     public function execute(string $class, array $params = [], ?string $viewName = null): View
     {
@@ -52,7 +85,11 @@ class GetViewByClassAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
     }
@@ -168,18 +205,32 @@ class GetViewByClassAction
         // Costruisci il percorso della view
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
         return $module_low.'::pages.'.$class_name;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $module_low.'::pages.'.$class_name;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         return $module_low . '::pages.' . $class_name;
 =======
         return $module_low.'::pages.'.$class_name;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,9 +269,16 @@ class GetViewByClassAction
 >>>>>>> 9db27d12 (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         return $module_low . '::pages.' . $class_name;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -232,6 +290,15 @@ class GetViewByClassAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     }
 }

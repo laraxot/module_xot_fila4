@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -26,6 +27,8 @@ return [
     ],
 ];
 =======
+=======
+>>>>>>> 8b18e4bff (.)
 return array (
   'sections' => 
   array (
@@ -53,4 +56,31 @@ return array (
     ),
   ),
 );
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+return [
+    'sections' => [
+        'Filtri' => [
+            'label' => 'Filtri',
+            'heading' => 'Filtri',
+        ],
+    ],
+    'fields' => [
+        'created_from' => [
+            'label' => 'created_from',
+            'placeholder' => 'created_from',
+            'helper_text' => 'created_from',
+            'description' => 'created_from',
+        ],
+        'created_until' => [
+            'label' => 'created_until',
+            'placeholder' => 'created_until',
+            'helper_text' => 'created_until',
+            'description' => 'created_until',
+        ],
+    ],
+];
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)

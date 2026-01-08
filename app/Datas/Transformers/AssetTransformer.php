@@ -2,12 +2,16 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38,10 +42,14 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,10 +91,18 @@ declare(strict_types=1);
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -116,14 +132,24 @@ declare(strict_types=1);
 =======
 =======
 =======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 namespace Modules\Xot\Datas\Transformers;
 
 use Modules\Xot\Actions\File\AssetAction;
@@ -149,7 +175,11 @@ use Spatie\LaravelData\Transformers\Transformer;
 =======
 use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
 /**
  * AssetTransformer - Trasforma riferimenti di file in percorsi completi per le risorse
@@ -164,6 +194,7 @@ class AssetTransformer implements Transformer
      *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,19 +233,52 @@ class AssetTransformer implements Transformer
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
      * @param  DataProperty  $_property  La proprietà di dati (non utilizzata)
      * @param  mixed  $value  Il valore da trasformare (es. "user::image.png")
      * @param  TransformationContext  $_context  Il contesto di trasformazione (non utilizzato)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  DataProperty  $_property  La proprietà di dati (non utilizzata)
+     * @param  mixed  $value  Il valore da trasformare (es. "user::image.png")
+     * @param  TransformationContext  $_context  Il contesto di trasformazione (non utilizzato)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+     * @param DataProperty $_property La proprietà di dati (non utilizzata)
+     * @param mixed $value Il valore da trasformare (es. "user::image.png")
+     * @param TransformationContext $_context Il contesto di trasformazione (non utilizzato)
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
      * @return string Il percorso completo (es. "/modules/user/resources/image.png")
      */
     public function transform(DataProperty $_property, mixed $value, TransformationContext $_context): string
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($value) || empty($value)) {
 =======
 <<<<<<< HEAD
+=======
+        if (! is_string($value) || empty($value)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! is_string($value) || empty($value)) {
+=======
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 =======
      * @param DataProperty $property La proprietà di dati
      * @param mixed $value Il valore da trasformare (es. "user::image.png")
@@ -229,11 +293,19 @@ class AssetTransformer implements Transformer
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
         if (!is_string($value) || empty($value)) {
 >>>>>>> d2b0a27 (.)
 =======
         if (! is_string($value) || empty($value)) {
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+        if (!is_string($value) || empty($value)) {
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
             return '';
         }
 
@@ -252,5 +324,9 @@ class AssetTransformer implements Transformer
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 }

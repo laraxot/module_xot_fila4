@@ -89,17 +89,26 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
 =======
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
  * @property string|null $model_class
  *
  * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
  *
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 <<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends BaseModel

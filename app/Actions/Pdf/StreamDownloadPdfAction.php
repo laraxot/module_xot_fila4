@@ -27,12 +27,21 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -80,10 +89,30 @@ use Exception;
 >>>>>>> 9db27d12 (.)
 =======
 <<<<<<< HEAD
+use Spatie\QueueableAction\QueueableAction;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
@@ -105,6 +134,11 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -124,10 +158,18 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 8b18e4bff (.)
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,7 +214,18 @@ use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 use Webmozart\Assert\Assert;
 
 class StreamDownloadPdfAction
@@ -203,15 +256,27 @@ class StreamDownloadPdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della view da renderizzare
      * @param  array<string, mixed>|null  $data  Dati da passare alla view
 =======
      * @param  string  $html  Contenuto HTML da convertire
+=======
+     * @param  string  $html  Contenuto HTML da convertire
+     * @param  string  $filename  Nome del file PDF
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  string  $html  Contenuto HTML da convertire
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +284,10 @@ class StreamDownloadPdfAction
 >>>>>>> 73eab74 (.)
      * @param string $html Contenuto HTML da convertire
      * @param string $filename Nome del file PDF
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
      * @return StreamedResponse
      */
     public function execute(
@@ -489,9 +558,56 @@ class StreamDownloadPdfAction
 =======
             $html = view($view, $data)->render();
         }
+<<<<<<< HEAD
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+        Assert::string($html, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @param  string|null  $html  Contenuto HTML da convertire
+     * @param  string|null  $view  Nome della vista Blade
+     * @param  array<mixed, mixed>|null  $data  Dati da passare alla vista
+>>>>>>> d2b0a27 (.)
+     * @param  string  $filename  Nome del file PDF
+     * @return StreamedResponse
+     */
+    public function execute(
+        ?string $html = null,
+        ?string $view = null,
+        ?array $data = null,
+        string $filename = 'my_doc.pdf',
+    ) {
+        if ($html === null && $view !== null) {
+            if (! view()->exists($view)) {
+                throw new Exception('View '.$view.' not found');
+            }
+            if (! is_array($data)) {
+                $data = [];
+            }
+            /** @var array<string, mixed> $viewData */
+            $viewData = $data;
+            $html = view($view, $viewData)->render();
+        }
+<<<<<<< HEAD
+        Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+        Assert::string($html);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
@@ -501,6 +617,7 @@ class StreamDownloadPdfAction
             $html2pdf->output();
         }, 'report-'.$filename);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,6 +850,43 @@ class StreamDownloadPdfAction
             $html2pdf->output();
         }, 'report-'.$filename);
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+        return response()->streamDownload(function () use ($html2pdf): void {
+            $html2pdf->output();
+        }, 'report-'.$filename);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return response()->streamDownload(function () use ($html2pdf) {
+            $html2pdf->output();
+<<<<<<< HEAD
+        }, 'report-'.$filename);
+=======
+        }, 'report-' . $filename);
+=======
+        return response()->streamDownload(
+            function () use ($html2pdf) {
+                $html2pdf->output();
+            },
+            'report-'.$filename
+        );
+>>>>>>> f1d4085 (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf) {
+            $html2pdf->output();
+        }, 'report-' . $filename);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf) {
+            $html2pdf->output();
+        }, 'report-' . $filename);
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     }
 }

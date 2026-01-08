@@ -47,6 +47,7 @@ class GetAllModelsByModuleNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
@@ -68,8 +69,32 @@ class GetAllModelsByModuleNameAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! ($mod instanceof \Nwidart\Modules\Module)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+=======
+        if (! $mod instanceof \Nwidart\Modules\Module) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
             return [];
         }
 
@@ -103,7 +128,11 @@ class GetAllModelsByModuleNameAction
                     $reflection_class = new ReflectionClass($tmp->class);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
                     if (! $reflection_class->isAbstract()) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -162,6 +191,12 @@ class GetAllModelsByModuleNameAction
 =======
 >>>>>>> 3310e9c6 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
                     if (!$reflection_class->isAbstract()) {
@@ -172,6 +207,11 @@ class GetAllModelsByModuleNameAction
                     if (!$reflection_class->isAbstract()) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -183,7 +223,16 @@ class GetAllModelsByModuleNameAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

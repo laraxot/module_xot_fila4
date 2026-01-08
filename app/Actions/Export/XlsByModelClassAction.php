@@ -9,7 +9,6 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
-use Modules\Xot\Actions\Model\GetTransKeyByModelClassAction;
 // use Modules\Xot\Services\ArrayService;
 use Modules\Xot\Exports\CollectionExport;
 use Spatie\QueueableAction\QueueableAction;
@@ -29,6 +28,7 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
@@ -36,7 +36,15 @@ class XlsByModelClassAction
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
      * @param  string  $modelClass  Classe del modello da esportare
      * @param  array<string, mixed>  $where  Condizioni where per la query
      * @param  array<int, string>  $includes  Relazioni o campi da includere
@@ -49,16 +57,25 @@ class XlsByModelClassAction
 >>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
      * @param string $modelClass Classe del modello da esportare
      * @param array<string, mixed> $where Condizioni where per la query
      * @param array<int, string> $includes Relazioni o campi da includere
      * @param array<int, string> $excludes Campi da escludere
      * @param callable|null $callback Callback per manipolare i dati
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
      *
      * @return BinaryFileResponse
 <<<<<<< HEAD
@@ -83,7 +100,16 @@ class XlsByModelClassAction
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+     *
+     * @return BinaryFileResponse
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
      */
     public function execute(
         string $modelClass,
@@ -93,6 +119,7 @@ class XlsByModelClassAction
 <<<<<<< HEAD
         ?callable $callback = null,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,15 +182,30 @@ class XlsByModelClassAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 8b18e4bff (.)
         ?callable $callback = null,
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        ?callable $callback = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         null|callable $callback = null,
 =======
         ?callable $callback = null,
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,9 +244,16 @@ class XlsByModelClassAction
 >>>>>>> 9db27d12 (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         null|callable $callback = null,
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -217,7 +266,16 @@ class XlsByModelClassAction
 =======
         ?callable $callback = null,
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+        null|callable $callback = null,
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
     ): BinaryFileResponse {
         // Verifichiamo che la classe del modello esista
         Assert::classExists($modelClass);
@@ -238,7 +296,11 @@ class XlsByModelClassAction
 >>>>>>> d2b0a27 (.)
 =======
 
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         $with = $this->getWithByIncludes($includes);
 
         // Creiamo l'istanza del modello e costruiamo la query
@@ -261,7 +323,11 @@ class XlsByModelClassAction
 >>>>>>> d2b0a27 (.)
 =======
 
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         // Applichiamo le condizioni where
         foreach ($where as $key => $value) {
             $query->where($key, $value);
@@ -279,7 +345,11 @@ class XlsByModelClassAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
         // Filtriamo i campi se sono specificati gli includes
         if ($includes !== []) {
@@ -314,7 +384,11 @@ class XlsByModelClassAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         }
 
         // Nascondiamo i campi esclusi
@@ -334,9 +408,8 @@ class XlsByModelClassAction
             $rows = $rows->map($callback);
         }
 
-        // Otteniamo la chiave di traduzione e creiamo l'export
-        $transKey = app(GetTransKeyByModelClassAction::class)->execute($modelClass);
-        $collectionExport = new CollectionExport($rows, $transKey);
+        // Creiamo l'export
+        $collectionExport = new CollectionExport($rows, [], []);
         $filename = $this->getExportName($modelClass);
 
         return Excel::download($collectionExport, $filename);
@@ -348,6 +421,7 @@ class XlsByModelClassAction
 <<<<<<< HEAD
      * @param  array<int, string>  $includes  Campi da includere
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,9 +458,23 @@ class XlsByModelClassAction
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  array<int, string>  $includes  Campi da includere
+=======
+<<<<<<< HEAD
+     * @param  array<int, string>  $includes  Campi da includere
+=======
+     * @param array<int, string> $includes Campi da includere
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
      *
 =======
      * 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
@@ -440,11 +528,18 @@ class XlsByModelClassAction
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
      *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -456,7 +551,15 @@ class XlsByModelClassAction
 =======
      * @param  array<int, string>  $includes  Campi da includere
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
      * @return array<int, string>
      */
     private function getWithByIncludes(array $includes): array
@@ -485,7 +588,11 @@ class XlsByModelClassAction
 =======
             $includeStr = is_string($include) ? $include : ((string) $include);
 
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
             // Verifichiamo se contiene un punto (indicatore di relazione)
             if (! Str::contains($includeStr, '.')) {
                 continue;
@@ -506,7 +613,11 @@ class XlsByModelClassAction
 >>>>>>> d2b0a27 (.)
 =======
 
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
             // Estraiamo il nome della relazione (prima parte prima del punto)
             $parts = explode('.', $includeStr);
             if (! empty($parts[0])) {
@@ -526,6 +637,7 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
@@ -533,12 +645,21 @@ class XlsByModelClassAction
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+     * @param  string  $modelClass  Classe del modello
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
      * @param  string  $modelClass  Classe del modello
      */
     private function getExportName(string $modelClass): string
     {
         return sprintf('%s %s.xlsx', Str::slug(class_basename($modelClass)), Carbon::now()->format('d-m-Y His'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
      * @param string $modelClass Classe del modello
@@ -559,6 +680,18 @@ class XlsByModelClassAction
 <<<<<<< HEAD
         return sprintf('%s %s.xlsx', Str::slug(class_basename($modelClass)), Carbon::now()->format('d-m-Y His'));
 =======
+=======
+     * @param string $modelClass Classe del modello
+     *
+     * @return string
+>>>>>>> a6ef6dc7 (.)
+     */
+    private function getExportName(string $modelClass): string
+    {
+        return sprintf('%s %s.xlsx', Str::slug(class_basename($modelClass)), Carbon::now()->format('d-m-Y His'));
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
+=======
         return sprintf(
             '%s %s.xlsx',
             Str::slug(class_basename($modelClass)),
@@ -570,6 +703,10 @@ class XlsByModelClassAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
     }
 }

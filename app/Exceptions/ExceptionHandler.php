@@ -24,7 +24,11 @@ use Illuminate\Foundation\Configuration\Exceptions;
 >>>>>>> d2b0a27 (.)
 =======
 use Illuminate\Foundation\Configuration\Exceptions;
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 use Illuminate\Http\Request;
 use Modules\Xot\Actions\View\GetViewPathAction;
 <<<<<<< HEAD
@@ -54,7 +58,11 @@ class ExceptionHandler
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 {
     /**
      * Configura la gestione delle eccezioni.
@@ -85,7 +93,11 @@ class ExceptionHandler
 =======
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
             if ($request->wantsJson()) {
                 return response()->json([
                     'message' => $e->getMessage(),
@@ -100,7 +112,11 @@ class ExceptionHandler
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
             $view = 'pub_theme::errors.'.$status_code;
             if (! view()->exists($view)) {
@@ -111,7 +127,11 @@ class ExceptionHandler
             $view_params = ['exception' => $e];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -189,10 +209,20 @@ class ExceptionHandler
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
             
 
             $view='pub_theme::errors.'.$status_code;
             if(!view()->exists($view)){
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,11 +250,14 @@ class ExceptionHandler
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
                 throw new Exception('view not found: ['.$view.'] view path:'.app(GetViewPathAction::class)->execute($view));    
                 
             }
             $view_params=['exception'=>$e];
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,7 +299,18 @@ class ExceptionHandler
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

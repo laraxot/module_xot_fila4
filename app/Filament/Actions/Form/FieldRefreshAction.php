@@ -22,6 +22,7 @@ class FieldRefreshAction extends Action
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function ($record, Set $set): void {
 <<<<<<< HEAD
 =======
@@ -39,7 +40,13 @@ class FieldRefreshAction extends Action
 =======
             ->action(function ($state, $set, $record) {
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+            ->action(function ($state, $set, $record): void {
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
@@ -81,13 +88,43 @@ class FieldRefreshAction extends Action
 >>>>>>> 5a14301c (.)
 =======
                 $method = 'get'.Str::studly($name).'';
+<<<<<<< HEAD
                 $value = $record->$method();
                 $set($name, $value);
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+
+                if (! is_object($record) || ! method_exists($record, $method)) {
+                    return;
+                }
+
+                $callable = [$record, $method];
+                if (! is_callable($callable)) {
+                    return;
+                }
+
+                $value = call_user_func($callable);
+                if (is_callable($set)) {
+                    $set($name, $value);
+                }
+
+                $oldValue = is_scalar($state) ? (string) $state : 'non-scalar';
+                $newValue = is_scalar($value) ? (string) $value : 'non-scalar';
+
+                Notification::make()
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$oldValue.' nuovo valore: '.$newValue)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
                     ->success()
                     ->send();
             });

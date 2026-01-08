@@ -42,7 +42,10 @@ class GetModulesNavigationItems
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
@@ -65,7 +68,13 @@ class GetModulesNavigationItems
 =======
 >>>>>>> 53d6a6ba (.)
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+        Assert::isArray($modules);
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');

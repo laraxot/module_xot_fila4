@@ -25,6 +25,7 @@ use Override;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 use Webmozart\Assert\Assert;
@@ -136,7 +137,13 @@ use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecord
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -158,6 +165,15 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
     /**
      * Restituisce lo schema del form per i record correlati.
      *
@@ -261,7 +277,18 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
      * @return array<\Filament\Schemas\Components\Component>
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+    /*
+<<<<<<< HEAD
+     * @return array<\Filament\Forms\Components\Component>
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> a5dccfe (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
      */
     // abstract public static function getFormSchema(): array;
 
@@ -292,7 +319,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      *
      * @return array<string, TextColumn>
      */
-    #[Override]
+    #[\Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [
@@ -346,7 +376,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
                 ->url(function (Model $record): string {
                     $url = static::getResource()::getUrl('edit', ['record' => $record]);
 
@@ -421,7 +454,21 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+                ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+=======
+                ->url(function (Model $record): string {
+                    $url = static::getResource()::getUrl('edit', ['record' => $record]);
+                    Assert::string($url);
+
+                    return $url;
+                }),
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')

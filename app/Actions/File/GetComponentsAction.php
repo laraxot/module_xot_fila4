@@ -10,7 +10,11 @@ use Illuminate\Support\Str;
 use Modules\Xot\Datas\ComponentFileData;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
 use ReflectionClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -125,6 +129,12 @@ use function Safe\json_decode;
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use ReflectionClass;
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -135,6 +145,11 @@ use function Safe\json_decode;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -145,7 +160,15 @@ use function Safe\json_decode;
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -157,7 +180,11 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 use function Safe\json_decode;
 use function Safe\json_encode;
 
@@ -168,11 +195,19 @@ use function Safe\json_encode;
 >>>>>>> f1d4085 (.)
 =======
 use function Safe\json_decode;
+<<<<<<< HEAD
+=======
+use function Safe\json_encode;
+>>>>>>> 8b18e4bff (.)
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 class GetComponentsAction
 {
     use QueueableAction;
@@ -191,7 +226,11 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
     public function execute(
         string $path,
         string $namespace,
@@ -202,12 +241,16 @@ class GetComponentsAction
             $namespace = Str::replace('/', '\\', $namespace),
             '['.__LINE__.']['.class_basename(static::class).']',
         );
+<<<<<<< HEAD
         $components_json = $path.'/_components.json';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
             '[' . __LINE__ . '][' . class_basename(static::class) . ']',
@@ -256,14 +299,23 @@ class GetComponentsAction
 =======
 >>>>>>> 17684f52 (.)
 =======
+=======
+<<<<<<< HEAD
+        $components_json = $path.'/_components.json';
+>>>>>>> b7afadf9 (.)
+=======
         $components_json = $path . '/_components.json';
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     public function execute(string $path, string $namespace, string $prefix, bool $force_recreate = false): DataCollection
     {
         Assert::string($namespace = Str::replace('/', '\\', $namespace), '['.__LINE__.']['.class_basename(static::class).']');
         $components_json = $path.'/_components.json';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,10 +371,17 @@ class GetComponentsAction
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 48515e368 (.)
@@ -333,7 +392,15 @@ class GetComponentsAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         $components_json = app(FixPathAction::class)->execute($components_json);
 
         $path = app(FixPathAction::class)->execute($path);
@@ -357,6 +424,7 @@ class GetComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
@@ -366,15 +434,31 @@ class GetComponentsAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+        if (! File::exists($path)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
         if (! File::exists($path)) {
             if (Str::startsWith($path, base_path('Modules'))) {
                 File::makeDirectory($path, 0o755, true, true);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!File::exists($path)) {
+<<<<<<< HEAD
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
             if (Str::startsWith($path, base_path('Modules'))) {
                 File::makeDirectory($path, 0o755, true, true);
 =======
@@ -389,7 +473,14 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+        if (!File::exists($path)) {
+            if (Str::startsWith($path, base_path('Modules'))) {
+                File::makeDirectory($path, 0o755, true, true);
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
             }
         }
 
@@ -403,7 +494,11 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
         if ($exists && ! $force_recreate) {
             Assert::string(
@@ -411,11 +506,22 @@ class GetComponentsAction
                 '['.__LINE__.']['.class_basename(static::class).']',
             );
             $comps = json_decode($content, false);
+<<<<<<< HEAD
             if (! is_array($comps)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             if (!is_array($comps)) {
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+            if (! is_array($comps)) {
+=======
+            if (!is_array($comps)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8b18e4bff (.)
 =======
         
         if ($exists && ! $force_recreate) {
@@ -427,7 +533,12 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
                 $comps = [];
             }
 
@@ -442,7 +553,11 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
         $files = File::allFiles($path);
         $comps = [];
@@ -462,7 +577,11 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
         foreach ($files as $file) {
             if ($file->getExtension() !== 'php') {
                 continue;
@@ -479,7 +598,11 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
             Assert::string(
                 $relative_path = Str::replace('/', '\\', $relative_path),
                 '['.__LINE__.']['.class_basename(static::class).']',
@@ -495,7 +618,11 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
             $comp_name = Str::slug(Str::snake(Str::replace('\\', ' ', $class_name)));
             $comp_name = $prefix.$comp_name;
@@ -506,14 +633,18 @@ class GetComponentsAction
                 $piece = collect(explode('\\', $relative_path))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 8b18e4bff (.)
                     ->map(fn ($item) => Str::slug(Str::snake($item)))
                     ->implode('.');
 
                 $comp_name = $prefix.$piece.'.'.Str::slug(Str::snake(Str::replace('\\', ' ', $class_name)));
                 $comp_ns = $namespace.'\\'.$relative_path.'\\'.$class_name;
                 $class_name = $relative_path.'\\'.$class_name;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -531,12 +662,35 @@ class GetComponentsAction
                     ->implode('.');
 
 >>>>>>> 73eab74 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    ->map(fn ($item) => Str::slug(Str::snake($item)))
+                    ->implode('.');
+
+                $comp_name = $prefix.$piece.'.'.Str::slug(Str::snake(Str::replace('\\', ' ', $class_name)));
+                $comp_ns = $namespace.'\\'.$relative_path.'\\'.$class_name;
+                $class_name = $relative_path.'\\'.$class_name;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+                    ->map(fn($item) => Str::slug(Str::snake($item)))
+                    ->implode('.');
+
+>>>>>>> 8b18e4bff (.)
                 $comp_name = $prefix . $piece . '.' . Str::slug(Str::snake(Str::replace('\\', ' ', $class_name)));
                 $comp_ns = $namespace . '\\' . $relative_path . '\\' . $class_name;
                 $class_name = $relative_path . '\\' . $class_name;
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> 8b18e4bff (.)
             }
 
             try {
@@ -559,7 +713,11 @@ class GetComponentsAction
 >>>>>>> d2b0a27 (.)
 =======
 
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
                 /** @var class-string<object> $comp_ns */
                 $reflection = new ReflectionClass($comp_ns);
                 if ($reflection->isAbstract()) {
@@ -581,7 +739,11 @@ class GetComponentsAction
 >>>>>>> d2b0a27 (.)
 =======
 
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
                 $comps[] = ComponentFileData::from([
                     'name' => $comp_name,
                     'class' => $class_name,
@@ -596,7 +758,11 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
             } catch (Exception $e) {
                 /*
                  * dddx([
@@ -632,7 +798,11 @@ class GetComponentsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
                 throw $e;
             }
         }

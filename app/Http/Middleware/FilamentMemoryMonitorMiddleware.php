@@ -89,6 +89,7 @@ class FilamentMemoryMonitorMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '/<nome progetto>/admin',
 =======
             '/techplanner/admin',
@@ -99,7 +100,13 @@ class FilamentMemoryMonitorMiddleware
 =======
             '/techplanner/admin',
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+            '/<nome progetto>/admin',
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             '/cms/admin',
             '/geo/admin',
             '/notify/admin',

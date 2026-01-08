@@ -12,7 +12,11 @@ declare(strict_types=1);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
  * Value Objects
  * The part of the model are Value Objects.
  * VO's are classes that are immutable. They are wrappers for given types that needs validation.
@@ -35,7 +39,11 @@ This decrease amount of guard logic within the system.
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
 
 namespace Modules\Xot\ValueObjects;
 
@@ -52,7 +60,11 @@ class EmailValueObject
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 8b18e4bff (.)
     public function __construct(
         // public readonly string $email;
         public string $email,
@@ -60,6 +72,7 @@ class EmailValueObject
 <<<<<<< HEAD
         if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,11 +118,27 @@ class EmailValueObject
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+=======
+<<<<<<< HEAD
+        if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+=======
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 8b18e4bff (.)
     public function __construct(// public readonly string $email;
         public string $email,
     ) {
         if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,7 +181,18 @@ class EmailValueObject
 =======
         if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> 8b18e4bff (.)
             throw new InvalidArgumentException(sprintf('Email address %s is considered valid.', $email));
         }
     }

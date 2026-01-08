@@ -1119,3 +1119,8 @@ class ExampleRelationshipsTest extends XotBaseTestCase
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b9c66c44e (.)

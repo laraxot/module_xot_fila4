@@ -24,4 +24,8 @@ Il file presentava numerosi conflitti git non risolti, in particolare tra le bra
 
 ---
 
+<<<<<<< HEAD
+=======
+*Collegamento bidirezionale creato: vedi anche `/docs/risoluzione_conflitti.md` nella root.*
+>>>>>>> b9c66c44e (.)
 *Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*

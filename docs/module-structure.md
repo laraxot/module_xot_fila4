@@ -29,6 +29,7 @@ ModuleName/
 ├── routes/
 ├── tests/
 └── composer.json
+<<<<<<< HEAD
 # Struttura dei Moduli in <nome progetto>
 
 Questo documento definisce le linee guida ufficiali per la struttura dei moduli all'interno del framework <nome progetto>.
@@ -68,6 +69,8 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 class NomeModuloServiceProvider extends XotBaseServiceProvider {
     // Implementazione
 }
+=======
+>>>>>>> b9c66c44e (.)
 ```
 
 ## Collegamenti

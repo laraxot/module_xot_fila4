@@ -13,8 +13,13 @@ Questa cartella contiene gli standard di codice e le convenzioni utilizzate nel 
 Questi standard si applicano a tutti i moduli del progetto e devono essere seguiti per mantenere la coerenza del codice. 
 
 ## Collegamenti tra versioni di README.md
+<<<<<<< HEAD
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> b9c66c44e (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -89,6 +94,7 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](../../../Cms/docs/components/README.md)
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
+<<<<<<< HEAD
 * [README.md](laravel/vendor/mockery/mockery/project_docs/README.md)
 * [README.md](../../../Chart/project_docs/README.md)
 * [README.md](../../../Reporting/project_docs/README.md)
@@ -133,6 +139,8 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](../../../Cms/project_docs/components/README.md)
 * [README.md](../../../../Themes/Two/project_docs/README.md)
 * [README.md](../../../../Themes/One/project_docs/README.md)
+=======
+>>>>>>> b9c66c44e (.)
 
 # Standard Xot: Ereditarietà dei Modelli
 
@@ -149,11 +157,14 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 - [DoctorResource: Step Informazioni Personali (Patient)](../../../Patient/docs/filament/resources/doctor-resource.md)
 - [Struttura progetto e STI (Patient)](../../../Patient/docs/architecture/struttura-progetto.md)
 - [Migrazioni e database (Patient)](../../../Patient/docs/database/migrations.md)
+<<<<<<< HEAD
 - [Modello Doctor (Patient)](../../../Patient/project_docs/Models/Doctor.md)
 - [Gestione campi e migrazioni con STI (README Patient)](../../../Patient/project_docs/README.md)
 - [DoctorResource: Step Informazioni Personali (Patient)](../../../Patient/project_docs/filament/resources/doctor-resource.md)
 - [Struttura progetto e STI (Patient)](../../../Patient/project_docs/architecture/struttura-progetto.md)
 - [Migrazioni e database (Patient)](../../../Patient/project_docs/database/migrations.md)
+=======
+>>>>>>> b9c66c44e (.)
 
 ## Regola generale
 
@@ -175,6 +186,10 @@ class Doctor extends User
 ```
 
 ## Moduli che applicano questa regola
+<<<<<<< HEAD
 - [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> b9c66c44e (.)
 // Aggiungere qui altri moduli se necessario
 

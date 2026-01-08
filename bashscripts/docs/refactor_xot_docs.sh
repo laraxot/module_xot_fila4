@@ -255,7 +255,11 @@ class MyResource extends XotBaseResource
     protected static ?string $model = MyModel::class;
     
     /**
+<<<<<<< HEAD
      * @return array<int, \Filament\Schemas\Components\Component>
+=======
+     * @return array<int, \Filament\Forms\Components\Component>
+>>>>>>> b9c66c44e (.)
      */
     public static function getFormSchema(): array
     {

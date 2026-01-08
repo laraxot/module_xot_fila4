@@ -144,4 +144,8 @@ return [
 - [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> b9c66c44e (.)

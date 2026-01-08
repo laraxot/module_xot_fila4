@@ -5,11 +5,17 @@
 ========
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/contracts/error-formatter-contract.md
 >>>>>>>> 27c94d185 (.):docs/archive/contracts/error-formatter-contract.md
+========
+<<<<<<< HEAD
+>>>>>>>> 8bdfcb7ec (.):docs/archive/contracts/error-formatter-contract.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # ErrorFormatterContract
 
 ## Descrizione
@@ -59,6 +65,7 @@ interface ErrorFormatterContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
@@ -96,4 +103,10 @@ interface ErrorFormatterContract
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 5bd842e3 (.)
+<<<<<<<< HEAD:docs/contracts/error-formatter-contract.md
 >>>>>>>> 27c94d185 (.):docs/archive/contracts/error-formatter-contract.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 03ceeac3 (.)
+>>>>>>>> 8bdfcb7ec (.):docs/archive/contracts/error-formatter-contract.md

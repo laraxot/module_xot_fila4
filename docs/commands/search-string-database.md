@@ -5,11 +5,17 @@
 ========
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/commands/search-string-database.md
 >>>>>>>> 27c94d185 (.):docs/archive/commands/search-string-database.md
+========
+<<<<<<< HEAD
+>>>>>>>> 8bdfcb7ec (.):docs/archive/commands/search-string-database.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
 # SearchStringInDatabaseCommand
 
 ## Descrizione
@@ -45,6 +51,7 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 <<<<<<< HEAD:docs/commands/search-string-database.md
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,4 +96,10 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 5bd842e3 (.)
+<<<<<<<< HEAD:docs/commands/search-string-database.md
 >>>>>>>> 27c94d185 (.):docs/archive/commands/search-string-database.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 03ceeac3 (.)
+>>>>>>>> 8bdfcb7ec (.):docs/archive/commands/search-string-database.md

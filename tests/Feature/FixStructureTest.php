@@ -1,15 +1,8 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,43 +95,24 @@ namespace Modules\Xot\Tests\Feature;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> a6ef6dc7 (.)
+=======
+>>>>>>> 71586de2 (.)
 namespace Modules\Xot\Tests\Feature;
->>>>>>> d2b0a27 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
-=======
-uses(TestCase::class);
->>>>>>> a6ef6dc7 (.)
 
 /**
- * @property string $testDir
+ * Test per verificare il corretto funzionamento dello script fix_structure.sh.
  */
-beforeEach(function (): void {
-    // Create a temporary directory for testing
-    /* @phpstan-ignore-next-line property.notFound */
-    $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
-    /* @phpstan-ignore-next-line property.notFound */
-    mkdir($this->testDir, 0o755, true);
-
-    // Set the working directory
-    chdir($this->testDir);
-});
-
-afterEach(function (): void {
-    // Clean up the test directory
-    /* @phpstan-ignore-next-line property.notFound */
-    if (isset($this->testDir) && is_string($this->testDir)) {
-        /* @phpstan-ignore-next-line property.notFound */
-        removeDirectory($this->testDir);
-    }
-});
-
-// Recursive function to remove a directory and its contents
-function removeDirectory(string $dir): void
+class FixStructureTest extends TestCase
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +336,8 @@ function removeDirectory(string $dir): void
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     private string $testDir;
 
     protected function setUp(): void
@@ -400,6 +376,7 @@ function removeDirectory(string $dir): void
                     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -407,9 +384,13 @@ function removeDirectory(string $dir): void
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
                 }
             }
+            rmdir($dir);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +426,8 @@ function removeDirectory(string $dir): void
         rmdir($dir);
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     }
 
     #[Test]
@@ -725,12 +708,12 @@ function removeDirectory(string $dir): void
         exec('cd '.$this->testDir.' && ./fix_structure.sh');
 
         // Verifichiamo che i contenuti siano stati uniti e che la cartella minuscola contenga tutto
-<<<<<<< HEAD
         static::assertDirectoryExists($this->testDir.'/config');
         static::assertFileExists($this->testDir.'/config/main.php');
         static::assertFileExists($this->testDir.'/config/secondary.php');
         static::assertDirectoryDoesNotExist($this->testDir.'/Config');
         static::assertDirectoryExists($this->testDir.'/config_old');
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -914,10 +897,7 @@ function removeDirectory(string $dir): void
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     }
 }
-
-test('move to app functionality', function (): void {
-    // Test implementation here
-    expect(true)->toBeTrue();
-});

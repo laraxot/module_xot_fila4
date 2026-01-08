@@ -32,33 +32,11 @@ class FakeSeederAction
      */
     public function execute(string $modelClass, int $qty): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         if (
             ! class_exists($modelClass) ||
                 ! is_subclass_of($modelClass, Model::class) ||
                 ! in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
         ) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
         }
 
@@ -113,32 +91,10 @@ class FakeSeederAction
     private function sendNotification(string $modelClass, int $count): void
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        Notification::make()->title($title)->success()->send();
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     }
 
     /**
@@ -152,59 +108,16 @@ class FakeSeederAction
         if ($qty <= self::MAX_RECORDS) {
             return;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
-=======
-        app(self::class)
-            ->onQueue()
-            ->execute($modelClass, $qty - self::MAX_RECORDS);
->>>>>>> f1d4085 (.)
-=======
-        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
->>>>>>> 300ef70 (.)
     }
 /*
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
         //@var Model 
         $model = app($modelClass);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        
-        /** @var Model */
-        $model = app($modelClass);
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return $model->getTable();
     }
         */

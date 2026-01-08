@@ -11,10 +11,14 @@
 ### Perché i Conflitti Esistono
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 =======
 I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 >>>>>>> 53d6a6ba (.)
+=======
+I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
+>>>>>>> 71586de2 (.)
 
 1. **Bloccano l'esecuzione**: File con marker non sono validi PHP
 2. **Degradano qualità**: PHPStan e linter falliscono
@@ -150,18 +154,23 @@ public function test_example() {
 ### Fase 1: Analisi File
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Identifico conflitti
 
 # Conto sezioni conflittuali
 =======
 ```bash
+=======
+>>>>>>> 71586de2 (.)
 # Identifico conflitti
-grep -n "<<<<<<< HEAD" file.php
 
 # Conto sezioni conflittuali
+<<<<<<< HEAD
 grep -c "<<<<<<< HEAD" file.php
 ```
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
 
 ### Fase 2: Decisione Strategica
 
@@ -197,6 +206,7 @@ grep -c "<<<<<<< HEAD" file.php
 
 ### Tracking
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Conta conflitti rimanenti
 =======
@@ -205,6 +215,10 @@ grep -c "<<<<<<< HEAD" file.php
 find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc -l
 ```
 >>>>>>> 53d6a6ba (.)
+=======
+
+# Conta conflitti rimanenti
+>>>>>>> 71586de2 (.)
 
 ## Best Practices Emerse
 
@@ -240,6 +254,7 @@ I conflitti sono stati causati da:
 
 **Git Hooks:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 # pre-commit: blocca commit con conflitti
 =======
 ```bash
@@ -250,6 +265,9 @@ if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; the
 fi
 ```
 >>>>>>> 53d6a6ba (.)
+=======
+# pre-commit: blocca commit con conflitti
+>>>>>>> 71586de2 (.)
 
 **CI/CD:**
 - Aggiungere check per marker conflitti

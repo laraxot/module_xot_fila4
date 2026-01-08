@@ -71,7 +71,6 @@ use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Pages\Page as FilamentPage;
 >>>>>>> 5a14301c (.)
 use Illuminate\Contracts\View\View;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
@@ -221,16 +220,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * 
      * This method must be non-static to properly override the parent method.
      * Returns the model class string or throws an exception if not set.
-<<<<<<< HEAD
      */
-=======
-     *
-     * @return class-string<\Illuminate\Database\Eloquent\Model>
-     */
-    /**
-     * @return class-string<Model>
-     */
->>>>>>> a6ef6dc7 (.)
     public function getModel(): string
     {
         if (static::$model === null) {
@@ -249,20 +239,25 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
-        return static::$model;
 =======
-        /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
-        $model = static::$model;
-
-        return $model;
->>>>>>> a6ef6dc7 (.)
+>>>>>>> 71586de2 (.)
+        return static::$model;
     }
 
-   
+    /**
+     * Get the resources associated with this page.
+     *
+     * @return Collection<string>
+     */
+    public static function getResources(): Collection
+    {
+        return collect();
+    }
 
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)

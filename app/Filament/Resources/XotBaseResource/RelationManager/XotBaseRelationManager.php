@@ -19,6 +19,7 @@ namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
 >>>>>>> 285375c74 (.)
 use Exception;
@@ -101,6 +102,10 @@ use Filament\Forms\Components\Component;
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+use Exception;
+use Filament\Forms\Components\Component;
+>>>>>>> 71586de2 (.)
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -153,11 +158,10 @@ abstract class XotBaseRelationManager extends RelationManager
     /**
      * Get form schema.
      *
-     * @return array<string|int, \Filament\Schemas\Components\Component>
+     * @return array<string|int, Component>
      */
     final public function getFormSchema(): array
     {
-        /** @var array<string|int, \Filament\Schemas\Components\Component> */
         return $this->getResource()::getFormSchema();
     }
 
@@ -166,10 +170,7 @@ abstract class XotBaseRelationManager extends RelationManager
      *
      * @return array<string, Tables\Columns\Column>
      */
-    #[\Override]
-    /**
-     * @return array<string, mixed>
-     */
+    #[Override]
     public function getTableColumns(): array
     {
         return [];
@@ -230,11 +231,11 @@ abstract class XotBaseRelationManager extends RelationManager
         try {
             // @phpstan-ignore staticMethod.notFound
             $parentResource = parent::getResource();
-            if (is_string($parentResource) && is_subclass_of($parentResource, XotBaseResource::class)) {
-                /* @var class-string<XotBaseResource> $parentResource */
+            if (is_subclass_of($parentResource, XotBaseResource::class)) {
+                /** @var class-string<XotBaseResource> $parentResource */
                 return $parentResource;
             }
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             // Fallback if parent method fails
         }
 
@@ -257,19 +258,11 @@ abstract class XotBaseRelationManager extends RelationManager
         $resourceClass = $ns.$resourceName;
 
         if (! class_exists($resourceClass)) {
-<<<<<<< HEAD
             throw new Exception("Cannot find resource class {$resourceClass}");
         }
 
         if (! is_subclass_of($resourceClass, XotBaseResource::class)) {
             throw new Exception("{$resourceClass} must extend XotBaseResource");
-=======
-            throw new \Exception("Cannot find resource class {$resourceClass}");
-        }
-
-        if (! is_subclass_of($resourceClass, XotBaseResource::class)) {
-            throw new \Exception("{$resourceClass} must extend XotBaseResource");
->>>>>>> a6ef6dc7 (.)
         }
 
         /** @var class-string<XotBaseResource> $resourceClass */

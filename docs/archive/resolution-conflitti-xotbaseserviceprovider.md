@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # Risoluzione Conflitti in XotBaseServiceProvider
@@ -172,3 +173,5 @@ Per maggiori dettagli sui vantaggi di questo approccio, consultare la documentaz
 =======
 *Collegamento bidirezionale: vedi anche `/project_docs/providers/service_provider_best_practices.md`* 
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Regole generali su roles, permissions e guard_name
 
 ## Regola generale
@@ -41,3 +42,5 @@ Vedi anche: ../../User/docs/roles-permissions.md
 Vedi anche: ../../User/project_docs/roles-permissions.md
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

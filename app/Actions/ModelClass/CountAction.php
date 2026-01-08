@@ -18,6 +18,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -200,7 +201,18 @@ use Modules\Xot\Models\InformationSchemaTable;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -219,7 +231,6 @@ class CountAction
      */
     public function execute(string $modelClass): int
     {
-        /* @phpstan-ignore-next-line staticMethod.notFound, return.type */
         return InformationSchemaTable::getModelCount($modelClass);
     }
 }

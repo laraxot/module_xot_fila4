@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # 🚀 XotBase Quick Reference
@@ -76,3 +77,5 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 =======
 *Keep this file visible during development!*
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

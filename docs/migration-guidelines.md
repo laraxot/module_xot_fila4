@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -123,4 +124,9 @@ return new class extends XotBaseMigration
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

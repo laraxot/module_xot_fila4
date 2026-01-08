@@ -55,6 +55,7 @@ use Modules\Xot\Database\Factories\FeedFactory;
 >>>>>>> 5a14301c (.)
 =======
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -67,7 +68,13 @@ use Modules\Xot\Database\Factories\FeedFactory;
  * @method static Builder<static>|Feed query()
  *
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+ * @mixin IdeHelperFeed
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

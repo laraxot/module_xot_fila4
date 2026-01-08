@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Linee Guida per l'Ereditarietà da Classi Filament
@@ -262,4 +263,11 @@ public function getNavigationLabel(): string // Non static!
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

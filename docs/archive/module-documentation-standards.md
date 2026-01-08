@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Standard di Documentazione dei Moduli
 
 ## Regola: Nessun Riferimento al Progetto Specifico
@@ -73,3 +74,5 @@ Per supporto e domande, contattare il team di sviluppo.
 - [Struttura dei Moduli](../../Xot/project_docs/architecture/modules.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

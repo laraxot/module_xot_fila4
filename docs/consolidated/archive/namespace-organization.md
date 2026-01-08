@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Organizzazione dei Namespace Filament nel Modulo Xot
@@ -175,4 +176,11 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 - [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

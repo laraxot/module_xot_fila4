@@ -76,6 +76,7 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
 =======
 =======
@@ -192,7 +193,18 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 
     /**
@@ -204,6 +216,7 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
         if ($this->name === '') {
             throw new Exception('name is empty on ['.static::class.']');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,7 +317,18 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if ($this->name === '') {
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         }
         Route::prefix('api')
             ->middleware('api')
@@ -312,6 +336,7 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 <<<<<<< HEAD
             ->group($this->module_dir.'/../../routes/api.php');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,6 +449,17 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+            ->group($this->module_dir . '/../../routes/api.php');
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            ->group($this->module_dir.'/../../routes/api.php');
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 }

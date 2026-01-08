@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Regole di Estensione dei Modelli Laraxot
@@ -263,4 +264,15 @@ abstract class BaseModel extends XotBaseModel
 =======
 *Ultimo aggiornamento: maggio 2025* 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

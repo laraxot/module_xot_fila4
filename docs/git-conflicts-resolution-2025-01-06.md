@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
@@ -222,3 +223,5 @@ php artisan lang:check
 ```bash
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

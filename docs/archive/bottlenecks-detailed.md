@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # Analisi Dettagliata dei Colli di Bottiglia - Modulo Xot
@@ -315,3 +316,5 @@ trait HasXotOptimizations
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

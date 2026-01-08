@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Best Practices - Documentazione Consolidata DRY + KISS
@@ -1043,3 +1044,5 @@ php artisan view:clear
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

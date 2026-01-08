@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # GenerateDbDocumentationCommand
@@ -75,4 +76,9 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD:docs/commands/generate-db-documentation.md
 >>>>>>>> 6342a02fe (.):docs/archive/commands/generate-db-documentation.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/commands/generate-db-documentation.md

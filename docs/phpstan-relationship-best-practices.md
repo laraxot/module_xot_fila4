@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.)
 # PHPStan Best Practices per Relazioni Eloquent
 
 ## Regola Fondamentale
@@ -315,3 +322,10 @@ L'uso di `self` nelle annotazioni PHPDoc delle relazioni Eloquent è la best pra
 **Stato**: ✅ Standard Adottato
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

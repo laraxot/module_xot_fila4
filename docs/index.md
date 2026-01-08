@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 **Indice Documentazione Modulo Xot**
 
 ## 🎯 **Quick Start**
@@ -227,3 +228,5 @@ php artisan test --filter=ExampleTest
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)

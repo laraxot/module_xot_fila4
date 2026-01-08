@@ -6,6 +6,7 @@ namespace Modules\Xot\Console\Commands;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
@@ -26,6 +27,11 @@ use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+use Webmozart\Assert\Assert;
+>>>>>>> 285375c74 (.)
 
 use function Safe\file_get_contents;
 
@@ -47,6 +53,12 @@ class ExecuteSqlFileCommand extends Command
 
     /**
      * Execute the console command.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
      */
     public function handle(): int
     {
@@ -214,7 +226,25 @@ class ExecuteSqlFileCommand extends Command
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        if (!file_exists($filePath)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+     */
+    public function handle(): int
+    {
+        // Chiedi il percorso del file .sql
+        $filePath = $this->ask('Inserisci il percorso del file .sql');
+        Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        if (! file_exists($filePath)) {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -250,9 +280,14 @@ class ExecuteSqlFileCommand extends Command
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
 <<<<<<< HEAD
 =======
+=======
+            $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -350,7 +385,17 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+            $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
             return Command::FAILURE;
         } finally {

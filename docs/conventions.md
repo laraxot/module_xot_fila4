@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Naming
 
 ## Struttura delle Cartelle nei Moduli
@@ -963,3 +964,5 @@ Quando si aggiorna un modulo esistente:
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

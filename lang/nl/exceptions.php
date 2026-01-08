@@ -5,6 +5,7 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -13,6 +14,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -22,6 +25,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -43,6 +47,8 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
 
     'backend' => [
         'access' => [
@@ -57,6 +63,7 @@ return [
                 'update_error' => 'Er is een probleem opgetreden bij het bijwerken van deze rol. Probeer het nogmaals.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -70,6 +77,8 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
             'users' => [
                 'cant_deactivate_self' => 'U kunt uzelf niet deactiveren',
                 'cant_delete_self' => 'U kunt uzelf niet verwijderen.',
@@ -89,6 +98,7 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -102,6 +112,8 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -115,6 +127,7 @@ return [
                 'resent' => 'Een nieuwe bevestigings email is naar het ingegeven adres verstuurd.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             'deactivated' => 'Uw account is gedactiveerd.',
             'email_taken' => 'Dat emailadres is al in gebruik.',
@@ -140,6 +153,10 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+            'deactivated' => 'Uw account is gedactiveerd.',
+            'email_taken' => 'Dat emailadres is al in gebruik.',
+>>>>>>> 285375c74 (.)
             'password' => [
                 'change_mismatch' => 'Dat is niet uw oude wachtwoord',
             ],

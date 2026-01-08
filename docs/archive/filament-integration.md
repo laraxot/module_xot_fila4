@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Integrazione con Filament
 
 ## Descrizione
@@ -204,3 +205,5 @@ class AddressPage extends XotBasePage
 - [Clean Code](../../../project_docs/clean-code.md) 
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

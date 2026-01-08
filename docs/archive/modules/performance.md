@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Modulo Performance
 
 ## Descrizione
@@ -89,3 +90,5 @@ Il modulo implementa diverse risorse Filament per la gestione delle performance:
 - [QueueableActions](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/Xot/project_docs/queueable-actions.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

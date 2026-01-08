@@ -39,6 +39,7 @@ use Modules\Xot\Database\Factories\CacheFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -92,7 +93,13 @@ use Modules\Xot\Database\Factories\CacheFactory;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+ * @mixin IdeHelperCache
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

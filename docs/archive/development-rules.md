@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Regole Generali di Sviluppo del Progetto
 
 ## Collegamenti
@@ -472,3 +473,5 @@ TextInput::make('name')
 **Nota**: Queste regole sono fondamentali per mantenere la qualità e la consistenza del progetto. Devono essere sempre seguite e aggiornate quando necessario.
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

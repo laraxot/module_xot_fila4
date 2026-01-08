@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:docs/testing-best-practices-conflict.md
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,9 @@
 >>>>>>> 17684f52 (.)
 >>>>>>> dc2130a7c (.):docs/archive/testing-best-practices.md
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.):docs/testing-best-practices-uppercase.md
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -496,4 +500,13 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/testing-best-practices-uppercase.md

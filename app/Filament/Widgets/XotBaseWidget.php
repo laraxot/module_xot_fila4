@@ -4,6 +4,46 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d86d643a (.)
+use Filament\Forms\Form;
+use Filament\Forms\Form;
+=======
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> a5dccfe (.)
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+>>>>>>> 285375c74 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -17,6 +57,137 @@ use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
+=======
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+use Exception;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+=======
+>>>>>>> ca9324a4 (.)
+use Exception;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+use Illuminate\Contracts\View\View;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 285375c74 (.)
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
@@ -152,7 +323,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
-                /** @var array<string, mixed> */
                 return $res;
 
             } catch (Exception $e) {
@@ -170,7 +340,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 //    $attributes['type'] = $model->type->value;
                 // }
 
-                /** @var array<string, mixed> */
                 return $attributes;
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -186,16 +355,19 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $attributes = $model->attributesToArray();
 
         $fields = array_merge($fillable, $appends);
-        /** @var array<string, mixed> $fieldsWithNull */
-        $fieldsWithNull = array_fill_keys($fields, null);
-        $fieldsWithNull = array_merge($fieldsWithNull, $attributes);
+        $fields = array_fill_keys($fields, null);
+        $fields = array_merge($fields, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
             /** @var array<string, mixed> $defaults */
             $defaults = $model->getDataDefaults();
-            $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
+            $fields = array_merge($fields, $defaults);
         }
 
+<<<<<<< HEAD
         return $fieldsWithNull;
+=======
+        return $fields;
+>>>>>>> 53d6a6ba (.)
     }
 
     /**
@@ -207,6 +379,18 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         // Implementare nelle classi figlie
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * Eseguito quando i filtri vengono aggiornati.
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
+     */
+    // public function filtersUpdated(): void
+    // {
+    //     $this->reset('data');
+    // }
+
+>>>>>>> 285375c74 (.)
     public static function getNavigationLabel(): string
     {
         return static::transFunc(__FUNCTION__);

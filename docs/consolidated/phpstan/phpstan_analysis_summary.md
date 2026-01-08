@@ -20,10 +20,14 @@ Based on the latest analysis:
 
 #### 1. Class Not Found Errors (15%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Missing classes from Modules\SaluteOra\Models namespace
 =======
 - Missing classes from Modules\<main module>\Models namespace
 >>>>>>> dc2130a7c (.)
+=======
+- Missing classes from Modules\SaluteOra\Models namespace
+>>>>>>> 285375c74 (.)
 - Missing traits (EnumTrait from Modules\Core\Traits)
 - Undefined classes in factories
 
@@ -71,10 +75,14 @@ Based on the latest analysis:
 ### Notify Module
 **Key Issues**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Missing SaluteOra model classes
 =======
 - Missing <main module> model classes
 >>>>>>> dc2130a7c (.)
+=======
+- Missing SaluteOra model classes
+>>>>>>> 285375c74 (.)
 - String function parameter type issues
 - Method not found errors on models
 
@@ -98,10 +106,14 @@ Based on the latest analysis:
 ```php
 // Use class_exists checks before referencing
 <<<<<<< HEAD
+<<<<<<< HEAD
 if (!class_exists('Modules\\SaluteOra\\Models\\Appointment')) {
 =======
 if (!class_exists('Modules\\<main module>\\Models\\Appointment')) {
 >>>>>>> dc2130a7c (.)
+=======
+if (!class_exists('Modules\\SaluteOra\\Models\\Appointment')) {
+>>>>>>> 285375c74 (.)
     // Handle missing class gracefully
     throw new \Exception('Required class not available');
 }
@@ -198,10 +210,14 @@ vendor/bin/phpstan analyse --generate-baseline
 
 ### High Priority
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Missing SaluteOra Models**: Classes referenced but not available
 =======
 1. **Missing <main module> Models**: Classes referenced but not available
 >>>>>>> dc2130a7c (.)
+=======
+1. **Missing SaluteOra Models**: Classes referenced but not available
+>>>>>>> 285375c74 (.)
 2. **Cross-Module Dependencies**: Tight coupling between modules
 3. **Factory Configuration**: Incorrect model references in factories
 

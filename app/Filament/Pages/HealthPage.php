@@ -26,6 +26,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 =======
 =======
@@ -65,7 +66,16 @@ use Spatie\Health\Checks\Check;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Widgets\WidgetConfiguration;
@@ -74,8 +84,12 @@ use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 =======
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 53d6a6ba (.)
 use Spatie\Health\Checks\Checks;
 >>>>>>> cc7fb225 (.)
 use Spatie\Health\Checks\Checks\CacheCheck;
@@ -146,6 +160,97 @@ class HealthPage extends XotBasePage
          *
          * @phpstan-ignore-next-line argument.type
          */
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+            /** @var CpuLoadCheck $check */
+            $check = CpuLoadCheck::new();
+            $checks[] = $check;
+        }
+        if (class_exists(SecurityAdvisoriesCheck::class)) {
+            /** @var \Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck $check */
+            $check = SecurityAdvisoriesCheck::new();
+            $checks[] = $check;
+        }
+        if (class_exists(SmtpCheck::class)) {
+            /** @var \Laraxot\SmtpHealthCheck\SmtpCheck $check */
+            $check = SmtpCheck::new();
+            $checks[] = $check;
+        }
+        /** @var array<Check> $checks */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+            Checks\OptimizedAppCheck::new(),
+            Checks\DebugModeCheck::new(),
+            Checks\EnvironmentCheck::new(),
+            Checks\UsedDiskSpaceCheck::new(),
+            Checks\DatabaseCheck::new(),
+            Checks\DatabaseSizeCheck::new(),
+            Checks\DatabaseTableSizeCheck::new(),
+            Checks\CacheCheck::new(),
+            Checks\DatabaseConnectionCountCheck::new(),
+            Checks\FlareErrorOccurrenceCountCheck::new(),
+            Checks\HorizonCheck::new(),
+            //Checks\MeiliSearchCheck::new(),
+            Checks\QueueCheck::new(),
+            Checks\RedisCheck::new(),
+            Checks\ScheduleCheck::new(),
+            Checks\RedisMemoryUsageCheck::new(),
+            // Checks\PingCheck::new()->url('https://google.com')->name('Google'),
+        ];
+        if (class_exists(\Spatie\CpuLoadHealthCheck\CpuLoadCheck::class)) {
+            /** @var \Spatie\CpuLoadHealthCheck\CpuLoadCheck $check */
+            $check = \Spatie\CpuLoadHealthCheck\CpuLoadCheck::new();
+            $checks[] = $check;
+        }
+        if (class_exists(\Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck::class)) {
+            /** @var \Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck $check */
+            $check = \Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck::new();
+            $checks[] = $check;
+        }
+        if (class_exists(\Laraxot\SmtpHealthCheck\SmtpCheck::class)) {
+            /** @var \Laraxot\SmtpHealthCheck\SmtpCheck $check */
+            $check = \Laraxot\SmtpHealthCheck\SmtpCheck::new();
+            $checks[] = $check;
+        }
+        /** @var array<\Spatie\Health\Checks\Check> $checks */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -163,6 +268,7 @@ class HealthPage extends XotBasePage
         return [
             Action::make('refresh')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +278,8 @@ class HealthPage extends XotBasePage
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

@@ -19,6 +19,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -32,6 +33,8 @@ declare(strict_types=1);
 use Illuminate\Mail\Mailable;
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
@@ -41,6 +44,7 @@ it('throws if record has no email', function (): void {
     {
         // no email attribute
         public function option(string $key): ?string
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -86,11 +90,17 @@ it('throws if record has no email', function (): void {
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
         {
             return null;
         }
 
+<<<<<<< HEAD
         public function myLogs(): object
+=======
+        public function myLogs()
+>>>>>>> 53d6a6ba (.)
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +122,7 @@ it('throws if record has no email', function (): void {
         }
     };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,5 +242,8 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 53d6a6ba (.)
         ->toThrow(InvalidArgumentException::class);
 });

@@ -40,14 +40,23 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
                 continue;
             }
 
+<<<<<<< HEAD
             $providers = collect(scandir($providersPath))
                 ->filter(function ($file): bool {
                     return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
@@ -71,6 +80,7 @@ class ListFilamentPanels extends Command
                 continue;
             }
 
+<<<<<<< HEAD
             $providers = collect(scandir($providersPath))
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,23 +93,33 @@ class ListFilamentPanels extends Command
                 if (!class_exists($providerClass)) {
 <<<<<<< HEAD
 =======
+>>>>>>> 285375c74 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+            $providers = collect(scandir($providersPath))
                 ->filter(fn (string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
 
             foreach ($providers as $provider) {
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                     continue;
                 }
 
+<<<<<<< HEAD
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
                     continue;
                 }
 
+=======
+>>>>>>> 53d6a6ba (.)
                 $this->info("Found panel in {$moduleName}: {$provider}");
             }
         }

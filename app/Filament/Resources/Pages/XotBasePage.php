@@ -11,6 +11,19 @@ use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+=======
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Pages\Concerns\InteractsWithFormActions;
+use Filament\Resources\Pages\Page as FilamentPage;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+<<<<<<< HEAD
+=======
+use Illuminate\Contracts\View\View;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use LogicException;
@@ -144,6 +157,53 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return [];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /**
+     * Get the associated model class for this page.
+     * 
+     * This method must be non-static to properly override the parent method.
+     * Returns the model class string or throws an exception if not set.
+     */
+    public function getModel(): string
+    {
+        if (static::$model === null) {
+            throw new \LogicException('Model class not set for page: ' . static::class);
+        }
+<<<<<<< HEAD
+        
+=======
+    /**
+     * Get the associated model class for this page.
+     */
+    public static function getModel(): null|string
+    {
+        /** @phpstan-ignore property.staticAccess */
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 53d6a6ba (.)
+        return static::$model;
+    }
+
+    /**
+     * Get the resources associated with this page.
+     *
+     * @return Collection<string>
+     */
+    public static function getResources(): Collection
+    {
+        return collect();
+    }
+
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 285375c74 (.)
     /*
      * Hook chiamato all'inizializzazione del componente.
      *

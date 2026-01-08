@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Panel Provider in Modulo Xot
 
 ## XotBaseMainPanelProvider
@@ -111,3 +112,5 @@ public function panel(Panel $panel): Panel
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

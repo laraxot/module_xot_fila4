@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # XotBasePage - Classe Base per le Pagine Filament
@@ -569,4 +570,11 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_xot_architecture.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

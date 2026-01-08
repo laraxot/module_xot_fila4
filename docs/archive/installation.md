@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Installazione
 
 ## Requisiti di Sistema
@@ -164,3 +165,5 @@ php artisan serve
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

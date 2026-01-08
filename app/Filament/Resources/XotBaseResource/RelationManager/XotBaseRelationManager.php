@@ -5,6 +5,21 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Support\Components\Component;
+>>>>>>> 285375c74 (.)
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
 =======
@@ -75,6 +90,10 @@ use Override;
 use Exception;
 =======
 >>>>>>> cc7fb225 (.)
+=======
+use Exception;
+use Filament\Forms\Components\Component;
+>>>>>>> 53d6a6ba (.)
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -83,6 +102,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
+use Override;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)

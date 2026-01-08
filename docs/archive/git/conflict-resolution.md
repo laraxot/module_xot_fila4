@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Gestione dei Conflitti Git
 
 ## Principi Fondamentali
@@ -214,3 +215,5 @@ php artisan test --filter=TestClass
 - [CI/CD Pipeline](../../../Xot/project_docs/ci-cd/README.md) 
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

@@ -68,6 +68,30 @@ class MetatagPage extends XotBasePage implements HasForms
                             ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
                             ->reactive(),
                         ColorPicker::make('hex')
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+                            ->label('Chiave')
+                            ->required()
+                            ->options($metatag->getFilamentColors()),
+                        Select::make('color')
+                            ->label('Colore')
+                            ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
+                            ->reactive(),
+                        ColorPicker::make('hex')
+                            ->label('Colore personalizzato')
+<<<<<<< HEAD
+                            ->visible(fn(Get $get) => $get('color') === 'custom')
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+                            ->visible(fn ($get) => $get('color') === 'custom')
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                             ->required(),
                     ])
                     ->columns(3),

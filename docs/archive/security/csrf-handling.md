@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # CSRF Token Handling in Xot
 
 ## Table of Contents
@@ -114,3 +115,5 @@ public function mount(): void
 - [Xot Widget Development](xot-widgets.md)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

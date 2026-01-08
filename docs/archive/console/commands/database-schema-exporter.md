@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # DatabaseSchemaExporter Command Documentation
 
 ## Overview
@@ -72,3 +73,5 @@ Tabelle trovate: users, migrations, password_resets
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

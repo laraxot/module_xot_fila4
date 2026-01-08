@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura delle Configurazioni
 
 Questo documento definisce la struttura standard delle configurazioni per tutti i moduli.
@@ -212,3 +213,5 @@ return array_merge(require __DIR__.'/../vendor/module/config/module.php', [
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

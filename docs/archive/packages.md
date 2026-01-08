@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pacchetti del Modulo Xot
 
 ## Pacchetti Utilizzati
@@ -111,3 +112,5 @@
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

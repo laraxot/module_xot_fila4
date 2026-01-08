@@ -793,12 +793,132 @@ if (! function_exists('removeQueryParams')) {
         $query = request()->query(); // get the query parameters (what follows the "?")
         Assert::isArray($query);
         foreach ($params as $param) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
             $key = is_string($param) ? $param : (string) $param;
             unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+=======
+            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+>>>>>>> 53d6a6ba (.)
         }
 
         // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
         return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+        }
+
+        // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> ca9324a4 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 0e51323 (.)
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 43d67f21 (.)
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+=======
+        return $query ? $url.'?'.http_build_query($query) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 43d67f21 (.)
+=======
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> b7ea1cd1 (.)
+=======
+=======
+        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 }
 
@@ -975,7 +1095,116 @@ if (! function_exists('debugStack')) {
      */
     function debugStack(): void
     {
+<<<<<<< HEAD
         if (! extension_loaded('xdebug')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+        if (! extension_loaded('xdebug')) {
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+        if (!extension_loaded('xdebug')) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 43d67f21 (.)
+=======
+        if (! extension_loaded('xdebug')) {
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 5842a556 (.)
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 5a14301c (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+        if (! extension_loaded('xdebug')) {
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 0e51323 (.)
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 43d67f21 (.)
+=======
+        if (! extension_loaded('xdebug')) {
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> b7ea1cd1 (.)
+=======
+        if (! extension_loaded('xdebug')) {
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 16dc7ab0 (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -984,9 +1213,106 @@ if (! function_exists('debugStack')) {
                 defined('XDEBUG_FILTER_TRACING') &&
                 defined('XDEBUG_PATH_EXCLUDE')
         ) {
+<<<<<<< HEAD
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
                 '/../../vendor/',
             ]);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+                '/../../vendor/',
+            ]);
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
+<<<<<<< HEAD
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> 43d67f21 (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
+>>>>>>> 0e51323 (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> b7ea1cd1 (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> 16dc7ab0 (.)
+                '/../../vendor/']);
+>>>>>>> 5a14301c (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> ca9324a4 (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+>>>>>>> 43d67f21 (.)
+                '/../../vendor/']);
+>>>>>>> 5a14301c (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+                '/../../vendor/']);
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         }
 
         if (function_exists('xdebug_print_function_stack')) {
@@ -1188,6 +1514,180 @@ function safe_object_call($object, string $method, mixed ...$args): mixed
     }
 
     if (! method_exists($object, $method)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @param T|null $object L'oggetto da controllare
+ * @param string $method Il nome del metodo da chiamare
+ * @param mixed ...$args Gli argomenti da passare al metodo
+=======
+>>>>>>> ca9324a4 (.)
+ * @return mixed|null
+ */
+function safe_object_call($object, string $method, ...$args)
+{
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+function safe_object_call($object, string $method, ...$args) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+function safe_object_call($object, string $method, ...$args)
+{
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+    if (!is_object($object)) {
+        return null;
+    }
+
+    if (!method_exists($object, $method)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+if (! function_exists('profile')) {
+    function profile(): ?ProfileContract
+    {
+        return app(ProfileContract::class);
+    }
+}
+
+if (! function_exists('cssInLine')) {
+    function cssInLine(string $css): string
+    {
+        return preg_replace('/\s+/', ' ', $css);
+    }
+}
+
+if (! function_exists('authId')) {
+    function authId(): mixed
+    {
+        return auth()->id();
+    }
+}
+
+/**
+ * Safely call a method on an object if it exists.
+ * Returns null if the object is not an object or if the method doesn't exist.
+ */
+function safe_object_call($object, string $method, ...$args)
+{
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+    if (! is_object($object)) {
+        return null;
+    }
+
+    if (! method_exists($object, $method)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         return null;
     }
 

@@ -45,6 +45,7 @@ class GenerateModelClassCommand extends GeneratorCommand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return realpath(__DIR__.'/../stubs/model.stub');
 =======
         return realpath(__DIR__ . '/../stubs/model.stub');
@@ -141,7 +142,18 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return realpath(__DIR__ . '/../stubs/model.stub');
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return realpath(__DIR__.'/../stubs/model.stub');
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 
     protected function getDefaultNamespace($rootNamespace)
@@ -165,6 +177,7 @@ class GenerateModelClassCommand extends GeneratorCommand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $rootNamespace.'\Models';
 =======
         return $rootNamespace . '\Models';
@@ -261,7 +274,18 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return $rootNamespace . '\Models';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return $rootNamespace.'\Models';
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 
     protected function replaceClass($stub, $name)
@@ -285,6 +309,7 @@ class GenerateModelClassCommand extends GeneratorCommand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
 =======
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
@@ -381,7 +406,18 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        $class = str_replace($this->getNamespace($name) . '\\', '', $name);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $class = str_replace($this->getNamespace($name).'\\', '', $name);
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
         // Do string replacement
         return str_replace('{{service_name}}', $class, $stub);

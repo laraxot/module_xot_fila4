@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Standard di Codice per il progetto
 
@@ -687,3 +688,5 @@ git commit -m "fix: correzione calcolo età paziente"
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

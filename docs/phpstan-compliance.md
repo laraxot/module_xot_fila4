@@ -1,5 +1,6 @@
 # PHPStan Compliance - Xot Module
 
+<<<<<<< HEAD
 ## 📚 Documentazione Correlata
 
 - [Pattern Comuni Progetto](../../../../docs/phpstan/pattern-comuni.md)
@@ -13,6 +14,8 @@
 **Data Inizio:** 10 Ottobre 2025  
 **Target:** PHPStan Level 10 - 0 Errori
 =======
+=======
+>>>>>>> 53d6a6ba (.)
 ## Status: ✅ FULLY COMPLIANT
 
 **Analysis Date:** September 22, 2025
@@ -22,7 +25,15 @@
 
 ## Compliance Summary
 
+<<<<<<< HEAD
 The Xot module is fully compliant with PHPStan level 9 analysis, demonstrating:
+=======
+<<<<<<< HEAD
+The Xot module is fully compliant with PHPStan level 10 analysis, demonstrating:
+=======
+The Xot module is fully compliant with PHPStan level 9 analysis, demonstrating:
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling
@@ -78,4 +89,8 @@ The module adheres to:
 - Comprehensive type hints
 - Core framework best practices
 - Modern PHP 8.2+ feature usage
+<<<<<<< HEAD
 - Extensive utility function coverage
+=======
+- Extensive utility function coverage
+>>>>>>> 53d6a6ba (.)

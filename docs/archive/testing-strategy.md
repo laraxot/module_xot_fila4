@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Testing Strategy: MySQL-Based Testing Without RefreshDatabase
 
 ## Overview
@@ -174,3 +175,5 @@ Our current MySQL-based testing approach without `RefreshDatabase` provides the 
 - [Testing Strategies for Laravel Applications](https://tighten.co/blog/5-questions-every-laravel-test-answers)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

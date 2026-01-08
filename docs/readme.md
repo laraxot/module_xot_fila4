@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏗️ **Xot Module** - Il Cuore del Framework Laraxot
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
@@ -55,15 +56,25 @@ I Service Provider di ogni modulo estendono `XotBaseServiceProvider`, che automa
 =======
 # Xot Module - Framework Base Laraxot
 # Laraxot PTVX - Documentazione Consolidata
+=======
+# Modulo Xot - Documentazione
+>>>>>>> 285375c74 (.)
 
 ## Panoramica
+Il modulo Xot fornisce le classi base e i componenti fondamentali per l'architettura Laraxot, seguendo il principio di **mai estendere classi Filament direttamente**.
 
-Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+## Componenti Principali
 
-## Architettura Modulare
+### XotBasePage
+Classe base per tutte le pagine personalizzate dell'applicazione.
 
-### Principi Fondamentali
+**Caratteristiche:**
+- Estende `Filament\Resources\Pages\Page` invece di classi Filament direttamente
+- Fornisce funzionalità comuni per pagine personalizzate
+- Gestione automatica delle traduzioni
+- Schema form configurabile
 
+<<<<<<< HEAD
 - **Modularità**: Ogni funzionalità è organizzata in moduli indipendenti
 - **Coerenza**: Struttura uniforme e convenzioni standardizzate
 - **Estensibilità**: Facile aggiunta di nuovi moduli e funzionalità
@@ -150,86 +161,119 @@ Il modulo **Xot** è il **framework base** di Laraxot, fornendo:
 ## ⚡ **Architettura Core**
 
 ### 🏗️ **Base Classes Pattern**
+=======
+**Utilizzo:**
+>>>>>>> 285375c74 (.)
 ```php
-// Tutte le Resource Filament estendono XotBaseResource
-use Modules\Xot\Filament\Resources\XotBaseResource;
-
-class UserResource extends XotBaseResource
+class MiaPagina extends XotBasePage
 {
-    protected static ?string $model = User::class;
+    protected static ?string $model = MiaModel::class;
     
-    // Il metodo table() NON deve mai essere sovrascritto
-    // XotBaseResource fornisce già configurazione ottimizzata
-}
-
-// Tutti i Widget estendono XotBaseWidget
-use Modules\Xot\Filament\Widgets\XotBaseWidget;
-
-class StatsWidget extends XotBaseWidget
-{
-    protected static string $view = 'user::filament.widgets.stats';
-}
-```
-
-### 🔧 **Traits Ecosystem**
-```php
-// Trait per tabelle con convenzioni standard
-use Modules\Xot\Traits\HasXotTable;
-
-class User extends Model
-{
-    use HasXotTable;
-    
-    // Automaticamente ottiene: UUID primary keys, timestamps, soft deletes
-    // Convenzioni naming tabelle, fillable guards, type safety
-}
-
-// Trait per gestione media
-use Modules\Xot\Traits\HasMedia;
-
-class Patient extends Model
-{
-    use HasMedia;
-    
-    public function registerMediaCollections(): void
+    protected function getFormSchema(): array
     {
-        $this->addMediaCollection('profile_photos')
-            ->singleFile()
-            ->acceptsMimeTypes(['image/jpeg', 'image/png']);
+        return [
+            // Componenti del form
+        ];
     }
 }
 ```
 
-### 📦 **Service Provider Pattern**
-```php
-// Tutti i Service Provider estendono XotBaseServiceProvider
-use Modules\Xot\Providers\XotBaseServiceProvider;
+## Fix e Correzioni
 
-class UserServiceProvider extends XotBaseServiceProvider
-{
-    protected string $module_name = 'User';
-    protected string $module_dir = __DIR__;
-    
-    // Auto-registrazione di:
-    // - Migrations, Views, Translations, Config
-    // - Routes (web.php, api.php)
-    // - Filament Resources e Widgets
-    // - Commands e Policies
-}
+### getModel() Method Fix
+- **Problema**: Errore di sovrascrittura static/non-static
+- **Soluzione**: Correzione della dichiarazione del metodo per compatibilità con Filament
+- **Documentazione**: [xotbasepage-getmodel-fix.md](./xotbasepage-getmodel-fix.md)
+
+### Filament Resource Creation Fix
+- **Problema**: Errori di compatibilità con comandi `make:filament-resource` e `filament:generate-resources`
+- **Soluzione**: Corretti errori di compatibilità, registrato comando personalizzato, rimossi file di test problematici
+- **Documentazione**: [filament-resource-creation-fix.md](./filament-resource-creation-fix.md)
+
+## Principi Architetturali
+
+### Regola Fondamentale
+> **MAI estendere classi Filament direttamente - sempre estendere classi XotBase**
+
+### Regole Critiche Laraxot - DA SEGUIRE SEMPRE
+
+#### 🚫 **Estensioni Classi Filament Vietate**
+**MAI estendere direttamente:**
+- ❌ `Filament\Resources\Pages\CreateRecord`
+- ❌ `Filament\Resources\Pages\EditRecord`
+- ❌ `Filament\Resources\Pages\ListRecords`
+- ❌ `Filament\Resources\Pages\Page`
+- ❌ `Filament\Actions\Action`
+- ❌ `Filament\Forms\Components\*`
+- ❌ `Filament\Tables\Columns\*`
+
+**✅ SEMPRE estendere le classi XotBase:**
+- ✅ `Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord`
+- ✅ `Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord`
+- ✅ `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`
+- ✅ `Modules\Xot\Filament\Pages\XotBasePage`
+- ✅ `Modules\Xot\Filament\Actions\XotBaseAction`
+- ✅ `Modules\Xot\Filament\Components\XotBaseComponent`
+
+#### 🚫 **Proprietà Vietate in XotBasePage**
+**Chi estende `XotBasePage` NON DEVE avere:**
+```php
+// ❌ VIETATO
+protected static ?string $navigationIcon = 'heroicon-o-home';
+protected static ?string $title = 'Titolo';
+protected static ?string $navigationLabel = 'Etichetta';
 ```
 
-## 🎯 **Funzionalità Core**
-
-### ⚡ **Actions Framework**
+#### 🚫 **Label e Traduzioni Hardcoded**
+**MAI usare metodi hardcoded:**
 ```php
+<<<<<<< HEAD
 // Pattern standardizzato per business logic
 >>>>>>> dc2130a7c (.)
 use Modules\Xot\Actions\XotBaseAction;
+=======
+// ❌ VIETATO
+TextInput::make('name')->label('Nome')
+TextColumn::make('status')->placeholder('Stato')
+Action::make('edit')->tooltip('Modifica')
+```
+>>>>>>> 285375c74 (.)
 
-class CreateUserAction extends XotBaseAction
+**✅ Traduzioni gestite automaticamente via LangServiceProvider:**
+```php
+// ✅ CORRETTO
+TextInput::make('name')
+TextColumn::make('status')
+Action::make('edit')
+```
+
+#### 🚫 **BadgeColumn Deprecato**
+**NON usare più BadgeColumn:**
+```php
+// ❌ DEPRECATO
+BadgeColumn::make('status')
+
+// ✅ CORRETTO
+TextColumn::make('status')->badge()
+```
+
+#### 🚫 **Servizi Tradizionali**
+**NON usare Services, ma Spatie QueueableAction:**
+```php
+// ❌ VIETATO
+class UserService
 {
-    public function execute(array $data): User
+    public function process(array $data) { /* ... */ }
+}
+
+// ✅ CORRETTO
+class ProcessUserAction
+{
+    use QueueableAction;
+
+    public function execute(UserData $data): UserData
     {
+<<<<<<< HEAD
         $user = User::create($data);
 <<<<<<< HEAD
         $this->logActivity('user.created', $user); // Logging automatico
@@ -244,10 +288,14 @@ class CreateUserAction extends XotBaseAction
         
 >>>>>>> dc2130a7c (.)
         return $user;
+=======
+        // Logica business
+>>>>>>> 285375c74 (.)
     }
 }
 ```
 
+<<<<<<< HEAD
 ### 🏷️ **Enums System**
 <<<<<<< HEAD
 Le Enum di Xot implementano `XotBaseEnum`, che fornisce traduzioni automatiche e altri helper.
@@ -335,87 +383,63 @@ Il modulo Xot ha raggiunto la piena conformità PHPStan Level 10 senza compromes
 ```php
 // Sistema filtri per API e ricerche
 use Modules\Xot\QueryFilters\XotBaseFilter;
+=======
+#### 🚫 **getTableColumns() in XotBaseResource**
+**Chi estende `XotBaseResource` NON DEVE implementare `getTableColumns()`:**
+- ❌ `getTableColumns()` → VIETATO
+- ✅ Usa `getTableColumns()` se necessario (ereditato da base)
 
-class UserFilter extends XotBaseFilter
-{
-    public function status(string $status): Builder
-    {
-        return $this->builder->where('status', $status);
-    }
-    
-    public function search(string $term): Builder
-    {
-        return $this->builder->where(function ($query) use ($term) {
-            $query->where('name', 'like', "%{$term}%")
-                  ->orWhere('email', 'like', "%{$term}%");
-        });
-    }
-}
-```
+### Vantaggi
+1. **Controllo**: Override locale delle funzionalità
+2. **Coerenza**: Comportamento uniforme tra moduli
+3. **Manutenibilità**: Modifiche centralizzate
+4. **Compatibilità**: Rispetto delle convenzioni PHP
+5. **Traduzioni Automatiche**: Gestione centralizzata via LangServiceProvider
+6. **Type Safety**: PHPDoc e tipizzazione rigorosa
 
-## 🎯 **Stato Qualità - Gennaio 2025**
+## Sistema Service Provider
+>>>>>>> 285375c74 (.)
 
-### ✅ **PHPStan Level 9 Compliance**
-- **File Core Certificati**: 15/15 classi base raggiungono Level 9
-- **Type Safety**: 100% su traits e helpers fondamentali  
-- **Runtime Safety**: 100% con error handling robusto su base classes
-- **Template Types**: Risolti tutti i problemi Collection generics
+Il modulo Xot fornisce `XotBaseServiceProvider`, la classe base per tutti i ServiceProvider modulari.
 
-### ✅ **Translation Standards Compliance**
-- **Helper Text**: 100% corretti per tutti i componenti base
-- **Localizzazione**: 100% template traduzioni per IT/EN/DE
-- **Sintassi**: 100% sintassi moderna nei file base
-- **Struttura**: 100% struttura espansa per convenzioni
+**Caratteristiche**:
+- Registrazione automatica di view, traduzioni, config, componenti
+- Approccio DRY: configurazione minimale richiesta
+- Sistema di view namespace resolution integrato
+- Discovery automatico moduli
 
-### 📊 **Metriche Performance**
-- **Base Class Loading**: < 10ms per caricamento classi base
-- **Trait Resolution**: < 5ms per risoluzione traits
-- **Service Provider Boot**: < 50ms per boot completo modulo
-- **Memory Footprint**: < 20MB per infrastruttura core
+**Documentazione completa**: [Service Provider Architecture](./service-provider-architecture.md)
 
-## 🚀 **Installation & Setup**
+### Errori Comuni
 
-### 📦 **Installazione**
-```bash
-# Il modulo Xot è automaticamente incluso come dipendenza core
-# Non richiede installazione separata
+**"No hint path defined for [namespace]"**  
+Quando un view namespace non è registrato correttamente. Vedere:
+- [Activity Module - Errore No Hint Path](../activity/docs/errori/no-hint-path-defined.md)
 
-# Verifica installazione
-php artisan module:list | grep Xot
+## Collegamenti Interni
 
-# Pubblicazione asset (se necessario)
-php artisan vendor:publish --tag=xot-config
-php artisan vendor:publish --tag=xot-views
-```
+### Architettura Fondamentale
+- [XotBase Architecture Complete](./xotbase-architecture-complete.md) ⭐ **MASTER DOC**
+- [Service Provider Architecture](./service-provider-architecture.md)
+- [Standalone vs Resource Pages](./filament/standalone-vs-resource-pages.md) ⚠️ **IMPORTANTE**
 
-### ⚙️ **Configurazione**
-```php
-// config/xot.php (auto-pubblicato)
-return [
-    'base_classes' => [
-        'resource' => \Modules\Xot\Filament\Resources\XotBaseResource::class,
-        'widget' => \Modules\Xot\Filament\Widgets\XotBaseWidget::class,
-        'migration' => \Modules\Xot\Database\Migrations\XotBaseMigration::class,
-    ],
-    
-    'conventions' => [
-        'uuid_primary' => true,
-        'soft_deletes' => true,
-        'timestamps' => true,
-        'fillable_guarding' => true,
-    ],
-    
-    'features' => [
-        'activity_logging' => true,
-        'media_management' => true,
-        'state_transitions' => true,
-        'tenant_awareness' => true,
-    ],
-];
-```
+### Errori Critici
+- [Mai Estendere Filament Direttamente](./errori-critici/mai-estendere-filament-direttamente.md) ⚠️ **CRITICO**
+- [Differenza Due XotBasePage](./filament/standalone-vs-resource-pages.md) ⚠️ **CRITICO**
 
-## 📚 **Documentazione Dettagliata**
+### Fix Specifici
+- [XotBasePage getModel() Fix](./xotbasepage-getmodel-fix.md)
+- [Filament Resource Creation Fix](./filament-resource-creation-fix.md)
 
+## Collegamenti Moduli
+- [Activity Module](../activity/docs/README.md)
+- [IndennitaResponsabilita Module](../indennitaresponsabilita/docs/README.md)
+- [UI Module](../ui/docs/README.md)
+
+## Collegamenti Root
+- [Laraxot Conventions](../../../README.md)
+
+<<<<<<< HEAD
 ### 🏗️ **Architettura**
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
@@ -606,3 +630,6 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 >>>>>>> dc2130a7c (.)
+=======
+*Ultimo aggiornamento: Sistema di documentazione automatica*
+>>>>>>> 285375c74 (.)

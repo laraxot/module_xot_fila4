@@ -4,12 +4,30 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+use SplFileInfo;
+use Exception;
+=======
+use Exception;
+use SplFileInfo;
+>>>>>>> ed734516 (.)
+=======
+use Exception;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
 use SplFileInfo;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 285375c74 (.)
 
 class AddStrictTypesDeclarationCommand extends Command
 {
@@ -19,9 +37,21 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
+<<<<<<< HEAD
     /**
      * @var array<string>
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /**
+     * @var array<string>
+     */
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     private array $excludedPaths = [
         'views',
         'config',
@@ -53,11 +83,15 @@ class AddStrictTypesDeclarationCommand extends Command
             Assert::isInstanceOf($file, SplFileInfo::class);
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
+<<<<<<< HEAD
                     $fileName = $file->getRealPath();
                     if ($fileName === false) {
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+=======
+                    $this->info("Verrebbe processato: {$file}");
+>>>>>>> 53d6a6ba (.)
                     $count++;
 
                     continue;
@@ -76,6 +110,13 @@ class AddStrictTypesDeclarationCommand extends Command
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
                 } catch (Exception $e) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
                 }
             }
@@ -87,9 +128,21 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
+<<<<<<< HEAD
     /**
      * @return array<SplFileInfo>
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /**
+     * @return array<SplFileInfo>
+     */
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     private function findPhpFiles(string $path): array
     {
         return File::allFiles($path);

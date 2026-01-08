@@ -22,6 +22,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -37,7 +38,17 @@ use Override;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+use Override;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Cache;
 use Override;
@@ -47,6 +58,7 @@ class CachePolicy extends XotBasePolicy
     /**
      * Determine whether the user can view any models.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 =======
@@ -59,6 +71,9 @@ class CachePolicy extends XotBasePolicy
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    #[Override]
+>>>>>>> 285375c74 (.)
     public function viewAny(UserContract $user): bool
     {
         return $user->hasPermissionTo('cache.viewAny');
@@ -67,6 +82,7 @@ class CachePolicy extends XotBasePolicy
     /**
      * Determine whether the user can view the model.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function view(UserContract $user, Cache $_cache): bool
 =======
@@ -80,6 +96,9 @@ class CachePolicy extends XotBasePolicy
     public function view(UserContract $user, Cache $_cache): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function view(UserContract $user, Cache $_cache): bool
+>>>>>>> 285375c74 (.)
     {
         return $user->hasPermissionTo('cache.view');
     }
@@ -96,6 +115,7 @@ class CachePolicy extends XotBasePolicy
      * Determine whether the user can update the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, Cache $_cache): bool
 =======
 <<<<<<< HEAD
@@ -108,6 +128,9 @@ class CachePolicy extends XotBasePolicy
     public function update(UserContract $user, Cache $_cache): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function update(UserContract $user, Cache $_cache): bool
+>>>>>>> 285375c74 (.)
     {
         return $user->hasPermissionTo('cache.update');
     }
@@ -115,6 +138,7 @@ class CachePolicy extends XotBasePolicy
     /**
      * Determine whether the user can delete the model.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function delete(UserContract $user, Cache $_cache): bool
 =======
@@ -128,6 +152,9 @@ class CachePolicy extends XotBasePolicy
     public function delete(UserContract $user, Cache $_cache): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function delete(UserContract $user, Cache $_cache): bool
+>>>>>>> 285375c74 (.)
     {
         return $user->hasPermissionTo('cache.delete');
     }
@@ -135,6 +162,7 @@ class CachePolicy extends XotBasePolicy
     /**
      * Determine whether the user can restore the model.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function restore(UserContract $user, Cache $_cache): bool
 =======
@@ -148,6 +176,9 @@ class CachePolicy extends XotBasePolicy
     public function restore(UserContract $user, Cache $_cache): bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function restore(UserContract $user, Cache $_cache): bool
+>>>>>>> 285375c74 (.)
     {
         return $user->hasPermissionTo('cache.restore');
     }
@@ -161,6 +192,7 @@ class CachePolicy extends XotBasePolicy
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,3 +202,5 @@ class CachePolicy extends XotBasePolicy
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)

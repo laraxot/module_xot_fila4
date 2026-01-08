@@ -53,11 +53,15 @@ class AssetAction
         $ns_after0 = Str::before($ns_after, '/');
         $ns_after1 = Str::after($ns_after, '/');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
         $ns_after =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)).'/'.$ns_after1;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
@@ -158,6 +162,17 @@ class AssetAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+        $ns_after =
+            str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
         if (Str::startsWith($ns_after, '/')) {
             $ns_after = Str::after($ns_after, '/');
@@ -168,8 +183,12 @@ class AssetAction
             $theme = $xot->{$ns};
             Assert::string($theme, 'Il tema deve essere una stringa');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
 
             // Costruiamo i percorsi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,10 +210,13 @@ class AssetAction
             // Costruiamo i percorsi
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
             $themeResourcePath = 'Themes/'.$theme.'/resources/'.$ns_after;
             $filename_from = app(FixPathAction::class)->execute(base_path($themeResourcePath));
 
             $themeAssetPath = 'themes/'.$theme.'/'.$ns_after;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -315,6 +337,15 @@ class AssetAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             $asset = $themeAssetPath;
             $filename_to = app(FixPathAction::class)->execute(public_path($asset));
             $asset = Str::replace(url(''), '', asset($asset));
@@ -335,8 +366,19 @@ class AssetAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             if (! File::exists($filename_to)) {
                 if (! File::exists(\dirname($filename_to))) {
 =======
@@ -376,6 +418,7 @@ class AssetAction
                 if (!File::exists(\dirname($filename_to))) {
 >>>>>>> 5a14301c (.)
                     File::makeDirectory(\dirname($filename_to), 0o755, true, true);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,11 +436,14 @@ class AssetAction
                     File::makeDirectory(\dirname($filename_to), 0o755, true, true);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 }
 
                 try {
                     File::copy($filename_from, $filename_to);
                 } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -405,6 +451,8 @@ class AssetAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                     throw new Exception(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,6 +498,7 @@ class AssetAction
                 }
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +634,16 @@ class AssetAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            Assert::string($asset, '['.__LINE__.']['.class_basename(static::class).']');
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
             return $asset;
 >>>>>>> 48515e368 (.)
@@ -660,6 +719,7 @@ class AssetAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -685,7 +745,12 @@ class AssetAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         $filename_from = app(FixPathAction::class)->execute($module_path.'/resources/'.$ns_after);
 
         if (! File::exists($filename_from)) {
@@ -708,6 +773,7 @@ class AssetAction
         // dddx(app()->environment());// local
         if (! File::exists($filename_to) || app()->environment() !== 'production') {
             if (! File::exists(\dirname($filename_to))) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -774,17 +840,23 @@ class AssetAction
 =======
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 File::makeDirectory(\dirname($filename_to), 0o755, true, true);
+<<<<<<< HEAD
 =======
                 File::makeDirectory(\dirname($filename_to), 0755, true, true);
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
             }
             try {
                 File::copy($filename_from, $filename_to);
             } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -792,6 +864,8 @@ class AssetAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 throw new Exception(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -837,6 +911,7 @@ class AssetAction
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -990,7 +1065,17 @@ class AssetAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        Assert::string($asset, '['.__LINE__.']['.class_basename(static::class).']');
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
         return $asset;
     }

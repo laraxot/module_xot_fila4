@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # ModelWithStatusContract
@@ -126,4 +127,9 @@ $latestStatus = $order->latestStatus();
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD:docs/contracts/model-with-status-contract.md
 >>>>>>>> 6342a02fe (.):docs/archive/contracts/model-with-status-contract.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/contracts/model-with-status-contract.md

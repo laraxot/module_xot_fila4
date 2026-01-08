@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\RawJs;
 =======
 <<<<<<< HEAD
@@ -12,9 +13,12 @@ use Filament\Support\RawJs;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 use Filament\Widgets\ChartWidget as FilamentChartWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -29,6 +33,8 @@ use Filament\Widgets\ChartWidget as FilamentChartWidget;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 
 /**
  * Widget per visualizzare il trend delle registrazioni pazienti.
@@ -40,17 +46,23 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 {
     use InteractsWithPageFilters;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
     use TransTrait;
 
     protected ?string $heading = null;
 
     protected static ?int $sort = 1;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 
     protected static bool $isLazy = true;
 
@@ -67,12 +79,19 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     public function getHeading(): ?string
     {
         return static::trans('navigation.heading');
+<<<<<<< HEAD
 =======
     public function getHeading(): null|string
     {
@@ -97,6 +116,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
     }
 
     /**
@@ -120,9 +141,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     /**
      * Restituisce le opzioni del grafico.
      *
-     * @return array<string, mixed>|RawJs|null
+     * @return array<string, mixed>
      */
-    protected function getOptions(): array|RawJs|null
+    protected function getOptions(): array
     {
         return [
             'responsive' => true,
@@ -137,6 +158,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'callbacks' => [
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,12 +193,18 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                         'label' => 'function(context) {
                             return "'.
                                 __('<nome modulo>::widgets.patient_registration_trend.total_registrations').
                                 '".replace(":count", context.parsed.y);
                         }',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -334,7 +362,16 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                     ],
                 ],
             ],
@@ -375,6 +412,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 <<<<<<< HEAD
     protected function getHeight(): ?string
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,12 +493,14 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 53d6a6ba (.)
     protected function getHeight(): ?string
     {
         return '300px';
     }
-<<<<<<< HEAD
 }
+<<<<<<< HEAD
 =======
 
 
@@ -469,3 +509,5 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)

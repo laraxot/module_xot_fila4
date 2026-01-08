@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura dei Moduli in il progetto
 
 ## Panoramica
@@ -580,3 +581,5 @@ Se trovi una directory con case errato:
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

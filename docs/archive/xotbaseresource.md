@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # XotBaseResource
 
 ## Panoramica
@@ -123,3 +124,5 @@ class NotificationResource extends XotBaseResource
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

@@ -1,4 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> 285375c74 (.)
 # Regole di Documentazione
 
 ## Panoramica
@@ -767,3 +777,12 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - I collegamenti bidirezionali sono essenziali per la navigabilità
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

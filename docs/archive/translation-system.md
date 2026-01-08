@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sistema Traduzioni - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTE le regole di traduzione del progetto
@@ -475,3 +476,5 @@ Eseguire regolarmente questi controlli:
 *Categoria: Traduzioni*
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

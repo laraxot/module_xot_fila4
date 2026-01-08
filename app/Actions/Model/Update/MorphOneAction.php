@@ -76,6 +76,7 @@ final class MorphOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -172,7 +173,18 @@ final class MorphOneAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             $data['lang'] = App::getLocale();
         }
 
@@ -196,6 +208,7 @@ final class MorphOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return array_filter($data, static fn ($value): bool => $value !== null);
 =======
 =======
@@ -312,6 +325,17 @@ final class MorphOneAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return array_filter($data, static fn($value): bool => null !== $value);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return array_filter($data, static fn ($value): bool => $value !== null);
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 }

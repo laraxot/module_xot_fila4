@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # ModelWithAuthorContract
@@ -120,3 +121,5 @@ class Article extends Model implements ModelWithAuthorContract
 =======
 - Documentare eventuali personalizzazioni 
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

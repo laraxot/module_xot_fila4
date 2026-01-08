@@ -10,6 +10,7 @@ use Modules\Xot\Models\Module;
 /**
  * Module Factory
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -22,6 +23,9 @@ use Modules\Xot\Models\Module;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+ *
+>>>>>>> 285375c74 (.)
  * @extends Factory<Module>
  */
 class ModuleFactory extends Factory
@@ -43,7 +47,27 @@ class ModuleFactory extends Factory
     public function active(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,7 +181,18 @@ class ModuleFactory extends Factory
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             'is_active' => true,
         ]);
     }
@@ -165,7 +200,27 @@ class ModuleFactory extends Factory
     public function inactive(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,7 +334,18 @@ class ModuleFactory extends Factory
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             'is_active' => false,
         ]);
     }
@@ -287,7 +353,27 @@ class ModuleFactory extends Factory
     public function highPriority(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,7 +487,18 @@ class ModuleFactory extends Factory
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             'priority' => $this->faker->numberBetween(80, 100),
         ]);
     }

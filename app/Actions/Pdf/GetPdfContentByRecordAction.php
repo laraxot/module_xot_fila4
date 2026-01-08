@@ -38,9 +38,14 @@ class GetPdfContentByRecordAction
      * @throws Exception Se la vista non esiste o si verificano errori di generazione
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $record, ?string $filename = null): string
 <<<<<<< HEAD
 =======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -135,7 +140,17 @@ class GetPdfContentByRecordAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     {
         // Generate view name following Laraxot conventions
         $viewName = $this->generateViewName($record);
@@ -148,6 +163,7 @@ class GetPdfContentByRecordAction
         if (! view()->exists($viewName)) {
             throw new Exception("View '{$viewName}' not found for model ".$record::class);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,7 +297,20 @@ class GetPdfContentByRecordAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         }
 
         // Render view to HTML
@@ -328,9 +357,14 @@ class GetPdfContentByRecordAction
         $module = Str::between($modelClass, 'Modules\\', '\\Models');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
 <<<<<<< HEAD
 =======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -422,7 +456,17 @@ class GetPdfContentByRecordAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 
     /**
@@ -460,6 +504,7 @@ class GetPdfContentByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
 =======
 =======
@@ -517,7 +562,13 @@ class GetPdfContentByRecordAction
             'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         ];
 
         // Add specific relationship data if available
@@ -529,6 +580,7 @@ class GetPdfContentByRecordAction
             $valutatore = $record->valutatore;
             if (is_object($valutatore) && isset($valutatore->nome_diri)) {
                 $params['firma'] = $valutatore->nome_diri;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -545,6 +597,8 @@ class GetPdfContentByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
             }
         }
 
@@ -569,12 +623,15 @@ class GetPdfContentByRecordAction
 >>>>>>> 3fbbf1f5 (.)
         $modelName = class_basename(get_class($record));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
 >>>>>>> 5a14301c (.)
@@ -586,13 +643,29 @@ class GetPdfContentByRecordAction
             $cognome = is_string($record->cognome) ? $record->cognome : 'unknown';
             $nome = is_string($record->nome) ? $record->nome : 'unknown';
 
+<<<<<<< HEAD
             return 'scheda_'.(string) ($recordKey ?? 'unknown').'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return 'scheda_'.(string) ($recordKey ?? 'unknown').'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+=======
+            return (
+                'scheda_' . ((string) ($recordKey ?? 'unknown')) . '_' . $matr . '_' . $cognome . '_' . $nome . '.pdf'
+            );
+>>>>>>> 5a14301c (.)
+=======
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         }
 
         // Enhanced filename for records with name field
         if (isset($record->name) && is_string($record->name)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -617,12 +690,18 @@ class GetPdfContentByRecordAction
         if (isset($record->name)) {
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             return $baseFilename.'_'.Str::slug($record->name).'.pdf';
         }
 
         // Default filename pattern
         return $baseFilename.'.pdf';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -788,7 +867,16 @@ class GetPdfContentByRecordAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 
     /**
@@ -806,18 +894,22 @@ class GetPdfContentByRecordAction
             // Create Html2Pdf instance with standard configuration
             $html2pdf = new Html2Pdf(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 orientation: 'P', // Portrait
                 format: 'A4', // A4 format
                 lang: 'it', // Italian language
                 unicode: true, // Unicode support
                 encoding: 'UTF-8', // UTF-8 encoding
                 margins: [10, 10, 10, 10], // 10mm margins on all sides
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -832,6 +924,8 @@ class GetPdfContentByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
             );
 
             // Configure additional settings
@@ -846,6 +940,7 @@ class GetPdfContentByRecordAction
             Log::error('PDF generation failed in GetPdfContentByRecordAction', [
                 'filename' => $filename,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -856,12 +951,34 @@ class GetPdfContentByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 'error' => $e->getMessage(),
                 'trace' => $e->getTraceAsString(),
             ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,7 +1087,18 @@ class GetPdfContentByRecordAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         }
     }
 }

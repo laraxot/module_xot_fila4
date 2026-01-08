@@ -24,10 +24,14 @@ class GetViewByClassAction
      * @param  string|null  $viewName  Nome personalizzato della vista
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
     public function execute(string $class, array $params = [], ?string $viewName = null): View
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +51,8 @@ class GetViewByClassAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
     }
@@ -161,7 +167,11 @@ class GetViewByClassAction
 
         // Costruisci il percorso della view
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
         return $module_low.'::pages.'.$class_name;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +222,16 @@ class GetViewByClassAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 }

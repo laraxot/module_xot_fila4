@@ -65,6 +65,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function applyMemoryOptimizations(): void
     {
         // Ottimizza le query di default
+<<<<<<< HEAD
         DB::listen(function (QueryExecuted $query): void {
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
@@ -72,14 +73,51 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             /** @var int|float $threshold */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        DB::listen(function ($query): void {
+            // PHPStan: $query è \Illuminate\Database\Events\QueryExecuted
+            if (! is_object($query) || ! isset($query->time)) {
+                return;
+            }
+
+=======
+        DB::listen(function ($query) {
+>>>>>>> 53d6a6ba (.)
+            // Log query che superano la soglia di tempo
+            $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
+
+            if ($query->time > $threshold) {
+                Log::warning('Slow query detected', [
+<<<<<<< HEAD
+                    'sql' => $query->sql ?? '',
+                    'bindings' => $query->bindings ?? [],
+                    'time' => $query->time,
+                    'connection' => $query->connectionName ?? '',
+>>>>>>> 285375c74 (.)
+=======
             
 >>>>>>> 8ab8fd81a (.)
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
+=======
+>>>>>>> 53d6a6ba (.)
                     'sql' => $query->sql,
                     'bindings' => $query->bindings,
                     'time' => $query->time,
+<<<<<<< HEAD
                     'connection' => $query->connection->getName(),
+=======
+                    'connection' => $query->connectionName,
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                 ]);
             }
         });
@@ -101,7 +139,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 
             // Log delle query alla fine della richiesta
+<<<<<<< HEAD
             app()->terminating(function (): void {
+=======
+            app()->terminating(function () {
+                $queries = DB::getQueryLog();
+                $totalQueries = count($queries);
+                $totalTime = array_sum(array_column($queries, 'time'));
+
+>>>>>>> 285375c74 (.)
 =======
             
             // Log delle query alla fine della richiesta
@@ -237,7 +283,16 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 
                 foreach ($modules as $module) {
+<<<<<<< HEAD
                     Assert::isInstanceOf($module, Module::class);
+=======
+<<<<<<< HEAD
+                    // PHPStan: $module è \Nwidart\Modules\Module
+                    if (! is_object($module) || ! method_exists($module, 'getPath') || ! method_exists($module, 'getName')) {
+                        continue;
+                    }
+
+>>>>>>> 285375c74 (.)
                     $modulePath = $module->getPath();
                     $configPath = $modulePath.'/Config/config.php';
 =======
@@ -249,7 +304,18 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 8ab8fd81a (.)
                     if (file_exists($configPath)) {
                         $moduleName = $module->getName();
+<<<<<<< HEAD
                         $configs[$moduleName] = require $configPath;
+=======
+                        if (is_string($moduleName)) {
+                            $configs[$moduleName] = require $configPath;
+                        }
+=======
+                    $configPath = $module->getPath().'/Config/config.php';
+                    if (file_exists($configPath)) {
+                        $configs[$module->getName()] = require $configPath;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                     }
                 }
 <<<<<<< HEAD
@@ -301,7 +367,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 
             return str_contains($path, '/admin') ||
                    str_ends_with($path, '/admin') ||
+<<<<<<< HEAD
                    preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+=======
+<<<<<<< HEAD
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+=======
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         }
 
 =======

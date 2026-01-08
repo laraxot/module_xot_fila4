@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/filament/infinite-loop-getstepbyname-fix_2.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.):docs/archive/filament/infinite-loop-getstepbyname-fix.md
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 
 ## 🚨 **PROBLEMA CRITICO RISOLTO**
@@ -281,4 +288,16 @@ Questo fix dimostra l'importanza di:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD:docs/filament/infinite-loop-getstepbyname-fix_2.md
 >>>>>>> dc2130a7c (.):docs/archive/filament/infinite-loop-getstepbyname-fix.md
+=======
+=======
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/filament/infinite-loop-getstepbyname-fix.md

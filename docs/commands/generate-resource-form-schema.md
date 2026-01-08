@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # GenerateResourceFormSchemaCommand
@@ -94,4 +95,9 @@ return [
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD:docs/commands/generate-resource-form-schema.md
 >>>>>>>> 6342a02fe (.):docs/archive/commands/generate-resource-form-schema.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/commands/generate-resource-form-schema.md

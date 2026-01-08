@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
 # 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
@@ -421,6 +422,8 @@ public function getAllColors(): array
 - [Filament Widgets](./filament-widgets.md)
 - [Performance Monitoring](./performance-monitoring.md)
 =======
+=======
+>>>>>>> 53d6a6ba (.)
 # 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 
 **Data**: 27 Gennaio 2025  
@@ -626,6 +629,25 @@ public function getModels(): array
 **🌐 Translation Standards**: IT/EN complete ✅  
 **🚀 Performance**: 98/100 score  
 **✨ Test Coverage**: 90% ✅
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+
+
+
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

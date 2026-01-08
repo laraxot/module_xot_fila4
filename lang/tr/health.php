@@ -9,6 +9,7 @@ return [
                 'refresh' => 'Yenile',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             'heading' => 'Uygulama Sağlığı',
 
@@ -29,11 +30,15 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+            'heading' => 'Uygulama Sağlığı',
+>>>>>>> 285375c74 (.)
             'navigation' => [
                 'group' => 'Ayarlar',
                 'label' => 'Uygulama Sağlığı',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -47,6 +52,8 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
             'notifications' => [
                 'check_results' => 'Sonuçları kontrol et.',
             ],

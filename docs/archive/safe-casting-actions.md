@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Safe Casting Actions - DRY & KISS Implementation
 
 ## Overview
@@ -213,3 +214,5 @@ $percentage = SafeFloatCastAction::castAsPercentage(($completed / $total) * 100)
 - [Laraxot Coding Standards](../../../project_docs/coding_standards.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

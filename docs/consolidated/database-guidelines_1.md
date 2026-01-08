@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -595,4 +596,9 @@ php artisan db:analyze-usage --connection=nome_connessione
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD:docs/consolidated/database-guidelines_1.md
 >>>>>>> 48515e368 (.):docs/database-guidelines.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/database-guidelines.md

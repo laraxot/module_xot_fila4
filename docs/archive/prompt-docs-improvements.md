@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Miglioramenti al Prompt docs.txt
 
 > **Collegamenti correlati**
@@ -183,4 +184,9 @@ Il prompt aggiornato può essere utilizzato in qualsiasi progetto modulare Larav
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # XotBaseResource
 
 ## Overview
@@ -632,3 +633,5 @@ public function getTableBulkActions(): array
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.)
 # PHPStan - Guida Completa Consolidata
 
 **Ultimo aggiornamento**: 2025-01-06  
@@ -266,3 +273,10 @@ $variabile = $oggetto->proprietaNonStandard;
 *Guida consolidata che elimina duplicazioni e semplifica la manutenzione della documentazione PHPStan.*
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

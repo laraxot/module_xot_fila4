@@ -33,6 +33,7 @@ use Modules\Xot\Database\Factories\PulseAggregateFactory;
  * @method static Builder|PulseAggregate whereType($value)
  * @method static Builder|PulseAggregate whereValue($value)
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -90,7 +91,13 @@ use Modules\Xot\Database\Factories\PulseAggregateFactory;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+ * @mixin IdeHelperPulseAggregate
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

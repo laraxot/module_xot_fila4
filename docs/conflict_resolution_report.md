@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3310e9c6 (.)
 # Report Risoluzione Conflitti Git - FixCity Project
@@ -362,4 +363,13 @@ Il progetto è ora pronto per lo sviluppo continuo con una base solida e manuten
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [Guida Risoluzione Conflitti](../conflict-resolution-guide.md)
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

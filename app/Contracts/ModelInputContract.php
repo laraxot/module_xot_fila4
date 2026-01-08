@@ -73,6 +73,7 @@ interface ModelInputContract {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelInputContract {}
 =======
 interface ModelInputContract
@@ -212,4 +213,17 @@ interface ModelInputContract
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+interface ModelInputContract
+{
+}
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+interface ModelInputContract {}
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

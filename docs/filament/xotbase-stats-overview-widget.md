@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # XotBaseStatsOverviewWidget
 
 ## Panoramica
@@ -557,3 +558,5 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 - [Filament Widgets Documentation](https://filamentphp.com/project_docs/2.x/admin/widgets) 
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

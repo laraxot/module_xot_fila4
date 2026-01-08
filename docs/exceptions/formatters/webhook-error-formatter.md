@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # WebhookErrorFormatter
@@ -88,4 +89,9 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 - [Error Formatters Overview](../README.md) 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD:docs/exceptions/formatters/webhook-error-formatter.md
 >>>>>>>> 6342a02fe (.):docs/archive/exceptions/formatters/webhook-error-formatter.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/exceptions/formatters/webhook-error-formatter.md

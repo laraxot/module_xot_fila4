@@ -18,7 +18,27 @@ abstract class XotBasePolicy
     use HandlesAuthorization;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function before(UserContract $user, string $_ability): ?bool
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,7 +152,18 @@ abstract class XotBasePolicy
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+    public function before(UserContract $user, string $_ability): null|bool
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public function before(UserContract $user, string $_ability): ?bool
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     {
         
        
@@ -141,6 +172,22 @@ abstract class XotBasePolicy
             if ($user->hasRole('super-admin')) {
                 return true;
             }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+            return null;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+
+            return null;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         });
     }
 

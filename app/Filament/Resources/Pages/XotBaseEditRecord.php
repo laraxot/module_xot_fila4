@@ -78,4 +78,74 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
             */
         ];
     }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public static function canDelete(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        return $resource::canDelete($record);
+    }
+
+    public static function canForceDelete(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        return $resource::canForceDelete($record);
+    }
+
+    public static function canRestore(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        return $resource::canRestore($record);
+    }
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 }

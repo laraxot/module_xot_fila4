@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
@@ -212,3 +217,10 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 **Data**: 2025-08-08
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

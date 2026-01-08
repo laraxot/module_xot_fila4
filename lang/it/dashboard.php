@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
     'resources' => 'Risorse',
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
@@ -15,6 +16,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
     // NAVIGATION & STRUCTURE
 >>>>>>> 48515e368 (.)
     'navigation' => [
@@ -55,6 +58,7 @@ return [
                 'error' => 'Errore durante l\'importazione',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -87,11 +91,14 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
             'fields' => [
                 'import_file' => 'Seleziona un file XLS o CSV da caricare',
             ],
         ],
         'export' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -101,6 +108,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
             'label' => 'Esporta Dati',
             'icon' => 'heroicon-o-arrow-down-tray',
             'color' => 'success',
@@ -116,6 +125,7 @@ return [
                 'error' => 'Errore durante l\'esportazione',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -124,6 +134,8 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
             'filename_prefix' => 'Aree al',
             'columns' => [
                 'name' => 'Nome area',
@@ -131,6 +143,7 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -140,6 +153,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
     // SECTIONS - ORGANIZZAZIONE FORM
     'sections' => [
         'overview' => [
@@ -178,6 +193,7 @@ return [
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -186,4 +202,6 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
 ];

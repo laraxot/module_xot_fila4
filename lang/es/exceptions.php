@@ -5,6 +5,7 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -13,6 +14,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -22,6 +25,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -43,6 +47,8 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
 
     'backend' => [
         'access' => [
@@ -57,6 +63,7 @@ return [
                 'update_error' => 'Hubo un problema al modificar el Rol. Intentelo de nuevo.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -70,6 +77,8 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
             'users' => [
                 'cant_deactivate_self' => 'No puede desactivarse a sí mismo.',
                 'cant_delete_self' => 'No puede eliminarse usted mismo.',
@@ -89,6 +98,7 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -102,6 +112,8 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 285375c74 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -115,6 +127,7 @@ return [
                 'resent' => 'Un nuevo correo de verificación le ha sido enviado.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             'deactivated' => 'Su cuenta ha sido desactivada.',
             'email_taken' => 'El correo especificado ya está registrado.',
@@ -140,6 +153,10 @@ return [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 48515e368 (.)
+=======
+            'deactivated' => 'Su cuenta ha sido desactivada.',
+            'email_taken' => 'El correo especificado ya está registrado.',
+>>>>>>> 285375c74 (.)
             'password' => [
                 'change_mismatch' => 'La contraseña antigua no coincide.',
             ],

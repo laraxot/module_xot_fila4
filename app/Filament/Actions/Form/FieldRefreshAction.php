@@ -21,12 +21,36 @@ class FieldRefreshAction extends Action
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
+<<<<<<< HEAD
             ->action(function ($record, Set $set): void {
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+        $this->translateLabel();
+        $this->icon('heroicon-o-arrow-path')
+            ->tooltip('Ricalcola valore')
+            ->action(function ($state, Set $set, $record) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function ($state, $set, $record) {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
                 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
                 if (! is_object($record) && ! is_string($record)) {
                     Notification::make()
                         ->title('Errore')
@@ -40,6 +64,30 @@ class FieldRefreshAction extends Action
                 Notification::make()
                     ->title('Valore ricalcolato')
                     ->body('Il valore del campo è stato ricalcolato con successo')
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+                $method = 'get' . Str::studly($name) . '';
+                $value = $record->$method();
+                $set($name, $value);
+                Notification::make()
+                    ->title('Ricalcolato ' . $name)
+                    ->body('vecchio valore: ' . $state . ' nuovo valore: ' . $value)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+                $method = 'get'.Str::studly($name).'';
+                $value = $record->$method();
+                $set($name, $value);
+                Notification::make()
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                     ->success()
                     ->send();
             });

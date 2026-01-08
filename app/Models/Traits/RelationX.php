@@ -47,7 +47,30 @@ trait RelationX
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
+<<<<<<< HEAD
         // if ($pivotDbName !== $dbName) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+        // Handle cross-database relationships
+=======
+        // if ($pivotDbName !== $dbName) {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -55,8 +78,94 @@ trait RelationX
             if ($pivotDriver !== 'sqlite') {
                 $table = $pivotDbName.'.'.$table;
             }
+<<<<<<< HEAD
         }
         // }
+=======
+=======
+<<<<<<< HEAD
+            $table = $pivotDbName . '.' . $table;
+>>>>>>> 5a14301c (.)
+=======
+                $table = $pivotDbName . '.' . $table;
+            }
+>>>>>>> 492d6d3c (.)
+        }
+
+=======
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+        // if ($pivotDbName !== $dbName) {
+=======
+=======
+>>>>>>> 399f46d3 (.)
+        
+        // Handle cross-database relationships
+>>>>>>> 492d6d3c (.)
+        if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
+            $pivotDriver = $pivot->getConnection()->getDriverName();
+            // Only add database prefix for non-SQLite drivers
+            // SQLite doesn't support database.table syntax
+            if ($pivotDriver !== 'sqlite') {
+                $table = $pivotDbName . '.' . $table;
+            }
+        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+        // }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 492d6d3c (.)
+
+=======
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+        // if ($pivotDbName !== $dbName) {
+        if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
+            $table = $pivotDbName . '.' . $table;
+        }
+        // }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+        // }
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
         return $this->belongsToMany(
             related: $related,

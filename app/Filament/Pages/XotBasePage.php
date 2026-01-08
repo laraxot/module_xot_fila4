@@ -73,7 +73,23 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Ottiene il nome del modulo dalla classe.
      * Estrae il nome del modulo dal namespace della classe.
      *
+<<<<<<< HEAD
      * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+=======
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+>>>>>>> 5a14301c (.)
+=======
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+>>>>>>> 5a14301c (.)
+=======
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
      */
     public static function getModuleName(): string
     {

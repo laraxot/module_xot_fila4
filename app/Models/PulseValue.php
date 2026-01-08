@@ -28,6 +28,7 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @method static Builder|PulseValue whereType($value)
  * @method static Builder|PulseValue whereValue($value)
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -94,7 +95,13 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+ * @mixin IdeHelperPulseValue
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

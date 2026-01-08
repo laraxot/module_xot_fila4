@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Laravel XOT Architecture Documentation
 
 ## Overview
@@ -8941,3 +8942,5 @@ class ClientMapWidget extends Widget
   - Contact section
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

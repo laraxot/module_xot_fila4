@@ -1,10 +1,14 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,11 +111,24 @@ declare(strict_types=1);
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 namespace Modules\Xot\Datas\Transformers;
 
 use Modules\Xot\Actions\File\AssetAction;
 use Spatie\LaravelData\Support\DataProperty;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
@@ -129,6 +146,10 @@ use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Spatie\LaravelData\Support\Transformation\TransformationContext;
+use Spatie\LaravelData\Transformers\Transformer;
+>>>>>>> 285375c74 (.)
 
 /**
  * AssetTransformer - Trasforma riferimenti di file in percorsi completi per le risorse
@@ -159,8 +180,10 @@ class AssetTransformer implements Transformer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
      * @param  DataProperty  $_property  La proprietà di dati (non utilizzata)
      * @param  mixed  $value  Il valore da trasformare (es. "user::image.png")
@@ -174,10 +197,20 @@ class AssetTransformer implements Transformer
      * @param mixed $value Il valore da trasformare (es. "user::image.png")
      * @param TransformationContext $_context Il contesto di trasformazione (non utilizzato)
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+     * @param  DataProperty  $_property  La proprietà di dati (non utilizzata)
+     * @param  mixed  $value  Il valore da trasformare (es. "user::image.png")
+     * @param  TransformationContext  $_context  Il contesto di trasformazione (non utilizzato)
+>>>>>>> 285375c74 (.)
      * @return string Il percorso completo (es. "/modules/user/resources/image.png")
      */
     public function transform(DataProperty $_property, mixed $value, TransformationContext $_context): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! is_string($value) || empty($value)) {
 =======
@@ -198,11 +231,15 @@ class AssetTransformer implements Transformer
 >>>>>>> 73eab74 (.)
         if (!is_string($value) || empty($value)) {
 >>>>>>> d2b0a27 (.)
+=======
+        if (! is_string($value) || empty($value)) {
+>>>>>>> 285375c74 (.)
             return '';
         }
 
         return app(AssetAction::class)->execute($value);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -214,4 +251,6 @@ class AssetTransformer implements Transformer
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 }

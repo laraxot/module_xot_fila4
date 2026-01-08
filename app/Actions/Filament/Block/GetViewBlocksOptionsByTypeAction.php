@@ -33,6 +33,7 @@ class GetViewBlocksOptionsByTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
      * @param  string  $type  Il tipo di blocco da cercare
@@ -130,12 +131,24 @@ class GetViewBlocksOptionsByTypeAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+     * @param  string  $type  Il tipo di blocco da cercare
+     * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
     {
         Assert::stringNotEmpty($type, 'Il tipo di blocco non può essere vuoto');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -143,6 +156,8 @@ class GetViewBlocksOptionsByTypeAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 
         $basePath = base_path('Modules');
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
@@ -150,6 +165,7 @@ class GetViewBlocksOptionsByTypeAction
 <<<<<<< HEAD
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,24 +198,29 @@ class GetViewBlocksOptionsByTypeAction
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
         
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 53d6a6ba (.)
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
         $files = File::glob($globPattern);
 
         if ($files === false) {
             return []; // Ritorna un array vuoto se non ci sono file
         }
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
         Assert::isArray($files, 'Il risultato di File::glob() deve essere un array');
 
         $fixPathAction = app(FixPathAction::class);
         Assert::isCallable([$fixPathAction, 'execute'], 'FixPathAction::execute deve essere chiamabile');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -207,6 +228,8 @@ class GetViewBlocksOptionsByTypeAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 
         $opts = Arr::mapWithKeys($files, function ($path) use ($img, $type, $fixPathAction): array {
             // Verifichiamo che il percorso sia una stringa
@@ -253,6 +276,7 @@ class GetViewBlocksOptionsByTypeAction
 
             return [$view => $name];
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -308,10 +332,13 @@ class GetViewBlocksOptionsByTypeAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 
         // Assicuriamo che il risultato sia un array di stringhe
         /** @var array<string, string> $result */
         $result = $opts;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -325,12 +352,16 @@ class GetViewBlocksOptionsByTypeAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 285375c74 (.)
         Assert::isArray($result, 'Il risultato deve essere un array');
         foreach ($result as $key => $value) {
             Assert::string($key, 'La chiave dell\'array deve essere una stringa');
             Assert::string($value, 'Il valore dell\'array deve essere una stringa');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -343,6 +374,9 @@ class GetViewBlocksOptionsByTypeAction
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 285375c74 (.)
         return $result;
     }
 }

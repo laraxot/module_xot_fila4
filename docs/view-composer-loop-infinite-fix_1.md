@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.):docs/archive/view-composer-loop-infinite-fix.md
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -309,4 +316,11 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
 >>>>>>> dc2130a7c (.):docs/archive/view-composer-loop-infinite-fix.md
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/view-composer-loop-infinite-fix.md

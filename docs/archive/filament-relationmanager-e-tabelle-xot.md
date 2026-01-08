@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Linee Guida per RelationManager e Tabelle Personalizzate Xot in Filament
@@ -237,4 +238,14 @@ class MioRelatedRelationManager extends XotBaseRelationManager
 =======
 *Vedi anche: [Documentazione Ufficiale Filament](https://filamentphp.com/project_docs/3.x/relations/overview)* (Per concetti base di Filament)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

@@ -25,6 +25,7 @@ class XDebug extends Component
         // public bool $showAuthor = false,
         public string $tpl = 'v1',
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 =======
 <<<<<<< HEAD
@@ -38,6 +39,9 @@ class XDebug extends Component
     ) {}
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    ) {}
+>>>>>>> 285375c74 (.)
 
     public function render(): View
     {
@@ -63,6 +67,7 @@ class XDebug extends Component
 <<<<<<< HEAD
         if (! \extension_loaded('xdebug')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,7 +153,18 @@ class XDebug extends Component
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -171,6 +187,7 @@ class XDebug extends Component
 <<<<<<< HEAD
         return \is_string($out1) ? $out1 : ((string) $out1);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +300,17 @@ class XDebug extends Component
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Temi in il progetto
 
 <<<<<<< HEAD
@@ -131,3 +132,5 @@ Per personalizzare un tema:
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

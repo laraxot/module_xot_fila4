@@ -1,3 +1,21 @@
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> 285375c74 (.):docs/archive/git-conflicts-resolution.md
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
@@ -269,6 +287,7 @@ php artisan lang:check
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
@@ -303,3 +322,8 @@ php artisan lang:check
 **Stato**: ✅ Completato
 
 **Stato**: ✅ Completato
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/git-conflicts-resolution.md

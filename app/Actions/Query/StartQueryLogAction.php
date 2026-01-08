@@ -15,7 +15,23 @@ class StartQueryLogAction
 
     public function execute(): void
     {
+<<<<<<< HEAD
         Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+=======
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+>>>>>>> 5a14301c (.)
+=======
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+>>>>>>> 5a14301c (.)
+=======
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             $sql = $query->sql;
             $time = $query->time;
             $connection = $query->connection->getName();
@@ -26,6 +42,7 @@ class StartQueryLogAction
             ]);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,11 +122,17 @@ class StartQueryLogAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);
             $log->debug('bindings '.print_r($query->bindings, true));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -225,7 +248,16 @@ class StartQueryLogAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         });
     }
 }

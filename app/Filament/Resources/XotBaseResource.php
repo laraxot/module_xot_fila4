@@ -4,7 +4,28 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Exception;
+use ReflectionClass;
+=======
+use Exception;
+use Filament\Forms;
+use Filament\Infolists\Infolist;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -15,14 +36,88 @@ use Filament\Resources\Resource as FilamentResource;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Support\Components\Component;
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+use Filament\Schemas\Components\Component;
+use Filament\Resources\Pages\PageRegistration;
+use Filament\Resources\Pages\Page;
+use Filament\Resources\RelationManagers\RelationGroup;
+use Filament\Resources\RelationManagers\RelationManagerConfiguration;
+use Filament\Pages\Enums\SubNavigationPosition;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Schemas\Schema;
+use Exception;
+use ReflectionClass;
+use Filament\Resources\RelationManagers\RelationManager;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Forms;
+use Filament\Resources\Resource as FilamentResource;
+=======
+>>>>>>> 53d6a6ba (.)
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Contracts\View\View;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 285375c74 (.)
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 use ReflectionClass;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+use function Safe\glob;
+
+use Webmozart\Assert\Assert;
+
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+use ReflectionClass;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\glob;
@@ -85,17 +180,104 @@ abstract class XotBaseResource extends FilamentResource
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, Component>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string, Component>
+=======
+     * @return array<string|int, Component>
+>>>>>>> 5a14301c (.)
+=======
+     * @return array<string|int, Component>
+>>>>>>> 3fbbf1f5 (.)
+=======
+     * @return array<string|int, Component>
+=======
+     * @return array<string|int, Component>
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string|int, Component>
+=======
+     * @return array<string|int, \Filament\Schemas\Components\Component>
+>>>>>>> a12f125f4a (.)
+=======
+     * @return array<string|int, Component>
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+     * @return array<string|int, Component>
+>>>>>>> ca9324a4 (.)
+=======
+     * @return array<string|int, Component>
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+     * @return array<string|int, Component>
+=======
+     * @return array<string|int, \Filament\Schemas\Components\Component>
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+     * @return array<string|int, Component>
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+     * @return array<string|int, Component>
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+     * @return array<string|int, Component>
+>>>>>>> ca9324a4 (.)
+=======
+     * @return array<string, Component>
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
      */
     abstract public static function getFormSchema(): array;
 
     final public static function form(Schema $schema): Schema
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
         /** @var array<Htmlable|string> $components */
         $components = static::getFormSchema();
 
+=======
+>>>>>>> 53d6a6ba (.)
         return $schema
-            ->components($components)
+            ->components(static::getFormSchema())
             ->columns(static::getFormSchemaColumns());
     }
 
@@ -146,6 +328,46 @@ abstract class XotBaseResource extends FilamentResource
             $count = app(CountAction::class)->execute(static::getModel());
 
             return number_format($count, 0).'';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+            return number_format($count, 0) . '';
+>>>>>>> 5a14301c (.)
+=======
+            return number_format($count, 0) . '';
+>>>>>>> 3fbbf1f5 (.)
+=======
+            return number_format($count, 0) . '';
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+            return number_format($count, 0) . '';
+=======
+            return number_format($count, 0).'';
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            return number_format($count, 0) . '';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            return number_format($count, 0) . '';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         } catch (Exception $e) {
             return '--';
         }
@@ -236,6 +458,39 @@ abstract class XotBaseResource extends FilamentResource
         $submit_view = 'pub_theme::filament.wizard.submit-button';
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        //@phpstan-ignore-next-line
+        if (!view()->exists($submit_view)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+        //@phpstan-ignore-next-line
+        if (!view()->exists($submit_view)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+        //@phpstan-ignore-next-line
+        if (!view()->exists($submit_view)) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+        if (! view()->exists($submit_view)) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (!view()->exists($submit_view)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             throw new Exception("View {$submit_view} does not exist");
         }
         $render = view($submit_view)->render();
@@ -255,6 +510,7 @@ abstract class XotBaseResource extends FilamentResource
             return [];
         }
         $attachments = $model::getAttachments();
+<<<<<<< HEAD
         if (! \is_array($attachments)) {
             return [];
         }
@@ -268,6 +524,12 @@ abstract class XotBaseResource extends FilamentResource
         $schema = app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
 
         return $schema;
+=======
+        $disk = 'attachments';
+        $form = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
+
+        return $form;
+>>>>>>> 53d6a6ba (.)
     }
 
     protected static function getStepByName(string $name): Step
@@ -280,6 +542,7 @@ abstract class XotBaseResource extends FilamentResource
             ->toString();
 
         if (method_exists(static::class, $methodName)) {
+<<<<<<< HEAD
             $schemaResult = static::$methodName();
             /** @var array<Htmlable|string> $schemaComponents */
             $schemaComponents = \is_array($schemaResult) ? array_values($schemaResult) : [];
@@ -288,5 +551,85 @@ abstract class XotBaseResource extends FilamentResource
         }
 
         return Step::make($name)->schema([]);
+<<<<<<< HEAD
+=======
+=======
+        return Step::make($name)->schema(static::$schema());
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+        return Step::make($name)->schema(static::$schema());
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+        return Step::make($name)->schema(static::$schema());
+=======
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema(static::$schema());
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+
+        return Step::make($name)->schema(static::$schema());
+>>>>>>> b93ef594b4 (.)
+=======
+    protected static function getStepByName(string $name): Forms\Components\Wizard\Step
+    {
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Forms\Components\Wizard\Step::make($name)
+            ->schema(static::$schema());
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return Step::make($name)->schema(static::$schema());
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            return Step::make($name)->schema(static::$methodName());
+        }
+
+        return Step::make($name)->schema([]);
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 }

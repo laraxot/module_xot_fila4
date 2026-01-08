@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # HandlersRepository
@@ -127,4 +128,9 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 - [Handlers Overview](./README.md) 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD:docs/exceptions/handlers/handlers-repository.md
 >>>>>>>> 6342a02fe (.):docs/archive/exceptions/handlers/handlers-repository.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/exceptions/handlers/handlers-repository.md

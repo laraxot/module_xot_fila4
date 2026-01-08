@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # XotBase Extension Rules - Comprehensive Guide
 
@@ -424,3 +425,5 @@ jobs:
 *Stato: OBBLIGATORIO per tutti i moduli*
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

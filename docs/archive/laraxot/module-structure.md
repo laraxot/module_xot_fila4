@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Module Structure in Laraxot
 
 ## Directory Structure
@@ -130,3 +131,5 @@ Route::middleware('api')->prefix('api')->group(function () {
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

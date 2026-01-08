@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Action Usage Patterns - Regole Fondamentali
 
 ## 🎯 **REGOLA CRITICA: Pattern di Uso delle Action**
@@ -148,3 +149,5 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 **AUTORE**: Sistema di Qualità Laraxot
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

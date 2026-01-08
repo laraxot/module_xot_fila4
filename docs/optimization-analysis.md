@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # Analisi di Ottimizzazione - Modulo Xot (Framework Base)
@@ -852,3 +853,5 @@ class XotPerformanceMonitor
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

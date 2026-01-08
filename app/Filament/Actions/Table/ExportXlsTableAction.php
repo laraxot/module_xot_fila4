@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Table;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 =======
 <<<<<<< HEAD
@@ -20,6 +21,9 @@ use Exception;
 use Exception;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Exception;
+>>>>>>> 285375c74 (.)
 use Filament\Actions\Action;
 use Filament\Resources\RelationManagers\RelationManager;
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
@@ -33,12 +37,15 @@ class ExportXlsTableAction extends Action
         parent::setUp();
         $this->translateLabel()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
             ->tooltip(__('xot::actions.export_xls'))
             // ->icon('fas-file-excel')
             ->icon('heroicon-o-arrow-down-tray')
@@ -55,6 +62,7 @@ class ExportXlsTableAction extends Action
                 if ($query === null) {
                     throw new Exception('Query is null');
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -73,6 +81,8 @@ class ExportXlsTableAction extends Action
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
                 $rows = $query->get();
                 /** @var array<int, string> $fields */
@@ -80,6 +90,7 @@ class ExportXlsTableAction extends Action
                 if (method_exists($livewire_class, 'getXlsFields')) {
                     $rawFields = $livewire_class::getXlsFields($livewire->tableFilters);
                     Assert::isArray($rawFields);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -93,9 +104,12 @@ class ExportXlsTableAction extends Action
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 285375c74 (.)
                     // Ensure fields are properly formatted as array<int, string>
                     $fields = [];
-                    foreach ($rawFields as $field) {
+                    foreach ($rawFields as $key => $field) {
                         if (is_string($field)) {
                             $fields[] = $field;
                         } elseif (is_array($field) && isset($field['name']) && is_string($field['name'])) {
@@ -111,6 +125,7 @@ class ExportXlsTableAction extends Action
 <<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,7 +238,18 @@ class ExportXlsTableAction extends Action
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     {
         return 'export_xls';
     }

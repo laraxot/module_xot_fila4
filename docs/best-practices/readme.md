@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices
 
 ## Laraxot Framework Standards
@@ -63,3 +64,5 @@
 - Include practical examples in all guides
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

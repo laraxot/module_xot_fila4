@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # Risoluzione Conflitti Git - 6 Gennaio 2025
@@ -218,3 +219,5 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

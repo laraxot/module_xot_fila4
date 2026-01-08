@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # Regole per i Prompt
@@ -61,3 +62,5 @@ Non è necessario applicare questa regola a:
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

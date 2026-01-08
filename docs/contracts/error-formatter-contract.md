@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # ErrorFormatterContract
@@ -74,4 +75,9 @@ interface ErrorFormatterContract
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD:docs/contracts/error-formatter-contract.md
 >>>>>>>> 6342a02fe (.):docs/archive/contracts/error-formatter-contract.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/contracts/error-formatter-contract.md

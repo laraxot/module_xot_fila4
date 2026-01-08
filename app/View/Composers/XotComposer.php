@@ -15,6 +15,7 @@ use Modules\Xot\Actions\File\AssetAction;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -32,13 +33,19 @@ use Illuminate\Support\Str;
 use Illuminate\View\View;
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 use Modules\Xot\Actions\File\AssetPathAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -57,6 +64,8 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 
 /**
  * Class XotComposer.
@@ -73,12 +82,15 @@ class XotComposer
         $modules = Module::getOrdered();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
         $module = Arr::first($modules, static function ($module) use ($name): bool {
             // Ensure the module is an instance of LaravelModule
             if (! ($module instanceof LaravelModule)) {
@@ -93,6 +105,7 @@ class XotComposer
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -124,7 +137,12 @@ class XotComposer
 
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         if (! \is_object($module)) {
             throw new Exception('Create a View\Composers\ThemeComposer.php inside a module with ['.
                 $name.
@@ -133,6 +151,7 @@ class XotComposer
 
         Assert::isInstanceOf($module, LaravelModule::class, '['.__LINE__.']['.class_basename($this).']');
         $class = '\Modules\\'.$module->getName().'\View\Composers\ThemeComposer';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -389,7 +408,16 @@ class XotComposer
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
         $app = app($class);
         $callback = [$app, $name];
@@ -408,10 +436,16 @@ class XotComposer
         $view->with('_theme', $this);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
         if (class_exists('\Jenssegers\Agent\Agent')) {
             $agent = new Agent;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -501,7 +535,12 @@ class XotComposer
             $agent = new Agent();
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             $view->with('isMobile', $agent->isMobile());
             $view->with('isTablet', $agent->isTablet());
             $view->with('isDesktop', $agent->isDesktop());
@@ -524,6 +563,7 @@ class XotComposer
     public function path(string $str): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return app(AssetPathAction::class)->execute($str);
 =======
 <<<<<<< HEAD
@@ -536,6 +576,9 @@ class XotComposer
         return app(AssetPathAction::class)->execute($str);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return app(AssetPathAction::class)->execute($str);
+>>>>>>> 285375c74 (.)
     }
 
     public function metatag(string $str): string|bool|null
@@ -544,6 +587,7 @@ class XotComposer
 <<<<<<< HEAD
         $fun = 'get'.Str::studly($str);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -656,7 +700,18 @@ class XotComposer
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+        $fun = 'get' . Str::studly($str);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $fun = 'get'.Str::studly($str);
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

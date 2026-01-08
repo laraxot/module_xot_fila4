@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 # Risoluzione Conflitti di Merge 
 
 # Risoluzione Conflitti di Merge in SaluteOra
@@ -119,3 +124,10 @@ Durante la risoluzione dei conflitti, nel file `Modules/Xot/app/Filament/Resourc
 La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità delle classi nel modulo Xot, permettendo l'analisi statica con PHPStan e garantendo il corretto funzionamento dell'applicazione. Le soluzioni implementate hanno mantenuto la coerenza del codice e migliorato la robustezza delle classi interessate.
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

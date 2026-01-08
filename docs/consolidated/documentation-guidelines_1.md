@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -456,4 +457,9 @@ Per implementare queste linee guida:
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD:docs/consolidated/documentation-guidelines_1.md
 >>>>>>> 48515e368 (.):docs/documentation-guidelines.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/documentation-guidelines.md

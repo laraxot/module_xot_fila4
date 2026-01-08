@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # 💡 **Esempi Modulo Xot**
@@ -1133,3 +1134,5 @@ class ExampleRelationshipsTest extends XotBaseTestCase
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

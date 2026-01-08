@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi PHPStan per Moduli Laravel
 
 Questa documentazione spiega come utilizzare gli script forniti per analizzare i moduli Laravel con PHPStan.
@@ -311,3 +312,5 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

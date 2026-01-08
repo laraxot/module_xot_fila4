@@ -88,12 +88,18 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
 <<<<<<< HEAD
 =======
  *
+<<<<<<< HEAD
  * @property string|null $model_class
  *
  * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
  *
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends BaseModel

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti
 
 ## Best Practices
@@ -311,3 +312,5 @@ fc83074 (.)
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

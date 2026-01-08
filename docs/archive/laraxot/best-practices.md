@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Laraxot Best Practices
 
 ## Form Schema Best Practices
@@ -137,3 +138,5 @@ class MyResource extends XotBaseResource
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

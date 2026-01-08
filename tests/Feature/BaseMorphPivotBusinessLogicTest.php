@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
 =======
@@ -419,6 +420,13 @@ test('it can manage rounding mode', function (): void {
     expect($pivot->rounding_mode)->toBe($roundingMode);
 });
 =======
+=======
+namespace Modules\Xot\Tests\Feature;
+
+use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\BaseMorphPivot;
+>>>>>>> 53d6a6ba (.)
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1669,6 +1677,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # MIGRATION BASE RULES
 
 ## Regola universale
@@ -169,3 +170,5 @@ Ultimo aggiornamento: 2025-05-13
 ---
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

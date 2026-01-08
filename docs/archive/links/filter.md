@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: Filter
 description: 
@@ -39,3 +40,5 @@ https://medium.com/@dkthelearner/mastering-laravel-pipeline-and-query-builder-fo
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

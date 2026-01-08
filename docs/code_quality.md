@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -112,3 +113,5 @@ This document outlines the best practices for maintaining high code quality with
 - [Filament Best Practices](./FILAMENT-BEST-PRACTICES.md)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

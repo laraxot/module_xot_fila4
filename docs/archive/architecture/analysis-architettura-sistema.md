@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # Analisi dell'Architettura del Sistema il progetto
@@ -108,3 +109,5 @@ L'architettura proposta dovrà evolvere attraverso iterazioni successive, valida
 * [analisi-architettura-sistema.md](../../../Xot/project_docs/architecture/analisi-architettura-sistema.md)
 
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

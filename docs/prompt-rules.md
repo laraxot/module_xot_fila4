@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Regole per i Prompt
 
 ## Regola Universale
@@ -81,3 +82,5 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

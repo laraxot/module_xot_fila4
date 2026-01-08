@@ -1,29 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 @extends('xot::layouts.email')
 
 @section('content')
@@ -39,20 +18,4 @@ declare(strict_types=1);
         @endforeach
     </table>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
 @endsection
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-@endsection
-=======
-@endsection 
->>>>>>> f1d4085 (.)
-=======
-@endsection
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-@endsection
->>>>>>> 300ef70 (.)

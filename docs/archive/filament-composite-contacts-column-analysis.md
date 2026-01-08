@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi e Implementazione Colonna Composita "Contatti" - TechPlanner
 
 ## Richiesta Utente
@@ -279,3 +280,5 @@ Questa implementazione stabilisce un precedente per:
 **Autore**: Cascade AI Assistant
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

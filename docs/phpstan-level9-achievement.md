@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏆 PHPStan level 10 Achievement - Framework Xot
 
 **Data**: 18 Agosto 2025  
@@ -141,3 +142,11 @@ public function getRules(array $config): array
 **🎉 RISULTATO**: Il framework Xot è ora al **massimo livello di qualità** del codice PHP, pronto per supportare qualsiasi applicazione enterprise con la massima affidabilità e type safety.
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+**🎉 RISULTATO**: Il framework Xot è ora al **massimo livello di qualità** del codice PHP, pronto per supportare qualsiasi applicazione enterprise con la massima affidabilità e type safety.
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

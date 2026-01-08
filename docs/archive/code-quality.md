@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -285,3 +292,10 @@ unset($translations['existing_key']); // MAI!
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

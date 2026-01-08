@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/phpstan-factory-best-practices_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.):docs/archive/phpstan-factory-best-practices.md
 # PHPStan Best Practices per Factory Laravel - Laraxot Framework
 
 ## 🎯 Overview
@@ -311,4 +318,12 @@ Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD:docs/phpstan-factory-best-practices_1.md
 >>>>>>> dc2130a7c (.):docs/archive/phpstan-factory-best-practices.md
+=======
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/phpstan-factory-best-practices.md

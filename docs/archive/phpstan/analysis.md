@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi PHPStan del modulo Xot
 
 ## Data analisi
@@ -73,3 +74,5 @@
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

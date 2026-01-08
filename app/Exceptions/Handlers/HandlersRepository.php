@@ -59,16 +59,20 @@ class HandlersRepository
     public function getReportersByException(Throwable $e): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
         return array_filter(
             $this->reporters,
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -80,6 +84,8 @@ class HandlersRepository
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
     }
 
     /**
@@ -88,16 +94,20 @@ class HandlersRepository
     public function getRenderersByException(Throwable $e): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
         return array_filter(
             $this->renderers,
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -109,6 +119,8 @@ class HandlersRepository
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
     }
 
     /**
@@ -117,16 +129,20 @@ class HandlersRepository
     public function getConsoleRenderersByException(Throwable $e): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
         return array_filter(
             $this->consoleRenderers,
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -138,6 +154,8 @@ class HandlersRepository
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
     }
 
     /**
@@ -169,8 +187,10 @@ class HandlersRepository
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
         if (! ($params = $reflection->getParameters())) {
 =======
@@ -180,6 +200,13 @@ class HandlersRepository
 >>>>>>> 73eab74 (.)
         if (!($params = $reflection->getParameters())) {
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+        if (! ($params = $reflection->getParameters())) {
+>>>>>>> 285375c74 (.)
             return false;
         }
 
@@ -249,6 +276,11 @@ class HandlersRepository
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 88ea7103 (.)
@@ -361,6 +393,15 @@ class HandlersRepository
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     }
 }

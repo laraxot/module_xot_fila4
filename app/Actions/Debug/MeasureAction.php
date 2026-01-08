@@ -10,6 +10,7 @@ use Filament\Notifications\Notification;
 /**
  * Classe per misurare le performance di esecuzione di un blocco di codice.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -22,6 +23,9 @@ use Filament\Notifications\Notification;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+ *
+>>>>>>> 285375c74 (.)
  * @template T
  */
 class MeasureAction
@@ -42,7 +46,11 @@ class MeasureAction
 =======
         Assert::isCallable($closure, 'Il parametro $closure deve essere una funzione chiamabile');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,7 +146,17 @@ class MeasureAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         $start = microtime(true);
         $memory_start = memory_get_usage();
 
@@ -174,6 +192,7 @@ class MeasureAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'execution_time' => round($execution_time, 2).' ms',
             'memory_usage' => round($memory_usage, 2).' KB',
 =======
@@ -295,7 +314,20 @@ class MeasureAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+            'execution_time' => round($execution_time, 2) . ' ms',
+            'memory_usage' => round($memory_usage, 2) . ' KB',
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            'execution_time' => round($execution_time, 2).' ms',
+            'memory_usage' => round($memory_usage, 2).' KB',
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
@@ -321,6 +353,7 @@ class MeasureAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
 =======
@@ -442,7 +475,20 @@ class MeasureAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+            ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             ->success()
             ->persistent()
             ->send();

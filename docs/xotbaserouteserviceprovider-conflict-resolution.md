@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione conflitto XotBaseRouteServiceProvider.php
 
 ## Problema
@@ -25,3 +26,5 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

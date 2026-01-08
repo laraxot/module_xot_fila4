@@ -70,6 +70,7 @@ interface ModelWithPosContract {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelWithPosContract {}
 =======
 interface ModelWithPosContract
@@ -209,4 +210,17 @@ interface ModelWithPosContract
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+interface ModelWithPosContract
+{
+}
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+interface ModelWithPosContract {}
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

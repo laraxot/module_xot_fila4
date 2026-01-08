@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # CRITICAL: Filament Resource-Model Alignment Rules
 
 ## 🚨 ERRORE CRITICO IDENTIFICATO E RISOLTO
@@ -172,3 +173,5 @@ done
 *Ultimo aggiornamento: Luglio 2025 - Dopo correzione errori critici modulo Progressioni*
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

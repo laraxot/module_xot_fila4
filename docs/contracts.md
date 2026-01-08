@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # Contratti del Modulo Xot
@@ -112,3 +113,5 @@ Contratto per modelli che hanno profili.
 
 *Ultimo aggiornamento: 2025-01-06*
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

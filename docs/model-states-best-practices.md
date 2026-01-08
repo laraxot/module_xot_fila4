@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.)
 # Best Practices per Model States e Transizioni Custom
 
 ## Parametri aggiuntivi nelle transizioni custom
@@ -14,3 +21,17 @@
   - [README.md centrale](../../../docs/README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+  - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
+=======
+  - [Errori comuni nelle transizioni custom ()](../../<nome modulo>/docs/model-states-errors.md)
+>>>>>>> a5dccfe (.)
+  - [README.md centrale](../../../docs/README.md) 
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

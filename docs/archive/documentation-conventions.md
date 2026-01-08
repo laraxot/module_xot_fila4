@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Convenzioni per la documentazione in Laraxot PTVX
@@ -326,4 +327,9 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 =======
 *Ultimo aggiornamento: Giugno 2025*
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

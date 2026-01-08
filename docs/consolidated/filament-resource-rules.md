@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Regole per le Risorse Filament in <nome progetto>
 
 ## Panoramica
@@ -316,3 +317,5 @@ class DoctorResource extends XotBaseResource
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

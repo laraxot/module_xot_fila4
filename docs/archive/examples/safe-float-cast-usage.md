@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Esempi Pratici di Utilizzo di SafeFloatCastAction
 
 ## Panoramica
@@ -466,3 +467,5 @@ class Product extends BaseModel
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fix Redirect Loop - MainDashboard
 
 ## Problema Risolto
@@ -254,3 +255,5 @@ performance::admin
 *Ultimo aggiornamento: 2025-01-27* 
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

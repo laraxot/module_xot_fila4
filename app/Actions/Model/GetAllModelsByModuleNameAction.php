@@ -46,8 +46,10 @@ class GetAllModelsByModuleNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
 =======
@@ -61,6 +63,13 @@ class GetAllModelsByModuleNameAction
         if (!($mod instanceof \Nwidart\Modules\Module)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+        if (! ($mod instanceof \Nwidart\Modules\Module)) {
+>>>>>>> 285375c74 (.)
             return [];
         }
 
@@ -93,9 +102,14 @@ class GetAllModelsByModuleNameAction
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (! $reflection_class->isAbstract()) {
 <<<<<<< HEAD
 =======
+=======
+                    if (! $reflection_class->isAbstract()) {
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -159,7 +173,17 @@ class GetAllModelsByModuleNameAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

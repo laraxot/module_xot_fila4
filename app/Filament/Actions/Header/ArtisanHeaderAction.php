@@ -40,6 +40,7 @@ class ArtisanHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
@@ -143,13 +144,40 @@ class ArtisanHeaderAction extends Action
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+            
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
             // ->icon('heroicon-o-arrow-down-tray')
+<<<<<<< HEAD
             ->action(function (): void {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->action(function (): void {
+=======
+            ->action(function () {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function () {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function () {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                 Assert::string($cmd = $this->getName());
                 Artisan::call($cmd);
                 $output = Artisan::output();
@@ -180,6 +208,7 @@ class ArtisanHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -276,7 +305,18 @@ class ArtisanHeaderAction extends Action
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     {
         return 'artisan_action';
     }

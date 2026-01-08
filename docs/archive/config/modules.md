@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: Configurazione modules.php
 description: Configurazione modules.php
@@ -42,3 +43,5 @@ bisogna modificare il file /laravel/config/modules.php ed indicare la cartella g
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

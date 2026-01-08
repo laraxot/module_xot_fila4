@@ -64,6 +64,7 @@ interface ModelWithUserContract {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelWithUserContract {}
 =======
 interface ModelWithUserContract
@@ -203,4 +204,17 @@ interface ModelWithUserContract
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+interface ModelWithUserContract
+{
+}
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+interface ModelWithUserContract {}
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

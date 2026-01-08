@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/testing-best-practices-uppercase_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.):docs/archive/testing-best-practices-uppercase.md
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -237,6 +244,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 **Last Update**: Dicembre 2024 
 =======
+<<<<<<< HEAD:docs/testing-best-practices-uppercase_1.md
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -302,3 +310,8 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 >>>>>>> cc7fb225 (.)
 >>>>>>> dc2130a7c (.):docs/testing-best-practices-uppercase.md
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/testing-best-practices-uppercase.md

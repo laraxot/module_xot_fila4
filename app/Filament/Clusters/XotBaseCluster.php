@@ -5,10 +5,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Clusters;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,7 +133,20 @@ use Illuminate\Support\Facades\Lang;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+use Filament\Clusters\Cluster as FilamentCluster;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\Facades\Lang;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+use Illuminate\Support\Facades\Lang;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster
@@ -138,18 +155,22 @@ class XotBaseCluster extends FilamentCluster
 
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
      * public static function getNavigationGroup(): ?string
      * {
      *
      * return 'ZZZZZZZZZZZZZZZZZZ';
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -164,6 +185,8 @@ class XotBaseCluster extends FilamentCluster
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 
     public function getTitle(): Htmlable|string
     {
@@ -179,12 +202,15 @@ class XotBaseCluster extends FilamentCluster
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
     /*
      * protected static ?string $navigationIcon = 'heroicon-o-users';
      *
@@ -215,6 +241,7 @@ class XotBaseCluster extends FilamentCluster
      * ];
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -254,4 +281,6 @@ class XotBaseCluster extends FilamentCluster
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
 }

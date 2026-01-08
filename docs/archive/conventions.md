@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Naming
 
 ## Struttura delle Cartelle nei Moduli
@@ -211,3 +212,5 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # XotBasePage
 
 ## Panoramica
@@ -132,3 +133,5 @@ Verifica se l'utente ha l'accesso alla pagina.
 - [Guida Traduzioni](../../../project_docs/translations.md) 
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

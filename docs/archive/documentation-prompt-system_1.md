@@ -13,7 +13,23 @@ Questo documento descrive l'integrazione tra il sistema di documentazione di Xot
 
 Il modulo bashscripts include un sistema di prompt che fornisce istruzioni standardizzate per l'organizzazione e la manutenzione della documentazione attraverso tutti i moduli del progetto.
 
+<<<<<<< HEAD:docs/archive/documentation-prompt-system_1.md
 Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 71f31700 (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 71f31700 (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/documentation_prompt_system.md
 
 1. Struttura gerarchica della documentazione
 2. Sistema di collegamenti bidirezionali

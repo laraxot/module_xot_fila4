@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
@@ -151,3 +152,5 @@
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

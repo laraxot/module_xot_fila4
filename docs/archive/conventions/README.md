@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni
 
 Questa cartella contiene le convenzioni di nomenclatura e le regole di stile utilizzate nel progetto.
@@ -205,3 +206,5 @@ Queste convenzioni devono essere seguite per mantenere la coerenza del codice in
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

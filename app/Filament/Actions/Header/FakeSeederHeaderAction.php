@@ -25,6 +25,7 @@ class FakeSeederHeaderAction extends Action
         parent::setUp();
         $this->translateLabel()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34,6 +35,8 @@ class FakeSeederHeaderAction extends Action
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
@@ -43,7 +46,23 @@ class FakeSeederHeaderAction extends Action
                     ->minValue(1)
                     ->integer(),
             ])
+<<<<<<< HEAD
             ->action(function (array $data, ListRecords $livewire): void {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->action(function (array $data, ListRecords $livewire): void {
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();
@@ -55,13 +74,17 @@ class FakeSeederHeaderAction extends Action
                 Assert::greaterThanEq($qty, 1, 'Quantity must be greater than 0');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
                 $title = 'On Queue '.$qty.' '.$modelClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -186,7 +209,19 @@ class FakeSeederHeaderAction extends Action
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -198,6 +233,7 @@ class FakeSeederHeaderAction extends Action
 <<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310,7 +346,18 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     {
         return 'fake_seeder';
     }

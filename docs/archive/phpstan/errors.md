@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Errori PHPStan - Modulo Xot
 
 ## Analisi Completa
@@ -82,3 +83,5 @@ Questa sezione documenta tutti gli errori rilevati da PHPStan nel modulo Xot.
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

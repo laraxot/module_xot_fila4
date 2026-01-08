@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # PHPStan Array Types Fixes - Patterns & Solutions
@@ -166,4 +167,9 @@ public function processData(array $data): void
 **🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
 **📊 QUALITÀ CODICE**: Maximum Type Safety Achieved
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

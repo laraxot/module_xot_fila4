@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Linee Guida per la Documentazione
 
 ## Principi Fondamentali
@@ -226,3 +227,5 @@ php artisan api:generate
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

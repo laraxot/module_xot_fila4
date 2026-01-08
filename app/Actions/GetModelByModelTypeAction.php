@@ -38,8 +38,10 @@ class GetModelByModelTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
     public function execute(string $model_type, ?string $model_id): Model
 =======
@@ -53,12 +55,20 @@ class GetModelByModelTypeAction
     public function execute(string $model_type, null|string $model_id): Model
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+    public function execute(string $model_type, ?string $model_id): Model
+>>>>>>> 285375c74 (.)
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
         Assert::stringNotEmpty($model_class);
         Assert::classExists($model_class);
         Assert::isAOf($model_class, Model::class);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @var class-string<Model> $model_class */
         $model = $model_id !== null
@@ -69,8 +79,11 @@ class GetModelByModelTypeAction
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 285375c74 (.)
         if ($model === null) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -198,7 +211,16 @@ class GetModelByModelTypeAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
         }
 
         return $model;

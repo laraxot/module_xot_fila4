@@ -18,6 +18,12 @@ abstract class XotBaseUuidModel extends XotBaseModel
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 285375c74 (.)
 
     protected $keyType = 'string';
 
@@ -41,4 +47,13 @@ abstract class XotBaseUuidModel extends XotBaseModel
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 }

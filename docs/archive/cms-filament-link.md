@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Collegamento Bidirezionale: Regole Filament e Namespace (Cms)
 
 Le regole generali per Filament, namespace e traduzioni sono definite in:
@@ -55,3 +56,5 @@ Le convenzioni specifiche per Filament e frontend sono dettagliate in:
 - Aggiornare sempre entrambe le documentazioni in caso di modifiche alle regole.
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 285375c74 (.)

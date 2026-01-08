@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ba6c53070 (.)
 # 🏗️ **Architettura Modulo Xot**
@@ -413,3 +414,5 @@ test('all models extend base model', function () {
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

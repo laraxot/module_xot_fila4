@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
@@ -18,7 +19,13 @@
 =======
 **NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
 ## Risultati Ottenuti
 
@@ -58,9 +65,16 @@
 3. **SaluteMo** - 0 errori 
 4. **Geo** - 0 errori
 5. **Cms** - 0 errori
+<<<<<<< HEAD
 6. **<main module>** - 0 errori
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+6. **SaluteOra** - 0 errori
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
 ## Errori Rimanenti (7)
 
@@ -243,6 +257,7 @@ Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, <nome modulo>, Geo, Cms, <main module>) sono completamente conformi al livello 9 di PHPStan.
 =======
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
@@ -253,7 +268,13 @@ Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli
 =======
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, <main module>) sono completamente conformi al livello 9 di PHPStan.
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
 
 ---
 

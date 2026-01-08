@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Header;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 =======
 <<<<<<< HEAD
@@ -20,6 +21,9 @@ use Exception;
 use Exception;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Exception;
+>>>>>>> 285375c74 (.)
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 use Modules\Xot\Actions\Export\ExportXlsByLazyCollection;
@@ -33,6 +37,7 @@ class ExportXlsLazyAction extends Action
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -56,6 +61,9 @@ class ExportXlsLazyAction extends Action
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 285375c74 (.)
         $this->label(__('xot::actions.export_xls.label'))
             ->tooltip(__('xot::actions.export_xls.tooltip'))
             ->icon(__('xot::actions.export_xls.icon'))
@@ -68,17 +76,21 @@ class ExportXlsLazyAction extends Action
             ->requiresConfirmation()
             ->action(static function (ListRecords $livewire) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 $filename =
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
                     '.xlsx';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -88,6 +100,8 @@ class ExportXlsLazyAction extends Action
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
 
@@ -126,7 +140,7 @@ class ExportXlsLazyAction extends Action
 >>>>>>> 5a14301c (.)
                         $fields = array_map(static function ($field): string {
                             if (is_object($field) && method_exists($field, '__toString')) {
-                                return (string) $field->__toString();
+                                return $field->__toString();
                             }
                             if (is_scalar($field)) {
                                 return (string) $field;
@@ -144,12 +158,15 @@ class ExportXlsLazyAction extends Action
 
                 $lazy = $livewire->getFilteredTableQuery();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 if ($lazy === null) {
                     throw new Exception('Query is null');
                 }
@@ -160,6 +177,7 @@ class ExportXlsLazyAction extends Action
 
                     // PHPStan knows $lazy is Builder|Relation here, no need for Assert
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -181,11 +199,14 @@ class ExportXlsLazyAction extends Action
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                 }
 
                 $lazyCursor = $lazy->cursor();
 
                 if ($lazyCursor->count() > 3000) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -193,6 +214,8 @@ class ExportXlsLazyAction extends Action
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 285375c74 (.)
                     return app(ExportXlsStreamByLazyCollection::class)
                         ->execute($lazyCursor, $filename, $transKey, array_values($fields));
                 }
@@ -204,6 +227,7 @@ class ExportXlsLazyAction extends Action
 <<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,7 +394,17 @@ class ExportXlsLazyAction extends Action
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)
     {
         return 'export_xls';
     }

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # TransTrait
@@ -85,4 +86,9 @@ class MyResource
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD:docs/filament/trans-trait.md
 >>>>>>>> 6342a02fe (.):docs/archive/filament/trans-trait.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/filament/trans-trait.md

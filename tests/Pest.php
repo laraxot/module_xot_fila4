@@ -2,16 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -23,6 +13,7 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +130,10 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 6dcebf8a (.)
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> 53d6a6ba (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -146,6 +141,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,21 +516,18 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+ * | Quando definisci here expectation globali, saranno disponibili
+ * | in tutti i test del modulo.
+ * |
+ */
+
+>>>>>>> 53d6a6ba (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -543,6 +536,7 @@ namespace Modules\Xot\Tests\Pest;
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -885,3 +879,9 @@ namespace Modules\Xot\Tests\Pest;
 // }
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+
+// function something() {
+//     // ...
+// }
+>>>>>>> 53d6a6ba (.)

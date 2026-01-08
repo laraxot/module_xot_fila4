@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.)
 # Filament - Guida Completa Consolidata
 
 **Ultimo aggiornamento**: 2025-01-06  
@@ -316,3 +323,10 @@ namespace Modules\SaluteOra\Filament\Resources;
 *Guida consolidata che elimina duplicazioni e semplifica la manutenzione della documentazione Filament.*
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.)

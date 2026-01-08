@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/consolidated/directory-case-sensitivity_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 285375c74 (.):docs/directory-case-sensitivity.md
 # Case Sensitivity e Struttura Corretta delle Directory nei Moduli Laravel
 
 ## Problemi Identificati
@@ -157,4 +164,11 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD:docs/consolidated/directory-case-sensitivity_1.md
 >>>>>>> dc2130a7c (.):docs/directory-case-sensitivity.md
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/directory-case-sensitivity.md

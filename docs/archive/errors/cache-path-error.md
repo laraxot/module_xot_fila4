@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Errore Cache Path Mancante
 
 ## Descrizione dell'Errore
@@ -62,3 +63,5 @@ Per prevenire questo errore in futuro:
 >>>>>>> 6cba4fe (.)
 - [Documentazione Xot Component System](../structure.md) 
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 285375c74 (.)

@@ -94,7 +94,11 @@ final class Extra extends BaseExtra {}
  * @mixin IdeHelperExtra
 =======
  *
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperExtra
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class Extra extends BaseExtra

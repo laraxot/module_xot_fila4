@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # ModelWithUserContract
@@ -111,4 +112,9 @@ class Article extends Model implements ModelWithUserContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD:docs/contracts/model-with-user-contract.md
 >>>>>>>> 6342a02fe (.):docs/archive/contracts/model-with-user-contract.md
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> 285375c74 (.):docs/archive/contracts/model-with-user-contract.md

@@ -59,7 +59,7 @@ abstract class BaseModel extends XotBaseModel
 abstract class BaseModel extends Model
 >>>>>>> 53d6a6ba (.)
 {
-    use HasFactory;
+    use \Modules\Xot\Models\Traits\HasXotFactory;
 
     // use Searchable;
     // //use Cachable;
@@ -119,16 +119,7 @@ abstract class BaseModel extends XotBaseModel
         // 'password'
     ];
 
-    /**
-     * Create a new factory instance for the model.
-     *
-     * @return Factory<static>
-     */
-    protected static function newFactory(): Factory
-    {
-        // return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
-        return app(GetFactoryAction::class)->execute(static::class);
-    }
+    
 
 <<<<<<< HEAD
 <<<<<<< HEAD

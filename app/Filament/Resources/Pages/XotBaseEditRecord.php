@@ -130,21 +130,27 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     {
         $resource = static::$resource;
 
-        return $resource::canDelete($record);
+        $result = $resource::canDelete($record);
+
+        return is_bool($result) ? $result : false;
     }
 
     public static function canForceDelete(Model $record): bool
     {
         $resource = static::$resource;
 
-        return $resource::canForceDelete($record);
+        $result = $resource::canForceDelete($record);
+
+        return is_bool($result) ? $result : false;
     }
 
     public static function canRestore(Model $record): bool
     {
         $resource = static::$resource;
 
-        return $resource::canRestore($record);
+        $result = $resource::canRestore($record);
+
+        return is_bool($result) ? $result : false;
     }
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)

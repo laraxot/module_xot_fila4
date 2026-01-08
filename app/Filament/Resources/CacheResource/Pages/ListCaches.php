@@ -114,6 +114,7 @@ class ListCaches extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +128,8 @@ class ListCaches extends XotBaseListRecords
 =======
     #[Override]
 >>>>>>> 300ef70 (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableColumns(): array
     {
         return [
@@ -178,6 +181,7 @@ class ListCaches extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +195,8 @@ class ListCaches extends XotBaseListRecords
 =======
     #[Override]
 >>>>>>> 300ef70 (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getGridTableColumns(): array
     {
         return [

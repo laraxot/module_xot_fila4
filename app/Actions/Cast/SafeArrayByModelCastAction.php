@@ -58,7 +58,10 @@ class SafeArrayByModelCastAction
 =======
 >>>>>>> b7afadf9 (.)
         try {
-            return $model->attributesToArray();
+            /** @var array<string, mixed> */
+            $attributes = $model->attributesToArray();
+
+            return $attributes;
         } catch (ValueError|Error|Exception $e) {
 <<<<<<< HEAD
 <<<<<<< HEAD

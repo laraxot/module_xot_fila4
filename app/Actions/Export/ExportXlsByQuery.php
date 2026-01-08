@@ -216,6 +216,7 @@ class ExportXlsByQuery
         $stringFields = array_map(strval(...), array_values($fields));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Apply limit if needed before creating export
 =======
 <<<<<<< HEAD
@@ -256,6 +257,9 @@ class ExportXlsByQuery
         // Note: QueryExport doesn't accept a limit parameter directly
         // If limit is needed, apply it to the query before passing to the exporter
 >>>>>>> d2b0a27 (.)
+=======
+        // Apply limit if needed before creating export
+>>>>>>> 80ef814d9 (.)
         if ($limit !== null) {
             $query->limit($limit);
         }

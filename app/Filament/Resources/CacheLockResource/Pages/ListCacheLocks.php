@@ -163,6 +163,7 @@ class ListCacheLocks extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +181,8 @@ class ListCacheLocks extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableColumns(): array
     {
         return [

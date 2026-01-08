@@ -203,6 +203,7 @@ class ListExtras extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +221,8 @@ class ListExtras extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableFilters(): array
     {
         return [];
@@ -234,6 +237,7 @@ class ListExtras extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +255,8 @@ class ListExtras extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableActions(): array
     {
         return [
@@ -272,6 +278,7 @@ class ListExtras extends XotBaseListRecords
      * @return array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 =======
@@ -289,6 +296,8 @@ class ListExtras extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableBulkActions(): array
     {
         return [

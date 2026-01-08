@@ -91,6 +91,7 @@ use Modules\Xot\Database\Factories\FeedFactory;
 >>>>>>> 8b18e4bff (.)
  * @mixin \Eloquent
  */
+/** */
 class Feed extends BaseModel
 {
     /** @var list<string> */

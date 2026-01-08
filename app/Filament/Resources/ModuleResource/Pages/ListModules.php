@@ -196,6 +196,7 @@ class ListModules extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,6 +214,8 @@ class ListModules extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -287,6 +290,7 @@ class ListModules extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,6 +308,8 @@ class ListModules extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableFilters(): array
     {
         return [
@@ -388,6 +394,7 @@ class ListModules extends XotBaseListRecords
      * @return array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 =======
@@ -405,6 +412,8 @@ class ListModules extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableBulkActions(): array
     {
         return [

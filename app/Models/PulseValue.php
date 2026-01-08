@@ -136,6 +136,7 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 >>>>>>> 8b18e4bff (.)
  * @mixin \Eloquent
  */
+/** */
 class PulseValue extends BaseModel
 {
     /** @var list<string> */

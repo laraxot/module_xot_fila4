@@ -177,6 +177,7 @@ class ListSessions extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +195,8 @@ class ListSessions extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getGridTableColumns(): array
     {
         return [

@@ -72,18 +72,25 @@ class HasManyAction
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
         $relation = $relationDTO->rows;
         Assert::isInstanceOf($relation, HasMany::class);
         $related = $relation->getRelated();
         Assert::notNull($related, 'Related model cannot be null');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 285375c74 (.)
+=======
+
+>>>>>>> 80ef814d9 (.)
         /** @var Builder $query */
-        $query = $relationDTO->related->newQuery();
+        $query = $related->newQuery();
 
 <<<<<<< HEAD
 =======
@@ -112,6 +119,7 @@ class HasManyAction
         if ($toIds) {
             $query
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->whereIn($related->getKeyName(), $toIds)
 =======
                 ->whereIn($relationDTO->related->getKeyName(), $toIds)
@@ -134,6 +142,9 @@ class HasManyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                ->whereIn($related->getKeyName(), $toIds)
+>>>>>>> 80ef814d9 (.)
                 ->update([$updateData->foreignKey => $updateData->parentKey]);
         }
     }
@@ -320,6 +331,7 @@ class HasManyAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $result = app(UpdateAction::class)->execute($related, $itemData, []);
 =======
 <<<<<<< HEAD
@@ -343,6 +355,9 @@ class HasManyAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            $result = app(UpdateAction::class)->execute($related, $itemData, []);
+>>>>>>> 80ef814d9 (.)
 
             if ($result instanceof Model) {
                 $id = $result->getKey();
@@ -368,18 +383,24 @@ class HasManyAction
         if ($updatedIds) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 80ef814d9 (.)
             $relation = $relationDTO->rows;
             Assert::isInstanceOf($relation, HasMany::class);
             $related = $relation->getRelated();
             Assert::notNull($related, 'Related model cannot be null');
 
             $related
+<<<<<<< HEAD
                 ->newQuery()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
             $relationDTO
                 ->related
+=======
+>>>>>>> 80ef814d9 (.)
                 ->newQuery()
 =======
             $relationDTO->related->newQuery()

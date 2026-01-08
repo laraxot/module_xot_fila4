@@ -41,10 +41,19 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  * @method static Builder<static>|Extra whereUpdatedBy($value)
  * @method static Builder<static>|Extra withExtraAttributes()
  *
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  *
+=======
+<<<<<<< HEAD
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+>>>>>>> eeaa032 (.)
+>>>>>>> 80ef814d9 (.)
  * @mixin \Eloquent
  */
 final class Extra extends BaseExtra {}

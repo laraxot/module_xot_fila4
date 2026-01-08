@@ -335,6 +335,7 @@ class ListLogs extends XotBaseListRecords
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +353,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableActions(): array
     {
         return [
@@ -374,6 +377,7 @@ class ListLogs extends XotBaseListRecords
      * @return array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 =======
@@ -391,6 +395,8 @@ class ListLogs extends XotBaseListRecords
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function getTableBulkActions(): array
     {
         return [

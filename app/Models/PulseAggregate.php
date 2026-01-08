@@ -143,6 +143,7 @@ use Modules\Xot\Database\Factories\PulseAggregateFactory;
 >>>>>>> 8b18e4bff (.)
  * @mixin \Eloquent
  */
+/** */
 class PulseAggregate extends BaseModel
 {
     /** @var list<string> */

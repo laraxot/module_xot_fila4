@@ -71,10 +71,14 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 80ef814d9 (.)
 /**
  * @implements Arrayable<string, mixed>
  */
 class ApplicationError implements Arrayable, Jsonable, JsonSerializable
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +109,8 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 >>>>>>> d2b0a27 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
 {
     public function __construct(
         private string $help = '',
@@ -148,6 +154,7 @@ class ApplicationError implements JsonSerializable, Arrayable, Jsonable
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +172,8 @@ class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 80ef814d9 (.)
     public function jsonSerialize(): array
     {
         return $this->toArray();

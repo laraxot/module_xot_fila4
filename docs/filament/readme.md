@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 80ef814d9 (.)
 # Filament
 
 Questa cartella contiene la documentazione relativa all'implementazione di Filament nel progetto.
@@ -18,6 +21,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
+<<<<<<< HEAD
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)
 * [README.md](bashscripts/docs/README.md)
@@ -48,6 +52,8 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](bashscripts/docs/it/README.md)
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
+=======
+>>>>>>> 80ef814d9 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -122,6 +128,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](../../../Cms/docs/components/README.md)
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
+<<<<<<< HEAD
 * [README.md](laravel/vendor/mockery/mockery/project_docs/README.md)
 * [README.md](../../../Chart/project_docs/README.md)
 * [README.md](../../../Reporting/project_docs/README.md)
@@ -166,6 +173,8 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](../../../Cms/project_docs/components/README.md)
 * [README.md](../../../../Themes/Two/project_docs/README.md)
 * [README.md](../../../../Themes/One/project_docs/README.md)
+=======
+>>>>>>> 80ef814d9 (.)
 
 ## Regola sulle closure void nelle azioni custom Filament
 
@@ -193,6 +202,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Aggiornare la documentazione ogni volta che si corregge questo errore.
 
 ### Collegamento
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
 - Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
@@ -252,6 +262,9 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 =======
 - Vedi anche: [<main module>/docs/filament-best-practices.mdc](../../../<main module>/docs/filament-best-practices.mdc)
 >>>>>>> c35185e63 (.)
+=======
+- Vedi anche: [<main module>/docs/filament-best-practices.mdc](../../../<main module>/docs/filament-best-practices.mdc)
+>>>>>>> 80ef814d9 (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore
@@ -286,6 +299,7 @@ $prefix = static::$translationPrefix;
 
 ## Moduli che fanno riferimento a questa regola
 - [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
+<<<<<<< HEAD
 - [Patient: DoctorResource](../../../Patient/project_docs/filament/resources/doctor-resource.md)
 - [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
 - [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
@@ -307,3 +321,7 @@ $prefix = static::$translationPrefix;
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+// Aggiungere qui altri moduli se necessario
+
+>>>>>>> 80ef814d9 (.)

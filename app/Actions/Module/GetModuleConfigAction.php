@@ -160,6 +160,7 @@ class GetModuleConfigAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
@@ -184,6 +185,11 @@ class GetModuleConfigAction
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 300ef70 (.)
+=======
+    /**
+     * @return array<string, mixed>
+     */
+>>>>>>> 80ef814d9 (.)
     public function execute(string $moduleName, string $config): array
     {
         $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');

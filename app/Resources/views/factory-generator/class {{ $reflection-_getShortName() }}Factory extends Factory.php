@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 =======
@@ -38,12 +39,15 @@
 =======
 >>>>>>> 88e35986 (.)
 =======
+>>>>>>> e0b8ebe3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +110,8 @@
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> 2a98b8fa (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 <?php
 
 declare(strict_types=1);
@@ -210,6 +216,16 @@ namespace Database\Factories;
 >>>>>>> 43d67f21 (.)
 =======
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 namespace Database\Factories;
 =======
 pace Database\Factories;

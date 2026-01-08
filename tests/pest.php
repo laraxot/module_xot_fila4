@@ -322,7 +322,11 @@ use Modules\Xot\Tests\TestCase;
 =======
 >>>>>>> 1c4bb8cf (.)
 
+<<<<<<< HEAD
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
+=======
+uses(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> 54cbe5d (.)
 
 /*
 <<<<<<< HEAD

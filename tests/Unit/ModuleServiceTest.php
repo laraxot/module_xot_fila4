@@ -104,6 +104,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -162,7 +163,13 @@ use Nwidart\Modules\Module;
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+>>>>>>> cf971011 (.)
         $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+>>>>>>> a5dccfe (.)
     });
 >>>>>>> 5e58b29b (.)
 
@@ -540,8 +547,15 @@ describe('ModuleService', function () {
 =======
 >>>>>>> 71586de2 (.)
     it('can be instantiated with different module names', function () {
+<<<<<<< HEAD
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
+=======
+        $service1 = new ModuleService();
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+>>>>>>> a5dccfe (.)
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
     });
@@ -627,6 +641,7 @@ describe('ModuleService', function () {
     });
 
     it('handles empty module gracefully', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,7 +888,13 @@ describe('ModuleService', function () {
 =======
 =======
 >>>>>>> f3f26717 (.)
+=======
+>>>>>>> cf971011 (.)
         $emptyService = new ModuleService()->setName('NonExistentModule');
+=======
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+>>>>>>> a5dccfe (.)
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();

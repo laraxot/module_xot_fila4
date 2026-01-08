@@ -102,6 +102,7 @@ public function panel(Panel $panel): Panel
 - [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
 - [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
 - [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
+<<<<<<< HEAD
 =======
 - [Documentazione Root](../../../project_docs/filament_panel_provider_rules.md)
 - [Architettura Filament](../../../project_docs/FILAMENT_BEST_PRACTICES.md)
@@ -114,3 +115,6 @@ public function panel(Panel $panel): Panel
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+
+>>>>>>> 99c0b3329 (.)

@@ -169,6 +169,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
 =======
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
@@ -176,6 +177,15 @@ performance::admin
 =======
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
+=======
+=======
+- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
+>>>>>>> 76bec91a (.)
+=======
+- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
@@ -185,6 +195,14 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.)
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -247,7 +265,33 @@ performance::admin
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato

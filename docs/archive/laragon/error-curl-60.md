@@ -13,6 +13,13 @@
 >>>>>>> 5a14301c (.)
 >>>>>>> dc2130a7c (.)
 Download the latest cacert.pem file from
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.)
 https://curl.se/docs/caextract.html
 Download the latest cacert.pem file from
 <<<<<<< HEAD
@@ -42,7 +49,47 @@ https://curl.se/docs/caextract.html
 >>>>>>> 0218cd5 (.)
 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+Download the latest cacert.pem file from
+<<<<<<< HEAD
+https://curl.se/project_docs/caextract.html
+=======
+https://curl.se/docs/caextract.html
+>>>>>>> 0218cd5 (.)
+
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+https://curl.se/project_docs/caextract.html
+
+>>>>>>> 76bec91a (.)
+=======
+Download the latest cacert.pem file from
+https://curl.se/project_docs/caextract.html
+
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+https://curl.se/project_docs/caextract.html
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 Update your php.ini file:  
 Locate your php.ini file and find the line ;curl.cainfo =.  
 Change it to: curl.cainfo = "C:\path\to\cacert.pem" (replace with the actual path where you saved the cacert.pem file).  
@@ -74,8 +121,17 @@ curl.cainfo = "PATH/TO/cacert.pem"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
  
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.)
  
 <<<<<<< HEAD
 =======
@@ -120,7 +176,37 @@ curl.cainfo = "PATH/TO/cacert.pem"
 =======
  
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+=======
+ 
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+ 
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+ 
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+ 
+>>>>>>> 76bec91a (.)
+=======
+ 
+>>>>>>> cc52d333 (.)
+=======
+=======
+ 
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+ 
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 
 [openssl]
 openssl.capath = "PATH/TO/cacert.pem"  
@@ -146,9 +232,18 @@ $client->setHttpClient($http);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.)
 
 
 <<<<<<< HEAD
@@ -200,7 +295,32 @@ $client->setHttpClient($http);
 
 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+
+
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+
+
+>>>>>>> 76bec91a (.)
+=======
+
+
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 --------------------
 composer config -g -- disable-tls true  
 composer config -g secure-http false   
@@ -221,10 +341,19 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.)
 
 
 
@@ -300,4 +429,33 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 >>>>>>> 3bf39332 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+
+
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+
+
+
+>>>>>>> 76bec91a (.)
+=======
+
+
+
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+
+
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)

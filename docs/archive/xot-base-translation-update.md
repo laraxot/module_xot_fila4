@@ -103,6 +103,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 <<<<<<< HEAD
@@ -186,4 +187,41 @@ return [
 >>>>>>> 3bf39332 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> cf971011 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 76bec91a (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> e7da37af (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)

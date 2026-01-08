@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 > - [README.md documentazione generale](../../../../project_docs/README.md)
@@ -98,7 +99,43 @@
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+> - [README.md documentazione generale](../../../../project_docs/README.md)
+> - [Struttura dei Prompt](./prompts.md)
+> - [Regole per i Prompt](./PROMPT_RULES.md)
+> - [README.md toolkit bashscripts](../../../../bashscripts/project_docs/README.md)
+
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+> - [README.md documentazione generale](../../../../project_docs/README.md)
+> - [Struttura dei Prompt](./prompts.md)
+> - [Regole per i Prompt](./PROMPT_RULES.md)
+> - [README.md toolkit bashscripts](../../../../bashscripts/project_docs/README.md)
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ## Regola Fondamentale
 
 **MAI UTILIZZARE PERCORSI ASSOLUTI NEI LINK DELLA DOCUMENTAZIONE. SEMPRE UTILIZZARE PERCORSI RELATIVI.**
@@ -122,6 +159,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
 =======
 [Modulo Xot](./laravel/Modules/Xot/docs/README.md)
@@ -169,7 +207,37 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 [Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+[Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+[Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 76bec91a (.)
+=======
+[Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+[Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 ### Da un file in un modulo verso un altro modulo
@@ -187,6 +255,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Altro Modulo](../../../AltroModulo/project_docs/README.md)
 =======
 [Altro Modulo](../../../AltroModulo/docs/README.md)
@@ -234,7 +303,37 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 [Altro Modulo](../../../AltroModulo/project_docs/README.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+[Altro Modulo](../../../AltroModulo/project_docs/README.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+[Altro Modulo](../../../AltroModulo/project_docs/README.md)
+>>>>>>> 76bec91a (.)
+=======
+[Altro Modulo](../../../AltroModulo/project_docs/README.md)
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+[Altro Modulo](../../../AltroModulo/project_docs/README.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 ### Da un file in un modulo verso la root
@@ -252,6 +351,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Documentazione Root](../../../../project_docs/README.md)
 =======
 [Documentazione Root](../../../../docs/README.md)
@@ -299,7 +399,37 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 [Documentazione Root](../../../../project_docs/README.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+[Documentazione Root](../../../../project_docs/README.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+[Documentazione Root](../../../../project_docs/README.md)
+>>>>>>> 76bec91a (.)
+=======
+[Documentazione Root](../../../../project_docs/README.md)
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+[Documentazione Root](../../../../project_docs/README.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 ## Errori Comuni da Evitare
@@ -309,6 +439,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,7 +503,28 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 76bec91a (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:
@@ -381,6 +533,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/project_docs/README.md)
    [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,7 +603,32 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/project_docs/README.md)
    [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+   [ERRATO](/project_docs/README.md)
+   [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+   [ERRATO](/project_docs/README.md)
+   [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 76bec91a (.)
+=======
+   [ERRATO](/project_docs/README.md)
+   [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+   [ERRATO](/project_docs/README.md)
+   [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
    ```
 
 3. **MAI utilizzare percorsi che non tengono conto della posizione relativa del file sorgente**:
@@ -459,6 +637,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
    [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,7 +707,32 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
    [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+   [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
+   [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+   [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
+   [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
+>>>>>>> 76bec91a (.)
+=======
+   [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
+   [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+   [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
+   [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
    ```
 
 ## Come Calcolare Correttamente i Percorsi Relativi
@@ -554,6 +758,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -568,7 +773,18 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 | `/project_docs/README.md` | `/laravel/Modules/Xot/project_docs/README.md` | `./laravel/Modules/Xot/project_docs/README.md` |
 | `/laravel/Modules/Xot/project_docs/README.md` | `/project_docs/README.md` | `../../../../project_docs/README.md` |
 | `/laravel/Modules/Xot/project_docs/README.md` | `/laravel/Modules/User/project_docs/README.md` | `../../../User/project_docs/README.md` |
@@ -576,6 +792,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,7 +852,37 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+
+>>>>>>> 76bec91a (.)
+=======
+
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ## Verifica dei Link
 
 Prima di committare modifiche alla documentazione:

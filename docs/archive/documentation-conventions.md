@@ -77,7 +77,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.)
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
 <<<<<<< HEAD
@@ -121,7 +130,28 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> 76bec91a (.)
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
@@ -139,7 +169,16 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
 <<<<<<< HEAD
@@ -183,7 +222,28 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> 76bec91a (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -232,6 +292,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione generale](../../../docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
@@ -269,6 +330,34 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Documentazione generale](../../../project_docs/documentation_rules.md)
+- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
+- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
+>>>>>>> 76bec91a (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Documentazione generale](../../../project_docs/documentation_rules.md)
+- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
+- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 <<<<<<< HEAD

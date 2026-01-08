@@ -48,6 +48,7 @@ Per prevenire questo errore in futuro:
 ## Riferimenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Laravel Cache](https://laravel.com/project_docs/cache)
 - [Documentazione Xot Component System](../structure.md) 
 =======
@@ -65,3 +66,6 @@ Per prevenire questo errore in futuro:
 >>>>>>> ba6c53070 (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+- [Documentazione Laravel Cache](https://laravel.com/docs/cache)
+>>>>>>> 99c0b3329 (.)

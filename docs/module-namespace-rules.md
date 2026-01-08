@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 99c0b3329 (.)
 # Regola generale: Label e traduzioni in Filament
 
 ## Regola
@@ -25,6 +28,7 @@
 - [docs root](../../../../docs/actions.md)
 - [docs Lang](../../Lang/docs/filament-label.md)
 
+<<<<<<< HEAD
 Ultimo aggiornamento: maggio 2025.
 =======
 # MODULE_NAMESPACE_RULES.md
@@ -71,3 +75,6 @@ Ultimo aggiornamento: 2025-05-13
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+Ultimo aggiornamento: maggio 2025.
+>>>>>>> 99c0b3329 (.)

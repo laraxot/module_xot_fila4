@@ -31,6 +31,7 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 <<<<<<< HEAD
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
@@ -120,7 +121,36 @@ public static string $projectBasePath = '/var/www/html/saluteora';
 public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> 76bec91a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 **File contaminati:**
@@ -132,6 +162,7 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 <<<<<<< HEAD
 ->andReturn(\Modules\SaluteOra\Models\User::class);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,7 +224,28 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 =======
 ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 76bec91a (.)
+=======
+->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 **File contaminati:**
@@ -217,6 +269,7 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 self::MONDAY => __('<nome progetto>::common.days.description.monday'),
 self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 <<<<<<< HEAD
@@ -282,7 +335,32 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 self::MONDAY => __('saluteora::common.days.description.monday'),
 self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+self::MONDAY => __('saluteora::common.days.description.monday'),
+self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+self::MONDAY => __('saluteora::common.days.description.monday'),
+self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+>>>>>>> 76bec91a (.)
+=======
+self::MONDAY => __('saluteora::common.days.description.monday'),
+self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+self::MONDAY => __('saluteora::common.days.description.monday'),
+self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 **File contaminati:**
@@ -305,6 +383,7 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 <<<<<<< HEAD
 =======
@@ -354,7 +433,28 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 =======
 'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> 76bec91a (.)
+=======
+'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 **File contaminati:**
@@ -366,6 +466,7 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 <<<<<<< HEAD
 use Modules\SaluteOra\Models\Appointment;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,7 +528,28 @@ use Modules\SaluteOra\Models\Appointment;
 =======
 use Modules\SaluteOra\Models\Appointment;
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> 76bec91a (.)
+=======
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 **File contaminati:**
@@ -490,6 +612,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ['/<nome progetto>/', '/Modules/'],
 <<<<<<< HEAD
 =======
@@ -539,7 +662,28 @@ class PathHelper
 =======
             ['/saluteora/', '/Modules/'],
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+            ['/saluteora/', '/Modules/'],
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+            ['/saluteora/', '/Modules/'],
+>>>>>>> 76bec91a (.)
+=======
+            ['/saluteora/', '/Modules/'],
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+            ['/saluteora/', '/Modules/'],
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
             [$projectPath, $modulesPath],
             $path
         );
@@ -708,6 +852,7 @@ MODULES_BASE_PATH=/var/www/html/saluteora/laravel/Modules
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PROJECT_BASE_PATH=/var/www/html/<nome progetto>
 <<<<<<< HEAD
 LARAVEL_BASE_PATH=/var/www/html/<nome progetto>/laravel
@@ -756,6 +901,19 @@ MODULES_BASE_PATH=/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modul
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 PROJECT_BASE_PATH=/var/www/html/saluteora
 LARAVEL_BASE_PATH=/var/www/html/saluteora/laravel
 MODULES_BASE_PATH=/var/www/html/saluteora/laravel/Modules
@@ -805,6 +963,7 @@ XOT_TABLE_SCHEMAS=saluteora,public,main,information_schema
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -864,7 +1023,24 @@ XOT_TABLE_SCHEMAS=<nome progetto>,public,main,information_schema
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 ### Override per Progetti Specifici
@@ -888,6 +1064,7 @@ Ogni progetto può personalizzare path, modelli e traduzioni tramite variabili d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "/var/www/html/<nome progetto>" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -929,7 +1106,24 @@ grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 grep -r "/var/www/html/saluteora" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -939,6 +1133,7 @@ grep -r "Modules\\SaluteOra" laravel/Modules/Xot/ --include="*.php"
 grep -r "saluteora::" laravel/Modules/Xot/ --include="*.php"
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -995,7 +1190,24 @@ grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ```
 
 ### Risultato Atteso
@@ -1018,6 +1230,7 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
 =======
 - [Root Docs: Modularity Hardcoded Names](../../../docs/modularity-hardcoded-names.md)
@@ -1064,7 +1277,40 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 =======
 - [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../docs/modularity-hardcoded-names.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../docs/modularity-hardcoded-names.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+>>>>>>> 76bec91a (.)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+>>>>>>> cc52d333 (.)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../docs/modularity-hardcoded-names.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 - [Regole Cursor: Modularity Rules](../../../.cursor/rules/modularity-hardcoded-names.mdc)
 - [Xot Architecture Overview](./architecture-overview.md)
 - [Xot Best Practices](./best-practices/README.md)

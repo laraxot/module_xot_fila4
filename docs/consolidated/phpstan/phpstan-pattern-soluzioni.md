@@ -297,6 +297,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -381,4 +382,27 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 >>>>>>> 3bf39332 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+>>>>>>> 76bec91a (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)

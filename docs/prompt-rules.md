@@ -35,6 +35,7 @@ La documentazione generica deve essere sempre inserita nella cartella `docs` del
 ### Collocazione della documentazione dei componenti UI
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 >>>>>>> b9c66c44e (.)
@@ -45,6 +46,9 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/project_docs/README.md) per i dettagli.
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
+>>>>>>> 99c0b3329 (.)
 
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)
@@ -62,6 +66,7 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 * [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
 =======
 =======
@@ -75,6 +80,8 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 99c0b3329 (.)
 
 
 ## Collegamenti tra versioni di prompt_rules.md

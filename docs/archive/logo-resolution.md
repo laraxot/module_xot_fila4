@@ -126,6 +126,7 @@ Per la versione dark:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 - [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
@@ -204,7 +205,43 @@ Per la versione dark:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ---
 
 ### Nota Importante

@@ -89,6 +89,7 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 - [ ] Token presente nella vista
 - [ ] Meta tag CSRF nel layout
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Dipendenze Livewire aggiornate 
 =======
 - [ ] Dipendenze Livewire aggiornate 
@@ -97,3 +98,5 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 99c0b3329 (.)

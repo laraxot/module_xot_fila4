@@ -5,6 +5,29 @@
 # REGOLA CRITICA: Cartelle docs root VIETATE
 
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
+=======
+=======
+>>>>>>> 5a14301c (.)
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 99c0b3329 (.)
 - `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
 - `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
 <<<<<<< HEAD
@@ -72,7 +95,66 @@
 - `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
 - `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+=======
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+# REGOLA CRITICA: Cartelle docs root VIETATE
+
+## CARTELLE CHE NON DEVONO MAI ESISTERE:
+<<<<<<< HEAD
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 76bec91a (.)
+=======
+# REGOLA CRITICA: Cartelle docs root VIETATE
+
+## CARTELLE CHE NON DEVONO MAI ESISTERE:
+<<<<<<< HEAD
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+<<<<<<< HEAD
+>>>>>>> cc52d333 (.)
+=======
+=======
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -102,6 +184,7 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 <<<<<<< HEAD
 find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,7 +249,28 @@ find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep
 =======
 find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 76bec91a (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```

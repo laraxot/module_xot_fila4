@@ -546,6 +546,7 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 - [XotBaseWidget](./xotbase-widget.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Widgets Documentation](https://filamentphp.com/project_docs/2.x/admin/widgets) 
 =======
 - [Filament Widgets Documentation](https://filamentphp.com/docs/2.x/admin/widgets) 
@@ -560,3 +561,6 @@ protected static ?string $pollingInterval = '2m'; // Per dati che cambiano spess
 >>>>>>> ba6c53070 (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+- [Filament Widgets Documentation](https://filamentphp.com/docs/2.x/admin/widgets) 
+>>>>>>> 99c0b3329 (.)

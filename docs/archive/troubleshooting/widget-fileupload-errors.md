@@ -268,6 +268,7 @@ Questo pattern si applica anche a:
 **Modulo**: Xot (Base)  
 **Applicabilità**: Tutti i widget con FileUpload che caricano dati esistenti  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Aggiornato**: 2025-01-07 
 =======
 **Aggiornato**: 2025-01-07 
@@ -276,3 +277,5 @@ Questo pattern si applica anche a:
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 99c0b3329 (.)

@@ -400,7 +400,108 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
+<<<<<<< HEAD
 ### SaluteOra Module (CRITICO)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome progetto> Module (CRITICO)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 71f31700 (.)
+=======
+### SaluteOra Module (CRITICO)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 3bf39332 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> cf971011 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> e7da37af (.)
+=======
+###  Module (CRITICO)
+### <nome progetto> Module (CRITICO)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> b7ea1cd1 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 76bec91a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`

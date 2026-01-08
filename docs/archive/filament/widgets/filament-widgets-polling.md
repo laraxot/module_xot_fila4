@@ -153,6 +153,7 @@ Questa funzionalità è compatibile con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,4 +221,31 @@ Questa funzionalità è compatibile con:
 >>>>>>> 3bf39332 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+>>>>>>> 76bec91a (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)

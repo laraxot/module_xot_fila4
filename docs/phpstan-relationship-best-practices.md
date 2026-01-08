@@ -232,7 +232,111 @@ Prima di committare modelli con relazioni, verificare:
 - [ ] **NO** annotazioni generiche `@return RelationType<Model, self>`
 - [ ] I tipi di relazione sono corretti nel tipo di ritorno del metodo
 - [ ] PHPStan livello 9+ passa senza errori
+<<<<<<< HEAD
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [ ] **MAI** modificare `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+- [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 71f31700 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> d86d643a (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 472bd9dc (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 3bf39332 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> cf971011 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> e7da37af (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- [ ] **MAI** modificare `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+- [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> b7ea1cd1 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 76bec91a (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 
 ## Verifica PHPStan
 

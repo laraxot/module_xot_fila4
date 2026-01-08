@@ -41,6 +41,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione Globale** (`/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,7 +89,37 @@ base_predict_fila3_mono/
 =======
 - **Documentazione Globale** (`/project_docs/`)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> 76bec91a (.)
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -105,6 +136,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,7 +184,37 @@ base_predict_fila3_mono/
 =======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> 76bec91a (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -193,7 +255,16 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.)
      1. Aggiornare `Modules/[ModuleName]/docs/`
      2. Se rilevante, aggiungere riferimento in `/docs/`
 
@@ -272,7 +343,43 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**

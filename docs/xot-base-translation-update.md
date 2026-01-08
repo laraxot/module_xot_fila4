@@ -91,6 +91,7 @@ return [
 - [Regole Traduzioni Xot](translation_rules.md)
 - [Best Practices Traduzioni](translations-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 =======
 <<<<<<< HEAD
@@ -109,3 +110,7 @@ return [
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+>>>>>>> 99c0b3329 (.)

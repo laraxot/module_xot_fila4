@@ -441,6 +441,7 @@ class Product extends BaseModel
 
 - [SafeFloatCastAction](../safe-float-cast-action.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [DRY Principle](../../project_docs/dry-principle.md)
 - [KISS Principle](../../project_docs/kiss-principle.md)
 =======
@@ -452,10 +453,15 @@ class Product extends BaseModel
 - [KISS Principle](../../project_docs/kiss-principle.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+- [DRY Principle](../../docs/dry-principle.md)
+- [KISS Principle](../../docs/kiss-principle.md)
+>>>>>>> 99c0b3329 (.)
 - [Xot Actions Documentation](../actions/README.md)
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
@@ -465,3 +471,5 @@ class Product extends BaseModel
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 99c0b3329 (.)

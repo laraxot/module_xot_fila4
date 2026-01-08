@@ -5,11 +5,13 @@
 ## Data: 2025-01-06
 
 ## Contesto
-<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+<<<<<<< HEAD
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> 99c0b3329 (.)
 
 ## File Corretti
 
@@ -214,6 +216,7 @@ php artisan lang:check
 **Autore**: Sistema di correzione automatica
 **Stato**: ✅ Completato
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
@@ -225,3 +228,5 @@ php artisan lang:check
 >>>>>>> ba6c53070 (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 99c0b3329 (.)

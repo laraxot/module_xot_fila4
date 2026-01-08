@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -887,7 +888,27 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
@@ -923,6 +944,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 <<<<<<< HEAD
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -981,7 +1003,40 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> e0b8ebe3 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 76bec91a (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> cc52d333 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`

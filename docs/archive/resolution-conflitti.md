@@ -29,6 +29,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 ### 3. Autenticazione e UI
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
 =======
@@ -39,6 +40,10 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 - [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
 >>>>>>> ba6c53070 (.)
+=======
+- [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
+- [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
+>>>>>>> 99c0b3329 (.)
   - Implementazione completa sistema registrazione
   - Gestione tipi utente dinamica
   - UI moderna con Filament
@@ -123,6 +128,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
 =======
@@ -133,6 +139,10 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
 >>>>>>> ba6c53070 (.)
+=======
+- [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
+- [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
+>>>>>>> 99c0b3329 (.)
 - [Dettagli risoluzione ModelWithPosContract](./conflicts/model_with_pos_contract_resolution.md)
 
 ## XotBaseMainPanelProvider.php
@@ -230,6 +240,7 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 ### Modulo Activity
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
 =======
 - Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
@@ -237,6 +248,9 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 =======
 - Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
 >>>>>>> ba6c53070 (.)
+=======
+- Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
+>>>>>>> 99c0b3329 (.)
 - File README.md del modulo Activity
 
 ### Modulo Xot
@@ -262,6 +276,7 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
 =======
@@ -272,10 +287,15 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 * [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
 >>>>>>> ba6c53070 (.)
+=======
+* [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
+* [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
+>>>>>>> 99c0b3329 (.)
 
 aurmich/dev
 5693302 (.)
 b6f667c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 * [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
@@ -286,6 +306,11 @@ b6f667c (.)
 * [Risoluzione Conflitti Tenant](../../../Tenant/docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
 >>>>>>> b9c66c44e (.)
+=======
+* [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
+* [Risoluzione Conflitti Tenant](../../../Tenant/project_docs/risoluzione_conflitti.md)
+* [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
+>>>>>>> 99c0b3329 (.)
 fc83074 (.)
 
 =======

@@ -65,6 +65,7 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
@@ -117,7 +118,28 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -140,6 +162,7 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
@@ -192,7 +215,28 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 npm install
 npm run build
 npm run copy

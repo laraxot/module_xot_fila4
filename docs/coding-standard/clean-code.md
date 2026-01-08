@@ -284,12 +284,30 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/coding-standard/clean-code.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/coding-standard/clean-code.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99c0b3329 (.):docs/archive/coding-standard/clean-code.md
    - Usa il percorso `/var/www/html/base_<nome progetto>/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
 =======
 >>>>>>> cc7fb225 (.)
 =======
+<<<<<<< HEAD:docs/coding-standard/clean-code.md
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.):docs/archive/coding-standard/clean-code.md
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
 >>>>>>> 33af3e61 (.)

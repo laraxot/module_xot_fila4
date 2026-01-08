@@ -461,6 +461,7 @@ class Product extends BaseModel
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 *Ultimo aggiornamento: 2025-01-06* 
@@ -469,3 +470,5 @@ class Product extends BaseModel
 >>>>>>> dc2130a7c (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 99c0b3329 (.)

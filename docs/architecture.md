@@ -395,6 +395,7 @@ test('all models extend base model', function () {
 - [**README.md**](README.md) - Documentazione principale del modulo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
 =======
@@ -405,6 +406,10 @@ test('all models extend base model', function () {
 - [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
 >>>>>>> ba6c53070 (.)
+=======
+- [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
+- [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
+>>>>>>> 99c0b3329 (.)
 
 ---
 

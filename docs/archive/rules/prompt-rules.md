@@ -42,6 +42,7 @@ Non è necessario applicare questa regola a:
 ## Collegamenti tra versioni di PROMPT_RULES.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
 =======
@@ -52,6 +53,10 @@ Non è necessario applicare questa regola a:
 * [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
 >>>>>>> ba6c53070 (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> 99c0b3329 (.)
 
 
 ## Collegamenti tra versioni di prompt_rules.md

@@ -95,6 +95,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 - [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
@@ -183,7 +184,47 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -193,6 +234,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 ## Vedi Anche
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,7 +326,45 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> ba6c53070 (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione

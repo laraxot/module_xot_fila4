@@ -83,6 +83,7 @@ public function mount(): void
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
@@ -92,6 +93,8 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 99c0b3329 (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
@@ -107,6 +110,7 @@ curl -I http://personale2022.prov.tv.local/pdnd/admin
 curl -I http://personale2022.prov.tv.local/admin
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
@@ -116,6 +120,8 @@ curl -I http://personale2022.prov.tv.local/admin
 curl -I http://personale2022.prov.tv.local/admin
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 99c0b3329 (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
@@ -123,6 +129,7 @@ curl -I http://personale2022.prov.tv.local/admin
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
@@ -137,6 +144,11 @@ curl -I http://personale2022.prov.tv.local/admin
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+
+>>>>>>> 99c0b3329 (.)
 # senza redirect automatico
 ```
 
@@ -218,6 +230,7 @@ performance::admin
 - [User Role Management](../../User/docs/console_commands/README.md)
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
 =======
 =======
@@ -230,6 +243,8 @@ performance::admin
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> ba6c53070 (.)
+=======
+>>>>>>> 99c0b3329 (.)
 
 ## Aggiornamenti
 
@@ -246,6 +261,7 @@ performance::admin
 - ✅ **Performance**: Nessun impatto negativo
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-27* 
 =======
 >>>>>>> dc2130a7c (.)
@@ -257,3 +273,5 @@ performance::admin
 >>>>>>> ba6c53070 (.)
 =======
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 99c0b3329 (.)

@@ -45,6 +45,7 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
@@ -206,6 +207,12 @@ namespace Modules\Patient\Models;
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 55fe1822 (.)
 namespace Modules\Dental\Services;
 ```
 

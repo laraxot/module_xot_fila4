@@ -36,6 +36,7 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -473,7 +474,41 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 =======
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
+=======
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 71586de2 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> c84488b (.)
+>>>>>>> 5bd842e3 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+>>>>>>> f3f26717 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 4. If you are using Filament
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 v2, [see the documentation here](https://github.com/savannabits/filament-modules/tree/main#readme) to get started.**
 
 For example, if you have two modules (**Blog** and **Pos**), you should be able to have filament installed in each module with separate resources as below:
@@ -489,6 +524,7 @@ You can read more about Multiple Context for Filament [Here](https://github.com/
 If this is your goal, then you are in the right place.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -557,7 +593,23 @@ If this is your goal, then you are in the right place.
 =======
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
+=======
+=======
+ 
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+ 
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+ 
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 
 ## Installation
 Before you proceed, this guide assumes that you have configured your app fully to work with Laravel Modules. If you haven't, follow the [Laravel Modules Docs](https://docs.laravelmodules.com/v9/installation-and-setup) before proceeding.
@@ -594,6 +646,7 @@ If this is your goal, then you are in the right place.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -651,7 +704,23 @@ If this is your goal, then you are in the right place.
 =======
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
+=======
+=======
+ 
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+ 
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+ 
+>>>>>>> 55fe1822 (.)
+>>>>>>> 99c0b3329 (.)
 
 ## Installation
 Before you proceed, this guide assumes that you have configured your app fully to work with Laravel Modules. If you haven't, follow the [Laravel Modules Docs](https://docs.laravelmodules.com/v9/installation-and-setup) before proceeding.

@@ -81,10 +81,6 @@ interface ModelContract
      * @return bool
      */
     public function save(array $options = []);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
     /**
      * Convert the model instance to an array representation.
@@ -102,18 +98,6 @@ interface ModelContract
      *
      * public function forceCreate(array $attributes);
      */
-<<<<<<< HEAD
-=======
-    /*
-         * Save a new model and return the instance. Allow mass-assignment.
-         *
-         * @return \Illuminate\Database\Eloquent\Model|$this
-
-        public function forceCreate(array $attributes);
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
     /**
      * Convert the model instance to an array.
@@ -162,22 +146,9 @@ interface ModelContract
      * @param  mixed  $value
      * @param  string $boolean
      * @return $this
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
-=======
-
-    public function where($column, $operator = null, $value = null, $boolean = 'and');
-    */
-
->>>>>>> f1d4085 (.)
-=======
-     *
-     * public function where($column, $operator = null, $value = null, $boolean = 'and');
-     */
->>>>>>> 73eab74 (.)
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -185,19 +156,7 @@ interface ModelContract
      * @return \Illuminate\Database\Eloquent\Model|static
      *
      * @throws \Illuminate\Database\Eloquent\ModelNotFoundException<\Illuminate\Database\Eloquent\Model>
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
      * public function firstOrFail($columns = ['*']);
      */
-=======
-
-    public function firstOrFail($columns = ['*']);
-    */
->>>>>>> f1d4085 (.)
-=======
-     *
-     * public function firstOrFail($columns = ['*']);
-     */
->>>>>>> 73eab74 (.)
 }

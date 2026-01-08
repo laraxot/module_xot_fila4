@@ -46,6 +46,7 @@ class MainDashboard extends XotBaseDashboard
     public function mount(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $user = Auth::user();
         Assert::notNull($user, '['.__LINE__.']['.class_basename($this).']');
         // Usa roles() come metodo invece della magic property per type safety
@@ -70,6 +71,20 @@ class MainDashboard extends XotBaseDashboard
         if ($modules->count() === 1) {
             $module_first = $modules->first();
             Assert::notNull($module_first);
+=======
+<<<<<<< HEAD
+        Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
+        /** @var \Modules\Fixcity\Models\User $user */
+        $user = $user;
+        /** @var \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles */
+        $roles = $user->roles;
+        $modules = $roles->filter(static fn (\Modules\User\Models\Role $item) => Str::endsWith($item->name, '::admin'));
+
+        if ($modules->count() === 1) {
+            Assert::notNull($module_first = $modules->first(), '['.__LINE__.']['.class_basename($this).']');
+            /** @var \Modules\User\Models\Role $module_first */
+            $module_first = $module_first;
+>>>>>>> 0516d3de0 (.)
             $panel_name = $module_first->name;
             Assert::string($panel_name);
             $module_name = Str::before($panel_name, '::admin');

@@ -69,6 +69,25 @@ class ExportXlsLazyAction extends Action
                             },
                             $rawFields
                         );
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+                        $fields = array_map(static function ($field): string {
+                            if (is_object($field) && method_exists($field, '__toString')) {
+                                return (string) $field->__toString();
+                            }
+                            if (is_scalar($field)) {
+                                return (string) $field;
+                            }
+                            return '';
+                        }, $rawFields);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 0516d3de0 (.)
                     }
                     Assert::isArray($fields);
                 }

@@ -39,10 +39,16 @@ class ExportXlsByCollection
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(fn (mixed $field): string => (string) $field, array_values($fields));
 
+        // Converti EloquentCollection in Collection<int, Model>
+        /** @var Collection<int, Model> $normalizedCollection */
+        $normalizedCollection = $collection instanceof EloquentCollection
+            ? Collection::make($collection->all())
+            : $collection;
+
         $export = new CollectionExport(
-            collection: $collection,
-            transKey: $transKey,
-            fields: $stringFields,
+            collection: $normalizedCollection,
+            headings: [],
+            columns: $stringFields,
         );
 
         return Excel::download($export, $filename);

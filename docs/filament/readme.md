@@ -264,7 +264,7 @@ Chi estende XotBaseResource **non deve mai** dichiarare o ridefinire:
 - `protected static ?string $navigationGroup`
 - `protected static ?string $translationPrefix`
 - `public static function table(...)`
-- `public static function getListTableColumns(): array`
+- `public static function getTableColumns(): array`
 
 **Motivazione:**
 - La logica di navigazione, traduzione e colonne è centralizzata per garantire coerenza e manutenibilità.

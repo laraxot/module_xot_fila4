@@ -12,24 +12,10 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\ModuleFactory;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-=======
-
-use function Safe\json_encode;
-
-use Sushi\Sushi;
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -138,10 +124,6 @@ class Module extends Model
     public function getRows(): array
     {
         $modules = ModuleFacade::all();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
             if (! is_array($config)) {
@@ -162,33 +144,6 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
-<<<<<<< HEAD
-=======
-        $modules = Arr::map(
-            $modules,
-            function (NModule $module): array {
-                $config = config('tenant::config');
-                if (! is_array($config)) {
-                    $config = [];
-                }
-                $colors = Arr::get($config, 'colors', []);
-
-                return [
-                    'name' => $module->getName(),
-                    // 'alias' => $module->getAlias(),
-                    'description' => $module->getDescription(),
-                    'status' => $module->isEnabled(),
-                    'priority' => $module->get('priority'),
-                    'path' => $module->getPath(),
-                    'icon' => Arr::get($config, 'icon', 'heroicon-o-question-mark-circle'),
-                    'colors' => json_encode($colors),
-                ];
-            }
-        );
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         return array_values($modules);
     }
 

@@ -22,11 +22,7 @@ Download the latest cacert.pem file from
 >>>>>>> 99c0b3329 (.)
 https://curl.se/docs/caextract.html
 Download the latest cacert.pem file from
-<<<<<<< HEAD
-https://curl.se/project_docs/caextract.html
-=======
 https://curl.se/docs/caextract.html
->>>>>>> 0218cd5 (.)
 
 <<<<<<< HEAD
 =======

@@ -112,13 +112,6 @@ use Modules\Xot\Database\Factories\CacheFactory;
  * @property string $key
  * @property string $value
  * @property int $expiration
-<<<<<<< HEAD
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
-=======
- * @property-read \Modules\Quaeris\Models\Profile|null $creator
- * @property-read \Modules\Quaeris\Models\Profile|null $updater
->>>>>>> f1570712 (.)
  *
  * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
  * @method static Builder<static>|Cache newModelQuery()

@@ -9,13 +9,19 @@
 >>>>>>>> 27c94d185 (.):docs/archive/contracts/model-contract.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/contracts/model-contract.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/contracts/model-contract.md
+========
+<<<<<<< HEAD
+>>>>>>>> b21979cb8 (.):docs/archive/contracts/model-contract.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6e7c1905 (.)
 # ModelContract
 
 ## Descrizione
@@ -65,6 +71,7 @@ interface ModelContract
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 <<<<<<<< HEAD:docs/contracts/model-contract.md
 ========
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,4 +131,11 @@ interface ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 03ceeac3 (.)
+<<<<<<<< HEAD:docs/contracts/model-contract.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/contracts/model-contract.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 6e7c1905 (.)
+>>>>>>>> b21979cb8 (.):docs/archive/contracts/model-contract.md

@@ -9,13 +9,19 @@
 >>>>>>>> 27c94d185 (.):docs/archive/contracts/model-input-contract.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/contracts/model-input-contract.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/contracts/model-input-contract.md
+========
+<<<<<<< HEAD
+>>>>>>>> b21979cb8 (.):docs/archive/contracts/model-input-contract.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6e7c1905 (.)
 # ModelInputContract
 
 ## Descrizione
@@ -78,6 +84,7 @@ interface ModelInputContract extends ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/contracts/model-input-contract.md
@@ -129,4 +136,11 @@ interface ModelInputContract extends ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 03ceeac3 (.)
+<<<<<<<< HEAD:docs/contracts/model-input-contract.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/contracts/model-input-contract.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 6e7c1905 (.)
+>>>>>>>> b21979cb8 (.):docs/archive/contracts/model-input-contract.md

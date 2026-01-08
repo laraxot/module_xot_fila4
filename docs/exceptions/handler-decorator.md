@@ -9,13 +9,19 @@
 >>>>>>>> 27c94d185 (.):docs/archive/exceptions/handler-decorator.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/exceptions/handler-decorator.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/exceptions/handler-decorator.md
+========
+<<<<<<< HEAD
+>>>>>>>> b21979cb8 (.):docs/archive/exceptions/handler-decorator.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6e7c1905 (.)
 # HandlerDecorator
 
 ## Descrizione
@@ -59,6 +65,7 @@ class HandlerDecorator implements ExceptionHandlerContract
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
 <<<<<<<< HEAD:docs/exceptions/handler-decorator.md
 ========
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,4 +125,11 @@ class HandlerDecorator implements ExceptionHandlerContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Error Formatters](./formatters/README.md) 
 >>>>>>> 03ceeac3 (.)
+<<<<<<<< HEAD:docs/exceptions/handler-decorator.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/exceptions/handler-decorator.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters](./formatters/README.md) 
+>>>>>>> 6e7c1905 (.)
+>>>>>>>> b21979cb8 (.):docs/archive/exceptions/handler-decorator.md

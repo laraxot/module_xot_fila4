@@ -9,13 +9,19 @@
 >>>>>>>> 27c94d185 (.):docs/archive/exceptions/handlers/handlers-repository.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/exceptions/handlers/handlers-repository.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/exceptions/handlers/handlers-repository.md
+========
+<<<<<<< HEAD
+>>>>>>>> b21979cb8 (.):docs/archive/exceptions/handlers/handlers-repository.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6e7c1905 (.)
 # HandlersRepository
 
 ## Descrizione
@@ -113,6 +119,7 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/exceptions/handlers/handlers-repository.md
@@ -164,4 +171,11 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 - [Handlers Overview](./README.md) 
 >>>>>>> 03ceeac3 (.)
+<<<<<<<< HEAD:docs/exceptions/handlers/handlers-repository.md
 >>>>>>>> 8bdfcb7ec (.):docs/archive/exceptions/handlers/handlers-repository.md
+========
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Handlers Overview](./README.md) 
+>>>>>>> 6e7c1905 (.)
+>>>>>>>> b21979cb8 (.):docs/archive/exceptions/handlers/handlers-repository.md

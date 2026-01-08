@@ -6,7 +6,11 @@ Documentazione della risoluzione dei conflitti Git nel modulo Xot che bloccavano
 ## File Interessati
 
 ### 1. Helpers/Helper.php
+<<<<<<< HEAD
 **Problema**: Marker di conflitto  causavano ParseError
+=======
+**Problema**: Marker di conflitto `<<<<<<< HEAD` causavano ParseError
+>>>>>>> 639df80 (.)
 **Risoluzione**: Selezione della "current change" per tutti i conflitti
 
 **Conflitti risolti**:
@@ -48,7 +52,11 @@ Documentazione della risoluzione dei conflitti Git nel modulo Xot che bloccavano
 - Docblock e tipizzazione
 
 ## Metodologia di Risoluzione
+<<<<<<< HEAD
 1. **Identificazione**: Script automatico per trovare tutti i marker 
+=======
+1. **Identificazione**: Script automatico per trovare tutti i marker `<<<<<<< HEAD`
+>>>>>>> 639df80 (.)
 2. **Selezione**: Sempre "current change" (contenuto tra `=======` e `>>>>>>>`)
 3. **Backup**: Backup automatico prima delle modifiche
 4. **Verifica**: Controllo che non rimangano marker di conflitto

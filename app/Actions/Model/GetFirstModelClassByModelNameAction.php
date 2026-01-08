@@ -22,6 +22,7 @@ class GetFirstModelClassByModelNameAction
     {
         /** @var array<string, class-string> $models */
         $models = app(GetAllModelsAction::class)->execute();
+<<<<<<< HEAD
         Assert::keyExists(
             $models,
             $modelName,
@@ -31,6 +32,10 @@ class GetFirstModelClassByModelNameAction
         $modelClass = $models[$modelName];
         Assert::string(
             $modelClass,
+=======
+        Assert::string(
+            $modelClass = collect($models)->get($modelName),
+>>>>>>> f1570712 (.)
             '['.__LINE__.']['.class_basename($this).']',
 <<<<<<< HEAD
 =======

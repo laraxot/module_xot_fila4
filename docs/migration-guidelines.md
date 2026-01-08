@@ -46,6 +46,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +63,8 @@ return new class extends XotBaseMigration
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 5e58b29b (.)
 - [User Module Database Errors](../../User/docs/DATABASE_ERRORS.md)
 - [Xot Base Classes](../XOT_BASE_CLASSES.md)
 - [Code Quality](../CODE_QUALITY.md)
@@ -71,6 +74,15 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+- [User Module Database Errors](../../User/project_docs/DATABASE_ERRORS.md)
+- [Xot Base Classes](../XOT_BASE_CLASSES.md)
+- [Code Quality](../CODE_QUALITY.md)
+- [Root Documentation](../../../../project_docs/collegamenti-documentazione.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 <<<<<<< HEAD
 =======

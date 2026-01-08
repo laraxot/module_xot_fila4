@@ -38,6 +38,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -178,9 +179,14 @@ use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 >>>>>>> 7131bd09 (.)
 =======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+>>>>>>> 5e58b29b (.)
+=======
 use Modules\Xot\Datas\MetatagData;
 use Filament\Support\Colors\Color;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +280,8 @@ use Modules\Xot\Datas\MetatagData;
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 >>>>>>> 87a02960 (.)
+=======
+>>>>>>> 5e58b29b (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
@@ -463,7 +471,11 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
     $metatagData = new MetatagData();
     $colors = $metatagData->getFilamentColors();
 
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5e58b29b (.)
     expect($colors)
         ->toBeArray()
         ->and($colors)
@@ -686,7 +698,16 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
         ->toBe(Color::Red)
         ->and($colors['primary'])
         ->toBe(Color::Amber);
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
+=======
+=======
+    expect($colors)->toBeArray()
+        ->and($colors)->toHaveKeys(['danger', 'gray', 'info', 'primary', 'success', 'warning'])
+        ->and($colors['danger'])->toBe(Color::Red)
+        ->and($colors['primary'])->toBe(Color::Amber);
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 });
 
 /**
@@ -705,6 +726,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
         'custom_color' => [
             'key' => 'custom_color',
             'color' => 'custom',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -798,12 +820,15 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 87a02960 (.)
+=======
+>>>>>>> 5e58b29b (.)
             'hex' => '#FF5500',
         ],
         'primary' => [
             'key' => 'primary',
             'color' => 'amber',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -869,12 +894,16 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> 5e58b29b (.)
             'hex' => '#FF5500'
         ],
         'primary' => [
             'key' => 'primary',
             'color' => 'amber'
         ]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1358,12 +1387,24 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 =======
 >>>>>>> b7afadf9 (.)
 =======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
     ];
 
     $colors = $metatagData->getColors();
 
+<<<<<<< HEAD
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
+=======
+=======
+    expect($colors)->toBeArray()
+        ->and($colors)->toHaveKey('custom_color')
+        ->and($colors)->toHaveKey('primary');
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 });
 
 /**
@@ -1548,7 +1589,11 @@ test('Le proprietà hanno i valori di default corretti', function (): void {
 test('Le proprietà hanno i valori di default corretti', function () {
     $metatagData = new MetatagData();
 
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5e58b29b (.)
     expect($metatagData->generator)
         ->toBe('xot')
         ->and($metatagData->charset)
@@ -1559,6 +1604,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
         ->toBe('2em')
         ->and($metatagData->favicon)
         ->toBe('/favicon.ico');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1653,11 +1699,15 @@ test('Le proprietà hanno i valori di default corretti', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> 5e58b29b (.)
     expect($metatagData->generator)->toBe('xot')
         ->and($metatagData->charset)->toBe('UTF-8')
         ->and($metatagData->author)->toBe('xot')
         ->and($metatagData->logo_height)->toBe('2em')
         ->and($metatagData->favicon)->toBe('/favicon.ico');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1769,4 +1819,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 87a02960 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 });

@@ -5,9 +5,15 @@ declare(strict_types=1);
 namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Database\QueryException;
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+=======
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> f1d4085 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -466,3 +472,7 @@ class ModuleBusinessLogicTest extends TestCase
         $this->assertEquals(42, $moduleErrorLog[0]['context']['line']);
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)

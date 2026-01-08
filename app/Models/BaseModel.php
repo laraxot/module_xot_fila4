@@ -153,6 +153,7 @@ abstract class BaseModel extends XotBaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +184,11 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> ba1d49f3 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

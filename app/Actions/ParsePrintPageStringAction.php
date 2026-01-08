@@ -6,11 +6,20 @@ namespace Modules\Xot\Actions;
 
 use InvalidArgumentException;
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
+=======
+
+use function Safe\preg_match_all;
+
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+
+>>>>>>> f1d4085 (.)
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -63,7 +72,14 @@ class ParsePrintPageStringAction
             if ($secondNumber === '') {
                 $res[] = (int) $firstNumber;
             } else {
+<<<<<<< HEAD
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+=======
+                $res = array_merge(
+                    $res,
+                    self::fromTo((int) $firstNumber, (int) $secondNumber)
+                );
+>>>>>>> f1d4085 (.)
             }
         }
 

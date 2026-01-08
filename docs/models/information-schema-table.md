@@ -1,8 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/models/information-schema-table.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>>> 27c94d185 (.):docs/archive/models/information-schema-table.md
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # InformationSchemaTable
 
 ## Descrizione
@@ -56,6 +63,7 @@ class InformationSchemaTable extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/models/information-schema-table.md
@@ -91,4 +99,13 @@ class InformationSchemaTable extends Model
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<<< HEAD:docs/models/information-schema-table.md
 >>>>>>> 285375c74 (.):docs/archive/models/information-schema-table.md
+========
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Model Best Practices](../models/README.md) 
+>>>>>>> 5bd842e3 (.)
+>>>>>>>> 27c94d185 (.):docs/archive/models/information-schema-table.md

@@ -1,8 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/contracts/model-with-status-contract.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>>> 27c94d185 (.):docs/archive/contracts/model-with-status-contract.md
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # ModelWithStatusContract
 
 ## Descrizione
@@ -97,6 +104,7 @@ $latestStatus = $order->latestStatus();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/contracts/model-with-status-contract.md
@@ -132,4 +140,13 @@ $latestStatus = $order->latestStatus();
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<<< HEAD:docs/contracts/model-with-status-contract.md
 >>>>>>> 285375c74 (.):docs/archive/contracts/model-with-status-contract.md
+========
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 5bd842e3 (.)
+>>>>>>>> 27c94d185 (.):docs/archive/contracts/model-with-status-contract.md

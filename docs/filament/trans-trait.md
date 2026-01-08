@@ -1,8 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/filament/trans-trait.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>>> 27c94d185 (.):docs/archive/filament/trans-trait.md
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # TransTrait
 
 ## Descrizione
@@ -59,6 +66,7 @@ class MyResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/filament/trans-trait.md
@@ -91,4 +99,12 @@ class MyResource
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<<< HEAD:docs/filament/trans-trait.md
 >>>>>>> 285375c74 (.):docs/archive/filament/trans-trait.md
+========
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 5bd842e3 (.)
+>>>>>>>> 27c94d185 (.):docs/archive/filament/trans-trait.md

@@ -1,8 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/contracts/model-contact-contract.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>>> 27c94d185 (.):docs/archive/contracts/model-contact-contract.md
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # ModelContactContract
 
 ## Descrizione
@@ -60,6 +67,7 @@ interface ModelContactContract extends ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/contracts/model-contact-contract.md
@@ -95,4 +103,13 @@ interface ModelContactContract extends ModelContract
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<<< HEAD:docs/contracts/model-contact-contract.md
 >>>>>>> 285375c74 (.):docs/archive/contracts/model-contact-contract.md
+========
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 5bd842e3 (.)
+>>>>>>>> 27c94d185 (.):docs/archive/contracts/model-contact-contract.md

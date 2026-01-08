@@ -1,8 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/exceptions/formatters/webhook-error-formatter.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>>> 27c94d185 (.):docs/archive/exceptions/formatters/webhook-error-formatter.md
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # WebhookErrorFormatter
 
 ## Descrizione
@@ -59,6 +66,7 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/exceptions/formatters/webhook-error-formatter.md
@@ -94,4 +102,13 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+<<<<<<<< HEAD:docs/exceptions/formatters/webhook-error-formatter.md
 >>>>>>> 285375c74 (.):docs/archive/exceptions/formatters/webhook-error-formatter.md
+========
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters Overview](../README.md) 
+>>>>>>> 5bd842e3 (.)
+>>>>>>>> 27c94d185 (.):docs/archive/exceptions/formatters/webhook-error-formatter.md

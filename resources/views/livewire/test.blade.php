@@ -1,8 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 <div>
     <div class="btn-group group-toggle">
         <label class="btn btn-danger">
@@ -12,6 +24,37 @@ declare(strict_types=1);
             <input wire:model="animal" name="animal" type="radio" value="dogs" /> Dogs
         </label>
         <label class="btn btn-danger">
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+<div>
+    <div class="btn-group group-toggle">
+        <label class="btn btn-danger">
+            <input wire:model="animal" name="animal" type="radio" value="cats" /> Cats
+        </label>
+        <label class="btn btn-danger">
+            <input wire:model="animal" name="animal" type="radio" value="dogs" /> Dogs
+        </label>
+<<<<<<< HEAD
+        <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> a12f125f4a (.)
+=======
+        <label class="btn btn-danger">
+>>>>>>> b93ef594b4 (.)
+=======
+<div>
+    <div class="btn-group group-toggle">
+        <x-filament-forms::field-wrapper.label class="btn btn-danger">
+            <input wire:model="animal" name="animal" type="radio" value="cats" /> Cats
+        </label>
+        <x-filament-forms::field-wrapper.label class="btn btn-danger">
+            <input wire:model="animal" name="animal" type="radio" value="dogs" /> Dogs
+        </label>
+        <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             <input wire:model="animal" name="animal" type="radio" value="both" /> Both
         </label>
     </div>
@@ -24,7 +67,23 @@ declare(strict_types=1);
     <div class="mb-4">
         @foreach ($options as $key => $option)
             <div>
+<<<<<<< HEAD
                 <label class="inline-flex items-center">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <label class="inline-flex items-center">
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> a12f125f4a (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> b93ef594b4 (.)
+=======
+                <x-filament-forms::field-wrapper.label class="inline-flex items-center">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                     <input wire:model="options.{{ $key }}" name="options[{{ $key }}]" value="1" type="checkbox">
                     <span class="ml-2">{{ $key }}</span>
                 </label>
@@ -39,6 +98,12 @@ declare(strict_types=1);
     @for ($i = 0; $i < 3; $i++)
         <h3>{{ $i }}</h3>
         <div class="btn-group btn-group-toggle">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
             <label class="btn btn-danger">
                 <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="-1" />
                 <span>-</span>
@@ -48,6 +113,38 @@ declare(strict_types=1);
                 <span>&nbsp;</span>
             </label>
             <label class="btn btn-primary">
+<<<<<<< HEAD
+=======
+=======
+            <x-filament-forms::field-wrapper.label class="btn btn-danger">
+=======
+            <label class="btn btn-danger">
+>>>>>>> b93ef594b4 (.)
+                <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="-1" />
+                <span>-</span>
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="0" />
+                <span>&nbsp;</span>
+            </label>
+<<<<<<< HEAD
+            <x-filament-forms::field-wrapper.label class="btn btn-primary">
+>>>>>>> a12f125f4a (.)
+=======
+            <label class="btn btn-primary">
+>>>>>>> b93ef594b4 (.)
+=======
+            <x-filament-forms::field-wrapper.label class="btn btn-danger">
+                <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="-1" />
+                <span>-</span>
+            </label>
+            <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+                <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="0" />
+                <span>&nbsp;</span>
+            </label>
+            <x-filament-forms::field-wrapper.label class="btn btn-primary">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                 <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="1" />
                 <span>+</span>
             </label>
@@ -67,7 +164,23 @@ declare(strict_types=1);
 
 
                 <div class="btn-group btn-group-toggle">
+<<<<<<< HEAD
                     <label class="btn btn-danger">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-danger">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> a12f125f4a (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> b93ef594b4 (.)
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-danger">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="-1">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == -1)
@@ -76,7 +189,23 @@ declare(strict_types=1);
                             -
                         @endif
                     </label>
+<<<<<<< HEAD
                     <label class="btn btn-secondary">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-secondary">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> a12f125f4a (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> b93ef594b4 (.)
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-secondary">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="0">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == 0)
@@ -85,7 +214,23 @@ declare(strict_types=1);
                             &nbsp;
                         @endif
                     </label>
+<<<<<<< HEAD
                     <label class="btn btn-primary active">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <label class="btn btn-primary active">
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> a12f125f4a (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> b93ef594b4 (.)
+=======
+                    <x-filament-forms::field-wrapper.label class="btn btn-primary active">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="1">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == 1)

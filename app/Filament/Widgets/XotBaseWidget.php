@@ -152,11 +152,31 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
+                /** @var array<string, mixed> */
                 return $res;
 
             } catch (Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 return $model->getAttributes();
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+                $attributes = $model->getAttributes();
+
+                // Gestisci specificamente gli enum se presenti
+                // if (isset($attributes['type']) && $model->type instanceof \BackedEnum) {
+                //    $attributes['type'] = $model->type->value;
+                // }
+
+                /** @var array<string, mixed> */
+                return $attributes;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 14dafc3ba (.)
             }
         }
 

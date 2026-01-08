@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 
+use function Safe\file_put_contents;
+
 uses(TestCase::class);
 
 beforeEach(function (): void {

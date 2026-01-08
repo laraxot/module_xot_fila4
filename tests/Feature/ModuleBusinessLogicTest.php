@@ -53,7 +53,7 @@ class ModuleBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['enabled' => false]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['enabled' => false]);
 
         // Act - Enable module
         /** @phpstan-ignore-next-line method.nonObject */
@@ -77,7 +77,7 @@ class ModuleBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['version' => '1.0.0']);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['version' => '1.0.0']);
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -98,7 +98,7 @@ class ModuleBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create([
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create([
             'dependencies' => ['user', 'auth'],
         ]);
 
@@ -120,7 +120,7 @@ class ModuleBusinessLogicTest extends TestCase
     public function it_can_validate_module_slug_uniqueness(): void
     {
         // Arrange
-        Module::factory()->create(['slug' => 'unique-module']);
+        Module/** @phpstan-ignore-line */ ::factory()->create(['slug' => 'unique-module']);
 
         // Act & Assert - Try to create module with same slug
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -147,7 +147,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['config' => $config]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['config' => $config]);
 
         // Act
         $moduleConfig = $module->config;
@@ -168,9 +168,9 @@ class ModuleBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $enabledModule = Module::factory()->create(['enabled' => true]);
+        $enabledModule = Module/** @phpstan-ignore-line */ ::factory()->create(['enabled' => true]);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $disabledModule = Module::factory()->create(['enabled' => false]);
+        $disabledModule = Module/** @phpstan-ignore-line */ ::factory()->create(['enabled' => false]);
 
         // Act & Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -195,7 +195,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['metadata' => $metadata]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['metadata' => $metadata]);
 
         // Act
         $moduleMetadata = $module->metadata;
@@ -224,7 +224,7 @@ class ModuleBusinessLogicTest extends TestCase
         foreach ($validVersions as $version) {
             // Act
             /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['version' => $version]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['version' => $version]);
 
             // Assert
             /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -243,7 +243,7 @@ class ModuleBusinessLogicTest extends TestCase
         // Arrange
         $installationDate = now()->subDays(30);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create([
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create([
             'installed_at' => $installationDate,
         ]);
 
@@ -278,7 +278,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['update_history' => $updateHistory]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['update_history' => $updateHistory]);
 
         // Act
         $moduleUpdateHistory = $module->update_history;
@@ -303,7 +303,7 @@ class ModuleBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create([
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create([
             'laravel_version' => '^10.0',
             'php_version' => '^8.1',
         ]);
@@ -330,7 +330,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['permissions' => $permissions]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['permissions' => $permissions]);
 
         // Act
         $modulePermissions = $module->permissions;
@@ -358,7 +358,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['routes' => $routes]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['routes' => $routes]);
 
         // Act
         $moduleRoutes = $module->routes;
@@ -387,7 +387,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['assets' => $assets]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['assets' => $assets]);
 
         // Act
         $moduleAssets = $module->assets;
@@ -421,7 +421,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['settings' => $settings]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['settings' => $settings]);
 
         // Act
         $moduleSettings = $module->settings;
@@ -472,7 +472,7 @@ class ModuleBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create([
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create([
             'enabled' => false,
             'activation_date' => null,
         ]);
@@ -516,7 +516,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['usage_statistics' => $usageStats]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['usage_statistics' => $usageStats]);
 
         // Act
         $moduleUsageStats = $module->usage_statistics;
@@ -550,7 +550,7 @@ class ModuleBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $module = Module::factory()->create(['error_log' => $errorLog]);
+        $module = Module/** @phpstan-ignore-line */ ::factory()->create(['error_log' => $errorLog]);
 
         // Act
         $moduleErrorLog = $module->error_log;

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Architettura Filament-Xot
 
 ## Panoramica
@@ -11,9 +14,85 @@ L'architettura Filament-Xot definisce come il modulo Xot estende e personalizza 
 
 Il sistema è costruito attorno a classi base che forniscono funzionalità comuni:
 
+<<<<<<< HEAD
 - [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> 43d67f21 (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> 5a14301c (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> 43d67f21 (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> b7ea1cd1 (.)
+=======
+- [XotBasePage](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md) - Classe base per le pagine Filament
+- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per i widget Filament
+
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ### Principi Architetturali
 
 1. **Composizione over Inheritance**: Preferire la composizione all'ereditarietà diretta
@@ -54,6 +133,7 @@ class MyPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -68,4 +148,9 @@ class MyPage extends XotBasePage
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

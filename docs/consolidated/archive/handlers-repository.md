@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # HandlersRepository
 
 ## Descrizione
@@ -86,6 +89,17 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 ## Collegamenti
 - [Exception Handling Guide](../EXCEPTION-HANDLING-GUIDE.md)
 - [Error Formatters](../formatters/README.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>> ba6c53070 (.)
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 <<<<<<< HEAD
 - [Handlers Overview](./README.md) 
@@ -106,4 +120,11 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [Handlers Overview](./README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Handlers Overview](./README.md) 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

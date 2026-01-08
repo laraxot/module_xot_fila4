@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
@@ -46,12 +47,72 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 # Standard per le Migrazioni in SaluteOra
 
 ## Introduzione
 
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di SaluteOra. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+# Standard per le Migrazioni in 
+
+## Introduzione
+
+Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di . Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+# Standard per le Migrazioni in <nome progetto>
+
+## Introduzione
+
+Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di <nome progetto>. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## Principi Fondamentali
 
@@ -123,7 +184,71 @@ return new class extends XotBaseMigration
 
 ## Connessioni al Database
 
+<<<<<<< HEAD
 SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 5a14301c (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 399f46d3 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 472bd9dc (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+<nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 43d67f21 (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 5a14301c (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 43d67f21 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> b7ea1cd1 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 1. **mysql**: Connessione principale per la maggior parte delle tabelle
 2. **user**: Connessione per i dati degli utenti
@@ -256,6 +381,24 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 
 ## Conclusione
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> ba6c53070 (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 <<<<<<< HEAD
 =======
@@ -303,4 +446,10 @@ Seguire questi standard per le migrazioni è fondamentale per garantire la coere
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

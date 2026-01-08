@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 
 ## 🚨 **PROBLEMA CRITICO RISOLTO**
@@ -115,10 +118,112 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 
 ### **File Modificati**
 - [XotBaseResource.php](../../../Modules/Xot/app/Filament/Resources/XotBaseResource.php) - Fix principale
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+
+### **Documentazione Correlata**
+- [Wizard Step Implementation](../../../Modules/<nome progetto>/project_docs/wizard-step-implementation.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+- [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+
+### **Documentazione Correlata**
+- [Wizard Step Implementation](../../../Modules/<nome modulo>/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+
+### **Documentazione Correlata**
+- [Wizard Step Implementation](../../../Modules/<nome modulo>/docs/wizard-step-implementation.md)
+- [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+
+### **Documentazione Correlata**
+- [Wizard Step Implementation](../../../Modules/<nome progetto>/project_docs/wizard-step-implementation.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -137,6 +242,24 @@ Questo fix dimostra l'importanza di:
 3. **Property existence checking** per codice robusto
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+=======
+*Il sistema  ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> ba6c53070 (.)
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 <<<<<<< HEAD
 =======
@@ -182,4 +305,10 @@ Questo fix dimostra l'importanza di:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

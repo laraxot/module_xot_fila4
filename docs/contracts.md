@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # Contratti del Modulo Xot
 
 ## Descrizione
@@ -89,6 +92,7 @@ Contratto per modelli che hanno profili.
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Policy PHPStan Errors](../User/project_docs/policy-phpstan-errors.md)
 - [Root PHPStan Errors](../../project_docs/troubleshooting/phpstan-errors.md)
 - [Spatie Permission Documentation](https://spatie.be/project_docs/laravel-permission)
@@ -101,3 +105,10 @@ Contratto per modelli che hanno profili.
 *Ultimo aggiornamento: 2025-01-06*
 =======
 >>>>>>> dc2130a7c (.)
+=======
+- [Policy PHPStan Errors](../User/project_docs/policy-phpstan-errors.md)
+- [Root PHPStan Errors](../../project_docs/troubleshooting/phpstan-errors.md)
+- [Spatie Permission Documentation](https://spatie.be/project_docs/laravel-permission)
+
+*Ultimo aggiornamento: 2025-01-06*
+>>>>>>> ba6c53070 (.)

@@ -1,10 +1,69 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Regole generali per aggiornamento colonne e gestione errori schema
 
 ## Collegamento bidirezionale
 - Questo file è collegato a casi specifici documentati nei moduli, ad esempio:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ba6c53070 (.)
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
   [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+[Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
+
+=======
+  [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+  [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+>>>>>>> 43d67f21 (.)
+=======
+  [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
+>>>>>>> 5a14301c (.)
+=======
+  [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+  [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+>>>>>>> 43d67f21 (.)
+=======
+  [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+  [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+  [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## Caso pratico: Performance
 - Per l’errore su `valutatore_id` in `performance_organizzativa`, vedere la documentazione dettagliata nel modulo Performance.
@@ -30,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -44,4 +104,9 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

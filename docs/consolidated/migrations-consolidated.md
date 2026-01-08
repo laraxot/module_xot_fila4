@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Migrations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione migrazioni del progetto
@@ -380,12 +383,104 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Notifiable polymorphic
 - **Campi specifici**: `type`, `data`, `read_at`
 
+<<<<<<< HEAD
 ### SaluteMo Module
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome modulo> Module
+=======
+### SaluteMo Module
+>>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 399f46d3 (.)
+=======
+### SaluteMo Module
+>>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 399f46d3 (.)
+=======
+### SaluteMo Module
+>>>>>>> 17684f52 (.)
+=======
+### SaluteMo Module
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
+<<<<<<< HEAD
 ### SaluteOra Module (CRITICO)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome progetto> Module (CRITICO)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 399f46d3 (.)
+=======
+### SaluteOra Module (CRITICO)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 472bd9dc (.)
+=======
+###  Module (CRITICO)
+### <nome progetto> Module (CRITICO)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> b7ea1cd1 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -442,8 +537,43 @@ rm Modules/Notify/project_docs/migration_rules.md
 rm Modules/Notify/project_docs/migrations.md
 rm Modules/Notify/project_docs/migrations_changelog.md
 
+<<<<<<< HEAD
 # SaluteMo
 rm Modules/SaluteMo/project_docs/database/migrations.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# <nome modulo>
+rm Modules/<nome modulo>/project_docs/database/migrations.md
+=======
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 399f46d3 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 399f46d3 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 17684f52 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 # E tutti gli altri file duplicati...
 ```
@@ -475,5 +605,8 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 **Aggiornato**: 2025-08-07  
 **Categoria**: database  
 **Priorità**: CRITICA
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

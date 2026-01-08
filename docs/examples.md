@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # 💡 **Esempi Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -1121,9 +1124,12 @@ class ExampleRelationshipsTest extends XotBaseTestCase
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> ba6c53070 (.)

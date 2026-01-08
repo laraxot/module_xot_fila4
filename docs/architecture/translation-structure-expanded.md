@@ -1,8 +1,60 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 399f46d3 (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> d86d643a (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 472bd9dc (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 43d67f21 (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 5a14301c (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 43d67f21 (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> b7ea1cd1 (.)
+=======
+# Struttura Traduzioni Espansa - Modulo Xot
+
+## Scopo
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".
@@ -160,12 +212,107 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 ## Collegamenti Bidirezionali
 
 ### Documentazione Root
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Struttura Traduzioni Espansa](/project_docs/translation-structure-expanded.md)
 - [Principi DRY/KISS](/project_docs/dry-kiss-principles.md)
 
 ### Documentazione Moduli Correlati
 - [Geo Module Translations](/Modules/Geo/project_docs/translation-structure-expanded.md)
 - [User Module Translations](/Modules/User/project_docs/translation-guidelines.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+- [Struttura Traduzioni Espansa](/docs/translation-structure-expanded.md)
+- [Principi DRY/KISS](/docs/dry-kiss-principles.md)
+
+### Documentazione Moduli Correlati
+- [Geo Module Translations](/Modules/Geo/docs/translation-structure-expanded.md)
+- [User Module Translations](/Modules/User/docs/translation-guidelines.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ### File di Implementazione
 - `lang/es/labels.php` - Etichette generali spagnole
@@ -195,5 +342,8 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 **Priorità**: Media (file già corretto linguisticamente)  
 **Responsabile**: Sistema automatico DRY/KISS  
 **Data**: 2025-08-08
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

@@ -157,12 +157,77 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 
 ## Riferimenti correlati
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+- [Struttura del progetto](../Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](../Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](../Xot/docs/standards/psr4-compliance.md)
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+- [Struttura del progetto](../Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](../Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](../Xot/docs/standards/psr4-compliance.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+=======
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+>>>>>>> 17684f52 (.)
+=======
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba6c53070 (.)
 - [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
 <<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -246,4 +311,14 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

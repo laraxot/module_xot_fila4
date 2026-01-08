@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Action Usage Patterns - Regole Fondamentali
 
 ## 🎯 **REGOLA CRITICA: Pattern di Uso delle Action**
@@ -96,8 +99,75 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 ## 📖 **RIFERIMENTI**
 
+<<<<<<< HEAD
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 43d67f21 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 5a14301c (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 43d67f21 (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---
@@ -107,6 +177,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 **AUTORE**: Sistema di Qualità Laraxot
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,4 +197,9 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

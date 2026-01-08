@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Guida alla Validazione con PHPStan Livello 7
 
 ## Introduzione
@@ -237,6 +240,28 @@ Questo errore si verifica quando si accede a una proprietà che non è dichiarat
 ## Conclusione
 
 Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualità e robustezza del software. Seguendo le best practices e risolvendo gli errori in modo sistematico, è possibile migliorare significativamente la manutenibilità e l'affidabilità del codice.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## Collegamenti tra versioni di PHPSTAN-LEVEL7-GUIDE.md
 * [PHPSTAN-LEVEL7-GUIDE.md](../../../Xot/project_docs/phpstan/PHPSTAN-LEVEL7-GUIDE.md)
@@ -248,6 +273,7 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit�
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,4 +292,9 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit�
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

@@ -89,7 +89,15 @@ return [
 
 - [Regole Traduzioni Xot](translation_rules.md)
 - [Best Practices Traduzioni](translations-best-practices.md)
+<<<<<<< HEAD
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+=======
+<<<<<<< HEAD
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 <<<<<<< HEAD
 *Ultimo aggiornamento: 27 Gennaio 2025* 

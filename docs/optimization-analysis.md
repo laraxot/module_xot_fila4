@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # Analisi di Ottimizzazione - Modulo Xot (Framework Base)
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
@@ -821,16 +824,22 @@ class XotPerformanceMonitor
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 - [Laravel Architecture Patterns](https://laravel.com/project_docs/architecture-concepts)
 - [PHPStan Level 10 Guidelines](../../../project_docs/phpstan-level-10.md)
 - [SOLID Principles in PHP](../../../project_docs/solid-principles.md)
 - [Performance Best Practices](../../../project_docs/performance-best-practices.md)
+<<<<<<< HEAD
 =======
 - [Laravel Architecture Patterns](https://laravel.com/docs/architecture-concepts)
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level-10.md)
 - [SOLID Principles in PHP](../../../docs/solid-principles.md)
 - [Performance Best Practices](../../../docs/performance-best-practices.md)
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> ba6c53070 (.)
 
 ---
 
@@ -838,5 +847,8 @@ class XotPerformanceMonitor
 *Principi: DRY + KISS + SOLID + ROBUST + Laraxot*  
 *Stato: 🟠 Framework Solido ma Necessita Refactoring Architetturale*
 
+<<<<<<< HEAD
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> ba6c53070 (.)

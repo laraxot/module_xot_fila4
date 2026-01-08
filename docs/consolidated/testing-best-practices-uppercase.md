@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -40,7 +43,71 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
         ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 472bd9dc (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> b7ea1cd1 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -228,6 +295,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Last Update**: Dicembre 2024 
 >>>>>>> 5a14301c (.)
@@ -263,4 +331,9 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

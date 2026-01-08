@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Correzioni Implementate - Regola Critica XotBaseResource
 
 ## 🚨 Regola Critica Violata
@@ -86,7 +89,71 @@ protected static ?string $navigationGroup = "Geo";
 ```
 
 ### 4. AdminResource.php
+<<<<<<< HEAD
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**File**: `laravel/Modules/<nome progetto>/app/Filament/Resources/AdminResource.php`
+=======
+**File**: `laravel/Modules/<nome modulo>/app/Filament/Resources/AdminResource.php`
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 5a14301c (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 399f46d3 (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> d86d643a (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 472bd9dc (.)
+=======
+**File**: `laravel/Modules/<nome modulo>/app/Filament/Resources/AdminResource.php`
+**File**: `laravel/Modules/<nome progetto>/app/Filament/Resources/AdminResource.php`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 43d67f21 (.)
+=======
+**File**: `laravel/Modules/<nome modulo>/app/Filament/Resources/AdminResource.php`
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 5a14301c (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 43d67f21 (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> b7ea1cd1 (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 **Violazione**: Metodo `table()` presente
 ```php
@@ -198,5 +265,8 @@ class ExampleResource extends XotBaseResource
 *Modulo: Xot*
 *Categoria: Filament*
 *Status: ✅ Correzioni Implementate*
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

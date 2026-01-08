@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -879,7 +880,12 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
@@ -912,7 +918,68 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 **Soluzione**:
 - Aggiunto cast esplicito `@var array<string, mixed>` al risultato
 
+<<<<<<< HEAD
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 5a14301c (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 399f46d3 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 43d67f21 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 5a14301c (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 399f46d3 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 43d67f21 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 17684f52 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> b7ea1cd1 (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`
@@ -979,5 +1046,8 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 - [PHPStan Level 10 Guidelines](./phpstan-level10-guidelines.md)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # xotbasepage: implementazione e best practices
 
 ## descrizione
@@ -7,7 +10,74 @@ la classe `XotBasePage` è una classe base astratta per tutte le pagine filament
 ## struttura
 la classe `XotBasePage` estende `Filament\Pages\Page` e si trova in:
 ```
+<<<<<<< HEAD
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 5a14301c (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 399f46d3 (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> d86d643a (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 472bd9dc (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 43d67f21 (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 5a14301c (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 43d67f21 (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> b7ea1cd1 (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ## namespace
@@ -70,7 +140,71 @@ class SettingsPage extends XotBasePage
 ## esempio completo
 
 ```php
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Filament\Pages;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\Filament\Pages;
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\<nome modulo>\Filament\Pages;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> b7ea1cd1 (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Filament\Forms\Components\TextInput;
@@ -80,7 +214,70 @@ class DashboardSettings extends XotBasePage
 {
     protected static ?string $navigationIcon = 'heroicon-o-cog';
     
+<<<<<<< HEAD
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+<<<<<<< HEAD
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 5a14301c (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 399f46d3 (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> d86d643a (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 472bd9dc (.)
+=======
+    protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+    protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 43d67f21 (.)
+=======
+    protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 5a14301c (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 43d67f21 (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> b7ea1cd1 (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     
     protected function getFormFields(): array
     {
@@ -173,11 +370,95 @@ class DashboardSettingsPolicy
 - wizard personalizzati
 
 ## collegamento ad altre documentazioni
+<<<<<<< HEAD
 - [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [pattern di estensione filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/project_docs/filament-best-practices.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+- [pattern di estensione filament](/var/www/html/base_ptvx_fila3_mono/laravel/Modules/Xot/docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_ptvx_fila3_mono/laravel/Modules/<nome modulo>/docs/filament-best-practices.md)
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-best-practices.md)
+- [pattern di estensione filament](../Xot/docs/filament_extension_pattern.md)
+- [best practices filament](../SaluteOra/docs/filament-best-practices.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-best-practices.md)
+
+=======
+- [pattern di estensione filament](/var/www/html/base_ptvx_fila3_mono/laravel/Modules/Xot/docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_ptvx_fila3_mono/laravel/Modules/<nome modulo>/docs/filament-best-practices.md)
+- [pattern di estensione filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-best-practices.md)
+- [pattern di estensione filament](../Xot/docs/filament_extension_pattern.md)
+- [best practices filament](../<nome progetto>/docs/filament-best-practices.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-best-practices.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## ATTENZIONE: errori critici da evitare
 - NON dichiarare mai abstract getFormSchema() in XotBasePage: la classe base Filament lo implementa già. Fornire sempre una implementazione di default (array vuoto).
 - Se serve uno schema custom, sovrascrivere il metodo nella classe figlia.
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

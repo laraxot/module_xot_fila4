@@ -229,6 +229,7 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,9 +274,16 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/p
 >>>>>>> 17684f52 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 =======
+=======
+>>>>>>> 88e35986 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+<<<<<<< HEAD:docs/consolidated/documentation-guidelines_1.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.):docs/documentation-guidelines.md
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 =======
 >>>>>>> f1d4085 (.)
@@ -294,6 +302,7 @@ Alcuni argomenti comuni a più moduli dovrebbero essere documentati nel modulo X
 <<<<<<< HEAD:docs/consolidated/documentation-guidelines_1.md
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,9 +354,16 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 >>>>>>> 17684f52 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 =======
+=======
+>>>>>>> 88e35986 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+<<<<<<< HEAD:docs/consolidated/documentation-guidelines_1.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.):docs/documentation-guidelines.md
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 =======
 >>>>>>> f1d4085 (.)

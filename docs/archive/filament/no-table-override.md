@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # DIVIETO ASSOLUTO DI IMPLEMENTARE table()
 
 ## Regola Fondamentale Inviolabile
@@ -129,7 +132,60 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 
 ## Link a Risorse Correlate
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+- [Regole per RelationManager](/docs/filament/relation_managers.md)
+- [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/docs/filament/no_labels.md)
+- [Esempio TeamsRelationManager](/laravel/Modules/User/docs/filament/teams_relation_manager.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+- [Regole per RelationManager](/project_docs/filament/relation_managers.md)
+- [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
+- [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> ba6c53070 (.)
 - [Regole per RelationManager](/project_docs/filament/relation_managers.md)
 - [Divieto di usare label(), placeholder() e helperText()](/laravel/Modules/Xot/project_docs/filament/no_labels.md)
 - [Esempio TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
@@ -175,4 +231,10 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

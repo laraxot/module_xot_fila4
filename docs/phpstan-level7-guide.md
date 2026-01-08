@@ -11,8 +11,15 @@ A partire dal 10 Marzo 2025, tutti i moduli del progetto devono essere validati 
 Per validare tutti i moduli con PHPStan a livello 7:
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 vendor/bin/phpstan analyse Modules --configuration=phpstan.neon
@@ -23,8 +30,15 @@ vendor/bin/phpstan analyse Modules --configuration=phpstan.neon
 Per validare un singolo modulo:
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 vendor/bin/phpstan analyse Modules/NomeModulo --configuration=phpstan.neon
@@ -35,8 +49,15 @@ vendor/bin/phpstan analyse Modules/NomeModulo --configuration=phpstan.neon
 Se ci sono troppi errori da risolvere immediatamente, è possibile generare un baseline:
 
 ```bash
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 vendor/bin/phpstan analyse Modules/NomeModulo --configuration=phpstan.neon --generate-baseline

@@ -15,8 +15,18 @@ Questa cartella contiene la documentazione relativa all'implementazione di Filam
 Questa documentazione si applica a tutti i moduli che utilizzano Filament per il backend. 
 
 ## Collegamenti tra versioni di README.md
+<<<<<<< HEAD
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)
+=======
+<<<<<<< HEAD
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+=======
+* [README.md](bashscripts/project_docs/README.md)
+* [README.md](bashscripts/project_docs/it/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -47,6 +57,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](docs/implementazione/reporting/README.md)
 * [README.md](docs/implementazione/isee/README.md)
 * [README.md](docs/it/README.md)
+<<<<<<< HEAD
 * [README.md](laravel/vendor/mockery/mockery/docs/README.md)
 * [README.md](../../../Chart/docs/README.md)
 * [README.md](../../../Reporting/docs/README.md)
@@ -91,6 +102,10 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](../../../Cms/docs/components/README.md)
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ba6c53070 (.)
 * [README.md](laravel/vendor/mockery/mockery/project_docs/README.md)
 * [README.md](../../../Chart/project_docs/README.md)
 * [README.md](../../../Reporting/project_docs/README.md)
@@ -135,6 +150,10 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 * [README.md](../../../Cms/project_docs/components/README.md)
 * [README.md](../../../../Themes/Two/project_docs/README.md)
 * [README.md](../../../../Themes/One/project_docs/README.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 ## Regola sulle closure void nelle azioni custom Filament
 
@@ -162,7 +181,111 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Aggiornare la documentazione ogni volta che si corregge questo errore.
 
 ### Collegamento
+<<<<<<< HEAD
 - Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 71f31700 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> ca9324a4 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../../docs/filament-best-practices.mdc)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 71f31700 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> c35986f4 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> b7ea1cd1 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 33af3e61 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore
@@ -196,7 +319,15 @@ $prefix = static::$translationPrefix;
 ```
 
 ## Moduli che fanno riferimento a questa regola
+<<<<<<< HEAD
 - [Patient: DoctorResource](../../../Patient/project_docs/filament/resources/doctor-resource.md)
+=======
+<<<<<<< HEAD
+- [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
+=======
+- [Patient: DoctorResource](../../../Patient/project_docs/filament/resources/doctor-resource.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 // Aggiungere qui altri moduli se necessario
 
 =======

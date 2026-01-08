@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # 🏗️ **Architettura Modulo Xot**
 
 ## 📋 **Panoramica Architetturale**
@@ -390,15 +393,23 @@ test('all models extend base model', function () {
 
 - [**README.md**](README.md) - Documentazione principale del modulo
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
 =======
 - [**Best Practices**](../docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../docs/troubleshooting.md) - Risoluzione problemi
 >>>>>>> b9c66c44e (.)
+=======
+- [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
+- [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
+>>>>>>> ba6c53070 (.)
 
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
+<<<<<<< HEAD
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> ba6c53070 (.)

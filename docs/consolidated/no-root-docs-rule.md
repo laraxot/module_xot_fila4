@@ -1,9 +1,76 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # REGOLA CRITICA: Cartelle docs root VIETATE
 
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
 - `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
 - `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+<<<<<<< HEAD
+=======
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 399f46d3 (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> d86d643a (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 472bd9dc (.)
+=======
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 43d67f21 (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> b7ea1cd1 (.)
+=======
+# REGOLA CRITICA: Cartelle docs root VIETATE
+
+## CARTELLE CHE NON DEVONO MAI ESISTERE:
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -30,7 +97,74 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 ## CONTROLLI AUTOMATICI:
 ```bash
 # Comando per verificare che non esistano cartelle docs root
+<<<<<<< HEAD
 find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
+=======
+find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
+>>>>>>> 5a14301c (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 399f46d3 (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> d86d643a (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 472bd9dc (.)
+=======
+find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
+find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
+find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 43d67f21 (.)
+=======
+find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
+>>>>>>> 5a14301c (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 43d67f21 (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> b7ea1cd1 (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```
@@ -40,5 +174,8 @@ find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep
 
 ## RESPONSABILITÀ:
 Tutti gli sviluppatori e AI devono rispettare questa regola senza eccezioni.
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

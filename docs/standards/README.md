@@ -14,12 +14,21 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 
 ## Collegamenti tra versioni di README.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)
 =======
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> b9c66c44e (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+=======
+* [README.md](bashscripts/project_docs/README.md)
+* [README.md](bashscripts/project_docs/it/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -50,6 +59,7 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](docs/implementazione/reporting/README.md)
 * [README.md](docs/implementazione/isee/README.md)
 * [README.md](docs/it/README.md)
+<<<<<<< HEAD
 * [README.md](laravel/vendor/mockery/mockery/docs/README.md)
 * [README.md](../../../Chart/docs/README.md)
 * [README.md](../../../Reporting/docs/README.md)
@@ -95,6 +105,10 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ba6c53070 (.)
 * [README.md](laravel/vendor/mockery/mockery/project_docs/README.md)
 * [README.md](../../../Chart/project_docs/README.md)
 * [README.md](../../../Reporting/project_docs/README.md)
@@ -139,8 +153,12 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](../../../Cms/project_docs/components/README.md)
 * [README.md](../../../../Themes/Two/project_docs/README.md)
 * [README.md](../../../../Themes/One/project_docs/README.md)
+<<<<<<< HEAD
 =======
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 # Standard Xot: Ereditarietà dei Modelli
 
@@ -152,19 +170,28 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 > Esempio di errore tipico: `Unknown column 'certifications' in 'field list'`.
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Modello Doctor (Patient)](../../../Patient/docs/Models/Doctor.md)
 - [Gestione campi e migrazioni con STI (README Patient)](../../../Patient/docs/README.md)
 - [DoctorResource: Step Informazioni Personali (Patient)](../../../Patient/docs/filament/resources/doctor-resource.md)
 - [Struttura progetto e STI (Patient)](../../../Patient/docs/architecture/struttura-progetto.md)
 - [Migrazioni e database (Patient)](../../../Patient/docs/database/migrations.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ba6c53070 (.)
 - [Modello Doctor (Patient)](../../../Patient/project_docs/Models/Doctor.md)
 - [Gestione campi e migrazioni con STI (README Patient)](../../../Patient/project_docs/README.md)
 - [DoctorResource: Step Informazioni Personali (Patient)](../../../Patient/project_docs/filament/resources/doctor-resource.md)
 - [Struttura progetto e STI (Patient)](../../../Patient/project_docs/architecture/struttura-progetto.md)
 - [Migrazioni e database (Patient)](../../../Patient/project_docs/database/migrations.md)
+<<<<<<< HEAD
 =======
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 ## Regola generale
 
@@ -187,9 +214,16 @@ class Doctor extends User
 
 ## Moduli che applicano questa regola
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
 =======
 - [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
 >>>>>>> b9c66c44e (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+=======
+- [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 // Aggiungere qui altri moduli se necessario
 

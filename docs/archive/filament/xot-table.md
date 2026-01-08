@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # HasXotTable Trait per Filament in Laraxot PTVX
 
 ## Panoramica
@@ -233,7 +236,60 @@ class DatiRelationManager extends XotBaseRelationManager
 
 ## Collegamenti alla Documentazione Correlata
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+- [XotBaseRelationManager](/laravel/Modules/Xot/docs/filament/relation_managers.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/docs/translation_rules.md)
+- [Filament Resources](/laravel/Modules/Xot/docs/filament/resources.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> ba6c53070 (.)
 - [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
@@ -279,4 +335,10 @@ class DatiRelationManager extends XotBaseRelationManager
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

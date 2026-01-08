@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # Regole per i Prompt
 
 ## Regola Universale
@@ -37,16 +40,24 @@ Non è necessario applicare questa regola a:
 
 ## Collegamenti tra versioni di PROMPT_RULES.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
 =======
 * [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
 >>>>>>> b9c66c44e (.)
+=======
+* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
+* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
+>>>>>>> ba6c53070 (.)
 
 
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](../prompt_rules.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> ba6c53070 (.)

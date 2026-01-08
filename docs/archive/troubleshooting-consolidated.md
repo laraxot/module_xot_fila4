@@ -18,7 +18,15 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 - Qualsiasi documentazione troubleshooting specifica di modulo
 
 ### ✅ Unica Fonte di Verità
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/project_docs/troubleshooting-consolidated.md`
+=======
+<<<<<<< HEAD
+- **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/troubleshooting-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 - **Implementazione**: Fix nei singoli moduli (solo fix, non docs)
 
 ## Problemi Comuni e Soluzioni
@@ -433,9 +441,120 @@ public function test_b(): void
 
 ### Errore: Conflitti Git
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+**Sintomo**
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+<<<<<<< HEAD
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 71f31700 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> c35986f4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 33af3e61 (.)
+```
+<<<<<<< HEAD
+// Codice locale
+=======
+>>>>>>> ba6c53070 (.)
 // Codice remoto
 ```
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

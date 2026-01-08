@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -40,6 +43,41 @@ This document outlines the best practices for maintaining high code quality with
 ### 5. Dependency Injection
 - Use dependency injection to avoid direct instantiation of dependencies, promoting testability and flexibility.
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+## Code Quality Tools
+
+### Automation Scripts
+
+- [fix_docs_case](../../../../../bashscripts/project_docs/docs/fix_docs_case.md) - Automatic standardization of documentation filenames
+- Run automation scripts regularly to maintain code consistency
+
+## Strumenti di Qualità del Codice
+
+### Scripts di Automazione
+
+- [fix_docs_case](../../../../../bashscripts/project_docs/docs/fix_docs_case.md) - Standardizzazione automatica dei nomi file nella documentazione
+- Eseguire gli script di automazione regolarmente per mantenere la coerenza del codice
+
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ## Common Issues and Fixes
 - **Type Errors**: Ensure all methods and functions have explicit return types and parameter types to avoid type-related bugs.
 - **Static Analysis Failures**: Address PHPStan errors by refining code or updating the baseline for existing code.
@@ -64,5 +102,8 @@ This document outlines the best practices for maintaining high code quality with
 - [Naming Conventions](./NAMING-CONVENTIONS.md)
 - [Service Provider Best Practices](./SERVICE-PROVIDER-BEST-PRACTICES.md)
 - [Filament Best Practices](./FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

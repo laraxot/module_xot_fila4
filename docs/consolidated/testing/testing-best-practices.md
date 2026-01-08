@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 Gold Standard per i Test
@@ -47,7 +50,71 @@ it('extends pivot class', function () {
 function mockXotData(): void
 {
     $mock = \\Mockery::mock(\\Modules\\Xot\\Datas\\XotData::class)->makePartial();
+<<<<<<< HEAD
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome modulo>\\Models\\User::class);
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 472bd9dc (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome modulo>\\Models\\User::class);
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome modulo>\\Models\\User::class);
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> b7ea1cd1 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }
@@ -85,5 +152,8 @@ function mockXotData(): void
 Status: Best Practices consolidate — Last Update: Dicembre 2024
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

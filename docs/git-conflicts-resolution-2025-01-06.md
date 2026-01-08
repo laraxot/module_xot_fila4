@@ -98,9 +98,12 @@ $res=Locality::query()
 ## Verifiche Post-Correzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. Controllo Conflitti
 ```bash
 =======
+=======
+>>>>>>> ba6c53070 (.)
 
 ### 2. Validazione PHPStan
 ```bash
@@ -209,6 +212,13 @@ php artisan lang:check
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
 **Stato**: ✅ Completato
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+=======
+### 1. Controllo Conflitti
+```bash
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)

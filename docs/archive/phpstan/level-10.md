@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # PHPStan Report - Livello 10
 
 ## Errori rilevati
@@ -518,6 +521,9 @@
 
 ## Collegamenti tra versioni di level_10.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 * [level_10.md](laravel/Modules/Gdpr/project_docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Notify/project_docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Xot/project_docs/phpstan/level_10.md)
@@ -528,6 +534,7 @@
 * [level_10.md](laravel/Modules/Media/project_docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Tenant/project_docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Activity/project_docs/phpstan/level_10.md)
+<<<<<<< HEAD
 =======
 * [level_10.md](laravel/Modules/Gdpr/docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Notify/docs/phpstan/level_10.md)
@@ -543,3 +550,6 @@
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+
+>>>>>>> ba6c53070 (.)

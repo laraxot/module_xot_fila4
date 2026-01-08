@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Regola generale: Label e traduzioni in Filament
 
 ## Regola
@@ -20,6 +23,24 @@
 - Test che verifica la presenza di tutte le chiavi di traduzione.
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [docs root](../../../../docs/actions.md)
+- [docs Lang](../../Lang/docs/filament-label.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ba6c53070 (.)
 Ultimo aggiornamento: maggio 2025.
 - [docs root](../../../../project_docs/actions.md)
 - [docs Lang](../../Lang/project_docs/filament-label.md)
@@ -84,4 +105,13 @@ Ultimo aggiornamento: maggio 2025.
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [docs root](../../../../project_docs/actions.md)
+- [docs Lang](../../Lang/project_docs/filament-label.md)
+
+Ultimo aggiornamento: maggio 2025.
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

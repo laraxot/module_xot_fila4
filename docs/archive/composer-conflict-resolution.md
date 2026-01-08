@@ -1,10 +1,35 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Risoluzione conflitto composer.json (Xot)
 
 ## Intent
 - Garantire coerenza delle dipendenze e corretta configurazione dell’autoload per il modulo Xot.
 
 ## Cosa
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> ba6c53070 (.)
 - Rimozione dei marker di conflitto Git in `composer.json`
 - Eliminazione dell'inserimento errato del branch alias `aurmich/dev` nelle sezioni `require-comment` e `require-dev-comment`, che non fanno parte della configurazione delle dipendenze
 - Conservazione delle sezioni `require` e `require-dev` pulite, mantenendo solo le dipendenze ufficiali documentate nel modulo Xot
@@ -12,6 +37,34 @@
 
 ## Collegamento alla doc root
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - Rimozione dei marker di conflitto in `composer.json`.
 - Rimozione dei marker di conflitto  in `composer.json`.
 
@@ -28,6 +81,16 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 - Conservazione della versione di `filament/filament`: `"^3.3"`.
 
 ## Collegamento alla doc root
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ba6c53070 (.)
 Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 <<<<<<< HEAD
 =======
@@ -70,4 +133,10 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

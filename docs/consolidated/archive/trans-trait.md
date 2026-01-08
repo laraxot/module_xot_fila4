@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # TransTrait
 
 ## Descrizione
@@ -47,6 +50,17 @@ class MyResource
 ## Collegamenti
 - [Filament Best Practices](../filament-best-practices.md)
 - [Translation Guidelines](../TRANSLATIONS-BEST-PRACTICES.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+=======
+>>>>>>> ba6c53070 (.)
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 <<<<<<< HEAD
 =======
@@ -65,4 +79,10 @@ class MyResource
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

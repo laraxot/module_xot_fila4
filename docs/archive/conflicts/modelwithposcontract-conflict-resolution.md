@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Risoluzione del Conflitto in ModelWithPosContract.php
 
 ## Problema
@@ -43,6 +46,28 @@ La correzione è stata verificata assicurandosi che:
 ## Collegamenti
 
 - [Documentazione sulla Risoluzione dei Conflitti](../RISOLUZIONE_CONFLITTI_MERGE.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ba6c53070 (.)
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
 <<<<<<< HEAD
 =======
@@ -82,4 +107,10 @@ La correzione è stata verificata assicurandosi che:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

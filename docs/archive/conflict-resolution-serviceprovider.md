@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Risoluzione Conflitto: XotBaseServiceProvider
 
 ## Contesto
@@ -28,8 +31,80 @@ Questa scelta garantisce:
 ## Collegamenti
 - [Struttura moduli Xot](./MODULE_NAMESPACE_RULES.md)
 - [Best Practices Provider](./BEST-PRACTICES.md)
+<<<<<<< HEAD
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+- [docs/links.md globale](../../../../docs/links.md)
+
+## Backlink
+- [docs/links.md](../../../../docs/links.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [docs/links.md globale](../../../../project_docs/links.md)
+
+## Backlink
+- [docs/links.md](../../../../project_docs/links.md)
+>>>>>>> 43d67f21 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [docs/links.md globale](../../../../project_docs/links.md)
+
+## Backlink
+- [docs/links.md](../../../../project_docs/links.md)
+>>>>>>> 43d67f21 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [docs/links.md globale](../../../../project_docs/links.md)
+
+## Backlink
+- [docs/links.md](../../../../project_docs/links.md)
+>>>>>>> b7ea1cd1 (.)
+- [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
+- [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+<<<<<<< HEAD
+=======
+=======
+- [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
+- [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
@@ -38,6 +113,7 @@ Questa scelta garantisce:
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -51,4 +127,9 @@ Questa scelta garantisce:
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Filament
 
 Questa cartella contiene la documentazione relativa all'implementazione di Filament nel progetto.
@@ -118,7 +121,71 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Aggiornare la documentazione ogni volta che si corregge questo errore.
 
 ### Collegamento
+<<<<<<< HEAD
 - Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 399f46d3 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> b7ea1cd1 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore
@@ -155,5 +222,8 @@ $prefix = static::$translationPrefix;
 - [Patient: DoctorResource](../../../Patient/project_docs/filament/resources/doctor-resource.md)
 // Aggiungere qui altri moduli se necessario
 
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

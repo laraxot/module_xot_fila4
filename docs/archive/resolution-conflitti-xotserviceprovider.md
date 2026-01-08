@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # Risoluzione conflitti su XotServiceProvider
 
 ## File coinvolto
@@ -33,9 +36,13 @@ Il file presentava molteplici conflitti git non risolti tra branch `HEAD`, `orig
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*
 =======
 *Collegamento bidirezionale creato: vedi anche `/docs/risoluzione_conflitti.md` nella root.*
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+*Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*
+>>>>>>> ba6c53070 (.)

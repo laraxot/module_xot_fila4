@@ -14,8 +14,100 @@ Per tutti i dati geografici statici (regioni, province, comuni, cap) di dimensio
 - Aggiornare la documentazione di Geo/docs, SaluteOra/docs e questa stessa doc con collegamenti bidirezionali.
 
 Per dettagli implementativi e best practice vedi:
+<<<<<<< HEAD
 - [Geo/project_docs/geo-json-model.md](../../Geo/project_docs/geo-json-model.md)
 - [SaluteOra/project_docs/geo-integration.md](../../SaluteOra/project_docs/geo-integration.md)
+=======
+<<<<<<< HEAD
+- [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
+- [SaluteOra/docs/geo-integration.md](../../SaluteOra/docs/geo-integration.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+- [Geo/project_docs/geo-json-model.md](../../Geo/project_docs/geo-json-model.md)
+- [SaluteOra/project_docs/geo-integration.md](../../SaluteOra/project_docs/geo-integration.md)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- Aggiornare la documentazione di Geo/docs, <nome modulo>/docs e questa stessa doc con collegamenti bidirezionali.
+
+Per dettagli implementativi e best practice vedi:
+- [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
+- [<nome modulo>/docs/geo-integration.md](../../<nome modulo>/docs/geo-integration.md)
+- Aggiornare la documentazione di Geo/docs, <nome progetto>/docs e questa stessa doc con collegamenti bidirezionali.
+
+Per dettagli implementativi e best practice vedi:
+- [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
+- [<nome progetto>/docs/geo-integration.md](../../../docs/geo-integration.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Questa stessa doc (Xot/module-structure.md)](module-structure.md)
 
 ---

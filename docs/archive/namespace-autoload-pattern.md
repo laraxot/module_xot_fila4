@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Pattern di Autoload nei Moduli Laravel
 
 ## Il Pattern Corretto
@@ -83,6 +86,35 @@ namespace Modules\ModuleName\App\Console\Commands;
 
 ## Collegamenti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Convenzioni di Namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/namespace_conventions.md)
+- [Struttura Moduli](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/module_structure.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+- [Convenzioni di Namespace](../Xot/docs/namespace_conventions.md)
+- [Struttura Moduli](../Xot/docs/module_structure.md)
+- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/namespace_conventions.md)
+- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/module_structure.md)
+- [Convenzioni di Namespace](../Xot/docs/namespace_conventions.md)
+- [Struttura Moduli](../Xot/docs/module_structure.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ba6c53070 (.)
 - [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/namespace_conventions.md)
 - [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/module_structure.md)
 <<<<<<< HEAD
@@ -135,4 +167,11 @@ namespace Modules\ModuleName\App\Console\Commands;
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/namespace_conventions.md)
+- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/module_structure.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

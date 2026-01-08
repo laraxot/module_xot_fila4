@@ -19,10 +19,17 @@ Questo documento sostituisce e consolida **25+ file di testing duplicati** trova
 
 ### ✅ Unica Fonte di Verità
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
 >>>>>>> b9c66c44e (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 - **Implementazione**: Test nei singoli moduli (solo test, non docs)
 
 ## Principi Fondamentali

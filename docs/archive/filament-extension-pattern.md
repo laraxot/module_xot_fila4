@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # pattern di estensione filament
 
 ## regola fondamentale
@@ -42,7 +45,71 @@ mantenere sempre lo stesso pattern di namespace rispetto a filament, ma usando i
 namespace Filament\Resources\Pages;
 
 // namespace corretto nel modulo
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Filament\Resources\Pages;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\Filament\Resources\Pages;
+=======
+namespace Modules\<nome modulo>\Filament\Resources\Pages;
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\Pages;
+namespace Modules\<nome modulo>\Filament\Resources\Pages;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources\Pages;
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> b7ea1cd1 (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ## metodi delle classi base
@@ -76,6 +143,35 @@ protected function getInfolistSchema(): array
 
 ## linkback
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [errore override metodo final](/var/www/html/base_<nome progetto>/laravel/project_docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/project_docs/filament-resources.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+- [errore override metodo final](/var/www/html/base_ptvx_fila3_mono/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_ptvx_fila3_mono/laravel/Modules/<nome modulo>/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_techplanner_fila3_mono/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](../SaluteOra/docs/filament-resources.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ba6c53070 (.)
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
 <<<<<<< HEAD
@@ -128,4 +224,11 @@ protected function getInfolistSchema(): array
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

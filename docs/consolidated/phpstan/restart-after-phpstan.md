@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Guida al Riavvio del Sistema Dopo Validazione PHPStan
 
 ## Introduzione
@@ -35,11 +38,84 @@ composer dump-autoload
 ### 2. Riavvio dei Servizi Web
 
 ```bash
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> ba6c53070 (.)
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 399f46d3 (.)
+=======
+
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 17684f52 (.)
+=======
+
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 # oppure
 sudo systemctl restart nginx
@@ -143,6 +219,7 @@ Un riavvio corretto del sistema dopo la validazione PHPStan è essenziale per ga
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -157,4 +234,9 @@ Un riavvio corretto del sistema dopo la validazione PHPStan è essenziale per ga
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

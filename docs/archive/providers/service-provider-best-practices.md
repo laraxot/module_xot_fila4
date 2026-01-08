@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Best Practices nei Service Provider
 
 ## Decisione Architetturale (2025-05-13)
@@ -29,8 +32,75 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 
 ## Backlink
 - [Torna a README.md del modulo Xot](../README.md)
+<<<<<<< HEAD
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Collegamento a docs/links.md della root](../../../../docs/links.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../docs/links.md)
+
+>>>>>>> 5a14301c (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica
@@ -173,6 +243,7 @@ Si raccomanda di seguire questo pattern in tutti i service provider personalizza
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -187,4 +258,9 @@ Si raccomanda di seguire questo pattern in tutti i service provider personalizza
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

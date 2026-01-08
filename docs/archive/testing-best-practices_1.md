@@ -1,4 +1,24 @@
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/archive/testing-best-practices_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.):docs/archive/testing-best-practices.md
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -40,7 +60,46 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD:docs/archive/testing-best-practices_1.md
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> ba6c53070 (.):docs/archive/testing-best-practices.md
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -205,8 +264,73 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 
 ## 🔗 **Related Documentation**
 
+<<<<<<< HEAD:docs/archive/testing-best-practices_1.md
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 5a14301c (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.):docs/archive/testing-best-practices.md
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
@@ -215,8 +339,23 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
 <<<<<<< HEAD:docs/archive/testing-best-practices_1.md
+<<<<<<< HEAD:docs/archive/testing-best-practices_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ba6c53070 (.):docs/archive/testing-best-practices.md
 **Last Update**: Dicembre 2024 
 =======
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD:docs/archive/testing-best-practices_1.md
 >>>>>>> dc2130a7c (.):docs/archive/testing-best-practices-uppercase.md
+=======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.):docs/archive/testing-best-practices.md

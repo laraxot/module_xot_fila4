@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Filament - Guida Completa Consolidata
 
 **Ultimo aggiornamento**: 2025-01-06  
@@ -37,7 +40,71 @@ class UserWidget extends Widget
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Filament\Resources;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\Filament\Resources;
+=======
+namespace Modules\<nome modulo>\Filament\Resources;
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources;
+namespace Modules\<nome modulo>\Filament\Resources;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources;
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> b7ea1cd1 (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms\Components\TextInput;
@@ -77,14 +144,141 @@ class PatientResource extends XotBaseResource
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Filament\Pages;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\Filament\Pages;
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\<nome modulo>\Filament\Pages;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> b7ea1cd1 (.)
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 use Modules\Xot\Filament\Pages\XotBasePage;
 
 class DashboardPage extends XotBasePage
 {
     protected static ?string $navigationIcon = 'heroicon-o-home';
+<<<<<<< HEAD
     protected static string $view = 'saluteora::filament.pages.dashboard';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static string $view = '<nome progetto>::filament.pages.dashboard';
+<<<<<<< HEAD
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 5a14301c (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 399f46d3 (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> d86d643a (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 472bd9dc (.)
+=======
+    protected static string $view = '<nome progetto>::filament.pages.dashboard';
+    protected static string $view = '<nome progetto>::filament.pages.dashboard';
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 43d67f21 (.)
+=======
+    protected static string $view = '<nome progetto>::filament.pages.dashboard';
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 5a14301c (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 43d67f21 (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> b7ea1cd1 (.)
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
     /**
      * @return array<class-string>
@@ -92,7 +286,71 @@ class DashboardPage extends XotBasePage
     protected function getHeaderWidgets(): array
     {
         return [
+<<<<<<< HEAD
             \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            \Modules\<nome progetto>\Filament\Widgets\StatsWidget::class,
+=======
+            \Modules\<nome modulo>\Filament\Widgets\StatsWidget::class,
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 5a14301c (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 399f46d3 (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> d86d643a (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 472bd9dc (.)
+=======
+            \Modules\<nome modulo>\Filament\Widgets\StatsWidget::class,
+            \Modules\<nome modulo>\Filament\Widgets\StatsWidget::class,
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 43d67f21 (.)
+=======
+            \Modules\<nome modulo>\Filament\Widgets\StatsWidget::class,
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 5a14301c (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 43d67f21 (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> b7ea1cd1 (.)
+=======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
         ];
     }
 }
@@ -104,7 +362,71 @@ class DashboardPage extends XotBasePage
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Filament\Widgets;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\Filament\Widgets;
+=======
+namespace Modules\<nome modulo>\Filament\Widgets;
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\Filament\Widgets;
+namespace Modules\<nome modulo>\Filament\Widgets;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Widgets;
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 43d67f21 (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> b7ea1cd1 (.)
+=======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
@@ -130,9 +452,104 @@ class StatsWidget extends XotBaseWidget
 ### Text Input
 ```php
 TextInput::make('name')
+<<<<<<< HEAD
     ->label(__('saluteora::fields.name.label'))
     ->placeholder(__('saluteora::fields.name.placeholder'))
     ->helperText(__('saluteora::fields.name.help'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ->label(__('<nome progetto>::fields.name.label'))
+    ->placeholder(__('<nome progetto>::fields.name.placeholder'))
+    ->helperText(__('<nome progetto>::fields.name.help'))
+<<<<<<< HEAD
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 399f46d3 (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::fields.name.label'))
+    ->placeholder(__('<nome progetto>::fields.name.placeholder'))
+    ->helperText(__('<nome progetto>::fields.name.help'))
+    ->label(__('<nome progetto>::fields.name.label'))
+    ->placeholder(__('<nome progetto>::fields.name.placeholder'))
+    ->helperText(__('<nome progetto>::fields.name.help'))
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('<nome progetto>::fields.name.label'))
+    ->placeholder(__('<nome progetto>::fields.name.placeholder'))
+    ->helperText(__('<nome progetto>::fields.name.help'))
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> b7ea1cd1 (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->required()
     ->maxLength(255);
 ```
@@ -140,10 +557,108 @@ TextInput::make('name')
 ### Select
 ```php
 Select::make('status')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+    ->label(__('<nome progetto>::fields.status.label'))
+    ->options([
+        'active' => __('<nome progetto>::fields.status.options.active'),
+        'inactive' => __('<nome progetto>::fields.status.options.inactive'),
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->label(__('saluteora::fields.status.label'))
     ->options([
         'active' => __('saluteora::fields.status.options.active'),
         'inactive' => __('saluteora::fields.status.options.inactive'),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::fields.status.label'))
+    ->options([
+        'active' => __('<nome progetto>::fields.status.options.active'),
+        'inactive' => __('<nome progetto>::fields.status.options.inactive'),
+    ->label(__('<nome progetto>::fields.status.label'))
+    ->options([
+        'active' => __('<nome progetto>::fields.status.options.active'),
+        'inactive' => __('<nome progetto>::fields.status.options.inactive'),
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ])
     ->required();
 ```
@@ -151,8 +666,87 @@ Select::make('status')
 ### Date Picker
 ```php
 DatePicker::make('appointment_date')
+<<<<<<< HEAD
     ->label(__('saluteora::fields.appointment_date.label'))
     ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ->label(__('<nome progetto>::fields.appointment_date.label'))
+    ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
+<<<<<<< HEAD
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 399f46d3 (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::fields.appointment_date.label'))
+    ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
+    ->label(__('<nome progetto>::fields.appointment_date.label'))
+    ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('<nome progetto>::fields.appointment_date.label'))
+    ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> b7ea1cd1 (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->required()
     ->minDate(now());
 ```
@@ -162,7 +756,70 @@ DatePicker::make('appointment_date')
 ### Text Column
 ```php
 Tables\Columns\TextColumn::make('name')
+<<<<<<< HEAD
     ->label(__('saluteora::fields.name.label'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ->label(__('<nome progetto>::fields.name.label'))
+<<<<<<< HEAD
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 399f46d3 (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::fields.name.label'))
+    ->label(__('<nome progetto>::fields.name.label'))
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('<nome progetto>::fields.name.label'))
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> b7ea1cd1 (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->searchable()
     ->sortable();
 ```
@@ -170,7 +827,70 @@ Tables\Columns\TextColumn::make('name')
 ### Badge Column
 ```php
 Tables\Columns\BadgeColumn::make('status')
+<<<<<<< HEAD
     ->label(__('saluteora::fields.status.label'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ->label(__('<nome progetto>::fields.status.label'))
+<<<<<<< HEAD
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 399f46d3 (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::fields.status.label'))
+    ->label(__('<nome progetto>::fields.status.label'))
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('<nome progetto>::fields.status.label'))
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> b7ea1cd1 (.)
+=======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->colors([
         'success' => 'active',
         'danger' => 'inactive',
@@ -180,12 +900,116 @@ Tables\Columns\BadgeColumn::make('status')
 ### Action Column
 ```php
 Tables\Columns\TextColumn::make('actions')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+    ->label(__('<nome progetto>::actions.label'))
+    ->actions([
+        Tables\Actions\EditAction::make()
+            ->label(__('<nome progetto>::actions.edit.label')),
+        Tables\Actions\DeleteAction::make()
+            ->label(__('<nome progetto>::actions.delete.label')),
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->label(__('saluteora::actions.label'))
     ->actions([
         Tables\Actions\EditAction::make()
             ->label(__('saluteora::actions.edit.label')),
         Tables\Actions\DeleteAction::make()
             ->label(__('saluteora::actions.delete.label')),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::actions.label'))
+    ->actions([
+        Tables\Actions\EditAction::make()
+            ->label(__('<nome progetto>::actions.edit.label')),
+        Tables\Actions\DeleteAction::make()
+            ->label(__('<nome progetto>::actions.delete.label')),
+    ->label(__('<nome progetto>::actions.label'))
+    ->actions([
+        Tables\Actions\EditAction::make()
+            ->label(__('<nome progetto>::actions.edit.label')),
+        Tables\Actions\DeleteAction::make()
+            ->label(__('<nome progetto>::actions.delete.label')),
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ]);
 ```
 
@@ -194,7 +1018,70 @@ Tables\Columns\TextColumn::make('actions')
 ### Create Action
 ```php
 Tables\Actions\CreateAction::make()
+<<<<<<< HEAD
     ->label(__('saluteora::actions.create.label'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ->label(__('<nome progetto>::actions.create.label'))
+<<<<<<< HEAD
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 399f46d3 (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::actions.create.label'))
+    ->label(__('<nome progetto>::actions.create.label'))
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('<nome progetto>::actions.create.label'))
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> b7ea1cd1 (.)
+=======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->icon('heroicon-o-plus')
     ->color('primary');
 ```
@@ -202,7 +1089,70 @@ Tables\Actions\CreateAction::make()
 ### Edit Action
 ```php
 Tables\Actions\EditAction::make()
+<<<<<<< HEAD
     ->label(__('saluteora::actions.edit.label'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ->label(__('<nome progetto>::actions.edit.label'))
+<<<<<<< HEAD
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 399f46d3 (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::actions.edit.label'))
+    ->label(__('<nome progetto>::actions.edit.label'))
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('<nome progetto>::actions.edit.label'))
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 5a14301c (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 43d67f21 (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> b7ea1cd1 (.)
+=======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->icon('heroicon-o-pencil')
     ->color('warning');
 ```
@@ -210,12 +1160,116 @@ Tables\Actions\EditAction::make()
 ### Delete Action
 ```php
 Tables\Actions\DeleteAction::make()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+    ->label(__('<nome progetto>::actions.delete.label'))
+    ->icon('heroicon-o-trash')
+    ->color('danger')
+    ->requiresConfirmation()
+    ->modalHeading(__('<nome progetto>::actions.delete.modal_heading'))
+    ->modalDescription(__('<nome progetto>::actions.delete.modal_description'));
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     ->label(__('saluteora::actions.delete.label'))
     ->icon('heroicon-o-trash')
     ->color('danger')
     ->requiresConfirmation()
     ->modalHeading(__('saluteora::actions.delete.modal_heading'))
     ->modalDescription(__('saluteora::actions.delete.modal_description'));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    ->label(__('<nome progetto>::actions.delete.label'))
+    ->icon('heroicon-o-trash')
+    ->color('danger')
+    ->requiresConfirmation()
+    ->modalHeading(__('<nome progetto>::actions.delete.modal_heading'))
+    ->modalDescription(__('<nome progetto>::actions.delete.modal_description'));
+    ->label(__('<nome progetto>::actions.delete.label'))
+    ->icon('heroicon-o-trash')
+    ->color('danger')
+    ->requiresConfirmation()
+    ->modalHeading(__('<nome progetto>::actions.delete.modal_heading'))
+    ->modalDescription(__('<nome progetto>::actions.delete.modal_description'));
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ## 🎯 Best Practices
@@ -232,10 +1286,112 @@ TextInput::make('name')->label('Nome')
 ### 2. Namespace
 ```php
 // ✅ CORRETTO - Namespace senza 'App'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\Filament\Resources;
+
+// ❌ ERRATO - Namespace con 'App'
+namespace Modules\<nome progetto>\App\Filament\Resources;
+=======
+=======
+>>>>>>> 5a14301c (.)
+namespace Modules\<nome modulo>\Filament\Resources;
+
+// ❌ ERRATO - Namespace con 'App'
+namespace Modules\<nome modulo>\App\Filament\Resources;
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\SaluteOra\Filament\Resources;
 
 // ❌ ERRATO - Namespace con 'App'
 namespace Modules\SaluteOra\App\Filament\Resources;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\Filament\Resources;
+
+// ❌ ERRATO - Namespace con 'App'
+namespace Modules\<nome modulo>\App\Filament\Resources;
+namespace Modules\<nome modulo>\Filament\Resources;
+
+// ❌ ERRATO - Namespace con 'App'
+namespace Modules\<nome modulo>\App\Filament\Resources;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ### 3. Ereditarietà
@@ -250,6 +1406,61 @@ class PatientResource extends Resource
 ### 4. Service Providers
 ```php
 // ✅ CORRETTO - Estendere XotBaseServiceProvider
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class <nome progetto>ServiceProvider extends XotBaseServiceProvider
+{
+    protected string $module_name = '<nome progetto>';
+}
+
+// ❌ ERRATO - Estendere direttamente
+class <nome progetto>ServiceProvider extends ServiceProvider
+=======
+=======
+>>>>>>> 5a14301c (.)
+class ServiceProvider extends XotBaseServiceProvider
+{
+    protected string $module_name = '';
+}
+
+// ❌ ERRATO - Estendere direttamente
+class ServiceProvider extends ServiceProvider
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 class SaluteOraServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = 'SaluteOra';
@@ -257,6 +1468,65 @@ class SaluteOraServiceProvider extends XotBaseServiceProvider
 
 // ❌ ERRATO - Estendere direttamente
 class SaluteOraServiceProvider extends ServiceProvider
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+class ServiceProvider extends XotBaseServiceProvider
+{
+    protected string $module_name = '';
+}
+
+// ❌ ERRATO - Estendere direttamente
+class ServiceProvider extends ServiceProvider
+class <nome progetto>ServiceProvider extends XotBaseServiceProvider
+{
+    protected string $module_name = '<nome progetto>';
+}
+
+// ❌ ERRATO - Estendere direttamente
+class <nome progetto>ServiceProvider extends ServiceProvider
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ## 🚨 Errori Comuni
@@ -284,10 +1554,112 @@ TextInput::make('name')  // Traduzione automatica
 ### 3. Namespace Errato
 ```php
 // ❌ ERRATO
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\App\Filament\Resources;
+
+// ✅ CORRETTO
+namespace Modules\<nome progetto>\Filament\Resources;
+=======
+=======
+>>>>>>> 5a14301c (.)
+namespace Modules\<nome modulo>\App\Filament\Resources;
+
+// ✅ CORRETTO
+namespace Modules\<nome modulo>\Filament\Resources;
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\SaluteOra\App\Filament\Resources;
 
 // ✅ CORRETTO
 namespace Modules\SaluteOra\Filament\Resources;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+namespace Modules\<nome modulo>\App\Filament\Resources;
+
+// ✅ CORRETTO
+namespace Modules\<nome modulo>\Filament\Resources;
+namespace Modules\<nome modulo>\App\Filament\Resources;
+
+// ✅ CORRETTO
+namespace Modules\<nome modulo>\Filament\Resources;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ## 📋 Checklist Pre-Commit
@@ -314,5 +1686,8 @@ namespace Modules\SaluteOra\Filament\Resources;
 ---
 
 *Guida consolidata che elimina duplicazioni e semplifica la manutenzione della documentazione Filament.*
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

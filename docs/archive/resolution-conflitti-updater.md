@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # Risoluzione conflitti su Trait Updater
 
 ## File coinvolto
@@ -26,9 +29,13 @@ Il file presentava numerosi conflitti git non risolti, in particolare tra le bra
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*
 =======
 *Collegamento bidirezionale creato: vedi anche `/docs/risoluzione_conflitti.md` nella root.*
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+*Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*
+>>>>>>> ba6c53070 (.)

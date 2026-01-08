@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # WebhookErrorFormatter
 
 ## Descrizione
@@ -47,6 +50,17 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 ## Collegamenti
 - [Error Handling Guidelines](../../EXCEPTION-HANDLING-GUIDE.md)
 - [Webhook Integration](../../integrations/WEBHOOK-GUIDE.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>> ba6c53070 (.)
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 <<<<<<< HEAD
 - [Error Formatters Overview](../README.md) 
@@ -67,4 +81,11 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 - [Error Formatters Overview](../README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters Overview](../README.md) 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

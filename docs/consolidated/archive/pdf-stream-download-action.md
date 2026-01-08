@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # StreamDownloadPdfAction Documentation
 
 ## Overview
@@ -143,12 +146,79 @@ Generated PDF data can be attached to emails through the notification system.
 ## Related Files
 - `ContentPdfAction.php` - Content-specific PDF generation action
 - `Modules\Notify\Emails\SpatieEmail.php` - Email attachment handling
+<<<<<<< HEAD
 - `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- `Modules\<nome progetto>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+=======
+- `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 5a14301c (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 399f46d3 (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> d86d643a (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 472bd9dc (.)
+=======
+- `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+- `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 43d67f21 (.)
+=======
+- `Modules\<nome modulo>\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 5a14301c (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 43d67f21 (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> b7ea1cd1 (.)
+=======
+- `Modules\SaluteOra\States\Appointment\Transitions\ReportPendingToReportCompleted.php` - Usage example
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## Notes
 - The action uses QueueableAction trait, making it suitable for background processing
 - PDF generation is synchronous within the action execution
 - The Italian language setting affects date formatting and text direction
 - UTF-8 encoding ensures proper handling of international characters
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

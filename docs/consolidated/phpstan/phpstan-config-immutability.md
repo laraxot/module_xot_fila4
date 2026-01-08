@@ -1,7 +1,61 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Config Immutability (Global Project Rule)
 
 - File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 472bd9dc (.)
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> b7ea1cd1 (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - Status: IMMUTABLE — never modify this file via automation or PRs. Only the user may edit it manually.
 
 ## Rationale
@@ -31,5 +85,8 @@ find Modules -maxdepth 2 -type d -name app ! -path 'Modules/Activity/*' -print0 
 - `.ai/guidelines/phpstan-config-immutability.md`
 - `.cursor/rules/phpstan-config-immutability.mdc`
 - `.windsurf/rules/phpstan-config-immutability.mdc`
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

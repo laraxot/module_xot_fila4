@@ -24,11 +24,20 @@ Questo documento serve come indice centrale per tutta la documentazione del prog
 
 ## Linee Guida Generali
 Le linee guida complete per la documentazione sono disponibili in:
+<<<<<<< HEAD
 - [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
+=======
+<<<<<<< HEAD
+- [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
+=======
+- [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 ## Documentazione per Modulo
 
 ### Core
+<<<<<<< HEAD
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -55,6 +64,35 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Changelog](../../../Xot/docs/changelog/README.md)
 - [Contributing](../../../Xot/docs/contributing.md)
 - [Security](../../../Xot/docs/security.md) 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba6c53070 (.)
 - [Xot Module](../../../Xot/project_docs/README.md)
 - [UI Module](../../../UI/project_docs/README.md)
 - [CMS Module](../../../Cms/project_docs/README.md)
@@ -86,6 +124,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 6cba4fe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -105,4 +144,11 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

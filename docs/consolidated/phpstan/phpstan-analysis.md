@@ -1,9 +1,79 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
+<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> d86d643a (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 472bd9dc (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> b7ea1cd1 (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## Analisi Completa
 
@@ -58,7 +128,35 @@ Accesso a proprietà non definite nei modelli.
 - Modelli User/Profile
 - Contratti e interfacce
 
+<<<<<<< HEAD
 ### 3. **SaluteMo** (Applicazione) - 15% errori
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### 3. **<nome modulo>** (Applicazione) - 15% errori
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 5a14301c (.)
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 399f46d3 (.)
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 5a14301c (.)
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 399f46d3 (.)
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 17684f52 (.)
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -87,8 +185,43 @@ Accesso a proprietà non definite nei modelli.
 4. `User/app/Models/Profile.php` - Metodi e proprietà
 
 ### Priorità 3 (Applicazione)
+<<<<<<< HEAD
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 5a14301c (.)
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 399f46d3 (.)
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 5a14301c (.)
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 399f46d3 (.)
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 17684f52 (.)
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -99,7 +232,35 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 ### Fase 2: Autenticazione (User)
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
+<<<<<<< HEAD
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 5a14301c (.)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 399f46d3 (.)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 5a14301c (.)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 399f46d3 (.)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 17684f52 (.)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale
@@ -192,5 +353,8 @@ class MyModel extends BaseModel
 **Stato**: 🔄 Analisi Completata - Correzioni in Corso  
 **phpstan.neon**: ✅ INTOCCATO  
 **Approccio**: DRY + KISS + Type Safety
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

@@ -73,33 +73,54 @@ public function mount(): void
 ### 1. Test Accesso Diretto al Panel
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ba6c53070 (.)
 
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
+=======
+=======
+# Accedere direttamente al panel PDND
+curl -I http://personale2022.prov.tv.local/pdnd/admin
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
 ### 2. Test Accesso al Dashboard Principale
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ba6c53070 (.)
 
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
 
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
+=======
+=======
+# Accedere al dashboard principale
+curl -I http://personale2022.prov.tv.local/admin
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
 ### 3. Test Utenti Multi-Ruolo
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -107,6 +128,14 @@ curl -I http://personale2022.prov.tv.local/admin
 
 >>>>>>> b9c66c44e (.)
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+=======
+
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+
+=======
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 # senza redirect automatico
 ```
 
@@ -131,9 +160,15 @@ I ruoli devono seguire il pattern `{module}::admin`:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b9c66c44e (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 # Esempi di ruoli corretti
 pdnd::admin
 user::admin
@@ -173,16 +208,27 @@ performance::admin
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ba6c53070 (.)
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/docs/console_commands/README.md)
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
+=======
+=======
+>>>>>>> ba6c53070 (.)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 ## Aggiornamenti
 
@@ -198,6 +244,13 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-27* 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+<<<<<<< HEAD
+=======
+*Ultimo aggiornamento: 2025-01-27* 
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)

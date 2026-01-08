@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Determinazione del Logo Basata sul Dominio
 
 ## Introduzione
@@ -28,6 +31,30 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 - **Riutilizzabilità**: L'uso di namespace per i percorsi degli asset consente ai moduli di essere riutilizzabili in più progetti.
 
 ## Collegamenti Bidirezionali
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Per ulteriori dettagli sul progetto specifico, consultare la documentazione nella root del progetto: [INDEX.md](../../../docs/INDEX.md).
+- Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md).
+- Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/docs/convenzioni-namespace-filament.md).
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ba6c53070 (.)
 - Per ulteriori dettagli sul progetto specifico, consultare la documentazione nella root del progetto: [INDEX.md](../../../project_docs/INDEX.md).
 - Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md).
 - Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/project_docs/convenzioni-namespace-filament.md).
@@ -81,4 +108,12 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- Per ulteriori dettagli sul progetto specifico, consultare la documentazione nella root del progetto: [INDEX.md](../../../project_docs/INDEX.md).
+- Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md).
+- Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/project_docs/convenzioni-namespace-filament.md).
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

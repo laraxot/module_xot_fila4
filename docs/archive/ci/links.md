@@ -55,6 +55,7 @@ Deptrac
 
 ## Collegamenti tra versioni di links.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [links.md](../../../Gdpr/project_docs/links.md)
 * [links.md](../../../Notify/project_docs/links.md)
 * [links.md](../../../Xot/project_docs/ci/links.md)
@@ -66,6 +67,8 @@ Deptrac
 * [links.md](../../../Cms/project_docs/links.md)
 * [links.md](../../../../Themes/One/project_docs/links.md)
 =======
+=======
+>>>>>>> ba6c53070 (.)
 * [links.md](../../../Gdpr/docs/links.md)
 * [links.md](../../../Notify/docs/links.md)
 * [links.md](../../../Xot/docs/ci/links.md)
@@ -76,7 +79,22 @@ Deptrac
 * [links.md](../../../Tenant/docs/it/links/links.md)
 * [links.md](../../../Cms/docs/links.md)
 * [links.md](../../../../Themes/One/docs/links.md)
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
+=======
+=======
+* [links.md](../../../Gdpr/project_docs/links.md)
+* [links.md](../../../Notify/project_docs/links.md)
+* [links.md](../../../Xot/project_docs/ci/links.md)
+* [links.md](../../../Xot/project_docs/open_sources/links.md)
+* [links.md](../../../User/project_docs/links.md)
+* [links.md](../../../Lang/project_docs/links.md)
+* [links.md](../../../Job/project_docs/links.md)
+* [links.md](../../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../../Cms/project_docs/links.md)
+* [links.md](../../../../Themes/One/project_docs/links.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 
 ### Versione Incoming
@@ -113,6 +131,7 @@ Deptrac
 
 ### Moduli Core
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo Lang](../../../Lang/project_docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -125,6 +144,8 @@ Deptrac
 
 - [Modulo Cache](../../../Cache/project_docs/links.md)
 =======
+=======
+>>>>>>> ba6c53070 (.)
 - [Modulo Lang](../../../Lang/docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -136,7 +157,23 @@ Deptrac
   > Sistema di code per operazioni asincrone. Gestione dei processi in background.
 
 - [Modulo Cache](../../../Cache/docs/links.md)
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
+=======
+=======
+- [Modulo Lang](../../../Lang/project_docs/links.md)
+  > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
+
+- [Modulo User](../../../User/project_docs/links.md)
+  > Gestione degli utenti e delle autorizzazioni base. Integrazione con il sistema di autenticazione.
+
+### Moduli di Supporto
+- [Modulo Queue](../../../Queue/project_docs/links.md)
+  > Sistema di code per operazioni asincrone. Gestione dei processi in background.
+
+- [Modulo Cache](../../../Cache/project_docs/links.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
   > Gestione della cache del sistema. Ottimizzazione delle performance.
 
 ## Implementazioni di Esempio

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # Testing Best Practices - Laraxot Framework
 
+<<<<<<< HEAD
 ## 🏆 **Gold Standard Pattern**
 
 Basato sui successi misurabili dei test RegisterTypeWidgetTest.php (9/9 test passati) e RegisterTypeTest.php (10/14 test passati).
@@ -21,6 +22,50 @@ use Modules\{Module}\Filament\Widgets\{WidgetName};
 uses(\Modules\Xot\Tests\TestCase::class);
 
 // ✅ CRITICO: Mock XotData per ogni test
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ## 🏆 Gold Standard per i Test
 
 - Preferire Pest a PHPUnit class-based.
@@ -38,16 +83,79 @@ use Modules\\{Module}\\Filament\\Widgets\\{WidgetName};
 
 uses(\\Modules\\Xot\\Tests\\TestCase::class);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 beforeEach(function (): void {
     mockXotData();
 });
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+// ✅ CRITICO: Test diretti senza describe() o dataset()
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 test('widget can be rendered', function () {
     Livewire::test({WidgetName}::class)
         ->assertStatus(200);
 });
 ```
 
+<<<<<<< HEAD
 ### XotData Mock Pattern (Obbligatorio)
 
 ```php
@@ -230,7 +338,57 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ### Esempio unit test semplice
 ```php
 <?php
@@ -250,7 +408,39 @@ it('extends pivot class', function () {
 function mockXotData(): void
 {
     $mock = \\Mockery::mock(\\Modules\\Xot\\Datas\\XotData::class)->makePartial();
+<<<<<<< HEAD
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 17684f52 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> 472bd9dc (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }
@@ -290,6 +480,7 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,4 +532,13 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

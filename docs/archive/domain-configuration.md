@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Gestione Domini e Configurazioni
 
 ## Prerequisiti
@@ -81,6 +84,41 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Risoluzione dei Loghi](LOGO_RESOLUTION.md) - **IMPORTANTE**: Processo dettagliato di risoluzione dei loghi
 - [Gestione Asset](assets.md)
 - [Struttura Temi](themes.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+- [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../docs/README.md)
+- [Standard di Progetto](../../../docs/standards/README.md)
+- [Gestione Media](../../Media/docs/README.md)
+- [Gestione UI](../../UI/docs/README.md)
+- [Gestione Temi](../../Cms/docs/themes.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
 - [Documentazione Principale](../../../project_docs/README.md)
 - [Standard di Progetto](../../../project_docs/standards/README.md)
@@ -88,6 +126,63 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione UI](../../UI/project_docs/README.md)
 - [Gestione Temi](../../Cms/project_docs/themes.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -95,12 +190,100 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Troubleshooting](TROUBLESHOOTING.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+- [Documentazione UI](../../UI/docs/configuration.md)
+- [Documentazione Media](../../Media/docs/assets.md)
+- [Documentazione Temi](../../Cms/docs/theming.md)
+- [Standard Interfaccia](../../../docs/standards/interface_guidelines.md)
+- [Best Practices](../../../docs/standards/best_practices.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Documentazione UI](../../UI/project_docs/configuration.md)
 - [Documentazione Media](../../Media/project_docs/assets.md)
 - [Documentazione Temi](../../Cms/project_docs/theming.md)
 - [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
 - [Best Practices](../../../project_docs/standards/best_practices.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione
@@ -172,6 +355,16 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 ## Collegamenti
 - [Configurazione Generale](CONFIGURATION.md)
 - [Gestione Asset](assets.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 - [Struttura Temi](themes.md) 
 - [Struttura Temi](themes.md) 
 <<<<<<< HEAD
@@ -191,4 +384,10 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [Struttura Temi](themes.md) 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

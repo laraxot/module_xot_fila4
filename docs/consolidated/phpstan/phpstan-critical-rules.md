@@ -1,9 +1,79 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # PHPStan Critical Rules - INTOCCABILE
 
 ## 🚨 REGOLA ASSOLUTA 🚨
 
+<<<<<<< HEAD
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`**
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
+>>>>>>> 5a14301c (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 399f46d3 (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> d86d643a (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 472bd9dc (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`**
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 43d67f21 (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
+>>>>>>> 5a14301c (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 43d67f21 (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> b7ea1cd1 (.)
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## Motivazione
 
@@ -179,5 +249,8 @@ La configurazione PHPStan è **SACRA** e **INTOCCABILE**. Tutti gli errori PHPSt
 **Applicabilità**: Universale  
 **Violazioni**: 🚫 VIETATE ASSOLUTAMENTE  
 **Stato**: ✅ Regola Attiva e Vincolante
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

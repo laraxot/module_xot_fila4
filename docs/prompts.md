@@ -123,6 +123,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,10 +182,20 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 =======
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -234,7 +245,28 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 48515e368 (.)
+=======
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> b3cc10f7 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore

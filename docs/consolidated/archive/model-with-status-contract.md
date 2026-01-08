@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # ModelWithStatusContract
 
 ## Descrizione
@@ -85,6 +88,17 @@ $latestStatus = $order->latestStatus();
 ## Collegamenti
 - [ModelContract](model-contract.md)
 - [Status Management](../features/STATUS-MANAGEMENT.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>> ba6c53070 (.)
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 <<<<<<< HEAD
 - [Contracts Overview](./README.md) 
@@ -105,4 +119,11 @@ $latestStatus = $order->latestStatus();
 - [Contracts Overview](./README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

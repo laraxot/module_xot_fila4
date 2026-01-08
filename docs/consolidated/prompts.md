@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Struttura dei Prompt
 
 I prompt sono file di testo che contengono istruzioni per l'AI. Devono seguire queste regole:
@@ -91,7 +94,74 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/file.md`
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 5a14301c (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 399f46d3 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> d86d643a (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 472bd9dc (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/file.md`
+❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 43d67f21 (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 5a14301c (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 43d67f21 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> b7ea1cd1 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -178,6 +248,15 @@ Il prompt `docs.txt` serve come:
 3. **Collegamenti Standardizzati**:
    ```markdown
    [Documento](./path/relativo) #tag-correlati
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ba6c53070 (.)
    ```
 <<<<<<< HEAD
 =======
@@ -198,4 +277,10 @@ Il prompt `docs.txt` serve come:
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+   ```
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

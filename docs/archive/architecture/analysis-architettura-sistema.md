@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ba6c53070 (.)
 # Analisi dell'Architettura del Sistema il progetto
 
 ## Panoramica Architetturale
@@ -93,6 +96,7 @@ L'architettura proposta dovrà evolvere attraverso iterazioni successive, valida
 ## Collegamenti tra versioni di analisi-architettura-sistema.md
 * [analisi-architettura-sistema.md](docs/analisi/architettura/analisi-architettura-sistema.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [analisi-architettura-sistema.md](../../../Xot/project_docs/architecture/analisi-architettura-sistema.md)
 =======
 * [analisi-architettura-sistema.md](../../../Xot/docs/architecture/analisi-architettura-sistema.md)
@@ -100,3 +104,7 @@ L'architettura proposta dovrà evolvere attraverso iterazioni successive, valida
 
 =======
 >>>>>>> dc2130a7c (.)
+=======
+* [analisi-architettura-sistema.md](../../../Xot/project_docs/architecture/analisi-architettura-sistema.md)
+
+>>>>>>> ba6c53070 (.)

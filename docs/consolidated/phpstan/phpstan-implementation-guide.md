@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Guida Pratica all'Implementazione delle Soluzioni PHPStan
 
 Questo documento fornisce una guida pratica su come implementare le soluzioni ai problemi più comuni rilevati da PHPStan a livello 9 nel framework Laraxot <nome progetto>.
@@ -295,6 +298,20 @@ Ogni modulo dovrebbe documentare le soluzioni ai problemi PHPStan specifici in `
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ba6c53070 (.)
 Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
 <<<<<<< HEAD
 =======
@@ -337,4 +354,9 @@ Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i 
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

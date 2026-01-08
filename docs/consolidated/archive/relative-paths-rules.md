@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Regole per i Percorsi Relativi nella Documentazione
 
 > **Collegamenti correlati**
@@ -37,7 +40,74 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 
 1. **MAI utilizzare percorsi assoluti** come:
    ```markdown
+<<<<<<< HEAD
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+   [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
+=======
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 5a14301c (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 399f46d3 (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> d86d643a (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 472bd9dc (.)
+=======
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+   [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 43d67f21 (.)
+=======
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 5a14301c (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 43d67f21 (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:
@@ -89,5 +159,8 @@ L'uso di percorsi relativi garantisce che la documentazione funzioni correttamen
 
 - [Markdown Link Syntax](https://www.markdownguide.org/basic-syntax/#links)
 - [Relative vs Absolute URLs](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2)
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

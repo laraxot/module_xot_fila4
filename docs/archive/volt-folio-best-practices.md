@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -15,16 +16,100 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 # Best Practices per Volt e Folio
 
 ## Collegamenti correlati
 - [README modulo Xot](./README.md)
 - [Struttura dei moduli](./MODULE_STRUCTURE.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+- [Convenzioni di Path](../User/docs/PATH_CONVENTIONS.md)
+- [Implementazione Auth con Volt e Folio](../User/docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
+- [Analisi Logout Blade](../User/docs/LOGOUT_BLADE_ANALYSIS.md)
+<<<<<<< HEAD
+=======
+- [Convenzioni di Path](../User/project_docs/PATH_CONVENTIONS.md)
+- [Implementazione Auth con Volt e Folio](../User/project_docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
+- [Analisi Logout Blade](../User/project_docs/LOGOUT_BLADE_ANALYSIS.md)
+>>>>>>> 399f46d3 (.)
+=======
+
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+
+=======
+>>>>>>> a5dccfe (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Convenzioni di Path](../User/project_docs/PATH_CONVENTIONS.md)
 - [Implementazione Auth con Volt e Folio](../User/project_docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
 - [Analisi Logout Blade](../User/project_docs/LOGOUT_BLADE_ANALYSIS.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 43d67f21 (.)
+=======
+- [Convenzioni di Path](../User/docs/PATH_CONVENTIONS.md)
+- [Implementazione Auth con Volt e Folio](../User/docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
+- [Analisi Logout Blade](../User/docs/LOGOUT_BLADE_ANALYSIS.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Convenzioni di Path](../User/project_docs/PATH_CONVENTIONS.md)
+- [Implementazione Auth con Volt e Folio](../User/project_docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
+- [Analisi Logout Blade](../User/project_docs/LOGOUT_BLADE_ANALYSIS.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Convenzioni di Path](../User/project_docs/PATH_CONVENTIONS.md)
+- [Implementazione Auth con Volt e Folio](../User/project_docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
+- [Analisi Logout Blade](../User/project_docs/LOGOUT_BLADE_ANALYSIS.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ## Introduzione
 
 Questo documento definisce le best practices per l'utilizzo di Laravel Folio e Livewire Volt , con particolare attenzione alle pagine di autenticazione e alle convenzioni di progetto.
@@ -275,6 +360,111 @@ return redirect()->to('/' . $locale);
 
 ## Conclusione
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di <nome progetto>, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 5a14301c (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 472bd9dc (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di <nome progetto>, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+
+## Riferimenti
+
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+- [Documentazione Folio](https://laravel.com/docs/10.x/folio)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+
+## Riferimenti
+
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+- [Documentazione Folio](https://laravel.com/project_docs/10.x/folio)
+>>>>>>> 43d67f21 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+
+## Riferimenti
+
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+- [Documentazione Folio](https://laravel.com/project_docs/10.x/folio)
+>>>>>>> 43d67f21 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+
+## Riferimenti
+
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+- [Documentazione Folio](https://laravel.com/project_docs/10.x/folio)
+>>>>>>> b7ea1cd1 (.)
+- [Documentazione Livewire](https://livewire.laravel.com/docs)
+- [Documentazione Filament](https://filamentphp.com/docs)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
 
 ## Riferimenti
@@ -285,6 +475,7 @@ Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il
 - [Documentazione Filament](https://filamentphp.com/docs)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -298,4 +489,9 @@ Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

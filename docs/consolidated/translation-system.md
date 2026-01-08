@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -225,6 +228,20 @@ php artisan view:clear
 - [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ba6c53070 (.)
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 <<<<<<< HEAD
 =======
@@ -267,4 +284,9 @@ php artisan view:clear
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

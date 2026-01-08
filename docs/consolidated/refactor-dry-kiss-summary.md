@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Refactor Radicale DRY + KISS - Riepilogo Completo
 
 > **🎯 Obiettivo Raggiunto**: Eliminazione massiva duplicazioni documentali
@@ -99,8 +102,73 @@
 | Lang | 22+ | Localizzazione standardizzata |
 | Media | 9+ | Asset management unificato |
 | Notify | 19+ | Notifiche standardizzate |
+<<<<<<< HEAD
 | SaluteMo | 13+ | Business logic semplificata |
 | SaluteOra | 45+ | Core business centralizzato |
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+| <nome modulo> | 13+ | Business logic semplificata |
+| <nome progetto> | 45+ | Core business centralizzato |
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+|  | 45+ | Core business centralizzato |
+| <nome progetto> | 45+ | Core business centralizzato |
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |
@@ -215,5 +283,8 @@
 **Completato**: 2025-08-07  
 **Durata refactor**: 15 minuti  
 **Impatto**: TRASFORMATIVO
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

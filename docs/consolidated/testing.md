@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Testing Guidelines - Modulo Xot
 
 ## Framework di Testing: Pest
@@ -674,8 +677,90 @@ test('no memory leaks in repeated operations', function (): void {
 ## Links di Riferimento
 
 ### Internal Documentation
+<<<<<<< HEAD
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+- [Root Testing Organization](../../../docs/testing-organization.md)
+- [Module Testing Guidelines](../../<nome modulo>/docs/testing.md)
+- [Cms Testing Guidelines](../../Cms/docs/testing.md)
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> d86d643a (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> 472bd9dc (.)
+=======
+- [Root Testing Organization](../../../docs/testing-organization.md)
+- [Module Testing Guidelines](../../<nome modulo>/docs/testing.md)
+- [Cms Testing Guidelines](../../Cms/docs/testing.md)
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 
 ### Framework Documentation
@@ -693,5 +778,8 @@ test('no memory leaks in repeated operations', function (): void {
 **Ultimo aggiornamento**: Dicembre 2024  
 **Framework**: Pest v2.x  
 **Coverage Target**: 90%+ per core framework  
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

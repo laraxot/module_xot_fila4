@@ -35,8 +35,64 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 ## Correzioni Implementate
 
 ### Moduli Corretti
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/project_docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/project_docs/phpstan-corrections.md)
+=======
+<<<<<<< HEAD
+- [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+- [FormBuilder FieldOption Model](../FormBuilder/project_docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/project_docs/phpstan-corrections.md)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ## Principi di Correzione
 
@@ -57,8 +113,91 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 
 ## Collegamenti Correlati
 
+<<<<<<< HEAD
 - [FormBuilder PHPStan Corrections](../FormBuilder/project_docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [FormBuilder PHPStan Corrections](../FormBuilder/project_docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 5a14301c (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 71f31700 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 17684f52 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 88e35986 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/project_docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> ca9324a4 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 5a14301c (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> ca9324a4 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 9db27d12 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro

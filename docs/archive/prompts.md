@@ -65,7 +65,15 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ## Collegamenti tra versioni di prompts.md
 * [prompts.md](docs/prompts.md)
+<<<<<<< HEAD
 * [prompts.md](../../../Xot/project_docs/prompts.md)
+=======
+<<<<<<< HEAD
+* [prompts.md](../../../Xot/docs/prompts.md)
+=======
+* [prompts.md](../../../Xot/project_docs/prompts.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 
 ## Modifiche al Prompt docs.txt
@@ -91,7 +99,114 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/file.md`
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 5a14301c (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 71f31700 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> ca9324a4 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> d86d643a (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 472bd9dc (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 43d67f21 (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 5a14301c (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 71f31700 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 43d67f21 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> c35986f4 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> b7ea1cd1 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 33af3e61 (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore

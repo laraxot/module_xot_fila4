@@ -179,9 +179,16 @@ Se non desideri questo comportamento, puoi impostare **shouldRegisterNavigationW
 Assicurati semplicemente di impostare uno slug personalizzato per le risorse in modo che generi percorsi univoci.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://filamentphp.com/project_docs/2.x/admin/resources/getting-started#customizing-the-url-slug
 =======
 https://filamentphp.com/docs/2.x/admin/resources/getting-started#customizing-the-url-slug
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+https://filamentphp.com/docs/2.x/admin/resources/getting-started#customizing-the-url-slug
+=======
+https://filamentphp.com/project_docs/2.x/admin/resources/getting-started#customizing-the-url-slug
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)

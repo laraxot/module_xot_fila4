@@ -689,16 +689,28 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 
 ## Collegamenti tra versioni di BOTTLENECKS.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [BOTTLENECKS.md](../../../Xot/project_docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/project_docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Media/project_docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/project_docs/BOTTLENECKS.md)
 =======
+=======
+>>>>>>> ba6c53070 (.)
 * [BOTTLENECKS.md](../../../Xot/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/docs/BOTTLENECKS.md)
+<<<<<<< HEAD
 >>>>>>> b9c66c44e (.)
+=======
+=======
+* [BOTTLENECKS.md](../../../Xot/project_docs/BOTTLENECKS.md)
+* [BOTTLENECKS.md](../../../User/project_docs/BOTTLENECKS.md)
+* [BOTTLENECKS.md](../../../Media/project_docs/BOTTLENECKS.md)
+* [BOTTLENECKS.md](../../../Cms/project_docs/BOTTLENECKS.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 =======
 >>>>>>> dc2130a7c (.)

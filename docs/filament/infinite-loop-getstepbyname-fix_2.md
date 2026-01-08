@@ -130,15 +130,101 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
+<<<<<<< HEAD
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD:docs/filament/infinite-loop-getstepbyname-fix_2.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+- [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+
+### **Documentazione Correlata**
+- [Wizard Step Implementation](../../../Modules/<nome modulo>/docs/wizard-step-implementation.md)
+>>>>>>> ba6c53070 (.):docs/archive/filament/infinite-loop-getstepbyname-fix.md
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
+<<<<<<< HEAD:docs/filament/infinite-loop-getstepbyname-fix_2.md
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+- [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+- [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+- [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.):docs/archive/filament/infinite-loop-getstepbyname-fix.md
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---

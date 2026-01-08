@@ -66,10 +66,88 @@ Questo è l'errore più comune e grave nelle convenzioni di namespace:
 
 ```php
 // GRAVEMENTE ERRATO
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\<nome progetto>\App\Controllers;
 
 // CORRETTO
 namespace Modules\<nome progetto>\Controllers;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome modulo>\App\Controllers;
+
+// CORRETTO
+namespace Modules\<nome modulo>\Controllers;
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
@@ -81,10 +159,88 @@ namespace Modules\SaluteOra\Controllers;
 ### corretti ✓
 ```php
 namespace Modules\Xot\Console\Commands;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\<nome progetto>\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\<nome progetto>\Filament\Resources;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome modulo>\Models;
+namespace Modules\User\Services;
+namespace Modules\Tenant\Repositories;
+namespace Modules\<nome modulo>\Filament\Resources;
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
@@ -94,10 +250,88 @@ namespace Modules\SaluteOra\Filament\Resources;
 ### errati ✗
 ```php
 namespace Modules\Xot\app\Console\Commands;       // errato: 'app' nel namespace
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\<nome progetto>\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura completamente sbagliata
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome modulo>\App\Models;           // errato: 'App' nel namespace
+namespace Modules\User\App\Services;              // errato: 'App' nel namespace
+namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
+namespace App\Modules\<nome modulo>\Controllers;      // errato: struttura completamente sbagliata
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
@@ -111,22 +345,227 @@ namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completam
 Anche se i file sono fisicamente collocati in una directory `app/`, il namespace **non deve mai riflettere** questa struttura.
 
 ```
+<<<<<<< HEAD
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome progetto>\Models;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome modulo>\Models;
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> 5a14301c (.)
+=======
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> 71f31700 (.)
+=======
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+=======
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> d86d643a (.)
+=======
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> 472bd9dc (.)
+=======
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome modulo>\Models;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome progetto>\Models;
+=======
+>>>>>>> 6cba4fe (.)
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome progetto>\Models;
+=======
+>>>>>>> 6cba4fe (.)
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome progetto>\Models;
+=======
+>>>>>>> 6cba4fe (.)
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> 33af3e61 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ### mappatura corretta percorso-namespace
 
 | percorso fisico | namespace corretto |
 |-----------------|--------------------|
+<<<<<<< HEAD
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome modulo>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome modulo>\Filament\Resources` |
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> 5a14301c (.)
+=======
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> 71f31700 (.)
+=======
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+=======
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> d86d643a (.)
+=======
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> 472bd9dc (.)
+=======
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome modulo>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome modulo>\Filament\Resources` |
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
+=======
+>>>>>>> 6cba4fe (.)
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
+=======
+>>>>>>> 6cba4fe (.)
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
+=======
+>>>>>>> 6cba4fe (.)
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> 33af3e61 (.)
+>>>>>>> ba6c53070 (.)
 | `/Modules/Xot/app/Providers/XotServiceProvider.php` | `Modules\Xot\Providers` |
 
 ### struttura directory completa
 
 ```
 Modules/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
   <nome progetto>/
     app/                        // directory fisica
       Console/
@@ -137,6 +576,65 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\<nome progetto>\Filament\Resources;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <nome progetto>/
+    app/                        // directory fisica
+      Console/
+        Commands/
+          ImportPatient.php     // namespace Modules\<nome modulo>\Console\Commands;
+      Models/
+        Patient.php            // namespace Modules\<nome modulo>\Models;
+      Filament/
+        Resources/
+          PatientResource.php  // namespace Modules\<nome modulo>\Filament\Resources;
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -164,7 +662,82 @@ Prima di committare un file, verifica sempre che:
 Utilizza phpstan per verificare automaticamente i namespace:
 
 ```bash
+<<<<<<< HEAD
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+>>>>>>> 5a14301c (.)
+=======
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+>>>>>>> 71f31700 (.)
+=======
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+=======
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+=======
+>>>>>>> 6cba4fe (.)
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+>>>>>>> 5a14301c (.)
+=======
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+<<<<<<< HEAD
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+=======
+>>>>>>> 6cba4fe (.)
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+>>>>>>> c35986f4 (.)
+=======
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+=======
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+=======
+>>>>>>> 6cba4fe (.)
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+>>>>>>> 33af3e61 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ## motivazione di questa convenzione
@@ -187,10 +760,88 @@ Un errore comune è includere `App` nel namespace:
 
 ```php
 // ERRATO ❌
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\<nome progetto>\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\<nome progetto>\Console\Commands;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome modulo>\App\Console\Commands;
+
+// CORRETTO ✓
+namespace Modules\<nome modulo>\Console\Commands;
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
@@ -210,7 +861,88 @@ namespace Modules\SaluteOra\Console\Commands;
 Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
+<<<<<<< HEAD
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+>>>>>>> 5a14301c (.)
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+>>>>>>> 71f31700 (.)
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+>>>>>>> 6cba4fe (.)
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+<<<<<<< HEAD
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+>>>>>>> a5dccfe (.)
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+>>>>>>> 5a14301c (.)
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+<<<<<<< HEAD
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+>>>>>>> a5dccfe (.)
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+>>>>>>> c35986f4 (.)
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 ```
 
 ### PHP Stan

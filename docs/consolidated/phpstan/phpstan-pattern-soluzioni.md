@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Pattern e Soluzioni per PHPStan Livello 10 - Modulo Xot
 
 Questo documento raccoglie i pattern comuni di errori PHPStan di livello 10 nel modulo Xot e le soluzioni standard implementate.
@@ -279,6 +282,38 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 
 1. Applicare sistematicamente questi pattern a tutto il codice del modulo Xot
 2. Estendere questi pattern ad altri moduli del progetto
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+=======
+>>>>>>> d86d643a (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> ba6c53070 (.)
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 ## Collegamenti tra versioni di PHPSTAN_PATTERN_SOLUZIONI.md
 * [PHPSTAN_PATTERN_SOLUZIONI.md](../../../Xot/project_docs/phpstan/PHPSTAN_PATTERN_SOLUZIONI.md)
@@ -331,4 +366,10 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)

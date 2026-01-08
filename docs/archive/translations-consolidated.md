@@ -19,7 +19,15 @@ Questo documento sostituisce e consolida **107+ file traduzioni duplicati** trov
 - Qualsiasi documentazione traduzioni specifica di modulo
 
 ### ✅ Unica Fonte di Verità
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/project_docs/translations-consolidated.md`
+=======
+<<<<<<< HEAD
+- **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/translations-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 - **File lang**: Solo nei singoli moduli (contenuto, non docs)
 
 ## Principi Fondamentali Universali
@@ -366,6 +374,7 @@ Tutti questi file sono DUPLICATI e vanno eliminati:
 
 ```bash
 # Activity
+<<<<<<< HEAD
 rm Modules/Activity/docs/translations.md
 
 # Chart
@@ -409,6 +418,10 @@ rm Modules/Lang/docs/translation_keys_best_practices.md
 rm Modules/Lang/docs/translation-preservation-rules.md
 rm Modules/Lang/docs/translation_standards_links.md
 rm Modules/Lang/docs/translation_notify_conversion.md
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ba6c53070 (.)
 rm Modules/Activity/project_docs/translations.md
 
 # Chart
@@ -452,12 +465,24 @@ rm Modules/Lang/project_docs/translation_keys_best_practices.md
 rm Modules/Lang/project_docs/translation-preservation-rules.md
 rm Modules/Lang/project_docs/translation_standards_links.md
 rm Modules/Lang/project_docs/translation_notify_conversion.md
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 
 # E tutti gli altri 57+ file duplicati...
 ```
 
 ### Mantenere Solo
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/project_docs/translations-consolidated.md`
+=======
+<<<<<<< HEAD
+- **Questo file**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/translations-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)
 - **File lang**: Solo contenuto traduzioni nei singoli moduli
 
 ## Troubleshooting Universale

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Sistema di Prompt per la Documentazione
 
 ## Panoramica
@@ -14,7 +17,74 @@ Questo documento descrive l'integrazione tra il sistema di documentazione di Xot
 
 Il modulo bashscripts include un sistema di prompt che fornisce istruzioni standardizzate per l'organizzazione e la manutenzione della documentazione attraverso tutti i moduli del progetto.
 
+<<<<<<< HEAD
 Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+=======
+Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 5a14301c (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 399f46d3 (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> d86d643a (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 472bd9dc (.)
+=======
+Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 43d67f21 (.)
+=======
+Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 5a14301c (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 43d67f21 (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> b7ea1cd1 (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 1. Struttura gerarchica della documentazione
 2. Sistema di collegamenti bidirezionali
@@ -55,5 +125,8 @@ Qualsiasi aggiornamento al sistema di prompt deve essere:
 - [Linee Guida per la Documentazione in Xot](./DOCUMENTATION-GUIDELINES.md)
 - [Percorsi Relativi nella Documentazione](../../../../bashscripts/project_docs/PERCORSI_RELATIVI_DOCUMENTAZIONE.md)
 - [Documentazione del Sistema di Prompt](../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md)
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

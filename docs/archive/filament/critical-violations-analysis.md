@@ -121,9 +121,111 @@ class NotificationLogResource extends XotBaseResource
 - [Regole Windsurf](../../../../.windsurf/rules/filament-xotbase-resource-best-practices.mdc)
 
 ### Documentazione Moduli
+<<<<<<< HEAD
 - [Notify Module README](../../../Notify/project_docs/README.md)
 - [User Module README](../../../User/project_docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/project_docs/README.md)
+=======
+<<<<<<< HEAD
+- [Notify Module README](../../../Notify/docs/README.md)
+- [User Module README](../../../User/docs/README.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [<nome progetto> Module README](../../../<nome progetto>/docs/README.md)
+=======
+- [ Module README](../../../<nome modulo>/docs/README.md)
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+- [Notify Module README](../../../Notify/project_docs/README.md)
+- [User Module README](../../../User/project_docs/README.md)
+- [SaluteOra Module README](../../../SaluteOra/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> d86d643a (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 472bd9dc (.)
+=======
+- [ Module README](../../../<nome modulo>/docs/README.md)
+- [<nome progetto> Module README](../../../../docs/README.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [ Module README](../../../<nome modulo>/docs/README.md)
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 5a14301c (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> ba6c53070 (.)
 
 ### Standard di Riferimento
 - [NavigationLabelTrait](../traits/navigation-label-trait.md)

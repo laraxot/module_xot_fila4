@@ -193,6 +193,7 @@ php artisan test --filter=TestClass
 
 - [Git Documentation](https://git-scm.com/doc)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Workflow Git](../../../Xot/project_docs/git/workflow.md)
 - [Best Practices](../../../Xot/project_docs/best-practices/git.md)
 - [CI/CD Pipeline](../../../Xot/project_docs/ci-cd/README.md) 
@@ -203,3 +204,13 @@ php artisan test --filter=TestClass
 >>>>>>> b9c66c44e (.)
 =======
 >>>>>>> dc2130a7c (.)
+=======
+- [Workflow Git](../../../Xot/docs/git/workflow.md)
+- [Best Practices](../../../Xot/docs/best-practices/git.md)
+- [CI/CD Pipeline](../../../Xot/docs/ci-cd/README.md) 
+=======
+- [Workflow Git](../../../Xot/project_docs/git/workflow.md)
+- [Best Practices](../../../Xot/project_docs/best-practices/git.md)
+- [CI/CD Pipeline](../../../Xot/project_docs/ci-cd/README.md) 
+>>>>>>> 6cba4fe (.)
+>>>>>>> ba6c53070 (.)

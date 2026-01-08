@@ -45,6 +45,7 @@ use Modules\<nome modulo>\Models\User;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -76,6 +77,10 @@ use Modules\<nome modulo>\Models\User;
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 use Modules\SaluteOra\Models\User;
 =======
 use Modules\<nome modulo>\Models\User;
@@ -169,6 +174,7 @@ $user = User::factory()->create([...]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +220,11 @@ $user = User::factory()->create([...]);
 =======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 >>>>>>> cafe8bed (.)
+=======
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -338,6 +349,7 @@ $user = $userClass::factory()->create($attributes);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,6 +404,11 @@ $user = $userClass::factory()->create($attributes);
 =======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 >>>>>>> cafe8bed (.)
+=======
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> 5a14301c (.)
 =======
@@ -543,6 +560,7 @@ public function processUser(UserContract $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -592,6 +610,11 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> cafe8bed (.)
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 5a14301c (.)
 =======
@@ -822,6 +845,7 @@ class ChangeTypeCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -893,6 +917,13 @@ use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 >>>>>>> cafe8bed (.)
+=======
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
@@ -1033,6 +1064,7 @@ use Modules\Xot\Datas\XotData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1082,6 +1114,11 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 =======
 $user = \Modules\<nome modulo>\Models\User::find($id);
 >>>>>>> cafe8bed (.)
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> 5a14301c (.)
 =======
@@ -1190,6 +1227,7 @@ $user = $userClass::find($id);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1239,6 +1277,11 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> cafe8bed (.)
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 5a14301c (.)
 =======
@@ -1426,6 +1469,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 <<<<<<< HEAD
@@ -1497,11 +1541,14 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> a62d7646 (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
 <<<<<<< HEAD
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1515,10 +1562,13 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+>>>>>>> a62d7646 (.)
+=======
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1598,11 +1648,14 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> a62d7646 (.)
 
 ---
 
 **Ultimo Aggiornamento**: Gennaio 2025  
 **Stato**: ✅ Pattern Documentato e Implementato  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1736,3 +1789,8 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)

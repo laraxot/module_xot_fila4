@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 <div>
     <div class="row justify-content-between">
         <div class="col-auto order-last order-md-first">

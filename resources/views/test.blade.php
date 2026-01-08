@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 @extends('xot::layouts.master')
 
 @section('content')

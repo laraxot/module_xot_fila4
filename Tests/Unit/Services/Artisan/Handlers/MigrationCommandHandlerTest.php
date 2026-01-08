@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Modules\Xot\Services\Artisan\Handlers\MigrationCommandHandler;
 
+use function Safe\ob_get_clean;
+use function Safe\ob_start;
+
 test('migration handler supports migrate command', function (): void {
     $handler = new MigrationCommandHandler;
 

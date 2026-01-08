@@ -5,6 +5,10 @@ declare(strict_types=1);
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 
+use function Safe\chdir;
+use function Safe\file_put_contents;
+use function Safe\mkdir;
+
 uses(TestCase::class);
 
 beforeEach(function (): void {
@@ -22,20 +26,20 @@ afterEach(function (): void {
 });
 
 // Recursive function to remove a directory and its contents
-function rrmdir($dir)
+function rrmdir(string $dir): void
 {
     if (is_dir($dir)) {
-        $objects = scandir($dir);
+        $objects = \Safe\scandir($dir);
         foreach ($objects as $object) {
             if ($object !== '.' && $object !== '..') {
                 if (is_dir($dir.DIRECTORY_SEPARATOR.$object) && ! is_link($dir.'/'.$object)) {
                     rrmdir($dir.DIRECTORY_SEPARATOR.$object);
                 } else {
-                    unlink($dir.DIRECTORY_SEPARATOR.$object);
+                    \Safe\unlink($dir.DIRECTORY_SEPARATOR.$object);
                 }
             }
         }
-        rmdir($dir);
+        \Safe\rmdir($dir);
     }
 }
 

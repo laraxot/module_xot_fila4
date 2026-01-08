@@ -43,7 +43,11 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
      */
     public function getResource(): string
     {
+<<<<<<< HEAD
         if (isset(static::$resource) && \is_string(static::$resource) && static::$resource !== '') {
+=======
+        if (isset(static::$resource) && \is_string(static::$resource) && '' !== static::$resource) {
+>>>>>>> 8ab8fd81a (.)
             return static::$resource;
         }
 
@@ -97,7 +101,11 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /**
      * @return array<int|string, Column|LayoutComponent>
      */
+<<<<<<< HEAD
     #[Override]
+=======
+    #[\Override]
+>>>>>>> 8ab8fd81a (.)
     public function getTableColumns(): array
     {
         $index = Arr::get($this->getResource()::getPages(), 'index');
@@ -147,10 +155,17 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 continue;
             }
 
+<<<<<<< HEAD
             // $column è già verificato come instance di Column|LayoutComponent sopra
             $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
             $nameStr = \is_string($name) ? $name : (string) $name;
             $assoc[$nameStr] = $column;
+=======
+            $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
+            $nameStr = \is_string($name) ? $name : (string) $name;
+            $assoc[$nameStr] = $column;
+
+>>>>>>> 8ab8fd81a (.)
         }
 
         return $assoc;
@@ -164,7 +179,11 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         $actions['edit'] = EditAction::make()
             ->iconButton()
             ->visible(static function (?Model $record) use ($me): bool {
+<<<<<<< HEAD
                 if ($record === null) {
+=======
+                if (null === $record) {
+>>>>>>> 8ab8fd81a (.)
                     return false;
                 }
 
@@ -174,7 +193,11 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         $actions['detach'] = DetachAction::make()
             ->iconButton()
             ->visible(static function (?Model $record) use ($me): bool {
+<<<<<<< HEAD
                 if ($record === null) {
+=======
+                if (null === $record) {
+>>>>>>> 8ab8fd81a (.)
                     return false;
                 }
 
@@ -236,9 +259,15 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /**
      * Determine if the bulk delete action can be performed on the given record.
      */
+<<<<<<< HEAD
     public function canDeleteBulk(Model|stdClass|null $record): bool
     {
         if ($record instanceof stdClass) {
+=======
+    public function canDeleteBulk(Model|\stdClass|null $record): bool
+    {
+        if ($record instanceof \stdClass) {
+>>>>>>> 8ab8fd81a (.)
             // For stdClass records (lightweight bulk operations), allow by default
             return true;
         }
@@ -249,9 +278,15 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /**
      * Determine if the bulk detach action can be performed on the given record.
      */
+<<<<<<< HEAD
     public function canDetachBulk(Model|stdClass|null $record): bool
     {
         if ($record instanceof stdClass) {
+=======
+    public function canDetachBulk(Model|\stdClass|null $record): bool
+    {
+        if ($record instanceof \stdClass) {
+>>>>>>> 8ab8fd81a (.)
             // For stdClass records (lightweight bulk operations), allow by default
             return true;
         }

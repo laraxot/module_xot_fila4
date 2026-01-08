@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Carbon;
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
+>>>>>>> 8ab8fd81a (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;

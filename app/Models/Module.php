@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\ModuleFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
 use Modules\Xot\Contracts\ProfileContract;

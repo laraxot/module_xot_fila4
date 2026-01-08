@@ -21,11 +21,13 @@ use Modules\Xot\Datas\XotData;
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Facades\Module;
 use Webmozart\Assert\Assert;
-
 use function Safe\define;
 use function Safe\glob;
 use function Safe\json_decode;
 use function Safe\preg_match;
+use Nwidart\Modules\Module as ModuleContract;
+use Illuminate\Routing\Route as IlluminateRoute;
+
 
 // ------------------------------------------------
 
@@ -136,22 +138,25 @@ if (! function_exists('hex2rgba')) {
             $hex = [$color[0].$color[1], $color[2].$color[3], $color[4].$color[5]];
         } elseif (mb_strlen($color) === 3) {
             $hex = [$color[0].$color[0], $color[1].$color[1], $color[2].$color[2]];
-        } else {
+        }
+        
+        if(!isset($hex)){
             return $default;
         }
+
 
         // Convert hexadec to rgb
         $rgb = array_map('hexdec', $hex);
 
         // Check if opacity is set(rgba or rgb)
-        if ($opacity !== -1.0) {
-            if ($opacity < 0 || $opacity > 1) {
-                $opacity = 1.0;
-            }
-            $output = 'rgba('.implode(',', $rgb).','.$opacity.')';
-        } else {
-            $output = 'rgb('.implode(',', $rgb).')';
+        if ($opacity === -1.0) {
+            return 'rgb('.implode(',', $rgb).')';
         }
+
+        if ($opacity < 0 || $opacity > 1) {
+            $opacity = 1.0;
+        }
+        $output = 'rgba('.implode(',', $rgb).','.$opacity.')';
 
         // Return rgb(a) color string
         return $output;
@@ -165,7 +170,7 @@ if (! function_exists('dddx')) {
         $file = $tmp[0]['file'] ?? 'file-unknown';
         $file = str_replace('/', DIRECTORY_SEPARATOR, $file);
 
-        Assert::string($doc_root = $_SERVER['DOCUMENT_ROOT'], __FILE__.':'.__LINE__.' - Helper');
+        Assert::string($doc_root = request()->server('DOCUMENT_ROOT'), __FILE__.':'.__LINE__.' - Helper');
         $doc_root = str_replace('/', DIRECTORY_SEPARATOR, $doc_root);
 
         $dir_piece = explode(DIRECTORY_SEPARATOR, __DIR__);
@@ -251,14 +256,18 @@ if (! function_exists('getFilename')) {
 if (! function_exists('req_uri')) {
     function req_uri(): mixed
     {
-        return $_SERVER['REQUEST_URI'] ?? '';
+        return request()->getRequestUri() ?? '';
     }
 }
 
 if (! function_exists('in_admin')) {
     /**
      * ---.
-     */
+     *
+ * @param array $params
+ *
+ * @return bool
+ */
     function in_admin(array $params = []): bool
     {
         return inAdmin($params);
@@ -268,7 +277,11 @@ if (! function_exists('in_admin')) {
 if (! function_exists('inAdmin')) {
     /**
      * ---.
-     */
+     *
+ * @param array $params
+ *
+ * @return bool
+ */
     function inAdmin(array $params = []): bool
     {
         if (isset($params['in_admin'])) {
@@ -395,7 +408,7 @@ if (! function_exists('params2ContainerItem')) {
             // $params = optional(Route::current())->parameters();
             $params = [];
             $route_current = Route::current();
-            if ($route_current instanceof Illuminate\Routing\Route) {
+            if ($route_current instanceof IlluminateRoute) {
                 $params = $route_current->parameters();
             }
         }
@@ -489,7 +502,7 @@ if (! function_exists('getModelByName')) {
  */
 
 if (! function_exists('getModuleFromModel')) {
-    function getModuleFromModel(object $model): Nwidart\Modules\Module
+    function getModuleFromModel(object $model): ModuleContract
     {
         $class = $model::class;
         $module_name = Str::before(Str::after($class, 'Modules\\'), '\\Models\\');
@@ -504,7 +517,7 @@ if (! function_exists('getModuleFromModel')) {
         // $mod = app('module')->get($module_name);
 
         // @phpstan-ignore method.nonObject
-        Assert::isInstanceOf($res = app('module')->find($module_name), Nwidart\Modules\Module::class);
+        Assert::isInstanceOf($res = app('module')->find($module_name), ModuleContract::class);
 
         return $res;
     }
@@ -659,7 +672,7 @@ if (! function_exists('deltaTime')) {
 if (! function_exists('bracketsToDotted')) {
     // privacies[111][pivot][title] => privacies.111.pivot.title
 
-    function bracketsToDotted(string $str, string $_quotation_marks = ''): string
+    function bracketsToDotted(string $str): string
     {
         return str_replace(['[', ']'], ['.', ''], $str);
     }
@@ -667,7 +680,7 @@ if (! function_exists('bracketsToDotted')) {
 
 if (! function_exists('dottedToBrackets')) {
     // privacies.111.pivot.title => privacies[111][pivot][title]
-    function dottedToBrackets(string $str, string $_quotation_marks = ''): string
+    function dottedToBrackets(string $str): string
     {
         return collect(explode('.', $str))
             ->map(static fn (string $v, $k): string => $k === 0 ? $v : ('['.$v.']'))
@@ -683,9 +696,9 @@ if (! function_exists('array_merge_recursive_distinct')) {
         foreach ($array2 as $key => &$value) {
             if (is_array($value) && isset($merged[$key]) && is_array($merged[$key])) {
                 $merged[$key] = array_merge_recursive_distinct($merged[$key], $value);
-            } else {
-                $merged[$key] = $value;
+                continue;
             }
+            $merged[$key] = $value;
         }
 
         return $merged;
@@ -717,20 +730,15 @@ if (! function_exists('getRelationships')) {
 
             try {
                 $return = $reflection->invoke($model);
-                $check = $return instanceof Relation;
-                /*
-                if ($check) {
-                    $related_model = new ReflectionClass($return->getRelated())->getName();
-                    $msg = [
-                        'name' => $reflection->name,
-                        'type' => class_basename($return),
-                        // 'check'=>$check,
-                        // $msg['type']=(new \ReflectionClass($return))->getShortName();
-                        'model' => $related_model,
-                    ];
-                    $data[] = $msg;
+                if ($return instanceof Relation) {
+                    // $related_model = new ReflectionClass($return->getRelated())->getName();
+                    // $msg = [
+                    //    'name' => $reflection->name,
+                    //    'type' => class_basename($return),
+                    //    'model' => $related_model,
+                    // ];
+                    // $data[] = $msg;
                 }
-                    */
             } catch (Throwable $e) {
                 // Gestione generica delle eccezioni che potrebbero verificarsi durante l'analisi delle relazioni
                 // Log::debug(['error' => $e->getMessage(), 'file' => $e->getFile(), 'line' => $e->getLine()]);
@@ -860,7 +868,7 @@ if (! function_exists('getRouteParameters')) {
     function getRouteParameters(): array
     {
         $route = request()->route();
-        if (! ($route instanceof Illuminate\Routing\Route)) {
+        if (! ($route instanceof IlluminateRoute)) {
             return [];
         }
 
@@ -876,7 +884,7 @@ if (! function_exists('getRouteName')) {
          * @var Illuminate\Routing\Route|null
          */
         $route = request()->route();
-        if (! ($route instanceof Illuminate\Routing\Route)) {
+        if (! ($route instanceof IlluminateRoute)) {
             return null;
         }
 
@@ -983,8 +991,6 @@ if (! function_exists('debugStack')) {
 
         if (function_exists('xdebug_print_function_stack')) {
             xdebug_print_function_stack();
-        } else {
-            debug_print_backtrace();
         }
     }
 }
@@ -1171,9 +1177,9 @@ if (! function_exists('authId')) {
  *
  * @template T
  *
- * @param  T|null  $object  L'oggetto da controllare
- * @param  string  $method  Il nome del metodo da chiamare
- * @param  mixed  ...$args  Gli argomenti da passare al metodo
+ * @param T|null $object L'oggetto da controllare
+ * @param string $method Il nome del metodo da chiamare
+ * @param mixed  ...$args Gli argomenti da passare al metodo
  */
 function safe_object_call($object, string $method, mixed ...$args): mixed
 {
@@ -1200,9 +1206,10 @@ if (! function_exists('trans_string')) {
      * - Returning the key itself if translation is array (missing translation case)
      * - Returning null if the result is null
      *
-     * @param  string  $key  Translation key
-     * @param  array<string, bool|float|int|string|null>  $replace  Replacement values
-     * @param  string|null  $locale  Specific locale to use
+     * @param string                $key     Translation key
+     * @param array<string, scalar> $replace Replacement values
+     * @param string|null           $locale  Specific locale to use
+     *
      * @return string|null The translated string or null
      *
      * @example trans_string('notify::contact.label') -> "Contact" (string)
@@ -1217,11 +1224,10 @@ if (! function_exists('trans_string')) {
                 continue;
             }
             if ($v === null || is_scalar($v)) {
-                /** @var bool|float|int|string|null $v */
                 $safeReplace[$k] = $v;
-            } else {
-                $safeReplace[$k] = (string) $v;
+                continue;
             }
+            $safeReplace[$k] = (string) $v;
         }
 
         $result = __($key, $safeReplace, $locale);

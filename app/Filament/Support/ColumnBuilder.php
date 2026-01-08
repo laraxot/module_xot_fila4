@@ -305,4 +305,21 @@ class ColumnBuilder
             'deleted_at' => self::deletedAt(),
         ];
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * Helper to safely cast translation to string.
+     *
+     * @param  array<string,mixed>|string|null  $translation
+     */
+    private static function trans(array|string|null $translation): string
+    {
+        if (is_array($translation)) {
+            return (string) ($translation[0] ?? '');
+        }
+
+        return (string) ($translation ?? '');
+    }
+>>>>>>> 8ab8fd81a (.)
 }

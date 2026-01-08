@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Forms\Components;
 use Filament\Forms\Components\CheckboxList;
 
 /**
+<<<<<<< HEAD
  * Base class for custom CheckboxList components following Laraxot philosophy.
  *
  * In the Laraxot framework, all custom CheckboxList components should extend
@@ -24,3 +25,17 @@ abstract class XotBaseCheckboxList extends CheckboxList
         // Common setup for all XotBaseCheckboxList components can be added here.
     }
 }
+=======
+ * Base class for checkbox list form components.
+ *
+ * Extends Filament CheckboxList to provide a standardized base class
+ * following Laraxot architecture rules.
+ *
+ * @method static static make(string $name)
+ */
+class XotBaseCheckboxList extends CheckboxList
+{
+    // Logica comune futura per i componenti CheckboxList Xot
+}
+
+>>>>>>> 8ab8fd81a (.)

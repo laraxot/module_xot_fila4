@@ -5,6 +5,15 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 use BackedEnum;
+<<<<<<< HEAD
+=======
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Laravel\Passport\PersonalAccessTokenResult;
+>>>>>>> 8ab8fd81a (.)
 use Laravel\Passport\Token;
 use Modules\User\Models\Team;
 use Modules\User\Models\Tenant;
@@ -124,7 +133,11 @@ interface UserContract extends Authenticatable
     /**
      * Revoke the given role from the model.
      *
+<<<<<<< HEAD
      * @param  string|int|array|UserRole|Collection|BackedEnum  ...$role
+=======
+     * @param string|int|array|UserRole|Collection|BackedEnum ...$role
+>>>>>>> 8ab8fd81a (.)
      * @return $this
      */
     public function removeRole(...$role);

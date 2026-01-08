@@ -4,10 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module;
+=======
+use Illuminate\Database\Eloquent\Collection;
+use Spatie\Permission\Models\Role;
+>>>>>>> 8ab8fd81a (.)
 use Filament\Panel;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
+use Modules\User\Models\User;
 use Webmozart\Assert\Assert;
 use Spatie\Permission\Models\Role;
 use Illuminate\Support\Facades\Auth;
@@ -39,12 +45,42 @@ class MainDashboard extends XotBaseDashboard
 
     public function mount(): void
     {
+<<<<<<< HEAD
         $user = Auth::user();
         Assert::notNull($user, '['.__LINE__.']['.class_basename($this).']');
         // Usa roles() come metodo invece della magic property per type safety
         $modules = $user->getModules();
 
         if (count($modules) === 0) {
+=======
+        $user = auth()->user();
+        Assert::notNull($user, '['.__LINE__.']['.class_basename($this).']');
+
+        // Usa roles() come metodo invece della magic property per type safety
+        /** @var Collection<int, Role> $roles */
+        $roles = $user->roles()->get();
+
+        $modules = $roles->filter(function ($item): bool {
+             // $item è già tipizzato come Role dalla collection
+             $name = $item->name;
+             Assert::string($name);
+             return Str::endsWith($name, '::admin');
+        });
+
+        if ($modules->count() === 1) {
+            $module_first = $modules->first();
+            Assert::notNull($module_first);
+            $panel_name = $module_first->name;
+            Assert::string($panel_name);
+            $module_name = Str::before($panel_name, '::admin');
+            Assert::string($module_name);
+            $url = '/'.$module_name.'/admin';
+            redirect($url);
+        }
+
+        // Solo se non ha accesso a nessun modulo, redirect alla home locale
+        if ($modules->count() === 0) {
+>>>>>>> 8ab8fd81a (.)
             $url = '/'.app()->getLocale();
             redirect($url);
 

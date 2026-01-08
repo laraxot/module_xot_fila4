@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Theme;
 
+<<<<<<< HEAD
 use Carbon\Carbon;
 use RuntimeException;
 use Spatie\QueueableAction\QueueableAction;
@@ -15,6 +16,18 @@ use Spatie\QueueableAction\QueueableAction;
  *
  * This is a central source of truth for "What time of year is it?" from a
  * thematic perspective, allowing Themes and Modules to adapt their
+=======
+use RuntimeException;
+use Carbon\Carbon;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert; // Added
+
+/**
+ * Action to determine the current thematic context (season, holiday, etc.).
+ * 
+ * This is a central source of truth for "What time of year is it?" from a
+ * thematic perspective, allowing Themes and Modules to adapt their 
+>>>>>>> 8ab8fd81a (.)
  * behavior/visuals accordingly.
  */
 class GetThemeContextAction
@@ -23,7 +36,11 @@ class GetThemeContextAction
 
     /**
      * Determine the current active context.
+<<<<<<< HEAD
      *
+=======
+     * 
+>>>>>>> 8ab8fd81a (.)
      * @return string One of: 'christmas', 'easter', 'summer', 'halloween', 'default'
      */
     public function execute(): string
@@ -39,8 +56,13 @@ class GetThemeContextAction
 
         // Easter period: Good Friday to Easter Monday
         $easter = $this->getEasterDate($today->year);
+<<<<<<< HEAD
         $easterStart = $easter->copy()->subDays(2);
         $easterEnd = $easter->copy()->addDays(1);
+=======
+        $easterStart = $easter->copy()->subDays(2); 
+        $easterEnd = $easter->copy()->addDays(1);   
+>>>>>>> 8ab8fd81a (.)
 
         if ($today->between($easterStart, $easterEnd)) {
             return 'easter';

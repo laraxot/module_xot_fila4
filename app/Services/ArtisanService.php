@@ -14,11 +14,14 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 =======
 use Modules\Xot\Services\Artisan\CommandRegistry;
 >>>>>>> 8b18e4bff (.)
 
+=======
+>>>>>>> 27537f124 (.)
 use function Safe\define;
 use function Safe\fopen;
 use function Safe\preg_match_all;

@@ -42,7 +42,11 @@ trait HasCustomRelations
         ?Closure $eagerMatcher = null,
     ): CustomRelation {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $instance = new $related;
+=======
+        $instance = new $related();
+>>>>>>> 27537f124 (.)
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD

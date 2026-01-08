@@ -361,6 +361,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,6 +380,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso completo del modulo
      */
     public static function modulePath(string $moduleName): string
@@ -392,6 +396,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +415,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso dei modelli
      */
     public static function modelsPath(string $moduleName): string
@@ -423,6 +431,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +450,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso delle migrazioni
      */
     public static function migrationsPath(string $moduleName): string
@@ -454,6 +466,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,6 +485,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso dei seeder
      */
     public static function seedersPath(string $moduleName): string
@@ -485,6 +501,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,6 +520,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso dei controller
      */
     public static function controllersPath(string $moduleName): string
@@ -516,6 +536,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +555,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso delle risorse Filament
      */
     public static function filamentResourcesPath(string $moduleName): string
@@ -547,6 +571,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +590,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso dei provider
      */
     public static function providersPath(string $moduleName): string
@@ -578,6 +606,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +625,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso delle viste
      */
     public static function viewsPath(string $moduleName): string
@@ -609,6 +641,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $path  Percorso da verificare
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,6 +660,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return bool True se il percorso è corretto, false altrimenti
      */
     public static function isValidPath(string $path): bool
@@ -903,6 +939,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $path  Percorso da correggere
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -921,6 +958,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Percorso corretto
      */
     public static function correctPath(string $path): string
@@ -1273,6 +1313,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1291,6 +1332,9 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return bool True se il modulo esiste, false altrimenti
      */
     public static function moduleExists(string $moduleName): bool

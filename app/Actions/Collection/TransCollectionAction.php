@@ -222,6 +222,7 @@ class TransCollectionAction
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
      * @param  Collection<int|string, mixed>  $collection
+     *
      * @return Collection<int|string, string>
      */
     public function execute(Collection $collection, ?string $transKey): Collection
@@ -283,6 +284,7 @@ class TransCollectionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  mixed  $item  L'elemento da tradurre
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +302,9 @@ class TransCollectionAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string L'elemento tradotto o l'elemento originale se la traduzione non esiste
      */
     public function trans(mixed $item): string

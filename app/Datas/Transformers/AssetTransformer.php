@@ -239,6 +239,7 @@ class AssetTransformer implements Transformer
      * @param  mixed  $value  Il valore da trasformare (es. "user::image.png")
      * @param  TransformationContext  $_context  Il contesto di trasformazione (non utilizzato)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 285375c74 (.)
 =======
 =======
@@ -260,6 +261,9 @@ class AssetTransformer implements Transformer
 >>>>>>> d2b0a27 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     *
+>>>>>>> 27537f124 (.)
      * @return string Il percorso completo (es. "/modules/user/resources/image.png")
      */
     public function transform(DataProperty $_property, mixed $value, TransformationContext $_context): string

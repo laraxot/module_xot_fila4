@@ -930,6 +930,23 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+     * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
+     */
+    public function map(Arrayable|iterable|null $item): array
+    {
+        if (! empty($this->fields)) {
+            return collect($item)->toArray();
+        }
+
+        // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
+        return collect($item)->only($this->fields)->toArray();
+>>>>>>> 249a0067 (.)
+>>>>>>> 27537f124 (.)
     }
 }

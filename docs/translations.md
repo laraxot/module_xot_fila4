@@ -81,6 +81,7 @@ Modules/<NomeModulo>/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 =======
@@ -88,6 +89,8 @@ Modules/<NomeModulo>/
 <<<<<<< HEAD
 =======
 >>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 =======
@@ -98,6 +101,7 @@ Modules/<NomeModulo>/
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -126,6 +130,8 @@ Modules/<NomeModulo>/
 - [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 
 ## Struttura
 
@@ -430,6 +436,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,6 +455,10 @@ Action::make('delete')
 >>>>>>> b3cc10f7 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -471,6 +482,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -479,6 +491,8 @@ Action::make('delete')
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 =======
 * [translations.md](../../../Chart/project_docs/translations.md)
 * [translations.md](../../../Reporting/project_docs/translations.md)
@@ -501,6 +515,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -516,6 +531,10 @@ Action::make('delete')
 >>>>>>> b3cc10f7 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 
 
 ### Versione Incoming

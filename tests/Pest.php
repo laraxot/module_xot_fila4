@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -584,6 +587,7 @@ namespace Modules\Xot\Tests\Pest;
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 =======
 namespace Modules\Xot\Tests\Pest;
 
@@ -613,6 +617,8 @@ namespace Modules\Xot\Tests\Pest;
 |
 */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 >>>>>>> 71586de2 (.)
 // expect()->extend('toBeOne', function () {
@@ -621,6 +627,9 @@ namespace Modules\Xot\Tests\Pest;
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -710,6 +719,7 @@ namespace Modules\Xot\Tests\Pest;
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 =======
 >>>>>>> c35986f4 (.)
 =======
@@ -900,6 +910,7 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -1013,3 +1024,7 @@ namespace Modules\Xot\Tests\Pest;
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)

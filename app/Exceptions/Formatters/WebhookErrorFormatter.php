@@ -52,6 +52,8 @@ use function Safe\json_encode;
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
 
+use function Safe\json_encode;
+
 class WebhookErrorFormatter
 {
     public function __construct(

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: ModelService
 description: Handle models with ModelService
@@ -300,3 +301,5 @@ foreach ((new ReflectionClass($model))->getMethods(ReflectionMethod::IS_PUBLIC) 
 >>>>>>> b9c66c44e (.)
 
 ```
+=======
+>>>>>>> dc2130a7c (.)

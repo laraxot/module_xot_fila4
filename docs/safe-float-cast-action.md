@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SafeFloatCastAction
 
 ## Descrizione
@@ -191,3 +192,5 @@ class SafeFloatCastActionTest extends TestCase
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ModelContract
 
 ## Descrizione
@@ -46,4 +47,23 @@ interface ModelContract
 - [Model Guidelines](../models/README.md)
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+<<<<<<< HEAD:docs/contracts/model-contract.md
 - [Contracts Overview](./README.md) 
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 71f31700 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 71f31700 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> c35986f4 (.)
+- [Contracts Overview](./README.md) 
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.):docs/archive/contracts/model-contract.md

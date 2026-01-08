@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 =======
@@ -19,11 +20,16 @@ use function Pest\Laravel\assertDatabaseHas;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Tests\TestCase;
+>>>>>>> cc7fb225 (.)
 
 uses(TestCase::class);
 
 beforeEach(function (): void {
     // Create a temporary directory for testing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
@@ -72,6 +78,9 @@ beforeEach(function (): void {
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+    $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
+>>>>>>> cc7fb225 (.)
     mkdir($this->testDir, 0o755, true);
 
     // Set the working directory
@@ -90,6 +99,7 @@ function rrmdir($dir)
         $objects = scandir($dir);
         foreach ($objects as $object) {
             if ($object !== '.' && $object !== '..') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 if (is_dir($dir.DIRECTORY_SEPARATOR.$object) && ! is_link($dir.'/'.$object)) {
@@ -213,6 +223,12 @@ function rrmdir($dir) {
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+                if (is_dir($dir.DIRECTORY_SEPARATOR.$object) && ! is_link($dir.'/'.$object)) {
+                    rrmdir($dir.DIRECTORY_SEPARATOR.$object);
+                } else {
+                    unlink($dir.DIRECTORY_SEPARATOR.$object);
+>>>>>>> cc7fb225 (.)
                 }
             }
         }
@@ -244,6 +260,7 @@ test('creates necessary directories and files', function (): void {
     foreach ($directories as $directory) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->assertDirectoryExists($this->testDir.'/'.$directory);
 =======
         $this->assertDirectoryExists($this->testDir . '/' . $directory);
@@ -251,6 +268,9 @@ test('creates necessary directories and files', function (): void {
 =======
         $this->assertDirectoryExists($this->testDir . '/' . $directory);
 >>>>>>> 5a14301c (.)
+=======
+        $this->assertDirectoryExists($this->testDir.'/'.$directory);
+>>>>>>> cc7fb225 (.)
     }
 
     // Check if .gitkeep files were created in empty directories
@@ -266,6 +286,7 @@ test('creates necessary directories and files', function (): void {
     foreach ($gitkeepFiles as $file) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->assertFileExists($this->testDir.'/'.$file);
 =======
         $this->assertFileExists($this->testDir . '/' . $file);
@@ -273,12 +294,16 @@ test('creates necessary directories and files', function (): void {
 =======
         $this->assertFileExists($this->testDir . '/' . $file);
 >>>>>>> 5a14301c (.)
+=======
+        $this->assertFileExists($this->testDir.'/'.$file);
+>>>>>>> cc7fb225 (.)
     }
 });
 
 test('does not overwrite existing files', function (): void {
     // Create a test file that should not be overwritten
     $testContent = 'Test content';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $testFile = $this->testDir.'/routes/web.php';
@@ -288,6 +313,9 @@ test('does not overwrite existing files', function (): void {
 =======
     $testFile = $this->testDir . '/routes/web.php';
 >>>>>>> 5a14301c (.)
+=======
+    $testFile = $this->testDir.'/routes/web.php';
+>>>>>>> cc7fb225 (.)
     file_put_contents($testFile, $testContent);
 
     // Run the command
@@ -299,6 +327,7 @@ test('does not overwrite existing files', function (): void {
 
 test('handles errors gracefully', function (): void {
     // Make a directory non-writable to test error handling
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +393,9 @@ test('handles errors gracefully', function (): void {
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+    $nonWritableDir = $this->testDir.'/app';
+>>>>>>> cc7fb225 (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Widget FileUpload Errors - Troubleshooting Guide
 
 ## Errore: "foreach() argument must be of type array|object, string given"
@@ -259,3 +260,5 @@ Questo pattern si applica anche a:
 =======
 **Aggiornato**: 2025-01-07 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

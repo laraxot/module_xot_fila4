@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per i Prompt
 
 ## Regola Universale
@@ -60,3 +61,5 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](rules/prompt_rules.md)
 
+=======
+>>>>>>> dc2130a7c (.)

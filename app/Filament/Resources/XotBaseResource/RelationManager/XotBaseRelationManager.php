@@ -4,14 +4,91 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
+<<<<<<< HEAD
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dc2130a7c (.)
 use Filament\Support\Components\Component;
 use Filament\Tables;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Override;
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Override;
+>>>>>>> 3fbbf1f5 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Override;
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Schemas\Schema;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Override;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Override;
+>>>>>>> 3fbbf1f5 (.)
+use Exception;
+=======
+>>>>>>> cc7fb225 (.)
+use Filament\Resources\RelationManagers\RelationManager;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> dc2130a7c (.)
 
 /**
  * @property class-string<XotBaseResource> $resource

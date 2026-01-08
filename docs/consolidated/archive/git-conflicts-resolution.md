@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
@@ -200,3 +201,23 @@ php artisan lang:check
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
 **Stato**: ✅ Completato
+<<<<<<< HEAD
+=======
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

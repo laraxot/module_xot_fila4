@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Versione HEAD
 
 # Roadmap Modulo Xot
@@ -564,3 +565,5 @@ Overall Module Completion: 60%
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

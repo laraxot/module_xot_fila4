@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole di Estensione dei Modelli Laraxot
 
 ## Regola Fondamentale di Ereditarietà
@@ -93,3 +94,44 @@ abstract class BaseModel extends XotBaseModel
 - [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
 
 *Ultimo aggiornamento: maggio 2025* 
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> d86d643a (.)
+=======
+- [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
+- [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
+- [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
+
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 472bd9dc (.)
+=======
+- [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
+- [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
+- [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
+
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Contratti del Modulo Xot
 
 ## Descrizione
@@ -98,3 +99,5 @@ Contratto per modelli che hanno profili.
 >>>>>>> b9c66c44e (.)
 
 *Ultimo aggiornamento: 2025-01-06*
+=======
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi dell'Architettura del Sistema il progetto
 
 ## Panoramica Architetturale
@@ -97,3 +98,5 @@ L'architettura proposta dovrà evolvere attraverso iterazioni successive, valida
 * [analisi-architettura-sistema.md](../../../Xot/docs/architecture/analisi-architettura-sistema.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

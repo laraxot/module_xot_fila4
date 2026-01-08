@@ -256,6 +256,10 @@ test('MetatagData può essere istanziata', function (): void {
  */
 test('getFilamentColors restituisce i colori Filament corretti', function (): void {
     $metatagData = new MetatagData;
+<<<<<<< HEAD
+=======
+    /** @phpstan-ignore-next-line method.nonObject */
+>>>>>>> cc7fb225 (.)
     $colors = $metatagData->getFilamentColors();
 
 <<<<<<< HEAD
@@ -398,8 +402,10 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
         ->toBeArray()
         ->and($colors)
         ->toHaveKeys(['danger', 'gray', 'info', 'primary', 'success', 'warning'])
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         ->and($colors['danger'])
         ->toBe(Color::Red)
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         ->and($colors['primary'])
         ->toBe(Color::Amber);
 <<<<<<< HEAD
@@ -943,6 +949,7 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
 >>>>>>> 16dc7ab0 (.)
     ];
 
+    /** @phpstan-ignore-next-line method.nonObject */
     $colors = $metatagData->getColors();
 
 <<<<<<< HEAD

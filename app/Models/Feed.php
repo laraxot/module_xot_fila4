@@ -29,10 +29,45 @@ use Modules\Xot\Database\Factories\FeedFactory;
  * @method static Builder<static>|Feed whereUpdatedAt($value)
  * @method static Builder<static>|Feed whereUpdatedBy($value)
  *
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  *
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+ * @method static FeedFactory factory($count = null, $state = [])
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+<<<<<<< HEAD
+ * @mixin IdeHelperFeed
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Feed newModelQuery()
+ * @method static Builder<static>|Feed newQuery()
+ * @method static Builder<static>|Feed query()
+ *
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

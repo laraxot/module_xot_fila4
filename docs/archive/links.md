@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
@@ -94,3 +95,5 @@
 * [links.md](../../../Themes/One/docs/links.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

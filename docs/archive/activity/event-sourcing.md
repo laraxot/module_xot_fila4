@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Event Sourcing
 description: Event Sourcing
@@ -49,3 +50,5 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

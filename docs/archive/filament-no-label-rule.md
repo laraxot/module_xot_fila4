@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # REGOLA CRITICA: MAI ->label() nei Componenti Filament
 
 ## Principio Fondamentale
@@ -140,3 +141,5 @@ TextInput::make('name')->required(),
 - [docs/translation-expanded-rules.md](translation-expanded-rules.md)
 
 *Ultimo aggiornamento: 2025-08-04*
+=======
+>>>>>>> dc2130a7c (.)

@@ -17,6 +17,39 @@ use Modules\Xot\Database\Factories\CacheLockFactory;
  * @property int $expiration
  *
  * @method static CacheLockFactory factory($count = null, $state = [])
+<<<<<<< HEAD
+=======
+ * @method static Builder|CacheLock newModelQuery()
+ * @method static Builder|CacheLock newQuery()
+ * @method static Builder|CacheLock query()
+ * @method static Builder|CacheLock whereExpiration($value)
+ * @method static Builder|CacheLock whereKey($value)
+ * @method static Builder|CacheLock whereOwner($value)
+ *
+ * @property int $expiration
+ *
+ * @method static CacheLockFactory factory($count = null, $state = [])
+ * @method static Builder|CacheLock newModelQuery()
+ * @method static Builder|CacheLock newQuery()
+ * @method static Builder|CacheLock query()
+ * @method static Builder|CacheLock whereExpiration($value)
+ * @method static Builder|CacheLock whereKey($value)
+ * @method static Builder|CacheLock whereOwner($value)
+ *
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $key
+ * @property string $owner
+ * @property int $expiration
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
+>>>>>>> cc7fb225 (.)
  * @method static Builder<static>|CacheLock newModelQuery()
  * @method static Builder<static>|CacheLock newQuery()
  * @method static Builder<static>|CacheLock query()
@@ -24,10 +57,42 @@ use Modules\Xot\Database\Factories\CacheLockFactory;
  * @method static Builder<static>|CacheLock whereKey($value)
  * @method static Builder<static>|CacheLock whereOwner($value)
  *
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  *
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+ * @property int    $expiration
+ * @method static CacheLockFactory factory($count = null, $state = [])
+ * @method static Builder|CacheLock newModelQuery()
+ * @method static Builder|CacheLock newQuery()
+ * @method static Builder|CacheLock query()
+ * @method static Builder|CacheLock whereExpiration($value)
+ * @method static Builder|CacheLock whereKey($value)
+ * @method static Builder|CacheLock whereOwner($value)
+ * @property int $expiration
+ * @method static CacheLockFactory factory($count = null, $state = [])
+ * @method static Builder|CacheLock newModelQuery()
+ * @method static Builder|CacheLock newQuery()
+ * @method static Builder|CacheLock query()
+ * @method static Builder|CacheLock whereExpiration($value)
+ * @method static Builder|CacheLock whereKey($value)
+ * @method static Builder|CacheLock whereOwner($value)
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @mixin IdeHelperCacheLock
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

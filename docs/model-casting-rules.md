@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per Model Casting in Laraxot - CRITICO
 
 ## ERRORE ARCHITETTURALE GRAVE: Proprietà $casts Deprecata
@@ -272,3 +273,5 @@ agosto 2025
 
 *Ultimo aggiornamento: agosto 2025*
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

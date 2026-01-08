@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -227,3 +228,23 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Impatto**: Sistema completamente non funzionale  
 **Tempo di risoluzione**: 15 minuti  
 **Pattern**: View Composer Loop Prevention 
+<<<<<<< HEAD
+=======
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 5a14301c (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 399f46d3 (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 5a14301c (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 399f46d3 (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

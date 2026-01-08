@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Traduzioni - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTE le regole di traduzione del progetto
@@ -465,3 +466,5 @@ Eseguire regolarmente questi controlli:
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Traduzioni*
+=======
+>>>>>>> dc2130a7c (.)

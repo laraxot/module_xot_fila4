@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filament Widgets
 
 ## Panoramica
@@ -43,3 +44,5 @@ class DashboardStatsWidget extends XotBaseWidget
     }
 }
 ``` 
+=======
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Standard di Codice
 
 Questa cartella contiene gli standard di codice e le convenzioni utilizzate nel progetto.
@@ -193,3 +194,5 @@ class Doctor extends User
 >>>>>>> b9c66c44e (.)
 // Aggiungere qui altri moduli se necessario
 
+=======
+>>>>>>> dc2130a7c (.)

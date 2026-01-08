@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 https://fly.io/laravel-bytes/filamentphp-adding-some-style/
 ### Versione HEAD
 
@@ -17,3 +18,5 @@ https://fly.io/laravel-bytes/filamentphp-adding-some-style/
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

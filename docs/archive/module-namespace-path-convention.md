@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # convenzioni per namespace e percorsi dei moduli
 
 ## struttura corretta del percorso
@@ -62,3 +63,54 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 
 - [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
 - [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/docs/project-structure.md)
+
+=======
+- [convenzioni di codice](/var/www/html/base_techplanner_fila3_mono/laravel/docs/conventions.md)
+- [struttura progetto](/var/www/html/base_techplanner_fila3_mono/laravel/docs/project-structure.md)
+- [convenzioni di codice](/var/www/html/base_<nome progetto>/laravel/docs/conventions.md)
+- [struttura progetto](/var/www/html/base_<nome progetto>/laravel/docs/project-structure.md)
+- [convenzioni di codice](/var/www/html/base_techplanner_fila3_mono/laravel/docs/conventions.md)
+- [struttura progetto](/var/www/html/base_techplanner_fila3_mono/laravel/docs/project-structure.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

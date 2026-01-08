@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Moduli Filament
 description: Moduli Filament
@@ -60,3 +61,5 @@ class AdminPanelProvider extends XotBasePanelProvider
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

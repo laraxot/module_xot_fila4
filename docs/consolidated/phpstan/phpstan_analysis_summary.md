@@ -19,7 +19,11 @@ Based on the latest analysis:
 ### Common Error Types
 
 #### 1. Class Not Found Errors (15%)
+<<<<<<< HEAD
 - Missing classes from Modules\SaluteOra\Models namespace
+=======
+- Missing classes from Modules\<main module>\Models namespace
+>>>>>>> dc2130a7c (.)
 - Missing traits (EnumTrait from Modules\Core\Traits)
 - Undefined classes in factories
 
@@ -66,7 +70,11 @@ Based on the latest analysis:
 
 ### Notify Module
 **Key Issues**:
+<<<<<<< HEAD
 - Missing SaluteOra model classes
+=======
+- Missing <main module> model classes
+>>>>>>> dc2130a7c (.)
 - String function parameter type issues
 - Method not found errors on models
 
@@ -89,7 +97,11 @@ Based on the latest analysis:
 **Solution**:
 ```php
 // Use class_exists checks before referencing
+<<<<<<< HEAD
 if (!class_exists('Modules\\SaluteOra\\Models\\Appointment')) {
+=======
+if (!class_exists('Modules\\<main module>\\Models\\Appointment')) {
+>>>>>>> dc2130a7c (.)
     // Handle missing class gracefully
     throw new \Exception('Required class not available');
 }
@@ -185,7 +197,11 @@ vendor/bin/phpstan analyse --generate-baseline
 ## Remaining Issues Requiring Manual Intervention
 
 ### High Priority
+<<<<<<< HEAD
 1. **Missing SaluteOra Models**: Classes referenced but not available
+=======
+1. **Missing <main module> Models**: Classes referenced but not available
+>>>>>>> dc2130a7c (.)
 2. **Cross-Module Dependencies**: Tight coupling between modules
 3. **Factory Configuration**: Incorrect model references in factories
 

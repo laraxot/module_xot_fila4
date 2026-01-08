@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Modulo Performance
 
 ## Descrizione
@@ -57,3 +58,5 @@ Il modulo implementa diverse risorse Filament per la gestione delle performance:
 - [Guide PHPStan Livello 9](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/Xot/docs/PHPSTAN-LEVEL9-GUIDE.md)
 - [QueueableActions](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/Xot/docs/queueable-actions.md)
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

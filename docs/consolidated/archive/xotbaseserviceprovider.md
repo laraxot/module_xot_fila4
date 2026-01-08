@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBaseServiceProvider
 
 ## Descrizione
@@ -173,3 +174,23 @@ try {
 3. I percorsi sono relativi alla root del modulo
 4. Le eccezioni vengono gestite con fallback appropriati
 5. La registrazione dei componenti è automatica ma configurabile 
+<<<<<<< HEAD
+=======
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 5a14301c (.)
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 399f46d3 (.)
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 5a14301c (.)
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 399f46d3 (.)
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

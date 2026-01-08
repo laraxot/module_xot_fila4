@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione dei Conflitti Git
 
 ## Principi Fondamentali
@@ -200,3 +201,5 @@ php artisan test --filter=TestClass
 - [Best Practices](../../../Xot/docs/best-practices/git.md)
 - [CI/CD Pipeline](../../../Xot/docs/ci-cd/README.md) 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

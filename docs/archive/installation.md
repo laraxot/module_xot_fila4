@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Installazione
 
 ## Requisiti di Sistema
@@ -146,3 +147,5 @@ php artisan serve
 * [installation.md](../../../../Themes/One/docs/installation.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

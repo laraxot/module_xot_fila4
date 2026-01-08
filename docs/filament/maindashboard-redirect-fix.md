@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fix Redirect Loop - MainDashboard
 
 ## Problema Risolto
@@ -198,3 +199,5 @@ performance::admin
 - ✅ **Performance**: Nessun impatto negativo
 
 *Ultimo aggiornamento: 2025-01-27* 
+=======
+>>>>>>> dc2130a7c (.)

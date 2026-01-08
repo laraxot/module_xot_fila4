@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -226,4 +227,9 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Priorità**: P0 (Critical) - Bloccava sistema completo  
 **Impatto**: Sistema completamente non funzionale  
 **Tempo di risoluzione**: 15 minuti  
+<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
 **Pattern**: View Composer Loop Prevention 
+=======
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.):docs/archive/view-composer-loop-infinite-fix.md

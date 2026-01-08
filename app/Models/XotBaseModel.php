@@ -16,6 +16,25 @@ abstract class XotBaseModel extends EloquentModel
 {
     use HasXotFactory;
     use RelationX;
+<<<<<<< HEAD
+=======
+=======
+abstract class XotBaseModel extends Model
+{
+<<<<<<< HEAD
+=======
+    use Traits\HasXotFactory;
+    use Traits\RelationX;
+
+>>>>>>> cc7fb225 (.)
+    // use Searchable;
+>>>>>>> 5a14301c (.)
+=======
+abstract class XotBaseModel extends Model
+{
+    // use Searchable;
+>>>>>>> 5a14301c (.)
+>>>>>>> dc2130a7c (.)
     use Updater;
 
     /**
@@ -36,8 +55,12 @@ abstract class XotBaseModel extends EloquentModel
     /** @var int */
     protected $perPage = 30;
 
+<<<<<<< HEAD
     /** @var string */
     protected $connection = 'xot';
+=======
+    // protected $connection = 'xot';
+>>>>>>> cc7fb225 (.)
 
     /** @var list<string> */
     protected $appends = [];

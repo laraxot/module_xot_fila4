@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per i file di traduzione in Laraxot PTVX
 
 ## Struttura dei file di traduzione
@@ -149,3 +150,5 @@ return [
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

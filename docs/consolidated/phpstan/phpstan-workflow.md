@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Workflow Analisi PHPStan
 
 > **Nota**: Per una panoramica completa sulla gestione della documentazione e delle regole, consultare [DOCUMENTATION_MANAGEMENT.md](DOCUMENTATION_MANAGEMENT.md)
@@ -205,3 +206,35 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> 43d67f21 (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

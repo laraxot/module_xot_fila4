@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Violazioni Architetturali e Correzioni - Pattern XotData
 
 ## 🚨 **Violazioni Architetturali Critiche**
@@ -344,3 +345,23 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 **Ultimo Aggiornamento**: Gennaio 2025  
 **Stato**: ✅ Pattern Documentato e Implementato  
 **Responsabile**: Team Architettura Laraxot 
+<<<<<<< HEAD
+=======
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> 5a14301c (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> 399f46d3 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> 5a14301c (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> 399f46d3 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

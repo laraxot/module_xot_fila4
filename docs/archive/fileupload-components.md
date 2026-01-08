@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FileUpload Components in XotBaseResource
 
 ## Overview
@@ -357,3 +358,5 @@ class CleanupTemporaryFilesJob extends Job
 
 *Ultimo aggiornamento: 2025-01-03* 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

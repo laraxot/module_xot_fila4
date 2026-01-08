@@ -24,6 +24,12 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @property string $batch
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dc2130a7c (.)
  * @property string|null $updated_by
  * @property string|null $created_by
  *
@@ -44,6 +50,44 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @method static Builder<static>|HealthCheckResultHistoryItem whereUpdatedAt($value)
  * @method static Builder<static>|HealthCheckResultHistoryItem whereUpdatedBy($value)
  *
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+ *
+>>>>>>> cc7fb225 (.)
+ * @method static Builder|HealthCheckResultHistoryItem newModelQuery()
+ * @method static Builder|HealthCheckResultHistoryItem newQuery()
+ * @method static Builder|HealthCheckResultHistoryItem query()
+ * @method static Builder|HealthCheckResultHistoryItem whereBatch($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereCheckLabel($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereCheckName($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereCreatedAt($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereEndedAt($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereId($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereMeta($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereNotificationMessage($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereShortSummary($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereStatus($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereUpdatedAt($value)
+ *
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ *
+ * @method static Builder|HealthCheckResultHistoryItem whereCreatedBy($value)
+ * @method static Builder|HealthCheckResultHistoryItem whereUpdatedBy($value)
+<<<<<<< HEAD
+ * @mixin IdeHelperHealthCheckResultHistoryItem
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+ *
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)
  * @mixin \Eloquent
  */
 class HealthCheckResultHistoryItem extends BaseHealthCheckResultHistoryItem

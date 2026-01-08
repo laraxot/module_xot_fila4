@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole Namespace PSR-4 per Tutti i Moduli (Regola Globale)
 
 ## Regola Fondamentale
@@ -37,3 +38,5 @@
 **Ultimo aggiornamento:** 2025-05-13
 
 **Link bidirezionale:** Aggiornare anche la root docs e la docs dei moduli coinvolti.
+=======
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Creazione di una Resource
 description: Creazione di una Resource
@@ -55,3 +56,5 @@ class UserResource extends \Modules\Xot\Filament\Resources\XotBaseResource
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

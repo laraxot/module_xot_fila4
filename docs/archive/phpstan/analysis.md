@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi PHPStan del modulo Xot
 
 ## Data analisi
@@ -49,3 +50,5 @@
 * [analysis.md](../../../../Themes/One/docs/analysis.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HandlersRepository
 
 ## Descrizione
@@ -86,4 +87,23 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [Exception Handling Guide](../EXCEPTION-HANDLING-GUIDE.md)
 - [Error Formatters](../formatters/README.md)
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+<<<<<<< HEAD
 - [Handlers Overview](./README.md) 
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 17684f52 (.)
+- [Handlers Overview](./README.md) 
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

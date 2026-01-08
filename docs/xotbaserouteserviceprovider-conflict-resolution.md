@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione conflitto XotBaseRouteServiceProvider.php
 
 ## Problema
@@ -15,3 +16,5 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 =======
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

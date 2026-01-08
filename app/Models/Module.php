@@ -23,6 +23,7 @@ use function Safe\json_encode;
  * @property bool|null $status
  * @property int|null $priority
  * @property string|null $path
+<<<<<<< HEAD
  * @property string|null $icon
  * @property array<array-key, mixed>|null $colors
  *
@@ -47,6 +48,48 @@ use function Safe\json_encode;
  * @mixin \Eloquent
  */
 final class Module extends BaseModel
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+ * @property int         $id
+ * @property string|null $name
+ * @property string|null $description
+ * @property bool|null   $status
+ * @property int|null    $priority
+ * @property string|null $path
+=======
+ *
+>>>>>>> cc7fb225 (.)
+ * @method static Builder|Module newModelQuery()
+ * @method static Builder|Module newQuery()
+ * @method static Builder|Module query()
+ * @method static Builder|Module whereDescription($value)
+ * @method static Builder|Module whereId($value)
+ * @method static Builder|Module whereName($value)
+ * @method static Builder|Module wherePath($value)
+ * @method static Builder|Module wherePriority($value)
+ * @method static Builder|Module whereStatus($value)
+ *
+ * @property string|null $icon
+ * @property array<string, string>|null $colors
+ *
+ * @method static Builder|Module whereColors($value)
+ * @method static Builder|Module whereIcon($value)
+<<<<<<< HEAD
+ * @mixin IdeHelperModule
+=======
+ *
+>>>>>>> cc7fb225 (.)
+ * @mixin \Eloquent
+ */
+class Module extends Model
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> dc2130a7c (.)
 {
     use Sushi;
 

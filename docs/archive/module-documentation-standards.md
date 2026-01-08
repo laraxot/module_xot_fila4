@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Standard di Documentazione dei Moduli
 
 ## Regola: Nessun Riferimento al Progetto Specifico
@@ -59,3 +60,5 @@ Per supporto e domande, contattare il team di sviluppo.
 - [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
 - [Struttura dei Moduli](../../Xot/docs/architecture/modules.md)
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

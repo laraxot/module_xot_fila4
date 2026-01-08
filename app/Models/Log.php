@@ -29,11 +29,82 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read string|null $file_content
  * @property-read ProfileContract|null $updater
  *
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+ * @method static FeedFactory factory($count = null, $state = [])
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @property string|null $id
+ * @property string|null $name
+ * @property int|null    $size
+ * @property string|null $file_content
+ * @method static Builder|Log whereId($value)
+ * @method static Builder|Log whereName($value)
+ * @method static Builder|Log whereSize($value)
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+<<<<<<< HEAD
+ * @mixin IdeHelperLog
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property string|null $id
+ * @property string|null $name
+ * @property int|null $size
+ * @property-read string|null $file_content
+ *
+ * @method static \Modules\Xot\Database\Factories\LogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Log newModelQuery()
+ * @method static Builder<static>|Log newQuery()
+ * @method static Builder<static>|Log query()
+ * @method static Builder<static>|Log whereId($value)
+ * @method static Builder<static>|Log whereName($value)
+ * @method static Builder<static>|Log whereSize($value)
+ *
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel

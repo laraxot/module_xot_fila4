@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione Folio, Volt e Filament
 
 > **NOTA**: Questo documento è stato unificato con la documentazione sull'architettura Folio + Volt + Filament. Consulta il documento aggiornato nel link sottostante.
@@ -184,3 +185,113 @@ $submit = function() {
 - [Grafici](../Chart/project_docs/charts.md)
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> 43d67f21 (.)
+
+### Modulo Cms
+- [Frontend](../Cms/project_docs/frontend.md)
+- [Temi](../Cms/project_docs/themes.md)
+- [Contenuti](../Cms/project_docs/content.md)
+- [Convenzioni Filament](../Cms/project_docs/convenzioni-namespace-filament.md)
+
+### Modulo Lang
+- [Traduzioni](../Lang/project_docs/translations.md)
+- [Localizzazione](../Lang/project_docs/localization.md)
+- [API Traduzioni](../Lang/project_docs/api.md)
+
+### Modulo User
+- [Autenticazione](../User/project_docs/auth.md)
+- [Permessi](../User/project_docs/permissions.md)
+- [Profilo](../User/project_docs/profile.md)
+
+### Modulo Patient
+- [Gestione Pazienti](../Patient/project_docs/patients.md)
+- [Cartelle Cliniche](../Patient/project_docs/records.md)
+- [Appuntamenti](../Patient/project_docs/appointments.md)
+
+### Modulo Dental
+- [Trattamenti](../Dental/project_docs/treatments.md)
+- [Pianificazione](../Dental/project_docs/planning.md)
+- [Documenti](../Dental/project_docs/documents.md)
+
+### Modulo Tenant
+- [Multi-tenant](../Tenant/project_docs/multi-tenant.md)
+- [Configurazione](../Tenant/project_docs/configuration.md)
+- [Migrazione](../Tenant/project_docs/migration.md)
+
+### Modulo Media
+- [Gestione File](../Media/project_docs/files.md)
+- [Upload](../Media/project_docs/upload.md)
+- [Storage](../Media/project_docs/storage.md)
+
+### Modulo Notify
+- [Notifiche](../Notify/project_docs/notifications.md)
+- [Email](../Notify/project_docs/email.md)
+- [SMS](../Notify/project_docs/sms.md)
+
+### Modulo Reporting
+- [Report](../Reporting/project_docs/reports.md)
+- [Esportazione](../Reporting/project_docs/export.md)
+- [Analytics](../Reporting/project_docs/analytics.md)
+
+### Modulo Gdpr
+- [Privacy](../Gdpr/project_docs/privacy.md)
+- [Consensi](../Gdpr/project_docs/consents.md)
+- [Sicurezza](../Gdpr/project_docs/security.md)
+
+### Modulo Job
+- [Jobs](../Job/project_docs/jobs.md)
+- [Queue](../Job/project_docs/queue.md)
+- [Scheduling](../Job/project_docs/scheduling.md)
+
+### Modulo Chart
+<<<<<<< HEAD
+- [Grafici](../Chart/docs/charts.md)
+- [Dashboard](../Chart/docs/dashboard.md)
+- [Visualizzazione](../Chart/docs/visualization.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

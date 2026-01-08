@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione Best Practice per File di Configurazione PHP basati su Array
 
 I file di configurazione e traduzione in PHP che restituiscono array sono comuni in Laravel e nei moduli PTVX. Per garantire stabilità e manutenibilità, è cruciale seguire alcune best practice.
@@ -49,3 +50,25 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 -   Se si verifica un `ParseError`, controllare attentamente la linea indicata e quelle immediatamente precedenti.
 -   Errori come `unexpected token ";", expecting ")"` alla fine di un file `return array(...);` spesso indicano una parentesi `(` non chiusa all'interno dell'array.
 -   Commentare sezioni dell'array (approccio divide et impera) può aiutare a isolare la riga o la sezione che causa l'errore.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Modulo Test
 description: Modulo Test
@@ -29,3 +30,5 @@ Modulo test serve per mettere azioni da testare.
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

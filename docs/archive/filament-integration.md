@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione con Filament
 
 ## Descrizione
@@ -192,3 +193,5 @@ class AddressPage extends XotBasePage
 - [Best Practices Filament](../../../docs/filament-best-practices.md)
 - [Clean Code](../../../docs/clean-code.md) 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

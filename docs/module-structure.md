@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura dei Moduli in il progetto
 
 ## Panoramica
@@ -452,3 +453,5 @@ Se trovi una directory con case errato:
 ## Collegamenti tra versioni di module_structure.md
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 
+=======
+>>>>>>> dc2130a7c (.)

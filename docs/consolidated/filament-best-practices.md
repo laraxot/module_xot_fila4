@@ -1,3 +1,225 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+# Best Practices per Risorse Filament in Laraxot
+
+Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
+
+## Estensione delle Classi Base
+
+### Risorse
+
+1. **SEMPRE** estendere `Modules\Xot\Filament\Resources\XotBaseResource`:
+   ```php
+   // CORRETTO ✅
+   class ClienteResource extends XotBaseResource
+   
+   // ERRATO ❌
+   class ClienteResource extends Resource
+   ```
+
+2. **SEMPRE** implementare `getFormSchema()`:
+   ```php
+   public static function getFormSchema(): array
+   {
+       return [
+           TextInput::make('nome')->required(),
+           TextInput::make('email')->email()->required(),
+       ];
+   }
+   ```
+
+3. **MAI** definire `navigationIcon` se si estende `XotBaseResource`:
+   ```php
+   // ❌ ERRATO
+   class ReportResource extends XotBaseResource
+   {
+       protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack'; // GESTITO AUTOMATICAMENTE
+   }
+   
+   // ✅ CORRETTO
+   class ReportResource extends XotBaseResource
+   {
+       // Navigation icon gestita automaticamente da XotBaseResource
+   }
+   ```
+
+4. **MAI** usare `->label()` nei form components:
+   ```php
+   // ❌ ERRATO
+   TextInput::make('name')->label('Nome')
+   
+   // ✅ CORRETTO
+   TextInput::make('name') // Label gestita da LangServiceProvider
+   ```
+
+### Pagine
+
+1. **SEMPRE** estendere le classi base di Xot:
+   ```php
+   // CORRETTO ✅
+   class ListClienti extends XotBaseListRecords
+   class CreateCliente extends XotBaseCreateRecord
+   class EditCliente extends XotBaseEditRecord
+   class ViewCliente extends XotBaseViewRecord
+   
+   // ERRATO ❌
+   class ListClienti extends ListRecords
+   class CreateCliente extends CreateRecord
+   class EditCliente extends EditRecord
+   class ViewCliente extends ViewRecord
+   ```
+
+## Regole per XotBaseListRecords
+
+### Metodo Obbligatorio: getTableColumns()
+
+**⚠️ IMPORTANTE**: Tutte le classi che estendono `XotBaseListRecords` DEVONO implementare il metodo `getTableColumns()`:
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Filament\Actions;
+use Filament\Tables;
+
+/**
+ * Pagina di elenco per i report.
+ * 
+ * ✅ IMPLEMENTAZIONE CORRETTA: Estende XotBaseListRecords
+ * ✅ SEGUE IL PATTERN LARAXOT: Non estende ListRecords di Filament direttamente
+ * ✅ IMPLEMENTA getTableColumns(): Metodo obbligatorio per XotBaseListRecords
+ * ✅ DOCUMENTAZIONE AGGIORNATA: PHPDoc completo e chiaro
+ * ✅ CAMPI REALI: Solo campi che esistono nel modello Report
+ * ✅ NO LABEL: Non uso ->label() perché gestito da LangServiceProvider
+ */
+class ListReports extends XotBaseListRecords
+{
+    protected static string $resource = ReportResource::class;
+
+    /**
+     * Get the table columns.
+     *
+     * @return array<string, \Filament\Tables\Columns\Column>
+     */
+    public function getTableColumns(): array
+    {
+        return [
+            'id' => Tables\Columns\TextColumn::make('id')
+                ->searchable()
+                ->sortable(),
+            'patient_id' => Tables\Columns\TextColumn::make('patient_id')
+                ->searchable()
+                ->sortable(),
+            'has_mouth_or_teeth_pain' => Tables\Columns\IconColumn::make('has_mouth_or_teeth_pain')
+                ->boolean()
+                ->sortable(),
+            // Altri campi reali del modello Report...
+        ];
+    }
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            Actions\CreateAction::make(), // ✅ NO ->label() hardcoded
+        ];
+    }
+}
+```
+
+### Regole per getTableColumns()
+
+1. **Visibilità**: SEMPRE `public`
+2. **Tipo di ritorno**: SEMPRE `array<string, \Filament\Tables\Columns\Column>`
+3. **Struttura**: Array associativo con chiavi stringa
+4. **Campi Reali**: MAI inventare campi, usare solo quelli del modello
+5. **Traduzioni**: MAI usare `->label()`, gestite da LangServiceProvider
+6. **Tipizzazione**: Includere PHPDoc completo
+
+### Esempio di Implementazione Corretta
+
+```php
+/**
+ * Get the table columns.
+ *
+ * @return array<string, \Filament\Tables\Columns\Column>
+ */
+public function getTableColumns(): array
+{
+    return [
+        'id' => Tables\Columns\TextColumn::make('id')
+            ->searchable()
+            ->sortable(),
+        'name' => Tables\Columns\TextColumn::make('name')
+            ->searchable()
+            ->sortable(),
+        'email' => Tables\Columns\TextColumn::make('email')
+            ->searchable()
+            ->sortable(),
+        'status' => Tables\Columns\BadgeColumn::make('status')
+            ->colors([
+                'primary' => 'active',
+                'danger' => 'inactive',
+            ]),
+        'created_at' => Tables\Columns\TextColumn::make('created_at')
+            ->dateTime('d/m/Y H:i')
+            ->sortable(),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> dc2130a7c (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -663,3 +885,5 @@ Appointment::where('doctor_id', $doctorId)
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
 
+=======
+>>>>>>> cc7fb225 (.)

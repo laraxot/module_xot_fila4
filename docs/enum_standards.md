@@ -1,3 +1,42 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Enum Standards in <nome progetto>
+
+This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Enum Standards in <nome progetto>
+
+This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 5a14301c (.)
+=======
+# Enum Standards in <nome progetto>
+
+This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+>>>>>>> d86d643a (.)
+=======
+# Enum Standards in <nome progetto>
+
+This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+>>>>>>> dc2130a7c (.)
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -121,3 +160,23 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

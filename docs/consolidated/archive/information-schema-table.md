@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # InformationSchemaTable
 
 ## Descrizione
@@ -44,4 +45,23 @@ class InformationSchemaTable extends Model
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 - [Schema Documentation](../DIRECTORY-STRUCTURE-GUIDE.md)
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+<<<<<<< HEAD
 - [Model Best Practices](../models/README.md) 
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 17684f52 (.)
+- [Model Best Practices](../models/README.md) 
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi di Ottimizzazione - Modulo Xot (Framework Base)
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
@@ -837,3 +838,5 @@ class XotPerformanceMonitor
 *Principi: DRY + KISS + SOLID + ROBUST + Laraxot*  
 *Stato: 🟠 Framework Solido ma Necessita Refactoring Architetturale*
 
+=======
+>>>>>>> dc2130a7c (.)

@@ -47,7 +47,11 @@ public static function getInstance(): self
 abstract class BaseModel extends Model implements ModelContract, HasMedia
 {
     use Cachable;
+<<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
+=======
+    use HasFactory;
+>>>>>>> dc2130a7c (.)
     use Updater;
     use HasExtraTrait;
     use InteractsWithMedia;
@@ -70,7 +74,11 @@ abstract class BaseUser extends Authenticatable implements
     use HasApiTokens;
     use HasAuthenticationLogTrait;
     use HasChildren;
+<<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
+=======
+    use HasFactory;
+>>>>>>> dc2130a7c (.)
     use HasPermissions;
     use HasRoles;
     use HasTeams;
@@ -327,7 +335,11 @@ trait SingletonTrait
 ```php
 abstract class BaseModel extends Model implements ModelContract
 {
+<<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
+=======
+    use HasFactory;
+>>>>>>> dc2130a7c (.)
     use Updater;
     
     // Rimuovere: Cachable, HasExtraTrait, InteractsWithMedia

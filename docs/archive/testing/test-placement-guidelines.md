@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 description: Regole di posizionamento dei test per il core Xot
 ---
@@ -77,3 +78,5 @@ Dopo aver aggiunto o spostato test:
 - [ ] Documentazione aggiornata (questo file & root docs)
 
 *Ultimo aggiornamento: 2025-07-06 – aggiunte linee guida per prevenire posizionamenti errati (es. `MetatagDataTest`).*
+=======
+>>>>>>> dc2130a7c (.)

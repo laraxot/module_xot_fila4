@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Troubleshooting Guide
 
 ## Common Issues
@@ -58,3 +59,5 @@
 - Review Laraxot framework guidelines
 - Consult best practices documentation
 - Use project memory system for context
+=======
+>>>>>>> dc2130a7c (.)

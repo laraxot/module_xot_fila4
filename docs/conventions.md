@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Naming
 
 ## Struttura delle Cartelle nei Moduli
@@ -960,3 +961,5 @@ Quando si aggiorna un modulo esistente:
 **Stato**: Consolidato da docs/ root  
 **Priorità**: CRITICA (Convenzioni fondamentali Laraxot)
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

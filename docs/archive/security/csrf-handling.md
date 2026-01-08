@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CSRF Token Handling in Xot
 
 ## Table of Contents
@@ -102,3 +103,5 @@ public function mount(): void
 - [Livewire Forms](https://laravel-livewire.com/docs/2.x/input)
 >>>>>>> b9c66c44e (.)
 - [Xot Widget Development](xot-widgets.md)
+=======
+>>>>>>> dc2130a7c (.)

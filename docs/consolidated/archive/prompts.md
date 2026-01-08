@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura dei Prompt
 
 I prompt sono file di testo che contengono istruzioni per l'AI. Devono seguire queste regole:
@@ -178,3 +179,23 @@ Il prompt `docs.txt` serve come:
    ```markdown
    [Documento](./path/relativo) #tag-correlati
    ```
+<<<<<<< HEAD
+=======
+=======
+   ```
+>>>>>>> 5a14301c (.)
+=======
+   ```
+>>>>>>> 399f46d3 (.)
+=======
+   ```
+>>>>>>> 5a14301c (.)
+=======
+   ```
+>>>>>>> 399f46d3 (.)
+=======
+   ```
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

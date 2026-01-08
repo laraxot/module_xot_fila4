@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Errori PHPStan - Modulo Xot
 
 ## Analisi Completa
@@ -72,3 +73,5 @@ Questa sezione documenta tutti gli errori rilevati da PHPStan nel modulo Xot.
 * [errors.md](../../../Xot/docs/phpstan/errors.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

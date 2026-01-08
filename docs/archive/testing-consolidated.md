@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Testing - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTE le regole di testing del progetto
@@ -672,3 +673,5 @@ php artisan test --stop-on-failure
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Testing*
+=======
+>>>>>>> dc2130a7c (.)

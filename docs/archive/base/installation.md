@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Installazione
 description: Come Installare la Base
@@ -158,3 +159,5 @@ se il branch di un modulo vuole essere pubblicato, eseguire nel modulo
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

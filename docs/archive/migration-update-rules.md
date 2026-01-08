@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole generali per aggiornamento colonne e gestione errori schema
 
 ## Collegamento bidirezionale
@@ -22,3 +23,25 @@
 
 ## Note
 - Per casi specifici e casistiche di errore consultare la documentazione dei singoli moduli (es. Performance).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

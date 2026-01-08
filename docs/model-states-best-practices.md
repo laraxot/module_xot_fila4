@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices per Model States e Transizioni Custom
 
 ## Parametri aggiuntivi nelle transizioni custom
@@ -11,3 +12,5 @@
 - **Collegamenti**:
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
   - [README.md centrale](../../../docs/README.md) 
+=======
+>>>>>>> cc7fb225 (.)

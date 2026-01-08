@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices
 
 ## Laraxot Framework Standards
@@ -60,3 +61,5 @@
 - Create bidirectional links between related documents
 - Update both module and root documentation
 - Include practical examples in all guides
+=======
+>>>>>>> dc2130a7c (.)

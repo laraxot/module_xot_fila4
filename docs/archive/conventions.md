@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming
 
 ## Struttura delle Cartelle nei Moduli
@@ -177,3 +178,5 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
 * [conventions.md](../../Patient/docs/conventions.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

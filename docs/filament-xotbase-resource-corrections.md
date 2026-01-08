@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Correzioni Implementate - Regola Critica XotBaseResource
 
 ## 🚨 Regola Critica Violata
@@ -197,3 +198,5 @@ class ExampleResource extends XotBaseResource
 *Modulo: Xot*
 *Categoria: Filament*
 *Status: ✅ Correzioni Implementate*
+=======
+>>>>>>> cc7fb225 (.)

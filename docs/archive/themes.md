@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Temi in il progetto
 
 il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
@@ -99,3 +100,5 @@ Per personalizzare un tema:
 >>>>>>> b9c66c44e (.)
 
 
+=======
+>>>>>>> dc2130a7c (.)

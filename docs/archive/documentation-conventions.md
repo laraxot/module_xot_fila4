@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -111,3 +112,23 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 *Ultimo aggiornamento: Giugno 2025*
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+- [Documentazione generale](../../../docs/documentation_rules.md)
+- [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
+- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
+- [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
+
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> 399f46d3 (.)
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

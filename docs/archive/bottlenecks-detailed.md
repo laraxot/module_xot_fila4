@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi Dettagliata dei Colli di Bottiglia - Modulo Xot
 
 ## Panoramica
@@ -300,3 +301,5 @@ trait HasXotOptimizations
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

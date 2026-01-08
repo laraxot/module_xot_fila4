@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Standard di Codice per il progetto
 
@@ -641,3 +642,5 @@ git commit -m "fix: correzione calcolo età paziente"
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

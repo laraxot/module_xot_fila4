@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Nested Resource
 description: Nested Resource
@@ -182,3 +183,5 @@ https://filamentphp.com/project_docs/2.x/admin/resources/getting-started#customi
 =======
 https://filamentphp.com/docs/2.x/admin/resources/getting-started#customizing-the-url-slug
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

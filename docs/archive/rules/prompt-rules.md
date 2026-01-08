@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per i Prompt
 
 ## Regola Universale
@@ -47,3 +48,5 @@ Non è necessario applicare questa regola a:
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](../prompt_rules.md)
 
+=======
+>>>>>>> dc2130a7c (.)

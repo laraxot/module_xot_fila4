@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBasePage
 
 ## Panoramica
@@ -110,3 +111,5 @@ Verifica se l'utente ha l'accesso alla pagina.
 - [Best Practices](../../../docs/best-practices.md)
 - [Guida Traduzioni](../../../docs/translations.md) 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

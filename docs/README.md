@@ -665,3 +665,190 @@ ls Modules/*/lang/*/
 **🐛 PHPStan Level 10**: Classi base certificate ✅  
 **🌐 Translation Standards**: Template traduzioni certificate ✅  
 **🚀 Performance**: 98/100 score
+<<<<<<< HEAD
+=======
+
+## Documentation Archive & Legacy
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+# Xot Module - Framework Base Laraxot
+
+## Overview
+Modulo base del framework Laraxot con funzionalità core e best practices.
+
+## Quick Links
+- [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+- [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
+- [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
+- [Filament Complete Guide](consolidated/filament-complete-guide.md)
+- [PHPStan Complete Guide](consolidated/phpstan-complete-guide.md)
+- [Migration Complete Guide](consolidated/migration-complete-guide.md)
+- [Testing Complete Guide](consolidated/testing-complete-guide.md)
+- [Translation Complete Guide](consolidated/translation-complete-guide.md)
+
+## Architecture
+- Base classes per tutti i moduli
+- Service providers centralizzati
+- Convenzioni e standard
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- Actions per operazioni PDF e business logic
+
+### Actions
+- [GetPdfContentByRecordAction](actions/get-pdf-content-by-record-action.md) - Generazione contenuto PDF da record Eloquent
+- [ContentPdfAction](archive/actions/content-pdf-action.md) - Generazione PDF da HTML/viste
+- [StreamDownloadPdfAction](archive/actions/pdf-stream-download-action.md) - Download PDF diretto
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+
+## Installation
+```bash
+composer require laraxot/xot
+```
+
+## Configuration
+Configurazione automatica tramite service providers.
+
+## Documentation Archive
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
+Per accedere alla documentazione dettagliata originale, vedere il backup in:
+`docs-consolidation-backup-*/Xot-docs-original/`
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+## Principles
+- **DRY**: Un solo punto di verità
+- **KISS**: Semplicità e chiarezza
+- **Type Safety**: Tipizzazione rigorosa
+- **Documentation**: Documentazione essenziale
+
+## Links
+- [Root Documentation](../../../project_docs/)
+<<<<<<< HEAD
+=======
+## Quick Links Legacy
+=======
+## Quick Links Legacy
+=======
+## Quick Links Legacy
+=======
+## Principles
+- **DRY**: Un solo punto di verità
+- **KISS**: Semplicità e chiarezza
+- **Type Safety**: Tipizzazione rigorosa
+- **Documentation**: Documentazione essenziale
+
+## Links
+- [Root Documentation](../../../project_docs/)
+>>>>>>> cc7fb225 (.)
+- [Root Documentation](../../../docs/)
+- [<main module> Module](../<main module>/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+=======
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Quick Links Legacy
+=======
+## Principles
+- **DRY**: Un solo punto di verità
+- **KISS**: Semplicità e chiarezza
+- **Type Safety**: Tipizzazione rigorosa
+- **Documentation**: Documentazione essenziale
+
+## Links
+>>>>>>> 6cba4fe (.)
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Quick Links Legacy
+=======
+## Principles
+- **DRY**: Un solo punto di verità
+- **KISS**: Semplicità e chiarezza
+- **Type Safety**: Tipizzazione rigorosa
+- **Documentation**: Documentazione essenziale
+
+## Links
+>>>>>>> 6cba4fe (.)
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni
 
 Questa cartella contiene le convenzioni di nomenclatura e le regole di stile utilizzate nel progetto.
@@ -141,3 +142,5 @@ Queste convenzioni devono essere seguite per mantenere la coerenza del codice in
 * [README.md](../../../../Themes/One/docs/README.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

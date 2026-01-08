@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -213,4 +214,9 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD:docs/archive/testing-best-practices_1.md
 **Last Update**: Dicembre 2024 
+=======
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.):docs/archive/testing-best-practices-uppercase.md

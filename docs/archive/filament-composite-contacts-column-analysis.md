@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi e Implementazione Colonna Composita "Contatti" - TechPlanner
 
 ## Richiesta Utente
@@ -252,3 +253,5 @@ Questa implementazione stabilisce un precedente per:
 **Stato**: Analisi completata, pronto per implementazione
 **Ultimo aggiornamento**: agosto 2025
 **Autore**: Cascade AI Assistant
+=======
+>>>>>>> dc2130a7c (.)

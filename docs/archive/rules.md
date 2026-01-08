@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Regole di naming per le azioni
 
 - Le azioni che operano su una chiave specifica devono utilizzare la forma `By<Key>` (es. `UpdateRestiPondByValutatoreIdAction`).
@@ -74,3 +75,5 @@
 =======
 - Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

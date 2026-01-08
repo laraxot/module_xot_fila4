@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Testing in Xot Module
 
 ## PHPUnit
@@ -46,3 +47,5 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/phpstan_error.txt}
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

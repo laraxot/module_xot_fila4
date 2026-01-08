@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ~~~ bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 touch ~/.zshrc
@@ -30,3 +31,5 @@ usefull links:
 * [zsh.md](../../../Xot/docs/ubuntu/zsh.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

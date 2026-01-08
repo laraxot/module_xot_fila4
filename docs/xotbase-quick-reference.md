@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 XotBase Quick Reference
 
 ## ⚡ Immediate Action Required
@@ -63,3 +64,5 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 ---
 
 *Keep this file visible during development!*
+=======
+>>>>>>> dc2130a7c (.)

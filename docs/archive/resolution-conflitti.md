@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitti
 
 ## Best Practices
@@ -263,3 +264,5 @@ b6f667c (.)
 >>>>>>> b9c66c44e (.)
 fc83074 (.)
 
+=======
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitti
 
 ## Best Practices
@@ -263,3 +264,5 @@ b6f667c (.)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
 fc83074 (.)
 
+=======
+>>>>>>> dc2130a7c (.)

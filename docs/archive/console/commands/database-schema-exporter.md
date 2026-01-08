@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DatabaseSchemaExporter Command Documentation
 
 ## Overview
@@ -60,3 +61,5 @@ Tabelle trovate: users, migrations, password_resets
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

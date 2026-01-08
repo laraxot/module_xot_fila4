@@ -35,7 +35,26 @@ class CoolModulesServiceProvider extends PackageServiceProvider
     {
         $this->app->register(LaravelModulesServiceProvider::class);
 
+<<<<<<< HEAD
         $this->app->afterResolving('filament', function (): void {
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+    public function register()
+    {
+        $this->app->register(LaravelModulesServiceProvider::class);
+
+        $this->app->afterResolving('filament', function () {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+        $this->app->afterResolving('filament', function () {
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)
             $panels = Filament::getPanels();
 
             foreach ($panels as $panel) {

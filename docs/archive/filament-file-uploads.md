@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione dei File Upload in Filament
 
 ## Panoramica
@@ -132,8 +133,13 @@ Forms\Components\FileUpload::make('certifications')
 - [Gestione degli Utenti](/docs/user-management.md)
 - [Pattern di Ereditarietà dei Modelli](/docs/model-inheritance-patterns.md)
 - [Documentazione Ufficiale di Filament](https://filamentphp.com/docs/3.x/forms/fields/file-upload)
+<<<<<<< HEAD
 - [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/project_docs/DATABASE_FIELD_MAPPING.md)
 - [Migrazioni del Database](/project_docs/database-migrations.md)
 - [Gestione degli Utenti](/project_docs/user-management.md)
 - [Pattern di Ereditarietà dei Modelli](/project_docs/model-inheritance-patterns.md)
 - [Documentazione Ufficiale di Filament](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

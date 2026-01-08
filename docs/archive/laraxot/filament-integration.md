@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filament Integration in Laraxot
 
 ## Resource Implementation
@@ -82,3 +83,5 @@ public static function getFormSchema(): array
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

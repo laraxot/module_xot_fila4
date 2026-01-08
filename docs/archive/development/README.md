@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sviluppo
 
 Questa cartella contiene la documentazione relativa agli strumenti e alle pratiche di sviluppo.
@@ -142,3 +143,5 @@ Questa documentazione è essenziale per tutti gli sviluppatori che lavorano al p
 * [README.md](../../../../Themes/One/docs/README.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

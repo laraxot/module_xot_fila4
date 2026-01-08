@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per Model Casting in Laraxot - CRITICO
 
 ## ERRORE ARCHITETTURALE GRAVE: Proprietà $casts Deprecata
@@ -246,3 +247,5 @@ class User extends BaseModel
 >>>>>>> b9c66c44e (.)
 
 *Ultimo aggiornamento: agosto 2025*
+=======
+>>>>>>> dc2130a7c (.)

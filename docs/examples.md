@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💡 **Esempi Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -1124,3 +1125,5 @@ class ExampleRelationshipsTest extends XotBaseTestCase
 
 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

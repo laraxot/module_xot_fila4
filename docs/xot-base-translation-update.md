@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aggiornamento File di Traduzione xot_base.php
 
 ## Data Aggiornamento
@@ -95,3 +96,5 @@ return [
 =======
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

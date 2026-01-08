@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBaseWidget
 
 ## Panoramica
@@ -37,3 +38,5 @@ class MyCustomWidget extends XotBaseWidget
 - [Documentazione Filament Widgets](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/index.md)
 >>>>>>> b9c66c44e (.)
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/app/Filament/Widgets/XotBaseWidget.php) 
+=======
+>>>>>>> dc2130a7c (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
@@ -78,3 +79,25 @@ Dal punto di vista tecnico, l'implementazione di questi miglioramenti richiede:
 ## Conclusione
 
 Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qualità della documentazione nel progetto. I miglioramenti proposti mirano a renderlo più efficace e facile da seguire, mantenendo al contempo la sua natura di stringa continua come richiesto dalle regole del progetto.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

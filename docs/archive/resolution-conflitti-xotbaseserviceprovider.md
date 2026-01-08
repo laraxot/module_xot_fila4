@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitti in XotBaseServiceProvider
 
 ## File Coinvolto
@@ -162,3 +163,5 @@ Per maggiori dettagli sui vantaggi di questo approccio, consultare la documentaz
 =======
 *Collegamento bidirezionale: vedi anche `/docs/providers/service_provider_best_practices.md`* 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

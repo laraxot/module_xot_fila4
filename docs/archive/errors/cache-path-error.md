@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Errore Cache Path Mancante
 
 ## Descrizione dell'Errore
@@ -51,3 +52,5 @@ Per prevenire questo errore in futuro:
 - [Documentazione Laravel Cache](https://laravel.com/docs/cache)
 - [Documentazione Xot Component System](../structure.md) 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

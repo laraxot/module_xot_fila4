@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Collegamento Bidirezionale: Regole Filament e Namespace (Cms)
 
 Le regole generali per Filament, namespace e traduzioni sono definite in:
@@ -28,3 +29,5 @@ Le convenzioni specifiche per Filament e frontend sono dettagliate in:
 ## Bidirezionalità
 - Questa pagina funge da ponte tra la documentazione generale (Xot) e le regole implementative/di frontend (Cms).
 - Aggiornare sempre entrambe le documentazioni in caso di modifiche alle regole.
+=======
+>>>>>>> dc2130a7c (.)

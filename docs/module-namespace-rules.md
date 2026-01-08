@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Regola generale: Label e traduzioni in Filament
 
 ## Regola
@@ -65,3 +66,5 @@ Ultimo aggiornamento: 2025-05-13
 **Backlink modulo Performance:**
 - [Modules/Performance/docs/convenzioni-modulo.md](../Performance/docs/convenzioni-modulo.md)
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

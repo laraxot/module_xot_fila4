@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linee Guida per la Documentazione
 
 ## Principi Fondamentali
@@ -189,3 +190,5 @@ php artisan api:generate
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 >>>>>>> b9c66c44e (.)
 
+=======
+>>>>>>> dc2130a7c (.)

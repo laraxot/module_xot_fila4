@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -223,4 +224,81 @@ php artisan view:clear
 - [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
+<<<<<<< HEAD:docs/consolidated/translation-system_1.md
 - [Schema Conventions](../project_docs/schema-conventions.md) 
+=======
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 6cba4fe (.)
+- [Documentazione Laravel Translations](https://laravel.com/docs/localization)
+- [Filament Form Components](https://filamentphp.com/docs/forms)
+- [Best Practices Filament](../docs/filament-best-practices.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+- [Documentazione Laravel Translations](https://laravel.com/docs/localization)
+- [Filament Form Components](https://filamentphp.com/docs/forms)
+- [Best Practices Filament](../docs/filament-best-practices.md)
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Documentazione Laravel Translations](https://laravel.com/docs/localization)
+- [Filament Form Components](https://filamentphp.com/docs/forms)
+- [Best Practices Filament](../docs/filament-best-practices.md)
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+- [Documentazione Laravel Translations](https://laravel.com/docs/localization)
+- [Filament Form Components](https://filamentphp.com/docs/forms)
+- [Best Practices Filament](../docs/filament-best-practices.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.):docs/translation-system.md

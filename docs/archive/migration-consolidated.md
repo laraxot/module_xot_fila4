@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Migrazioni - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTE le regole di migrazione del progetto
@@ -515,3 +516,5 @@ composer dump-autoload
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Migrazioni*
+=======
+>>>>>>> dc2130a7c (.)

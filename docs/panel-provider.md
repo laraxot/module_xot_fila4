@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Panel Provider in Modulo Xot
 
 ## XotBaseMainPanelProvider
@@ -92,3 +93,24 @@ public function panel(Panel $panel): Panel
 - [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
 
 *Ultimo aggiornamento: 2025-01-06* 
+<<<<<<< HEAD
+=======
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

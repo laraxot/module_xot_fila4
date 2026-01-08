@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Azioni di Cast Sicure - Sostituzione di property_exists
 
 ## Panoramica
@@ -223,3 +224,25 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 - [SafeStringCastAction](../app/Actions/Cast/SafeStringCastAction.php)
 - [SafeBooleanCastAction](../app/Actions/Cast/SafeBooleanCastAction.php)
 - [SafeArrayCastAction](../app/Actions/Cast/SafeArrayCastAction.php)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)

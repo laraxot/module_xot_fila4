@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ~~~ php
 <?php
 declare(strict_types=1);
@@ -51,3 +52,5 @@ return [
 
 ---
 
+=======
+>>>>>>> dc2130a7c (.)

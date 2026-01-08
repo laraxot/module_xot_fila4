@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filament
 
 Questa cartella contiene la documentazione relativa all'implementazione di Filament nel progetto.
@@ -301,3 +302,5 @@ $prefix = static::$translationPrefix;
 - [Patient: DoctorResource](../../../Patient/docs/filament/resources/doctor-resource.md)
 // Aggiungere qui altri moduli se necessario
 
+=======
+>>>>>>> dc2130a7c (.)

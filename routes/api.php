@@ -14,6 +14,22 @@ declare(strict_types=1);
  */
 /*
  * Route::middleware('auth:api')->get('/xot', function (Request $request) {
+<<<<<<< HEAD
  *     return $request->user();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *     return $request->user();
+=======
+ * return $request->user();
+>>>>>>> 5a14301c (.)
+=======
+ * return $request->user();
+>>>>>>> 5a14301c (.)
+=======
+ * return $request->user();
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)
  * });
  */

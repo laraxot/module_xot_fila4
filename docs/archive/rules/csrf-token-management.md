@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione Token CSRF nei Widget XotBase
 
 ## Descrizione
@@ -82,3 +83,5 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 =======
 - [ ] Dipendenze Livewire aggiornate 
 >>>>>>> b9c66c44e (.)
+=======
+>>>>>>> dc2130a7c (.)

@@ -26,6 +26,7 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property int $id
+<<<<<<< HEAD
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property-read ProfileContract|null $creator
@@ -36,6 +37,42 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @method static Builder<static>|InformationSchemaTable newModelQuery()
  * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
+=======
+ *
+ * @method static Builder<static>|InformationSchemaTable newModelQuery()
+ * @method static Builder<static>|InformationSchemaTable newQuery()
+ * @method static Builder<static>|InformationSchemaTable query()
+ * @method static Builder<static>|InformationSchemaTable whereAUTOINCREMENT($value)
+ * @method static Builder<static>|InformationSchemaTable whereAVGROWLENGTH($value)
+ * @method static Builder<static>|InformationSchemaTable whereCHECKSUM($value)
+ * @method static Builder<static>|InformationSchemaTable whereCHECKTIME($value)
+ * @method static Builder<static>|InformationSchemaTable whereCREATEOPTIONS($value)
+ * @method static Builder<static>|InformationSchemaTable whereCREATETIME($value)
+ * @method static Builder<static>|InformationSchemaTable whereDATAFREE($value)
+ * @method static Builder<static>|InformationSchemaTable whereDATALENGTH($value)
+ * @method static Builder<static>|InformationSchemaTable whereENGINE($value)
+ * @method static Builder<static>|InformationSchemaTable whereINDEXLENGTH($value)
+ * @method static Builder<static>|InformationSchemaTable whereId($value)
+ * @method static Builder<static>|InformationSchemaTable whereMAXDATALENGTH($value)
+ * @method static Builder<static>|InformationSchemaTable whereROWFORMAT($value)
+ * @method static Builder<static>|InformationSchemaTable whereTABLECATALOG($value)
+ * @method static Builder<static>|InformationSchemaTable whereTABLECOLLATION($value)
+ * @method static Builder<static>|InformationSchemaTable whereTABLECOMMENT($value)
+ * @method static Builder<static>|InformationSchemaTable whereTABLENAME($value)
+ * @method static Builder<static>|InformationSchemaTable whereTABLEROWS($value)
+ * @method static Builder<static>|InformationSchemaTable whereTABLESCHEMA($value)
+ * @method static Builder<static>|InformationSchemaTable whereTABLETYPE($value)
+ * @method static Builder<static>|InformationSchemaTable whereUPDATETIME($value)
+ * @method static Builder<static>|InformationSchemaTable whereVERSION($value)
+ *
+ * @property string|null $table_schema
+ * @property string|null $table_name
+ * @property string|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_at
+ * @property string|null $created_by
+ *
+>>>>>>> dc2130a7c (.)
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
  * @method static Builder<static>|InformationSchemaTable whereId($value)
@@ -45,7 +82,18 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+=======
+ *
+ * @property string|null $model_class
+ *
+ * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
+ *
+>>>>>>> cc7fb225 (.)
+>>>>>>> dc2130a7c (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends BaseModel

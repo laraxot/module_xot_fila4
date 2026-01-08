@@ -27,7 +27,6 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          *
          * More info: https://github.com/spatie/laravel-package-tools
          */
-
         $package->name('cool-modules');
     }
 

@@ -13,7 +13,11 @@
 >>>>>>>> 8bdfcb7ec (.):docs/archive/filament/trans-trait.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/filament/trans-trait.md
 >>>>>>>> b21979cb8 (.):docs/archive/filament/trans-trait.md
+========
+<<<<<<< HEAD
+>>>>>>>> 780ca3113 (.):docs/archive/filament/trans-trait.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -22,6 +26,8 @@
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> 6e7c1905 (.)
+=======
+>>>>>>> 334816e8 (.)
 # TransTrait
 
 ## Descrizione
@@ -72,6 +78,7 @@ class MyResource
 - [Translation Guidelines](../TRANSLATIONS-BEST-PRACTICES.md)
 <<<<<<<< HEAD:docs/filament/trans-trait.md
 ========
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,4 +140,10 @@ class MyResource
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 6e7c1905 (.)
+<<<<<<<< HEAD:docs/filament/trans-trait.md
 >>>>>>>> b21979cb8 (.):docs/archive/filament/trans-trait.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 334816e8 (.)
+>>>>>>>> 780ca3113 (.):docs/archive/filament/trans-trait.md

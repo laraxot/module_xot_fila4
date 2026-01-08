@@ -13,7 +13,11 @@
 >>>>>>>> 8bdfcb7ec (.):docs/archive/commands/generate-db-documentation.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/commands/generate-db-documentation.md
 >>>>>>>> b21979cb8 (.):docs/archive/commands/generate-db-documentation.md
+========
+<<<<<<< HEAD
+>>>>>>>> 780ca3113 (.):docs/archive/commands/generate-db-documentation.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -22,6 +26,8 @@
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> 6e7c1905 (.)
+=======
+>>>>>>> 334816e8 (.)
 # GenerateDbDocumentationCommand
 
 ## Descrizione
@@ -65,6 +71,7 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 <<<<<<< HEAD:docs/commands/generate-db-documentation.md
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,4 +130,10 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 6e7c1905 (.)
+<<<<<<<< HEAD:docs/commands/generate-db-documentation.md
 >>>>>>>> b21979cb8 (.):docs/archive/commands/generate-db-documentation.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 334816e8 (.)
+>>>>>>>> 780ca3113 (.):docs/archive/commands/generate-db-documentation.md

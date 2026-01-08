@@ -13,7 +13,11 @@
 >>>>>>>> 8bdfcb7ec (.):docs/archive/models/information-schema-table.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/models/information-schema-table.md
 >>>>>>>> b21979cb8 (.):docs/archive/models/information-schema-table.md
+========
+<<<<<<< HEAD
+>>>>>>>> 780ca3113 (.):docs/archive/models/information-schema-table.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -22,6 +26,8 @@
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> 6e7c1905 (.)
+=======
+>>>>>>> 334816e8 (.)
 # InformationSchemaTable
 
 ## Descrizione
@@ -69,6 +75,7 @@ class InformationSchemaTable extends Model
 - [Schema Documentation](../DIRECTORY-STRUCTURE-GUIDE.md)
 <<<<<<<< HEAD:docs/models/information-schema-table.md
 ========
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,4 +143,11 @@ class InformationSchemaTable extends Model
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Model Best Practices](../models/README.md) 
 >>>>>>> 6e7c1905 (.)
+<<<<<<<< HEAD:docs/models/information-schema-table.md
 >>>>>>>> b21979cb8 (.):docs/archive/models/information-schema-table.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Model Best Practices](../models/README.md) 
+>>>>>>> 334816e8 (.)
+>>>>>>>> 780ca3113 (.):docs/archive/models/information-schema-table.md

@@ -13,7 +13,11 @@
 >>>>>>>> 8bdfcb7ec (.):docs/archive/commands/generate-resource-form-schema.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/commands/generate-resource-form-schema.md
 >>>>>>>> b21979cb8 (.):docs/archive/commands/generate-resource-form-schema.md
+========
+<<<<<<< HEAD
+>>>>>>>> 780ca3113 (.):docs/archive/commands/generate-resource-form-schema.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -22,6 +26,8 @@
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> 6e7c1905 (.)
+=======
+>>>>>>> 334816e8 (.)
 # GenerateResourceFormSchemaCommand
 
 ## Descrizione
@@ -90,6 +96,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/commands/generate-resource-form-schema.md
@@ -142,4 +149,10 @@ return [
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 6e7c1905 (.)
+<<<<<<<< HEAD:docs/commands/generate-resource-form-schema.md
 >>>>>>>> b21979cb8 (.):docs/archive/commands/generate-resource-form-schema.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 334816e8 (.)
+>>>>>>>> 780ca3113 (.):docs/archive/commands/generate-resource-form-schema.md

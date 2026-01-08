@@ -13,7 +13,11 @@
 >>>>>>>> 8bdfcb7ec (.):docs/archive/contracts/model-with-status-contract.md
 ========
 <<<<<<< HEAD
+<<<<<<<< HEAD:docs/contracts/model-with-status-contract.md
 >>>>>>>> b21979cb8 (.):docs/archive/contracts/model-with-status-contract.md
+========
+<<<<<<< HEAD
+>>>>>>>> 780ca3113 (.):docs/archive/contracts/model-with-status-contract.md
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -22,6 +26,8 @@
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> 6e7c1905 (.)
+=======
+>>>>>>> 334816e8 (.)
 # ModelWithStatusContract
 
 ## Descrizione
@@ -119,6 +125,7 @@ $latestStatus = $order->latestStatus();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>>> 6342a02fe (.):docs/archive/contracts/model-with-status-contract.md
@@ -177,4 +184,11 @@ $latestStatus = $order->latestStatus();
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 6e7c1905 (.)
+<<<<<<<< HEAD:docs/contracts/model-with-status-contract.md
 >>>>>>>> b21979cb8 (.):docs/archive/contracts/model-with-status-contract.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 334816e8 (.)
+>>>>>>>> 780ca3113 (.):docs/archive/contracts/model-with-status-contract.md

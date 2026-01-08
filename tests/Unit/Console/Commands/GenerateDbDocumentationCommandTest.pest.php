@@ -2,11 +2,12 @@
 
 declare(strict_types=1);
 
+use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Artisan;
 use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 
-uses(\Modules\Xot\Tests\TestCase::class);
+uses(TestCase::class);
 
 beforeEach(function () {
     $this->testSchemaPath = storage_path('tests/schema.json');

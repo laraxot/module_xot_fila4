@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # GenerateResourceFormSchemaCommand
 
 ## Descrizione
@@ -56,6 +59,17 @@ return [
 ## Collegamenti
 - [Filament Best Practices](../filament-best-practices.md)
 - [Form Components](../COMPONENTI_PERSONALIZZATI.md)
+<<<<<<<< HEAD:docs/commands/generate-resource-form-schema.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+=======
+>>>>>>>> 6342a02fe (.):docs/archive/commands/generate-resource-form-schema.md
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 <<<<<<< HEAD:docs/commands/generate-resource-form-schema.md
 =======
@@ -74,4 +88,10 @@ return [
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/commands/generate-resource-form-schema.md
 >>>>>>> dc2130a7c (.):docs/archive/commands/generate-resource-form-schema.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/commands/generate-resource-form-schema.md

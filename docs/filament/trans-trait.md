@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # TransTrait
 
 ## Descrizione
@@ -47,6 +50,17 @@ class MyResource
 ## Collegamenti
 - [Filament Best Practices](../filament-best-practices.md)
 - [Translation Guidelines](../TRANSLATIONS-BEST-PRACTICES.md)
+<<<<<<<< HEAD:docs/filament/trans-trait.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+=======
+>>>>>>>> 6342a02fe (.):docs/archive/filament/trans-trait.md
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 <<<<<<< HEAD:docs/filament/trans-trait.md
 =======
@@ -65,4 +79,10 @@ class MyResource
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/filament/trans-trait.md
 >>>>>>> dc2130a7c (.):docs/archive/filament/trans-trait.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/filament/trans-trait.md

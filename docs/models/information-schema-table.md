@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # InformationSchemaTable
 
 ## Descrizione
@@ -44,6 +47,17 @@ class InformationSchemaTable extends Model
 ## Collegamenti
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 - [Schema Documentation](../DIRECTORY-STRUCTURE-GUIDE.md)
+<<<<<<<< HEAD:docs/models/information-schema-table.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>>> 6342a02fe (.):docs/archive/models/information-schema-table.md
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 <<<<<<< HEAD:docs/models/information-schema-table.md
 - [Model Best Practices](../models/README.md) 
@@ -64,4 +78,11 @@ class InformationSchemaTable extends Model
 - [Model Best Practices](../models/README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/models/information-schema-table.md
 >>>>>>> dc2130a7c (.):docs/archive/models/information-schema-table.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Model Best Practices](../models/README.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/models/information-schema-table.md

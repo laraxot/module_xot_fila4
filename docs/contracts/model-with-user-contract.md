@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # ModelWithUserContract
 
 ## Descrizione
@@ -70,6 +73,17 @@ class Article extends Model implements ModelWithUserContract
 ## Collegamenti
 - [ModelContract](model-contract.md)
 - [User Management](../features/USER-MANAGEMENT.md)
+<<<<<<<< HEAD:docs/contracts/model-with-user-contract.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>>> 6342a02fe (.):docs/archive/contracts/model-with-user-contract.md
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 <<<<<<< HEAD:docs/contracts/model-with-user-contract.md
 - [Contracts Overview](./README.md) 
@@ -90,4 +104,11 @@ class Article extends Model implements ModelWithUserContract
 - [Contracts Overview](./README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/contracts/model-with-user-contract.md
 >>>>>>> dc2130a7c (.):docs/archive/contracts/model-with-user-contract.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/contracts/model-with-user-contract.md

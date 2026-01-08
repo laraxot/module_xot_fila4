@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # WebhookErrorFormatter
 
 ## Descrizione
@@ -47,6 +50,17 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 ## Collegamenti
 - [Error Handling Guidelines](../../EXCEPTION-HANDLING-GUIDE.md)
 - [Webhook Integration](../../integrations/WEBHOOK-GUIDE.md)
+<<<<<<<< HEAD:docs/exceptions/formatters/webhook-error-formatter.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>>> 6342a02fe (.):docs/archive/exceptions/formatters/webhook-error-formatter.md
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 <<<<<<< HEAD:docs/exceptions/formatters/webhook-error-formatter.md
 - [Error Formatters Overview](../README.md) 
@@ -67,4 +81,11 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 - [Error Formatters Overview](../README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/exceptions/formatters/webhook-error-formatter.md
 >>>>>>> dc2130a7c (.):docs/archive/exceptions/formatters/webhook-error-formatter.md
+========
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters Overview](../README.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/exceptions/formatters/webhook-error-formatter.md

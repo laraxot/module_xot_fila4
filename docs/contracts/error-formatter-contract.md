@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # ErrorFormatterContract
 
 ## Descrizione
@@ -46,6 +49,7 @@ interface ErrorFormatterContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
@@ -64,4 +68,10 @@ interface ErrorFormatterContract
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/contracts/error-formatter-contract.md
 >>>>>>> dc2130a7c (.):docs/archive/contracts/error-formatter-contract.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/contracts/error-formatter-contract.md

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # SearchStringInDatabaseCommand
 
 ## Descrizione
@@ -39,6 +42,7 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
@@ -57,4 +61,10 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/commands/search-string-database.md
 >>>>>>> dc2130a7c (.):docs/archive/commands/search-string-database.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/commands/search-string-database.md

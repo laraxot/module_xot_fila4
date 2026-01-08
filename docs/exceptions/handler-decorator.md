@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # HandlerDecorator
 
 ## Descrizione
@@ -40,6 +43,17 @@ class HandlerDecorator implements ExceptionHandlerContract
 ## Collegamenti
 - [Exception Handling Guidelines](../EXCEPTION-HANDLING-GUIDE.md)
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
+<<<<<<<< HEAD:docs/exceptions/handler-decorator.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>>> 6342a02fe (.):docs/archive/exceptions/handler-decorator.md
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 <<<<<<< HEAD:docs/exceptions/handler-decorator.md
 - [Error Formatters](./formatters/README.md) 
@@ -60,4 +74,11 @@ class HandlerDecorator implements ExceptionHandlerContract
 - [Error Formatters](./formatters/README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/exceptions/handler-decorator.md
 >>>>>>> dc2130a7c (.):docs/archive/exceptions/handler-decorator.md
+========
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters](./formatters/README.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/exceptions/handler-decorator.md

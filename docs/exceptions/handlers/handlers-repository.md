@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # HandlersRepository
 
 ## Descrizione
@@ -86,6 +89,17 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 ## Collegamenti
 - [Exception Handling Guide](../EXCEPTION-HANDLING-GUIDE.md)
 - [Error Formatters](../formatters/README.md)
+<<<<<<<< HEAD:docs/exceptions/handlers/handlers-repository.md
+========
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>>> 6342a02fe (.):docs/archive/exceptions/handlers/handlers-repository.md
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 <<<<<<< HEAD:docs/exceptions/handlers/handlers-repository.md
 - [Handlers Overview](./README.md) 
@@ -106,4 +120,11 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [Handlers Overview](./README.md) 
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<<< HEAD:docs/exceptions/handlers/handlers-repository.md
 >>>>>>> dc2130a7c (.):docs/archive/exceptions/handlers/handlers-repository.md
+========
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Handlers Overview](./README.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>>> 6342a02fe (.):docs/archive/exceptions/handlers/handlers-repository.md

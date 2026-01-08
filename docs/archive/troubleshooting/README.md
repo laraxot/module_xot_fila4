@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # Troubleshooting Guide
 
 ## Common Issues
@@ -6,6 +9,7 @@
 ### PHPStan Errors
 - **Issue**: Method not found errors
 - **Solution**: Check namespace imports and method signatures
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27,6 +31,9 @@
 =======
 - **Prevention**: Always run PHPStan level 9+ before commits
 >>>>>>> c35986f4 (.)
+=======
+- **Prevention**: Always run PHPStan level 9+ before commits
+>>>>>>> 33af3e61 (.)
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings
@@ -56,5 +63,8 @@
 - Review Laraxot framework guidelines
 - Consult best practices documentation
 - Use project memory system for context
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

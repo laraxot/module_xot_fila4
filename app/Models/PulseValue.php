@@ -117,7 +117,6 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @property string $key
  * @property string $key_hash
  * @property string $value
- *
  * @property-read \Modules\Quaeris\Models\Profile|null $creator
  * @property-read \Modules\Quaeris\Models\Profile|null $updater
  *

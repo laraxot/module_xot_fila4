@@ -191,6 +191,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Aggiornare la documentazione ogni volta che si corregge questo errore.
 
 ### Collegamento
+<<<<<<< HEAD
 - Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
 - Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
 - Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
@@ -246,6 +247,9 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
 - Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
 - Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../<nome progetto>/docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [<main module>/docs/filament-best-practices.mdc](../../../<main module>/docs/filament-best-practices.mdc)
+>>>>>>> c35185e63 (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore

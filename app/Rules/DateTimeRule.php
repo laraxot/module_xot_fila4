@@ -8,6 +8,7 @@ use Exception;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Carbon;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,6 +143,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
 /**
  * Class DateTimeRule.
@@ -178,6 +181,7 @@ class DateTimeRule implements Rule
             return false;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -367,6 +371,8 @@ class DateTimeRule implements Rule
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);

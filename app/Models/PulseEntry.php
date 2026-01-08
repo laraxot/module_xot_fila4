@@ -30,6 +30,7 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
  * @method static Builder<static>|PulseEntry whereValue($value)
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read ProfileContract|null $deleter
  *
 =======
@@ -111,6 +112,10 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ *
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

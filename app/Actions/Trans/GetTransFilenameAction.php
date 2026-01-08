@@ -22,6 +22,7 @@ class GetTransFilenameAction
             Assert::string($langPath, 'Percorso lang non valido');
         } catch (Throwable $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,10 +73,13 @@ class GetTransFilenameAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             $langPath = base_path('Modules/'.$ns.'/lang');
         }
 
         $lang_path_full = $langPath.'/'.$lang.'/'.$file.'.php';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,5 +188,9 @@ class GetTransFilenameAction
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+
+        return str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
+>>>>>>> 50c0e1043 (.)
     }
 }

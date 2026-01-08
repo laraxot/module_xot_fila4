@@ -83,6 +83,7 @@ class BelongsToManyAction
 
             $rows->sync($to);
 <<<<<<< HEAD
+<<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
 =======
 <<<<<<< HEAD
@@ -252,6 +253,9 @@ class BelongsToManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            $status = 'collegati ['.implode(', ', $to).'] ';
+>>>>>>> 50c0e1043 (.)
             Session::flash('status', $status);
 
             return;
@@ -269,15 +273,19 @@ class BelongsToManyAction
             if (\array_key_exists($keyName, $data)) {
                 // Aggiorna o crea il modello correlato
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
                 /** @var array<string, mixed> $safeData */
                 $safeData = $data;
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -454,6 +462,8 @@ class BelongsToManyAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
@@ -464,6 +474,7 @@ class BelongsToManyAction
         }
 
         // Sincronizza gli ID raccolti
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! empty($ids)) {
 =======
@@ -624,6 +635,9 @@ class BelongsToManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! empty($ids)) {
+>>>>>>> 50c0e1043 (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile

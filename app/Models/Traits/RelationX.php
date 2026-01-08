@@ -48,6 +48,7 @@ trait RelationX
         $dbName = $this->getConnection()->getDatabaseName();
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
 <<<<<<< HEAD
+<<<<<<< HEAD
         // if ($pivotDbName !== $dbName) {
 =======
 <<<<<<< HEAD
@@ -72,6 +73,9 @@ trait RelationX
         // if ($pivotDbName !== $dbName) {
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+        // if ($pivotDbName !== $dbName) {
+>>>>>>> 50c0e1043 (.)
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -79,6 +83,7 @@ trait RelationX
             if ($pivotDriver !== 'sqlite') {
                 $table = $pivotDbName.'.'.$table;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
         }
         // }
@@ -177,6 +182,10 @@ trait RelationX
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        }
+        // }
+>>>>>>> 50c0e1043 (.)
 
         return $this->belongsToMany(
             related: $related,

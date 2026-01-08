@@ -6,6 +6,7 @@ namespace Modules\Xot\Filament\Resources\SessionResource\Pages;
 
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,6 +58,8 @@ use Modules\Xot\Filament\Resources\SessionResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Filament\Resources\SessionResource;
 
 <<<<<<< HEAD

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Pdf;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -241,6 +242,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+use Modules\Xot\Datas\PdfData;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 50c0e1043 (.)
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction

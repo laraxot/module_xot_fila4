@@ -139,6 +139,7 @@ interface HasRecursiveRelationshipsContract
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8b18e4bff (.)
@@ -159,6 +160,9 @@ interface HasRecursiveRelationshipsContract
 =======
      * @return HasMany<Model, Model>
 >>>>>>> b7afadf9 (.)
+=======
+     * @return HasMany
+>>>>>>> 50c0e1043 (.)
      */
     public function children();
 
@@ -188,6 +192,7 @@ interface HasRecursiveRelationshipsContract
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8b18e4bff (.)
@@ -208,6 +213,9 @@ interface HasRecursiveRelationshipsContract
 =======
      * @return BelongsTo<Model, Model>
 >>>>>>> b7afadf9 (.)
+=======
+     * @return BelongsTo
+>>>>>>> 50c0e1043 (.)
      */
     public function parent();
 
@@ -221,6 +229,7 @@ interface HasRecursiveRelationshipsContract
     /**
      * Get the model's root ancestor.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -243,6 +252,9 @@ interface HasRecursiveRelationshipsContract
 =======
      * @return RootAncestor<Model, Model>
 >>>>>>> b7afadf9 (.)
+=======
+     * @return RootAncestor
+>>>>>>> 50c0e1043 (.)
      */
     public function rootAncestor();
 
@@ -250,16 +262,21 @@ interface HasRecursiveRelationshipsContract
      * Get the model's root ancestor or self.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return RootAncestorOrSelf
 =======
      * @return RootAncestorOrSelf<Model, Model>
 >>>>>>> 8b18e4bff (.)
+=======
+     * @return RootAncestorOrSelf
+>>>>>>> 50c0e1043 (.)
      */
     public function rootAncestorOrSelf();
 
     /**
      * Get the model's siblings.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -282,12 +299,16 @@ interface HasRecursiveRelationshipsContract
 =======
      * @return Siblings<Model, Model>
 >>>>>>> b7afadf9 (.)
+=======
+     * @return Siblings
+>>>>>>> 50c0e1043 (.)
      */
     public function siblings();
 
     /**
      * Get the model's siblings and itself.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -325,6 +346,9 @@ interface HasRecursiveRelationshipsContract
 =======
      * @return Siblings<Model, Model>
 >>>>>>> b7afadf9 (.)
+=======
+     * @return Siblings
+>>>>>>> 50c0e1043 (.)
      */
     public function siblingsAndSelf();
 

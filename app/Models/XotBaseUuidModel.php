@@ -17,6 +17,7 @@ abstract class XotBaseUuidModel extends XotBaseModel
     public $incrementing = false;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -50,11 +51,14 @@ abstract class XotBaseUuidModel extends Model
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     /** @var bool */
     public $timestamps = true;
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -64,6 +68,8 @@ abstract class XotBaseUuidModel extends Model
 >>>>>>> 285375c74 (.)
 =======
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
     protected $keyType = 'string';
 
@@ -75,28 +81,10 @@ abstract class XotBaseUuidModel extends Model
     /**
      * @return array<string, string>
      */
-=======
-
-    /** @var list<string> */
-    protected $fillable = ['id'];
-
-    /** @var list<string> */
-    protected $appends = [];
-
-    /** @var list<string> */
-    protected $hidden = [];
-
-    /** @return array<string, string> */
->>>>>>> b7afadf9 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
-<<<<<<< HEAD
-=======
-            'uuid' => 'string',
-            'published_at' => 'datetime',
->>>>>>> b7afadf9 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -105,6 +93,7 @@ abstract class XotBaseUuidModel extends Model
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -122,4 +111,6 @@ abstract class XotBaseUuidModel extends Model
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 }

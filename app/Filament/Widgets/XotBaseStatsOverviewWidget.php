@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +79,10 @@ use Filament\Actions\Action;
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 300ef70 (.)
+=======
+use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
+use Modules\Xot\Filament\Traits\TransTrait;
+>>>>>>> 50c0e1043 (.)
 
 /**
  * Classe base per i widget StatsOverview del sistema Xot.

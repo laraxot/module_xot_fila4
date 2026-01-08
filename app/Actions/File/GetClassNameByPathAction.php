@@ -24,6 +24,7 @@ class GetClassNameByPathAction
         $className = $classMatch[1] ?? '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $namespace ? ($namespace.'\\'.$className) : $className;
 =======
 <<<<<<< HEAD
@@ -128,6 +129,9 @@ class GetClassNameByPathAction
         return $fullClassName;
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+        return $namespace ? ($namespace.'\\'.$className) : $className;
+>>>>>>> 50c0e1043 (.)
     }
 }
 

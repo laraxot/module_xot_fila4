@@ -48,6 +48,7 @@ use Webmozart\Assert\Assert;
  * - Assert: Utilizza webmozart/assert per validazioni robuste
  * - NO property_exists: Mai utilizzare property_exists con modelli Eloquent
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,6 +133,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
  */
 class SafeEloquentCastAction
 {
@@ -212,6 +215,7 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,9 +268,10 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getStringAttribute(Model $model, string $attribute, ?string $default = ''): string
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -299,6 +304,7 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -351,9 +357,10 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getIntAttribute(Model $model, string $attribute, ?int $default = 0): int
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -386,6 +393,7 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,9 +446,10 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getFloatAttribute(Model $model, string $attribute, ?float $default = 0.0): float
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -473,6 +482,7 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -525,9 +535,10 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getBooleanAttribute(Model $model, string $attribute, ?bool $default = false): bool
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -560,6 +571,7 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +597,8 @@ class SafeEloquentCastAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getArrayAttribute(Model $model, string $attribute, ?array $default = []): array
 =======
 <<<<<<< HEAD
@@ -599,7 +613,6 @@ class SafeEloquentCastAction
     public function getArrayAttribute(Model $model, string $attribute, null|array $default = []): array
 >>>>>>> a6ef6dc7 (.)
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -688,6 +701,7 @@ class SafeEloquentCastAction
      * @param  Model  $model  Il modello Eloquent
      * @param  string  $attribute  Il nome dell'attributo
      * @param  callable  $condition  La condizione da verificare
+<<<<<<< HEAD
      * @return bool True se l'attributo esiste e soddisfa la condizione
      */
     public function hasAttributeCondition(Model $model, string $attribute, callable $condition): bool
@@ -902,11 +916,16 @@ class SafeEloquentCastAction
      * @param  Model  $model  Il modello Eloquent
      * @param  string  $attribute  Il nome dell'attributo
      * @param  callable  $condition  La condizione da verificare
+=======
+>>>>>>> 50c0e1043 (.)
      * @return bool True se l'attributo esiste e soddisfa la condizione
      */
     public function hasAttributeCondition(Model $model, string $attribute, callable $condition): bool
     {
+<<<<<<< HEAD
         Assert::isInstanceOf($model, Model::class);
+=======
+>>>>>>> 50c0e1043 (.)
         Assert::stringNotEmpty($attribute);
 <<<<<<< HEAD
 <<<<<<< HEAD

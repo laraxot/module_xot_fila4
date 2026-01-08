@@ -84,6 +84,7 @@ class FilamentMemoryMonitorMiddleware
             '/admin',
             '/user/admin',
 <<<<<<< HEAD
+<<<<<<< HEAD
             '/<nome progetto>/admin',
 =======
 <<<<<<< HEAD
@@ -107,6 +108,9 @@ class FilamentMemoryMonitorMiddleware
             '/<nome progetto>/admin',
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            '/<nome progetto>/admin',
+>>>>>>> 50c0e1043 (.)
             '/cms/admin',
             '/geo/admin',
             '/notify/admin',

@@ -27,6 +27,7 @@ class GetViewBlocksOptionsByTypeAction
      * Ottiene le opzioni dei blocchi di vista per un determinato tipo.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $type  Il tipo di blocco da cercare
      * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
 =======
@@ -172,6 +173,10 @@ class GetViewBlocksOptionsByTypeAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     * @param  string  $type  Il tipo di blocco da cercare
+     * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
+>>>>>>> 50c0e1043 (.)
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
@@ -195,6 +200,7 @@ class GetViewBlocksOptionsByTypeAction
         $basePath = base_path('Modules');
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
 =======
@@ -258,6 +264,8 @@ class GetViewBlocksOptionsByTypeAction
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
         
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
         $files = File::glob($globPattern);
 

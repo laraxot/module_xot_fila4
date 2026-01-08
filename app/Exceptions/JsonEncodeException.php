@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +79,8 @@ use Override;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Exception;
 use Illuminate\Http\Response;
 use Override;
@@ -128,6 +131,7 @@ class JsonEncodeException extends ApplicationException
     {
         $res = trans('exception.json_not_encoded.help');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
@@ -313,6 +317,10 @@ class JsonEncodeException extends ApplicationException
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 50c0e1043 (.)
         }
 
         return $res;
@@ -337,6 +345,7 @@ class JsonEncodeException extends ApplicationException
     {
         $res = trans('exception.json_not_encoded.error');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
@@ -522,6 +531,10 @@ class JsonEncodeException extends ApplicationException
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 50c0e1043 (.)
         }
 
         return $res;

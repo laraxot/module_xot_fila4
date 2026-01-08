@@ -33,6 +33,7 @@ class GetFirstModelClassByModelNameAction
             $modelClass,
             '['.__LINE__.']['.class_basename($this).']',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -46,6 +47,8 @@ class GetFirstModelClassByModelNameAction
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         );
 
         return $modelClass;

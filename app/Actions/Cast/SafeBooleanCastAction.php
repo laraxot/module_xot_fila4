@@ -142,6 +142,7 @@ class SafeBooleanCastAction
     public function execute(mixed $value, ?bool $default = false): bool
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     public function execute(mixed $value, ?bool $default = false): bool
@@ -278,6 +279,8 @@ class SafeBooleanCastAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     {
         // Se è già un boolean, restituiscilo direttamente
         if (is_bool($value)) {
@@ -418,6 +421,7 @@ class SafeBooleanCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,6 +446,11 @@ class SafeBooleanCastAction
         // Se è un oggetto, convertilo (oggetto vuoto = false, altri = true)
         if (is_object($value)) {
             return !empty(get_object_vars($value));
+=======
+        // Se è un oggetto, convertilo (oggetto vuoto = false, altri = true)
+        if (is_object($value)) {
+            return ! empty(get_object_vars($value));
+>>>>>>> 50c0e1043 (.)
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,6 +490,7 @@ class SafeBooleanCastAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -652,6 +662,8 @@ class SafeBooleanCastAction
     /**
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * Converte un valore in boolean con validazione di valori specifici.
      *
      * @param  mixed  $value  Il valore da convertire

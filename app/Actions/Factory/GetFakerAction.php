@@ -23,6 +23,7 @@ class GetFakerAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,6 +66,8 @@ class GetFakerAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function execute(string $name, ?string $type = null, ?string $_table = null): string
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)

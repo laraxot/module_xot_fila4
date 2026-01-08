@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,10 +104,16 @@ use Spatie\Health\Checks\Check;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Widgets\WidgetConfiguration;
+=======
+use Filament\Actions\Action;
+use Filament\Notifications\Notification;
+use Filament\Widgets\WidgetConfiguration;
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Facades\Artisan;
 use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +129,9 @@ use Spatie\Health\Checks\Check;
 >>>>>>> b7afadf9 (.)
 use Spatie\Health\Checks\Checks;
 >>>>>>> cc7fb225 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 50c0e1043 (.)
 use Spatie\Health\Checks\Checks\CacheCheck;
 use Spatie\Health\Checks\Checks\DatabaseCheck;
 use Spatie\Health\Checks\Checks\DatabaseConnectionCountCheck;
@@ -190,6 +200,7 @@ class HealthPage extends XotBasePage
          *
          * @phpstan-ignore-next-line argument.type
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -288,6 +299,8 @@ class HealthPage extends XotBasePage
         /** @var array<int, \Spatie\Health\Checks\Check> $checks */
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');

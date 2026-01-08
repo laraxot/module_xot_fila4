@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Pages;
 use Filament\Pages\Dashboard as FilamentDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8b18e4bff (.)
@@ -353,6 +354,19 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> b7afadf9 (.)
     public function getFiltersFormSchema(): array
 >>>>>>> 285375c74 (.)
+=======
+
+abstract class XotBaseDashboard extends FilamentDashboard
+{
+    public function getWidgets(): array
+    {
+        return [
+            // Override if needed
+        ];
+    }
+
+    public function getColumns(): int|array
+>>>>>>> 50c0e1043 (.)
     {
         return 2;
     }

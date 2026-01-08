@@ -132,6 +132,7 @@ class AutoLabelAction
         return class_basename($component);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -211,4 +212,6 @@ class AutoLabelAction
     }
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 }

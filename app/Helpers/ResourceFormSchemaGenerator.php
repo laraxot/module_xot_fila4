@@ -112,6 +112,7 @@ class ResourceFormSchemaGenerator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod.'}$1', $fileContents);
 =======
 <<<<<<< HEAD
@@ -328,12 +329,16 @@ class ResourceFormSchemaGenerator
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod.'}$1', $fileContents);
+>>>>>>> 50c0e1043 (.)
 
             // Write back to the file
             file_put_contents($filename, $modifiedContents);
 
             return true;
         } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             error_log("Error generating form schema for {$resourceClass}: ".$e->getMessage());
 
@@ -495,6 +500,10 @@ class ResourceFormSchemaGenerator
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            error_log("Error generating form schema for {$resourceClass}: ".$e->getMessage());
+
+>>>>>>> 50c0e1043 (.)
             return false;
         }
     }
@@ -538,6 +547,7 @@ class ResourceFormSchemaGenerator
 
         foreach ($resourceFiles as $file) {
             try {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 Assert::string($file, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
@@ -693,6 +703,9 @@ class ResourceFormSchemaGenerator
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                Assert::string($file, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+>>>>>>> 50c0e1043 (.)
                 $content = file_get_contents($file);
                 $namespaceMatch = [];
                 $classMatch = [];
@@ -719,6 +732,7 @@ class ResourceFormSchemaGenerator
                 ) {
 <<<<<<< HEAD
                     $fullClassName = $namespaceMatch[1].'\\'.$classMatch[1];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -878,6 +892,8 @@ class ResourceFormSchemaGenerator
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
                     if (class_exists($fullClassName)) {
                         /** @var class-string $fullClassName */
@@ -887,6 +903,7 @@ class ResourceFormSchemaGenerator
                     }
                 }
             } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,6 +1081,9 @@ class ResourceFormSchemaGenerator
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                $results['skipped'][] = is_string($file) ? $file : (((string) $file).': '.$e->getMessage());
+>>>>>>> 50c0e1043 (.)
             }
         }
 

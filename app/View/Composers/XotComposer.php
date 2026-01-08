@@ -13,6 +13,7 @@ use Illuminate\View\View;
 use Jenssegers\Agent\Agent;
 use Modules\Xot\Actions\File\AssetAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +53,8 @@ use Illuminate\View\View;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Actions\File\AssetPathAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
@@ -125,6 +128,7 @@ class XotComposer
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +174,8 @@ class XotComposer
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         if (! \is_object($module)) {
             throw new Exception('Create a View\Composers\ThemeComposer.php inside a module with ['.
                 $name.
@@ -178,6 +184,7 @@ class XotComposer
 
         Assert::isInstanceOf($module, LaravelModule::class, '['.__LINE__.']['.class_basename($this).']');
         $class = '\Modules\\'.$module->getName().'\View\Composers\ThemeComposer';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -481,6 +488,8 @@ class XotComposer
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
         $app = app($class);
         $callback = [$app, $name];
@@ -507,6 +516,7 @@ class XotComposer
 >>>>>>> 8b18e4bff (.)
         if (class_exists('\Jenssegers\Agent\Agent')) {
             $agent = new Agent;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,6 +637,8 @@ class XotComposer
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             $view->with('isMobile', $agent->isMobile());
             $view->with('isTablet', $agent->isTablet());
             $view->with('isDesktop', $agent->isDesktop());
@@ -674,6 +686,7 @@ class XotComposer
     public function metatag(string $str): string|bool|null
     {
         $metatag = MetatagData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
         $fun = 'get'.Str::studly($str);
 =======
@@ -834,6 +847,9 @@ class XotComposer
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        $fun = 'get'.Str::studly($str);
+>>>>>>> 50c0e1043 (.)
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

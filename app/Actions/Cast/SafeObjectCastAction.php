@@ -10,6 +10,9 @@ use Throwable;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
 
 /**
  * Action per gestire in modo sicuro l'accesso alle proprietà degli oggetti generici.
@@ -49,6 +52,7 @@ use Webmozart\Assert\Assert;
  * - Robustezza: Gestisce tutti i casi edge e mantiene type safety
  * - Sicurezza: Previene errori di accesso a proprietà inesistenti
  * - Assert: Utilizza webmozart/assert per validazioni robuste
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -134,6 +138,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
  */
 class SafeObjectCastAction
 {
@@ -269,6 +275,7 @@ class SafeObjectCastAction
      * @return string Il valore della proprietà convertito in string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getStringProperty(object $object, string $property, ?string $default = ''): string
 =======
 <<<<<<< HEAD
@@ -293,9 +300,10 @@ class SafeObjectCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getStringProperty(object $object, string $property, ?string $default = ''): string
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -325,6 +333,7 @@ class SafeObjectCastAction
      * @return int Il valore della proprietà convertito in int
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getIntProperty(object $object, string $property, ?int $default = 0): int
 =======
 <<<<<<< HEAD
@@ -349,9 +358,10 @@ class SafeObjectCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getIntProperty(object $object, string $property, ?int $default = 0): int
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -381,6 +391,7 @@ class SafeObjectCastAction
      * @return float Il valore della proprietà convertito in float
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getFloatProperty(object $object, string $property, ?float $default = 0.0): float
 =======
 <<<<<<< HEAD
@@ -405,9 +416,10 @@ class SafeObjectCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getFloatProperty(object $object, string $property, ?float $default = 0.0): float
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -437,6 +449,7 @@ class SafeObjectCastAction
      * @return bool Il valore della proprietà convertito in boolean
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getBooleanProperty(object $object, string $property, ?bool $default = false): bool
 =======
 <<<<<<< HEAD
@@ -461,9 +474,10 @@ class SafeObjectCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getBooleanProperty(object $object, string $property, ?bool $default = false): bool
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -493,6 +507,7 @@ class SafeObjectCastAction
      * @return array Il valore della proprietà convertito in array
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getArrayProperty(object $object, string $property, ?array $default = []): array
 =======
 <<<<<<< HEAD
@@ -517,9 +532,10 @@ class SafeObjectCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getArrayProperty(object $object, string $property, ?array $default = []): array
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -661,6 +677,7 @@ class SafeObjectCastAction
         string $type,
         ?callable $validator = null,
         mixed $default = null,
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -687,6 +704,8 @@ class SafeObjectCastAction
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 300ef70 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     ): mixed {
         Assert::stringNotEmpty($property);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);

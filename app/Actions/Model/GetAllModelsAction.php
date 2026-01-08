@@ -10,6 +10,7 @@ namespace Modules\Xot\Actions\Model;
 
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 <<<<<<< HEAD
@@ -74,6 +75,9 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+use Nwidart\Modules\Laravel\Module as LaravelModule;
+>>>>>>> 50c0e1043 (.)
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +110,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -173,6 +178,8 @@ class GetAllModelsAction
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      *
      * @return array<int, class-string>
      */
@@ -194,6 +201,7 @@ class GetAllModelsAction
 
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleNameValue);
             /** @var array<int, class-string> $tmp */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -315,6 +323,9 @@ class GetAllModelsAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            $res = array_merge($res, $tmp);
+>>>>>>> 50c0e1043 (.)
         }
 
         return $res;

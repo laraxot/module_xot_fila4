@@ -18,6 +18,7 @@ class ExportXlsByLazyCollection
      * Esporta una lazy collection in Excel.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
@@ -77,6 +78,11 @@ class ExportXlsByLazyCollection
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     * @param  LazyCollection  $collection  La lazy collection da esportare
+     * @param  string  $filename  Nome del file Excel
+     * @param  array<int, string>  $fields  Campi da includere nell'export
+>>>>>>> 50c0e1043 (.)
      */
     public function execute(
         LazyCollection $collection,

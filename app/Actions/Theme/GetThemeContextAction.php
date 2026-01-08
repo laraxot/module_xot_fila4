@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Theme;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Carbon\Carbon;
 use RuntimeException;
 use Spatie\QueueableAction\QueueableAction;
@@ -18,6 +19,8 @@ use Spatie\QueueableAction\QueueableAction;
  * thematic perspective, allowing Themes and Modules to adapt their
 =======
 use RuntimeException;
+=======
+>>>>>>> 50c0e1043 (.)
 use Carbon\Carbon;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert; // Added
@@ -27,7 +30,10 @@ use Webmozart\Assert\Assert; // Added
  * 
  * This is a central source of truth for "What time of year is it?" from a
  * thematic perspective, allowing Themes and Modules to adapt their 
+<<<<<<< HEAD
 >>>>>>> 8ab8fd81a (.)
+=======
+>>>>>>> 50c0e1043 (.)
  * behavior/visuals accordingly.
  */
 class GetThemeContextAction
@@ -37,10 +43,14 @@ class GetThemeContextAction
     /**
      * Determine the current active context.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
      * 
 >>>>>>> 8ab8fd81a (.)
+=======
+     * 
+>>>>>>> 50c0e1043 (.)
      * @return string One of: 'christmas', 'easter', 'summer', 'halloween', 'default'
      */
     public function execute(): string
@@ -57,12 +67,17 @@ class GetThemeContextAction
         // Easter period: Good Friday to Easter Monday
         $easter = $this->getEasterDate($today->year);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $easterStart = $easter->copy()->subDays(2);
         $easterEnd = $easter->copy()->addDays(1);
 =======
         $easterStart = $easter->copy()->subDays(2); 
         $easterEnd = $easter->copy()->addDays(1);   
 >>>>>>> 8ab8fd81a (.)
+=======
+        $easterStart = $easter->copy()->subDays(2); 
+        $easterEnd = $easter->copy()->addDays(1);   
+>>>>>>> 50c0e1043 (.)
 
         if ($today->between($easterStart, $easterEnd)) {
             return 'easter';
@@ -103,7 +118,11 @@ class GetThemeContextAction
 
         $carbon = Carbon::create($year, $month, $day);
         if (! $carbon instanceof Carbon) {
+<<<<<<< HEAD
             throw new RuntimeException('Failed to create Easter date');
+=======
+            throw new \RuntimeException('Failed to create Easter date');
+>>>>>>> 50c0e1043 (.)
         }
 
         return $carbon;

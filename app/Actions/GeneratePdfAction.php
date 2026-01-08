@@ -26,6 +26,7 @@ final class GeneratePdfAction
 
             return match ($outputMode) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
 =======
 <<<<<<< HEAD
@@ -185,6 +186,9 @@ final class GeneratePdfAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+>>>>>>> 50c0e1043 (.)
                 'file' => $this->saveToFile($html2pdf, $filename),
                 default => $html2pdf->Output(),
             };

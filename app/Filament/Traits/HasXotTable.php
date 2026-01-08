@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +62,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> 53d6a6ba (.)
+=======
+use Exception;
+>>>>>>> 50c0e1043 (.)
 use Filament\Actions;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
@@ -106,6 +110,7 @@ use Filament\Actions\DetachAction;
 use Filament\Actions\EditAction;
 use Filament\Actions\ReplicateAction;
 use Filament\Actions\ViewAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -256,12 +261,15 @@ use Filament\Actions;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Filament\Notifications\Notification;
 use Filament\Tables;
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Enums\FiltersLayout;
 use Filament\Tables\Enums\RecordActionsPosition;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +308,8 @@ use Filament\Tables\Columns\TextColumn;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Tables\Filters\TernaryFilter;
 =======
@@ -382,6 +392,7 @@ trait HasXotTable
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,6 +455,9 @@ trait HasXotTable
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 50c0e1043 (.)
 
         if ($this->shouldShowAssociateAction()) {
             $actions[] = AssociateAction::make()
@@ -463,6 +477,7 @@ trait HasXotTable
         return $actions;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -544,6 +559,8 @@ trait HasXotTable
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     /**
      * Get grid table columns.
      *
@@ -598,6 +615,7 @@ trait HasXotTable
      * Get table heading.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,12 +655,15 @@ trait HasXotTable
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getTableHeading(): ?string
 >>>>>>> 285375c74 (.)
     {
         $key = static::getKeyTrans('table.heading');
         /** @var string|array<int|string,mixed>|null $trans */
         // @phpstan-ignore-next-line
+<<<<<<< HEAD
 <<<<<<< HEAD
         $trans = trans($key);
 
@@ -701,6 +722,8 @@ trait HasXotTable
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $trans = trans($key);
 
         return is_string($trans) && $trans !== $key ? $trans : null;
@@ -737,6 +760,7 @@ trait HasXotTable
     public function table(Table $table): Table
     {
         $modelClass = $this->getModelClass();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -777,6 +801,8 @@ trait HasXotTable
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 50c0e1043 (.)
         if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
 >>>>>>> 285375c74 (.)
             $this->notifyTableMissing();
@@ -813,15 +839,6 @@ trait HasXotTable
             ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
 >>>>>>> 285375c74 (.)
             ->contentGrid($this->layoutView->getTableContentGrid())
-<<<<<<< HEAD
-            ->filters(array_values($this->getTableFilters()))
-            ->filtersLayout(FiltersLayout::AboveContent)
-            ->filtersFormColumns($this->getTableFiltersFormColumns())
-            ->persistFiltersInSession()
-            ->headerActions(array_values($this->getTableHeaderActions()))
-            ->recordActions($this->getTableActions())
-            ->toolbarActions(array_values($this->getTableBulkActions()))
-=======
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->filtersFormColumns($this->getTableFiltersFormColumns())
@@ -829,7 +846,6 @@ trait HasXotTable
             ->headerActions($this->getTableHeaderActions())
             ->recordActions($this->getTableActions())
             ->toolbarActions($this->getTableBulkActions())
->>>>>>> 53d6a6ba (.)
             ->recordActionsPosition(RecordActionsPosition::BeforeColumns)
             ->emptyStateActions($this->getTableEmptyStateActions())
             ->striped()
@@ -851,6 +867,7 @@ trait HasXotTable
          * direction: $this->getDefaultTableSortDirection(),
          * );
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1017,6 +1034,8 @@ trait HasXotTable
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 
     /**
@@ -1226,6 +1245,7 @@ trait HasXotTable
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     /**
@@ -1462,6 +1482,8 @@ trait HasXotTable
     }
 
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     protected function getTablePaginated(): bool
     {
         return true;
@@ -1470,6 +1492,7 @@ trait HasXotTable
     /**
      * Get default table sort column.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1496,6 +1519,8 @@ trait HasXotTable
 =======
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     protected function getDefaultTableSortColumn(): ?string
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
@@ -1539,6 +1564,7 @@ trait HasXotTable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (Exception $e) {
 =======
         } catch (\Exception $e) {
@@ -1574,6 +1600,9 @@ trait HasXotTable
         } catch (Exception $e) {
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 50c0e1043 (.)
             return null;
         }
     }
@@ -1616,6 +1645,7 @@ trait HasXotTable
 >>>>>>> 8b18e4bff (.)
     {
         return 'desc';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2054,6 +2084,8 @@ trait HasXotTable
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 
     /**
@@ -2082,6 +2114,7 @@ trait HasXotTable
     protected function configureEmptyTable(Table $table): Table
     {
         return $table
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2122,6 +2155,9 @@ trait HasXotTable
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
             ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
+=======
+            ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
+>>>>>>> 50c0e1043 (.)
             ->columns([
                 TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
 <<<<<<< HEAD

@@ -1,5 +1,6 @@
 parameters:
 <<<<<<< HEAD
+<<<<<<< HEAD
     level: 10
 =======
 <<<<<<< HEAD
@@ -16,6 +17,9 @@ parameters:
     level: 7
 >>>>>>> cc7fb225 (.)
 >>>>>>> dc2130a7c (.)
+=======
+    level: 10
+>>>>>>> 50c0e1043 (.)
     paths:
         - app
         - config

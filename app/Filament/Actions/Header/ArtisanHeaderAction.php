@@ -22,6 +22,7 @@ class ArtisanHeaderAction extends Action
         parent::setUp();
         $this->translateLabel()
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -188,11 +189,15 @@ class ArtisanHeaderAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+
+>>>>>>> 50c0e1043 (.)
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
             // ->icon('heroicon-o-arrow-down-tray')
+<<<<<<< HEAD
 <<<<<<< HEAD
             ->action(function (): void {
 =======
@@ -217,6 +222,9 @@ class ArtisanHeaderAction extends Action
             ->action(function (): void {
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            ->action(function (): void {
+>>>>>>> 50c0e1043 (.)
                 Assert::string($cmd = $this->getName());
                 Artisan::call($cmd);
                 $output = Artisan::output();
@@ -229,6 +237,7 @@ class ArtisanHeaderAction extends Action
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
 <<<<<<< HEAD
@@ -388,6 +397,9 @@ class ArtisanHeaderAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 50c0e1043 (.)
     {
         return 'artisan_action';
     }

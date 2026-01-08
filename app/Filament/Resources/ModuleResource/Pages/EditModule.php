@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +62,8 @@ use Illuminate\Database\Eloquent\Model;
 use Filament\Actions;
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Arr\SaveArrayAction;
@@ -108,6 +111,7 @@ class EditModule extends XotBaseEditRecord
     {
         $module = $this->record; // Ottiene il record corrente
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +150,8 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         if (! ($module instanceof Model) || ! isset($module->path)) {
             return;
         }
@@ -153,6 +159,7 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path.'/config/config.php';
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,6 +391,8 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());

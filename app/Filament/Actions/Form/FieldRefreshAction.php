@@ -23,6 +23,7 @@ class FieldRefreshAction extends Action
             ->tooltip('Ricalcola valore')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function ($record, Set $set): void {
 <<<<<<< HEAD
 =======
@@ -47,17 +48,23 @@ class FieldRefreshAction extends Action
             ->action(function ($state, $set, $record): void {
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            ->action(function ($record, Set $set): void {
+>>>>>>> 50c0e1043 (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
                 if (! is_object($record) && ! is_string($record)) {
                     Notification::make()
                         ->title('Errore')
@@ -71,6 +78,7 @@ class FieldRefreshAction extends Action
                 Notification::make()
                     ->title('Valore ricalcolato')
                     ->body('Il valore del campo è stato ricalcolato con successo')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -125,6 +133,8 @@ class FieldRefreshAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                     ->success()
                     ->send();
             });

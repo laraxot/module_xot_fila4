@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Pdf;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +109,8 @@ use Modules\Xot\Datas\PdfData;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Webmozart\Assert\Assert;
@@ -148,6 +151,7 @@ class ContentPdfAction
      * Genera contenuto PDF dall'HTML fornito.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +174,8 @@ class ContentPdfAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della vista Blade da renderizzare
      * @param  array<string, mixed>|null  $data  Dati da passare alla vista
@@ -203,6 +209,7 @@ class ContentPdfAction
         ?string $html = null,
         ?string $view = null,
         ?array $data = null,
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,6 +228,8 @@ class ContentPdfAction
         null|string $view = null,
         null|array $data = null,
 >>>>>>> a6ef6dc7 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         string $_filename = 'my_doc.pdf',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +342,7 @@ class ContentPdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $data
      */
@@ -341,11 +351,14 @@ class ContentPdfAction
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 50c0e1043 (.)
     /**
      * @param  array<string, mixed>  $data
      */
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
         /** @var array<string, mixed> $data */
 =======
@@ -383,6 +396,8 @@ class ContentPdfAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         return $this->execute(
             html: null,
             view: $view,

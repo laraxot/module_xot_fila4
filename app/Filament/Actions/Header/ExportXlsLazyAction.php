@@ -46,6 +46,9 @@ class ExportXlsLazyAction extends Action
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
         $this->label((string) __('xot::actions.export_xls.label'))
             ->tooltip((string) __('xot::actions.export_xls.tooltip'))
             ->icon((string) __('xot::actions.export_xls.icon'))
@@ -54,6 +57,7 @@ class ExportXlsLazyAction extends Action
             ->modalSubmitActionLabel((string) __('xot::actions.export_xls.modal.confirm'))
             ->modalCancelActionLabel((string) __('xot::actions.export_xls.modal.cancel'))
             ->successNotificationTitle((string) __('xot::actions.export_xls.success'))
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8b18e4bff (.)
@@ -84,6 +88,8 @@ class ExportXlsLazyAction extends Action
             ->modalCancelActionLabel(__('xot::actions.export_xls.modal.cancel'))
             ->successNotificationTitle(__('xot::actions.export_xls.success'))
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
             ->requiresConfirmation()
             ->action(static function (ListRecords $livewire) {
 <<<<<<< HEAD
@@ -153,6 +159,7 @@ class ExportXlsLazyAction extends Action
                             $rawFields
                         );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -171,6 +178,8 @@ class ExportXlsLazyAction extends Action
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 0516d3de0 (.)
+=======
+>>>>>>> 50c0e1043 (.)
                     }
                     Assert::isArray($fields);
                 }
@@ -199,6 +208,7 @@ class ExportXlsLazyAction extends Action
                     $stringFields = array_values($fields);
 
                     // PHPStan knows $lazy is Builder|Relation here, no need for Assert
+<<<<<<< HEAD
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +237,8 @@ class ExportXlsLazyAction extends Action
 >>>>>>> 285375c74 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 50c0e1043 (.)
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +292,7 @@ class ExportXlsLazyAction extends Action
             });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
@@ -492,6 +505,9 @@ class ExportXlsLazyAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 50c0e1043 (.)
     {
         return 'export_xls';
     }

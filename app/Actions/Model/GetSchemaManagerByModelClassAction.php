@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 use Illuminate\Database\Eloquent\Model as EloquentModel;
@@ -190,6 +191,8 @@ use Illuminate\Support\Facades\DB;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -201,6 +204,7 @@ class GetSchemaManagerByModelClassAction
      * Ottiene lo schema manager Doctrine per una classe di modello Eloquent.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  La classe del modello
 =======
 <<<<<<< HEAD
@@ -360,6 +364,9 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     * @param  string  $modelClass  La classe del modello
+>>>>>>> 50c0e1043 (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -371,6 +378,7 @@ class GetSchemaManagerByModelClassAction
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -409,18 +417,14 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
             $schemaManager = $connection->getDoctrineSchemaManager();
 
-=======
-            $schemaManager = $connection->getDoctrineSchemaManager();
->>>>>>> b7afadf9 (.)
-=======
-            $schemaManager = $connection->getDoctrineSchemaManager();
-
->>>>>>> 249a0067 (.)
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
 
             return $schemaManager;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -560,6 +564,8 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

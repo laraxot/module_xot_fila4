@@ -28,6 +28,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +190,8 @@ use function count;
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -235,6 +238,7 @@ class RouteService
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +256,9 @@ class RouteService
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        return (is_countable($segments) ? \count($segments) : 0) > 0 &&
+>>>>>>> 50c0e1043 (.)
             $segments[0] === 'livewire' &&
             session('in_admin', false) === true;
 <<<<<<< HEAD
@@ -349,6 +356,7 @@ class RouteService
         $routename = ''; // Request::route()->getName();
         $old_act_route = last(explode('.', $routename));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,11 +402,14 @@ class RouteService
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         if (! \is_string($old_act_route)) {
             throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
         }
 
         $routename_act = Str::before($routename, $old_act_route).''.$act;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -602,6 +613,8 @@ class RouteService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -659,6 +672,7 @@ class RouteService
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return '#'.$routename_act;
 =======
 <<<<<<< HEAD
@@ -818,6 +832,9 @@ class RouteService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        return '#'.$routename_act;
+>>>>>>> 50c0e1043 (.)
     }
 
     // se n=0 => 'container0'
@@ -838,6 +855,7 @@ class RouteService
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         for ($i = 0; $i <= $n; $i++) {
             $tmp[] = 'container'.$i;
 =======
@@ -982,6 +1000,10 @@ class RouteService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        for ($i = 0; $i <= $n; $i++) {
+            $tmp[] = 'container'.$i;
+>>>>>>> 50c0e1043 (.)
         }
 
         $tmp[] = $act;
@@ -1399,6 +1421,7 @@ class RouteService
 
         return collect($tmp_arr)
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
 =======
 <<<<<<< HEAD
@@ -1502,6 +1525,9 @@ class RouteService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+>>>>>>> 50c0e1043 (.)
             ->map(static function ($item) use ($params) {
                 $item = Str::snake($item);
 

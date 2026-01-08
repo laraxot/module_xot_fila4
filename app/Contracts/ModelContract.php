@@ -87,6 +87,7 @@ interface ModelContract
      *
      * @return array<mixed>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -108,6 +109,8 @@ interface ModelContract
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      */
     public function toArray();
 

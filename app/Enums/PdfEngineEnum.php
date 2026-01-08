@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Enums;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,6 +29,9 @@ namespace Modules\Xot\Enums;
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
 // use Modules\Xot\Datas\PdfData;
+=======
+// use Modules\Xot\Datas\PdfData;
+>>>>>>> 50c0e1043 (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 =======

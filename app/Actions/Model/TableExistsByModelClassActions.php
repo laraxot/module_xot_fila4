@@ -13,6 +13,7 @@ class TableExistsByModelClassActions
     public function execute(string $modelClass): bool
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! class_exists($modelClass)) {
 =======
 <<<<<<< HEAD
@@ -172,6 +173,9 @@ class TableExistsByModelClassActions
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! class_exists($modelClass)) {
+>>>>>>> 50c0e1043 (.)
             return false;
         }
 

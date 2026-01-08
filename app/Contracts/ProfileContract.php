@@ -42,70 +42,13 @@ interface ProfileContract extends HasMedia
      *
      * @return $this
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function assignRole($roles = []);
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-<<<<<<< HEAD
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-<<<<<<< HEAD
-    public function assignRole($roles = []);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
-=======
-=======
->>>>>>> b7afadf9 (.)
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
->>>>>>> f1d4085 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 300ef70 (.)
-<<<<<<< HEAD
->>>>>>> 6dcebf8a (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 71586de2 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 249a0067 (.)
 
     /**
      * Determine if the model has (one of) the given role(s).
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,113 +82,27 @@ interface ProfileContract extends HasMedia
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
         ?string $guard = null,
     ): bool;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 249a0067 (.)
 
     /**
      * Determine if the model has any of the given role(s).
      *
      * Alias to hasRole() but without Guard controls
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function hasAnyRole($roles = []): bool;
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-<<<<<<< HEAD
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-<<<<<<< HEAD
-    public function hasAnyRole($roles = []): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
-=======
-=======
->>>>>>> b7afadf9 (.)
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
->>>>>>> f1d4085 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 300ef70 (.)
-<<<<<<< HEAD
->>>>>>> 6dcebf8a (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 71586de2 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 249a0067 (.)
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 =======
@@ -373,6 +230,9 @@ interface ProfileContract extends HasMedia
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Undocumented function.
@@ -380,27 +240,7 @@ interface ProfileContract extends HasMedia
     public function toggleSuperAdmin(): void;
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * ---return BelongsTo<UserContract, self>.
-=======
-     * Get the user that owns the profile.
->>>>>>> cc7fb225 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 53d6a6ba (.)
-=======
-     * Get the user that owns the profile.
->>>>>>> b7afadf9 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 71586de2 (.)
-=======
-     * ---return BelongsTo<UserContract, self>.
->>>>>>> 249a0067 (.)
      */
     public function user(): BelongsTo;
 

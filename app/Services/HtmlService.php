@@ -134,6 +134,7 @@ class HtmlService
             $html2pdf->setTestTdInOnePage(false);
             $html2pdf->WriteHTML($html);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,6 +160,8 @@ class HtmlService
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
             if ($out === 'content_PDF') {
                 return $html2pdf->Output($filename.'.pdf', 'S');
 =======

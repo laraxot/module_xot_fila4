@@ -17,6 +17,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,6 +114,8 @@ class StoreAction
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     /**
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $rules
@@ -120,6 +123,7 @@ class StoreAction
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -295,6 +299,8 @@ class StoreAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
@@ -356,6 +362,7 @@ class StoreAction
             $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -446,11 +453,14 @@ class StoreAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';
             $action = app($action_class);
             Assert::object($action);
             if (! method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in ['.$action_class.']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -627,6 +637,8 @@ class StoreAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             }
             $action->execute($model, $relation);
         }

@@ -6,6 +6,7 @@ namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module;
 =======
 <<<<<<< HEAD
@@ -47,6 +48,9 @@ use Spatie\Permission\Models\Role;
 >>>>>>> 8ab8fd81a (.)
 use Filament\Panel;
 use Illuminate\Support\Arr;
+=======
+use Filament\Panel;
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Str;
 use Modules\User\Models\User;
 use Webmozart\Assert\Assert;
@@ -59,12 +63,13 @@ use Illuminate\Database\Eloquent\Collection;
  */
 class MainDashboard extends XotBaseDashboard
 {
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
 
     // protected static string $routePath = 'main';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -104,6 +109,8 @@ class MainDashboard extends XotBaseDashboard
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     protected static ?string $title = 'Main Dashboard';
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
@@ -139,6 +146,7 @@ class MainDashboard extends XotBaseDashboard
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $user = Auth::user();
         Assert::notNull($user, '['.__LINE__.']['.class_basename($this).']');
         // Usa roles() come metodo invece della magic property per type safety
@@ -165,6 +173,8 @@ class MainDashboard extends XotBaseDashboard
             Assert::notNull($module_first);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
         Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +211,7 @@ class MainDashboard extends XotBaseDashboard
             $panel_name = $module_first->name;
             $module_name = Str::before($panel_name, '::admin');
             $url = '/'.$module_name.'/admin';
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -224,6 +235,8 @@ class MainDashboard extends XotBaseDashboard
             $module_name = Str::before($panel_name, '::admin');
             Assert::string($module_name);
             $url = '/'.$module_name.'/admin';
+=======
+>>>>>>> 50c0e1043 (.)
             redirect($url);
         }
 

@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Panel;
 
 use Filament\Panel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
@@ -119,6 +120,10 @@ use Modules\Xot\Datas\MetatagData;
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
+use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
@@ -162,6 +167,7 @@ class ApplyTenancyToPanelAction
 
 <<<<<<< HEAD
         // if (Gate::allows('superadmin', $user)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +279,8 @@ class ApplyTenancyToPanelAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')
@@ -283,6 +291,7 @@ class ApplyTenancyToPanelAction
 <<<<<<< HEAD
         // $panel->tenant($tenant_class, slugAttribute: 'slug');
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +361,8 @@ class ApplyTenancyToPanelAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
         return $panel;
     }

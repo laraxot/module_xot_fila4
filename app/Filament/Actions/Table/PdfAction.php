@@ -41,6 +41,7 @@ class PdfAction extends Action
             // ->icon('fas-file-excel')
             ->icon('heroicon-o-document-arrow-down')
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
 =======
 <<<<<<< HEAD
@@ -207,5 +208,8 @@ class PdfAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+>>>>>>> 50c0e1043 (.)
     }
 }

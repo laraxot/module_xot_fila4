@@ -2,7 +2,10 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 50c0e1043 (.)
 
 namespace Modules\Xot\Actions\Array;
 
@@ -22,4 +25,7 @@ class SaveArrayAction
         };
     }
 }
+<<<<<<< HEAD
 >>>>>>> c35185e63 (.)
+=======
+>>>>>>> 50c0e1043 (.)

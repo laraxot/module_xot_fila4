@@ -6,6 +6,7 @@ namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38,11 +39,17 @@ use Filament\Resources\RelationManagers\RelationManager;
 <<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
 use Filament\Support\Components\Component;
+=======
+use Exception;
+use Filament\Resources\RelationManagers\RelationManager;
+use Filament\Support\Components\Component;
+>>>>>>> 50c0e1043 (.)
 use Filament\Tables;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -121,6 +128,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
 /**
  * @property class-string<XotBaseResource> $resource
@@ -223,6 +232,7 @@ abstract class XotBaseRelationManager extends RelationManager
         $class = static::class;
         $resourceName = Str::of(class_basename($this))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -247,6 +257,8 @@ abstract class XotBaseRelationManager extends RelationManager
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             ->beforeLast('RelationManager')
             ->singular()
             ->append('Resource')

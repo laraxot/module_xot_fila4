@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -59,6 +60,8 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\CollectionExport;
@@ -106,6 +109,7 @@ class ExportXlsByCollection
     public function execute(
         Collection|EloquentCollection $collection,
         string $filename = 'test.xlsx',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -196,17 +200,22 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         ?string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(fn (mixed $field): string => (string) $field, array_values($fields));
+<<<<<<< HEAD
 
         // Converti EloquentCollection in Collection<int, Model>
         /** @var Collection<int, Model> $normalizedCollection */
         $normalizedCollection = $collection instanceof EloquentCollection
             ? Collection::make($collection->all())
             : $collection;
+=======
+>>>>>>> 50c0e1043 (.)
 
         $export = new CollectionExport(
 <<<<<<< HEAD

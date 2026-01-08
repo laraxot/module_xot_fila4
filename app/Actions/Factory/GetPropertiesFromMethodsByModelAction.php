@@ -13,6 +13,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Factory;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,10 +121,13 @@ use SplFileObject;
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -219,6 +223,8 @@ use function Safe\preg_replace;
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
@@ -229,6 +235,7 @@ use Webmozart\Assert\Assert;
 
 use function Safe\file;
 use function Safe\preg_replace;
+<<<<<<< HEAD
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 0e51323 (.)
@@ -244,6 +251,8 @@ use Webmozart\Assert\Assert;
 use function Safe\preg_replace;
 >>>>>>> b7ea1cd1 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -257,6 +266,7 @@ class GetPropertiesFromMethodsByModelAction
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  Model  $model  Il modello da analizzare
 =======
@@ -415,6 +425,9 @@ class GetPropertiesFromMethodsByModelAction
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+>>>>>>> 50c0e1043 (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -466,6 +479,7 @@ class GetPropertiesFromMethodsByModelAction
 
                 // Normalizziamo e analizziamo il codice
                 Assert::stringNotEmpty($code, 'Il codice del metodo non può essere vuoto');
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
@@ -578,6 +592,10 @@ class GetPropertiesFromMethodsByModelAction
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+>>>>>>> 50c0e1043 (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -606,6 +624,7 @@ class GetPropertiesFromMethodsByModelAction
     /**
      * Estrae le relazioni belongsTo dal codice.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -656,10 +675,13 @@ class GetPropertiesFromMethodsByModelAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * @param  string  $codeStr  Il codice da analizzare
      * @param  Model  $model  Il modello
      * @param  string  $method  Il nome del metodo
      * @param  array<string, string>  &$data  L'array in cui salvare i dati estratti
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -804,6 +826,8 @@ class GetPropertiesFromMethodsByModelAction
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -820,6 +844,7 @@ class GetPropertiesFromMethodsByModelAction
 
             // Verifichiamo che sia effettivamente una relazione
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! ($relationObj instanceof Relation)) {
 =======
 <<<<<<< HEAD
@@ -920,11 +945,15 @@ class GetPropertiesFromMethodsByModelAction
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            if (! ($relationObj instanceof Relation)) {
+>>>>>>> 50c0e1043 (.)
                 return;
             }
 
             // Verifichiamo che il metodo getForeignKeyName esista
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! method_exists($relationObj, 'getForeignKeyName')) {
 =======
 <<<<<<< HEAD
@@ -1025,6 +1054,9 @@ class GetPropertiesFromMethodsByModelAction
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+>>>>>>> 50c0e1043 (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -1040,6 +1072,7 @@ class GetPropertiesFromMethodsByModelAction
             // Assert::isCallable rimosso - metodo verificato a compile time
 
             $type = 'factory('.$relatedClass.'::class)';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1272,6 +1305,8 @@ class GetPropertiesFromMethodsByModelAction
 >>>>>>> b7afadf9 (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione
             return;

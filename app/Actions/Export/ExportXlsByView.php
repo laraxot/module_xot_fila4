@@ -8,6 +8,7 @@ namespace Modules\Xot\Actions\Export;
 
 use Illuminate\Contracts\View\View;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +110,8 @@ use Illuminate\Support\Collection;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
@@ -155,6 +158,7 @@ class ExportXlsByView
         array $fields,
         string $filename = 'test.xlsx',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +198,9 @@ class ExportXlsByView
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
         ?string $transKey = null,
+=======
+        ?string $transKey = null,
+>>>>>>> 50c0e1043 (.)
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));

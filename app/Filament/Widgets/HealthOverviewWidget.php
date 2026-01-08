@@ -35,6 +35,7 @@ class HealthOverviewWidget extends BaseWidget
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->description($result->notificationMessage.' '.$result->status)
 =======
 <<<<<<< HEAD
@@ -194,6 +195,9 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> 50c0e1043 (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }

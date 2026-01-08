@@ -24,6 +24,7 @@ class BelongsToAction
 
         // $rows = $relation->rows;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +200,8 @@ class BelongsToAction
         // dd([$relation->name]);
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         /*
          * if (null == $row->{$relation->name}) {
          * $row->{$relation->name}()->create($relation->data);

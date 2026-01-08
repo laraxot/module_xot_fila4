@@ -4,9 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Database\Factories\CacheFactory;
 
 /**
@@ -17,15 +21,14 @@ use Modules\Xot\Database\Factories\CacheFactory;
  * @property int $expiration
  *
  * @method static CacheFactory factory($count = null, $state = [])
-<<<<<<< HEAD
-=======
- * @method static Builder|Cache newModelQuery()
- * @method static Builder|Cache newQuery()
- * @method static Builder|Cache query()
- * @method static Builder|Cache whereExpiration($value)
- * @method static Builder|Cache whereKey($value)
- * @method static Builder|Cache whereValue($value)
+ * @method static Builder<static>|Cache newModelQuery()
+ * @method static Builder<static>|Cache newQuery()
+ * @method static Builder<static>|Cache query()
+ * @method static Builder<static>|Cache whereExpiration($value)
+ * @method static Builder<static>|Cache whereKey($value)
+ * @method static Builder<static>|Cache whereValue($value)
  *
+<<<<<<< HEAD
  * @property int $expiration
  *
  * @method static CacheFactory factory($count = null, $state = [])
@@ -47,9 +50,13 @@ use Modules\Xot\Database\Factories\CacheFactory;
  * @property string $key
  * @property string $value
  * @property int $expiration
+=======
+>>>>>>> 50c0e1043 (.)
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
 >>>>>>> cc7fb225 (.)
  * @method static Builder<static>|Cache newModelQuery()
@@ -124,6 +131,8 @@ use Modules\Xot\Database\Factories\CacheFactory;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

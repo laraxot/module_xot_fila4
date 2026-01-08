@@ -36,6 +36,7 @@ interface ModelProfileContract extends ModelContract
      */
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|Collection $roles = [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -56,6 +57,8 @@ interface ModelProfileContract extends ModelContract
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     ]);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,6 +95,7 @@ interface ModelProfileContract extends ModelContract
         string|int|array|\Spatie\Permission\Contracts\Role|Collection $roles,
         ?string $guard = null,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -120,6 +124,8 @@ interface ModelProfileContract extends ModelContract
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     ): bool;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +153,7 @@ interface ModelProfileContract extends ModelContract
      */
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|Collection $roles = [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
      * @param  string|int|array<int, string|int|\Spatie\Permission\Contracts\Role>|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection<int, \Spatie\Permission\Contracts\Role>  $roles
@@ -166,6 +173,8 @@ interface ModelProfileContract extends ModelContract
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     ]): bool;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +207,7 @@ interface ModelProfileContract extends ModelContract
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 =======
@@ -358,6 +368,9 @@ interface ModelProfileContract extends ModelContract
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Create a new Eloquent query builder for the model.

@@ -39,6 +39,7 @@ class MorphManyAction
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +74,8 @@ class MorphManyAction
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         if ($relationDTO->data === []) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
@@ -81,6 +84,7 @@ class MorphManyAction
                 return;
             }
             $relation->saveMany($relationDTO->data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -322,6 +326,13 @@ class MorphManyAction
             return;
         }
 
+=======
+
+            return;
+        }
+
+        $related = $relationDTO->related;
+>>>>>>> 50c0e1043 (.)
         $keyName = $related->getKeyName();
         Assert::string($keyName, 'Key name must be a string');
         $models = [];
@@ -348,6 +359,7 @@ class MorphManyAction
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
                 /** @var array<string, mixed> $safeData */
                 $safeData = $data;
@@ -548,6 +560,11 @@ class MorphManyAction
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                /** @var array<string, mixed> $safeData */
+                $safeData = $data;
+                $res = app(UpdateAction::class)->execute($related, $safeData, []);
+>>>>>>> 50c0e1043 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -555,6 +572,7 @@ class MorphManyAction
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -662,6 +680,13 @@ class MorphManyAction
 >>>>>>> b7afadf9 (.)
         $model->{$relationDTO->name}()->saveMany($models);
 >>>>>>> 285375c74 (.)
+=======
+        $relation = $model->{$relationDTO->name}();
+        if (! is_object($relation) || ! method_exists($relation, 'saveMany')) {
+            return;
+        }
+        $relation->saveMany($models);
+>>>>>>> 50c0e1043 (.)
 
 >>>>>>> d2b0a27 (.)
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);

@@ -15,6 +15,7 @@ class FieldFilterDTO extends Data
         public string $param_name,
         public string $field_name,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +57,10 @@ class FieldFilterDTO extends Data
 >>>>>>> 8b18e4bff (.)
         public ?string $where_method,
         public ?string $rules,
+=======
+        public ?string $where_method,
+        public ?string $rules,
+>>>>>>> 50c0e1043 (.)
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD

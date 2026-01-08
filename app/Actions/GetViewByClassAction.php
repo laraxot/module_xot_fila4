@@ -31,6 +31,7 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(string $class, array $params = [], ?string $viewName = null): View
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -47,6 +48,8 @@ class GetViewByClassAction
 =======
 >>>>>>> 285375c74 (.)
     public function execute(string $class, array $params = [], ?string $viewName = null): View
+=======
+>>>>>>> 50c0e1043 (.)
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
@@ -131,6 +134,7 @@ class GetViewByClassAction
         $className = end($parts);
 
         return Str::kebab($className);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -300,5 +304,7 @@ class GetViewByClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 }

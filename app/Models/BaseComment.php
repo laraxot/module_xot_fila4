@@ -12,6 +12,7 @@ namespace Modules\Xot\Models;
  * Provides common functionality for comment systems across all modules.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseComment extends BaseModel
 =======
 <<<<<<< HEAD
@@ -35,6 +36,9 @@ abstract class BaseComment extends Model
 abstract class BaseComment extends XotBaseModel
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+abstract class BaseComment extends BaseModel
+>>>>>>> 50c0e1043 (.)
 {
     // Common properties and methods for comments can be added here.
 }

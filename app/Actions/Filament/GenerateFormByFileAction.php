@@ -8,7 +8,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Log;
+=======
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
@@ -92,7 +95,11 @@ class GenerateFormByFileAction
         // Otteniamo i metodi della classe risorsa
         $resourceMethods = get_class_methods($resourceInstance);
 
+<<<<<<< HEAD
         Log::debug('GenerateFormByFileAction', [
+=======
+        \Illuminate\Support\Facades\Log::debug('GenerateFormByFileAction', [
+>>>>>>> 50c0e1043 (.)
             'line' => __LINE__,
             'method' => __METHOD__,
             'fillable' => $fillable,

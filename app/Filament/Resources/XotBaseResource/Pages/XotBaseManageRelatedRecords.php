@@ -19,6 +19,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Traits\TransTrait as XotTransTrait;
 use Override;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -144,6 +145,8 @@ use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecord
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -166,6 +169,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,10 +178,13 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     /**
      * Restituisce lo schema del form per i record correlati.
      *
      * @return array<\Filament\Schemas\Components\Component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -289,11 +296,17 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> a5dccfe (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
      */
     // abstract public static function getFormSchema(): array;
 
     /**
+<<<<<<< HEAD
      * Configura lo schema per i record correlati.
+=======
+     * Configura lo schema del form per i record correlati.
+>>>>>>> 50c0e1043 (.)
      */
     public function schema(Schema $schema): Schema
     {
@@ -364,6 +377,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,11 +394,14 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> 285375c74 (.)
 =======
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                 ->url(function (Model $record): string {
                     $url = static::getResource()::getUrl('edit', ['record' => $record]);
 
                     return is_string($url) ? $url : (string) $url;
                 }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -469,6 +486,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')

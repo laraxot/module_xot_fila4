@@ -12,6 +12,7 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
@@ -24,10 +25,13 @@ use Filament\Schemas\Schema;
 use Illuminate\Contracts\View\View;
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use LogicException;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -81,6 +85,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
 /**
  * Base class for all custom pages in the application.
@@ -211,6 +217,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +271,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     /*
      * Hook chiamato all'inizializzazione del componente.
      *

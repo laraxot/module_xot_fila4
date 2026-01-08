@@ -12,6 +12,7 @@ use Illuminate\Support\Str;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\TransTrait;
 =======
@@ -245,6 +246,10 @@ use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Traits\TransTrait;
+>>>>>>> 50c0e1043 (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -307,6 +312,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,6 +337,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * Paginate the table query.
      */
     protected function paginateTableQuery(Builder $query): Paginator
@@ -338,39 +346,9 @@ abstract class XotBaseListRecords extends FilamentListRecords
         $paginator = $query->fastPaginate(
             $this->getTableRecordsPerPage() === 'all' ? $query->count() : $this->getTableRecordsPerPage(),
         );
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 <<<<<<< HEAD
         Assert::isInstanceOf($paginator, Paginator::class);
-=======
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-        $count = $paginator->total();
-        $modelClass = $this->getModel();
-        // dddx($modelClass);
-        app(UpdateCountAction::class)->execute($modelClass, $count);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
-=======
-
-        if (is_object($paginator) && method_exists($paginator, 'total')) {
-            $count = $paginator->total();
-            Assert::integer($count, 'Total must be an integer');
-
-            $modelClass = $this->getModel();
-            app(UpdateCountAction::class)->execute($modelClass, $count);
-        }
-        Assert::isInstanceOf($paginator, Paginator::class);
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
 
         if (! method_exists($paginator, 'total')) {
             return $paginator;

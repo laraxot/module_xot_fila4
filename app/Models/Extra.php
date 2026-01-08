@@ -4,10 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
 
@@ -41,6 +46,7 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  * @method static Builder<static>|Extra whereUpdatedBy($value)
  * @method static Builder<static>|Extra withExtraAttributes()
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
@@ -128,3 +134,12 @@ class Extra extends BaseExtra
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> dc2130a7c (.)
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @mixin \Eloquent
+ */
+final class Extra extends BaseExtra {}
+>>>>>>> 50c0e1043 (.)

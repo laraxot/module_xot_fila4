@@ -58,6 +58,7 @@ class GetTreeOptionsByModelClassAction
                 ? $row
                 : (string) $row->getLabel();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -205,6 +206,8 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             $this->parse($row);
         }
 
@@ -225,6 +228,7 @@ class GetTreeOptionsByModelClassAction
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
                 Str::repeat('---', $child->depth).'   '.$child->getLabel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,6 +369,8 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         }
     }
 }

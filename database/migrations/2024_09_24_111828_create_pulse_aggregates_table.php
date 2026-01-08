@@ -13,6 +13,7 @@ return new class extends XotBaseMigration
     public function up(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 <<<<<<< HEAD
@@ -116,6 +117,9 @@ return new class extends XotBaseMigration
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! $this->shouldRun()) {
+>>>>>>> 50c0e1043 (.)
             return;
         }
         // -- CREATE --

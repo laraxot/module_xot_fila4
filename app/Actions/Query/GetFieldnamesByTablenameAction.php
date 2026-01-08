@@ -32,6 +32,7 @@ final class GetFieldnamesByTablenameAction
     public function execute(string $table, ?string $connectionName = null): array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     public function execute(string $table, ?string $connectionName = null): array
@@ -166,6 +167,8 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -235,6 +238,7 @@ final class GetFieldnamesByTablenameAction
             return array_values($columns);
             // $columns = array_map('strval', $columns);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -263,6 +267,8 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (Throwable $e) {
             throw new InvalidArgumentException(sprintf(

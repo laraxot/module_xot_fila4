@@ -76,6 +76,7 @@ use Webmozart\Assert\Assert;
  * - Laravel Way: Rispetta l'architettura Eloquent
  * - Assert: Utilizza webmozart/assert per validazioni robuste
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +167,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
  */
 class SafeAttributeCastAction
 {
@@ -251,6 +254,7 @@ class SafeAttributeCastAction
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,9 +313,10 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getStringAttribute(Model $model, string $attribute, ?string $default = ''): string
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -347,6 +352,7 @@ class SafeAttributeCastAction
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,9 +411,10 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getIntAttribute(Model $model, string $attribute, ?int $default = 0): int
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -443,6 +450,7 @@ class SafeAttributeCastAction
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,9 +509,10 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getFloatAttribute(Model $model, string $attribute, ?float $default = 0.0): float
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -539,6 +548,7 @@ class SafeAttributeCastAction
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,9 +607,10 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getBooleanAttribute(Model $model, string $attribute, ?bool $default = false): bool
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -635,6 +646,7 @@ class SafeAttributeCastAction
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -693,9 +705,10 @@ class SafeAttributeCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getArrayAttribute(Model $model, string $attribute, ?array $default = []): array
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -875,6 +888,7 @@ class SafeAttributeCastAction
 =======
 >>>>>>> 300ef70 (.)
     ): mixed {
+<<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
 =======
 <<<<<<< HEAD
@@ -900,6 +914,8 @@ class SafeAttributeCastAction
 =======
 >>>>>>> 285375c74 (.)
     ): mixed {
+=======
+>>>>>>> 50c0e1043 (.)
         Assert::stringNotEmpty($attribute);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
 <<<<<<< HEAD
@@ -959,6 +975,7 @@ class SafeAttributeCastAction
     /**
      * Metodo statico per utilizzare getStringAttribute.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function getString(Model $model, string $attribute, ?string $default = ''): string
 =======
@@ -1119,6 +1136,9 @@ class SafeAttributeCastAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    public static function getString(Model $model, string $attribute, ?string $default = ''): string
+>>>>>>> 50c0e1043 (.)
     {
         return app(self::class)->getStringAttribute($model, $attribute, $default);
     }

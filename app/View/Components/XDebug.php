@@ -69,6 +69,7 @@ class XDebug extends Component
     public function debugStack(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \extension_loaded('xdebug')) {
 =======
 <<<<<<< HEAD
@@ -197,6 +198,9 @@ class XDebug extends Component
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! \extension_loaded('xdebug')) {
+>>>>>>> 50c0e1043 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -216,6 +220,7 @@ class XDebug extends Component
         $out1 = ob_get_contents();
         ob_end_clean();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return \is_string($out1) ? $out1 : ((string) $out1);
 =======
@@ -367,5 +372,8 @@ class XDebug extends Component
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        return \is_string($out1) ? $out1 : ((string) $out1);
+>>>>>>> 50c0e1043 (.)
     }
 }

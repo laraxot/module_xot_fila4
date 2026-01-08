@@ -41,6 +41,7 @@ class ArtisanCommandsManager extends XotBasePage
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +594,8 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function executeCommand(string $command): void
     {
         $this->reset(['output', 'status']);

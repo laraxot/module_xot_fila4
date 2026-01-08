@@ -5,12 +5,15 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
 >>>>>>> 8ab8fd81a (.)
 use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use InvalidArgumentException;
@@ -23,6 +26,7 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @property string $table_schema
  * @property string $table_name
  * @property string|null $model_class
+<<<<<<< HEAD
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property int $id
@@ -70,8 +74,18 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @property string|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_at
+=======
+ * @property \Illuminate\Support\Carbon|null $created_at
+>>>>>>> 50c0e1043 (.)
  * @property string|null $created_by
+ * @property int $id
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
@@ -109,6 +123,22 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+ * @method static \Modules\Xot\Database\Factories\InformationSchemaTableFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereModelClass($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableRows($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableSchema($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+ *
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends BaseModel

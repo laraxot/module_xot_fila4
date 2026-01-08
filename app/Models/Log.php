@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17,15 +18,13 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\File;
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Database\Factories\LogFactory;
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
-use Sushi\Sushi;
 use Override;
+<<<<<<< HEAD
 use Modules\Xot\Database\Factories\FeedFactory;
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -88,6 +87,9 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\LogFactory;
 use Override;
 use Sushi\Sushi;
+=======
+use Sushi\Sushi;
+>>>>>>> 50c0e1043 (.)
 
 // --- services
 // --- TRAITS ---
@@ -106,6 +108,7 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
@@ -185,9 +188,14 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+=======
+>>>>>>> 50c0e1043 (.)
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read string|null $file_content
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 <<<<<<< HEAD
@@ -203,6 +211,8 @@ use Sushi\Sushi;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel
@@ -232,6 +242,7 @@ class Log extends BaseModel
         return $rows;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -309,6 +320,8 @@ class Log extends BaseModel
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));

@@ -73,6 +73,7 @@ class DatabaseBackUpCommand extends Command
      * Create a new command instance.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,12 +234,15 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
@@ -353,6 +357,10 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+>>>>>>> 50c0e1043 (.)
         Assert::string(
             $backup_path = Str::replace(['/', '\\'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $backup_path),
             'wip',

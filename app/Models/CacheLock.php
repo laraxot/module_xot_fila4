@@ -4,9 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Database\Factories\CacheLockFactory;
 
 /**
@@ -17,15 +21,14 @@ use Modules\Xot\Database\Factories\CacheLockFactory;
  * @property int $expiration
  *
  * @method static CacheLockFactory factory($count = null, $state = [])
-<<<<<<< HEAD
-=======
- * @method static Builder|CacheLock newModelQuery()
- * @method static Builder|CacheLock newQuery()
- * @method static Builder|CacheLock query()
- * @method static Builder|CacheLock whereExpiration($value)
- * @method static Builder|CacheLock whereKey($value)
- * @method static Builder|CacheLock whereOwner($value)
+ * @method static Builder<static>|CacheLock newModelQuery()
+ * @method static Builder<static>|CacheLock newQuery()
+ * @method static Builder<static>|CacheLock query()
+ * @method static Builder<static>|CacheLock whereExpiration($value)
+ * @method static Builder<static>|CacheLock whereKey($value)
+ * @method static Builder<static>|CacheLock whereOwner($value)
  *
+<<<<<<< HEAD
  * @property int $expiration
  *
  * @method static CacheLockFactory factory($count = null, $state = [])
@@ -47,9 +50,13 @@ use Modules\Xot\Database\Factories\CacheLockFactory;
  * @property string $key
  * @property string $owner
  * @property int $expiration
+=======
+>>>>>>> 50c0e1043 (.)
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
 >>>>>>> cc7fb225 (.)
  * @method static Builder<static>|CacheLock newModelQuery()
@@ -124,6 +131,8 @@ use Modules\Xot\Database\Factories\CacheLockFactory;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

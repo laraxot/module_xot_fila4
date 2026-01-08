@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services;
 
+<<<<<<< HEAD
 use Illuminate\Contracts\View\View;
+=======
+>>>>>>> 50c0e1043 (.)
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Support\Renderable;
@@ -15,10 +18,14 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 =======
 use Modules\Xot\Services\Artisan\CommandRegistry;
 >>>>>>> 8b18e4bff (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 50c0e1043 (.)
 
 =======
 >>>>>>> 27537f124 (.)
@@ -45,6 +52,7 @@ class ArtisanService
      */
     public static function act(string $act): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         // da fare anche in noconsole, e magari mettere un policy
         $module_name = Request::input('module', '');
@@ -131,12 +139,18 @@ class ArtisanService
         if (! is_string($module_name)) {
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+        // da fare anche in noconsole, e magari mettere un policy
+        $module_name = Request::input('module', '');
+        if (! is_string($module_name)) {
+>>>>>>> 50c0e1043 (.)
             $module_name = '';
         }
         switch ($act) {
             case 'migrate':
                 DB::purge('mysql');
                 DB::reconnect('mysql');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -164,10 +178,13 @@ class ArtisanService
 =======
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
                 if ($module_name !== '') {
                     echo '<h3>Module '.$module_name.'</h3>';
 
                     return self::exe('module:migrate '.$module_name.' --force');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1330,6 +1347,80 @@ class ArtisanService
         if ($handler === null) {
             return '';
 >>>>>>> b7afadf9 (.)
+=======
+                }
+
+                return self::exe('migrate --force');
+
+            case 'routelist':
+                return self::exe('route:list');
+            case 'queue:flush':
+                return self::exe('queue:flush');
+            case 'routelist1':
+                return self::showRouteList();
+            case 'optimize':
+                return self::exe('optimize');
+            case 'clear':
+                echo self::exe('cache:clear').PHP_EOL;
+                echo self::exe('config:clear').PHP_EOL;
+                echo self::exe('event:clear').PHP_EOL;
+                echo self::exe('route:clear').PHP_EOL;
+                echo self::exe('view:clear').PHP_EOL;
+                echo self::exe('debugbar:clear').PHP_EOL;
+                echo self::exe('opcache:clear').PHP_EOL;
+                echo self::exe('optimize:clear').PHP_EOL;
+                echo self::exe('key:generate').PHP_EOL;
+
+                // -- non artisan
+                echo self::sessionClear().PHP_EOL;
+                echo self::errorClear().PHP_EOL;
+                echo self::debugbarClear().PHP_EOL;
+                echo PHP_EOL.'DONE'.PHP_EOL;
+                break;
+            case 'clearcache':
+                return self::exe('cache:clear');
+            case 'routecache':
+                return self::exe('route:cache');
+            case 'routeclear':
+                return self::exe('route:clear');
+            case 'viewclear':
+                return self::exe('view:clear');
+            case 'configcache':
+                return self::exe('config:cache');
+                // -------------------------------------------------------------------
+            case 'debugbar:clear':
+                self::debugbarClear();
+                break;
+
+                // ------------------------------------------------------------------
+
+            case 'module-list':
+                return self::exe('module:list');
+            case 'module-disable':
+                return self::exe('module:disable '.$module_name);
+            case 'module-enable':
+                return self::exe('module:enable '.$module_name);
+                // ----------------------------------------------------------------------
+            case 'error':
+            case 'error-show':
+                return self::errorShow()->render();
+            case 'error-clear':
+                return self::errorClear();
+
+                // -------------------------------------------------------------------------
+            case 'spatiecache-clear':
+                /* da vedere se e' necessaria
+                 * try {
+                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
+                 * } catch (\Exception $e) {
+                 * dddx($e);
+                 * }
+                 */
+                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
+
+            default:
+                return '';
+>>>>>>> 50c0e1043 (.)
         }
 
         return $handler->handle($moduleName);
@@ -1367,6 +1458,7 @@ class ArtisanService
 
         $pattern = '/url":"([^"]*)"/';
 
+<<<<<<< HEAD
         /** @var array<int, array<int, string>>|null $matches */
         $matches = [];
         preg_match_all($pattern, $content, $matches);
@@ -1383,6 +1475,16 @@ class ArtisanService
             $urls = array_values(array_unique($urlsRaw));
         }
 
+=======
+        /** @var array<int, array<int, string>> $matches */
+        $matches = [];
+        preg_match_all($pattern, $content, $matches);
+
+        /** @var array<int, string> $urlsRaw */
+        $urlsRaw = $matches[1];
+        /** @var array<int, string> $urls */
+        $urls = array_values(array_unique($urlsRaw));
+>>>>>>> 50c0e1043 (.)
         $view_params = [
             'view' => $view,
             'lang' => app()->getLocale(),
@@ -1428,7 +1530,11 @@ class ArtisanService
 
         $out = view((string) $view, $view_params);
 
+<<<<<<< HEAD
         Assert::isInstanceOf($out, View::class);
+=======
+        Assert::isInstanceOf($out, \Illuminate\Contracts\View\View::class);
+>>>>>>> 50c0e1043 (.)
 
         return $out->render();
     }
@@ -1493,7 +1599,11 @@ class ArtisanService
             Artisan::call($command, $arguments);
 
             return $output.'[<pre>'.Artisan::output().'</pre>]'; // dato che mi carico solo le route minime menufull.delete non esiste.. impostare delle route comuni.
+<<<<<<< HEAD
         } catch (\Exception $exception) {
+=======
+        } catch (Exception $exception) {
+>>>>>>> 50c0e1043 (.)
             // throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
             return '[<pre>'.$exception->getMessage().'</pre>]';
 

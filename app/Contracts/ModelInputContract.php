@@ -55,6 +55,7 @@ use Illuminate\Support\Carbon;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelInputContract {}
 =======
 <<<<<<< HEAD
@@ -256,3 +257,6 @@ interface ModelInputContract {}
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+interface ModelInputContract {}
+>>>>>>> 50c0e1043 (.)

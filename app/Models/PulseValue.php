@@ -15,6 +15,7 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
@@ -117,6 +118,8 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @property string $key
  * @property string $key_hash
  * @property string $value
+=======
+>>>>>>> 50c0e1043 (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
@@ -131,9 +134,14 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @method static Builder<static>|PulseValue whereType($value)
  * @method static Builder<static>|PulseValue whereValue($value)
  *
+<<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ *
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

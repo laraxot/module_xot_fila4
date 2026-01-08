@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Pdf;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -226,6 +227,11 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+>>>>>>> 50c0e1043 (.)
 use Webmozart\Assert\Assert;
 
 class StreamDownloadPdfAction
@@ -237,6 +243,7 @@ class StreamDownloadPdfAction
     /**
      * Genera un PDF dall'HTML fornito.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -316,6 +323,11 @@ class StreamDownloadPdfAction
 =======
      * @param  string  $html  Contenuto HTML da convertire
 >>>>>>> 53d6a6ba (.)
+=======
+     * @param  string|null  $html  Contenuto HTML da convertire
+     * @param  string|null  $view  Nome della view da renderizzare
+     * @param  array<string, mixed>|null  $data  Dati da passare alla view
+>>>>>>> 50c0e1043 (.)
      * @param  string  $filename  Nome del file PDF
      */
     public function execute(
@@ -333,6 +345,7 @@ class StreamDownloadPdfAction
             $html = view($view, $viewData)->render();
         }
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -608,10 +621,13 @@ class StreamDownloadPdfAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
         // Genera e scarica il PDF
+<<<<<<< HEAD
 <<<<<<< HEAD
         return response()->streamDownload(function () use ($html2pdf): void {
             $html2pdf->output();
@@ -888,5 +904,10 @@ class StreamDownloadPdfAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf): void {
+            $html2pdf->output();
+        }, 'report-'.$filename);
+>>>>>>> 50c0e1043 (.)
     }
 }

@@ -17,7 +17,6 @@ use Webmozart\Assert\Assert;
  * @property int|null $created_by ID dell'utente che ha creato il record
  * @property int|null $updated_by ID dell'utente che ha aggiornato il record
  * @property int|null $deleted_by ID dell'utente che ha eliminato il record
- *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @property-read ProfileContract|null $deleter
@@ -32,6 +31,7 @@ trait Updater
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -103,6 +103,8 @@ trait Updater
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +142,7 @@ trait Updater
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -211,6 +214,8 @@ trait Updater
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 <<<<<<< HEAD
 <<<<<<< HEAD

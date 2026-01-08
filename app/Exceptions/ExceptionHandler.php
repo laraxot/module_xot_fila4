@@ -133,6 +133,7 @@ class ExceptionHandler
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 
@@ -311,6 +312,8 @@ class ExceptionHandler
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

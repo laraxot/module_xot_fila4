@@ -12,6 +12,10 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
+=======
+use Filament\Pages\Page;
+>>>>>>> 50c0e1043 (.)
 use Filament\Schemas\Schema;
 use Filament\Support\Colors\Color;
 use Modules\Tenant\Services\TenantService;
@@ -19,13 +23,6 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-=======
->>>>>>> 2850177 (.)
->>>>>>> 3a08b27 (.)
 
 /**
  * @property Schema $form
@@ -35,9 +32,13 @@ class MetatagPage extends XotBasePage implements HasForms
     use InteractsWithForms;
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
     public array $data = [];
+=======
+    public ?array $data = [];
+>>>>>>> 50c0e1043 (.)
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'xot::filament.pages.metatag';
 
@@ -76,6 +77,7 @@ class MetatagPage extends XotBasePage implements HasForms
                             ->reactive(),
                         ColorPicker::make('hex')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -109,6 +111,8 @@ class MetatagPage extends XotBasePage implements HasForms
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                             ->required(),
                     ])
                     ->columns(3),

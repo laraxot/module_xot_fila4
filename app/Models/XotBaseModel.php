@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Modules\Xot\Models\Traits\RelationX;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 use Illuminate\Database\Eloquent\Model;
@@ -29,6 +30,8 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -38,6 +41,7 @@ abstract class XotBaseModel extends EloquentModel
 {
     use HasXotFactory;
     use RelationX;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -74,6 +78,8 @@ abstract class XotBaseModel extends Model
     // //use Cachable;
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     use Updater;
 
     /**
@@ -86,6 +92,7 @@ abstract class XotBaseModel extends Model
     public static $snakeAttributes = true;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +101,8 @@ abstract class XotBaseModel extends Model
 >>>>>>> 285375c74 (.)
 =======
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     /** @var bool */
     public $incrementing = true;
 
@@ -103,12 +112,8 @@ abstract class XotBaseModel extends Model
     /** @var int */
     protected $perPage = 30;
 
-<<<<<<< HEAD
     /** @var string */
     protected $connection = 'xot';
-=======
-    // protected $connection = 'xot';
->>>>>>> cc7fb225 (.)
 
     /** @var list<string> */
     protected $appends = [];
@@ -118,50 +123,20 @@ abstract class XotBaseModel extends Model
 
     /** @var string */
     protected $keyType = 'int';
-=======
-    public $incrementing = true;
-
-    public $timestamps = true;
-
-    protected $perPage = 30;
-
-    // protected $connection = 'xot';
-
-    /** @var list<string> */
-    protected $fillable = ['id'];
-
-    protected $primaryKey = 'id';
-
-    protected $keyType = 'string';
->>>>>>> b7afadf9 (.)
 
     /** @var list<string> */
     protected $hidden = [
         // 'password'
     ];
 
-<<<<<<< HEAD
     /** @return array<string, string> */
-=======
-    /**
-     * The accessors to append to the model's array form.
-     *
-     * @var list<string>
-     */
-    protected $appends = [];
-
-    /** @return array<string, class-string|string> */
->>>>>>> b7afadf9 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'uuid' => 'string',
             'published_at' => 'datetime',
-<<<<<<< HEAD
             'verified_at' => 'datetime',
-=======
->>>>>>> b7afadf9 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -170,6 +145,7 @@ abstract class XotBaseModel extends Model
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -193,4 +169,6 @@ abstract class XotBaseModel extends Model
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 }

@@ -15,6 +15,7 @@ namespace Modules\Xot\Services;
 class UrlService
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $instance = null;
 =======
 <<<<<<< HEAD
@@ -174,11 +175,15 @@ class UrlService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    private static ?self $instance = null;
+>>>>>>> 50c0e1043 (.)
 
     public function __construct()
     {
         // ---
 <<<<<<< HEAD
+<<<<<<< HEAD
         include_once __DIR__.'/vendor/autoload.php';
 =======
 <<<<<<< HEAD
@@ -338,10 +343,14 @@ class UrlService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        include_once __DIR__.'/vendor/autoload.php';
+>>>>>>> 50c0e1043 (.)
     }
 
     public static function getInstance(): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
@@ -443,6 +452,10 @@ class UrlService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+>>>>>>> 50c0e1043 (.)
         }
 
         return self::$instance;

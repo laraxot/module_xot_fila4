@@ -7,12 +7,16 @@ namespace Modules\Xot\Actions\Module;
 use Error;
 use Exception;
 use Illuminate\Support\Facades\Config;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
+=======
+>>>>>>> 50c0e1043 (.)
 
 class GetModulePathByGeneratorAction
 {
     public function execute(string $moduleName, string $generatorPath): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -54,6 +58,9 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
 =======
 >>>>>>> a6ef6dc7 (.)
+=======
+        $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
+>>>>>>> 50c0e1043 (.)
         try {
             $res = module_path($moduleName, $relativePath);
         } catch (Exception|Error $e) {
@@ -68,6 +75,7 @@ class GetModulePathByGeneratorAction
             $e->getMessage().
                 ']');
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         Assert::string($res, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
@@ -334,6 +342,8 @@ class GetModulePathByGeneratorAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
         throw new Exception('Module path not found: 
         name:['.

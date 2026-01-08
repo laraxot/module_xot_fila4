@@ -38,6 +38,7 @@ class GetModulesNavigationItems
 
         $modules = TenantService::allModules();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ class GetModulesNavigationItems
 >>>>>>> 285375c74 (.)
 =======
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
@@ -53,6 +56,7 @@ class GetModulesNavigationItems
 
         /** @var array<int, string> $userRoles */
         $userRoles = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
         // Se serve re-introdurre un preload ruoli, farlo solo se il metodo è disponibile e tipizzato nel modello.
 =======
@@ -75,6 +79,9 @@ class GetModulesNavigationItems
         Assert::isArray($modules);
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        // Se serve re-introdurre un preload ruoli, farlo solo se il metodo è disponibile e tipizzato nel modello.
+>>>>>>> 50c0e1043 (.)
 
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');

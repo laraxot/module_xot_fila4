@@ -53,6 +53,7 @@ class ExportTreeXlsAction extends Action
                     'id' => $record->getKey(),
                 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
 =======
 <<<<<<< HEAD
@@ -237,6 +238,9 @@ class ExportTreeXlsAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
+>>>>>>> 50c0e1043 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
                 // $query = $livewire->getFilteredTableQuery(); // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
@@ -249,6 +253,7 @@ class ExportTreeXlsAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $fields = $resource::getXlsFields($tableFilters);
                     // Convertiamo tutti i valori a stringhe
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -274,11 +279,14 @@ class ExportTreeXlsAction extends Action
 =======
 <<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                     $fields = array_map(fn ($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
                     // PHPStan: $fields is array after array_map
                 }
 
                 /** @var array<int, string> $fields */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -519,6 +527,13 @@ class ExportTreeXlsAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                return app(ExportXlsByCollection::class)->execute($rows, $filename, $transKey, $fields);
+            });
+    }
+
+    public static function getDefaultName(): ?string
+>>>>>>> 50c0e1043 (.)
     {
         return 'export_tree_xls';
     }

@@ -5,6 +5,7 @@
 > **Last Updated**: December 2025
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 📋 Overview
 =======
 <div align="center">
@@ -13,6 +14,9 @@
   <em>🎯 Il modulo base che POTENZIA tutti gli altri moduli Laraxot!</em>
 </div>
 >>>>>>> 48515e368 (.)
+=======
+## 📋 Overview
+>>>>>>> 50c0e1043 (.)
 
 Il modulo **Xot** è il cuore del framework Laraxot, fornendo le classi base, i service provider e le funzionalità fondamentali che abilitano tutti gli altri moduli del sistema.
 

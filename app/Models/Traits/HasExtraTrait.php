@@ -101,6 +101,7 @@ trait HasExtraTrait
 
         return null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -326,6 +327,8 @@ trait HasExtraTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 
     /**
@@ -347,6 +350,7 @@ trait HasExtraTrait
         }
 
         $attributes->set($name, $value);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -408,6 +412,8 @@ trait HasExtraTrait
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $extra->save();
     }
 }

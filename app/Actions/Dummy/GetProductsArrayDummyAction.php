@@ -28,6 +28,7 @@ class GetProductsArrayDummyAction
         $response = Http::get('https://dummyjson.com/products');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         // Ensure we have a Response, not Promise
         if ($response instanceof PromiseInterface) {
@@ -36,6 +37,14 @@ class GetProductsArrayDummyAction
 
 >>>>>>> 8ab8fd81a (.)
         /** @var Response $response */
+=======
+        // Ensure we have a Response, not Promise
+        if ($response instanceof \GuzzleHttp\Promise\PromiseInterface) {
+            $response = $response->wait();
+        }
+
+        /** @var \Illuminate\Http\Client\Response $response */
+>>>>>>> 50c0e1043 (.)
         Assert::isArray($products = $response->json());
         Assert::isArray($products['products']);
 

@@ -12,6 +12,7 @@ namespace Modules\Xot\Models;
  * Provides common functionality for morphable rating systems.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseRatingMorph extends BaseModel
 =======
 <<<<<<< HEAD
@@ -35,6 +36,9 @@ abstract class BaseRatingMorph extends Model
 abstract class BaseRatingMorph extends XotBaseModel
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+abstract class BaseRatingMorph extends BaseModel
+>>>>>>> 50c0e1043 (.)
 {
     // Common properties and methods for rating morphs can be added here.
 }

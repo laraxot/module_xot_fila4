@@ -10,6 +10,7 @@ namespace Modules\Xot\Datas;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
@@ -27,10 +28,15 @@ use Webmozart\Assert\Assert;
 =======
 =======
 use Illuminate\Database\Eloquent\Model;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\File;
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 use Spatie\LaravelPdf\Enums\Format;
 use Spatie\LaravelPdf\Enums\Orientation;
 use Spatie\LaravelPdf\Enums\Unit;
@@ -40,6 +46,12 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
 >>>>>>> 2850177 (.)
 >>>>>>> 3a08b27 (.)
+=======
+use Spipu\Html2Pdf\Exception\HtmlParsingException;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Webmozart\Assert\Assert;
+>>>>>>> 50c0e1043 (.)
 
 /**
  * Undocumented class.
@@ -174,6 +186,7 @@ class PdfData extends Data
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +213,11 @@ class PdfData extends Data
      * @param  array<string, mixed>  $params
      */
 >>>>>>> b7afadf9 (.)
+=======
+    /**
+     * @param  array<string, mixed>  $params
+     */
+>>>>>>> 50c0e1043 (.)
     public function view(string $view, array $params = []): self
     {
         if (! view()->exists($view)) {

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +75,8 @@ use Override;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Feed;
 use Override;

@@ -48,6 +48,7 @@ abstract class XotBaseFormComponent extends Field
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +72,8 @@ abstract class XotBaseFormComponent extends Field
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * @return array<string, mixed>
      */
     public function getValidationRules(): array

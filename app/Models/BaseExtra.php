@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +57,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
@@ -116,6 +119,7 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 
     // ✅ CORRETTO: NON implementare scopeWithExtraAttributes() manualmente
     // Il trait SchemalessAttributesTrait lo fornisce automaticamente!
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -178,6 +182,8 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Get the attributes that should be cast.

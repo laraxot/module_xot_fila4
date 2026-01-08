@@ -140,6 +140,7 @@ class SafeFloatCastAction
     public function execute(mixed $value, ?float $default = 0.0): float
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     public function execute(mixed $value, ?float $default = 0.0): float
@@ -276,6 +277,8 @@ class SafeFloatCastAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     {
         // Se è già un float, verifica che sia valido
         if (is_float($value)) {
@@ -470,6 +473,7 @@ class SafeFloatCastAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -621,6 +625,8 @@ class SafeFloatCastAction
 >>>>>>> 300ef70 (.)
     /**
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * Metodo statico di convenienza per chiamate dirette.
      *
      * @param  mixed  $value  Il valore da convertire
@@ -1272,6 +1278,7 @@ class SafeFloatCastAction
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1282,6 +1289,9 @@ class SafeFloatCastAction
 =======
 >>>>>>> 73eab74 (.)
     public static function castAsCurrency(mixed $value, null|float $default = 0.0): float
+=======
+    public static function castAsCurrency(mixed $value, ?float $default = 0.0): float
+>>>>>>> 50c0e1043 (.)
     {
         return app(self::class)->executeAsCurrency($value, $default);
     }
@@ -1320,6 +1330,7 @@ class SafeFloatCastAction
 
         return $default ?? 0.0;
     }
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 =======
@@ -1356,6 +1367,8 @@ class SafeFloatCastAction
         return app(self::class)->executeAsCurrency($value, $default);
     }
 <<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
 }
 >>>>>>> 8b18e4bff (.)
 =======

@@ -53,6 +53,7 @@ return static function (RectorConfig $rectorConfig): void {
     // Import short classes
     $rectorConfig->importShortClasses(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -107,4 +108,6 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> c35185e63 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 };

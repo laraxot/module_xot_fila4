@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,10 +71,13 @@ use Illuminate\Support\Str;
  */
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 class PathHelper
 {
     /**
      * Percorso base del progetto.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -103,10 +107,15 @@ class PathHelper
     public static string $projectBasePath = '/var/www/html/saluteora';
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+     */
+    public static string $projectBasePath = '/var/www/html/<nome progetto>';
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Percorso base di Laravel.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 =======
@@ -124,10 +133,14 @@ class PathHelper
     public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+    public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Percorso base dei moduli.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static string $modulesBasePath = '/var/www/html/<nome progetto>/laravel/Modules';
 =======
@@ -354,6 +367,9 @@ class PathHelper
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    public static string $modulesBasePath = '/var/www/html/<nome progetto>/laravel/Modules';
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Ottiene il percorso completo di un modulo.
@@ -669,6 +685,7 @@ class PathHelper
     {
         // Verifica che il percorso contenga /laravel/Modules/ e non solo /Modules/
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (Str::contains($path, '/Modules/') && ! Str::contains($path, '/laravel/Modules/')) {
 =======
 <<<<<<< HEAD
@@ -927,6 +944,9 @@ class PathHelper
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (Str::contains($path, '/Modules/') && ! Str::contains($path, '/laravel/Modules/')) {
+>>>>>>> 50c0e1043 (.)
             return false;
         }
 
@@ -965,6 +985,7 @@ class PathHelper
      */
     public static function correctPath(string $path): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         // Corregge /var/www/html/Modules/ in /var/www/html/<nome progetto>/laravel/Modules/
         if (Str::contains($path, '/var/www/html/Modules/')) {
@@ -1245,6 +1266,11 @@ class PathHelper
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        // Corregge /var/www/html/Modules/ in /var/www/html/<nome progetto>/laravel/Modules/
+        if (Str::contains($path, '/var/www/html/Modules/')) {
+            $path = Str::replace('/var/www/html/Modules/', self::$modulesBasePath.'/', $path);
+>>>>>>> 50c0e1043 (.)
         }
 
         return $path;

@@ -270,6 +270,7 @@ class ImportCsvAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! empty($sqlReplace)) {
             $sql .= ' SET '.implode(', ', $sqlReplace).';';
 =======
@@ -456,6 +457,10 @@ class ImportCsvAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> 50c0e1043 (.)
         }
 
         return $sql;

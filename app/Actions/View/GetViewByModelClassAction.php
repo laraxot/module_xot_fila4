@@ -22,6 +22,7 @@ class GetViewByModelClassAction
         $model_name = class_basename($model_class);
         $model_name = Str::of($model_name)->snake()->toString();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return $module_low.'::'.$model_name.$suffix;
 =======
@@ -128,5 +129,9 @@ class GetViewByModelClassAction
         return $view;
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+
+        return $module_low.'::'.$model_name.$suffix;
+>>>>>>> 50c0e1043 (.)
     }
 }

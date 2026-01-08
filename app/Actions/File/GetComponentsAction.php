@@ -16,6 +16,7 @@ use Modules\Xot\Datas\ComponentFileData;
 use ReflectionClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 use ReflectionClass;
@@ -169,6 +170,8 @@ use function Safe\json_decode;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -196,9 +199,13 @@ use function Safe\json_encode;
 =======
 use function Safe\json_decode;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use function Safe\json_encode;
 >>>>>>> 8b18e4bff (.)
+=======
+use function Safe\json_encode;
+>>>>>>> 50c0e1043 (.)
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -243,6 +250,7 @@ class GetComponentsAction
         );
 <<<<<<< HEAD
         $components_json = $path.'/_components.json';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,10 +409,13 @@ class GetComponentsAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $components_json = app(FixPathAction::class)->execute($components_json);
 
         $path = app(FixPathAction::class)->execute($path);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -445,6 +456,9 @@ class GetComponentsAction
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
         if (! File::exists($path)) {
+=======
+        if (! File::exists($path)) {
+>>>>>>> 50c0e1043 (.)
             if (Str::startsWith($path, base_path('Modules'))) {
                 File::makeDirectory($path, 0o755, true, true);
 <<<<<<< HEAD

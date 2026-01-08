@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
 use Filament\Forms\Components\TextInput;
 use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
@@ -13,6 +16,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 trait EnumTrait
 {
     use TransTrait;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
@@ -31,6 +35,8 @@ trait EnumTrait
    use TransTrait;
 
 >>>>>>> 8ab8fd81a (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
     public function getLabel(): string
     {
@@ -57,7 +63,11 @@ trait EnumTrait
      */
     public static function getSearchable(): array
     {
+<<<<<<< HEAD
         return array_map(fn ($item) => $item->value, static::cases());
+=======
+        return array_map(static fn ($item) => $item->value, static::cases());
+>>>>>>> 50c0e1043 (.)
     }
 
     /**
@@ -65,7 +75,10 @@ trait EnumTrait
      */
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         // ContactTypeEnum::cases() restituisce un array shape specifico, non list<ContactTypeEnum>
+=======
+>>>>>>> 50c0e1043 (.)
         $cases = static::cases();
         /** @var array<string, TextInput> $result */
         $result = [];
@@ -77,6 +90,7 @@ trait EnumTrait
     }
 
     /**
+<<<<<<< HEAD
      * Add all standard contact columns to a migration table.
      *
      * Following the philosophy of AddressItemEnum::columns() and the Laraxot
@@ -135,6 +149,20 @@ trait EnumTrait
 
         foreach (static::getColumnDefinitions() as $name => $definition) {
             if ($migration === null || ! $migration->hasColumn($name)) {
+=======
+     * @param Blueprint             $table     The table blueprint
+     * @param XotBaseMigration|null $migration XotBaseMigration instance for UPDATE context (provides hasColumn())
+     */
+    public static function columns(Blueprint $table, ?XotBaseMigration $migration = null): void
+    {
+        //Call to function method_exists() with 'Modules\\Notify\\Enums\\ChannelEnum' and  'getColumnDefinitions' will always evaluate to true.
+        //if (! method_exists(static::class, 'getColumnDefinitions')) {
+        //    return;
+        //}
+
+        foreach (static::getColumnDefinitions() as $name => $definition) {
+            if (null === $migration || ! $migration->hasColumn($name)) {
+>>>>>>> 50c0e1043 (.)
                 $definition($table);
             }
         }
@@ -163,7 +191,11 @@ trait EnumTrait
      */
     public static function getColumnNames(): array
     {
+<<<<<<< HEAD
         return array_map(fn ($case) => $case->value, static::cases());
+=======
+        return array_map(static fn ($case) => $case->value, static::cases());
+>>>>>>> 50c0e1043 (.)
     }
 
     /**

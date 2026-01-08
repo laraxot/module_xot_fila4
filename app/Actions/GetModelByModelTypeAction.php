@@ -21,6 +21,7 @@ class GetModelByModelTypeAction
      * Execute the action.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,6 +64,8 @@ class GetModelByModelTypeAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function execute(string $model_type, ?string $model_id): Model
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
@@ -96,10 +99,14 @@ class GetModelByModelTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
         /** @var class-string<Model> $model_class */
         $model = $model_id !== null
             ? $model_class::query()->find($model_id)
             : new $model_class;
+<<<<<<< HEAD
 
         if (! ($model instanceof Model)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
@@ -279,6 +286,11 @@ class GetModelByModelTypeAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+
+        if (! ($model instanceof Model)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 50c0e1043 (.)
         }
 
         return $model;

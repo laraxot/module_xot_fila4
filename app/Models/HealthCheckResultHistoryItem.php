@@ -25,11 +25,14 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 50c0e1043 (.)
  * @property string|null $updated_by
  * @property string|null $created_by
  *
@@ -50,6 +53,7 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @method static Builder<static>|HealthCheckResultHistoryItem whereUpdatedAt($value)
  * @method static Builder<static>|HealthCheckResultHistoryItem whereUpdatedBy($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -106,6 +110,8 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class HealthCheckResultHistoryItem extends BaseHealthCheckResultHistoryItem

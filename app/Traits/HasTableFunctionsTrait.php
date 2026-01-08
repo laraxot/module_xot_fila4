@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
@@ -232,6 +233,11 @@ use Filament\Tables\Columns\Column;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+use Filament\Tables\Columns\Column;
+>>>>>>> 50c0e1043 (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -288,6 +294,7 @@ trait HasTableFunctionsTrait
             'edit' => Action::make('edit')
                 ->label('Modifica')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
 =======
 <<<<<<< HEAD
@@ -368,10 +375,14 @@ trait HasTableFunctionsTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
+>>>>>>> 50c0e1043 (.)
                     'record' => $record,
                 ])),
             'delete' => Action::make('delete')
                 ->label('Elimina')
+<<<<<<< HEAD
 <<<<<<< HEAD
                 ->action(fn ($record) => $record->delete())
 =======
@@ -571,6 +582,9 @@ trait HasTableFunctionsTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                ->action(fn ($record) => $record->delete())
+>>>>>>> 50c0e1043 (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -606,6 +620,7 @@ trait HasTableFunctionsTrait
             'delete' => BulkAction::make('delete')
                 ->label('Elimina selezionati')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->action(fn ($records) => $records->each->delete())
 =======
 <<<<<<< HEAD
@@ -765,6 +780,9 @@ trait HasTableFunctionsTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                ->action(fn ($records) => $records->each->delete())
+>>>>>>> 50c0e1043 (.)
                 ->requiresConfirmation(),
         ];
     }

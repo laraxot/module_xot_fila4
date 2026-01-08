@@ -16,6 +16,7 @@ class RegisterBladeComponentsAction
     public function execute(string $path, string $namespace, string $prefix = ''): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +60,8 @@ class RegisterBladeComponentsAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\View\Components', $prefix);
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
@@ -90,6 +93,7 @@ class RegisterBladeComponentsAction
         }
 
         foreach ($comps->items() as $comp) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +287,9 @@ class RegisterBladeComponentsAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            if (! ($comp instanceof ComponentFileData)) {
+>>>>>>> 50c0e1043 (.)
                 continue;
             }
             Blade::component($comp->name, $comp->ns);

@@ -44,6 +44,7 @@ class TransCollectionAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $transKey;
 =======
 <<<<<<< HEAD
@@ -203,6 +204,9 @@ class TransCollectionAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    public ?string $transKey;
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Esegue la traduzione di una collezione.
@@ -311,6 +315,7 @@ class TransCollectionAction
     {
         // Converte l'item in stringa se non lo è già
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_string($item)) {
 =======
 <<<<<<< HEAD
@@ -418,6 +423,9 @@ class TransCollectionAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! \is_string($item)) {
+>>>>>>> 50c0e1043 (.)
             $item = SafeStringCastAction::cast($item);
         }
 
@@ -443,6 +451,7 @@ class TransCollectionAction
 
         // Prima prova la traduzione diretta
 <<<<<<< HEAD
+<<<<<<< HEAD
         $key = $this->transKey.'.'.$item;
 =======
 <<<<<<< HEAD
@@ -602,6 +611,9 @@ class TransCollectionAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        $key = $this->transKey.'.'.$item;
+>>>>>>> 50c0e1043 (.)
         $trans = trans($key);
 
         // Se la traduzione esiste ed è una stringa, la restituisce
@@ -612,6 +624,7 @@ class TransCollectionAction
         // Seconda prova: sostituisce i punti con underscore
         $itemWithUnderscore = str_replace('.', '_', $item);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $keyWithUnderscore = $this->transKey.'.'.$itemWithUnderscore;
 =======
 <<<<<<< HEAD
@@ -771,6 +784,9 @@ class TransCollectionAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        $keyWithUnderscore = $this->transKey.'.'.$itemWithUnderscore;
+>>>>>>> 50c0e1043 (.)
         $transWithUnderscore = trans($keyWithUnderscore);
 
         // Se la traduzione con underscore esiste ed è una stringa, la restituisce

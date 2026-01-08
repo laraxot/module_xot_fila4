@@ -98,6 +98,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
      * CRITICO: Deve essere public per rispettare il contratto ChartWidget
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +123,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
     public function getHeading(): ?string
+=======
+    public function getHeading(): ?string
+>>>>>>> 50c0e1043 (.)
     {
         return static::trans('navigation.heading');
 <<<<<<< HEAD
@@ -204,6 +208,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'intersect' => false,
                     'callbacks' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,11 +257,14 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                         'label' => 'function(context) {
                             return "'.
                                 __('<nome modulo>::widgets.patient_registration_trend.total_registrations').
                                 '".replace(":count", context.parsed.y);
                         }',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,6 +470,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                     ],
                 ],
             ],
@@ -499,6 +509,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     /**
      * Restituisce l'altezza del widget.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function getHeight(): ?string
 =======
@@ -611,6 +622,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     protected function getHeight(): ?string
     {
         return '300px';

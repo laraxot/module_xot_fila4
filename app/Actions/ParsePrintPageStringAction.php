@@ -33,6 +33,7 @@ class ParsePrintPageStringAction
         preg_match_all($pattern, $str, $matches);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @var array{list<string>, list<numeric-string>, list<''|numeric-string>} $matches
          */
@@ -51,6 +52,10 @@ class ParsePrintPageStringAction
 >>>>>>> c85ea7588 (.)
         $matches0 = $matches[0];
         $matchCount = count($matches0);
+=======
+        Assert::notEmpty($matches[0], 'No valid page numbers found');
+        $matchCount = count($matches[0]);
+>>>>>>> 50c0e1043 (.)
         $res = [];
 
         for ($i = 0; $i < $matchCount; $i++) {

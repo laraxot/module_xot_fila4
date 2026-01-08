@@ -12,8 +12,9 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\ModuleFactory;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
-use function Safe\json_encode;
 use Sushi\Sushi;
+
+use function Safe\json_encode;
 
 /**
  * @property int $id
@@ -38,15 +39,24 @@ use Sushi\Sushi;
  * @method static Builder<static>|Module wherePriority($value)
  * @method static Builder<static>|Module whereStatus($value)
  *
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  *
  * @method static ModuleFactory factory($count = null, $state = [])
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\ModuleFactory factory($count = null, $state = [])
+>>>>>>> 50c0e1043 (.)
  *
  * @mixin \Eloquent
  */
 final class Module extends BaseModel
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -103,6 +113,8 @@ class Module extends Model
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> dc2130a7c (.)
+=======
+>>>>>>> 50c0e1043 (.)
 {
     use Sushi;
 

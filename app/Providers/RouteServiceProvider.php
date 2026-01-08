@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 =======
 <<<<<<< HEAD
@@ -87,6 +88,9 @@ use Illuminate\Support\Facades\Route;
 =======
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
@@ -180,6 +184,7 @@ class RouteServiceProvider extends ServiceProvider
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,6 +239,8 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function registerMyMiddleware(Router $router): void
     {
         $router->prependMiddlewareToGroup('web', SetDefaultTenantForUrlsMiddleware::class);
@@ -318,6 +325,7 @@ class RouteServiceProvider extends ServiceProvider
             ? config('laravellocalization.supportedLocales')
             : ['it' => 'it', 'en' => 'en'];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! is_array($langs)) {
 =======
@@ -485,11 +493,15 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! is_array($langs)) {
+>>>>>>> 50c0e1043 (.)
             $langs = ['it' => 'it', 'en' => 'en'];
         }
 
         $lang_pattern = collect(array_keys($langs))->implode('|');
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 =======
 <<<<<<< HEAD
@@ -649,11 +661,15 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        $lang_pattern = '/|'.$lang_pattern.'|/i';
+>>>>>>> 50c0e1043 (.)
 
         $router->pattern('lang', $lang_pattern);
 
         $models = config('morph_map');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($models)) {
 =======
 <<<<<<< HEAD
@@ -813,11 +829,15 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! is_array($models)) {
+>>>>>>> 50c0e1043 (.)
             $models = [];
         }
 
         $models_collect = collect(array_keys($models));
         $models_collect->implode('|');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -863,6 +883,8 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $models_collect->map(fn ($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)

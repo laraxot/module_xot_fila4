@@ -61,6 +61,7 @@ class GetViewAction
             ->implode('.');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +126,8 @@ class GetViewAction
         )->implode('.');
 
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $pub_view = 'pub_theme::'.$tmp;
         Assert::string($pub_view, '['.__LINE__.']['.class_basename($this).']');
 
@@ -151,6 +154,7 @@ class GetViewAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,10 +199,13 @@ class GetViewAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
             $view .= '.'.$tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,11 +412,14 @@ class GetViewAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         }
 
         // if (inAdmin()) {
         if (Str::contains($view, '::panels.actions.')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
 =======
 <<<<<<< HEAD
@@ -569,11 +579,15 @@ class GetViewAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> 50c0e1043 (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
         // $view è sempre stringa perché costruita da stringhe
         if (! view()->exists($view)) {
@@ -801,6 +815,11 @@ class GetViewAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        // $view è sempre stringa perché costruita da stringhe
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> 50c0e1043 (.)
         }
 
         return $view;

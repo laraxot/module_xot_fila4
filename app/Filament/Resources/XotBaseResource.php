@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 =======
 <<<<<<< HEAD
@@ -31,6 +32,9 @@ use Filament\Forms;
 use Filament\Infolists\Infolist;
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+use Exception;
+>>>>>>> 50c0e1043 (.)
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -42,9 +46,9 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Support\Components\Component;
-<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -101,11 +105,14 @@ use Illuminate\Contracts\View\View;
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use ReflectionClass;
 =======
@@ -133,6 +140,9 @@ use ReflectionClass;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+use ReflectionClass;
+>>>>>>> 50c0e1043 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\glob;
@@ -195,6 +205,7 @@ abstract class XotBaseResource extends FilamentResource
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, Component>
 =======
@@ -274,11 +285,15 @@ abstract class XotBaseResource extends FilamentResource
      * @return array<int, Htmlable|string>
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     * @return array<string, Component>
+>>>>>>> 50c0e1043 (.)
      */
     abstract public static function getFormSchema(): array;
 
     final public static function form(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -311,6 +326,13 @@ abstract class XotBaseResource extends FilamentResource
 =======
             ->components($components)
 >>>>>>> a6ef6dc7 (.)
+=======
+        /** @var array<Htmlable|string> $components */
+        $components = static::getFormSchema();
+
+        return $schema
+            ->components($components)
+>>>>>>> 50c0e1043 (.)
             ->columns(static::getFormSchemaColumns());
     }
 
@@ -363,6 +385,7 @@ abstract class XotBaseResource extends FilamentResource
             return number_format($count, 0).'';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -406,6 +429,9 @@ abstract class XotBaseResource extends FilamentResource
 =======
         } catch (\Exception $e) {
 >>>>>>> b7afadf9 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 50c0e1043 (.)
             return '--';
         }
     }
@@ -479,6 +505,7 @@ abstract class XotBaseResource extends FilamentResource
                 ->after('RelationManagers'.\DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -583,6 +610,8 @@ abstract class XotBaseResource extends FilamentResource
 =======
 >>>>>>> ca9324a4 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                 ->toString();
 
             if (class_exists($className)) {
@@ -599,6 +628,7 @@ abstract class XotBaseResource extends FilamentResource
         $submit_view = 'pub_theme::filament.wizard.submit-button';
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -637,6 +667,9 @@ abstract class XotBaseResource extends FilamentResource
 =======
             throw new \Exception("View {$submit_view} does not exist");
 >>>>>>> b7afadf9 (.)
+=======
+            throw new Exception("View {$submit_view} does not exist");
+>>>>>>> 50c0e1043 (.)
         }
         $render = view($submit_view)->render();
 
@@ -657,6 +690,9 @@ abstract class XotBaseResource extends FilamentResource
         $attachments = $model::getAttachments();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
         if (! \is_array($attachments)) {
             return [];
         }
@@ -670,6 +706,7 @@ abstract class XotBaseResource extends FilamentResource
         $schema = app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
 
         return $schema;
+<<<<<<< HEAD
 =======
 =======
         Assert::isArray($attachments);
@@ -687,6 +724,8 @@ abstract class XotBaseResource extends FilamentResource
         /** @var array<int, \Filament\Schemas\Components\Component> */
         return array_values($form);
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 
     protected static function getStepByName(string $name): Step
@@ -702,6 +741,9 @@ abstract class XotBaseResource extends FilamentResource
         if (method_exists(static::class, $methodName)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
             $schemaResult = static::$methodName();
             /** @var array<Htmlable|string> $schemaComponents */
             $schemaComponents = \is_array($schemaResult) ? array_values($schemaResult) : [];
@@ -710,6 +752,7 @@ abstract class XotBaseResource extends FilamentResource
         }
 
         return Step::make($name)->schema([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -808,5 +851,7 @@ abstract class XotBaseResource extends FilamentResource
         return Step::make($name)->schema($empty);
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 }

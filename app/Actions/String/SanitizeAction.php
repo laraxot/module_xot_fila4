@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\String;
 class SanitizeAction
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -68,12 +69,15 @@ class SanitizeAction
 
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function execute(string $str): string
     {
         $str = strip_tags($str);
         $str = html_entity_decode($str);
 
         return trim($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -257,6 +261,8 @@ class SanitizeAction
         return $str;
 >>>>>>> 5a14301c (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 }
 

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Error;
 use Filament\Schemas\Components\Component;
 use Illuminate\Database\Eloquent\Builder;
@@ -64,11 +65,18 @@ use Error;
 >>>>>>> b7afadf9 (.)
 use Filament\Schemas\Components\Component;
 >>>>>>> 48515e368 (.)
+=======
+use Error;
+use Filament\Schemas\Components\Component;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\StateContract;
 <<<<<<< HEAD
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -139,6 +147,8 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Webmozart\Assert\Assert;
 
 <<<<<<< HEAD
@@ -168,6 +178,7 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
 class StateOverviewWidget extends XotBaseWidget
 {
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -200,6 +211,8 @@ class StateOverviewWidget extends XotBaseWidget
 <<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * Titolo del widget.
      */
     public string $title = '';
@@ -216,6 +229,7 @@ class StateOverviewWidget extends XotBaseWidget
     protected string $view = 'xot::filament.widgets.state-overview';
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -248,6 +262,8 @@ class StateOverviewWidget extends XotBaseWidget
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * Occupa tutta la larghezza disponibile.
      */
     protected int|string|array $columnSpan = 'full';
@@ -265,6 +281,7 @@ class StateOverviewWidget extends XotBaseWidget
     /**
      * Intervallo di polling disabilitato per performance.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected static ?string $pollingInterval = null;
 =======
@@ -351,11 +368,16 @@ class StateOverviewWidget extends XotBaseWidget
 >>>>>>> 5a14301c (.)
 >>>>>>> 48515e368 (.)
 
+=======
+    protected static ?string $pollingInterval = null;
+
+>>>>>>> 50c0e1043 (.)
     /**
      * Schema del form (vuoto per questo widget).
      *
      * @return array<int|string, Component>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398,6 +420,9 @@ class StateOverviewWidget extends XotBaseWidget
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+=======
+    #[Override]
+>>>>>>> 50c0e1043 (.)
     public function getFormSchema(): array
     {
         return [];
@@ -527,6 +552,7 @@ class StateOverviewWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -553,6 +579,8 @@ class StateOverviewWidget extends XotBaseWidget
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
 
         Assert::isArray($res);
@@ -597,6 +625,7 @@ class StateOverviewWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -621,6 +650,8 @@ class StateOverviewWidget extends XotBaseWidget
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
         $modelInstance = app($this->model);
 
@@ -642,6 +673,7 @@ class StateOverviewWidget extends XotBaseWidget
                 'icon' => $this->cleanIconName($state->icon()),
                 'color' => $state->bgColor(),
                 'count' => $this->getCountForState($stateName),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -683,6 +715,8 @@ class StateOverviewWidget extends XotBaseWidget
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
             ];
         }
 
@@ -732,6 +766,7 @@ class StateOverviewWidget extends XotBaseWidget
     protected function getCountForState(string $stateName): int
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -746,10 +781,14 @@ class StateOverviewWidget extends XotBaseWidget
         /** @var Builder<Model> $query */
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+        /** @var Builder<Model> $query */
+>>>>>>> 50c0e1043 (.)
         $query = $this->model::where('state', $stateName);
         $count = $query->count();
 
         return is_int($count) ? $count : (int) $count;
+<<<<<<< HEAD
     }
 
 =======
@@ -770,6 +809,8 @@ class StateOverviewWidget extends XotBaseWidget
 =======
 >>>>>>> b7afadf9 (.)
         return $this->model::where('state', $stateName)->count();
+=======
+>>>>>>> 50c0e1043 (.)
     }
 
 <<<<<<< HEAD

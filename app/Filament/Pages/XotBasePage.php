@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
 use UnitEnum;
+=======
+>>>>>>> 50c0e1043 (.)
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -74,6 +77,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Estrae il nome del modulo dal namespace della classe.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
 =======
 <<<<<<< HEAD
@@ -97,6 +101,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+>>>>>>> 50c0e1043 (.)
      */
     public static function getModuleName(): string
     {
@@ -179,7 +186,11 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Imposta lo schema e il percorso dello stato per il form.
      *
      * @param  \Filament\Schemas\Schema  $schema  Il form da configurare
+<<<<<<< HEAD
      * @return \Filament\Schemas\Schema Lo schema configurato
+=======
+     * @return \Filament\Schemas\Schema Il form configurato
+>>>>>>> 50c0e1043 (.)
      */
     public function schema(Schema $schema): Schema
     {

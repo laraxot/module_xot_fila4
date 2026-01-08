@@ -58,6 +58,7 @@ use Spatie\QueueableAction\QueueableAction;
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
  * - Robustezza: Gestisce tutti i casi edge e mantiene la type safety
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +149,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
  */
 class SafeIntCastAction
 {
@@ -166,6 +169,7 @@ class SafeIntCastAction
 =======
 >>>>>>> 8b18e4bff (.)
     public function execute(mixed $value, ?int $default = 0): int
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -304,6 +308,8 @@ class SafeIntCastAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     {
         // Se è già un int, restituiscilo direttamente
         if (is_int($value)) {
@@ -493,6 +499,7 @@ class SafeIntCastAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,6 +679,8 @@ class SafeIntCastAction
     /**
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * Metodo statico di convenienza per chiamate dirette.
      *
      * @param  mixed  $value  Il valore da convertire
@@ -875,21 +884,6 @@ class SafeIntCastAction
      * @return int Il valore convertito
      */
     private function parseStringToInt(string $value, ?int $default = 0): int
-=======
-=======
->>>>>>> 5a14301c (.)
-     * Converte una stringa in int con gestione avanzata.
-     *
-     * @param string $value La stringa da convertire
-     * @param int|null $default Valore di default
-     *
-     * @return int Il valore convertito
-     */
-    private function parseStringToInt(string $value, null|int $default = 0): int
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
     {
         $trimmed = trim($value);
 
@@ -903,6 +897,7 @@ class SafeIntCastAction
 
         // Verifica se è un numero valido
         if (is_numeric($normalized)) {
+<<<<<<< HEAD
 >>>>>>> 8b18e4bff (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1090,6 +1085,8 @@ class SafeIntCastAction
 
         // Verifica se è un numero valido
         if (is_numeric($normalized)) {
+=======
+>>>>>>> 50c0e1043 (.)
             return (int) $normalized;
         }
 

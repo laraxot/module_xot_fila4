@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Console\Commands;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ namespace Modules\Xot\Console\Commands;
 =======
 >>>>>>> 55fe1822 (.)
 >>>>>>> 99c0b3329 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +92,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> 8b18e4bff (.)
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -127,6 +131,8 @@ use function Safe\file_get_contents;
 =======
 >>>>>>> 55fe1822 (.)
 >>>>>>> 99c0b3329 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
 class ExecuteSqlFileCommand extends Command
 {
@@ -147,16 +153,20 @@ class ExecuteSqlFileCommand extends Command
     /**
      * Execute the console command.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      */
     public function handle(): int
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
+<<<<<<< HEAD
 <<<<<<< HEAD
         Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! file_exists($filePath)) {
@@ -399,6 +409,10 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        if (! file_exists($filePath)) {
+>>>>>>> 50c0e1043 (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -439,6 +453,7 @@ class ExecuteSqlFileCommand extends Command
 =======
 >>>>>>> 8b18e4bff (.)
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -578,6 +593,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
             return Command::FAILURE;
         } finally {

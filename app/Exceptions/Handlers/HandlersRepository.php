@@ -194,6 +194,7 @@ class HandlersRepository
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +233,8 @@ class HandlersRepository
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         if (! ($params = $reflection->getParameters())) {
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
@@ -255,6 +258,7 @@ class HandlersRepository
         }
 
         return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -470,5 +474,7 @@ class HandlersRepository
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 }

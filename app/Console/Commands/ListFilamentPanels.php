@@ -23,6 +23,7 @@ class ListFilamentPanels extends Command
         /** @var Collection<string, \Nwidart\Modules\Module> $modules */
         foreach ($modules as $moduleName => $module) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,11 +167,14 @@ class ListFilamentPanels extends Command
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
                 continue;
             }
 
+<<<<<<< HEAD
             /** @var Collection<int, string> $providerFiles */
             $providerFiles = collect(scandir($providersPath));
             $providers = $providerFiles
@@ -232,6 +236,9 @@ class ListFilamentPanels extends Command
 =======
 >>>>>>> 53d6a6ba (.)
             $providers = collect(scandir($providersPath))
+=======
+            $providers = collect(scandir($providersPath))
+>>>>>>> 50c0e1043 (.)
                 ->filter(function ($file): bool {
                     return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
                 });
@@ -242,6 +249,7 @@ class ListFilamentPanels extends Command
                 }
 
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+<<<<<<< HEAD
 <<<<<<< HEAD
                 if (! class_exists($providerClass)) {
 =======
@@ -279,16 +287,22 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
+=======
+>>>>>>> 50c0e1043 (.)
                 if (! class_exists($providerClass)) {
                     continue;
                 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
                 $this->info("Found panel in {$moduleName}: {$provider}");
 =======
                 $this->info('Found panel in '.$moduleName.': '.$provider);
 >>>>>>> b7afadf9 (.)
+=======
+                $this->info("Found panel in {$moduleName}: {$provider}");
+>>>>>>> 50c0e1043 (.)
             }
         }
 

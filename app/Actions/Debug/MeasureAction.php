@@ -44,6 +44,7 @@ class MeasureAction
     public function execute(Closure $closure, string $label = ''): mixed
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +184,8 @@ class MeasureAction
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $start = microtime(true);
         $memory_start = memory_get_usage();
 
@@ -199,6 +202,7 @@ class MeasureAction
         $metrics = [
             'label' => $label,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'execution_time' => round($execution_time, 2).' ms',
             'memory_usage' => round($memory_usage, 2).' KB',
 =======
@@ -385,12 +389,17 @@ class MeasureAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            'execution_time' => round($execution_time, 2).' ms',
+            'memory_usage' => round($memory_usage, 2).' KB',
+>>>>>>> 50c0e1043 (.)
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
         // Mostriamo una notifica con le metriche
         Notification::make()
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
 =======
@@ -577,6 +586,10 @@ class MeasureAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
+>>>>>>> 50c0e1043 (.)
             ->success()
             ->persistent()
             ->send();

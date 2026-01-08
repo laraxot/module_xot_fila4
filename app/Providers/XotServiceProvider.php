@@ -73,6 +73,7 @@ class XotServiceProvider extends XotBaseServiceProvider
         Assert::string(
             $timezone = config('app.timezone') ?? 'Europe/Berlin',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +81,8 @@ class XotServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
             '['.__LINE__.']['.class_basename($this).']',
         );
         Assert::string(
@@ -87,6 +90,7 @@ class XotServiceProvider extends XotBaseServiceProvider
             '['.__LINE__.']['.class_basename($this).']',
         );
         Assert::string($locale = config('app.locale') ?? 'it', '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -178,6 +182,8 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
         app()->setLocale($locale);
         Carbon::setLocale($locale);
@@ -346,9 +352,13 @@ class XotServiceProvider extends XotBaseServiceProvider
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 8ab8fd81a (.)
+=======
+   
+>>>>>>> 50c0e1043 (.)
     /**
      * Register Xot specific Livewire components.
      */

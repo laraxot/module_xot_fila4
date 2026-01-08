@@ -16,6 +16,7 @@ class CopyAction
     public function execute(string $from, string $to): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +55,8 @@ class CopyAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         if (! File::exists(\dirname($to))) {
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)

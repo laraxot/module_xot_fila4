@@ -43,6 +43,7 @@ class CustomRelation extends Relation
          * The eagerConstraints callback.
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,11 +89,14 @@ class CustomRelation extends Relation
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         protected ?Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
          */
         protected ?Closure $eagerMatcher,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,6 +303,8 @@ class CustomRelation extends Relation
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     ) {
         parent::__construct($query, $model);
     }
@@ -317,6 +323,7 @@ class CustomRelation extends Relation
     public function addEagerConstraints(array $models): void
     {
         // Parameter #1 $function of function call_user_func expects callable(): mixed, Closure|null given.
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! \is_callable($this->eagerConstraints)) {
 =======
@@ -450,6 +457,9 @@ class CustomRelation extends Relation
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! \is_callable($this->eagerConstraints)) {
+>>>>>>> 50c0e1043 (.)
             throw new Exception('eagerConstraints is not callable');
         }
 
@@ -477,6 +487,7 @@ class CustomRelation extends Relation
     {
         // Trying to invoke Closure|null but it might not be a callable.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_callable($this->eagerMatcher)) {
 =======
 <<<<<<< HEAD
@@ -609,6 +620,9 @@ class CustomRelation extends Relation
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! \is_callable($this->eagerMatcher)) {
+>>>>>>> 50c0e1043 (.)
             throw new Exception('eagerMatcher is not callable');
         }
 
@@ -642,6 +656,7 @@ class CustomRelation extends Relation
         // models with the result of those columns as a separate model relation.
         $columns = $this->query->getQuery()->columns ? [] : $columns;
         if ($columns === ['*']) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             $columns = [$this->related->getTable().'.*'];
 =======
@@ -802,6 +817,9 @@ class CustomRelation extends Relation
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            $columns = [$this->related->getTable().'.*'];
+>>>>>>> 50c0e1043 (.)
         }
 
         $query = $this->query->applyScopes();

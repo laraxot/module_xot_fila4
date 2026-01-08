@@ -26,6 +26,7 @@ class GetViewNameSpacePathAction
     public function execute(string $ns): ?string
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     public function execute(string $ns): ?string
@@ -161,6 +162,8 @@ class GetViewNameSpacePathAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     {
         $xot = XotData::make();
 
@@ -200,6 +203,7 @@ class GetViewNameSpacePathAction
 =======
 >>>>>>> 8b18e4bff (.)
         return base_path('Themes/'.$theme_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -337,5 +341,7 @@ class GetViewNameSpacePathAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 }

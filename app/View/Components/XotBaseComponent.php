@@ -68,6 +68,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = Str::snake($comp_name);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +144,8 @@ abstract class XotBaseComponent extends IlluminateComponent
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 

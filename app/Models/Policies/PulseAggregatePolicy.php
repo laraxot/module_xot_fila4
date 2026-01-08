@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,6 +44,8 @@ use Modules\Xot\Contracts\UserContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Modules\Xot\Contracts\UserContract;
 <<<<<<< HEAD
 =======
@@ -66,6 +69,7 @@ use Modules\Xot\Contracts\UserContract;
 >>>>>>> 300ef70 (.)
 use Modules\Xot\Models\PulseAggregate;
 use Override;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ed734516 (.)
@@ -112,6 +116,8 @@ use Modules\Xot\Contracts\UserContract;
 >>>>>>> 285375c74 (.)
 use Modules\Xot\Models\PulseAggregate;
 use Override;
+=======
+>>>>>>> 50c0e1043 (.)
 
 class PulseAggregatePolicy extends XotBasePolicy
 {

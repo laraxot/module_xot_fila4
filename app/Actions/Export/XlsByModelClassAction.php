@@ -24,6 +24,7 @@ class XlsByModelClassAction
      * Esporta i dati di un modello in Excel.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,11 +47,14 @@ class XlsByModelClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * @param  string  $modelClass  Classe del modello da esportare
      * @param  array<string, mixed>  $where  Condizioni where per la query
      * @param  array<int, string>  $includes  Relazioni o campi da includere
      * @param  array<int, string>  $excludes  Campi da escludere
      * @param  callable|null  $callback  Callback per manipolare i dati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -111,12 +115,15 @@ class XlsByModelClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
      */
     public function execute(
         string $modelClass,
         array $where = [],
         array $includes = [],
         array $excludes = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
         ?callable $callback = null,
 =======
@@ -277,6 +284,9 @@ class XlsByModelClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        ?callable $callback = null,
+>>>>>>> 50c0e1043 (.)
     ): BinaryFileResponse {
         // Verifichiamo che la classe del modello esista
         Assert::classExists($modelClass);
@@ -421,6 +431,7 @@ class XlsByModelClassAction
      * Ottiene le relazioni da caricare in base ai campi inclusi.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int, string>  $includes  Campi da includere
 =======
 <<<<<<< HEAD
@@ -562,6 +573,9 @@ class XlsByModelClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+     * @param  array<int, string>  $includes  Campi da includere
+>>>>>>> 50c0e1043 (.)
      * @return array<int, string>
      */
     private function getWithByIncludes(array $includes): array
@@ -634,6 +648,7 @@ class XlsByModelClassAction
      * Genera il nome del file di export.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,6 +672,9 @@ class XlsByModelClassAction
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
      * @param  string  $modelClass  Classe del modello
+=======
+     * @param  string  $modelClass  Classe del modello
+>>>>>>> 50c0e1043 (.)
      */
     private function getExportName(string $modelClass): string
     {

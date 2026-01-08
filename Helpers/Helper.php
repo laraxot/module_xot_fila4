@@ -25,9 +25,12 @@ use function Safe\define;
 use function Safe\glob;
 use function Safe\json_decode;
 use function Safe\preg_match;
+<<<<<<< HEAD
 use Nwidart\Modules\Module as ModuleContract;
 use Illuminate\Routing\Route as IlluminateRoute;
 
+=======
+>>>>>>> 50c0e1043 (.)
 
 // ------------------------------------------------
 
@@ -138,9 +141,13 @@ if (! function_exists('hex2rgba')) {
             $hex = [$color[0].$color[1], $color[2].$color[3], $color[4].$color[5]];
         } elseif (mb_strlen($color) === 3) {
             $hex = [$color[0].$color[0], $color[1].$color[1], $color[2].$color[2]];
+<<<<<<< HEAD
         }
         
         if(!isset($hex)){
+=======
+        } else {
+>>>>>>> 50c0e1043 (.)
             return $default;
         }
 
@@ -149,8 +156,18 @@ if (! function_exists('hex2rgba')) {
         $rgb = array_map('hexdec', $hex);
 
         // Check if opacity is set(rgba or rgb)
+<<<<<<< HEAD
         if ($opacity === -1.0) {
             return 'rgb('.implode(',', $rgb).')';
+=======
+        if ($opacity !== -1.0) {
+            if ($opacity < 0 || $opacity > 1) {
+                $opacity = 1.0;
+            }
+            $output = 'rgba('.implode(',', $rgb).','.$opacity.')';
+        } else {
+            $output = 'rgb('.implode(',', $rgb).')';
+>>>>>>> 50c0e1043 (.)
         }
 
         if ($opacity < 0 || $opacity > 1) {
@@ -170,7 +187,11 @@ if (! function_exists('dddx')) {
         $file = $tmp[0]['file'] ?? 'file-unknown';
         $file = str_replace('/', DIRECTORY_SEPARATOR, $file);
 
+<<<<<<< HEAD
         Assert::string($doc_root = request()->server('DOCUMENT_ROOT'), __FILE__.':'.__LINE__.' - Helper');
+=======
+        Assert::string($doc_root = $_SERVER['DOCUMENT_ROOT'], __FILE__.':'.__LINE__.' - Helper');
+>>>>>>> 50c0e1043 (.)
         $doc_root = str_replace('/', DIRECTORY_SEPARATOR, $doc_root);
 
         $dir_piece = explode(DIRECTORY_SEPARATOR, __DIR__);
@@ -502,7 +523,11 @@ if (! function_exists('getModelByName')) {
  */
 
 if (! function_exists('getModuleFromModel')) {
+<<<<<<< HEAD
     function getModuleFromModel(object $model): ModuleContract
+=======
+    function getModuleFromModel(object $model): Nwidart\Modules\Module
+>>>>>>> 50c0e1043 (.)
     {
         $class = $model::class;
         $module_name = Str::before(Str::after($class, 'Modules\\'), '\\Models\\');
@@ -672,7 +697,11 @@ if (! function_exists('deltaTime')) {
 if (! function_exists('bracketsToDotted')) {
     // privacies[111][pivot][title] => privacies.111.pivot.title
 
+<<<<<<< HEAD
     function bracketsToDotted(string $str): string
+=======
+    function bracketsToDotted(string $str, string $_quotation_marks = ''): string
+>>>>>>> 50c0e1043 (.)
     {
         return str_replace(['[', ']'], ['.', ''], $str);
     }
@@ -730,6 +759,7 @@ if (! function_exists('getRelationships')) {
 
             try {
                 $return = $reflection->invoke($model);
+<<<<<<< HEAD
                 if ($return instanceof Relation) {
                     // $related_model = new ReflectionClass($return->getRelated())->getName();
                     // $msg = [
@@ -739,6 +769,22 @@ if (! function_exists('getRelationships')) {
                     // ];
                     // $data[] = $msg;
                 }
+=======
+                $check = $return instanceof Relation;
+                /*
+                if ($check) {
+                    $related_model = new ReflectionClass($return->getRelated())->getName();
+                    $msg = [
+                        'name' => $reflection->name,
+                        'type' => class_basename($return),
+                        // 'check'=>$check,
+                        // $msg['type']=(new \ReflectionClass($return))->getShortName();
+                        'model' => $related_model,
+                    ];
+                    $data[] = $msg;
+                }
+                    */
+>>>>>>> 50c0e1043 (.)
             } catch (Throwable $e) {
                 // Gestione generica delle eccezioni che potrebbero verificarsi durante l'analisi delle relazioni
                 // Log::debug(['error' => $e->getMessage(), 'file' => $e->getFile(), 'line' => $e->getLine()]);
@@ -796,6 +842,7 @@ if (! function_exists('removeQueryParams')) {
         $cleanQuery = $query;
         foreach ($params as $param) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,10 +856,15 @@ if (! function_exists('removeQueryParams')) {
 =======
             unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
 >>>>>>> 53d6a6ba (.)
+=======
+            $key = is_string($param) ? $param : (string) $param;
+            unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+>>>>>>> 50c0e1043 (.)
         }
 
         // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
         return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -935,6 +987,8 @@ if (! function_exists('removeQueryParams')) {
         return $cleanQuery ? ($url.'?'.http_build_query($cleanQuery)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 }
 
@@ -1004,7 +1058,11 @@ if (! function_exists('getRouteParameters')) {
     function getRouteParameters(): array
     {
         $route = request()->route();
+<<<<<<< HEAD
         if (! ($route instanceof IlluminateRoute)) {
+=======
+        if (! ($route instanceof Illuminate\Routing\Route)) {
+>>>>>>> 50c0e1043 (.)
             return [];
         }
 
@@ -1020,7 +1078,11 @@ if (! function_exists('getRouteName')) {
          * @var Illuminate\Routing\Route|null
          */
         $route = request()->route();
+<<<<<<< HEAD
         if (! ($route instanceof IlluminateRoute)) {
+=======
+        if (! ($route instanceof Illuminate\Routing\Route)) {
+>>>>>>> 50c0e1043 (.)
             return null;
         }
 
@@ -1111,6 +1173,7 @@ if (! function_exists('debugStack')) {
      */
     function debugStack(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! extension_loaded('xdebug')) {
 =======
@@ -1222,6 +1285,9 @@ if (! function_exists('debugStack')) {
         if (! extension_loaded('xdebug')) {
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 50c0e1043 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -1230,6 +1296,7 @@ if (! function_exists('debugStack')) {
                 defined('XDEBUG_FILTER_TRACING') &&
                 defined('XDEBUG_PATH_EXCLUDE')
         ) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
                 '/../../vendor/',
@@ -1330,10 +1397,16 @@ if (! function_exists('debugStack')) {
                 '/../../vendor/']);
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+                '/../../vendor/',
+            ]);
+>>>>>>> 50c0e1043 (.)
         }
 
         if (function_exists('xdebug_print_function_stack')) {
             xdebug_print_function_stack();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         } else {
@@ -1350,6 +1423,11 @@ if (! function_exists('debugStack')) {
         }
 
         debug_print_backtrace();
+=======
+        } else {
+            debug_print_backtrace();
+        }
+>>>>>>> 50c0e1043 (.)
     }
 }
 
@@ -1535,9 +1613,15 @@ if (! function_exists('authId')) {
  *
  * @template T
  *
+<<<<<<< HEAD
  * @param T|null $object L'oggetto da controllare
  * @param string $method Il nome del metodo da chiamare
  * @param mixed  ...$args Gli argomenti da passare al metodo
+=======
+ * @param  T|null  $object  L'oggetto da controllare
+ * @param  string  $method  Il nome del metodo da chiamare
+ * @param  mixed  ...$args  Gli argomenti da passare al metodo
+>>>>>>> 50c0e1043 (.)
  */
 function safe_object_call($object, string $method, mixed ...$args): mixed
 {
@@ -1546,6 +1630,7 @@ function safe_object_call($object, string $method, mixed ...$args): mixed
     }
 
     if (! method_exists($object, $method)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1727,6 +1812,11 @@ function safe_object_call($object, string $method, ...$args)
 >>>>>>> b7afadf9 (.)
     }
 
+=======
+        return null;
+    }
+
+>>>>>>> 50c0e1043 (.)
     return $object->$method(...$args);
 }
 
@@ -1742,10 +1832,16 @@ if (! function_exists('trans_string')) {
      * - Returning the key itself if translation is array (missing translation case)
      * - Returning null if the result is null
      *
+<<<<<<< HEAD
      * @param string                $key     Translation key
      * @param array<string, scalar> $replace Replacement values
      * @param string|null           $locale  Specific locale to use
      *
+=======
+     * @param  string  $key  Translation key
+     * @param  array<string, bool|float|int|string|null>  $replace  Replacement values
+     * @param  string|null  $locale  Specific locale to use
+>>>>>>> 50c0e1043 (.)
      * @return string|null The translated string or null
      *
      * @example trans_string('notify::contact.label') -> "Contact" (string)
@@ -1760,10 +1856,18 @@ if (! function_exists('trans_string')) {
                 continue;
             }
             if ($v === null || is_scalar($v)) {
+<<<<<<< HEAD
                 $safeReplace[$k] = $v;
                 continue;
             }
             $safeReplace[$k] = (string) $v;
+=======
+                /** @var bool|float|int|string|null $v */
+                $safeReplace[$k] = $v;
+            } else {
+                $safeReplace[$k] = (string) $v;
+            }
+>>>>>>> 50c0e1043 (.)
         }
 
         $result = __($key, $safeReplace, $locale);

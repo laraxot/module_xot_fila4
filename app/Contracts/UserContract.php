@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
 use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31,12 +32,15 @@ use BackedEnum;
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Laravel\Passport\PersonalAccessTokenResult;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8ab8fd81a (.)
 =======
@@ -59,6 +63,8 @@ use Filament\Support\Contracts\HasLabel;
 use Illuminate\Support\Collection;
 >>>>>>> d86d643a (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Laravel\Passport\Token;
 use Modules\User\Models\Team;
 use Modules\User\Models\Tenant;
@@ -67,6 +73,11 @@ use Laravel\Passport\TransientToken;
 use Illuminate\Database\Eloquent\Model;
 use Modules\User\Contracts\TeamContract;
 use Modules\User\Models\Role as UserRole;
+<<<<<<< HEAD
+=======
+use Modules\User\Models\Team;
+use Modules\User\Models\Tenant;
+>>>>>>> 50c0e1043 (.)
 use Spatie\Permission\Contracts\Permission;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -88,13 +99,18 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  * @property string|null $type
  * @property string|null $current_team_id
  * @property TeamContract $currentTeam
+<<<<<<< HEAD
  * @property ProfileContract|null $profile
+=======
+ * @property \Modules\Xot\Contracts\ProfileContract|null $profile
+>>>>>>> 50c0e1043 (.)
  * @property Collection<int, UserRole> $roles
- * @property Collection<int, Team> $teams
+ * @property Collection<int, \Modules\User\Models\Team> $teams
  * @property Collection<int, Tenant> $tenants
  *
  * @phpstan-require-extends Model
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
  * @mixin IdeHelperUserContract
@@ -464,6 +480,8 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 <<<<<<< HEAD
  *
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
 =======
 >>>>>>> 8b18e4bff (.)
@@ -491,9 +509,16 @@ interface UserContract extends Authenticatable
     /**
      * Create a new personal access token for the user.
      *
+<<<<<<< HEAD
      * @param array<int, string> $scopes
      */
     public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
+=======
+     * @param  string  $name
+     * @return PersonalAccessTokenResult
+     */
+    public function createToken($name, array $scopes = []);
+>>>>>>> 50c0e1043 (.)
 
     /**
      * Passport API tokens support.
@@ -506,6 +531,7 @@ interface UserContract extends Authenticatable
     public function hasRole(
         string|int|array|UserRole|Collection $roles,
         ?string $guard = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -744,6 +770,8 @@ interface UserContract extends Authenticatable
         ?string $guard = null,
 >>>>>>> 5842a556 (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     ): bool;
 
     /**
@@ -774,6 +802,7 @@ interface UserContract extends Authenticatable
 
     /**
      * Get the user's roles.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -905,6 +934,8 @@ interface UserContract extends Authenticatable
      * @return BelongsToMany
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
      */
     public function roles(): BelongsToMany;
 
@@ -922,10 +953,14 @@ interface UserContract extends Authenticatable
      * Revoke the given role from the model.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|int|array|UserRole|Collection|BackedEnum  ...$role
 =======
      * @param string|int|array|UserRole|Collection|BackedEnum ...$role
 >>>>>>> 8ab8fd81a (.)
+=======
+     * @param  string|int|array|UserRole|Collection|\BackedEnum  ...$role
+>>>>>>> 50c0e1043 (.)
      * @return $this
      */
     public function removeRole(...$role);
@@ -949,6 +984,7 @@ interface UserContract extends Authenticatable
      * Switch the user's context to the given team.
      */
     public function switchTeam(TeamContract $team): bool;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1144,4 +1180,6 @@ interface UserContract extends Authenticatable
     public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 }

@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Traits;
 
+<<<<<<< HEAD
 use UnitEnum;
 use BackedEnum;
+=======
+>>>>>>> 50c0e1043 (.)
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 
@@ -104,6 +107,7 @@ trait NavigationLabelTrait
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getNavigationSort(): ?int
 =======
 <<<<<<< HEAD
@@ -263,6 +267,9 @@ trait NavigationLabelTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    public static function getNavigationSort(): ?int
+>>>>>>> 50c0e1043 (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
@@ -271,6 +278,7 @@ trait NavigationLabelTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($value === 0) {
 =======
 <<<<<<< HEAD
@@ -461,6 +469,9 @@ trait NavigationLabelTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if ($value === 0) {
+>>>>>>> 50c0e1043 (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);

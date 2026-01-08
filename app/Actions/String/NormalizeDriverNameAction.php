@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\String;
 
 use function Safe\preg_replace;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 =======
 <<<<<<< HEAD
@@ -62,6 +63,8 @@ use function Safe\preg_replace;
 =======
 >>>>>>> b7ea1cd1 (.)
 >>>>>>> 48515e368 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
 /**
  * Action per normalizzare i nomi dei driver.
@@ -91,6 +94,7 @@ class NormalizeDriverNameAction
      * Normalizza il nome del driver eliminando caratteri non alfanumerici
      * e gestendo eventuali casi speciali/alias.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -188,11 +192,14 @@ class NormalizeDriverNameAction
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
     {
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -216,10 +223,13 @@ class NormalizeDriverNameAction
 >>>>>>> 285375c74 (.)
 =======
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $driver = preg_replace('/[^a-zA-Z0-9]/', '', $driver);
         Assert::string($driver, 'Driver name must be a string after normalization');
 
         return strtolower($driver);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -328,6 +338,8 @@ class NormalizeDriverNameAction
 >>>>>>> 0218cd5 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD

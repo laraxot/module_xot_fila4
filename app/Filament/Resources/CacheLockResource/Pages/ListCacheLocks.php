@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42,10 +43,13 @@ use Override;
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -120,6 +124,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

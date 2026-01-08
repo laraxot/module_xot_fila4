@@ -13,39 +13,30 @@ use Modules\Xot\Database\Factories\SessionFactory;
  * Modules\Xot\Models\Session.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
  * @property string $id
  * @property string|null $user_id
-=======
- * @property int $id
- * @property int|null $user_id
->>>>>>> 53d6a6ba (.)
  * @property string|null $ip_address
  * @property string|null $user_agent
  * @property string $payload
  * @property int $last_activity
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
-<<<<<<< HEAD
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
-<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
  * @method static SessionFactory factory($count = null, $state = [])
-=======
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Xot\Database\Factories\SessionFactory factory($count = null, $state = [])
->>>>>>> cc7fb225 (.)
  * @method static Builder<static>|Session newModelQuery()
  * @method static Builder<static>|Session newQuery()
  * @method static Builder<static>|Session query()
@@ -62,6 +53,7 @@ use Modules\Xot\Database\Factories\SessionFactory;
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read ProfileContract|null $deleter
  *
@@ -235,6 +227,10 @@ use Modules\Xot\Database\Factories\SessionFactory;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
+ *
+>>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class Session extends BaseModel

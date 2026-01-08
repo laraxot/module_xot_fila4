@@ -48,6 +48,7 @@ class ExportXlsAction extends Action
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +57,8 @@ class ExportXlsAction extends Action
 >>>>>>> 285375c74 (.)
 =======
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                         $fields = array_map(
                             /**
                              * @param  mixed  $field
@@ -78,6 +81,7 @@ class ExportXlsAction extends Action
                             },
                             $rawFields
                         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -102,6 +106,8 @@ class ExportXlsAction extends Action
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
                     }
                     Assert::isArray($fields);
                 }

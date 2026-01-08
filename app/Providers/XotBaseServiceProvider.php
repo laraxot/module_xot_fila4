@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 =======
@@ -53,6 +54,10 @@ use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use Exception;
+>>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
@@ -64,6 +69,7 @@ use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
 use Throwable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -80,6 +86,8 @@ use Nwidart\Modules\Traits\PathNamespace;
 =======
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -129,6 +137,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         if ($this->name === '') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
         }
 
@@ -150,6 +159,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
             throw new Exception('name is empty on ['.static::class.']');
 =======
             throw new \Exception('name is empty on ['.static::class.']');
@@ -159,6 +170,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory): void {
             $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
             $svgPath = $assetsPath.'/../svg';
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -234,6 +246,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
 >>>>>>> ca9324a4 (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
             try {
 <<<<<<< HEAD
                 $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
@@ -284,6 +298,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         if ($this->name === '') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
 =======
 <<<<<<< HEAD
@@ -368,6 +383,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 50c0e1043 (.)
         }
 
         $viewPath = module_path($this->name, 'resources/views');
@@ -379,6 +397,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -414,6 +433,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
      * Registra le traduzioni del modulo.
      *
      * @throws \Exception
@@ -421,6 +442,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerTranslations(): void
     {
         if ($this->name === '') {
+<<<<<<< HEAD
 <<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
 =======
@@ -506,6 +528,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 50c0e1043 (.)
         }
 
         $langPath = $this->getLangPath();
@@ -523,6 +548,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -558,11 +584,14 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 
 >>>>>>> 53d6a6ba (.)
 >>>>>>> 285375c74 (.)
+=======
+>>>>>>> 50c0e1043 (.)
     public function registerBladeComponents(): void
     {
         $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
         try {
             Blade::anonymousComponentPath($componentViewPath);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         } catch (Exception $e) {
@@ -575,6 +604,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         } catch (\Exception $e) {
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 50c0e1043 (.)
             // Ignore missing component view path
             dddx([
                 'name' => $this->name,

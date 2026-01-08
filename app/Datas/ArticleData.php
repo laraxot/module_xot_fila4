@@ -47,6 +47,7 @@ class ArticleData extends Data
     public static function make(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
 <<<<<<< HEAD
@@ -206,5 +207,8 @@ class ArticleData extends Data
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        return new static;
+>>>>>>> 50c0e1043 (.)
     }
 }

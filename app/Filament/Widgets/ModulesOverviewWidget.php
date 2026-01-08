@@ -104,6 +104,7 @@ class ModulesOverviewWidget extends Widget
             ],
             [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,11 +113,14 @@ class ModulesOverviewWidget extends Widget
 >>>>>>> 285375c74 (.)
 =======
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
                 'name' => '<main module>',
                 'name_lower' => '<nome progetto>',
                 'url' => '/<nome progetto>/admin',
                 'icon' => 'heroicon-o-clipboard-document-list',
                 'description' => $this->getModuleDescription('<main module>'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -149,6 +153,8 @@ class ModulesOverviewWidget extends Widget
                 'description' => $this->getModuleDescription('<main module>'),
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
             ],
         ];
     }
@@ -164,6 +170,7 @@ class ModulesOverviewWidget extends Widget
         $descriptions = [
             'User' => 'Gestione utenti e autenticazione',
 <<<<<<< HEAD
+<<<<<<< HEAD
             '<main module>' => 'Pianificazione tecnica e progetti',
 =======
 <<<<<<< HEAD
@@ -187,6 +194,9 @@ class ModulesOverviewWidget extends Widget
             '<main module>' => 'Pianificazione tecnica e progetti',
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+            '<main module>' => 'Pianificazione tecnica e progetti',
+>>>>>>> 50c0e1043 (.)
             'Geo' => 'Gestione dati geografici e mappe',
             'Cms' => 'Sistema di gestione contenuti',
             'Notify' => 'Sistema di notifiche',

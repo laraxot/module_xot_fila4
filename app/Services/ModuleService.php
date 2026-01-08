@@ -21,6 +21,7 @@ class ModuleService
     public string $name;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $_instance = null;
 =======
 <<<<<<< HEAD
@@ -180,6 +181,9 @@ class ModuleService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+    private static ?self $_instance = null;
+>>>>>>> 50c0e1043 (.)
 
     /**
      * getInstance.
@@ -188,6 +192,7 @@ class ModuleService
      */
     public static function getInstance(): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! (self::$_instance instanceof self)) {
             self::$_instance = new self;
@@ -289,6 +294,10 @@ class ModuleService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        if (! (self::$_instance instanceof self)) {
+            self::$_instance = new self;
+>>>>>>> 50c0e1043 (.)
         }
 
         return self::$_instance;
@@ -340,6 +349,7 @@ class ModuleService
          */
         $mod = Module::find($this->name);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,12 +381,15 @@ class ModuleService
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 50c0e1043 (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
 >>>>>>> 285375c74 (.)
             return [];
         }
 
         $mod_path = $mod->getPath().'/Models';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -568,6 +581,8 @@ class ModuleService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+>>>>>>> 50c0e1043 (.)
         $mod_path = str_replace(['\\', '/'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $mod_path);
 
         $files = File::files($mod_path);
@@ -575,6 +590,7 @@ class ModuleService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $ns = 'Modules\\'.$mod->getName().'\\Models'; // con la barra davanti non va il search ?
 =======
 <<<<<<< HEAD
@@ -765,6 +781,9 @@ class ModuleService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+        $ns = 'Modules\\'.$mod->getName().'\\Models'; // con la barra davanti non va il search ?
+>>>>>>> 50c0e1043 (.)
         foreach ($files as $file) {
             $filename = $file->getRelativePathname();
             $ext = '.php';
@@ -789,6 +808,9 @@ class ModuleService
                  * @var class-string
                  */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50c0e1043 (.)
                 $class = $ns.'\\'.$name;
                 // Strict comparison using === between stdClass and null will always evaluate to false.
 =======
@@ -846,6 +868,7 @@ class ModuleService
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (! $reflection_class->isAbstract()) {
 =======
 <<<<<<< HEAD
@@ -960,6 +983,9 @@ class ModuleService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 8b18e4bff (.)
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> 50c0e1043 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

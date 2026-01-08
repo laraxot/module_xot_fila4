@@ -16,7 +16,7 @@ use Modules\Xot\Tests\TestCase;
 
 uses(TestCase::class);
 
-beforeEach(function (): void {
+beforeEach(function () {
     $this->baseModel = new class extends BaseModel
     {
 =======

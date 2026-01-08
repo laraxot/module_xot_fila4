@@ -8,16 +8,19 @@ use Modules\Xot\Tests\TestCase;
 
 use function Safe\file_put_contents;
 use function Safe\json_encode;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Tests\TestCase;
+>>>>>>> 249a0067 (.)
 
 uses(TestCase::class);
 
-<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
 /**
  * @property string $testSchemaPath
  * @property string $testOutputDir
  */
-=======
->>>>>>> eeaa032 (.):tests/Unit/Console/Commands/generatedbdocumentationcommandtest.pest.php
 beforeEach(function (): void {
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');

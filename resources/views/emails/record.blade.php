@@ -19,7 +19,3 @@ declare(strict_types=1);
     </table>
 </div>
 @endsection
-@endsection
-@endsection 
-@endsection
-@endsection

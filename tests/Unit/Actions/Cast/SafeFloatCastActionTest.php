@@ -82,6 +82,7 @@ it('casts objects', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
 =======
@@ -91,6 +92,8 @@ it('casts objects', function (): void {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
     $result = $this->action->execute(new stdClass);
 =======
     $result = $this->action->execute(new stdClass());

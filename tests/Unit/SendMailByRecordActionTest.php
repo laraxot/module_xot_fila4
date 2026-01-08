@@ -60,6 +60,7 @@ it('throws if record has no email', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -114,10 +115,13 @@ it('throws if record has no email', function (): void {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
         {
             return null;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +132,8 @@ it('throws if record has no email', function (): void {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
         public function myLogs()
 >>>>>>> 53d6a6ba (.)
         {

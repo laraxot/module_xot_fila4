@@ -50,8 +50,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_pdf_content_from_record(): void
     {
         // Arrange
-        /** @var User */
-        $user = User/** @phpstan-ignore-line */ ::factory()->create([
+        $user = User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
@@ -60,12 +59,9 @@ class GetPdfContentByRecordActionTest extends TestCase
         view()->addNamespace('user', resource_path('views'));
 
         // Act & Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectException(Exception::class);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->action->execute($user);
     }
 
@@ -73,23 +69,17 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_correct_view_name(): void
     {
         // Arrange
-        /** @var User */
-        $user = User/** @phpstan-ignore-line */ ::factory()->create();
+        $user = User::factory()->create();
 
         // Use reflection to test protected method
-        /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
-        /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('generateViewName');
-        /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 
         // Act
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $viewName = $method->invoke($this->action, $user);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user::user.show.pdf', $viewName);
     }
 
@@ -97,23 +87,17 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_correct_filename_for_basic_model(): void
     {
         // Arrange
-        /** @var User */
-        $user = User/** @phpstan-ignore-line */ ::factory()->create(['id' => 123, 'name' => 'Test User']);
+        $user = User::factory()->create(['id' => 123, 'name' => 'Test User']);
 
         // Use reflection to test protected method
-        /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
-        /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('generateFilename');
-        /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 
         // Act
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $filename = $method->invoke($this->action, $user);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user_123_test-user.pdf', $filename);
     }
 
@@ -154,11 +138,7 @@ class GetPdfContentByRecordActionTest extends TestCase
 >>>>>>> 71586de2 (.)
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 
-            public string $matr = '';
-            public string $cognome = '';
-            public string $nome = '';
-
-            public function getKey(): int
+            public function getKey()
             {
                 return 456;
             }
@@ -169,19 +149,14 @@ class GetPdfContentByRecordActionTest extends TestCase
         $record->nome = 'Mario';
 
         // Use reflection to test protected method
-        /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
-        /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('generateFilename');
-        /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 
         // Act
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $filename = $method->invoke($this->action, $record);
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('scheda_456_ABC123_Rossi_Mario.pdf', $filename);
     }
 
@@ -189,35 +164,23 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_prepares_correct_view_parameters(): void
     {
         // Arrange
-        /** @var User */
-        $user = User/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Test User']);
+        $user = User::factory()->create(['name' => 'Test User']);
 
         // Use reflection to test protected method
-        /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
-        /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('prepareViewParameters');
-        /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 
         // Act
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
 
         // Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('view', $params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('row', $params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('transKey', $params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user::user.show.pdf', $params['view']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertSame($user, $params['row']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user::users.fields', $params['transKey']);
     }
 
@@ -225,16 +188,12 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_throws_exception_for_missing_view(): void
     {
         // Arrange
-        /** @var User */
-        $user = User/** @phpstan-ignore-line */ ::factory()->create();
+        $user = User::factory()->create();
 
         // Act & Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectException(Exception::class);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->action->execute($user);
     }
 
@@ -243,7 +202,6 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // This test would require mocking view rendering to return empty content
         // Implementation depends on testing infrastructure setup
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->markTestSkipped('Requires view mocking infrastructure');
     }
 
@@ -251,15 +209,12 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_uses_custom_filename_when_provided(): void
     {
         // Arrange
-        /** @var User */
-        $user = User/** @phpstan-ignore-line */ ::factory()->create();
+        $user = User::factory()->create();
         $customFilename = 'custom-report.pdf';
 
         // Act & Assert - Should use custom filename in error message
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectException(Exception::class);
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->action->execute($user, $customFilename);
     }
 
@@ -267,17 +222,13 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_handles_from_record_convenience_method(): void
     {
         // Arrange
-        /** @var User */
-        $user = User/** @phpstan-ignore-line */ ::factory()->create();
+        $user = User::factory()->create();
         $filename = 'convenience-test.pdf';
 
         // Act & Assert
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectException(Exception::class);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->action->fromRecord($user, $filename);
     }
 
@@ -286,7 +237,6 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // This test would require mocking HTML2PDF to throw exceptions
         // Implementation depends on testing infrastructure setup
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->markTestSkipped('Requires HTML2PDF mocking infrastructure');
     }
 
@@ -295,7 +245,6 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // This test would require creating actual test views
         // Implementation depends on test view infrastructure
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->markTestSkipped('Requires test view infrastructure');
     }
 }

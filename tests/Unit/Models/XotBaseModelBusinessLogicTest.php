@@ -16,6 +16,7 @@ describe('XotBaseModel Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
 =======
@@ -26,6 +27,8 @@ describe('XotBaseModel Business Logic', function () {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
         $model = new XotBaseModel;
 =======
         $model = new XotBaseModel();

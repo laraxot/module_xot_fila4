@@ -27,6 +27,7 @@
         "fidum/laravel-eloquent-morph-to-one": "*",
         "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "*",
+        
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",

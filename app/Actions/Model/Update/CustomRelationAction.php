@@ -23,17 +23,13 @@ class CustomRelationAction
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
         $models = [];
         $ids = [];
-        $rows = $relationDTO->rows;
-        $related = $rows->getRelated();
-        Assert::notNull($related, 'Related model cannot be null');
-        $keyName = $related->getKeyName();
+        $related = $relationDTO->related;
+        $keyName = $relationDTO->related->getKeyName();
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
             /** @var array<string, mixed> $data PHPStan: ensure correct type */
             if (\in_array($keyName, array_keys($data), false)) {
-                /** @var array<string, mixed> $typedData */
-                $typedData = $data;
-                $res = app(UpdateAction::class)->execute($related, $typedData, []);
+                $res = app(UpdateAction::class)->execute($related, $data, []);
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

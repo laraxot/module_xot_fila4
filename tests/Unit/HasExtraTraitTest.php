@@ -145,6 +145,7 @@ describe('HasExtraTrait', function () {
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             public function model()
 =======
 =======
@@ -171,6 +172,9 @@ describe('HasExtraTrait', function () {
 
             public function model()
 >>>>>>> 71586de2 (.)
+=======
+            public function model()
+>>>>>>> 249a0067 (.)
             {
                 return $this->morphTo();
             }
@@ -205,6 +209,7 @@ describe('HasExtraTrait', function () {
 >>>>>>> 300ef70 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line property.notFound */
 >>>>>>> b7afadf9 (.)
@@ -227,6 +232,8 @@ describe('HasExtraTrait', function () {
 =======
 >>>>>>> 71586de2 (.)
 
+=======
+>>>>>>> 249a0067 (.)
         $result = $this->testModel->getExtra('non_existent_key');
 
         expect($result)->toBeNull();
@@ -243,6 +250,7 @@ describe('HasExtraTrait', function () {
 <<<<<<< HEAD
         $mockExtra = new class
         {
+<<<<<<< HEAD
 =======
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
@@ -289,6 +297,9 @@ describe('HasExtraTrait', function () {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+            public $extra_attributes;
+>>>>>>> 249a0067 (.)
 
             public function __construct()
             {
@@ -324,9 +335,10 @@ describe('HasExtraTrait', function () {
         expect($result)->toBe('test_value');
     });
 
-    it('handles different data types correctly', function (): void {
+    it('handles different data types correctly', function () {
         $mockExtra = new class
         {
+<<<<<<< HEAD
             public \Illuminate\Support\Collection $extra_attributes;
 >>>>>>> b7afadf9 (.)
 
@@ -363,6 +375,8 @@ describe('HasExtraTrait', function () {
     it('handles different data types correctly', function () {
         $mockExtra = new class
         {
+=======
+>>>>>>> 249a0067 (.)
             public $extra_attributes;
 
             public function __construct()
@@ -411,9 +425,10 @@ describe('HasExtraTrait', function () {
 =======
     });
 
-    it('throws exception for invalid data types', function (): void {
+    it('throws exception for invalid data types', function () {
         $mockExtra = new class
         {
+<<<<<<< HEAD
             public \Illuminate\Support\Collection $extra_attributes;
 >>>>>>> b7afadf9 (.)
 
@@ -447,6 +462,8 @@ describe('HasExtraTrait', function () {
     it('throws exception for invalid data types', function () {
         $mockExtra = new class
         {
+=======
+>>>>>>> 249a0067 (.)
             public $extra_attributes;
 
             public function __construct()
@@ -467,6 +484,7 @@ describe('HasExtraTrait', function () {
 
         $this->testModel->extra = $mockExtra;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,6 +554,8 @@ describe('HasExtraTrait', function () {
 =======
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound */
+=======
+>>>>>>> 249a0067 (.)
         expect(fn () => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
 =======
         expect(fn() => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
@@ -663,6 +683,7 @@ describe('HasExtraTrait', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->toBe('name')
             ->and($setParameters[0]->getType()?->getName())
             ->toBe('string');
@@ -738,6 +759,11 @@ describe('HasExtraTrait', function () {
             ->and($setParameters[0]->getType()?->getName())
             ->toBe('string');
 >>>>>>> 71586de2 (.)
+=======
+            ->toBe('name')
+            ->and($setParameters[0]->getType()?->getName())
+            ->toBe('string');
+>>>>>>> 249a0067 (.)
     });
 
     it('has proper return type annotations', function () {
@@ -761,6 +787,7 @@ describe('HasExtraTrait', function () {
     });
 
     it('handles empty extra attributes', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -791,6 +818,10 @@ describe('HasExtraTrait', function () {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+        $mockExtra = new class
+        {
+>>>>>>> 249a0067 (.)
             public $extra_attributes;
 
             public function __construct()
@@ -801,6 +832,7 @@ describe('HasExtraTrait', function () {
 
         $this->testModel->extra = $mockExtra;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -843,6 +875,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
         $result = $this->testModel->getExtra('non_existent');
         expect($result)->toBeNull();
     });
@@ -873,6 +907,7 @@ describe('HasExtraTrait', function () {
 >>>>>>> 300ef70 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line method.nonObject */
 >>>>>>> b7afadf9 (.)
@@ -896,6 +931,8 @@ describe('HasExtraTrait', function () {
 =======
 >>>>>>> 71586de2 (.)
 
+=======
+>>>>>>> 249a0067 (.)
         $docComment = $getExtraMethod->getDocComment();
         expect($docComment)->toBeString()->and($docComment)->toContain('@return');
     });

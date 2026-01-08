@@ -45,6 +45,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -268,8 +269,13 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
+=======
+uses(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> c06600c (.)
 
 /*
 <<<<<<< HEAD
@@ -308,6 +314,7 @@ pest()->extend(TestCase::class)
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
@@ -324,6 +331,7 @@ pest()->extend(TestCase::class)
 =======
 >>>>>>> b956ebe0 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504,10 +512,13 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> cf971011 (.)
 =======
+>>>>>>> 3849ae0e (.)
+=======
  * | Quando definisci aspettative globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,6 +760,9 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -762,6 +776,7 @@ namespace Modules\Xot\Tests\Pest;
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -893,10 +908,13 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 3849ae0e (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -937,9 +955,12 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> cf971011 (.)
 =======
+>>>>>>> 3849ae0e (.)
+=======
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1223,3 +1244,6 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)

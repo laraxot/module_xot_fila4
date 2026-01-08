@@ -47,6 +47,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -184,9 +185,14 @@ use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 >>>>>>> 14edd1a1 (.)
 =======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+>>>>>>> 3849ae0e (.)
+=======
 use Modules\Xot\Datas\MetatagData;
 use Filament\Support\Colors\Color;
 >>>>>>> c06600c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e59778ae (.)
@@ -340,6 +346,8 @@ use Modules\Xot\Datas\MetatagData;
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
@@ -549,6 +557,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
 =======
 <<<<<<< HEAD
@@ -578,6 +587,8 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
     expect($colors)
         ->toBeArray()
         ->and($colors)
@@ -814,6 +825,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
 =======
 =======
@@ -829,10 +841,14 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 =======
 =======
 >>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> 3849ae0e (.)
     expect($colors)->toBeArray()
         ->and($colors)->toHaveKeys(['danger', 'gray', 'info', 'primary', 'success', 'warning'])
         ->and($colors['danger'])->toBe(Color::Red)
         ->and($colors['primary'])->toBe(Color::Amber);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -865,6 +881,9 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
 });
 
 /**
@@ -888,6 +907,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
         'custom_color' => [
             'key' => 'custom_color',
             'color' => 'custom',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1009,12 +1029,15 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
             'hex' => '#FF5500',
         ],
         'primary' => [
             'key' => 'primary',
             'color' => 'amber',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,12 +1127,16 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 =======
 =======
 >>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> 3849ae0e (.)
             'hex' => '#FF5500'
         ],
         'primary' => [
             'key' => 'primary',
             'color' => 'amber'
         ]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1635,10 +1662,14 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
     ];
 
     $colors = $metatagData->getColors();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1655,9 +1686,13 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 >>>>>>> cf971011 (.)
 =======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 3849ae0e (.)
+=======
     expect($colors)->toBeArray()
         ->and($colors)->toHaveKey('custom_color')
         ->and($colors)->toHaveKey('primary');
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -1712,6 +1747,9 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 =======
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
 });
 
 /**
@@ -1913,6 +1951,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
 =======
 <<<<<<< HEAD
@@ -1942,6 +1981,8 @@ test('Le proprietà hanno i valori di default corretti', function () {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
     expect($metatagData->generator)
         ->toBe('xot')
         ->and($metatagData->charset)
@@ -1952,6 +1993,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
         ->toBe('2em')
         ->and($metatagData->favicon)
         ->toBe('/favicon.ico');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2072,11 +2114,15 @@ test('Le proprietà hanno i valori di default corretti', function () {
 =======
 =======
 >>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> 3849ae0e (.)
     expect($metatagData->generator)->toBe('xot')
         ->and($metatagData->charset)->toBe('UTF-8')
         ->and($metatagData->author)->toBe('xot')
         ->and($metatagData->logo_height)->toBe('2em')
         ->and($metatagData->favicon)->toBe('/favicon.ico');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2219,4 +2265,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
 });

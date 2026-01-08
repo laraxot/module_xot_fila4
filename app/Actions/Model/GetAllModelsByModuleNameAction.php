@@ -28,7 +28,39 @@ class GetAllModelsByModuleNameAction
     public function execute(string $moduleName): array
     {
         $mod = Module::find($moduleName);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+=======
+        if (! $mod instanceof \Nwidart\Modules\Module) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             return [];
         }
 
@@ -60,7 +92,74 @@ class GetAllModelsByModuleNameAction
                 // 434    Parameter #1 $argument of class ReflectionClass constructor expects class-string<T of object>|T of object, string given.
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
+<<<<<<< HEAD
                     if (! $reflection_class->isAbstract()) {
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+                $class = $ns . '\\' . $name;
+                //if ($tmp !== null) {
+                $tmp->class = $class;
+                $name = Str::snake($name);
+                $tmp->name = $name;
+                //}
+                // 434    Parameter #1 $argument of class ReflectionClass constructor expects class-string<T of object>|T of object, string given.
+                try {
+                    $reflection_class = new ReflectionClass($tmp->class);
+                    if (!$reflection_class->isAbstract()) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    if (!$reflection_class->isAbstract()) {
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> f1d4085 (.)
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

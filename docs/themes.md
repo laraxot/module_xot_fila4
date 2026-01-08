@@ -1,7 +1,47 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Temi in il progetto
 
 il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+<<<<<<< HEAD
+=======
+=======
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 71f31700 (.)
+=======
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+=======
+il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 5a14301c (.)
+=======
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 71f31700 (.)
+=======
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+=======
+il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> c35986f4 (.)
+=======
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+=======
+il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+=======
+# Temi in il progetto
+
+il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
 
 ## Struttura dei Temi
 
@@ -47,7 +87,52 @@ Le viste devono essere organizzate in:
 
 ## Tema One
 
+<<<<<<< HEAD
 Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+>>>>>>> 71f31700 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
+>>>>>>> 5a14301c (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+>>>>>>> 71f31700 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+>>>>>>> c35986f4 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
 
 ### Blocchi Disponibili
 - Hero
@@ -85,11 +170,19 @@ Per personalizzare un tema:
 8. **Documentazione**: Documenta tutto accuratamente 
 ## Collegamenti tra versioni di themes.md
 * [themes.md](docs/rules/themes.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 * [themes.md](../../../Xot/docs/themes.md)
 * [themes.md](../../../Cms/docs/frontoffice/themes.md)
 
 * [README.md Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/README.md)
 * [Convenzioni Namespace Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/namespace-conventions.md)b6f667c (.)
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -112,4 +205,22 @@ Per personalizzare un tema:
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+* [themes.md](../../../Xot/project_docs/themes.md)
+* [themes.md](../../../Cms/project_docs/frontoffice/themes.md)
+
+* [README.md Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/project_docs/README.md)
+* [Convenzioni Namespace Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/project_docs/namespace-conventions.md)b6f667c (.)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)

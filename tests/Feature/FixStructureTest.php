@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -45,12 +50,26 @@ namespace Modules\Xot\Tests\Feature;
 =======
 use Modules\Xot\Tests\TestCase;
 
+<<<<<<< HEAD
 use function Safe\chdir;
 use function Safe\mkdir;
 use function Safe\rmdir;
 use function Safe\scandir;
 use function Safe\unlink;
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 73eab74 (.)
+namespace Modules\Xot\Tests\Feature;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
 use Illuminate\Support\Facades\File;
 >>>>>>> 5a14301c (.)
@@ -62,6 +81,7 @@ use Tests\TestCase;
  */
 class FixStructureTest extends TestCase
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     private string $testDir;
 
@@ -258,6 +278,8 @@ class FixStructureTest extends TestCase
 >>>>>>> 9db27d12 (.)
                     }
 =======
+=======
+>>>>>>> ab8cc3f3 (.)
     if (is_dir($dir)) {
         $objects = scandir($dir);
         foreach ($objects as $object) {
@@ -268,11 +290,75 @@ class FixStructureTest extends TestCase
                     removeDirectory($fullPath);
                 } else {
                     unlink($fullPath);
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
+=======
+=======
+    private string $testDir;
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        // Creiamo una directory temporanea per i test
+        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
+<<<<<<< HEAD
+        mkdir($this->testDir, 0o755, true);
+=======
+        mkdir($this->testDir, 0755, true);
+>>>>>>> f1d4085 (.)
+=======
+        mkdir($this->testDir, 0o755, true);
+>>>>>>> 73eab74 (.)
+
+        // Impostiamo la directory di lavoro
+        chdir($this->testDir);
+    }
+
+    protected function tearDown(): void
+    {
+        // Puliamo la directory di test
+        $this->rrmdir($this->testDir);
+
+        parent::tearDown();
+    }
+
+    /**
+     * Funzione ricorsiva per eliminare una directory con tutti i suoi contenuti.
+     */
+    private function rrmdir($dir)
+    {
+        if (is_dir($dir)) {
+            $objects = scandir($dir);
+            foreach ($objects as $object) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+                if ($object !== '.' && $object !== '..') {
+                    if (is_dir($dir . DIRECTORY_SEPARATOR . $object) && !is_link($dir . '/' . $object)) {
+                        $this->rrmdir($dir . DIRECTORY_SEPARATOR . $object);
+                    } else {
+                        unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
+=======
+                if ($object != "." && $object != "..") {
+                    if (is_dir($dir. DIRECTORY_SEPARATOR .$object) && !is_link($dir."/".$object)) {
+                        $this->rrmdir($dir. DIRECTORY_SEPARATOR .$object);
+                    } else {
+                        unlink($dir. DIRECTORY_SEPARATOR .$object);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+                    }
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
                 }
             }
             rmdir($dir);
         }
+<<<<<<< HEAD
     }
 
     #[Test]
@@ -295,10 +381,32 @@ class FixStructureTest extends TestCase
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+        rmdir($dir);
+=======
+    }
+
+    #[Test]
+    public function testMoveToAppFunctionality(): void
+    {
+        // Creiamo una struttura di directory di test
+<<<<<<< HEAD
+<<<<<<< HEAD
+        mkdir($this->testDir . '/Actions', 0o755, true);
+=======
+        mkdir($this->testDir . '/Actions', 0755, true);
+>>>>>>> f1d4085 (.)
+=======
+        mkdir($this->testDir . '/Actions', 0o755, true);
+>>>>>>> 73eab74 (.)
+        file_put_contents($this->testDir . '/Actions/test.php', '<?php echo "test";');
+>>>>>>> ab8cc3f3 (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
@@ -324,30 +432,74 @@ class FixStructureTest extends TestCase
 >>>>>>> 5a14301c (.)
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
+=======
+        file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
+<<<<<<< HEAD
+<<<<<<< HEAD
+        chmod($this->testDir . '/fix_structure.sh', 0o755);
+=======
+        chmod($this->testDir . '/fix_structure.sh', 0755);
+>>>>>>> f1d4085 (.)
+=======
+        chmod($this->testDir . '/fix_structure.sh', 0o755);
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
         // Eseguiamo lo script
         exec('cd ' . $this->testDir . ' && ./fix_structure.sh');
 
         // Verifichiamo che la cartella Actions sia stata spostata in app/
+<<<<<<< HEAD
         static::assertDirectoryExists($this->testDir . '/app/Actions');
         static::assertFileExists($this->testDir . '/app/Actions/test.php');
         static::assertDirectoryDoesNotExist($this->testDir . '/Actions');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        static::assertDirectoryExists($this->testDir . '/app/Actions');
+        static::assertFileExists($this->testDir . '/app/Actions/test.php');
+        static::assertDirectoryDoesNotExist($this->testDir . '/Actions');
+=======
+        $this->assertDirectoryExists($this->testDir . '/app/Actions');
+        $this->assertFileExists($this->testDir . '/app/Actions/test.php');
+        $this->assertDirectoryDoesNotExist($this->testDir . '/Actions');
+>>>>>>> f1d4085 (.)
+=======
+        static::assertDirectoryExists($this->testDir . '/app/Actions');
+        static::assertFileExists($this->testDir . '/app/Actions/test.php');
+        static::assertDirectoryDoesNotExist($this->testDir . '/Actions');
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 
     #[Test]
     public function testRenameToLowerFunctionality(): void
     {
         // Creiamo una struttura di directory di test
+<<<<<<< HEAD
         mkdir($this->testDir . '/Config', 0o755, true);
         file_put_contents($this->testDir . '/Config/test.php', '<?php echo "test";');
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        mkdir($this->testDir . '/Config', 0o755, true);
+=======
+        mkdir($this->testDir . '/Config', 0755, true);
+>>>>>>> f1d4085 (.)
+=======
+        mkdir($this->testDir . '/Config', 0o755, true);
+>>>>>>> 73eab74 (.)
+        file_put_contents($this->testDir . '/Config/test.php', '<?php echo "test";');
+>>>>>>> ab8cc3f3 (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
@@ -376,33 +528,84 @@ class FixStructureTest extends TestCase
 >>>>>>> 5a14301c (.)
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
+=======
+        file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
+<<<<<<< HEAD
+<<<<<<< HEAD
+        chmod($this->testDir . '/fix_structure.sh', 0o755);
+=======
+        chmod($this->testDir . '/fix_structure.sh', 0755);
+>>>>>>> f1d4085 (.)
+=======
+        chmod($this->testDir . '/fix_structure.sh', 0o755);
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
         // Eseguiamo lo script
         exec('cd ' . $this->testDir . ' && ./fix_structure.sh');
 
         // Verifichiamo che la cartella Config sia stata rinominata in config
+<<<<<<< HEAD
         static::assertDirectoryExists($this->testDir . '/config');
         static::assertFileExists($this->testDir . '/config/test.php');
         static::assertDirectoryDoesNotExist($this->testDir . '/Config');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        static::assertDirectoryExists($this->testDir . '/config');
+        static::assertFileExists($this->testDir . '/config/test.php');
+        static::assertDirectoryDoesNotExist($this->testDir . '/Config');
+=======
+        $this->assertDirectoryExists($this->testDir . '/config');
+        $this->assertFileExists($this->testDir . '/config/test.php');
+        $this->assertDirectoryDoesNotExist($this->testDir . '/Config');
+>>>>>>> f1d4085 (.)
+=======
+        static::assertDirectoryExists($this->testDir . '/config');
+        static::assertFileExists($this->testDir . '/config/test.php');
+        static::assertDirectoryDoesNotExist($this->testDir . '/Config');
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 
     #[Test]
     public function testMoveConfigFunctionality(): void
     {
         // Creiamo una struttura di directory di test con entrambe le versioni
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
         mkdir($this->testDir . '/Config', 0o755, true);
         file_put_contents($this->testDir . '/Config/main.php', '<?php echo "main";');
 
         mkdir($this->testDir . '/config', 0o755, true);
+<<<<<<< HEAD
         file_put_contents($this->testDir . '/config/secondary.php', '<?php echo "secondary";');
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+        mkdir($this->testDir . '/Config', 0755, true);
+        file_put_contents($this->testDir . '/Config/main.php', '<?php echo "main";');
+
+        mkdir($this->testDir . '/config', 0755, true);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+        file_put_contents($this->testDir . '/config/secondary.php', '<?php echo "secondary";');
+>>>>>>> ab8cc3f3 (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
@@ -422,16 +625,36 @@ class FixStructureTest extends TestCase
 >>>>>>> 5a14301c (.)
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
+=======
+        file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
+<<<<<<< HEAD
+<<<<<<< HEAD
+        chmod($this->testDir . '/fix_structure.sh', 0o755);
+=======
+        chmod($this->testDir . '/fix_structure.sh', 0755);
+>>>>>>> f1d4085 (.)
+=======
+        chmod($this->testDir . '/fix_structure.sh', 0o755);
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
         // Eseguiamo lo script
         exec('cd ' . $this->testDir . ' && ./fix_structure.sh');
 
         // Verifichiamo che i contenuti siano stati uniti e che la cartella minuscola contenga tutto
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
         static::assertDirectoryExists($this->testDir . '/config');
         static::assertFileExists($this->testDir . '/config/main.php');
         static::assertFileExists($this->testDir . '/config/secondary.php');
         static::assertDirectoryDoesNotExist($this->testDir . '/Config');
         static::assertDirectoryExists($this->testDir . '/config_old');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,11 +698,15 @@ class FixStructureTest extends TestCase
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
         $this->assertDirectoryExists($this->testDir . '/config');
         $this->assertFileExists($this->testDir . '/config/main.php');
         $this->assertFileExists($this->testDir . '/config/secondary.php');
         $this->assertDirectoryDoesNotExist($this->testDir . '/Config');
         $this->assertDirectoryExists($this->testDir . '/config_old');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -530,5 +757,11 @@ class FixStructureTest extends TestCase
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 }

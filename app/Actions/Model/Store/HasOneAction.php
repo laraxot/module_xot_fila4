@@ -16,12 +16,30 @@ class HasOneAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
 
         if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
             $related_id = Arr::first($relationDTO->data);
+<<<<<<< HEAD
+=======
+            $related = $relationDTO->related->find($related_id);
+            if (!($related instanceof Model)) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+>>>>>>> d2b0a27 (.)
 
             // Verifica che related sia un Model prima di chiamare find()
             if (! ($relationDTO->related instanceof Model)) {
@@ -31,6 +49,140 @@ class HasOneAction
             $related = $relationDTO->related::find($related_id);
             if (! ($related instanceof Model)) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+            if (!($related instanceof Model)) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> b93ef594b4 (.)
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+
+        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+<<<<<<< HEAD
+            if (! $related instanceof Model) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> a12f125f4a (.)
+=======
+            if (!($related instanceof Model)) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
+
+        if (! Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            $related = $relationDTO->related->find($related_id);
+            if (! $related instanceof Model) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
             }
 
             $rows->save($related);
@@ -39,6 +191,13 @@ class HasOneAction
         }
 
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
          * $rows = $relation->rows;
          * try {
          * $related = $rows->create($relation->data);
@@ -54,5 +213,28 @@ class HasOneAction
          * $model->update($data1);
          * }
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        $rows = $relation->rows;
+        try {
+            $related = $rows->create($relation->data);
+        } catch (\Exception $e) {
+            // "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY' (SQL: insert into `liveuser_users` (`first_name`, `last_name`, `email`, `auth_user_id`, `created_by`, `updated_by`, `updated_at`, `created_at`) values (gfdsfs, fdsfds, fds
+            // dddx(['e' => $e->getMessage(), 'data' => $data]);
+            $related = $rows->update($relation->data);
+        }
+        if (! $model->{$relation->name}->exists()) {// collegamento non riuscito
+            $pk_local = $rows->getLocalKeyName();
+            $pk_fore = $rows->getForeignKeyName();
+            $data1 = [$pk_local => $related->$pk_fore];
+            $model->update($data1);
+        }
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 }

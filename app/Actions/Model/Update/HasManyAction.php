@@ -29,7 +29,19 @@ class HasManyAction
 
         $updateData = new HasManyUpdateData(
             foreignKey: $relation->getForeignKeyName(),
+<<<<<<< HEAD
             parentKey: $model->getAttribute($relation->getLocalKeyName()),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            parentKey: $model->getAttribute($relation->getLocalKeyName()),
+=======
+            parentKey: $model->getAttribute($relation->getLocalKeyName())
+>>>>>>> f1d4085 (.)
+=======
+            parentKey: $model->getAttribute($relation->getLocalKeyName()),
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         );
 
         match (true) {
@@ -58,12 +70,34 @@ class HasManyAction
         /** @var Builder $query */
         $query = $related->newQuery();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $query->where($updateData->foreignKey, $updateData->parentKey)->update([$updateData->foreignKey => null]);
 
         $toIds = $relationDTO->data['to'] ?? [];
         if ($toIds) {
             $query
+<<<<<<< HEAD
                 ->whereIn($related->getKeyName(), $toIds)
+=======
+                ->whereIn($relationDTO->related->getKeyName(), $toIds)
+<<<<<<< HEAD
+=======
+        $query->where($updateData->foreignKey, $updateData->parentKey)
+            ->update([$updateData->foreignKey => null]);
+
+        $toIds = $relationDTO->data['to'] ?? [];
+        if ($toIds) {
+            $query->whereIn($relationDTO->related->getKeyName(), $toIds)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 ->update([$updateData->foreignKey => $updateData->parentKey]);
         }
     }
@@ -80,7 +114,122 @@ class HasManyAction
 
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
+<<<<<<< HEAD
             if (! isset($item[$keyName])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (! isset($item[$keyName])) {
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+            if (!isset($item[$keyName])) {
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!isset($item[$keyName])) {
+=======
+            if (! isset($item[$keyName])) {
+>>>>>>> a12f125f4a (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> b93ef594b4 (.)
+=======
+            if (! isset($item[$keyName])) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+            if (! isset($item[$keyName])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+            if (!isset($item[$keyName])) {
+=======
+            if (! isset($item[$keyName])) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($item[$keyName])) {
+=======
+            if (! isset($item[$keyName])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 9db27d12 (.)
+=======
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
                 continue;
             }
 
@@ -89,7 +238,23 @@ class HasManyAction
                 $updateData->foreignKey => $updateData->parentKey,
             ]);
 
+<<<<<<< HEAD
             $result = app(UpdateAction::class)->execute($related, $itemData, []);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
+=======
+            $result = app(UpdateAction::class)->execute(
+                $relationDTO->related,
+                $itemData,
+                []
+            );
+>>>>>>> f1d4085 (.)
+=======
+            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
             if ($result instanceof Model) {
                 $id = $result->getKey();
@@ -113,6 +278,7 @@ class HasManyAction
         array $updatedIds,
     ): void {
         if ($updatedIds) {
+<<<<<<< HEAD
             $relation = $relationDTO->rows;
             Assert::isInstanceOf($relation, HasMany::class);
             $related = $relation->getRelated();
@@ -120,6 +286,21 @@ class HasManyAction
 
             $related
                 ->newQuery()
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $relationDTO
+                ->related
+                ->newQuery()
+=======
+            $relationDTO->related->newQuery()
+>>>>>>> f1d4085 (.)
+=======
+            $relationDTO
+                ->related
+                ->newQuery()
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 ->where($updateData->foreignKey, $updateData->parentKey)
                 ->whereNotIn($related->getKeyName(), $updatedIds)
                 ->update([$updateData->foreignKey => null]);

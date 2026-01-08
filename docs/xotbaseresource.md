@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # XotBaseResource
 
 ## Panoramica
@@ -12,7 +16,35 @@ XotBaseResource è la classe base astratta per tutte le risorse Filament nel sis
 Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle classi figlie:
 
 ```php
+<<<<<<< HEAD
 final public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+final public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+final public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+final public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+final public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+final public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+final public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+=======
+final public static function form(Form $form): Form
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
 {
     return $form->schema(static::getFormSchema());
 }
@@ -77,6 +109,13 @@ class NotificationResource extends XotBaseResource
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 - [Architettura Filament](../../../docs/architecture/filament.md)
 - [Gestione Risorse](../../../docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../docs/regole/xotbaseresource-rules.md)
@@ -84,6 +123,21 @@ class NotificationResource extends XotBaseResource
 ### Collegamenti ai Moduli
 - [Notify Resource](../../Notify/docs/filament-resources.md)
 - [User Resource](../../User/docs/filament-resources.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+- [Architettura Filament](../../../project_docs/architecture/filament.md)
+- [Gestione Risorse](../../../project_docs/architecture/resources.md)
+- [Regole XotBaseResource](../../../project_docs/regole/xotbaseresource-rules.md)
+
+### Collegamenti ai Moduli
+- [Notify Resource](../../Notify/project_docs/filament-resources.md)
+- [User Resource](../../User/project_docs/filament-resources.md)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
 ## Note Importanti
 
@@ -91,6 +145,15 @@ class NotificationResource extends XotBaseResource
 2. Implementare sempre i metodi astratti richiesti
 3. Utilizzare i file di traduzione per le label
 4. Evitare override non necessari di metodi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 48515e368 (.)
 5. Seguire le convenzioni di Filament 
 <<<<<<< HEAD
 =======
@@ -112,4 +175,11 @@ class NotificationResource extends XotBaseResource
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)

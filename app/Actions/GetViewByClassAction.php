@@ -23,10 +23,30 @@ class GetViewByClassAction
      * @param  array<string, mixed>  $params  Parametri da passare alla vista
      * @param  string|null  $viewName  Nome personalizzato della vista
      */
+<<<<<<< HEAD
     public function execute(string $class, array $params = [], ?string $viewName = null): View
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+    public function execute(string $class, array $params = [], null|string $viewName = null): View
+    {
+        $viewName ??= $this->getViewNameFromClass($class);
+
+<<<<<<< HEAD
+=======
+    public function execute(string $class, array $params = [], ?string $viewName = null): View
+    {
+        $viewName = $viewName ?? $this->getViewNameFromClass($class);
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
     }
@@ -68,5 +88,130 @@ class GetViewByClassAction
         $className = end($parts);
 
         return Str::kebab($className);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 5a14301c (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 399f46d3 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $module_low . '::pages.' . $class_name;
+=======
+        return $module_low.'::pages.'.$class_name;
+>>>>>>> a12f125f4a (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> b93ef594b4 (.)
+=======
+        return $module_low.'::pages.'.$class_name;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> ca9324a4 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    }
+
+    /**
+     * Risolve il percorso della view basato sul namespace della classe.
+     *
+     * @param  string  $class  Il nome completo della classe
+     * @return string Il percorso della view
+     */
+    public function executeOld(string $class): string
+    {
+        $arr = explode('\\', $class);
+        Assert::isArray($arr);
+
+        // Verifica che la classe sia nel namespace Modules
+        if ($arr[0] !== 'Modules') {
+            throw new InvalidArgumentException('Class must be in Modules namespace');
+        }
+
+        $module = $arr[1];
+        $module_low = Str::lower($module);
+
+        // Estrai il nome della classe e convertilo in kebab-case
+        $class_name = Str::kebab(class_basename($class));
+
+        // Costruisci il percorso della view
+<<<<<<< HEAD
+        return $module_low.'::pages.'.$class_name;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+        return $module_low . '::pages.' . $class_name;
+=======
+        return $module_low.'::pages.'.$class_name;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> ca9324a4 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+=======
+        return $module_low.'::pages.'.$class_name;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 9db27d12 (.)
+=======
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
     }
 }

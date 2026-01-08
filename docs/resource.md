@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # XotBaseResource
 
 ## Overview
@@ -520,6 +524,28 @@ public function getTableColumns(): array
 2. Usa i metodi standard di Filament per la configurazione della tabella
 3. Mantieni la visibilità pubblica dei metodi
 4. Non aggiungere il prefisso "List" ai nomi dei metodi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+5. **Bugfix 19/11/2025**: la classe dichiara `getResource()` una sola volta. Se vedi un errore “Cannot redeclare XotBaseListRecords::getResource”, assicurati di non introdurre duplicati.
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
 
 ## Tipizzazione degli Array
 
@@ -606,8 +632,23 @@ public function getTableBulkActions(): array
 // ... existing code ... 
 
 ## Collegamenti tra versioni di resource.md
+<<<<<<< HEAD
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+* [resource.md](../../../Xot/docs/filament/resource.md)
+* [resource.md](../../../Xot/docs/resource.md)
+=======
+* [resource.md](../../../Xot/project_docs/filament/resource.md)
+* [resource.md](../../../Xot/project_docs/resource.md)
+>>>>>>> f1d4085 (.)
+=======
+* [resource.md](../../../Xot/docs/filament/resource.md)
+* [resource.md](../../../Xot/docs/resource.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
 
 ### Versione Incoming
@@ -618,6 +659,7 @@ public function getTableBulkActions(): array
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -636,4 +678,10 @@ public function getTableBulkActions(): array
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)

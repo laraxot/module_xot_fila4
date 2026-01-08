@@ -8,6 +8,64 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Widgets\WidgetConfiguration;
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
+use Spatie\Health\Checks\Checks\OptimizedAppCheck;
+use Spatie\Health\Checks\Checks\DebugModeCheck;
+use Spatie\Health\Checks\Checks\EnvironmentCheck;
+use Spatie\Health\Checks\Checks\UsedDiskSpaceCheck;
+use Spatie\Health\Checks\Checks\DatabaseCheck;
+use Spatie\Health\Checks\Checks\DatabaseSizeCheck;
+use Spatie\Health\Checks\Checks\DatabaseTableSizeCheck;
+use Spatie\Health\Checks\Checks\CacheCheck;
+use Spatie\Health\Checks\Checks\DatabaseConnectionCountCheck;
+use Spatie\Health\Checks\Checks\FlareErrorOccurrenceCountCheck;
+use Spatie\Health\Checks\Checks\HorizonCheck;
+use Spatie\Health\Checks\Checks\QueueCheck;
+use Spatie\Health\Checks\Checks\RedisCheck;
+use Spatie\Health\Checks\Checks\ScheduleCheck;
+use Spatie\Health\Checks\Checks\RedisMemoryUsageCheck;
+use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
+use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
+use Laraxot\SmtpHealthCheck\SmtpCheck;
+use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Widgets\WidgetConfiguration;
@@ -104,6 +162,16 @@ class HealthPage extends XotBasePage
     {
         return [
             Action::make('refresh')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

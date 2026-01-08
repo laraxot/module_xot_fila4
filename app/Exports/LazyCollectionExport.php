@@ -23,7 +23,122 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
     public array $headings;
 
+<<<<<<< HEAD
     public ?string $transKey;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public ?string $transKey;
+=======
+    public null|string $transKey;
+>>>>>>> 5a14301c (.)
+=======
+    public null|string $transKey;
+>>>>>>> 3fbbf1f5 (.)
+=======
+    public null|string $transKey;
+=======
+    public null|string $transKey;
+>>>>>>> 399f46d3 (.)
+=======
+    public null|string $transKey;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|string $transKey;
+=======
+    public ?string $transKey;
+>>>>>>> a12f125f4a (.)
+=======
+    public null|string $transKey;
+>>>>>>> b93ef594b4 (.)
+=======
+    public ?string $transKey;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+    public null|string $transKey;
+>>>>>>> ca9324a4 (.)
+=======
+    public null|string $transKey;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    public ?string $transKey;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+    public null|string $transKey;
+=======
+    public ?string $transKey;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    public null|string $transKey;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public null|string $transKey;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public null|string $transKey;
+>>>>>>> ca9324a4 (.)
+=======
+    public null|string $transKey;
+=======
+    public ?string $transKey;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public null|string $transKey;
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public null|string $transKey;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public null|string $transKey;
+>>>>>>> 9db27d12 (.)
+=======
+=======
+    public null|string $transKey;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
 
     /** @var array<int, string> */
     public array $fields = [];
@@ -31,16 +146,44 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     /**
      * @param  array<int, string>  $fields
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public function __construct(
         public LazyCollection $collection,
         ?string $transKey = null,
         array $fields = [],
     ) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function __construct(public LazyCollection $collection, ?string $transKey = null, array $fields = [])
+    {
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         // $this->headings = count($headings) > 0 ? $headings : collect($collection->first())->keys()->toArray();
 
         $this->transKey = $transKey;
         $this->fields = $fields;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         // $this->headings = $headings->toArray();
     }
 
@@ -64,13 +207,96 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         /*
          * return [
          * $row->,
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+     * Undocumented function.
+     *
+     * @param Collection $item
+     */
+    public function map($item): array
+    {
+        $data = $item->only($this->fields);
+
+<<<<<<< HEAD
+        return $data->toArray();
+=======
+<<<<<<< HEAD
+        $fields = array_map('strval', $this->fields);
+        $data = $item->only($fields);
+
+        return $data;
+=======
+        return $data->toArray();
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+
+        /*
+         * return [
+         * $item->,
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 48515e368 (.)
          * ];
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        /*
+        return [
+            $item->,
+        ];
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 
     public function getHead(): Collection
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
         if (! empty($this->fields)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($this->fields)) {
+=======
+        if (! empty($this->fields)) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!empty($this->fields)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             return collect($this->fields);
         }
 

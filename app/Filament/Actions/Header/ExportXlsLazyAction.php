@@ -8,7 +8,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Actions\Header;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Exception;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 use Modules\Xot\Actions\Export\ExportXlsByLazyCollection;
@@ -22,7 +33,9 @@ class ExportXlsLazyAction extends Action
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
 
+<<<<<<< HEAD
         $this->label((string) __('xot::actions.export_xls.label'))
             ->tooltip((string) __('xot::actions.export_xls.tooltip'))
             ->icon((string) __('xot::actions.export_xls.icon'))
@@ -31,13 +44,50 @@ class ExportXlsLazyAction extends Action
             ->modalSubmitActionLabel((string) __('xot::actions.export_xls.modal.confirm'))
             ->modalCancelActionLabel((string) __('xot::actions.export_xls.modal.cancel'))
             ->successNotificationTitle((string) __('xot::actions.export_xls.success'))
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+        $this->label(__('xot::actions.export_xls.label'))
+            ->tooltip(__('xot::actions.export_xls.tooltip'))
+            ->icon(__('xot::actions.export_xls.icon'))
+            ->modalHeading(__('xot::actions.export_xls.modal.heading'))
+            ->modalDescription(__('xot::actions.export_xls.modal.description'))
+            ->modalSubmitActionLabel(__('xot::actions.export_xls.modal.confirm'))
+            ->modalCancelActionLabel(__('xot::actions.export_xls.modal.cancel'))
+            ->successNotificationTitle(__('xot::actions.export_xls.success'))
+>>>>>>> 48515e368 (.)
             ->requiresConfirmation()
             ->action(static function (ListRecords $livewire) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 $filename =
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
                     '.xlsx';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
 
@@ -93,6 +143,13 @@ class ExportXlsLazyAction extends Action
                 }
 
                 $lazy = $livewire->getFilteredTableQuery();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 if ($lazy === null) {
                     throw new Exception('Query is null');
                 }
@@ -103,11 +160,39 @@ class ExportXlsLazyAction extends Action
 
                     // PHPStan knows $lazy is Builder|Relation here, no need for Assert
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                
+                if ($lazy->count() < 7) {
+                    Assert::isInstanceOf($lazy, Builder::class);
+                    
+                    /** @var array<int, string> $stringFields */
+                    $stringFields = array_values($fields);
+                    
+                    return app(ExportXlsByQuery::class)->execute(
+                        $lazy, 
+                        $filename, 
+                        $stringFields, 
+                        null
+                    );
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 }
 
                 $lazyCursor = $lazy->cursor();
 
                 if ($lazyCursor->count() > 3000) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                     return app(ExportXlsStreamByLazyCollection::class)
                         ->execute($lazyCursor, $filename, $transKey, array_values($fields));
                 }
@@ -116,7 +201,176 @@ class ExportXlsLazyAction extends Action
             });
     }
 
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+    public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+                    return app(ExportXlsStreamByLazyCollection::class)->execute(
+                        $lazyCursor, 
+                        $filename, 
+                        $transKey, 
+                        array_values($fields)
+                    );
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                    return app(ExportXlsStreamByLazyCollection::class)
+                        ->execute($lazyCursor, $filename, $transKey, array_values($fields));
+>>>>>>> b93ef594b4 (.)
+                }
+
+                return app(ExportXlsByLazyCollection::class)->execute($lazyCursor, $filename, array_values($fields));
+            });
+    }
+
+<<<<<<< HEAD
+    public static function getDefaultName(): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+                }
+
+                return app(ExportXlsByLazyCollection::class)->execute(
+                    $lazyCursor, 
+                    $filename, 
+                    array_values($fields)
+                );
+            });
+    }
+
+    public static function getDefaultName(): ?string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
     {
         return 'export_xls';
     }

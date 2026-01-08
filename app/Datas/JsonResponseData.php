@@ -16,18 +16,153 @@ class JsonResponseData extends Data
 
     public string $message;
 
+<<<<<<< HEAD
     public ?int $code = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public ?int $code = null;
+=======
+    public null|int $code = null;
+>>>>>>> 5a14301c (.)
+=======
+    public null|int $code = null;
+>>>>>>> 3fbbf1f5 (.)
+=======
+    public null|int $code = null;
+=======
+    public null|int $code = null;
+>>>>>>> 399f46d3 (.)
+=======
+    public null|int $code = null;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|int $code = null;
+=======
+    public ?int $code = null;
+>>>>>>> a12f125f4a (.)
+=======
+    public null|int $code = null;
+>>>>>>> b93ef594b4 (.)
+=======
+    public ?int $code = null;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+    public null|int $code = null;
+>>>>>>> ca9324a4 (.)
+=======
+    public null|int $code = null;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    public ?int $code = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+    public null|int $code = null;
+=======
+    public ?int $code = null;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    public null|int $code = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public null|int $code = null;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public null|int $code = null;
+>>>>>>> ca9324a4 (.)
+=======
+    public null|int $code = null;
+=======
+    public ?int $code = null;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public null|int $code = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public null|int $code = null;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public null|int $code = null;
+>>>>>>> 9db27d12 (.)
+=======
+=======
+    public null|int $code = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
 
     public array $data = [];
 
     public int $status = 200;
 
     /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
      * public function toResponse($request)
      * {
      *
      * }
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function toResponse($request)
+    {
+
+    }
+    */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public function response(): JsonResponse
     {
         $data = [

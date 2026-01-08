@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -221,6 +225,26 @@ php artisan view:clear
 
 ## Riferimenti
 
+<<<<<<< HEAD:docs/consolidated/translation-system_1.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> 48515e368 (.):docs/translation-system.md
 - [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
@@ -239,9 +263,20 @@ php artisan view:clear
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 6cba4fe (.)
+=======
+- [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
+- [Filament Form Components](https://filamentphp.com/project_docs/forms)
+- [Best Practices Filament](../project_docs/filament-best-practices.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+>>>>>>> ab8cc3f3 (.)
 - [Documentazione Laravel Translations](https://laravel.com/docs/localization)
 - [Filament Form Components](https://filamentphp.com/docs/forms)
 - [Best Practices Filament](../docs/filament-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,9 +306,12 @@ php artisan view:clear
 >>>>>>> ed734516 (.)
 =======
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -301,4 +339,10 @@ php artisan view:clear
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD:docs/consolidated/translation-system_1.md
 >>>>>>> dc2130a7c (.):docs/translation-system.md
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.):docs/translation-system.md

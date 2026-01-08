@@ -12,6 +12,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -32,7 +33,24 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
 use Modules\Xot\Services\ModuleService;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Services\ModuleService;
+=======
+use Modules\Xot\Services\ModuleService;
+use Illuminate\Support\Facades\File;
+>>>>>>> f1d4085 (.)
+=======
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Services\ModuleService;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
 describe('ModuleService Integration', function (): void {
     beforeEach(function (): void {
@@ -40,11 +58,29 @@ describe('ModuleService Integration', function (): void {
         $this->service = new ModuleService('Xot');
     });
 
+<<<<<<< HEAD
     it('integrates with Nwidart Modules system', function (): void {
+=======
+    it('integrates with Nwidart Modules system', function () {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         expect(class_exists('Nwidart\Modules\Facades\Module'))
             ->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))
             ->toBeTrue();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        expect(class_exists('Nwidart\Modules\Facades\Module'))->toBeTrue()
+            ->and(class_exists('Nwidart\Modules\Module'))->toBeTrue();
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     });
 
     it('can find existing modules', function (): void {
@@ -56,12 +92,30 @@ describe('ModuleService Integration', function (): void {
         /* @phpstan-ignore-next-line new.noConstructor */
         $xotService = new ModuleService('Xot');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         expect($chartService)
             ->toBeInstanceOf(ModuleService::class)
             ->and($userService)
             ->toBeInstanceOf(ModuleService::class)
             ->and($xotService)
             ->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        expect($chartService)->toBeInstanceOf(ModuleService::class)
+            ->and($userService)->toBeInstanceOf(ModuleService::class)
+            ->and($xotService)->toBeInstanceOf(ModuleService::class);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     });
 
     it('returns models from existing modules', function (): void {
@@ -126,6 +180,13 @@ describe('ModuleService Integration', function (): void {
 
         /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $key => $modelClass) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             expect($key)
                 ->toBeString()
                 ->and($modelClass)
@@ -133,6 +194,17 @@ describe('ModuleService Integration', function (): void {
                 /* @phpstan-ignore-next-line argument.type */
                 ->and(str_contains($modelClass, 'Modules\\'))
                 ->toBeTrue();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            expect($key)->toBeString()
+                ->and($modelClass)->toBeString()
+                ->and(str_contains($modelClass, 'Modules\\'))->toBeTrue();
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
     });
 
@@ -197,7 +269,20 @@ describe('ModuleService Integration', function (): void {
         /** @phpstan-ignore-next-line method.nonObject */
         $models = $nonExistentService->getModels();
 
+<<<<<<< HEAD
         expect($models)->toBeArray()->and($models)->toBeEmpty();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        expect($models)->toBeArray()->and($models)->toBeEmpty();
+=======
+        expect($models)->toBeArray()
+            ->and($models)->toBeEmpty();
+>>>>>>> f1d4085 (.)
+=======
+        expect($models)->toBeArray()->and($models)->toBeEmpty();
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     });
 
     it('handles namespace construction correctly', function (): void {
@@ -221,8 +306,21 @@ describe('ModuleService Integration', function (): void {
         // All returned classes should be valid PHP classes
         /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
+<<<<<<< HEAD
             /* @phpstan-ignore-next-line argument.type */
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
+=======
+            expect(is_string($modelClass))->toBeTrue()
+                ->and(strlen($modelClass))->toBeGreaterThan(0);
+>>>>>>> f1d4085 (.)
+=======
+            expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
     });
 
@@ -238,7 +336,19 @@ describe('ModuleService Integration', function (): void {
         ];
 
         foreach ($edgeCaseServices as $service) {
+<<<<<<< HEAD
             expect($service->getModels(...))->not->toThrow(Exception::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            expect($service->getModels(...))->not->toThrow(Exception::class);
+=======
+            expect(fn () => $service->getModels())->not->toThrow(Exception::class);
+>>>>>>> f1d4085 (.)
+=======
+            expect($service->getModels(...))->not->toThrow(Exception::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
     });
 
@@ -251,6 +361,13 @@ describe('ModuleService Integration', function (): void {
         // Validate that all keys are strings and all values are class strings
         /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $key => $value) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             expect($key)
                 ->toBeString()
                 ->and($value)
@@ -261,6 +378,18 @@ describe('ModuleService Integration', function (): void {
                 /* @phpstan-ignore-next-line argument.type */
                 ->and(strlen($value))
                 ->toBeGreaterThan(0);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            expect($key)->toBeString()
+                ->and($value)->toBeString()
+                ->and(strlen($key))->toBeGreaterThan(0)
+                ->and(strlen($value))->toBeGreaterThan(0);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
     });
 
@@ -282,8 +411,21 @@ describe('ModuleService Integration', function (): void {
         }
 
         // All results should be consistent
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
+=======
+        expect($results[0])->toBe($results[1])
+            ->and($results[1])->toBe($results[2]);
+>>>>>>> f1d4085 (.)
+=======
+        expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     });
 
     it('validates module path resolution', function (): void {
@@ -322,8 +464,21 @@ describe('ModuleService Integration', function (): void {
         /** @phpstan-ignore-next-line method.nonObject */
         $constructor = $reflection->getConstructor();
 
+<<<<<<< HEAD
         /* @phpstan-ignore-next-line method.nonObject */
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
+=======
+        expect($constructor)->not->toBeNull()
+            ->and($constructor->isPublic())->toBeTrue();
+>>>>>>> f1d4085 (.)
+=======
+        expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     });
 
     it('can handle model discovery efficiently', function (): void {
@@ -336,6 +491,19 @@ describe('ModuleService Integration', function (): void {
         $endTime = microtime(true);
         $executionTime = $endTime - $startTime;
 
+<<<<<<< HEAD
         expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+=======
+        expect($models)->toBeArray()
+            ->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+>>>>>>> f1d4085 (.)
+=======
+        expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     });
 });

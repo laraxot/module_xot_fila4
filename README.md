@@ -4,7 +4,27 @@
 > **Status**: ✅ Core Framework Module
 > **Last Updated**: December 2025
 
+<<<<<<< HEAD
 ## 📋 Overview
+=======
+<div align="center">
+<<<<<<< HEAD
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+=======
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/project_docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+>>>>>>> f1d4085 (.)
+=======
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+  <br>
+  <em>🎯 Il modulo base che POTENZIA tutti gli altri moduli Laraxot!</em>
+</div>
+>>>>>>> 48515e368 (.)
 
 Il modulo **Xot** è il cuore del framework Laraxot, fornendo le classi base, i service provider e le funzionalità fondamentali che abilitano tutti gli altri moduli del sistema.
 

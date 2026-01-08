@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 ### Versione HEAD
 
 # Analisi della Discrepanza tra Namespace e Struttura Directory nei Moduli Laraxot
@@ -1024,8 +1028,23 @@ tests_old
 
 ## Collegamenti alla documentazione generale
 
+<<<<<<< HEAD
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/docs/phpstan/)
+=======
+- [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/project_docs/phpstan/)
+>>>>>>> f1d4085 (.)
+=======
+- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/docs/phpstan/)
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
 
 ### Versione Incoming
@@ -1033,6 +1052,13 @@ tests_old
    - Utilizzare i namespace appropriati che riflettono la struttura delle directory 
 
 ## Collegamenti tra versioni di structure.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1049,6 +1075,30 @@ tests_old
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+* [structure.md](bashscripts/project_docs/structure.md)
+* [structure.md](../../../Gdpr/project_docs/structure.md)
+* [structure.md](../../../Notify/project_docs/structure.md)
+* [structure.md](../../../Xot/project_docs/structure.md)
+* [structure.md](../../../Xot/project_docs/base/structure.md)
+* [structure.md](../../../Xot/project_docs/config/structure.md)
+* [structure.md](../../../User/project_docs/structure.md)
+* [structure.md](../../../UI/project_docs/structure.md)
+* [structure.md](../../../Lang/project_docs/structure.md)
+* [structure.md](../../../Job/project_docs/structure.md)
+* [structure.md](../../../Media/project_docs/structure.md)
+* [structure.md](../../../Tenant/project_docs/structure.md)
+* [structure.md](../../../Activity/project_docs/structure.md)
+* [structure.md](../../../Cms/project_docs/structure.md)
+* [structure.md](../../../Cms/project_docs/themes/structure.md)
+* [structure.md](../../../Cms/project_docs/components/structure.md)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
 
 ---
@@ -1080,6 +1130,7 @@ Vedi anche la documentazione specifica del modulo per dettagli e casi particolar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -1093,4 +1144,10 @@ Vedi anche la documentazione specifica del modulo per dettagli e casi particolar
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+<<<<<<< HEAD
 >>>>>>> dc2130a7c (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)

@@ -33,6 +33,121 @@ class RouteData extends Data
      */
     public static function make(): static
     {
+<<<<<<< HEAD
         return new static;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return new static;
+=======
+        return new static();
+>>>>>>> 5a14301c (.)
+=======
+        return new static();
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return new static();
+=======
+        return new static();
+>>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return new static();
+=======
+        return new static;
+>>>>>>> a12f125f4a (.)
+=======
+        return new static();
+>>>>>>> b93ef594b4 (.)
+=======
+        return new static;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> ca9324a4 (.)
+=======
+        return new static();
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        return new static;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+        return new static();
+=======
+        return new static;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        return new static();
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        return new static();
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> ca9324a4 (.)
+=======
+        return new static();
+=======
+        return new static;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        return new static();
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+        return new static();
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        return new static();
+>>>>>>> 9db27d12 (.)
+=======
+=======
+        return new static();
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> 48515e368 (.)
     }
 }

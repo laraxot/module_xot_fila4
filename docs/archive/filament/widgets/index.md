@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Filament Widgets
 
 ## Panoramica
@@ -14,18 +12,7 @@ Il sistema di widget è organizzato attorno a classi base che forniscono funzion
 
 ### Widget Base
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per tutti i widget
-=======
-- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/xotbasewidget.md) - Classe base per tutti i widget
->>>>>>> b9c66c44e (.)
-=======
-- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/xotbasewidget.md) - Classe base per tutti i widget
-=======
-- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/project_docs/filament/widgets/xotbasewidget.md) - Classe base per tutti i widget
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 ## Best Practices
 
@@ -42,7 +29,7 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
 class DashboardStatsWidget extends XotBaseWidget
 {
     protected static string $view = 'dashboard::widgets.stats';
-    
+
     protected function getData(): array
     {
         return [
@@ -51,8 +38,4 @@ class DashboardStatsWidget extends XotBaseWidget
         ];
     }
 }
-``` 
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)
+```

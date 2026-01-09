@@ -1,76 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 # Linee Guida per la Documentazione
 
 ## Principi Fondamentali
 
 1. **Struttura Modulare**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
-   - Le regole generali sono in `/Modules/Xot/docs/`
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/project_docs/`
-   - Le regole generali sono in `/Modules/Xot/project_docs/`
->>>>>>> f1d4085 (.)
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
-   - Le regole generali sono in `/Modules/Xot/docs/`
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
-   - Le regole generali sono in `/Modules/Xot/docs/`
->>>>>>> 6dcebf8a (.)
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
-   - Le regole generali sono in `/Modules/Xot/docs/`
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/project_docs/`
-   - Le regole generali sono in `/Modules/Xot/project_docs/`
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
-   - Le regole generali sono in `/Modules/Xot/docs/`
->>>>>>> b3cc10f7 (.)
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
-   - Le regole generali sono in `/Modules/Xot/docs/`
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/project_docs/`
-   - Le regole generali sono in `/Modules/Xot/project_docs/`
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
-   - Le regole generali sono in `/Modules/Xot/docs/`
->>>>>>> cafe8bed (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -80,57 +14,7 @@
 
 3. **Organizzazione dei Contenuti**
    ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
    Modules/Xot/docs/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-   Modules/Xot/docs/
-=======
-   Modules/Xot/project_docs/
->>>>>>> f1d4085 (.)
-=======
-   Modules/Xot/docs/
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-   Modules/Xot/docs/
->>>>>>> 6dcebf8a (.)
-=======
-   Modules/Xot/docs/
-=======
-   Modules/Xot/project_docs/
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-   Modules/Xot/docs/
->>>>>>> b3cc10f7 (.)
-=======
-   Modules/Xot/docs/
-=======
-   Modules/Xot/project_docs/
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-   Modules/Xot/docs/
->>>>>>> cafe8bed (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -196,57 +80,7 @@ public function example(): void
 
 ### 1. Struttura Base
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Modules/{ModuleName}/docs/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-Modules/{ModuleName}/docs/
-=======
-Modules/{ModuleName}/project_docs/
->>>>>>> f1d4085 (.)
-=======
-Modules/{ModuleName}/docs/
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-Modules/{ModuleName}/docs/
->>>>>>> 6dcebf8a (.)
-=======
-Modules/{ModuleName}/docs/
-=======
-Modules/{ModuleName}/project_docs/
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-Modules/{ModuleName}/docs/
->>>>>>> b3cc10f7 (.)
-=======
-Modules/{ModuleName}/docs/
-=======
-Modules/{ModuleName}/project_docs/
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-Modules/{ModuleName}/docs/
->>>>>>> cafe8bed (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -328,71 +162,10 @@ php artisan api:generate
 - [Convenzioni di Codice](../conventions/README.md)
 - [Architettura](../architecture/README.md)
 - [Best Practices](../best-practices/README.md)
-- [Markdown Guide](https://www.markdownguide.org) 
+- [Markdown Guide](https://www.markdownguide.org)
 
 ## Collegamenti tra versioni di documentation.md
 * [documentation.md](docs/rules/documentation.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-* [documentation.md](../../../Xot/docs/documentation.md)
-* [documentation.md](../../../Xot/docs/guidelines/documentation.md)
-* [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
-
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

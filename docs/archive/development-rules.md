@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Regole Generali di Sviluppo del Progetto
 
 ## Collegamenti
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione generale progetto](/project_docs/README.md)
-=======
-- [Documentazione generale progetto](/docs/README.md)
->>>>>>> b9c66c44e (.)
-=======
-- [Documentazione generale progetto](/docs/README.md)
-=======
-- [Documentazione generale progetto](/project_docs/README.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - [Regole Filament](filament-best-practices.md)
 - [Convenzioni Namespace](namespace-conventions.md)
 - [Standard di Codice](code-standards.md)
@@ -96,7 +83,7 @@ Modules/<nome>/
 // ❌ ERRATO
 class PatientResource extends \Filament\Resources\Resource
 
-// ✅ CORRETTO  
+// ✅ CORRETTO
 class PatientResource extends \Modules\Xot\Filament\Resources\XotBaseResource
 
 // MODELLO con HasTranslations
@@ -171,7 +158,7 @@ TextInput::make('name')
 ### Metodi NON Implementare
 Chi estende `XotBaseResource` NON deve implementare:
 - `getTableColumn`
-- `getTableFilters` 
+- `getTableFilters`
 - `getBulkActions`
 - `table`
 - `getPages` (se restituisce solo index,create,edit o index,create,edit,view)
@@ -262,18 +249,7 @@ protected function casts(): array
 
 ### Regola Fondamentale
 - **docs/ (root)**: Solo informazioni generali del progetto + collegamenti ai moduli
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
-=======
-- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
->>>>>>> b9c66c44e (.)
-=======
-- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
-=======
-- **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - **Collegamenti bidirezionali**: Root ↔ Moduli per navigazione fluida
 
 ### Naming Convention Docs
@@ -289,18 +265,7 @@ docs/                           # Generale + collegamenti
 ├── modules.md                  # Link ai moduli
 └── development/                # Guide sviluppo generali
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Modules/{Module}/project_docs/          # Specifica modulo
-=======
-Modules/{Module}/docs/          # Specifica modulo
->>>>>>> b9c66c44e (.)
-=======
-Modules/{Module}/docs/          # Specifica modulo
-=======
-Modules/{Module}/project_docs/          # Specifica modulo
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 ├── index.md                    # Indice del modulo
 ├── feature-name.md            # Documentazione feature specifica
 ├── api/                       # Documentazione API
@@ -372,18 +337,7 @@ Progettare sempre pensando che il codice dovrà superare:
 ### File da Aggiornare Sempre
 - `.cursor/rules/`
 - `.windsurf/rules/`
-<<<<<<< HEAD
-<<<<<<< HEAD
 - `Modules/Xot/project_docs/`
-=======
-- `Modules/Xot/docs/`
->>>>>>> b9c66c44e (.)
-=======
-- `Modules/Xot/docs/`
-=======
-- `Modules/Xot/project_docs/`
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - Memoria personale
 - Collegamenti bidirezionali
 
@@ -471,7 +425,3 @@ TextInput::make('name')
 ---
 
 **Nota**: Queste regole sono fondamentali per mantenere la qualità e la consistenza del progetto. Devono essere sempre seguite e aggiornate quando necessario.
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

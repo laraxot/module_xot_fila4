@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Panel Provider in Modulo Xot
 
 ## XotBaseMainPanelProvider
@@ -57,10 +55,10 @@ Se è necessario personalizzare il panel, sovrascrivere il metodo `panel()`:
 public function panel(Panel $panel): Panel
 {
     $panel = parent::panel($panel);
-    
+
     // Aggiungere personalizzazioni specifiche
     $panel->theme('custom-theme');
-    
+
     return $panel;
 }
 ```
@@ -89,32 +87,8 @@ public function panel(Panel $panel): Panel
 
 ### Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione Root](../../../project_docs/filament_panel_provider_rules.md)
 - [Architettura Filament](../../../project_docs/FILAMENT_BEST_PRACTICES.md)
 - [Configurazione Moduli](../../../project_docs/MODULE_ARCHITECTURE.md)
 
-*Ultimo aggiornamento: 2025-01-06* 
-=======
-=======
->>>>>>> ba6c53070 (.)
-- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
-- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
-- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
-<<<<<<< HEAD
-=======
-- [Documentazione Root](../../../project_docs/filament_panel_provider_rules.md)
-- [Architettura Filament](../../../project_docs/FILAMENT_BEST_PRACTICES.md)
-- [Configurazione Moduli](../../../project_docs/MODULE_ARCHITECTURE.md)
->>>>>>> 6cba4fe (.)
-
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-
->>>>>>> 99c0b3329 (.)
+*Ultimo aggiornamento: 2025-01-06*

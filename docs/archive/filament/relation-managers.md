@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # XotBaseRelationManager per Laraxot PTVX
 
 ## Panoramica
@@ -35,9 +30,9 @@ use Filament\Tables\Columns\TextColumn;
 class EsempioRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'nomeRelazione';
-    
+
     protected static ?string $recordTitleAttribute = 'nome_attributo';
-    
+
     // Resto dell'implementazione...
 }
 ```
@@ -129,7 +124,7 @@ Il trait `HasXotTable` fornisce funzionalità aggiuntive per la gestione delle t
    ```php
    // ✅ CORRETTO
    class MioRelationManager extends XotBaseRelationManager
-   
+
    // ❌ ERRATO
    class MioRelationManager extends RelationManager
    ```
@@ -143,7 +138,7 @@ Il trait `HasXotTable` fornisce funzionalità aggiuntive per la gestione delle t
    ```php
    TextColumn::make('nome')
        ->label(trans('nomemodulo::relation.fields.nome.label'))
-       
+
    // ❌ ERRATO
    TextColumn::make('nome')
        ->label('Nome')
@@ -197,158 +192,9 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 
 ## Collegamenti alla Documentazione Correlata
 
-<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-- [Filament Resources](/laravel/Modules/Xot/docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/docs/translation_rules.md)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: 3 Giugno 2025*
-=======
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
-=======
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> d86d643a (.)
-=======
->>>>>>> ba6c53070 (.)
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
 - [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
-<<<<<<< HEAD
-=======
->>>>>>> 43d67f21 (.)
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> d86d643a (.)
-=======
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 43d67f21 (.)
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 472bd9dc (.)
-=======
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
-
-=======
->>>>>>> a5dccfe (.)
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 71586de2 (.)
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> cf971011 (.)
-=======
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 76bec91a (.)
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> e7da37af (.)
-=======
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)

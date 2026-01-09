@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Fix Redirect Loop - MainDashboard
 
 ## Problema Risolto
@@ -24,7 +19,7 @@ public function mount(): void
             return Str::endsWith($item->name, '::admin');
         }
     );
-    
+
     if (1 === $modules->count()) {
         $module_name = Str::before($modules->first()->name, '::admin');
         $url = '/'.$module_name.'/admin';
@@ -52,11 +47,11 @@ public function mount(): void
             return Str::endsWith($item->name, '::admin');
         }
     );
-    
+
     if (1 === $modules->count()) {
         $module_name = Str::before($modules->first()->name, '::admin');
         $current_path = request()->path();
-        
+
         // ✅ FIX: Controlla se già nel panel corretto
         if ($current_path !== $module_name.'/admin') {
             $url = '/'.$module_name.'/admin';
@@ -159,139 +154,11 @@ performance::admin
 
 ## Collegamenti
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> 43d67f21 (.)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> b7ea1cd1 (.)
-<<<<<<< HEAD
-=======
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> 76bec91a (.)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
-- [XotBasePanelProvider](xotbasepanelprovider.md)
-- [User Role Management](../../User/project_docs/console_commands/README.md)
-- [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99c0b3329 (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> 43d67f21 (.)
-- [XotBasePanelProvider](xotbasepanelprovider.md)
-- [User Role Management](../../User/project_docs/console_commands/README.md)
-- [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato
@@ -305,37 +172,3 @@ performance::admin
 - ✅ **Backward Compatible**: Nessun breaking change
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

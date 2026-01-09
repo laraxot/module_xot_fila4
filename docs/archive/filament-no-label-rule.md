@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # REGOLA CRITICA: MAI ->label() nei Componenti Filament
 
 ## Principio Fondamentale
@@ -134,22 +132,7 @@ TextInput::make('name')->required(),
 **NON CI SONO ECCEZIONI. Questa regola si applica a TUTTI i componenti Filament senza distinzione.**
 
 ## Collegamenti
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Modules/UI/project_docs/filament/no-label-rule.md](../laravel/Modules/UI/project_docs/filament/no-label-rule.md)
-=======
-- [Modules/UI/docs/filament/no-label-rule.md](../laravel/Modules/UI/docs/filament/no-label-rule.md)
->>>>>>> b9c66c44e (.)
-=======
-- [Modules/UI/docs/filament/no-label-rule.md](../laravel/Modules/UI/docs/filament/no-label-rule.md)
-=======
-- [Modules/UI/project_docs/filament/no-label-rule.md](../laravel/Modules/UI/project_docs/filament/no-label-rule.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - [docs/translation-expanded-rules.md](translation-expanded-rules.md)
 
 *Ultimo aggiornamento: 2025-08-04*
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

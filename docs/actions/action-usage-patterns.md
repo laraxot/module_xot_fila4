@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Action Usage Patterns - Regole Fondamentali
 
 ## 🎯 **REGOLA CRITICA: Pattern di Uso delle Action**
@@ -39,16 +37,6 @@ Prima di usare un'Action:
 
 ### Pattern da cercare e correggere:
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> b9c66c44e (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 # Cerca pattern errati
 grep -r "::cast(" Modules/
 grep -r "::execute(" Modules/
@@ -57,16 +45,6 @@ grep -r "ActionClass::" Modules/
 
 ### Pattern corretti da mantenere:
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> b9c66c44e (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 # Verifica pattern corretti
 grep -r "app.*Action.*->execute" Modules/
 ```
@@ -96,16 +74,6 @@ $expression = \Modules\Xot\Actions\Geo\GetDistanceExpressionAction::getExpressio
 ### Script di Validazione
 ```bash
 #!/bin/bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> b9c66c44e (.)
-=======
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 # Cerca pattern errati nelle Action
 echo "Cercando pattern errati..."
 find Modules/ -name "*.php" -exec grep -l "Actions.*::" {} \;
@@ -124,25 +92,8 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 ## 📖 **RIFERIMENTI**
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [Laravel Service Container](https://laravel.com/docs/container)
-- [Dependency Injection Patterns](https://laravel.com/docs/providers)
->>>>>>> b9c66c44e (.)
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
-=======
-- [Laravel Service Container](https://laravel.com/docs/container)
-- [Dependency Injection Patterns](https://laravel.com/docs/providers)
-<<<<<<< HEAD
-=======
-- [Laravel Service Container](https://laravel.com/project_docs/container)
-- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 99c0b3329 (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---
@@ -150,7 +101,3 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 **PRIORITÀ**: CRITICA - Da seguire SEMPRE senza eccezioni
 **AGGIORNATO**: 2025-01-30
 **AUTORE**: Sistema di Qualità Laraxot
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

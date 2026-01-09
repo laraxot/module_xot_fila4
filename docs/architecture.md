@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ba6c53070 (.)
 # 🏗️ **Architettura Modulo Xot**
 
 ## 📋 **Panoramica Architetturale**
@@ -79,7 +74,7 @@ abstract class BaseModel extends XotBaseModel
 {
     use HasXotTable;
     use HasExtra;
-    
+
     protected function casts(): array
     {
         return [
@@ -101,12 +96,12 @@ abstract class BaseModel extends XotBaseModel
 abstract class XotBaseResource extends Resource
 {
     use HasXotTable;
-    
+
     public static function getFormSchema(): array
     {
         return static::getFormSchemaImplementation();
     }
-    
+
     abstract protected static function getFormSchemaImplementation(): array;
 }
 ```
@@ -121,13 +116,13 @@ abstract class XotBaseResource extends Resource
 abstract class XotBaseServiceProvider extends ServiceProvider
 {
     protected string $module_name;
-    
+
     public function boot(): void
     {
         $this->loadModuleResources();
         $this->registerModuleComponents();
     }
-    
+
     protected function loadModuleResources(): void
     {
         // Caricamento automatico di views, traduzioni, migrazioni
@@ -191,7 +186,7 @@ interface RepositoryInterface
 abstract class BaseRepository implements RepositoryInterface
 {
     protected Model $model;
-    
+
     public function __construct(Model $model)
     {
         $this->model = $model;
@@ -204,12 +199,12 @@ abstract class BaseRepository implements RepositoryInterface
 abstract class BaseService
 {
     protected RepositoryInterface $repository;
-    
+
     public function __construct(RepositoryInterface $repository)
     {
         $this->repository = $repository;
     }
-    
+
     abstract public function execute(array $data): mixed;
 }
 ```
@@ -222,7 +217,7 @@ abstract class BaseObserver
     {
         // Logica comune per creazione
     }
-    
+
     public function updated(Model $model): void
     {
         // Logica comune per aggiornamento
@@ -266,11 +261,11 @@ class CustomModel extends BaseModel
 class CustomServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = 'Custom';
-    
+
     public function boot(): void
     {
         parent::boot();
-        
+
         // Personalizzazioni specifiche
         $this->registerCustomServices();
     }
@@ -286,12 +281,12 @@ abstract class BaseModel extends XotBaseModel
     protected static function boot()
     {
         parent::boot();
-        
+
         static::saving(function ($model) {
             $model->validateModel();
         });
     }
-    
+
     protected function validateModel(): void
     {
         // Validazione automatica del modello
@@ -307,7 +302,7 @@ abstract class XotBaseResource extends Resource
     {
         return auth()->user()->can('viewAny', static::getModel());
     }
-    
+
     public static function canCreate(): bool
     {
         return auth()->user()->can('create', static::getModel());
@@ -358,11 +353,11 @@ abstract class XotBaseTestCase extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        
+
         // Setup comune per tutti i test
         $this->withoutExceptionHandling();
     }
-    
+
     protected function assertModelExists($model): void
     {
         $this->assertDatabaseHas($model->getTable(), ['id' => $model->id]);
@@ -374,13 +369,13 @@ abstract class XotBaseTestCase extends TestCase
 ```php
 test('all models extend base model', function () {
     $modelFiles = File::allFiles(app_path('Models'));
-    
+
     foreach ($modelFiles as $file) {
         $className = 'App\\Models\\' . pathinfo($file->getFilename(), PATHINFO_FILENAME);
-        
+
         if (class_exists($className)) {
             $reflection = new ReflectionClass($className);
-            
+
             if (!$reflection->isAbstract()) {
                 expect($reflection->getParentClass()->getName())
                     ->toBe('Modules\\Xot\\Models\\BaseModel');
@@ -393,31 +388,9 @@ test('all models extend base model', function () {
 ## 🔗 **Collegamenti e Riferimenti**
 
 - [**README.md**](README.md) - Documentazione principale del modulo
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
-=======
-- [**Best Practices**](../docs/best-practices.md) - Best practices globali
-- [**Troubleshooting**](../docs/troubleshooting.md) - Risoluzione problemi
->>>>>>> b9c66c44e (.)
-=======
-- [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
-- [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
->>>>>>> ba6c53070 (.)
-=======
-- [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
-- [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
->>>>>>> 99c0b3329 (.)
 
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
-<<<<<<< HEAD
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)

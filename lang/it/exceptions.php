@@ -4,43 +4,6 @@ declare(strict_types=1);
 
 return [
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8b18e4bff (.)
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
-     * |--------------------------------------------------------------------------
-     * | Exception Language Lines
-     * |--------------------------------------------------------------------------
-     * |
-     * | The following language lines are used in Exceptions thrown throughout the system.
-     * | Regardless where it is placed, a button can be listed here so it is easily
-     * | found in a intuitive way.
-     * |
-     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 8b18e4bff (.)
     |--------------------------------------------------------------------------
     | Exception Language Lines
     |--------------------------------------------------------------------------
@@ -50,23 +13,6 @@ return [
     | found in a intuitive way.
     |
     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8b18e4bff (.)
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
 
     'backend' => [
         'access' => [
@@ -80,31 +26,7 @@ return [
                 'not_found' => 'Questo ruolo non esiste.',
                 'update_error' => "C'è stato un problema durante l'aggiornamento di questo ruolo. Si prega di riprovare più tardi.",
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8b18e4bff (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
             'users' => [
                 'cant_deactivate_self' => 'Non puoi eseguire questa operazione su te stesso.',
                 'cant_delete_self' => 'Non puoi cancellare te stesso.',
@@ -123,31 +45,7 @@ return [
             ],
         ],
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8b18e4bff (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -160,49 +58,10 @@ return [
                 'success' => 'Il tuo account è stato confermato con successo!',
                 'resent' => "Una nuova e-mail di conferma è stata inviata all'indirizzo registrato.",
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             'deactivated' => 'Il tuo account è stato disattivato.',
             'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
 
-=======
-<<<<<<< HEAD
-            'deactivated' => 'Il tuo account è stato disattivato.',
-            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
-=======
-            'deactivated' => 'Il tuo account è stato disattivato.',
-            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
->>>>>>> 8b18e4bff (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'deactivated' => 'Il tuo account è stato disattivato.',
-            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
-=======
-
-            'deactivated' => 'Il tuo account è stato disattivato.',
-            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
-
->>>>>>> f1d4085 (.)
-=======
-            'deactivated' => 'Il tuo account è stato disattivato.',
-            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-            'deactivated' => 'Il tuo account è stato disattivato.',
-            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
->>>>>>> 285375c74 (.)
-=======
-=======
-            'deactivated' => 'Il tuo account è stato disattivato.',
-            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
             'password' => [
                 'change_mismatch' => 'Questa non è la tua vecchia password.',
             ],

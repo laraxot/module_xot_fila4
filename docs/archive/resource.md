@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # XotBaseResource
 
 ## Overview
@@ -56,7 +54,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 class MyResource extends XotBaseResource
 {
     protected static ?string $model = MyModel::class;
-    
+
     public static function getFormSchema(): array
     {
         return [
@@ -105,7 +103,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 class ListRecords extends XotBaseListRecords
 {
     protected static string $resource = MyResource::class;
-    
+
     public function table(Table $table): Table
     {
         return $table
@@ -148,24 +146,24 @@ class ListRecords extends XotBaseListRecords
 ```php
 /**
  * Risorsa per la gestione di XXX
- * 
+ *
  * Menu:
  * - Gruppo: xxx
  * - Label: xxx
  * - Icona: heroicon-o-xxx
  * - Ordinamento: xx
- * 
+ *
  * Convertito da:
  * - Controller: xxx
  * - Template: xxx
  * - URL vecchi: xxx
  * - URL nuovi: xxx
- * 
+ *
  * Note sulla conversione:
  * - Permessi
  * - Funzionalità
  * - Miglioramenti
- * 
+ *
  * Struttura:
  * - Resource: Definisce solo model e form schema
  * - Pages/List: Gestisce la configurazione della tabella
@@ -604,34 +602,14 @@ public function getTableBulkActions(): array
 
 ### Versione HEAD
 
-// ... existing code ... 
+// ... existing code ...
 
 ## Collegamenti tra versioni di resource.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [resource.md](../../../Xot/project_docs/filament/resource.md)
 * [resource.md](../../../Xot/project_docs/resource.md)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
->>>>>>> b9c66c44e (.)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
-=======
-* [resource.md](../../../Xot/project_docs/filament/resource.md)
-* [resource.md](../../../Xot/project_docs/resource.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
 
 ### Versione Incoming
 
-// ... existing code ... 
+// ... existing code ...
 
 ---
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

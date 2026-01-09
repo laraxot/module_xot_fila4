@@ -1,14 +1,11 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
 
 namespace Modules\Xot\Actions\Array;
 
-use Spatie\QueueableAction\QueueableAction;
-
 use function Safe\file_put_contents;
+use Spatie\QueueableAction\QueueableAction;
 
 class SavePhpArrayAction
 {
@@ -21,4 +18,3 @@ class SavePhpArrayAction
         return (bool) file_put_contents($filename, $content);
     }
 }
->>>>>>> 50c0e1043 (.)

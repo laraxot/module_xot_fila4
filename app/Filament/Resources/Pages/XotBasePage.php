@@ -11,82 +11,10 @@ use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Pages\Concerns\InteractsWithFormActions;
-use Filament\Resources\Pages\Page as FilamentPage;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-<<<<<<< HEAD
-=======
-use Illuminate\Contracts\View\View;
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use LogicException;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Closure;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Pages\Concerns\InteractsWithFormActions;
-<<<<<<< HEAD
-use Filament\Resources\Pages\Page as FilamentPage;
-=======
-use Filament\Pages\Page as FilamentPage;
->>>>>>> 5a14301c (.)
-use Illuminate\Contracts\View\View;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Webmozart\Assert\Assert;
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
 
 /**
  * Base class for all custom pages in the application.
@@ -201,9 +129,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public static function getResources(): Collection
     {
         /** @var Collection<int, string> $resources */
-        $resources = collect();
-
-        return $resources;
+        return collect();
     }
 
     /**
@@ -216,63 +142,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return [];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    /**
-     * Get the associated model class for this page.
-     * 
-     * This method must be non-static to properly override the parent method.
-     * Returns the model class string or throws an exception if not set.
-     */
-    public function getModel(): string
-    {
-        if (static::$model === null) {
-            throw new \LogicException('Model class not set for page: ' . static::class);
-        }
-<<<<<<< HEAD
-        
-=======
-    /**
-     * Get the associated model class for this page.
-     */
-    public static function getModel(): null|string
-    {
-        /** @phpstan-ignore property.staticAccess */
->>>>>>> 5a14301c (.)
-=======
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 53d6a6ba (.)
-=======
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
-        return static::$model;
-    }
-
-    /**
-     * Get the resources associated with this page.
-     *
-     * @return Collection<string>
-     */
-    public static function getResources(): Collection
-    {
-        return collect();
-    }
-
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 50c0e1043 (.)
     /*
      * Hook chiamato all'inizializzazione del componente.
      *

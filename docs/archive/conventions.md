@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Convenzioni di Naming
 
 ## Struttura delle Cartelle nei Moduli
@@ -105,7 +103,7 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
    ```bash
    # Corretto
    php artisan module:make User
-   
+
    # Errato
    php artisan module:make user
    ```
@@ -115,7 +113,7 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
    # Corretto
    mkdir -p Modules/User/resources/views/pages/auth
    mkdir -p Modules/User/app/Filament/Widgets
-   
+
    # Errato
    mkdir -p Modules/User/Resources/Views
    mkdir -p Modules/User/Filament/Widgets
@@ -126,38 +124,17 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
    # Rinominare cartelle non conformi
    mv Modules/User/Resources Modules/User/resources_temp
    mv Modules/User/resources_temp Modules/User/resources
-   
+
    # Spostare Filament nella posizione corretta
    mv Modules/User/Filament Modules/User/app/Filament
    ```
 
 ## Collegamenti
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Laravel Filesystem](https://laravel.com/project_docs/filesystem)
 - [Nwidart Module Structure](https://nwidart.com/laravel-modules/v6/introduction)
 - [PSR-4 Autoloading](https://www.php-fig.org/psr/psr-4/)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Folio Documentation](https://laravel.com/project_docs/folio)
-=======
-=======
->>>>>>> ba6c53070 (.)
-- [Laravel Filesystem](https://laravel.com/docs/filesystem)
-- [Nwidart Module Structure](https://nwidart.com/laravel-modules/v6/introduction)
-- [PSR-4 Autoloading](https://www.php-fig.org/psr/psr-4/)
-- [Filament Documentation](https://filamentphp.com/docs)
-- [Folio Documentation](https://laravel.com/docs/folio)
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
-- [Laravel Filesystem](https://laravel.com/project_docs/filesystem)
-- [Nwidart Module Structure](https://nwidart.com/laravel-modules/v6/introduction)
-- [PSR-4 Autoloading](https://www.php-fig.org/psr/psr-4/)
-- [Filament Documentation](https://filamentphp.com/docs)
-- [Folio Documentation](https://laravel.com/project_docs/folio)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 ## Note Importanti
 - Mantenere questa convenzione in tutti i nuovi moduli
@@ -166,51 +143,14 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
 - Utilizzare strumenti di linting per verificare la conformità
 - I componenti Filament devono sempre essere in `app/Filament/`
 - Le cartelle standard Laravel devono sempre essere in lowercase
-- Le pagine Folio devono seguire la struttura `resources/views/pages/` 
+- Le pagine Folio devono seguire la struttura `resources/views/pages/`
 ## Collegamenti tra versioni di CONVENTIONS.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [CONVENTIONS.md](../../../Xot/project_docs/CONVENTIONS.md)
 * [CONVENTIONS.md](../../../Dental/project_docs/CONVENTIONS.md)
 * [CONVENTIONS.md](../../../Patient/project_docs/CONVENTIONS.md)
-
 
 ## Collegamenti tra versioni di conventions.md
 * [conventions.md](../../../../project_docs/tecnico/filament/conventions.md)
 * [conventions.md](../../../../project_docs/conventions.md)
 * [conventions.md](../../Dental/project_docs/conventions.md)
 * [conventions.md](../../Patient/project_docs/conventions.md)
-=======
-=======
->>>>>>> ba6c53070 (.)
-* [CONVENTIONS.md](../../../Xot/docs/CONVENTIONS.md)
-* [CONVENTIONS.md](../../../Dental/docs/CONVENTIONS.md)
-* [CONVENTIONS.md](../../../Patient/docs/CONVENTIONS.md)
-
-
-## Collegamenti tra versioni di conventions.md
-* [conventions.md](../../../../docs/tecnico/filament/conventions.md)
-* [conventions.md](../../../../docs/conventions.md)
-* [conventions.md](../../Dental/docs/conventions.md)
-* [conventions.md](../../Patient/docs/conventions.md)
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
-* [CONVENTIONS.md](../../../Xot/project_docs/CONVENTIONS.md)
-* [CONVENTIONS.md](../../../Dental/project_docs/CONVENTIONS.md)
-* [CONVENTIONS.md](../../../Patient/project_docs/CONVENTIONS.md)
-
-
-## Collegamenti tra versioni di conventions.md
-* [conventions.md](../../../../project_docs/tecnico/filament/conventions.md)
-* [conventions.md](../../../../project_docs/conventions.md)
-* [conventions.md](../../Dental/project_docs/conventions.md)
-* [conventions.md](../../Patient/project_docs/conventions.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

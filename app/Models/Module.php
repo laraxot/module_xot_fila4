@@ -4,17 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Xot\Database\Factories\ModuleFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\ModuleFactory;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
-use Sushi\Sushi;
-
 use function Safe\json_encode;
+use Sushi\Sushi;
 
 /**
  * @property int $id
@@ -23,7 +20,6 @@ use function Safe\json_encode;
  * @property bool|null $status
  * @property int|null $priority
  * @property string|null $path
-<<<<<<< HEAD
  * @property string|null $icon
  * @property array<array-key, mixed>|null $colors
  *
@@ -39,82 +35,15 @@ use function Safe\json_encode;
  * @method static Builder<static>|Module wherePriority($value)
  * @method static Builder<static>|Module whereStatus($value)
  *
-<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  *
  * @method static ModuleFactory factory($count = null, $state = [])
-=======
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Xot\Database\Factories\ModuleFactory factory($count = null, $state = [])
->>>>>>> 50c0e1043 (.)
  *
  * @mixin \Eloquent
  */
 final class Module extends BaseModel
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
- * @property int         $id
- * @property string|null $name
- * @property string|null $description
- * @property bool|null   $status
- * @property int|null    $priority
- * @property string|null $path
-=======
- *
->>>>>>> cc7fb225 (.)
- * @method static Builder|Module newModelQuery()
- * @method static Builder|Module newQuery()
- * @method static Builder|Module query()
- * @method static Builder|Module whereDescription($value)
- * @method static Builder|Module whereId($value)
- * @method static Builder|Module whereName($value)
- * @method static Builder|Module wherePath($value)
- * @method static Builder|Module wherePriority($value)
- * @method static Builder|Module whereStatus($value)
- *
- * @property string|null $icon
- * @property array<string, string>|null $colors
- *
- * @method static Builder|Module whereColors($value)
- * @method static Builder|Module whereIcon($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @mixin IdeHelperModule
-=======
- *
-<<<<<<< HEAD
->>>>>>> cc7fb225 (.)
-=======
- * @mixin IdeHelperModule
->>>>>>> 53d6a6ba (.)
-=======
- *
- * @mixin IdeHelperModule
-<<<<<<< HEAD
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 71586de2 (.)
- * @mixin \Eloquent
- */
-class Module extends Model
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 50c0e1043 (.)
 {
     use Sushi;
 

@@ -1,31 +1,3 @@
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
->>>>>>> dc2130a7c (.):docs/archive/testing-best-practices.md
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 285375c74 (.):docs/testing-best-practices-uppercase.md
-=======
-=======
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -65,63 +37,20 @@ test('widget can be rendered', function () {
 function mockXotData(): void
 {
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
-    
+
     $mockXotData->shouldReceive('getUserClass')
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        ->andReturn(
-            \Modules\\<YourModule>\\Models\\User::class
-        );
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
->>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
@@ -131,21 +60,13 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
-        
+
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
-    
+
     // ✅ CRITICO: Bind nel container
     app()->instance(\Modules\Xot\Datas\XotData::class, $mockXotData);
 }
@@ -229,7 +150,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
    - Content presence
    - Layout structure
 
-2. **Middleware** (Raccomandato) 
+2. **Middleware** (Raccomandato)
    - Authentication flow
    - Authorization checks
    - Redirect behavior
@@ -264,7 +185,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 - ✅ **Performance**: < 5 secondi per test suite
 - ✅ **Architecture**: Separazione rispettata
 
-### Gold Standard Criteria  
+### Gold Standard Criteria
 - ✅ **Success Rate**: > 90% test passati
 - ✅ **Zero Warnings**: Nessun warning PHP/Pest
 - ✅ **Performance**: < 3 secondi per test suite
@@ -283,7 +204,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 # Execution time monitoring
 ./vendor/bin/pest -v {TestFile} | grep -E "(seconds|ms)"
 
-# Success rate calculation  
+# Success rate calculation
 ./vendor/bin/pest {TestFile} --compact
 
 # Memory usage monitoring
@@ -306,207 +227,32 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 
 ## 🔗 **Related Documentation**
 
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6cba4fe (.)
-=======
-- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
->>>>>>> 71f31700 (.)
-=======
-- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
-- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
->>>>>>> c35986f4 (.)
-=======
-- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
->>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
-=======
-- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
-=======
->>>>>>> f1d4085 (.)
-=======
-- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
 
-**Status**: ✅ Best Practices Validate  
-**Enforcement**: Obbligatorio per tutti i test  
+**Status**: ✅ Best Practices Validate
+**Enforcement**: Obbligatorio per tutti i test
 **Version**: 1.0 - Gold Standard
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-=======
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
->>>>>>> dc2130a7c (.):docs/archive/testing-best-practices.md
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 5a14301c (.)
-=======
-**Last Update**: Dicembre 2024 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-**Last Update**: Dicembre 2024 
-=======
->>>>>>> f1d4085 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 3fbbf1f5 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 71f31700 (.)
-=======
-**Last Update**: Dicembre 2024 
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
-**Last Update**: Dicembre 2024 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-**Last Update**: Dicembre 2024 
-=======
->>>>>>> f1d4085 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 3310e9c6 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> c35986f4 (.)
-=======
-**Last Update**: Dicembre 2024 
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD:docs/testing-best-practices-conflict.md
->>>>>>> 48515e368 (.):docs/testing-best-practices-uppercase.md
-=======
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.):docs/testing-best-practices-uppercase.md
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024
+**Last Update**: Dicembre 2024

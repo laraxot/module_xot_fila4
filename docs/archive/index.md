@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Documentazione Modulo Xot
 
 ## Introduzione
@@ -34,18 +32,7 @@ Questo documento fornisce un indice della documentazione del modulo Xot, organiz
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md) - Documentazione conflitti risolti
 
 ## Link Esterni
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/project_docs/12.x)
-=======
-- [Laravel Framework](https://laravel.com/docs/12.x)
->>>>>>> b9c66c44e (.)
-=======
-- [Laravel Framework](https://laravel.com/docs/12.x)
-=======
-- [Laravel Framework](https://laravel.com/project_docs/12.x)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
@@ -105,8 +92,4 @@ Il modulo Xot fornisce funzionalità base attraverso:
 - Gestione risorse
 
 ## Panoramica
-Il modulo Xot è il cuore dell'architettura dell'applicazione. Fornisce le classi base, i trait e le interfacce fondamentali utilizzate da tutti gli altri moduli. 
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)
+Il modulo Xot è il cuore dell'architettura dell'applicazione. Fornisce le classi base, i trait e le interfacce fondamentali utilizzate da tutti gli altri moduli.

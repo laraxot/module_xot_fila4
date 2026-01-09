@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ba6c53070 (.)
 # Risoluzione Conflitti in XotBaseServiceProvider
 
 ## File Coinvolto
@@ -37,13 +32,13 @@ Due approcci in conflitto:
 2. **Approccio con action** (HEAD):
    ```php
    $configPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'config');
-   
+
    /*
    $this->publishes([
        $configPath => config_path($this->nameLower.'.php'),
    ], 'config');
    */
-   
+
    $this->mergeConfigFrom($configPath, $this->nameLower);
    ```
 
@@ -51,7 +46,7 @@ Due approcci in conflitto:
 Due approcci in conflitto:
 1. **Approccio diretto** (version aurmich/dev):
    Non utilizza `GetModulePathByGeneratorAction` per componenti view
-   
+
 2. **Approccio con action** (version HEAD):
    ```php
    $componentsViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
@@ -98,13 +93,13 @@ protected function registerConfig(): void
 {
     try {
         $configPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'config');
-        
+
         /*
         $this->publishes([
             $configPath => config_path($this->nameLower.'.php'),
         ], 'config');
         */
-        
+
         $this->mergeConfigFrom($configPath, $this->nameLower);
     } catch (\Exception $e) {
         // Ignore missing configuration
@@ -143,9 +138,9 @@ public function execute(string $moduleName, string $generatorPath): string
 
     $res = module_path($moduleName, $relativePath);
     Assert::string($res);
-    
+
     Assert::directory($res, 'The path '.$res.' is not a directory ['.$moduleName.']['.$generatorPath.']');
-    
+
     return $res;
 }
 ```
@@ -162,20 +157,4 @@ Per maggiori dettagli sui vantaggi di questo approccio, consultare la documentaz
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Collegamento bidirezionale: vedi anche `/project_docs/providers/service_provider_best_practices.md`* 
-=======
-*Collegamento bidirezionale: vedi anche `/docs/providers/service_provider_best_practices.md`* 
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
-*Collegamento bidirezionale: vedi anche `/project_docs/providers/service_provider_best_practices.md`* 
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-*Collegamento bidirezionale: vedi anche `/project_docs/providers/service_provider_best_practices.md`* 
->>>>>>> 99c0b3329 (.)
+*Collegamento bidirezionale: vedi anche `/project_docs/providers/service_provider_best_practices.md`*

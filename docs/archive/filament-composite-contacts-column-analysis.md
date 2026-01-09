@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Analisi e Implementazione Colonna Composita "Contatti" - TechPlanner
 
 ## Richiesta Utente
@@ -38,32 +36,11 @@ protected $fillable = [
 
 ### Documentazione Esistente Studiata
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. **Filament Table Columns** (`Modules/Xot/project_docs/filament_table_columns.md`):
    - Conferma uso di `getTableColumns()` invece di `getListTableColumns()`
    - Standard per definire colonne in Filament
 
 2. **Sistema Icone** (`Modules/UI/project_docs/icons.md`):
-=======
-=======
->>>>>>> ba6c53070 (.)
-1. **Filament Table Columns** (`Modules/Xot/docs/filament_table_columns.md`):
-   - Conferma uso di `getTableColumns()` invece di `getListTableColumns()`
-   - Standard per definire colonne in Filament
-
-2. **Sistema Icone** (`Modules/UI/docs/icons.md`):
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
-1. **Filament Table Columns** (`Modules/Xot/project_docs/filament_table_columns.md`):
-   - Conferma uso di `getTableColumns()` invece di `getListTableColumns()`
-   - Standard per definire colonne in Filament
-
-2. **Sistema Icone** (`Modules/UI/project_docs/icons.md`):
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
    - Heroicons per icone di sistema
    - Font Awesome per icone aggiuntive
    - Custom SVG per icone specifiche
@@ -76,7 +53,7 @@ TextColumn::make('contatti')
     ->label('Contatti')
     ->formatStateUsing(function ($record) {
         $contacts = [];
-        
+
         if ($record->phone) {
             $contacts[] = '<i class="heroicon-o-phone text-blue-500"></i> ' . $record->phone;
         }
@@ -92,7 +69,7 @@ TextColumn::make('contatti')
         if ($record->whatsapp) {
             $contacts[] = '<i class="fab fa-whatsapp text-green-600"></i> ' . $record->whatsapp;
         }
-        
+
         return new HtmlString(implode('<br>', $contacts));
     })
     ->html()
@@ -198,7 +175,7 @@ public function getTableColumns(): array
             ->label('Contatti')
             ->formatStateUsing(function ($record) {
                 $contacts = [];
-                
+
                 if ($record->phone) {
                     $contacts[] = '<i class="heroicon-o-phone text-blue-500 w-4 h-4 inline mr-1"></i>' . $record->phone;
                 }
@@ -214,7 +191,7 @@ public function getTableColumns(): array
                 if ($record->whatsapp) {
                     $contacts[] = '<i class="fab fa-whatsapp text-green-600 w-4 h-4 inline mr-1"></i>' . $record->whatsapp;
                 }
-                
+
                 return new HtmlString(implode('<br class="my-1">', $contacts));
             })
             ->html()
@@ -252,33 +229,12 @@ Questa implementazione stabilisce un precedente per:
 ## Collegamenti e Riferimenti
 
 - [Filament Table Columns Documentation](filament_table_columns.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [UI Icons System](../../UI/project_docs/icons.md)
 - [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
 - [Filament Official Documentation](https://filamentphp.com/project_docs/3.x/tables/columns)
-=======
-- [UI Icons System](../../UI/docs/icons.md)
-- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
-- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
->>>>>>> b9c66c44e (.)
-=======
-- [UI Icons System](../../UI/docs/icons.md)
-- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
-- [Filament Official Documentation](https://filamentphp.com/docs/3.x/tables/columns)
-=======
-- [UI Icons System](../../UI/project_docs/icons.md)
-- [TechPlanner Client Model](../../TechPlanner/app/Models/Client.php)
-- [Filament Official Documentation](https://filamentphp.com/project_docs/3.x/tables/columns)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 ---
 
 **Stato**: Analisi completata, pronto per implementazione
 **Ultimo aggiornamento**: agosto 2025
 **Autore**: Cascade AI Assistant
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Troubleshooting - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTI i problemi comuni e le soluzioni del progetto
-> 
+>
 > **🔗 Riferimenti**: [best-practices-consolidated.md](best-practices-consolidated.md) | [phpstan-consolidated.md](phpstan-consolidated.md)
 
 ## 🚨 STOP DUPLICAZIONE!
@@ -55,7 +49,7 @@ protected function getUserTypeOptions() {} // ERRORE: metodo orfano
 // ✅ CORRETTO
 class Example {
     public function foo() {}
-    
+
     protected function getUserTypeOptions() {} // Metodo dentro la classe
 } // Ultima parentesi graffa
 ```
@@ -212,96 +206,7 @@ Codice non conforme agli standard di tipizzazione.
 **Soluzione**
 ```bash
 # Eseguire da directory Laravel
-<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 399f46d3 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> b7ea1cd1 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 76bec91a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -474,7 +379,7 @@ Test non isolati o dipendenze condivise.
 class ExampleTest extends TestCase
 {
     use RefreshDatabase; // Garantisce database pulito
-    
+
     protected function setUp(): void
     {
         parent::setUp();
@@ -695,12 +600,3 @@ php artisan view:clear
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Troubleshooting*
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # ErrorFormatterContract
 
 ## Descrizione
@@ -13,7 +8,7 @@ Questa interfaccia definisce il contratto per i formattatori di errori nel siste
 interface ErrorFormatterContract
 {
     public function __construct(\Throwable $exception);
-    
+
     /**
      * @return array<string, mixed>
      */
@@ -42,42 +37,4 @@ interface ErrorFormatterContract
 ## Collegamenti
 - [Error Handling Guidelines](../EXCEPTION-HANDLING-GUIDE.md)
 - [Error Formatters](../exceptions/formatters/README.md)
-<<<<<<< HEAD
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 5a14301c (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 399f46d3 (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 5a14301c (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 399f46d3 (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)

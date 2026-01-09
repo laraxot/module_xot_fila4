@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
->>>>>>> dc2130a7c (.)
 # XotBase Extension Rules - Comprehensive Guide
 
 ## 🚨 Critical Architectural Rule
@@ -227,64 +195,8 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 
 ---
 
-*Last Updated: 2025-08-27*  
+*Last Updated: 2025-08-27*
 *Architecture Version: XotBase 2.0*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE
@@ -376,7 +288,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 
 /**
  * Dashboard per il modulo Employee.
- * 
+ *
  * Estende XotBaseDashboard seguendo la regola architettturale fondamentale
  * di non estendere mai classi Filament direttamente.
  */
@@ -403,7 +315,7 @@ class EmployeeResource extends XotBaseResource
 {
     protected static ?string $model = Employee::class;
     protected static ?string $navigationIcon = 'heroicon-o-users';
-    
+
     // Implementazione specifica del resource...
 }
 ```
@@ -421,7 +333,7 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
 class EmployeeStatsWidget extends XotBaseWidget
 {
     protected static string $view = 'employee::filament.widgets.stats';
-    
+
     // Implementazione specifica del widget...
 }
 ```
@@ -475,38 +387,6 @@ jobs:
 
 ---
 
-*Documento aggiornato: 2025-07-30*  
-*Priorità: CRITICA*  
+*Documento aggiornato: 2025-07-30*
+*Priorità: CRITICA*
 *Stato: OBBLIGATORIO per tutti i moduli*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

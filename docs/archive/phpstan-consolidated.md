@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.)
 # PHPStan - Guida Completa Consolidata
 
-**Ultimo aggiornamento**: 2025-01-06  
-**Principi**: DRY + KISS  
-**Status**: ✅ CONSOLIDATO  
+**Ultimo aggiornamento**: 2025-01-06
+**Principi**: DRY + KISS
+**Status**: ✅ CONSOLIDATO
 
 ## 🎯 Panoramica
 
@@ -50,111 +42,7 @@ parameters:
 ### Esecuzione Corretta
 ```bash
 # ✅ CORRETTO - Eseguire da directory Laravel
-<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> b7ea1cd1 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 76bec91a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 
 # ❌ ERRATO - Mai usare artisan per phpstan
@@ -375,12 +263,3 @@ $variabile = $oggetto->proprietaNonStandard;
 ---
 
 *Guida consolidata che elimina duplicazioni e semplifica la manutenzione della documentazione PHPStan.*
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

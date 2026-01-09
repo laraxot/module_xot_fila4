@@ -4,69 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions\Formatters;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
->>>>>>> dc2130a7c (.)
 use Illuminate\Support\Facades\Auth;
 use Throwable;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-use Throwable;
-use Illuminate\Support\Facades\Auth;
->>>>>>> 5a14301c (.)
-=======
-use Throwable;
-use Illuminate\Support\Facades\Auth;
->>>>>>> 5a14301c (.)
-=======
-<<<<<<< HEAD
-=======
-
-use function Safe\json_encode;
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-
-use function Safe\json_encode;
-=======
->>>>>>> 71586de2 (.)
-=======
-use Illuminate\Support\Facades\Auth;
-use Throwable;
->>>>>>> 50c0e1043 (.)
 
 class WebhookErrorFormatter
 {
     public function __construct(
         private Throwable $exception,
-    ) {}
+    ) {
+    }
 
     /**
      * @return array<string, mixed>

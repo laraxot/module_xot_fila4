@@ -1,69 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 # Links
 
 ## Documentazione Generale
@@ -83,35 +17,7 @@
 ## Documentazione Tecnica
 
 ### Sviluppo e Qualità
-<<<<<<< HEAD
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan level 10
-=======
-- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
->>>>>>> 5a14301c (.)
-=======
-- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
->>>>>>> 71f31700 (.)
-=======
-- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
->>>>>>> 5a14301c (.)
-=======
-- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
->>>>>>> 71f31700 (.)
-=======
-- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
->>>>>>> c35986f4 (.)
-=======
-- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 - [PHPStan Usage](phpstan-usage.md) - Guida all'uso di PHPStan per l'analisi statica
 - [Testing Guidelines](testing-guidelines.md) - Linee guida per i test
 - [Code Quality](code-quality.md) - Metriche e standard di qualità del codice
@@ -256,56 +162,15 @@
 
 ---
 
-**Data Creazione**: 27 Gennaio 2025  
-**Stato**: Consolidato da docs/ root  
+**Data Creazione**: 27 Gennaio 2025
+**Stato**: Consolidato da docs/ root
 **Priorità**: MEDIA (Raccolta link)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6cba4fe (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
 - [README](../docs/README.md) - Documentazione principale del progetto
 - [Roadmap](../docs/roadmap.md) - Piano di sviluppo
 - [Filosofia](../docs/filosofia.md) - Principi e filosofia del progetto
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-# Collegamenti Documentazione Modulo Xot
-
-## Documentazione Generica
-- [README](../project_docs/README.md) - Documentazione principale del progetto
-- [Roadmap](../project_docs/roadmap.md) - Piano di sviluppo
-- [Filosofia](../project_docs/filosofia.md) - Principi e filosofia del progetto
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -316,13 +181,6 @@
 - [Risoluzione Problemi](./troubleshooting.md)
 
 ## Collegamenti ai Moduli
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -335,7 +193,7 @@
 - [Reporting](../Reporting/docs/README.md) - Report
 - [Gdpr](../Gdpr/docs/README.md) - GDPR
 - [Job](../Job/docs/README.md) - Jobs
-- [Chart](../Chart/docs/README.md) - Grafici 
+- [Chart](../Chart/docs/README.md) - Grafici
 
 ## Collegamenti tra versioni di LINKS.md
 * [LINKS.md](../../../Xot/docs/LINKS.md)
@@ -343,7 +201,6 @@
 * [LINKS.md](../../../UI/docs/LINKS.md)
 * [LINKS.md](../../../Cms/docs/LINKS.md)
 * [LINKS.md](../../../../Themes/One/docs/LINKS.md)
-
 
 ## Collegamenti tra versioni di links.md
 * [links.md](../../Gdpr/docs/links.md)
@@ -358,81 +215,3 @@
 * [links.md](../../Tenant/docs/it/links/links.md)
 * [links.md](../../Cms/docs/links.md)
 * [links.md](../../../Themes/One/docs/links.md)
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-<<<<<<< HEAD
-=======
-- [Cms](../Cms/project_docs/README.md) - Frontend
-- [UI](../UI/project_docs/README.md) - Componenti
-- [User](../User/project_docs/README.md) - Utenti e Permessi
-- [Patient](../Patient/project_docs/README.md) - Pazienti
-- [Dental](../Dental/project_docs/README.md) - Odontoiatria
-- [Tenant](../Tenant/project_docs/README.md) - Multi-tenant
-- [Lang](../Lang/project_docs/README.md) - Traduzioni
-- [Media](../Media/project_docs/README.md) - Media
-- [Notify](../Notify/project_docs/README.md) - Notifiche
-- [Reporting](../Reporting/project_docs/README.md) - Report
-- [Gdpr](../Gdpr/project_docs/README.md) - GDPR
-- [Job](../Job/project_docs/README.md) - Jobs
-- [Chart](../Chart/project_docs/README.md) - Grafici 
-
-## Collegamenti tra versioni di LINKS.md
-* [LINKS.md](../../../Xot/project_docs/LINKS.md)
-* [LINKS.md](../../../User/project_docs/LINKS.md)
-* [LINKS.md](../../../UI/project_docs/LINKS.md)
-* [LINKS.md](../../../Cms/project_docs/LINKS.md)
-* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
-
-
-## Collegamenti tra versioni di links.md
-* [links.md](../../Gdpr/project_docs/links.md)
-* [links.md](../../Notify/project_docs/links.md)
-* [links.md](ci/links.md)
-* [links.md](open_sources/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../UI/project_docs/links.md)
-* [links.md](../../Lang/project_docs/links.md)
-* [links.md](../../Job/project_docs/links.md)
-* [links.md](../../Tenant/project_docs/it/links/links.md)
-* [links.md](../../Cms/project_docs/links.md)
-* [links.md](../../../Themes/One/project_docs/links.md)
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

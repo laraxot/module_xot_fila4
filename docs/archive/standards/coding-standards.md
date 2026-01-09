@@ -1,20 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 # Standard di Codice per il progetto
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
-=======
-> **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
->>>>>>> b9c66c44e (.)
-=======
-> **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
-=======
-> **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 Questo documento contiene gli standard di codice specifici per il progetto il progetto. Per le linee guida generali sulla scrittura del codice, consultare la [documentazione del modulo Xot](../CODE-STANDARDS.md).
 
@@ -32,7 +18,7 @@ Oltre ai principi generali documentati nel modulo Xot, in il progetto aderiamo a
 
 il progetto utilizza diversi moduli personalizzati che richiedono specifiche implementazioni:
 
-1. **Modulo Patient**: 
+1. **Modulo Patient**:
    - Implementare sempre la validazione ISEE
    - Utilizzare lo stato di gravidanza come flag per i trattamenti disponibili
 
@@ -90,18 +76,7 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 
 # Standard di Codice per il progetto
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
-=======
-> **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
->>>>>>> b9c66c44e (.)
-=======
-> **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
-=======
-> **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 Questo documento contiene gli standard di codice specifici per il progetto il progetto. Per le linee guida generali sulla scrittura del codice, consultare la [documentazione del modulo Xot](../CODE-STANDARDS.md).
 
@@ -119,7 +94,7 @@ Oltre ai principi generali documentati nel modulo Xot, in il progetto aderiamo a
 
 il progetto utilizza diversi moduli personalizzati che richiedono specifiche implementazioni:
 
-1. **Modulo Patient**: 
+1. **Modulo Patient**:
    - Implementare sempre la validazione ISEE
    - Utilizzare lo stato di gravidanza come flag per i trattamenti disponibili
 
@@ -252,7 +227,7 @@ enum GenderType: string
     case FEMALE = 'F';
     case MALE = 'M';
     case OTHER = 'O';
-    
+
     public function label(): string
     {
         return match($this) {
@@ -276,21 +251,21 @@ public function setGender(GenderType $gender): void
 final class TaxCode
 {
     private string $value;
-    
+
     public function __construct(string $taxCode)
     {
         if (!$this->isValid($taxCode)) {
             throw new InvalidArgumentException('Codice fiscale non valido');
         }
-        
+
         $this->value = $taxCode;
     }
-    
+
     public function value(): string
     {
         return $this->value;
     }
-    
+
     private function isValid(string $taxCode): bool
     {
         // Validazione del codice fiscale
@@ -322,13 +297,13 @@ public function findByTaxCode(string $taxCode): Patient
     if (!TaxCode::isValid($taxCode)) {
         throw new InvalidTaxCodeException($taxCode);
     }
-    
+
     $patient = $this->repository->findByTaxCode($taxCode);
-    
+
     if ($patient === null) {
         throw new PatientNotFoundException("Nessun paziente trovato con codice fiscale: {$taxCode}");
     }
-    
+
     return $patient;
 }
 ```
@@ -368,32 +343,12 @@ class StorePatientRequest extends FormRequest
 }
 ```
 
-
 ## Collegamenti Correlati
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Convenzioni](../../../project_docs/conventions.md)
 - [Naming Conventions](../../../project_docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)## Documentazione del Codice
-=======
-=======
->>>>>>> ba6c53070 (.)
-- [Convenzioni](../../../docs/conventions.md)
-- [Naming Conventions](../../../docs/naming-conventions.md)
-- [Documentazione Xot](../CODE-STANDARDS.md)
-- [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)## Documentazione del Codice
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
-- [Convenzioni](../../../project_docs/conventions.md)
-- [Naming Conventions](../../../project_docs/naming-conventions.md)
-- [Documentazione Xot](../CODE-STANDARDS.md)
-- [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)## Documentazione del Codice
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 ### PHPDoc
 
@@ -461,7 +416,7 @@ class PatientTest extends TestCase
     {
         $birthDate = new DateTimeImmutable('1990-01-01');
         $patient = new Patient(['birth_date' => $birthDate]);
-        
+
         $this->assertEquals(33, $patient->getAge());
     }
 }
@@ -491,7 +446,7 @@ class PatientRegistrationTest extends TestCase
             'birth_date' => '1990-01-01',
             'gender' => 'M',
         ]);
-        
+
         $response->assertCreated();
         $this->assertDatabaseHas('patients', [
             'first_name' => 'Mario',
@@ -644,11 +599,9 @@ git commit -m "fix: correzione calcolo età paziente"
 
 - Implementare logging
 - Monitorare performance
-- Alert su errori 
+- Alert su errori
 
 ## Collegamenti tra versioni di coding-standards.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [coding-standards.md](../../../Xot/project_docs/standards/coding-standards.md)
 * [coding-standards.md](../../../Xot/project_docs/conventions/coding-standards.md)
 
@@ -658,35 +611,3 @@ git commit -m "fix: correzione calcolo età paziente"
 - [Naming Conventions](../../../project_docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)
-=======
-=======
->>>>>>> ba6c53070 (.)
-* [coding-standards.md](../../../Xot/docs/standards/coding-standards.md)
-* [coding-standards.md](../../../Xot/docs/conventions/coding-standards.md)
-
-## Collegamenti Correlati
-
-- [Convenzioni](../../../docs/conventions.md)
-- [Naming Conventions](../../../docs/naming-conventions.md)
-- [Documentazione Xot](../CODE-STANDARDS.md)
-- [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
-* [coding-standards.md](../../../Xot/project_docs/standards/coding-standards.md)
-* [coding-standards.md](../../../Xot/project_docs/conventions/coding-standards.md)
-
-## Collegamenti Correlati
-
-- [Convenzioni](../../../project_docs/conventions.md)
-- [Naming Conventions](../../../project_docs/naming-conventions.md)
-- [Documentazione Xot](../CODE-STANDARDS.md)
-- [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

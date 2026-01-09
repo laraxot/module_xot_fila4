@@ -33,93 +33,16 @@ class MailData extends Data
         public readonly string $password = '',
         public readonly string $from_address = 'no-reply@example.com',
         public readonly string $from_name = 'Laraxot App',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
-        public readonly ?string $reply_to = null,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-        public readonly ?string $reply_to = null,
-=======
-        public readonly ?string $reply_to = null,
->>>>>>> 50c0e1043 (.)
-        public readonly bool $verify_peer = true,
-    ) {}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8b18e4bff (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        public readonly null|string $reply_to = null,
-<<<<<<< HEAD
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> 8b18e4bff (.)
-        public readonly bool $verify_peer = true,
-    ) {}
-=======
         public readonly ?string $reply_to = null,
         public readonly bool $verify_peer = true,
     ) {
     }
->>>>>>> f1d4085 (.)
-=======
-        public readonly null|string $reply_to = null,
-        public readonly bool $verify_peer = true,
-    ) {}
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-        public readonly null|string $reply_to = null,
-        public readonly bool $verify_peer = true,
-    ) {}
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
 
     /**
      * Create a new instance of MailData with default values.
      */
     public static function make(): static
     {
-        return new static;
+        return new static();
     }
 }

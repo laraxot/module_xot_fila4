@@ -27,6 +27,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          *
          * More info: https://github.com/spatie/laravel-package-tools
          */
+
         $package->name('cool-modules');
     }
 
@@ -35,27 +36,6 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $this->app->register(LaravelModulesServiceProvider::class);
 
         $this->app->afterResolving('filament', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-    public function register()
-    {
-        $this->app->register(LaravelModulesServiceProvider::class);
-
-        $this->app->afterResolving('filament', function () {
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-        $this->app->afterResolving('filament', function () {
->>>>>>> cc7fb225 (.)
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 50c0e1043 (.)
             $panels = Filament::getPanels();
 
             foreach ($panels as $panel) {

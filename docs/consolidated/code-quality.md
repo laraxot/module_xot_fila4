@@ -1,165 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-# Code Quality Guidelines for Laravel Modules
-
-## Overview
-This document outlines the best practices for maintaining high code quality within a Laravel module. Adhering to these standards ensures consistency, readability, and maintainability across the codebase.
-
-## Key Principles
-1. **Strict Typing**: Always use strict typing in PHP to prevent type-related errors and improve code reliability.
-2. **Static Analysis**: Utilize tools like PHPStan for static analysis to catch potential issues before runtime.
-3. **Consistent Formatting**: Follow PSR-12 coding standards for consistent code formatting.
-4. **Documentation**: Document all public methods and classes using PHPDoc to aid in code understanding and maintenance.
-
-## Implementation Guidelines
-### 1. PHP Strict Types
-- Declare strict types at the beginning of every PHP file to enforce type safety.
-  ```php
-  declare(strict_types=1);
-  ```
-
-### 2. PHPStan Configuration
-- Configure PHPStan for each module with a `phpstan.neon.dist` file to set analysis levels and paths.
-  ```neon
-  parameters:
-      level: 5
-      paths:
-          - app
-  ```
-- Use higher levels (e.g., 5 or 8) for new modules or projects to enforce stricter checks.
-
-### 3. Safe Library Usage
-- Use the `Safe` library for safer function calls that throw exceptions instead of returning `false`.
-  ```php
-  use function Safe\file_get_contents;
-  $content = Safe\file_get_contents('file.txt');
-  ```
-
-### 4. Class and Method Length
-- Keep methods under 20 lines and classes under 200 lines to maintain readability and single responsibility.
-
-### 5. Dependency Injection
-- Use dependency injection to avoid direct instantiation of dependencies, promoting testability and flexibility.
-
-## Code Quality Tools
-
-### Automation Scripts
-
-- [fix_docs_case](../../../../../bashscripts/project_docs/docs/fix_docs_case.md) - Automatic standardization of documentation filenames
-- Run automation scripts regularly to maintain code consistency
-
-## Strumenti di Qualità del Codice
-
-### Scripts di Automazione
-
-- [fix_docs_case](../../../../../bashscripts/project_docs/docs/fix_docs_case.md) - Standardizzazione automatica dei nomi file nella documentazione
-- Eseguire gli script di automazione regolarmente per mantenere la coerenza del codice
-
-## Common Issues and Fixes
-- **Type Errors**: Ensure all methods and functions have explicit return types and parameter types to avoid type-related bugs.
-- **Static Analysis Failures**: Address PHPStan errors by refining code or updating the baseline for existing code.
-- **Code Duplication**: Refactor duplicated code into reusable methods or traits to reduce maintenance overhead.
-
-## Testing and Verification
-- Run PHPStan analysis regularly to maintain code quality (`./vendor/bin/phpstan analyse`).
-- Use automated tools in CI/CD pipelines to enforce coding standards on every commit or pull request.
-
-## Documentation and Updates
-- Document any deviations from these guidelines or custom quality rules in the relevant module's documentation folder.
-- Update this document if new tools or standards for code quality are introduced.
-
-## Links to Related Documentation
-- [Xot Base Classes](../Xot/project_docs/XOT_BASE_CLASSES.md)
-- [Filament Extension Pattern](../../Notify/project_docs/FILAMENT_EXTENSION_PATTERN.md)
-- [Filament Extension Pattern Analysis](../../Notify/project_docs/FILAMENT_EXTENSION_PATTERN_ANALYSIS.md)
-- [Patient Module - Namespace Conventions](../../Patient/project_docs/NAMESPACE_CONVENTIONS.md)
-- [Patient Module - Validation Errors](../../Patient/project_docs/VALIDATION_ERRORS.md)
-- [PHP Strict Types](./PHP-STRICT-TYPES.md)
-- [PHPStan Implementation Guide](./PHPSTAN-IMPLEMENTATION-GUIDE.md)
-- [Naming Conventions](./NAMING-CONVENTIONS.md)
-- [Service Provider Best Practices](./SERVICE-PROVIDER-BEST-PRACTICES.md)
-- [Filament Best Practices](./FILAMENT-BEST-PRACTICES.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -168,51 +6,9 @@ This document defines the mandatory code quality standards for Laraxot projects.
 
 ## Core Principles
 
-<<<<<<< HEAD
 ### 1. Strict Typing and PHPStan Level 9+
 - **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
 - **MINIMUM** PHPStan level 9 for all new code
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### 1. Strict Typing and PHPStan level 10+
-- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 10 for all new code
-=======
-### 1. Strict Typing and PHPStan Level 9+
-- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 9 for all new code
->>>>>>> 5a14301c (.)
-=======
-### 1. Strict Typing and PHPStan Level 9+
-- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 9 for all new code
->>>>>>> 399f46d3 (.)
-=======
-### 1. Strict Typing and PHPStan Level 9+
-- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 9 for all new code
->>>>>>> 5a14301c (.)
-=======
-### 1. Strict Typing and PHPStan Level 9+
-- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 9 for all new code
->>>>>>> 399f46d3 (.)
-=======
-### 1. Strict Typing and PHPStan Level 9+
-- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 9 for all new code
->>>>>>> 17684f52 (.)
-=======
-### 1. Strict Typing and PHPStan Level 9+
-- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 9 for all new code
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 - **NEVER** use `mixed` types unless absolutely necessary
 - **ALWAYS** provide explicit return types and parameter types
 
@@ -234,7 +30,7 @@ class ExampleModel extends BaseModel
 {
     /** @var list<string> */
     protected $fillable = ['name'];
-    
+
     /**
      * @return array<string, string>
      */
@@ -276,7 +72,7 @@ return new class extends XotBaseMigration {
             $table->id();
             $table->string('name');
         });
-        
+
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, false);
         });
@@ -383,102 +179,7 @@ $content = \file_get_contents($path); // Può restituire false
 
 ### 1. PHPStan Pre-Commit
 ```bash
-<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 399f46d3 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 399f46d3 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 17684f52 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> b7ea1cd1 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> e0b8ebe3 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 76bec91a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> cc52d333 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -509,7 +210,7 @@ class Dashboard extends XotBaseDashboard
 class ModuleServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = 'ModuleName';
-    
+
     // Solo personalizzazioni specifiche del modulo
 }
 ```
@@ -574,114 +275,10 @@ unset($translations['existing_key']); // MAI!
 
 ## Ultimo Aggiornamento
 
-**Data**: 2025-08-01  
-**Versione**: 2.0  
-<<<<<<< HEAD
+**Data**: 2025-08-01
+**Versione**: 2.0
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 5a14301c (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 399f46d3 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 43d67f21 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 5a14301c (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 399f46d3 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 43d67f21 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 17684f52 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> b7ea1cd1 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> e0b8ebe3 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 76bec91a (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> cc52d333 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
 ---
 
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

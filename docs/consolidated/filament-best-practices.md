@@ -1,254 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-# Best Practices per Risorse Filament in Laraxot
-
-Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
-
-## Estensione delle Classi Base
-
-### Risorse
-
-1. **SEMPRE** estendere `Modules\Xot\Filament\Resources\XotBaseResource`:
-   ```php
-   // CORRETTO ✅
-   class ClienteResource extends XotBaseResource
-   
-   // ERRATO ❌
-   class ClienteResource extends Resource
-   ```
-
-2. **SEMPRE** implementare `getFormSchema()`:
-   ```php
-   public static function getFormSchema(): array
-   {
-       return [
-           TextInput::make('nome')->required(),
-           TextInput::make('email')->email()->required(),
-       ];
-   }
-   ```
-
-3. **MAI** definire `navigationIcon` se si estende `XotBaseResource`:
-   ```php
-   // ❌ ERRATO
-   class ReportResource extends XotBaseResource
-   {
-       protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack'; // GESTITO AUTOMATICAMENTE
-   }
-   
-   // ✅ CORRETTO
-   class ReportResource extends XotBaseResource
-   {
-       // Navigation icon gestita automaticamente da XotBaseResource
-   }
-   ```
-
-4. **MAI** usare `->label()` nei form components:
-   ```php
-   // ❌ ERRATO
-   TextInput::make('name')->label('Nome')
-   
-   // ✅ CORRETTO
-   TextInput::make('name') // Label gestita da LangServiceProvider
-   ```
-
-### Pagine
-
-1. **SEMPRE** estendere le classi base di Xot:
-   ```php
-   // CORRETTO ✅
-   class ListClienti extends XotBaseListRecords
-   class CreateCliente extends XotBaseCreateRecord
-   class EditCliente extends XotBaseEditRecord
-   class ViewCliente extends XotBaseViewRecord
-   
-   // ERRATO ❌
-   class ListClienti extends ListRecords
-   class CreateCliente extends CreateRecord
-   class EditCliente extends EditRecord
-   class ViewCliente extends ViewRecord
-   ```
-
-## Regole per XotBaseListRecords
-
-### Metodo Obbligatorio: getTableColumns()
-
-**⚠️ IMPORTANTE**: Tutte le classi che estendono `XotBaseListRecords` DEVONO implementare il metodo `getTableColumns()`:
-
-```php
-<?php
-
-declare(strict_types=1);
-
-namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
-
-use Modules\SaluteMo\Filament\Resources\ReportResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Filament\Actions;
-use Filament\Tables;
-
-/**
- * Pagina di elenco per i report.
- * 
- * ✅ IMPLEMENTAZIONE CORRETTA: Estende XotBaseListRecords
- * ✅ SEGUE IL PATTERN LARAXOT: Non estende ListRecords di Filament direttamente
- * ✅ IMPLEMENTA getTableColumns(): Metodo obbligatorio per XotBaseListRecords
- * ✅ DOCUMENTAZIONE AGGIORNATA: PHPDoc completo e chiaro
- * ✅ CAMPI REALI: Solo campi che esistono nel modello Report
- * ✅ NO LABEL: Non uso ->label() perché gestito da LangServiceProvider
- */
-class ListReports extends XotBaseListRecords
-{
-    protected static string $resource = ReportResource::class;
-
-    /**
-     * Get the table columns.
-     *
-     * @return array<string, \Filament\Tables\Columns\Column>
-     */
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => Tables\Columns\TextColumn::make('id')
-                ->searchable()
-                ->sortable(),
-            'patient_id' => Tables\Columns\TextColumn::make('patient_id')
-                ->searchable()
-                ->sortable(),
-            'has_mouth_or_teeth_pain' => Tables\Columns\IconColumn::make('has_mouth_or_teeth_pain')
-                ->boolean()
-                ->sortable(),
-            // Altri campi reali del modello Report...
-        ];
-    }
-
-    protected function getHeaderActions(): array
-    {
-        return [
-            Actions\CreateAction::make(), // ✅ NO ->label() hardcoded
-        ];
-    }
-}
-```
-
-### Regole per getTableColumns()
-
-1. **Visibilità**: SEMPRE `public`
-2. **Tipo di ritorno**: SEMPRE `array<string, \Filament\Tables\Columns\Column>`
-3. **Struttura**: Array associativo con chiavi stringa
-4. **Campi Reali**: MAI inventare campi, usare solo quelli del modello
-5. **Traduzioni**: MAI usare `->label()`, gestite da LangServiceProvider
-6. **Tipizzazione**: Includere PHPDoc completo
-
-### Esempio di Implementazione Corretta
-
-```php
-/**
- * Get the table columns.
- *
- * @return array<string, \Filament\Tables\Columns\Column>
- */
-public function getTableColumns(): array
-{
-    return [
-        'id' => Tables\Columns\TextColumn::make('id')
-            ->searchable()
-            ->sortable(),
-        'name' => Tables\Columns\TextColumn::make('name')
-            ->searchable()
-            ->sortable(),
-        'email' => Tables\Columns\TextColumn::make('email')
-            ->searchable()
-            ->sortable(),
-        'status' => Tables\Columns\BadgeColumn::make('status')
-            ->colors([
-                'primary' => 'active',
-                'danger' => 'inactive',
-            ]),
-        'created_at' => Tables\Columns\TextColumn::make('created_at')
-            ->dateTime('d/m/Y H:i')
-            ->sortable(),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -304,185 +53,11 @@ public static function getFormSchema(): array
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-## Regole per XotBaseEditRecord
-
-### Implementazione Corretta
-
-```php
-<?php
-
-declare(strict_types=1);
-
-namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
-
-use Modules\SaluteMo\Filament\Resources\AppointmentResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
-use Filament\Actions;
-
-/**
- * Pagina di modifica per gli appuntamenti.
- * 
- * ✅ IMPLEMENTAZIONE CORRETTA: Estende XotBaseEditRecord
- * ✅ SEGUE IL PATTERN LARAXOT: Non estende EditRecord di Filament direttamente
- * ✅ DOCUMENTAZIONE AGGIORNATA: PHPDoc completo e chiaro
- * ✅ NO FORM: Il metodo form() è già implementato in XotBaseEditRecord
- * ✅ UTILIZZA getFormSchema(): Dalla risorsa AppointmentResource
- */
-class EditAppointment extends XotBaseEditRecord
-{
-    protected static string $resource = AppointmentResource::class;
-
-    protected function getHeaderActions(): array
-    {
-        return [
-            Actions\DeleteAction::make(), // ✅ NO ->label() hardcoded
-        ];
-    }
-}
-```
-
-## Regole per XotBaseCreateRecord
-
-### Implementazione Corretta
-
-```php
-<?php
-
-declare(strict_types=1);
-
-namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
-
-use Modules\SaluteMo\Filament\Resources\AppointmentResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
-
-/**
- * Pagina di creazione per gli appuntamenti.
- * 
- * ✅ IMPLEMENTAZIONE CORRETTA: Estende XotBaseCreateRecord
- * ✅ SEGUE IL PATTERN LARAXOT: Non estende CreateRecord di Filament direttamente
- * ✅ DOCUMENTAZIONE AGGIORNATA: PHPDoc completo e chiaro
- * ✅ NO FORM: Il metodo form() è già implementato in XotBaseCreateRecord
- * ✅ UTILIZZA getFormSchema(): Dalla risorsa AppointmentResource
- */
-class CreateAppointment extends XotBaseCreateRecord
-{
-    protected static string $resource = AppointmentResource::class;
-}
-```
-
-## Esempi di Implementazione Corretta
-
-### ReportResource.php - IMPLEMENTAZIONE CORRETTA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
 // NON FARE MAI QUESTO
-<<<<<<< HEAD
 public static function form(Form $form): Form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 17684f52 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 {
     return $form->schema([
         // componenti...
@@ -530,133 +105,6 @@ TextInput::make('nome')
 ```php
 <?php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-declare(strict_types=1);
-
-namespace Modules\SaluteMo\Filament\Resources;
-
-use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
-use Modules\<nome modulo>\Models\Report;
-use Modules\Xot\Filament\Resources\XotBaseResource;
-use Filament\Forms;
-
-/**
- * Risorsa Filament per i report.
- * 
- * ✅ IMPLEMENTAZIONE CORRETTA: Estende XotBaseResource
- * ✅ SEGUE IL PATTERN LARAXOT: Non estende Resource di Filament direttamente
- * ✅ IMPLEMENTA getFormSchema(): Metodo obbligatorio per XotBaseResource
- * ✅ DOCUMENTAZIONE AGGIORNATA: PHPDoc completo e chiaro
- * ✅ NO NAVIGATION ICON: Non definito perché gestito da XotBaseResource
- * ✅ NO FORM/TABLE: Metodi gestiti automaticamente da XotBaseResource
- * ✅ NO LABEL HARDCODED: Tutte le label gestite da LangServiceProvider
- */
-class ReportResource extends XotBaseResource
-{
-    protected static ?string $model = Report::class;
-
-    /**
-     * Get the form schema.
-     *
-     * @return array<int, \Filament\Forms\Components\Component>
-     */
-    public static function getFormSchema(): array
-    {
-        return [
-            // ✅ NO ->label(): Tutte le label gestite da LangServiceProvider
-            Forms\Components\Select::make('patient_id')
-                ->relationship('patient', 'name')
-                ->required(),
-            
-            Forms\Components\Toggle::make('has_mouth_or_teeth_pain'),
-            Forms\Components\Toggle::make('smokes'),
-            // Altri campi reali del modello Report...
-        ];
-    }
-
-    public static function getPages(): array
-    {
-        return [
-            'index' => Pages\ListReports::route('/'),
-            'create' => Pages\CreateReport::route('/create'),
-            'edit' => Pages\EditReport::route('/{record}/edit'),
-        ];
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -674,11 +122,11 @@ use Modules\Brain\Models\Socio;
 class SocioResource extends XotBaseResource
 {
     protected static ?string $model = Socio::class;
-    
+
     protected static ?string $navigationIcon = 'heroicon-o-user';
-    
+
     protected static ?int $navigationSort = 1;
-    
+
     // Form Schema - CORRETTO ✅
     public static function getFormSchema(): array
     {
@@ -686,24 +134,24 @@ class SocioResource extends XotBaseResource
             TextInput::make('cognome')
                 ->required()
                 ->maxLength(255),
-            
+
             TextInput::make('nome')
                 ->required()
                 ->maxLength(255),
-            
+
             DatePicker::make('data_nascita'),
-            
+
             TextInput::make('email')
                 ->email()
                 ->required(),
-            
+
             Select::make('id_stato_socio')
                 ->relationship('statoSocio', 'descrizione'),
-            
+
             Toggle::make('is_attivo'),
         ];
     }
-    
+
     // Table - CORRETTO ✅
     public static function table(\Filament\Tables\Table $table): \Filament\Tables\Table
     {
@@ -712,21 +160,21 @@ class SocioResource extends XotBaseResource
                 TextColumn::make('cognome')
                     ->sortable()
                     ->searchable(),
-                
+
                 TextColumn::make('nome')
                     ->sortable()
                     ->searchable(),
-                
+
                 TextColumn::make('sezione.descrizione'),
-                
+
                 TextColumn::make('statoSocio.descrizione'),
-                
+
                 BooleanColumn::make('is_attivo'),
             ])
             ->filters([
                 SelectFilter::make('id_stato_socio')
                     ->relationship('statoSocio', 'descrizione'),
-                
+
                 SelectFilter::make('id_sezione')
                     ->relationship('sezione', 'descrizione'),
             ])
@@ -736,7 +184,7 @@ class SocioResource extends XotBaseResource
                 Action::make('delete'),
             ]);
     }
-    
+
     // Query Scope - CORRETTO ✅
     public static function getEloquentQuery(): Builder
     {
@@ -746,138 +194,6 @@ class SocioResource extends XotBaseResource
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-## Checklist di Conformità
-
-Prima di considerare completa una risorsa Filament, verificare:
-
-### ✅ Estensione Base
-- [ ] Estende `XotBaseResource` invece di `Resource`
-- [ ] Estende `XotBaseListRecords` invece di `ListRecords`
-- [ ] Estende `XotBaseEditRecord` invece di `EditRecord`
-- [ ] Estende `XotBaseCreateRecord` invece di `CreateRecord`
-
-### ✅ Traduzioni
-- [ ] NESSUN `->label()` hardcoded nei form components
-- [ ] NESSUN `->placeholder()` hardcoded
-- [ ] NESSUN `->helperText()` hardcoded
-- [ ] Tutte le traduzioni nei file di lingua del modulo
-
-### ✅ Campi Reali
-- [ ] Tutti i campi della tabella esistono nel modello
-- [ ] Tutti i campi del form esistono nel modello
-- [ ] Campi presi dalla migrazione, non inventati
-- [ ] Verificato con `$fillable` del modello
-
-### ✅ Metodi Obbligatori
-- [ ] `getFormSchema()` implementato in XotBaseResource
-- [ ] `getTableColumns()` implementato in XotBaseListRecords
-- [ ] Nessun override di metodi già gestiti da XotBaseResource
-
-### ✅ Documentazione
-- [ ] PHPDoc completo per tutte le classi e metodi
-- [ ] Commenti che spiegano le scelte implementative
-- [ ] Documentazione aggiornata nel modulo e nella root
-
-## Violazioni Gravi da Evitare
-
-1. **Estendere classi Filament direttamente**
-2. **Usare `->label()` nei form components**
-3. **Inventare campi che non esistono nel modello**
-4. **Definire `navigationIcon` se si estende `XotBaseResource`**
-5. **Non implementare metodi obbligatori come `getFormSchema()`**
-
-## File Corretti
-
-### ✅ ReportResource
-- `ReportResource.php` - Estende `XotBaseResource`
-- `ListReports.php` - Estende `XotBaseListRecords`
-- `CreateReport.php` - Estende `XotBaseCreateRecord`
-- `EditReport.php` - Estende `XotBaseEditRecord`
-
-### ✅ AppointmentResource
-- `AppointmentResource.php` - Estende `XotBaseResource`
-- `ListAppointments.php` - Estende `XotBaseListRecords`
-- `CreateAppointment.php` - Estende `XotBaseCreateRecord`
-- `EditAppointment.php` - Estende `XotBaseEditRecord`
-
-*Ultimo aggiornamento: gennaio 2025 - Correzioni per campi reali e rimozione label hardcoded*
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo
@@ -891,7 +207,7 @@ return [
     'navigation_icon' => 'heroicon-o-user',
     'navigation_sort' => 1,
     'description' => 'Gestione completa dei soci',
-    
+
     'fields' => [
         'id_socio' => [
             'label' => 'ID Socio',
@@ -929,7 +245,7 @@ return [
             'tooltip' => 'Indica se il socio è attualmente attivo'
         ]
     ],
-    
+
     'actions' => [
         'create' => [
             'label' => 'Nuovo Socio',
@@ -956,7 +272,7 @@ return [
             'tooltip' => 'Rimuovi questo socio dal sistema'
         ]
     ],
-    
+
     'sections' => [
         'personal_data' => [
             'label' => 'Dati Personali',
@@ -971,13 +287,13 @@ return [
             'tooltip' => 'Dettagli relativi all\'iscrizione'
         ]
     ],
-    
+
     'messages' => [
         'created' => 'Socio creato con successo',
         'updated' => 'Socio aggiornato con successo',
         'deleted' => 'Socio eliminato con successo'
     ],
-    
+
     'table' => [
         'empty_text' => 'Nessun socio trovato',
         'search_prompt' => 'Cerca soci...'
@@ -1004,7 +320,7 @@ public static function getFormSchema(): array
                         TextInput::make('nome')->required(),
                         DatePicker::make('data_nascita'),
                     ]),
-                
+
                 Forms\Components\Tabs\Tab::make(trans('socio-resource.sections.contact_info.label'))
                     ->icon('heroicon-o-mail')
                     ->schema([
@@ -1029,13 +345,13 @@ Forms\Components\Section::make(trans('socio-resource.sections.personal_data.labe
                 TextInput::make('cognome')
                     ->required()
                     ->columnSpan(1),
-                
+
                 TextInput::make('nome')
                     ->required()
                     ->columnSpan(1),
             ])
             ->columns(2),
-            
+
         DatePicker::make('data_nascita')
             ->columnSpan('full'),
     ])
@@ -1063,11 +379,11 @@ Per validazioni più complesse, utilizzare i metodi rules() o rule():
 ```php
 DatePicker::make('data_nascita')
     ->rules([
-        'required', 
-        'date', 
+        'required',
+        'date',
         'before:today'
     ])
-    
+
 TextInput::make('codice_fiscale')
     ->rule(fn() => function (string $attribute, $value, \Closure $fail) {
         if (!Str::isValidCF($value)) {
@@ -1180,8 +496,8 @@ public static function getEloquentQuery(): Builder
 {
     return parent::getEloquentQuery()
         ->with([
-            'sezione', 
-            'statoSocio', 
+            'sezione',
+            'statoSocio',
             'convenzioni',
         ]);
 }
@@ -1209,7 +525,6 @@ public static function table(Table $table): Table
 - [Filament Docs](https://filamentphp.com/docs)
 - [Best practices moduli riutilizzabili](../module-documentation-neutrality.md)
 - [Ereditarietà modelli](../model-inheritance-best-practices.md)
-
 
 ### Problema: Form non visualizzato correttamente
 
@@ -1246,7 +561,7 @@ use Modules\Brain\Models\Socio;
 class SocioResource extends XotBaseResource
 {
     protected static ?string $model = Socio::class;
-    
+
     public static function getFormSchema(): array
     {
         return [
@@ -1254,7 +569,7 @@ class SocioResource extends XotBaseResource
             TextInput::make('cognome')->required(),
         ];
     }
-    
+
     public static function table(\Filament\Tables\Table $table): \Filament\Tables\Table
     {
         return $table
@@ -1286,203 +601,13 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 
 ### Esempio corretto
 ```php
-<<<<<<< HEAD
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> e0b8ebe3 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 76bec91a (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> cc52d333 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
-<<<<<<< HEAD
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> e0b8ebe3 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 76bec91a (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> cc52d333 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -1536,13 +661,3 @@ Appointment::where('doctor_id', $doctorId)
 - Un solo punto di verità: nessuna duplicazione, nessun lock-in
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
-
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

@@ -1,102 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> 399f46d3 (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> d86d643a (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> 472bd9dc (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> 43d67f21 (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> 5a14301c (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> 43d67f21 (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
->>>>>>> b7ea1cd1 (.)
-=======
-# Struttura Traduzioni Espansa - Modulo Xot
-
-## Scopo
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
-<<<<<<< HEAD
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 88e35986 (.)
-=======
-=======
->>>>>>> e7da37af (.)
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
->>>>>>> 3bf39332 (.)
-=======
-# Struttura Traduzioni Espansa - Modulo Xot
-
-## Scopo
-<<<<<<< HEAD
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
-<<<<<<< HEAD
->>>>>>> e0b8ebe3 (.)
-=======
-=======
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
-Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".
@@ -285,16 +190,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 
 ---
 
-**Stato**: Documentazione completata, implementazione in corso  
-**Priorità**: Media (file già corretto linguisticamente)  
-**Responsabile**: Sistema automatico DRY/KISS  
+**Stato**: Documentazione completata, implementazione in corso
+**Priorità**: Media (file già corretto linguisticamente)
+**Responsabile**: Sistema automatico DRY/KISS
 **Data**: 2025-08-08
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

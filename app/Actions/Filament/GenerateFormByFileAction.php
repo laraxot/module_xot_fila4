@@ -8,19 +8,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-<<<<<<< HEAD
-use Illuminate\Support\Facades\Log;
-=======
->>>>>>> 50c0e1043 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use ReflectionClass;
+use function Safe\file;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Finder\SplFileInfo as File;
 use Webmozart\Assert\Assert;
-
-use function Safe\file;
 
 class GenerateFormByFileAction
 {
@@ -30,6 +25,7 @@ class GenerateFormByFileAction
      * Genera un form Filament basato su un file di risorsa.
      *
      * @param  File  $file  Il file della risorsa Filament
+     *
      * @return int Numero di input aggiunti
      */
     public function execute(File $file): int
@@ -95,11 +91,7 @@ class GenerateFormByFileAction
         // Otteniamo i metodi della classe risorsa
         $resourceMethods = get_class_methods($resourceInstance);
 
-<<<<<<< HEAD
         Log::debug('GenerateFormByFileAction', [
-=======
-        \Illuminate\Support\Facades\Log::debug('GenerateFormByFileAction', [
->>>>>>> 50c0e1043 (.)
             'line' => __LINE__,
             'method' => __METHOD__,
             'fillable' => $fillable,

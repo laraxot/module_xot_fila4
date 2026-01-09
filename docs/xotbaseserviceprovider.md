@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 # XotBaseServiceProvider
 
 ## Panoramica
@@ -92,7 +86,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
     public string $name = 'Notify';
-    
+
     public function boot(): void
     {
         parent::boot();
@@ -104,95 +98,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
 - [Architettura dei Provider](../../../docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../docs/architecture/modules.md)
 
 ### Collegamenti ai Moduli
 - [Notify ServiceProvider](../../Notify/docs/service-provider.md)
 - [User ServiceProvider](../../User/docs/service-provider.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-- [Architettura dei Provider](../../../project_docs/architecture/providers.md)
-- [Struttura dei Moduli](../../../project_docs/architecture/modules.md)
-
-### Collegamenti ai Moduli
-- [Notify ServiceProvider](../../Notify/project_docs/service-provider.md)
-- [User ServiceProvider](../../User/project_docs/service-provider.md)
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
 
 ## Note Importanti
 
@@ -200,59 +111,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 2. Non modificare mai la visibilità delle proprietà/metodi ereditati
 3. Seguire sempre il pattern di registrazione standard
 4. Documentare ogni modifica o estensione
-5. Mantenere la coerenza tra i moduli 
+5. Mantenere la coerenza tra i moduli
 ## Collegamenti tra versioni di XotBaseServiceProvider.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
-=======
-* [XotBaseServiceProvider.md](../../../../project_docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> f1d4085 (.)
-=======
-* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> 6dcebf8a (.)
-=======
-* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
-=======
-* [XotBaseServiceProvider.md](../../../../project_docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> b3cc10f7 (.)
-=======
-* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
-=======
-* [XotBaseServiceProvider.md](../../../../project_docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> cafe8bed (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 
@@ -366,37 +227,3 @@ $this->commands([
 
 ### Zen finale
 > "Il miglior comando è quello che non devi mai registrare a mano."
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 # Violazioni Architetturali e Correzioni - Pattern XotData
 
 ## 🚨 **Violazioni Architetturali Critiche**
@@ -18,166 +5,31 @@
 ### **Problema Identificato: Import Diretti tra Moduli**
 
 Durante lo sviluppo è stata identificata una **violazione architetturale critica** nel `LoginTest.php` del modulo Cms:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 
 ```php
 // ❌ VIOLAZIONE CRITICA
-<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6cba4fe (.)
-=======
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
-=======
 use Modules\<nome modulo>\Models\User;
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
-=======
 use Modules\<nome modulo>\Models\User;
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
+use Modules\<nome modulo>\Models\User;
 use Modules\SaluteOra\Models\User;
-=======
 use Modules\<nome modulo>\Models\User;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
+use Modules\<nome modulo>\Models\User;
 
 ```php
 // ❌ VIOLAZIONE CRITICA
-<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
-=======
-<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> f1d4085 (.)
-=======
 use Modules\<nome modulo>\Models\User;
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> cafe8bed (.)
-=======
->>>>>>> 5cd593a5 (.)
 use Modules\SaluteOra\Models\User;
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
 use Modules\SaluteOra\Models\User;
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
 use Modules\SaluteOra\Models\User;
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
 use Modules\SaluteOra\Models\User;
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
 use Modules\SaluteOra\Models\User;
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\User;
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -185,180 +37,65 @@ $user = User::factory()->create([...]);
 
 ### **Perché è un Errore Grave**
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6cba4fe (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> f1d4085 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
->>>>>>> 3310e9c6 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
->>>>>>> 6dcebf8a (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> f1d4085 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
->>>>>>> cafe8bed (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> f1d4085 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
->>>>>>> 5cd593a5 (.)
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-<<<<<<< HEAD
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
-=======
 1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> 6cba4fe (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
->>>>>>> 5a14301c (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-<<<<<<< HEAD
-1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
-1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 17684f52 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> 6cba4fe (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
->>>>>>> c35986f4 (.)
-=======
-1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
-=======
 1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
->>>>>>> ab8cc3f3 (.)
-=======
-1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
-=======
 1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> 6cba4fe (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
->>>>>>> 5bd842e3 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
-=======
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
+1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
-=======
->>>>>>> 6cba4fe (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
->>>>>>> 03ceeac3 (.)
-=======
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
-=======
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
+1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -390,188 +127,69 @@ $user = $userClass::factory()->create($attributes);
 'providers' => [
     'users' => [
         'driver' => 'eloquent',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> f1d4085 (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> 3310e9c6 (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> 6dcebf8a (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> f1d4085 (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> cafe8bed (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> f1d4085 (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> 5cd593a5 (.)
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
->>>>>>> 5a14301c (.)
-=======
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
->>>>>>> 71f31700 (.)
-=======
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
-=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> 6cba4fe (.)
-        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
->>>>>>> 5a14301c (.)
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-<<<<<<< HEAD
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 17684f52 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> 6cba4fe (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
->>>>>>> c35986f4 (.)
-=======
-        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
->>>>>>> ab8cc3f3 (.)
-=======
-        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
-=======
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> 6cba4fe (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
->>>>>>> 5bd842e3 (.)
-=======
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
-=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
-=======
->>>>>>> 6cba4fe (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
->>>>>>> 03ceeac3 (.)
-=======
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
-=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
     ],
 ],
 ```
@@ -581,7 +199,7 @@ $user = $userClass::factory()->create($attributes);
 public function getUserClass(): string
 {
     $class = config('auth.providers.users.model');
-    
+
     // Validazioni automatiche
     Assert::stringNotEmpty($class, 'check config auth');
     Assert::classExists($class, '['.$class.'] check config auth');
@@ -619,7 +237,7 @@ interface UserContract
 // ✅ SEMPRE così
 $userClass = XotData::make()->getUserClass();
 
-// ❌ MAI così  
+// ❌ MAI così
 use Modules\SpecificModule\Models\User;
 ```
 
@@ -629,190 +247,70 @@ use Modules\SpecificModule\Models\User;
 public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 3fbbf1f5 (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 3310e9c6 (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 6dcebf8a (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> cafe8bed (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 5cd593a5 (.)
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 71f31700 (.)
-=======
 public function processUser(\Modules\SaluteOra\Models\User $user): void
-=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
-public function processUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 5a14301c (.)
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-<<<<<<< HEAD
 public function processUser(\Modules\SaluteOra\Models\User $user): void
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 17684f52 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> c35986f4 (.)
-=======
-public function processUser(\Modules\SaluteOra\Models\User $user): void
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-public function processUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> ab8cc3f3 (.)
-=======
-public function processUser(\Modules\SaluteOra\Models\User $user): void
-=======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 5bd842e3 (.)
-=======
 public function processUser(\Modules\SaluteOra\Models\User $user): void
-=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 03ceeac3 (.)
-=======
 public function processUser(\Modules\SaluteOra\Models\User $user): void
-=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -851,19 +349,19 @@ function getUserClass(): string
 function createTestUser(array $attributes = []): UserContract
 {
     $userClass = getUserClass();
-    
+
     $defaultAttributes = [
         'email' => fake()->unique()->safeEmail(),
         'password' => Hash::make('password123'),
         'first_name' => fake()->firstName(),
         'last_name' => fake()->lastName(),
     ];
-    
+
     $attributes = array_merge($defaultAttributes, $attributes);
-    
+
     /** @var UserContract */
     $user = $userClass::factory()->create($attributes);
-    
+
     return $user;
 }
 ```
@@ -875,13 +373,13 @@ class CreateUserAction
     public function execute(UserData $data): UserContract
     {
         $userClass = XotData::make()->getUserClass();
-        
+
         /** @var UserContract */
         $user = $userClass::create([
             'name' => $data->name,
             'email' => $data->email,
         ]);
-        
+
         return $user;
     }
 }
@@ -925,15 +423,15 @@ class ChangeTypeCommand extends Command
     public function handle(): void
     {
         $email = text('User email?');
-        
+
         /** @var UserContract */
         $user = XotData::make()->getUserByEmail($email);
-        
+
         if (!$user) {
             $this->error("User with email '{$email}' not found.");
             return;
         }
-        
+
         // Continua elaborazione...
     }
 }
@@ -944,254 +442,135 @@ class ChangeTypeCommand extends Command
 ### **1. Import Diretti**
 ```php
 // ❌ VIETATO
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-=======
-=======
+use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
-use Modules\<nome modulo>\Models\Doctor;
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> d79d36e0 (.)
-use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> d79d36e0 (.)
-=======
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
-use Modules\<nome modulo>\Models\Doctor;
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
-use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
->>>>>>> 3310e9c6 (.)
-=======
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
-use Modules\<nome modulo>\Models\Doctor;
->>>>>>> 6dcebf8a (.)
-=======
-use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
-use Modules\<nome modulo>\Models\Doctor;
->>>>>>> cafe8bed (.)
-=======
-use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
->>>>>>> d79d36e0 (.)
-=======
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
->>>>>>> 5cd593a5 (.)
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\Doctor;
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-=======
->>>>>>> 6cba4fe (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
->>>>>>> 71f31700 (.)
-=======
+use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
-use Modules\SaluteOra\Models\Doctor;
-=======
-use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
->>>>>>> d86d643a (.)
-=======
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
-use Modules\SaluteOra\Models\Doctor;
->>>>>>> 472bd9dc (.)
-=======
-use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
->>>>>>> 3bf39332 (.)
-=======
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
-use Modules\SaluteOra\Models\Doctor;
->>>>>>> cf971011 (.)
-=======
-use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
->>>>>>> e7da37af (.)
-=======
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\Doctor;
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\<nome modulo>\Models\Doctor;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-=======
->>>>>>> 6cba4fe (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 17684f52 (.)
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+use Modules\SaluteOra\Models\Doctor;
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-=======
->>>>>>> 6cba4fe (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-use Modules\SaluteOra\Models\User;
-use Modules\SaluteOra\Models\Patient;
-use Modules\SaluteOra\Models\Doctor;
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
-=======
->>>>>>> 6cba4fe (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-use Modules\<nome modulo>\Models\User;
-use Modules\<nome modulo>\Models\Patient;
-use Modules\<nome modulo>\Models\Doctor;
-=======
->>>>>>> 6cba4fe (.)
-use Modules\SaluteOra\Models\User;
-use Modules\SaluteOra\Models\Patient;
-use Modules\SaluteOra\Models\Doctor;
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -1201,192 +580,72 @@ use Modules\Xot\Datas\XotData;
 ### **2. Hardcoding Classi**
 ```php
 // ❌ VIETATO
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> 3fbbf1f5 (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> f1d4085 (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> 3310e9c6 (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> 6dcebf8a (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> f1d4085 (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> cafe8bed (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> f1d4085 (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> 5cd593a5 (.)
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\SaluteOra\Models\User::find($id);
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> 6cba4fe (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
->>>>>>> 71f31700 (.)
-=======
 $user = \Modules\SaluteOra\Models\User::find($id);
-=======
+$user = \Modules\SaluteOra\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> 6cba4fe (.)
-$user = \Modules\SaluteOra\Models\User::find($id);
->>>>>>> 5a14301c (.)
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
-<<<<<<< HEAD
 $user = \Modules\SaluteOra\Models\User::find($id);
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 17684f52 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> 6cba4fe (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
->>>>>>> c35986f4 (.)
-=======
-$user = \Modules\SaluteOra\Models\User::find($id);
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-$user = \Modules\SaluteOra\Models\User::find($id);
->>>>>>> ab8cc3f3 (.)
-=======
-$user = \Modules\SaluteOra\Models\User::find($id);
-=======
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> 6cba4fe (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
->>>>>>> 5bd842e3 (.)
-=======
 $user = \Modules\SaluteOra\Models\User::find($id);
-=======
+$user = \Modules\SaluteOra\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
-=======
->>>>>>> 6cba4fe (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
->>>>>>> 03ceeac3 (.)
-=======
 $user = \Modules\SaluteOra\Models\User::find($id);
-=======
+$user = \Modules\SaluteOra\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\<nome modulo>\Models\User::find($id);
 
-// ✅ CONSENTITO  
+// ✅ CONSENTITO
 $userClass = XotData::make()->getUserClass();
 $user = $userClass::find($id);
 ```
@@ -1394,190 +653,70 @@ $user = $userClass::find($id);
 ### **3. Type Hints Specifici**
 ```php
 // ❌ VIETATO
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 3fbbf1f5 (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 3310e9c6 (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 6dcebf8a (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> cafe8bed (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> f1d4085 (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> 5cd593a5 (.)
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 71f31700 (.)
-=======
 function updateUser(\Modules\SaluteOra\Models\User $user): void
-=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
-function updateUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 5a14301c (.)
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-<<<<<<< HEAD
 function updateUser(\Modules\SaluteOra\Models\User $user): void
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 17684f52 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> c35986f4 (.)
-=======
-function updateUser(\Modules\SaluteOra\Models\User $user): void
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-function updateUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> ab8cc3f3 (.)
-=======
-function updateUser(\Modules\SaluteOra\Models\User $user): void
-=======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 5bd842e3 (.)
-=======
 function updateUser(\Modules\SaluteOra\Models\User $user): void
-=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
-=======
->>>>>>> 6cba4fe (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
->>>>>>> 03ceeac3 (.)
-=======
 function updateUser(\Modules\SaluteOra\Models\User $user): void
-=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -1629,53 +768,35 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 
 ### **Fase 2: Sostituzione Pattern**
 1. Sostituire import diretti con XotData
-2. Cambiare type hints con UserContract  
+2. Cambiare type hints con UserContract
 3. Aggiornare factory calls
 4. Implementare helper functions
 
 ### **Fase 3: Testing e Validazione**
 1. Test che XotData risolve correttamente
 2. Verify dei contratti implementati
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-3. PHPStan level 10+ compliance
-=======
 3. PHPStan level 9+ compliance
->>>>>>> 5a14301c (.)
-=======
 3. PHPStan level 9+ compliance
->>>>>>> 71f31700 (.)
-=======
 3. PHPStan level 9+ compliance
->>>>>>> 5a14301c (.)
-=======
 3. PHPStan level 9+ compliance
->>>>>>> 71f31700 (.)
-=======
 3. PHPStan level 9+ compliance
->>>>>>> c35986f4 (.)
-=======
 3. PHPStan level 9+ compliance
->>>>>>> ab8cc3f3 (.)
-=======
 3. PHPStan level 9+ compliance
->>>>>>> 5bd842e3 (.)
-=======
 3. PHPStan level 9+ compliance
->>>>>>> 03ceeac3 (.)
+3. PHPStan level 9+ compliance
+3. PHPStan level 9+ compliance
+3. PHPStan level 9+ compliance
+3. PHPStan level 9+ compliance
+3. PHPStan level 9+ compliance
+3. PHPStan level 9+ compliance
+3. PHPStan level 9+ compliance
 4. Test di regressione
 
 ## 📚 **Link e Riferimenti**
 
 ### **Documentazione Core**
 - [XotData API Reference](xotdata-api.md)
-- [UserContract Specification](contracts/user-contract.md)  
+- [UserContract Specification](contracts/user-contract.md)
 - [Best Practices](best-practices.md)
 - [Module Architecture](module-architecture.md)
 
@@ -1685,392 +806,107 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [IsTenant Trait](../../User/app/Models/Traits/IsTenant.php)
 
 ### **Documentazione Moduli**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
-- [User Module Traits](../../User/docs/traits_complete_guide.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
-=======
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
->>>>>>> 3fbbf1f5 (.)
-=======
-- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
->>>>>>> 71f31700 (.)
-=======
-- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
-=======
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
-=======
->>>>>>> 6cba4fe (.)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-=======
->>>>>>> a62d7646 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> 5cd593a5 (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
-<<<<<<< HEAD
-- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> a62d7646 (.)
-=======
->>>>>>> d79d36e0 (.)
-=======
+- [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
+- [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
+- [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
-<<<<<<< HEAD
-- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
-- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
-=======
->>>>>>> 17684f52 (.)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
-=======
->>>>>>> 6cba4fe (.)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
->>>>>>> c35986f4 (.)
-=======
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
-=======
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-=======
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+- [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
-<<<<<<< HEAD
+- [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
-=======
->>>>>>> 6cba4fe (.)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
->>>>>>> 5bd842e3 (.)
-=======
-=======
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> a62d7646 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> 5cd593a5 (.)
-=======
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+- [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
-<<<<<<< HEAD
+- [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
-=======
->>>>>>> 6cba4fe (.)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
->>>>>>> 03ceeac3 (.)
-=======
-=======
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
 
 ---
 
-**Ultimo Aggiornamento**: Gennaio 2025  
-**Stato**: ✅ Pattern Documentato e Implementato  
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Responsabile**: Team Architettura Laraxot 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 5a14301c (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-**Responsabile**: Team Architettura Laraxot 
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 3fbbf1f5 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 71f31700 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> f1d4085 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 3310e9c6 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> c35986f4 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> f1d4085 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> cafe8bed (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 5bd842e3 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> e0b8ebe3 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> f1d4085 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 5cd593a5 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
->>>>>>> 03ceeac3 (.)
-=======
-**Responsabile**: Team Architettura Laraxot 
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> cc52d333 (.)
+**Ultimo Aggiornamento**: Gennaio 2025
+**Stato**: ✅ Pattern Documentato e Implementato
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot
+**Responsabile**: Team Architettura Laraxot

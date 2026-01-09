@@ -1,66 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 # Best Practices
 
 ## Laravel
@@ -107,83 +44,6 @@
 - Verificare la performance
 - Controllare la manutenibilità
 - Verificare la testabilità
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -263,7 +123,7 @@ use Modules\Xot\Models\Traits\HasExtra;
 class MioModello extends BaseModel
 {
     use HasXotTable, HasExtra;
-    
+
     // Implementazione specifica
 }
 ```
@@ -434,11 +294,11 @@ class MioModelloResource extends XotBaseResource
             Forms\Components\TextInput::make('nome')
                 ->required()
                 ->maxLength(255),
-                
+
             Forms\Components\Textarea::make('descrizione')
                 ->maxLength(1000)
                 ->columnSpanFull(),
-                
+
             Forms\Components\Toggle::make('is_active')
                 ->required(),
         ];
@@ -455,14 +315,14 @@ class MioModelloResource extends XotBaseResource
             Tables\Columns\TextColumn::make('nome')
                 ->searchable()
                 ->sortable(),
-                
+
             Tables\Columns\TextColumn::make('descrizione')
                 ->limit(50),
-                
+
             Tables\Columns\IconColumn::make('is_active')
                 ->boolean()
                 ->sortable(),
-                
+
             Tables\Columns\TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
@@ -485,7 +345,7 @@ public static function getTableActions(): array
     return [
         Tables\Actions\EditAction::make(),
         Tables\Actions\DeleteAction::make(),
-        
+
         // Azione personalizzata
         Tables\Actions\Action::make('custom_action')
             ->icon('heroicon-o-star')
@@ -525,7 +385,7 @@ class MioModuloServiceProvider extends XotBaseServiceProvider
     public function boot(): void
     {
         parent::boot();
-        
+
         // Personalizzazioni specifiche del modulo
         $this->registerCustomComponents();
         $this->registerCustomCommands();
@@ -585,7 +445,7 @@ return new class extends XotBaseMigration
             $table->boolean('is_active')->default(true);
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
-            
+
             // Indici per performance
             $table->index(['user_id', 'is_active']);
             $table->index('nome');
@@ -638,7 +498,7 @@ class MioModelloTest extends XotBaseTestCase
     protected function setUp(): void
     {
         parent::setUp();
-        
+
         // Setup comune per tutti i test
     }
 
@@ -646,7 +506,7 @@ class MioModelloTest extends XotBaseTestCase
     public function it_can_create_model(): void
     {
         $user = User::factory()->create();
-        
+
         $modello = MioModello::create([
             'nome' => 'Test Model',
             'descrizione' => 'Test Description',
@@ -663,9 +523,9 @@ class MioModelloTest extends XotBaseTestCase
     public function it_can_update_model(): void
     {
         $modello = MioModello::factory()->create();
-        
+
         $modello->update(['nome' => 'Updated Name']);
-        
+
         $this->assertEquals('Updated Name', $modello->fresh()->nome);
     }
 
@@ -673,9 +533,9 @@ class MioModelloTest extends XotBaseTestCase
     public function it_can_delete_model(): void
     {
         $modello = MioModello::factory()->create();
-        
+
         $modello->delete();
-        
+
         $this->assertModelMissing($modello);
     }
 }
@@ -899,83 +759,8 @@ public function createModel(array $data): MioModello
 
 - [**README.md**](README.md) - Documentazione principale del modulo
 - [**Architettura**](architecture.md) - Architettura del modulo Xot
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-- [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
->>>>>>> 48515e368 (.)
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
-=======
-- [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
->>>>>>> f1d4085 (.)
-=======
-- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
 
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

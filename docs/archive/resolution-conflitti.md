@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ba6c53070 (.)
 # Risoluzione Conflitti
 
 ## Best Practices
@@ -27,23 +22,8 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
   - Documentazione delle decisioni prese
 
 ### 3. Autenticazione e UI
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
-=======
-- [Componenti Filament](../../Themes/One/docs/FILAMENT_COMPONENTS.md)
-- [Registrazione Utenti](../../Themes/One/docs/AUTH.md)
->>>>>>> b9c66c44e (.)
-=======
-- [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
-- [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
->>>>>>> ba6c53070 (.)
-=======
-- [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
-- [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
->>>>>>> 99c0b3329 (.)
   - Implementazione completa sistema registrazione
   - Gestione tipi utente dinamica
   - UI moderna con Filament
@@ -123,26 +103,10 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
    - Miglioramento della gestione degli errori
    - Documentazione dei metodi aggiornata
 
-
 ## Collegamenti Esterni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
-=======
-- [Documentazione generale sulla risoluzione dei conflitti git](../../../docs/risoluzione_conflitti_git.md)
-- [Report completo di intervento](../../../docs/logs/conflict_resolution_report.md)
->>>>>>> b9c66c44e (.)
-=======
-- [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
-- [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
->>>>>>> ba6c53070 (.)
-=======
-- [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
-- [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
->>>>>>> 99c0b3329 (.)
 - [Dettagli risoluzione ModelWithPosContract](./conflicts/model_with_pos_contract_resolution.md)
 
 ## XotBaseMainPanelProvider.php
@@ -175,7 +139,6 @@ aurmich/dev
 - È stato rimosso il codice commentato non necessario per `registerBladeComponents()`
 b6f667c (.)
 
-
 La soluzione adottata privilegia la chiarezza del codice e l'organizzazione logica dei metodi, eliminando commenti non necessari e duplicazioni.
 
 ## XotBaseRouteServiceProvider.php
@@ -203,7 +166,6 @@ Mantenere il codice più semplice è preferibile, soprattutto quando le funziona
 
 b6f667c (.)
 
-
 ## Conflitti risolti (14/06/2024)
 
 I seguenti conflitti sono stati risolti come parte dell'ultima manutenzione del modulo:
@@ -230,7 +192,6 @@ I seguenti conflitti sono stati risolti come parte dell'ultima manutenzione del 
    - Coerenza con le convenzioni del framework
 fc83074 (.)
 
-
 Le modifiche sono state applicate seguendo le best practice documentate in `CONFLITTI_MERGE_RISOLTI.md`, privilegiando la chiarezza del codice e la coerenza con gli standard di progetto.
 
 ## Conflitti ancora da risolvere
@@ -238,19 +199,7 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 È necessario completare la risoluzione dei conflitti nei seguenti file:
 
 ### Modulo Activity
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
-=======
-- Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
->>>>>>> b9c66c44e (.)
-=======
-- Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
->>>>>>> ba6c53070 (.)
-=======
-- Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
->>>>>>> 99c0b3329 (.)
 - File README.md del modulo Activity
 
 ### Modulo Xot
@@ -274,53 +223,13 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 
 ## Collegamenti tra versioni di risoluzione_conflitti.md
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
-=======
-* [risoluzione_conflitti.md](../../../Xot/docs/risoluzione_conflitti.md)
-* [risoluzione_conflitti.md](../../../Tenant/docs/risoluzione_conflitti.md)
->>>>>>> b9c66c44e (.)
-=======
-* [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
-* [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
->>>>>>> ba6c53070 (.)
-=======
-* [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
-* [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
->>>>>>> 99c0b3329 (.)
 
 aurmich/dev
 5693302 (.)
 b6f667c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-* [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
-* [Risoluzione Conflitti Tenant](../../../Tenant/project_docs/risoluzione_conflitti.md)
-* [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
-=======
-* [Risoluzione Conflitti Xot](../../../Xot/docs/risoluzione_conflitti.md)
-* [Risoluzione Conflitti Tenant](../../../Tenant/docs/risoluzione_conflitti.md)
-* [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
->>>>>>> b9c66c44e (.)
-=======
-* [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
-* [Risoluzione Conflitti Tenant](../../../Tenant/project_docs/risoluzione_conflitti.md)
-* [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
->>>>>>> 99c0b3329 (.)
-fc83074 (.)
-
-=======
->>>>>>> dc2130a7c (.)
-=======
 * [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [Risoluzione Conflitti Tenant](../../../Tenant/project_docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
 fc83074 (.)
-
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)

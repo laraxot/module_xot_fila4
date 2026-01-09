@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -28,13 +23,13 @@
 2. **Struttura dei contenuti**: Utilizzare titoli e sottotitoli organizzati in modo gerarchico:
    ```markdown
    # Titolo principale
-   
+
    ## Sezione 1
-   
+
    ### Sottosezione 1.1
-   
+
    ### Sottosezione 1.2
-   
+
    ## Sezione 2
    ```
 
@@ -48,7 +43,7 @@
 4. **Note e avvertimenti**: Utilizzare un formato standard per note e avvertimenti:
    ```markdown
    > **Nota**: Informazione importante.
-   
+
    > **Attenzione**: Avvertimento critico.
    ```
 
@@ -64,186 +59,14 @@
 ### Collegamenti bidirezionali
 1. **Da modulo a root**: Ogni documento in un modulo deve linkare alla documentazione root correlata:
    ```markdown
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99c0b3329 (.)
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-Vedi anche: [Documentazione generale](/docs/nome_documento.md)
-
-=======
-   Vedi anche: [Documentazione generale](/docs/nome_documento.md)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> 43d67f21 (.)
-=======
-   Vedi anche: [Documentazione generale](/docs/nome_documento.md)
->>>>>>> 5a14301c (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> 43d67f21 (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> b7ea1cd1 (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> 76bec91a (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99c0b3329 (.)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
-
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> 43d67f21 (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
->>>>>>> 5a14301c (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> 43d67f21 (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> b7ea1cd1 (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> 76bec91a (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -279,146 +102,12 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 ## Collegamenti a documentazione correlata
 
-<<<<<<< HEAD
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 *Ultimo aggiornamento: Giugno 2025*
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Documentazione generale](../../../docs/documentation_rules.md)
-- [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
-- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- [Documentazione generale](../../../project_docs/documentation_rules.md)
-- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
-- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
->>>>>>> 43d67f21 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- [Documentazione generale](../../../project_docs/documentation_rules.md)
-- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
-- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
->>>>>>> 43d67f21 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Documentazione generale](../../../project_docs/documentation_rules.md)
-- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
-- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
->>>>>>> b7ea1cd1 (.)
-<<<<<<< HEAD
-=======
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- [Documentazione generale](../../../project_docs/documentation_rules.md)
-- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
-- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
->>>>>>> 76bec91a (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- [Documentazione generale](../../../project_docs/documentation_rules.md)
-- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
-- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
-- [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
-
-<<<<<<< HEAD
-*Ultimo aggiornamento: Giugno 2025*
-=======
-=======
-- [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
-
-*Ultimo aggiornamento: Giugno 2025*
-=======
-=======
-*Ultimo aggiornamento: Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 - [Documentazione generale](../../../project_docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
 *Ultimo aggiornamento: Giugno 2025*
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
-- [Documentazione generale](../../../docs/documentation_rules.md)
-- [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
-- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
-- [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
-
-*Ultimo aggiornamento: Giugno 2025*
->>>>>>> 5a14301c (.)
-=======
-*Ultimo aggiornamento: Giugno 2025*
->>>>>>> 399f46d3 (.)
-=======
-*Ultimo aggiornamento: Giugno 2025*
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-*Ultimo aggiornamento: Giugno 2025*
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

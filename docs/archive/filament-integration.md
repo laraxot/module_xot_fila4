@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Integrazione con Filament
 
 ## Descrizione
@@ -187,28 +185,5 @@ class AddressPage extends XotBasePage
 ## Collegamenti
 - [README del Modulo](../README.md)
 - [Documentazione JSON Database](json-database.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Best Practices Filament](../../../project_docs/filament-best-practices.md)
-- [Clean Code](../../../project_docs/clean-code.md) 
-=======
-- [Best Practices Filament](../../../docs/filament-best-practices.md)
-- [Clean Code](../../../docs/clean-code.md) 
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
-- [Best Practices Filament](../../../docs/filament-best-practices.md)
-- [Clean Code](../../../docs/clean-code.md) 
-=======
-- [Best Practices Filament](../../../project_docs/filament-best-practices.md)
-- [Clean Code](../../../project_docs/clean-code.md) 
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-- [Best Practices Filament](../../../docs/filament-best-practices.md)
-- [Clean Code](../../../docs/clean-code.md) 
->>>>>>> 99c0b3329 (.)
+- [Clean Code](../../../project_docs/clean-code.md)

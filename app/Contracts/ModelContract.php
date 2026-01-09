@@ -86,31 +86,6 @@ interface ModelContract
      * Convert the model instance to an array representation.
      *
      * @return array<mixed>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-    /*
-     * Save a new model and return the instance. Allow mass-assignment.
-     *
-     * @return \Illuminate\Database\Eloquent\Model|$this
-     *
-     * public function forceCreate(array $attributes);
-     */
-
-    /**
-     * Convert the model instance to an array.
-     *
-     * @return array
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 50c0e1043 (.)
      */
     public function toArray();
 
@@ -137,6 +112,7 @@ interface ModelContract
      *
      * @param  array  $attributes
      * @param  bool  $exists
+     *
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);

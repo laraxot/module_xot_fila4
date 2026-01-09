@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 ### Versione HEAD
 
 # Traduzioni
@@ -75,68 +69,8 @@ Modules/<NomeModulo>/
 
 ## Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/docs/translations.md) - Regole base
-=======
-- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
->>>>>>> f1d4085 (.)
-=======
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/docs/translations.md) - Regole base
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/docs/translations.md) - Regole base
->>>>>>> 6dcebf8a (.)
-=======
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/docs/translations.md) - Regole base
-=======
-- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/docs/translations.md) - Regole base
->>>>>>> b3cc10f7 (.)
-=======
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/docs/translations.md) - Regole base
-=======
-- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
-- [Regole Generali](../../Xot/docs/translations.md) - Regole base
->>>>>>> cafe8bed (.)
 
 ## Struttura
 
@@ -200,7 +134,6 @@ return [
    - Usare le chiavi di traduzione
    - Mantenere la coerenza
 
-
 ### Versione Incoming
 
 # Sistema di Traduzioni
@@ -252,7 +185,6 @@ return [
     ],
 ];
 ```
-
 
 ---
 
@@ -432,41 +364,9 @@ Action::make('delete')
 - Verifica traduzioni mancanti
 - Test di coerenza
 - Validazione formati
-- Test di performance 
+- Test di performance
 
 ## Collegamenti tra versioni di translations.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -484,106 +384,9 @@ Action::make('delete')
 * [translations.md](../../../Activity/docs/translations.md)
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-* [translations.md](../../../Chart/project_docs/translations.md)
-* [translations.md](../../../Reporting/project_docs/translations.md)
-* [translations.md](../../../Gdpr/project_docs/translations.md)
-* [translations.md](../../../Notify/project_docs/translations.md)
-* [translations.md](../../../Xot/project_docs/roadmap/lang/translations.md)
-* [translations.md](../../../Xot/project_docs/translations.md)
-* [translations.md](../../../Dental/project_docs/translations.md)
-* [translations.md](../../../User/project_docs/translations.md)
-* [translations.md](../../../UI/project_docs/translations.md)
-* [translations.md](../../../Lang/project_docs/packages/translations.md)
-* [translations.md](../../../Lang/project_docs/translations.md)
-* [translations.md](../../../Job/project_docs/translations.md)
-* [translations.md](../../../Media/project_docs/translations.md)
-* [translations.md](../../../Tenant/project_docs/translations.md)
-* [translations.md](../../../Activity/project_docs/translations.md)
-* [translations.md](../../../Patient/project_docs/translations.md)
-* [translations.md](../../../Cms/project_docs/translations.md)
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-
 
 ### Versione Incoming
 
-``` 
+```
 
 ---
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

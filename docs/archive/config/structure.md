@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Struttura delle Configurazioni
 
 Questo documento definisce la struttura standard delle configurazioni per tutti i moduli.
@@ -28,7 +26,7 @@ return [
     // Configurazioni di base
     'name' => env('MODULE_NAME', 'default'),
     'enabled' => env('MODULE_ENABLED', true),
-    
+
     // Cache
     'cache' => [
         'enabled' => env('MODULE_CACHE_ENABLED', true),
@@ -36,7 +34,7 @@ return [
         'driver' => env('MODULE_CACHE_DRIVER', 'redis'),
         'prefix' => env('MODULE_CACHE_PREFIX', 'module_'),
     ],
-    
+
     // Storage
     'storage' => [
         'disk' => env('MODULE_STORAGE_DISK', 'local'),
@@ -46,7 +44,7 @@ return [
         ],
         'max_size' => env('MODULE_STORAGE_MAX_SIZE', 10240),
     ],
-    
+
     // API
     'api' => [
         'prefix' => env('MODULE_API_PREFIX', 'api/module'),
@@ -60,14 +58,14 @@ return [
             'minutes' => 1,
         ],
     ],
-    
+
     // Database
     'database' => [
         'prefix' => env('MODULE_DB_PREFIX', 'module_'),
         'connection' => env('MODULE_DB_CONNECTION', null),
         'soft_deletes' => true,
     ],
-    
+
     // Views
     'views' => [
         'namespace' => 'module',
@@ -90,7 +88,7 @@ class ConfigValidator
     public function validate(): ValidationResult
     {
         $config = config('module');
-        
+
         $rules = [
             'name' => 'required|string',
             'enabled' => 'required|boolean',
@@ -98,9 +96,9 @@ class ConfigValidator
             'cache.ttl' => 'required|integer|min:0',
             // ... altre regole
         ];
-        
+
         $validator = Validator::make($config, $rules);
-        
+
         return new ValidationResult($validator);
     }
 }
@@ -148,11 +146,9 @@ return array_merge(require __DIR__.'/../vendor/module/config/module.php', [
 - [Architettura](../architecture/module-structure.md)
 - [Best Practices](../BEST-PRACTICES.md)
 - [Sicurezza](../security/README.md)
-- [Performance](../performance/README.md) 
+- [Performance](../performance/README.md)
 
 ## Collegamenti tra versioni di structure.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [structure.md](bashscripts/project_docs/structure.md)
 * [structure.md](../../../Gdpr/project_docs/structure.md)
 * [structure.md](../../../Notify/project_docs/structure.md)
@@ -169,49 +165,3 @@ return array_merge(require __DIR__.'/../vendor/module/config/module.php', [
 * [structure.md](../../../Cms/project_docs/structure.md)
 * [structure.md](../../../Cms/project_docs/themes/structure.md)
 * [structure.md](../../../Cms/project_docs/components/structure.md)
-=======
-=======
->>>>>>> ba6c53070 (.)
-* [structure.md](bashscripts/docs/structure.md)
-* [structure.md](../../../Gdpr/docs/structure.md)
-* [structure.md](../../../Notify/docs/structure.md)
-* [structure.md](../../../Xot/docs/structure.md)
-* [structure.md](../../../Xot/docs/base/structure.md)
-* [structure.md](../../../Xot/docs/config/structure.md)
-* [structure.md](../../../User/docs/structure.md)
-* [structure.md](../../../UI/docs/structure.md)
-* [structure.md](../../../Lang/docs/structure.md)
-* [structure.md](../../../Job/docs/structure.md)
-* [structure.md](../../../Media/docs/structure.md)
-* [structure.md](../../../Tenant/docs/structure.md)
-* [structure.md](../../../Activity/docs/structure.md)
-* [structure.md](../../../Cms/docs/structure.md)
-* [structure.md](../../../Cms/docs/themes/structure.md)
-* [structure.md](../../../Cms/docs/components/structure.md)
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
-* [structure.md](bashscripts/project_docs/structure.md)
-* [structure.md](../../../Gdpr/project_docs/structure.md)
-* [structure.md](../../../Notify/project_docs/structure.md)
-* [structure.md](../../../Xot/project_docs/structure.md)
-* [structure.md](../../../Xot/project_docs/base/structure.md)
-* [structure.md](../../../Xot/project_docs/config/structure.md)
-* [structure.md](../../../User/project_docs/structure.md)
-* [structure.md](../../../UI/project_docs/structure.md)
-* [structure.md](../../../Lang/project_docs/structure.md)
-* [structure.md](../../../Job/project_docs/structure.md)
-* [structure.md](../../../Media/project_docs/structure.md)
-* [structure.md](../../../Tenant/project_docs/structure.md)
-* [structure.md](../../../Activity/project_docs/structure.md)
-* [structure.md](../../../Cms/project_docs/structure.md)
-* [structure.md](../../../Cms/project_docs/themes/structure.md)
-* [structure.md](../../../Cms/project_docs/components/structure.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

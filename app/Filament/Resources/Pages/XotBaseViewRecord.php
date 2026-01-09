@@ -19,11 +19,7 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
      * Restituisce lo schema dell'infolist per la visualizzazione dei dettagli del record.
      * Questo metodo deve sempre restituire un array con chiavi di tipo stringa.
      *
-<<<<<<< HEAD
      * @return array<string, Component>
-=======
-     * @return array<int|string, Component>
->>>>>>> 50c0e1043 (.)
      */
     abstract protected function getInfolistSchema(): array;
 }

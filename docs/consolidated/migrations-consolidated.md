@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Migrations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione migrazioni del progetto
-> 
+>
 > **🔗 Riferimenti**: [database-guidelines.md](database-guidelines.md) | [best-practices.md](best-practices.md)
 
 ## 🚨 STOP DUPLICAZIONE!
@@ -46,7 +40,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 return new class() extends XotBaseMigration {
     protected string $table_name = 'table_name';
-    
+
     public function up(): void
     {
         // Implementazione...
@@ -142,17 +136,17 @@ return new class() extends XotBaseMigration {
                 $table->string('phone')->nullable();
                 $table->timestamps();
             });
-            
+
             $this->tableComment($this->table_name, 'Tabella utenti del sistema');
             return;
         }
-        
+
         // 2. Se la tabella esiste, aggiungi solo la nuova colonna
         if (!$this->hasColumn($this->table_name, 'phone')) {
             $this->tableUpdate(function (Blueprint $table): void {
                 $table->string('phone')->nullable()->after('email');
             });
-            
+
             $this->columnComment($this->table_name, 'phone', 'Numero di telefono utente');
         }
     }
@@ -180,22 +174,22 @@ return new class() extends XotBaseMigration {
 
         $this->tableCreate(function (Blueprint $table): void {
             $table->id();
-            
+
             // Chiavi esterne con foreignIdFor
             $table->foreignIdFor(\Modules\ModuleName\Models\ModelA::class)
                 ->comment('ID del primo modello');
             $table->foreignIdFor(\Modules\ModuleName\Models\ModelB::class)
                 ->comment('ID del secondo modello');
-            
+
             // Attributi aggiuntivi della relazione
             $table->json('metadata')->nullable()
                 ->comment('Metadati aggiuntivi della relazione');
             $table->boolean('is_primary')->default(false)
                 ->comment('Relazione principale');
-            
+
             // Indice composito per unicità
             $table->unique(['model_a_id', 'model_b_id']);
-            
+
             $table->timestamps();
         });
 
@@ -229,7 +223,7 @@ public function up(): void
         });
         return;
     }
-    
+
     // 2. Aggiunta colonne se tabella esiste
     if (!$this->hasColumn($this->table_name, 'new_column')) {
         $this->tableUpdate(function (Blueprint $table): void {
@@ -385,126 +379,12 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Notifiable polymorphic
 - **Campi specifici**: `type`, `data`, `read_at`
 
-<<<<<<< HEAD
 ### SaluteMo Module
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### <nome modulo> Module
-=======
-### SaluteMo Module
->>>>>>> 5a14301c (.)
-=======
-### SaluteMo Module
->>>>>>> 399f46d3 (.)
-=======
-### SaluteMo Module
->>>>>>> 5a14301c (.)
-=======
-### SaluteMo Module
->>>>>>> 399f46d3 (.)
-=======
-### SaluteMo Module
->>>>>>> 17684f52 (.)
-=======
-### SaluteMo Module
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
-<<<<<<< HEAD
 ### SaluteOra Module (CRITICO)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### <nome progetto> Module (CRITICO)
-=======
-###  Module (CRITICO)
-### SaluteOra Module (CRITICO)
->>>>>>> 5a14301c (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 399f46d3 (.)
-=======
-### SaluteOra Module (CRITICO)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> d86d643a (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 472bd9dc (.)
-=======
-###  Module (CRITICO)
-### <nome progetto> Module (CRITICO)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 43d67f21 (.)
-=======
-###  Module (CRITICO)
-### SaluteOra Module (CRITICO)
->>>>>>> 5a14301c (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 43d67f21 (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> b7ea1cd1 (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 76bec91a (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-### SaluteOra Module (CRITICO)
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -561,43 +441,8 @@ rm Modules/Notify/project_docs/migration_rules.md
 rm Modules/Notify/project_docs/migrations.md
 rm Modules/Notify/project_docs/migrations_changelog.md
 
-<<<<<<< HEAD
 # SaluteMo
 rm Modules/SaluteMo/project_docs/database/migrations.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# <nome modulo>
-rm Modules/<nome modulo>/project_docs/database/migrations.md
-=======
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
->>>>>>> 5a14301c (.)
-=======
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
->>>>>>> 399f46d3 (.)
-=======
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
->>>>>>> 5a14301c (.)
-=======
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
->>>>>>> 399f46d3 (.)
-=======
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
->>>>>>> 17684f52 (.)
-=======
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 
 # E tutti gli altri file duplicati...
 ```
@@ -622,19 +467,10 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 
 ---
 
-**🎯 Obiettivo**: Da 26+ file duplicati a 1 file centralizzato  
-**📈 Beneficio**: 96% riduzione duplicazioni, manutenzione semplificata  
+**🎯 Obiettivo**: Da 26+ file duplicati a 1 file centralizzato
+**📈 Beneficio**: 96% riduzione duplicazioni, manutenzione semplificata
 **🔗 Vedi anche**: [database-guidelines.md](database-guidelines.md) | [best-practices.md](best-practices.md)
 
-**Aggiornato**: 2025-08-07  
-**Categoria**: database  
+**Aggiornato**: 2025-08-07
+**Categoria**: database
 **Priorità**: CRITICA
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

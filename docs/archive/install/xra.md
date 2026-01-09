@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ~~~ php
 <?php
 
@@ -22,36 +20,11 @@ return [
 ~~~
 ### Versione HEAD
 
-
 ## Collegamenti tra versioni di xra.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [xra.md](../../../Xot/project_docs/install/xra.md)
 * [xra.md](../../../Tenant/project_docs/it/xra.md)
 * [xra.md](../../../Tenant/project_docs/it/config/xra.md)
-=======
-* [xra.md](../../../Xot/docs/install/xra.md)
-* [xra.md](../../../Tenant/docs/it/xra.md)
-* [xra.md](../../../Tenant/docs/it/config/xra.md)
->>>>>>> b9c66c44e (.)
-=======
-* [xra.md](../../../Xot/docs/install/xra.md)
-* [xra.md](../../../Tenant/docs/it/xra.md)
-* [xra.md](../../../Tenant/docs/it/config/xra.md)
-=======
-* [xra.md](../../../Xot/project_docs/install/xra.md)
-* [xra.md](../../../Tenant/project_docs/it/xra.md)
-* [xra.md](../../../Tenant/project_docs/it/config/xra.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
 
 ### Versione Incoming
 
-
 ---
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

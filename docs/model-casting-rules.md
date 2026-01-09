@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Regole per Model Casting in Laraxot - CRITICO
 
 ## ERRORE ARCHITETTURALE GRAVE: Proprietà $casts Deprecata
@@ -44,11 +42,7 @@ class User extends BaseModel
 
 ### Perché è un Errore Architetturale Grave
 
-<<<<<<< HEAD
 1. **Deprecazione Laravel 12**: La proprietà `$casts` è deprecata in favore del metodo `casts()`
-=======
-1. **Deprecazione Laravel 11**: La proprietà `$casts` è deprecata in favore del metodo `casts()`
->>>>>>> b9c66c44e (.)
 2. **Limitazioni Funzionali**: Non permette l'uso di metodi statici sui caster
 3. **Manutenibilità**: Codice legacy che non sfrutta le nuove funzionalità
 4. **Conformità**: Non rispetta gli standard moderni di Laravel
@@ -145,23 +139,8 @@ protected function casts(): array
 15. `/Modules/Geo/app/Models/Location.php`
 16. `/Modules/Geo/app/Models/Address.php`
 17. `/Modules/Geo/app/Models/Place.php`
-<<<<<<< HEAD
-<<<<<<< HEAD
 18. `/Modules/Chart/project_docs/Chart.php`
 19. `/Modules/Chart/project_docs/Chart_conflict.php`
-=======
-<<<<<<< HEAD
-18. `/Modules/Chart/docs/Chart.php`
-19. `/Modules/Chart/docs/Chart_conflict.php`
-=======
-18. `/Modules/Chart/project_docs/Chart.php`
-19. `/Modules/Chart/project_docs/Chart_conflict.php`
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-18. `/Modules/Chart/docs/Chart.php`
-19. `/Modules/Chart/docs/Chart_conflict.php`
->>>>>>> 99c0b3329 (.)
 20. `/Modules/Chart/app/Models/Chart.php`
 
 ### Priorità di Refactoring
@@ -174,35 +153,23 @@ protected function casts(): array
 ## Piano di Refactoring
 
 ### Fase 1: Modelli Base (CRITICO)
-<<<<<<< HEAD
 
-=======
->>>>>>> b9c66c44e (.)
 - [ ] `Modules/Geo/app/Models/BaseModel.php`
 - [ ] `Modules/Geo/app/Models/BasePivot.php`
 - [ ] `Modules/Geo/app/Models/BaseMorphPivot.php`
 
 ### Fase 2: Modelli Core (ALTO)
-<<<<<<< HEAD
 
-=======
->>>>>>> b9c66c44e (.)
 - [ ] `Themes/Two/Main_files/filament-peek-demo/app/Models/User.php`
 - [ ] `Modules/Notify/app/Models/NotificationTemplate.php`
 - [ ] `Modules/Xot/app/Models/InformationSchemaTable.php`
 
 ### Fase 3: Modelli Modulo (MEDIO)
-<<<<<<< HEAD
 
 - [ ] Tutti gli altri modelli dei moduli
 
 ### Fase 4: Cleanup (BASSO)
 
-=======
-- [ ] Tutti gli altri modelli dei moduli
-
-### Fase 4: Cleanup (BASSO)
->>>>>>> b9c66c44e (.)
 - [ ] File di documentazione
 - [ ] File di conflitto
 
@@ -259,52 +226,21 @@ class User extends BaseModel
 ## Validazione e Testing
 
 ### PHPStan
-<<<<<<< HEAD
 
-=======
->>>>>>> b9c66c44e (.)
 - Eseguire PHPStan livello 9+ dopo ogni refactoring
 - Verificare che tutti i cast siano tipizzati correttamente
 
 ### Test
-<<<<<<< HEAD
 
-=======
->>>>>>> b9c66c44e (.)
 - Testare che i cast funzionino correttamente
 - Verificare compatibilità con codice esistente
 
 ## Backlink e Riferimenti
 
 - [model_base_rules.md](model_base_rules.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [../../project_docs/phpstan-cast-fixes-guide.md](../../project_docs/phpstan-cast-fixes-guide.md)
-<<<<<<< HEAD
 - [Laravel 12 Model Casts Documentation](https://laravel.com/docs/12.x/eloquent-mutators#attribute-casting)
 
 ## Ultimo aggiornamento
 
 agosto 2025
-=======
-- [Laravel 11 Model Casts Documentation](https://laravel.com/project_docs/11.x/eloquent-mutators#attribute-casting)
-=======
-<<<<<<< HEAD
-- [../../docs/phpstan-cast-fixes-guide.md](../../docs/phpstan-cast-fixes-guide.md)
-- [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
-=======
-- [../../project_docs/phpstan-cast-fixes-guide.md](../../project_docs/phpstan-cast-fixes-guide.md)
-- [Laravel 11 Model Casts Documentation](https://laravel.com/project_docs/11.x/eloquent-mutators#attribute-casting)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-- [../../docs/phpstan-cast-fixes-guide.md](../../docs/phpstan-cast-fixes-guide.md)
-- [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
->>>>>>> 99c0b3329 (.)
-
-*Ultimo aggiornamento: agosto 2025*
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

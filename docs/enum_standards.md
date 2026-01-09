@@ -1,44 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Enum Standards in <nome progetto>
-
-This document defines the standards and best practices for working with Enums in the <nome progetto> project.
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Enum Standards in <nome progetto>
-
-This document defines the standards and best practices for working with Enums in the <nome progetto> project.
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 5a14301c (.)
-=======
-# Enum Standards in <nome progetto>
-
-This document defines the standards and best practices for working with Enums in the <nome progetto> project.
->>>>>>> d86d643a (.)
-=======
-# Enum Standards in <nome progetto>
-
-This document defines the standards and best practices for working with Enums in the <nome progetto> project.
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
->>>>>>> dc2130a7c (.)
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -64,17 +23,17 @@ This document defines the standards and best practices for working with Enums in
 1. **Basic Structure**:
    ```php
    <?php
-   
+
    declare(strict_types=1);
-   
+
    namespace Modules\YourModule\Enums;
-   
+
    use Filament\Support\Contracts\HasLabel;
-   
+
    enum YourEnumNameEnum: string implements HasLabel
    {
        case EXAMPLE = 'example';
-       
+
        public function getLabel(): ?string
        {
            return match ($this) {
@@ -94,7 +53,7 @@ This document defines the standards and best practices for working with Enums in
 3. **Using Enums in Filament**:
    ```php
    use Modules\YourModule\Enums\YourEnumNameEnum;
-   
+
    // In your form/table
    Select::make('field_name')
        ->options(YourEnumNameEnum::class)
@@ -128,7 +87,7 @@ enum AppointmentTypeEnum: string implements HasLabel
     case CONSULTATION = 'consultation';
     case CLEANING = 'cleaning';
     // ... other cases
-    
+
     /**
      * Get the human-readable label for the enum case.
      */
@@ -162,43 +121,3 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)

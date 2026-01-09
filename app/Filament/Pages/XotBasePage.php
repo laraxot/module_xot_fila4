@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-<<<<<<< HEAD
-use UnitEnum;
-=======
->>>>>>> 50c0e1043 (.)
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -23,6 +19,7 @@ use LogicException;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use RuntimeException;
+use UnitEnum;
 
 /**
  * Classe base astratta per tutte le pagine Filament non legate a risorse specifiche.
@@ -76,34 +73,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Ottiene il nome del modulo dalla classe.
      * Estrae il nome del modulo dal namespace della classe.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
-=======
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
->>>>>>> 5a14301c (.)
-=======
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
->>>>>>> 5a14301c (.)
-=======
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
-     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
-     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
->>>>>>> 50c0e1043 (.)
      */
     public static function getModuleName(): string
     {
@@ -186,11 +156,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Imposta lo schema e il percorso dello stato per il form.
      *
      * @param  \Filament\Schemas\Schema  $schema  Il form da configurare
-<<<<<<< HEAD
+     *
      * @return \Filament\Schemas\Schema Lo schema configurato
-=======
-     * @return \Filament\Schemas\Schema Il form configurato
->>>>>>> 50c0e1043 (.)
      */
     public function schema(Schema $schema): Schema
     {
@@ -279,6 +246,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Utile per controlli granulari all'interno delle pagine.
      *
      * @param  string  $permission  Il permesso da verificare
+     *
      * @return bool True se l'utente ha il permesso, false altrimenti
      */
     protected function hasPermissionTo(string $permission): bool
@@ -292,9 +260,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 
         // Use method_exists to safely call hasPermissionTo
         /** @var bool $result */
-        $result = $user->hasPermissionTo($permission);
-
-        return $result;
+        return $user->hasPermissionTo($permission);
     }
 
     /**
@@ -330,7 +296,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         }
 
         /** @var class-string<Model> $modelClass */
-        $instance = new $modelClass;
+        $instance = new $modelClass();
         if (! ($instance instanceof Model)) {
             throw new LogicException("Class {$modelClass} must extend Eloquent Model");
         }

@@ -20,17 +20,11 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Facades\Module;
-use Webmozart\Assert\Assert;
 use function Safe\define;
 use function Safe\glob;
 use function Safe\json_decode;
 use function Safe\preg_match;
-<<<<<<< HEAD
-use Nwidart\Modules\Module as ModuleContract;
-use Illuminate\Routing\Route as IlluminateRoute;
-
-=======
->>>>>>> 50c0e1043 (.)
+use Webmozart\Assert\Assert;
 
 // ------------------------------------------------
 
@@ -141,25 +135,14 @@ if (! function_exists('hex2rgba')) {
             $hex = [$color[0].$color[1], $color[2].$color[3], $color[4].$color[5]];
         } elseif (mb_strlen($color) === 3) {
             $hex = [$color[0].$color[0], $color[1].$color[1], $color[2].$color[2]];
-<<<<<<< HEAD
-        }
-        
-        if(!isset($hex)){
-=======
         } else {
->>>>>>> 50c0e1043 (.)
             return $default;
         }
-
 
         // Convert hexadec to rgb
         $rgb = array_map('hexdec', $hex);
 
         // Check if opacity is set(rgba or rgb)
-<<<<<<< HEAD
-        if ($opacity === -1.0) {
-            return 'rgb('.implode(',', $rgb).')';
-=======
         if ($opacity !== -1.0) {
             if ($opacity < 0 || $opacity > 1) {
                 $opacity = 1.0;
@@ -167,13 +150,7 @@ if (! function_exists('hex2rgba')) {
             $output = 'rgba('.implode(',', $rgb).','.$opacity.')';
         } else {
             $output = 'rgb('.implode(',', $rgb).')';
->>>>>>> 50c0e1043 (.)
         }
-
-        if ($opacity < 0 || $opacity > 1) {
-            $opacity = 1.0;
-        }
-        $output = 'rgba('.implode(',', $rgb).','.$opacity.')';
 
         // Return rgb(a) color string
         return $output;
@@ -187,11 +164,7 @@ if (! function_exists('dddx')) {
         $file = $tmp[0]['file'] ?? 'file-unknown';
         $file = str_replace('/', DIRECTORY_SEPARATOR, $file);
 
-<<<<<<< HEAD
-        Assert::string($doc_root = request()->server('DOCUMENT_ROOT'), __FILE__.':'.__LINE__.' - Helper');
-=======
         Assert::string($doc_root = $_SERVER['DOCUMENT_ROOT'], __FILE__.':'.__LINE__.' - Helper');
->>>>>>> 50c0e1043 (.)
         $doc_root = str_replace('/', DIRECTORY_SEPARATOR, $doc_root);
 
         $dir_piece = explode(DIRECTORY_SEPARATOR, __DIR__);
@@ -277,18 +250,14 @@ if (! function_exists('getFilename')) {
 if (! function_exists('req_uri')) {
     function req_uri(): mixed
     {
-        return request()->getRequestUri() ?? '';
+        return $_SERVER['REQUEST_URI'] ?? '';
     }
 }
 
 if (! function_exists('in_admin')) {
     /**
      * ---.
-     *
- * @param array $params
- *
- * @return bool
- */
+     */
     function in_admin(array $params = []): bool
     {
         return inAdmin($params);
@@ -298,11 +267,7 @@ if (! function_exists('in_admin')) {
 if (! function_exists('inAdmin')) {
     /**
      * ---.
-     *
- * @param array $params
- *
- * @return bool
- */
+     */
     function inAdmin(array $params = []): bool
     {
         if (isset($params['in_admin'])) {
@@ -429,7 +394,7 @@ if (! function_exists('params2ContainerItem')) {
             // $params = optional(Route::current())->parameters();
             $params = [];
             $route_current = Route::current();
-            if ($route_current instanceof IlluminateRoute) {
+            if ($route_current instanceof Illuminate\Routing\Route) {
                 $params = $route_current->parameters();
             }
         }
@@ -523,11 +488,7 @@ if (! function_exists('getModelByName')) {
  */
 
 if (! function_exists('getModuleFromModel')) {
-<<<<<<< HEAD
-    function getModuleFromModel(object $model): ModuleContract
-=======
     function getModuleFromModel(object $model): Nwidart\Modules\Module
->>>>>>> 50c0e1043 (.)
     {
         $class = $model::class;
         $module_name = Str::before(Str::after($class, 'Modules\\'), '\\Models\\');
@@ -542,7 +503,7 @@ if (! function_exists('getModuleFromModel')) {
         // $mod = app('module')->get($module_name);
 
         // @phpstan-ignore method.nonObject
-        Assert::isInstanceOf($res = app('module')->find($module_name), ModuleContract::class);
+        Assert::isInstanceOf($res = app('module')->find($module_name), Nwidart\Modules\Module::class);
 
         return $res;
     }
@@ -697,11 +658,7 @@ if (! function_exists('deltaTime')) {
 if (! function_exists('bracketsToDotted')) {
     // privacies[111][pivot][title] => privacies.111.pivot.title
 
-<<<<<<< HEAD
-    function bracketsToDotted(string $str): string
-=======
     function bracketsToDotted(string $str, string $_quotation_marks = ''): string
->>>>>>> 50c0e1043 (.)
     {
         return str_replace(['[', ']'], ['.', ''], $str);
     }
@@ -709,7 +666,7 @@ if (! function_exists('bracketsToDotted')) {
 
 if (! function_exists('dottedToBrackets')) {
     // privacies.111.pivot.title => privacies[111][pivot][title]
-    function dottedToBrackets(string $str): string
+    function dottedToBrackets(string $str, string $_quotation_marks = ''): string
     {
         return collect(explode('.', $str))
             ->map(static fn (string $v, $k): string => $k === 0 ? $v : ('['.$v.']'))
@@ -725,9 +682,9 @@ if (! function_exists('array_merge_recursive_distinct')) {
         foreach ($array2 as $key => &$value) {
             if (is_array($value) && isset($merged[$key]) && is_array($merged[$key])) {
                 $merged[$key] = array_merge_recursive_distinct($merged[$key], $value);
-                continue;
+            } else {
+                $merged[$key] = $value;
             }
-            $merged[$key] = $value;
         }
 
         return $merged;
@@ -759,17 +716,6 @@ if (! function_exists('getRelationships')) {
 
             try {
                 $return = $reflection->invoke($model);
-<<<<<<< HEAD
-                if ($return instanceof Relation) {
-                    // $related_model = new ReflectionClass($return->getRelated())->getName();
-                    // $msg = [
-                    //    'name' => $reflection->name,
-                    //    'type' => class_basename($return),
-                    //    'model' => $related_model,
-                    // ];
-                    // $data[] = $msg;
-                }
-=======
                 $check = $return instanceof Relation;
                 /*
                 if ($check) {
@@ -784,7 +730,6 @@ if (! function_exists('getRelationships')) {
                     $data[] = $msg;
                 }
                     */
->>>>>>> 50c0e1043 (.)
             } catch (Throwable $e) {
                 // Gestione generica delle eccezioni che potrebbero verificarsi durante l'analisi delle relazioni
                 // Log::debug(['error' => $e->getMessage(), 'file' => $e->getFile(), 'line' => $e->getLine()]);
@@ -838,157 +783,13 @@ if (! function_exists('removeQueryParams')) {
         $url = url()->current(); // get the base URL - everything to the left of the "?"
         $query = request()->query(); // get the query parameters (what follows the "?")
         Assert::isArray($query);
-        /** @var array<string, mixed> $cleanQuery */
-        $cleanQuery = $query;
         foreach ($params as $param) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 8b18e4bff (.)
             $key = is_string($param) ? $param : (string) $param;
             unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
-=======
-            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
->>>>>>> 53d6a6ba (.)
-=======
-            $key = is_string($param) ? $param : (string) $param;
-            unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
->>>>>>> 50c0e1043 (.)
         }
 
         // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
         return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
-        }
-
-        // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> ca9324a4 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
-=======
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> 0e51323 (.)
-=======
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> 43d67f21 (.)
-=======
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 21348520 (.)
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
-=======
-        return $query ? $url.'?'.http_build_query($query) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> 3fbbf1f5 (.)
-=======
-        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> 43d67f21 (.)
-=======
-=======
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> b7ea1cd1 (.)
-=======
-=======
-        return $query ? ($url . '?' . http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> c06600c (.)
->>>>>>> 14edd1a1 (.)
-=======
->>>>>>> 16dc7ab0 (.)
-=======
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
-            if (is_string($param) || is_int($param)) {
-                unset($cleanQuery[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
-            }
-        }
-
-        return $cleanQuery ? ($url.'?'.http_build_query($cleanQuery)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
     }
 }
 
@@ -1058,11 +859,7 @@ if (! function_exists('getRouteParameters')) {
     function getRouteParameters(): array
     {
         $route = request()->route();
-<<<<<<< HEAD
-        if (! ($route instanceof IlluminateRoute)) {
-=======
         if (! ($route instanceof Illuminate\Routing\Route)) {
->>>>>>> 50c0e1043 (.)
             return [];
         }
 
@@ -1078,11 +875,7 @@ if (! function_exists('getRouteName')) {
          * @var Illuminate\Routing\Route|null
          */
         $route = request()->route();
-<<<<<<< HEAD
-        if (! ($route instanceof IlluminateRoute)) {
-=======
         if (! ($route instanceof Illuminate\Routing\Route)) {
->>>>>>> 50c0e1043 (.)
             return null;
         }
 
@@ -1173,121 +966,7 @@ if (! function_exists('debugStack')) {
      */
     function debugStack(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! extension_loaded('xdebug')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-        if (! extension_loaded('xdebug')) {
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-        if (!extension_loaded('xdebug')) {
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> 43d67f21 (.)
-=======
-        if (! extension_loaded('xdebug')) {
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> 5842a556 (.)
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> 5a14301c (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-        if (! extension_loaded('xdebug')) {
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> 0e51323 (.)
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> 43d67f21 (.)
-=======
-        if (! extension_loaded('xdebug')) {
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> 5842a556 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> b7ea1cd1 (.)
-=======
-        if (! extension_loaded('xdebug')) {
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> c06600c (.)
->>>>>>> 14edd1a1 (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> 16dc7ab0 (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> 50c0e1043 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -1296,138 +975,16 @@ if (! function_exists('debugStack')) {
                 defined('XDEBUG_FILTER_TRACING') &&
                 defined('XDEBUG_PATH_EXCLUDE')
         ) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
                 '/../../vendor/',
             ]);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-                '/../../vendor/',
-            ]);
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
-<<<<<<< HEAD
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
->>>>>>> 43d67f21 (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
->>>>>>> 5842a556 (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
->>>>>>> 0e51323 (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
->>>>>>> 5842a556 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
->>>>>>> b7ea1cd1 (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
->>>>>>> c06600c (.)
->>>>>>> 14edd1a1 (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
->>>>>>> 16dc7ab0 (.)
-                '/../../vendor/']);
->>>>>>> 5a14301c (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__ .
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
->>>>>>> ca9324a4 (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
->>>>>>> 43d67f21 (.)
-                '/../../vendor/']);
->>>>>>> 5a14301c (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-                '/../../vendor/']);
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
-=======
-            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-                '/../../vendor/',
-            ]);
->>>>>>> 50c0e1043 (.)
         }
 
         if (function_exists('xdebug_print_function_stack')) {
             xdebug_print_function_stack();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        } else {
-=======
-        // Prefer using xdebug when available, otherwise fallback to PHP backtrace
-        if (extension_loaded('xdebug')) {
-            // Avoid direct calls to xdebug_* to keep static analysis satisfied
-            // and rely on generic backtrace instead.
->>>>>>> b7afadf9 (.)
-            debug_print_backtrace();
-
-            return;
->>>>>>> 8b18e4bff (.)
-        }
-
-        debug_print_backtrace();
-=======
         } else {
             debug_print_backtrace();
         }
->>>>>>> 50c0e1043 (.)
     }
 }
 
@@ -1613,210 +1170,20 @@ if (! function_exists('authId')) {
  *
  * @template T
  *
-<<<<<<< HEAD
- * @param T|null $object L'oggetto da controllare
- * @param string $method Il nome del metodo da chiamare
- * @param mixed  ...$args Gli argomenti da passare al metodo
-=======
  * @param  T|null  $object  L'oggetto da controllare
  * @param  string  $method  Il nome del metodo da chiamare
  * @param  mixed  ...$args  Gli argomenti da passare al metodo
->>>>>>> 50c0e1043 (.)
  */
 function safe_object_call($object, string $method, mixed ...$args): mixed
 {
     if (! is_object($object)) {
-        return;
-    }
-
-    if (! method_exists($object, $method)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @param T|null $object L'oggetto da controllare
- * @param string $method Il nome del metodo da chiamare
- * @param mixed ...$args Gli argomenti da passare al metodo
-=======
->>>>>>> ca9324a4 (.)
- * @return mixed|null
- */
-function safe_object_call($object, string $method, ...$args)
-{
-<<<<<<< HEAD
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-function safe_object_call($object, string $method, ...$args) {
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-function safe_object_call($object, string $method, ...$args)
-{
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> e59778ae (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-=======
->>>>>>> 14edd1a1 (.)
-    if (!is_object($object)) {
-        return null;
-    }
-
-    if (!method_exists($object, $method)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
-if (! function_exists('profile')) {
-    function profile(): ?ProfileContract
-    {
-        return app(ProfileContract::class);
-    }
-}
-
-if (! function_exists('cssInLine')) {
-    function cssInLine(string $css): string
-    {
-        return preg_replace('/\s+/', ' ', $css);
-    }
-}
-
-if (! function_exists('authId')) {
-    function authId(): mixed
-    {
-        return auth()->id();
-    }
-}
-
-/**
- * Safely call a method on an object if it exists.
- * Returns null if the object is not an object or if the method doesn't exist.
- */
-function safe_object_call($object, string $method, ...$args)
-{
-<<<<<<< HEAD
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-    if (! is_object($object)) {
         return null;
     }
 
     if (! method_exists($object, $method)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> c06600c (.)
->>>>>>> 14edd1a1 (.)
-=======
->>>>>>> 16dc7ab0 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
-        return null;
-=======
-        return;
->>>>>>> b7afadf9 (.)
-    }
-
-=======
         return null;
     }
 
->>>>>>> 50c0e1043 (.)
     return $object->$method(...$args);
 }
 
@@ -1832,16 +1199,10 @@ if (! function_exists('trans_string')) {
      * - Returning the key itself if translation is array (missing translation case)
      * - Returning null if the result is null
      *
-<<<<<<< HEAD
-     * @param string                $key     Translation key
-     * @param array<string, scalar> $replace Replacement values
-     * @param string|null           $locale  Specific locale to use
-     *
-=======
      * @param  string  $key  Translation key
      * @param  array<string, bool|float|int|string|null>  $replace  Replacement values
      * @param  string|null  $locale  Specific locale to use
->>>>>>> 50c0e1043 (.)
+     *
      * @return string|null The translated string or null
      *
      * @example trans_string('notify::contact.label') -> "Contact" (string)
@@ -1856,18 +1217,11 @@ if (! function_exists('trans_string')) {
                 continue;
             }
             if ($v === null || is_scalar($v)) {
-<<<<<<< HEAD
-                $safeReplace[$k] = $v;
-                continue;
-            }
-            $safeReplace[$k] = (string) $v;
-=======
                 /** @var bool|float|int|string|null $v */
                 $safeReplace[$k] = $v;
             } else {
                 $safeReplace[$k] = (string) $v;
             }
->>>>>>> 50c0e1043 (.)
         }
 
         $result = __($key, $safeReplace, $locale);

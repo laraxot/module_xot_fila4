@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 # Colli di Bottiglia e Soluzioni - Modulo Xot
 
 ## Panoramica
@@ -31,7 +25,7 @@ public function register(): void
     foreach ($this->app['modules']->allEnabled() as $module) {
         $this->loadServiceProviderFrom($module);
     }
-    
+
     // Dopo
     $this->app->extend('modules.handler', function ($handler, $app) {
         return new LazyModuleHandler($handler, $app);
@@ -49,19 +43,19 @@ class LazyModuleHandler
     protected $originalHandler;
     protected $app;
     protected $loadedModules = [];
-    
+
     public function __construct($originalHandler, $app)
     {
         $this->originalHandler = $originalHandler;
         $this->app = $app;
     }
-    
+
     public function loadModuleProviders($moduleName)
     {
         if (isset($this->loadedModules[$moduleName])) {
             return;
         }
-        
+
         $module = $this->originalHandler->find($moduleName);
         if ($module) {
             $this->app['xot.service-provider-loader']->loadFrom($module);
@@ -82,14 +76,14 @@ class LoadModuleProviders
     {
         // Determina quali moduli sono necessari per questa richiesta
         $modulesToLoad = $this->getRequiredModules($request);
-        
+
         foreach ($modulesToLoad as $module) {
             app('modules.handler')->loadModuleProviders($module);
         }
-        
+
         return $next($request);
     }
-    
+
     protected function getRequiredModules($request)
     {
         // Logica per determinare quali moduli sono necessari
@@ -153,10 +147,10 @@ public function find($id, array $columns = ['*'])
 {
     // Prima
     return $this->model->find($id, $columns);
-    
+
     // Dopo
     $query = $this->model->newQuery();
-    
+
     // Carica automaticamente le relazioni definite nel modello
     if (method_exists($this->model, 'getDefaultEagerLoadRelations')) {
         $relations = $this->model->getDefaultEagerLoadRelations();
@@ -164,7 +158,7 @@ public function find($id, array $columns = ['*'])
             $query->with($relations);
         }
     }
-    
+
     return $query->find($id, $columns);
 }
 ```
@@ -192,14 +186,14 @@ class Article extends BaseModel
 public function all(array $columns = ['*'])
 {
     $query = $this->model->newQuery();
-    
+
     if (method_exists($this->model, 'getDefaultEagerLoadRelations')) {
         $relations = $this->model->getDefaultEagerLoadRelations();
         if (!empty($relations)) {
             $query->with($relations);
         }
     }
-    
+
     return $query->get($columns);
 }
 ```
@@ -233,20 +227,20 @@ use Illuminate\Support\Facades\DB;
 class AnalyzeQueryPerformance extends Command
 {
     protected $signature = 'xot:analyze-queries {route}';
-    
+
     public function handle()
     {
         DB::enableQueryLog();
-        
+
         // Simula una richiesta alla route specificata
         $this->call('route:call', ['uri' => $this->argument('route')]);
-        
+
         $queries = DB::getQueryLog();
-        
+
         // Analizza le query per trovare pattern N+1
         $this->analyzeForNPlusOne($queries);
     }
-    
+
     protected function analyzeForNPlusOne(array $queries)
     {
         // Logica per identificare query N+1
@@ -293,17 +287,17 @@ class CacheService
     {
         $class = get_class($model);
         $key = strtolower(class_basename($class)) . "_{$id}";
-        
+
         return Cache::tags([$this->getModelTag($class)])->remember($key, $duration, function () use ($model, $id) {
             return $model->find($id);
         });
     }
-    
+
     public function invalidateModel($model)
     {
         Cache::tags([$this->getModelTag(get_class($model))])->flush();
     }
-    
+
     protected function getModelTag($class)
     {
         return strtolower(str_replace('\\', '_', $class));
@@ -321,17 +315,17 @@ use Modules\Xot\Services\CacheService;
 class ModelCacheObserver
 {
     protected $cacheService;
-    
+
     public function __construct(CacheService $cacheService)
     {
         $this->cacheService = $cacheService;
     }
-    
+
     public function saved($model)
     {
         $this->cacheService->invalidateModel($model);
     }
-    
+
     public function deleted($model)
     {
         $this->cacheService->invalidateModel($model);
@@ -352,7 +346,7 @@ public function boot()
 protected function registerModelObservers()
 {
     $models = config('xot.cacheable_models', []);
-    
+
     foreach ($models as $model) {
         $model::observe(ModelCacheObserver::class);
     }
@@ -377,7 +371,7 @@ protected function registerModelObservers()
 public function findWithCache($id, $duration = 3600)
 {
     $cacheKey = $this->getCacheKey('find', $id);
-    
+
     return Cache::tags([$this->getCacheTag()])->remember($cacheKey, $duration, function () use ($id) {
         return $this->find($id);
     });
@@ -420,12 +414,12 @@ namespace Modules\Xot\Services;
 class AssetService
 {
     protected $requiredAssets = [];
-    
+
     public function require($asset)
     {
         $this->requiredAssets[] = $asset;
     }
-    
+
     public function getRequiredScripts()
     {
         $scripts = [];
@@ -436,7 +430,7 @@ class AssetService
         }
         return $scripts;
     }
-    
+
     public function getRequiredStyles()
     {
         $styles = [];
@@ -511,12 +505,12 @@ export default defineConfig({
                 // Core assets sempre inclusi
                 'resources/css/app.css',
                 'resources/js/app.js',
-                
+
                 // Asset modulari
                 'resources/js/modules/datepicker.js',
                 'resources/js/modules/chart.js',
                 'resources/js/modules/editor.js',
-                
+
                 'resources/css/modules/datepicker.css',
                 'resources/css/modules/chart.css',
                 'resources/css/modules/editor.css',
@@ -539,7 +533,7 @@ class AssetHelper
     {
         return vite("resources/js/modules/{$name}.js");
     }
-    
+
     public static function moduleStyle($name)
     {
         return vite("resources/css/modules/{$name}.css");
@@ -590,21 +584,21 @@ use Illuminate\Queue\SerializesModels;
 class GenerateReportJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
-    
+
     protected $reportParams;
-    
+
     public function __construct(array $reportParams)
     {
         $this->reportParams = $reportParams;
     }
-    
+
     public function handle()
     {
         $data = $this->processLargeDataset();
         $pdf = $this->generatePDF($data);
         $this->sendEmail($pdf);
     }
-    
+
     // Metodi helper...
 }
 ```
@@ -652,7 +646,7 @@ public function handle()
     $data = $this->processLargeDataset();
     $pdf = $this->generatePDF($data);
     $this->sendEmail($pdf);
-    
+
     // Notifica di completamento
     event(new ReportGenerationCompleted($this->reportParams['user_id'], $pdf));
 }
@@ -693,123 +687,7 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 - [Struttura Moduli](./MODULE_STRUCTURE.md)
 
 ## Collegamenti tra versioni di BOTTLENECKS.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
 * [BOTTLENECKS.md](../../../Xot/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/docs/BOTTLENECKS.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-* [BOTTLENECKS.md](../../../Xot/project_docs/BOTTLENECKS.md)
-* [BOTTLENECKS.md](../../../User/project_docs/BOTTLENECKS.md)
-* [BOTTLENECKS.md](../../../Media/project_docs/BOTTLENECKS.md)
-* [BOTTLENECKS.md](../../../Cms/project_docs/BOTTLENECKS.md)
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-* [BOTTLENECKS.md](../../../Xot/project_docs/BOTTLENECKS.md)
-* [BOTTLENECKS.md](../../../User/project_docs/BOTTLENECKS.md)
-* [BOTTLENECKS.md](../../../Media/project_docs/BOTTLENECKS.md)
-* [BOTTLENECKS.md](../../../Cms/project_docs/BOTTLENECKS.md)
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

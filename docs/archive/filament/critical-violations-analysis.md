@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.)
 # Analisi Violazioni Critiche XotBaseResource
 
 ## 🚨 Violazioni Identificate
@@ -23,13 +15,13 @@ class NotificationTemplateResource extends XotBaseResource
 {
     // ❌ VIOLAZIONE: navigationIcon dichiarato
     protected static ?string $navigationIcon = 'heroicon-o-bell';
-    
-    // ❌ VIOLAZIONE: navigationGroup dichiarato  
+
+    // ❌ VIOLAZIONE: navigationGroup dichiarato
     protected static ?string $navigationGroup = 'Sistema';
-    
+
     // ❌ VIOLAZIONE: navigationSort dichiarato
     protected static ?int $navigationSort = 48;
-    
+
     // ❌ VIOLAZIONE: Override metodi gestiti da NavigationLabelTrait
     public static function getNavigationLabel(): string
     public static function getNavigationGroup(): string
@@ -46,13 +38,13 @@ class NotificationLogResource extends XotBaseResource
 {
     // ❌ VIOLAZIONE: navigationIcon dichiarato
     protected static ?string $navigationIcon = 'heroicon-o-bell';
-    
+
     // ❌ VIOLAZIONE: navigationGroup dichiarato
     protected static ?string $navigationGroup = 'Notifiche';
-    
+
     // ❌ VIOLAZIONE: navigationSort dichiarato
     protected static ?int $navigationSort = 100;
-    
+
     // ❌ VIOLAZIONE: Override metodi gestiti da NavigationLabelTrait
     public static function getNavigationLabel(): string
     public static function getModelLabel(): string
@@ -128,152 +120,9 @@ class NotificationLogResource extends XotBaseResource
 - [Regole Windsurf](../../../../.windsurf/rules/filament-xotbase-resource-best-practices.mdc)
 
 ### Documentazione Moduli
-<<<<<<< HEAD
 - [Notify Module README](../../../Notify/project_docs/README.md)
 - [User Module README](../../../User/project_docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/project_docs/README.md)
-=======
-<<<<<<< HEAD
-- [Notify Module README](../../../Notify/docs/README.md)
-- [User Module README](../../../User/docs/README.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99c0b3329 (.)
-- [<nome progetto> Module README](../../../<nome progetto>/docs/README.md)
-=======
-- [ Module README](../../../<nome modulo>/docs/README.md)
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
-- [Notify Module README](../../../Notify/project_docs/README.md)
-- [User Module README](../../../User/project_docs/README.md)
-- [SaluteOra Module README](../../../SaluteOra/project_docs/README.md)
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> d86d643a (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 472bd9dc (.)
-=======
-- [ Module README](../../../<nome modulo>/docs/README.md)
-- [<nome progetto> Module README](../../../../docs/README.md)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
-- [ Module README](../../../<nome modulo>/docs/README.md)
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 5a14301c (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> ba1d49f3 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> b956ebe0 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 76bec91a (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 0123915b (.)
-=======
->>>>>>> e7da37af (.)
-=======
-- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
 ### Standard di Riferimento
 - [NavigationLabelTrait](../traits/navigation-label-trait.md)
@@ -292,18 +141,9 @@ class NotificationLogResource extends XotBaseResource
 
 ### Mantra per il Futuro
 - **Prima di estendere**: Leggi la documentazione della classe base
-- **Prima di dichiarare**: Verifica se è già gestito automaticamente  
+- **Prima di dichiarare**: Verifica se è già gestito automaticamente
 - **Prima di sovrascrivere**: Comprendi il perché dell'implementazione esistente
 
 ---
 
-**Questo documento serve come promemoria permanente dell'importanza di seguire l'architettura stabilita e consultare sempre la documentazione prima di implementare soluzioni.** 
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
+**Questo documento serve come promemoria permanente dell'importanza di seguire l'architettura stabilita e consultare sempre la documentazione prima di implementare soluzioni.**

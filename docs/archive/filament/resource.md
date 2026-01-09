@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ---
 title: Creazione di una Resource
 description: Creazione di una Resource
@@ -8,7 +6,6 @@ section: content
 ---
 
 # Creazione di una Resource {#creazione-resource}
-
 
 - vedi doc savanna e crea le resource con:
 
@@ -41,32 +38,10 @@ class UserResource extends \Modules\Xot\Filament\Resources\XotBaseResource
 ```
 ### Versione HEAD
 
-
 ## Collegamenti tra versioni di resource.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [resource.md](../../../Xot/project_docs/filament/resource.md)
 * [resource.md](../../../Xot/project_docs/resource.md)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
->>>>>>> b9c66c44e (.)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
-=======
-* [resource.md](../../../Xot/project_docs/filament/resource.md)
-* [resource.md](../../../Xot/project_docs/resource.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
 
 ### Versione Incoming
 
-
 ---
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

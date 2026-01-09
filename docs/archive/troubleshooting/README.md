@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 6e7c1905 (.)
-=======
->>>>>>> 334816e8 (.)
 # Troubleshooting Guide
 
 ## Common Issues
@@ -23,47 +5,25 @@
 ### PHPStan Errors
 - **Issue**: Method not found errors
 - **Solution**: Check namespace imports and method signatures
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Prevention**: Always run PHPStan level 10+ before commits
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 5a14301c (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 71f31700 (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 5a14301c (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 71f31700 (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> c35986f4 (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 33af3e61 (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 5bd842e3 (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 03ceeac3 (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 6e7c1905 (.)
-=======
 - **Prevention**: Always run PHPStan level 9+ before commits
->>>>>>> 334816e8 (.)
+- **Prevention**: Always run PHPStan level 9+ before commits
+- **Prevention**: Always run PHPStan level 9+ before commits
+- **Prevention**: Always run PHPStan level 9+ before commits
+- **Prevention**: Always run PHPStan level 9+ before commits
+- **Prevention**: Always run PHPStan level 9+ before commits
+- **Prevention**: Always run PHPStan level 9+ before commits
+- **Prevention**: Always run PHPStan level 9+ before commits
+- **Prevention**: Always run PHPStan level 9+ before commits
+- **Prevention**: Always run PHPStan level 9+ before commits
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings
@@ -93,24 +53,3 @@
 - Review Laraxot framework guidelines
 - Consult best practices documentation
 - Use project memory system for context
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> 6e7c1905 (.)
-=======
->>>>>>> 334816e8 (.)

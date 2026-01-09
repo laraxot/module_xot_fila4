@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Regole Generali del Progetto SaluteOra
 
 Questo documento contiene le regole generali che devono essere seguite in tutto il progetto SaluteOra per garantire coerenza e qualità del codice.
-=======
-# Regole Generali del Progetto 
-
-Questo documento contiene le regole generali che devono essere seguite in tutto il progetto  per garantire coerenza e qualità del codice.
->>>>>>> b9c66c44e (.)
 
 ## Struttura dei Namespace
 - **Modelli**: Utilizzare il namespace `Modules\<nome modulo>\Models` per tutti i modelli.
@@ -32,7 +24,3 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
   - [User Module Documentation](../../../User/docs/user-model-guidelines.md)
 
 Queste regole devono essere seguite per garantire che il codice passi i controlli di qualità futuri e aderisca ai principi DRY (Don't Repeat Yourself) e KISS (Keep It Simple, Stupid). Considerare sempre le implicazioni di politica, filosofia, religione e zen nelle soluzioni implementate.
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

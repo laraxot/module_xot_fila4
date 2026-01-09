@@ -4,50 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d86d643a (.)
-use Filament\Forms\Form;
-use Filament\Forms\Form;
-=======
-=======
-use Illuminate\Contracts\Support\Htmlable;
->>>>>>> a5dccfe (.)
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 43d67f21 (.)
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 50c0e1043 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -61,144 +17,6 @@ use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
->>>>>>> e59778ae (.)
-=======
->>>>>>> 14edd1a1 (.)
-=======
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
->>>>>>> c06600c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
->>>>>>> 14edd1a1 (.)
-=======
->>>>>>> 16dc7ab0 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-use Exception;
-=======
->>>>>>> a6ef6dc7 (.)
-use Filament\Actions\Action;
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Schema;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-use Filament\Schemas\Components\Component;
-=======
->>>>>>> f1d4085 (.)
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-=======
->>>>>>> ca9324a4 (.)
-use Exception;
-use Filament\Actions\Action;
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Schema;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-use Illuminate\Contracts\Support\Htmlable;
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
->>>>>>> 43d67f21 (.)
-=======
-=======
->>>>>>> c06600c (.)
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
-=======
->>>>>>> c06600c (.)
->>>>>>> 14edd1a1 (.)
-=======
->>>>>>> 16dc7ab0 (.)
-use Illuminate\Contracts\View\View;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Log;
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 50c0e1043 (.)
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
@@ -208,19 +26,11 @@ use Webmozart\Assert\Assert;
  * Classe base astratta per tutti i widget Filament.
  * Fornisce funzionalità comuni e standardizzate per la gestione dei widget.
  *
-<<<<<<< HEAD
- * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
- * @property string                    $title        Titolo del widget
- * @property string                    $icon         Icona del widget
- * @property array<string, mixed>|null $data         Dati del form
- * @property Schema                    $form
-=======
  * @property bool $shouldRender Indica se il widget deve essere renderizzato
  * @property string $title Titolo del widget
  * @property string $icon Icona del widget
  * @property array<string, mixed>|null $data Dati del form
  * @property Schema $form
->>>>>>> 50c0e1043 (.)
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
 {
@@ -256,22 +66,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     public function __construct()
     {
-<<<<<<< HEAD
         $this->resolveView();
     }
 
-=======
-        // parent::__construct();//Cannot call constructor
-        $this->resolveView();
-    }
-
-    /*
-     * public function mount(): void
-     * {
-     * $this->form->fill();
-     * }
-     */
->>>>>>> 8ab8fd81a (.)
     /**
      * Ottiene lo schema del form.
      * Deve essere implementato nelle classi figlie.
@@ -283,12 +80,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     /**
      * Configura il form del widget.
      *
-<<<<<<< HEAD
-     * @param Schema $schema Il form da configurare
-     *
-=======
      * @param  Schema  $schema  Il form da configurare
->>>>>>> 50c0e1043 (.)
+     *
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
@@ -297,11 +90,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $schema->statePath('data');
 
         $model = $this->getFormModel();
-        if (null !== $model) {
+        if ($model !== null) {
             // Ensure model is compatible with Schema::model()
             if (\is_string($model)) {
                 if (class_exists($model) && is_subclass_of($model, Model::class)) {
-                    /* @var class-string<Model> $model */
+                    /** @var class-string<Model> $model */
                     $schema->model($model);
                 }
             } else {
@@ -309,28 +102,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 $schema->model($model);
             }
         }
-<<<<<<< HEAD
-=======
-        if (! empty($data)) {
-            // $form->fill($data);
-            // $this->data=$data;
-        }
->>>>>>> 50c0e1043 (.)
 
         return $schema;
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
-<<<<<<< HEAD
-        if (null === $model) {
-=======
         if ($model === null) {
->>>>>>> 50c0e1043 (.)
             return [];
         }
         if (\is_string($model)) {
@@ -346,17 +125,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     /** @var array<string, mixed> $defaults */
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
-<<<<<<< HEAD
                     $merge1 = Arr::map($merge1, static function ($value, string|int $key) use ($defaults) {
-<<<<<<< HEAD
                         if ($value === null) {
-=======
-                        if (null === $value) {
->>>>>>> 8ab8fd81a (.)
-=======
-                    $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
-                        if ($value === null) {
->>>>>>> 50c0e1043 (.)
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -365,41 +135,10 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
-                /** @var array<string, mixed> */
                 return $res;
-
-<<<<<<< HEAD
             } catch (Exception $e) {
-=======
-                // dddx($model->with('studio')->relationsToArray());
-            } catch (\Exception $e) {
->>>>>>> 8b18e4bff (.)
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
-<<<<<<< HEAD
                 return $model->getAttributes();
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-                $attributes = $model->getAttributes();
-
-                // Gestisci specificamente gli enum se presenti
-                // if (isset($attributes['type']) && $model->type instanceof \BackedEnum) {
-                //    $attributes['type'] = $model->type->value;
-                // }
-
-                /** @var array<string, mixed> */
-                return $attributes;
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> 14dafc3ba (.)
-=======
-                // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
-                return $model->getAttributes();
->>>>>>> 50c0e1043 (.)
             }
         }
 
@@ -409,29 +148,15 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $attributes = $model->attributesToArray();
 
         $fields = array_merge($fillable, $appends);
-        /** @var array<string, mixed> $fieldsWithNull */
-        $fieldsWithNull = array_fill_keys($fields, null);
-        $fieldsWithNull = array_merge($fieldsWithNull, $attributes);
+        $fields = array_fill_keys($fields, null);
+        $fields = array_merge($fields, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
             /** @var array<string, mixed> $defaults */
             $defaults = $model->getDataDefaults();
-            $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
+            $fields = array_merge($fields, $defaults);
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $fieldsWithNull;
-=======
         return $fields;
->>>>>>> 53d6a6ba (.)
-=======
-        /** @var array<string, mixed> */
-        return $fieldsWithNull;
->>>>>>> b7afadf9 (.)
-=======
-        return $fields;
->>>>>>> 50c0e1043 (.)
     }
 
     /**
@@ -443,18 +168,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         // Implementare nelle classi figlie
     }
 
-<<<<<<< HEAD
-=======
-    /**
-     * Eseguito quando i filtri vengono aggiornati.
-     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario.
-     */
-    // public function filtersUpdated(): void
-    // {
-    //     $this->reset('data');
-    // }
-
->>>>>>> 285375c74 (.)
     public static function getNavigationLabel(): string
     {
         return static::transFunc(__FUNCTION__);
@@ -498,48 +211,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return null;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-    /**
-     * Salva i dati del form.
-     * Override nelle classi figlie se necessario.
-     */
-    public function save(): void
-    {
-        // Implementare nelle classi figlie
-    }
-
-    /**
-     * Eseguito quando i filtri vengono aggiornati.
-     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario.
-     */
-    // public function filtersUpdated(): void
-    // {
-    //     $this->reset('data');
-    // }
-
-    public static function getNavigationLabel(): string
-    {
-        /*
-         * return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
-         * ->headline());
-         */
-        return static::transFunc(__FUNCTION__);
-    }
-
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
     protected function getStepByName(string $name): Step
     {
         $schema = Str::of($name)
@@ -554,43 +225,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
         return Step::make($name)->schema($schemaComponents);
     }
-<<<<<<< HEAD
 
     private function resolveView(): void
     {
         $defaultView = 'xot::filament.widgets.base';
 
-<<<<<<< HEAD
         if ($this->view !== $defaultView && view()->exists($this->view)) {
             return;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
->>>>>>> e59778ae (.)
-=======
->>>>>>> 5842a556 (.)
-=======
->>>>>>> 14edd1a1 (.)
-=======
->>>>>>> 16dc7ab0 (.)
-        if (! view()->exists($submit_view)) {
-            throw new \Exception("View {$submit_view} does not exist");
->>>>>>> 8b18e4bff (.)
         }
 
         try {
@@ -605,6 +246,4 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             }
         }
     }
-=======
->>>>>>> 50c0e1043 (.)
 }

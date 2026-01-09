@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 472bd9dc (.)
->>>>>>> dc2130a7c (.)
 # Best Practices per Laraxot
 
 ## Riferimenti al modello User
@@ -97,63 +65,7 @@ public function process(UserContract $user) {
 public function process(\Modules\User\Models\User $user) {
     // Codice
 }
-``` 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
+```
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -233,7 +145,7 @@ use Modules\Xot\Models\Traits\HasExtra;
 class MioModello extends BaseModel
 {
     use HasXotTable, HasExtra;
-    
+
     // Implementazione specifica
 }
 ```
@@ -404,11 +316,11 @@ class MioModelloResource extends XotBaseResource
             Forms\Components\TextInput::make('nome')
                 ->required()
                 ->maxLength(255),
-                
+
             Forms\Components\Textarea::make('descrizione')
                 ->maxLength(1000)
                 ->columnSpanFull(),
-                
+
             Forms\Components\Toggle::make('is_active')
                 ->required(),
         ];
@@ -425,14 +337,14 @@ class MioModelloResource extends XotBaseResource
             Tables\Columns\TextColumn::make('nome')
                 ->searchable()
                 ->sortable(),
-                
+
             Tables\Columns\TextColumn::make('descrizione')
                 ->limit(50),
-                
+
             Tables\Columns\IconColumn::make('is_active')
                 ->boolean()
                 ->sortable(),
-                
+
             Tables\Columns\TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
@@ -455,7 +367,7 @@ public static function getTableActions(): array
     return [
         Tables\Actions\EditAction::make(),
         Tables\Actions\DeleteAction::make(),
-        
+
         // Azione personalizzata
         Tables\Actions\Action::make('custom_action')
             ->icon('heroicon-o-star')
@@ -495,7 +407,7 @@ class MioModuloServiceProvider extends XotBaseServiceProvider
     public function boot(): void
     {
         parent::boot();
-        
+
         // Personalizzazioni specifiche del modulo
         $this->registerCustomComponents();
         $this->registerCustomCommands();
@@ -555,7 +467,7 @@ return new class extends XotBaseMigration
             $table->boolean('is_active')->default(true);
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
-            
+
             // Indici per performance
             $table->index(['user_id', 'is_active']);
             $table->index('nome');
@@ -608,7 +520,7 @@ class MioModelloTest extends XotBaseTestCase
     protected function setUp(): void
     {
         parent::setUp();
-        
+
         // Setup comune per tutti i test
     }
 
@@ -616,7 +528,7 @@ class MioModelloTest extends XotBaseTestCase
     public function it_can_create_model(): void
     {
         $user = User::factory()->create();
-        
+
         $modello = MioModello::create([
             'nome' => 'Test Model',
             'descrizione' => 'Test Description',
@@ -633,9 +545,9 @@ class MioModelloTest extends XotBaseTestCase
     public function it_can_update_model(): void
     {
         $modello = MioModello::factory()->create();
-        
+
         $modello->update(['nome' => 'Updated Name']);
-        
+
         $this->assertEquals('Updated Name', $modello->fresh()->nome);
     }
 
@@ -643,9 +555,9 @@ class MioModelloTest extends XotBaseTestCase
     public function it_can_delete_model(): void
     {
         $modello = MioModello::factory()->create();
-        
+
         $modello->delete();
-        
+
         $this->assertModelMissing($modello);
     }
 }
@@ -874,35 +786,3 @@ public function createModel(array $data): MioModello
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

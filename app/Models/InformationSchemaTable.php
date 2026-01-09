@@ -4,16 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Carbon;
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
->>>>>>> 8ab8fd81a (.)
 use Illuminate\Database\Eloquent\Builder;
-=======
->>>>>>> 50c0e1043 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use InvalidArgumentException;
@@ -26,13 +17,12 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @property string $table_schema
  * @property string $table_name
  * @property string|null $model_class
-<<<<<<< HEAD
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property int $id
-<<<<<<< HEAD
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
+ *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
@@ -41,52 +31,6 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @method static Builder<static>|InformationSchemaTable newModelQuery()
  * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
-=======
- *
- * @method static Builder<static>|InformationSchemaTable newModelQuery()
- * @method static Builder<static>|InformationSchemaTable newQuery()
- * @method static Builder<static>|InformationSchemaTable query()
- * @method static Builder<static>|InformationSchemaTable whereAUTOINCREMENT($value)
- * @method static Builder<static>|InformationSchemaTable whereAVGROWLENGTH($value)
- * @method static Builder<static>|InformationSchemaTable whereCHECKSUM($value)
- * @method static Builder<static>|InformationSchemaTable whereCHECKTIME($value)
- * @method static Builder<static>|InformationSchemaTable whereCREATEOPTIONS($value)
- * @method static Builder<static>|InformationSchemaTable whereCREATETIME($value)
- * @method static Builder<static>|InformationSchemaTable whereDATAFREE($value)
- * @method static Builder<static>|InformationSchemaTable whereDATALENGTH($value)
- * @method static Builder<static>|InformationSchemaTable whereENGINE($value)
- * @method static Builder<static>|InformationSchemaTable whereINDEXLENGTH($value)
- * @method static Builder<static>|InformationSchemaTable whereId($value)
- * @method static Builder<static>|InformationSchemaTable whereMAXDATALENGTH($value)
- * @method static Builder<static>|InformationSchemaTable whereROWFORMAT($value)
- * @method static Builder<static>|InformationSchemaTable whereTABLECATALOG($value)
- * @method static Builder<static>|InformationSchemaTable whereTABLECOLLATION($value)
- * @method static Builder<static>|InformationSchemaTable whereTABLECOMMENT($value)
- * @method static Builder<static>|InformationSchemaTable whereTABLENAME($value)
- * @method static Builder<static>|InformationSchemaTable whereTABLEROWS($value)
- * @method static Builder<static>|InformationSchemaTable whereTABLESCHEMA($value)
- * @method static Builder<static>|InformationSchemaTable whereTABLETYPE($value)
- * @method static Builder<static>|InformationSchemaTable whereUPDATETIME($value)
- * @method static Builder<static>|InformationSchemaTable whereVERSION($value)
- *
- * @property string|null $table_schema
- * @property string|null $table_name
- * @property string|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_at
-=======
- * @property \Illuminate\Support\Carbon|null $created_at
->>>>>>> 50c0e1043 (.)
- * @property string|null $created_by
- * @property int $id
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string|null $updated_by
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
  * @method static Builder<static>|InformationSchemaTable whereId($value)
@@ -96,49 +40,7 @@ use Modules\Xot\Database\Factories\InformationSchemaTableFactory;
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-=======
- *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b7afadf9 (.)
- * @property string|null $model_class
- *
- * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
- *
-<<<<<<< HEAD
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
- * @method static \Modules\Xot\Database\Factories\InformationSchemaTableFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable query()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereCreatedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereModelClass($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableName($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableRows($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereTableSchema($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|InformationSchemaTable whereUpdatedBy($value)
- *
->>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends BaseModel

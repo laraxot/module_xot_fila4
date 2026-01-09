@@ -2,13 +2,8 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Artisan;
->>>>>>> 8ab8fd81a (.)
 use Illuminate\Support\Facades\Request;
 use Modules\Xot\Services\ArtisanService;
 

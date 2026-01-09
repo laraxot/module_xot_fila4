@@ -15,36 +15,11 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
-<<<<<<< HEAD
+ *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
-<<<<<<< HEAD
  * @method static PulseValueFactory factory($count = null, $state = [])
-=======
- * @method static Builder|PulseValue whereId($value)
- * @method static Builder|PulseValue whereKey($value)
- * @method static Builder|PulseValue whereKeyHash($value)
- * @method static Builder|PulseValue whereTimestamp($value)
- * @method static Builder|PulseValue whereType($value)
- * @method static Builder|PulseValue whereValue($value)
- *
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @mixin \Eloquent
- */
-/**
- * @property string $id
- * @property int $timestamp
- * @property string $type
- * @property string $key
- * @property string $key_hash
- * @property string $value
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Xot\Database\Factories\PulseValueFactory factory($count = null, $state = [])
->>>>>>> cc7fb225 (.)
  * @method static Builder<static>|PulseValue newModelQuery()
  * @method static Builder<static>|PulseValue newQuery()
  * @method static Builder<static>|PulseValue query()
@@ -55,93 +30,8 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @method static Builder<static>|PulseValue whereType($value)
  * @method static Builder<static>|PulseValue whereValue($value)
  *
-<<<<<<< HEAD
  * @property-read ProfileContract|null $deleter
  *
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
- * @method static Builder|PulseValue whereId($value)
- * @method static Builder|PulseValue whereKey($value)
- * @method static Builder|PulseValue whereKeyHash($value)
- * @method static Builder|PulseValue whereTimestamp($value)
- * @method static Builder|PulseValue whereType($value)
- * @method static Builder|PulseValue whereValue($value)
- * @mixin IdeHelperPulseValue
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
- * @mixin IdeHelperPulseValue
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
- * @mixin IdeHelperPulseValue
-=======
- * @mixin \Eloquent
- */
-/**
- * @property string $id
- * @property int $timestamp
- * @property string $type
- * @property string $key
- * @property string $key_hash
- * @property string $value
-=======
->>>>>>> 50c0e1043 (.)
- * @property-read ProfileContract|null $creator
- * @property-read ProfileContract|null $updater
- *
- * @method static PulseValueFactory factory($count = null, $state = [])
- * @method static Builder<static>|PulseValue newModelQuery()
- * @method static Builder<static>|PulseValue newQuery()
- * @method static Builder<static>|PulseValue query()
- * @method static Builder<static>|PulseValue whereId($value)
- * @method static Builder<static>|PulseValue whereKey($value)
- * @method static Builder<static>|PulseValue whereKeyHash($value)
- * @method static Builder<static>|PulseValue whereTimestamp($value)
- * @method static Builder<static>|PulseValue whereType($value)
- * @method static Builder<static>|PulseValue whereValue($value)
- *
-<<<<<<< HEAD
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
- *
->>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

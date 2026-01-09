@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 # XotBaseResource
 
 ## Overview
@@ -60,7 +54,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 class MyResource extends XotBaseResource
 {
     protected static ?string $model = MyModel::class;
-    
+
     public static function getFormSchema(): array
     {
         return [
@@ -109,7 +103,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 class ListRecords extends XotBaseListRecords
 {
     protected static string $resource = MyResource::class;
-    
+
     public function table(Table $table): Table
     {
         return $table
@@ -152,24 +146,24 @@ class ListRecords extends XotBaseListRecords
 ```php
 /**
  * Risorsa per la gestione di XXX
- * 
+ *
  * Menu:
  * - Gruppo: xxx
  * - Label: xxx
  * - Icona: heroicon-o-xxx
  * - Ordinamento: xx
- * 
+ *
  * Convertito da:
  * - Controller: xxx
  * - Template: xxx
  * - URL vecchi: xxx
  * - URL nuovi: xxx
- * 
+ *
  * Note sulla conversione:
  * - Permessi
  * - Funzionalità
  * - Miglioramenti
- * 
+ *
  * Struttura:
  * - Resource: Definisce solo model e form schema
  * - Pages/List: Gestisce la configurazione della tabella
@@ -525,28 +519,6 @@ public function getTableColumns(): array
 2. Usa i metodi standard di Filament per la configurazione della tabella
 3. Mantieni la visibilità pubblica dei metodi
 4. Non aggiungere il prefisso "List" ai nomi dei metodi
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-5. **Bugfix 19/11/2025**: la classe dichiara `getResource()` una sola volta. Se vedi un errore “Cannot redeclare XotBaseListRecords::getResource”, assicurati di non introdurre duplicati.
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 
 ## Tipizzazione degli Array
 
@@ -630,109 +602,14 @@ public function getTableBulkActions(): array
 
 ### Versione HEAD
 
-// ... existing code ... 
+// ... existing code ...
 
 ## Collegamenti tra versioni di resource.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
-=======
-* [resource.md](../../../Xot/project_docs/filament/resource.md)
-* [resource.md](../../../Xot/project_docs/resource.md)
->>>>>>> f1d4085 (.)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
->>>>>>> 6dcebf8a (.)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
-=======
-* [resource.md](../../../Xot/project_docs/filament/resource.md)
-* [resource.md](../../../Xot/project_docs/resource.md)
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
->>>>>>> b3cc10f7 (.)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
-=======
-* [resource.md](../../../Xot/project_docs/filament/resource.md)
-* [resource.md](../../../Xot/project_docs/resource.md)
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-* [resource.md](../../../Xot/docs/filament/resource.md)
-* [resource.md](../../../Xot/docs/resource.md)
->>>>>>> cafe8bed (.)
-
 
 ### Versione Incoming
 
-// ... existing code ... 
+// ... existing code ...
 
 ---
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Laravel XOT Architecture Documentation
 
 ## Overview
@@ -38,7 +36,7 @@ class YourResource extends XotBaseResource
 {
     // Must implement
     public function getFormSchema(): array
-    
+
     // Common overrides
     public function getListTableColumns(): array
     public function getRelations(): array
@@ -175,7 +173,7 @@ class LocationDataTest extends TestCase
             latitude: 45.4642,
             longitude: 9.1900
         );
-        
+
         $this->assertTrue($data->isValid());
     }
 }
@@ -190,7 +188,7 @@ class LocationEndpointTest extends TestCase
         $response = $this->postJson('/api/locations', [
             'address' => 'Via Roma, 1, Milano'
         ]);
-        
+
         $response->assertSuccessful()
             ->assertJsonStructure(['latitude', 'longitude']);
     }
@@ -325,7 +323,7 @@ trait HasCoordinates
         if ($this->full_address) {
             $coordinates = app(GetCoordinatesAction::class)
                 ->execute($this->full_address);
-            
+
             $this->setCoordinates(
                 $coordinates->latitude,
                 $coordinates->longitude
@@ -444,7 +442,7 @@ class GeoLogger
 class ModuleResource extends XotBaseResource
 {
     protected static ?string $navigationGroup = 'Module Management';
-    
+
     public function getFormSchema(): array
     {
         return [
@@ -458,7 +456,7 @@ class ModuleResource extends XotBaseResource
                 ])
         ];
     }
-    
+
     public function getListTableColumns(): array
     {
         return [
@@ -484,7 +482,7 @@ class ExportAction extends Action
             ->label('Export')
             ->action(fn () => $this->export());
     }
-    
+
     protected function export(): void
     {
         // Implementazione export
@@ -505,7 +503,7 @@ class CustomFormComponent extends Component
             $this->validateData($state);
         });
     }
-    
+
     protected function validateData($state): void
     {
         // Validazione personalizzata
@@ -522,7 +520,7 @@ class ModuleCard extends Component
 {
     public string $title;
     public string $description;
-    
+
     public function render(): View
     {
         return view('module::components.card');
@@ -545,14 +543,14 @@ class ModuleCard extends Component
 class ModuleList extends Component
 {
     use WithPagination;
-    
+
     public function render(): View
     {
         return view('module::livewire.list', [
             'items' => Module::paginate(10)
         ]);
     }
-    
+
     public function delete(int $id): void
     {
         Module::find($id)->delete();
@@ -600,7 +598,7 @@ class ModuleServiceProvider extends XotBaseServiceProvider
             __DIR__.'/../resources/js' => resource_path('js/modules/example'),
             __DIR__.'/../resources/css' => resource_path('css/modules/example'),
         ], 'module-assets');
-        
+
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'module');
         $this->loadTranslationsFrom(__DIR__.'/../lang', 'module');
     }
@@ -616,14 +614,14 @@ class SyncModuleCommand extends Command
 {
     protected $signature = 'module:sync {name}';
     protected $description = 'Synchronize module data';
-    
+
     public function handle(): int
     {
         $name = $this->argument('name');
-        
+
         $this->info("Syncing module: {$name}");
         // Implementazione sync
-        
+
         return self::SUCCESS;
     }
 }
@@ -638,7 +636,7 @@ class ModuleServiceProvider extends XotBaseServiceProvider
         SyncModuleCommand::class,
         SetupModuleCommand::class,
     ];
-    
+
     public function boot(): void
     {
         $this->commands($this->commands);
@@ -670,7 +668,6 @@ class ModuleServiceProvider extends XotBaseServiceProvider
 ## License
 
 The Laravel XOT framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
 
               ->warning()
               ->title('Coordinate Update Completed with Errors')
@@ -714,10 +711,10 @@ The Laravel XOT framework is open-sourced software licensed under the [MIT licen
 
 - Data classes for Photon responses should be located in:
   `/laravel/Modules/Geo/Datas/Photon/`
-  
+
 - Action classes for Photon operations should be located in:
   `/laravel/Modules/Geo/app/Actions/Photon/`
-  
+
 - Example action pattern:
   `GetAddressFromPhotonAction.php` implements:
   - Strict type checking (final class with type hints)
@@ -736,16 +733,16 @@ The Laravel XOT framework is open-sourced software licensed under the [MIT licen
   class PhotonResponseData extends Data {
       public ?array $features; // Array of PhotonFeatureData
   }
-  
+
   class PhotonFeatureData extends Data {
       public PhotonGeometryData $geometry;
       public PhotonPropertiesData $properties;
   }
-  
+
   class PhotonGeometryData extends Data {
       public array $coordinates; // [longitude, latitude]
   }
-  
+
   class PhotonPropertiesData extends Data {
       public ?string $country;
       public ?string $city;
@@ -940,8 +937,8 @@ protected function getHeaderWidgets(): array
 
 // In widget template (resources/views/filament/widgets/map.blade.php)
 @foreach($clients as $client)
-    <div class="marker" 
-         data-lat="{{ $client['latitude'] }}" 
+    <div class="marker"
+         data-lat="{{ $client['latitude'] }}"
          data-lng="{{ $client['longitude'] }}"
          data-title="{{ $client['name'] }}">
     </div>
@@ -1089,8 +1086,7 @@ return new AddressData(
 ### Changelog
 - Versionamento semantico
 - Note di rilascio
-- Deprecation notices 
-
+- Deprecation notices
 
 # Laraxot Framework
 
@@ -1216,9 +1212,9 @@ XotBaseResource è la classe base per tutte le risorse Filament nel framework. F
    Le proprietà della tabella vanno definite nella pagina List della risorsa che estende XotBaseListRecords:
    ```php
    namespace App\Filament\Resources\YourResource\Pages;
-   
+
    use Modules\Xot\Filament\Pages\XotBaseListRecords;
-   
+
    class ListYours extends XotBaseListRecords
    {
        protected function getListTableColumns(): array
@@ -1227,14 +1223,14 @@ XotBaseResource è la classe base per tutte le risorse Filament nel framework. F
                // Table columns
            ];
        }
-       
+
        protected function getListTableFilters(): array
        {
            return [
                // Table filters
            ];
        }
-       
+
        protected function getListTableActions(): array
        {
            return [
@@ -1263,7 +1259,7 @@ XotBaseResource è la classe base per tutte le risorse Filament nel framework. F
 - Generators per CRUD e moduli
 - Debug tools integrati
 - Testing utilities
-- Code quality tools 
+- Code quality tools
 
 # Linee Guida Laraxot
 
@@ -1297,7 +1293,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 class MyResource extends XotBaseResource
 {
     protected static ?string $model = MyModel::class;
-    
+
     // Non definire mai manualmente:
     // - $navigationGroup
     // - $navigationIcon
@@ -1405,7 +1401,7 @@ class MyAction extends XotBaseAction
 
 ### 1. Form Base
 ```php
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+public static function form(Form $form): Form
 {
     return $form->schema([
         // Utilizzare helper Xot
@@ -1501,7 +1497,7 @@ Quando si creano nuove risorse Filament, è **obbligatorio** utilizzare le class
    ```php
    // ❌ NON usare
    use Filament\Resources\Pages\ListRecords;
-   
+
    // ✅ USARE INVECE
    use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
    ```
@@ -1678,19 +1674,18 @@ Laraxot è un framework basato su Laravel che fornisce funzionalità estese per 
 - `config/`: Configurazioni specifiche
 
 ## Comandi Utili
-- `php artisan`: Gestione Laravel  
-- `npm run dev`: Compilazione assets  
+- `php artisan`: Gestione Laravel
+- `npm run dev`: Compilazione assets
 - `phpstan`: Analisi statica codice
 
 ## Comandi Personalizzati
 
 ### SearchTextInDbCommand
 Permette di cercare testo nel database.
-Utilizzo: 
+Utilizzo:
 ```bash
 php artisan search:text-in-db "testo da cercare"
 ```
-
 
 ## Filament Admin Panel
 
@@ -1811,7 +1806,7 @@ class GetAllBlocksAction extends BaseAction
     use ExecutableTrait {
         ExecutableTrait::execute as protected traitExecute;
     }
-    
+
     public function execute()
     {
         // Nuova implementazione
@@ -1917,13 +1912,13 @@ Benefits:
 ## Sentiment Analysis
 
 ### Architecture
-- **Contracts**: 
+- **Contracts**:
   - `SentimentAnalyzer` interface in `app/Contracts`
-  
+
 - **Implementations**:
   - `BasicSentimentAnalyzer` in `app/Actions`
   - `TransformersSentimentAnalyzer` in `app/Actions`
-  
+
 - **Main Action**:
   - `SentimentAction` in `app/Actions` that uses the appropriate implementation
 
@@ -2123,7 +2118,7 @@ private function validateResponse(mixed $response): array
 $latitude = (float)$data['latitude'];
 
 // CORRETTO: Validazione e poi cast
-$latitude = is_numeric($data['latitude']) 
+$latitude = is_numeric($data['latitude'])
     ? (float)$data['latitude']
     : throw new InvalidArgumentException('Latitude must be numeric');
 ```
@@ -2199,11 +2194,11 @@ Modules/[ModuleName]/
 │   ├── Providers/       # Service Providers
 │   ├── Services/        # Servizi
 │   └── Filament/        # Componenti Filament
-│       ├── Pages/       
-│       ├── Resources/   
-│       └── Widgets/     
+│       ├── Pages/
+│       ├── Resources/
+│       └── Widgets/
 ├── config/              # Configurazioni
-├── database/           
+├── database/
 │   └── migrations/      # Migrazioni
 ├── routes/              # File delle rotte
 └── docs/               # Documentazione
@@ -2297,18 +2292,7 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 1. Tutti i riferimenti ai moduli devono partire da `laravel/Modules/`
 2. I temi si trovano in `laravel/Themes/`
 3. Gli assets pubblici vanno in `public_html/`
-<<<<<<< HEAD
-<<<<<<< HEAD
 4. La documentazione va in `/project_docs/`
-=======
-4. La documentazione va in `/docs/`
->>>>>>> b9c66c44e (.)
-=======
-4. La documentazione va in `/docs/`
-=======
-4. La documentazione va in `/project_docs/`
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 # Gestione Temi e Assets
 
@@ -2522,7 +2506,7 @@ class XotBaseServiceProvider extends ServiceProvider
         'resources/svg',
         'assets/svg',
     ];
-    
+
     protected function getSvgPaths(): array
     {
         return array_map(
@@ -2570,7 +2554,7 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 F:\var\www\fixcity\
 └── laravel\              # ⚠️ Directory dove si trova artisan
     ├── artisan           # Eseguibile artisan
-    ├── Modules\         
+    ├── Modules\
     └── vendor\
 ```
 
@@ -2691,7 +2675,7 @@ laravel/Modules/UI/app/View/Components/Button.php
    ```php
    // ✅ Corretto: Usa il namespace definito in composer.json
    namespace Modules\Fixcity\View\Components;  // Sarà in app/View/Components
-   
+
    // ❌ Errato: Ignora il namespace mapping
    namespace Modules\Fixcity\Components;       // Percorso non mappato
    ```
@@ -2721,7 +2705,7 @@ Quando si usa una notazione del tipo `pub_theme::path.to.view`:
    ```
    // ❌ ERRATO: Cercare le views del tema nel modulo
    Modules/Fixcity/resources/views/livewire/auth/login.blade.php
-   
+
    // ✅ CORRETTO: Views del tema vanno nel tema
    Themes/Sixteen/resources/views/livewire/auth/login.blade.php
    ```
@@ -2958,19 +2942,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
    - Mostrare feedback appropriati
    - Gestire stati loading
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Filament 3 Forms e Componenti
-=======
-<<<<<<< HEAD
-# Filament 4 Forms e Componenti
-=======
-# Filament 3 Forms e Componenti
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-# Filament 4 Forms e Componenti
->>>>>>> 99c0b3329 (.)
 
 ## Componenti Forms vs UI
 
@@ -3056,19 +3028,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
    </x-filament::button>
    ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Filament 3 Plugins e Notifiche
-=======
-<<<<<<< HEAD
-# Filament 4 Plugins e Notifiche
-=======
-# Filament 3 Plugins e Notifiche
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-# Filament 4 Plugins e Notifiche
->>>>>>> 99c0b3329 (.)
 
 ## 1. Installazione Pacchetti Necessari
 ```bash
@@ -3314,7 +3274,7 @@ class BaseUser extends Authenticatable
 1. **Dichiarazione Esplicita dei Tipi**:
    ```php
    use Illuminate\Database\Eloquent\Relations\MorphMany;
-   
+
    public function notifications(): MorphMany
    {
        // Return type dichiarato
@@ -3572,19 +3532,7 @@ $remember = $data['remember'] ?? false;
    }
    ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Setup Assets Filament 3
-=======
-<<<<<<< HEAD
-# Setup Assets Filament 4
-=======
-# Setup Assets Filament 3
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-# Setup Assets Filament 4
->>>>>>> 99c0b3329 (.)
 
 ## 1. Installazione Pacchetti NPM
 
@@ -3837,10 +3785,10 @@ ls public_html/themes/Sixteen/dist
    ```css
    /* 1. Vendor CSS da node_modules */
    @import 'node_modules/@filamentphp/forms/dist/index.css';
-   
+
    /* 2. Tailwind */
    @tailwind base;
-   
+
    /* 3. Custom CSS */
    @layer components {
        /* ... */
@@ -3861,7 +3809,7 @@ ls public_html/themes/Sixteen/dist
    ```bash
    # Lista dipendenze
    yarn list | grep @filamentphp
-   
+
    # Verifica node_modules
    ls node_modules/@filamentphp
    ```
@@ -4020,7 +3968,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     protected function registerSvgPaths(): void
     {
         $moduleName = strtolower($this->name);
-        
+
         // Percorsi possibili per le icone
         $paths = [
             module_path($this->name, 'resources/svg'),
@@ -4032,7 +3980,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
                 Blade::components([
                     "{$moduleName}-icon" => "svg::$moduleName",
                 ]);
-                
+
                 $this->loadViewsFrom($path, 'svg');
                 break;
             }
@@ -4056,9 +4004,9 @@ Una volta registrata, l'icona può essere utilizzata nei template Blade:
 
 1. **Formato SVG**:
    ```xml
-   <svg xmlns="http://www.w3.org/2000/svg" 
-        fill="none" 
-        viewBox="0 0 24 24" 
+   <svg xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
         stroke="currentColor">
         <!-- paths -->
    </svg>
@@ -4203,7 +4151,7 @@ class MyRelationManager extends XotBaseRelationManager
    ```php
    // ✅ CORRETTO
    use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-   
+
    // ❌ ERRATO
    use Filament\Resources\Pages\ListRecords;
    ```
@@ -4432,7 +4380,7 @@ protected function getListTableBulkActions(): array
    ```php
    // ✅ CORRETTO: Usa sempre il prefisso "List"
    public function getListTableColumns(): array
-   
+
    // ❌ ERRATO: Non usare i metodi standard di Filament
    protected function getTableColumns(): array
    ```
@@ -4501,7 +4449,7 @@ class TicketResource extends XotBaseResource
     protected static ?string $model = Ticket::class;
 
     // ✅ CORRETTO: Metodo statico
-    public static function getFormSchema(): array 
+    public static function getFormSchema(): array
     {
         return [
             TextInput::make('title')->required(),
@@ -4671,7 +4619,7 @@ class MyListRecords extends XotBaseListRecords
 ```php
 /**
  * Get the table columns for the list view.
- * 
+ *
  * IMPORTANTE: Questo metodo deve essere public per rispettare
  * il contratto con la classe padre XotBaseListRecords.
  *
@@ -4790,7 +4738,7 @@ class CommentsRelationManager extends XotBaseRelationManager
    ```php
    // ✅ CORRETTO: Import esplicito
    use Modules\Xot\Filament\RelationManagers\XotBaseRelationManager;
-   
+
    // ❌ ERRATO: Import con namespace errato
    use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
    ```
@@ -4863,7 +4811,7 @@ use Filament\Resources\RelationManagers\RelationManager;
 class CommentsRelationManager extends RelationManager
 {
     protected static string $relationship = 'comments';
-    
+
     // ... resto del codice
 }
 ```
@@ -5020,7 +4968,7 @@ public function getInfolistSchema(): array
 1. **Namespace**:
    ```php
    namespace Modules\YourModule\Filament\Resources\YourResource\Pages;
-   
+
    use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
    ```
 
@@ -5323,7 +5271,7 @@ public function form(Forms\Form $form): Forms\Form
                 ->directory('custom/path')
                 ->preserveFilenames()
                 ->acceptedFileTypes(['application/pdf', 'image/*']),
-                
+
             TextInput::make('description')
                 ->maxLength(255),
         ]);
@@ -5375,10 +5323,10 @@ public function table(Tables\Table $table): Tables\Table
    ```php
    // Limitare tipi di file
    ->acceptedFileTypes([...])
-   
+
    // Limitare dimensione
    ->maxSize(10240)
-   
+
    // Sanitizzare nomi file
    ->preserveFilenames(false)
    ```
@@ -5483,7 +5431,7 @@ Module/
 ### 2. Definizione dell'Azione
 ```php
 // Actions/CustomAction.php
-class CustomAction 
+class CustomAction
 {
     use QueueableAction;
 
@@ -5518,7 +5466,7 @@ class CustomAction
 
 1. **Dependency Injection**:
    ```php
-   class CustomAction 
+   class CustomAction
    {
        public function __construct(
            protected Service $service,
@@ -5531,17 +5479,17 @@ class CustomAction
    ```php
    // ✅ CORRETTO: Lascia che il container gestisca le dipendenze
    $action = app(CustomAction::class);
-   
+
    // ❌ ERRATO: Istanziazione manuale
    $action = new CustomAction();
    ```
 
 3. **Gestione degli Stati**:
    ```php
-   class CustomAction 
+   class CustomAction
    {
        protected array $state = [];
-       
+
        public function withState(array $state): self
        {
            $this->state = $state;
@@ -5568,53 +5516,21 @@ class CustomAction
    {
        $action = app(CustomAction::class);
        $result = $action->execute(['param' => 'value']);
-       
+
        $this->assertExpected($result);
    }
    ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Notifiche in Filament 3
-=======
-<<<<<<< HEAD
-# Notifiche in Filament 4
-=======
-# Notifiche in Filament 3
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-# Notifiche in Filament 4
->>>>>>> 99c0b3329 (.)
 
 ## Differenze con Filament 2
 
 ### ❌ Filament 2 (Vecchio Modo)
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
 $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 ```
 
 ### ✅ Filament 3 (Modo Corretto)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 99c0b3329 (.)
-$this->notify('success', 'Messaggio');  // Non funziona più in Filament 4
-```
-
-### ✅ Filament 4 (Modo Corretto)
-<<<<<<< HEAD
-=======
-$this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
-```
-
-### ✅ Filament 3 (Modo Corretto)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 99c0b3329 (.)
 ```php
 use Filament\Notifications\Notification;
 
@@ -5750,7 +5666,7 @@ class TicketResource extends XotBaseResource
     // ❌ ERRATO: Non definire qui la navigazione
     protected static ?string $navigationIcon = 'heroicon-o-ticket';
     protected static ?string $navigationGroup = 'Segnalazioni';
-    
+
     // ❌ ERRATO: Non definire qui la configurazione tabella
     public static function table(Table $table): Table
     {
@@ -5877,7 +5793,7 @@ namespace Modules\YourModule\Actions;
 class GenerateTicketsAction
 {
     use QueueableAction;
-    
+
     public function execute(int $count): void
     {
         // Logica di business pura
@@ -6062,7 +5978,7 @@ class BaseUser extends Authenticatable
 1. **Dichiarazione Esplicita dei Tipi**:
    ```php
    use Illuminate\Database\Eloquent\Relations\MorphMany;
-   
+
    public function notifications(): MorphMany
    {
        // Return type dichiarato
@@ -6320,19 +6236,7 @@ $remember = $data['remember'] ?? false;
    }
    ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Setup Assets Filament 3
-=======
-<<<<<<< HEAD
-# Setup Assets Filament 4
-=======
-# Setup Assets Filament 3
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-# Setup Assets Filament 4
->>>>>>> 99c0b3329 (.)
 
 ## 1. Installazione Pacchetti NPM
 
@@ -6585,10 +6489,10 @@ ls public_html/themes/Sixteen/dist
    ```css
    /* 1. Vendor CSS da node_modules */
    @import 'node_modules/@filamentphp/forms/dist/index.css';
-   
+
    /* 2. Tailwind */
    @tailwind base;
-   
+
    /* 3. Custom CSS */
    @layer components {
        /* ... */
@@ -6609,7 +6513,7 @@ ls public_html/themes/Sixteen/dist
    ```bash
    # Lista dipendenze
    yarn list | grep @filamentphp
-   
+
    # Verifica node_modules
    ls node_modules/@filamentphp
    ```
@@ -6768,7 +6672,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     protected function registerSvgPaths(): void
     {
         $moduleName = strtolower($this->name);
-        
+
         // Percorsi possibili per le icone
         $paths = [
             module_path($this->name, 'resources/svg'),
@@ -6780,7 +6684,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
                 Blade::components([
                     "{$moduleName}-icon" => "svg::$moduleName",
                 ]);
-                
+
                 $this->loadViewsFrom($path, 'svg');
                 break;
             }
@@ -6804,9 +6708,9 @@ Una volta registrata, l'icona può essere utilizzata nei template Blade:
 
 1. **Formato SVG**:
    ```xml
-   <svg xmlns="http://www.w3.org/2000/svg" 
-        fill="none" 
-        viewBox="0 0 24 24" 
+   <svg xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
         stroke="currentColor">
         <!-- paths -->
    </svg>
@@ -6951,7 +6855,7 @@ class MyRelationManager extends XotBaseRelationManager
    ```php
    // ✅ CORRETTO
    use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-   
+
    // ❌ ERRATO
    use Filament\Resources\Pages\ListRecords;
    ```
@@ -7180,7 +7084,7 @@ protected function getListTableBulkActions(): array
    ```php
    // ✅ CORRETTO: Usa sempre il prefisso "List"
    public function getListTableColumns(): array
-   
+
    // ❌ ERRATO: Non usare i metodi standard di Filament
    protected function getTableColumns(): array
    ```
@@ -7249,7 +7153,7 @@ class TicketResource extends XotBaseResource
     protected static ?string $model = Ticket::class;
 
     // ✅ CORRETTO: Metodo statico
-    public static function getFormSchema(): array 
+    public static function getFormSchema(): array
     {
         return [
             TextInput::make('title')->required(),
@@ -7419,7 +7323,7 @@ class MyListRecords extends XotBaseListRecords
 ```php
 /**
  * Get the table columns for the list view.
- * 
+ *
  * IMPORTANTE: Questo metodo deve essere public per rispettare
  * il contratto con la classe padre XotBaseListRecords.
  *
@@ -7538,7 +7442,7 @@ class CommentsRelationManager extends XotBaseRelationManager
    ```php
    // ✅ CORRETTO: Import esplicito
    use Modules\Xot\Filament\RelationManagers\XotBaseRelationManager;
-   
+
    // ❌ ERRATO: Import con namespace errato
    use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
    ```
@@ -7611,7 +7515,7 @@ use Filament\Resources\RelationManagers\RelationManager;
 class CommentsRelationManager extends RelationManager
 {
     protected static string $relationship = 'comments';
-    
+
     // ... resto del codice
 }
 ```
@@ -7768,7 +7672,7 @@ public function getInfolistSchema(): array
 1. **Namespace**:
    ```php
    namespace Modules\YourModule\Filament\Resources\YourResource\Pages;
-   
+
    use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
    ```
 
@@ -7963,7 +7867,6 @@ Modules/
    - Non richiedono setup manuale nei test
    - Seguono le convenzioni di testing di Laraxot
 
-
 # Laravel Xot Framework
 
 ## Componenti
@@ -7974,12 +7877,12 @@ Modules/
   ```php
   <?php
   use Livewire\Volt\Component;
-  
+
   new class extends Component {
       // properties & methods
   }
   ?>
-  
+
   @volt('component_name')
   <div>
       // single root element template
@@ -8003,7 +7906,7 @@ Modules/
   - Title section
   - Content area
   - Feedback section
-  - Contact section 
+  - Contact section
 
 ## Configurazione Moduli
 
@@ -8076,7 +7979,7 @@ Le pagine di lista devono seguire questa struttura:
 2. **Traits e Concerns**
    ```php
    use Filament\Resources\Pages\ListRecords\Concerns\Translatable;
-   
+
    class ListRecords extends XotBaseListRecords
    {
        use Translatable;
@@ -8085,7 +7988,7 @@ Le pagine di lista devono seguire questa struttura:
 
 3. **Sorting**
    ```php
-   protected function getDefaultTableSortColumn(): ?string 
+   protected function getDefaultTableSortColumn(): ?string
    {
        return 'created_at'; // o altro campo
    }
@@ -8145,12 +8048,12 @@ if (! function_exists('module_path')) {
 ```php
 class ModuleServiceProvider extends ServiceProvider
 {
-    protected function getModulePath(): string 
+    protected function getModulePath(): string
     {
         return module_path($this->moduleName);
     }
-    
-    protected function resolveAssetPath(string $path): string 
+
+    protected function resolveAssetPath(string $path): string
     {
         return $this->getModulePath() . '/resources/' . $path;
     }
@@ -8169,12 +8072,12 @@ $this->publishes([
 
 ### 5. Controlli di Sicurezza
 ```php
-protected function validatePath(string $path): void 
+protected function validatePath(string $path): void
 {
     if (!is_dir($path)) {
         throw new DirectoryNotFoundException("Directory {$path} non trovata");
     }
-    
+
     // Verifica che il path sia all'interno del progetto
     if (!str_starts_with(realpath($path), realpath(config('paths.project_root')))) {
         throw new SecurityException("Path non valido: deve essere all'interno del progetto");
@@ -8232,31 +8135,31 @@ Prima di utilizzare un'icona Heroicon, verificare sempre la sua esistenza:
    // Activity & Logging
    'icon' => 'heroicon-o-clock',
    'icon' => 'heroicon-o-activity',
-   
+
    // Users & Auth
    'icon' => 'heroicon-o-users',
    'icon' => 'heroicon-o-user-circle',
-   
+
    // Content & Media
    'icon' => 'heroicon-o-photo',
    'icon' => 'heroicon-o-document',
-   
+
    // Settings & Tools
    'icon' => 'heroicon-o-cog',
    'icon' => 'heroicon-o-wrench',
-   
+
    // Notifications
    'icon' => 'heroicon-o-bell',
    'icon' => 'heroicon-o-inbox',
-   
+
    // Buildings & Organization
    'icon' => 'heroicon-o-building-office',
    'icon' => 'heroicon-o-building-storefront',
-   
+
    // UI & Components
    'icon' => 'heroicon-o-squares-2x2',
    'icon' => 'heroicon-o-template',
-   
+
    // Core & System
    'icon' => 'heroicon-o-cube',
    'icon' => 'heroicon-o-chip',
@@ -8271,7 +8174,7 @@ class ModuleServiceProvider extends ServiceProvider
     {
         $configuredIcon = config($this->moduleNameLower.'.icon');
         $fallbackIcon = 'heroicon-o-square-3-stack-3d';
-        
+
         try {
             // Verifica se l'icona esiste
             if (!$this->iconExists($configuredIcon)) {
@@ -8281,10 +8184,10 @@ class ModuleServiceProvider extends ServiceProvider
         } catch (\Exception $e) {
             $configuredIcon = $fallbackIcon;
         }
-        
+
         config([$this->moduleNameLower.'.icon' => $configuredIcon]);
     }
-    
+
     protected function iconExists(string $icon): bool
     {
         // Implementare la logica di verifica
@@ -8365,7 +8268,7 @@ laravel/Modules/[ModuleName]/
     ```bash
     # 1. Spostare i contenuti
     mv ModuleName/Config/* ModuleName/config/
-    
+
     # 2. Rimuovere la directory errata
     rm -rf ModuleName/Config
     ```
@@ -8374,7 +8277,7 @@ laravel/Modules/[ModuleName]/
    ```bash
    # Verificare directory duplicate
    find Modules -type d -name "Config" -o -name "config"
-   
+
    # Verificare struttura corretta
    tree -L 2 Modules/[ModuleName]
    ```
@@ -8483,7 +8386,7 @@ public static function table(Table $table): Table
 2. **Dettaglio Completo**
 Le informazioni aggiuntive devono essere mostrate solo nella vista dettaglio:
 ```php
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+public static function form(Form $form): Form
 {
     return $form
         ->schema([
@@ -8584,19 +8487,7 @@ Framework based on Laravel for building modular applications.
 ## Notes
 *This file will be updated as more technical information is gathered*
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Widget Configuration in Filament 3
-=======
-<<<<<<< HEAD
-# Widget Configuration in Filament 4
-=======
-# Widget Configuration in Filament 3
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-# Widget Configuration in Filament 4
->>>>>>> 99c0b3329 (.)
 
 ## Implementazione Corretta dei Widget
 
@@ -8689,38 +8580,14 @@ class ClientMapWidget extends Widget
    - Soluzione: Aggiungere controllo `instanceof` e PHPDoc
 
 ### Note Importanti
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. La configurazione dei widget è stata semplificata in Filament 3
-=======
-<<<<<<< HEAD
-1. La configurazione dei widget è stata semplificata in Filament 4
-=======
-1. La configurazione dei widget è stata semplificata in Filament 3
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-1. La configurazione dei widget è stata semplificata in Filament 4
->>>>>>> 99c0b3329 (.)
 2. Non è più necessario utilizzare `WidgetConfiguration::make()`
 3. I dati vengono gestiti direttamente nel widget tramite `getViewData()`
 4. Il componente Livewire padre è accessibile tramite `getLivewire()`
 5. È importante implementare controlli di tipo per evitare errori
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Configurazione Widget in Filament 3 (Laravel 11+)
-=======
-<<<<<<< HEAD
-# Configurazione Widget in Filament 4 (Laravel 11+)
-=======
-# Configurazione Widget in Filament 3 (Laravel 11+)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-# Configurazione Widget in Filament 4 (Laravel 11+)
->>>>>>> 99c0b3329 (.)
 
 ## Implementazione Widget
 
@@ -8826,19 +8693,7 @@ class ClientMapWidget extends Widget
 
 ## Note sulla Migrazione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. **Breaking Changes in Filament 3**
-=======
-<<<<<<< HEAD
-1. **Breaking Changes in Filament 4**
-=======
-1. **Breaking Changes in Filament 3**
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-1. **Breaking Changes in Filament 4**
->>>>>>> 99c0b3329 (.)
    - Rimossa la classe `WidgetConfiguration`
    - Semplificata la registrazione dei widget
    - Migliorato il sistema di type hinting
@@ -8856,19 +8711,7 @@ class ClientMapWidget extends Widget
    - Testare la funzionalità dopo la migrazione
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Widget Reattivi in Filament 3 (Laravel 11+)
-=======
-<<<<<<< HEAD
-# Widget Reattivi in Filament 4 (Laravel 11+)
-=======
-# Widget Reattivi in Filament 3 (Laravel 11+)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-# Widget Reattivi in Filament 4 (Laravel 11+)
->>>>>>> 99c0b3329 (.)
 
 ## Implementazione Widget
 
@@ -8986,7 +8829,3 @@ class ClientMapWidget extends Widget
 4. Gestire i casi di errore in modo graceful
 5. La reattività funziona automaticamente con Livewire 3
   - Contact section
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

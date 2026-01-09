@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Guida alla Validazione con PHPStan Livello 7
 
 ## Introduzione
@@ -123,7 +118,7 @@ $latitude = (float)$data['latitude'];
 #### Soluzione
 ```php
 // CORRETTO: Validazione e poi cast
-$latitude = is_numeric($data['latitude']) 
+$latitude = is_numeric($data['latitude'])
     ? (float)$data['latitude']
     : throw new InvalidArgumentException('Latitude must be numeric');
 ```
@@ -178,7 +173,7 @@ public function processApiResponse(mixed $response): void
     if (!is_array($response) || !isset($response['data']) || !is_array($response['data'])) {
         throw new InvalidArgumentException('Invalid API response format');
     }
-    
+
     foreach ($response['data'] as $item) {
         // Ora è sicuro processare $item
     }
@@ -241,66 +236,10 @@ Questo errore si verifica quando si accede a una proprietà che non è dichiarat
 ## Conclusione
 
 Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualità e robustezza del software. Seguendo le best practices e risolvendo gli errori in modo sistematico, è possibile migliorare significativamente la manutenibilità e l'affidabilità del codice.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 
 ## Collegamenti tra versioni di PHPSTAN-LEVEL7-GUIDE.md
 * [PHPSTAN-LEVEL7-GUIDE.md](../../../Xot/project_docs/phpstan/PHPSTAN-LEVEL7-GUIDE.md)
 * [PHPSTAN-LEVEL7-GUIDE.md](../../../Xot/project_docs/PHPSTAN-LEVEL7-GUIDE.md)
 
-
 ## Collegamenti tra versioni di phpstan-level7-guide.md
 * [phpstan-level7-guide.md](../phpstan-level7-guide.md)
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

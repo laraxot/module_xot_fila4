@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Regole per i Prompt
 
 ## Regola Universale
@@ -33,61 +31,18 @@ La documentazione del frontend deve essere sempre inserita nella cartella `docs`
 La documentazione generica deve essere sempre inserita nella cartella `docs` del modulo `Xot`.
 
 ### Collocazione della documentazione dei componenti UI
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
->>>>>>> b9c66c44e (.)
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/project_docs/README.md) per i dettagli.
-=======
-La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
-=======
-La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/project_docs/README.md) per i dettagli.
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
->>>>>>> 99c0b3329 (.)
 
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)
 - [Regole del Progetto](./rules.md)
 - [Struttura dei Prompt](./prompts.md)
 - [Collegamenti al Modulo Cms](./cms-link.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ba6c53070 (.)
-- [Collegamenti alla Root](../../../docs/prompts.md)
-
-## Collegamenti tra versioni di PROMPT_RULES.md
-* [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
-* [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
->>>>>>> ba6c53070 (.)
 - [Collegamenti alla Root](../../../project_docs/prompts.md)
 
 ## Collegamenti tra versioni di PROMPT_RULES.md
 * [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
-<<<<<<< HEAD
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 99c0b3329 (.)
-
 
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](rules/prompt_rules.md)
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

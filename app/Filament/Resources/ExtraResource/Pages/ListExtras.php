@@ -4,134 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-use Filament\Actions\Action;
-use Filament\Actions\ActionGroup;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-use Filament\Actions\BulkAction;
-use Filament\Actions\DeleteBulkAction;
-<<<<<<< HEAD
-use Filament\Actions\EditAction;
-=======
-<<<<<<< HEAD
-=======
-use Filament\Actions\EditAction;
-use Filament\Actions\DeleteBulkAction;
-use Filament\Tables\Filters\BaseFilter;
-use Filament\Actions\Action;
-use Filament\Actions\ActionGroup;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-use Filament\Tables;
->>>>>>> d2b0a27 (.)
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> b7afadf9 (.)
-=======
->>>>>>> 50c0e1043 (.)
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Actions\Action;
-use Filament\Actions\ActionGroup;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-use Filament\Actions\BulkAction;
-use Filament\Actions\DeleteBulkAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Actions\EditAction;
-=======
-<<<<<<< HEAD
-=======
-use Filament\Actions\EditAction;
-use Filament\Actions\DeleteBulkAction;
-use Filament\Tables\Filters\BaseFilter;
-use Filament\Actions\Action;
-use Filament\Actions\ActionGroup;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-use Filament\Tables;
->>>>>>> d2b0a27 (.)
->>>>>>> a6ef6dc7 (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\BaseFilter;
 use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
 /**
  * @see ExtraResource
  */
@@ -139,24 +22,7 @@ class ListExtras extends XotBaseListRecords
 {
     protected static string $resource = ExtraResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableColumns(): array
     {
         return [
@@ -164,71 +30,13 @@ class ListExtras extends XotBaseListRecords
             'model_type' => TextColumn::make('model_type')->searchable()->label('Model Type'),
             'model_id' => TextColumn::make('model_id')->sortable()->label('Model ID'),
             'extra_attributes' => TextColumn::make('extra_attributes')->searchable()->label('Extra Attributes'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')
-                ->sortable()
-                ->label('ID'),
-
-            'model_type' => TextColumn::make('model_type')
-                ->searchable()
-                ->label('Model Type'),
-
-            'model_id' => TextColumn::make('model_id')
-                ->sortable()
-                ->label('Model ID'),
-
-            'extra_attributes' => TextColumn::make('extra_attributes')
-                ->searchable()
-                ->label('Extra Attributes'),
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
         ];
     }
 
     /**
      * @return array<BaseFilter>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    #[Override]
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 80ef814d9 (.)
     public function getTableFilters(): array
     {
         return [];
@@ -237,32 +45,7 @@ class ListExtras extends XotBaseListRecords
     /**
      * @return array<string, Action|ActionGroup>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    #[Override]
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 80ef814d9 (.)
     public function getTableActions(): array
     {
         return [
@@ -271,39 +54,9 @@ class ListExtras extends XotBaseListRecords
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
      * @return array<string, BulkAction>
      */
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
-     * @return array<string, BulkAction>
-     */
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     * @return array<string, BulkAction>
-     */
-    #[Override]
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 80ef814d9 (.)
     public function getTableBulkActions(): array
     {
         return [

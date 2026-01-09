@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ba6c53070 (.)
 # Regole per i Prompt
 
 ## Regola Universale
@@ -37,35 +32,11 @@ Questa regola si applica a:
 Non è necessario applicare questa regola a:
 - Prompt utilizzati una sola volta
 - Prompt che richiedono specificamente formattazione per la leggibilità
-- Documentazione dei prompt 
+- Documentazione dei prompt
 
 ## Collegamenti tra versioni di PROMPT_RULES.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
-=======
-* [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
-* [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
->>>>>>> b9c66c44e (.)
-=======
-* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
-* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
->>>>>>> ba6c53070 (.)
-=======
-* [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
-* [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
->>>>>>> 99c0b3329 (.)
-
 
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](../prompt_rules.md)
-
-<<<<<<< HEAD
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)

@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Sistema Traduzioni - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTE le regole di traduzione del progetto
-> 
+>
 > **🔗 Riferimenti**: [coding-standards.md](coding-standards.md) | [best-practices.md](best-practices.md)
 
 ## 🚨 STOP DUPLICAZIONE!
@@ -19,18 +17,7 @@ Questo documento sostituisce e consolida **50+ file di traduzione duplicati** tr
 - Qualsiasi documentazione traduzioni specifica di modulo
 
 ### ✅ Unica Fonte di Verità
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/project_docs/translation-system.md`
-=======
-- **Questo file**: `/laravel/Modules/Xot/docs/translation-system.md`
->>>>>>> b9c66c44e (.)
-=======
-- **Questo file**: `/laravel/Modules/Xot/docs/translation-system.md`
-=======
-- **Questo file**: `/laravel/Modules/Xot/project_docs/translation-system.md`
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - **Implementazione**: File di traduzione nei singoli moduli (solo traduzioni, non docs)
 
 ## Principi Fondamentali
@@ -474,7 +461,3 @@ Eseguire regolarmente questi controlli:
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Traduzioni*
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

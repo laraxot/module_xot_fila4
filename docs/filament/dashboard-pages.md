@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 # Pagine Dashboard Filament - Best Practices
 
 ## Panoramica
@@ -116,11 +110,11 @@ mkdir -p Modules/{ModuleName}/resources/views/filament/pages
         <h2 class="text-2xl font-bold">
             {{ __('{modulename}::dashboard.title') }}
         </h2>
-        
+
         <p class="text-gray-600">
             {{ __('{modulename}::dashboard.description') }}
         </p>
-        
+
         {{-- Contenuto specifico del modulo --}}
     </div>
 </x-filament::page>
@@ -201,93 +195,10 @@ Il modulo Xot è il modulo core e potrebbe non necessitare di una dashboard trad
 
 ## Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione Root](../../../docs/filament-dashboard-pages.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
-=======
-- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
->>>>>>> f1d4085 (.)
-=======
-- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
->>>>>>> 6dcebf8a (.)
-=======
-- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
-=======
-- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
->>>>>>> b3cc10f7 (.)
-=======
-- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
-=======
-- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
->>>>>>> cafe8bed (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Heroicons](https://heroicons.com/)
 
 ---
 
 **Ultimo aggiornamento**: Giugno 2025
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

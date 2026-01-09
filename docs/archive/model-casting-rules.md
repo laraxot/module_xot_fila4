@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Regole per Model Casting in Laraxot - CRITICO
 
 ## ERRORE ARCHITETTURALE GRAVE: Proprietà $casts Deprecata
@@ -141,22 +139,8 @@ protected function casts(): array
 15. `/Modules/Geo/app/Models/Location.php`
 16. `/Modules/Geo/app/Models/Address.php`
 17. `/Modules/Geo/app/Models/Place.php`
-<<<<<<< HEAD
-<<<<<<< HEAD
 18. `/Modules/Chart/project_docs/Chart.php`
 19. `/Modules/Chart/project_docs/Chart_conflict.php`
-=======
-18. `/Modules/Chart/docs/Chart.php`
-19. `/Modules/Chart/docs/Chart_conflict.php`
->>>>>>> b9c66c44e (.)
-=======
-18. `/Modules/Chart/docs/Chart.php`
-19. `/Modules/Chart/docs/Chart_conflict.php`
-=======
-18. `/Modules/Chart/project_docs/Chart.php`
-19. `/Modules/Chart/project_docs/Chart_conflict.php`
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 20. `/Modules/Chart/app/Models/Chart.php`
 
 ### Priorità di Refactoring
@@ -248,25 +232,7 @@ class User extends BaseModel
 ## Backlink e Riferimenti
 
 - [model_base_rules.md](model_base_rules.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [../../project_docs/phpstan-cast-fixes-guide.md](../../project_docs/phpstan-cast-fixes-guide.md)
 - [Laravel 11 Model Casts Documentation](https://laravel.com/project_docs/11.x/eloquent-mutators#attribute-casting)
-=======
-- [../../docs/phpstan-cast-fixes-guide.md](../../docs/phpstan-cast-fixes-guide.md)
-- [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
->>>>>>> b9c66c44e (.)
-=======
-- [../../docs/phpstan-cast-fixes-guide.md](../../docs/phpstan-cast-fixes-guide.md)
-- [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
-=======
-- [../../project_docs/phpstan-cast-fixes-guide.md](../../project_docs/phpstan-cast-fixes-guide.md)
-- [Laravel 11 Model Casts Documentation](https://laravel.com/project_docs/11.x/eloquent-mutators#attribute-casting)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 *Ultimo aggiornamento: agosto 2025*
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

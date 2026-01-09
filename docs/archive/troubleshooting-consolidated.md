@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.)
 # Troubleshooting - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTI i problemi comuni e le soluzioni del progetto
-> 
+>
 > **🔗 Riferimenti**: [best-practices-consolidated.md](best-practices-consolidated.md) | [phpstan-consolidated.md](phpstan-consolidated.md)
 
 ## 🚨 STOP DUPLICAZIONE!
@@ -25,15 +17,7 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 - Qualsiasi documentazione troubleshooting specifica di modulo
 
 ### ✅ Unica Fonte di Verità
-<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/project_docs/troubleshooting-consolidated.md`
-=======
-<<<<<<< HEAD
-- **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
-=======
-- **Questo file**: `/laravel/Modules/Xot/project_docs/troubleshooting-consolidated.md`
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - **Implementazione**: Fix nei singoli moduli (solo fix, non docs)
 
 ## Problemi Comuni e Soluzioni
@@ -65,7 +49,7 @@ protected function getUserTypeOptions() {} // ERRORE: metodo orfano
 // ✅ CORRETTO
 class Example {
     public function foo() {}
-    
+
     protected function getUserTypeOptions() {} // Metodo dentro la classe
 } // Ultima parentesi graffa
 ```
@@ -222,111 +206,7 @@ Codice non conforme agli standard di tipizzazione.
 **Soluzione**
 ```bash
 # Eseguire da directory Laravel
-<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> b7ea1cd1 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 76bec91a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -499,7 +379,7 @@ Test non isolati o dipendenze condivise.
 class ExampleTest extends TestCase
 {
     use RefreshDatabase; // Garantisce database pulito
-    
+
     protected function setUp(): void
     {
         parent::setUp();
@@ -550,200 +430,10 @@ public function test_b(): void
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d86d643a (.)
->>>>>>> 99c0b3329 (.)
 ### Errore: Conflitti Git
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-**Sintomo**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
-<<<<<<< HEAD
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
->>>>>>> 71f31700 (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
->>>>>>> c35986f4 (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
->>>>>>> 33af3e61 (.)
-```
-<<<<<<< HEAD
-// Codice locale
-=======
->>>>>>> ba6c53070 (.)
 // Codice remoto
 ```
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
-
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
-
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
-=======
-
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
-=======
-
->>>>>>> 6cba4fe (.)
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> ba1d49f3 (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
-=======
-
->>>>>>> 6cba4fe (.)
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> b956ebe0 (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
->>>>>>> 76bec91a (.)
-=======
->>>>>>> 03ceeac3 (.)
-=======
-=======
-
->>>>>>> 6cba4fe (.)
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 0123915b (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-### Errore: Conflitti Git
-
-**Sintomo**
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:
@@ -905,12 +595,3 @@ php artisan view:clear
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Troubleshooting*
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

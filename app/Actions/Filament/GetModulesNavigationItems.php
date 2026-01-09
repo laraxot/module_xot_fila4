@@ -13,11 +13,10 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use function Safe\json_encode;
 use Spatie\QueueableAction\QueueableAction;
 use Throwable;
 use Webmozart\Assert\Assert;
-
-use function Safe\json_encode;
 
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
@@ -37,18 +36,6 @@ class GetModulesNavigationItems
         $navs = [];
 
         $modules = TenantService::allModules();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
@@ -56,32 +43,7 @@ class GetModulesNavigationItems
 
         /** @var array<int, string> $userRoles */
         $userRoles = [];
-<<<<<<< HEAD
-<<<<<<< HEAD
         // Se serve re-introdurre un preload ruoli, farlo solo se il metodo è disponibile e tipizzato nel modello.
-=======
-        if (null !== $user && method_exists($user, 'roles') && method_exists($user, 'pluck')) {
-            try {
-                /** @var Collection<int, string> $rolesCollection */
-                $rolesCollection = $user->roles()->pluck('name');
-                $userRoles = $rolesCollection->toArray();
-            } catch (Exception $e) {
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 53d6a6ba (.)
-        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
-        Assert::isArray($modules);
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
-        // Se serve re-introdurre un preload ruoli, farlo solo se il metodo è disponibile e tipizzato nel modello.
->>>>>>> 50c0e1043 (.)
 
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
@@ -191,7 +153,7 @@ class GetModulesNavigationItems
 
         // Se non presente in cache, rigenera usando la stessa logica di execute()
         /** @var array<int, array{module: string, module_low: string, icon: string, sort: int}> $result */
-        $result = Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
+        return Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
             $out = [];
             foreach ($modules as $module) {
                 Assert::string($module, 'Il nome del modulo deve essere una stringa');
@@ -221,7 +183,5 @@ class GetModulesNavigationItems
 
             return $out;
         });
-
-        return $result;
     }
 }

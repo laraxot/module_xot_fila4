@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ~~~ php
 <?php
 declare(strict_types=1);
@@ -37,32 +35,10 @@ return [
 ~~~
 ### Versione HEAD
 
-
 ## Collegamenti tra versioni di metatag.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [metatag.md](../../../Xot/project_docs/install/metatag.md)
 * [metatag.md](../../../Tenant/project_docs/it/config/metatag.md)
-=======
-* [metatag.md](../../../Xot/docs/install/metatag.md)
-* [metatag.md](../../../Tenant/docs/it/config/metatag.md)
->>>>>>> b9c66c44e (.)
-=======
-* [metatag.md](../../../Xot/docs/install/metatag.md)
-* [metatag.md](../../../Tenant/docs/it/config/metatag.md)
-=======
-* [metatag.md](../../../Xot/project_docs/install/metatag.md)
-* [metatag.md](../../../Tenant/project_docs/it/config/metatag.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
 
 ### Versione Incoming
 
-
 ---
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

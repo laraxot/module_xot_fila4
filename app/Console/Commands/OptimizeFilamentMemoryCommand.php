@@ -9,9 +9,8 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
-use Symfony\Component\Process\Process;
-
 use function Safe\preg_match;
+use Symfony\Component\Process\Process;
 
 /**
  * Comando per ottimizzare la memory usage di Filament.
@@ -136,15 +135,7 @@ class OptimizeFilamentMemoryCommand extends Command
             if ($file->getExtension() === 'php' && str_contains($file->getPathname(), '/Models/')) {
                 $content = File::get($file->getPathname());
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                 if (preg_match('/protected\s+\$with\s*=\s*\[([^\]]+)\]/', $content, $matches) === 1) {
-=======
-                if (preg_match('/protected\s+\$with\s*=\s*\[([^\]]+)\]/', $content, $matches) && isset($matches[1])) {
->>>>>>> c85ea7588 (.)
-=======
-                if (preg_match('/protected\s+\$with\s*=\s*\[([^\]]+)\]/', $content, $matches)) {
->>>>>>> 50c0e1043 (.)
                     $withContent = $matches[1];
                     // Controlla se ha relazioni pesanti
                     if (str_contains($withContent, 'roles') ||

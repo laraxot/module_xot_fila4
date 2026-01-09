@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 ---
 title: Model
 description: Model Queuable Actions
@@ -16,106 +10,11 @@ section: content
 # Model Queuable Actions
 
 ## Collegamenti tra versioni di model.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-* [model.md](../../../Xot/docs/model.md)
-* [model.md](../../../Xot/docs/service/model.md)
-=======
-* [model.md](../../../Xot/project_docs/model.md)
-* [model.md](../../../Xot/project_docs/service/model.md)
->>>>>>> f1d4085 (.)
-=======
-* [model.md](../../../Xot/docs/model.md)
-* [model.md](../../../Xot/docs/service/model.md)
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-* [model.md](../../../Xot/docs/model.md)
-* [model.md](../../../Xot/docs/service/model.md)
->>>>>>> 6dcebf8a (.)
-=======
-* [model.md](../../../Xot/docs/model.md)
-* [model.md](../../../Xot/docs/service/model.md)
-=======
-* [model.md](../../../Xot/project_docs/model.md)
-* [model.md](../../../Xot/project_docs/service/model.md)
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-* [model.md](../../../Xot/docs/model.md)
-* [model.md](../../../Xot/docs/service/model.md)
->>>>>>> b3cc10f7 (.)
-=======
-* [model.md](../../../Xot/docs/model.md)
-* [model.md](../../../Xot/docs/service/model.md)
-=======
-* [model.md](../../../Xot/project_docs/model.md)
-* [model.md](../../../Xot/project_docs/service/model.md)
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-* [model.md](../../../Xot/docs/model.md)
-* [model.md](../../../Xot/docs/service/model.md)
->>>>>>> cafe8bed (.)
-
 
 ### Versione Incoming
 
 # Model Queuable Actions
 
 ---
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

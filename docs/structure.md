@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 ### Versione HEAD
 
 # Analisi della Discrepanza tra Namespace e Struttura Directory nei Moduli Laraxot
@@ -130,10 +124,10 @@ Si può utilizzare un script per automatizzare la modifica dei namespace nei fil
 find /var/www/html/<nome progetto>/laravel/Modules/Chart -type f -name "*.php" | while read file; do
     # Sostituisci namespace Modules\Chart\App\ con Modules\Chart\
     sed -i 's/namespace Modules\\\\Chart\\\\App\\\\/namespace Modules\\\\Chart\\\\/g' "$file"
-    
+
     # Aggiorna anche gli use statement
     sed -i 's/use Modules\\\\Chart\\\\App\\\\/use Modules\\\\Chart\\\\/g' "$file"
-    
+
     echo "Elaborato: $file"
 done
 
@@ -235,20 +229,18 @@ laravel/Themes/[Nome]/
 
 ### Versione HEAD
 
-   - Documentare le personalizzazioni 
+   - Documentare le personalizzazioni
 
 ### Versione Incoming
 
-   - Documentare le personalizzazioni 
-   - Documentare le personalizzazioni 
+   - Documentare le personalizzazioni
+   - Documentare le personalizzazioni
 
 ### Versione Incoming
-
 
 ---
 
 b6f667c (.)
-
 
 # Struttura del Modulo Xot
 
@@ -289,7 +281,7 @@ Modules/Xot/
 
 ### Versione HEAD
 
-   - Utilizzare i namespace appropriati che riflettono la struttura delle directory 
+   - Utilizzare i namespace appropriati che riflettono la struttura delle directory
 
 # Modulo Xot
 
@@ -302,7 +294,7 @@ Modules\\Xot\\Database\\Factories
 Modules\\Xot\\Database\\Seeders
 - **Pacchetto Composer**: laraxot/module_xot_fila3
 marco sottana
-- **Dipendenze**: php ^8.2 calebporzio/sushi ^2.5 coolsam/panel-modules * doctrine/dbal * fidum/laravel-eloquent-morph-to-one * filament/filament ^3.3 filament/spatie-laravel-media-library-plugin ^3.2 filament/spatie-laravel-translatable-plugin ^3.2 aaronfrancis/fast-paginate * guzzlehttp/guzzle * laravel/folio ^1.1 laravel/framework * laravel/pennant ^1.11 laravel/pulse ^1.2 livewire/livewire * maatwebsite/excel ^3.1 nwidart/laravel-modules * predis/predis ^2.2 spatie/cpu-load-health-check ^1.0 spatie/laravel-data ^4.7 
+- **Dipendenze**: php ^8.2 calebporzio/sushi ^2.5 coolsam/panel-modules * doctrine/dbal * fidum/laravel-eloquent-morph-to-one * filament/filament ^3.3 filament/spatie-laravel-media-library-plugin ^3.2 filament/spatie-laravel-translatable-plugin ^3.2 aaronfrancis/fast-paginate * guzzlehttp/guzzle * laravel/folio ^1.1 laravel/framework * laravel/pennant ^1.11 laravel/pulse ^1.2 livewire/livewire * maatwebsite/excel ^3.1 nwidart/laravel-modules * predis/predis ^2.2 spatie/cpu-load-health-check ^1.0 spatie/laravel-data ^4.7
 - **Totale file PHP**: 968
 - **Totale classi/interfacce**: 353
 
@@ -1029,107 +1021,14 @@ tests_old
 
 ## Collegamenti alla documentazione generale
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/docs/phpstan/)
-=======
-- [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/project_docs/phpstan/)
->>>>>>> f1d4085 (.)
-=======
-- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/docs/phpstan/)
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/docs/phpstan/)
->>>>>>> 6dcebf8a (.)
-=======
-- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/docs/phpstan/)
-=======
-- [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/project_docs/phpstan/)
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/docs/phpstan/)
->>>>>>> b3cc10f7 (.)
-=======
-- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/docs/phpstan/)
-=======
-- [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/project_docs/phpstan/)
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
-- [Report PHPStan](/docs/phpstan/)
->>>>>>> cafe8bed (.)
-
 
 ### Versione Incoming
 
-   - Utilizzare i namespace appropriati che riflettono la struttura delle directory 
+   - Utilizzare i namespace appropriati che riflettono la struttura delle directory
 
 ## Collegamenti tra versioni di structure.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1146,82 +1045,18 @@ tests_old
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-* [structure.md](bashscripts/project_docs/structure.md)
-* [structure.md](../../../Gdpr/project_docs/structure.md)
-* [structure.md](../../../Notify/project_docs/structure.md)
-* [structure.md](../../../Xot/project_docs/structure.md)
-* [structure.md](../../../Xot/project_docs/base/structure.md)
-* [structure.md](../../../Xot/project_docs/config/structure.md)
-* [structure.md](../../../User/project_docs/structure.md)
-* [structure.md](../../../UI/project_docs/structure.md)
-* [structure.md](../../../Lang/project_docs/structure.md)
-* [structure.md](../../../Job/project_docs/structure.md)
-* [structure.md](../../../Media/project_docs/structure.md)
-* [structure.md](../../../Tenant/project_docs/structure.md)
-* [structure.md](../../../Activity/project_docs/structure.md)
-* [structure.md](../../../Cms/project_docs/structure.md)
-* [structure.md](../../../Cms/project_docs/themes/structure.md)
-* [structure.md](../../../Cms/project_docs/components/structure.md)
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 6a1fe786 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
->>>>>>> 5e58b29b (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-
 
 ---
 
-
 ### Versione Incoming
 
-   - Utilizzare i namespace appropriati che riflettono la struttura delle directory 
+   - Utilizzare i namespace appropriati che riflettono la struttura delle directory
 
 ---
 
 aurmich/dev
 5693302 (.)
 b6f667c (.)
-
 
 ## Regole sui Comandi Artisan Custom nei Moduli
 
@@ -1231,36 +1066,3 @@ b6f667c (.)
 - Aggiornare la documentazione del modulo con esempi e riferimenti.
 
 Vedi anche la documentazione specifica del modulo per dettagli e casi particolari.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

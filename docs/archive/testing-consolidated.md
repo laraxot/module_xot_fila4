@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Testing - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTE le regole di testing del progetto
-> 
+>
 > **🔗 Riferimenti**: [coding-standards.md](coding-standards.md) | [best-practices.md](best-practices.md)
 
 ## 🚨 STOP DUPLICAZIONE!
@@ -19,18 +17,7 @@ Questo documento sostituisce e consolida **25+ file di testing duplicati** trova
 - Qualsiasi documentazione testing specifica di modulo
 
 ### ✅ Unica Fonte di Verità
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
-=======
-- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
->>>>>>> b9c66c44e (.)
-=======
-- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
-=======
-- **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - **Implementazione**: Test nei singoli moduli (solo test, non docs)
 
 ## Principi Fondamentali
@@ -554,9 +541,9 @@ public function it_uses_eager_loading(): void
 
     // Act & Assert
     DB::enableQueryLog();
-    
+
     $usersWithExamples = User::with('examples')->get();
-    
+
     $this->assertCount(5, $usersWithExamples);
     $this->assertLessThan(10, count(DB::getQueryLog())); // N+1 query prevention
 }
@@ -579,7 +566,7 @@ public function it_does_not_memory_leak(): void
     // Assert
     $finalMemory = memory_get_usage();
     $memoryIncrease = $finalMemory - $initialMemory;
-    
+
     $this->assertLessThan(10 * 1024 * 1024, $memoryIncrease); // Max 10MB increase
 }
 ```
@@ -594,7 +581,7 @@ public function it_does_not_memory_leak(): void
 class ExampleTest extends TestCase
 {
     use RefreshDatabase; // Garantisce database pulito
-    
+
     protected function setUp(): void
     {
         parent::setUp();
@@ -681,7 +668,3 @@ php artisan test --stop-on-failure
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Testing*
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

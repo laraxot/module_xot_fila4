@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Azioni di Cast Sicure - Sostituzione di property_exists
 
 ## Panoramica
@@ -11,40 +6,13 @@ Questo documento descrive le azioni di cast sicure che sostituiscono completamen
 
 ## Problema con property_exists
 
-**REGOLA CRITICA**: `property_exists()` NON può essere usato con i modelli Eloquent perché gli attributi sono magici (gestiti tramite `__get()` e `__set()`).
-
 L'uso di `property_exists()` con modelli Laravel è problematico perché:
 
-- **Gli attributi Eloquent sono magici**: Non sono proprietà reali della classe, ma vengono gestiti tramite magic methods (`__get()`, `__set()`, `__isset()`)
-- `property_exists()` controlla solo le proprietà reali della classe, NON gli attributi magici
-- Può dare falsi negativi: un attributo può esistere ma `property_exists()` restituisce `false`
 - È una funzione PHP generica che non conosce l'architettura Laravel
 - Può dare falsi positivi con proprietà dinamiche di Eloquent
 - È meno performante e meno leggibile
 - Non segue i principi DRY e KISS
 - Può causare errori di tipo e comportamenti imprevedibili
-
-### Soluzione Corretta: Usare `isset()`
-
-Per i modelli Eloquent, utilizzare SEMPRE `isset()` invece di `property_exists()`:
-
-```php
-// ❌ SBAGLIATO - property_exists() non funziona con attributi magici
-if (property_exists($model, 'email')) {
-    $email = $model->email;
-}
-
-// ✅ CORRETTO - isset() rispetta __isset() per attributi magici
-if (isset($model->email)) {
-    $email = $model->email;
-}
-
-// ✅ ANCORA MEGLIO - Usare getAttribute() per accesso diretto
-$email = $model->getAttribute('email');
-if ($email !== null) {
-    // Usa $email
-}
-```
 
 ## Soluzioni Implementate
 
@@ -60,16 +28,16 @@ class MyWidget extends Widget
     public function getStats(): array
     {
         $model = User::first();
-        
+
         // Verifica esistenza attributo
         if (app(SafeEloquentCastAction::class)->hasAttribute($model, 'email')) {
             $email = app(SafeEloquentCastAction::class)->getStringAttribute($model, 'email', '');
         }
-        
+
         // Cast sicuro a tipo specifico
         $age = app(SafeEloquentCastAction::class)->getIntAttribute($model, 'age', 0);
         $isActive = app(SafeEloquentCastAction::class)->getBooleanAttribute($model, 'is_active', false);
-        
+
         // Metodo di convenienza statico
         $name = SafeEloquentCastAction::get($model, 'name', 'string', 'Unknown');
     }
@@ -91,12 +59,12 @@ class MyService
         if (app(SafeObjectCastAction::class)->hasProperty($obj, 'value')) {
             $value = app(SafeObjectCastAction::class)->getStringProperty($obj, 'value', '');
         }
-        
+
         // Cast sicuro con validazione
         $count = app(SafeObjectCastAction::class)->getValidatedProperty(
-            $obj, 
-            'count', 
-            'int', 
+            $obj,
+            'count',
+            'int',
             fn(int $val) => $val > 0,
             0
         );
@@ -157,9 +125,9 @@ $age = (int) ($model->age ?? 0);
 
 // ✅ CORRETTO - Cast sicuro con validazione
 $age = app(SafeEloquentCastAction::class)->getValidatedAttribute(
-    $model, 
-    'age', 
-    'int', 
+    $model,
+    'age',
+    'int',
     fn(int $val) => $val >= 0 && $val <= 150,
     0
 );
@@ -207,15 +175,15 @@ class OldWidget extends Widget
     public function getStats(): array
     {
         $model = User::first();
-        
+
         if (property_exists($model, 'email')) {
             $email = $model->email;
         }
-        
+
         if (property_exists($model, 'age')) {
             $age = (int) $model->age;
         }
-        
+
         return ['email' => $email ?? '', 'age' => $age ?? 0];
     }
 }
@@ -229,10 +197,10 @@ class NewWidget extends Widget
     public function getStats(): array
     {
         $model = User::first();
-        
+
         $email = app(SafeEloquentCastAction::class)->getStringAttribute($model, 'email', '');
         $age = app(SafeEloquentCastAction::class)->getIntAttribute($model, 'age', 0);
-        
+
         return ['email' => $email, 'age' => $age];
     }
 }
@@ -255,36 +223,3 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 - [SafeStringCastAction](../app/Actions/Cast/SafeStringCastAction.php)
 - [SafeBooleanCastAction](../app/Actions/Cast/SafeBooleanCastAction.php)
 - [SafeArrayCastAction](../app/Actions/Cast/SafeArrayCastAction.php)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

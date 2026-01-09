@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -38,7 +30,7 @@ class ExampleModel extends BaseModel
 {
     /** @var list<string> */
     protected $fillable = ['name'];
-    
+
     /**
      * @return array<string, string>
      */
@@ -80,7 +72,7 @@ return new class extends XotBaseMigration {
             $table->id();
             $table->string('name');
         });
-        
+
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, false);
         });
@@ -187,111 +179,7 @@ $content = \file_get_contents($path); // Può restituire false
 
 ### 1. PHPStan Pre-Commit
 ```bash
-<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_<nome progetto>/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> b7ea1cd1 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 76bec91a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -322,7 +210,7 @@ class Dashboard extends XotBaseDashboard
 class ModuleServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = 'ModuleName';
-    
+
     // Solo personalizzazioni specifiche del modulo
 }
 ```
@@ -387,120 +275,10 @@ unset($translations['existing_key']); // MAI!
 
 ## Ultimo Aggiornamento
 
-**Data**: 2025-08-01  
-**Versione**: 2.0  
-<<<<<<< HEAD
+**Data**: 2025-08-01
+**Versione**: 2.0
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot , PHP 8.2+, Laravel 11+
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 5a14301c (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 71f31700 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> d86d643a (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 472bd9dc (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 3bf39332 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> cf971011 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> e7da37af (.)
-=======
-**Compatibilità**: Laraxot , PHP 8.2+, Laravel 11+
-**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 43d67f21 (.)
-=======
-**Compatibilità**: Laraxot , PHP 8.2+, Laravel 11+
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 5a14301c (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 43d67f21 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> b7ea1cd1 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 76bec91a (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
 ---
 
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

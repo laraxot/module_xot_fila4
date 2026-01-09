@@ -103,58 +103,11 @@ class ModulesOverviewWidget extends Widget
                 'description' => $this->getModuleDescription('User'),
             ],
             [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
                 'name' => '<main module>',
                 'name_lower' => '<nome progetto>',
                 'url' => '/<nome progetto>/admin',
                 'icon' => 'heroicon-o-clipboard-document-list',
                 'description' => $this->getModuleDescription('<main module>'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-                'name' => 'TechPlanner',
-                'name_lower' => 'techplanner',
-                'url' => '/techplanner/admin',
-                'icon' => 'heroicon-o-clipboard-document-list',
-                'description' => $this->getModuleDescription('TechPlanner'),
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-                'name' => 'TechPlanner',
-                'name_lower' => 'techplanner',
-                'url' => '/techplanner/admin',
-                'icon' => 'heroicon-o-clipboard-document-list',
-                'description' => $this->getModuleDescription('TechPlanner'),
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
-                'name' => '<main module>',
-                'name_lower' => '<nome progetto>',
-                'url' => '/<nome progetto>/admin',
-                'icon' => 'heroicon-o-clipboard-document-list',
-                'description' => $this->getModuleDescription('<main module>'),
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
             ],
         ];
     }
@@ -163,40 +116,14 @@ class ModulesOverviewWidget extends Widget
      * Ottiene la descrizione per un modulo.
      *
      * @param  string  $module  Nome del modulo
+     *
      * @return string Descrizione del modulo
      */
     private function getModuleDescription(string $module): string
     {
         $descriptions = [
             'User' => 'Gestione utenti e autenticazione',
-<<<<<<< HEAD
-<<<<<<< HEAD
             '<main module>' => 'Pianificazione tecnica e progetti',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            '<main module>' => 'Pianificazione tecnica e progetti',
-=======
-            'TechPlanner' => 'Pianificazione tecnica e progetti',
->>>>>>> 5a14301c (.)
-=======
-            'TechPlanner' => 'Pianificazione tecnica e progetti',
->>>>>>> 5a14301c (.)
-=======
-            'TechPlanner' => 'Pianificazione tecnica e progetti',
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
-            '<main module>' => 'Pianificazione tecnica e progetti',
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
-            '<main module>' => 'Pianificazione tecnica e progetti',
->>>>>>> 50c0e1043 (.)
             'Geo' => 'Gestione dati geografici e mappe',
             'Cms' => 'Sistema di gestione contenuti',
             'Notify' => 'Sistema di notifiche',

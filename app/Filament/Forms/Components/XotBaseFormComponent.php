@@ -47,33 +47,6 @@ abstract class XotBaseFormComponent extends Field
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-     * Configure the component.
-     */
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        $this->dehydrated(true)->required(false);
-    }
-
-    /**
-     * Get the validation rules.
-     *
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 50c0e1043 (.)
      * @return array<string, mixed>
      */
     public function getValidationRules(): array

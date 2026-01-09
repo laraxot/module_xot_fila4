@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ba6c53070 (.)
 # 🚀 XotBase Quick Reference
 
 ## ⚡ Immediate Action Required
@@ -48,7 +43,7 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 ### Error: "contains 1 abstract method"
 **Fix:** Implement `getFormSchema()` method returning form components
 
-### Error: "Access level must be public"  
+### Error: "Access level must be public"
 **Fix:** Change `protected` to `public` for the method
 
 ### Error: "Cannot override final method"
@@ -56,29 +51,10 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 
 ## 📞 Emergency Help
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-1. Check: `/Modules/Xot/docs/XOTBASE_EXTENSION_RULES.md`
-2. Check: `/Modules/Xot/docs/filament_extension_pattern.md`
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 99c0b3329 (.)
 1. Check: `/Modules/Xot/project_docs/XOTBASE_EXTENSION_RULES.md`
 2. Check: `/Modules/Xot/project_docs/filament_extension_pattern.md`
 3. Run: `php artisan optimize:clear && ./vendor/bin/phpstan analyse`
 
 ---
 
-<<<<<<< HEAD
 *Keep this file visible during development!*
-=======
->>>>>>> dc2130a7c (.)
-=======
-*Keep this file visible during development!*
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)

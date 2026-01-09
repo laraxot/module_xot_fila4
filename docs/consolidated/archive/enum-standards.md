@@ -1,134 +1,6 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Enum Standards in <nome progetto>
-
-This document defines the standards and best practices for working with Enums in the <nome progetto> project.
-=======
-=======
->>>>>>> 5a14301c (.)
-# Enum Standards in 
-
-This document defines the standards and best practices for working with Enums in the  project.
->>>>>>> dc2130a7c (.)
 # Enum Standards in SaluteOra
 
 This document defines the standards and best practices for working with Enums in the SaluteOra project.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 399f46d3 (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> d86d643a (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 472bd9dc (.)
-=======
-# Enum Standards in 
-
-This document defines the standards and best practices for working with Enums in the  project.
-# Enum Standards in <nome progetto>
-
-This document defines the standards and best practices for working with Enums in the <nome progetto> project.
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 43d67f21 (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> b7ea1cd1 (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 76bec91a (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-# Enum Standards in SaluteOra
-
-This document defines the standards and best practices for working with Enums in the SaluteOra project.
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
 ## Naming Conventions
 
@@ -148,17 +20,17 @@ This document defines the standards and best practices for working with Enums in
 1. **Basic Structure**:
    ```php
    <?php
-   
+
    declare(strict_types=1);
-   
+
    namespace Modules\YourModule\Enums;
-   
+
    use Filament\Support\Contracts\HasLabel;
-   
+
    enum YourEnumNameEnum: string implements HasLabel
    {
        case EXAMPLE = 'example';
-       
+
        public function getLabel(): ?string
        {
            return match ($this) {
@@ -178,7 +50,7 @@ This document defines the standards and best practices for working with Enums in
 3. **Using Enums in Filament**:
    ```php
    use Modules\YourModule\Enums\YourEnumNameEnum;
-   
+
    // In your form/table
    Select::make('field_name')
        ->options(YourEnumNameEnum::class)
@@ -199,93 +71,7 @@ This document defines the standards and best practices for working with Enums in
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 namespace Modules\SaluteOra\Enums;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Modules\<nome progetto>\Enums;
-=======
-namespace Modules\<nome modulo>\Enums;
-namespace Modules\SaluteOra\Enums;
->>>>>>> 5a14301c (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 399f46d3 (.)
-=======
-namespace Modules\SaluteOra\Enums;
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> d86d643a (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 472bd9dc (.)
-=======
-namespace Modules\<nome modulo>\Enums;
-namespace Modules\<nome modulo>\Enums;
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 43d67f21 (.)
-=======
-namespace Modules\<nome modulo>\Enums;
-namespace Modules\SaluteOra\Enums;
->>>>>>> 5a14301c (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 43d67f21 (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> b7ea1cd1 (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 76bec91a (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-namespace Modules\SaluteOra\Enums;
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -297,213 +83,22 @@ enum AppointmentTypeEnum: string implements HasLabel
     case CONSULTATION = 'consultation';
     case CLEANING = 'cleaning';
     // ... other cases
-    
+
     /**
      * Get the human-readable label for the enum case.
      */
     public function getLabel(): ?string
     {
         return match ($this) {
-<<<<<<< HEAD
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
-<<<<<<< HEAD
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 5a14301c (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 399f46d3 (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> d86d643a (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 472bd9dc (.)
-=======
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 43d67f21 (.)
-=======
-            self::CONSULTATION => __('<nome progetto>::app.consultation'),
-            self::CLEANING => __('<nome progetto>::app.cleaning'),
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 5a14301c (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 43d67f21 (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> b7ea1cd1 (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 76bec91a (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-            self::CONSULTATION => __('saluteora::app.consultation'),
-            self::CLEANING => __('saluteora::app.cleaning'),
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
             // ... other cases
         };
     }
 }
 
 // Alias for backward compatibility
-<<<<<<< HEAD
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome modulo>\\Enums\\AppointmentType');
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 5a14301c (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 399f46d3 (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> d86d643a (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 472bd9dc (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome modulo>\\Enums\\AppointmentType');
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 43d67f21 (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\<nome modulo>\\Enums\\AppointmentType');
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 5a14301c (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 43d67f21 (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> b7ea1cd1 (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 76bec91a (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ```
 
 ## Updating Existing Enums
@@ -519,12 +114,3 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

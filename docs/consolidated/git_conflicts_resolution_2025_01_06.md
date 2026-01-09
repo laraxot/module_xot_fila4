@@ -1,26 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ba6c53070 (.)
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
 
 ## Contesto
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> b9c66c44e (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> ba6c53070 (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 99c0b3329 (.)
 
 ## File Corretti
 
@@ -108,7 +91,6 @@ $res=Locality::query()
 - **Aggiungere** annotazioni PHPStan appropriate
 
 ## Verifiche Post-Correzione
-
 
 ### 2. Validazione PHPStan
 ```bash
@@ -216,12 +198,4 @@ php artisan lang:check
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
-<<<<<<< HEAD
 **Stato**: ✅ Completato
-=======
->>>>>>> dc2130a7c (.)
-=======
-**Stato**: ✅ Completato
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)

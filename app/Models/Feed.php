@@ -4,15 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-<<<<<<< HEAD
-use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
-=======
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Support\Carbon;
->>>>>>> 50c0e1043 (.)
 use Modules\Xot\Database\Factories\FeedFactory;
 
 /**
@@ -34,73 +28,10 @@ use Modules\Xot\Database\Factories\FeedFactory;
  * @method static Builder<static>|Feed whereUpdatedAt($value)
  * @method static Builder<static>|Feed whereUpdatedBy($value)
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  *
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
- * @method static FeedFactory factory($count = null, $state = [])
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @mixin IdeHelperFeed
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
- *
-<<<<<<< HEAD
-=======
- *
-<<<<<<< HEAD
- * @mixin IdeHelperFeed
-=======
->>>>>>> b7afadf9 (.)
- * @mixin \Eloquent
- */
-/**
-=======
->>>>>>> 50c0e1043 (.)
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
-<<<<<<< HEAD
- * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
- * @method static Builder<static>|Feed newModelQuery()
- * @method static Builder<static>|Feed newQuery()
- * @method static Builder<static>|Feed query()
- *
-<<<<<<< HEAD
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
- * @mixin IdeHelperFeed
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

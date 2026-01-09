@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/phpstan-factory-best-practices_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.):docs/archive/phpstan-factory-best-practices.md
 # PHPStan Best Practices per Factory Laravel - Laraxot Framework
 
 ## 🎯 Overview
@@ -20,7 +12,7 @@ Le factory base che devono essere estese dovrebbero usare template generics:
 ```php
 /**
  * UserFactory for module.
- * 
+ *
  * @template TModel of \Modules\ModuleName\Models\User
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<TModel>
  */
@@ -39,7 +31,7 @@ Le factory che estendono altre factory NON devono usare generics in `@extends`:
 ```php
 /**
  * AdminFactory extends UserFactory.
- * 
+ *
  * @extends \Modules\ModuleName\Database\Factories\UserFactory
  */
 class AdminFactory extends UserFactory
@@ -292,38 +284,4 @@ Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
-<<<<<<< HEAD:docs/phpstan-factory-best-practices_1.md
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
-=======
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
->>>>>>> 5a14301c (.)
-=======
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
->>>>>>> 71f31700 (.)
-=======
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
->>>>>>> 5a14301c (.)
-=======
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
->>>>>>> 71f31700 (.)
-=======
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD:docs/phpstan-factory-best-practices_1.md
->>>>>>> dc2130a7c (.):docs/archive/phpstan-factory-best-practices.md
-=======
-=======
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.):docs/archive/phpstan-factory-best-practices.md
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+*

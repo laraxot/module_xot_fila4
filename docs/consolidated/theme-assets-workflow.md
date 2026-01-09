@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # 🎨 Theme Assets Workflow - CSS/JS Frontend
 
 **⚠️ REGOLA CRITICA**: Per modifiche CSS/JS del frontend, lavorare SEMPRE nella cartella del tema, NON nella root Laravel.
@@ -36,9 +31,9 @@ npm run copy
 ```
 
 ## ⚠️ NON Fare Mai
-❌ **NON modificare** `/public/css/` o `/public/js/` direttamente  
-❌ **NON usare** `npm run build` dalla root Laravel  
-❌ **NON dimenticare** il comando `npm run copy`  
+❌ **NON modificare** `/public/css/` o `/public/js/` direttamente
+❌ **NON usare** `npm run build` dalla root Laravel
+❌ **NON dimenticare** il comando `npm run copy`
 
 ## ✅ Processo Corretto
 1. **Modifica sorgenti** in `/Themes/[Theme]/resources/`
@@ -50,96 +45,7 @@ npm run copy
 
 ### Tema One
 ```bash
-<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 399f46d3 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
-cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> b7ea1cd1 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 76bec91a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -147,96 +53,7 @@ npm run copy         # Copia in /public/
 
 ### Tema Two
 ```bash
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 399f46d3 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
-cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
-cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
->>>>>>> 5a14301c (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 43d67f21 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> b7ea1cd1 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 76bec91a (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two
 npm install
 npm run build
 npm run copy
@@ -267,7 +84,7 @@ export default defineConfig({
 
 ### Modifiche Non Visibili?
 1. Verificare di aver eseguito `npm run build`
-2. Verificare di aver eseguito `npm run copy`  
+2. Verificare di aver eseguito `npm run copy`
 3. Svuotare cache browser (Ctrl+F5)
 4. Verificare path corretti in vite.config.js
 
@@ -279,44 +96,4 @@ export default defineConfig({
 
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
-<<<<<<< HEAD
-=======
-=======
-**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
->>>>>>> 5a14301c (.)
-=======
-**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
->>>>>>> 399f46d3 (.)
-=======
-**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
->>>>>>> 5a14301c (.)
-=======
-**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
->>>>>>> 399f46d3 (.)
-=======
-**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ---
 title: Moduli Filament
 description: Moduli Filament
@@ -9,23 +7,23 @@ section: content
 
 # Moduli Filament {#moduli-filament}
 
-Url di riferimento https://github.com/savannabits/filament-modules  
+Url di riferimento https://github.com/savannabits/filament-modules
 Installare il pacchetto di savannabits
 ```php
 composer require coolsam/modules
 ```
-Al suo interno si avrà già inglobato nwidart/laravel-modules.  
+Al suo interno si avrà già inglobato nwidart/laravel-modules.
 
-Per creare un modulo eseguire i comandi artisan di nwidart  
+Per creare un modulo eseguire i comandi artisan di nwidart
 url di riferimento https://nwidart.com/laravel-modules/v6/advanced-tools/artisan-commands
 ```php
 php artisan module:make NomeModulo
 ```
-Per creare l'AdminPanelProvider di filament nel modulo eseguire  
+Per creare l'AdminPanelProvider di filament nel modulo eseguire
 ```php
 php artisan module:make-filament-panel admin NomeModulo # php artisan module:make-filament-panel [id] [module]
 ```
-Sostituire il codice generato con 
+Sostituire il codice generato con
 ```php
 <?php
 
@@ -44,34 +42,12 @@ class AdminPanelProvider extends XotBasePanelProvider
 
 ### Versione HEAD
 
-
 ## Collegamenti tra versioni di modules.md
 * [modules.md](docs/tecnico/laraxot/modules.md)
 * [modules.md](docs/architecture/modules.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [modules.md](../../../Xot/project_docs/filament/modules.md)
 * [modules.md](../../../Xot/project_docs/config/modules.md)
-=======
-* [modules.md](../../../Xot/docs/filament/modules.md)
-* [modules.md](../../../Xot/docs/config/modules.md)
->>>>>>> b9c66c44e (.)
-=======
-* [modules.md](../../../Xot/docs/filament/modules.md)
-* [modules.md](../../../Xot/docs/config/modules.md)
-=======
-* [modules.md](../../../Xot/project_docs/filament/modules.md)
-* [modules.md](../../../Xot/project_docs/config/modules.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
 
 ### Versione Incoming
 
-
 ---
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.)
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -25,7 +17,7 @@ Il modulo Xot definisce le **linee guida strategiche** per l'approccio al testin
 
 **Usage**: 30% dei progetti enterprise
 **Performance**: 🐌 Medium-slow
-**Complexity**: 🟠 Medium-high  
+**Complexity**: 🟠 Medium-high
 **Realism**: 🟢 High
 
 ## 📈 Comparative Analysis (Detailed Metrics)
@@ -75,16 +67,16 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 test('user registration with mock data', function () {
     // Database reset every test
     $user = User::factory()->create();
-    
+
     expect($user->id)->toBe(1); // Always predictable
-    
+
     // Data destroyed after test
 });
 ```
 
 **Advantages (Mock)**:
 - ⚡ **Speed**: 10x faster execution
-- 🎯 **Isolation**: Perfect test independence  
+- 🎯 **Isolation**: Perfect test independence
 - 🛠️ **Simplicity**: Easy setup and maintenance
 - 🐛 **Debugging**: Clear, predictable outcomes
 
@@ -105,16 +97,16 @@ uses(Tests\TestCase::class);
 
 test('user registration with real data', function () {
     DB::beginTransaction();
-    
+
     $user = User::factory()->create();
-    
+
     // Real database constraints enforced
     expect($user->id)->toBeGreaterThan(1000); // Realistic ID
-    
+
     // Business logic with real data
     $result = app(UserService::class)->processUser($user);
     expect($result->isValid())->toBeTrue();
-    
+
     DB::rollBack(); // Cleanup when needed
 });
 ```
@@ -167,18 +159,18 @@ test('business logic calculation', function () {
     expect($calculator->calculate(1000))->toBe(220);
 })->group('unit'); // Fast execution
 
-// Realistic integration tests with real data  
+// Realistic integration tests with real data
 test('complete tax filing process', function () {
     DB::beginTransaction();
-    
+
     $user = User::factory()->create();
     $taxFiling = TaxFiling::factory()->for($user)->create();
-    
+
     $result = app(TaxFilingService::class)->process($taxFiling);
-    
+
     expect($result->status)->toBe('completed');
     expect($result->taxes_calculated)->toBeNumeric();
-    
+
     DB::rollBack();
 })->group('integration'); // Realistic testing
 ```
@@ -193,116 +185,15 @@ test('complete tax filing process', function () {
 # Pre-commit: Critical paths
 ./vendor/bin/pest --group=integration
 
-# CI/CD: Full validation  
+# CI/CD: Full validation
 ./vendor/bin/pest --group=unit,integration,e2e
 ```
 
 ## 🏢 Domain-Specific Recommendations
 
-<<<<<<< HEAD
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
-=======
-### Healthcare Domain () - **Real Data Preferred**
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> d86d643a (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 472bd9dc (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 3bf39332 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> cf971011 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> e7da37af (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 43d67f21 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 43d67f21 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> b7ea1cd1 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 76bec91a (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
-**Rationale**: 
+**Rationale**:
 - **Regulatory Compliance**: GDPR, medical data validation
 - **Business Criticality**: Patient safety, eligibility rules
 - **Complex Rules**: ISEE calculations, pregnancy protocols
@@ -326,7 +217,7 @@ COMPLIANCE_TESTING=enabled
 
 **Configuration**:
 ```php
-// E-commerce - Balanced approach  
+// E-commerce - Balanced approach
 DB_CONNECTION=mysql
 TEST_DATA_APPROACH=hybrid
 PERFORMANCE_TESTING=enabled
@@ -473,7 +364,7 @@ test('legacy feature with mocks', function () {
 ### Decision Checklist
 
 - [ ] **Domain Criticality**: Is failure costly? → Real Data
-- [ ] **Regulatory Requirements**: Compliance needed? → Real Data  
+- [ ] **Regulatory Requirements**: Compliance needed? → Real Data
 - [ ] **Performance Sensitive**: Query optimization critical? → Real Data
 - [ ] **Rapid Development**: Speed over accuracy? → Mock Testing
 - [ ] **Team Experience**: Real data expertise available? → Consider Real Data
@@ -481,129 +372,18 @@ test('legacy feature with mocks', function () {
 
 ### Final Recommendation
 
-<<<<<<< HEAD
-**For SaluteOra Healthcare Domain**: 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**For <nome progetto> Healthcare Domain**: 
-=======
-**For  Healthcare Domain**: 
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> d86d643a (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 472bd9dc (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 3bf39332 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> cf971011 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> e7da37af (.)
-=======
-**For  Healthcare Domain**: 
-**For <nome progetto> Healthcare Domain**: 
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 43d67f21 (.)
-=======
-**For  Healthcare Domain**: 
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 43d67f21 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> b7ea1cd1 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 76bec91a (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
+**For SaluteOra Healthcare Domain**:
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
-**Rationale**: 
+**Rationale**:
 - Healthcare criticality demands maximum realism
-- Regulatory compliance requires real constraint testing  
+- Regulatory compliance requires real constraint testing
 - Business rules complexity benefits from real data validation
 - Patient safety justifies performance trade-off
 
 ---
 
-**Strategic Analysis Date**: Gennaio 2025  
-**Review Cycle**: Quarterly assessment  
-**Decision Authority**: Technical Architecture Committee  
-**Implementation Timeline**: 4-week migration  
-
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
+**Strategic Analysis Date**: Gennaio 2025
+**Review Cycle**: Quarterly assessment
+**Decision Authority**: Technical Architecture Committee
+**Implementation Timeline**: 4-week migration

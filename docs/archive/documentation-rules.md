@@ -1,44 +1,14 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
->>>>>>> dc2130a7c (.)
 # Documentazione
 
 Questo documento serve come indice centrale per tutta la documentazione del progetto.
 
 ## Linee Guida Generali
 Le linee guida complete per la documentazione sono disponibili in:
-<<<<<<< HEAD
 - [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
-=======
-<<<<<<< HEAD
-- [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
-=======
-- [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 ## Documentazione per Modulo
 
 ### Core
-<<<<<<< HEAD
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -64,36 +34,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 ## Risorse Aggiuntive
 - [Changelog](../../../Xot/docs/changelog/README.md)
 - [Contributing](../../../Xot/docs/contributing.md)
-- [Security](../../../Xot/docs/security.md) 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> ba6c53070 (.)
+- [Security](../../../Xot/docs/security.md)
 - [Xot Module](../../../Xot/project_docs/README.md)
 - [UI Module](../../../UI/project_docs/README.md)
 - [CMS Module](../../../Cms/project_docs/README.md)
@@ -119,44 +60,4 @@ Le linee guida complete per la documentazione sono disponibili in:
 ## Risorse Aggiuntive
 - [Changelog](../../../Xot/project_docs/changelog/README.md)
 - [Contributing](../../../Xot/project_docs/contributing.md)
-- [Security](../../../Xot/project_docs/security.md) 
-<<<<<<< HEAD
-=======
->>>>>>> 6cba4fe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> ba1d49f3 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
+- [Security](../../../Xot/project_docs/security.md)

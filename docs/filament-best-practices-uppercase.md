@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 # Best Practices per Filament Resources in Laraxot
 
 Questo documento definisce le linee guida ufficiali e le best practices per l'implementazione delle risorse Filament all'interno del framework Laraxot.
@@ -59,35 +53,7 @@ public static function getFormSchema(): array
 
 ```php
 // NON FARE MAI QUESTO
-<<<<<<< HEAD
 public static function form(Form $form): Form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 71f31700 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 71f31700 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> c35986f4 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 {
     return $form->schema([
         // componenti...
@@ -126,16 +92,16 @@ Quando si estende `XotBaseResource`, NON definire le seguenti proprietà e metod
 class DoctorResource extends XotBaseResource
 {
     protected static ?string $navigationIcon = 'heroicon-o-user'; // ERRORE
-    
+
     protected static ?string $navigationGroup = 'Pazienti'; // ERRORE
-    
+
     protected static ?int $navigationSort = 3; // ERRORE
-    
+
     public static function getRelations(): array
     {
         return []; // ERRORE: se vuoto, non definire
     }
-    
+
     public static function getPages(): array
     {
         return [
@@ -204,10 +170,10 @@ use Modules\Brain\Models\Socio;
 class SocioResource extends XotBaseResource
 {
     protected static ?string $model = Socio::class;
-    
+
     // NON definire $navigationIcon quando si estende XotBaseResource
     // NON definire $navigationSort quando si estende XotBaseResource
-    
+
     // Form Schema - CORRETTO ✅
     public static function getFormSchema(): array
     {
@@ -215,24 +181,24 @@ class SocioResource extends XotBaseResource
             TextInput::make('cognome')
                 ->required()
                 ->maxLength(255),
-            
+
             TextInput::make('nome')
                 ->required()
                 ->maxLength(255),
-            
+
             DatePicker::make('data_nascita'),
-            
+
             TextInput::make('email')
                 ->email()
                 ->required(),
-            
+
             Select::make('id_stato_socio')
                 ->relationship('statoSocio', 'descrizione'),
-            
+
             Toggle::make('is_attivo'),
         ];
     }
-    
+
     // Table - CORRETTO ✅
     public static function table(\Filament\Tables\Table $table): \Filament\Tables\Table
     {
@@ -241,21 +207,21 @@ class SocioResource extends XotBaseResource
                 TextColumn::make('cognome')
                     ->sortable()
                     ->searchable(),
-                
+
                 TextColumn::make('nome')
                     ->sortable()
                     ->searchable(),
-                
+
                 TextColumn::make('sezione.descrizione'),
-                
+
                 TextColumn::make('statoSocio.descrizione'),
-                
+
                 BooleanColumn::make('is_attivo'),
             ])
             ->filters([
                 SelectFilter::make('id_stato_socio')
                     ->relationship('statoSocio', 'descrizione'),
-                
+
                 SelectFilter::make('id_sezione')
                     ->relationship('sezione', 'descrizione'),
             ])
@@ -265,7 +231,7 @@ class SocioResource extends XotBaseResource
                 Action::make('delete'),
             ]);
     }
-    
+
     // Query Scope - CORRETTO ✅
     public static function getEloquentQuery(): Builder
     {
@@ -288,7 +254,7 @@ return [
     'navigation_icon' => 'heroicon-o-user',
     'navigation_sort' => 1,
     'description' => 'Gestione completa dei soci',
-    
+
     'fields' => [
         'id_socio' => [
             'label' => 'ID Socio',
@@ -326,7 +292,7 @@ return [
             'tooltip' => 'Indica se il socio è attualmente attivo'
         ]
     ],
-    
+
     'actions' => [
         'create' => [
             'label' => 'Nuovo Socio',
@@ -353,7 +319,7 @@ return [
             'tooltip' => 'Rimuovi questo socio dal sistema'
         ]
     ],
-    
+
     'sections' => [
         'personal_data' => [
             'label' => 'Dati Personali',
@@ -368,13 +334,13 @@ return [
             'tooltip' => 'Dettagli relativi all\'iscrizione'
         ]
     ],
-    
+
     'messages' => [
         'created' => 'Socio creato con successo',
         'updated' => 'Socio aggiornato con successo',
         'deleted' => 'Socio eliminato con successo'
     ],
-    
+
     'table' => [
         'empty_text' => 'Nessun socio trovato',
         'search_prompt' => 'Cerca soci...'
@@ -401,7 +367,7 @@ public static function getFormSchema(): array
                         TextInput::make('nome')->required(),
                         DatePicker::make('data_nascita'),
                     ]),
-                
+
                 Forms\Components\Tabs\Tab::make(trans('socio-resource.sections.contact_info.label'))
                     ->icon('heroicon-o-mail')
                     ->schema([
@@ -426,13 +392,13 @@ Forms\Components\Section::make(trans('socio-resource.sections.personal_data.labe
                 TextInput::make('cognome')
                     ->required()
                     ->columnSpan(1),
-                
+
                 TextInput::make('nome')
                     ->required()
                     ->columnSpan(1),
             ])
             ->columns(2),
-            
+
         DatePicker::make('data_nascita')
             ->columnSpan('full'),
     ])
@@ -460,11 +426,11 @@ Per validazioni più complesse, utilizzare i metodi rules() o rule():
 ```php
 DatePicker::make('data_nascita')
     ->rules([
-        'required', 
-        'date', 
+        'required',
+        'date',
         'before:today'
     ])
-    
+
 TextInput::make('codice_fiscale')
     ->rule(fn() => function (string $attribute, $value, \Closure $fail) {
         if (!Str::isValidCF($value)) {
@@ -577,8 +543,8 @@ public static function getEloquentQuery(): Builder
 {
     return parent::getEloquentQuery()
         ->with([
-            'sezione', 
-            'statoSocio', 
+            'sezione',
+            'statoSocio',
             'convenzioni',
         ]);
 }
@@ -635,7 +601,7 @@ use Modules\Brain\Models\Socio;
 class SocioResource extends XotBaseResource
 {
     protected static ?string $model = Socio::class;
-    
+
     public static function getFormSchema(): array
     {
         return [
@@ -643,7 +609,7 @@ class SocioResource extends XotBaseResource
             TextInput::make('cognome')->required(),
         ];
     }
-    
+
     public static function table(\Filament\Tables\Table $table): \Filament\Tables\Table
     {
         return $table
@@ -662,136 +628,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ## Riferimenti
 
 - [Documentazione Filament](https://filamentphp.com/docs)
-<<<<<<< HEAD
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 48515e368 (.)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6dcebf8a (.)
-=======
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 88e35986 (.)
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
-<<<<<<< HEAD
-=======
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
-=======
->>>>>>> 6cba4fe (.)
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 88ea7103 (.)
-<<<<<<< HEAD
-=======
->>>>>>> ab8cc3f3 (.)
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
-=======
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
->>>>>>> 3310e9c6 (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
-=======
->>>>>>> 6cba4fe (.)
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

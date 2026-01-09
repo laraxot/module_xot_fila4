@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Standard di Documentazione dei Moduli
 
 ## Regola: Nessun Riferimento al Progetto Specifico
@@ -52,27 +50,6 @@ Per supporto e domande, contattare il team di sviluppo.
 3. Utilizzare URL e indirizzi email generici o segnaposto nei documenti di esempio
 
 ## Collegamenti Bidirezionali
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Standard di Documentazione Generale](../../Xot/project_docs/standards/documentation.md)
 - [Convenzioni di Nomenclatura](../../Xot/project_docs/conventions/naming.md)
 - [Struttura dei Moduli](../../Xot/project_docs/architecture/modules.md)
-=======
-- [Standard di Documentazione Generale](../../Xot/docs/standards/documentation.md)
-- [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
-- [Struttura dei Moduli](../../Xot/docs/architecture/modules.md)
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
-- [Standard di Documentazione Generale](../../Xot/docs/standards/documentation.md)
-- [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
-- [Struttura dei Moduli](../../Xot/docs/architecture/modules.md)
-=======
-- [Standard di Documentazione Generale](../../Xot/project_docs/standards/documentation.md)
-- [Convenzioni di Nomenclatura](../../Xot/project_docs/conventions/naming.md)
-- [Struttura dei Moduli](../../Xot/project_docs/architecture/modules.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)

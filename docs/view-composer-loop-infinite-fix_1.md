@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.):docs/archive/view-composer-loop-infinite-fix.md
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -47,13 +39,13 @@ public function compose(View $view): void
 {
     // Protezione anti-loop infinito
     static $composing = false;
-    
+
     if ($composing) {
         return; // Evita chiamate ricorsive
     }
-    
+
     $composing = true;
-    
+
     try {
         $lang = app()->getLocale();
         $view->with('lang', $lang);
@@ -90,15 +82,15 @@ private function isAuthenticationSafe(): bool
         if (!app()->bound('auth')) {
             return false;
         }
-        
+
         // Verifica se c'è una sessione attiva
         if (!app()->bound('session') || !session()->isStarted()) {
             return false;
         }
-        
+
         // Verifica Auth senza scatenare risoluzione complessa
         return Auth::hasUser() || Auth::guest();
-        
+
     } catch (\Exception $e) {
         return false; // In caso di errore, considera auth non sicuro
     }
@@ -151,12 +143,12 @@ public function test_composer_prevents_infinite_loop()
 {
     $composer = new XotComposer();
     $view = view('test');
-    
+
     // Simulazione di chiamate multiple
     for ($i = 0; $i < 10; $i++) {
         $composer->compose($view);
     }
-    
+
     // Non dovrebbe andare in timeout o stack overflow
     $this->assertTrue(true);
 }
@@ -168,10 +160,10 @@ public function test_composer_handles_auth_errors_gracefully()
 {
     // Mock Auth per generare eccezioni
     Auth::shouldReceive('hasUser')->andThrow(new \Exception('Auth error'));
-    
+
     $composer = new XotComposer();
     $view = view('test');
-    
+
     // Non dovrebbe fallire
     $composer->compose($view);
     $this->assertTrue(true);
@@ -197,7 +189,7 @@ public function test_composer_handles_auth_errors_gracefully()
 ## 🧬 Analisi Filosofica
 
 ### Lezione Epistemologica
-I **View Composers** sono potenti ma pericolosi. La **semplicità** nell'implementazione nasconde la **complessità** delle dependency resolution. 
+I **View Composers** sono potenti ma pericolosi. La **semplicità** nell'implementazione nasconde la **complessità** delle dependency resolution.
 
 ### Principio Zen
 *"La ricorsione è come uno specchio di fronte a un altro specchio - senza limiti diventa infinita"* - Serve sempre una **via d'uscita**.
@@ -224,159 +216,14 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 
 ## 🔗 Collegamenti
 
-<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
-=======
-- [XotComposer](../Xot/app/View/Composers/XotComposer.php)
->>>>>>> 99c0b3329 (.):docs/archive/view-composer-loop-infinite-fix.md
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
-<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [XotComposer](../Xot/app/View/Composers/XotComposer.php)
->>>>>>> 5a14301c (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 71f31700 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> d86d643a (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 472bd9dc (.)
-=======
-- [XotComposer](../Xot/app/View/Composers/XotComposer.php)
-- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
-- [XotComposer](../Xot/app/View/Composers/XotComposer.php)
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 43d67f21 (.)
-=======
-- [XotComposer](../Xot/app/View/Composers/XotComposer.php)
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
-- [XotComposer](../Xot/app/View/Composers/XotComposer.php)
->>>>>>> 5a14301c (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 43d67f21 (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> b7ea1cd1 (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
->>>>>>> ba6c53070 (.):docs/archive/view-composer-loop-infinite-fix.md
-=======
-=======
->>>>>>> ba1d49f3 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> b956ebe0 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 76bec91a (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 0123915b (.)
-=======
->>>>>>> e7da37af (.)
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.):docs/archive/view-composer-loop-infinite-fix.md
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
-=======
-- [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
-- [Container Resolution Laravel](https://laravel.com/project_docs/container)
->>>>>>> 6cba4fe (.)
 
 ---
 
-**Risolto**: Dicembre 2024  
-**Priorità**: P0 (Critical) - Bloccava sistema completo  
-**Impatto**: Sistema completamente non funzionale  
-**Tempo di risoluzione**: 15 minuti  
-<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
-**Pattern**: View Composer Loop Prevention 
-=======
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD:docs/view-composer-loop-infinite-fix_1.md
->>>>>>> dc2130a7c (.):docs/archive/view-composer-loop-infinite-fix.md
-=======
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.):docs/archive/view-composer-loop-infinite-fix.md
+**Risolto**: Dicembre 2024
+**Priorità**: P0 (Critical) - Bloccava sistema completo
+**Impatto**: Sistema completamente non funzionale
+**Tempo di risoluzione**: 15 minuti
+**Pattern**: View Composer Loop Prevention

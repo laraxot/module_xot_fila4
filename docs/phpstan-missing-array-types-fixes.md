@@ -1,120 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.)
 # PHPStan Missing Array Types Fixes - Modulo Xot
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
-<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
->>>>>>> 5a14301c (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 71f31700 (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> d86d643a (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 472bd9dc (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 3bf39332 (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> cf971011 (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> e7da37af (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 43d67f21 (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
->>>>>>> 5a14301c (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 43d67f21 (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> b7ea1cd1 (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 76bec91a (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 03ceeac3 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 
 ## Problema Identificato
 
@@ -200,7 +88,7 @@ public readonly array $default_meta = [
 // DOPO (corretto)
 /**
  * @param array<int, string>  $types
- * @param array<int, string>  $categories  
+ * @param array<int, string>  $categories
  * @param array<string, string>  $default_meta
  */
 public readonly array $types = ['post', 'page', 'news'],
@@ -247,7 +135,7 @@ string|array $data → string|array<string, mixed> $data
 ### ✅ **Contracts**
 - `ModelProfileContract.php` - Parametri roles e permissions tipizzati
 
-### ✅ **Traits**  
+### ✅ **Traits**
 - `TransTrait.php` - Parametro replace tipizzato
 
 ### ✅ **States**
@@ -263,7 +151,7 @@ string|array $data → string|array<string, mixed> $data
 
 #### Contracts
 - `ModelWithAuthorContract.php` - PHPDoc @method con array return types
-- `ModelWithPosContract.php` - PHPDoc @method con array return types  
+- `ModelWithPosContract.php` - PHPDoc @method con array return types
 - `ModelWithStatusContract.php` - PHPDoc @method con array return types
 - `ModelWithUserContract.php` - PHPDoc @method con array return types
 - `PassportHasApiTokensContract.php` - Parametro scopes
@@ -370,17 +258,8 @@ Le correzioni implementate risolvono sistematicamente tutti gli errori `missingT
 
 ---
 
-**Data Implementazione**: Gennaio 2025  
-**Errori Risolti**: 4 file critici completati  
-**Errori Rimanenti**: ~40 file da completare  
-**phpstan.neon**: ✅ INTOCCATO  
+**Data Implementazione**: Gennaio 2025
+**Errori Risolti**: 4 file critici completati
+**Errori Rimanenti**: ~40 file da completare
+**phpstan.neon**: ✅ INTOCCATO
 **Stato**: 🔄 In Corso - Priorità Alta Completata
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Filament Integration in Laraxot
 
 ## Resource Implementation
@@ -18,11 +16,11 @@ public static function getFormSchema(): array
         TextInput::make('name')
             ->required()
             ->maxLength(255),
-            
+
         // Relazioni
         Select::make('type')
             ->relationship('type', 'name'),
-            
+
         // File e Media
         FileUpload::make('avatar')
             ->image()
@@ -66,36 +64,11 @@ public static function getFormSchema(): array
 - Ottimizzare le query del database
 ### Versione HEAD
 
-
 ## Collegamenti tra versioni di filament-integration.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [filament-integration.md](../../../Xot/project_docs/laraxot/filament-integration.md)
 * [filament-integration.md](../../../Cms/project_docs/roadmap/features/filament-integration.md)
 * [filament-integration.md](../../../Cms/project_docs/filament-integration.md)
-=======
-* [filament-integration.md](../../../Xot/docs/laraxot/filament-integration.md)
-* [filament-integration.md](../../../Cms/docs/roadmap/features/filament-integration.md)
-* [filament-integration.md](../../../Cms/docs/filament-integration.md)
->>>>>>> b9c66c44e (.)
-=======
-* [filament-integration.md](../../../Xot/docs/laraxot/filament-integration.md)
-* [filament-integration.md](../../../Cms/docs/roadmap/features/filament-integration.md)
-* [filament-integration.md](../../../Cms/docs/filament-integration.md)
-=======
-* [filament-integration.md](../../../Xot/project_docs/laraxot/filament-integration.md)
-* [filament-integration.md](../../../Cms/project_docs/roadmap/features/filament-integration.md)
-* [filament-integration.md](../../../Cms/project_docs/filament-integration.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
 
 ### Versione Incoming
 
-
 ---
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

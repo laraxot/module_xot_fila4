@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Risoluzione dei Loghi
 
 Questo documento descrive il meccanismo di risoluzione dei loghi in un'applicazione Laravel 12.x modulare (PHP 8.2+).
@@ -65,7 +60,7 @@ Il sistema utilizza il metodo `module_path()` per risolvere questi percorsi:
 function resolveModulePath($path) {
     // Esempio: 'module::images/logo.svg'
     list($module, $resourcePath) = explode('::', $path);
-    
+
     // Converte in: '/path/to/project/laravel/Modules/Module/resources/images/logo.svg'
     return module_path(ucfirst($module)) . '/resources/' . $resourcePath;
 }
@@ -82,8 +77,8 @@ Nei template Blade, i loghi vengono referenziati utilizzando gli helper appropri
 Per la versione dark:
 
 ```blade
-<img src="{{ Theme::asset($metatag['logo_header_dark']) }}" 
-     alt="{{ $metatag['logo_alt'] ?? 'Logo' }}" 
+<img src="{{ Theme::asset($metatag['logo_header_dark']) }}"
+     alt="{{ $metatag['logo_alt'] ?? 'Logo' }}"
      class="hidden dark:block">
 ```
 
@@ -116,166 +111,12 @@ Per la versione dark:
 - [Convenzioni di Naming](naming-conventions.md)
 
 ### Collegamenti alla Root del Progetto
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-- [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../docs/architettura-folio-volt.md)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 - [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
 - [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
 - [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
 - [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 ---
 
 ### Nota Importante
 Questo documento è parte della documentazione generale del modulo Xot e descrive un meccanismo riutilizzabile in diversi progetti. La documentazione nei moduli è generica e riutilizzabile, mentre le informazioni specifiche del progetto si trovano nella documentazione nella root del progetto.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

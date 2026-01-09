@@ -4,43 +4,6 @@ declare(strict_types=1);
 
 return [
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8b18e4bff (.)
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
-     * |--------------------------------------------------------------------------
-     * | Exception Language Lines
-     * |--------------------------------------------------------------------------
-     * |
-     * | The following language lines are used in Exceptions thrown throughout the system.
-     * | Regardless where it is placed, a button can be listed here so it is easily
-     * | found in a intuitive way.
-     * |
-     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 8b18e4bff (.)
     |--------------------------------------------------------------------------
     | Exception Language Lines
     |--------------------------------------------------------------------------
@@ -50,23 +13,6 @@ return [
     | found in a intuitive way.
     |
     */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8b18e4bff (.)
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
 
     'backend' => [
         'access' => [
@@ -80,31 +26,7 @@ return [
                 'not_found' => 'El Rol requerido no existe.',
                 'update_error' => 'Hubo un problema al modificar el Rol. Intentelo de nuevo.',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8b18e4bff (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
             'users' => [
                 'cant_deactivate_self' => 'No puede desactivarse a sí mismo.',
                 'cant_delete_self' => 'No puede eliminarse usted mismo.',
@@ -123,31 +45,7 @@ return [
             ],
         ],
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8b18e4bff (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -160,49 +58,10 @@ return [
                 'success' => 'Su cuenta ha sido verificada satisfactoriamente!',
                 'resent' => 'Un nuevo correo de verificación le ha sido enviado.',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             'deactivated' => 'Su cuenta ha sido desactivada.',
             'email_taken' => 'El correo especificado ya está registrado.',
 
-=======
-<<<<<<< HEAD
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
-=======
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
->>>>>>> 8b18e4bff (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
-=======
-
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
-
->>>>>>> f1d4085 (.)
-=======
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
->>>>>>> 285375c74 (.)
-=======
-=======
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
->>>>>>> 300ef70 (.)
->>>>>>> 8b18e4bff (.)
             'password' => [
                 'change_mismatch' => 'La contraseña antigua no coincide.',
             ],

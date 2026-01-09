@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Regole per i file di traduzione in Laraxot PTVX
 
 ## Struttura dei file di traduzione
@@ -58,7 +56,7 @@ return [
    return [
        'key' => 'value',
    ];
-   
+
    // ERRATO
    return array(
        'key' => 'value',
@@ -68,9 +66,9 @@ return [
 2. **Dichiarazione strict types**:
    ```php
    <?php
-   
+
    declare(strict_types=1);
-   
+
    return [
        'key' => 'value',
    ];
@@ -104,7 +102,7 @@ return [
    ```php
    // CORRETTO
    ->label(__('modulo::risorsa.fields.nome_campo.label'))
-   
+
    // ERRATO
    ->label('Etichetta hardcoded')
    ```
@@ -113,7 +111,7 @@ return [
    ```php
    // Nel ServiceProvider
    Blade::component('modulo::components.icons.nome-icona', 'modulo-nome-icona');
-   
+
    // Nel file di traduzione
    'icona' => 'modulo-nome-icona',
    ```
@@ -142,35 +140,8 @@ return [
 
 ## Link alla documentazione correlata
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
 - [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
-=======
-<<<<<<< HEAD
-- [Errori comuni nei file di traduzione](/laravel/Modules/Lang/docs/errori_comuni_traduzione.md)
-- [Convenzioni di documentazione](/laravel/Modules/Xot/docs/documentation_conventions.md)
-- [Documentazione principale sulle traduzioni](/docs/translation_rules.md)
-=======
-- [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
-- [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
-- [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
-<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
-=======
-*Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-- [Errori comuni nei file di traduzione](/laravel/Modules/Lang/docs/errori_comuni_traduzione.md)
-- [Convenzioni di documentazione](/laravel/Modules/Xot/docs/documentation_conventions.md)
-- [Documentazione principale sulle traduzioni](/docs/translation_rules.md)
-
->>>>>>> 99c0b3329 (.)

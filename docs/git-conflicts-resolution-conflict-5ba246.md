@@ -1,50 +1,11 @@
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
->>>>>>> 285375c74 (.):docs/archive/git-conflicts-resolution.md
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
 
 ## Contesto
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
-=======
->>>>>>> 99c0b3329 (.):docs/archive/git-conflicts-resolution.md
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
@@ -79,7 +40,6 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 
-
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
@@ -88,7 +48,6 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto <no
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 
-
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
@@ -106,16 +65,6 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto <no
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
-=======
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.):docs/archive/git-conflicts-resolution.md
 
 ## File Corretti
 
@@ -204,82 +153,6 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-
->>>>>>> 43d67f21 (.)
-=======
-
->>>>>>> 5a14301c (.)
-=======
-
->>>>>>> 399f46d3 (.)
-=======
-=======
-
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-
->>>>>>> 43d67f21 (.)
-=======
-
->>>>>>> 17684f52 (.)
-=======
-=======
-
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-
->>>>>>> b7ea1cd1 (.)
-=======
-
->>>>>>> e0b8ebe3 (.)
-=======
-=======
-
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-
->>>>>>> 76bec91a (.)
-=======
-
->>>>>>> cc52d333 (.)
-=======
-=======
-
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.):docs/archive/git-conflicts-resolution.md
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -313,86 +186,7 @@ php artisan lang:check
 ## Documentazione Aggiornata
 
 ### Modulo Geo
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> 43d67f21 (.)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> 399f46d3 (.)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> b7ea1cd1 (.)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> 76bec91a (.)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> 55fe1822 (.)
-
-### Modulo User
-- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
-
-### Modulo Xot
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Modulo User
-- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
-
-### Modulo Xot
-- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-
-=======
->>>>>>> a5dccfe (.)
-=======
-- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
-
->>>>>>> 43d67f21 (.)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> 43d67f21 (.)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> 17684f52 (.)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> e0b8ebe3 (.)
-=======
-- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
->>>>>>> cc52d333 (.)
->>>>>>> 99c0b3329 (.):docs/archive/git-conflicts-resolution.md
 
 ### Modulo User
 - [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
@@ -400,60 +194,6 @@ php artisan lang:check
 ### Modulo Xot
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
-- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
-
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
-
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
-
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
-
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.):docs/archive/git-conflicts-resolution.md
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -507,59 +247,6 @@ php artisan lang:check
 ## Collegamenti Correlati
 
 ### Documentazione Moduli
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-- [Geo Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
-- [User Theme Conflicts](laravel/Modules/User/docs/theme-translation-conflicts-resolution.md)
-
-### Documentazione Generale
-- [Translation Standards](../../docs/translation-standards.md)
-- [PHPStan Guidelines](../../docs/phpstan_usage.md)
-- [Git Best Practices](../../docs/git-best-practices.md)
-<<<<<<< HEAD
-=======
-- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
-- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Documentazione Generale
-- [Translation Standards](../../project_docs/translation-standards.md)
-- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
-- [Git Best Practices](../../project_docs/git-best-practices.md)
->>>>>>> 399f46d3 (.)
-=======
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-
-=======
->>>>>>> a5dccfe (.)
-=======
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
->>>>>>> 99c0b3329 (.):docs/archive/git-conflicts-resolution.md
 - [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
@@ -568,85 +255,6 @@ php artisan lang:check
 - [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
 - [Git Best Practices](../../project_docs/git-best-practices.md)
 
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 43d67f21 (.)
-=======
-
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
-- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
-
-### Documentazione Generale
-- [Translation Standards](../../project_docs/translation-standards.md)
-- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
-- [Git Best Practices](../../project_docs/git-best-practices.md)
-
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
-- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
-
-### Documentazione Generale
-- [Translation Standards](../../project_docs/translation-standards.md)
-- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
-- [Git Best Practices](../../project_docs/git-best-practices.md)
-
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
-- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
-
-### Documentazione Generale
-- [Translation Standards](../../project_docs/translation-standards.md)
-- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
-- [Git Best Practices](../../project_docs/git-best-practices.md)
-
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
-- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
-
-### Documentazione Generale
-- [Translation Standards](../../project_docs/translation-standards.md)
-- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
-- [Git Best Practices](../../project_docs/git-best-practices.md)
-
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.):docs/archive/git-conflicts-resolution.md
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
@@ -658,7 +266,6 @@ php artisan lang:check
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
-<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
@@ -674,11 +281,7 @@ php artisan lang:check
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
 
-
-
 **Stato**: ✅ Completato
-
-
 
 **Stato**: ✅ Completato
 **Stato**: ✅ Completato
@@ -693,8 +296,3 @@ php artisan lang:check
 **Stato**: ✅ Completato
 
 **Stato**: ✅ Completato
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.):docs/archive/git-conflicts-resolution.md

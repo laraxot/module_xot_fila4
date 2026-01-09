@@ -12,16 +12,11 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
-<<<<<<< HEAD
-=======
-use Filament\Pages\Page;
->>>>>>> 50c0e1043 (.)
 use Filament\Schemas\Schema;
 use Filament\Support\Colors\Color;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 /**
@@ -32,13 +27,9 @@ class MetatagPage extends XotBasePage implements HasForms
     use InteractsWithForms;
     use NavigationLabelTrait;
 
-<<<<<<< HEAD
     public array $data = [];
-=======
-    public ?array $data = [];
->>>>>>> 50c0e1043 (.)
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'xot::filament.pages.metatag';
 
@@ -76,43 +67,6 @@ class MetatagPage extends XotBasePage implements HasForms
                             ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
                             ->reactive(),
                         ColorPicker::make('hex')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-                            ->label('Chiave')
-                            ->required()
-                            ->options($metatag->getFilamentColors()),
-                        Select::make('color')
-                            ->label('Colore')
-                            ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
-                            ->reactive(),
-                        ColorPicker::make('hex')
-                            ->label('Colore personalizzato')
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            ->visible(fn(Get $get) => $get('color') === 'custom')
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-                            ->visible(fn ($get) => $get('color') === 'custom')
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
-                            ->visible(fn ($get) => $get('color') === 'custom')
-=======
-                            ->visible(fn (callable $get) => $get('color') === 'custom')
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
->>>>>>> 50c0e1043 (.)
                             ->required(),
                     ])
                     ->columns(3),

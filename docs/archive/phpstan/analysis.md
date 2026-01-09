@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Analisi PHPStan del modulo Xot
 
 ## Data analisi
@@ -21,8 +19,6 @@
 - [Link a docs/phpstan della root per sintesi trasversali]
 
 ## Collegamenti tra versioni di analysis.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [analysis.md](../../../Notify/project_docs/analysis.md)
 * [analysis.md](../../../Notify/project_docs/phpstan/analysis.md)
 * [analysis.md](../../../Xot/project_docs/analysis.md)
@@ -36,43 +32,3 @@
 * [analysis.md](../../../Media/project_docs/analysis.md)
 * [analysis.md](../../../Media/project_docs/phpstan/analysis.md)
 * [analysis.md](../../../../Themes/One/project_docs/analysis.md)
-=======
-=======
->>>>>>> ba6c53070 (.)
-* [analysis.md](../../../Notify/docs/analysis.md)
-* [analysis.md](../../../Notify/docs/phpstan/analysis.md)
-* [analysis.md](../../../Xot/docs/analysis.md)
-* [analysis.md](../../../Xot/docs/phpstan/analysis.md)
-* [analysis.md](../../../User/docs/analysis.md)
-* [analysis.md](../../../User/docs/phpstan/analysis.md)
-* [analysis.md](../../../UI/docs/analysis.md)
-* [analysis.md](../../../UI/docs/phpstan/analysis.md)
-* [analysis.md](../../../Job/docs/analysis.md)
-* [analysis.md](../../../Job/docs/phpstan/analysis.md)
-* [analysis.md](../../../Media/docs/analysis.md)
-* [analysis.md](../../../Media/docs/phpstan/analysis.md)
-* [analysis.md](../../../../Themes/One/docs/analysis.md)
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
-* [analysis.md](../../../Notify/project_docs/analysis.md)
-* [analysis.md](../../../Notify/project_docs/phpstan/analysis.md)
-* [analysis.md](../../../Xot/project_docs/analysis.md)
-* [analysis.md](../../../Xot/project_docs/phpstan/analysis.md)
-* [analysis.md](../../../User/project_docs/analysis.md)
-* [analysis.md](../../../User/project_docs/phpstan/analysis.md)
-* [analysis.md](../../../UI/project_docs/analysis.md)
-* [analysis.md](../../../UI/project_docs/phpstan/analysis.md)
-* [analysis.md](../../../Job/project_docs/analysis.md)
-* [analysis.md](../../../Job/project_docs/phpstan/analysis.md)
-* [analysis.md](../../../Media/project_docs/analysis.md)
-* [analysis.md](../../../Media/project_docs/phpstan/analysis.md)
-* [analysis.md](../../../../Themes/One/project_docs/analysis.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

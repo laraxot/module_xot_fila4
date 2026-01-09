@@ -10,14 +10,7 @@ use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Filters\TernaryFilter;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 50c0e1043 (.)
 use Modules\User\Models\User;
-
-=======
->>>>>>> 27537f124 (.)
 use function Safe\strtotime;
 
 /**

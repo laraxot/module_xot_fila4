@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # XotBasePage
 
 ## Panoramica
@@ -37,7 +35,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 class YourPage extends XotBasePage
 {
     protected static string $view = 'your-module::pages.your-page';
-    
+
     protected function getFormSchema(): array
     {
         return [
@@ -98,47 +96,11 @@ Verifica se l'utente ha l'accesso alla pagina.
    - Laravel Authorization
 
 3. **Compatibilità**
-<<<<<<< HEAD
-<<<<<<< HEAD
    - Compatibile con Filament 3.x
-=======
-<<<<<<< HEAD
-   - Compatibile con Filament 4.x
-=======
-   - Compatibile con Filament 3.x
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-   - Compatibile con Filament 4.x
->>>>>>> 99c0b3329 (.)
    - Richiede PHP 8.1+
 
 ## Link Correlati
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione Filament](../../../project_docs/filament/index.md)
 - [Best Practices](../../../project_docs/best-practices.md)
-- [Guida Traduzioni](../../../project_docs/translations.md) 
-=======
-- [Documentazione Filament](../../../docs/filament/index.md)
-- [Best Practices](../../../docs/best-practices.md)
-- [Guida Traduzioni](../../../docs/translations.md) 
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
-- [Documentazione Filament](../../../docs/filament/index.md)
-- [Best Practices](../../../docs/best-practices.md)
-- [Guida Traduzioni](../../../docs/translations.md) 
-<<<<<<< HEAD
-=======
-- [Documentazione Filament](../../../project_docs/filament/index.md)
-- [Best Practices](../../../project_docs/best-practices.md)
-- [Guida Traduzioni](../../../project_docs/translations.md) 
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 99c0b3329 (.)
+- [Guida Traduzioni](../../../project_docs/translations.md)

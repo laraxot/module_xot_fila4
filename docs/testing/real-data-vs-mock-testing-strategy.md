@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ab8cc3f3 (.)
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -23,7 +17,7 @@ Il modulo Xot definisce le **linee guida strategiche** per l'approccio al testin
 
 **Usage**: 30% dei progetti enterprise
 **Performance**: 🐌 Medium-slow
-**Complexity**: 🟠 Medium-high  
+**Complexity**: 🟠 Medium-high
 **Realism**: 🟢 High
 
 ## 📈 Comparative Analysis (Detailed Metrics)
@@ -73,16 +67,16 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 test('user registration with mock data', function () {
     // Database reset every test
     $user = User::factory()->create();
-    
+
     expect($user->id)->toBe(1); // Always predictable
-    
+
     // Data destroyed after test
 });
 ```
 
 **Advantages (Mock)**:
 - ⚡ **Speed**: 10x faster execution
-- 🎯 **Isolation**: Perfect test independence  
+- 🎯 **Isolation**: Perfect test independence
 - 🛠️ **Simplicity**: Easy setup and maintenance
 - 🐛 **Debugging**: Clear, predictable outcomes
 
@@ -103,16 +97,16 @@ uses(Tests\TestCase::class);
 
 test('user registration with real data', function () {
     DB::beginTransaction();
-    
+
     $user = User::factory()->create();
-    
+
     // Real database constraints enforced
     expect($user->id)->toBeGreaterThan(1000); // Realistic ID
-    
+
     // Business logic with real data
     $result = app(UserService::class)->processUser($user);
     expect($result->isValid())->toBeTrue();
-    
+
     DB::rollBack(); // Cleanup when needed
 });
 ```
@@ -165,18 +159,18 @@ test('business logic calculation', function () {
     expect($calculator->calculate(1000))->toBe(220);
 })->group('unit'); // Fast execution
 
-// Realistic integration tests with real data  
+// Realistic integration tests with real data
 test('complete tax filing process', function () {
     DB::beginTransaction();
-    
+
     $user = User::factory()->create();
     $taxFiling = TaxFiling::factory()->for($user)->create();
-    
+
     $result = app(TaxFilingService::class)->process($taxFiling);
-    
+
     expect($result->status)->toBe('completed');
     expect($result->taxes_calculated)->toBeNumeric();
-    
+
     DB::rollBack();
 })->group('integration'); // Realistic testing
 ```
@@ -191,185 +185,15 @@ test('complete tax filing process', function () {
 # Pre-commit: Critical paths
 ./vendor/bin/pest --group=integration
 
-# CI/CD: Full validation  
+# CI/CD: Full validation
 ./vendor/bin/pest --group=unit,integration,e2e
 ```
 
 ## 🏢 Domain-Specific Recommendations
 
-<<<<<<< HEAD
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Healthcare Domain () - **Real Data Preferred**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> f1d4085 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> 3310e9c6 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> 6dcebf8a (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> f1d4085 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> b3cc10f7 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 88e35986 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> f1d4085 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> cafe8bed (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> f1d4085 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
->>>>>>> 5cd593a5 (.)
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 71f31700 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
-=======
-### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> 6cba4fe (.)
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> 5a14301c (.)
-=======
-### Healthcare Domain () - **Real Data Preferred**
-<<<<<<< HEAD
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
-### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-### Healthcare Domain () - **Real Data Preferred**
-=======
->>>>>>> 6cba4fe (.)
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> c35986f4 (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
-=======
-### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-### Healthcare Domain (SaluteOra) - **Real Data Preferred**
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 
-**Rationale**: 
+**Rationale**:
 - **Regulatory Compliance**: GDPR, medical data validation
 - **Business Criticality**: Patient safety, eligibility rules
 - **Complex Rules**: ISEE calculations, pregnancy protocols
@@ -393,7 +217,7 @@ COMPLIANCE_TESTING=enabled
 
 **Configuration**:
 ```php
-// E-commerce - Balanced approach  
+// E-commerce - Balanced approach
 DB_CONNECTION=mysql
 TEST_DATA_APPROACH=hybrid
 PERFORMANCE_TESTING=enabled
@@ -540,7 +364,7 @@ test('legacy feature with mocks', function () {
 ### Decision Checklist
 
 - [ ] **Domain Criticality**: Is failure costly? → Real Data
-- [ ] **Regulatory Requirements**: Compliance needed? → Real Data  
+- [ ] **Regulatory Requirements**: Compliance needed? → Real Data
 - [ ] **Performance Sensitive**: Query optimization critical? → Real Data
 - [ ] **Rapid Development**: Speed over accuracy? → Mock Testing
 - [ ] **Team Experience**: Real data expertise available? → Consider Real Data
@@ -548,222 +372,18 @@ test('legacy feature with mocks', function () {
 
 ### Final Recommendation
 
-<<<<<<< HEAD
-**For SaluteOra Healthcare Domain**: 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**For  Healthcare Domain**: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**For <nome progetto> Healthcare Domain**: 
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
-**For  Healthcare Domain**: 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-**For  Healthcare Domain**: 
-=======
->>>>>>> f1d4085 (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 88ea7103 (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> 3310e9c6 (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> 6dcebf8a (.)
-=======
-**For  Healthcare Domain**: 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
-**For  Healthcare Domain**: 
-=======
->>>>>>> f1d4085 (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> 73eab74 (.)
->>>>>>> 34579462 (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> b3cc10f7 (.)
-=======
-**For  Healthcare Domain**: 
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 88e35986 (.)
-=======
-**For  Healthcare Domain**: 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
-**For  Healthcare Domain**: 
-=======
->>>>>>> f1d4085 (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> cafe8bed (.)
-=======
-**For  Healthcare Domain**: 
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
-**For  Healthcare Domain**: 
-=======
->>>>>>> f1d4085 (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
-**For  Healthcare Domain**: 
->>>>>>> 5cd593a5 (.)
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 71f31700 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
-=======
-**For <nome progetto> Healthcare Domain**: 
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-**For  Healthcare Domain**: 
-=======
->>>>>>> 6cba4fe (.)
-**For SaluteOra Healthcare Domain**: 
->>>>>>> 5a14301c (.)
-=======
-**For  Healthcare Domain**: 
-<<<<<<< HEAD
-**For SaluteOra Healthcare Domain**: 
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
-=======
-**For <nome progetto> Healthcare Domain**: 
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> 17684f52 (.)
-**For  Healthcare Domain**: 
-=======
->>>>>>> 6cba4fe (.)
-**For SaluteOra Healthcare Domain**: 
->>>>>>> c35986f4 (.)
-=======
-**For SaluteOra Healthcare Domain**: 
-=======
-**For <nome progetto> Healthcare Domain**: 
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-**For SaluteOra Healthcare Domain**: 
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
+**For SaluteOra Healthcare Domain**:
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
-**Rationale**: 
+**Rationale**:
 - Healthcare criticality demands maximum realism
-- Regulatory compliance requires real constraint testing  
+- Regulatory compliance requires real constraint testing
 - Business rules complexity benefits from real data validation
 - Patient safety justifies performance trade-off
 
 ---
 
-**Strategic Analysis Date**: Gennaio 2025  
-**Review Cycle**: Quarterly assessment  
-**Decision Authority**: Technical Architecture Committee  
-**Implementation Timeline**: 4-week migration  
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
+**Strategic Analysis Date**: Gennaio 2025
+**Review Cycle**: Quarterly assessment
+**Decision Authority**: Technical Architecture Committee
+**Implementation Timeline**: 4-week migration

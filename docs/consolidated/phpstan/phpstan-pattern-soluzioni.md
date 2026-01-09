@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Pattern e Soluzioni per PHPStan Livello 10 - Modulo Xot
 
 Questo documento raccoglie i pattern comuni di errori PHPStan di livello 10 nel modulo Xot e le soluzioni standard implementate.
@@ -35,15 +30,15 @@ public function execute(Collection $collection): array
 {
     /** @var array<string>|string|null $fields */
     $fields = $collection->get('fields');
-    
+
     if (null === $fields) {
         return [];
     }
-    
+
     if (is_string($fields)) {
         $fields = [$fields];
     }
-    
+
     return Arr::only($item, $fields);
 }
 ```
@@ -99,7 +94,7 @@ class XotBaseClass
     {
         // Implementazione
     }
-    
+
     public static function __callStatic(string $method, array $parameters)
     {
         // Implementazione
@@ -136,11 +131,11 @@ public function execute(string $modelClass)
     if (! class_exists($modelClass)) {
         throw new \InvalidArgumentException("Class {$modelClass} does not exist");
     }
-    
+
     if (! method_exists($modelClass, 'factory')) {
         throw new \InvalidArgumentException("Class {$modelClass} does not have a factory method");
     }
-    
+
     return $modelClass::factory();
 }
 ```
@@ -201,7 +196,7 @@ public function getFileContents(string $path)
     if (!file_exists($path)) {
         return false;
     }
-    
+
     return file_get_contents($path);
 }
 ```
@@ -237,7 +232,7 @@ public function callMethod(object $class, string $method, ...$args)
     if (!method_exists($class, $method)) {
         throw new \BadMethodCallException("Method {$method} does not exist on class " . get_class($class));
     }
-    
+
     return $class->$method(...$args);
 }
 ```
@@ -270,7 +265,7 @@ public function processInput(Request $request): string
 {
     /** @var string|null $value */
     $value = $request->input('key');
-    
+
     return strtoupper((string) $value);
 }
 ```
@@ -283,44 +278,10 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 
 1. Applicare sistematicamente questi pattern a tutto il codice del modulo Xot
 2. Estendere questi pattern ad altri moduli del progetto
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> d86d643a (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-=======
->>>>>>> 472bd9dc (.)
->>>>>>> ba6c53070 (.)
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati
 ## Collegamenti tra versioni di PHPSTAN_PATTERN_SOLUZIONI.md
 * [PHPSTAN_PATTERN_SOLUZIONI.md](../../../Xot/project_docs/phpstan/PHPSTAN_PATTERN_SOLUZIONI.md)
 * [PHPSTAN_PATTERN_SOLUZIONI.md](../../../Xot/project_docs/PHPSTAN_PATTERN_SOLUZIONI.md)
-
 
 ## Collegamenti tra versioni di phpstan_pattern_soluzioni.md
 ### Versione HEAD
@@ -333,76 +294,6 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 
 ---
 
-
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
-<<<<<<< HEAD
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> d86d643a (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 43d67f21 (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 17684f52 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 472bd9dc (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 71586de2 (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> cf971011 (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 76bec91a (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> cc52d333 (.)
-=======
->>>>>>> a5dccfe (.)
->>>>>>> e7da37af (.)
-=======
-3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati

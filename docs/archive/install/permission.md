@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ~~~ php
 <?php
 
@@ -169,32 +167,10 @@ return [
 ~~~
 ### Versione HEAD
 
-
 ## Collegamenti tra versioni di permission.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [permission.md](../../../Xot/project_docs/install/permission.md)
 * [permission.md](../../../Tenant/project_docs/it/config/permission.md)
-=======
-* [permission.md](../../../Xot/docs/install/permission.md)
-* [permission.md](../../../Tenant/docs/it/config/permission.md)
->>>>>>> b9c66c44e (.)
-=======
-* [permission.md](../../../Xot/docs/install/permission.md)
-* [permission.md](../../../Tenant/docs/it/config/permission.md)
-=======
-* [permission.md](../../../Xot/project_docs/install/permission.md)
-* [permission.md](../../../Tenant/project_docs/it/config/permission.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-
 
 ### Versione Incoming
 
-
 ---
-
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

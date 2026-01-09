@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # GenerateResourceFormSchemaCommand
 
 ## Descrizione
@@ -60,44 +55,4 @@ return [
 ## Collegamenti
 - [Filament Best Practices](../filament-best-practices.md)
 - [Form Components](../COMPONENTI_PERSONALIZZATI.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-=======
->>>>>>> ba6c53070 (.)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 399f46d3 (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 5a14301c (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 399f46d3 (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # FileUpload Components in XotBaseResource
 
 ## Overview
@@ -22,7 +20,7 @@ class Patient extends BaseModel
      */
     public static array $attachments = [
         'health_card',
-        'identity_document', 
+        'identity_document',
         'isee_certificate',
         'pregnancy_certificate'
     ];
@@ -38,7 +36,7 @@ public static function getAttachmentsSchema(bool $multiple=true): array
     $attachments = $model::$attachments;
     $uuid = Str::uuid()->toString();
     $schema = [];
-    
+
     foreach ($attachments as $attachment) {
         $schema[] = Forms\Components\FileUpload::make($attachment)
             ->disk('local')
@@ -51,13 +49,13 @@ public static function getAttachmentsSchema(bool $multiple=true): array
             ->columnSpanFull()
             ->afterStateUpdated(function ($state, Forms\Set $set) use ($attachment, $multiple) {
                 if (!$state) return;
-                
+
                 // Normalizza sempre come array per consistenza
                 $files = is_array($state) ? $state : [$state];
                 $sessionId = session()->getId();
                 $sessionDir = "session-uploads/{$sessionId}";
                 $sessionFiles = [];
-                
+
                 foreach ($files as $file) {
                     if ($file instanceof \Livewire\Features\SupportFileUploads\TemporaryUploadedFile) {
                         // Nuovo file caricato
@@ -69,13 +67,13 @@ public static function getAttachmentsSchema(bool $multiple=true): array
                         $sessionFiles[] = $file;
                     }
                 }
-                
+
                 // Imposta il valore corretto nel form
                 $finalValue = $multiple ? $sessionFiles : ($sessionFiles[0] ?? null);
                 $set($attachment, $finalValue);
             });
     }
-    
+
     return $schema;
 }
 ```
@@ -137,7 +135,7 @@ if ($file instanceof \Livewire\Features\SupportFileUploads\TemporaryUploadedFile
 // ✅ Gestione graceful degli errori
 ->afterStateUpdated(function ($state, Forms\Set $set) use ($attachment, $multiple) {
     if (!$state) return;
-    
+
     try {
         // Logica di gestione file
     } catch (\Exception $e) {
@@ -199,10 +197,10 @@ class FileUploadTest extends TestCase
     public function it_handles_single_file_upload()
     {
         $file = UploadedFile::fake()->create('test.pdf', 1024);
-        
+
         // Test logic
     }
-    
+
     /** @test */
     public function it_handles_multiple_files_upload()
     {
@@ -210,15 +208,15 @@ class FileUploadTest extends TestCase
             UploadedFile::fake()->create('test1.pdf', 1024),
             UploadedFile::fake()->create('test2.pdf', 1024)
         ];
-        
+
         // Test logic
     }
-    
+
     /** @test */
     public function it_validates_file_types()
     {
         $invalidFile = UploadedFile::fake()->create('test.exe', 1024);
-        
+
         // Test validation
     }
 }
@@ -234,7 +232,7 @@ class RegistrationWidgetTest extends TestCase
     {
         // Test file persistence across steps
     }
-    
+
     /** @test */
     public function it_handles_session_expiry()
     {
@@ -270,9 +268,9 @@ class RegistrationWidgetTest extends TestCase
 
 ```php
 ->acceptedFileTypes([
-    'application/pdf', 
-    'image/jpeg', 
-    'image/png', 
+    'application/pdf',
+    'image/jpeg',
+    'image/png',
     'image/jpg'
 ])
 ```
@@ -344,35 +342,9 @@ class CleanupTemporaryFilesJob extends Job
 
 ## Riferimenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/project_docs/10.x/filesystem)
 - [docs/fileupload-foreach-error-fix.md](../../../project_docs/fileupload-foreach-error-fix.md)
 - [Modules/User/project_docs/registration-widget.md](../../User/project_docs/registration-widget.md)
 
-*Ultimo aggiornamento: 2025-01-03* 
-=======
-=======
->>>>>>> ba6c53070 (.)
-- [Filament FileUpload Documentation](https://filamentphp.com/docs/3.x/forms/fields/file-upload)
-- [Laravel File Storage](https://laravel.com/docs/10.x/filesystem)
-- [docs/fileupload-foreach-error-fix.md](../../../docs/fileupload-foreach-error-fix.md)
-- [Modules/User/docs/registration-widget.md](../../User/docs/registration-widget.md)
-<<<<<<< HEAD
-=======
-- [Filament FileUpload Documentation](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload)
-- [Laravel File Storage](https://laravel.com/project_docs/10.x/filesystem)
-- [docs/fileupload-foreach-error-fix.md](../../../project_docs/fileupload-foreach-error-fix.md)
-- [Modules/User/project_docs/registration-widget.md](../../User/project_docs/registration-widget.md)
->>>>>>> 6cba4fe (.)
-
-*Ultimo aggiornamento: 2025-01-03* 
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-
->>>>>>> 99c0b3329 (.)
+*Ultimo aggiornamento: 2025-01-03*

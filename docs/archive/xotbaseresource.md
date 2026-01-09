@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # XotBaseResource
 
 ## Panoramica
@@ -13,7 +11,7 @@ XotBaseResource è la classe base astratta per tutte le risorse Filament nel sis
 Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle classi figlie:
 
 ```php
-final public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+final public static function form(Form $form): Form
 {
     return $form->schema(static::getFormSchema());
 }
@@ -78,8 +76,6 @@ class NotificationResource extends XotBaseResource
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Architettura Filament](../../../project_docs/architecture/filament.md)
 - [Gestione Risorse](../../../project_docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../project_docs/regole/xotbaseresource-rules.md)
@@ -87,29 +83,6 @@ class NotificationResource extends XotBaseResource
 ### Collegamenti ai Moduli
 - [Notify Resource](../../Notify/project_docs/filament-resources.md)
 - [User Resource](../../User/project_docs/filament-resources.md)
-=======
-=======
->>>>>>> ba6c53070 (.)
-- [Architettura Filament](../../../docs/architecture/filament.md)
-- [Gestione Risorse](../../../docs/architecture/resources.md)
-- [Regole XotBaseResource](../../../docs/regole/xotbaseresource-rules.md)
-
-### Collegamenti ai Moduli
-- [Notify Resource](../../Notify/docs/filament-resources.md)
-- [User Resource](../../User/docs/filament-resources.md)
-<<<<<<< HEAD
->>>>>>> b9c66c44e (.)
-=======
-=======
-- [Architettura Filament](../../../project_docs/architecture/filament.md)
-- [Gestione Risorse](../../../project_docs/architecture/resources.md)
-- [Regole XotBaseResource](../../../project_docs/regole/xotbaseresource-rules.md)
-
-### Collegamenti ai Moduli
-- [Notify Resource](../../Notify/project_docs/filament-resources.md)
-- [User Resource](../../User/project_docs/filament-resources.md)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 
 ## Note Importanti
 
@@ -117,15 +90,4 @@ class NotificationResource extends XotBaseResource
 2. Implementare sempre i metodi astratti richiesti
 3. Utilizzare i file di traduzione per le label
 4. Evitare override non necessari di metodi
-<<<<<<< HEAD
-<<<<<<< HEAD
-5. Seguire le convenzioni di Filament 
-=======
-5. Seguire le convenzioni di Filament 
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)
-=======
->>>>>>> 99c0b3329 (.)
+5. Seguire le convenzioni di Filament

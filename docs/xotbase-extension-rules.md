@@ -1,210 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-# XotBase Extension Rules - Comprehensive Guide
-
-## 🚨 Critical Architectural Rule
-
-**NEVER extend Filament classes directly. ALWAYS extend the corresponding XotBase abstract class.**
-
-## 📋 Extension Pattern Table
-
-| Filament Original Class | XotBase Class to Extend |
-|-------------------------|-------------------------|
-| `Filament\Resources\Resource` | `Modules\Xot\Filament\Resources\XotBaseResource` |
-| `Filament\Resources\Pages\Page` | `Modules\Xot\Filament\Resources\Pages\XotBasePage` |
-| `Filament\Resources\Pages\ListRecords` | `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords` |
-| `Filament\Resources\Pages\CreateRecord` | `Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord` |
-| `Filament\Resources\Pages\EditRecord` | `Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord` |
-| `Filament\Resources\Pages\ViewRecord` | `Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord` |
-| `Filament\Widgets\Widget` | `Modules\Xot\Filament\Widgets\XotBaseWidget` |
-| `Filament\Resources\RelationManagers\RelationManager` | `Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager` |
-
-## ✅ Correct Implementation Examples
-
-### Resource Example
-```php
-// CORRECT: Extend XotBaseResource
-namespace Modules\MyModule\Filament\Resources;
-
-use Modules\Xot\Filament\Resources\XotBaseResource;
-
-class MyResource extends XotBaseResource
-{
-    // Implementation here
-}
-
-// WRONG: Direct Filament extension
-class MyResource extends \Filament\Resources\Resource
-{
-    // This will cause architecture violations
-}
-```
-
-### Widget Example
-```php
-// CORRECT: Extend XotBaseWidget
-namespace Modules\MyModule\Filament\Widgets;
-
-use Modules\Xot\Filament\Widgets\XotBaseWidget;
-
-class MyWidget extends XotBaseWidget
-{
-    public function getFormSchema(): array
-    {
-        return [
-            // Form components here
-        ];
-    }
-}
-
-// WRONG: Direct Filament extension
-class MyWidget extends \Filament\Widgets\Widget
-{
-    // Missing required methods and architecture violations
-}
-```
-
-## ⚠️ Common Errors and Solutions
-
-### Error: "Class contains 1 abstract method and must therefore be declared abstract"
-**Cause**: Extending XotBaseWidget without implementing required abstract methods like `getFormSchema()`
-**Solution**: Always implement ALL abstract methods from XotBase classes
-
-### Error: "Access level must be public (as in class XotBaseWidget)"
-**Cause**: Using `protected` instead of `public` for methods that are `public` in parent class
-**Solution**: Match the exact access level from the parent abstract class
-
-### Error: "Cannot override final method"
-**Cause**: Trying to override methods marked as `final` in XotBase classes
-**Solution**: Use the provided hook methods instead of overriding final methods
-
-## 🔧 Required Method Implementations
-
-### For XotBaseWidget
-```php
-public function getFormSchema(): array
-{
-    return [
-        // Must return array of Filament form components
-        // NEVER return empty array []
-        \Filament\Forms\Components\TextInput::make('field_name')
-            ->label(__('module::translation.key'))
-            ->required(),
-    ];
-}
-```
-
-### For XotBaseResource
-```php
-// XotBaseResource provides default implementations
-// Override only when necessary using the correct patterns
-```
-
-## 📁 Namespace Structure Rules
-
-1. **Maintain Filament's namespace structure** but within your module
-2. **Never include 'app' in namespace** for Filament components
-3. **Use correct translation patterns** with module prefix
-
-**Correct:**
-```php
-namespace Modules\MyModule\Filament\Resources;
-namespace Modules\MyModule\Filament\Widgets;
-```
-
-**Wrong:**
-```php
-namespace Modules\MyModule\App\Filament\Resources; // Contains 'App'
-namespace Modules\MyModule\Filament\App\Widgets;   // Wrong structure
-```
-
-## 🛡️ Validation Checklist
-
-Before committing any Filament-related code, verify:
-
-1. [ ] Extends XotBase class, not direct Filament class
-2. [ ] All abstract methods are implemented with correct signatures
-3. [ ] Method access levels match parent class (public/protected)
-4. [ ] Namespace follows correct pattern without 'app' segment
-5. [ ] No final methods are being overridden
-6. [ ] Form schemas return proper Filament components, not empty arrays
-7. [ ] Translation keys use module prefix (module::key.path)
-
-## 🔍 Common Pitfalls
-
-### Empty Form Schemas
-**Wrong:**
-```php
-public function getFormSchema(): array
-{
-    return []; // NEVER return empty array
-}
-```
-
-**Correct:**
-```php
-public function getFormSchema(): array
-{
-    return [
-        \Filament\Forms\Components\TextInput::make('name')
-            ->label(__('module::fields.name')),
-    ];
-}
-```
-
-### Wrong Access Levels
-**Wrong:**
-```php
-protected function getFormSchema(): array // Should be public
-{
-    return [/*...*/];
-}
-```
-
-**Correct:**
-```php
-public function getFormSchema(): array // Must be public
-{
-    return [/*...*/];
-}
-```
-
-## 📚 Related Documentation
-
-- [Filament Extension Pattern](../filament_extension_pattern.md)
-- [XotBaseWidget Documentation](./filament/widgets/xot-base-widget.md)
-- [Namespace Rules](../namespace-rules.md)
-- [Architecture Best Practices](../architecture-best-practices.md)
-
-## 🚨 Emergency Fix Procedure
-
-If you encounter architecture violations:
-
-1. **Identify the incorrectly extended class**
-2. **Change extends to correct XotBase class**
-3. **Implement all required abstract methods**
-4. **Verify method signatures match parent**
-5. **Run PHPStan to validate fixes**
-
-## 🔗 Integration with Development Workflow
-
-This rule is enforced by:
-- PHPStan architecture rules
-- Code review processes
-- Automated quality checks
-
-Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after making changes to verify compliance.
-
----
-
-*Last Updated: 2025-08-27*  
-*Architecture Version: XotBase 2.0*
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> 99c0b3329 (.)
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE
@@ -263,17 +56,6 @@ Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e 
 
 ### Ricerca Violazioni
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-
->>>>>>> 99c0b3329 (.)
 # Cerca estensioni dirette di Filament (dovrebbe restituire 0 risultati)
 grep -r "extends Filament\\" Modules/ --include="*.php"
 
@@ -283,17 +65,6 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 
 ### Verifica Specifica per Tipo
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-
->>>>>>> 99c0b3329 (.)
 # Dashboard
 grep -r "XotBaseDashboard" Modules/ --include="*.php"
 
@@ -318,7 +89,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 
 /**
  * Dashboard per il modulo Employee.
- * 
+ *
  * Estende XotBaseDashboard seguendo la regola architettturale fondamentale
  * di non estendere mai classi Filament direttamente.
  */
@@ -345,7 +116,7 @@ class EmployeeResource extends XotBaseResource
 {
     protected static ?string $model = Employee::class;
     protected static ?string $navigationIcon = 'heroicon-o-users';
-    
+
     // Implementazione specifica del resource...
 }
 ```
@@ -363,7 +134,7 @@ use Modules\Xot\Filament\Widgets\XotBaseWidget;
 class EmployeeStatsWidget extends XotBaseWidget
 {
     protected static string $view = 'employee::filament.widgets.stats';
-    
+
     // Implementazione specifica del widget...
 }
 ```
@@ -375,17 +146,6 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 
 ```bash
 #!/bin/bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-
->>>>>>> 99c0b3329 (.)
 # .git/hooks/pre-commit
 
 if grep -r "extends Filament\\" Modules/ --include="*.php" > /dev/null; then
@@ -399,17 +159,6 @@ echo "✅ Controllo XotBase: PASSED"
 
 ### CI/CD Check
 ```yaml
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
-=======
-
->>>>>>> 99c0b3329 (.)
 # .github/workflows/xotbase-check.yml
 name: XotBase Extension Check
 on: [push, pull_request]
@@ -439,10 +188,6 @@ jobs:
 
 ---
 
-*Documento aggiornato: 2025-07-30*  
-*Priorità: CRITICA*  
+*Documento aggiornato: 2025-07-30*
+*Priorità: CRITICA*
 *Stato: OBBLIGATORIO per tutti i moduli*
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
->>>>>>> 285375c74 (.)
 # PHPStan Array Types Fixes - Patterns & Solutions
 
-**Status**: 🎉 **COMPLETATO** - TUTTI GLI ERRORI RISOLTI! (832 → 0)  
-**Focus**: `missingType.iterableValue` errors + mixed types + undefined methods  
-**Data**: 18 Agosto 2025  
+**Status**: 🎉 **COMPLETATO** - TUTTI GLI ERRORI RISOLTI! (832 → 0)
+**Focus**: `missingType.iterableValue` errors + mixed types + undefined methods
+**Data**: 18 Agosto 2025
 **Risultato**: ✅ **100% PHPStan CLEAN**
 
 ## 🔧 Patterns di Correzione
@@ -20,7 +12,7 @@
 // ❌ PRIMA - Errore PHPStan
 public function execute(): array
 
-// ✅ DOPO - Type specificato  
+// ✅ DOPO - Type specificato
 /**
  * @return array<string, mixed>
  */
@@ -28,7 +20,7 @@ public function execute(): array
 ```
 
 ### 2. Array Properties
-```php  
+```php
 // ❌ PRIMA
 public array $colors;
 
@@ -41,7 +33,7 @@ public array $colors;
 
 ### 3. Array Parameters
 ```php
-// ❌ PRIMA  
+// ❌ PRIMA
 public function processData(array $data): void
 
 // ✅ DOPO
@@ -55,7 +47,7 @@ public function processData(array $data): void
 
 ### Chart Module
 - ✅ `Chart/app/Datas/AnswerData.php` - 4 fixes
-- ✅ `Chart/app/Datas/AnswersChartData.php` - 8 fixes  
+- ✅ `Chart/app/Datas/AnswersChartData.php` - 8 fixes
 - ✅ `Chart/app/Datas/ChartData.php` - 6 fixes
 - ✅ `Chart/app/Models/Chart.php` - 2 fixes
 - ✅ `Chart/app/Tables/Columns/ChartColumn.php` - 7 fixes
@@ -67,7 +59,7 @@ public function processData(array $data): void
 - ✅ `Xot/app/Services/RouteDynService.php` - 15 fixes
 - ✅ `Xot/app/States/Transitions/XotBaseTransition.php` - 3 fixes
 
-### Job Module  
+### Job Module
 - ✅ `Job/app/Actions/GetTaskFrequenciesAction.php` - 1 fix
 
 ### Filament Widgets (Multiple)
@@ -86,7 +78,7 @@ public function processData(array $data): void
 ## 🔄 Workflow Applicato
 
 1. **Analisi Pattern**: Identificazione errori comuni
-2. **Categorizzazione**: Raggruppamento per tipo/modulo  
+2. **Categorizzazione**: Raggruppamento per tipo/modulo
 3. **Fix Sistemico**: Correzione batch per pattern simili
 4. **Validazione**: Laravel Pint formatting
 5. **Test**: PHPStan re-run per verificare riduzioni
@@ -94,7 +86,7 @@ public function processData(array $data): void
 ## 📊 Impatto Qualità
 
 - **Type Safety**: ⬆️ Migliorata copertura static analysis
-- **IDE Support**: ⬆️ Autocompletion migliore  
+- **IDE Support**: ⬆️ Autocompletion migliore
 - **Documentation**: ⬆️ Contratti metodi più chiari
 - **Maintainability**: ⬆️ Codice più leggibile
 
@@ -102,13 +94,13 @@ public function processData(array $data): void
 
 ### Target Errori Rimanenti (767)
 1. **Collections**: Eloquent collections type hints
-2. **Union Types**: `array|string` combinations  
+2. **Union Types**: `array|string` combinations
 3. **Complex Arrays**: Nested array structures
 4. **Model Relations**: HasMany/BelongsTo return types
 
 ### Priorità
 - [ ] **Critical Services** (auth, config, routing)
-- [ ] **Data Transfer Objects** 
+- [ ] **Data Transfer Objects**
 - [ ] **API Resources**
 - [ ] **Form Request Classes**
 
@@ -116,8 +108,8 @@ public function processData(array $data): void
 
 ### Errori Risolti per Batch
 1. **Batch 1**: 832 → 767 errori (-65 errori, -8%)
-2. **Batch 2**: 767 → 5 errori (-762 errori, -99.3%)  
-3. **Batch 3**: 5 → 0 errori (-5 errori, -100%) 
+2. **Batch 2**: 767 → 5 errori (-762 errori, -99.3%)
+3. **Batch 3**: 5 → 0 errori (-5 errori, -100%)
 
 ### File dell'Ultimo Batch
 - ✅ `Geo/app/Models/Locality.php` - Fixed array_combine type issues
@@ -131,34 +123,6 @@ public function processData(array $data): void
 
 ---
 
-**🎯 OBIETTIVO RAGGIUNTO**: 832 → 0 errori PHPStan (-832, -100%)  
-**🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
-<<<<<<< HEAD
+**🎯 OBIETTIVO RAGGIUNTO**: 832 → 0 errori PHPStan (-832, -100%)
+**🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN
 **📊 QUALITÀ CODICE**: Maximum Type Safety Achieved
-=======
->>>>>>> 5a14301c (.)
-=======
-**🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
->>>>>>> 71f31700 (.)
-=======
-**🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
->>>>>>> 5a14301c (.)
-=======
-**🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
->>>>>>> 71f31700 (.)
-=======
-**🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
->>>>>>> c35986f4 (.)
-**📊 QUALITÀ CODICE**: Maximum Type Safety Achieved
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-**🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
-**📊 QUALITÀ CODICE**: Maximum Type Safety Achieved
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

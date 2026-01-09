@@ -2,23 +2,7 @@
 
 ## 🎯 Overview
 
-<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <main module> e conformi ai principi del framework Laraxot.
-=======
-Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
->>>>>>> 71f31700 (.)
-=======
-Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
->>>>>>> 71f31700 (.)
-=======
-Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
 
 ## 📚 Principi Fondamentali
 
@@ -28,7 +12,7 @@ Le factory base che devono essere estese dovrebbero usare template generics:
 ```php
 /**
  * UserFactory for module.
- * 
+ *
  * @template TModel of \Modules\ModuleName\Models\User
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<TModel>
  */
@@ -47,7 +31,7 @@ Le factory che estendono altre factory NON devono usare generics in `@extends`:
 ```php
 /**
  * AdminFactory extends UserFactory.
- * 
+ *
  * @extends \Modules\ModuleName\Database\Factories\UserFactory
  */
 class AdminFactory extends UserFactory
@@ -280,29 +264,6 @@ $result = $string . (string) $faker->method();
 ## 📝 Esempi Pratici
 
 ### Correzione Completa UserFactory
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Vedere: `Modules/<main module>/database/factories/UserFactory.php`
-=======
-Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
->>>>>>> 53d6a6ba (.)
-
-### Factory Specializzate Corrette
-Vedere:
-- `Modules/SaluteOra/database/factories/AdminFactory.php`
-- `Modules/SaluteOra/database/factories/DoctorFactory.php`
-- `Modules/SaluteOra/database/factories/PatientFactory.php`
-
-### Documentazione Implementazione
-<<<<<<< HEAD
-Vedere: `Modules/<main module>/docs/factories/phpstan-factory-compliance.md`
-=======
-=======
->>>>>>> 71f31700 (.)
->>>>>>> 285375c74 (.)
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -313,16 +274,6 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
 
 ## 📊 Metriche di Successo
 
@@ -333,4 +284,4 @@ Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
-*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+*

@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
->>>>>>> dc2130a7c (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -55,14 +37,14 @@ test('widget can be rendered', function () {
 function mockXotData(): void
 {
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
-    
+
     $mockXotData->shouldReceive('getUserClass')
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
-        
+
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
-    
+
     // ✅ CRITICO: Bind nel container
     app()->instance(\Modules\Xot\Datas\XotData::class, $mockXotData);
 }
@@ -146,7 +128,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
    - Content presence
    - Layout structure
 
-2. **Middleware** (Raccomandato) 
+2. **Middleware** (Raccomandato)
    - Authentication flow
    - Authorization checks
    - Redirect behavior
@@ -181,7 +163,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 - ✅ **Performance**: < 5 secondi per test suite
 - ✅ **Architecture**: Separazione rispettata
 
-### Gold Standard Criteria  
+### Gold Standard Criteria
 - ✅ **Success Rate**: > 90% test passati
 - ✅ **Zero Warnings**: Nessun warning PHP/Pest
 - ✅ **Performance**: < 3 secondi per test suite
@@ -200,7 +182,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 # Execution time monitoring
 ./vendor/bin/pest -v {TestFile} | grep -E "(seconds|ms)"
 
-# Success rate calculation  
+# Success rate calculation
 ./vendor/bin/pest {TestFile} --compact
 
 # Memory usage monitoring
@@ -229,54 +211,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 
 ---
 
-**Status**: ✅ Best Practices Validate  
-**Enforcement**: Obbligatorio per tutti i test  
+**Status**: ✅ Best Practices Validate
+**Enforcement**: Obbligatorio per tutti i test
 **Version**: 1.0 - Gold Standard
-<<<<<<< HEAD
-**Last Update**: Dicembre 2024 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Last Update**: Dicembre 2024 
-=======
->>>>>>> 43d67f21 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 5a14301c (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 53d6a6ba (.)
-<<<<<<< HEAD
->>>>>>> 285375c74 (.)
-=======
-=======
->>>>>>> 71586de2 (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
-**Last Update**: Dicembre 2024 
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
+**Last Update**: Dicembre 2024

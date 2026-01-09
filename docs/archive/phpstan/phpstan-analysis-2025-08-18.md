@@ -2,35 +2,19 @@
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
-<<<<<<< HEAD
-**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
-=======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 71f31700 (.)
-=======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 71f31700 (.)
-=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 **NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
+**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 
 ## Analisi Completa
 
-**Totale Errori**: 776  
-**Livello PHPStan**: 9  
+**Totale Errori**: 776
+**Livello PHPStan**: 9
 **Data Analisi**: 18 Agosto 2025
 
 ## Categorizzazione Errori
@@ -45,7 +29,7 @@ array $data
 Collection $items
 public function method(array $params): array
 
-// ✅ CORRETTO  
+// ✅ CORRETTO
 array<string, mixed> $data
 Collection<int, Model> $items
 public function method(array<string, mixed> $params): array<int, string>
@@ -80,23 +64,12 @@ Accesso a proprietà non definite nei modelli.
 - Modelli User/Profile
 - Contratti e interfacce
 
-<<<<<<< HEAD
-### 3. **SaluteMo** (Applicazione) - 15% errori
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
-=======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
->>>>>>> 71f31700 (.)
-=======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
->>>>>>> 71f31700 (.)
-=======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
->>>>>>> cc7fb225 (.)
->>>>>>> dc2130a7c (.)
+### 3. **SaluteMo** (Applicazione) - 15% errori
+### 3. **SaluteMo** (Applicazione) - 15% errori
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -125,28 +98,18 @@ Accesso a proprietà non definite nei modelli.
 4. `User/app/Models/Profile.php` - Metodi e proprietà
 
 ### Priorità 3 (Applicazione)
-<<<<<<< HEAD
-1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
-2. `SaluteMo/app/Models/*` - Proprietà e relazioni
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
 2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
-=======
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
->>>>>>> 71f31700 (.)
-=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
->>>>>>> 71f31700 (.)
-=======
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
->>>>>>> cc7fb225 (.)
->>>>>>> dc2130a7c (.)
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -157,23 +120,12 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 ### Fase 2: Autenticazione (User)
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
-<<<<<<< HEAD
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
-=======
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
->>>>>>> 71f31700 (.)
-=======
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
->>>>>>> 71f31700 (.)
-=======
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
->>>>>>> cc7fb225 (.)
->>>>>>> dc2130a7c (.)
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale
@@ -255,7 +207,7 @@ class MyModel extends BaseModel
 ## Timeline Stimata
 
 - **Fase 1 (Xot)**: 2-3 ore
-- **Fase 2 (User)**: 1-2 ore  
+- **Fase 2 (User)**: 1-2 ore
 - **Fase 3 (Applicazione)**: 3-4 ore
 - **Fase 4 (Verifica)**: 1 ora
 
@@ -263,6 +215,6 @@ class MyModel extends BaseModel
 
 ---
 
-**Stato**: 🔄 Analisi Completata - Correzioni in Corso  
-**phpstan.neon**: ✅ INTOCCATO  
+**Stato**: 🔄 Analisi Completata - Correzioni in Corso
+**phpstan.neon**: ✅ INTOCCATO
 **Approccio**: DRY + KISS + Type Safety

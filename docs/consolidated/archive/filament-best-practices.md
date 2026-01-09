@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -63,35 +57,7 @@ public static function getFormSchema(): array
 
 ```php
 // NON FARE MAI QUESTO
-<<<<<<< HEAD
 public static function form(Form $form): Form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 5a14301c (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 399f46d3 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 17684f52 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 {
     return $form->schema([
         // componenti...
@@ -156,11 +122,11 @@ use Modules\Brain\Models\Socio;
 class SocioResource extends XotBaseResource
 {
     protected static ?string $model = Socio::class;
-    
+
     protected static ?string $navigationIcon = 'heroicon-o-user';
-    
+
     protected static ?int $navigationSort = 1;
-    
+
     // Form Schema - CORRETTO ✅
     public static function getFormSchema(): array
     {
@@ -168,24 +134,24 @@ class SocioResource extends XotBaseResource
             TextInput::make('cognome')
                 ->required()
                 ->maxLength(255),
-            
+
             TextInput::make('nome')
                 ->required()
                 ->maxLength(255),
-            
+
             DatePicker::make('data_nascita'),
-            
+
             TextInput::make('email')
                 ->email()
                 ->required(),
-            
+
             Select::make('id_stato_socio')
                 ->relationship('statoSocio', 'descrizione'),
-            
+
             Toggle::make('is_attivo'),
         ];
     }
-    
+
     // Table - CORRETTO ✅
     public static function table(\Filament\Tables\Table $table): \Filament\Tables\Table
     {
@@ -194,21 +160,21 @@ class SocioResource extends XotBaseResource
                 TextColumn::make('cognome')
                     ->sortable()
                     ->searchable(),
-                
+
                 TextColumn::make('nome')
                     ->sortable()
                     ->searchable(),
-                
+
                 TextColumn::make('sezione.descrizione'),
-                
+
                 TextColumn::make('statoSocio.descrizione'),
-                
+
                 BooleanColumn::make('is_attivo'),
             ])
             ->filters([
                 SelectFilter::make('id_stato_socio')
                     ->relationship('statoSocio', 'descrizione'),
-                
+
                 SelectFilter::make('id_sezione')
                     ->relationship('sezione', 'descrizione'),
             ])
@@ -218,7 +184,7 @@ class SocioResource extends XotBaseResource
                 Action::make('delete'),
             ]);
     }
-    
+
     // Query Scope - CORRETTO ✅
     public static function getEloquentQuery(): Builder
     {
@@ -241,7 +207,7 @@ return [
     'navigation_icon' => 'heroicon-o-user',
     'navigation_sort' => 1,
     'description' => 'Gestione completa dei soci',
-    
+
     'fields' => [
         'id_socio' => [
             'label' => 'ID Socio',
@@ -279,7 +245,7 @@ return [
             'tooltip' => 'Indica se il socio è attualmente attivo'
         ]
     ],
-    
+
     'actions' => [
         'create' => [
             'label' => 'Nuovo Socio',
@@ -306,7 +272,7 @@ return [
             'tooltip' => 'Rimuovi questo socio dal sistema'
         ]
     ],
-    
+
     'sections' => [
         'personal_data' => [
             'label' => 'Dati Personali',
@@ -321,13 +287,13 @@ return [
             'tooltip' => 'Dettagli relativi all\'iscrizione'
         ]
     ],
-    
+
     'messages' => [
         'created' => 'Socio creato con successo',
         'updated' => 'Socio aggiornato con successo',
         'deleted' => 'Socio eliminato con successo'
     ],
-    
+
     'table' => [
         'empty_text' => 'Nessun socio trovato',
         'search_prompt' => 'Cerca soci...'
@@ -354,7 +320,7 @@ public static function getFormSchema(): array
                         TextInput::make('nome')->required(),
                         DatePicker::make('data_nascita'),
                     ]),
-                
+
                 Forms\Components\Tabs\Tab::make(trans('socio-resource.sections.contact_info.label'))
                     ->icon('heroicon-o-mail')
                     ->schema([
@@ -379,13 +345,13 @@ Forms\Components\Section::make(trans('socio-resource.sections.personal_data.labe
                 TextInput::make('cognome')
                     ->required()
                     ->columnSpan(1),
-                
+
                 TextInput::make('nome')
                     ->required()
                     ->columnSpan(1),
             ])
             ->columns(2),
-            
+
         DatePicker::make('data_nascita')
             ->columnSpan('full'),
     ])
@@ -413,11 +379,11 @@ Per validazioni più complesse, utilizzare i metodi rules() o rule():
 ```php
 DatePicker::make('data_nascita')
     ->rules([
-        'required', 
-        'date', 
+        'required',
+        'date',
         'before:today'
     ])
-    
+
 TextInput::make('codice_fiscale')
     ->rule(fn() => function (string $attribute, $value, \Closure $fail) {
         if (!Str::isValidCF($value)) {
@@ -530,8 +496,8 @@ public static function getEloquentQuery(): Builder
 {
     return parent::getEloquentQuery()
         ->with([
-            'sezione', 
-            'statoSocio', 
+            'sezione',
+            'statoSocio',
             'convenzioni',
         ]);
 }
@@ -559,7 +525,6 @@ public static function table(Table $table): Table
 - [Filament Docs](https://filamentphp.com/docs)
 - [Best practices moduli riutilizzabili](../module-documentation-neutrality.md)
 - [Ereditarietà modelli](../model-inheritance-best-practices.md)
-
 
 ### Problema: Form non visualizzato correttamente
 
@@ -596,7 +561,7 @@ use Modules\Brain\Models\Socio;
 class SocioResource extends XotBaseResource
 {
     protected static ?string $model = Socio::class;
-    
+
     public static function getFormSchema(): array
     {
         return [
@@ -604,7 +569,7 @@ class SocioResource extends XotBaseResource
             TextInput::make('cognome')->required(),
         ];
     }
-    
+
     public static function table(\Filament\Tables\Table $table): \Filament\Tables\Table
     {
         return $table
@@ -636,183 +601,13 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 
 ### Esempio corretto
 ```php
-<<<<<<< HEAD
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
-<<<<<<< HEAD
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 472bd9dc (.)
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
-protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 76bec91a (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
-<<<<<<< HEAD
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
-<<<<<<< HEAD
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 472bd9dc (.)
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
-protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 5a14301c (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 43d67f21 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> b7ea1cd1 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cf971011 (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 76bec91a (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> cc52d333 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
->>>>>>> 55fe1822 (.)
->>>>>>> 99c0b3329 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -866,13 +661,3 @@ Appointment::where('doctor_id', $doctorId)
 - Un solo punto di verità: nessuna duplicazione, nessun lock-in
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
-
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

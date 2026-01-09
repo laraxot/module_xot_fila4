@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Gestione delle Eccezioni
 
 Questo documento fornisce una panoramica del sistema di gestione delle eccezioni nel modulo Xot.
@@ -38,35 +32,7 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 ## Collegamenti
 - [Exception Handling Guidelines](../EXCEPTION-HANDLING-GUIDE.md)
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
-<<<<<<< HEAD
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 5a14301c (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 399f46d3 (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 5a14301c (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 399f46d3 (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 17684f52 (.)
-=======
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/project_docs/README.md)
 * [README.md](bashscripts/project_docs/it/README.md)
@@ -144,13 +110,3 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 * [README.md](../../../Cms/project_docs/components/README.md)
 * [README.md](../../../../Themes/Two/project_docs/README.md)
 * [README.md](../../../../Themes/One/project_docs/README.md)
-
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

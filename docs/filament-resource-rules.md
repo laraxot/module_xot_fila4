@@ -1,70 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 17684f52 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
-# Regole per le Risorse Filament in 
+# Regole per le Risorse Filament in
 
 ## Panoramica
 
@@ -73,95 +7,6 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 ## Estensione di XotBaseResource
 
 Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Regole per le Risorse Filament in <nome progetto>
-
-## Panoramica
-
-Questo documento definisce le regole fondamentali per l'implementazione delle risorse Filament nel progetto <nome progetto>. Seguire queste linee guida è essenziale per garantire coerenza, manutenibilità e prestazioni ottimali dell'applicazione.
-
-## Estensione di XotBaseResource
-
-Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
-=======
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> d86d643a (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 7131bd09 (.)
-=======
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
-=======
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -171,51 +16,6 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 ## Estensione di XotBaseResource
 
 Tutte le risorse Filament in SaluteOra **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
-# Regole per le Risorse Filament in <nome progetto>
-
-## Panoramica
-
-Questo documento definisce le regole fondamentali per l'implementazione delle risorse Filament nel progetto <nome progetto>. Seguire queste linee guida è essenziale per garantire coerenza, manutenibilità e prestazioni ottimali dell'applicazione.
-
-## Estensione di XotBaseResource
-
-Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 
 ```php
 // ✅ CORRETTO
@@ -261,61 +61,9 @@ public static function getModelLabel(): string
 ### Metodi di Tabella
 
 ```php
-<<<<<<< HEAD
 // ❌ NON DICHIARARE QUESTI METODI
 public static function table(Table $table): Table
 public static function getListTableColumns(): array
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-// ❌ NON DICHIARARE QUESTI METODI NELLE RESOURCE
-public static function table(Table $table): Table
-public static function getListTableColumns(): array
-public static function getTableColumns(): array  // QUESTO METODO VA NELLA PAGINA LIST!
-public static function getTableFilters(): array  // QUESTO METODO VA NELLA PAGINA LIST!
-public static function getTableActions(): array  // QUESTO METODO VA NELLA PAGINA LIST!
-public static function getTableBulkActions(): array  // QUESTO METODO VA NELLA PAGINA LIST!
-
-// ✅ QUESTI METODI VANSOLO NELLE PAGINE LIST (es. ListRecords.php)
-public function getTableColumns(): array { /* implementazione */ }
-public function getTableFilters(): array { /* implementazione */ }
-public function getTableActions(): array { /* implementazione */ }
-public function getTableBulkActions(): array { /* implementazione */ }
-=======
-// ❌ NON DICHIARARE QUESTI METODI
-public static function table(Table $table): Table
-public static function getListTableColumns(): array
->>>>>>> 5a14301c (.)
-=======
-// ❌ NON DICHIARARE QUESTI METODI
-public static function table(Table $table): Table
-public static function getListTableColumns(): array
->>>>>>> 71f31700 (.)
-=======
-// ❌ NON DICHIARARE QUESTI METODI
-public static function table(Table $table): Table
-public static function getListTableColumns(): array
->>>>>>> 5a14301c (.)
-=======
-// ❌ NON DICHIARARE QUESTI METODI
-public static function table(Table $table): Table
-public static function getListTableColumns(): array
->>>>>>> 71f31700 (.)
-=======
-// ❌ NON DICHIARARE QUESTI METODI
-public static function table(Table $table): Table
-public static function getListTableColumns(): array
->>>>>>> c35986f4 (.)
-=======
-// ❌ NON DICHIARARE QUESTI METODI
-public static function table(Table $table): Table
-public static function getListTableColumns(): array
->>>>>>> ab8cc3f3 (.)
->>>>>>> 48515e368 (.)
 ```
 
 ## Cosa Dichiarare
@@ -427,11 +175,11 @@ class DoctorResource extends XotBaseResource
             'first_name' => Forms\Components\TextInput::make('first_name')
                 ->required()
                 ->maxLength(255),
-                
+
             'last_name' => Forms\Components\TextInput::make('last_name')
                 ->required()
                 ->maxLength(255),
-                
+
             'email' => Forms\Components\TextInput::make('email')
                 ->email()
                 ->required()
@@ -443,85 +191,9 @@ class DoctorResource extends XotBaseResource
 
 ## Documentazione Correlata
 
-<<<<<<< HEAD
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
-<<<<<<< HEAD
-=======
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> 7131bd09 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Filament Form Builder](/docs/filament-form-builder.md)
-- [Gestione delle Traduzioni](/docs/translation-management.md)
-- [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
->>>>>>> ab8cc3f3 (.)
-=======
-- [Filament Form Builder](/project_docs/filament-form-builder.md)
-- [Gestione delle Traduzioni](/project_docs/translation-management.md)
-- [Estensione delle Classi Filament](/project_docs/filament-extension-pattern.md)
->>>>>>> f1d4085 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ed734516 (.)
-=======
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> ab8cc3f3 (.)
-=======
-- [Filament Form Builder](/docs/filament-form-builder.md)
-- [Gestione delle Traduzioni](/docs/translation-management.md)
-- [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 71f31700 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> c35986f4 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
-=======
->>>>>>> 300ef70 (.)
->>>>>>> 6dcebf8a (.)
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Testing Strategy: MySQL-Based Testing Without RefreshDatabase
 
 ## Overview
@@ -90,13 +88,13 @@ protected function setUp(): void
 test('user can login', function () {
     // Arrange
     $user = User::factory()->create();
-    
+
     // Act & Assert
     $this->post('/login', [
         'email' => $user->email,
         'password' => 'password'
     ])->assertRedirect('/dashboard');
-    
+
     // Cleanup (if needed)
     $user->forceDelete();
 });
@@ -159,21 +157,6 @@ Our current MySQL-based testing approach without `RefreshDatabase` provides the 
 
 ## Additional Resources
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
->>>>>>> b9c66c44e (.)
-=======
-- [Laravel Testing Documentation](https://laravel.com/docs/testing)
-=======
-- [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
->>>>>>> 6cba4fe (.)
->>>>>>> ba6c53070 (.)
 - [Database Testing Best Practices](https://laracasts.com/series/phpunit-testing-in-laravel-6)
 - [Testing Strategies for Laravel Applications](https://tighten.co/blog/5-questions-every-laravel-test-answers)
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)

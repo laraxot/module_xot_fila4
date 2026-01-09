@@ -47,11 +47,7 @@ public static function getInstance(): self
 abstract class BaseModel extends Model implements ModelContract, HasMedia
 {
     use Cachable;
-<<<<<<< HEAD
-    use \Modules\Xot\Models\Traits\HasXotFactory;
-=======
     use HasFactory;
->>>>>>> dc2130a7c (.)
     use Updater;
     use HasExtraTrait;
     use InteractsWithMedia;
@@ -68,17 +64,13 @@ abstract class BaseModel extends Model implements ModelContract, HasMedia
 **File**: `Modules/User/app/Models/BaseUser.php`
 
 ```php
-abstract class BaseUser extends Authenticatable implements 
+abstract class BaseUser extends Authenticatable implements
     HasMedia, HasName, HasTenants, MustVerifyEmail, UserContract
 {
     use HasApiTokens;
     use HasAuthenticationLogTrait;
     use HasChildren;
-<<<<<<< HEAD
-    use \Modules\Xot\Models\Traits\HasXotFactory;
-=======
     use HasFactory;
->>>>>>> dc2130a7c (.)
     use HasPermissions;
     use HasRoles;
     use HasTeams;
@@ -232,10 +224,10 @@ public function customer(): HasOneThrough
 class QuaerisServiceProvider extends XotBaseServiceProvider
 {
     public string $name = 'Quaeris';
-    
+
     protected string $module_dir = __DIR__;
     protected string $module_ns = __NAMESPACE__;
-    
+
     public function register(): void
     {
         parent::register();
@@ -335,13 +327,9 @@ trait SingletonTrait
 ```php
 abstract class BaseModel extends Model implements ModelContract
 {
-<<<<<<< HEAD
-    use \Modules\Xot\Models\Traits\HasXotFactory;
-=======
     use HasFactory;
->>>>>>> dc2130a7c (.)
     use Updater;
-    
+
     // Rimuovere: Cachable, HasExtraTrait, InteractsWithMedia
     // Creare trait specifici per ogni concern
 }
@@ -447,7 +435,7 @@ return [
 
 ---
 
-**Data Analisi**: 2025-01-06  
-**Analista**: AI Code Review System  
-**Priorità**: CRITICA - Richiede intervento immediato  
+**Data Analisi**: 2025-01-06
+**Analista**: AI Code Review System
+**Priorità**: CRITICA - Richiede intervento immediato
 **Stima Effort**: 40-60 ore di refactoring

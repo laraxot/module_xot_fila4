@@ -4,110 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Interfaces;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6dcebf8a (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 300ef70 (.)
-use Filament\Actions\BulkAction;
-use Filament\Tables\Columns\Column;
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-<<<<<<< HEAD
->>>>>>> 48515e368 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
-<<<<<<< HEAD
-=======
-=======
-use Filament\Actions\BulkAction;
-=======
-use Filament\Actions\BulkAction;
->>>>>>> 3fbbf1f5 (.)
-use Filament\Tables\Columns\Column;
-use Filament\Actions\Action;
->>>>>>> 5a14301c (.)
-=======
-=======
->>>>>>> ed734516 (.)
-=======
->>>>>>> 21348520 (.)
-=======
->>>>>>> 3fbbf1f5 (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
->>>>>>> 7131bd09 (.)
-=======
->>>>>>> 88ea7103 (.)
-=======
->>>>>>> 3310e9c6 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-use Filament\Actions\BulkAction;
-use Filament\Tables\Columns\Column;
-use Filament\Actions\Action;
->>>>>>> 5a14301c (.)
-=======
-use Filament\Actions\Action;
-use Filament\Actions\BulkAction;
-use Filament\Tables\Columns\Column;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 300ef70 (.)
-use Filament\Actions\BulkAction;
-use Filament\Tables\Columns\Column;
->>>>>>> d2b0a27 (.)
-use Filament\Actions\Action;
-use Filament\Actions\BulkAction;
-use Filament\Tables\Columns\Column;
->>>>>>> a6ef6dc7 (.)
->>>>>>> b7afadf9 (.)
->>>>>>> 8b18e4bff (.)
-=======
-use Filament\Actions\Action;
-use Filament\Actions\BulkAction;
-use Filament\Tables\Columns\Column;
->>>>>>> 50c0e1043 (.)
 
 interface HasTableFunctions
 {
@@ -128,23 +27,7 @@ interface HasTableFunctions
     /**
      * Get the table bulk actions.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, BulkAction>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @return array<string, BulkAction>
-=======
-     * @return array<string, \Filament\Actions\BulkAction>
->>>>>>> f1d4085 (.)
-=======
-     * @return array<string, BulkAction>
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     * @return array<string, BulkAction>
->>>>>>> 300ef70 (.)
      */
     public function getTableBulkActions(): array;
 }

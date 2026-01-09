@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Errore Cache Path Mancante
 
 ## Descrizione dell'Errore
@@ -46,26 +44,5 @@ Per prevenire questo errore in futuro:
 3. Utilizzare il pattern try-catch quando si accede alla cache in punti critici del sistema
 
 ## Riferimenti
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione Laravel Cache](https://laravel.com/project_docs/cache)
-- [Documentazione Xot Component System](../structure.md) 
-=======
-- [Documentazione Laravel Cache](https://laravel.com/docs/cache)
-- [Documentazione Xot Component System](../structure.md) 
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> dc2130a7c (.)
-=======
-- [Documentazione Laravel Cache](https://laravel.com/docs/cache)
-=======
-- [Documentazione Laravel Cache](https://laravel.com/project_docs/cache)
->>>>>>> 6cba4fe (.)
-- [Documentazione Xot Component System](../structure.md) 
->>>>>>> ba6c53070 (.)
-=======
->>>>>>> 285375c74 (.)
-=======
-- [Documentazione Laravel Cache](https://laravel.com/docs/cache)
->>>>>>> 99c0b3329 (.)
+- [Documentazione Xot Component System](../structure.md)

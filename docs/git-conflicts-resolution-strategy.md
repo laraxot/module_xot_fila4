@@ -2,23 +2,15 @@
 
 ## Contesto
 
-**Data analisi:** 2025-01-27  
-**File con conflitti identificati:** 586 file PHP  
+**Data analisi:** 2025-01-27
+**File con conflitti identificati:** 586 file PHP
 **Approccio:** Risoluzione manuale focalizzata su business logic
 
 ## Business Logic e Motivazioni
 
 ### Perché i Conflitti Esistono
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
-=======
-I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
->>>>>>> 53d6a6ba (.)
-=======
-I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
->>>>>>> 71586de2 (.)
 
 1. **Bloccano l'esecuzione**: File con marker non sono validi PHP
 2. **Degradano qualità**: PHPStan e linter falliscono
@@ -41,7 +33,7 @@ I conflitti Git presenti nel codice sono **residui di merge passati non completa
 
 ### Priorità 1: Test Files (Business Logic Critica)
 
-**Focus:** File in `Modules/*/tests/`  
+**Focus:** File in `Modules/*/tests/`
 **Motivazione:** Test definiscono comportamento atteso del sistema
 
 **Pattern di risoluzione:**
@@ -57,7 +49,7 @@ I conflitti Git presenti nel codice sono **residui di merge passati non completa
 
 ### Priorità 2: Modelli e Business Logic
 
-**Focus:** File in `Modules/*/app/Models/`  
+**Focus:** File in `Modules/*/app/Models/`
 **Motivazione:** Core business domain
 
 **Checklist risoluzione:**
@@ -69,7 +61,7 @@ I conflitti Git presenti nel codice sono **residui di merge passati non completa
 
 ### Priorità 3: Services e Actions
 
-**Focus:** File in `Modules/*/app/Services/`, `Modules/*/app/Actions/`  
+**Focus:** File in `Modules/*/app/Services/`, `Modules/*/app/Actions/`
 **Motivazione:** Logica applicativa
 
 **Pattern preferito:**
@@ -79,7 +71,7 @@ I conflitti Git presenti nel codice sono **residui di merge passati non completa
 
 ### Priorità 4: Resources Filament
 
-**Focus:** File in `Modules/*/app/Filament/Resources/`  
+**Focus:** File in `Modules/*/app/Filament/Resources/`
 **Motivazione:** UI admin
 
 **Regole architetturali:**
@@ -153,24 +145,9 @@ public function test_example() {
 
 ### Fase 1: Analisi File
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Identifico conflitti
 
 # Conto sezioni conflittuali
-=======
-```bash
-=======
->>>>>>> 71586de2 (.)
-# Identifico conflitti
-
-# Conto sezioni conflittuali
-<<<<<<< HEAD
-grep -c "<<<<<<< HEAD" file.php
-```
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
 
 ### Fase 2: Decisione Strategica
 
@@ -205,20 +182,8 @@ grep -c "<<<<<<< HEAD" file.php
 - **Performance:** Test suite < 30 secondi
 
 ### Tracking
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 # Conta conflitti rimanenti
-=======
-```bash
-# Conta conflitti rimanenti
-find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc -l
-```
->>>>>>> 53d6a6ba (.)
-=======
-
-# Conta conflitti rimanenti
->>>>>>> 71586de2 (.)
 
 ## Best Practices Emerse
 
@@ -253,21 +218,7 @@ I conflitti sono stati causati da:
 ### Prevenzione Futura
 
 **Git Hooks:**
-<<<<<<< HEAD
-<<<<<<< HEAD
 # pre-commit: blocca commit con conflitti
-=======
-```bash
-# pre-commit: blocca commit con conflitti
-if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; then
-    echo "ERRORE: Conflitti Git non risolti trovati!"
-    exit 1
-fi
-```
->>>>>>> 53d6a6ba (.)
-=======
-# pre-commit: blocca commit con conflitti
->>>>>>> 71586de2 (.)
 
 **CI/CD:**
 - Aggiungere check per marker conflitti
@@ -306,4 +257,3 @@ fi
 ---
 
 **Nota:** Questa documentazione è VIVA. Aggiungo pattern, lezioni, esempi man mano che risolvo conflitti.
-

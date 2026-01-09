@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # PSR-4 Compliance per Test - Modulo Xot
 
 ## Problema Identificato
@@ -42,20 +36,20 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Helper class for testing HasExtraTrait.
  */
-class TestExtra extends Model implements ExtraContract 
+class TestExtra extends Model implements ExtraContract
 {
     protected $table = 'test_extras';
-    
+
     /** @var list<string> */
     protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
-    
+
     protected function casts(): array
     {
         return [
             'extra_attributes' => 'collection',
         ];
     }
-    
+
     public function model()
     {
         return $this->morphTo();
@@ -104,42 +98,14 @@ composer dump-autoload
 
 - **Problema**: Classe `TestExtra` senza namespace appropriato
 - **Soluzione**: Aggiunto `namespace Modules\Xot\Tests\Unit;`
-- **Miglioramenti**: 
+- **Miglioramenti**:
   - Documentazione PHPDoc completa
   - Tipizzazione esplicita per proprietà `$fillable`
   - Type hints per metodi
 
 ## Collegamenti
 
-<<<<<<< HEAD
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Testing Guide - Modulo <nome modulo>](../../<nome modulo>/project_docs/testing.md)
-=======
-- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
->>>>>>> 5a14301c (.)
-=======
-- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
->>>>>>> 399f46d3 (.)
-=======
-- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
->>>>>>> 5a14301c (.)
-=======
-- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
->>>>>>> 399f46d3 (.)
-=======
-- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
->>>>>>> 17684f52 (.)
-=======
-- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 - [PHPStan Configuration](./phpstan-configuration-fixes.md)
 - [Best Practices](./best-practices-consolidated.md)
 
@@ -147,13 +113,3 @@ composer dump-autoload
 
 *Ultimo aggiornamento: 2025-01-06*
 *Conformità: PSR-4, PHPStan livello 9+, Laraxot standards*
-
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)

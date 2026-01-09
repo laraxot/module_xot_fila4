@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Problemi di Configurazione Variabili d'Ambiente - Modulo Xot
 
 ## Problema: env() non funziona durante il bootstrap
@@ -18,7 +16,7 @@ public function forceSSL(): bool
         'config'=>config('xra.force_ssl'), // null
         'xotdata'=>$this->force_ssl,    // false
     ]);
-    
+
     return false;
 }
 ```
@@ -73,7 +71,7 @@ public static function make(): self
     if (! self::$instance) {
         $data = TenantService::getConfig('xra');
         self::$instance = self::from($data);
-        
+
         // Ricarica valori env() dopo il bootstrap
         self::$instance->force_ssl = config('xra.force_ssl', env('FORCE_SSL', false));
     }
@@ -95,13 +93,13 @@ public static function make(): self
 class XotData extends Data
 {
     public bool $force_ssl = false; // Valore di default
-    
+
     public function forceSSL(): bool
     {
         // Caricamento lazy con fallback
         return config('xra.force_ssl', env('FORCE_SSL', $this->force_ssl));
     }
-    
+
     public function getConfigValue(string $key, $default = null)
     {
         // Pattern generico per configurazioni env()
@@ -140,15 +138,5 @@ php artisan config:cache
 - [TenantService.php](/laravel/Modules/Tenant/app/Services/TenantService.php)
 - [xra.php](/laravel/config/localhost/xra.php)
 - [Documentazione Root](/docs/env-config-loading-issue.md)
-<<<<<<< HEAD
-=======
-- [Documentazione Root](/project_docs/env-config-loading-issue.md)
->>>>>>> b9c66c44e (.)
-=======
->>>>>>> 99c0b3329 (.)
 
-*Ultimo aggiornamento: 2025-01-06* 
-=======
->>>>>>> dc2130a7c (.)
-=======
->>>>>>> 285375c74 (.)
+*Ultimo aggiornamento: 2025-01-06*

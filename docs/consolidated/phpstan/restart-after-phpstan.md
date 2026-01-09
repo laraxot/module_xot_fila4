@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
 # Guida al Riavvio del Sistema Dopo Validazione PHPStan
 
 ## Introduzione
@@ -39,119 +34,11 @@ composer dump-autoload
 ### 2. Riavvio dei Servizi Web
 
 ```bash
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-=======
-# Riavvio del server web (Apache/Nginx)
-sudo systemctl restart apache2
->>>>>>> a5dccfe (.)
-
->>>>>>> 6821f7a (.)
->>>>>>> 6d05deed (.)
-# Riavvio del server web (Apache/Nginx)
-sudo systemctl restart apache2
-=======
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> e7da37af (.)
-=======
-# Riavvio del server web (Apache/Nginx)
-sudo systemctl restart apache2
->>>>>>> a5dccfe (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> d86d643a (.)
-=======
->>>>>>> 43d67f21 (.)
-=======
->>>>>>> 472bd9dc (.)
-=======
->>>>>>> b7ea1cd1 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> cf971011 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-
-# Riavvio del server web (Apache/Nginx)
-sudo systemctl restart apache2
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5a14301c (.)
->>>>>>> ba6c53070 (.)
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 5a14301c (.)
-=======
-
-# Riavvio del server web (Apache/Nginx)
-sudo systemctl restart apache2
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
-
-# Riavvio del server web (Apache/Nginx)
-sudo systemctl restart apache2
->>>>>>> 399f46d3 (.)
-=======
-
-# Riavvio del server web (Apache/Nginx)
-sudo systemctl restart apache2
->>>>>>> 17684f52 (.)
-=======
-
-# Riavvio del server web (Apache/Nginx)
-sudo systemctl restart apache2
->>>>>>> 88e35986 (.)
->>>>>>> ba6c53070 (.)
 
 # oppure
 sudo systemctl restart nginx
@@ -248,36 +135,3 @@ php artisan route:cache
 ## Conclusione
 
 Un riavvio corretto del sistema dopo la validazione PHPStan è essenziale per garantire che tutte le modifiche vengano applicate correttamente e che il sistema funzioni in modo ottimale. Seguendo questa procedura, è possibile minimizzare i rischi e garantire una transizione fluida.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 5a14301c (.)
-=======
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> 17684f52 (.)
-=======
->>>>>>> cc7fb225 (.)
-<<<<<<< HEAD
->>>>>>> dc2130a7c (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-<<<<<<< HEAD
->>>>>>> ba6c53070 (.)
-=======
-=======
->>>>>>> 53d6a6ba (.)
->>>>>>> 285375c74 (.)

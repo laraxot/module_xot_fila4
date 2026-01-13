@@ -152,8 +152,6 @@ class UserResource extends XotBaseResource
 }
 ```
 
-<<<<<<< HEAD
-=======
 **⚠️ REGOLA CRITICA**: Chi estende `XotBaseResource` **NON deve avere**:
 
 - `protected static ?string $recordTitleAttribute` 
@@ -171,7 +169,6 @@ class UserResource extends XotBaseResource
 2. **Rimuoverli**: Elimina le proprietà e i metodi dalla Resource
 3. **Verificare le traduzioni**: Assicurati che i file di traduzione contengano tutte le chiavi necessarie
 
->>>>>>> bb980a213 (.)
 **Metodi NON consentiti**:
 ```php
 // ❌ SBAGLIATO
@@ -207,8 +204,6 @@ class UserResource extends XotBaseResource
 2. **Rimuovi proprietà/metodi**: Elimina le proprietà e i metodi dalla Resource
 3. **Verifica funzionamento**: Assicurati che le traduzioni vengano caricate correttamente dal `LangServiceProvider`
 
-<<<<<<< HEAD
-=======
 **⚠️ REGOLA CRITICA**: Chi estende `XotBaseResource` **NON deve avere**:
 
 - `protected static ?string $recordTitleAttribute` 
@@ -226,7 +221,6 @@ class UserResource extends XotBaseResource
 2. **Rimuoverli**: Elimina le proprietà e i metodi dalla Resource
 3. **Verificare le traduzioni**: Assicurati che i file di traduzione contengano tutte le chiavi necessarie (`navigation`, `label`, `plural_label`, `fields`, `actions`)
 
->>>>>>> bb980a213 (.)
 **Struttura file traduzione per Resource**:
 
 ⚠️ **REGOLA OBBLIGATORIA**: I file di traduzione devono **SEMPRE** contenere le seguenti chiavi:

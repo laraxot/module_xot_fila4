@@ -41,7 +41,7 @@ mantenere sempre lo stesso pattern di namespace rispetto a filament, ma usando i
 namespace Filament\Resources\Pages;
 
 // namespace corretto nel modulo
-namespace Modules\SaluteOra\Filament\Resources\Pages;
+namespace Modules\<nome progetto>\Filament\Resources\Pages;
 ```
 
 ## metodi delle classi base
@@ -75,5 +75,5 @@ protected function getInfolistSchema(): array
 
 ## linkback
 
-- [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
-- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_<nome progetto>/laravel/project_docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/project_docs/filament-resources.md)

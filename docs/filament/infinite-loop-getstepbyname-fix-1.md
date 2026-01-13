@@ -136,8 +136,7 @@ Questo fix dimostra l'importanza di:
 3. **Property existence checking** per codice robusto
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
-<<<<<<<< HEAD:docs/filament/infinite-loop-getstepbyname-fix-1.md
+
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 ========
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
->>>>>>>> bb980a213 (.):docs/filament/infinite_loop_getstepbyname_fix.md

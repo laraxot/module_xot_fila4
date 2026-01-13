@@ -41,7 +41,6 @@ This document outlines the best practices for maintaining high code quality with
 
 ## Code Quality Tools
 
-<<<<<<< HEAD
 /**
  * @property int $id
  * @property string $name
@@ -63,9 +62,7 @@ class ExampleModel extends BaseModel
     }
 }
 ```
-=======
 ### Automation Scripts
->>>>>>> bb980a213 (.)
 
 - [fix_docs_case](../../../../../bashscripts/project_docs/docs/fix_docs_case.md) - Automatic standardization of documentation filenames
 - Run automation scripts regularly to maintain code consistency
@@ -82,7 +79,6 @@ class ExampleModel extends BaseModel
 - **Static Analysis Failures**: Address PHPStan errors by refining code or updating the baseline for existing code.
 - **Code Duplication**: Refactor duplicated code into reusable methods or traits to reduce maintenance overhead.
 
-<<<<<<< HEAD
 ```php
 return new class extends XotBaseMigration {
     public function up(): void
@@ -98,17 +94,14 @@ return new class extends XotBaseMigration {
     }
 };
 ```
-=======
 ## Testing and Verification
 - Run PHPStan analysis regularly to maintain code quality (`./vendor/bin/phpstan analyse`).
 - Use automated tools in CI/CD pipelines to enforce coding standards on every commit or pull request.
->>>>>>> bb980a213 (.)
 
 ## Documentation and Updates
 - Document any deviations from these guidelines or custom quality rules in the relevant module's documentation folder.
 - Update this document if new tools or standards for code quality are introduced.
 
-<<<<<<< HEAD
 ```php
 // ✅ CORRECT
 namespace Modules\Performance\Models;
@@ -204,7 +197,7 @@ $content = \file_get_contents($path); // Può restituire false
 
 ### 1. PHPStan Pre-Commit
 ```bash
-cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_<nome progetto>/laravel
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -302,7 +295,7 @@ unset($translations['existing_key']); // MAI!
 
 **Data**: 2025-08-01
 **Versione**: 2.0
-**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 
 ---
 
@@ -440,8 +433,6 @@ This document outlines the best practices for maintaining high code quality with
 - Document any deviations from these guidelines or custom quality rules in the relevant module's documentation folder.
 - Update this document if new tools or standards for code quality are introduced.
 
-=======
->>>>>>> bb980a213 (.)
 ## Links to Related Documentation
 - [Xot Base Classes](../Xot/project_docs/XOT_BASE_CLASSES.md)
 - [Filament Extension Pattern](../../Notify/project_docs/FILAMENT_EXTENSION_PATTERN.md)

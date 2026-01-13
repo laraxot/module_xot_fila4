@@ -601,13 +601,13 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 
 ### Esempio corretto
 ```php
-protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
-protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -741,9 +741,9 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
 
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+namespace Modules\<nome progetto>\Filament\Resources\ReportResource\Pages;
 
-use Modules\SaluteMo\Filament\Resources\ReportResource;
+use Modules\<nome progetto>\Filament\Resources\ReportResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Filament\Actions;
 use Filament\Tables;
@@ -842,9 +842,9 @@ public function getTableColumns(): array
 
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+namespace Modules\<nome progetto>\Filament\Resources\AppointmentResource\Pages;
 
-use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+use Modules\<nome progetto>\Filament\Resources\AppointmentResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 
@@ -879,9 +879,9 @@ class EditAppointment extends XotBaseEditRecord
 
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+namespace Modules\<nome progetto>\Filament\Resources\AppointmentResource\Pages;
 
-use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+use Modules\<nome progetto>\Filament\Resources\AppointmentResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 /**
@@ -908,10 +908,10 @@ class CreateAppointment extends XotBaseCreateRecord
 
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources;
+namespace Modules\<nome progetto>\Filament\Resources;
 
-use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
-use Modules\SaluteOra\Models\Report;
+use Modules\<nome progetto>\Filament\Resources\ReportResource\Pages;
+use Modules\<nome progetto>\Models\Report;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
 

@@ -78,9 +78,9 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
 
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+namespace Modules\<nome progetto>\Filament\Resources\ReportResource\Pages;
 
-use Modules\SaluteMo\Filament\Resources\ReportResource;
+use Modules\<nome progetto>\Filament\Resources\ReportResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Filament\Actions;
 use Filament\Tables;
@@ -230,9 +230,9 @@ public static function getFormSchema(): array
 
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+namespace Modules\<nome progetto>\Filament\Resources\AppointmentResource\Pages;
 
-use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+use Modules\<nome progetto>\Filament\Resources\AppointmentResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 
@@ -267,9 +267,9 @@ class EditAppointment extends XotBaseEditRecord
 
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+namespace Modules\<nome progetto>\Filament\Resources\AppointmentResource\Pages;
 
-use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+use Modules\<nome progetto>\Filament\Resources\AppointmentResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 /**
@@ -344,9 +344,9 @@ TextInput::make('nome')
 
 declare(strict_types=1);
 
-namespace Modules\SaluteMo\Filament\Resources;
+namespace Modules\<nome progetto>\Filament\Resources;
 
-use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+use Modules\<nome progetto>\Filament\Resources\ReportResource\Pages;
 use Modules\<nome modulo>\Models\Report;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;

@@ -1,8 +1,3 @@
-<<<<<<<< HEAD:docs/archive/_integration/pivot.md
-
-
-========
->>>>>>>> bb980a213 (.):docs/-integration/pivot-1.md
 # _pivot
 
 <!-- Contenuto migrato da _docs/_pivot.txt -->

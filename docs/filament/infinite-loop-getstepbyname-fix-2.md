@@ -122,27 +122,25 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-<<<<<<<< HEAD:docs/filament/infinite-loop-getstepbyname-fix-2.md
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-- [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
-
-### **Documentazione Correlata**
-- [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-- [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+- [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
-- [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+- [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
+- [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+
+### **Documentazione Correlata**
+- [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
 ========
 =======
 =======
-=======
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -153,7 +151,6 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 =======
->>>>>>>> bb980a213 (.):docs/filament/infinite-loop-getStepByName-fix.md
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -172,39 +169,37 @@ Questo fix dimostra l'importanza di:
 3. **Property existence checking** per codice robusto
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
-<<<<<<<< HEAD:docs/filament/infinite-loop-getstepbyname-fix-2.md
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.*
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.*
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.*
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.*
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.*
 ========
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 =======
-=======
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 =======
 =======
@@ -224,4 +219,3 @@ Questo fix dimostra l'importanza di:
 =======
 =======
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
->>>>>>>> bb980a213 (.):docs/filament/infinite-loop-getStepByName-fix.md

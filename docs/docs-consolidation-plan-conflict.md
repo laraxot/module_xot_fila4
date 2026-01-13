@@ -114,8 +114,8 @@ cp -r /var/www/html/_bases/base_ptvx_fila3_mono/laravel/docs /var/www/html/_base
 ### **Step 2: Spostamento File**
 ```bash
 # Spostare file per modulo (esempi)
-mv /var/www/html/_bases/base_ptvx_fila3_mono/docs/laraxot-conventions.md /var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/Xot/docs/conventions.md
-mv /var/www/html/_bases/base_ptvx_fila3_mono/docs/blade-components.md /var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/UI/docs/blade-components.md
+mv /var/www/html/_bases/base_ptvx_fila3_mono/docs/laraxot-conventions.md ../Xot/docs/conventions.md
+mv /var/www/html/_bases/base_ptvx_fila3_mono/docs/blade-components.md ../UI/docs/blade-components.md
 # ... continuare per tutti i file
 ```
 

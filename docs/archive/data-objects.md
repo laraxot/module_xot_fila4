@@ -66,38 +66,38 @@
 1. **Errore**: Directory errata
    - ❌ `/var/www/html/_bases/base_techplanner_fila3_mono/Modules/Module/Datas/`
    - ✅ `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/_bases/base_techplanner_fila3_mono/Modules/Module/Datas/`
    - ✅ `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/_bases/base_techplanner_fila3_mono/Modules/Module/Datas/`
    - ❌ `/var/www/html/_bases/base_techplanner_fila3_mono/Modules/Module/Datas/`
    - ✅ `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Module/Datas/`
@@ -110,46 +110,46 @@
    - ❌ `/var/www/html/_bases/base_techplanner_fila3_mono/Modules/Module/Datas/`
    - ✅ `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Module/Datas/`
    - ✅ `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
-   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
+   - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`

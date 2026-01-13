@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -12,6 +13,8 @@
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+=======
+>>>>>>> 7604be55f (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="xot-logo-title" role="img">
   <title id="xot-logo-title">Xot Framework Logo</title>
@@ -36,6 +39,7 @@
       </feMerge>
     </filter>
   </defs>
+<<<<<<< HEAD
   
   <circle cx="32" cy="32" r="28" fill="url(#xot-glow)"/>
   
@@ -2501,6 +2505,42 @@
         <circle cx="4" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
+=======
+
+  <circle cx="32" cy="32" r="28" fill="url(#xot-glow)"/>
+
+  <g filter="url(#xot-shadow)">
+    <path d="M32 8 L48 20 L44 44 L20 44 L16 20 Z"
+          fill="none"
+          stroke="url(#xot-gradient)"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          opacity="0.9"/>
+
+    <path d="M22 40c3.5-5 7-8 10-8s6.5 3 10 8"
+          fill="none"
+          stroke="url(#xot-gradient)"
+          stroke-width="2"
+          stroke-linecap="round"
+          opacity="0.8"/>
+
+    <path d="M26 26 L32 30 L38 26"
+          fill="none"
+          stroke="url(#xot-gradient)"
+          stroke-width="2"
+          stroke-linecap="round"
+          opacity="0.7"/>
+
+    <circle cx="32" cy="32" r="4" fill="url(#xot-gradient)" opacity="0.9"/>
+
+    <circle cx="32" cy="32" r="2" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <g opacity="0.3">
+    <circle cx="32" cy="32" r="28" fill="none" stroke="url(#xot-gradient)" stroke-width="0.5" stroke-dasharray="2,4"/>
+  </g>
+>>>>>>> 7604be55f (.)
 </svg>
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">

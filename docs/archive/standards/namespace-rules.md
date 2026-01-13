@@ -15,61 +15,61 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 ## Esempi Corretti
 
 ```php
-// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
-namespace Modules\Patient\Models;
-namespace Modules\Patient\Models;
-
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
+// File in: Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 namespace Modules\Patient\Models;
 
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
-// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Patient/app/Models/Patient.php
+// File in: Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+namespace Modules\Patient\Models;
+
+// File in: Modules/Dental/app/Services/AppointmentService.php
+// File in: Modules/Dental/app/Services/AppointmentService.php
 namespace Modules\Dental\Services;
 ```
 

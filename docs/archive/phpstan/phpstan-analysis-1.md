@@ -2,18 +2,18 @@
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
-**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
-**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `phpstan.neon`
+**NON è stato modificato** `phpstan.neon`
 
-**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `phpstan.neon`
 
-**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `phpstan.neon`
 
-**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `phpstan.neon`
 
-**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `phpstan.neon`
 
-**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `phpstan.neon`
 
 ## Analisi Completa
 

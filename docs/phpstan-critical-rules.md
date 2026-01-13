@@ -2,7 +2,7 @@
 
 ## 🚨 REGOLA ASSOLUTA 🚨
 
-**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`**
+**MAI, MAI, MAI modificare il file `phpstan.neon`**
 
 ## Motivazione
 

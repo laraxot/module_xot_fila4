@@ -488,7 +488,7 @@ jobs:
 Run this command to see all 169 errors in detail:
 
 ```bash
-cd /var/www/_bases/base_laravelpizza/laravel
+cd laravel
 ./vendor/bin/phpstan analyse Modules --error-format=table > phpstan-full-report.txt
 ```
 
@@ -861,7 +861,7 @@ test('it can create and manage tenants', function (): void {
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
-**NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+**NON è stato modificato** `phpstan.neon`
 
 ## Analisi Completa
 

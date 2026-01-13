@@ -182,7 +182,7 @@ namespace Modules\<nome modulo>\Console\Commands;
 Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" Modules
 ```
 
 ### PHP Stan
@@ -989,7 +989,7 @@ namespace Modules\<nome progetto>\Console\Commands;
 Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
-grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" Modules
 ```
 
 ### PHP Stan

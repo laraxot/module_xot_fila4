@@ -12,12 +12,7 @@ Questa guida definisce l'ordine corretto per l'implementazione del progetto il p
 composer global require laravel/installer
 
 # Creazione progetto Laravel (posizione corretta)
-cd /var/www/html/<nome progetto>
-laravel new laravel
-
-# Installazione Laravel Modules
-cd laravel
-composer require nwidart/laravel-modules
+cd laravel-modules
 
 # Pubblicazione configurazione Laravel Modules
 php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"

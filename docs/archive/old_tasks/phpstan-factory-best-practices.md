@@ -210,7 +210,7 @@ class AdminFactory extends UserFactory
 
 ### Comando PHPStan
 ```bash
-cd /var/www/html/_bases/base_projectname/laravel
+cd laravel
 ./vendor/bin/phpstan analyze Modules/ModuleName/database/factories --level=9
 ```
 

@@ -179,7 +179,7 @@ $content = \file_get_contents($path); // Può restituire false
 
 ### 1. PHPStan Pre-Commit
 ```bash
-cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd laravel
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 

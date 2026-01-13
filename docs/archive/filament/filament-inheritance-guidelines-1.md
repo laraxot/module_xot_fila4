@@ -17,7 +17,7 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 
 2. **Verifica prima di implementare**: Prima di implementare un metodo, verificare la sua definizione nella classe genitore:
    ```bash
-   grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
+   grep -r "function methodName" vendor/filament
    ```
 
 3. **Principio di Sostituzione di Liskov**: Le sottoclassi devono essere sostituibili alle loro classi base senza alterare il comportamento corretto del programma.

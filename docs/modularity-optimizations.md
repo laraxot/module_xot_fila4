@@ -9,9 +9,8 @@ Durante l'audit del modulo `Xot` (modulo base del framework), sono state identif
 ### 1. Path Hardcoded per Progetti Specifici
 ```php
 // ❌ ERRORE CRITICO - Path hardcoded
-public static string $projectBasePath = '/var/www/html/<nome progetto>';
-public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
-public static string $modulesBasePath = '/var/www/html/<nome progetto>/laravel/Modules';
+public static string $projectBasePath = 'var/www/html/<nome progetto>/laravel';
+public static string $modulesBasePath = 'Modules';
 ```
 
 **File contaminati:**
@@ -250,9 +249,8 @@ enum DayOfWeek: int
 ### Variabili d'Ambiente
 ```env
 # Configurazione Path Xot
-PROJECT_BASE_PATH=/var/www/html/<nome progetto>
-LARAVEL_BASE_PATH=/var/www/html/<nome progetto>/laravel
-MODULES_BASE_PATH=/var/www/html/<nome progetto>/laravel/Modules
+PROJECT_BASE_PATH=var/www/html/<nome progetto>/laravel
+MODULES_BASE_PATH=Modules
 
 # Configurazione Modelli Xot
 XOT_USER_MODEL=Modules\<nome progetto>\Models\User
@@ -274,7 +272,7 @@ Ogni progetto può personalizzare path, modelli e traduzioni tramite variabili d
 ### Comando di Verifica
 ```bash
 # Verifica path hardcoded
-grep -r "/var/www/html/<nome progetto>" laravel/Modules/Xot/ --include="*.php"
+grep -r "Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
 grep -r "Modules\\<nome progetto>" laravel/Modules/Xot/ --include="*.php"

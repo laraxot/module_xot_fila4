@@ -28,12 +28,12 @@ Questo documento fornisce una panoramica delle regole per i file di traduzione i
 
 Per verificare e correggere problemi nei file di traduzione, utilizzare lo script:
 ```bash
-/var/www/html/ptvx/bashscripts/check_duplicate_translations.sh
+bashscripts/check_duplicate_translations.sh
 ```
 
 Dopo ogni modifica ai file di traduzione, pulire la cache:
 ```bash
-cd /var/www/html/ptvx/laravel && php artisan cache:clear && php artisan config:clear && php artisan view:clear
+cd laravel && php artisan cache:clear && php artisan config:clear && php artisan view:clear
 ```
 
 ## Collegamenti alla documentazione dettagliata

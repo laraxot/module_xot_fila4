@@ -7,7 +7,7 @@ La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura
 ## Percorso del File
 
 ```
-/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 ```
 
 ## Gerarchia di Ereditarietà

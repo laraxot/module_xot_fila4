@@ -30,8 +30,8 @@ Durante l'audit del sistema <nome progetto>, è stata identificata una **violazi
 ### **Struttura Cartelle Docs - Mai Cartelle Docs nella Root**
 
 **REGOLA ASSOLUTAMENTE VIETATA**:
-- ❌ `/var/www/html/_bases/base_{nome_progetto}/project_docs/` (root progetto)
-- ❌ `/var/www/html/_bases/base_{nome_progetto}/laravel/project_docs/` (root Laravel)
+- ❌ `project_docs/` (root progetto)
+- ❌ `project_docs/` (root Laravel)
 
 **STRUTTURA CORRETTA OBBLIGATORIA**:
 - ✅ `laravel/Modules/{ModuleName}/project_docs/` - Documentazione del modulo

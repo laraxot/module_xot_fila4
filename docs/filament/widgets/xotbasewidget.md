@@ -33,4 +33,4 @@ class MyCustomWidget extends XotBaseWidget
 
 - [Documentazione Filament Widgets](../Xot/docs/filament/widgets/index.md)
 - [Documentazione Filament Widgets](../Xot/docs/filament/widgets/index.md)
-- [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/app/Filament/Widgets/XotBaseWidget.php)
+- [XotBaseWidget](Modules/Xot/app/Filament/Widgets/XotBaseWidget.php)

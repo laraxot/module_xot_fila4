@@ -76,4 +76,4 @@ protected function getInfolistSchema(): array
 ## linkback
 
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
-- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+- [linee guida filament](../SaluteOra/docs/filament-resources.md)

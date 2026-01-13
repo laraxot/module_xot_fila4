@@ -152,6 +152,26 @@ class UserResource extends XotBaseResource
 }
 ```
 
+<<<<<<< HEAD
+=======
+**⚠️ REGOLA CRITICA**: Chi estende `XotBaseResource` **NON deve avere**:
+
+- `protected static ?string $recordTitleAttribute` 
+- `protected static string|\BackedEnum|null $navigationIcon`
+- `protected static string|\UnitEnum|null $navigationGroup` 
+- `protected static ?string $modelLabel` 
+- `protected static ?string $pluralModelLabel`
+- `public static function getNavigationLabel(): string`
+- `public static function getPluralLabel(): string`
+- `public static function getModelLabel(): string`
+
+**Perché?** Perché vengono gestiti automaticamente dai file delle traduzioni tramite `LangServiceProvider`. Se li trovi, devi:
+
+1. **Controllare le traduzioni collegate**: Verifica che esistano i file di traduzione in `Modules/{ModuleName}/lang/{locale}/{resource}.php`
+2. **Rimuoverli**: Elimina le proprietà e i metodi dalla Resource
+3. **Verificare le traduzioni**: Assicurati che i file di traduzione contengano tutte le chiavi necessarie
+
+>>>>>>> bb980a213 (.)
 **Metodi NON consentiti**:
 ```php
 // ❌ SBAGLIATO
@@ -187,6 +207,26 @@ class UserResource extends XotBaseResource
 2. **Rimuovi proprietà/metodi**: Elimina le proprietà e i metodi dalla Resource
 3. **Verifica funzionamento**: Assicurati che le traduzioni vengano caricate correttamente dal `LangServiceProvider`
 
+<<<<<<< HEAD
+=======
+**⚠️ REGOLA CRITICA**: Chi estende `XotBaseResource` **NON deve avere**:
+
+- `protected static ?string $recordTitleAttribute` 
+- `protected static string|\BackedEnum|null $navigationIcon`
+- `protected static string|\UnitEnum|null $navigationGroup` 
+- `protected static ?string $modelLabel` 
+- `protected static ?string $pluralModelLabel`
+- `public static function getNavigationLabel(): string`
+- `public static function getPluralLabel(): string`
+- `public static function getModelLabel(): string`
+
+**Perché?** Perché vengono gestiti automaticamente dai file delle traduzioni tramite `LangServiceProvider`. Se li trovi, devi:
+
+1. **Controllare le traduzioni collegate**: Verifica che esistano i file di traduzione in `Modules/{ModuleName}/lang/{locale}/{resource}.php`
+2. **Rimuoverli**: Elimina le proprietà e i metodi dalla Resource
+3. **Verificare le traduzioni**: Assicurati che i file di traduzione contengano tutte le chiavi necessarie (`navigation`, `label`, `plural_label`, `fields`, `actions`)
+
+>>>>>>> bb980a213 (.)
 **Struttura file traduzione per Resource**:
 
 ⚠️ **REGOLA OBBLIGATORIA**: I file di traduzione devono **SEMPRE** contenere le seguenti chiavi:

@@ -1,4 +1,7 @@
+<<<<<<<< HEAD:docs/archive/_integration/uuid.md
 
+========
+>>>>>>>> bb980a213 (.):docs/-integration/uuid-1.md
 # _uuid
 
 <!-- Contenuto migrato da _docs/_uuid.txt -->

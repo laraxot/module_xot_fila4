@@ -1,26 +1,47 @@
-# Laraxot Code Quality Standards
+# Code Quality Guidelines for Laravel Modules
 
 ## Overview
+This document outlines the best practices for maintaining high code quality within a Laravel module. Adhering to these standards ensures consistency, readability, and maintainability across the codebase.
 
-This document defines the mandatory code quality standards for Laraxot projects. These rules ensure consistency, maintainability, and adherence to the Laraxot framework philosophy across all modules.
+## Key Principles
+1. **Strict Typing**: Always use strict typing in PHP to prevent type-related errors and improve code reliability.
+2. **Static Analysis**: Utilize tools like PHPStan for static analysis to catch potential issues before runtime.
+3. **Consistent Formatting**: Follow PSR-12 coding standards for consistent code formatting.
+4. **Documentation**: Document all public methods and classes using PHPDoc to aid in code understanding and maintenance.
 
-## Core Principles
+## Implementation Guidelines
+### 1. PHP Strict Types
+- Declare strict types at the beginning of every PHP file to enforce type safety.
+  ```php
+  declare(strict_types=1);
+  ```
 
-### 1. Strict Typing and PHPStan Level 9+
-- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 9 for all new code
-- **NEVER** use `mixed` types unless absolutely necessary
-- **ALWAYS** provide explicit return types and parameter types
+### 2. PHPStan Configuration
+- Configure PHPStan for each module with a `phpstan.neon.dist` file to set analysis levels and paths.
+  ```neon
+  parameters:
+      level: 5
+      paths:
+          - app
+  ```
+- Use higher levels (e.g., 5 or 8) for new modules or projects to enforce stricter checks.
 
-```php
-<?php
+### 3. Safe Library Usage
+- Use the `Safe` library for safer function calls that throw exceptions instead of returning `false`.
+  ```php
+  use function Safe\file_get_contents;
+  $content = Safe\file_get_contents('file.txt');
+  ```
 
-declare(strict_types=1);
+### 4. Class and Method Length
+- Keep methods under 20 lines and classes under 200 lines to maintain readability and single responsibility.
 
-namespace Modules\ModuleName\Models;
+### 5. Dependency Injection
+- Use dependency injection to avoid direct instantiation of dependencies, promoting testability and flexibility.
 
-use Modules\ModuleName\Models\BaseModel;
+## Code Quality Tools
 
+<<<<<<< HEAD
 /**
  * @property int $id
  * @property string $name
@@ -42,28 +63,26 @@ class ExampleModel extends BaseModel
     }
 }
 ```
+=======
+### Automation Scripts
+>>>>>>> bb980a213 (.)
 
-### 2. Laraxot Module Structure Compliance
+- [fix_docs_case](../../../../../bashscripts/project_docs/docs/fix_docs_case.md) - Automatic standardization of documentation filenames
+- Run automation scripts regularly to maintain code consistency
 
-#### Model Inheritance
-- **ALWAYS** extend `BaseModel` of the same module
-- **NEVER** extend `Illuminate\Database\Eloquent\Model` directly
-- **NEVER** extend `Modules\Xot\Models\XotBaseModel` directly
+## Strumenti di Qualità del Codice
 
-```php
-// ✅ CORRECT
-class User extends \Modules\User\Models\BaseModel
+### Scripts di Automazione
 
-// ❌ WRONG
-class User extends \Illuminate\Database\Eloquent\Model
-class User extends \Modules\Xot\Models\XotBaseModel
-```
+- [fix_docs_case](../../../../../bashscripts/project_docs/docs/fix_docs_case.md) - Standardizzazione automatica dei nomi file nella documentazione
+- Eseguire gli script di automazione regolarmente per mantenere la coerenza del codice
 
-#### Migration Standards
-- **ALWAYS** use anonymous classes extending `XotBaseMigration`
-- **NEVER** implement `down()` method
-- **ALWAYS** use `hasTable()` and `hasColumn()` checks
+## Common Issues and Fixes
+- **Type Errors**: Ensure all methods and functions have explicit return types and parameter types to avoid type-related bugs.
+- **Static Analysis Failures**: Address PHPStan errors by refining code or updating the baseline for existing code.
+- **Code Duplication**: Refactor duplicated code into reusable methods or traits to reduce maintenance overhead.
 
+<<<<<<< HEAD
 ```php
 return new class extends XotBaseMigration {
     public function up(): void
@@ -79,11 +98,17 @@ return new class extends XotBaseMigration {
     }
 };
 ```
+=======
+## Testing and Verification
+- Run PHPStan analysis regularly to maintain code quality (`./vendor/bin/phpstan analyse`).
+- Use automated tools in CI/CD pipelines to enforce coding standards on every commit or pull request.
+>>>>>>> bb980a213 (.)
 
-### 3. Namespace Conventions
-- **NEVER** include 'App' segment in module namespaces
-- **ALWAYS** use `Modules\{ModuleName}\{Directory}\{ClassName}` pattern
+## Documentation and Updates
+- Document any deviations from these guidelines or custom quality rules in the relevant module's documentation folder.
+- Update this document if new tools or standards for code quality are introduced.
 
+<<<<<<< HEAD
 ```php
 // ✅ CORRECT
 namespace Modules\Performance\Models;
@@ -415,6 +440,8 @@ This document outlines the best practices for maintaining high code quality with
 - Document any deviations from these guidelines or custom quality rules in the relevant module's documentation folder.
 - Update this document if new tools or standards for code quality are introduced.
 
+=======
+>>>>>>> bb980a213 (.)
 ## Links to Related Documentation
 - [Xot Base Classes](../Xot/project_docs/XOT_BASE_CLASSES.md)
 - [Filament Extension Pattern](../../Notify/project_docs/FILAMENT_EXTENSION_PATTERN.md)

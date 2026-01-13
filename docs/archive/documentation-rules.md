@@ -96,7 +96,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+=======
+[Documento Correlato](../Xot/docs/documento.md)
+>>>>>>> bb980a213 (.)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 ```
@@ -132,7 +136,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+=======
+[Documento Correlato](../Xot/docs/documento.md)
+>>>>>>> bb980a213 (.)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 ```
@@ -168,7 +176,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+=======
+[Documento Correlato](../Xot/docs/documento.md)
+>>>>>>> bb980a213 (.)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 ```

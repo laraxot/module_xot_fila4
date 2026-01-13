@@ -33,7 +33,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 ```markdown
 
 # Collegamenti Non Corretti
-[Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
+[Documento Correlato](../Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
 ```
@@ -69,7 +69,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 ```markdown
 
 # Collegamenti Non Corretti
-[Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
+[Documento Correlato](../Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
 ```
@@ -105,7 +105,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 ```markdown
 
 # Collegamenti Non Corretti
-[Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
+[Documento Correlato](../Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
 ```

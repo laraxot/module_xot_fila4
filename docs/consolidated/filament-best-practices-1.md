@@ -247,7 +247,11 @@ declare(strict_types=1);
 
 namespace Modules\<nome modulo>\Filament\Resources;
 
+<<<<<<<< HEAD:docs/consolidated/filament-best-practices-1.md
 use Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
+========
+use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+>>>>>>>> bb980a213 (.):docs/consolidated/filament_best_practices.md
 use Modules\<nome progetto>\Models\Report;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;

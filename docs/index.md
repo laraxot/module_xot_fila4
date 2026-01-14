@@ -1,3 +1,8 @@
+## 🤖 Model Context Protocol (MCP) Integration
+
+For enhanced AI-powered development assistance, see:
+- [**MCP Setup Guide**](mcp-setup-guide.md) - Complete MCP configuration and usage guide
+
 # 📚 **Indice Documentazione Modulo Xot**
 
 ## 🎯 **Quick Start**

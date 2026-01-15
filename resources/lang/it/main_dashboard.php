@@ -19,11 +19,8 @@ return [
             'icon' => 'logout',
             'tooltip' => 'logout',
         ],
-<<<<<<< HEAD
-=======
         'userdefaultprofilemy-profile' => [
             'tooltip' => 'userdefaultprofilemy-profile',
         ],
->>>>>>> 7604be55f (.)
     ],
 ];

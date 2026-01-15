@@ -72,11 +72,6 @@ grep -r "public static function getTableFilters" --include="*Resource.php" Modul
 grep -r "public static function getTableActions" --include="*Resource.php" Modules/
 grep -r "public static function getTableBulkActions" --include="*Resource.php" Modules/
 grep -r "public static function getNavigationGroup" --include="*Resource.php" Modules/
-grep -r "public static function getTableColumns" --include="*Resource.php" Modules/
-grep -r "public static function getTableFilters" --include="*Resource.php" Modules/
-grep -r "public static function getTableActions" --include="*Resource.php" Modules/
-grep -r "public static function getTableBulkActions" --include="*Resource.php" Modules/
-grep -r "public static function getNavigationGroup" --include="*Resource.php" Modules/
 ```
 
 ## Processo di refactoring

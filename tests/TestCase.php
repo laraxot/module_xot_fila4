@@ -23,7 +23,12 @@ abstract class TestCase extends BaseTestCase
     {
         parent::setUp();
 
-        if (!self::$migrated) {
+        // Ensure xot connection is configured (Laraxot requirement)
+        if (! config()->has('database.connections.xot')) {
+            config(['database.connections.xot' => config('database.connections.mysql')]);
+        }
+
+        if (! self::$migrated) {
             $this->artisan('module:migrate', ['module' => 'Xot', '--force' => true]);
             self::$migrated = true;
         }

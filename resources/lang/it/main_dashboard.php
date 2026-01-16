@@ -21,6 +21,7 @@ return [
         ],
         'userdefaultprofilemy-profile' => [
             'tooltip' => 'userdefaultprofilemy-profile',
+            'icon' => 'userdefaultprofilemy-profile',
         ],
     ],
 ];

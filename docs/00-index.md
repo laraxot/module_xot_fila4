@@ -28,6 +28,9 @@
 - [PHPStan Analysis 2025-12-18](./phpstan-analysis-2025-12-18.md)
 - [PHPStan Specific Patterns](./phpstan-specific-patterns.md)
 
+## Performance Optimization
+- [Large Dataset Import Guidelines](./performance/large-dataset-import-guidelines.md) - Guidelines for efficiently importing large datasets based on Chris Rumpel's research
+
 ## Quality & Improvement
 - [Quality Improvements Summary 2025-11-18](./quality-improvements-summary-2025-11-18.md)
 - [Laraxot Meetup Service Provider Refactor](./laraxot-meetup-service-provider-refactor.md)

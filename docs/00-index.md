@@ -31,6 +31,9 @@
 ## Performance Optimization
 - [Large Dataset Import Guidelines](./performance/large-dataset-import-guidelines.md) - Guidelines for efficiently importing large datasets based on Chris Rumpel's research
 
+## Testing Framework
+- [Testing Documentation](../../docs/testing/index.md) - Complete testing documentation for the Laraxot modular architecture
+
 ## Quality & Improvement
 - [Quality Improvements Summary 2025-11-18](./quality-improvements-summary-2025-11-18.md)
 - [Laraxot Meetup Service Provider Refactor](./laraxot-meetup-service-provider-refactor.md)

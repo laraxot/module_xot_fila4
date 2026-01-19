@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests;
 
-use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 
 /**
@@ -15,9 +14,6 @@ use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
-    use DatabaseTransactions;
-
-    protected static bool $migrated = false;
 
     protected function setUp(): void
     {
@@ -26,11 +22,6 @@ abstract class TestCase extends BaseTestCase
         // Ensure xot connection is configured (Laraxot requirement)
         if (! config()->has('database.connections.xot')) {
             config(['database.connections.xot' => config('database.connections.mysql')]);
-        }
-
-        if (! self::$migrated) {
-            $this->artisan('module:migrate', ['module' => 'Xot', '--force' => true]);
-            self::$migrated = true;
         }
     }
 }

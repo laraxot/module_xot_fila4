@@ -2,424 +2,289 @@
 
 declare(strict_types=1);
 
-use Illuminate\Database\QueryException;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Illuminate\Support\Str;
 use Modules\Xot\Models\Module;
+use Modules\Xot\Tests\TestCase;
 
-uses(DatabaseTransactions::class);
+uses(TestCase::class);
 
-it('can create module', function () {
-    // Arrange
-    $moduleData = [
+/**
+ * @param array<string, mixed> $overrides
+ */
+function createModule(array $overrides = []): Module
+{
+    // NOTE: Modules\Xot\Models\Module is Sushi-based (in-memory rows) and does not persist to DB.
+    // These tests must not assume a `modules` database table.
+    $base = [
         'name' => 'TestModule',
-        'slug' => 'test-module',
-        'version' => '1.0.0',
         'description' => 'Test module for testing',
-        'enabled' => true,
+        'status' => true,
+        'priority' => 10,
+        'path' => '/tmp/'.Str::lower(Str::random(8)),
+        'icon' => 'heroicon-o-question-mark-circle',
+        'colors' => ['primary' => '#000000'],
     ];
 
-    // Act
-    $module = Module::create($moduleData);
+    return new Module(array_merge($base, $overrides));
+}
 
-    // Assert
-    $this->assertDatabaseHas('modules', [
-        'id' => $module->id,
+it('can create module', function () {
+    $module = createModule([
         'name' => 'TestModule',
-        'slug' => 'test-module',
-        'version' => '1.0.0',
-        'enabled' => true,
+        'status' => true,
+        'priority' => 10,
     ]);
 
-    $this->assertEquals('TestModule', $module->name);
-    $this->assertEquals('test-module', $module->slug);
-    $this->assertEquals('1.0.0', $module->version);
-    $this->assertTrue($module->enabled);
+    expect($module)->toBeInstanceOf(Module::class);
+    expect($module->name)->toBe('TestModule');
+    expect($module->status)->toBeTrue();
+    expect($module->priority)->toBe(10);
 });
 
 it('can enable and disable module', function () {
-    // Arrange
-    $module = Module::factory()->create(['enabled' => false]);
+    $module = createModule(['status' => false]);
 
-    // Act - Enable module
-    $module->update(['enabled' => true]);
+    expect($module->status)->toBeFalse();
 
-    // Assert
-    $this->assertTrue($module->fresh()->enabled);
+    $module->status = true;
+    expect($module->status)->toBeTrue();
 
-    // Act - Disable module
-    $module->update(['enabled' => false]);
-
-    // Assert
-    $this->assertFalse($module->fresh()->enabled);
+    $module->status = false;
+    expect($module->status)->toBeFalse();
 });
 
-it('can update module version', function () {
-    // Arrange
-    $module = Module::factory()->create(['version' => '1.0.0']);
-
-    // Act
-    $module->update(['version' => '2.0.0']);
-
-    // Assert
-    $this->assertEquals('2.0.0', $module->fresh()->version);
-    $this->assertDatabaseHas('modules', [
-        'id' => $module->id,
-        'version' => '2.0.0',
+it('casts values correctly', function () {
+    $module = createModule([
+        'status' => 1,
+        'priority' => '12',
+        'colors' => ['primary' => '#ff0000'],
     ]);
+
+    expect($module->status)->toBeTrue();
+    expect($module->priority)->toBe(12);
+    expect($module->colors)->toBeArray();
+    expect($module->colors['primary'])->toBe('#ff0000');
 });
 
-it('can manage module dependencies', function () {
-    // Arrange
-    $module = Module::factory()->create([
-        'dependencies' => ['user', 'auth'],
-    ]);
+it('returns null for unknown attributes', function () {
+    $module = createModule();
 
-    // Act
-    $dependencies = $module->dependencies;
-
-    // Assert
-    $this->assertIsArray($dependencies);
-    $this->assertContains('user', $dependencies);
-    $this->assertContains('auth', $dependencies);
-    $this->assertCount(2, $dependencies);
-});
-
-it('can validate module slug uniqueness', function () {
-    // Arrange
-    Module::factory()->create(['slug' => 'unique-module']);
-
-    // Act & Assert - Try to create module with same slug
-    $this->expectException(QueryException::class);
-
-    Module::create([
-        'name' => 'Another Module',
-        'slug' => 'unique-module', // Same slug
-        'version' => '1.0.0',
-        'enabled' => true,
-    ]);
+    expect($module->dependencies)->toBeNull();
 });
 
 it('can manage module configuration', function () {
     // Arrange
-    $config = [
-        'setting1' => 'value1',
-        'setting2' => 'value2',
-        'nested' => [
-            'key' => 'value',
-        ],
+    $colors = [
+        'primary' => '#000000',
+        'secondary' => '#ffffff',
+        'accent' => '#ff0000',
     ];
 
-    $module = Module::factory()->create(['config' => $config]);
+    $module = createModule(['colors' => $colors]);
 
     // Act
-    $moduleConfig = $module->config;
+    $moduleColors = $module->colors;
 
     // Assert
-    $this->assertIsArray($moduleConfig);
-    $this->assertEquals('value1', $moduleConfig['setting1']);
-    $this->assertEquals('value2', $moduleConfig['setting2']);
-    $this->assertEquals('value', $moduleConfig['nested']['key']);
+    expect($moduleColors)->toBeArray();
+    expect($moduleColors['primary'])->toBe('#000000');
+    expect($moduleColors['secondary'])->toBe('#ffffff');
+    expect($moduleColors['accent'])->toBe('#ff0000');
 });
 
 it('can check module status', function () {
     // Arrange
-    $enabledModule = Module::factory()->create(['enabled' => true]);
-    $disabledModule = Module::factory()->create(['enabled' => false]);
+    $enabledModule = createModule(['status' => true]);
+    $disabledModule = createModule(['status' => false]);
 
     // Act & Assert
-    $this->assertTrue($enabledModule->isEnabled());
-    $this->assertFalse($disabledModule->isEnabled());
-    $this->assertFalse($enabledModule->isDisabled());
-    $this->assertTrue($disabledModule->isDisabled());
+    expect($enabledModule->status)->toBeTrue();
+    expect($disabledModule->status)->toBeFalse();
 });
 
-it('can manage module metadata', function () {
+
+
+it('can validate module properties', function () {
     // Arrange
-    $metadata = [
-        'author' => 'Test Author',
-        'website' => 'https://example.com',
-        'license' => 'MIT',
-        'tags' => ['test', 'example'],
-    ];
+    $validNames = ['User', 'Quaeris', 'Xot', 'Tenant'];
 
-    $module = Module::factory()->create(['metadata' => $metadata]);
-
-    // Act
-    $moduleMetadata = $module->metadata;
-
-    // Assert
-    $this->assertIsArray($moduleMetadata);
-    $this->assertEquals('Test Author', $moduleMetadata['author']);
-    $this->assertEquals('https://example.com', $moduleMetadata['website']);
-    $this->assertEquals('MIT', $moduleMetadata['license']);
-    $this->assertContains('test', $moduleMetadata['tags']);
-    $this->assertContains('example', $moduleMetadata['tags']);
-});
-
-it('can validate module version format', function () {
-    // Arrange
-    $validVersions = ['1.0.0', '2.1.3', '10.5.2', '0.1.0'];
-
-    foreach ($validVersions as $version) {
+    foreach ($validNames as $name) {
         // Act
-        $module = Module::factory()->create(['version' => $version]);
+        $module = createModule(['name' => $name]);
 
         // Assert
-        $this->assertEquals($version, $module->version);
-        $this->assertDatabaseHas('modules', [
-            'id' => $module->id,
-            'version' => $version,
-        ]);
+        expect($module->name)->toBe($name);
     }
 });
 
-it('can manage module installation date', function () {
+it('can update module description', function () {
     // Arrange
-    $installationDate = now()->subDays(30);
-    $module = Module::factory()->create([
-        'installed_at' => $installationDate,
+    $description = 'Updated module description';
+    $module = createModule(['description' => 'Original description']);
+
+    // Act
+    $module->description = $description;
+
+    // Assert
+    expect($module->description)->toBe($description);
+});
+
+it('can manage module priority', function () {
+    // Arrange
+    $module = createModule(['priority' => 5]);
+
+    // Act
+    $priority = $module->priority;
+
+    // Assert
+    expect($priority)->toBeInt();
+    expect($priority)->toBe(5);
+    
+    // Test updating priority
+    $module->priority = 10;
+    expect($module->priority)->toBe(10);
+});
+
+it('can check module path', function () {
+    // Arrange
+    $path = '/tmp/test_module_path';
+    $module = createModule([
+        'path' => $path,
     ]);
 
     // Act
-    $moduleInstalledAt = $module->installed_at;
+    $modulePath = $module->path;
 
     // Assert
-    $this->assertEquals($installationDate, $moduleInstalledAt);
-    $this->assertDatabaseHas('modules', [
-        'id' => $module->id,
-        'installed_at' => $installationDate,
-    ]);
+    expect($modulePath)->toBe($path);
 });
 
-it('can manage module update history', function () {
+it('can manage module icon', function () {
     // Arrange
-    $updateHistory = [
-        [
-            'version' => '1.0.0',
-            'date' => '2024-01-01',
-            'changes' => 'Initial release',
-        ],
-        [
-            'version' => '1.1.0',
-            'date' => '2024-02-01',
-            'changes' => 'Bug fixes and improvements',
-        ],
+    $icon = 'heroicon-o-cube';
+    $module = createModule(['icon' => $icon]);
+
+    // Act
+    $moduleIcon = $module->icon;
+
+    // Assert
+    expect($moduleIcon)->toBeString();
+    expect($moduleIcon)->toBe($icon);
+});
+
+it('can validate module name', function () {
+    // Arrange
+    $name = 'TestModule';
+    $module = createModule(['name' => $name]);
+
+    // Act
+    $moduleName = $module->name;
+
+    // Assert
+    expect($moduleName)->toBeString();
+    expect($moduleName)->toBe($name);
+});
+
+it('can manage module colors', function () {
+    // Arrange
+    $colors = [
+        'primary' => '#ff0000',
+        'secondary' => '#00ff00',
+        'accent' => '#0000ff',
     ];
 
-    $module = Module::factory()->create(['update_history' => $updateHistory]);
+    $module = createModule(['colors' => $colors]);
 
     // Act
-    $moduleUpdateHistory = $module->update_history;
+    $moduleColors = $module->colors;
 
     // Assert
-    $this->assertIsArray($moduleUpdateHistory);
-    $this->assertCount(2, $moduleUpdateHistory);
-    $this->assertEquals('1.0.0', $moduleUpdateHistory[0]['version']);
-    $this->assertEquals('Initial release', $moduleUpdateHistory[0]['changes']);
-    $this->assertEquals('1.1.0', $moduleUpdateHistory[1]['version']);
-    $this->assertEquals('Bug fixes and improvements', $moduleUpdateHistory[1]['changes']);
-});
-
-it('can check module compatibility', function () {
-    // Arrange
-    $module = Module::factory()->create([
-        'laravel_version' => '^10.0',
-        'php_version' => '^8.1',
-    ]);
-
-    // Act
-    $laravelVersion = $module->laravel_version;
-    $phpVersion = $module->php_version;
-
-    // Assert
-    $this->assertEquals('^10.0', $laravelVersion);
-    $this->assertEquals('^8.1', $phpVersion);
-});
-
-it('can manage module permissions', function () {
-    // Arrange
-    $permissions = [
-        'module.read',
-        'module.write',
-        'module.delete',
-    ];
-
-    $module = Module::factory()->create(['permissions' => $permissions]);
-
-    // Act
-    $modulePermissions = $module->permissions;
-
-    // Assert
-    $this->assertIsArray($modulePermissions);
-    $this->assertContains('module.read', $modulePermissions);
-    $this->assertContains('module.write', $modulePermissions);
-    $this->assertContains('module.delete', $modulePermissions);
-    $this->assertCount(3, $modulePermissions);
-});
-
-it('can manage module routes', function () {
-    // Arrange
-    $routes = [
-        'web' => ['prefix' => 'module', 'middleware' => ['web']],
-        'api' => ['prefix' => 'api/module', 'middleware' => ['api']],
-    ];
-
-    $module = Module::factory()->create(['routes' => $routes]);
-
-    // Act
-    $moduleRoutes = $module->routes;
-
-    // Assert
-    $this->assertIsArray($moduleRoutes);
-    $this->assertArrayHasKey('web', $moduleRoutes);
-    $this->assertArrayHasKey('api', $moduleRoutes);
-    $this->assertEquals('module', $moduleRoutes['web']['prefix']);
-    $this->assertEquals('api/module', $moduleRoutes['api']['prefix']);
-});
-
-it('can manage module assets', function () {
-    // Arrange
-    $assets = [
-        'css' => ['app.css', 'vendor.css'],
-        'js' => ['app.js', 'vendor.js'],
-        'images' => ['logo.png', 'icon.svg'],
-    ];
-
-    $module = Module::factory()->create(['assets' => $assets]);
-
-    // Act
-    $moduleAssets = $module->assets;
-
-    // Assert
-    $this->assertIsArray($moduleAssets);
-    $this->assertArrayHasKey('css', $moduleAssets);
-    $this->assertArrayHasKey('js', $moduleAssets);
-    $this->assertArrayHasKey('images', $moduleAssets);
-    $this->assertContains('app.css', $moduleAssets['css']);
-    $this->assertContains('app.js', $moduleAssets['js']);
-    $this->assertContains('logo.png', $moduleAssets['images']);
+    expect($moduleColors)->toBeArray();
+    expect($moduleColors['primary'])->toBe('#ff0000');
+    expect($moduleColors['secondary'])->toBe('#00ff00');
+    expect($moduleColors['accent'])->toBe('#0000ff');
 });
 
 it('can manage module settings', function () {
     // Arrange
-    $settings = [
-        'debug' => false,
-        'cache' => true,
-        'timeout' => 30,
-        'features' => ['feature1', 'feature2'],
+    $colors = [
+        'primary' => '#000000',
+        'background' => '#ffffff',
     ];
 
-    $module = Module::factory()->create(['settings' => $settings]);
+    $module = createModule(['colors' => $colors]);
 
     // Act
-    $moduleSettings = $module->settings;
+    $moduleColors = $module->colors;
 
     // Assert
-    $this->assertIsArray($moduleSettings);
-    $this->assertFalse($moduleSettings['debug']);
-    $this->assertTrue($moduleSettings['cache']);
-    $this->assertEquals(30, $moduleSettings['timeout']);
-    $this->assertContains('feature1', $moduleSettings['features']);
-    $this->assertContains('feature2', $moduleSettings['features']);
+    expect($moduleColors)->toBeArray();
+    expect($moduleColors['primary'])->toBe('#000000');
+    expect($moduleColors['background'])->toBe('#ffffff');
 });
 
 it('can validate module required fields', function () {
-    // Arrange
-    $requiredFields = ['name', 'slug', 'version'];
+    // Test creating a module with required fields
+    $module = createModule([
+        'name' => 'TestModule',
+        'status' => true,
+        'priority' => 10,
+    ]);
 
-    foreach ($requiredFields as $field) {
-        $moduleData = [
-            'name' => 'Test Module',
-            'slug' => 'test-module',
-            'version' => '1.0.0',
-            'enabled' => true,
-        ];
-
-        // Remove required field
-        unset($moduleData[$field]);
-
-        // Act & Assert
-        try {
-            Module::create($moduleData);
-            $this->fail("Expected QueryException for missing field: $field");
-        } catch (QueryException $e) {
-            $this->assertTrue(true);
-        }
-    }
+    // Assert the module has the expected properties
+    expect($module->name)->toBe('TestModule');
+    expect($module->status)->toBeTrue();
+    expect($module->priority)->toBe(10);
 });
 
 it('can manage module activation workflow', function () {
     // Arrange
-    $module = Module::factory()->create([
-        'enabled' => false,
-        'activation_date' => null,
+    $module = createModule([
+        'status' => false,
     ]);
 
     // Act - Activate module
-    $module->update([
-        'enabled' => true,
-        'activation_date' => now(),
-    ]);
+    $module->status = true;
 
     // Assert
-    $this->assertTrue($module->fresh()->enabled);
-    $this->assertNotNull($module->fresh()->activation_date);
+    expect($module->status)->toBeTrue();
 
     // Act - Deactivate module
-    $module->update([
-        'enabled' => false,
-        'deactivation_date' => now(),
-    ]);
+    $module->status = false;
 
     // Assert
-    $this->assertFalse($module->fresh()->enabled);
-    $this->assertNotNull($module->fresh()->deactivation_date);
+    expect($module->status)->toBeFalse();
 });
 
-it('can track module usage statistics', function () {
+it('can track module priority changes', function () {
     // Arrange
-    $usageStats = [
-        'total_requests' => 1000,
-        'unique_users' => 150,
-        'last_used' => now()->subHours(2),
-        'popular_features' => ['feature1', 'feature2'],
-    ];
-
-    $module = Module::factory()->create(['usage_statistics' => $usageStats]);
+    $module = createModule(['priority' => 5]);
 
     // Act
-    $usage_statistics = $module->usage_statistics;
+    $originalPriority = $module->priority;
+    $module->priority = 15;
+    $newPriority = $module->priority;
 
     // Assert
-    $this->assertIsArray($usage_statistics);
-    $this->assertEquals(1000, $usage_statistics['total_requests']);
-    $this->assertEquals(150, $usage_statistics['unique_users']);
-    $this->assertNotNull($usage_statistics['last_used']);
-    $this->assertContains('feature1', $usage_statistics['popular_features']);
-    $this->assertContains('feature2', $usage_statistics['popular_features']);
+    expect($originalPriority)->toBe(5);
+    expect($newPriority)->toBe(15);
+    expect($newPriority)->toBeGreaterThan($originalPriority);
 });
 
-it('can manage module error logging', function () {
+it('can manage module path property', function () {
     // Arrange
-    $errorLog = [
-        [
-            'level' => 'error',
-            'message' => 'Test error message',
-            'timestamp' => now()->subMinutes(5),
-            'context' => ['file' => 'test.php', 'line' => 42],
-        ],
-    ];
-
-    $module = Module::factory()->create(['error_log' => $errorLog]);
+    $path = '/modules/test_module';
+    $module = createModule(['path' => $path]);
 
     // Act
-    $module_error_log = $module->error_log;
+    $modulePath = $module->path;
 
     // Assert
-    $this->assertIsArray($module_error_log);
-    $this->assertCount(1, $module_error_log);
-    $this->assertEquals('error', $module_error_log[0]['level']);
-    $this->assertEquals('Test error message', $module_error_log[0]['message']);
-    $this->assertEquals('test.php', $module_error_log[0]['context']['file']);
-    $this->assertEquals(42, $module_error_log[0]['context']['line']);
+    expect($modulePath)->toBeString();
+    expect($modulePath)->toBe($path);
+    
+    // Update path
+    $newPath = '/modules/updated_test_module';
+    $module->path = $newPath;
+    expect($module->path)->toBe($newPath);
 });

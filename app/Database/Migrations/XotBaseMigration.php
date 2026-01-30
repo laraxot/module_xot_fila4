@@ -11,15 +11,12 @@ use Illuminate\Database\Migrations\Migration as LaravelMigration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Schema\Builder;
 use Illuminate\Database\Schema\ColumnDefinition;
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use ReflectionClass;
-use RuntimeException;
 use Webmozart\Assert\Assert;
 
 /**
@@ -350,7 +347,6 @@ abstract class XotBaseMigration extends LaravelMigration
     {
         return $this->model->getConnectionName();
     }
-
 
     /**
      * Add a foreign ID column to the table based on a related model.

@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests;
 
+use function Safe\realpath;
+
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Foundation\Application;
 
@@ -17,8 +19,6 @@ trait CreatesApplication
 {
     /**
      * Creates the application.
-     *
-     * @return Application
      */
     public function createApplication(): Application
     {

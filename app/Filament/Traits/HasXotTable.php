@@ -246,27 +246,27 @@ trait HasXotTable
         }
 
         $actions = [];
+        /** @var object $resource */
         $resource = $this;
         if ($this instanceof ListRecords) {
             $resourceClass = $this->getResource();
-            $resource = app($resourceClass);
+            if (is_string($resourceClass)) {
+                $resource = app($resourceClass);
+            }
         }
 
-        // @phpstan-ignore-next-line function.alreadyNarrowedType
         if (method_exists($resource, 'canView')) {
             $actions['view'] = ViewAction::make()
                 ->iconButton()
                 ->visible(fn (Model $record): bool => (bool) $resource->canView($record));
         }
 
-        // @phpstan-ignore-next-line function.alreadyNarrowedType
         if (method_exists($resource, 'canEdit')) {
             $actions['edit'] = EditAction::make()
                 ->iconButton()
                 ->visible(fn (Model $record): bool => (bool) $resource->canEdit($record));
         }
 
-        // @phpstan-ignore-next-line function.alreadyNarrowedType
         if (method_exists($resource, 'canDelete')) {
             $actions['delete'] = DeleteAction::make()
                 ->iconButton()

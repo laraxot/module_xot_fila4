@@ -19,6 +19,7 @@ it('can create module', function () {
     ];
 
     // Act
+    /** @var Module $module */
     $module = Module::create($moduleData);
 
     // Assert
@@ -38,30 +39,38 @@ it('can create module', function () {
 
 it('can enable and disable module', function () {
     // Arrange
+    /** @var Module $module */
     $module = Module::factory()->create(['enabled' => false]);
 
     // Act - Enable module
     $module->update(['enabled' => true]);
 
     // Assert
-    $this->assertTrue($module->fresh()->enabled);
+    /** @var Module $freshModule */
+    $freshModule = $module->fresh();
+    $this->assertTrue($freshModule->enabled);
 
     // Act - Disable module
     $module->update(['enabled' => false]);
 
     // Assert
-    $this->assertFalse($module->fresh()->enabled);
+    /** @var Module $freshModule2 */
+    $freshModule2 = $module->fresh();
+    $this->assertFalse($freshModule2->enabled);
 });
 
 it('can update module version', function () {
     // Arrange
+    /** @var Module $module */
     $module = Module::factory()->create(['version' => '1.0.0']);
 
     // Act
     $module->update(['version' => '2.0.0']);
 
     // Assert
-    $this->assertEquals('2.0.0', $module->fresh()->version);
+    /** @var Module $freshModule */
+    $freshModule = $module->fresh();
+    $this->assertEquals('2.0.0', $freshModule->version);
     $this->assertDatabaseHas('modules', [
         'id' => $module->id,
         'version' => '2.0.0',
@@ -69,7 +78,9 @@ it('can update module version', function () {
 });
 
 it('can manage module dependencies', function () {
+    /** @var \Modules\Xot\Tests\TestCase $this */
     // Arrange
+    /** @var Module $module */
     $module = Module::factory()->create([
         'dependencies' => ['user', 'auth'],
     ]);
@@ -85,6 +96,7 @@ it('can manage module dependencies', function () {
 });
 
 it('can validate module slug uniqueness', function () {
+    /** @var \Modules\Xot\Tests\TestCase $this */
     // Arrange
     Module::factory()->create(['slug' => 'unique-module']);
 
@@ -100,6 +112,7 @@ it('can validate module slug uniqueness', function () {
 });
 
 it('can manage module configuration', function () {
+    /** @var \Modules\Xot\Tests\TestCase $this */
     // Arrange
     $config = [
         'setting1' => 'value1',
@@ -109,6 +122,7 @@ it('can manage module configuration', function () {
         ],
     ];
 
+    /** @var Module $module */
     $module = Module::factory()->create(['config' => $config]);
 
     // Act
@@ -122,8 +136,11 @@ it('can manage module configuration', function () {
 });
 
 it('can check module status', function () {
+    /** @var \Modules\Xot\Tests\TestCase $this */
     // Arrange
+    /** @var Module $enabledModule */
     $enabledModule = Module::factory()->create(['enabled' => true]);
+    /** @var Module $disabledModule */
     $disabledModule = Module::factory()->create(['enabled' => false]);
 
     // Act & Assert
@@ -134,6 +151,7 @@ it('can check module status', function () {
 });
 
 it('can manage module metadata', function () {
+    /** @var \Modules\Xot\Tests\TestCase $this */
     // Arrange
     $metadata = [
         'author' => 'Test Author',
@@ -142,6 +160,7 @@ it('can manage module metadata', function () {
         'tags' => ['test', 'example'],
     ];
 
+    /** @var Module $module */
     $module = Module::factory()->create(['metadata' => $metadata]);
 
     // Act
@@ -400,6 +419,7 @@ it('can track module usage statistics', function () {
 });
 
 it('can manage module error logging', function () {
+    /** @var \Modules\Xot\Tests\TestCase $this */
     // Arrange
     $errorLog = [
         [
@@ -410,6 +430,7 @@ it('can manage module error logging', function () {
         ],
     ];
 
+    /** @var Module $module */
     $module = Module::factory()->create(['error_log' => $errorLog]);
 
     // Act

@@ -33,8 +33,10 @@ class GetSicureArrayByModelAction
                 }
             }
 
-            /** @var array<string, mixed> $data */
-            return $data;
+            $dataTyped = $data;
+            /** @var array<string, mixed> $dataTyped */
+
+            return $dataTyped;
         }
     }
 }

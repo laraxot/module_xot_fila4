@@ -173,6 +173,16 @@ final class Module extends BaseModel
         return array_values($modules);
     }
 
+    public function isEnabled(): bool
+    {
+        return (bool) $this->enabled;
+    }
+
+    public function isDisabled(): bool
+    {
+        return ! $this->isEnabled();
+    }
+
     protected function casts(): array
     {
         return [

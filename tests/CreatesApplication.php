@@ -28,7 +28,7 @@ trait CreatesApplication
 
         // Explicitly set the base path before requiring bootstrap/app.php
         $_ENV['APP_BASE_PATH'] = $basePath;
-        
+
         /** @var Application $app */
         $app = require $basePath.'/bootstrap/app.php';
 
